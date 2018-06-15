@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="baby_sexy">
+        <item>Pojke</item>
+        <item>Flicka</item>
+    </string-array>
+    <string-array name="collage_month">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mars</item>
+        <item>Apr</item>
+        <item>Maj</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="owner_relation">
+        <item>Fader</item>
+        <item>Mor</item>
+        <item>Farfar</item>
+        <item>Farmor</item>
+        <item>Morfar</item>
+        <item>Mormor</item>
+    </string-array>
+    <string-array name="relation_with_me">
+        <item>Jag</item>
+        <item>Barn</item>
+        <item>Familj</item>
+        <item>Kollegor</item>
+        <item>Klasskamrater</item>
+        <item>Vänner</item>
+        <item>Ogrupperad</item>
+    </string-array>
+    <string-array name="sharer_relation_addressive">
+        <item>Pappa</item>
+        <item>Mamma</item>
+        <item>Farfar</item>
+        <item>Farmor</item>
+        <item>Morfar</item>
+        <item>Mormor</item>
+    </string-array>
+</resources>

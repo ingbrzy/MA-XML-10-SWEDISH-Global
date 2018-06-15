@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="actionbar_large_unread_count">
+        <item quantity="other">%1$d+ olästa</item>
+        <item quantity="one">%1$d+ oläst</item>
+    </plurals>
+    <plurals name="actionbar_unread_messages">
+        <item quantity="other">%1$d olästa</item>
+        <item quantity="one">%1$d oläst</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Arkivera dessa %1$d meddelande?</item>
+        <item quantity="one">Arkivera detta meddelande?</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Radera %1$d konversationer?</item>
+        <item quantity="one">Radera den här konversationen?</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation_with_sub">
+        <item quantity="other">Samtalen innehåller sammanslagna objekt. Ta bort det ändå?</item>
+        <item quantity="one">Samtalen innehåller sammanslagna objekt. Ta bort det ändå?</item>
+    </plurals>
+    <plurals name="confirm_delete_draft">
+        <item quantity="other">Radera %1$dförslag?</item>
+        <item quantity="one">Radera %1$dförslag?</item>
+    </plurals>
+    <plurals name="contact_num_selected">
+        <item quantity="other">%d valda</item>
+        <item quantity="one">%d valt</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&lt;b>%1$d&lt;/b> arkiverade.</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> arkiverad.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> raderad.</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> raderad.</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Ändrad mapp.</item>
+        <item quantity="one">Ändrad mapp.</item>
+    </plurals>
+    <plurals name="conversation_msg_header_count">
+        <item quantity="other">+%1$d andra personer</item>
+        <item quantity="one">+%1$d andra personer</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> dämpad</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> dämpad.</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&lt;b>%1$d&lt;/b>" meddelanden som tagits bort från 'viktig' mapp"</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b>" borttagen från 'viktig' mapp"</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&lt;b>%1$d&lt;/b> borttagen från mappen \"spam\"</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> borttagen från mappen \"spam\"</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">&lt;b>%1$d&lt;/b> Meddelanden rapporteras som skräppost</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> Meddelande rapporteras som skräppost</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> markerad som spam skräppost</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> markerad som spam skräppost</item>
+    </plurals>
+    <plurals name="day">
+        <item quantity="other">%d dagar</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="day_after">
+        <item quantity="other">I %d dagar</item>
+        <item quantity="one">I %d dag</item>
+    </plurals>
+    <plurals name="day_before">
+        <item quantity="other">%d dagar sedan</item>
+        <item quantity="one">%d dag sedan</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Utkast</item>
+        <item quantity="one">Utkast</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$d Meddelandet kommer att raderas permanent.</item>
+        <item quantity="one">%1$d Meddelandet kommer att raderas permanent.</item>
+    </plurals>
+    <plurals name="hide_atts_remaining">
+        <item quantity="other">Dölj %1$d bilagor</item>
+        <item quantity="one">Dölj %1$d bilaga</item>
+    </plurals>
+    <plurals name="local_search_result">
+        <item quantity="other">%s resultat i synkroniserade meddelanden</item>
+        <item quantity="one">%s resultat i synkroniserade meddelanden</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">%d månader</item>
+        <item quantity="one">%d månad</item>
+    </plurals>
+    <plurals name="more_atts_remaining">
+        <item quantity="other">%1$d kvarstående bilaga</item>
+        <item quantity="one">%1$d kvarstående bilaga</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Flytta %1$d konversationer</item>
+        <item quantity="one">Flytta konversation</item>
+    </plurals>
+    <plurals name="new_incoming_messages_many">
+        <item quantity="other">Visa %1$d nytt meddelande.</item>
+        <item quantity="one">Visa %1$d nytt meddelande.</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d nya meddelanden</item>
+        <item quantity="one">%1$d nytt meddelande</item>
+    </plurals>
+    <plurals name="num_selected">
+        <item quantity="other">%d valda</item>
+        <item quantity="one">%d valda</item>
+    </plurals>
+    <plurals name="quick_reply_hint">
+        <item quantity="other">Svara på %1$d personer</item>
+        <item quantity="one">Svar på %1$d person</item>
+    </plurals>
+    <plurals name="remote_search_result">
+        <item quantity="other">%s resultat i alla konton</item>
+        <item quantity="one">%s resultat i alla konton</item>
+    </plurals>
+    <plurals name="show_messages_read">
+        <item quantity="other">%1$d äldre meddelanden</item>
+        <item quantity="one">%1$d äldre meddelande</item>
+    </plurals>
+    <plurals name="unsent_messages_in_outbox">
+        <item quantity="other">%1$s osäkert meddelanden i %2$s</item>
+        <item quantity="one">%1$s osäkert meddelande i %2$s</item>
+    </plurals>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nalbum_total_songs">
+        <item quantity="other">Totalt %d låtar</item>
+        <item quantity="one">Totalt %d låt</item>
+    </plurals>
+    <plurals name="Nassociate_songs">
+        <item quantity="other">Söker efter albumomslag och texter (%1$d/%2$d)</item>
+        <item quantity="one">Söker efter albumomslag och texter (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="Nbackup_songs">
+        <item quantity="other">Säkerhetskopierar låtar, %1$d låtar återstår (%2$.1fMB)</item>
+        <item quantity="one">Säkerhetskopierar låtar, %1$d låt återstår (%2$.1fMB)</item>
+    </plurals>
+    <plurals name="Nquit_warning">
+        <item quantity="other">Spelaren kommer stoppas om %d minuter</item>
+        <item quantity="one">Spelaren kommer stoppas om %d minut</item>
+    </plurals>
+    <plurals name="Nrecognize_switch_off_alert_message">
+        <item quantity="other">Du valde att inte hitta albumomslag och texter för lokala låtar automatiskt. Radera information för %d låtar?</item>
+        <item quantity="one">Du valde att inte hitta albumomslag och texter för lokala låtar automatiskt. Radera information för %d låt?</item>
+    </plurals>
+    <plurals name="Nsong_group_detail_subtitle">
+        <item quantity="other">Skapad den %1$s | totalt %2$d låtar</item>
+        <item quantity="one">Skapad den %1$s | totalt %2$d låtar</item>
+    </plurals>
+    <plurals name="Nstop_backup_songs_message">
+        <item quantity="other">%d låtar har inte säkerhetskopierats till mi Cloud. Avsluta nu?</item>
+        <item quantity="one">%d låt har inte säkerhetskopierats till mi Cloud. Avsluta nu?</item>
+    </plurals>
+    <plurals name="Ntracks_add_to_playlist">
+        <item quantity="other">%d låtar tillagda till spellistan</item>
+        <item quantity="one">%d låt tillagd till spellistan</item>
+    </plurals>
+    <plurals name="Ntracks_count">
+        <item quantity="other">%d låtar</item>
+        <item quantity="one">%d låt</item>
+    </plurals>
+    <plurals name="Ntracks_remove_from_playlist">
+        <item quantity="other">%d låtar borttagna från spellistan</item>
+        <item quantity="one">%d låt borttagen från spellistan</item>
+    </plurals>
+    <plurals name="Ntracks_similar_count">
+        <item quantity="other">%d liknande låtar</item>
+        <item quantity="one">%d liknande låt</item>
+    </plurals>
+    <plurals name="Nunbackup_audios">
+        <item quantity="other">%1$d låtar har inte säkerhetskopierats (%2$.1fMB)\"</item>
+        <item quantity="one">%1$d låt har inte säkerhetskopierats (%2$.1fMB)</item>
+    </plurals>
+    <plurals name="Nupload_song_button">
+        <item quantity="other">Säkerhetskopiera %1$d låtar (%2$.1fMB)</item>
+        <item quantity="one">Säkerhetskopiera %1$d låt (%2$.1fMB)</item>
+    </plurals>
+    <plurals name="comment_count">
+        <item quantity="other">%d Kommentarer</item>
+        <item quantity="one">%d Kommentar</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_downloads_message">
+        <item quantity="other">Radera %d objekt?</item>
+        <item quantity="one">Radera %d objekt?</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_downloads_message_with_file">
+        <item quantity="other">"Delete %d items?
+Note: Files will be deleted from this device as well."</item>
+        <item quantity="one">"Delete %d item?
+Note: File will be deleted from this device as well."</item>
+    </plurals>
+    <plurals name="dialog_delete_descript">
+        <item quantity="other">Ta bort %d låtar?</item>
+        <item quantity="one">Ta bort %d låt?</item>
+    </plurals>
+    <plurals name="dialog_remove_descript">
+        <item quantity="other">Ta bort %d låtar?</item>
+        <item quantity="one">Ta bort %d låt?</item>
+    </plurals>
+    <plurals name="dialog_remove_from_cloud_descript">
+        <item quantity="other">Ta bort %d låtar från MI Cloud? De kommer bli borttagen från din lokala spellista också.</item>
+        <item quantity="one">Ta bort %d låt från MI Cloud? Den kommer bli borttagen från din lokala spellista också.</item>
+    </plurals>
+    <plurals name="download_finished">
+        <item quantity="other">&lt;font color==\"red\">%d låtar&lt;/font> nedladdade</item>
+        <item quantity="one">&lt;font color==\"red\">%d låt&lt;/font> nedladdad</item>
+    </plurals>
+    <plurals name="download_info_count_deleted_tasks">
+        <item quantity="other">%d nedladdningar borttagna</item>
+        <item quantity="one">%d nedladdning borttagen</item>
+    </plurals>
+    <plurals name="download_running">
+        <item quantity="other">&lt;font color==\"red\">%d låtar&lt;/font> laddas ned</item>
+        <item quantity="one">&lt;font color==\"red\">%d låt&lt;/font> laddas ned</item>
+    </plurals>
+    <plurals name="multichoice_title">
+        <item quantity="other">%d objekt valda</item>
+        <item quantity="one">%d objekt vald</item>
+    </plurals>
+    <plurals name="reader_count">
+        <item quantity="other">%d följare</item>
+        <item quantity="one">%d följare</item>
+    </plurals>
+    <plurals name="send_songs_toast">
+        <item quantity="other">%d låtar kommer skickas</item>
+        <item quantity="one">%d låt kommer skickas</item>
+    </plurals>
+    <plurals name="skipped_online_songs_tips">
+        <item quantity="other">Hoppade över %d låtar. Aktivera onlinetjänster i inställningar för att lyssna på dem.</item>
+        <item quantity="one">Hoppade över %d låt. Aktivera onlinetjänster i inställningar för att lyssna på den.</item>
+    </plurals>
+    <plurals name="song_already_favorite">
+        <item quantity="other">Låtar har lagts till i favoriter.</item>
+        <item quantity="one">En låt har lagts till i favoriter.</item>
+    </plurals>
+    <plurals name="songs_count">
+        <item quantity="other">%d låtar</item>
+        <item quantity="one">%d låt</item>
+    </plurals>
+</resources>

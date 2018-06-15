@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="subtitle_offset_advance_times">
+        <item quantity="other">Undertexter är flyttade %.1f sekunder framåt</item>
+        <item quantity="one">Undertexter är flyttade %.1f sekund framåt</item>
+    </plurals>
+    <plurals name="subtitle_offset_delay_times">
+        <item quantity="other">Undertexter är fördröjda i %.1f sekunder</item>
+        <item quantity="one">Undertexter är fördröjda i %.1f sekund</item>
+    </plurals>
+    <plurals name="subtitle_onlinesub_size_float_kb">
+        <item quantity="other">Storlek: %.2fKB</item>
+        <item quantity="one">Storlek: %.2fKB</item>
+    </plurals>
+    <plurals name="v_video_count">
+        <item quantity="other">%d videor</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+</resources>

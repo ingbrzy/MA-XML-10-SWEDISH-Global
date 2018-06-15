@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notif_receive_cancel">
+        <item quantity="other">Avbruten överföring till %1$s</item>
+        <item quantity="one">Avbruten överföring till %1$s</item>
+    </plurals>
+    <plurals name="notif_receive_progress">
+        <item quantity="other">Tar emot %1$s filer…</item>
+        <item quantity="one">Tar emot %1$s fil…</item>
+    </plurals>
+    <plurals name="notif_receive_success">
+        <item quantity="other">Mottagna filer från %1$s framgångsrikt</item>
+        <item quantity="one">Mottagen fil från %1$s framgångsrikt</item>
+    </plurals>
+    <plurals name="receiver_file_num">
+        <item quantity="other">%2$d filer från %1$s</item>
+        <item quantity="one">%2$d fil från %1$s</item>
+    </plurals>
+    <plurals name="sender_file_num">
+        <item quantity="other">%1$d objekt</item>
+        <item quantity="one">%1$d objekt</item>
+    </plurals>
+</resources>

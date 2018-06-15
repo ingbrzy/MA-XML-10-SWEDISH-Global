@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="sniff_find_resource">
+        <item quantity="other">Hittade %d objekt</item>
+        <item quantity="one">Hittade 1 objekt</item>
+    </plurals>
+    <plurals name="numberOfItemsAvailable">
+        <item quantity="other">Ta bort %d objekt?</item>
+        <item quantity="one">Ta bort detta objekt?</item>
+    </plurals>
+    <plurals name="sniff_find_result">
+        <item quantity="other">Hittade %d resultat</item>
+        <item quantity="one">Hittade 1 resultat</item>
+    </plurals>
+</resources>
