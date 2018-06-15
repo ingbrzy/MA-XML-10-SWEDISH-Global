@@ -1018,7 +1018,6 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="power_remaining_charging_duration_only">Batteriet är fulladdat om %1$s</string>
     <string name="power_remaining_duration_only">Cirka %1$s återstår</string>
     <string name="power_remaining_duration_only_short">%1$s kvar</string>
-    <string name="process_kernel_label">Operativsystemet Android</string>
     <string name="profile_owned_footer">Profilen kan vara övervakat</string>
     <string name="prompt_danger">Fara</string>
     <string name="prompt_detecting">Undersöker</string>
