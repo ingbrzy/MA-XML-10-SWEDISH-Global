@@ -107,7 +107,6 @@
     <string name="menu_title_select_folder">Välj mapp</string>
     <string name="menu_unhide">Visa</string>
     <string name="menu_unstick">Lossa</string>
-    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Inte nu</string>
     <string name="note_alert_expired">Utgånget</string>
     <string name="note_description_content">Appen Anteckningar är mycket bra verktyg för att spela in dina idéer. Den har inbyggda påminnelser och synkroniserar objekt till Mi Cloud så du kan få tillgång till dem överallt. Se till att du klarar dig utan dessa funktioner innan du ta bort appen.</string>
