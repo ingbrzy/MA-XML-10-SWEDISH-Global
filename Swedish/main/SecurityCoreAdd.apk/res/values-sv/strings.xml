@@ -187,7 +187,7 @@ läggs funktionen till i Sekundära utrymmet automatiskt."</string>
     <string name="reset_password_dialog_message">Du använder olika lösenordstyper för det Primära och Sekundära utrymmet. Det Sekundära utrymmet måste använda samma lösenordstyp som det Primära för att genvägen ska döljas.</string>
     <string name="reset_password_dialog_positve_btn_title">Ändra</string>
     <string name="entrance_reopen_toast_msg">Visar genvägen till det Sekundära utrymmet på grund av olika lösenordstyper</string>
-    <string name="settings_cross_notification_title">Meddelanden</string>
+    <string name="settings_cross_notification_title">Notifikationer</string>
     <string name="settings_cross_notification_summary">Ta emot meddelande från det andra utrymmet</string>
     <string name="settings_switch_shortcut_summary">Visa hemskärmsgenväg i primära utrymme</string>
     <string name="settings_space_data">Data</string>

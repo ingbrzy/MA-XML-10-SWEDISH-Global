@@ -19,6 +19,11 @@
     <string name="all_terms">%1$s och %2$s</string>
     <string name="app_name">Anteckningar</string>
     <string name="app_widget">Noteringar</string>
+    <string name="application_icon">Appikon</string>
+    <string name="audio_panel_time_counter_default">00:00</string>
+    <string name="audio_toast_file_invalid">Ljudfilen är ogiltig</string>
+    <string name="audio_toast_file_undownload">Ljudfilen är inte fullt nedladdade eller saknas</string>
+    <string name="audio_toast_network_is_not_available">Kunde inte ansluta till nätverk</string>
     <string name="call_folder_name">Samtalsanteckningar</string>
     <string name="cancel_alarm_description">Avbryt larm</string>
     <string name="cloud_service_state_open_reminder">Slå på synkronisering med Mi Cloud för att synkronisera anteckningar.</string>
@@ -35,7 +40,8 @@
     <string name="dlg_check_reminder">Visa inte igen</string>
     <string name="dlg_delete_message">Tar bort…</string>
     <string name="dlg_hide_message">Döljer…</string>
-    <string name="dlg_info_creating_message">Skapar meddelande…</string>
+    <string name="dlg_info_creating_message">Skapa image…</string>
+    <string name="dlg_info_save_to_gallery_message">Spara bilden till Gallery…</string>
     <string name="dlg_message_password_reset">Dolda anteckningars lösenord kommer att ersättas med sekretessbelagda lösenord som fungerar för meddelanden, foton och dolda mappar</string>
     <string name="dlg_message_set_password">Lösenord för integritetsskydd fungerar för meddelanden, bilder och dolda mappar</string>
     <string name="dlg_message_use_privacy_password">Använd lösenord för integritetsskydd. Det fungerar för meddelanden, bilder och dolda mappar</string>
@@ -49,7 +55,9 @@
     <string name="dlg_unhide_message">Visar…</string>
     <string name="done">Klart</string>
     <string name="edit_header_done_description">Klart</string>
-    <string name="edit_header_home_description">Bakåt</string>
+    <string name="edit_header_lock_description">Dolda anteckningar</string>
+    <string name="empty_folder_import_notes">Importera anteckningar</string>
+    <string name="empty_folder_no_notes">Inga anteckningar här</string>
     <string name="enable_sync">Synkronisera</string>
     <string name="enable_sync_desc">Synkronisera anteckningar med ditt Mi-konto (%1$s)?</string>
     <string name="error_contact_not_exist">Kontakt existerar inte</string>
@@ -61,18 +69,23 @@
     <string name="error_send_empty_note_to_weibo">Kan inte skicka en tom anteckning till Weibo</string>
     <string name="error_unsupport_content">Anteckningen har innehåll som inte stöds, tryck här för att uppdatera</string>
     <string name="error_widget_exist_for_send_to_desktop">Anteckningen finns redan på Hemskärmen</string>
+    <string name="first_enter_custom_folder_hint">Du kan byta namn på eller radera mappar här</string>
     <string name="folder_exist">En fil med samma namn finns redan</string>
+    <string name="folder_operation_delete">Radera</string>
+    <string name="folder_operation_rename">Byt namn</string>
     <string name="force_touch_menu_add">Lägg till anteckning</string>
     <string name="format_move_note_out_folder">Anteckningen togs bort</string>
     <string name="format_move_note_to_folder">Flyttad till %1$s</string>
     <string name="format_move_notes_out_folder">Flyttade ut %1$s</string>
     <string name="format_move_notes_to_folder">Flyttade %1$s till %2$s</string>
     <string name="hidden_notes_fragment_title">Dolda anteckningar</string>
+    <string name="hide_arrow_description">Dölj</string>
     <string name="hint_cannot_view_hidden_note_content">Kan inte visa innehåll i dolda anteckningar</string>
     <string name="hint_foler_name">Namn</string>
     <string name="info_note_enter_desktop">Tillagd på Hemskärmen</string>
     <string name="loading_text">Vänta lite…</string>
     <string name="login_sync">Logga in &amp; synkronisering</string>
+    <string name="menu_add_audio_description">Lägg till röstanteckning</string>
     <string name="menu_add_description">Lägg till anteckning</string>
     <string name="menu_add_folder">Lägg till i mapp</string>
     <string name="menu_add_folder_description">Lägg till mapp</string>
@@ -94,6 +107,7 @@
     <string name="menu_title_select_folder">Välj mapp</string>
     <string name="menu_unhide">Visa</string>
     <string name="menu_unstick">Lossa</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Inte nu</string>
     <string name="note_alert_expired">Utgånget</string>
     <string name="note_description_content">Appen Anteckningar är mycket bra verktyg för att spela in dina idéer. Den har inbyggda påminnelser och synkroniserar objekt till Mi Cloud så du kan få tillgång till dem överallt. Se till att du klarar dig utan dessa funktioner innan du ta bort appen.</string>
@@ -111,7 +125,7 @@
     <string name="permdesc_accessNote">Skadliga appar kan använda detta för att få tillgång till personlig data.</string>
     <string name="permlab_accessNote">Åtkomst till anteckningar</string>
     <string name="pref_desc_skip_confirm_for_quick_delete">Fråga inte om bekräftelse när du tar bort en anteckning med en gest</string>
-    <string name="pref_title_cloud_trash_bin">Radera anteckningar i Mi Cloud</string>
+    <string name="pref_title_cloud_trash_bin">Borttagna anteckningar i Mi moln</string>
     <string name="pref_title_common">Ytterligare inställningar</string>
     <string name="pref_title_font_size">Textstorlek</string>
     <string name="pref_title_note_style">Stil</string>
@@ -122,7 +136,17 @@
     <string name="refuse_to_open_as_pic_because_of_loading">Vänta till anteckningen har laddats och försök igen.</string>
     <string name="refuse_to_share_as_pic_because_of_content">Anteckningen är för stor för att dela.</string>
     <string name="rename_folder_dialog_tile">Byt namn på mapp</string>
+    <string name="rich_text_bold_description">Fet</string>
+    <string name="rich_text_center_description">Center</string>
+    <string name="rich_text_chooser_title">Välj stil</string>
+    <string name="rich_text_italic_description">Kursiv</string>
+    <string name="rich_text_right_description">Höger</string>
+    <string name="rich_text_size_description">Storlek</string>
+    <string name="rich_text_underline_description">Understrykning</string>
     <string name="root_folder_name">Snabbanteckningar</string>
+    <string name="save_to_gallery_failure_message">Kunde inte spara</string>
+    <string name="save_to_gallery_icon_name">Spara till Galleri</string>
+    <string name="save_to_gallery_success_message">Sparad framgångsrikt</string>
     <string name="search">Noteringar</string>
     <string name="search_hint">Sök anteckningar</string>
     <string name="search_keyword_notes">Anteckningar;Memo</string>
@@ -131,7 +155,8 @@
     <string name="search_setting_description">Sök text i dina anteckningar</string>
     <string name="select_account_prompt">Synkronisera anteckningar</string>
     <string name="set_alarm_description">Ställ in alarm</string>
-    <string name="snippet_image_stub">[Image]</string>
+    <string name="snippet_audio_stub">Röstanteckning</string>
+    <string name="snippet_image_stub">Bild anmärkning</string>
     <string name="snippet_image_template">[Bild %1$s]</string>
     <string name="sns_action_send">Skicka</string>
     <string name="sns_choose_quality_high">Hög (%1$s)</string>
@@ -144,7 +169,7 @@
     <string name="sns_hint_content">Ange meddelande</string>
     <string name="sns_hint_title">Ämne (valfritt)</string>
     <string name="sns_message_disconnect">Kan inte ansluta till nätverket. Kontrollera anslutningen och försök igen.</string>
-    <string name="sns_title_edit">Ändra titel</string>
+    <string name="sns_title_edit">Dela anteckning</string>
     <string name="sns_title_send">Skicka meddelande</string>
     <string name="sns_toast_empty">Kan inte skicka tomt meddelande</string>
     <string name="sns_toast_over_limit">Skickad som bild</string>
@@ -175,14 +200,16 @@
     <string name="toast_reach_text_limit_attachment">Kan inte lägga till bilagor eftersom anteckningen är för lång</string>
     <string name="toast_reach_text_limit_checkbox">Kan inte lägga till en checkbox eftersom anteckningen är för lång</string>
     <string name="toast_reach_text_limit_truncate">Anteckningen är för lång. En del av texten har klippts bort från slutet.</string>
+    <string name="toast_refuse_to_record_when_in_call">Kan inte använda den här funktionen under samtal</string>
     <string name="toolbar_check_description">Lägg till checkbox</string>
     <string name="toolbar_delete_description">Ta bort anteckningen</string>
     <string name="toolbar_gallery_description">Lägg till bild</string>
-    <string name="toolbar_more_description">Mer</string>
     <string name="toolbar_redo_description">Göra om</string>
     <string name="toolbar_share_description">Dela anteckningen</string>
+    <string name="toolbar_text_description">Textstil</string>
     <string name="toolbar_theme_description">Välj ett tema</string>
     <string name="toolbar_undo_description">Ångra</string>
+    <string name="toolbar_voice_description">Röst</string>
     <string name="trash_folder_name">Skräp</string>
     <string name="trash_folder_reminder">Anteckningarna du raderar kommer att raderas permanent om 30 dagar.</string>
     <string name="undo">Ångra</string>
@@ -192,5 +219,6 @@
  - Sätt påminnelser"</string>
     <string name="widget_content_loading">Vänta lite…</string>
     <string name="widget_havenot_content">Tryck för att skapa en anteckning. Håll inne widget för att ändra storlek.</string>
-    <string name="dialog_share_title">Dela anteckning</string>
+    <string name="edit_header_home_description">Bakåt</string>
+    <string name="toolbar_more_description">Mer</string>
 </resources>

@@ -113,10 +113,6 @@
     <string name="maml_component_customization_title">Inställningar</string>
     <string name="default_name">Standard</string>
     <string name="resource_select">Välj</string>
-    <string name="group_name_contacts">Kontakter</string>
-    <string name="group_name_friends">Vänner</string>
-    <string name="group_name_family">Familj</string>
-    <string name="group_name_coworkers">Kollegor</string>
     <string name="fp_nav_center_action_choose_dlg_title">Aktivera snabbtryck</string>
     <string name="fp_nav_center_action_choose_dlg_msg">Du kan gå tillbaka till Hemskärmen genom att trycka lätt på Hemknappen. Du kan slå på eller stänga av denna funktion i Inställningar > Ytterligare inställningar > Knappar > Tryck på Hemknappen för att gå tillbaka till Hemskärmen.</string>
     <string name="fp_nav_center_action_choose_dlg_positive_btn_text">Aktivera</string>

@@ -12,4 +12,12 @@
         <item quantity="other">%1$s anteckningar</item>
         <item quantity="one">%1$s anteckning</item>
     </plurals>
+    <plurals name="record_last_ten_seconds_reminder">
+        <item quantity="other">%d andra vänster</item>
+        <item quantity="one">%d andra vänster</item>
+    </plurals>
+    <plurals name="word_count">
+        <item quantity="other">%s tecken</item>
+        <item quantity="one">%s tecken</item>
+    </plurals>
 </resources>

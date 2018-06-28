@@ -48,6 +48,10 @@
         <item quantity="other">%s notifikationer till finns i gruppen.</item>
         <item quantity="one">%s till notifikation finns i gruppen.</item>
     </plurals>
+    <plurals name="notification_num_channels">
+        <item quantity="other">%d notifikationskategorier</item>
+        <item quantity="one">%d notifikationskategori</item>
+    </plurals>
     <plurals name="notification_num_channels_desc">
         <item quantity="other">1 utav %d notifikationskategorier för denna app</item>
         <item quantity="one">1 utav %d notifikationskategori för denna app</item>

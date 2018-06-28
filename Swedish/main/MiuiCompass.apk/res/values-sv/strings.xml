@@ -57,4 +57,8 @@
     <string name="altitude_longitude_Degree_format" formatted="false">%d:%d:%d</string>
     <string name="app_description_title">Om kompass</string>
     <string name="app_description_content">Kompass används för navigering och orientering och visar riktning. Se till att du kan klara dig utan dessa funktioner innan du avinstallerar appen.</string>
+    <string name="open_perm_msg">Kompass behöver tillgång till platsinformation och kamera. Detta är nödvändigt för att bestämma koordinater och tillhandahålla förhandsvisningar. Tillåt?</string>
+    <string name="open_perm_title">Behörigheter krävs</string>
+    <string name="cancel">Avbryt</string>
+    <string name="allow">Tillåt</string>
 </resources>

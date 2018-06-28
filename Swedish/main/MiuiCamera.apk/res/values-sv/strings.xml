@@ -32,10 +32,12 @@
     <string name="pref_front_mirror_title">Spegla framkameran</string>
     <string name="pref_video_quality_title">Videokvalitet</string>
     <string name="pref_video_hfr_title">Video HFR</string>
-    <string name="pref_video_quality_entry_4kuhd">UHD 4K</string>
-    <string name="pref_video_quality_entry_1080p">FHD 1080P</string>
-    <string name="pref_video_quality_entry_720p">HD 720P</string>
-    <string name="pref_video_quality_entry_480p">SD 480P</string>
+    <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30fps</string>
+    <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
+    <string name="pref_video_quality_entry_1080p">FHD 1080P, 30fps</string>
+    <string name="pref_video_quality_entry_1080p_60fps">FHD 1080P, 60fps</string>
+    <string name="pref_video_quality_entry_720p">HD 720P, 30fps</string>
+    <string name="pref_video_quality_entry_480p">SD 480P, 30fps</string>
     <string name="pref_video_encoder_title">Videokodare</string>
     <string name="pref_video_encoder_entry_h264">H.264 (kompatibilitet)</string>
     <string name="pref_video_encoder_entry_h265">H.265 (prestanda)</string>
@@ -427,6 +429,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Djupeffekt</string>
     <string name="portrait_mode_use_hint">"Porträttläge gör bakgrunden suddig
  och frambringar personerna förgrunden."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Fyrkant</string>
     <string name="simple_mode_button_text_square">Stäng av Fyrkant</string>
     <string name="face_beauty_smart">Prydlig</string>
@@ -441,6 +444,7 @@
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Lägen</string>
     <string name="button_front_camera_title">Ta en selfie</string>
     <string name="button_normal_video_title">Spela in video</string>
@@ -533,6 +537,6 @@ och optimerar dina foton baserat på denna information"</string>
     <string name="pref_camera_picturesize_entry_fullscreen">Fullskärm 16:9</string>
     <string name="lens_dirty_detected_title_back">Bakre kameralins är smutsig</string>
     <string name="lens_dirty_detected_title_front">Främre kameralins är smutsig</string>
-    <string name="lens_dirty_detected_content">"Det upptäcktes att din kameralins är smutsig.
-Rengör den för att få bättre bilder."</string>
+    <string name="lens_dirty_detected_content">"Det verkar som att din kameralins är smutsig.
+Rengör linsen för bättre bilder."</string>
 </resources>

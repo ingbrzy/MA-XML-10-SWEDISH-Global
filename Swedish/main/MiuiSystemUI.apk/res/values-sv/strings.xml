@@ -411,7 +411,7 @@ samplingsfrekvens"</string>
     <string name="daltonizer_mode_protanomaly">Protanomali (rött-grönt)</string>
     <string name="daltonizer_mode_tritanomaly">Tritanomali (blått-gult)</string>
     <string name="daltonizer_type_overridden">Har åsidosatts av %1$s</string>
-    <string name="data_connection_no_internet">Inget Internet</string>
+    <string name="data_connection_no_internet">Inte ansluten till Internet</string>
     <string name="data_saver">Datasparare</string>
     <string name="data_usage_disabled_dialog">"Datagränsen som är konfigurerad har överstigits. Mobildata har avaktiverats.
 
@@ -480,9 +480,9 @@ Om du fortsätter använda mobildata kan ytterligare avgifter från din operatö
     <string name="drag_to_add_tiles">Dra för att lägga till snabbknappar</string>
     <string name="drag_to_remove_tiles">Dra hit för att ta bort</string>
     <string name="drive_mode_tip">Billäge är aktiverat</string>
-    <string name="drive_mode_tip_idle">Tryck för att avsluta Billäge</string>
-    <string name="drive_mode_tip_idle_notch">Avsluta Billäge</string>
-    <string name="drive_mode_tip_notch">Billäge är aktiverat</string>
+    <string name="drive_mode_tip_idle">Billäge är aktiverat</string>
+    <string name="drive_mode_tip_idle_notch">Billäge</string>
+    <string name="drive_mode_tip_notch">Billäge</string>
     <string name="empty_shade_text">Inga notifikationer</string>
     <string name="enable_adb">USB-felsökning</string>
     <string name="enable_adb_summary">Felsökningsläge när USB har anslutits</string>
@@ -906,12 +906,13 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="notification_all_categories">Alla Kategorier</string>
     <string name="notification_app_settings">Anpassa: %1$s</string>
     <string name="notification_channel_alerts">Påminnelser</string>
+    <string name="notification_channel_battery">Batteri</string>
     <string name="notification_channel_controls_closed_accessibility">Notifikationsinställningar för %1$s stängd</string>
     <string name="notification_channel_controls_opened_accessibility">Notifikationsinställningar för %1$s öppnad</string>
     <string name="notification_channel_disabled">Du kommer inte få dessa notifikationer längre.</string>
-    <string name="notification_channel_general">Allmänna Meddelanden</string>
+    <string name="notification_channel_general">Allmänna meddelanden</string>
     <string name="notification_channel_location">Plats</string>
-    <string name="notification_channel_screenbutton">Knapp på skärmen</string>
+    <string name="notification_channel_screenbutton">Knappar</string>
     <string name="notification_channel_screenshot">Skärmdumpar</string>
     <string name="notification_channel_storage">Lagringsutrymme</string>
     <string name="notification_channel_switch_accessibility">Tillåt notifikationer från denna kanal</string>
@@ -921,7 +922,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="notification_group_collapse_button_text">Vik ihop</string>
     <string name="notification_header_default_channel">Notifikationer</string>
     <string name="notification_header_title">Notifikationer</string>
-    <string name="notification_hidden_by_policy_text">Innehåll dolt på grund av policy</string>
+    <string name="notification_hidden_by_policy_text">Innehåll dolt</string>
     <string name="notification_hidden_text">Du har ett nytt meddelande</string>
     <string name="notification_info_channel_disabled_text">Du kommer inte ta emot %2$s notifikationer från %1$s.</string>
     <string name="notification_info_channel_enabled_text">Du kommer ta emot %2$s notifikationer från %1$s.</string>
@@ -1018,6 +1019,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="power_remaining_charging_duration_only">Batteriet är fulladdat om %1$s</string>
     <string name="power_remaining_duration_only">Cirka %1$s återstår</string>
     <string name="power_remaining_duration_only_short">%1$s kvar</string>
+    <string name="process_kernel_label">Operativsystemet Android</string>
     <string name="profile_owned_footer">Profilen kan vara övervakat</string>
     <string name="prompt_danger">Fara</string>
     <string name="prompt_detecting">Undersöker</string>
@@ -1479,5 +1481,5 @@ Alla användare kan uppdatera för alla användare."</string>
     <string name="zen_priority_introduction">Du kommer inte störas av musik och vibrationer, förutom alarm, påminnelser, händelser och samtal från kontakter du specificerat. Du kommer fortfarande kunna välja hur du ska spela musik, videor och spel.</string>
     <string name="zen_silence_introduction">Detta blockera ALLA ljud och vibrationer, inklusive alarm, musik, videor och spel.</string>
     <string name="zen_silence_introduction_voice">Detta blockera ALLA ljud och vibrationer, inklusive alarm, musik, videor och spel. Du kommer fortfarande kunna ringa.</string>
-    <string name="notification_num_channels">%d notifikationskategorier</string>
+    <string name="notification_num_channels">%d aviseringskategorier</string>
 </resources>

@@ -6,6 +6,9 @@ Storlek: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerar version %1$s
 Delta-uppdatering storlek: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Lagring inte tillgänglig, kontrollera ditt SD-kort.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunde inte starta nedladdning. Kontrollera att Hämtningar-appen fungerar normalt.</string>
     <string name="app_name">Säkerhetskopiering</string>
     <string name="local_app_name">Säkerhetskopiering</string>
@@ -225,6 +228,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="restore_backup">Återställ</string>
     <string name="enable_encrypt_description">Kryptera</string>
     <string name="disable_encrypt_description">Inte kypterad</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Vänta en stund…</string>
     <string name="state_mounting">Kommer åt utrymme på router…</string>
     <string name="abort_backup_confirm">Säkerhetskopiering är inte klar. Sluta ändå?</string>
@@ -248,6 +252,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="err_filesystem_mount">Kan inte nå utrymmet på router</string>
     <string name="err_router_disconnected">Kolla din routers anslutning och testa igen.</string>
     <string name="err_router_files_delete">Kunde inte ta bort säkerhetskopieringsfilen på routern</string>
+    <string name="err_acquire_system_service">"Couldn't start system service."</string>
     <string name="err_not_allow">Stöds inte</string>
     <string name="err_bakfile_not_exist">Säkerhetskopian finns inte.</string>
     <string name="err_pkg_not_exist">Kunde inte hitta app.</string>
@@ -322,14 +327,14 @@ Håll enheterna nära varandra."</string>
     <string name="trans_sending_completed">Sändning lyckades</string>
     <string name="trans_receiving_completed">Mottagning lyckades</string>
     <string name="trans_time_format_second">Mindre än 1 minut</string>
-    <string name="trans_progress_subdescript_transing_sender">Skickar %1$s, %2$s färdigt</string>
+    <string name="trans_progress_subdescript_transing_sender">Skickar %1$s, %2$s slutfört</string>
     <string name="trans_progress_subdescript_transing_receiver">Ta emot %1$s, %2$s completed</string>
-    <string name="trans_progress_subdescript_transingsd_sender">Skickar filer, %s färdigt</string>
-    <string name="trans_progress_subdescript_transingsd_receiver">Tar emot filer, %s färdigt</string>
-    <string name="trans_progress_subdescript_transingsddata_sender">Skickar %1$s filer till SD-kort, %2$s färdigt</string>
-    <string name="trans_progress_subdescript_transingsddata_receiver">Mottager %1$s filer från SD-kort, %2$s färdigt</string>
+    <string name="trans_progress_subdescript_transingsd_sender">Skickar filer, %s slutfört</string>
+    <string name="trans_progress_subdescript_transingsd_receiver">Tar emot filer, %s slutfört</string>
+    <string name="trans_progress_subdescript_transingsddata_sender">Skickar %1$s filer till SD-kort, %2$s slutförda</string>
+    <string name="trans_progress_subdescript_transingsddata_receiver">Mottager %1$s filer från SD-kort, %2$s slutförda</string>
     <string name="trans_progress_subdescript_br_sender">Säkerhetskopierar %1$s, %2$s färdigt</string>
-    <string name="trans_progress_subdescript_br_receiver">Återställer %1$s, %2$s färdigt</string>
+    <string name="trans_progress_subdescript_br_receiver">Återställer %1$s, %2$s slutförda</string>
     <string name="trans_progress_subdescript_waiting">Väntar på ta emot %s</string>
     <string name="trans_progress_subdescript_br_sender_finish">Säkerhetskopierat %s, väntar på att skicka…</string>
     <string name="trans_progress_subdescript_transing_receiver_finish">Mottaget %s, väntar på att återställa…</string>
@@ -526,6 +531,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
  ska du först skapa en iCloud backup."</string>
     <string name="list_footer_tip_title">Tips:</string>
     <string name="import_tip_summary">På grund av kompatibilitetsproblem så kan du bara överföra delar av din data från iOS-enheter. Se till att du har skapat en iCloud backup före du börjar överföra.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importera</string>
     <string name="select_empty">Välj objekt att importera</string>
     <string name="select_item_summary_wait">Väntar…</string>

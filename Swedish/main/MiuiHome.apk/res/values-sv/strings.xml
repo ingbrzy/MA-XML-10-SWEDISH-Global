@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="action_add_to_workspace">Lägg till i Arbetsutrymmet</string>
     <string name="activity_not_found">Appen är inte installerad på din enhet</string>
     <string name="add_screen">Lägg till skärm</string>
@@ -92,6 +93,7 @@
     <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_recommend">Fler appar</string>
     <string name="default_folder_title_security">System</string>
+    <string name="default_folder_title_services">Tjänster</string>
     <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">Verktyg</string>
     <string name="default_screen_preview_title">Tryck för att ställa in standardskärm</string>
@@ -235,6 +237,7 @@
     <string name="open_personal_assistant_dialog_btn_cancel">Avbryt</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Avaktivera</string>
     <string name="open_personal_assistant_dialog_desc">Du kommer inte att kunna använda App vault och få sina uppdateringar. Stäng av nu?</string>
+    <string name="open_personal_assistant_dialog_desc_international">Du kommer inte att kunna använda App vault kort (lager, genvägar, etc.) och få uppdateringar när du stänga av funktionen.</string>
     <string name="open_personal_assistant_dialog_title">Avaktivera App vault</string>
     <string name="open_personal_assistant_title">App vault</string>
     <string name="out_of_space">Ingen mer plats på Hemskärmen</string>
@@ -342,6 +345,4 @@
     <string name="widget_gadget_player">Musik</string>
     <string name="widget_global_search">Sök</string>
     <string name="widget_quick_function">Snabbfunktioner</string>
-    <string name="default_folder_title_services">Tjänster</string>
-    <string name="open_personal_assistant_dialog_desc_international">Du kommer inte att kunna använda App vault kort (lager, genvägar, etc.) och få uppdateringar när du stänga av funktionen.</string>
 </resources>

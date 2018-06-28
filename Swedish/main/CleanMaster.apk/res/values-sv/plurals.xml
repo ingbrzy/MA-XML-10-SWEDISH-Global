@@ -93,14 +93,14 @@
         <item quantity="one">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> app har inte blivit använda på lång tid, ta en titt.;&lt;/Data></item>
     </plurals>
     <plurals name="clean_long_msg_p1">
-        <item quantity="other">"Städar %1$d filer, %2$d är slutförda 
+        <item quantity="other">"Städar %1$d filer (%2$d%%)
 "</item>
-        <item quantity="one">"Städar %1$d fil, %2$d är slutförd 
+        <item quantity="one">"Städar %1$d fil (%2$d%%)
 "</item>
     </plurals>
     <plurals name="clean_long_msg_p2">
-        <item quantity="other">%1$d%% objekt/sekund, Återstående tid: %2$s</item>
-        <item quantity="one">%1$d%% objekt/sekund, Återstående tid: %2$s</item>
+        <item quantity="other">%1$d objekt per sekund | Återstående tid: %2$s</item>
+        <item quantity="one">%1$d objekt per sekund | Återstående tid: %2$s</item>
     </plurals>
     <plurals name="hour">
         <item quantity="other">%1$d timmar</item>
