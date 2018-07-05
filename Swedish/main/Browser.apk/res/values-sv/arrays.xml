@@ -48,6 +48,10 @@
         <item>Telefon</item>
         <item>Platta</item>
     </string-array>
+    <string-array name="pref_navscreen_layoutstate_choices">
+        <item>Vertikal Visa</item>
+        <item>Horisontell vy</item>
+    </string-array>
     <string-array name="pref_text_zoom_choices">
         <item>Mycket liten</item>
         <item>Liten</item>

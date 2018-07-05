@@ -57,7 +57,7 @@
     <string name="separate_from_conference">Separat samtal</string>
     <string name="caller_manage_header">Konferenssamtal %s</string>
     <string name="incall_call_type_label_sip">Internetsamtal</string>
-    <string name="incoming_call_forwarded_title">Vidarebefordra inkommande samtal</string>
+    <string name="incoming_call_forwarded_title">Vidarekoppla inkommande samtal</string>
     <string name="call_title_redialing_with_times">Återuppringt %d gånger</string>
     <string name="card_title_dialing">Ringer</string>
     <string name="card_title_conf_call">Konferenssamtal</string>

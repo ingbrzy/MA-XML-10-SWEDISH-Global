@@ -10,7 +10,7 @@
     <string name="calibrate_failed_no_location">Det går inte att kalibrera</string>
     <string name="calibrate_failed_timeout">Kan inte ansluta till servern</string>
     <string name="calibrate_failed">Höjdkalibrering misslyckades</string>
-    <string name="pressure_title">Press</string>
+    <string name="pressure_title">Tryck</string>
     <string name="altitude_title">Altitud</string>
     <string name="pressure">%.1f</string>
     <string name="altitude">%.1f</string>
@@ -43,7 +43,7 @@
     <string name="first_using_dialog_title">Ge behörighet</string>
     <string name="first_using_dialog_message">Kompass behöver använda din enhets nätverksanslutning, kamera, och platstjänster för att fungera normalt.</string>
     <string name="using_camera_confirm_ok">Godkänn</string>
-    <string name="using_camera_confirm_cancel">Lämna</string>
+    <string name="using_camera_confirm_cancel">Avsluta</string>
     <string name="shake_enter_tip">Skaka för att kalibrera</string>
     <string name="calibrate_title">Kalibrera kompass</string>
     <string name="calibrate_tip">Luta din enhet för att rulla bollen runt cirkeln</string>

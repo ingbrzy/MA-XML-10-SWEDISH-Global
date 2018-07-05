@@ -133,12 +133,12 @@
         <item quantity="one">PIN måste vara %d siffra</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
-        <item quantity="other">PIN-koden kan innehålla upp till %d siffror</item>
-        <item quantity="one">PIN-koden kan innehålla upp till %d siffra</item>
+        <item quantity="other">Du kan skriva in upp till %d siffror</item>
+        <item quantity="one">Du kan skriva in upp till %d siffra</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
-        <item quantity="other">PIN-koden måste vara %d siffror lång</item>
-        <item quantity="one">PIN-koden måste vara %d siffra lång</item>
+        <item quantity="other">Ange minst %d siffror</item>
+        <item quantity="one">Ange minst %d siffra</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Anslut åtminstone %d punkter. Försök igen.</item>

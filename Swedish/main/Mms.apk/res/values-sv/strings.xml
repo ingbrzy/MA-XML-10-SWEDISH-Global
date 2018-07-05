@@ -192,6 +192,7 @@
     <string name="file_size">Storlek:</string>
     <string name="file_title">Namn:</string>
     <string name="file_width_height">Storlek:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Nytt meddelande</string>
     <string name="forward_from">Vidarebefordra från:</string>
     <string name="forward_prefix">"Fwd: "</string>
@@ -396,7 +397,7 @@
     <string name="pref_show_blocked_messages_summary">Visa blockerade SMS i konversationslistan</string>
     <string name="pref_show_list_avatar_summary">Visa profilbild och kontaktinformation i listvyn</string>
     <string name="pref_show_photo_word_summary">Tilldela en bild automatiskt till kontakter som saknar en</string>
-    <string name="pref_show_sms_template_entry_summary">Detektera engångslösenord i SMS</string>
+    <string name="pref_show_sms_template_entry_summary">Detect one-time passwords and show quick menus</string>
     <string name="pref_show_sms_template_in_summary">Detektera engångslösenord i SMS automatiskt</string>
     <string name="pref_show_sms_template_summary">Aktivera för att använda smarta funktioner i Mi meddelande, såsom kopiering koder, kontroll balans, etc.</string>
     <string name="pref_smart_messages_settings">Smarta meddelanden</string>
@@ -543,6 +544,7 @@
     <string name="send_signature_confirm_dialog_title">Skicka meddelande</string>
     <string name="send_sms">Skicka meddelande</string>
     <string name="send_to">Till:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Skickades kl: %1s</string>
     <string name="sent_label">"Skickat: "</string>
     <string name="service_message_not_found">Meddelande utgånget eller otillgängligt</string>
@@ -625,7 +627,7 @@
     <string name="title_show_blocked_messages">Visa blockerade SMS</string>
     <string name="title_show_list_avatar">Visa profilbild</string>
     <string name="title_show_photo_word">Tilldela kontaktbilder</string>
-    <string name="title_show_sms_template">Kolla SMS för verifieringskoder</string>
+    <string name="title_show_sms_template">Smart Messaging</string>
     <string name="title_show_sms_template_in">Kolla SMS för OTP</string>
     <string name="title_timed_message_dialog">Konfigurera tidsinställt meddelande</string>
     <string name="title_use_gsm_alphabet">Används GSM alfabet</string>

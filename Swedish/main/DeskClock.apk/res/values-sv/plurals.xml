@@ -4,10 +4,6 @@
         <item quantity="other">Snooza i %d minuter.</item>
         <item quantity="one">Snooza i %d minut.</item>
     </plurals>
-    <plurals name="auto_silence_summary">
-        <item quantity="other">Alarm kommer tystna efter %d minuter</item>
-        <item quantity="one">Alarm kommer tystna efter %d minut</item>
-    </plurals>
     <plurals name="delete_alarm_confirm">
         <item quantity="other">Ta bort valda alarm?</item>
         <item quantity="one">Ta bort detta alarm?</item>
@@ -24,14 +20,6 @@
         <item quantity="other">Snooza i %d minuter</item>
         <item quantity="one">Snooza i %d minut</item>
     </plurals>
-    <plurals name="timer_item_duration_display_minutes">
-        <item quantity="other">%1$d minuter</item>
-        <item quantity="one">1 minut</item>
-    </plurals>
-    <plurals name="timer_item_duration_display_seconds">
-        <item quantity="other">%1$d sekunder</item>
-        <item quantity="one">1 sekund</item>
-    </plurals>
     <plurals name="timer_message_hour">
         <item quantity="other">"%1$d timmar "</item>
         <item quantity="one">"%1$d timme "</item>
@@ -43,5 +31,17 @@
     <plurals name="timer_message_second">
         <item quantity="other">%1$d sekunder</item>
         <item quantity="one">%1$d sekund</item>
+    </plurals>
+    <plurals name="auto_silence_summary">
+        <item quantity="other">Alarm kommer tystna efter %d minuter</item>
+        <item quantity="one">Alarm kommer tystna efter %d minut</item>
+    </plurals>
+    <plurals name="timer_item_duration_display_minutes">
+        <item quantity="other">%1$d minuter</item>
+        <item quantity="one">1 minut</item>
+    </plurals>
+    <plurals name="timer_item_duration_display_seconds">
+        <item quantity="other">%1$d sekunder</item>
+        <item quantity="one">1 sekund</item>
     </plurals>
 </resources>

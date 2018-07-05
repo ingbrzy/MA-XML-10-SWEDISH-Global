@@ -158,6 +158,7 @@ Det går inte att zooma in på tangentbordet eller navigeringsfältet."</string>
     <string name="add_device_admin_msg">Aktivera appen för enhetsadministratör?</string>
     <string name="add_facerecoginition_text">Lägg till ansiktsdata</string>
     <string name="add_fingerprint_cancel_button_text">Tillbaka</string>
+    <string name="add_fingerprint_dirty_fingerprint">Se till att ytan av sensorn är ren. Försök spela in ditt fingeravtryck igen.</string>
     <string name="add_fingerprint_done_msg">Nu kan du låsa upp enheten med ditt fingeravtryck.</string>
     <string name="add_fingerprint_done_title">Du är redo att rocka!</string>
     <string name="add_fingerprint_edge_instruction_msg">Flytta ditt finger så att sensorn kan spela in kanterna av ditt fingeravtryck.</string>
@@ -166,6 +167,7 @@ Det går inte att zooma in på tangentbordet eller navigeringsfältet."</string>
     <string name="add_fingerprint_finished_button_text">Klart</string>
     <string name="add_fingerprint_instruction_msg">Fingeravtryckssensorn är inbyggd i Hemknappen på din enhet.</string>
     <string name="add_fingerprint_instruction_title">Lägg till ditt fingeravtryck</string>
+    <string name="add_fingerprint_move_fast">Håll ditt finger på skärmen lite längre</string>
     <string name="add_fingerprint_name_suggest_text">Namn på fingeravtryck</string>
     <string name="add_fingerprint_put_finger_edge_msg">Flytta ditt finger lite och lägg det på sensorn igen för att registrera alla delar av ditt fingeravtryck.</string>
     <string name="add_fingerprint_put_finger_msg">Placera fingret på sensorn och lyft det när enheten vibrerar.</string>
@@ -1905,18 +1907,18 @@ När du aktiverar automatisk säkerhetskopiering fjärrsparas enhets- och appdat
     <string name="got_it">Jag förstår</string>
     <string name="gsm_to_wifi_connect_type_title">GSM till Wi-Fi</string>
     <string name="gxzw_add_fingerprint_continue">Fortsätt</string>
-    <string name="gxzw_add_fingerprint_edge_message">Flytta ditt finger så att sensorn kan spela in kanterna av ditt fingeravtryck.</string>
-    <string name="gxzw_add_fingerprint_edge_title">Flytta ditt finger lite</string>
-    <string name="gxzw_add_fingerprint_finish">Slutförd</string>
-    <string name="gxzw_add_fingerprint_indicate">Tryck hårdare här</string>
+    <string name="gxzw_add_fingerprint_edge_message">Flytta ditt finger så att sensorn kan spela in kanterna av ditt fingeravtryck</string>
+    <string name="gxzw_add_fingerprint_edge_title">Justera ditt finger</string>
+    <string name="gxzw_add_fingerprint_finish">Klart!</string>
+    <string name="gxzw_add_fingerprint_indicate">Tryck löst på området</string>
     <string name="gxzw_add_fingerprint_know">Jag förstår</string>
-    <string name="gxzw_add_fingerprint_message">Håll fingrar och skärmen ren</string>
+    <string name="gxzw_add_fingerprint_message">Se till att både ditt finger och skärm är ren</string>
     <string name="gxzw_add_fingerprint_move_indicate">Flytta ditt finger lite</string>
-    <string name="gxzw_add_fingerprint_move_message">Det går inte att spara de återstående delarna av ditt fingeravtryck. Flytta ditt finger lite</string>
+    <string name="gxzw_add_fingerprint_move_message">Flytta ditt finger så att sensorn kan spela in alla delar av ditt fingeravtryck</string>
     <string name="gxzw_add_fingerprint_move_title">Flytta ditt finger lite</string>
-    <string name="gxzw_add_fingerprint_put_finger_message">Tryck lite hårdare och lyft ditt finger efter att du känner en vibration. Upprepa flera gånger.</string>
-    <string name="gxzw_add_fingerprint_put_finger_title">Tryck hårdare och lyft ditt finger efter vibration</string>
-    <string name="gxzw_add_fingerprint_title">Lägg till fingeravtryck</string>
+    <string name="gxzw_add_fingerprint_put_finger_message">Tryck på skärmen och lyft ditt finger efter att du känner en vibration. Upprepa flera gånger.</string>
+    <string name="gxzw_add_fingerprint_put_finger_title">Tryck och lyft ditt finger efter vibration</string>
+    <string name="gxzw_add_fingerprint_title">Lägg till ditt fingeravtryck</string>
     <string name="handy_mode">Enhandsläge</string>
     <string name="handy_mode_enable">Enhandsläge</string>
     <string name="handy_mode_size">Skärmstorlek</string>
@@ -2161,6 +2163,7 @@ Du kan ändra detta senare under Inställningar > Appar och aviseringar."</strin
     <string name="lift_to_wake_title">Gå ur viloläget vid lyft</string>
     <string name="line_breaking_summary">Optimera radbrytning för paragrafer</string>
     <string name="line_breaking_title">Optimera meddelande</string>
+    <string name="link_speed">%1$d Mbit/s</string>
     <string name="list_bg_header_text">Om du begränsar bakgrundsanslutning, kommer inte nya appar att kunna ansluta till internet i bakgrunden efter att du installera dem. De kommer kanske inte kunna motta meddelanden eller ladda ner innehåll efter begränsningen.</string>
     <string name="list_empty_text">Tom</string>
     <string name="loading_notification_apps">Läser in appar ...</string>
@@ -2290,6 +2293,7 @@ för Sekundära utrymmet"</string>
     <string name="lockpassword_choose_your_pin_header">Ange PIN</string>
     <string name="lockpassword_choose_your_pin_header_second_space">"Ange PIN
 för Sekundära utrymmet"</string>
+    <string name="lockpassword_choose_your_pin_title">Ange 4-16 siffror</string>
     <string name="lockpassword_confirm_for_second_user">Bekräfta lösenordet för det sekundära utrymmet</string>
     <string name="lockpassword_confirm_passwords_dont_match">Lösenorden matchar inte</string>
     <string name="lockpassword_confirm_pins_dont_match">PIN-koderna matchar inte</string>
@@ -2502,6 +2506,7 @@ Det finns andra användare på enheten.
     <string name="memory_title">Tillgängligt: %1$s\u0009\u0009Totalt: %2$s</string>
     <string name="memory_usage">Minnesanvändning</string>
     <string name="memory_usage_apps">Minne som används av appar</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">%1$s genomsnittlig minnesanvändning de senaste 3 timmarna</string>
     <string name="menu_cancel">Släng</string>
     <string name="menu_check">Upplev</string>
@@ -2732,6 +2737,7 @@ Välj ditt operativsystem:"</string>
     <string name="nfc_how_it_works_got_it">OK</string>
     <string name="nfc_how_it_works_title">Betala vid en kassaterminal</string>
     <string name="nfc_more_title">Mer ...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Standardapp för betalning</string>
     <string name="nfc_payment_default_not_set">Har inte angetts</string>
     <string name="nfc_payment_favor_default">Använd alltid standardapp</string>
@@ -2932,6 +2938,7 @@ Appen kan också aktivera eller inaktivera Stör ej och ändra relaterade instä
     <string name="overlay_display_devices_title">Simulera sekundära skärmar</string>
     <string name="overlay_settings">Visa ovanpå andra appar</string>
     <string name="owner_info_settings_edit_text_hint">T.ex. Jockes Android.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Inget</string>
     <string name="owner_info_settings_title">Låsskärmssignatur</string>
     <string name="owner_space">Primära utrymmet</string>
@@ -3099,7 +3106,7 @@ Appen kan också aktivera eller inaktivera Stör ej och ändra relaterade instä
     <string name="preferred_network_type_summary">LTE (rekommenderas)</string>
     <string name="preferred_network_type_title">Nätverkstyp att föredra</string>
     <string name="preferred_sms_settings">Appen kommer användas som standard app för att läsa och skriva textmeddelanden.</string>
-    <string name="preferred_sms_title">Standard meddelandeapp</string>
+    <string name="preferred_sms_title">Standardapp för meddelande</string>
     <string name="preferred_sms_warning_message">Att använda \"%1$s\" som din standardapp för meddelanden kan öka användningen av mobildata och riskerar att din personliga data används på ett olovligt sätt.</string>
     <string name="preferred_sms_warning_use_system">Använd ej</string>
     <string name="premium_sms_access">Åtkomst till premium-sms</string>
@@ -3496,7 +3503,7 @@ Den här inställningen påverkar samtliga användare."</string>
     <string name="screen_paper_mode_off_apps_title">Använd inte Läsläge</string>
     <string name="screen_paper_mode_range_title">Inställningar</string>
     <string name="screen_paper_mode_set_apps_title">Läslägesappar</string>
-    <string name="screen_paper_mode_summary">Dämpa skärmens blåa ljus</string>
+    <string name="screen_paper_mode_summary">Läsläge gör färgerna på din skärm varmare och tillåter dina ögon att slappna av.</string>
     <string name="screen_paper_mode_time_summary">Schemalägg tid Läsläget ska aktiveras och avaktiveras</string>
     <string name="screen_paper_mode_time_title">Schemalägg</string>
     <string name="screen_paper_mode_title">Läsläge</string>
@@ -4027,6 +4034,7 @@ Du kan ha angett fel PIN-kod."</string>
     <string name="sim_lock_settings_summary_on">Låst</string>
     <string name="sim_lock_settings_title">SIM-lås</string>
     <string name="sim_management_title">SIM-kort &amp; mobila nätverk</string>
+    <string name="sim_management_title_singlesim">SIM-kort &amp; mobila nätverk</string>
     <string name="sim_multi_sims_summary">Välj vilket SIM-kort du vill använda för mobildatan.</string>
     <string name="sim_multi_sims_title">Flera SIM-kort har hittats</string>
     <string name="sim_name_hint">Ange SIM-namn</string>
@@ -4045,6 +4053,7 @@ Du kan ha angett fel PIN-kod."</string>
     <string name="sim_reenter_new">Skriv in ny pinkod igen</string>
     <string name="sim_select_card">Välj ett SIM-kort</string>
     <string name="sim_selection_required_pref">Du måste välja något</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM-kort</string>
     <string name="sim_setup_wizard_title">SIM-kort</string>
     <string name="sim_slot_empty">SIM-kortet är tomt</string>
@@ -4112,6 +4121,7 @@ Detta är möjligt eftersom betrodda autentiseringsuppgifter har installerats p�
     <string name="status_bar_app_enable_message">Märken</string>
     <string name="status_bar_carrier_settings_no_sim_card">Inget SIM-kort</string>
     <string name="status_bar_key_position_custom">Ändra knapplägen</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="status_bar_screen_button_force_immersive_desc">Svep från underkanten av skärmen för att visa skärmknapparna</string>
     <string name="status_bar_screen_button_key_force_immersive">Dölj skärmknappar</string>
     <string name="status_bar_screen_key_back">Bakåtknapp</string>
@@ -4336,6 +4346,7 @@ Du kan fortsätta, men appar som har flyttats till den här platsen kan vara ryc
     <string name="suggestion_remove">Ta bort</string>
     <string name="suggestions_title">Förslag</string>
     <string name="sum_carrier_select">Välj en nätverksoperatör</string>
+    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">%1$s till %2$s</string>
     <string name="super_resolution_access_title">Tillgängliga appar</string>
     <string name="super_resolution_desc">Använder en AI-algoritm för att göra bilder skarpare</string>
@@ -4858,7 +4869,7 @@ Tryck på plus att lägga till ord."</string>
     <string name="virus_scan_app_continue">Fortsätt sökning</string>
     <string name="virus_scan_app_finish">Sökning avslutad</string>
     <string name="virus_scan_app_force_stop">Sökning pausad</string>
-    <string name="virus_scan_app_is_stop_scan">Avbryt sökning?</string>
+    <string name="virus_scan_app_is_stop_scan">Avbryt skanning?</string>
     <string name="virus_scan_app_multi_engines">Skanningen kan ta längre tid. Du använder mer än en uppsättning definitioner.</string>
     <string name="virus_scan_app_no_risk">Inga risker upptäckta</string>
     <string name="virus_scan_app_passed">Skannat</string>
@@ -4866,7 +4877,7 @@ Tryck på plus att lägga till ord."</string>
     <string name="virus_scan_app_safe_scanning">Skannar…</string>
     <string name="virus_scan_app_scan_finish">Sökning avslutad</string>
     <string name="virus_scan_app_scanning">Skannar…</string>
-    <string name="virus_scan_app_stop_scan">Avbryt sökning</string>
+    <string name="virus_scan_app_stop_scan">Avbryt skanning</string>
     <string name="virus_scan_app_uninstall">Ta bort %d</string>
     <string name="virus_scan_app_waiting">Väntar…</string>
     <string name="virus_scanner_auto_update">Uppdatera automatiskt</string>
@@ -4967,6 +4978,7 @@ Tryck på plus att lägga till ord."</string>
     <string name="vpn_replace_vpn_title">Vill du byta ut befintligt VPN?</string>
     <string name="vpn_require_connection">Blockera anslutningar utan VPN</string>
     <string name="vpn_require_connection_title">Ska VPN krävas vid anslutning?</string>
+    <string name="vpn_routes">Vidarekopplingsrutt</string>
     <string name="vpn_routes_hint">t.ex. 10.0.0.0/8</string>
     <string name="vpn_safe">Säkerhet</string>
     <string name="vpn_save">Spara</string>

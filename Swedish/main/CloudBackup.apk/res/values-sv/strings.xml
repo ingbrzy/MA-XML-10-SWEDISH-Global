@@ -13,12 +13,12 @@
     <string name="cloud_app_restore_app_and_data">Konfigurera enheten</string>
     <string name="cloud_app_restore_data">Personuppgifter och tidigare installerade appar visas på enheten automatiskt</string>
     <string name="cloud_app_dont_restore">Ställ in som en ny enhet</string>
-    <string name="cloud_app_restore_wifi_prompt">Återställ från Mi Cloud backup.</string>
+    <string name="cloud_app_restore_wifi_prompt">Återställ från Mi Cloud säkerhetskopia.</string>
     <string name="cloud_backup_detail_state">Automatisk säkerhetskopiering</string>
     <string name="cloud_backup_detail_title">Hemskärm, appar och inställningar.</string>
-    <string name="cloud_backup_detail_state_summary">Skapa säkerhetskopior i Mi Cloud automatiskt vid enheten är ansluten till Wi-Fi.</string>
+    <string name="cloud_backup_detail_state_summary">Skapa säkerhetskopior i Mi Cloud automatiskt när enheten är ansluten till Wi-Fi.</string>
     <string name="cloud_backup_detail_frequence">Schemalägg säkerhetskopiering</string>
-    <string name="cloud_backup_detail_time">Senaste backup:%1$s</string>
+    <string name="cloud_backup_detail_time">Senaste säkerhetskopiering: %1$s</string>
     <string name="cloud_backup_detail_manage">Hantera säkerhetskopior</string>
     <string name="cloud_backup_derail_size_summary">Storlek: %s</string>
     <string name="cloud_back_up_opening">Vänta lite…</string>
@@ -30,16 +30,16 @@
     <string name="cloud_back_up_share_activity_title">Uppgradera Mi Kontot</string>
     <string name="cloud_back_up_share_activity_discription">Få mer lagringsutrymme, dagliga säkerhetskopior, och mer.</string>
     <string name="cloud_back_up_share_activity_confirm">Uppgradera</string>
-    <string name="cloud_back_up_detail_discription">"Dessa kommer att säkerhetskopieras till Mi Cloud när enheten är ansluten till Wi-Fi: 
+    <string name="cloud_back_up_detail_discription">"Dessa punkter kommer att säkerhetskopieras till Mi Cloud när enheten är ansluten till Wi-Fi: 
 *\u0009\u0009\u0009\u0009Appar, utseende på Hemskärmen, och bakgrundsbilder 
 *\u0009\u0009\u0009\u0009Alarm, klocka, och tidsinställningar 
 *\u0009\u0009\u0009\u0009Notifikationsinställningar 
 *\u0009\u0009\u0009\u0009MIUI och systeminställningar 
-\"Note: Data för appar som du har installerat kommer inte att säkerhetskopieras till Mi Cloud.\""</string>
-    <string name="cloud_app_no_data">Inga säkerhetskopieringar</string>
+\"Notera: Data för appar som du har installerat kommer inte att säkerhetskopieras till Mi Cloud.\""</string>
+    <string name="cloud_app_no_data">Inga säkerhetskopior</string>
     <string name="cloud_app_restore_error">Kunde inte återställa</string>
     <string name="cloud_app_restore_success">Appar återställda</string>
-    <string name="cloud_app_backup_success">Säkerhetskopiering framgångsrikt skapat</string>
+    <string name="cloud_app_backup_success">Säkerhetskopierade appar skapat</string>
     <string name="cloud_app_check_data">Pratar med Mi Cloud…</string>
     <string name="cloud_app_no_network">Kan inte ansluta till nätverket</string>
     <string name="button_delete">Ta bort</string>
@@ -55,7 +55,7 @@
     <string name="latest_backup_time_loading">Laddar…</string>
     <string name="start_backup_to_micloud">Säkerhetskopiera appar till Mi Cloud</string>
     <string name="backing_up_to_micloud">Säkerhetskopierar…</string>
-    <string name="restore_from_cloud">Återställ från Mi Cloud backup</string>
+    <string name="restore_from_cloud">Återställ från Mi Cloud säkerhetskopia</string>
     <string name="backup_to_cloud">Säkerhetskopiera app</string>
     <string name="menu_item_sort">Sortera efter</string>
     <string name="menu_item_sort_name">Namn</string>
@@ -65,15 +65,15 @@
     <string name="managespace_delete_backup">Ta bort</string>
     <string name="error_unknown">Något gick snett</string>
     <string name="backup_size">Storlek: %s</string>
-    <string name="device_delete_prompt">Radera säkerhetskopia av %s?</string>
+    <string name="device_delete_prompt">Ta bort säkerhetskopia av %s?</string>
     <string name="desktop_waiting">Väntar</string>
     <string name="desktop_downloading">Laddar ner</string>
     <string name="desktop_installing">Installerar</string>
     <string name="desktop_wait_wifi">Väntar</string>
     <string name="desktop_failed">Fel</string>
-    <string name="recover_from_micloud">Återställ från Mi Cloud backup</string>
+    <string name="recover_from_micloud">Återställ från Mi Cloud säkerhetskopia</string>
     <string name="click_try_to_restore_again">Tryck för att försöka igen</string>
-    <string name="open_wifi">Sätt Wi-Fi på nu</string>
+    <string name="open_wifi">Aktivering av Wi-Fi krävs</string>
     <string name="open_wifi_description">Anslut till ett Wi-Fi nätverk för att återställa appen</string>
     <string name="open_wifi_setting">Wi-Fi-inställningar</string>
     <string name="name_model">"%1$s's %2$s"</string>
@@ -86,11 +86,11 @@
     <string name="wait_icon_download">Ladda ner appikoner</string>
     <string name="download_settings_fail">Kunde inte ladda hem inställningar för Hemskärm</string>
     <string name="backup_fail_wifi_needed">Det gick inte att säkerhetskopiera, Wi-Fi behövs.</string>
-    <string name="backup_success">Säkerhetskopiering framgångsrikt skapat</string>
-    <string name="cloud_task_in_process">Stoppa %s och ta bort denna säkerhetskopiering? Du kan inte ångra denna åtgärd.</string>
+    <string name="backup_success">Säkerhetskopia framgångsrikt skapat</string>
+    <string name="cloud_task_in_process">Stoppa %s och ta bort denna säkerhetskopia? Du kan inte ångra denna åtgärd.</string>
     <string name="cloud_back_up_task">Säkerhetskopierar…</string>
     <string name="cloud_restore_task">Återställer…</string>
-    <string name="cloud_restore_from_other_device">Stoppa återställning från %s och ta bort denna säkerhetskopiering? Du kan inte ångra denna åtgärd.</string>
+    <string name="cloud_restore_from_other_device">Stoppa återställning från %s och ta bort denna säkerhetskopia? Du kan inte ångra denna åtgärd.</string>
     <string name="back_up_task_in_process">Säkerhetskopierar…</string>
     <string name="restore_task_in_process">Återställer…</string>
     <string name="restore_task_cancelling">Avbryter…</string>
@@ -100,26 +100,26 @@
     <string name="about_to_recover">Vänta en stund…</string>
     <string name="success_open_cloudbackup">Aktiverat säkerhetskopiering för Hemskärmsinställningar</string>
     <string name="as_new_device">Ersätt föregående Hemskärm och inställningar</string>
-    <string name="as_new_device_summary">Ta bort föregående säkerhetskopieringar ifrån Mi Cloud</string>
+    <string name="as_new_device_summary">Ta bort tidigare säkerhetskopior från Mi Cloud</string>
     <string name="restore_data_summary">Denna finess kräver en internetanslutning.</string>
     <string name="query_restore_summary">Hitta en Mi Cloud säkerhetskopiering för denna enhet. Återställ appar på Hemskärmen och inställningar eller använda den som en ny enhet och ta bort gamla Mi Cloud säkerhetskopieringar?</string>
-    <string name="restore_home_screen_apps">Återställ från Mi Cloud backup</string>
+    <string name="restore_home_screen_apps">Återställ från Mi Cloud säkerhetskopia</string>
     <string name="query_restore_description">Återställ appar på Hemskärmen och inställningar genom denna säkerhetskopiering. Detta kommer skriva över data för appar som redan är installerade på denna enhet. Appar som inte ingår i säkerhetskopieringen kommer bli flyttade till den sista Hemskärmen.</string>
-    <string name="restore_from_this_device">Återställ genom denna säkerhetskopiering</string>
+    <string name="restore_from_this_device">Återställ genom denna säkerhetskopia</string>
     <string name="confirm_cancel_restore_title">Avbryt återställning?</string>
     <string name="confirm_cancel_restore_positive">Fortsätt</string>
     <string name="confirm_cancel_restore_negative">Avbryt</string>
     <string name="confirm_restore_title">Återställ</string>
     <string name="confirm_restore_summary">Hemskärmen kommer starta om och appar kommer bli nedladdade automatiskt när man ansluter till Wi-Fi</string>
     <string name="confirm_restore">Återställ</string>
-    <string name="cloud_backup_have_data">Hittade säkerhetskopiering i Mi Cloud</string>
+    <string name="cloud_backup_have_data">Hittade säkerhetskopia i Mi Cloud</string>
     <string name="cloud_backup_select_recover">Välj säkerhetskopiering ifrån Mi Cloud</string>
     <string name="backup_finished_notification_content">Säkerhetskopierade appar på Hemskärmen, systeminställningar, etc.</string>
     <string name="restore_finished_notification_content">Återställde appar på Hemskärmen, systeminställningar, etc.</string>
     <string name="backup_now">Säkerhetskopiera nu</string>
     <string name="restore_unfinished">Återställer, försök igen senare</string>
     <string name="remove_unfinished">Tar bort, försök igen senare</string>
-    <string name="backup_successfully">Säkerhetskopiering framgångsrikt skapat</string>
+    <string name="backup_successfully">Säkerhetskopia skapad</string>
     <string name="btn_back">Bakåt</string>
     <string name="btn_continue">Fortsätt</string>
     <string name="btn_skip">Hoppa över detta steg</string>
@@ -127,7 +127,7 @@
     <string name="can_not_restore_in_lite_mode">Det går inte att återställa i begränsat läge</string>
     <string name="can_not_backup_in_lite_mode">Det går inte att backa upp i begränsat läge</string>
     <string name="restore_data_title">Återställa data</string>
-    <string name="provision_error_connect_msg">Testa nätverket och försök igen. Säkerhetskopieringar är inte tillgängliga när enheten är offline.</string>
+    <string name="provision_error_connect_msg">Testa nätverket och försök igen. Säkerhetskopior är inte tillgängliga när enheten är offline.</string>
     <string name="provision_error_connect_title">Kan inte ansluta</string>
     <string name="authentication_failed">Kunde inte verifiera konto.</string>
     <string name="no_account">Inte inloggad till Mi-konto.</string>

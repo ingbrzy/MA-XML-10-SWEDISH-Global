@@ -4,7 +4,7 @@
     <string name="app_name">Tillhandahållande</string>
     <string name="system_navigation_mode">Navigera i systemet</string>
     <string name="input_method_setting">Välj tangentbord</string>
-    <string name="input_method_category">Välj standardtangentbort som du kommer användas för att skriva meddelanden, anteckningar och annat. Du kan installera ett tredjepartstangentbord senare.</string>
+    <string name="input_method_category">Välj standardtangentbord som du kommer användas för att skriva meddelanden, anteckningar och annat. Du kan installera ett tredjepartstangentbord senare.</string>
     <string name="provision_inputmethod_policy_description">"
 Se den valda tangentbords sekretesspolicyn."</string>
     <string name="provision_inputmethod_policy_description1">Integritetspolicy</string>

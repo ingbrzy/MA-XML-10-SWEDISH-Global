@@ -93,7 +93,7 @@ Ange telefonnumret kopplat till ditt nya SIM-kort för att återaktivera %s"</st
     <string name="activate_popup_confirm_error_device_id">Försök igen</string>
     <string name="activate_feature_mx">Mi Meddelande</string>
     <string name="activate_feature_mx_and_voip">Mi Meddelande och Röst</string>
-    <string name="activate_feature_voip">Mi Message Voice</string>
+    <string name="activate_feature_voip">Mi Message Röst</string>
     <string name="activate_feature_mms_sync">Synkronisera meddelanden</string>
     <string name="activate_feature_call_log_sync">Synkronisera samtalshistorik</string>
     <string name="activate_feature_find_device">Hitta enhet</string>
@@ -118,10 +118,10 @@ Ange telefonnumret kopplat till ditt nya SIM-kort för att återaktivera %s"</st
     <string name="agree">Tillåt</string>
     <string name="privacy_revoke_tips">När du upphävt befogenheterna kommer appen sluta samla in data och all data kommer tas bort från servrarna. Synkronisera med Mi Cloud, Mi Message och andra meddelandefunktioner kommer inte vara tillgängliga. Upphäv befogenheter ändå?</string>
     <string name="privacy_revoke_failed_msg">Aktivering kräver att befogenheter är beviljade så att Meddelande kan få ditt telefonnummer.</string>
-    <string name="waiting_sim_in_service">waiting sim in service</string>
-    <string name="checking_client">checking client env</string>
-    <string name="error_sim_not_in_service">sim not in service</string>
-    <string name="error_checking_client">client env error</string>
-    <string name="error_network_io">network error</string>
-    <string name="error_no_send_sms_permission">no send sms permission</string>
+    <string name="waiting_sim_in_service">väntar på att SIM är i tjänst</string>
+    <string name="checking_client">kontrollera klientmiljö</string>
+    <string name="error_sim_not_in_service">SIM inte i tjänst</string>
+    <string name="error_checking_client">fel klientmiljö</string>
+    <string name="error_network_io">nätverksfel</string>
+    <string name="error_no_send_sms_permission">inte behörig att skicka till SMS</string>
 </resources>
