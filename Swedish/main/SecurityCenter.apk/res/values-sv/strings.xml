@@ -1367,9 +1367,7 @@ din enhet"</string>
     <string name="menu_text_antispam">Blockeringslista</string>
     <string name="menu_text_license_manager">Behörigheter</string>
     <string name="menu_text_garbage_cleanup">Städaren</string>
-    <string name="menu_text_garbage_cleanup_danger">%s över</string>
     <string name="menu_text_power_manager">Batterianvändning</string>
-    <string name="menu_text_power_percent_title">Batteri %s</string>
     <string name="menu_text_power_percent_title_default">Batteri</string>
     <string name="last_check_canceled">Föregående skanning avbröts</string>
     <string name="examination_score_100">Allt ser bra ut!</string>
