@@ -19,7 +19,7 @@
     <string name="confirm_restore_message">Återställ kamerans standardinställningar?</string>
     <string name="confirm_location_title">Kom ihåg foto platser?</string>
     <string name="confirm_location_message">Tagga dina bilder och videoklipp med de platser där de tas. Andra program kan få tillgång till denna information tillsammans med dina sparade bilder.</string>
-    <string name="confirm_location_alert">Kom ihåg foto platser</string>
+    <string name="confirm_location_alert">Kom ihåg fotoplatser</string>
     <string name="start_capture">OK</string>
     <string name="pref_camera_recordlocation_title">Spara platsinformation</string>
     <string name="pref_camera_recordlocation_entry_off">Av</string>
@@ -272,7 +272,7 @@
     <string name="simple_mode_button_text_color_effect">Stäng av filter</string>
     <string name="simple_mode_button_text_slow_video">Stäng av time-lapse</string>
     <string name="simple_mode_button_text_fast_video">Stäng av slow-motion</string>
-    <string name="see_qrcode_detals">Visa QR-detaljer</string>
+    <string name="see_qrcode_detals">Visa QR-koddetaljer</string>
     <string name="pref_camera_watermark_title">Lägg till tidsstämpel i foto</string>
     <string name="pref_dualcamera_watermark_title">Vattenstämpel för Dubbelkamera</string>
     <string name="pref_camera_device_watermark_title">Vattenstämpel på foto</string>
@@ -380,6 +380,7 @@
     <string name="pref_camera_beauty">Försköna</string>
     <string name="pref_camera_beauty_deep">Försköna</string>
     <string name="pref_camera_asd_night_title">Förbättra svagljusa foton automatiskt</string>
+    <string name="pref_camera_super_resolution_title">Aktivera SR</string>
     <string name="simple_mode_button_text_scene">Stäng av Scenläge</string>
     <string name="pref_camera_peak_title">Fokus peaking</string>
     <string name="pref_camera_peak_entry_off">Av</string>
@@ -429,6 +430,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Djupeffekt</string>
     <string name="portrait_mode_use_hint">"Porträttläge gör bakgrunden suddig
  och frambringar personerna förgrunden."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Fyrkant</string>
     <string name="simple_mode_button_text_square">Stäng av Fyrkant</string>
     <string name="face_beauty_smart">Prydlig</string>
@@ -443,6 +445,7 @@
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Lägen</string>
     <string name="button_front_camera_title">Ta en selfie</string>
     <string name="button_normal_video_title">Spela in video</string>
@@ -537,4 +540,17 @@ och optimerar dina foton baserat på denna information"</string>
     <string name="lens_dirty_detected_title_front">Främre kameralins är smutsig</string>
     <string name="lens_dirty_detected_content">"Det verkar som att din kameralins är smutsig.
 Rengör linsen för bättre bilder."</string>
+    <string name="lighting_hint_title">Studioljus</string>
+    <string name="lighting_hint_usage">"Du kan använda studioljus
+i Porträtt läge"</string>
+    <string name="lighting_hint_needed">Placera ditt objekt i strålkastaren</string>
+    <string name="lighting_hint_too_far">För kameran närmare</string>
+    <string name="lighting_hint_too_close">För kameran längre bort</string>
+    <string name="lighting_pattern_nature">Naturlig</string>
+    <string name="lighting_pattern_stage">Scen</string>
+    <string name="lighting_pattern_movie">Film</string>
+    <string name="lighting_pattern_rainbow">Regnbåge</string>
+    <string name="lighting_pattern_leaf">Löv</string>
+    <string name="lighting_pattern_dot">Punkter</string>
+    <string name="lighting_pattern_shutter">Persienner</string>
 </resources>

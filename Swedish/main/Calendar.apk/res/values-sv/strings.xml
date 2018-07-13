@@ -34,7 +34,9 @@
     <string name="alert_reminder_expired">Utgånget</string>
     <string name="alert_title">Kalendernotifikationer</string>
     <string name="anniversary_event_title">Årsdag: %1$s</string>
+    <string name="anniversary_secondary_tag">Årsdag</string>
     <string name="app_label">Kalender</string>
+    <string name="birthday_born">Födelsedatum</string>
     <string name="birthday_calendar_display_name">Påminnelser för födelsedagar</string>
     <string name="birthday_event_description_a_week_ago">En vecka sedan</string>
     <string name="birthday_event_description_a_week_later">En vecka till</string>
@@ -74,6 +76,7 @@
     <string name="countdown_event_title">Nedräkning: %1$s</string>
     <string name="countdown_notify_before_3_day_title">Nedräkning: %1$s om 3 dagar</string>
     <string name="countdown_notify_title">Nedräkning: %1$s</string>
+    <string name="countdown_secondary_tag">Nedräkning</string>
     <string name="countdown_today">Idag</string>
     <string name="create_an_account_desc">"Kalendern fungerar bättre med ett Mi-konto.
 
@@ -120,6 +123,7 @@
     <string name="edit_event_birthday_import_from_contact">Importera födelsedag från kontakter</string>
     <string name="edit_event_birthday_name_empty_hint">Ange ett namn</string>
     <string name="edit_event_birthday_name_hint">Namn</string>
+    <string name="edit_event_birthday_reminder_3_days_before">Påminn 3 dagar före också</string>
     <string name="edit_event_birthday_reminder_time">Påminnelsetid</string>
     <string name="edit_event_calendar_label">Kalender</string>
     <string name="edit_event_choose_date">Välj datum</string>
@@ -180,6 +184,10 @@
     <string name="global_football_final">Final</string>
     <string name="global_football_no_match">Inga fotbollsmatcher är schemalagda idag.</string>
     <string name="global_onthisday_com">OnThisDay.com</string>
+    <string name="guide_card_import">Importera</string>
+    <string name="guide_card_primary_text">Importera dina vänners födelsedagar</string>
+    <string name="guide_card_second_text">Aldrig missar viktiga datum</string>
+    <string name="guide_card_title">Importera födelsedagar</string>
     <string name="hint_attendees">Gäst</string>
     <string name="hint_description">Beskrivning</string>
     <string name="hint_what">Händelsenamn</string>
@@ -417,12 +425,4 @@ Du kan också lägga till påminneler så du inte missar något viktigt."</strin
     <string name="xiaomi_calendar_display_name">Mi Account-kalender</string>
     <string name="yearly">Varje år (%s)</string>
     <string name="yearly_plain">Varje år</string>
-    <string name="anniversary_secondary_tag">Årsdag</string>
-    <string name="birthday_born">Födelsedatum</string>
-    <string name="countdown_secondary_tag">Nedräkning</string>
-    <string name="edit_event_birthday_reminder_3_days_before">Påminn 3 dagar före också</string>
-    <string name="guide_card_import">Importera</string>
-    <string name="guide_card_primary_text">Importera dina vänners födelsedagar</string>
-    <string name="guide_card_second_text">Aldrig missar viktiga datum</string>
-    <string name="guide_card_title">Importera födelsedagar</string>
 </resources>

@@ -879,6 +879,16 @@ Sample Rate"</string>
     <string name="brightness_title">Ljusstyrka</string>
     <string name="bt_hci_snoop_log">Bluetooth HCI snokningslogg</string>
     <string name="bt_hci_snoop_log_summary">Fånga alla Bluetooth HCI-paket till en fil</string>
+    <string name="bt_ldac_declaration">När Bluetoothenheten stöder LDAC kommer den anslutas som standard. LDAC ger en högkvalitativ ljudupplevelse men ger också en högre energikonsumtion. Eftersynkronisering kan uppstå pga hårdvarubegränsningar i Bluetoothenheten</string>
+    <string name="bt_ldac_dialog_summary">"LDAC ger en högkvalitativ ljudupplevelse men ger också en högre energiförbrukning
+Denna funktion kan avaktiveras i [Settings]"</string>
+    <string name="bt_ldac_dialog_title">Den nuvarande enheten stöder LDAC som har anslutits som standard:</string>
+    <string name="bt_ldac_open_dialog_summary">LDAC ger en högkvalitativ ljudupplevelse men ökar också energikonsumtionen. Eftersynkronisering kan uppstå pga hårdvarubegränsningar i Bluetoothenheten</string>
+    <string name="bt_ldac_open_dialog_title">Är du säker på att du vill aktivera LDAC?</string>
+    <string name="bt_ldac_pre_summary">Ger en högkvalitativ ljudupplevelse</string>
+    <string name="bt_ldac_property">Attribut</string>
+    <string name="bt_ldac_remember_choice">Kom ihåg detta val</string>
+    <string name="bt_ldac_settings">Inställningar</string>
     <string name="bt_rarely_used_device_title">Enheter som används sällan (%d)</string>
     <string name="bt_trace_log">Bluetooth spårningslogg</string>
     <string name="bt_trace_log_summary">Bluetooth spårningslogg</string>
@@ -1789,6 +1799,8 @@ Kontakta organisationens administratör om du vill veta mer."</string>
     <string name="firewall_temp_rule_reason">%2$s begränsad internetanslutning för %1$s</string>
     <string name="firewall_wifi_dialog_message">Den installerade appen kommer inte kunna ansluta till internet med Wi-Fi när denna funktion är av.</string>
     <string name="firmware_version">Androidversion</string>
+    <string name="flash_drive_backup_restore">Säkerhetskopiera eller återställ via USB</string>
+    <string name="flash_drive_backup_restore_summary">Anslut ett USB-minne</string>
     <string name="floating_window_switch_label">Aktivera svävande fönster</string>
     <string name="floating_window_switch_label_disable">Avaktivera svävande fönster</string>
     <string name="fluency_mode">Systemanimationer</string>
@@ -2163,6 +2175,7 @@ Du kan ändra detta senare under Inställningar > Appar och aviseringar."</strin
     <string name="lift_to_wake_title">Gå ur viloläget vid lyft</string>
     <string name="line_breaking_summary">Optimera radbrytning för paragrafer</string>
     <string name="line_breaking_title">Optimera meddelande</string>
+    <string name="link_speed">%1$d Mbit/s</string>
     <string name="list_bg_header_text">Om du begränsar bakgrundsanslutning, kommer inte nya appar att kunna ansluta till internet i bakgrunden efter att du installera dem. De kommer kanske inte kunna motta meddelanden eller ladda ner innehåll efter begränsningen.</string>
     <string name="list_empty_text">Tom</string>
     <string name="loading_notification_apps">Läser in appar ...</string>
@@ -2258,7 +2271,7 @@ Du kan ändra detta senare under Inställningar > Appar och aviseringar."</strin
     <string name="lock_screen_notifications_summary_show_profile">Visa allt innehåll i jobbaviseringarna</string>
     <string name="lock_screen_notifications_title">På låsskärmen</string>
     <string name="lock_screen_signature_summary">Detta meddelande kommer visas på låsskärmen</string>
-    <string name="lock_screen_signature_title">Ägarinfo för låsskärm</string>
+    <string name="lock_screen_signature_title">Ägarinfo på Låsskärmen</string>
     <string name="lock_screen_unlock_show">Hoppa över Låsskärmen</string>
     <string name="lock_screen_unlock_show_summary">Öppna Hemskärmen eller skriv ett lösenord direkt</string>
     <string name="lock_secure_after_timeout_click_me_to_change_text">Tryck för att ändra</string>
@@ -2505,6 +2518,7 @@ Det finns andra användare på enheten.
     <string name="memory_title">Tillgängligt: %1$s\u0009\u0009Totalt: %2$s</string>
     <string name="memory_usage">Minnesanvändning</string>
     <string name="memory_usage_apps">Minne som används av appar</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">%1$s genomsnittlig minnesanvändning de senaste 3 timmarna</string>
     <string name="menu_cancel">Släng</string>
     <string name="menu_check">Upplev</string>
@@ -2735,6 +2749,7 @@ Välj ditt operativsystem:"</string>
     <string name="nfc_how_it_works_got_it">OK</string>
     <string name="nfc_how_it_works_title">Betala vid en kassaterminal</string>
     <string name="nfc_more_title">Mer ...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Standardapp för betalning</string>
     <string name="nfc_payment_default_not_set">Har inte angetts</string>
     <string name="nfc_payment_favor_default">Använd alltid standardapp</string>
@@ -2804,8 +2819,8 @@ Välj ditt operativsystem:"</string>
     <string name="normal_smartcover_title">Ogenomskinlig frontlucka</string>
     <string name="not_battery_optimizing">Batterioptimering används inte</string>
     <string name="not_installed">Ej installerad för användaren</string>
-    <string name="notch_force_black_desc">Aktivera att mörklägga området runt \"flärpen\"</string>
-    <string name="notch_force_black_title">Dölj \"flärp\"</string>
+    <string name="notch_force_black_desc">Aktivera att mörklägga området runt sensorpanelen</string>
+    <string name="notch_force_black_title">Dölj sensorpanel</string>
     <string name="notes_privacy_password_role_instruction">Dina privata anteckningar kommer att sparas här.</string>
     <string name="notification_app_settings_button">Aviseringsinställningar</string>
     <string name="notification_badge_title">Tillåt aviseringsprick</string>
@@ -2935,8 +2950,9 @@ Appen kan också aktivera eller inaktivera Stör ej och ändra relaterade instä
     <string name="overlay_display_devices_title">Simulera sekundära skärmar</string>
     <string name="overlay_settings">Visa ovanpå andra appar</string>
     <string name="owner_info_settings_edit_text_hint">T.ex. Jockes Android.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Inget</string>
-    <string name="owner_info_settings_title">Låsskärmssignatur</string>
+    <string name="owner_info_settings_title">Signatur på Låsskärmen</string>
     <string name="owner_space">Primära utrymmet</string>
     <string name="packages_subtitle">Inkluderade paket</string>
     <string name="page_layout_1">Söndag, 16 Augusti</string>
@@ -3792,6 +3808,9 @@ Så här fäster du skärmen:
     <string name="second_space">Sekundärt utrymme</string>
     <string name="secondspace_category">Sekundära utrymmet</string>
     <string name="secondspace_delete_space_title">Ta bort Sekundära utrymmet</string>
+    <string name="secspace_fod_finger_tips">Det gick inte att verifiera. Försök igen.</string>
+    <string name="secspace_fod_finger_title">Verifiera ditt fingeravtryck</string>
+    <string name="secspace_fod_use_password">Ange lösenord</string>
     <string name="secure_keyguard_business_title">Konfigurera skärmlås</string>
     <string name="secure_lock_encryption_warning">Eftersom du har aktiverat en tillgänglighetstjänst används inte skärmlåset för att förbättra datakryptering på enheten.</string>
     <string name="security_dashboard_summary">Skärmlås, fingeravtryck</string>
@@ -3968,7 +3987,7 @@ Obs! Det går inte att låsa upp den här enheten med ett fingeravtryck. Kontakt
     <string name="show_non_rect_clip">Felsök icke-rektangulära klippningsoperationer</string>
     <string name="show_notification_channel_warnings">Visa varningar för notifikationskanal</string>
     <string name="show_notification_channel_warnings_summary">Visa en varning på skärmen när en app skickar en notifikation utan en giltig kanal</string>
-    <string name="show_owner_info_on_lockscreen_label">Visa signatur på låsskärmen</string>
+    <string name="show_owner_info_on_lockscreen_label">Visa signatur på Låsskärmen</string>
     <string name="show_password">Visa lösenord</string>
     <string name="show_password_summary">Visa tecknen en kort stund medan du skriver</string>
     <string name="show_profile_info_on_lockscreen_label">Visa profilinfo på den låsta skärmen</string>
@@ -4049,6 +4068,7 @@ Du kan ha angett fel PIN-kod."</string>
     <string name="sim_reenter_new">Skriv in ny pinkod igen</string>
     <string name="sim_select_card">Välj ett SIM-kort</string>
     <string name="sim_selection_required_pref">Du måste välja något</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM-kort</string>
     <string name="sim_setup_wizard_title">SIM-kort</string>
     <string name="sim_slot_empty">SIM-kortet är tomt</string>
@@ -4063,7 +4083,7 @@ Du kan ha angett fel PIN-kod."</string>
     <string name="slot_number">(Plats %1$d)</string>
     <string name="slot_status_title">IMEI-info</string>
     <string name="smallwindow_smartcover_title">Framsida med litet fönster</string>
-    <string name="smartcover_lock_or_unlock_screen_tittle">Smartskyddsläge</string>
+    <string name="smartcover_lock_or_unlock_screen_tittle">Smart cover</string>
     <string name="smartcover_sensitive_summary">Lås eller lås upp telefonen automatiskt med Smart Cover</string>
     <string name="smartcover_sensitive_title">Smart Cover</string>
     <string name="sms_application_title">Sms-app</string>
@@ -4116,6 +4136,7 @@ Detta är möjligt eftersom betrodda autentiseringsuppgifter har installerats p�
     <string name="status_bar_app_enable_message">Märken</string>
     <string name="status_bar_carrier_settings_no_sim_card">Inget SIM-kort</string>
     <string name="status_bar_key_position_custom">Ändra knapplägen</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="status_bar_screen_button_force_immersive_desc">Svep från underkanten av skärmen för att visa skärmknapparna</string>
     <string name="status_bar_screen_button_key_force_immersive">Dölj skärmknappar</string>
     <string name="status_bar_screen_key_back">Bakåtknapp</string>
@@ -4142,16 +4163,17 @@ Detta är möjligt eftersom betrodda autentiseringsuppgifter har installerats p�
     <string name="status_bar_settings_show_carrier_summary">Operatörsnamn visas fortfarande på Låsskärmen och i Notifikationspanelen när denna funktion är av</string>
     <string name="status_bar_settings_show_carrier_under_keyguard">Visa operatör när enheten är låst</string>
     <string name="status_bar_settings_show_floating_notification">Svävande notifikationer</string>
-    <string name="status_bar_settings_show_floating_notification_summary">Svävande notifikationer försvinner automatiskt efter att de visas på toppen av skärmen</string>
+    <string name="status_bar_settings_show_floating_notification_summary">Tillåt viktiga notifikationer högst upp på skärmen</string>
     <string name="status_bar_settings_show_flow_info">Visa datanvändning</string>
     <string name="status_bar_settings_show_home_message">Appikon bricka</string>
     <string name="status_bar_settings_show_keyguard_notification">Notifikationer på låsskärmen</string>
+    <string name="status_bar_settings_show_keyguard_notification_summary">Tillåt viktiga notifikationer på Låsskärmen</string>
     <string name="status_bar_settings_show_network_speed">Visa anslutningshastighet</string>
     <string name="status_bar_settings_show_notification_icon">Visa ikoner för notifikationer</string>
     <string name="status_bar_settings_show_wifi_name">Visa Wi-Fi</string>
     <string name="status_bar_settings_status_bar">Statusfält</string>
     <string name="status_bar_settings_style">Utseende för Notifikationer &amp; Snabbknappar</string>
-    <string name="status_bar_settings_toggle_collapse_after_clicked">Kollapsa efter kontakt</string>
+    <string name="status_bar_settings_toggle_collapse_after_clicked">Stäng efter tryck</string>
     <string name="status_bar_settings_toggle_position">Snabbknappar</string>
     <string name="status_bar_settings_user_fold">Mapp för Notifikationer</string>
     <string name="status_bar_settings_user_fold_summary">Alla oviktiga notifikationer kommer visas i en egen mapp</string>
@@ -4340,6 +4362,7 @@ Du kan fortsätta, men appar som har flyttats till den här platsen kan vara ryc
     <string name="suggestion_remove">Ta bort</string>
     <string name="suggestions_title">Förslag</string>
     <string name="sum_carrier_select">Välj en nätverksoperatör</string>
+    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">%1$s till %2$s</string>
     <string name="super_resolution_access_title">Tillgängliga appar</string>
     <string name="super_resolution_desc">Använder en AI-algoritm för att göra bilder skarpare</string>

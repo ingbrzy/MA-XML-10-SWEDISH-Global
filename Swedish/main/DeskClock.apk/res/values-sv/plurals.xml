@@ -32,16 +32,4 @@
         <item quantity="other">%1$d sekunder</item>
         <item quantity="one">%1$d sekund</item>
     </plurals>
-    <plurals name="auto_silence_summary">
-        <item quantity="other">Alarm kommer tystna efter %d minuter</item>
-        <item quantity="one">Alarm kommer tystna efter %d minut</item>
-    </plurals>
-    <plurals name="timer_item_duration_display_minutes">
-        <item quantity="other">%1$d minuter</item>
-        <item quantity="one">1 minut</item>
-    </plurals>
-    <plurals name="timer_item_duration_display_seconds">
-        <item quantity="other">%1$d sekunder</item>
-        <item quantity="one">1 sekund</item>
-    </plurals>
 </resources>

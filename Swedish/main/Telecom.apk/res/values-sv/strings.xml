@@ -68,6 +68,7 @@
     <string name="accessibility_wifi_two_bars">Wi-Fi: två staplar.</string>
     <string name="accessibility_wifi_three_bars">Wi-Fi: tre staplar.</string>
     <string name="accessibility_wifi_signal_full">Full signalstyrka för Wi-Fi.</string>
+    <string name="process_kernel_label">Operativsystemet Android</string>
     <string name="data_usage_uninstalled_apps">Borttagna appar</string>
     <string name="data_usage_uninstalled_apps_users">Borttagna appar och användare</string>
     <string name="tether_settings_title_usb">Internetdelning via USB</string>
@@ -406,7 +407,7 @@ uppspelningskvalitet"</string>
     <string name="can_not_dial_vt_while_voice_prompt">Kan inte starta ett videosamtal medan röstsamtal pågår</string>
     <string name="voice_dial_out">Röstsamtal</string>
     <string name="notification_AllMissedCallTitle">Alla missade samtal</string>
-    <string name="close">Stäng</string>
+    <string name="close">Avaktivera</string>
     <string name="callFailed_simError">SIM-korts fel</string>
     <string name="incall_error_supp_service_unknown">Tjänsten stöds inte.</string>
     <string name="incall_error_power_off">Stäng av flygplansläge för att ringa ett samtal.</string>

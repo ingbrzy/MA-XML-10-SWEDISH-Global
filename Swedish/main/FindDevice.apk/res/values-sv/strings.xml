@@ -47,8 +47,8 @@
     <string name="captcha">Captcha</string>
     <string name="stop_on_empty_password">Lösenord får inte vara tomt</string>
     <string name="stop_on_empty_captcha">Captcha får inte vara tomt</string>
-    <string name="verifing_account">Verifiera lösenord…</string>
-    <string name="doing_extra_login_steps">Verifiera logga in…</string>
+    <string name="verifing_account">Verifierar lösenord…</string>
+    <string name="doing_extra_login_steps">Verifierar logga in…</string>
     <string name="adding_or_updating_account">Uppdaterar konto…</string>
     <string name="unlocking">Aktiverar…</string>
     <string name="unlock">Aktivera</string>
@@ -70,7 +70,7 @@ Logga in på i.mi.com och försöka låsa upp din enhet därifrån."</string>
     <string name="passport_error_empty_vcode">Ange verifieringskod</string>
     <string name="passport_checking_vcode">Kontrollerar lösenord…</string>
     <string name="unlock_error_wrong_vcode">Koden du angav är felaktig</string>
-    <string name="passport_notification_processing">Berarbetar…</string>
+    <string name="passport_notification_processing">Bearbetar…</string>
     <string name="passport_notification_need_unlock_again">Försök att låsa upp igen</string>
     <string name="device_lost">Enheten är förlorad</string>
     <string name="device_locked">Enheten är låst</string>

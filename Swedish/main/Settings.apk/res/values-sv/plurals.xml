@@ -236,6 +236,10 @@
         <item quantity="other">Du har %1$d steg kvar från att rapportera bugg.</item>
         <item quantity="one">Du har %1$d steg kvar från att rapportera bugg.</item>
     </plurals>
+    <plurals name="show_reset_countdown">
+        <item quantity="other">Slutför %1$d steg för att fabriksåterställa</item>
+        <item quantity="one">Slutför %1$d steg för att fabriksåterställa</item>
+    </plurals>
     <plurals name="special_access_summary">
         <item quantity="other">%d appar får använda obegränsad data</item>
         <item quantity="one">1 app får använda obegränsad data</item>

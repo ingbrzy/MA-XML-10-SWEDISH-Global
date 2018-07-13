@@ -68,7 +68,7 @@
     <string name="pref_title_expand_cache_group">Show cachade objekt</string>
     <string name="pref_summary_expand_cache_group">Visa cacheinformation automatiskt</string>
     <string name="pref_category_title_auto_clean_settings">Påminn om att städa</string>
-    <string name="pref_title_clean_alert">Påminn om att rensa</string>
+    <string name="pref_title_clean_alert">Påminn om att städa</string>
     <string name="pref_summary_auto_clean_and_alert">Schemalägg att Städaren ska köra automatiskt</string>
     <string name="pref_category_title_other_clean_settings">Ytterligare inställningar</string>
     <string name="pref_summary_garbage_process_mode">Konfigurera notifikationer för när städningen körs</string>
@@ -91,6 +91,7 @@
     <string name="hints_apk_header_left">Paket</string>
     <string name="hints_residual_header_left">Överblivna filer</string>
     <string name="hints_memory_header_left">Minne</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Stora filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerade appar: %d</string>
     <string name="toast_resolve_apk_error">Lös apk fel</string>
@@ -298,6 +299,7 @@
     <string name="downloading">Laddar ner</string>
     <string name="installing">Installerar</string>
     <string name="start_install">Installera nu</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Öppna i webbläsaren</string>
     <string name="title_share_link">Dela URL</string>
     <string name="connecting">Ansluter…</string>
@@ -528,4 +530,28 @@
     <string name="wechat_msg_time_long">yyyy-MM-dd</string>
     <string name="wechat_msg_time_short">MM-dd</string>
     <string name="wechat_video_time">%1$s:%2$s</string>
+    <string name="main_total_garbage">Total_garbage</string>
+    <string name="whatsapp_group_image">Bild</string>
+    <string name="whatsapp_group_video">Video</string>
+    <string name="whatsapp_group_voice">Röst</string>
+    <string name="whatsapp_group_audio">Ljud</string>
+    <string name="whatsapp_group_wallpaper">Bakgrund</string>
+    <string name="whatsapp_group_gif">GIF</string>
+    <string name="whatsapp_group_document">Dokument</string>
+    <string name="whatsapp_btn_quick_cleanup">Rensa %s</string>
+    <string name="whatsapp_type_image_send">Skickade bilder</string>
+    <string name="whatsapp_type_image_recv">Mottagna bilder</string>
+    <string name="whatsapp_type_document_send">Skickade filer</string>
+    <string name="whatsapp_type_document_recv">Mottagna filer</string>
+    <string name="whatsapp_file_show_order">Idag</string>
+    <string name="whatsapp_clean_exit_confirm_title">Stop WhatsApp cleanup scan</string>
+    <string name="whatsapp_clean_exit_confirm_msg">Avbryt skanning</string>
+    <string name="whatsapp_clean_exit_confirm_cancel">Avbryt</string>
+    <string name="whatsapp_clean_exit_confirm_ok">Ok</string>
+    <string name="whatsapp_content_empty">Inga filer att städa</string>
+    <string name="whatsapp_delete_confirm_message">Ta bort?</string>
+    <string name="whatsapp_delete_done">Allt klart!</string>
+    <string name="whatsapp_title">Clean for whatsapp</string>
+    <string name="whatsapp_function_title">Clean for whatsapp</string>
+    <string name="whatsapp_function_summery">Clean WhatsApp junk file</string>
 </resources>

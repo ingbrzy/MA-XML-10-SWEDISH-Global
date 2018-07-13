@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="mortgage_repayment">
+        <item>Lika stora delar</item>
+        <item>Minskande avbetalning</item>
+    </string-array>
     <string-array name="operatorDescs">
         <item>vänsterparentes</item>
         <item>högerparentes</item>
@@ -18,10 +22,6 @@
         <item>cosinus</item>
         <item>pi</item>
         <item>lika med</item>
-    </string-array>
-    <string-array name="mortgage_repayment">
-        <item>Lika stora delar</item>
-        <item>Minskande avbetalning</item>
     </string-array>
     <string-array name="unit_data_order_currency_">
         <item>USD</item>

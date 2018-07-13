@@ -146,7 +146,7 @@ För att aktivera ditt konto, följ
     <string name="passport_license_host_unreachable">Kan inte ansluta till nätverket. Du kan se den här sidan på %s.</string>
     <string name="passport_login_failed">Kan inte logga in</string>
     <string name="passport_reg_failed">Kan inte ställa in konto</string>
-    <string name="passport_verification_failed">Autentiseringen misslyckades</string>
+    <string name="passport_verification_failed">Kunde inte verifiera konto</string>
     <string name="passport_reset_fail_title">Kunde inte återställa</string>
     <string name="passport_identification_expired">Verifieringkod gått ut, starta om</string>
     <string name="passport_bad_authentication">Ogiltigt användarnamn eller lösenord</string>

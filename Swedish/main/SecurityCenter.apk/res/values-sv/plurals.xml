@@ -164,6 +164,22 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="other">%s appar skyddas inte</item>
         <item quantity="one">%s app skyddas inte</item>
     </plurals>
+    <plurals name="menu_text_antivirus_2">
+        <item quantity="other">%d objekt</item>
+        <item quantity="one">%d objekt</item>
+    </plurals>
+    <plurals name="menu_text_antivirus_3">
+        <item quantity="other">%d dagar</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="menu_text_antispam_2">
+        <item quantity="other">%d objekt</item>
+        <item quantity="one">%d objekt</item>
+    </plurals>
+    <plurals name="menu_text_app_manager_2">
+        <item quantity="other">%d appar</item>
+        <item quantity="one">%d app</item>
+    </plurals>
     <plurals name="system_check_content">
         <item quantity="other">%1$d objekt säkrade</item>
         <item quantity="one">%1$d objekt säkra</item>

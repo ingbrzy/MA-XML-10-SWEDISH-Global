@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="add_alarm">Lägg till alarm</string>
+    <string name="add_clock">Lägga till klocka</string>
     <string name="add_timezone_title">Lägg till tidszon</string>
     <string name="alarm_alert_alert_silenced">Alarmet tystnar efter %d minuter.</string>
     <string name="alarm_alert_snooze_set">Snooza i %d minuter.</string>
@@ -36,6 +37,7 @@
     <string name="close_alarm">Stäng av</string>
     <string name="common_settings">Inställningar</string>
     <string name="confirm_abort">Ignorera</string>
+    <string name="content_desc_keep_screen">”Hålla skärmen på”-knappen</string>
     <string name="control_set_alarm">Ställ in alarm</string>
     <string name="control_set_alarm_with_existing">Alarm ställt: %s</string>
     <string name="day">1 dag</string>
@@ -54,6 +56,7 @@
     <string name="dialog_message_agree">Samtycker</string>
     <string name="dialog_message_for_contact_permission">För att tillgängliggöra födelsedag larm, behöver klocka åtkomst till dina kontakter. Håller med om?</string>
     <string name="dialog_message_negative">Godkänn inte</string>
+    <string name="dialog_message_not_remind">Visa ej igen</string>
     <string name="done">Klar</string>
     <string name="dynamic_alarm_speech">Smart larm</string>
     <string name="edit_alarm">Redigera alarm</string>
@@ -109,14 +112,14 @@
     <string name="menu_item_sort_by_name">Sortera efter namn</string>
     <string name="minute">1 minut</string>
     <string name="minutes">%d minuter</string>
-    <string name="module_download_cancel">Inte nu</string>
-    <string name="module_download_data_msg">För att göra smarta larm, naturljud och födelsedag larm tillgängliga, behöver klocka ansluta till internet och åtkomst till dina kontakter. Du måste också hämta ytterligare ljud. Använd mobildata för att hämta ytterligare ljud?</string>
-    <string name="module_download_data_msg_golbal">För att göra smarta larm och naturljud tillgänglig, behöver klocka hämta ytterligare ljud. Använd mobildata för att hämta ytterligare ljud?</string>
+    <string name="module_download_cancel">Nej tack</string>
+    <string name="module_download_data_msg">Klockan måste ansluta till internet för att ladda ner ljudfiler (20 Mb) för omgivande bullren och smarta larm. Du använder mobildata nu. Tillåta?</string>
+    <string name="module_download_data_msg_golbal">Klockan behöver ladda ner ljudfiler (20MB) för omgivande bullren och smarta larm. Du använder mobildata nu. Tillåta?</string>
     <string name="module_download_fail">Kunde inte hämta ytterligare ljud</string>
-    <string name="module_download_msg">För att göra smarta larm, naturljud och födelsedag larm tillgängliga, behöver klocka ansluta till internet och åtkomst till dina kontakter. Du måste också hämta ytterligare ljud. Håller med om?</string>
-    <string name="module_download_msg_golbal">För att göra smarta larm och naturljud tillgänglig, behöver klocka hämta ytterligare ljud. Håller med om?</string>
+    <string name="module_download_msg">Klockan måste ansluta till internet för att ladda ner ljudfiler för omgivande bullren och smarta larm. Tillåta?</string>
+    <string name="module_download_msg_golbal">Klockan behöver ladda ner ljudfiler för omgivande bullren och smarta larm. Tillåta?</string>
     <string name="module_download_no_network">Kunde inte ansluta till nätverket. Kontrollera dina nätverksinställningar och försök igen.</string>
-    <string name="module_download_ok">Håller &amp; nedladdning</string>
+    <string name="module_download_ok">Tillåta</string>
     <string name="module_download_success">Hämtades ytterligare ljud</string>
     <string name="module_download_title">Ytterligare ljud krävs</string>
     <string name="module_downloading">Hämta ytterligare audio…</string>
@@ -145,6 +148,7 @@
     <string name="shutdown_alarm_enable_summary">Alarmet kommer ringa efter avstängning</string>
     <string name="shutdown_alarm_title">Stänga av Alarm</string>
     <string name="silent_alarm_summary">Tyst</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Stäng av en gång %s</string>
     <string name="slider_text">Dra upp för att stänga av</string>
     <string name="snooze_confirm_cancel">Stänga av alarm</string>
@@ -153,6 +157,7 @@
     <string name="start_up">Starta</string>
     <string name="stopwatch_lap_empty_text">Inga varv</string>
     <string name="stopwatch_title">Tidtagarur</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Inställningar</string>
     <string name="system_time_settings_category_title">Tidsinställningar</string>
     <string name="temperature_unit">%1$s°</string>
@@ -183,10 +188,8 @@
     <string name="timer_item_picker_second">S</string>
     <string name="timer_new_item">Lägg till timer</string>
     <string name="timer_notify_text">Snooza eller avvisa timer.</string>
-    <string name="timer_pause_hint">Pausa</string>
     <string name="timer_pause_timer">Pausa timern</string>
     <string name="timer_running">Tiduret är</string>
-    <string name="timer_running_hint">Fortsätt</string>
     <string name="timer_start_alarm">Tiden är ute!</string>
     <string name="timer_start_timer">Starta timern</string>
     <string name="timer_title">Timer</string>
@@ -211,4 +214,6 @@
     <string name="worldcolock_timezone_date">MMM dd</string>
     <string name="worldcolock_timezone_gap">Timme</string>
     <string name="worldcolock_timezone_local">Samma som lokal tid</string>
+    <string name="timer_pause_hint">Pausa</string>
+    <string name="timer_running_hint">Fortsätt</string>
 </resources>
