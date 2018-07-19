@@ -421,7 +421,7 @@ ska svara"</string>
     <string name="root">Root tillgång</string>
     <string name="app_detail">Detaljer</string>
     <string name="app_version">Version:</string>
-    <string name="app_mobile">Mobil</string>
+    <string name="app_mobile">Mobile data</string>
     <string name="app_wifi">Wi-Fi</string>
     <string name="traffic_none">Inget</string>
     <string name="sorted_dialog_title">Sortera efter</string>
@@ -435,6 +435,7 @@ ska svara"</string>
     <string name="managed_user_title">Alla arbetsappar</string>
     <string name="pref_about_traffic_title">Inställningar för mobildataanvändning</string>
     <string name="pref_traffic_manage_title">Dataanvändning</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Mobildataabonnemang</string>
     <string name="pref_adjust_traffic_data">Ange datagräns</string>
     <string name="pref_category_title_other">Ytterligare inställningar</string>
@@ -898,7 +899,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="tether_over_limit_dialog_message">Du överskred gränsen för data vid internetdelning.</string>
     <string name="tether_over_limit_dialog_cancle_btn">Återställ internetdelning</string>
     <string name="network_traffic_warning_title">Dataanvändning av systemappar</string>
-    <string name="network_traffic_warning_text">MIUI kan inte beräkna dataanvändningsstatistik för individuella systemappar. Du kommer kunna se relaterad dataanvändningsinformation i appens detaljer om appen aktivt använder mobildata.</string>
+    <string name="network_traffic_warning_text">"MIUI can't calculate data usage stats for individual system apps here. You will be able to see the data usage related info in the app details in case this app is using mobile data actively."</string>
     <string name="optimize_manage_title">Öka hastigheten</string>
     <string name="cpu_usage_android_system">Androidsystem</string>
     <string name="cpu_usage_process_run_time_little_time">Mindre än 1 minut</string>
@@ -960,6 +961,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denna app kan sakta ner
 din enhet"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Avinstallera %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Avinstallera denna appen för att lösa problem med batterianvändningen.</string>
     <string name="om_ill_proc_type_wakelock_title">Denna appen blockerar strömsparläge och drar mycket batteri</string>
@@ -976,7 +978,7 @@ din enhet"</string>
     <string name="om_ill_proc_type_radio_detail">Åtgärda nätverksanslutningproblem</string>
     <string name="om_ill_proc_activity_title">Problem</string>
     <string name="power_center_title">Batterianvändning</string>
-    <string name="power_center_back">Tillbaka till Batterianvändning</string>
+    <string name="power_center_back">Tillbaka</string>
     <string name="power_center_auto_shutdown">Schemalägg när enheten ska startas och stängas av</string>
     <string name="power_center_ontime_boot">Tid när enheten ska startas</string>
     <string name="power_center_time_to_boot">Tid när enheten ska startas</string>
@@ -1018,6 +1020,7 @@ din enhet"</string>
     <string name="usage_type_data_send">Mobildata skickad</string>
     <string name="usage_type_no_coverage">Tid utan signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="power_screen">Skärm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1364,11 +1367,13 @@ din enhet"</string>
     <string name="menu_text_optimize_manage">Öka hastigheten</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_summary_networkassistants">Hantera ditt dataabonnemang</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Överskred datagränsen</string>
     <string name="menu_summary_networkassistants_3">Tillräckligt med mobildata återstår</string>
     <string name="menu_summary_networkassistants_4">Håller på att få slut på mobildata</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1381,12 +1386,14 @@ din enhet"</string>
     <string name="menu_summary_garbage_cleanup">Inga skräpfiler hittades</string>
     <string name="menu_summary_garbage_cleanup_2">Skräpstorlek</string>
     <string name="menu_summary_garbage_cleanup_3">Rensa skräp nu</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Batterianvändning</string>
     <string name="menu_summary_power_manager">Batterispararen ger mer tid mellan laddningarna</string>
     <string name="menu_summary_power_manager_1">Batteriet är fulladdat</string>
     <string name="menu_summary_power_manager_2">%s återstår</string>
     <string name="menu_summary_power_manager_3">Anslut laddare</string>
     <string name="menu_summary_power_manager_4">%s tills fulladdad</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Föregående skanning avbröts</string>
     <string name="examination_score_100">Allt ser bra ut!</string>
     <string name="examination_score_80_100">Några objekt kan optimeras</string>
@@ -1724,7 +1731,7 @@ din enhet"</string>
     <string name="title_of_app_manage">Appar</string>
     <string name="tips_of_app_manage">Spara lagringsutrymme genom att ta bort appar som sällan används</string>
     <string name="title_of_auto_launch_manage">Starta automatiskt</string>
-    <string name="tips_of_auto_launch_manage">Förhindra appar som sällan används ifrån att starta automatiskt</string>
+    <string name="tips_of_auto_launch_manage">Förhindra appar som sällan används från att starta automatiskt</string>
     <string name="close">Stäng</string>
     <string name="clear_garbage">Rensa skräp för att frigöra utrymme</string>
     <string name="booster_immediately">Boosta</string>
@@ -1752,6 +1759,7 @@ din enhet"</string>
     <string name="card_main_deepclean_wechat_action">Rensa</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1768,7 +1776,7 @@ din enhet"</string>
     <string name="card_main_private_space_title">Sekundärt utrymme</string>
     <string name="card_main_private_space_summary">Att använda det Sekundära utrymmet är som att ha två enheter</string>
     <string name="card_main_private_space_action">Skapa</string>
-    <string name="card_main_xspace_title">Dual Apps</string>
+    <string name="card_main_xspace_title">Dubbelappar</string>
     <string name="card_main_xspace_summary">Skapa dubbla konton för appar</string>
     <string name="card_main_xspace_action">Skapa</string>
     <string name="card_main_overscroll_tips">Säkerhet bäst</string>
@@ -1994,7 +2002,7 @@ din enhet"</string>
     <string name="add_game_notification_summary">Tryck för att starta &amp; Öka prestanda</string>
     <string name="app_manager_title">Hantera appar</string>
     <string name="app_manager_uninstall">Avinstallera</string>
-    <string name="app_manager_bipartition">Dual Apps</string>
+    <string name="app_manager_bipartition">Dubbelappar</string>
     <string name="app_manager_perm">Behörigheter</string>
     <string name="app_manager_app_update">Uppdateringar</string>
     <string name="app_manager_details_storage_title">Lagring</string>
@@ -2016,9 +2024,9 @@ din enhet"</string>
     <string name="app_manager_dlg_cancel">Avbryt</string>
     <string name="app_manager_show_detail_infos">Visa alla</string>
     <string name="app_manager_start_by">Startad av %s</string>
-    <string name="app_manager_uninstall_xspace_app_dlg_msg">Avinstallation av en Dual App kommer ta bort all applikationsdata.</string>
-    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Den andra instansen av Dual Apps kommer tas bort samt all applikationsdata.</string>
-    <string name="app_manager_uninstall_xspace_app_dlg_title">Avinstallera Dual App?</string>
+    <string name="app_manager_uninstall_xspace_app_dlg_msg">Avinstallation Dubbelappen kommer ta bort all applikationsdata.</string>
+    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Den andra instansen av Dubbelappen kommer tas bort samt all applikationsdata.</string>
+    <string name="app_manager_uninstall_xspace_app_dlg_title">Avinstallera Dubbelapp?</string>
     <string name="app_manager_appupdate_remind">Meddela om uppdateringar</string>
     <string name="app_usage_never">Aldrig använd</string>
     <string name="app_usage_recently">Nyligen använd</string>
@@ -2287,8 +2295,8 @@ din enhet"</string>
     <string name="gamebox_type_gesture">Svep för att visa</string>
     <string name="gb_first_window_title">Speloptimering</string>
     <string name="gb_first_window_summary">Förbättra hastighet och prestanda på systemnivå</string>
-    <string name="gb_first_window_gamebox_summary_four">Rensa cache, gör skärminspelningar och skärmdumpar</string>
-    <string name="gb_first_window_gamebox_summary_six">Använd snabbsvar, gör skärminspelningar och skärmdumpar</string>
+    <string name="gb_first_window_gamebox_summary_four">Use quick replies, make screen recordings and screenshots</string>
+    <string name="gb_first_window_gamebox_summary_six">Clear cache, make screen recordings and screenshots</string>
     <string name="gb_first_window_handsfree_title">Samtal via hands-free</string>
     <string name="gb_first_window_handsfree_summary">Aktivera högtalare automatiskt</string>
     <string name="gb_first_window_antimsg_title">Intelligenta notifikationer</string>

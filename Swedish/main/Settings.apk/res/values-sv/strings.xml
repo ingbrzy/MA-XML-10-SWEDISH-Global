@@ -2034,7 +2034,6 @@ Du kan ändra detta senare under Inställningar > Appar och aviseringar."</strin
     <string name="instant_app_details_summary">Läs mer på %1$s</string>
     <string name="instant_apps_account">Konto för snabbappar</string>
     <string name="instruction_privacy_password">Detta lösenord skyddar följande</string>
-    <string name="instruction_title">Instruktioner</string>
     <string name="insufficient_storage">Inte tillräckligt med lagringsutrymme.</string>
     <string name="intent_sender_account_label">Konto:</string>
     <string name="intent_sender_sendbroadcast_text">Skicka broadcast</string>
@@ -2175,6 +2174,7 @@ Du kan ändra detta senare under Inställningar > Appar och aviseringar."</strin
     <string name="lift_to_wake_title">Gå ur viloläget vid lyft</string>
     <string name="line_breaking_summary">Optimera radbrytning för paragrafer</string>
     <string name="line_breaking_title">Optimera meddelande</string>
+    <string name="link_speed">%1$d Mbit/s</string>
     <string name="list_bg_header_text">Om du begränsar bakgrundsanslutning, kommer inte nya appar att kunna ansluta till internet i bakgrunden efter att du installera dem. De kommer kanske inte kunna motta meddelanden eller ladda ner innehåll efter begränsningen.</string>
     <string name="list_empty_text">Tom</string>
     <string name="loading_notification_apps">Läser in appar ...</string>
@@ -2517,6 +2517,7 @@ Det finns andra användare på enheten.
     <string name="memory_title">Tillgängligt: %1$s\u0009\u0009Totalt: %2$s</string>
     <string name="memory_usage">Minnesanvändning</string>
     <string name="memory_usage_apps">Minne som används av appar</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">%1$s genomsnittlig minnesanvändning de senaste 3 timmarna</string>
     <string name="menu_cancel">Släng</string>
     <string name="menu_check">Upplev</string>
@@ -2747,6 +2748,7 @@ Välj ditt operativsystem:"</string>
     <string name="nfc_how_it_works_got_it">OK</string>
     <string name="nfc_how_it_works_title">Betala vid en kassaterminal</string>
     <string name="nfc_more_title">Mer ...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Standardapp för betalning</string>
     <string name="nfc_payment_default_not_set">Har inte angetts</string>
     <string name="nfc_payment_favor_default">Använd alltid standardapp</string>
@@ -2947,6 +2949,7 @@ Appen kan också aktivera eller inaktivera Stör ej och ändra relaterade instä
     <string name="overlay_display_devices_title">Simulera sekundära skärmar</string>
     <string name="overlay_settings">Visa ovanpå andra appar</string>
     <string name="owner_info_settings_edit_text_hint">T.ex. Jockes Android.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Inget</string>
     <string name="owner_info_settings_title">Signatur på Låsskärmen</string>
     <string name="owner_space">Primära utrymmet</string>
@@ -3419,6 +3422,7 @@ UT-gränssnitt: %5$s"</string>
     <string name="retail_demo_reset_next">Nästa</string>
     <string name="retail_demo_reset_title">Lösenord krävs</string>
     <string name="retry">Försök igen</string>
+    <string name="rgb_manage_facerecoginition_text">Hantera 2D-ansiktsdata</string>
     <string name="ring_volume_option_title">Ringvolym</string>
     <string name="ring_volume_title">Ringvolym</string>
     <string name="ringtone_slot_setting_title">Singel SIM inställningarna</string>
@@ -3496,7 +3500,7 @@ Den här inställningen påverkar samtliga användare."</string>
     <string name="screen_monochrome_mode_set_apps_title">Appar som använder Monokromt läge</string>
     <string name="screen_monochrome_mode_summary">Växla till Monokromt läge för att förlänga batteritiden</string>
     <string name="screen_monochrome_mode_title">Monokromt läge</string>
-    <string name="screen_never_timeout_title">Sov aldrig</string>
+    <string name="screen_never_timeout_title">Aldrig viloläge</string>
     <string name="screen_on_proximity_sensor_summary">Lås svepgester när enheten ligger i en ficka</string>
     <string name="screen_on_proximity_sensor_title">Fickläge</string>
     <string name="screen_optimize">Kontrast</string>
@@ -4064,6 +4068,7 @@ Du kan ha angett fel PIN-kod."</string>
     <string name="sim_reenter_new">Skriv in ny pinkod igen</string>
     <string name="sim_select_card">Välj ett SIM-kort</string>
     <string name="sim_selection_required_pref">Du måste välja något</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM-kort</string>
     <string name="sim_setup_wizard_title">SIM-kort</string>
     <string name="sim_slot_empty">SIM-kortet är tomt</string>
@@ -4104,6 +4109,8 @@ Du kan ha angett fel PIN-kod."</string>
     <string name="sound_settings_summary">Ringvolym på %1$s</string>
     <string name="sound_settings_summary_silent">Ringsignalen är avstängd</string>
     <string name="sound_settings_summary_vibrate">Enheten är inställd på att vibrera som ringsignal</string>
+    <string name="sound_stereo_mode_summary">Endast tillgänglig när du spelar upp ljud via högtalare</string>
+    <string name="sound_stereo_mode_title">Stereoljud</string>
     <string name="sound_vibrate_settings">Ljud &amp; vibration</string>
     <string name="sound_work_settings">Jobbprofilens ljud</string>
     <string name="special_access">Särskild åtkomst för app</string>
@@ -4131,6 +4138,7 @@ Detta är möjligt eftersom betrodda autentiseringsuppgifter har installerats p�
     <string name="status_bar_app_enable_message">Märken</string>
     <string name="status_bar_carrier_settings_no_sim_card">Inget SIM-kort</string>
     <string name="status_bar_key_position_custom">Ändra knapplägen</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="status_bar_screen_button_force_immersive_desc">Svep från underkanten av skärmen för att visa skärmknapparna</string>
     <string name="status_bar_screen_button_key_force_immersive">Dölj skärmknappar</string>
     <string name="status_bar_screen_key_back">Bakåtknapp</string>
@@ -4345,6 +4353,9 @@ Du kan fortsätta, men appar som har flyttats till den här platsen kan vara ryc
     <string name="strict_mode">Strängt läge aktiverat</string>
     <string name="strict_mode_summary">Blinka skärmen när appar gör långa operationer på huvudtråden</string>
     <string name="structure_add_facerecoginition_text">Lägg till 3D-ansiktsdata</string>
+    <string name="structure_face_enroll_not_able_low_electric_itle">Kan inte använda den här funktionen tack vare lågt batteri</string>
+    <string name="structure_face_enroll_not_able_low_electric_msg">Batteriet måste vara minst 5% laddat för att börja spela in.</string>
+    <string name="structure_manage_facerecoginition_text">Hantera 3D-ansiktsdata</string>
     <string name="suggest_unrestrict_max_aspect_ratio_title">Dessa appar fungerar bäst i helskärmsläge</string>
     <string name="suggested_fingerprint_lock_settings_summary">Lås upp med ditt fingeravtryck</string>
     <string name="suggested_fingerprint_lock_settings_title">Använd ditt fingeravtryck</string>
@@ -4356,6 +4367,7 @@ Du kan fortsätta, men appar som har flyttats till den här platsen kan vara ryc
     <string name="suggestion_remove">Ta bort</string>
     <string name="suggestions_title">Förslag</string>
     <string name="sum_carrier_select">Välj en nätverksoperatör</string>
+    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">%1$s till %2$s</string>
     <string name="super_resolution_access_title">Tillgängliga appar</string>
     <string name="super_resolution_desc">Använder en AI-algoritm för att göra bilder skarpare</string>
@@ -4570,7 +4582,7 @@ En funktion i Google som du kan använda om du vill synkronisera så att du komm
     <string name="turn_off_keyguard_password_wait_dialog">Avaktiverar lösenord…</string>
     <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg">Du kommer inte att kunna låsa upp enheten med ditt fingeravtryck efter att lösenordet är borttaget.</string>
     <string name="turn_off_keyguard_password_with_fingerprint_face_confirm_msg">Efter att du tagit bort lösenordet för Låsskärmen kommer alla sparade lösenord tas bort. Du kommer inte kunna låsa upp enheten med ditt fingeravtryck.</string>
-    <string name="turn_off_security_lock">Stäng av lås</string>
+    <string name="turn_off_security_lock">Stäng av skärmlås</string>
     <string name="turn_on_keyguard_password">Aktivera lösenord för Låsskärmen</string>
     <string name="turn_on_keyguard_password_alert">Kom ihåg ditt lösenord. Du kan inte återställa det om du glömmer bort det.</string>
     <string name="turn_on_keyguard_password_alert_choose">Kom ihåg ditt lösenord. Om du glömmer bort det måste du ta bort all data på din enhet innan du kan ställa in ett nytt.</string>
@@ -4592,9 +4604,9 @@ En funktion i Google som du kan använda om du vill synkronisera så att du komm
     <string name="uninstall_protected_dlg_msg">Avinstallera systemappar kan förhindra att vissa delar av MIUI fungerar korrekt. Avinstallera ändå?</string>
     <string name="uninstall_protected_dlg_title">Avinstallerar systemappar</string>
     <string name="uninstall_text">Avinstallera</string>
-    <string name="uninstall_with_xspace_app_dlg_msg">Den andra instansen av Dual Apps kommer tas bort samt all applikationsdata.</string>
-    <string name="uninstall_xspace_app_dlg_msg">Avinstallation av Dual App kommer ta bort all applikationsdata.</string>
-    <string name="uninstall_xspace_app_dlg_title">Avinstallera Dual App?</string>
+    <string name="uninstall_with_xspace_app_dlg_msg">Den andra instansen av Dubbelappar kommer tas bort samt all applikationsdata.</string>
+    <string name="uninstall_xspace_app_dlg_msg">Avinstallation av Dubbelapp kommer ta bort all applikationsdata.</string>
+    <string name="uninstall_xspace_app_dlg_title">Avinstallera Dubbelapp?</string>
     <string name="unknown">Okänd</string>
     <string name="unknown_app">Okänd app</string>
     <string name="unlock_change_lock_password_title">Ändra lösenord för upplåsning</string>
@@ -5489,7 +5501,7 @@ kan du använda andras nätverk också"</string>
     <string name="xiaomi_router_available_notif_title">Mi Router tillgänglig</string>
     <string name="xiaomi_router_notif_summary">Meddela mig när en Mi Router är tillgänglig</string>
     <string name="xiaomi_router_notif_title">Notifikation för Mi Router</string>
-    <string name="xspace">Dual Apps</string>
+    <string name="xspace">Dubbelappar</string>
     <string name="yes">Ja</string>
     <string name="zen_access_disabled_package_warning">Måste vara på eftersom aviseringsåtkomsten är aktiverad</string>
     <string name="zen_access_empty_text">Inga installerade appar har begärt Stör ej-åtkomst</string>

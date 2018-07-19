@@ -64,28 +64,28 @@
     <string name="cancel_button">Avbryt</string>
     <string name="list_empty_text">Tom</string>
     <string name="list_empty_text_xspace">Installera WeChat/QQ/Weibo, Skapa Dual Appar och försök igen.</string>
-    <string name="xspace_label">Dual Apps</string>
+    <string name="xspace_label">Dubbelappar</string>
     <string name="xspace_setting_label">Inställningar för Dual App</string>
-    <string name="xspace_account">Konton för Dual App</string>
-    <string name="declare_dialog_title">Om Dual Apps</string>
-    <string name="stop_xspace_alert_title">Ta bort konton för Dual Apps</string>
-    <string name="stop_xspace_alert_content">Du har tagit bort alla Dual Apps. Ta bort konton för Dual Apps and appdata också? Om detta görs måste du skapa Dual Apps igen när du behöver dem.</string>
+    <string name="xspace_account">Konton för Dubbelappar</string>
+    <string name="declare_dialog_title">Om Dubbelappar</string>
+    <string name="stop_xspace_alert_title">Ta bort konton för Dubbelappar</string>
+    <string name="stop_xspace_alert_content">Du har tagit bort alla Dubbelappar. Ta bort konton för Dubbelappar and appdata också? Om detta görs måste du skapa Dubbelappar igen när du behöver dem.</string>
     <string name="xspace_loading_msg">Laddar appar…</string>
-    <string name="xspace_header">Dual Apps</string>
+    <string name="xspace_header">Dubbelappar</string>
     <string name="xspace_introduce">Rekommenderad</string>
-    <string name="xspace_description">"Dual Apps är en separat instans av appen och kan användas helt separat med ett annat konto.
+    <string name="xspace_description">"Dubbelappar är en separat instans av appen och kan användas helt separat med ett annat konto.
 
-Vissa Dual Apps kräver support för Google Services Framework. I de fallen skapas dubbla Google Services Framework."</string>
-    <string name="xspace_chocie">Stöd för Dual App</string>
+Vissa Dubbelappar kräver support för Google Services Framework. I de fallen skapas dubbla Google Services Framework."</string>
+    <string name="xspace_chocie">Stöd för Dubbelapp</string>
     <string name="xspace_creating">Skapar Dual App…</string>
     <string name="xspace_installing">Installerar…</string>
     <string name="xspace_install_failed">Kunde inte skapa</string>
     <string name="xspace_uninstalling">Avinstallerar…</string>
     <string name="xspace_install_completed">Ikon tillagd på hemskärmen</string>
     <string name="xspace_install_completed_global">Ikon tillagd i lådan</string>
-    <string name="xspace_uninstall_completed">Dual App avinstallerad</string>
-    <string name="xspace_uninstall_dialog_title">Avinstallera Dual App</string>
-    <string name="xspace_uninstall_dialog_content">Avinstallation av en Dual App kommer ta bort all applikationsdata för alla instanser av appen.</string>
+    <string name="xspace_uninstall_completed">Dubbelapp avinstallerad</string>
+    <string name="xspace_uninstall_dialog_title">Avinstallera Dubbelapp</string>
+    <string name="xspace_uninstall_dialog_content">Avinstallation av Dubbelapp kommer ta bort all applikationsdata.</string>
     <string name="loading_apps">Laddar appar…</string>
     <string name="loading_success">Laddad</string>
     <string name="switching">Flyttar…</string>
@@ -298,7 +298,7 @@ för att logga in från låsskärmen"</string>
     <string name="xspace_default_setting_label">Standardapp</string>
     <string name="xspace_default_app_title">Standardapp</string>
     <string name="xspace_default_app_summary">Ställ in standardapp för betalningar, delningar, favoriter och mer.</string>
-    <string name="xspace_default_setting_dialog_title">Standard</string>
+    <string name="xspace_default_setting_dialog_title"> standard</string>
     <string name="xspace_default_guide_notification_content">Tryck för att ändra</string>
     <string name="xspace_default_guide_notification_main_title">Använd standardapp</string>
     <string name="xspace_default_guide_notification_xspace_title">Använd Dual App</string>
@@ -336,7 +336,7 @@ för att logga in från låsskärmen"</string>
     <string name="do_not_ask">Fråga inte igen</string>
     <string name="gpg_message">Att skapa Dual Apps för spel kräver Google Play Games. Skapa en Dual App för Google Play Games?</string>
     <string name="gpg_title">Dual App för Google Play Games</string>
-    <string name="gms_message">Att skapa Dual Apps kräver Google services. Skapa en Dual App för Google services?</string>
+    <string name="gms_message">Att skapa Dubbelappar kräver Google services. Skapa en Dubbelapp för Google services?</string>
     <string name="gms_title">Aktivera Googles funktioner</string>
     <string name="gms_open_button">Aktivera</string>
     <string name="create_second_space">Skapad utan problem</string>
@@ -365,10 +365,10 @@ Två utrymmen. En enhet."</string>
     <string name="remove_user_click_message_action">kan du ta bort det Sekundära utrymmet om starta om enheten nu.</string>
     <string name="sdcradfs_dialog_in_owner_title">Sekundärt utrymme</string>
     <string name="sdcradfs_dialog_in_owner_message">"Ett nytt filsystem introduceras i denna uppdatering. Gammal data kan vara inkompatibel med det. För att uppdatera: flytta objekt från Sekundära utrymmet, starta om din enhet och skapa ett Sekundärt utrymme igen.
-Om du inte uppdaterar kommer Dual Apps inte fungera som det ska."</string>
+Om du inte uppdaterar kommer Dubbelappar inte fungera som det ska."</string>
     <string name="sdcradfs_dialog_in_sec_title">Viktig uppdatering</string>
     <string name="sdcradfs_dialog_in_sec_message">"För att uppdatera ska du ta bort ditt Sekundära utrymme och sedan skapar det igen. Flytta data från Sekundära utrymmet till det Primära utrymmet och starta om enheten för att slutföra uppdateringen.
-Om du inte uppdaterar kommer Dual Apps inte fungerar som det ska."</string>
+Om du inte uppdaterar kommer Dubbelappar inte fungerar som det ska."</string>
     <string name="space_created_success">Sekundärt utrymme skapat</string>
     <string name="encrypt_space_delete_dialog_title">Uppmärksamma</string>
     <string name="encrypt_space_delete_dialog_message">Du ska snart genomföra en systemuppdatering. Efter uppdateringen kommer det data i det Sekundära utrymmet bli inkompatibel. För att undvika detta, flytta all data till det Primära utrymmet, ta bort det Sekundära utrymmet och skapa det igen.</string>

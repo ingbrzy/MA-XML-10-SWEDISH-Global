@@ -18,6 +18,6 @@
     <string-array name="choose_ask_type">
         <item>Fråga alltid</item>
         <item>Standardapp</item>
-        <item>Dual App</item>
+        <item>Dubbelapp</item>
     </string-array>
 </resources>
