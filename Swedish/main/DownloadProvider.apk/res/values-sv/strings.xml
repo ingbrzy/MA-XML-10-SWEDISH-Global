@@ -11,7 +11,7 @@
     <string name="permdesc_downloadManagerAdvanced">Tillåt appen att få tillgång till nedladdningshanteraren och använda den för att ladda ner filer. Skadliga appar kan använda detta för avbryta nedladdningar och få tillgång till privat information.</string>
     <string name="permlab_downloadCompletedIntent">Skicka notifikationer för nedladdningar.</string>
     <string name="permdesc_downloadCompletedIntent">Tillåt appen att skicka notifikationer när nedladdningen är klar. Skadliga appar kan använda detta för lura andra appar att laddar ner filer.</string>
-    <string name="permlab_seeAllExternal">Visa alla nedladdningar till USB-lagringen</string>
+    <string name="permlab_seeAllExternal">Visa alla nedladdningar till SD-kort</string>
     <string name="permdesc_seeAllExternal">Tillåter appen att visa alla nedladdningar gjorda till SD-kortet oavsett vilken app som har laddat ner dem.</string>
     <string name="permlab_downloadCacheNonPurgeable">Reservera utrymme i nedladdningscachen</string>
     <string name="permdesc_downloadCacheNonPurgeable">Tillåt appen att ladda ner filer till nedladdningscachen som kan automatiskt rensas om nedladdningshanteraren behöver mer utrymme.</string>

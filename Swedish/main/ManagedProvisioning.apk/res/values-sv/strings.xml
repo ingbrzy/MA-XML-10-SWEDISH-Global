@@ -11,7 +11,7 @@
     <string name="the_following_is_your_mdm">Följande app behöver åtkomst till profilen:</string>
     <string name="the_following_is_your_mdm_for_device">Enheten hanteras med följande app:</string>
     <string name="next">Nästa</string>
-    <string name="setting_up_workspace">Konfigurerar arbetsprofilen …</string>
+    <string name="setting_up_workspace">Konfigurerar jobbprofilen …</string>
     <string name="admin_has_ability_to_monitor_profile">Administratören kan övervaka och hantera inställningar, företagsåtkomst, appar, behörigheter och uppgifter som är kopplade till profilen. Detta gäller exempelvis nätverksaktivitet, enhetens plats, samtalshistorik och kontaktsökhistorik.&lt;br>&lt;br>Kontakta administratören om du vill veta mer, till exempel om organisationens sekretesspolicyer.</string>
     <string name="admin_has_ability_to_monitor_device">Administratören kan övervaka och hantera inställningar, företagsåtkomst, appar, behörigheter och uppgifter som är kopplade till enheten. Detta gäller exempelvis nätverksaktivitet, enhetens plats, samtalshistorik och kontaktsökhistorik.&lt;br>&lt;br>Kontakta administratören om du vill veta mer, till exempel om organisationens sekretesspolicyer.</string>
     <string name="theft_protection_disabled_warning">Enheten måste ha ett lösenordsskyddat skärmlås för att du ska kunna använda stöldskyddsfunktioner.</string>
@@ -27,7 +27,7 @@
     <string name="default_managed_profile_name">Arbetsprofil</string>
     <string name="default_first_meat_user_name">Primär användare</string>
     <string name="delete_profile_title">Vill du radera den nuvarande profilen?</string>
-    <string name="opening_paragraph_delete_profile">Du har redan en jobbprofil som hanteras med följande app:</string>
+    <string name="opening_paragraph_delete_profile">Du har redan en jobbprofil. Den hanteras med följande app:</string>
     <string name="read_more_delete_profile"><a href="#read_this_link">Läs detta</a> innan du fortsätter.</string>
     <string name="sure_you_want_to_delete_profile">Om du fortsätter raderas alla appar och all data i profilen.</string>
     <string name="delete_profile">Radera</string>
@@ -40,17 +40,15 @@
     <string name="continue_provisioning_notify_text">Tryck här om du vill fortsätta konfigurera din jobbprofil</string>
     <string name="managed_provisioning_error_text">Det gick inte att konfigurera arbetsprofilen. Kontakta IT-avdelningen eller försök igen senare.</string>
     <string name="cant_add_work_profile">Det går inte att lägga till jobbprofiler</string>
-    <string name="user_cant_have_work_profile_contact_admin">Denna användare kan inte ha en jobbprofil. Kontakta administratören om du behöver hjälp.</string>
-    <string name="user_cannot_have_work_profiles_contact_admin">Denna användare kan inte ha jobbprofiler. Kontakta administratören.</string>
-    <string name="device_owner_exists">Det går inte att konfigurera arbetsprofiler på en hanterad enhet</string>
-    <string name="too_many_users_on_device_remove_user_try_again">Enheten kanske används av för många personer. Ta bort en användare och försök igen.</string>
+    <string name="cant_replace_or_remove_work_profile">Det gick inte att ersätta eller ta bort jobbprofilen</string>
+    <string name="work_profile_cant_be_added_contact_admin">Det gick inte att lägga till jobbprofilen på den här enheten. Kontakta administratören om du har frågor.</string>
     <string name="change_device_launcher">Ändra enhetsöversikt</string>
     <string name="launcher_app_cant_be_used_by_work_profile">Det går inte att använda denna appöversikt i jobbprofilen</string>
     <string name="cancel_provisioning">Avbryt</string>
     <string name="pick_launcher">OK</string>
     <string name="user_setup_incomplete">Användarkonfigureringen har inte slutförts</string>
     <string name="default_owned_device_username">Person som använder en arbetsenhet</string>
-    <string name="setup_work_device">Konfigurera jobbenhet</string>
+    <string name="setup_work_device">Konfigurera jobbenheten …</string>
     <string name="progress_data_process">Bearbetar konfigurationsdata …</string>
     <string name="progress_connect_to_wifi">Ansluter till Wi-Fi …</string>
     <string name="progress_download">Laddar ned administrationsappen …</string>

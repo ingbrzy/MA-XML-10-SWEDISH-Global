@@ -148,6 +148,7 @@
     <string name="shutdown_alarm_enable_summary">Alarmet kommer ringa efter avstängning</string>
     <string name="shutdown_alarm_title">Stänga av Alarm</string>
     <string name="silent_alarm_summary">Tyst</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Stäng av en gång %s</string>
     <string name="slider_text">Dra upp för att stänga av</string>
     <string name="snooze_confirm_cancel">Stänga av alarm</string>
@@ -156,6 +157,7 @@
     <string name="start_up">Starta</string>
     <string name="stopwatch_lap_empty_text">Inga varv</string>
     <string name="stopwatch_title">Tidtagarur</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Inställningar</string>
     <string name="system_time_settings_category_title">Tidsinställningar</string>
     <string name="temperature_unit">%1$s°</string>

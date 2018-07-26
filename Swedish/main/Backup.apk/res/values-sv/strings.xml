@@ -6,6 +6,9 @@ Storlek: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerar version %1$s
 Delta-uppdatering storlek: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Lagring inte tillgänglig, kontrollera ditt SD-kort.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunde inte starta nedladdning. Kontrollera att Hämtningar-appen fungerar normalt.</string>
     <string name="app_name">Säkerhetskopiering</string>
     <string name="local_app_name">Säkerhetskopiering</string>
@@ -225,6 +228,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="restore_backup">Återställ</string>
     <string name="enable_encrypt_description">Kryptera</string>
     <string name="disable_encrypt_description">Inte kypterad</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Vänta en stund…</string>
     <string name="state_mounting">Kommer åt utrymme på router…</string>
     <string name="abort_backup_confirm">Säkerhetskopiering är inte klar. Sluta ändå?</string>
@@ -437,8 +441,8 @@ för att ladda ner och installera Mi Mover."</string>
     <string name="trans_intro_desc_private">Mi Mover kan inte nå bilder i dolda album eftersom de är krypterade. Du kan återställa dessa bilder från Mi Cloud på din nya enhet.</string>
     <string name="trans_intro_title_multiuser">Data på sekundära utrymmet:</string>
     <string name="trans_intro_desc_multiuser">Mi Mover kan inte nå objekt på det Sekundära utrymmet. Flytta objekten till det Primära utrymmet och starta Mi Mover där.</string>
-    <string name="trans_intro_title_multiapp">Data för Dual Apps:</string>
-    <string name="trans_intro_desc_multiapp">Mi Mover överför inte data från Dual Apps för att undvika konflikter mellan filer.</string>
+    <string name="trans_intro_title_multiapp">Data för Dubbelappar:</string>
+    <string name="trans_intro_desc_multiapp">Mi Mover överför inte data från Dubbelappar för att undvika konflikter mellan filer.</string>
     <string name="trans_intro_question_9_market">%d. Feedback.</string>
     <string name="trans_intro_desc_9_method_1_title">1. Dela din feedback med \"Feedbackappen\".</string>
     <string name="trans_intro_desc_9_method_1_dec">Gå till Hemskärm > Verktyg > Feedback.</string>
@@ -533,6 +537,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
  ska du först skapa en iCloud säkerhetskopia."</string>
     <string name="list_footer_tip_title">Tips:</string>
     <string name="import_tip_summary">På grund av kompatibilitetsproblem så kan du bara överföra delar av din data från iOS-enheter. Se till att du har skapat en iCloud backup före du börjar överföra.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importera</string>
     <string name="select_empty">Välj objekt att importera</string>
     <string name="select_item_summary_wait">Väntar…</string>

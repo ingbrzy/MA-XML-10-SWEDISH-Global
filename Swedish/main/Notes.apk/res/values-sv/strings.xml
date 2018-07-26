@@ -4,8 +4,8 @@
     <string name="action_mode_switcher_grid_description">Rutnätsvy</string>
     <string name="action_mode_switcher_list_description">Listvy</string>
     <string name="action_settings_description">Öppna inställningar</string>
-    <string name="actionbar_close_description">Close</string>
-    <string name="actionbar_home_description">Back</string>
+    <string name="actionbar_close_description">Stäng</string>
+    <string name="actionbar_home_description">Tillbaka</string>
     <string name="add_account_desc">Synkronisera anteckningar med ditt Mi-konto?</string>
     <string name="alarm_bar_title">Påminnelse</string>
     <string name="alert_action_edit_anyway">Fortsätt redigera</string>
@@ -31,6 +31,10 @@
     <string name="cloud_service_state_open_reminder">Slå på synkronisering med Mi Cloud för att synkronisera anteckningar.</string>
     <string name="cloud_trash_bin_title">Radera anteckningar i Mi Cloud</string>
     <string name="cta_reminder">Den här appen måste ansluta till internet för att säkerhetskopiera anteckningar till Mi Cloud, samt läsa dina kontakter för att märka de anteckningar du tar under samtal.</string>
+    <string name="date_time_picker_alarm_reminder">Alarm</string>
+    <string name="date_time_picker_dialog_title">Ange datum och tid</string>
+    <string name="date_time_picker_has_not_set_alarm">Larm har inte angetts</string>
+    <string name="date_time_picker_has_set_alarm">Ställa in alarm framgångsrikt</string>
     <string name="db_downgrade_clear_button">Rensa applikationsdata</string>
     <string name="db_downgrade_clear_date_reminder">Om du växlar till en annan version av MIUI måste du rensa appdata för Notes. Innan du gör det, se till att du har säkerhetskopierat dina anteckningar till Mi Cloud.</string>
     <string name="default_folder_name">Namnlös mapp</string>
@@ -96,7 +100,7 @@
     <string name="menu_delete_forever">Ta bort permanent</string>
     <string name="menu_folders">Mappar</string>
     <string name="menu_hide">Dölj</string>
-    <string name="menu_more_description">More</string>
+    <string name="menu_more_description">Mer</string>
     <string name="menu_move_parent_folder">Överordnad mapp</string>
     <string name="menu_move_to">Flytta till</string>
     <string name="menu_new_folder">Ny mapp</string>
@@ -110,6 +114,7 @@
     <string name="menu_title_select_folder">Välj mapp</string>
     <string name="menu_unhide">Visa</string>
     <string name="menu_unstick">Lossa</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Inte nu</string>
     <string name="note_description_content">Appen Notes är ett utmärkt verktyg för inspelning av dina idéer. Den har inbyggda påminnelser och synkroniserar dina objekt till Mi Cloud så att du kan komma åt dem var som helst, när som helst. Se till att du inte kan använda dessa funktioner innan du tar bort appen.</string>
     <string name="note_description_title">Om Anteckningar</string>
@@ -202,7 +207,7 @@
     <string name="toast_reach_text_limit_checkbox">Kan inte lägga till en checkbox eftersom anteckningen är för lång</string>
     <string name="toast_reach_text_limit_truncate">Anteckningen är för lång. En del av texten har klippts bort från slutet.</string>
     <string name="toast_refuse_to_record_when_in_call">Kan inte använda den här funktionen under samtal</string>
-    <string name="toast_refuse_to_record_when_in_multi_window">"Can't use this feature with Split screen"</string>
+    <string name="toast_refuse_to_record_when_in_multi_window">Kan inte använda den här funktionen med delad skärm</string>
     <string name="toolbar_check_description">Lägg till checkbox</string>
     <string name="toolbar_delete_description">Ta bort anteckningen</string>
     <string name="toolbar_gallery_description">Lägg till bild</string>
@@ -216,10 +221,9 @@
     <string name="trash_folder_reminder">Anteckningarna du raderar kommer att raderas permanent om 30 dagar.</string>
     <string name="undo">Ångra</string>
     <string name="unknown_source">Okänd Källa</string>
+    <string name="widget_content_loading">Vänta lite…</string>
+    <string name="widget_havenot_content">Tryck för att skapa en anteckning. Håll inne widget för att ändra storlek.</string>
     <string name="welcome_note_for_cm">"Och fler bra funktioner!
  - Synkronisera med Mi Cloud
  - Sätt påminnelser"</string>
-    <string name="widget_content_loading">Vänta lite…</string>
-    <string name="widget_havenot_content">Tryck för att skapa en anteckning. Håll inne widget för att ändra storlek.</string>
-    <string name="note_alert_expired">Utgånget</string>
 </resources>
