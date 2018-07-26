@@ -114,7 +114,6 @@
     <string name="menu_title_select_folder">Välj mapp</string>
     <string name="menu_unhide">Visa</string>
     <string name="menu_unstick">Lossa</string>
-    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Inte nu</string>
     <string name="note_description_content">Appen Notes är ett utmärkt verktyg för inspelning av dina idéer. Den har inbyggda påminnelser och synkroniserar dina objekt till Mi Cloud så att du kan komma åt dem var som helst, när som helst. Se till att du inte kan använda dessa funktioner innan du tar bort appen.</string>
     <string name="note_description_title">Om Anteckningar</string>
@@ -126,7 +125,6 @@
     <string name="note_sort_way">Välj hur du vill sortera dina anteckningar</string>
     <string name="notealert_enter">Öppna anteckning</string>
     <string name="notealert_ok">Avfärda</string>
-    <string name="notelist_string_info">...</string>
     <string name="notify_alarm_title">Anteckningspåminnelse</string>
     <string name="permdesc_accessNote">Skadliga appar kan använda detta för att få tillgång till personlig data.</string>
     <string name="permlab_accessNote">Åtkomst till anteckningar</string>

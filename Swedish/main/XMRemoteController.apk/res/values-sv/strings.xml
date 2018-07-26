@@ -20,7 +20,6 @@
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
     <string name="search_menu_title">Sök</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="ac_gree">Gree AC</string>
     <string name="ac_mode_auto">Automatiskt</string>
     <string name="ac_mode_cold">Kyl</string>
@@ -103,7 +102,6 @@
     <string name="bind_stb">Fortsätta para-digitalbox</string>
     <string name="bind_stb_dlg">Digitalbox för par att växla kanaler</string>
     <string name="bind_stb_dlg_agree">Para</string>
-    <string name="brand_device">%1$s %2$s</string>
     <string name="brand_search_box_hint">Välj tillverkare</string>
     <string name="brand_title_all">Alla</string>
     <string name="brand_title_hot">Populär</string>
@@ -306,7 +304,6 @@
     <string name="hot_videos">Populär</string>
     <string name="hour">hrs</string>
     <string name="humidity">Luftfuktighet:</string>
-    <string name="humidity_frame">%1$d%%</string>
     <string name="increase">Upp</string>
     <string name="input_complete">OK</string>
     <string name="input_dialogue_cancel_button">Avbryt</string>
@@ -406,7 +403,6 @@
     <string name="loading_more">Bara en sec…</string>
     <string name="locate_current_place">Välj nuvarande plats</string>
     <string name="location_select">Rename device</string>
-    <string name="lock_screen_device_sum">%1$d</string>
     <string name="login">Logga in</string>
     <string name="login_directly">Logga in</string>
     <string name="login_done">Inloggad</string>
@@ -433,7 +429,6 @@
     <string name="match_data">Para ihop information</string>
     <string name="match_data_error_tips">"Kunde inte få info
 Go tillbaka för att fortsätta"</string>
-    <string name="match_dataset_frame">%1$d/%2$d</string>
     <string name="match_direction_default">Fungerar riktningsknappar?</string>
     <string name="match_dvd_intro_pause">Släpp när DVD-uppspelningen pausar</string>
     <string name="match_dvd_intro_play">Släpp när DVD spelas upp</string>
@@ -857,8 +852,6 @@ Open fjärrkontrollens inställningar och tryck på ”dela”."</string>
     <string name="scaning">Söker…</string>
     <string name="scanning_milink">Söker för bildskärmar…</string>
     <string name="scene_default">Standard</string>
-    <string name="scene_name_frame">%1$s %2$s%3$s</string>
-    <string name="scene_name_frame_short">%1$s%2$s</string>
     <string name="screenshot">Skärmdump</string>
     <string name="screenshot_failed">Kunde inte fånga skärmen</string>
     <string name="screenshot_failed_and_check_connection">Kunde inte fånga skärm, kontrollera anslutna enheter</string>
@@ -966,7 +959,6 @@ Go till Startsidan >; ”+” >; Scanner."</string>
     <string name="start_diagnosis">Testa</string>
     <string name="start_match">Parkoppla</string>
     <string name="stb">Set-top-box</string>
-    <string name="stb_detail_title_frame">%1$s - %2$d</string>
     <string name="stb_power">STB på/av</string>
     <string name="steps">Försök #%d</string>
     <string name="sticky_on_top">Pin-kod</string>
