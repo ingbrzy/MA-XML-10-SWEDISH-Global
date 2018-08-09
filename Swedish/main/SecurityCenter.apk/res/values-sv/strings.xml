@@ -435,7 +435,6 @@ ska svara"</string>
     <string name="managed_user_title">Alla arbetsappar</string>
     <string name="pref_about_traffic_title">Inställningar för mobildataanvändning</string>
     <string name="pref_traffic_manage_title">Dataanvändning</string>
-    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Mobildataabonnemang</string>
     <string name="pref_adjust_traffic_data">Ange datagräns</string>
     <string name="pref_category_title_other">Ytterligare inställningar</string>
@@ -962,7 +961,6 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denna app kan sakta ner
 din enhet"</string>
-    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Avinstallera %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Avinstallera denna appen för att lösa problem med batterianvändningen.</string>
     <string name="om_ill_proc_type_wakelock_title">Denna appen blockerar strömsparläge och drar mycket batteri</string>
@@ -1021,7 +1019,6 @@ din enhet"</string>
     <string name="usage_type_data_send">Mobildata skickad</string>
     <string name="usage_type_no_coverage">Tid utan signal</string>
     <string name="usage_type_gps">GPS</string>
-    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="power_screen">Skärm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1368,13 +1365,11 @@ din enhet"</string>
     <string name="menu_text_optimize_manage">Öka hastigheten</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_summary_networkassistants">Hantera ditt dataabonnemang</string>
-    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Överskred datagränsen</string>
     <string name="menu_summary_networkassistants_3">Tillräckligt med mobildata återstår</string>
     <string name="menu_summary_networkassistants_4">Håller på att få slut på mobildata</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
-    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1387,14 +1382,12 @@ din enhet"</string>
     <string name="menu_summary_garbage_cleanup">Inga skräpfiler hittades</string>
     <string name="menu_summary_garbage_cleanup_2">Skräpstorlek</string>
     <string name="menu_summary_garbage_cleanup_3">Rensa skräp nu</string>
-    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Batterianvändning</string>
     <string name="menu_summary_power_manager">Batterispararen ger mer tid mellan laddningarna</string>
     <string name="menu_summary_power_manager_1">Batteriet är fulladdat</string>
     <string name="menu_summary_power_manager_2">%såterstår</string>
     <string name="menu_summary_power_manager_3">Anslut laddare</string>
     <string name="menu_summary_power_manager_4">%s tills fulladdad</string>
-    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Föregående skanning avbröts</string>
     <string name="examination_score_100">Allt ser bra ut!</string>
     <string name="examination_score_80_100">Några objekt kan optimeras</string>
@@ -1760,7 +1753,6 @@ din enhet"</string>
     <string name="card_main_deepclean_wechat_action">Rensa</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
-    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
