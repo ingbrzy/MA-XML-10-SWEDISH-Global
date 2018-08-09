@@ -52,6 +52,7 @@
     <string name="accessibility_camera_button">Kamera</string>
     <string name="accessibility_carrier_network_change_mode">Operatörsnätverk ändras.</string>
     <string name="accessibility_cast_name">Ansluten till %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Castning av skärmen avslutad.</string>
     <string name="accessibility_cell_data">Mobildata</string>
     <string name="accessibility_cell_data_off">Mobildata avaktiverad</string>
@@ -103,7 +104,7 @@
     <string name="accessibility_home">Hem</string>
     <string name="accessibility_ime_switch_button">Välj inmatningsmetodsknapp.</string>
     <string name="accessibility_key">Anpassa navigationsknappen</string>
-    <string name="accessibility_left_button">genväg</string>
+    <string name="accessibility_left_button">Genväg</string>
     <string name="accessibility_location_active">Platsbegäran aktiv</string>
     <string name="accessibility_managed_profile">Arbetsprofil</string>
     <string name="accessibility_menu">Meny</string>
@@ -144,6 +145,7 @@
     <string name="accessibility_quick_settings_airplane_off">Flygplansläge är avaktiverat.</string>
     <string name="accessibility_quick_settings_airplane_on">Flygplansläge är aktiverat.</string>
     <string name="accessibility_quick_settings_alarm">Alarm är aktiverat %s.</string>
+    <string name="accessibility_quick_settings_alarm_on">Aktivera alarm.</string>
     <string name="accessibility_quick_settings_alarm_set">Alarm ställt.</string>
     <string name="accessibility_quick_settings_battery">Batteri %s.</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
@@ -151,6 +153,7 @@
     <string name="accessibility_quick_settings_bluetooth_changed_on">Bluetooth är aktiverad.</string>
     <string name="accessibility_quick_settings_bluetooth_connected">Bluetooth ansluten.</string>
     <string name="accessibility_quick_settings_bluetooth_connecting">Bluetooth ansluten.</string>
+    <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">Bluetoothenhetens batterinivå %d procent.</string>
     <string name="accessibility_quick_settings_bluetooth_off">Bluetooth är avaktiverad.</string>
     <string name="accessibility_quick_settings_bluetooth_on">Bluetooth är aktiverad.</string>
     <string name="accessibility_quick_settings_close">Stäng panel.</string>
@@ -225,8 +228,8 @@
     <string name="accessibility_settings">Inställningar</string>
     <string name="accessibility_settings_button">Systeminställningar.</string>
     <string name="accessibility_signal_full">Full signalstyrka.</string>
-    <string name="accessibility_splite_screen_primary">Added as the primary app in Split screen</string>
-    <string name="accessibility_splite_screen_secondary">Added as the secondary app in Split screen</string>
+    <string name="accessibility_splite_screen_primary">Tillagd som primär app i Delad skärm</string>
+    <string name="accessibility_splite_screen_secondary">Tillagd som sekundär app i Delad skärm</string>
     <string name="accessibility_status_bar_headphones">Hörlurar anslutna</string>
     <string name="accessibility_status_bar_headset">Headset anslutet</string>
     <string name="accessibility_status_bar_hotspot">Internetdelning</string>
@@ -274,7 +277,7 @@
     <string name="apn_settings_not_available">Inställningar för accesspunkter är inte tillgängliga för den här användaren</string>
     <string name="app_info">Information om appen</string>
     <string name="app_label">Systemgränssnitt</string>
-    <string name="app_name">Knapplås</string>
+    <string name="app_name">Låsskärm</string>
     <string name="app_process_limit_title">Gräns för bakgrundsprocesser</string>
     <string name="as_important">Viktigt</string>
     <string name="as_unimportant">Oviktig</string>
@@ -373,7 +376,7 @@ Bitar/sample"</string>
     <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">"Välj läge för Bluetooth Audio Codec:
 kanal"</string>
     <string name="bluetooth_select_a2dp_codec_ldac_playback_quality">Bluetooth Audio LDAC Codec: Uppspelningskvalité</string>
-    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">"Valj Bluetooth Audio LDAC Codec:
+    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">"Välj Bluetooth Audio LDAC Codec:
 Uppspelningskvalité"</string>
     <string name="bluetooth_select_a2dp_codec_sample_rate">Bluetooth Audio Sample Rate</string>
     <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">"Välj Bluetooth Audio Codec:
@@ -453,9 +456,9 @@ Sample Rate"</string>
     <string name="daltonizer_type_overridden">Upphävd av %1$s</string>
     <string name="data_connection_no_internet">Inte ansluten till Internet</string>
     <string name="data_saver">Datasparare</string>
-    <string name="data_saver_description">To help reduce data usage, Data Saver prevents some apps from sending or receiving data in the background. An app you’re currently using can access data, but may do so less frequently. This may mean, for example, that images don’t display until you tap them.</string>
-    <string name="data_saver_enable_button">Turn on</string>
-    <string name="data_saver_enable_title">Turn on Data Saver?</string>
+    <string name="data_saver_description">Dataspararen förhindrar vissa appar att skicka och ta emot data i bakgrunden för att minska dataanvändningen. En app som är aktiv har tillgång till mobildata men uppdateras mer sällan. Detta kan till exempel betyda att bilder inte visas förrän du trycker på dem.</string>
+    <string name="data_saver_enable_button">Aktivera</string>
+    <string name="data_saver_enable_title">Aktivera Dataspararen?</string>
     <string name="data_usage_disabled_dialog">"Datagränsen som är konfigurerad har överstigits. Mobildata har avaktiverats.
 
 Om du fortsätter använda mobildata kan ytterligare avgifter från din operatör komma."</string>
@@ -713,6 +716,7 @@ När din telefon har kylts ner kommer den fungera normalt."</string>
     <string name="incorrect_pukcode">Felaktig PUK-kod</string>
     <string name="input_password_after_boot_msg">För att låsa upp enheten, ange ditt lösenord</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Det går inte att växla mellan utrymmen under samtal</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Det går inte att växla mellan utrymmena när Familjevakten är aktiv</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">När du har startat om enheten måste du först flytta till primära utrymmet</string>
     <string name="input_password_handle_sdcard_fs">Kan inte gå in i Sekundära utrymmet från Låsskärmen. Gå in från Primära utrymmet.</string>
     <string name="input_password_hint_text">Ange lösenord</string>
@@ -790,10 +794,14 @@ Använd endast den medföljande laddaren."</string>
     <string name="keyguard_accessibility_pin_area">PIN-område</string>
     <string name="keyguard_accessibility_sim_pin_area">SIM-PIN-område</string>
     <string name="keyguard_accessibility_sim_puk_area">SIM-PUK-område</string>
-    <string name="keyguard_carrier_default">Ingen tjänst.</string>
+    <string name="keyguard_carrier_default">Ingen tjänst</string>
     <string name="keyguard_charged">Fulladdad</string>
     <string name="keyguard_charging_info_battery_used_time_text">På batteri</string>
     <string name="keyguard_charging_info_click_to_detail">Visa detaljer</string>
+    <string name="keyguard_charging_info_data_c">%s℃</string>
+    <string name="keyguard_charging_info_data_ma">%smA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Tömd</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Idag %s</string>
@@ -803,7 +811,7 @@ Använd endast den medföljande laddaren."</string>
     <string name="keyguard_charging_info_tip_text2">Överladda inte din enhet. flera kortare laddningar är bättre än att ladda enheten över natten.</string>
     <string name="keyguard_charging_info_tip_text3">Undvik att ladda din enhet när omkringliggande temperaturen är lägre än 0℃.</string>
     <string name="keyguard_charging_info_tip_text4">Använd inte din enhet aktivt medan den laddas för att undvika överhettning.</string>
-    <string name="keyguard_charging_info_tip_text5">Batterier laddas längre när de är varmare än vanligt.</string>
+    <string name="keyguard_charging_info_tip_text5">Det tar längre tid för batteriet att laddas när det är varmare än normalt.</string>
     <string name="keyguard_charging_info_tip_text6">Stäng av skärmen och lägg undan enheten för kyla ner den.</string>
     <string name="keyguard_indication_charging_time">Laddar (%s återstår till fulladdad)</string>
     <string name="keyguard_indication_charging_time_fast">Laddar snabbt (%s återstår till fulladdad)</string>
@@ -817,7 +825,8 @@ Använd endast den medföljande laddaren."</string>
     <string name="keyguard_missing_sim_instructions_long">SIM kort saknas eller är inte läsbar. Vänligen för in en SIM kort.</string>
     <string name="keyguard_missing_sim_message">Inget SIM kort i telefonen.</string>
     <string name="keyguard_missing_sim_message_short">Inget SIM-kort</string>
-    <string name="keyguard_network_locked_message">Nätverks låst</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="keyguard_network_locked_message">Nätverket är låst</string>
     <string name="keyguard_password_enter_password_code">Ange ditt lösenord för att låsa upp</string>
     <string name="keyguard_password_enter_pin_code">Ange PIN-koden</string>
     <string name="keyguard_password_enter_pin_password_code">Ange PIN-kod för att låsa upp</string>
@@ -825,12 +834,12 @@ Använd endast den medföljande laddaren."</string>
     <string name="keyguard_password_enter_puk_code">Ange SIM-PUK och ny PIN-kod</string>
     <string name="keyguard_password_enter_puk_prompt">PUK-kod</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Tryck för att skriva lösenord</font></string>
-    <string name="keyguard_password_wrong_pin_code">Felaktig PIN-kod.</string>
+    <string name="keyguard_password_wrong_pin_code">PIN-koden är felaktig.</string>
     <string name="keyguard_permanent_disabled_sim_instructions">"Ditt SIM-kort är permanent inaktiverad.
  Var god kontakta din leverantör för att få ett annat SIM kort."</string>
     <string name="keyguard_permanent_disabled_sim_message_short">Oanvändbart SIM-kort.</string>
     <string name="keyguard_plugged_in">Laddar</string>
-    <string name="keyguard_plugged_in_charging_fast">Snabbladdning</string>
+    <string name="keyguard_plugged_in_charging_fast">Laddar snabbt</string>
     <string name="keyguard_plugged_in_charging_slowly">Laddar i normaltakt</string>
     <string name="keyguard_quick_charging_info_click_to_detail">Snabbladdning. Tryck för visa detaljer.</string>
     <string name="keyguard_sim_locked_message">SIM-kortet är låst.</string>
@@ -838,7 +847,7 @@ Använd endast den medföljande laddaren."</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Låser upp SIM-kort…</string>
     <string name="keyguard_torch_cover_text">För att hålla igång ficklampan, håll ned strömknappen</string>
     <string name="keyguard_unlock">Dra upp för att låsa upp</string>
-    <string name="kg_enter_confirm_pin_hint">Bekräfta önskad PIN-kod</string>
+    <string name="kg_enter_confirm_pin_hint">Bekräfta ny PIN-kod</string>
     <string name="kg_failed_attempts_almost_at_erase_profile">Du har försökt att låsa upp telefonen med fel lösenord %1$d gånger. Efter %2$d fler misslyckade försök, arbetsprofilen kommer tas bort och all profildata kommer att försvinna.</string>
     <string name="kg_failed_attempts_almost_at_erase_user">Du har försökt att låsa upp telefon med fel lösenord %1$d gånger. Efter %2$d fler misslyckade försök, kommer denna användaren tas bort och all användardata kommer att försvinna.</string>
     <string name="kg_failed_attempts_almost_at_login">"Du har ritat fel upplåsningsmönster %1$d gånger. Efter %2$d fler gånger, kommer du att tillfrågas om att låsa upp din telefon med ditt e-postkonto.
@@ -855,12 +864,12 @@ Använd endast den medföljande laddaren."</string>
     <string name="kg_invalid_sim_puk_hint">PUK-kod ska vara 8 siffror eller längre.</string>
     <string name="kg_login_too_many_attempts">För många försök</string>
     <string name="kg_password_instructions">Ange lösenord</string>
-    <string name="kg_password_pin_failed">Inloggning med PIN-kod för SIM-kortet misslyckades!</string>
-    <string name="kg_password_puk_failed">PUK-kod för SIM-kortet misslyckades!</string>
-    <string name="kg_password_wrong_pin_code_pukked">Felaktig PIN-kod till SIM-kortet, du måste nu kontakta din operatör för att låsa upp din enhet.</string>
+    <string name="kg_password_pin_failed">Det gick inte att låsa upp med PIN-koden</string>
+    <string name="kg_password_puk_failed">Det gick inte att låsa upp med PUK-koden</string>
+    <string name="kg_password_wrong_pin_code_pukked">PIN-koden för SIM-kortet är felaktigt. Kontakta din operatör för att låsa upp din enhet.</string>
     <string name="kg_password_wrong_puk_code_dead">SIM-kort oanvändbart. Kontakta din operatör.</string>
     <string name="kg_pattern_instructions">Ange ditt mönster</string>
-    <string name="kg_pin_accepted">Kod godkänd!</string>
+    <string name="kg_pin_accepted">Kod godkänd</string>
     <string name="kg_pin_instructions">Ange PIN</string>
     <string name="kg_prompt_reason_device_admin">Enheten låst av administratör</string>
     <string name="kg_prompt_reason_restart_password">Ange ditt lösenord för att låsa upp</string>
@@ -873,7 +882,7 @@ Använd endast den medföljande laddaren."</string>
     <string name="kg_prompt_reason_timeout_pattern">Mönster krävs för ytterligare säkerhet</string>
     <string name="kg_prompt_reason_timeout_pin">PIN-kod krävs för ytterligare säkerhet</string>
     <string name="kg_prompt_reason_user_request">Enheten låstes manuellt</string>
-    <string name="kg_puk_enter_pin_hint">Ange önskad PIN-kod</string>
+    <string name="kg_puk_enter_pin_hint">Ange ny PIN-kod</string>
     <string name="kg_puk_enter_puk_hint">SIM-kort är nu inaktiverat. Ange PUK-kod för att fortsätta. Kontakta din operatör för detaljer.</string>
     <string name="kg_puk_enter_puk_hint_multi">SIM-kort \"%1$s\" är nu inaktiverat. Ange PUK-kod för att fortsätta. Kontakta din operatör för detaljer.</string>
     <string name="kg_sim_pin_instructions">Ange SIM-PIN</string>
@@ -900,14 +909,15 @@ Försök igen om %2$d sekunder."</string>
     <string name="left_keycode">Tangentkod för vänster knapp</string>
     <string name="left_nav_bar_button_type">Extra knapptyp till vänster</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="local_backup_password_summary_change">Tryck för att ändra eller ta bort lösenord för säkerhetskopior för Hemskärmen</string>
     <string name="local_backup_password_summary_none">Fullständig säkerhetskopia för Desktop är inte skyddad för tillfället</string>
     <string name="local_backup_password_title">Lösenord för Säkerhetskopia av Hemskärmen</string>
     <string name="local_backup_password_toast_confirmation_mismatch">Lösenorden matchar inte</string>
     <string name="local_backup_password_toast_success">Lösenord för säkerhetskopia är ändrat</string>
     <string name="local_backup_password_toast_validation_failure">Det gick inte att sätta lösenordet för säkerhetskopian</string>
-    <string name="lock_screen_date">EEEE, MMMM d</string>
-    <string name="lock_screen_date_12">EEEE, MMMM d</string>
+    <string name="lock_screen_date">EEEE, d MMMM</string>
+    <string name="lock_screen_date_12">EEEE, d MMMM</string>
     <string name="lock_screen_no_sim_card">Inget SIM-kort</string>
     <string name="lock_wallpaper_enter">Ange</string>
     <string name="lock_wallpaper_learn_more">Fler inställningar</string>
@@ -927,8 +937,7 @@ Försök igen om %2$d sekunder."</string>
     <string name="lockscreen_none">Ingen</string>
     <string name="lockscreen_shortcut_left">Genväg till vänster</string>
     <string name="lockscreen_shortcut_right">Genväg till höger</string>
-    <string name="lockscreen_sim_error_message_short">Ogiltig SIM-kort.</string>
-    <string name="lockscreen_storage_locked">Lås upp för alla funktioner och data</string>
+    <string name="lockscreen_sim_error_message_short">SIM-kortet är ogiltig.</string>
     <string name="lockscreen_unlock_left">Genvägen till vänster låser också upp</string>
     <string name="lockscreen_unlock_right">Genvägen till höger låser också upp</string>
     <string name="long_screenshot_not_support_msg">Nuvarande app stödjer inte skrollande skärmdumpar</string>
@@ -962,6 +971,7 @@ Försök igen om %2$d sekunder."</string>
     <string name="miui_guide_dialog_message">Medialjud (t ex musik, videor) kommer fortfarande spelas i Tyst läge. Du kan ändra detta i Inställningar.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Upplåst av Bluetoothenhet</string>
     <string name="miui_ringer_count_down">Räkna ner</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Tyst</string>
     <string name="miui_ringer_standard_description">Stäng av ringsignal för inkommande samtal och notifikationer</string>
     <string name="miui_ringer_total">Stör ej</string>
@@ -969,7 +979,7 @@ Försök igen om %2$d sekunder."</string>
     <string name="miui_toast_zen_dnd_to_off">Ljud och vibration återställda till normalt</string>
     <string name="miui_toast_zen_standard_to_off">Ringsignaler återställda till normalt</string>
     <string name="miui_toast_zen_standard_to_off_when_shield_media">Ringsignal, notifikationer och medialjud kommer spelas.</string>
-    <string name="miui_toast_zen_to_dnd">Alla ljud tystade och vibration avaktiverad</string>
+    <string name="miui_toast_zen_to_dnd">Alla ljud (ringsignaler, medialjud etc) tystade och vibration avaktiverad</string>
     <string name="miui_toast_zen_to_standard">Ringsignaler för samtal och notifikationer tystade</string>
     <string name="miui_toast_zen_to_standard_when_shield_media">Ringsignal, notifikationer och medialjud kommer tystas.</string>
     <string name="mobile_data">Mobildata</string>
@@ -988,12 +998,14 @@ Du är också ansluten till %3$s som kan övervaka din personliga nätverksaktiv
 
 Kontakta din administratör för mer information."</string>
     <string name="monitoring_description_ca_cert_settings">Öppna betrodda uppgifter</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">En Certifikatutfärdare är installerad på denna enhet. Din säkra nätverkstrafik kan vara övervakad eller har blivit modifierad.</string>
     <string name="monitoring_description_do_body">Din administratör kan övervaka och hantera inställningar, företagstillgång, appar, data kopplad till din enhet och din enhets platsinformation.</string>
     <string name="monitoring_description_do_body_vpn">Du är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-post, appar och websidor.</string>
     <string name="monitoring_description_do_header_generic">Din enhet hanteras av %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s använder %2$s för att hantera din enhet.</string>
     <string name="monitoring_description_do_learn_more">Läs mer</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Din organisation installerade en Certifikatutfärdare i din arbetsprofil. Din säkra nätverkstrafik kan övervakas eller modifieras.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Din arbetsprofil är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-post, appar och webbsidor.</string>
     <string name="monitoring_description_management">"Din enhet hanteras av din organisation.
@@ -1025,6 +1037,7 @@ Kontakta din administratör för mer information.
 
 Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</string>
     <string name="monitoring_description_vpn_settings">Öppna inställningar för VPN</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA-certifikat</string>
     <string name="monitoring_subtitle_network_logging">Nätverksloggning</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1039,6 +1052,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="nav_guide_message">Använd gester för att dölja/visa skärmknappar.</string>
     <string name="nav_guide_ok">Ställ in</string>
     <string name="nav_guide_title">Dölj skärmknappar</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Inget</string>
     <string name="no_multi_window_app">Inga appar stöder Delad skärm</string>
     <string name="no_notification_tips">Inga notifikationer</string>
@@ -1175,6 +1189,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="power_remaining_charging_duration_only">Återstår %1$s till fulladdat</string>
     <string name="power_remaining_duration_only">Ungefär %1$s kvar</string>
     <string name="power_remaining_duration_only_short">%1$s återstår</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_owned_footer">Profilen kan vara övervakat</string>
     <string name="prompt_danger">Fara</string>
     <string name="prompt_detecting">Undersöker</string>
@@ -1701,6 +1716,7 @@ Alla användare kan uppdatera för alla användare."</string>
     <string name="wait_for_debugger">Vänta på debugger</string>
     <string name="wait_for_debugger_summary">Applikationen som felsöks väntar på felsökaren att bifogas innan körning</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Släpp för att visa detaljer</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Uppdaterad %1$s</string>
     <string name="wifi_aggressive_handover">Aggressiv överlämning från Wi-Fi till mobildata</string>
     <string name="wifi_aggressive_handover_summary">När den är aktiverad kommer anslutningen växla till mobildata oftare när Wi-Fi-signalen är svag.</string>
@@ -1725,9 +1741,11 @@ Alla användare kan uppdatera för alla användare."</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Ingen</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>

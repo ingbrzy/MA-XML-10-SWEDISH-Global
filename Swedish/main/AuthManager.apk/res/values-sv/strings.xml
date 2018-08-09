@@ -27,7 +27,7 @@
     <string name="HIPS_Perm_AudioRecorder_Desc">spela in ljud och telefonsamtal</string>
     <string name="HIPS_Perm_WIFI_Connectivity">Ändra Wi-Fi anslutning</string>
     <string name="HIPS_Perm_WIFI_Connectivity_Desc">slå på eller av Wi-Fi</string>
-    <string name="HIPS_Perm_Bluetooth_Connectivity">Ändra Bluetooth anslutning</string>
+    <string name="HIPS_Perm_Bluetooth_Connectivity">Ändra Bluetoothanslutning</string>
     <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">slå på eller av Bluetooth</string>
     <string name="HIPS_Perm_AutoStart">Kör vid uppstart</string>
     <string name="HIPS_Perm_AutoStart_Desc">kör vid uppstart</string>

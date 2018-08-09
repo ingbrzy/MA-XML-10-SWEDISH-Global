@@ -38,15 +38,19 @@
         <item>10 minuter innan</item>
         <item>15 minuter innan</item>
         <item>30 minuter innan</item>
-        <item>1 timmar innan</item>
+        <item>1 timme innan</item>
         <item>1 dag innan</item>
-        <item>2 dag innan</item>
+        <item>2 dagar innan</item>
         <item>1 vecka innan</item>
     </string-array>
     <string-array name="delete_repeating_labels">
         <item>Bara denna händelsen</item>
         <item>Denna och framtida händelser</item>
         <item>Alla händelser</item>
+    </string-array>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
     </string-array>
     <string-array name="gemini_info">
         <item>tvillingarna</item>

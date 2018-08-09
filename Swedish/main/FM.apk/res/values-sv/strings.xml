@@ -6,7 +6,7 @@
     <string name="menu_sleep">Insomningstimer</string>
     <string name="menu_sleep_cancel">Avbryt insomningstimern</string>
     <string name="menu_record_list">Inspelningar</string>
-    <string name="menu_scan_start">Genomsök</string>
+    <string name="menu_scan_start">Skanna</string>
     <string name="menu_new_station">Lägg till</string>
     <string name="menu_save_station_list">Lägg till som förval</string>
     <string name="menu_save_station_presets">Lägg till som förval</string>

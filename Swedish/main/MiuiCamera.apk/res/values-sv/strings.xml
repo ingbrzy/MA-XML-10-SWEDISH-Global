@@ -431,6 +431,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Djupeffekt</string>
     <string name="portrait_mode_use_hint">"Porträttläge gör bakgrunden suddig
  och frambringar personerna förgrunden."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Fyrkant</string>
     <string name="simple_mode_button_text_square">Stäng av Fyrkant</string>
     <string name="face_beauty_smart">Prydlig</string>
@@ -445,6 +446,7 @@
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Lägen</string>
     <string name="button_front_camera_title">Ta en selfie</string>
     <string name="button_normal_video_title">Spela in video</string>
@@ -490,6 +492,7 @@ och skapar sedan ett foto med minsta möjliga brus."</string>
     <string name="beauty_fragment_tab_name_makeup">Avancerad</string>
     <string name="beauty_fragment_tab_name_3d_beauty">Skönhet</string>
     <string name="beauty_fragment_tab_name_3d_remodeling">Modellera om</string>
+    <string name="beauty_fragment_tab_name_3d_makeup">Smink</string>
     <string name="edit_skin_white">Ton</string>
     <string name="edit_skin_smooth">Slät</string>
     <string name="edit_eye_large">Stora ögon</string>
@@ -503,6 +506,10 @@ och skapar sedan ett foto med minsta möjliga brus."</string>
     <string name="edit_smile">Le</string>
     <string name="edit_slim_nose">Näsa</string>
     <string name="popup_tip_3d_beauty_intro_text">3D-skönhet</string>
+    <string name="edit_eyebrow_dye">Ögonbryn</string>
+    <string name="edit_pupil_line">Eyeliner</string>
+    <string name="edit_jelly_lips">Läppglans</string>
+    <string name="edit_blusher">Rouge</string>
     <string name="sticker_tab1">Söt</string>
     <string name="sticker_tab2">Rolig</string>
     <string name="user_agreement2">Användarvillkor</string>

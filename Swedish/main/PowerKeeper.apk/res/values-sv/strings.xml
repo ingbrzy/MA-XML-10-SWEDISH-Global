@@ -86,4 +86,7 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="sleepmode_privacy_link">Läs mer om integritet och säkerhet</string>
     <string name="sleepmode_disclaimer_cancel">Avbryt</string>
     <string name="sleepmode_disclaimer_agree">Godkänn</string>
+    <string name="appconfig_active_app_dialog_title">Hantera aktiva appar</string>
+    <string name="config_classify">Sortera efter appinställningar</string>
+    <string name="active_classify">Sortera efter aktivitetsstatus</string>
 </resources>

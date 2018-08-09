@@ -45,19 +45,30 @@ Se den valda tangentbords sekretesspolicyn."</string>
     <string name="ime_privacy_policy">Integritetspolicy för det valda tangentbordet</string>
     <string name="ime_privacy_policy_no_network">Ingen anslutning. Visa integritetspolicy för tangentbordet på %s.</string>
     <string name="terms_of_use">Villkor</string>
-    <string name="terms_of_use_label">"Din integritet är viktig för oss. Läs våra Användarvillkor och Integritetspolicy för att förstå vilken information vi samlar in, använder och vilka alternativ som är tillgängliga för dig.
+    <string name="terms_of_use_label">"Din integritet är väldigt viktig för oss. Läs våra användarvillkor och vår integritetspolicy för att förstå vilken information som vi samlar in, hur vi använder den och vilka alternativ som är tillgängliga för dig.
 
-Du måste godkänna våra Användarvillkor och Integritetspolicy innan du kan använda MIUI. Tjänster från MI, aktivera MI SIM tjänster, MI Cloud, Hitta enhet, snabbkort, statistik, smartkort, MI Link, och komponenter för MI-konto kommer ansluta till internet för hämta din platsinformation."</string>
-    <string name="terms_of_use_label_gms">"Din integritet är viktig för oss. Läs våra Användarvillkor och Integritetspolicy för att förstå vilken information vi samlar in, använder och vilka alternativ som är tillgängliga för dig.
+Du måste godkänna våra användarvillkor och vår integritetspolicy innan du kan använda MIUI. %s och Mi-konto kommer ansluta till internet och finna din plats."</string>
+    <string name="terms_of_use_lable_apps">Mi tjänster, Mi SIM activation services, Mi Cloud, Hitta enhet, Hemskärm, Spelcenter, MAB, MIUI Daemon and MSA system components, översättningsappar, Snabbappar, Appvalv, statistik, Mi Link</string>
+    <string name="terms_of_use_lable_gms">, Google Play services</string>
+    <string name="terms_of_use_label_systemhelper">, Självregistrerande tjänst</string>
+    <string name="terms_of_use_lable_smart_cards">, Smarta kort</string>
+    <string name="terms_of_use_lable_default_input_method_facemoji">"
 
-Du måste godkänna våra Användarvillkor och Integritetspolicy innan du kan använda MIUI. Tjänster från MI, aktivera MI SIM tjänster, MI Cloud, Hitta enhet, Hemskärm, MAB, MIUI Daemon och MSA System, webappar, App valv, statistik, smartkort, MI Link, komponenter för MI-konto och Google Play services kommer ansluta till internet för hämta din platsinformation."</string>
+Du måste godkänna Facmoji's Integritetspolicy innan du använder denna funktion."</string>
+    <string name="terms_of_use_lable_default_input_method_kika">"
+
+Du måste godkänna Kika's Integritetspolicy innan du använder denna funktion."</string>
     <string name="user_agreement">Användarvillkor</string>
     <string name="privacy_policy">Integritetspolicy</string>
+    <string name="terms_privacy_policy_input_method_kika">Kika Integritetspolicy</string>
+    <string name="terms_privacy_policy_input_method_facemoji">Facemoji Integritetspolicy</string>
     <string name="application_permissions">Appbehörigheter</string>
     <string name="agree">Acceptera</string>
     <string name="disagree">Avbryt</string>
     <string name="setting_locale">Ställer in region…</string>
     <string name="agree_terms">Jag har läst och godkänner användarvillkoren och integritetspolicyn.</string>
+    <string name="agree_terms_input_method_facemoji">"Jag har läst och godkänner Facemoji's Integritetspolicy."</string>
+    <string name="agree_terms_input_method_kika">"Jag har läst och godkänner Kika's Integritetspolicy."</string>
     <string name="miui_terms_no_network">Du har ingen internetanslutning. Visa användarvillkoren på %s.</string>
     <string name="miui_privacy_policy_no_network">Du har ingen internetanslutning. Visa integritetspolicyn på %s.</string>
     <string name="locale_picker_title">Välj din region</string>
@@ -72,7 +83,7 @@ Du måste godkänna våra Användarvillkor och Integritetspolicy innan du kan an
     <string name="desc_international_fingerprint">Använd ditt fingeravtryck för att låsa upp enheten, eller logga in till appar och tjänster.</string>
     <string name="content_description_start">Starta</string>
     <string name="start_up_slogan">Designad för helskärmsupplevelse</string>
-    <string name="content_description_miui_version">MIUI 9</string>
+    <string name="content_description_miui_version">MIUI 10</string>
     <string name="content_description_complete">Slutförd</string>
     <string name="language_picker_other_languages_title">Fler språk</string>
     <string name="language_settings">Välj språk</string>
@@ -89,4 +100,5 @@ Du måste godkänna våra Användarvillkor och Integritetspolicy innan du kan an
     <string name="continue_to_enable_accessibility">Fortsätt hålla ner två fingrar för att aktivera tillgänglighet.</string>
     <string name="voice_assist_title">Väck med röst</string>
     <string name="voice_assist_desp">Säg \"Mi AI\" i din telefon. Mi AI kommer känna igen din röst och du kommer kunna styra din enhet.</string>
+    <string name="voice_assist_desp_screen_light">Säg \"Mi AI\" i din telefon efter att skärmen tänts upp. Mi AI kommer känna igen din röst och du kommer kunna styra din enhet.</string>
 </resources>

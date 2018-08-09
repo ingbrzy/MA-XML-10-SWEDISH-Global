@@ -192,6 +192,7 @@
     <string name="file_size">Storlek:</string>
     <string name="file_title">Namn:</string>
     <string name="file_width_height">Storlek:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Nytt meddelande</string>
     <string name="forward_from">Vidarebefordra från:</string>
     <string name="forward_prefix">"Fwd: "</string>
@@ -360,9 +361,18 @@
     <string name="no_subject_view">(Inget ämne)</string>
     <string name="non_english_subject_limit">Gräns 13 tecken</string>
     <string name="nosend_message">Skicka ej</string>
+    <string name="notification_channel_msg_description">Notifications about messages</string>
+    <string name="notification_channel_msg_name">Messages</string>
+    <string name="notification_channel_other_description">Other notifications</string>
+    <string name="notification_channel_other_name">Andra</string>
+    <string name="notification_channel_sim1_description">Notifications about SIM 1 messages</string>
+    <string name="notification_channel_sim1_name">SIM 1 messages</string>
+    <string name="notification_channel_sim2_description">Notifications about SIM 2 messages</string>
+    <string name="notification_channel_sim2_name">SIM 2 messages</string>
     <string name="notification_copy">Kopiera OTP</string>
     <string name="notification_failed_multiple">%s meddelande kunde inte skickas</string>
     <string name="notification_failed_multiple_title">Meddelanden inte skickade</string>
+    <string name="notification_group_name">Meddelanden</string>
     <string name="notification_multiple">[%s]</string>
     <string name="notification_multiple_title">Nytt meddelande</string>
     <string name="number_add_hint">Ange telefonnummer</string>
@@ -397,7 +407,7 @@
     <string name="pref_show_sms_template_entry_summary">Upptäcka engångslösenord och visar snabba menyer</string>
     <string name="pref_show_sms_template_in_summary">Detektera engångslösenord i SMS automatiskt</string>
     <string name="pref_show_sms_template_summary">Aktivera för att använda smarta funktioner i Mi meddelande, såsom kopiering koder, kontroll balans, etc.</string>
-    <string name="pref_smart_messages_settings">Smarta meddelanden</string>
+    <string name="pref_smart_messages_settings">Smart Messaging</string>
     <string name="pref_sms_storage_title">Lagring</string>
     <string name="pref_sms_theme_title">Visa</string>
     <string name="pref_summary_allow_si_sl_push">Tillåt meddelanden att ladda innehåll från webbsidor</string>
@@ -541,6 +551,7 @@
     <string name="send_signature_confirm_dialog_title">Skicka meddelande</string>
     <string name="send_sms">Skicka meddelande</string>
     <string name="send_to">Till:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Skickades kl: %1s</string>
     <string name="sent_label">"Skickat: "</string>
     <string name="service_message_not_found">Meddelande utgånget eller otillgängligt</string>
@@ -652,6 +663,7 @@ Försök har gjorts: %s."</string>
     <string name="unstick">Släpp</string>
     <string name="unstick_conversation">Släpp nuvarande konversation</string>
     <string name="unsticked_conversation">Konversationen är redan släppt</string>
+    <string name="unsubscribe">Avsluta prenumeration</string>
     <string name="unsupported_media_format">Formatet %1$s stöds inte.</string>
     <string name="url_fraud_dangerous_alert">"Webbplatsen du försöker komma åt kan vara farlig. Den kan skada din enhet och information. Gå vidare ändå?
 %s"</string>
@@ -672,6 +684,4 @@ Försök har gjorts: %s."</string>
     <string name="wild_msg_title">Välj telefonnummer att synkronisera</string>
     <string name="yes">OK</string>
     <string name="yesterday">Igår</string>
-    <string name="notification_channel_description">Meddelanden från meddelanden</string>
-    <string name="notification_channel_name">Meddelanden</string>
 </resources>

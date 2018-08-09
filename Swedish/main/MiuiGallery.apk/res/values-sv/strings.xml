@@ -54,7 +54,7 @@
     <string name="album_name_people">Människor</string>
     <string name="album_name_recent_discovery">Nyligen</string>
     <string name="album_name_tags">Taggar</string>
-    <string name="album_notes">Notes</string>
+    <string name="album_notes">Noteringar</string>
     <string name="album_others_share_baby_info_format">Bebisalbum från %s</string>
     <string name="album_others_share_info_format">Från %s</string>
     <string name="album_owner_share">Delat</string>
@@ -463,6 +463,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="face_name_edit">Redigera</string>
     <string name="face_name_input">Ange namn</string>
     <string name="face_recommend">Rekommendationer</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunde inte slutföra åtgärden</string>
     <string name="fail_to_pick_email">Ogiltig e-postadress</string>
     <string name="fail_to_sync_album">Kunde inte synkronisera album. Kolla din datakoppling och försök igen.</string>
@@ -470,9 +471,10 @@ Ta fler bilder av dina vänner!"</string>
     <string name="fancy_color_desc">Färger</string>
     <string name="fast_share_auto_render">Försköna</string>
     <string name="fast_share_auto_render_finish">Förskönad</string>
-    <string name="feature_guidance_photo_effects">"New photo effects
-are available"</string>
-    <string name="feature_guidance_video_editor_smart_effects">New effects are available</string>
+    <string name="feature_guidance_photo_effects">"Nya foto effects
+are tillgänglig"</string>
+    <string name="feature_guidance_video_editor_smart_effects">Nya effekter finns</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Minne</string>
     <string name="filter_bi_mono">Mono</string>
     <string name="filter_bi_pink">Rosa</string>
@@ -541,6 +543,7 @@ are available"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Ange</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri behöver tillgång till 
 %s
  för att fungera normalt, tryck på \"Tillämpa\" för att gå till Behörigheter."</string>
@@ -736,6 +739,7 @@ för att göra galleriet personligt"</string>
     <string name="people_mark_mode_title_no_mark_name">Välj en person</string>
     <string name="people_page_label">Människor</string>
     <string name="people_page_unname">Namnlös</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Sällskapsdjursfoton</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Foton</string>
@@ -855,7 +859,7 @@ för att göra galleriet personligt"</string>
     <string name="picker_image_will_download">%d av de valda fotona finns inte på enheten. De kommer att laddas ner.</string>
     <string name="picker_no_network_message">Anslut till nätverket för att ladda ner</string>
     <string name="picker_origin_need_download">%1$d av de valda fotona (%2$dMB) finns inte på enheten. Ladda ner med mobildata?</string>
-    <string name="picker_origin_request_progress_message">Preparing original files (%1$d/%2$d)…</string>
+    <string name="picker_origin_request_progress_message">Förbereda ursprungliga filer (%1$d/%2$d) …</string>
     <string name="picker_title_format">Välj %1$d till %2$d bilder</string>
     <string name="picker_title_selection_format">Valda foton: %d</string>
     <string name="picker_title_selection_format_multiple">Välj %1$d till %2$d bilder (%3$d)</string>
@@ -987,6 +991,9 @@ för att göra galleriet personligt"</string>
     <string name="search_title_recommend">Rekommenderad</string>
     <string name="search_title_suggestion">Förslag</string>
     <string name="search_title_tag">Objekt</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Söker efter projektor…</string>
     <string name="secret_album_card_description">Bästa platsen för alla dina små hemligheter</string>
     <string name="secret_album_card_title">Försök dolda album</string>
@@ -1004,7 +1011,7 @@ för att göra galleriet personligt"</string>
     <string name="secret_reason_too_large">Fil är för stor</string>
     <string name="secret_reason_type_not_support">Den här filtypen stöds inte</string>
     <string name="secret_reason_unknow_reasons">Okänt fel</string>
-    <string name="secret_reason_video_not_support">"Can't add videos to hidden album"</string>
+    <string name="secret_reason_video_not_support">Kan inte lägga till videor dolda album</string>
     <string name="see_ignore_faces">Visa personer du har ignorerat</string>
     <string name="select_item_face">"Är detta '%s'?"</string>
     <string name="select_origin_tip">Originalfil (%s)</string>
@@ -1218,15 +1225,15 @@ för att göra galleriet personligt"</string>
     <string name="video_editor_smart_effect_fastslow">Rörelse</string>
     <string name="video_editor_smart_effect_freesze">Stop-motion</string>
     <string name="video_editor_smart_effect_halo">Halo</string>
-    <string name="video_editor_smart_effect_high_iframes_text">This effect works best for 120 fps videos.</string>
+    <string name="video_editor_smart_effect_high_iframes_text">Denna effekt fungerar bäst för 120 fps videor.</string>
     <string name="video_editor_smart_effect_movie">Film</string>
     <string name="video_editor_smart_effect_none">Ingen</string>
     <string name="video_editor_smart_effect_radical">Upbeat</string>
     <string name="video_editor_smart_effect_rhythm">Pulse</string>
     <string name="video_editor_smart_effect_street">Metropolis</string>
-    <string name="video_editor_smart_effect_time_limit_txt_40">Du kan tillämpa denna effekt på videor som är upp till 40 sekunder långa.</string>
+    <string name="video_editor_smart_effect_time_limit_txt_40">Denna effekt kan tillämpas på videor längre än 40 sekunder. Justerade varaktighet automatiskt.</string>
     <string name="video_editor_smart_effect_time_limit_txt_6">Du kan tillämpa denna effekt på videor som är minst 6 sekunder lång.</string>
-    <string name="video_editor_smart_effect_time_limit_txt_60">Du kan tillämpa denna effekt på videor som är upp till 60 sekunder långa.</string>
+    <string name="video_editor_smart_effect_time_limit_txt_60">Denna effekt kan tillämpas på videor längre än 60 sekunder. Justerade varaktighet automatiskt.</string>
     <string name="video_editor_template_family">Familj</string>
     <string name="video_editor_template_forbidden_tips">Kan inte göra detta när en mall används</string>
     <string name="video_editor_template_oldfilm">Vintage</string>
@@ -1246,7 +1253,7 @@ för att göra galleriet personligt"</string>
     <string name="video_editor_unsupport_audio_file">Stödjer ej ljudfil</string>
     <string name="video_editor_unzip_file_fail">Kunde inte packa upp video.</string>
     <string name="video_editor_video_is_short">Kan inte redigera denna video.</string>
-    <string name="video_editor_video_loading">Preparing video,Wait a second or two and try again.</string>
+    <string name="video_editor_video_loading">Förbereda video… vänta en sekund eller två och försök igen.</string>
     <string name="video_editor_watermark">Vattenstämpel</string>
     <string name="video_err">Kan inte spela upp video</string>
     <string name="video_not_exist">Video existerar inte</string>
@@ -1256,6 +1263,7 @@ för att göra galleriet personligt"</string>
     <string name="view_face_album">Visa album</string>
     <string name="view_more_face_desc">Visa fler människor</string>
     <string name="voice_assistant">Röstinmatning</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Välkommen till Mi Cloud</string>
     <string name="where_is_barcode">Var är QR-koden?</string>
     <string name="who_is_this">Vem är det?</string>

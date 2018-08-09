@@ -77,7 +77,7 @@
     <string name="download_error_insufficient_space">Inte tillräckligt med utrymme</string>
     <string name="download_filesize_unknown">Okänd</string>
     <string name="download_from">Källa:</string>
-    <string name="download_in_process">Laddar ned</string>
+    <string name="download_in_process">Pågående nedladdningar</string>
     <string name="download_info_start_deleted_tasks">Ta bort nedladdningar</string>
     <string name="download_list_open_xl_cancel">Avbryt</string>
     <string name="download_list_open_xl_ok">OK</string>

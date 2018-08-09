@@ -16,6 +16,10 @@
         <item quantity="other">Spelaren kommer stoppas om %d minuter</item>
         <item quantity="one">Spelaren kommer stoppas om %d minut</item>
     </plurals>
+    <plurals name="Nrecognize_switch_off_alert_message">
+        <item quantity="other">Du valde att inte hitta albumomslag och texter för lokala låtar automatiskt. Radera information för %d låtar?</item>
+        <item quantity="one">Du valde att inte hitta albumomslag och texter för lokala låtar automatiskt. Radera information för %d låt?</item>
+    </plurals>
     <plurals name="Nsong_group_detail_subtitle">
         <item quantity="other">Skapad den %1$s | totalt %2$d låtar</item>
         <item quantity="one">Skapad den %1$s | totalt %2$d låtar</item>
@@ -57,10 +61,10 @@
         <item quantity="one">Radera %d objekt?</item>
     </plurals>
     <plurals name="dialog_confirm_delete_downloads_message_with_file">
-        <item quantity="other">"Ta bort %d objekt?
-Oppmärkning: Filarna kommer också att raderas från den här enheten."</item>
-        <item quantity="one">"Ta bort %d objekt?
-Oppmärkning: Fil kommer också att raderas från den här enheten."</item>
+        <item quantity="other">"Delete %d items?
+Note: Files will be deleted from this device as well."</item>
+        <item quantity="one">"Delete %d item?
+Note: File will be deleted from this device as well."</item>
     </plurals>
     <plurals name="dialog_delete_descript">
         <item quantity="other">Ta bort %d låtar?</item>
@@ -109,9 +113,5 @@ Oppmärkning: Fil kommer också att raderas från den här enheten."</item>
     <plurals name="songs_count">
         <item quantity="other">%d låtar</item>
         <item quantity="one">%d låt</item>
-    </plurals>
-    <plurals name="video_play_count">
-        <item quantity="other">%1$s visningar</item>
-        <item quantity="one">%1$s Visa</item>
     </plurals>
 </resources>

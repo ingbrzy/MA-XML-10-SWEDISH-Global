@@ -63,7 +63,7 @@
     <string name="remove_button_time">Ta bort och starta om (%ds)</string>
     <string name="cancel_button">Avbryt</string>
     <string name="list_empty_text">Tom</string>
-    <string name="list_empty_text_xspace">Installera WeChat/QQ/Weibo, Skapa Dual Appar och försök igen.</string>
+    <string name="list_empty_text_xspace">Installera WeChat/QQ/Weibo, skapa Dubbelappar och försök igen.</string>
     <string name="xspace_label">Dubbelappar</string>
     <string name="xspace_setting_label">Inställningar för Dual App</string>
     <string name="xspace_account">Konton för Dubbelappar</string>
@@ -73,11 +73,11 @@
     <string name="xspace_loading_msg">Laddar appar…</string>
     <string name="xspace_header">Dubbelappar</string>
     <string name="xspace_introduce">Rekommenderad</string>
-    <string name="xspace_description">"Dubbelappar är en separat instans av appen och kan användas helt separat med ett annat konto.
+    <string name="xspace_description">"Dubbelappar är en kopia av appen och kan användas helt separat med ett annat konto.
 
 Vissa Dubbelappar kräver support för Google Services Framework. I de fallen skapas dubbla Google Services Framework."</string>
     <string name="xspace_chocie">Stöd för Dubbelapp</string>
-    <string name="xspace_creating">Skapar Dual App…</string>
+    <string name="xspace_creating">Skapar Dubbelapp…</string>
     <string name="xspace_installing">Installerar…</string>
     <string name="xspace_install_failed">Kunde inte skapa</string>
     <string name="xspace_uninstalling">Avinstallerar…</string>
@@ -281,7 +281,7 @@ för att logga in från låsskärmen"</string>
     <string name="scanner_fingerprint">Skannar fingeravtryck…</string>
     <string name="scanner_fingerprint_enter_second">"Skanna Sekundära utrymmets fingeravtryck
  för att gå till Sekundära utrymmet från Låsskärmen"</string>
-    <string name="xspace_guide_title">Skapa en Dual App</string>
+    <string name="xspace_guide_title">Skapa en Dubbelapp</string>
     <string name="xspace_guide_des">Använd två konton utan att behöva växla</string>
     <string name="xpsace_guide_button">Skapa</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s:&lt;/font>"</string>
@@ -334,7 +334,7 @@ för att logga in från låsskärmen"</string>
     <string name="sdcardfs_dialog_title">Viktig uppdatering</string>
     <string name="sdcardfs_dialog_message">Ett nytt filsystem introduceras i denna uppdatering. Gammal data kan vara inkompatibel med det. För att lösa detta problem, följ stegen för att installera en uppdatering. Din enhet kommer starta om två gånger under uppdateringen.</string>
     <string name="do_not_ask">Fråga inte igen</string>
-    <string name="gpg_message">Att skapa Dual Apps för spel kräver Google Play Games. Skapa en Dual App för Google Play Games?</string>
+    <string name="gpg_message">Att skapa Dubbelappar för spel kräver Google Play Games. Skapa en Dubbelapp för Google Play Games?</string>
     <string name="gpg_title">Dual App för Google Play Games</string>
     <string name="gms_message">Att skapa Dubbelappar kräver Google services. Skapa en Dubbelapp för Google services?</string>
     <string name="gms_title">Aktivera Googles funktioner</string>

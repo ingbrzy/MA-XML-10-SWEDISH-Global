@@ -28,18 +28,6 @@
         <item quantity="other">Felaktig PUK-kod, %d försök återstår</item>
         <item quantity="one">Felaktig PUK-kod, %d försök återstår</item>
     </plurals>
-    <plurals name="keyguard_charging_info_charging_full_need_hour_time__text">
-        <item quantity="other">"Ungefär %d  timmar till fulladdat"</item>
-        <item quantity="one">"Ungefär %d  timme till fulladdat"</item>
-    </plurals>
-    <plurals name="keyguard_charging_info_charging_full_need_min_time__text">
-        <item quantity="other">"Ungefär %d  minuter till fulladdat"</item>
-        <item quantity="one">"Ungefär %d  minut till fulladdat"</item>
-    </plurals>
-    <plurals name="keyguard_charging_info_charging_full_need_time__text">
-        <item quantity="other">"Fulladdat om %1$d h %2$d  minut"</item>
-        <item quantity="one">"Fulladdat om %1$d h %2$d  minut"</item>
-    </plurals>
     <plurals name="keyguard_charging_info_could_use_hour_time_text">
         <item quantity="other">"Ungefär %d  timmar kvar"</item>
         <item quantity="one">"Ungefär %d  timme kvar"</item>
@@ -73,8 +61,8 @@
         <item quantity="one">SIM-kortet är nu inaktiverat. Ange PUK-koden för att fortsätta. Du har %d återstående försök innan SIM-kortet blir permanent oanvändbart. Kontakta din operatör för detaljer.</item>
     </plurals>
     <plurals name="kg_password_wrong_pin_code">
-        <item quantity="other">Felaktig PIN-kod till SIM-kortet, du har %d återstående försök.</item>
-        <item quantity="one">Felaktig PIN-kod till SIM-kortet, du har %d återstående försök innan du du måste kontakta din operatör för att låsa upp din enhet.</item>
+        <item quantity="other">Felaktig PIN-kod till SIM-kortet. Du har %d återstående försök.</item>
+        <item quantity="one">Felaktig PIN-kod till SIM-kortet. Du har %d återstående försök innan du du måste kontakta din operatör för att låsa upp din enhet.</item>
     </plurals>
     <plurals name="kg_password_wrong_puk_code">
         <item quantity="other">Felaktig PUK-kod till SIM-kortet, du har %d återstående försök innan SIM-kortet blir permanent oanvändbart.</item>

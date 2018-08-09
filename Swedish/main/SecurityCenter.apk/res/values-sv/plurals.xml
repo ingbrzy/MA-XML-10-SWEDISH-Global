@@ -280,6 +280,10 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="other">%d appar hittade</item>
         <item quantity="one">%d app hittad</item>
     </plurals>
+    <plurals name="reset_data_dialog_ok_tick">
+        <item quantity="other">Fabriksåterställning (%ds)</item>
+        <item quantity="one">Fabriksåterställning (%ds)</item>
+    </plurals>
     <plurals name="section_clear_acc_item_right_tips">
         <item quantity="other">%d låsta appar väntar på att rensas</item>
         <item quantity="one">%d låsta appar väntar på att rensas</item>
