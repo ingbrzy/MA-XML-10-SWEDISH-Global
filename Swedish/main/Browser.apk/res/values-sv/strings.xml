@@ -25,7 +25,6 @@
     <string name="s5">Skapa kalenderhändelse</string>
     <string name="s6">Tillåter du att annonsen skapar en kalenderhändelse?</string>
     <string name="s7">Testannons</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="abc_action_bar_home_description">Gå till startsidan</string>
     <string name="abc_action_bar_up_description">Gå upp</string>
     <string name="abc_action_menu_overflow_description">Mer</string>
