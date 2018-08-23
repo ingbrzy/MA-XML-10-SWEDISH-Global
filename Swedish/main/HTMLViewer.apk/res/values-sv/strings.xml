@@ -11,6 +11,7 @@
  gå till %s på en annan enhet."</string>
     <string name="permdesc_accessDrm">Tillåt appen att få tillgån till DRM-skyddat innehåll.</string>
     <string name="open_wifi_connect_title">Ansluten till %1$s</string>
+    <string name="open_wifi_connect_and_use_data_summary">fortsätt att använda internettrafik, tryck för att byta Wi-Fi och verifiera.</string>
     <string name="open_wifi_connect_summary">Tryck för att visa detaljer.</string>
     <string name="settings_license_activity_title">Licenser för Open source</string>
     <string name="settings_license_activity_loading">Vänta lite…</string>

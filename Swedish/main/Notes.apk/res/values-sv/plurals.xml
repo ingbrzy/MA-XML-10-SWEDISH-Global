@@ -17,7 +17,7 @@
         <item quantity="one">%d andra vänster</item>
     </plurals>
     <plurals name="word_count">
-        <item quantity="other">%d characters</item>
-        <item quantity="one">%d character</item>
+        <item quantity="other">%d tecken</item>
+        <item quantity="one">%d tecken</item>
     </plurals>
 </resources>

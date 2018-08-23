@@ -61,6 +61,7 @@
     <string name="pref_category_title_garbage_cleanup_check">Notifikationer</string>
     <string name="pref_summary_garbage_cleanup_check_time">Schemalägg en rutinbelagd städning</string>
     <string name="pref_title_garbage_cleanup_check_time">Schemalägg</string>
+    <string name="pref_about_privacy_title">Integritetspolicy</string>
     <string name="pref_summary_garbage_cleanup_check_size">Rensa automatiskt när skräp når en viss storlek</string>
     <string name="pref_title_garbage_cleanup_check_size">Gräns för skräpstorlek</string>
     <string name="pref_title_garbage_cleanup_size">Gräns för skräpstorlek</string>
@@ -91,6 +92,7 @@
     <string name="hints_apk_header_left">Paket</string>
     <string name="hints_residual_header_left">Överblivna filer</string>
     <string name="hints_memory_header_left">Minne</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Stora filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerade appar: %d</string>
     <string name="toast_resolve_apk_error">Lös apk fel</string>
@@ -163,7 +165,7 @@
     <string name="confirm_auto_cleaner">OK</string>
     <string name="auto_cleaner_open">Aktivera</string>
     <string name="btn_text_done">Klar</string>
-    <string name="btn_text_stop">Stoppa</string>
+    <string name="btn_text_stop">Avbryt</string>
     <string name="hints_quick_scanning">Skannar…</string>
     <string name="hints_quick_cleanuping">Optimerar…</string>
     <string name="hints_deepclean_scanning">Skannar %s</string>
@@ -298,6 +300,7 @@
     <string name="downloading">Laddar ner</string>
     <string name="installing">Installerar</string>
     <string name="start_install">Installera nu</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Öppna i webbläsaren</string>
     <string name="title_share_link">Dela URL</string>
     <string name="connecting">Ansluter…</string>
@@ -386,7 +389,7 @@
     <string name="dialog_title_stop_scan">Avbryt skanning</string>
     <string name="dialog_msg_stop_scan">Avbryt skanning nu?</string>
     <string name="dialog_title_esc_cleanmaster">Avsluta Städaren</string>
-    <string name="dialog_msg_esc_cleanmaster">Avsluta sökning och avsluta Städaren?</string>
+    <string name="dialog_msg_esc_cleanmaster">Avbryt skanning och avsluta Städaren?</string>
     <string name="pref_category_title_engine_settings">Skanna-definitionsinställningar</string>
     <string name="pref_title_choose_engine">Definitioner</string>
     <string name="recommend_the_following">Använda följande åtgärder för att få ut det mesta av din enhet</string>
@@ -432,8 +435,8 @@
     <string name="wechat_clean_stop_confirm">Avbryt skanning?</string>
     <string name="wechat_clean_stop_confirm_msg">Avbryt skanning nu?</string>
     <string name="wechat_clean_exit_confirm">Avsluta?</string>
-    <string name="wechat_clean_exit_confirm_msg">Avsluta sökning och avsluta nu?</string>
-    <string name="qq_clean_exit_confirm_msg">Avsluta sökning och avsluta nu?</string>
+    <string name="wechat_clean_exit_confirm_msg">Avbryt skanning och avsluta nu?</string>
+    <string name="qq_clean_exit_confirm_msg">Avbryt skanning och avsluta nu?</string>
     <string name="wechat_chat_data_type_normal">Skräp</string>
     <string name="wechat_chat_data_type_normal_desc">Att ta bort dem har ingen effekt på ditt användande.</string>
     <string name="wechat_chat_data_type_normal_clean_tips">Detta är tekniska filer. Att ta bort dem påverkar inte ditt användande.</string>
@@ -543,7 +546,7 @@
     <string name="whatsapp_type_document_recv">Mottagna filer</string>
     <string name="whatsapp_file_show_order">Idag</string>
     <string name="whatsapp_clean_exit_confirm_title">Avbryt skanning?</string>
-    <string name="whatsapp_clean_exit_confirm_msg">Skanningen av Whatsapp är inte slutförd. Avbryt skanning ändå?</string>
+    <string name="whatsapp_clean_exit_confirm_msg">Skanningen av WhatsApp är inte slutförd. Avbryt skanning ändå?</string>
     <string name="whatsapp_clean_exit_confirm_cancel">Fortsätt skanning</string>
     <string name="whatsapp_clean_exit_confirm_ok">Avbryt</string>
     <string name="whatsapp_delete_confirm_ok">OK</string>
@@ -551,9 +554,9 @@
     <string name="whatsapp_content_empty">Inga objekt här.</string>
     <string name="whatsapp_delete_confirm_message">Ta bort nu?</string>
     <string name="whatsapp_delete_done">Klart</string>
-    <string name="whatsapp_title">Städa Whatsapp</string>
-    <string name="whatsapp_function_title">Städa Whatsapp</string>
-    <string name="whatsapp_function_summery">Rensa bifogade filer i Whatsapp</string>
+    <string name="whatsapp_title">Städa WhatsApp</string>
+    <string name="whatsapp_function_title">Städa WhatsApp</string>
+    <string name="whatsapp_function_summery">Rensa bifogade filer i WhatsApp</string>
     <string name="clean_summary">Städade %1$s filer</string>
     <string name="onekeyclean_boosting_title">Ökar hastigheten</string>
     <string name="onekeyclean_boosted_title">Rensat</string>

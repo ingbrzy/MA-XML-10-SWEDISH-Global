@@ -200,6 +200,7 @@
     <string name="tap_to_exposure">Tryck här för att justera exponeringen manuellt</string>
     <string name="accessibility_shutter_button">Slutarknapp</string>
     <string name="accessibility_intent_done_apply">Klar</string>
+    <string name="accessibility_intent_done_retry">Ta om</string>
     <string name="accessibility_review_thumbnail">Senaste foto</string>
     <string name="accessibility_camera_picker">Växla mellan fram- och baksidans kameror</string>
     <string name="accessibility_stereo_button">Justera fokus</string>
@@ -431,6 +432,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Djupeffekt</string>
     <string name="portrait_mode_use_hint">"Porträttläge gör bakgrunden suddig
  och frambringar personerna förgrunden."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Fyrkant</string>
     <string name="simple_mode_button_text_square">Stäng av Fyrkant</string>
     <string name="face_beauty_smart">Prydlig</string>
@@ -445,6 +447,7 @@
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Lägen</string>
     <string name="button_front_camera_title">Ta en selfie</string>
     <string name="button_normal_video_title">Spela in video</string>
@@ -557,4 +560,5 @@ i Porträtt läge"</string>
     <string name="lighting_pattern_leaf">Löv</string>
     <string name="lighting_pattern_dot">Punkter</string>
     <string name="lighting_pattern_shutter">Persienner</string>
+    <string name="view_privacy_policy">Visa sekretesspolicy</string>
 </resources>

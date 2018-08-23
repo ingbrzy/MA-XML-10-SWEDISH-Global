@@ -220,6 +220,10 @@
         <item quantity="other">%1$d snabbknappar kommer synas i Notifikationspanelen</item>
         <item quantity="one">%1$d snabbknapp kommer synas i Notifikationspanelen</item>
     </plurals>
+    <plurals name="show_audio_logcat_countdown">
+        <item quantity="other">%1$d steps left before you can get audio log</item>
+        <item quantity="one">%1$d step left before you can get audio log</item>
+    </plurals>
     <plurals name="show_cit_countdown">
         <item quantity="other">Du är %1$d steg från att gå in i CIT.</item>
         <item quantity="one">Du är %1$d steg från att gå in i CIT.</item>
@@ -227,6 +231,14 @@
     <plurals name="show_dev_countdown">
         <item quantity="other">Du är nu %1$d steg från att bli utvecklare.</item>
         <item quantity="one">Du är nu %1$d steg från att bli utvecklare.</item>
+    </plurals>
+    <plurals name="show_gps_logcat_countdown">
+        <item quantity="other">%1$d steps left before you can get GPS log</item>
+        <item quantity="one">%1$d step left before you can get GPS log</item>
+    </plurals>
+    <plurals name="show_modem_logcat_countdown">
+        <item quantity="other">%1$d steps left before you can get modem log</item>
+        <item quantity="one">%1$d step left before you can get modem log</item>
     </plurals>
     <plurals name="show_pho_countdown">
         <item quantity="other">Du har %1$d steg kvar från att ange din telefoninfo.</item>

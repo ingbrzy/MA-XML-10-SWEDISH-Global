@@ -340,4 +340,20 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="other">Incheckad %d dagar i rad</item>
         <item quantity="one">Incheckad %d gång</item>
     </plurals>
+    <plurals name="hide_txt_hint_with_blank_2">
+        <item quantity="other">    +%1$d tecken till</item>
+        <item quantity="one">    +%1$d tecken till</item>
+    </plurals>
+    <plurals name="privacy_apps_enable_header_title">
+        <item quantity="other">Kan dölja %d appar</item>
+        <item quantity="one">Kan dölja %d app</item>
+    </plurals>
+    <plurals name="privacy_apps_disable_header_title">
+        <item quantity="other">%d appar är dolda</item>
+        <item quantity="one">%d app är dold</item>
+    </plurals>
+    <plurals name="first_aid_result_summary_exception">
+        <item quantity="other">%1$d problem kräver optimering</item>
+        <item quantity="one">%1$d problem kräver optimering</item>
+    </plurals>
 </resources>

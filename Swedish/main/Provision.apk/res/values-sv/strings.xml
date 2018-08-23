@@ -40,7 +40,7 @@ Se den valda tangentbords sekretesspolicyn."</string>
     <string name="congratulation_title">Inställningsguide klar</string>
     <string name="congratulation_label">Du är redo att rocka!​</string>
     <string name="pref_title_voice_slot">Föredragit röst SIM-kort</string>
-    <string name="pref_title_data_slot">Föredraget data SIM-kort</string>
+    <string name="pref_title_data_slot">SIM-kort för mobildata att föredra</string>
     <string name="summary_not_set">Inte angivet</string>
     <string name="ime_privacy_policy">Integritetspolicy för det valda tangentbordet</string>
     <string name="ime_privacy_policy_no_network">Ingen anslutning. Visa integritetspolicy för tangentbordet på %s.</string>

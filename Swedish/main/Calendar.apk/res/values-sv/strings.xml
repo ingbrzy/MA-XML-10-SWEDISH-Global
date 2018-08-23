@@ -369,7 +369,7 @@ Du kan också lägga till påminneler så du inte missar något viktigt."</strin
     <string name="tab_title_day">Dag</string>
     <string name="tab_title_month">Månad</string>
     <string name="tab_title_week">Vecka</string>
-    <string name="talk_back_read_date">Nuvarande datum: %1$s (%2$s enligt månkalendern).</string>
+    <string name="talk_back_read_date">%1$s (%2$s enligt månkalendern).</string>
     <string name="template_announce_item_index">Händelse %1$s av %2$s.</string>
     <string name="template_week_num">Vecka %1$s</string>
     <string name="time_zone">Tidszon</string>
@@ -425,5 +425,9 @@ Du kan också lägga till påminneler så du inte missar något viktigt."</strin
     <string name="xiaomi_calendar_display_name">Mi Account-kalender</string>
     <string name="yearly">Varje år (%s)</string>
     <string name="yearly_plain">Varje år</string>
+    <string name="close_alarm">Avaktivera</string>
     <string name="discard_label">Avbryt</string>
+    <string name="guide_card_close">Stäng</string>
+    <string name="login_failed_toast">Kunde inte logga in, uppdatera och försök igen</string>
+    <string name="talk_back_setting">Inställningar</string>
 </resources>

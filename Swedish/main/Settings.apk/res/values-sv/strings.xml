@@ -916,6 +916,7 @@ Sample Rate"</string>
     <string name="bootloader_status_unlocked">Olåst</string>
     <string name="bootloader_status_unlocked_info">Denna enhet är olåst</string>
     <string name="bootloader_summary">Flasha din enhet via USB</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="breathing_light_color_menu_title">Lampfärg</string>
     <string name="breathing_light_color_summary">Lampfärg när du får en ny notifikation</string>
     <string name="breathing_light_freq_summary">Pulsera när det finns nya notifikationer</string>
@@ -1127,7 +1128,7 @@ Denna funktion kan avaktiveras i [Inställningar]"</string>
     <string name="confirm_action">OK</string>
     <string name="confirm_bind_xiaomi_account_dialog_title">Lägg till</string>
     <string name="confirm_convert_to_fbe_warning">Vill du ta bort användardata och konvertera till filkryptering?</string>
-    <string name="confirm_download_cancelation_dialog_message">Avbryt hämtning?</string>
+    <string name="confirm_download_cancelation_dialog_message">Avbryt nedladdning?</string>
     <string name="confirm_enable_oem_unlock_text">VARNING: Enhetsskyddsåtgärder fungerar inte på den här enheten när denna inställning är aktiverad.</string>
     <string name="confirm_enable_oem_unlock_title">Tillåt att låsa upp OEM?</string>
     <string name="confirm_erase">Ta bort</string>
@@ -1408,6 +1409,7 @@ Vi föreslår att du anger en något lägre gräns eftersom dataanvändningen m�
     <string name="delete_or_keep_legacy_passwords_confirm_msg">Ta bort fingeravtrycket?</string>
     <string name="delete_rule">Ta bort regler</string>
     <string name="delete_saved_network">Ta bort sparade nätverk</string>
+    <string name="delete_sound_effect">Ljud vid \"Ta bort\"</string>
     <string name="deleted_apps">Borttagna appar</string>
     <string name="deletion_helper_automatic_title">Automatiskt</string>
     <string name="deletion_helper_manual_title">Manuellt</string>
@@ -1552,6 +1554,7 @@ Vi föreslår att du anger en något lägre gräns eftersom dataanvändningen m�
     <string name="dndm_auto_button_title">Upprepa Stör ej tid</string>
     <string name="dndm_auto_setting_group">Schemalagd</string>
     <string name="dndm_auto_time_setting">Ange tid</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">Till</string>
     <string name="dndm_auto_time_turn_off_title">Stäng automatiskt av Stör ej</string>
     <string name="dndm_auto_time_turn_on">Från</string>
@@ -1710,6 +1713,7 @@ Detta gör det lättare att skydda data på borttappade eller stulna enheter. Vi
     <string name="enter_password">Starta Android genom att ange ditt lösenord</string>
     <string name="enter_pattern">Starta Android genom att rita ditt grafiska lösenord</string>
     <string name="enter_pin">Starta Android genom att ange din pinkod</string>
+    <string name="enterprise_mode">Företagsläge</string>
     <string name="enterprise_privacy_always_on_vpn_device">Always-on för VPN har aktiverats</string>
     <string name="enterprise_privacy_always_on_vpn_personal">Always-on för VPN har aktiverats i din personliga profil</string>
     <string name="enterprise_privacy_always_on_vpn_work">Always-on för VPN har aktiverats i jobbprofilen</string>
@@ -1953,12 +1957,12 @@ Det tycktes inte finnas några hästar eller några slags djur; männen drog omk
     <string name="foreground_traffic">Förgrund %s</string>
     <string name="forget">Glöm</string>
     <string name="forget_password_button_text"><u>Glömt lösenord</u></string>
-    <string name="forget_password_dialog_button_text">Back</string>
-    <string name="forget_password_dialog_content_four"><Data>2. Select &lt;font color=#e6e6e6>[Wipe data]&lt;/font>, and wait until your device reboots.</Data></string>
-    <string name="forget_password_dialog_content_one"><Data>"If you forget your password, you won't be able to restore it. However, you can reset your password after you &lt;font color=#ec2700>erase all data on your device&lt;/font> (including photos, contacts, etc.). Back up all important data before this."</Data></string>
-    <string name="forget_password_dialog_content_three"><Data>"1. Turn off your device. Press the &lt;font color=#e6e6e6>[Power]&lt;/font> button and the &lt;font color=#e6e6e6>[Volume+]&lt;/font> button simultaneously, and hold them until you see the &lt;img src=''> icon."</Data></string>
-    <string name="forget_password_dialog_content_two">Follow these steps to erase data:</string>
-    <string name="forget_password_dialog_title">Reset your password</string>
+    <string name="forget_password_dialog_button_text">Tillbaka</string>
+    <string name="forget_password_dialog_content_four"><Data>2. Välj &lt;font color=#e6e6e6>[Wipe data]&lt;/font> och vänta tills din enhet startar om</Data></string>
+    <string name="forget_password_dialog_content_one"><Data>Om du glömmer ditt lösenord kommer du inte kunna återställa det. Men du kan nollställa ditt lösenord efter att du &lt;font color=#ec2700>raderar all data på din enhet&lt;/font> (inklusive bilder, kontakter m. m.). Säkerhetskopiera all viktig data innan.</Data></string>
+    <string name="forget_password_dialog_content_three"><Data>"1. Stäng av din enhet. Tryck på &lt;font color=#e6e6e6>[Ström]&lt;/font>knappen och &lt;font color=#e6e6e6>[Volym+]&lt;/font>knappen samtidigt och håll dem intryckta tills du ser ikonen &lt;img src=''>."</Data></string>
+    <string name="forget_password_dialog_content_two">Följ dessa steg för att radera all data:</string>
+    <string name="forget_password_dialog_title">Återställ ditt lösenord</string>
     <string name="forget_pattern"><u>Glömt mönster?</u></string>
     <string name="forget_privacy_password_setting">Lägg till Mi-Konto</string>
     <string name="forget_privacy_password_summary">Använd Mi-konto för att återställa ditt lösenord</string>
@@ -2007,6 +2011,7 @@ När du aktiverar automatisk säkerhetskopiering fjärrsparas enhets- och appdat
     <string name="gadget_picker_title">Välj gadget</string>
     <string name="gadget_state_off">av</string>
     <string name="gadget_state_on">på</string>
+    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_turning_off">inaktiverar</string>
     <string name="gadget_state_turning_on">aktiverar</string>
     <string name="gadget_sync">Synkronisera</string>
@@ -2208,6 +2213,8 @@ Du kan ändra detta senare under Inställningar > Appar och aviseringar."</strin
     <string name="keyboard_shortcuts_helper">Hjälp med kortkommandon</string>
     <string name="keyboard_shortcuts_helper_summary">Visa tillgängliga genvägar</string>
     <string name="keyguard_advance_setting_title">Avancerade inställningar</string>
+    <string name="keyguard_security_setting_others">Övriga</string>
+    <string name="keyguard_security_setting_privacy_policy">Integritetspolicy</string>
     <string name="keywords_accounts">konto</string>
     <string name="keywords_airplane">Flygplan;Flygplansläge;Flyg;Flygläge</string>
     <string name="keywords_all_apps">appar, ladda ned, appar, system</string>
@@ -2314,6 +2321,7 @@ Du kan ändra detta senare under Inställningar > Appar och aviseringar."</strin
     <string name="lift_to_wake_title">Gå ur viloläget vid lyft</string>
     <string name="line_breaking_summary">Optimera radbrytning för paragrafer</string>
     <string name="line_breaking_title">Optimera meddelande</string>
+    <string name="link_speed">%1$d Mbit/s</string>
     <string name="list_bg_header_text">Om du begränsar bakgrundsanslutning, kommer inte nya appar att kunna ansluta till internet i bakgrunden efter att du installera dem. De kommer kanske inte kunna motta meddelanden eller ladda ner innehåll efter begränsningen.</string>
     <string name="list_empty_text">Tom</string>
     <string name="loading_notification_apps">Läser in appar ...</string>
@@ -2409,7 +2417,7 @@ Du kan ändra detta senare under Inställningar > Appar och aviseringar."</strin
     <string name="lock_screen_notifications_summary_show">Visa alla notifikationer och deras innehåll</string>
     <string name="lock_screen_notifications_summary_show_profile">Visa allt innehåll i jobbaviseringarna</string>
     <string name="lock_screen_notifications_title">På låsskärmen</string>
-    <string name="lock_screen_signature_summary">Detta meddelande kommer visas på låsskärmen</string>
+    <string name="lock_screen_signature_summary">Detta meddelande kommer visas på Låsskärmen</string>
     <string name="lock_screen_signature_title">Ägarinfo på Låsskärmen</string>
     <string name="lock_screen_unlock_show">Hoppa över Låsskärmen</string>
     <string name="lock_screen_unlock_show_summary">Öppna Hemskärmen eller skriv ett lösenord direkt</string>
@@ -2669,6 +2677,7 @@ Det finns andra användare på enheten.
     <string name="memory_title">Tillgängligt: %1$s\u0009\u0009Totalt: %2$s</string>
     <string name="memory_usage">Minnesanvändning</string>
     <string name="memory_usage_apps">Minne som används av appar</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">%1$s genomsnittlig minnesanvändning de senaste 3 timmarna</string>
     <string name="menu_cancel">Släng</string>
     <string name="menu_check">Upplev</string>
@@ -2917,6 +2926,7 @@ Välj ditt operativsystem:"</string>
     <string name="nfc_how_it_works_got_it">OK</string>
     <string name="nfc_how_it_works_title">Betala vid en kassaterminal</string>
     <string name="nfc_more_title">Mer ...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Standardapp för betalning</string>
     <string name="nfc_payment_default_not_set">Har inte angetts</string>
     <string name="nfc_payment_favor_default">Använd alltid standardapp</string>
@@ -3128,6 +3138,7 @@ Appen kan också aktivera eller inaktivera Stör ej och ändra relaterade instä
     <string name="overlay_display_devices_title">Simulera sekundära skärmar</string>
     <string name="overlay_settings">Visa ovanpå andra appar</string>
     <string name="owner_info_settings_edit_text_hint">T.ex. Jockes Android.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Inget</string>
     <string name="owner_info_settings_title">Signatur på Låsskärmen</string>
     <string name="owner_space">Primära utrymmet</string>
@@ -3440,6 +3451,8 @@ Appen kan också aktivera eller inaktivera Stör ej och ändra relaterade instä
     <string name="private_sms_recording_intro_header">Rita ett upplåsningsmönster:</string>
     <string name="private_sms_reset_by_account">För att återställa ditt lösenord, logga in på ditt Mi-konto</string>
     <string name="process_dex2oat_label">Appoptimering</string>
+    <string name="process_format">%1$s (%2$d)</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="process_provider_in_use_description">Leverantören %1$s används.</string>
     <string name="process_service_in_use_description">Tjänsten %1$s används.</string>
@@ -3701,6 +3714,7 @@ Den här inställningen påverkar samtliga användare."</string>
     <string name="saved_network">Sparad av %1$s</string>
     <string name="saved_wifi">Hantera sparade nätverk</string>
     <string name="saved_wifi_delete">Ta bort</string>
+    <string name="sccret_code_error">The code you entered is incorrect.</string>
     <string name="screen">Skärm</string>
     <string name="screen_button">Skärmknappar</string>
     <string name="screen_button_tips">Dra ner för att dölja skärmknappar</string>
@@ -4055,13 +4069,14 @@ Så här fäster du skärmen:
     <string name="security_dashboard_summary_no_fingerprint">Skärmlås</string>
     <string name="security_enable_widgets_disabled_summary">Inaktiverad av administratören</string>
     <string name="security_enable_widgets_title">Aktivera widgetar</string>
-    <string name="security_encryption_alert_dialog_info_first">Ange lösenord för låsskärmen för att kunna aktivera funktionen. Du måste ange lösenordet efter varje omstart för att dekryptera och använda enheten normalt.</string>
+    <string name="security_encryption_alert_dialog_info_first">Ange lösenord för Låsskärmen för att kunna aktivera funktionen. Du måste ange lösenordet efter varje omstart för att dekryptera och använda enheten normalt.</string>
     <string name="security_encryption_alert_dialog_title_first">Ange skärmlås först</string>
     <string name="security_encryption_attention_1">Du kan inte använda alarm när enheten är av.</string>
     <string name="security_encryption_attention_2">Du måste ange lösenordet efter varje omstart för att dekryptera enheten. Omstart kommer ta längre än normalt.</string>
-    <string name="security_encryption_attention_3">Du måste ange ett nytt lösenord för låsskärmen.</string>
+    <string name="security_encryption_attention_3">Du måste ange ett nytt lösenord för Låsskärmen.</string>
     <string name="security_encryption_attention_4">Se till att du kommer ihåg lösenordet, annars måste du göra en fabriksåterställning för att få tillgång till den igen, vilket rensar all information.</string>
     <string name="security_encryption_attention_info">Du kan kryptera konton, inställningar, nedladdade appar samt deras data, media och andra filer.</string>
+    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Viktigt</string>
     <string name="security_encryption_close_dialog_info">Om du väljer att inte kryptera enheten med ett lösenord för Låsskärmen kan vissa av Googles tjänster vara otillgängliga.</string>
     <string name="security_encryption_close_dialog_title">Gå tillbaka till standard lösenordsskydd</string>
@@ -4242,7 +4257,7 @@ Obs! Det går inte att låsa upp den här enheten med ett fingeravtryck. Kontakt
     <string name="show_silently_summary">Inga ljud, ingen vibration och inga aviseringar som visas som snabbtitt på skärmen.</string>
     <string name="show_touches">Visa tryck</string>
     <string name="show_touches_summary">Visa visuell återkoppling för tryck</string>
-    <string name="show_user_info_on_lockscreen_label">Visa användarinfo på låsskärmen</string>
+    <string name="show_user_info_on_lockscreen_label">Visa användarinfo på Låsskärmen</string>
     <string name="shut_down_find_device_failure_confirm">OK</string>
     <string name="shut_down_find_device_network_failure_content">Kunde inte stänga av Hitta enheten. Kontrollera att din enhet har en internet anslutning.</string>
     <string name="shut_down_find_device_network_failure_title">Kan inte ansluta till nätverket</string>
@@ -4314,6 +4329,7 @@ Du kan ha angett fel PIN-kod."</string>
     <string name="sim_reenter_new">Skriv in ny pinkod igen</string>
     <string name="sim_select_card">Välj ett SIM-kort</string>
     <string name="sim_selection_required_pref">Du måste välja något</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM-kort</string>
     <string name="sim_setup_wizard_title">SIM-kort</string>
     <string name="sim_signal_strength">%1$d dBm %2$d asu</string>
@@ -4327,6 +4343,7 @@ Du kan ha angett fel PIN-kod."</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip_anyway_button_label">Hoppa över ändå</string>
     <string name="skip_label">Hoppa över</string>
@@ -4404,6 +4421,7 @@ Detta är möjligt eftersom betrodda autentiseringsuppgifter har installerats p�
     <string name="status_bar_settings_all_app_display_loading">Vänta lite…</string>
     <string name="status_bar_settings_app_notification_preferences">Appinställningar</string>
     <string name="status_bar_settings_basic_settings">Grundinställningar</string>
+    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_custom_carrier">Ändra operatörsnamn</string>
     <string name="status_bar_settings_custom_wifi_name">Ändra Wi-Fi namn</string>
     <string name="status_bar_settings_enable_notification">Visa notifikationer</string>
@@ -4424,7 +4442,7 @@ Detta är möjligt eftersom betrodda autentiseringsuppgifter har installerats p�
     <string name="status_bar_settings_show_floating_notification_summary">Tillåt viktiga notifikationer högst upp på skärmen</string>
     <string name="status_bar_settings_show_flow_info">Visa datanvändning</string>
     <string name="status_bar_settings_show_home_message">Appikon bricka</string>
-    <string name="status_bar_settings_show_keyguard_notification">Notifikationer på låsskärmen</string>
+    <string name="status_bar_settings_show_keyguard_notification">Notifikationer på Låsskärmen</string>
     <string name="status_bar_settings_show_keyguard_notification_summary">Tillåt viktiga notifikationer på Låsskärmen</string>
     <string name="status_bar_settings_show_network_speed">Visa anslutningshastighet</string>
     <string name="status_bar_settings_show_notification_icon">Visa ikoner för notifikationer</string>
@@ -4465,6 +4483,9 @@ Detta är möjligt eftersom betrodda autentiseringsuppgifter har installerats p�
     <string name="status_wimax_mac_address">4G Mac-adress</string>
     <string name="status_write_success">Klart!</string>
     <string name="statusbar_permission_desc">Följande behörigheter är bara giltiga för viktiga notifikationer.</string>
+    <string name="stop_upload_audio_log">Finish getting audio log</string>
+    <string name="stop_upload_gps_log">Finish getting GPS log</string>
+    <string name="stop_upload_modem_log">Finish getting modem log</string>
     <string name="storage_detail_apps">Appar</string>
     <string name="storage_detail_audio">Ljud</string>
     <string name="storage_detail_cached">Cachelagrad data</string>
@@ -4635,6 +4656,7 @@ Du kan fortsätta, men appar som har flyttats till den här platsen kan vara ryc
     <string name="suggestions_title">Förslag</string>
     <string name="sum_carrier_select">Välj en nätverksoperatör</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">%1$s till %2$s</string>
     <string name="super_resolution_access_title">Tillgängliga appar</string>
     <string name="super_resolution_desc">Använder en AI-algoritm för att göra bilder skarpare</string>
@@ -4969,8 +4991,11 @@ Dina sparade fingeravtryck tas dessutom bort från profilen och du kan inte län
     <string name="untitled_apn">Namnlös</string>
     <string name="update_new_version">Uppdatering finns tillgänglig</string>
     <string name="update_progress_for_updates">Uppdaterar (%s)</string>
+    <string name="upload_audio_log">Start getting audio log</string>
     <string name="upload_debug_log_summary">Användningsstatistik som hjälper oss att lokalisera och lösa problem kan innehålla personlig information</string>
     <string name="upload_debug_log_title">Skicka data för diagnostik automatiskt</string>
+    <string name="upload_gps_log">Start getting GPS log</string>
+    <string name="upload_modem_log">Start getting modem log</string>
     <string name="usage">Användning</string>
     <string name="usage_access">Åtkomst till användningsdata</string>
     <string name="usage_access_description">Med åtkomst till användningsdata kan en app spåra vilka andra appar du använder och hur ofta, samt vilken operatör du har, språkinställningar och andra uppgifter.</string>
@@ -5181,16 +5206,16 @@ Tryck på plus att lägga till ord."</string>
     <string name="virtual_sim_global_title">Mobildatatjänst</string>
     <string name="virtual_sim_title">Roaming datanätverk</string>
     <string name="virus_scan">Skannar efter virus</string>
-    <string name="virus_scan_app_continue">Fortsätt sökning</string>
-    <string name="virus_scan_app_finish">Sökning avslutad</string>
-    <string name="virus_scan_app_force_stop">Sökning pausad</string>
+    <string name="virus_scan_app_continue">Fortsätta att skanna</string>
+    <string name="virus_scan_app_finish">Skanningen är avslutad</string>
+    <string name="virus_scan_app_force_stop">Skanningen är pausad</string>
     <string name="virus_scan_app_is_stop_scan">Avbryt skanning?</string>
     <string name="virus_scan_app_multi_engines">Skanningen kan ta längre tid. Du använder mer än en uppsättning definitioner.</string>
     <string name="virus_scan_app_no_risk">Inga risker upptäckta</string>
     <string name="virus_scan_app_passed">Skannat</string>
     <string name="virus_scan_app_risk">Risk upptäckt</string>
     <string name="virus_scan_app_safe_scanning">Skannar…</string>
-    <string name="virus_scan_app_scan_finish">Sökning avslutad</string>
+    <string name="virus_scan_app_scan_finish">Skanningen är avslutad</string>
     <string name="virus_scan_app_scanning">Skannar…</string>
     <string name="virus_scan_app_stop_scan">Avbryt skanning</string>
     <string name="virus_scan_app_uninstall">Ta bort %d</string>
@@ -5625,9 +5650,11 @@ Vill du tillåta detta för alla appar som vill söka efter nätverk?"</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Ingen</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>

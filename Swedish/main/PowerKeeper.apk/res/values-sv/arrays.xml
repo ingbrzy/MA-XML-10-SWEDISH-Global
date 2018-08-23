@@ -12,6 +12,10 @@
         <item>Aktiva appar</item>
         <item>Inaktiva appar</item>
     </string-array>
+    <string-array name="emode_app_groups">
+        <item>Systemappar</item>
+        <item>Andra appar</item>
+    </string-array>
     <string-array name="thermal_entries">
         <item>Standardläge för temperaturreglering</item>
         <item>Prestandaläge</item>

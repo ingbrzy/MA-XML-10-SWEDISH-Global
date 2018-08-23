@@ -51,7 +51,7 @@
     <string name="onscreen_note_calls_text">Anteckning</string>
     <string name="call_record_wait_label">Väntar</string>
     <string name="contacts_icon_label">Kontakter</string>
-    <string name="conference_call_number">%s människor</string>
+    <string name="conference_call_number">%s personer</string>
     <string name="conference_call_description" formatted="false">%s,%s osv. totalt %s</string>
     <string name="conference_call_single_description" formatted="false">%s osv. totalt %s</string>
     <string name="separate_from_conference">Separat samtal</string>
@@ -108,7 +108,7 @@
     <string name="description_image_button_reject">Avböj</string>
     <string name="description_image_button_message_enter">Svara med meddelande</string>
     <string name="description_image_button_message_exit">Dölj meddelanden</string>
-    <string name="description_image_button_hangup">Slut</string>
+    <string name="description_image_button_hangup">Lägg på</string>
     <string name="description_image_button_dialpad">Knappsats</string>
     <string name="description_image_button_tools">Alternativ</string>
     <string name="description_target_answer">Svara</string>
@@ -130,14 +130,14 @@
     <string name="can_not_use">Kan inte använda</string>
     <string name="sim1_description">SIM1</string>
     <string name="sim2_description">SIM2</string>
-    <string name="call_description_recording">Inspelning…</string>
-    <string name="call_recording_error_privacy">Kan inte spela medans du är i gästläge</string>
+    <string name="call_description_recording">Spelar in…</string>
+    <string name="call_recording_error_privacy">Kan inte spela in medans du är i Gästläge</string>
     <string name="call_recording_error_sd_access">Kan inte komma åt SD-kortet</string>
     <string name="call_recording_error_sd_unmounted">Stoppade inspelning. SD-kort borttaget.</string>
     <string name="call_recording_error_low_storage">Inte tillräckligt utrymme.</string>
     <string name="call_recording_error_start_failed">Recorder används av en annan app.</string>
     <string name="call_recording_error_unknown">Ett okänt fel inträffade.</string>
-    <string name="call_recording_notification_title">Samtal registrerades</string>
+    <string name="call_recording_notification_title">Samtal inspelat</string>
     <string name="call_recording_notification_title_error">Kunde inte spela in samtalet</string>
     <string name="call_recording_notification_message">Tryck för att lyssna.</string>
     <string name="call_recording_notification_message_low_storage">SD-kortet är fullt.</string>
@@ -150,11 +150,11 @@
     <string name="antispam_provider">Identifierad av %s</string>
     <string name="antispam_notification_title">Okänt nummer</string>
     <string name="suspect_info">Var försiktig med din personliga information.</string>
-    <string name="card_title_video_call_paused">Video pausad</string>
+    <string name="card_title_video_call_paused">Videosamtal pausad</string>
     <string name="card_title_incoming_conference_call">Inkommande konferenssamtal</string>
     <string name="onscreen_change_to_voice">Röstsamtal</string>
     <string name="onscreen_change_to_video">Videosamtal</string>
-    <string name="onscreen_switch_camera">Växla</string>
+    <string name="onscreen_switch_camera">Byt</string>
     <string name="card_title_video_call">Videosamtal</string>
     <string name="card_title_upgrade_video_call_requesting">Begär video…</string>
     <string name="card_title_upgrade_video_call_error">Det gick inte att uppdatera video</string>

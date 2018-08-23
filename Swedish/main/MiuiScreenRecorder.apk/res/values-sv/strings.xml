@@ -24,6 +24,8 @@
     <string name="description_title">Om Skärminspelare</string>
     <string name="deselect_all">Välj ingen</string>
     <string name="error_open_file_failed_no_app_found">Kunde inte hitta en app som öppnar denna fil</string>
+    <string name="first_using_mic_dialog_message">Skärminspelaren behöver tillgång till din mikrofon för att spela in ljud. Tillåta?</string>
+    <string name="first_using_mic_dialog_title">Tillstånd krävs</string>
     <string name="fixed_frame_rate">Konstant bildhastighet</string>
     <string name="fixed_frame_rate_summary">Spela in videor med konstant bildhastighet förbättrar uppspelningen på sociala medier och reducerar batteriförbrukningen.</string>
     <string name="frames">Antal bilder</string>
@@ -82,4 +84,6 @@
     <string name="storage_location_summary">Välj lagringsplats</string>
     <string name="timer_format">%s</string>
     <string name="unchecked">Inte vald</string>
+    <string name="using_record_confirm_cancel">Begränsa</string>
+    <string name="using_record_confirm_ok">Tillåta</string>
 </resources>

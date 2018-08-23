@@ -4,7 +4,8 @@
     <string name="error_filename_too_long">Filnamnet du angav är för lång.</string>
     <string name="power_config_select_apps_title">Appar</string>
     <string name="power_config_event_delete">Ta bort</string>
-    <string name="hide_mode_desc">När en app körs i bakgrunden kommer dess aktiviteter övervakas för att begränsa batterianvändningen.</string>
+    <string name="hide_mode_desc"><font color="#000000">När en app kör i bakgrunden övervakas dess aktiviteter för att minska batterianvändning. Denna funktion kommer använda användardata enligt %s</font></string>
+    <string name="privacy">Integritetspolicy</string>
     <string name="power_hide_mode_title">Batteri &amp; prestanda</string>
     <string name="power_config_apps">Batterisparare</string>
     <string name="app_list_title">Välj appar</string>
@@ -12,6 +13,7 @@
     <string name="about_hide_mode">Om Batterisparare</string>
     <string name="show_system_app">Visa systemapplikationer</string>
     <string name="hide_system_app">Dölj systemapplikationer</string>
+    <string name="about_extreme_mode">Extrem Batterisparare</string>
     <string name="scenario_policies_title">Intelligenta scenarier</string>
     <string name="config_scenario_policies_title">Scenarier</string>
     <string name="scenario_policies_summary">Tillämpa olika strategier för att spara ström för olika scenarier.</string>
@@ -89,4 +91,6 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="appconfig_active_app_dialog_title">Hantera aktiva appar</string>
     <string name="config_classify">Sortera efter appinställningar</string>
     <string name="active_classify">Sortera efter aktivitetsstatus</string>
+    <string name="extreme_mode_max_item_alert">Bara 4 appar kan väljas att köra i bakgrunden när Extrem Batterisparare är aktiv</string>
+    <string name="message_i_know">Jag vet</string>
 </resources>

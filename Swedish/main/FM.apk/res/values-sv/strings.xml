@@ -12,6 +12,7 @@
     <string name="menu_save_station_presets">Lägg till som förval</string>
     <string name="menu_speaker">Byt till högtalare</string>
     <string name="menu_headset">Byt till headset</string>
+    <string name="menu_privacy">Integritetspolicy</string>
     <string name="menu_exit">Avsluta</string>
     <string name="dialog_sleep_title">Ställ in insomningstimer</string>
     <string name="search_dialog_title">Skanna stationer</string>
