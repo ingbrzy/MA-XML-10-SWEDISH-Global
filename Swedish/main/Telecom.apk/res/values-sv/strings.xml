@@ -105,7 +105,6 @@
     <string name="accessibility_wifi_signal_full">Full signalstyrka för Wi-Fi.</string>
     <string name="accessibility_wifi_security_type_none">Öppet nätverk</string>
     <string name="accessibility_wifi_security_type_secured">Säkert nätverk</string>
-    <string name="process_kernel_label">Operativsystemet Android</string>
     <string name="data_usage_uninstalled_apps">Borttagna appar</string>
     <string name="data_usage_uninstalled_apps_users">Borttagna appar och användare</string>
     <string name="tether_settings_title_usb">Internetdelning via USB</string>

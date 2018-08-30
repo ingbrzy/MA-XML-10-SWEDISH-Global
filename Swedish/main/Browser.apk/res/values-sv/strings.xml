@@ -25,7 +25,6 @@
     <string name="s5">Skapa kalenderhändelse</string>
     <string name="s6">Tillåter du att annonsen skapar en kalenderhändelse?</string>
     <string name="s7">Testannons</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="abc_action_bar_home_description">Gå till startsidan</string>
     <string name="abc_action_bar_up_description">Gå upp</string>
     <string name="abc_action_menu_overflow_description">Mer</string>
@@ -726,8 +725,6 @@ Navigera bort från den här sidan?"</string>
     <string name="mw_snippets_disabled_generic_prompt">Få personligt innehåll</string>
     <string name="mw_snippets_disabled_signed_out_instructions">För att få personligt innehåll som Google föreslår, logga in på Chrome.</string>
     <string name="mw_time_picker_dialog_am">AM</string>
-    <string name="mw_time_picker_dialog_hour_minute_separator">:</string>
-    <string name="mw_time_picker_dialog_minute_second_separator">:</string>
     <string name="mw_time_picker_dialog_pm">PM</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator">.</string>
     <string name="mw_time_picker_dialog_title">inställd tid</string>
