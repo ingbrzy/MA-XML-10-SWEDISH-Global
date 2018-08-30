@@ -38,7 +38,9 @@
     <string name="aqi_quality_ambient_air_quality">Luftkvalité i närheten</string>
     <string name="aqi_quality_co_desc">Kolmonoxid</string>
     <string name="aqi_quality_detail_15_days">15-dygnsprognos</string>
+    <string name="aqi_quality_detail_24_hours">24-timmars prognos</string>
     <string name="aqi_quality_detail_48_hours">48-timmars prognos</string>
+    <string name="aqi_quality_detail_5_days">5-dygnsprognos</string>
     <string name="aqi_quality_major_pollutants">Stora föroreningar</string>
     <string name="aqi_quality_map_title">Karta över luftkvaliten</string>
     <string name="aqi_quality_no2_desc">Kvävedioxid</string>
@@ -62,7 +64,7 @@
     <string name="button_sure_abandon">Ignorera ändringar?</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Kontrollera din nätverksanslutning och försök igen</string>
-    <string name="china_version_first_start_network_msg">"Genom att använda denna produkt godkänner du Xiaomi's %1$s och %2$s. Denna app behöver ansluta till internet och få tillgång till din plats för att fungera normalt."</string>
+    <string name="china_version_first_start_network_msg">"Genom att använda den här produkten samtycker du till Xiaomi's %1$s och %2$s. För att hjälpa dig att få mer exakt väderinformation om, vädret kommer att få din plats information och ta itu med det, och det behöver ansluta nätverket. Håller ni med?"</string>
     <string name="city_exceeded_warning">Du kan lägga till upp till 10 städer</string>
     <string name="common_loading_text">Vänta lite…</string>
     <string name="connect_fail">Det gick inte att ansluta till nätverket, försök igen</string>
@@ -81,11 +83,13 @@
     <string name="daily_forecast_add_city_message">Följ vädret i %1$s för en mer detaljerad prognos.</string>
     <string name="daily_forecast_add_city_title">Följ vädret i %1$s</string>
     <string name="daily_forecast_detail_date">d/M</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Kunde inte hämta väderinformation
 Dra neråt för att uppdatera eller kontrollera nätverksinställningarna"</string>
     <string name="data_provided_by">Data försedd av</string>
     <string name="edit_city">Hantera stad</string>
-    <string name="eu_region_version_first_start_network_msg">"Genom att använda denna produkt godkänner du att Xiaomi kommer att samla, bearbeta och använda dig av personlig information, inklusive koordinaterna för de städer du söker och andra typer av data som anges i vår integritetspolicy. Se vår sekretesspolicy för att lära dig hur vi samlar och behandlar information. Genom att trycka på \"acceptera\" accepterar du Xiaomi's %1$s och %2$s."</string>
+    <string name="empty">" "</string>
+    <string name="eu_region_version_first_start_network_msg">"Använder denna produkt, godkänner du att denna produkt kommer ansluta nätverket, samla in, bearbeta och använda du personuppgifter, inklusive koordinaterna för de städer du söker, och andra typer av data som anges i vår sekretesspolicy. Se vår integritetspolicy för att läsa hur vi samlar in och bearbetar information. Genom att trycka på ”Godkänn”, samtycker du till Xiaomi's %1$s och %2$s."</string>
     <string name="feedback_heavy_rain">Kraftigt regn</string>
     <string name="feedback_heavy_snow">Snö</string>
     <string name="feedback_light_rain">Duggregn</string>
@@ -97,6 +101,8 @@ Dra neråt för att uppdatera eller kontrollera nätverksinställningarna"</stri
     <string name="first_start_network_title">Internetanslutning och platsåtkomst</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="hourly_forcast_now">Nu</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">M/d</string>
     <string name="hourly_forecast_title_24_hours_desc">24-timmars prognos</string>
     <string name="hourly_forecast_title_hourly_desc">Timme för timme</string>
@@ -110,10 +116,12 @@ Dra neråt för att uppdatera eller kontrollera nätverksinställningarna"</stri
     <string name="indices_title_feel">Känns som</string>
     <string name="indices_title_pressure">Tryck</string>
     <string name="install">Installera</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_pressure_title">LUFTTRYCK</string>
     <string name="international_details_real_feel_title">REAL FEEL®</string>
     <string name="international_details_title">Detaljer</string>
     <string name="international_details_uv_index_title">UV INDEX</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">VIND</string>
     <string name="it_is_going_to_rain">Det kommer att regna</string>
     <string name="locate_fail_detail_err">"Kan inte hitta enhet
@@ -158,6 +166,7 @@ Tryck på skärmen för att manuellt lägga till eller ändra stad"</string>
     <string name="privacy_grant_failed">Kunde inte bevilja tillstånd. Vänta en minut eller två och försök igen.</string>
     <string name="privacy_grant_or_revoke_settings">Bevilja &amp; återkalla auktorisation</string>
     <string name="privacy_grant_success">Befogenhet beviljad</string>
+    <string name="privacy_policy">Integritetspolicy</string>
     <string name="privacy_revoke_failed">Kunde inte återkalla auktorisationen. Vänta en minut eller två och försök igen.</string>
     <string name="privacy_revoke_success">Befogenhet upphävd</string>
     <string name="privacy_settings">Integritetspolicy</string>
@@ -185,6 +194,7 @@ Tryck på skärmen för att manuellt lägga till eller ändra stad"</string>
     <string name="share_menu_title">Dela</string>
     <string name="share_subject">Dela</string>
     <string name="share_weather_desc">\#MIUI Väder#Idag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Det gick inte att ta skärmdump</string>
     <string name="some_where_on_earth">Någonstans på jorden</string>
@@ -220,6 +230,7 @@ Tryck på skärmen för att manuellt lägga till eller ändra stad"</string>
     <string name="update_setting_title_text">Hämta väderinfo</string>
     <string name="updated_a_moment_ago">Nyss uppdaterad</string>
     <string name="updating">Uppdaterar…</string>
+    <string name="user_agreement">Användarvillkor</string>
     <string name="video_dialog_no_play" />
     <string name="video_dialog_play" />
     <string name="video_dialog_subtitle" />
