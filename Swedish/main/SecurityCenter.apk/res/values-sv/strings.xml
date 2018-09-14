@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Ljud</string>
@@ -461,10 +463,11 @@ ska svara"</string>
     <string name="network_control">Visa appinställningar</string>
     <string name="foreground_traffic">Förgrund %s</string>
     <string name="background_traffic">Bakgrund %s</string>
-    <string name="detail_app_button">Appinformation</string>
+    <string name="detail_app_button">Information om appen</string>
     <string name="managed_user_title">Alla arbetsappar</string>
     <string name="pref_about_traffic_title">Inställningar för mobildataanvändning</string>
     <string name="pref_traffic_manage_title">Dataanvändning</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Mobildataabonnemang</string>
     <string name="pref_adjust_traffic_data">Ange datagräns</string>
     <string name="pref_category_title_other">Ytterligare inställningar</string>
@@ -714,7 +717,7 @@ Under tiden du kalibrerar kommer MIUI skicka ett meddelande till din operatör f
     <string name="roaming_limit_dialog_message">Daglig roaming data gräns nådd.</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="roaming_allow_network_dialog_title">Tillåt mobildata roaming?</string>
-    <string name="dialog_roaming_warning_message">Operatören kan debitera dig en avgift när du aktiverar internationell dataroaming. Slå på ändå?</string>
+    <string name="dialog_roaming_warning_message">Operatören kan debitera dig en avgift när du aktiverar internationell dataroaming. Aktivera ändå?</string>
     <string name="dialog_roaming_warning_checkbox">Visa inte igen</string>
     <string name="dialog_roaming_warning_ok">Aktivera</string>
     <string name="title_limit_traffic_per_day">Daglig gräns för dataanvändning</string>
@@ -991,6 +994,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denna app kan sakta ner
 din enhet"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Avinstallera %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Avinstallera denna appen för att lösa problem med batterianvändningen.</string>
     <string name="om_ill_proc_type_wakelock_title">Denna appen blockerar strömsparläge och drar mycket batteri</string>
@@ -1024,7 +1028,7 @@ din enhet"</string>
     <string name="power_consume_rank_hardware">Hårdvara</string>
     <string name="power_consume_software_total_format">Appar: %s</string>
     <string name="power_consume_hardware_total_format">Hårdvara: %s</string>
-    <string name="power_consume_other">Övriga</string>
+    <string name="power_consume_other">Övrigt</string>
     <string name="battery_desc_other_apps">Batteri använt av andra appar</string>
     <string name="power_settings_title">Konfigurera</string>
     <string name="power_settings_category_title">Batteriindikator</string>
@@ -1049,6 +1053,7 @@ din enhet"</string>
     <string name="usage_type_data_send">Mobildata skickad</string>
     <string name="usage_type_no_coverage">Tid utan signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="power_screen">Skärm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1127,6 +1132,7 @@ din enhet"</string>
     <string name="btn_text_goto_setup">Gå till Inställningar</string>
     <string name="power_save_title_text">Batterisparare</string>
     <string name="power_save_summary_text">Aktivera batterisparare för att reducera appars bakgrundsaktivitet, stoppa synkronisering och minimera animationer.</string>
+    <string name="power_save_started_summary_text">Aktivera batterisparare för att reducera appars bakgrundsaktivitet, stoppa synkronisering och minimera animationer.</string>
     <string name="hide_mode_summary_text">Hantera appars bakgrundsaktivitet för att spara batteri</string>
     <string name="hide_mode_app_background_setting_text">Batterisparare för appar</string>
     <string name="battery_estimate_usage_time_title">Användningstid</string>
@@ -1253,6 +1259,36 @@ din enhet"</string>
     <string name="notification_open_extreme_mode_text">Extrem Batterisparare aktiverad</string>
     <string name="notification_exit_extreme_mode_title">Extrem Batterisparare avaktiverad</string>
     <string name="notification_exit_extreme_mode_text">Batteriet är laddad mer än %s</string>
+    <string name="handle_title_app">Appar</string>
+    <string name="handle_title_abnormal">Tömmer batteri</string>
+    <string name="handle_title_system">Systemets batterianvändning</string>
+    <string name="handle_title_details">Detaljer för batterianvändning</string>
+    <string name="power_center_scan_result_safe">Inga problem med batteriet hittades</string>
+    <string name="power_center_scan_item_title_clean_memory">Rensa minne</string>
+    <string name="power_center_scan_item_title_brightness">Justera ljusstyrka på skärm</string>
+    <string name="power_center_scan_item_title_hide">Hantera batterianvändning</string>
+    <string name="power_center_scan_item_title_power_saver">Aktivera batterisparare</string>
+    <string name="power_center_scan_item_title_GPS">Justera noggrannheten för GPS</string>
+    <string name="power_center_scan_item_title_abnormal">Batteriproblem</string>
+    <string name="power_center_scan_item_title_abnormal_apps">Appar som drar mycket batteri</string>
+    <string name="power_center_scan_item_title_auto_start">Starta automatiskt</string>
+    <string name="power_center_scan_item_title_auto_invoke">Kedjestart</string>
+    <string name="power_center_scan_item_title_battery_details">Detaljer för batterianvändning</string>
+    <string name="power_center_hints_scan_danger_result">Du kan lösa batteriproblem nu</string>
+    <string name="power_center_scan_item_title_running_app">Appar som körs i bakgrunden</string>
+    <string name="power_center_list_item_close_bluetooth">Avaktivera Bluetooth</string>
+    <string name="power_center_list_item_set_lockscreen_time">Släck skärmen efter 30 sekunders inaktivitet</string>
+    <string name="power_center_list_item_auto_brightness">Justera skärmens ljusstyrka automatiskt</string>
+    <string name="power_center_list_item_deep_save_title">Avancerade inställningar</string>
+    <string name="power_center_list_item_battery_status_time">h</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_stop_scan_title">Avbryt skanning</string>
+    <string name="hide_mode_result_summary_text">Anpassa Batterispararens inställningar för enskilda appar</string>
+    <string name="auto_task_result_summary_text">Konfigurera automatiska uppgifter för Batterispararen</string>
+    <string name="pc_settings_title">Inställningar för batterianvändning</string>
+    <string name="pc_main_activity_back">Tillbaka</string>
+    <string name="extreme_power_save_mode_card_summary">Aktivera Extremläge för att spara ström när batterinivån är låg.</string>
     <string name="handle_bar_title_system">System</string>
     <string name="apps_list_header_title_sms">Kontrollera meddelandeapp</string>
     <string name="apps_list_header_title_sms_access">Begränsa tillgång till verifieringskoder</string>
@@ -1377,7 +1413,7 @@ din enhet"</string>
     <string name="path_antispam">Systemappar/Säkerhet/Blockeringslista</string>
     <string name="resource_networkassistant_1">Dataanvändning</string>
     <string name="keywords_networkassistant_1">Data;Trafik</string>
-    <string name="path_networkassistant_1">Systemappar/Säkerhet/Data användning</string>
+    <string name="path_networkassistant_1">Systemappar/Säkerhet/Dataanvändning</string>
     <string name="resource_networkassistant_2">Kalibrera abonnemang</string>
     <string name="keywords_networkassistant_2">Data;Kalibrera</string>
     <string name="path_networkassistant_2">Systemappar/Säkerhet/Data användning</string>
@@ -1406,11 +1442,13 @@ din enhet"</string>
     <string name="menu_text_optimize_manage">Öka hastigheten</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_summary_networkassistants">Hantera ditt dataabonnemang</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Överskred datagränsen</string>
     <string name="menu_summary_networkassistants_3">Tillräckligt med mobildata återstår</string>
     <string name="menu_summary_networkassistants_4">Håller på att få slut på mobildata</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1423,12 +1461,14 @@ din enhet"</string>
     <string name="menu_summary_garbage_cleanup">Inga skräpfiler hittades</string>
     <string name="menu_summary_garbage_cleanup_2">Skräpstorlek</string>
     <string name="menu_summary_garbage_cleanup_3">Rensa skräp nu</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Batterianvändning</string>
     <string name="menu_summary_power_manager">Batterispararen ger mer tid mellan laddningarna</string>
     <string name="menu_summary_power_manager_1">Batteriet är fulladdat</string>
     <string name="menu_summary_power_manager_2">%såterstår</string>
     <string name="menu_summary_power_manager_3">Anslut laddare</string>
     <string name="menu_summary_power_manager_4">%still fulladdad</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Föregående skanning avbröts</string>
     <string name="examination_score_100">Allt ser bra ut!</string>
     <string name="examination_score_80_100">Några objekt kan optimeras</string>
@@ -1507,7 +1547,7 @@ din enhet"</string>
     <string name="Settings_title_power_center">Batteriinställningar</string>
     <string name="Settings_title_anti_virus">Inställningar för säkerhetsskanning</string>
     <string name="menu_item_virus_cloud_scan_title">Definitioner från internet</string>
-    <string name="menu_item_virus_cloud_scan_summary">Ladda upp appnamn och detaljer med hjälp av virusdefinitioner från internet</string>
+    <string name="menu_item_virus_cloud_scan_summary">Ladda upp appnamn och detaljer och skanna med hjälp av virusdefinitioner från internet</string>
     <string name="menu_item_virus_install_monitor_title">Skanna innan installation</string>
     <string name="menu_item_virus_install_monitor_summary">Skanna appar för virus innan installation</string>
     <string name="activity_title_virus_settings">Inställningar</string>
@@ -1802,6 +1842,7 @@ din enhet"</string>
     <string name="card_main_deepclean_wechat_action">Rensa</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1971,7 +2012,7 @@ din enhet"</string>
     <string name="set_numeric_password_name">Ange PIN</string>
     <string name="set_mixed_password_name">Ange lösenord</string>
     <string name="reset_data_title">Kan inte återställa lösenord</string>
-    <string name="reset_data_dialog_message">Denna enhet är inte kopplad till ditt Mi-konto. Du kan inte återställa eller nollställa lösenord. Säkerhetskopiera alla viktiga objekt och genomföra en fabriksåterställning. All data kommer permanent tas bort och ditt SD-kort kommer formateras under en fabriksåterställning.</string>
+    <string name="reset_data_dialog_message">Denna enhet är inte kopplad till ditt Mi-konto. Vilket gör ätt du kan inte: Återställa eller nollställa ditt lösenord eller säkerhetskopiera alla viktiga objekt och genomföra en fabriksåterställning. All data kommer permanent tas bort och ditt SD-kort kommer formateras under en fabriksåterställning.</string>
     <string name="reset_data_dialog_ok">Fabriksåterställning</string>
     <string name="wakepath_confirm_start_activity">Tillåt %1$s att öppna %2$s?</string>
     <string name="unlike">Nej tack</string>
@@ -2351,23 +2392,24 @@ din enhet"</string>
     <string name="gb_create_icon_summary">Skapa genväg på Hemskärmen</string>
     <string name="title_reply">Kommentera</string>
     <string name="title_like">Gilla</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Mobildata</string>
     <string name="game_wid_viewpoint_buttom">Ta en kort paus.</string>
     <string name="video_repeat">Spela igen</string>
     <string name="game_video_network_eror">Kunde inte ansluta till nätverk. Kontrollera inställningar och försök igen.</string>
-    <string name="see_more_content">Uppdatera spelcenter för att se fler höjdpunkter</string>
+    <string name="see_more_content">Uppdatera Games för att se fler höjdpunkter</string>
     <string name="notify_channel_name_security">Systemsäkerhet</string>
     <string name="privacy_apps_category_title">Dolda appar</string>
     <string name="privacy_apps">Dolda appar</string>
     <string name="privacy_apps_enable_summary">Flytta appar till en dold mapp och ta bort deras genväg på Hemskärmen</string>
     <string name="privacy_apps_manage">Hantera dolda appar</string>
     <string name="privacy_apps_tutorial">Tutorial</string>
-    <string name="privacy_apps_tutorial_prompt_pageone">"När du döljer en app flyttas den till en dold mapp. Appens genväg på Hemskärmen kommer också döljas.
- Denna funktion stöds inte för systemappar."</string>
+    <string name="privacy_apps_tutorial_prompt_pageone">"När du döljer en app flyttas den till en dold mapp. Appens genväg på Hemskärmen kommer också att döljas.
+Denna funktion stöds inte för systemappar."</string>
     <string name="privacy_apps_tutorial_prompt_pagetwo">Placera två fingrar på skärmen och dela på dem. Du kommer se ett meddelande som frågar dig att ange ett lösenord till Applås.</string>
     <string name="privacy_apps_tutorial_prompt_pagethree">När du angett ditt lösenord kommer mappen med dolda appar visas.</string>
     <string name="privacy_apps_manage_dialog_title">Om dolda appar</string>
-    <string name="privacy_apps_manager_dialog_message">Att dölja appar kräver att du ställer in skärmlås. Notifikationer för dolda appar kommer avaktiveras. Dölj denna app?</string>
+    <string name="privacy_apps_manager_dialog_message">Denna apps ikon kommer inte visas på Hemskärmen efter att du dolt den. Dölj denna app nu?</string>
     <string name="privacy_apps_checkbox_remind_choice">Visa inte igen</string>
     <string name="privacy_apps_go_to_use">Starta</string>
     <string name="privacy_apps_close">Stäng</string>
@@ -2388,15 +2430,10 @@ din enhet"</string>
     <string name="first_aid_card_consume_power_button1">Begränsa</string>
     <string name="first_aid_card_consume_power_summary2">Avaktivera Internetdelning för att spara batteri</string>
     <string name="first_aid_card_consume_power_button2">Avaktivera</string>
-    <string name="first_aid_card_consume_power_summary3">Avaktivera Bluetooth för att spara batteri</string>
-    <string name="first_aid_card_consume_power_button3">Avaktivera</string>
-    <string name="first_aid_card_consume_power_summary4">Avaktivera GPS för att spara batteri</string>
-    <string name="first_aid_card_consume_power_button4">Avaktivera</string>
     <string name="first_aid_card_system_root_title">Du har tillåtet rootåtkomst</string>
     <string name="first_aid_card_system_root_summary">Begränsa rootåtkomst för förhindra säkerhetsrisker</string>
     <string name="first_aid_card_system_root_button">Begränsa</string>
     <string name="first_aid_card_float_window_title">Du tillät svävande notifikationer</string>
-    <string name="first_aid_card_float_window_summary">%s kanske visas felaktigt. Begränsa svävande notifikationer.</string>
     <string name="first_aid_card_float_window_button">Begränsa</string>
     <string name="first_aid_card_wifi_or_flow_title">Kan inte ansluta till Internet</string>
     <string name="first_aid_card_wifi_or_flow_summary">Aktivera Wi-Fi eller mobildata</string>
@@ -2411,8 +2448,9 @@ din enhet"</string>
     <string name="first_aid_card_unable_install_summary">Endast %s av lagringsutrymmet är tillgängligt. Frigör utrymme för att installera appar.</string>
     <string name="first_aid_card_unable_install_button">Frigör utrymme</string>
     <string name="first_aid_result_summary_normal">Allt ser bra ut!</string>
+    <string name="first_aid_result_summary_not_finished">Skanningen slutförded inte. Vissa risker kan finnas kvar.</string>
     <string name="first_aid_result_feedback_title">Feedback</string>
-    <string name="first_aid_result_feedback_summary">Jag kan inte lösa problemen på min enhet.</string>
+    <string name="first_aid_result_feedback_summary">"First aid scan couldn't find any problems. However, I spotted some."</string>
     <string name="first_aid_result_feedback_button">Skicka in</string>
     <string name="first_aid_card_kadun_title">Enheten blir långsam</string>
     <string name="first_aid_card_kadun_summary1">Frigör lagringsutrymme så din enhet kan fungera normalt.</string>
@@ -2423,4 +2461,8 @@ din enhet"</string>
     <string name="first_aid_card_kadun_button3">Avaktivera</string>
     <string name="first_aid_dialog_title_stop_scan">Avbryt skanning</string>
     <string name="first_aid_dialog_msg_stop_scan">Avbryt skanning nu?</string>
+    <string name="device_manager_apply_step_1">Activate device administrator for this app?</string>
+    <string name="device_manager_apply_step_2">"Activating device administrator for this app might lead to the exposure of your personal data.
+All data on your device might be erased and your Lock screen password might be reset."</string>
+    <string name="device_manager_apply_step_3">Make sure you understand all the possible risks before you proceed. Activate device administrator for this app now?</string>
 </resources>

@@ -3,7 +3,7 @@
     <string name="inCallLabel">InCallUI</string>
     <string name="unknown">Okänd</string>
     <string name="private_num">Privat nummer</string>
-    <string name="payphone">Kontant telefon</string>
+    <string name="payphone">Telefonkiosk</string>
     <string name="voicemail">Röstbrevlåda</string>
     <string name="callFailed_userBusy">Linjen är upptagen</string>
     <string name="callFailed_congestion">Nätverket är upptaget</string>

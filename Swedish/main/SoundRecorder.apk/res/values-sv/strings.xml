@@ -17,7 +17,7 @@
     <string name="recording">Inspelning</string>
     <string name="recording_stopped">Stoppad</string>
     <string name="timer_format" formatted="false">%02d:%02d</string>
-    <string name="error_sdcard_access">Det går inte att komma åt lagring</string>
+    <string name="error_sdcard_access">Kan inte komma åt SD-kortet</string>
     <string name="error_app_internal">Kontrollera om en annan app för närvarande använder inspelningsfunktionen.</string>
     <string name="error_app_internal_title">Ljudinspelnings fel</string>
     <string name="error_file_access">Filen finns inte eller har blivit skadad</string>
@@ -36,6 +36,7 @@
     <string name="no_file">Tom</string>
     <string name="alert_message_delete_record_title">Ta bort inspelning?</string>
     <string name="alert_message_delete_record">Om inspelningen tas bort från enheten kommer du också att ta bort den från Mi Cloud. Ta bort nu?</string>
+    <string name="alert_message_delete_local_record">Ta bort den här inspelningen?</string>
     <string name="share">Dela</string>
     <string name="rename">Byt namn</string>
     <string name="delete">Ta bort</string>

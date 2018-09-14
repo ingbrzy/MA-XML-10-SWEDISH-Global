@@ -13,7 +13,7 @@
     <string name="about_hide_mode">Om Batterisparare</string>
     <string name="show_system_app">Visa systemapplikationer</string>
     <string name="hide_system_app">Dölj systemapplikationer</string>
-    <string name="about_extreme_mode">Extrem Batterisparare</string>
+    <string name="about_extreme_mode">Extremläge</string>
     <string name="scenario_policies_title">Intelligenta scenarier</string>
     <string name="config_scenario_policies_title">Scenarier</string>
     <string name="scenario_policies_summary">Tillämpa olika strategier för att spara ström för olika scenarier.</string>
@@ -38,11 +38,11 @@
     <string name="vip_feedback_enable">Aktivera VIP feedback</string>
     <string name="extreme_power_config_mode_category">Extremläge</string>
     <string name="extreme_power_config_mode_title">Extremläge</string>
-    <string name="extreme_power_config_mode_desc">Byt till extremläge för stänga av synkronisering, Bluetooth, GPS, NFC, dubbeltrycka, knapplampor, väck Låsskärmen för notifikationen och notifikationslampan. MIUI kommer fokusera på att spara batteriet.</string>
+    <string name="extreme_power_config_mode_desc">Byt till Extremläge för stänga av synkronisering, Bluetooth, GPS, NFC, dubbeltrycka, knapplampor, väck Låsskärmen för notifikationen och notifikationslampan. MIUI kommer fokusera på att spara batteriet.</string>
     <string name="empty_title_apps_container_list">Inga appar</string>
     <string name="hints_loading_text">Bara en sekund…</string>
     <string name="config_mode_title">Inställningar för bakgrundsaktivitet</string>
-    <string name="config_suggest_suffix_title">Batterispare (rekommenderas)</string>
+    <string name="config_suggest_suffix_title">Batterisparare (rekommenderas)</string>
     <string name="config_no_restrict_title">Inga restriktioner</string>
     <string name="config_restrict_function_title">Begränsa bakgrundsappar</string>
     <string name="config_restrict_running_title">Begränsa bakgrundsaktivitet</string>
@@ -91,6 +91,6 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="appconfig_active_app_dialog_title">Hantera aktiva appar</string>
     <string name="config_classify">Sortera efter appinställningar</string>
     <string name="active_classify">Sortera efter aktivitetsstatus</string>
-    <string name="extreme_mode_max_item_alert">Bara 4 appar kan väljas att köra i bakgrunden när Extrem Batterisparare är aktiv</string>
-    <string name="message_i_know">Jag vet</string>
+    <string name="extreme_mode_max_item_alert">Du kan välja upp till 4 appar som får köras i bakgrunden i Extremläge</string>
+    <string name="message_i_know">Jag förstår</string>
 </resources>

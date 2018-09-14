@@ -49,24 +49,36 @@
         <item quantity="one">"%d  minut"</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_time_format">
-        <item quantity="other">"%1$d  %2$d  minuter"</item>
-        <item quantity="one">"%1$d  %2$d  minut"</item>
+        <item quantity="other">"%1$d  timmar %2$d  minuter"</item>
+        <item quantity="one">"%1$d  timme %2$d  minut"</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
+        <item quantity="other">"Återstår %d  timmar"</item>
+        <item quantity="one">"Återstår %d  timme"</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_min_time_text">
+        <item quantity="other">"Återstår %d  minuter"</item>
+        <item quantity="one">"Återstår %d  minut"</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_time_text">
+        <item quantity="other">Återstår %1$d h %2$d m</item>
+        <item quantity="one">Återstår %1$d h %2$d m</item>
     </plurals>
     <plurals name="kg_password_default_pin_message">
-        <item quantity="other">Ange SIM-PIN, du har %d återstående försök.</item>
-        <item quantity="one">Ange SIM-PIN, du har %d återstående försök innan du du måste kontakta din operatör för att låsa upp din enhet.</item>
+        <item quantity="other">Ange SIM-PIN. %d försök återstår.</item>
+        <item quantity="one">Ange SIM-PIN. %d försök återstår innan du måste kontakta din operatör för att låsa upp din enhet.</item>
     </plurals>
     <plurals name="kg_password_default_puk_message">
         <item quantity="other">SIM-kortet är nu inaktiverat. Ange PUK-koden för att fortsätta. Du har %d återstående försök innan SIM-kortet blir permanent oanvändbart. Kontakta din operatör för detaljer.</item>
         <item quantity="one">SIM-kortet är nu inaktiverat. Ange PUK-koden för att fortsätta. Du har %d återstående försök innan SIM-kortet blir permanent oanvändbart. Kontakta din operatör för detaljer.</item>
     </plurals>
     <plurals name="kg_password_wrong_pin_code">
-        <item quantity="other">Felaktig PIN-kod till SIM-kortet. Du har %d återstående försök.</item>
-        <item quantity="one">Felaktig PIN-kod till SIM-kortet. Du har %d återstående försök innan du du måste kontakta din operatör för att låsa upp din enhet.</item>
+        <item quantity="other">Felaktig PIN-kod till SIM-kortet. %d försök återstår.</item>
+        <item quantity="one">Felaktig PIN-kod till SIM-kortet. %d försök återstår innan du måste kontakta din operatör för att låsa upp din enhet.</item>
     </plurals>
     <plurals name="kg_password_wrong_puk_code">
         <item quantity="other">Felaktig PUK-kod till SIM-kortet, du har %d återstående försök innan SIM-kortet blir permanent oanvändbart.</item>
-        <item quantity="one">Felaktig PUK-kod till SIM-kortet, du har %d återstående försök innan SIM-kortet blir permanent oanvändbart.</item>
+        <item quantity="one">Felaktig PUK-kod till SIM-kortet. %d försök återstår innan SIM-kortet blir permanent oanvändbart.</item>
     </plurals>
     <plurals name="kg_prompt_reason_time_password">
         <item quantity="other">Enheten har inte låsts upp på %d timmar. Bekräfta lösenord.</item>

@@ -120,6 +120,14 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="other">Hittade %d batteriproblem, lös dem</item>
         <item quantity="one">Hittade %d batteriproblem, lös det</item>
     </plurals>
+    <plurals name="power_center_menu_text">
+        <item quantity="other">objekt</item>
+        <item quantity="one">objekt</item>
+    </plurals>
+    <plurals name="power_center_list_item_optimize_button">
+        <item quantity="other">Lägg till %d minuter</item>
+        <item quantity="one">Lägg till %d minut</item>
+    </plurals>
     <plurals name="people">
         <item quantity="other">Nerladdad av %1$d människor</item>
         <item quantity="one">Nerladdad av %1$d människa</item>
@@ -351,6 +359,10 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
     <plurals name="privacy_apps_disable_header_title">
         <item quantity="other">%d appar är dolda</item>
         <item quantity="one">%d app är dold</item>
+    </plurals>
+    <plurals name="first_aid_card_float_window_summary">
+        <item quantity="other">%d appar kanske visas felaktigt. Begränsa svävande notifikationer.</item>
+        <item quantity="one">%d app kanske visas felaktigt. Begränsa svävande notifikationer.</item>
     </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d problem kräver optimering</item>

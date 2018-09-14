@@ -92,6 +92,7 @@
     <string name="hints_apk_header_left">Paket</string>
     <string name="hints_residual_header_left">Överblivna filer</string>
     <string name="hints_memory_header_left">Minne</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Stora filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerade appar: %d</string>
     <string name="toast_resolve_apk_error">Lös apk fel</string>
@@ -157,7 +158,7 @@
     <string name="title_delete_large_file">Ta bort stora filer</string>
     <string name="summary_delete_large_file">Ta bort valda filer permanent?</string>
     <string name="title_delete_cache">Rensa app cache</string>
-    <string name="summary_delete_cache">Rensa cache för de utvalda appar?</string>
+    <string name="summary_delete_cache">Rensa cache för de utvalda apparna?</string>
     <string name="positive_confirm">OK</string>
     <string name="title_auto_cleaner">Påminn om att städa</string>
     <string name="summary_auto_cleaner">Ta emot notifikationer när skräpstorleken når 100MB?</string>
@@ -299,6 +300,7 @@
     <string name="downloading">Laddar ner</string>
     <string name="installing">Installerar</string>
     <string name="start_install">Installera nu</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Öppna i webbläsaren</string>
     <string name="title_share_link">Dela URL</string>
     <string name="connecting">Ansluter…</string>
@@ -555,14 +557,16 @@
     <string name="whatsapp_title">Städa WhatsApp</string>
     <string name="whatsapp_function_title">Städa WhatsApp</string>
     <string name="whatsapp_function_summery">Rensa bifogade filer i WhatsApp</string>
-    <string name="clean_summary">Städade %1$s filer</string>
+    <string name="clean_summary">Frigjort %1$s</string>
     <string name="onekeyclean_boosting_title">Ökar hastigheten</string>
     <string name="onekeyclean_boosted_title">Rensat</string>
-    <string name="onekeyclean_boost_cleaned">%s frigjort</string>
+    <string name="onekeyclean_boost_cleaned">Frigjort %s</string>
     <string name="onekeyclean_boost_available">%s tillgängligt</string>
     <string name="onekeyclean_card_summery">Töm papperskorg för att öka utrymme</string>
     <string name="onekeyclean_card_btn">Städa nu</string>
     <string name="memory_clean_icon_text">Rensa minne</string>
     <string name="pref_title_create_onekeyclean_shortcut">Skapa genväg på Hemskärmen</string>
     <string name="memory_clean_no_trash_tip">Allt ser bra ut</string>
+    <string name="toast_updater_open_4g_text">Appar kommer uppdateras via mobildata (4G)</string>
+    <string name="toast_updater_close_4g_text">Appar kommer inte uppdateras via mobildata (4G)</string>
 </resources>

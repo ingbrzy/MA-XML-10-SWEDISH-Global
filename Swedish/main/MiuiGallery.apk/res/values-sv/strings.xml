@@ -21,6 +21,7 @@
     <string name="add_to_secret_successful">Lagt till i dolda album</string>
     <string name="add_to_share_album_not_delete">Foto kan inte tas bort från Delade Album</string>
     <string name="added_to_favorites">Tillagd i favoriter</string>
+    <string name="added_to_favorites_desc">Tillagd i favoriter</string>
     <string name="added_to_favorites_tip">Lägger till som \"Favoritalbum\"</string>
     <string name="adding">Lägger till…</string>
     <string name="adding_recipients">Lägg till mottagare…</string>
@@ -98,7 +99,6 @@
     <string name="app_name_view_picture">Visa bilder</string>
     <string name="app_name_view_video">Se videoklipp</string>
     <string name="apply">Tillämpa</string>
-    <string name="assistant_page_label">Assistent</string>
     <string name="associate_face_album">Välj ett album</string>
     <string name="auto_backup_introduce">Säkerhetskopiera bilder och videor automatiskt (Mi konto krävs)</string>
     <string name="auto_download_media_title">Ladda ner bilder från Mi Cloud automatiskt</string>
@@ -226,7 +226,7 @@
     <string name="cleaner_screen_shot_action">Rensa</string>
     <string name="cleaner_screen_shot_description">Ta bort skärmdumparna du inte längre behöver.</string>
     <string name="cleaner_screen_shot_title">Ta bort skärmdumpar</string>
-    <string name="cleaner_slim_action">Starta optimering…</string>
+    <string name="cleaner_slim_action">Start optimization</string>
     <string name="cleaner_slim_description">Fortsätt optimera bilder på din enhet. Originalfiler kommer lagras i Mi Cloud.</string>
     <string name="cleaner_slim_start">Optimera</string>
     <string name="cleaner_slim_title">Optimera bilder</string>
@@ -261,6 +261,9 @@
     <string name="cloudfolder_name_reserved">Albumnamn är reserverad</string>
     <string name="collage__talkback_effect">%d effekt</string>
     <string name="collage_choose">Välj</string>
+    <string name="collage_drawable_normal_date_format">dd/MM/yyyy</string>
+    <string name="collage_drawable_rect_date_month_day">dd MMM</string>
+    <string name="collage_drawable_rect_date_year">yyyy</string>
     <string name="collage_margin_text">Marginaler</string>
     <string name="collage_mirror">Spegel</string>
     <string name="collage_poster_global_cat_text">PAWS</string>
@@ -463,6 +466,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="face_name_edit">Redigera</string>
     <string name="face_name_input">Ange namn</string>
     <string name="face_recommend">Rekommendationer</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunde inte slutföra åtgärden</string>
     <string name="fail_to_pick_email">Ogiltig e-postadress</string>
     <string name="fail_to_sync_album">Kunde inte synkronisera album. Kolla din datakoppling och försök igen.</string>
@@ -473,6 +477,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="feature_guidance_photo_effects">"Nya foto effects
 are tillgänglig"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nya effekter finns</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Minne</string>
     <string name="filter_bi_mono">Mono</string>
     <string name="filter_bi_pink">Rosa</string>
@@ -541,6 +546,7 @@ are tillgänglig"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Ange</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri behöver tillgång till 
 %s
  för att fungera normalt, tryck på \"Tillämpa\" för att gå till Behörigheter."</string>
@@ -649,6 +655,7 @@ för att göra galleriet personligt"</string>
     <string name="merge_album_title">Slå samman med en person</string>
     <string name="messagelist_sender_self">Jag</string>
     <string name="micloud_introduce">Säkerhetskopiera bilder och videor automatiskt (Mi konto krävs)</string>
+    <string name="more">Mer</string>
     <string name="more_album_hint">, etc.</string>
     <string name="more_face">Fler människor som liknar varandra</string>
     <string name="more_face_album_name">Fler människor</string>
@@ -699,6 +706,7 @@ för att göra galleriet personligt"</string>
     <string name="operation_edit_video">Redigera</string>
     <string name="operation_enable_auto_upload">Sätt på synkronisering mot Mi Cloud</string>
     <string name="operation_failed">Kunde inte slutföra åtgärden</string>
+    <string name="operation_favorites">Favoriter</string>
     <string name="operation_force_top">Fäst</string>
     <string name="operation_hide">Dölj</string>
     <string name="operation_in_process">Berarbetar…</string>
@@ -736,6 +744,7 @@ för att göra galleriet personligt"</string>
     <string name="people_mark_mode_title_no_mark_name">Välj en person</string>
     <string name="people_page_label">Människor</string>
     <string name="people_page_unname">Namnlös</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Sällskapsdjursfoton</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Foton</string>
@@ -867,6 +876,10 @@ för att göra galleriet personligt"</string>
     <string name="play_gif_desc">Spela upp GIF</string>
     <string name="play_video_desc">Spela upp video</string>
     <string name="preparing_data">Vänta lite…</string>
+    <string name="privacy_permission_request_message">Galleri behöver tillgång till %3$s. Den information vi samlar in kommer att användas i enlighet med våra %1$s och %2$s. Tillåta?</string>
+    <string name="privacy_permission_request_negative">Begränsa</string>
+    <string name="privacy_permission_request_positive">Tillåt</string>
+    <string name="privacy_permission_request_title">Tillstånd krävs</string>
     <string name="projection_cancel">Avbryt</string>
     <string name="projection_checkbox_text">Kom ihåg denna skärm</string>
     <string name="projection_device_connection_failed">Det gick inte att ansluta till projektor</string>
@@ -912,6 +925,7 @@ för att göra galleriet personligt"</string>
     <string name="remove_from_secret_successful">Flyttade från dolda album</string>
     <string name="remove_to_album_title">Slå samman med</string>
     <string name="remove_to_other_album">Samman med en annan person</string>
+    <string name="removed_from_favorites_desc">Borttagen från favoriter</string>
     <string name="remover_edit_type_free">Objekt</string>
     <string name="remover_edit_type_line">Linje</string>
     <string name="remover_erase_aera_too_big">Området som tas bort är för stort</string>
@@ -988,6 +1002,9 @@ för att göra galleriet personligt"</string>
     <string name="search_title_recommend">Rekommenderad</string>
     <string name="search_title_suggestion">Förslag</string>
     <string name="search_title_tag">Objekt</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Söker efter projektor…</string>
     <string name="secret_album_card_description">Bästa platsen för alla dina små hemligheter</string>
     <string name="secret_album_card_title">Försök dolda album</string>
@@ -1170,10 +1187,15 @@ för att göra galleriet personligt"</string>
     <string name="video_editor_auto_trim">Auto trimma</string>
     <string name="video_editor_auto_trim_tip">Auto trimmar…</string>
     <string name="video_editor_cancel">Avbryt</string>
+    <string name="video_editor_cancel_download">Avbryt</string>
     <string name="video_editor_done">Klar</string>
     <string name="video_editor_down_load_later">Senare</string>
     <string name="video_editor_down_load_no_wifi_tips">Anslut till Wi-Fi för att ladda ner</string>
     <string name="video_editor_down_load_now">Ladda ner</string>
+    <string name="video_editor_download">Ladda ner</string>
+    <string name="video_editor_download_failed_for_notwork">Det gick inte att. Anslut till nätverket och försök igen.</string>
+    <string name="video_editor_download_without_wifi_msg">Att använda mobildataanslutning för att hämta filer kommer att öka din mobildataanvändning. Om du går över din datagräns, kan din operatör debiterar dig extra avgifter.</string>
+    <string name="video_editor_download_without_wifi_title">Varning för dataanvändning</string>
     <string name="video_editor_encode_video">Kodning av video…</string>
     <string name="video_editor_encode_video_error">Kunde inte koda av videon</string>
     <string name="video_editor_fatal_error">Okänt fel</string>
@@ -1212,6 +1234,8 @@ för att göra galleriet personligt"</string>
     <string name="video_editor_res_download_mobil_network_confirm_msg">Ladda ner ljudspår med mobildata?</string>
     <string name="video_editor_res_download_mobil_network_confirm_title">Använder mobildata</string>
     <string name="video_editor_res_not_load_dialog_msg">Ladda ner ljudspår för att använda denna funktion (mer än 20MB).</string>
+    <string name="video_editor_return">Tillbaka</string>
+    <string name="video_editor_save">Spara</string>
     <string name="video_editor_smart_effect_beat">Beats</string>
     <string name="video_editor_smart_effect_big_film">Epic</string>
     <string name="video_editor_smart_effect_cadence">Rytm</string>
@@ -1257,6 +1281,7 @@ för att göra galleriet personligt"</string>
     <string name="view_face_album">Visa album</string>
     <string name="view_more_face_desc">Visa fler människor</string>
     <string name="voice_assistant">Röstinmatning</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Välkommen till Mi Cloud</string>
     <string name="where_is_barcode">Var är QR-koden?</string>
     <string name="who_is_this">Vem är det?</string>

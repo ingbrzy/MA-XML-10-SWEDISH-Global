@@ -105,6 +105,7 @@
     <string name="card_settings_rule">Kortorderinställningar</string>
     <string name="card_title_funclaunch">Genvägar</string>
     <string name="card_title_noteboard">En liten anteckning</string>
+    <string name="card_title_utilities">Verktyg</string>
     <string name="check_network">Kontrollera nätverksinställningar</string>
     <string name="check_network_retry">Kontrollera nätverksinställningarna och försök igen</string>
     <string name="cleanup_garbage">Städaren</string>
@@ -141,6 +142,7 @@
     <string name="google">Google</string>
     <string name="help_quick_start_wechat_video">Få tillgång till specifika appfunktioner med genvägar</string>
     <string name="hold_down_adjustment_order">Håll ikonen till höger för att dra objekt</string>
+    <string name="holiday_empty_desc">Tryck här för att läsa mer</string>
     <string name="home">Hemma</string>
     <string name="home_and_company">Hem &amp; arbete</string>
     <string name="hour12_format_en">hh:mm</string>
@@ -202,6 +204,7 @@
     <string name="no_more_result">Det är allt för nu.</string>
     <string name="no_settings">Inte inställd</string>
     <string name="no_signal">Kunde inte uppdatera, försök igen senare</string>
+    <string name="no_utilities_apps">Inga verktygstjänster tillgängliga. Kolla senare.</string>
     <string name="not_install_c1">Den här appen är inte installerad på din telefon. Ladda ner och installera det?</string>
     <string name="not_install_c3">Ladda ner</string>
     <string name="not_install_c4">Nej tack</string>
@@ -344,6 +347,7 @@
     <string name="upgrade_log_title">Ny version</string>
     <string name="upgrade_now">Uppdatera</string>
     <string name="user_id">Användar-ID: %s</string>
+    <string name="utilities_apps_bref">Utforska tredjepartstjänster här</string>
     <string name="walk">Promenera</string>
     <string name="webull_title">Webull</string>
     <string name="which_transport">Hur kommer du normalt till din destination?</string>

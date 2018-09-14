@@ -287,6 +287,8 @@ för att logga in från Låsskärmen"</string>
     <string name="xpsace_guide_button">Skapa</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s:&lt;/font>"</string>
     <string name="search_result_text">Kunde inte hitta några appar</string>
+    <string name="confirm_close_password_title">Stänger av lösenord</string>
+    <string name="confirm_close_password_desc">Du kommer inte få tillgång till ditt Sekundära utrymme från Låsskärmen om du stänger av lösenordet. Stäng av ändå?</string>
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">WeChat Pay</string>
     <string name="weixin_share_sign">Logga in och dela</string>
@@ -419,7 +421,7 @@ Se till att namnet på ditt företag är korrekt. Läs och godkänn Integritetsp
     <string name="ent_activation">Aktivera</string>
     <string name="ent_activating">Aktiverar…</string>
     <string name="ent_installing">Installerar…</string>
-    <string name="ent_network_error">Kunde inte ansluta till nätverk. Kontrollera dina nätverksinställningar och försök igen.</string>
+    <string name="ent_network_error">Det gick inte ansluta till nätverket. Kontrollera dina inställningar och försök igen.</string>
     <string name="ent_invalid_qr">QR-kod är ogiltig.</string>
     <string name="ent_invalid_agency">Företagskod är felaktig.</string>
     <string name="ent_privacy_policy_notice">* I detta läge kommer dina personliga data samlas in enligt policyerna som är fastställda av ditt företag. Xiaomi samlar inte in någon personlig data i detta läge.</string>

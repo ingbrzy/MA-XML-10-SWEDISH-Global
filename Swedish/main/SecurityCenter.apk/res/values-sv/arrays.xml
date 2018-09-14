@@ -3,7 +3,7 @@
     <string-array name="date_of_traffic_cmcc">
         <item>"Denna Vecka "</item>
         <item>"I dag "</item>
-        <item>"Denna månaden "</item>
+        <item>"Denna månad "</item>
     </string-array>
     <string-array name="date_of_traffic">
         <item>"Igår "</item>
@@ -12,7 +12,7 @@
         <item>"Denna månad "</item>
     </string-array>
     <string-array name="date_of_traffic_prefix_cmcc">
-        <item>"Denna Vecka: "</item>
+        <item>"Denna vecka: "</item>
         <item>"Idag: "</item>
         <item>"Denna månad: "</item>
     </string-array>
@@ -72,6 +72,12 @@
         <item>Sortera efter användningsfrekvens</item>
         <item>Sortera efter använt utrymme</item>
         <item>Sortera efter installationstid</item>
+    </string-array>
+    <string-array name="key_app_info">
+        <item>install_source</item>
+        <item>install_time</item>
+        <item>update_source</item>
+        <item>update_time</item>
     </string-array>
     <string-array name="title_app_info">
         <item>Installationskälla</item>

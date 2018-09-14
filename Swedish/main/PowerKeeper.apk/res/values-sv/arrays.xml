@@ -23,6 +23,7 @@
     <string-array name="thermal_summaries">
         <item>Prioritera temperaturkontroll</item>
         <item>Prioritera prestanda</item>
+        <item>Fungerar inte i Extremläge</item>
     </string-array>
     <string-array name="power_mode_entries">
         <item>Prestanda</item>

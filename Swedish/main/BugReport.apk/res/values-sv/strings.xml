@@ -57,6 +57,7 @@
     <string name="save_pic_success">Sparade bild till %s</string>
     <string name="save_pic_fail">Kunde inte spara bild, kontrollera ditt SD-kort</string>
     <string name="pic_not_exist">Bilden finns inte</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Välj produkt</string>
     <string name="michat_skillset_business_type_title">Välj tjänst</string>
     <string name="michat_close_text">Chatt avslutad</string>
@@ -161,13 +162,16 @@
     <string name="cta_cancel">Avbryt</string>
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Skicka rapport</string>
-    <string name="submit_dialog_content">Din feedback, tillsammans med bilagor och loggar, kommer att skickas till MIUIs servrar. Den kan innehålla personlig information och dina platstjänster.</string>
-    <string name="submit_dialog_content_global">Din feedback, tillsammans med bilagor (om det finns några) och loggar (du kan bocka ut de objekt som du inte vill ladda upp) kommer skickas till MIUIs servrar och en begränsad del av MIUI Forum för utvecklare, analys och vidare kommunikation. Loggar kan innehålla personlig information och din platsinformation.</string>
+    <string name="submit_dialog_content"><Data>"Din feedback tillsammans med bifogade filer och loggar kommer skickas till MIUI's sevrar. De kan innehålla personlig information och din platsinfo. Att välja \"Acceptera\" betyder att du har läst och godkänt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>."</Data></string>
+    <string name="submit_dialog_content_global"><Data>"Din feedback tillsammans med bilagor (om det finns några) och loggar (du kan avmarkera de objekt som du inte vill ladda upp) kommer skickas till MIUI's servrar och till begränsad del av MIUI Forum för utvecklare. Informationen om dina trådar och aktivitet i forumet kommer också samlas in för analys och vidare kommunikation. Loggarna kan innehålla personlig information och din platsinfo. Dela inte loggarna med någon om du inte vill att denna information ska exponeras. Att välja \"Acceptera\" betyder att du har läst och godkänt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>."</Data></string>
     <string name="submit_dialog_cancel">Godkänn inte</string>
     <string name="submit_dialog_confirm">Godkänn</string>
+    <string name="tab_title_preferences">Inställningar</string>
+    <string name="privacy_policy_title">Integritetspolicy</string>
+    <string name="privacy_category_title">Integritet</string>
     <string name="mobile_data_note_dialog_title">Varning för dataanvändning</string>
-    <string name="mobile_data_note_dialog_content">Användning av mobildata för att ladda upp loggar kan generera ytterligare avgifter.</string>
-    <string name="mobile_data_note_dialog_content_with_file_size">Ladda upp loggar med mobildata kräver %s MB av data.</string>
+    <string name="mobile_data_note_dialog_content">Det verkar som att du är ansluten till betalnätverk. Att ladda upp loggar kan ge ytterligare kostnader.</string>
+    <string name="mobile_data_note_dialog_content_with_file_size">Det verkar som att du är ansluten till ett betalnätverk. Att ladda upp loggar kräver %sMB av mobildata.</string>
     <string name="mobile_data_note_dialog_cancel">Vänta på Wi-Fi</string>
     <string name="mobile_data_note_dialog_confirm">Ladda upp</string>
     <string name="modem_tool_log_dumping_title">Fånga modemloggar</string>
@@ -177,7 +181,7 @@
     <string name="modem_tool_log_finish_title">Modemlog sparad</string>
     <string name="modem_tool_log_finish_desc">Logg sparad till %s</string>
     <string name="bugreport_dialog_not_show_again">Visa inte igen</string>
-    <string name="bugreport_dialog_submit_content">Du sparar mjukvaruloggar på denna enhet nu. Loggar kan innehålla personlig information och din platsdata. Dela inte loggar med någon annan om du inte vill att denna information ska bli exponerad.</string>
+    <string name="bugreport_dialog_submit_content"><Data>Du sparar dina loggar på denna enhet nu. Loggarna kan innehålla personlig information och din platsinfo. Dela inte loggarna med någon om du inte vill att denna information ska exponeras. Att välja \"Acceptera\" betyder att du har läst och godkänt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>.</Data></string>
     <string name="bugreport_dump_start_notification_title">Skapar buggrapport…</string>
     <string name="bugreport_dump_start_notification_summary">Detta kan ta flera minuter.</string>
     <string name="bugreport_dump_complete_notification_title">Skapat felrapport</string>
@@ -242,6 +246,7 @@
     <string name="feedback_third_packagename_hint">Vilken tredjepartsapp orsakar problem?</string>
     <string name="toast_third_packagename_required">Ange ett appnamn</string>
     <string name="feedback_contact_info_hint">Telefonnummer/Email</string>
+    <string name="toast_loading_app_id">Hämtar info…</string>
     <string name="feedback_status_commit_succ_title">Skickad</string>
     <string name="feedback_status_commit_uploading_title">Skickar…</string>
     <string name="feedback_status_commit_failed_title">Kunde inte skicka rapport</string>
@@ -255,11 +260,11 @@
     <string name="feedback_status_forum_reply">Svara</string>
     <string name="feedback_status_submit_attachment">Inskickat</string>
     <string name="feedback_status_collect_log_failed">Kunde inte hämta loggar</string>
-    <string name="feedback_status_submit_feedback_failed">Kunde inte skicka feedback</string>
-    <string name="feedback_status_save_log_info_failed">Kunde inte ändra bifogade URL</string>
+    <string name="feedback_status_submit_feedback_failed">Det gick inte att skicka in feedback</string>
+    <string name="feedback_status_save_log_info_failed">Det gick inte att ändra URL på bifogad fil</string>
     <string name="feedback_status_submit_bbs_failed">Det gick inte att skicka in feedbackinnehåll</string>
-    <string name="feedback_status_get_and_save_bbs_info_failed">Det gick inte att få bifogad URL</string>
-    <string name="feedback_status_upload_log_failed">Det gick inte att ladda upp bilagor</string>
+    <string name="feedback_status_get_and_save_bbs_info_failed">Det gick inte att hämta URL på bifogad fil</string>
+    <string name="feedback_status_upload_log_failed">Det gick inte att ladda upp bifogade filer</string>
     <string name="feedback_status_change_notification_title">Din rapports framsteg har uppdaterats</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problem \"%2$s\"</string>
     <string name="feedback_suggestion_status_change_notification_desc">%1$s förslag \"%2$s\"</string>
@@ -285,6 +290,8 @@
     <string name="warning_field_invalid">Välj en giltig %1$s</string>
     <string name="min_error">Din %1$s måste vara längre.</string>
     <string name="max_error">Din %1$s måste vara kortare.</string>
+    <string name="reply_option_log_hint">可选</string>
+    <string name="reply_select_log_hint">选择日志文件</string>
     <string name="title_mi_family">Mi Homes närliggande</string>
     <string name="hint_feedback_main">Beskriv problemet</string>
     <string name="goon_feedback_main">Fortsätt</string>
@@ -307,7 +314,7 @@
     <string name="module_tools">Systemverktyg</string>
     <string name="module_desktop">Hemskärm &amp; inställningar</string>
     <string name="module_security">Säkerhet &amp; Mi Cloud</string>
-    <string name="module_data">Lagring &amp; Dual Apps</string>
+    <string name="module_data">Lagring &amp; Dubbelappar</string>
     <string name="module_finance">Finans &amp; Mi Wallet</string>
     <string name="module_more">Mer</string>
     <string name="module_search">Sök</string>
@@ -320,7 +327,6 @@
     <string name="toast_pic_not_exists">Cachad bild raderades</string>
     <string name="toast_screenshot_too_large">Kan inte ladda upp filer större än 10 MB.</string>
     <string name="toast_log_too_large">Det gick inte att ladda upp. Filen är för stor.</string>
-    <string name="title_bbs_feedback_main">Lär dig mer om Mi phones</string>
     <string name="title_customer_service">Kundtjänst</string>
     <string name="customer_service_apply">Begär kundtjänst</string>
     <string name="customer_service_complain">Rapportera till kundtjänst</string>

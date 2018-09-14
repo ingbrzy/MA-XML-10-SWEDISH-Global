@@ -38,6 +38,9 @@
     <string name="pref_video_quality_entry_1080p_60fps">FHD 1080P, 60fps</string>
     <string name="pref_video_quality_entry_720p">HD 720P, 30fps</string>
     <string name="pref_video_quality_entry_480p">SD 480P, 30fps</string>
+    <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080P</string>
+    <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720P</string>
+    <string name="pref_new_slow_motion_video_quality_240_720only">Du kan bara spela in videor i 720P med 240FPS</string>
     <string name="pref_video_encoder_title">Videokodare</string>
     <string name="pref_video_encoder_entry_h264">H.264 (kompatibilitet)</string>
     <string name="pref_video_encoder_entry_h265">H.265 (prestanda)</string>
@@ -414,7 +417,7 @@
     <string name="dual_camera_lens_covered_toast">Linsen är täckt.</string>
     <string name="dual_camera_use_hint">Se till att objektet inte är längre bort än 2 meter.</string>
     <string name="bokeh_use_hint">Djupeffekt</string>
-    <string name="back_bokeh_use_hint">Se till att objektet inte är längre bort än 1.5 meter.</string>
+    <string name="back_bokeh_use_hint">Håll objektet inom 1,5 meter för bästa effekt</string>
     <string name="pref_camera_zoom_ratio_wide">100</string>
     <string name="pref_camera_zoom_ratio_tele">200</string>
     <string name="pref_camera_zoom_mode_title">LINS</string>
@@ -432,6 +435,9 @@
     <string name="portrait_mode_depth_effect_success_hint">Djupeffekt</string>
     <string name="portrait_mode_use_hint">"Porträttläge gör bakgrunden suddig
  och frambringar personerna förgrunden."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
+    <string name="portrait_mode_use_hint_for_bokeh">"Försök Poträttläge.
+Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_square_mode_title">Fyrkant</string>
     <string name="simple_mode_button_text_square">Stäng av Fyrkant</string>
     <string name="face_beauty_smart">Prydlig</string>
@@ -446,6 +452,7 @@
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Lägen</string>
     <string name="button_front_camera_title">Ta en selfie</string>
     <string name="button_normal_video_title">Spela in video</string>
@@ -470,6 +477,7 @@ och skapar sedan ett foto med minsta möjliga brus."</string>
     <string name="hint_ae_af_lock">Autofokus / Autoexponering har låsts</string>
     <string name="hint_device_water_mark">Vattenstämpel kommer läggas till automatiskt.</string>
     <string name="module_name_fun">Kortfilm</string>
+    <string name="module_name_new_slow_motion">Slow motion</string>
     <string name="module_name_video">Video</string>
     <string name="module_name_capture">Foto</string>
     <string name="module_name_beauty">Skönhet</string>
@@ -559,4 +567,5 @@ i Porträtt läge"</string>
     <string name="lighting_pattern_dot">Punkter</string>
     <string name="lighting_pattern_shutter">Persienner</string>
     <string name="view_privacy_policy">Visa sekretesspolicy</string>
+    <string name="fps960_toast">Inspelning i slow motion kommer startas när timern når den vita punkten</string>
 </resources>

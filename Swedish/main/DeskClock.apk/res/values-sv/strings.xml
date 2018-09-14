@@ -62,7 +62,7 @@
     <string name="edit_alarm">Redigera alarm</string>
     <string name="edit_systemtime">Redigera systemtid</string>
     <string name="every_day">Varje dag</string>
-    <string name="expired_timers_dismissed">Timer dismissed</string>
+    <string name="expired_timers_dismissed">Dismissed timer successfully</string>
     <string name="force_touch_add_alarm">Lägg till alarm</string>
     <string name="force_touch_enter_stopwatch">Tidtagarur</string>
     <string name="force_touch_enter_timer">Timer</string>
@@ -73,7 +73,7 @@
     <string name="install_weather_app_error">Kunde inte starta app</string>
     <string name="install_weather_app_loading">Vänta en stund…</string>
     <string name="invalid_time">Felaktig tid: %3$s %1$d: %2$d</string>
-    <string name="invalid_timer_length">Invalid timer length</string>
+    <string name="invalid_timer_length">"Timer's duration is invalid"</string>
     <string name="keep_screen_on">Behåll skärmen på</string>
     <string name="label">Ställ in etikett</string>
     <string name="label_pref_summary">Etikett</string>
@@ -152,6 +152,7 @@
     <string name="shutdown_alarm_enable_summary">Alarmet kommer ringa efter avstängning</string>
     <string name="shutdown_alarm_title">Stänga av Alarm</string>
     <string name="silent_alarm_summary">Tyst</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Stäng av en gång %s</string>
     <string name="slider_text">Dra upp för att stänga av</string>
     <string name="snooze_confirm_cancel">Stänga av alarm</string>
@@ -160,6 +161,7 @@
     <string name="start_up">Starta</string>
     <string name="stopwatch_lap_empty_text">Inga varv</string>
     <string name="stopwatch_title">Tidtagarur</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Inställningar</string>
     <string name="system_time_settings_category_title">Tidsinställningar</string>
     <string name="temperature_unit">%1$s°</string>
@@ -167,7 +169,7 @@
     <string name="time_picker_colon">:</string>
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
-    <string name="time_picker_label_second">S</string>
+    <string name="time_picker_label_second">L</string>
     <string name="timer_alarm_alert_pad">%s</string>
     <string name="timer_alarm_cancel_pad">Tryck på skärmen för att stänga av ringsignalen</string>
     <string name="timer_alarm_dot_matrix_label">TIMER</string>
@@ -184,17 +186,17 @@
     <string name="timer_clock_alert_text">Ställ in timer</string>
     <string name="timer_continue">Fortsätt</string>
     <string name="timer_continue_timer">Fortsättning</string>
-    <string name="timer_created">Timer created</string>
+    <string name="timer_created">Added timer successfully</string>
     <string name="timer_end_time">Timern kommer sluta på %s</string>
     <string name="timer_end_time_format">HH:mm dd MMM</string>
     <string name="timer_end_time_format_today">HH:mm</string>
-    <string name="timer_got_it">OK</string>
+    <string name="timer_got_it">Okej</string>
     <string name="timer_is_paused">Tiduret pausas</string>
     <string name="timer_item_duration_display">%1$d min %2$d sek</string>
     <string name="timer_item_label_hint">Timernamn</string>
     <string name="timer_item_picker_hour">H</string>
     <string name="timer_item_picker_minute">M</string>
-    <string name="timer_item_picker_second">S</string>
+    <string name="timer_item_picker_second">L</string>
     <string name="timer_new_item">Lägg till timer</string>
     <string name="timer_notify_text">Snooza eller avvisa timer.</string>
     <string name="timer_pause_timer">Pausa timern</string>
