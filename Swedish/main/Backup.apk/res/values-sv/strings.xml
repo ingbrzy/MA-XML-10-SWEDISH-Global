@@ -6,6 +6,9 @@ Storlek: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerar version %1$s
 Delta-uppdatering storlek: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Lagring inte tillgänglig, kontrollera ditt SD-kort.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunde inte starta nedladdning. Kontrollera att appen för Nedladdningar fungerar normalt.</string>
     <string name="app_name">Säkerhetskopiering</string>
     <string name="local_app_name">Säkerhetskopiering</string>
@@ -17,7 +20,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="backup_empty">Inga säkerhetskopior.</string>
     <string name="data_detail_description">Detaljer</string>
     <string name="comma_seperator">", "</string>
-    <string name="backup_failed">Kunde inte säkerhetskopiera</string>
+    <string name="backup_failed">Det gick inte att säkerhetskopiera</string>
     <string name="sdcard_unmounted">Sätt i SD-kort nu</string>
     <string name="backup_progress">Säkerhetskopierar…</string>
     <string name="button_ok">OK</string>
@@ -32,7 +35,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="reconnect">Anslut igen</string>
     <string name="pause">Pausa</string>
     <string name="delete_backup_process">Tar bort…</string>
-    <string name="backup_error">Kunde inte säkerhetskopiera</string>
+    <string name="backup_error">Det gick inte att säkerhetskopiera</string>
     <string name="delete_failed_backup_confirm">Denna säkerhetskopia innehåller fel.</string>
     <string name="batch_delete_backup_confirm">Vill du ta bort valda säkerhetskopior?</string>
     <string name="start_restore">Återställ</string>
@@ -83,11 +86,11 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="task_post_running">Säkerhetskopierar…</string>
     <string name="task_finished">"Backats upp framgångsrikt "</string>
     <string name="task_canceled">Säkerhetskopiering avbruten</string>
-    <string name="task_failed">Kunde inte säkerhetskopiera</string>
+    <string name="task_failed">Det gick inte att säkerhetskopiera</string>
     <string name="task_canceled_local">Säkerhetskopia ofullständig (%s)</string>
     <string name="task_canceled_all_local">Avbruten</string>
     <string name="task_failed_local">Säkerhetskopia ofullständig (%s)</string>
-    <string name="task_failed_all_local">Kunde inte säkerhetskopiera</string>
+    <string name="task_failed_all_local">Det gick inte att säkerhetskopiera</string>
     <string name="task_backup_finished_local">"Säkerhetskopierad "</string>
     <string name="task_restore_finished_local">"Återställd "</string>
     <string name="task_restore_none">Inget att återställa</string>
@@ -179,9 +182,9 @@ Delta-uppdatering storlek: %2$s"</string>
 2.\u0009Gå till inställningar i Mi Talk och välj \"Säkerhetskopiera kontakter till Mi Konto\""</string>
     <string name="import_from_xiaomi_account_hint2">Om du redan har säkerhetskopierat, tryck Nästa.</string>
     <string name="import_from_xiaomi_account_hint_title">Använda Mi Talk för att säkerhetskopiera dina kontakter på flera enheter.</string>
-    <string name="guarded_mode_dialog_title">Du är i Gäst läge</string>
-    <string name="guarded_mode_dialog_backup_message">Säkerhetskopior är inte tillåtna i Gäst läge.</string>
-    <string name="guarded_mode_dialog_transfer_message">Kunde inte använda Mi Mover i Gäst läge.</string>
+    <string name="guarded_mode_dialog_title">Du är i Gästläge</string>
+    <string name="guarded_mode_dialog_backup_message">Säkerhetskopior är inte tillåtna i Gästläge.</string>
+    <string name="guarded_mode_dialog_transfer_message">Kunde inte använda Mi Mover i Gästläge.</string>
     <string name="multi_user_mode_dialog_title">Du är i Fler-användar läge</string>
     <string name="multi_user_mode_dialog_message">Det går inte att använde Mi Mover i Fler-användar läge. Stäng av Fler-användar läge för att fortsätta.</string>
     <string name="multi_user_mode_backup_message">Det går inte att använda säkerhetskopiering i Fler-användar läge. Stäng av Fler-användar läge för att fortsätta.</string>
@@ -224,11 +227,12 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="new_backup">Säkerhetskopiering</string>
     <string name="restore_backup">Återställ</string>
     <string name="enable_encrypt_description">Kryptera</string>
-    <string name="disable_encrypt_description">Inte kypterad</string>
+    <string name="disable_encrypt_description">Inte krypterad</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Vänta en stund…</string>
     <string name="state_mounting">Kommer åt utrymme på router…</string>
     <string name="abort_backup_confirm">Säkerhetskopiering är inte klar. Sluta ändå?</string>
-    <string name="abort_restore_confirm">Återställning är ej slutförst. Avsluta ändå?</string>
+    <string name="abort_restore_confirm">Återställning är ej slutförts. Avsluta ändå?</string>
     <string name="feature_title_call_log">Samtalshistorik</string>
     <string name="feature_title_contacts">Kontakter</string>
     <string name="feature_title_sms">Meddelanden</string>
@@ -324,7 +328,7 @@ Håll enheterna nära varandra."</string>
     <string name="trans_receiving_completed">Mottagning lyckades</string>
     <string name="trans_time_format_second">Mindre än 1 minut</string>
     <string name="trans_progress_subdescript_transing_sender">Skickar %1$s, %2$s slutfört</string>
-    <string name="trans_progress_subdescript_transing_receiver">Ta emot %1$s, %2$s completed</string>
+    <string name="trans_progress_subdescript_transing_receiver">Tar emot %1$s, %2$s slutfört</string>
     <string name="trans_progress_subdescript_transingsd_sender">Skickar filer, %s slutfört</string>
     <string name="trans_progress_subdescript_transingsd_receiver">Tar emot filer, %s slutfört</string>
     <string name="trans_progress_subdescript_transingsddata_sender">Skickar %1$s filer till SD-kort, %2$s slutförda</string>
@@ -354,9 +358,9 @@ Håll enheterna nära varandra."</string>
  [Jag är mottagare] för att skapa QR kod"</string>
     <string name="trans_operate_func_one">Metod A</string>
     <string name="trans_operate_func_two">Metod B</string>
-    <string name="trans_operate_old_phone_tips1">"1. Installera Mi Mover appen på din gamla enhet
-2. Öppna appen coh tryck Starta
-3. Skanna QR koden med din gamla enhet"</string>
+    <string name="trans_operate_old_phone_tips1">"1. Installera appen Mi Mover på din gamla enhet
+2. Öppna appen och tryck Starta
+3. Skanna QR-koden med din gamla enhet"</string>
     <string name="trans_operate_old_phone_tips2">Gå till Inställningar > Ytterligare Inställningar > Överför, Tryck[Jag är avsändare]</string>
     <string name="trans_operate_tip_for_other_android">Öppna Mi Mover på din gamla telefon, tryck \"Starta\" och skanna QR-koden ovan.</string>
     <string name="trans_operate_reconnect_new_tips">"Vänta till den nya telefonen visar \"Anslutningen avbröts.\"
@@ -367,7 +371,7 @@ Tryck sedan på \"Anslut igen\" för att skanna QR-koden."</string>
     <string name="trans_generate_qrcode_failed">Kunde inte generera QR-kod. Försök igen.</string>
     <string name="trans_wait_trans_data">"Anslut till den gamla enheten.
 Vänta på överföringen…"</string>
-    <string name="trans_select_data">Välj objekt att senda</string>
+    <string name="trans_select_data">Välj objekt att skicka</string>
     <string name="trans_select_data_tips">"Välj filer att överföra
 Liknande filer på den nya enheten kommer skrivas över"</string>
     <string name="trans_select_data_no_space">"Det finns inte tillräckligt med lagringsutrymme på den nya enheten (%s tillgängligt).
@@ -540,6 +544,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
  ska du först skapa en iCloud säkerhetskopia."</string>
     <string name="list_footer_tip_title">Tips:</string>
     <string name="import_tip_summary">På grund av kompatibilitetsproblem så kan du bara överföra delar av din data från iOS-enheter. Se till att du har skapat en iCloud backup före du börjar överföra.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importera</string>
     <string name="select_empty">Välj objekt att importera</string>
     <string name="select_item_summary_wait">Väntar…</string>

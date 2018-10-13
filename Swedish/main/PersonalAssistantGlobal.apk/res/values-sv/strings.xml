@@ -113,6 +113,10 @@
     <string name="cleanup_power">Storstädning</string>
     <string name="company">Jobb</string>
     <string name="company_or_school">Jobb eller skola</string>
+    <string name="cricket_content_provider">Innehållsleverantör</string>
+    <string name="cricket_fixtures_label">Fixturer</string>
+    <string name="cricket_news_label">Nyheter</string>
+    <string name="cricket_select_series">Välj din favoritserie</string>
     <string name="cta_desc">Samla viktiga genvägar och info här.</string>
     <string name="cta_dialog_negative">Utgång</string>
     <string name="cta_dialog_positive">Accceptera</string>
@@ -234,6 +238,7 @@
     <string name="scan_code">QR-kod</string>
     <string name="scan_doc">Dokument</string>
     <string name="scan_parent">Skanna</string>
+    <string name="search_card_view_date">EE y.M.d</string>
     <string name="search_tip">Söker…</string>
     <string name="security">Säkerhet</string>
     <string name="service_unavailiable">Anslut till nätverket och försök igen.</string>

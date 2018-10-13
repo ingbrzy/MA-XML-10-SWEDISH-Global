@@ -87,6 +87,7 @@
     <string name="accessibility_wifi_signal_full">Full signalstyrka för Wi-Fi.</string>
     <string name="accessibility_wifi_security_type_none">Öppet nätverk</string>
     <string name="accessibility_wifi_security_type_secured">Säkert nätverk</string>
+    <string name="process_kernel_label">Operativsystemet Android</string>
     <string name="data_usage_uninstalled_apps">Borttagna appar</string>
     <string name="data_usage_uninstalled_apps_users">Borttagna appar och användare</string>
     <string name="tether_settings_title_usb">Internetdelning via USB</string>
@@ -321,7 +322,7 @@ uppspelningskvalitet"</string>
     <string name="battery_info_status_full">Fullt</string>
     <string name="disabled_by_admin_summary_text">Strys av administratören</string>
     <string name="enabled_by_admin">Aktiverad av administratör</string>
-    <string name="disabled_by_admin">Avaktivderad av adminstratör</string>
+    <string name="disabled_by_admin">Avaktiverad av administratör</string>
     <string name="disabled">Inaktiverad</string>
     <string name="external_source_trusted">Tillåts</string>
     <string name="external_source_untrusted">Tillåts inte</string>
@@ -557,6 +558,7 @@ uppspelningskvalitet"</string>
     <string name="sum_cfu_disabled">Av</string>
     <string name="set_time_period">Sätt en tid</string>
     <string name="all_day">" Hela dagen "</string>
+    <string name="time_interval_char">:</string>
     <string name="time_start">" Från "</string>
     <string name="time_start_hour">time start hour</string>
     <string name="time_start_minute">time start minute</string>
@@ -696,7 +698,7 @@ Kontakta din operatör om problemet kvarstår."</string>
 Nästa period startar %4$d dagar (%5$s)"</string>
     <string name="throttle_data_usage_subtext">%1$s (%2$d٪) av %3$s max period</string>
     <string name="throttle_data_rate_reduced_subtext">"%1$s maximalt uppnått
-Datagrad reducerad till %2$d Kb/s"</string>
+Datahastighet reducerad till %2$d Kb/s"</string>
     <string name="throttle_time_frame_subtext">"%1$d٪ av cykeln förflutit
 Nästa period börjar om %2$d dagar (%3$s)"</string>
     <string name="throttle_rate_subtext">Datagrad reducerad till %1$d Kb/s om datagräns uppnås</string>
@@ -722,7 +724,7 @@ Nästa period börjar om %2$d dagar (%3$s)"</string>
     <string name="enable_disable_local">Lokalt</string>
     <string name="local_enable">Lokala nyheter är på</string>
     <string name="local_disable">Lokala nyheter är av</string>
-    <string name="enable_disable_regional">Regionella</string>
+    <string name="enable_disable_regional">Regionala</string>
     <string name="regional_enable">Regionala nyheter är på</string>
     <string name="regional_disable">Regionala nyheter är av</string>
     <string name="enable_disable_national">Nationell</string>
@@ -777,7 +779,7 @@ Nästa period börjar om %2$d dagar (%3$s)"</string>
     <string name="cdma_system_select_summary">Ändra CDMA roaming läge</string>
     <string name="cdma_system_select_dialogtitle">Välj system</string>
     <string name="cdma_subscription_title">CDMA prenumeration</string>
-    <string name="cdma_subscription_summary">Ändra imellan RUIM/SIM och NV</string>
+    <string name="cdma_subscription_summary">Ändra mellan RUIM/SIM och NV</string>
     <string name="cdma_subscription_dialogtitle">prenumeration</string>
     <string name="cdma_activate_device">Aktivera enhet</string>
     <string name="cdma_lte_data_service">Ställ in dataservice</string>
@@ -943,7 +945,7 @@ Du har %d återstående försök."</string>
     <string name="singleContactImportedMsg">Kontakt importerad</string>
     <string name="failedToImportSingleContactMsg">Kunde inte importera kontakt</string>
     <string name="hac_mode_title">Hörapparater</string>
-    <string name="hac_mode_summary">Starta hörapparat kompabilitet</string>
+    <string name="hac_mode_summary">Starta hörapparat kompatibilitet</string>
     <string name="dtmf_tones_title">DTMF-toner</string>
     <string name="dtmf_tones_summary">Ställ in längd på DTMF-toner</string>
     <string name="network_info_message">Nätverksmeddelande</string>
@@ -951,7 +953,7 @@ Du har %d återstående försök."</string>
     <string name="ota_title_activate">Aktivera till telefon</string>
     <string name="ota_touch_activate">"Ett samtal måste göras för att aktivera din telefon. 
 
-After pressing “Activate”, lyssna till instruktionerna för att aktivera telefonen."</string>
+när du tryckt på “Aktivera”, lyssna till instruktionerna för att aktivera telefonen."</string>
     <string name="ota_hfa_activation_title">Aktiverar...</string>
     <string name="ota_hfa_activation_dialog_message">"Telefonen aktiverar din mobildatatjänst.
 
@@ -1011,6 +1013,10 @@ Försök igen att ringa kundtjänst för mera information."</string>
     <string name="accessibility_settings_activity_title">Tillgänglighet</string>
     <string name="status_hint_label_incoming_wifi_call">Samtal via Wi-Fi från</string>
     <string name="status_hint_label_wifi_call">Samtal via Wi-Fi</string>
+    <string name="voicemail_visual_voicemail_key">voicemail_visual_voicemail_key</string>
+    <string name="voicemail_change_pin_key">voicemail_change_pin_key</string>
+    <string name="tty_mode_key">button_tty_mode_key</string>
+    <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
     <string name="emergency_action_launch_hint">Tryck igen för att öppna</string>
     <string name="message_decode_error">Det var ett fel när meddelandet avkodades.</string>
     <string name="callFailed_cdma_activation">Ett SIM-kort har aktiverat din tjänst och uppdaterat din telefons roaming kapacitet.</string>
@@ -1057,7 +1063,36 @@ Försök igen att ringa kundtjänst för mera information."</string>
 Kontakta din operatör."</string>
     <string name="search_app_name">Telefon;Ring inspelning;Omdirigera samtal;omdirigering;Samtal väntar;Blockerings, landskod;riktnummer;landskoder;Riktnummer; spela in samtal;Spela in samtal;Dial pad;Ring;Samtal;Telefoni;VoIP;Volte;Missade samtal;Missade samtal;SIP;T9;IP-telefoni;FDN</string>
     <string name="search_antispam_setting">Blockeringslista</string>
-    <string name="search_autoip_phone">\@Sträng/autoip_phone</string>
+    <string name="search_call_record_setting">@string/call_record_setting</string>
+    <string name="search_call_forwarding_settings">@string/call_forwarding_settings</string>
+    <string name="search_call_waiting_title">@string/call_waiting_title</string>
+    <string name="search_answer_state_setting_title">@string/answer_state_setting_title</string>
+    <string name="search_cloud_antispam_title">@string/cloud_antispam_title</string>
+    <string name="search_preference_telocation_title">@string/preference_telocation_title</string>
+    <string name="search_auto_answer_pref_title">@string/auto_answer_pref_title</string>
+    <string name="search_call_recording_notification_toggle_title">@string/call_recording_notification_toggle_title</string>
+    <string name="search_call_record_auto_title">@string/call_record_auto_title</string>
+    <string name="search_turnover_mute_title">@string/turnover_mute_title</string>
+    <string name="search_handon_ringer_title">@string/handon_ringer_title</string>
+    <string name="search_crescendo_ringer_title">@string/crescendo_ringer_title</string>
+    <string name="search_flash_when_ring_title">@string/flash_when_ring_title</string>
+    <string name="search_enable_proximity_title">@string/enable_proximity_title</string>
+    <string name="search_enable_antispam_strange_title">@string/enable_antispam_strange_title</string>
+    <string name="search_telocation_enable_title">@string/telocation_enable_title</string>
+    <string name="search_telocation_custom_location_title">@string/telocation_custom_location_title</string>
+    <string name="search_telocation_contacts_countrycode">@string/telocation_contacts_countrycode</string>
+    <string name="search_telocation_auto_country_code">@string/telocation_auto_country_code</string>
+    <string name="search_preference_dial_pad_touch_tone_title">@string/preference_dial_pad_touch_tone_title</string>
+    <string name="search_missed_call_notify_times_title">@string/missed_call_notify_times_title</string>
+    <string name="search_connect_disconnect_vibrate_title">@string/connect_disconnect_vibrate_title</string>
+    <string name="search_call_waiting_tone_title">@string/call_waiting_tone_title</string>
+    <string name="search_reject_via_sms">@string/reject_via_sms</string>
+    <string name="search_sip_settings">@string/sip_settings</string>
+    <string name="search_caller_id_title">@string/caller_id_title</string>
+    <string name="search_fdn">@string/fdn</string>
+    <string name="search_voicemail_settings">@string/voicemail_settings</string>
+    <string name="search_dtmf_tones_title">@string/dtmf_tones_title</string>
+    <string name="search_t9_indexing_method_title">@string/t9_indexing_method_title</string>
     <string name="search_auto_retry_mode_title">\@Sträng/auto_retry_mode_title</string>
     <string name="path_app_name">Systemappar/Telefon</string>
     <string name="path_call_record_setting">Systemappar/Telefon/Samtalsinspelning</string>
@@ -1082,7 +1117,6 @@ Kontakta din operatör."</string>
     <string name="path_telocation_auto_country_code">Systemappar/Telefon/Plats/Lägg till landskod</string>
     <string name="path_call_advanced_settings_title">Systemappar/Telefon/Avancerade Inställningar</string>
     <string name="path_preference_dial_pad_touch_tone_title">Systemappar/Telefon/Avancerat/Knappsats</string>
-    <string name="path_autoip">Systemappar/Telefon/Avancerade inställningar/Automatisk IP-ringning</string>
     <string name="path_missed_call_notify_times_title">Systemappar/Telefon/Avancerade inställningar/Påminnelse om missade samtal</string>
     <string name="path_connect_disconnect_vibrate_title">Systemappar/Telefon/Avancerade inställningar/Vibrera när samtalet besvaras</string>
     <string name="path_call_waiting_tone_title">Systemappar/Telefon/avancerat/ Samtal väntar notifikation</string>
@@ -1133,7 +1167,7 @@ Använder föredraget nätverk."</string>
     <string name="call_record_auto_unknown_number">Okända nummer</string>
     <string name="auto_record_yellowpage">Katalog</string>
     <string name="call_record_auto_title">Spela in samtal automatiskt</string>
-    <string name="call_record_auto_summary">Inspelningar kommer att sparas i mappen MIUI/sound_recorder/call_rec på din enhets interna lagringutrymme</string>
+    <string name="call_record_auto_summary">Inspelningar kommer att sparas i mappen MIUI/sound_recorder/call_rec på din enhets interna lagringsutrymme</string>
     <string name="call_record_auto_scenario_title">Spela in samtal från</string>
     <string name="call_record_whitelist_custom">Valda nummer</string>
     <string name="call_recording_notification_title">Samtalet spelades in</string>
@@ -1148,23 +1182,6 @@ Använder föredraget nätverk."</string>
     <string name="call_record_auto_always">Alla nummer</string>
     <string name="call_record_on_summary">På</string>
     <string name="call_record_off_summary">Av</string>
-    <string name="autoip">Automatisk IP uppringning</string>
-    <string name="autoip_phone">Automatisk IP uppringning</string>
-    <string name="autoip_prefix">IP prefix</string>
-    <string name="autoip_prefix_summary">Operatörens IP prefix är %s</string>
-    <string name="autoip_autoip_current_areacode_summary">\"Nuvarande riktnummer är\"%s</string>
-    <string name="autoip_setting">Automatiska IP inställningar</string>
-    <string name="autoip_summary">Ange ett IP prefix för internationella nummer</string>
-    <string name="autoip_current_areacode">Nuvarande riktnummer</string>
-    <string name="autoip_current_areacode_summary">Nuvarande plats riktnummer</string>
-    <string name="autoip_support_local_numbers">Använd alltid IP prefix</string>
-    <string name="autoip_add_zero_prefix">Ange 0 prefix för mobil</string>
-    <string name="autoip_exception">Siffror som inte behöver IP-prefix</string>
-    <string name="autoip_exception_summary">%d totalt</string>
-    <string name="autoip_exception_summary_more">, %d totalt</string>
-    <string name="autoip_no_exceptions">Lägg till nummer som inte kräver en IP-prefix</string>
-    <string name="autoip_areacode_required">Riktnummer krävs</string>
-    <string name="autoip_areacode_required_accept">OK</string>
     <string name="emergency_call_area_code_edit_dialog_hint">Ange riktnummer</string>
     <string name="autoip_areacode_required_for_emergency_number">Lokalt riktnummer krävs för nödsamtal</string>
     <string name="emergency_call_area_code_edit_dialog_button">Samtal</string>
@@ -1194,7 +1211,7 @@ Använder föredraget nätverk."</string>
     <string name="answer_state_setting_summary">Ytterligare inställningar för inkommande samtal</string>
     <string name="turnover_mute_title">Vänd för att tysta ringsignalen</string>
     <string name="turnover_mute_summary">När telefonen är horisontellt läge med skärmen uppåt kan du vända den för att tysta ringsignalen.</string>
-    <string name="handon_ringer_summary">Minska ringsignalsvolymen för inkommande samtal när telefonen lyfts.</string>
+    <string name="handon_ringer_summary">Sänk volymen för ringsignalen vid inkommande samtal när telefonen lyfts.</string>
     <string name="handon_ringer_title">Tysta ringsignalen när telefonen lyfts</string>
     <string name="crescendo_ringer_title">Ökande volym för ringsignal</string>
     <string name="crescendo_ringer_summary">Volymen för ringsignal kommer gradvis öka till den nivån du ställt in</string>
@@ -1518,7 +1535,7 @@ PIN2 relaterade funktioner kommer att låsas efter ännu ett misslyckat försök
     <string name="tty_mode_entries_hco">TTY HCO</string>
     <string name="tty_mode_entries_off">TTY Av</string>
     <string name="tty_mode_entries_vco">TTY VCO</string>
-    <string name="carrier_info">Operatörinformation</string>
+    <string name="carrier_info">Operatörsinformation</string>
     <string name="modem_dialog_title">Mobilt nätverk är instabilt</string>
     <string name="modem_dialog_body">Mobilt nätverk är instabilt och orsakar upp avbrott eller nätverksproblem. Skicka felrapporten till Mi för analys? Denna rapport kan innehålla personligt identifierbar information. Din rapport kommer att användas för att hjälpa till att åtgärda det här felet och kommer aldrig att delas i något kommersiellt sammanhang.</string>
     <string name="dialog_cancel">Avbryt</string>

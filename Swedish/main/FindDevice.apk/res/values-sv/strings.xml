@@ -53,7 +53,7 @@
     <string name="unlocking">Aktiverar…</string>
     <string name="unlock">Aktivera</string>
     <string name="verify_password_failed">Kunde inte verifiera Mi konto ID. %s.</string>
-    <string name="login_failed">Kunde inte logga in. %s.</string>
+    <string name="login_failed">Det gick inte logga in. %s.</string>
     <string name="change_find_device_status_failed">Kunde inte låsa upp. %s.</string>
     <string name="unlock_help_title">Låsa upp hjälp:</string>
     <string name="unlock_help">"Håll kontakten med nätverket

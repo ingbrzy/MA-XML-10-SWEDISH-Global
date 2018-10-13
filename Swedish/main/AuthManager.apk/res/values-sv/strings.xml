@@ -31,8 +31,8 @@
     <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">slå på eller av Bluetooth</string>
     <string name="HIPS_Perm_AutoStart">Kör vid uppstart</string>
     <string name="HIPS_Perm_AutoStart_Desc">kör vid uppstart</string>
-    <string name="HIPS_Perm_Calendar">Läsa kalendarhändelser</string>
-    <string name="HIPS_Perm_Calendar_Desc">läsa dina kalendarhändelser</string>
+    <string name="HIPS_Perm_Calendar">Läsa kalenderhändelser</string>
+    <string name="HIPS_Perm_Calendar_Desc">läsa dina kalenderhändelser</string>
     <string name="HIPS_Perm_SystemAlert">Visa pop-up fönster</string>
     <string name="HIPS_Perm_SystemAlert_Desc">visa pop-up fönster</string>
     <string name="HIPS_SecurityPrompt_Caption">Säkerhetsvarning</string>

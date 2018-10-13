@@ -92,6 +92,7 @@
     <string name="hints_apk_header_left">Paket</string>
     <string name="hints_residual_header_left">Överblivna filer</string>
     <string name="hints_memory_header_left">Minne</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Stora filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerade appar: %d</string>
     <string name="toast_resolve_apk_error">Lös apk fel</string>
@@ -131,7 +132,7 @@
     <string name="msg_update_error_code_network_error">Kan inte ansluta till nätverket</string>
     <string name="msg_update_error_code_unknown_error">Servrarna är för tillfället upptagna. Vänta en minut eller två och försök igen.</string>
     <string name="msg_cleanup_db_update_time_unknown">Senaste uppdatering: okänt</string>
-    <string name="item_title_process_mode">Välj en åtgärd</string>
+    <string name="item_title_process_mode">Välj</string>
     <string name="clean_content_zero">Ingen</string>
     <string name="clean_content_one">1 objekt</string>
     <string name="clean_content_two">2 objekt</string>
@@ -299,6 +300,7 @@
     <string name="downloading">Laddar ner</string>
     <string name="installing">Installerar</string>
     <string name="start_install">Installera nu</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Öppna i webbläsaren</string>
     <string name="title_share_link">Dela URL</string>
     <string name="connecting">Ansluter…</string>

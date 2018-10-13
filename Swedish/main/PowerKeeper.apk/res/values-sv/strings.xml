@@ -9,7 +9,7 @@
     <string name="power_hide_mode_title">Batteri &amp; prestanda</string>
     <string name="power_config_apps">Batterisparare</string>
     <string name="app_list_title">Välj appar</string>
-    <string name="power_hide_mode_app_list_summary">Sparar ström i bakgrunden</string>
+    <string name="power_hide_mode_app_list_summary">Sparar batteri i bakgrunden</string>
     <string name="about_hide_mode">Om Batterisparare</string>
     <string name="show_system_app">Visa systemapplikationer</string>
     <string name="hide_system_app">Dölj systemapplikationer</string>
@@ -22,9 +22,9 @@
     <string name="sleep_config_enhance_description_non_nfc">När MIUI upptäcker att du sover kommer MIUI stänga appar som är bakgrunden, begränsa Bluetooth, GPS, mobildata, Wi-Fi och skärmen kommer inte tändas upp av notifikationer.</string>
     <string name="nonui_mode_config_title">Läge för Noninteractive</string>
     <string name="nonui_mode_config_description">Tänd inte upp skärmen för notifikationer, avaktivera LED-lampor, fingeravtrycksensorn och tryck för att spara batteri när MIUI märker att du inte använder din enhet.</string>
-    <string name="power_center">Ström</string>
-    <string name="power_usage">Strömanvändning</string>
-    <string name="power_mode">Ströminställningar</string>
+    <string name="power_center">Batteri</string>
+    <string name="power_usage">Batterianvändning</string>
+    <string name="power_mode">Batteriinställningar</string>
     <string name="performance_category">Prestanda</string>
     <string name="pref_config_title">Optimering av Prestanda</string>
     <string name="app_preload_policies_title">AI laddas i förväg</string>
@@ -93,4 +93,6 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="active_classify">Sortera efter aktivitetsstatus</string>
     <string name="extreme_mode_max_item_alert">Du kan välja upp till 4 appar som får köras i bakgrunden i Extremläge</string>
     <string name="message_i_know">Jag förstår</string>
+    <string name="high_temp_state">Hög temperatur</string>
+    <string name="high_temp_state_message">Skydd mot hög temperatur, data, Wi-Fi, GPS, Kamera kommer bli begränsade</string>
 </resources>

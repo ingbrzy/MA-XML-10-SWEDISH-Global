@@ -46,12 +46,13 @@
     <string name="accessibility_bluetooth_connected">Bluetooth ansluten.</string>
     <string name="accessibility_bluetooth_disconnected">Bluetooth frånkopplad.</string>
     <string name="accessibility_bluetooth_name">Ansluten till %s.</string>
-    <string name="accessibility_bluetooth_tether">Bluethooth uppbindning.</string>
+    <string name="accessibility_bluetooth_tether">Internetdelning via Bluetooth.</string>
     <string name="accessibility_brightness">Ljusstyrka på skärmen</string>
     <string name="accessibility_brightness_slider">Ändra ljusstyrka</string>
     <string name="accessibility_camera_button">Kamera</string>
     <string name="accessibility_carrier_network_change_mode">Operatörsnätverk ändras.</string>
     <string name="accessibility_cast_name">Ansluten till %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Castning av skärmen avslutad.</string>
     <string name="accessibility_cell_data">Mobildata</string>
     <string name="accessibility_cell_data_off">Mobildata avaktiverad</string>
@@ -539,7 +540,7 @@ Om du fortsätter använda mobildata kan ytterligare avgifter från din operatö
     <string name="dock_keyguard_locked_failed_to_dock_text">Delad skärm stöds in på Låsskärmen.</string>
     <string name="dock_non_resizeble_failed_to_dock_text">Denna appen stöder inte Delad skärm.</string>
     <string name="doze_pickup_subtype_performs_proximity_check" />
-    <string name="drag_to_add_tiles">Dra för att lägga till snabbknappar</string>
+    <string name="drag_to_add_tiles">Tryck och håll för att lägga till eller ändra om objekt</string>
     <string name="drag_to_remove_tiles">Dra hit för att ta bort</string>
     <string name="drive_mode_tip">Billäge är aktiverat</string>
     <string name="drive_mode_tip_idle">Billäge är aktiverat</string>
@@ -635,7 +636,7 @@ Om du fortsätter använda mobildata kan ytterligare avgifter från din operatö
     <string name="face_unlock_rise">Sänk huvudet</string>
     <string name="face_unlock_rotated_left">Vänd huvudet till höger</string>
     <string name="face_unlock_rotated_right">Vänd huvudet till vänster</string>
-    <string name="face_unlock_sc_status">Push the screen down to open camera</string>
+    <string name="face_unlock_sc_status">Tryck ner skärmen för att öppna kameran</string>
     <string name="face_unlock_stay_away_screen">Stanna 25 till 40 cm ifrån skärmen</string>
     <string name="failed_to_open_app_settings_toast">Det gick inte att öppna inställningar för %1$s</string>
     <string name="fingerprint_add_text">Fingeravtrycksgränssnittet har uppdaterats. Lägg till ditt fingeravtryck igen.</string>
@@ -812,12 +813,16 @@ Använd endast den medföljande laddaren."</string>
     <string name="keyguard_charging_back_to_lockscreen">Tillbaka till Låsskärmen</string>
     <string name="keyguard_charging_info_battery_used_time_text">På batteri</string>
     <string name="keyguard_charging_info_click_to_detail">Visa detaljer</string>
+    <string name="keyguard_charging_info_data_c">%s℃</string>
+    <string name="keyguard_charging_info_data_ma">%smA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Tömd</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Idag %s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">Igår %s</string>
     <string name="keyguard_charging_info_last_charged_time_text">Senaste laddning</string>
-    <string name="keyguard_charging_info_tip_text1">Behåll alltid batternivån på över 10% för att uttöka livslängden på batteriet.</string>
+    <string name="keyguard_charging_info_tip_text1">Försök att alltid hålla batterinivån över 10% för att förlänga livslängden på batteriet.</string>
     <string name="keyguard_charging_info_tip_text2">Överladda inte din enhet. flera kortare laddningar är bättre än att ladda enheten över natten.</string>
     <string name="keyguard_charging_info_tip_text3">Undvik att ladda din enhet när omkringliggande temperaturen är lägre än 0℃.</string>
     <string name="keyguard_charging_info_tip_text4">Använd inte din enhet aktivt medan den laddas för att undvika överhettning.</string>
@@ -836,6 +841,7 @@ Använd endast den medföljande laddaren."</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-kort saknas eller är inte läsbar. Vänligen för in en SIM kort.</string>
     <string name="keyguard_missing_sim_message">Inget SIM kort i telefonen.</string>
     <string name="keyguard_missing_sim_message_short">Inget SIM-kort</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Nätverket är låst</string>
     <string name="keyguard_password_enter_password_code">Ange ditt lösenord för att låsa upp</string>
     <string name="keyguard_password_enter_pin_code">Ange PIN-koden</string>
@@ -919,15 +925,18 @@ Försök igen om %2$d sekunder."</string>
     <string name="left_keycode">Tangentkod för vänster knapp</string>
     <string name="left_nav_bar_button_type">Extra knapptyp till vänster</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="local_backup_password_summary_change">Tryck för att ändra eller ta bort lösenord för säkerhetskopior för Hemskärmen</string>
     <string name="local_backup_password_summary_none">Fullständig säkerhetskopia för Desktop är inte skyddad för tillfället</string>
     <string name="local_backup_password_title">Lösenord för Säkerhetskopia av Hemskärmen</string>
     <string name="local_backup_password_toast_confirmation_mismatch">Lösenorden matchar inte</string>
     <string name="local_backup_password_toast_success">Lösenord för säkerhetskopia är ändrat</string>
     <string name="local_backup_password_toast_validation_failure">Det gick inte att sätta lösenordet för säkerhetskopian</string>
+    <string name="lock_screen_carrier_airplane_mode_on">Flygplansläge</string>
     <string name="lock_screen_date">EEEE, d MMMM</string>
     <string name="lock_screen_date_12">EEEE, d MMMM</string>
-    <string name="lock_screen_no_sim_card">Inget SIM-kort</string>
+    <string name="lock_screen_no_sim_card_emergency_only">Endast nödsamtal</string>
+    <string name="lock_screen_no_sim_card_no_service">Ingen tjänst</string>
     <string name="lock_wallpaper_enter">Ange</string>
     <string name="lock_wallpaper_learn_more">Fler inställningar</string>
     <string name="lockscreen_access_pattern_area">Mönsterområde.</string>
@@ -951,7 +960,7 @@ Försök igen om %2$d sekunder."</string>
     <string name="lockscreen_unlock_right">Genvägen till höger låser också upp</string>
     <string name="long_screenshot_not_support_msg">Nuvarande app stödjer inte skrollande skärmdumpar</string>
     <string name="long_screenshot_out_of_memory_error">Bilden är för stor</string>
-    <string name="long_screenshot_processing">Berarbetar…</string>
+    <string name="long_screenshot_processing">Bearbetar…</string>
     <string name="long_screenshot_stop">Klar</string>
     <string name="long_screenshot_top_msg">Skapar skärmbild…</string>
     <string name="long_screenshot_top_msg_manual">Beskär skärmdumpen och tryck på knappen för att avsluta</string>
@@ -980,6 +989,7 @@ Försök igen om %2$d sekunder."</string>
     <string name="miui_guide_dialog_message">Medialjud (t ex musik, videor) kommer fortfarande spelas i Tyst läge. Du kan ändra detta i Inställningar.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Upplåst av Bluetoothenhet</string>
     <string name="miui_ringer_count_down">Räkna ner</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Tyst</string>
     <string name="miui_ringer_standard_description">Stäng av ringsignal för inkommande samtal och notifikationer</string>
     <string name="miui_ringer_total">Stör ej</string>
@@ -1007,12 +1017,14 @@ Du är också ansluten till %3$s som kan övervaka din personliga nätverksaktiv
 
 Kontakta din administratör för mer information."</string>
     <string name="monitoring_description_ca_cert_settings">Öppna betrodda uppgifter</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">En Certifikatutfärdare är installerad på denna enhet. Din säkra nätverkstrafik kan vara övervakad eller har blivit modifierad.</string>
     <string name="monitoring_description_do_body">Din administratör kan övervaka och hantera inställningar, företagstillgång, appar, data kopplad till din enhet och din enhets platsinformation.</string>
     <string name="monitoring_description_do_body_vpn">Du är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-post, appar och websidor.</string>
     <string name="monitoring_description_do_header_generic">Din enhet hanteras av %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s använder %2$s för att hantera din enhet.</string>
     <string name="monitoring_description_do_learn_more">Läs mer</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Din organisation installerade en Certifikatutfärdare i din arbetsprofil. Din säkra nätverkstrafik kan övervakas eller modifieras.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Din arbetsprofil är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-post, appar och webbsidor.</string>
     <string name="monitoring_description_management">"Din enhet hanteras av din organisation.
@@ -1044,6 +1056,7 @@ Kontakta din administratör för mer information.
 
 Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</string>
     <string name="monitoring_description_vpn_settings">Öppna inställningar för VPN</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA-certifikat</string>
     <string name="monitoring_subtitle_network_logging">Nätverksloggning</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1058,11 +1071,13 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="nav_guide_message">Använd gester för att dölja/visa skärmknappar.</string>
     <string name="nav_guide_ok">Ställ in</string>
     <string name="nav_guide_title">Dölj skärmknappar</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Inget</string>
     <string name="no_multi_window_app">Inga appar stöder Delad skärm</string>
     <string name="no_notification_tips">Inga notifikationer</string>
     <string name="no_weather_description">Hämta väderinfo ></string>
     <string name="not_support_multi_window">Nuvarande app stöder inte Delad skärm</string>
+    <string name="notch_sos_status_bar_title">SOS</string>
     <string name="notification_all_categories">Alla Kategorier</string>
     <string name="notification_app_settings">Anpassa: %1$s</string>
     <string name="notification_channel_alerts">Påminnelser</string>
@@ -1156,7 +1171,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="pip_phone_close">Stäng</string>
     <string name="pip_phone_dismiss_hint">Dra ner för att ta bort</string>
     <string name="pip_phone_expand">Expandera</string>
-    <string name="pip_phone_minimize">Minimiera</string>
+    <string name="pip_phone_minimize">Minimera</string>
     <string name="pip_play">Spela upp</string>
     <string name="pip_skip_to_next">Hoppa till nästa</string>
     <string name="pip_skip_to_prev">Hoppa till föregående</string>
@@ -1195,6 +1210,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="power_remaining_charging_duration_only">Återstår %1$s till fulladdat</string>
     <string name="power_remaining_duration_only">Ungefär %1$s kvar</string>
     <string name="power_remaining_duration_only_short">%1$s återstår</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_owned_footer">Profilen kan vara övervakat</string>
     <string name="prompt_danger">Fara</string>
     <string name="prompt_detecting">Undersöker</string>
@@ -1298,6 +1314,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="quick_settings_sync_label">Synkronisera</string>
     <string name="quick_settings_tethering_label">Internetdelning</string>
     <string name="quick_settings_time_label">Tid</string>
+    <string name="quick_settings_toast_drag_to_enable_custom_tile">För att lägga till ett objekt, tryck och håll det och dra det sedan till övre delen av panelen.</string>
     <string name="quick_settings_user_label">Jag</string>
     <string name="quick_settings_user_new_user">Ny användare</string>
     <string name="quick_settings_user_title">Användare</string>
@@ -1325,7 +1342,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="recents_accessibility_split_screen_top">Dela skärmen till den övre delen</string>
     <string name="recents_app_info_button_label">Information om appen</string>
     <string name="recents_caption_resize">Välj ny layout på uppgifter</string>
-    <string name="recents_drag_hint_message">Dra hit för att använda Delad skärm</string>
+    <string name="recents_drag_hint_message">Tryck och håll en app och dra den hit.</string>
     <string name="recents_empty_message">Inga nyligen använda objekt</string>
     <string name="recents_empty_message_dismissed_all">Du har rensat allt</string>
     <string name="recents_empty_message_multi_window">Öppna appar från Hemskärmen</string>
@@ -1333,7 +1350,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="recents_incompatible_app_message">Denna appen stöder inte Delad skärm</string>
     <string name="recents_launch_disabled_message">%s kan inte öppnas i säkerhetsläge.</string>
     <string name="recents_launch_error_message">Kunde inte starta %s.</string>
-    <string name="recents_lock_to_app_button_label">Fäst på skärmen</string>
+    <string name="recents_lock_to_app_button_label">Fästa och lossa skärmar</string>
     <string name="recents_multi_window_mode">Dela skärm</string>
     <string name="recents_multistack_add_stack_dialog_split_custom">Dela till ett valfritt förhållande</string>
     <string name="recents_multistack_add_stack_dialog_split_horizontal">Dela horisontellt</string>
@@ -1365,11 +1382,11 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="saved_network">Sparad av %1$s</string>
     <string name="screen_button_notification_text">För att slå på dem, tryck på Hem- och Strömknappen samtidigt.</string>
     <string name="screen_button_notification_title">Navigationsknapparna är avstängda</string>
-    <string name="screen_pinning_description">Detta håller objektet synligt tills du lossar det. Tryck på Bakåtknappen &amp; håll ner den för att lossa.</string>
-    <string name="screen_pinning_description_accessible">Detta håller objektet synligt tills du lossar det. Tryck på Översiktsknappen &amp; håll ner den för att lossa.</string>
+    <string name="screen_pinning_description">Om du fäster en appskärm visas den tills du lossar den. Tryck och håll på Bakåt- och översiktsknappen &amp; för att lossa.</string>
+    <string name="screen_pinning_description_accessible">Om du fäster en appskärm visas den tills du lossar den. Tryck och håll på Översiktsknappen &amp; för att lossa.</string>
     <string name="screen_pinning_negative">Nej tack</string>
     <string name="screen_pinning_positive">Jag förstår</string>
-    <string name="screen_pinning_title">Skärmen fästs</string>
+    <string name="screen_pinning_title">Skärmen är fäst</string>
     <string name="screen_zoom_summary_custom">Anpassad (%d)</string>
     <string name="screen_zoom_summary_default">Standard</string>
     <string name="screen_zoom_summary_extremely_large">Störst</string>
@@ -1438,6 +1455,8 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="snooze_option_30_min">30 minuter</string>
     <string name="snooze_undo">ÅNGRA</string>
     <string name="snoozed_for_time">Snoozade i %1$s</string>
+    <string name="sos_status_bar_summary">tryck för att avsluta</string>
+    <string name="sos_status_bar_title">SOS</string>
     <string name="speed_bump_explanation">Mindre brådskande notifikationer nedan</string>
     <string name="ssl_ca_cert_warning">"Nätverket kan
 vara övervakat"</string>
@@ -1450,7 +1469,7 @@ vara övervakat"</string>
     <string name="status_bar_clock_date_format">EEEE, MMMM d</string>
     <string name="status_bar_clock_date_format_12">EEEE, MMMM d</string>
     <string name="status_bar_clock_date_time_format">H:mm d MMMM</string>
-    <string name="status_bar_clock_date_time_format_12">aah:mm d MMMM</string>
+    <string name="status_bar_clock_date_time_format_12">h:mmaa d MMMM</string>
     <string name="status_bar_date_format">"EEEE
 MMMM d"</string>
     <string name="status_bar_date_format_12">"EEEE
@@ -1472,7 +1491,7 @@ MMMM d"</string>
 Dra ner för att låsa"</string>
     <string name="status_bar_recent_guide_bottom">Dra ner för att låsa</string>
     <string name="status_bar_recent_guide_top">Skjut upp för att stänga</string>
-    <string name="status_bar_recent_inspect_item_title">Appinformation</string>
+    <string name="status_bar_recent_inspect_item_title">Information om appen</string>
     <string name="status_bar_recent_memory_info1">%1$sB av %2$sB tillgängligt</string>
     <string name="status_bar_recent_memory_info2" />
     <string name="status_bar_recent_remove_item_title">Ta bort från listan</string>
@@ -1583,6 +1602,7 @@ Din telefon kan bli för varm om du:
     <string name="torch_activity_hint">Tryck [icon] för att aktivera ficklampan på Låsskärmen</string>
     <string name="torch_activity_name">Ficklampa</string>
     <string name="torch_closed">Ficklampa av</string>
+    <string name="torch_high_temperature_warning">Din enhet är överhettad. Det går inte att använda ficklampan nu.</string>
     <string name="torch_opened">Ficklampa på</string>
     <string name="track_frame_time">Profilera GPU-rendering</string>
     <string name="transition_animation_scale_title">Skala för animationsövergång</string>
@@ -1659,7 +1679,6 @@ Din telefon kan bli för varm om du:
     <string name="usb_debugging_title">Tillåt USB-felsökning?</string>
     <string name="usb_device_confirm_prompt">Öppna %1$s när den här USB-enheten är ansluten?</string>
     <string name="usb_device_permission_prompt">Tillåt appen %1$s att komma åt USB-enhet?</string>
-    <string name="usb_function_charging_text">Ansluten i laddningsläge</string>
     <string name="usb_mode_dont_ask">Kom ihåg detta val</string>
     <string name="usb_mode_mount_storage_title">Öppna USB lagring?</string>
     <string name="usb_mode_notification">USB-lagringsutrymme</string>
@@ -1725,6 +1744,7 @@ Alla användare kan uppdatera för alla användare."</string>
     <string name="wait_for_debugger">Vänta på debugger</string>
     <string name="wait_for_debugger_summary">Applikationen som felsöks väntar på felsökaren att bifogas innan körning</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Släpp för att visa detaljer</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Uppdaterad %1$s</string>
     <string name="wifi_aggressive_handover">Aggressiv överlämning från Wi-Fi till mobildata</string>
     <string name="wifi_aggressive_handover_summary">När den är aktiverad kommer anslutningen växla till mobildata oftare när Wi-Fi-signalen är svag.</string>
@@ -1749,9 +1769,11 @@ Alla användare kan uppdatera för alla användare."</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Ingen</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>

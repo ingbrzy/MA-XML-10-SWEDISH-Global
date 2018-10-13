@@ -88,6 +88,10 @@
         <item quantity="other">Klart</item>
         <item quantity="one">Klart</item>
     </plurals>
+    <plurals name="vote_all_people">
+        <item quantity="other">%d personer har röstat</item>
+        <item quantity="one">%d personer har röstat</item>
+    </plurals>
     <plurals name="last_num_days">
         <item quantity="other">Senaste %d dagar</item>
         <item quantity="one">Senaste %d dag</item>

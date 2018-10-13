@@ -67,7 +67,7 @@ Du måste godkänna Kika's Integritetspolicy innan du använder denna funktion."
     <string name="disagree">Avbryt</string>
     <string name="setting_locale">Ställer in region…</string>
     <string name="agree_terms">Jag har läst och godkänner användarvillkoren och integritetspolicyn.</string>
-    <string name="poco_agree_terms_other">(inklusive Poco Launcher Sekretesspolicy och användaravtal)</string>
+    <string name="poco_agree_terms_other">(inklusive Poco Launcher Sekretesspolicy och Användaravtal)</string>
     <string name="agree_terms_input_method_facemoji">"Jag har läst och godkänner Facemoji's Integritetspolicy."</string>
     <string name="agree_terms_input_method_kika">"Jag har läst och godkänner Kika's Integritetspolicy."</string>
     <string name="miui_terms_no_network">Du har ingen internetanslutning. Visa användarvillkoren på %s.</string>

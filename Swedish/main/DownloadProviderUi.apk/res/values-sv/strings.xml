@@ -152,7 +152,7 @@
     <string name="paused_unknown">Pausad</string>
     <string name="paused_waiting_for_network">Väntar på nätverk</string>
     <string name="paused_waiting_to_retry">Väntar på att försöka igen</string>
-    <string name="pref_download_settings_title">Storleksgräns för hämtning</string>
+    <string name="pref_download_settings_title">Storleksgräns för nedladdning</string>
     <string name="pref_summary_any_bytes_popup">Vänta alltid på Wi-Fi-anslutning för att hämta filer</string>
     <string name="pref_summary_enable_max_bytes_popup">Visa popup meddelande när du använder mobildata för att ladda ned filer</string>
     <string name="pref_summary_max_bytes_limit_format">Vänta på Wi-Fi om filstorleken överstiger %s</string>
@@ -197,7 +197,11 @@
     <string name="toast_only_wifi_download">Anslut till Wi-Fi för att ladda ner detta objekt</string>
     <string name="total_speedup">Fartökning (totalt)</string>
     <string name="version">Version %s</string>
+    <string name="check_new_downloaded_action">Visa</string>
+    <string name="check_new_downloaded_file">En ny fil hittades</string>
     <string name="get_data_failed">Det gick inte att hämta informationen. Vänta en minut eller två och försök igen.</string>
+    <string name="info_download_details">Detaljer</string>
+    <string name="info_download_progress">Visa nedladdningsprocess</string>
     <string name="load_finish_hint">Det är allt för tillfället.</string>
     <string name="loading">Vänta en stund…</string>
     <string name="net_error">Anslut till nätverket och försök igen</string>

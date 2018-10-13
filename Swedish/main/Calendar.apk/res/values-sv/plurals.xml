@@ -76,6 +76,10 @@
         <item quantity="other">Du kan skriva in upp till %1$d dagar</item>
         <item quantity="one">Du kan skriva in upp till %1$d dag</item>
     </plurals>
+    <plurals name="event_reminders_to_max">
+        <item quantity="other">Kan ställa in %d-påminnelser</item>
+        <item quantity="one">Kan ställa in %d-påminnelser</item>
+    </plurals>
     <plurals name="month_more_events">
         <item quantity="other">+%d</item>
         <item quantity="one">+1</item>

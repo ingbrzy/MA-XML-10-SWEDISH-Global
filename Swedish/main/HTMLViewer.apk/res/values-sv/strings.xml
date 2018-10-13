@@ -25,5 +25,5 @@
     <string name="settings_ad_loading">Vänta en stund…</string>
     <string name="settings_ad_loading_unavailable">Kunde inte ladda information.</string>
     <string name="autoconnect">Anslut automatiskt</string>
-    <string name="poco_privacy_policy">POCO Launcher Privacy Policy &amp; POCO Launcher User Agreement</string>
+    <string name="poco_privacy_policy">Sekretesspolicy för Poco Launcher &amp; Poco Launcher användaravtal</string>
 </resources>

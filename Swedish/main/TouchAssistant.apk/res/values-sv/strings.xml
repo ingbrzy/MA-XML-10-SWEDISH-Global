@@ -8,7 +8,6 @@
     <string name="close_panel">Avaktivera Snabbmeny</string>
     <string name="customize_entries">Välj genvägar</string>
     <string name="enable_touch_assistant">Aktivera Snabbmeny</string>
-    <string name="enabled_for_pad_hint">Fungerar när \"Blocka navigeringsknapparna i landskapsläge\" är påslagen</string>
     <string name="function_settings">Genvägsinställningar</string>
     <string name="handy_mode_default_to_close_whether_open">Enhandsläge är av som standard. Vill du aktivera Enhandsläge?</string>
     <string name="hide_touch_assistant">Dölj automatiskt</string>

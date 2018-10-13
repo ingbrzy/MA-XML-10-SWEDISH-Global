@@ -53,8 +53,8 @@
         <item quantity="one">SIM-kortet kan spara %1$d kontakt.</item>
     </plurals>
     <plurals name="foundTooManyContacts_plurals">
-        <item quantity="other">Found more than %d contacts.</item>
-        <item quantity="one">Found more than %d contact.</item>
+        <item quantity="other">Hittade mer än %d kontakt.</item>
+        <item quantity="one">Hittade mer än %d kontakt.</item>
     </plurals>
     <plurals name="group_add_success_toast">
         <item quantity="other">%1$d kontakter tillagda</item>
@@ -101,8 +101,8 @@
         <item quantity="one">1 kontakt med telefonnummer</item>
     </plurals>
     <plurals name="merge_contact_message_plurals">
-        <item quantity="other">%1$d contacts with partially identical info</item>
-        <item quantity="one">%1$d contacts with partially identical info</item>
+        <item quantity="other">%1$d kontakter med delvis identisk information</item>
+        <item quantity="one">%1$d kontakter med delvis identisk information</item>
     </plurals>
     <plurals name="merge_info">
         <item quantity="other">hopslagen från %0$d källor</item>
@@ -153,12 +153,12 @@
         <item quantity="one">1 hittad</item>
     </plurals>
     <plurals name="select_all_exceed_plurals">
-        <item quantity="other">"Select no more than %1$d, can't select all"</item>
-        <item quantity="one">"Select no more than %1$d, can't select all"</item>
+        <item quantity="other">Välj inte fler än %1$d, det går inte att välja alla</item>
+        <item quantity="one">Välj inte fler än %1$d, det går inte att välja alla</item>
     </plurals>
     <plurals name="select_exceed_plurals">
-        <item quantity="other">Select no more than %1$d</item>
-        <item quantity="one">Select no more than %1$d</item>
+        <item quantity="other">Välj in inte fler än %1$d</item>
+        <item quantity="one">Välj in inte fler än %1$d</item>
     </plurals>
     <plurals name="smart_group_member_count">
         <item quantity="other">%1$d personer</item>

@@ -18,11 +18,11 @@
     <string name="callFailed_powerOff">Antenn är av</string>
     <string name="callFailed_simError">SIM-korts fel</string>
     <string name="callFailed_outOfService">Ingen signal</string>
-    <string name="callFailed_fdn_only">Utgående samtal begränsade av FDN.</string>
+    <string name="callFailed_fdn_only">Utgående samtal är begränsade av FDN.</string>
     <string name="callFailed_dialToUssd">Samtalsbegäran ändrad till USSD begäran.</string>
-    <string name="callFailed_dialToSs">SS begäran ändrad till ny SS begäran.</string>
+    <string name="callFailed_dialToSs">Samtalsbegäran ändrad till SS begäran.</string>
     <string name="callFailed_dialToDial">Samtalsbegäran ändrad till samtal med ett annat nummer.</string>
-    <string name="callFailed_cb_enabled">Utgående samtal fungerar inte när samtalsspär är aktiverad.</string>
+    <string name="callFailed_cb_enabled">Utgående samtal fungerar inte när samtalsspärr är aktiverad.</string>
     <string name="callFailed_incoming_cb_enabled">Inkommande samtal spärras.</string>
     <string name="callFailed_dsac_restricted">Alla samtal förbjudna av åtkomstkontroll.</string>
     <string name="callFailed_dsac_restricted_emergency">Nödsamtal förbjudna av åtkomstkontroll.</string>
@@ -112,6 +112,7 @@
     <string name="description_image_button_dialpad">Knappsats</string>
     <string name="description_image_button_tools">Alternativ</string>
     <string name="description_target_answer">Svara</string>
+    <string name="description_message_list_title">Lista av snabbsvar</string>
     <string name="ok">OK</string>
     <string name="cancel">Avbryt</string>
     <string name="wait_prompt_str">"Skicka följande toner?
@@ -199,4 +200,5 @@
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
     <string name="prompt_no_volte_when_failed">Kan inte ringa. Kontrollera att din enhet är ansluten till ett 4G-nätverk som stöder VoLTE.</string>
+    <string name="volume_boost_text">Volymen ökad</string>
 </resources>

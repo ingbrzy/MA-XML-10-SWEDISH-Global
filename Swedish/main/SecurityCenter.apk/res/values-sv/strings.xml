@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Ljud</string>
@@ -105,7 +107,7 @@
  De kommer läggas till som undantag men tidigare objekt som blockerats kommer inte synas i samtalshistoriken."</string>
     <string name="dlg_update_date_title">Varning</string>
     <string name="dlg_update_data_content">Din enhet är inte ansluten till Wi-Fi. Att använda mobildata kan generera ytterligare kostnader. Fortsätt ändå?</string>
-    <string name="dlg_sec_network_unavailable">Säkerhetsappen kan inte uppdateras eftersom du har begränsat internetuppkopplingen. Tillåt Säkerhetsappen att ansluta till Internet?</string>
+    <string name="dlg_sec_network_unavailable">Appen Säkerhet kan inte uppdateras eftersom du har begränsat internetuppkopplingen. Tillåt appen Säkerhet att ansluta till Internet?</string>
     <string name="dlg_update_btn_contiue">Fortsätt</string>
     <string name="dlg_update_btn_open">Tillåt</string>
     <string name="dlg_update_updating">Uppdaterar…</string>
@@ -178,7 +180,7 @@
     <string name="sms_stranger_block">Blockera SMS från okända</string>
     <string name="sms_contact_block">Blockera SMS från kontakter</string>
     <string name="sms_malicious_url">Blockera SMS från skadliga URLs</string>
-    <string name="sms_cloud_block">Blockeringlista för molntjänster</string>
+    <string name="sms_cloud_block">Blockeringslista för molntjänster</string>
     <string name="call_blacklist">Blockeringslista för samtal</string>
     <string name="call_prefix">Blockeringslista för prefix</string>
     <string name="call_address">Blockeringslista för område</string>
@@ -186,7 +188,7 @@
     <string name="call_stranger_block">Blockera samtal från okända</string>
     <string name="call_contact_block">Blockera samtal från kontakter</string>
     <string name="call_transfer_block">Blockera vidarekopplade samtal</string>
-    <string name="call_cloud_block">Blockeringlista för molntjänster</string>
+    <string name="call_cloud_block">Blockeringslista för molntjänster</string>
     <string name="call_oversea_block">Blockera alla inkommande utlandssamtal</string>
     <string name="mark_fraud_block">Rapportera som bluff</string>
     <string name="mark_agent_block">Rapportera som myndigheter</string>
@@ -207,7 +209,7 @@
     <string name="report_only">Välj ett meddelande att rapportera</string>
     <string name="report_success">Meddelandet har rapporterats</string>
     <string name="report_error">Kunde inte rapportera meddelandet</string>
-    <string name="report_warning">"Rapportera %1$s SMS till Mi? Dessa meddelanden och telefonnumret som de skickades från kommer att laddas upp till Mi's servrar för kontroll. All personlig information kopplad med dessa meddelanden hålls alltid anonym."</string>
+    <string name="report_warning">"Report %1$s SMS to Mi? These messages and phone numbers they were sent from will be uploaded to Mi's servers for review. Any personal info associated with these messages is always kept anonymous."</string>
     <string name="report_warning_title">Uppmärksamma</string>
     <string name="st_sub_title_customize_mode_name">Namn</string>
     <string name="read_all_sms">Läs alla</string>
@@ -380,7 +382,6 @@
     <string name="main_month_used">Mobildataabonnemang</string>
     <string name="main_leisure_remained">Återstående lågtrafikdata</string>
     <string name="main_bill_remained">Saldo</string>
-    <string name="main_used_bill">%s CNY</string>
     <string name="main_no_info">Ingen data</string>
     <string name="guide_quck_open">Aktivera</string>
     <string name="guide_wait_setting">Inte nu</string>
@@ -388,13 +389,6 @@
     <string name="guide_second_text">Efter att du angett operatör kommer MIUI övervaka din mobildataanvändning genom att skicka dagliga SMS gratis. När MIUI upptäckter att du överskridit din datagräns kommer MIUI koppla ifrån nätverket och meddela dig.</string>
     <string name="guide_get_operator_error">"&lt;font color='#33b4ff'>&lt;U>Fel Operatör?&lt;/U>&lt;/font>"</string>
     <string name="card_tc_failed">Kunde inte att kalibrera</string>
-    <string name="card_tc_failed_content">"Möjliga orsaker:
- 1. Operatörer svarar långsammare i början och i slutet av en månad. Försök igen om ett par dagar.
- 2. En mall för att begära nätverk behövs när du kalibrera för första gången. Anslut till nätverket och försök igen
- 3. Din operatör stöder kanske inte att skicka meddelande med återstående data och saldo. Kontakta din operatör för mer information.
- 4. Det kan vara ett fel i datan från operatören. Försök med operatörsdiagnostik för lösa det.
- 5. Hjälper inget? Tryck \"Rapportera via SMS\" för skicka din feedback till Xiaomi i ett meddelande."</string>
-    <string name="card_sms_report">Rapportera via SMS</string>
     <string name="main_normal_data_usage">Mobildata som har använts</string>
     <string name="main_tc_send_sms">"Skicka SMS
 för att kalibrera"</string>
@@ -465,6 +459,7 @@ ska svara"</string>
     <string name="managed_user_title">Alla arbetsappar</string>
     <string name="pref_about_traffic_title">Inställningar för mobildataanvändning</string>
     <string name="pref_traffic_manage_title">Dataanvändning</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Mobildataabonnemang</string>
     <string name="pref_adjust_traffic_data">Ange datagräns</string>
     <string name="pref_category_title_other">Ytterligare inställningar</string>
@@ -491,7 +486,7 @@ ska svara"</string>
     <string name="pref_correction_setting">Mall för kalibgrationsinställningar</string>
     <string name="pref_correction_setting_switch">Använd en anpassad kalibrationsmall</string>
     <string name="pref_correction_sms_number">Skicka kalibratationsSMS till</string>
-    <string name="pref_correction_sms_content">Kalibrationmall</string>
+    <string name="pref_correction_sms_content">Kalibrationsmall</string>
     <string name="adjust_traffic_carrier_summary_today">Uppdaterad idag vid %s</string>
     <string name="adjust_traffic_carrier_summary_yesterday">Uppdaterad igår vid %s</string>
     <string name="adjust_traffic_carrier_summary_two_day_before">Uppdaterad för 2 dagar sedan</string>
@@ -559,7 +554,6 @@ ska svara"</string>
     <string name="traffic_setting_fragment_send_num_tips">Ange telefonnummer</string>
     <string name="traffic_setting_fragment_sms_content_tips">Skriv ditt meddelande här</string>
     <string name="traffic_setting_fragment_loacation_alert_nomore">Visa inte igen</string>
-    <string name="traffic_setting_fragment_find_brand">"&lt;font color='#33b4ff'>&lt;U>Är osäker på Operatören?&lt;/U>&lt;/font>"</string>
     <string name="data_usage_warning_body">Tryck för att visa detaljer om dataanvändning.</string>
     <string name="data_usage_mobile_limit_title">Nådde gränsen för mobildata</string>
     <string name="data_usage_limit_body">Tryck för att aktivera mobildata.</string>
@@ -638,7 +632,6 @@ Kvarvarande data inkluderar sparad data från förra månaden."</string>
     <string name="operator_number_cmcc">10086</string>
     <string name="operator_number_unicom">10010</string>
     <string name="operator_number_telcom">10000</string>
-    <string name="operator_mi_sim">Mi SIM</string>
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
     <string name="mi_service_app_detail">Detaljer för dataanvändning</string>
@@ -672,7 +665,7 @@ Kvarvarande data inkluderar sparad data från förra månaden."</string>
     <string name="tc_sms_report_notify_correction_body">Öppna appen för dataanvändning i Säkerhetscenter och försök igen.</string>
     <string name="tc_sms_report_notify_get_failure_body">Kunde inte skicka dataanvändning. Kontrollera att du är ansluten till ett mobilt nätverk.</string>
     <string name="tc_sms_report_tips_dialog_title">SMS för dataanvändning</string>
-    <string name="tc_sms_report_tips_dialog_message">Ett SMS från din operatör skickas för att hämta senaste information om dataanvändning. Om du tror att informationen inte är korrekt, skicka oss din feedback.</string>
+    <string name="tc_sms_report_tips_dialog_message">"An SMS is sent to get the latest data usage info from your carrier. If you think the info isn't correct, send us your feedback."</string>
     <string name="tc_sms_report_get_sms_failure">Kunde inte hämta dataanvändningsinformation</string>
     <string name="tc_sms_report_get_sms_timeout">Begäran tog för lång tid</string>
     <string name="tc_sms_report_get_sms_successs">Uppdaterad dataanvändningsinformation</string>
@@ -683,7 +676,7 @@ Kvarvarande data inkluderar sparad data från förra månaden."</string>
     <string name="sc_allow_network_dialog_tiltle">Kan inte använda funktionen</string>
     <string name="sc_allow_network_dialog_message">Du begränsade nätverksanslutningen och tillgång till platsinformation för appen Säkerhet. Ge appen Säkerhet de behörigheter som behövs för att använda funktionen.</string>
     <string name="privacy_prompt_upload">Ladda upp</string>
-    <string name="privacy_prompt_traffic_adjust_message">"Efter att du börjat kalibrera kommer MIUI att ansluta till nätverket, kryptera din operatörs information, telefonnummer, IMEI och Mi-kontot och ladda upp dessa objekt till Mi sevrar. Detta gör för att samla in operatörens mall för att kalibrera och se om det är möjligt att köpa data på din plats.
+    <string name="privacy_prompt_traffic_adjust_message">"Efter att du börjat kalibrera kommer MIUI att ansluta till nätverket, kryptera din operatörs information, telefonnummer, IMEI och Mi-kontot och ladda upp dessa objekt till Mi servrar. Detta gör för att samla in operatörens mall för att kalibrera och se om det är möjligt att köpa data på din plats.
 
 Under tiden du kalibrerar kommer MIUI skicka ett meddelande till din operatör för att ta emot mallen för att kalibrera."</string>
     <string name="privacy_prompt_tc_sms_report_message">Ditt telefonnummer och operatörs detaljer kommer att krypteras och laddas upp till Mis servrar för att kunna uppdatera din dataanvändning.</string>
@@ -692,7 +685,6 @@ Under tiden du kalibrerar kommer MIUI skicka ett meddelande till din operatör f
     <string name="pref_roaming_setting_gategory">Inställningar</string>
     <string name="pref_allow_connect_network_title">Data roaming</string>
     <string name="pref_whitelist_setting">Data roaming undantag</string>
-    <string name="firewall_rule_group_title_roaming">Data roaming</string>
     <string name="dialog_roaming_title">Tillåt data roaming?</string>
     <string name="dialog_roaming_message">Din operatör kan komma att debitera ytterligare avgifter när roaming är på.</string>
     <string name="add_to_whitelist_button">Data roaming undantag</string>
@@ -706,7 +698,6 @@ Under tiden du kalibrerar kommer MIUI skicka ett meddelande till din operatör f
     <string name="add_miservice_dialog_content">%s kräver att du lägger till MIUI service ramverk till undantagslistan. Du kan få notifikationer från MIUIs inbyggda appar och andra tredjepartsappar.</string>
     <string name="pref_roaming_daily_limit_setting_cat_title">Daglig datagräns</string>
     <string name="pref_roaming_daily_limit_setting">Ange daglig gräns när roaming är på</string>
-    <string name="mian_page_primary_txt">Data roaming</string>
     <string name="hints_input_roaming_daily_limit">Ange gräns för dataanvändning</string>
     <string name="roaming_limit_notification_title">Daglig roaming data gräns nådd</string>
     <string name="roaming_limit_warning_notification_body">Tryck för att visa dataanvändning.</string>
@@ -744,9 +735,6 @@ Under tiden du kalibrerar kommer MIUI skicka ett meddelande till din operatör f
     <string name="btn_start_diagnostic">Testa nätverk</string>
     <string name="btn_stop_diagnostic">Avbryt</string>
     <string name="btn_finish_diagnostic">OK</string>
-    <string name="main_toolbar_internet_by_pc_brige">USB internet</string>
-    <string name="main_toolbar_internet_by_wifi">Wi-Fi</string>
-    <string name="main_toolbar_internet_by_mobiledata">Mobildata</string>
     <string name="connect_internet_by_usbshare">Delade internet över USB</string>
     <string name="connect_internet_by_mobiledata">Anslutning för mobildata</string>
     <string name="connect_internet_by_wifi">Wi-Fi</string>
@@ -754,7 +742,6 @@ Under tiden du kalibrerar kommer MIUI skicka ett meddelande till din operatör f
     <string name="enable_network">Aktivera nätverket först</string>
     <string name="disable_air_mode">Avaktivera flygplansläge först</string>
     <string name="repair">Reparera</string>
-    <string name="check_network_state">Testa nätverk</string>
     <string name="current_network_state_not_need_diagnose">Internetanslutningen är normal.</string>
     <string name="apn_exception_title">Kontrollera APN</string>
     <string name="apn_exception_summary">Testa operatörens accesspunkt (APN)</string>
@@ -868,7 +855,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="tc_diagnostic_operator_result">"&lt;font color='#CC0000'>Resultat: Fel operatör&lt;br/>&lt;br/>Ange operatör: &lt;xliff:g id=operator example=CMCC>%1$s&lt;/xliff:g>&lt;br/>Riktig operatör: &lt;xliff:g id=location example=UNICOM>%2$s&lt;/xliff:g>&lt;/font>"</string>
     <string name="tc_diagnostic_brand_result">"&lt;font color='#CC0000'>Resultat: Fel operatörsmärke&lt;br/>&lt;br/>Ange märke: &lt;xliff:g id=brand example=UNICOM 3G>%1$s&lt;/xliff:g>&lt;br/>Riktigt märke: &lt;xliff:g id=location example=UNICOM 4G>%2$s&lt;/xliff:g>&lt;/font>"</string>
     <string name="tc_diagnostic_result">"&lt;font color='#CC0000'>Resultat: Kunde inte slutföra diagnostiken&lt;br/>&lt;br/>Rapportera detta för att hjälpa MIUI att förbättra verktyget&lt;/font>"</string>
-    <string name="tc_diagnostic_success_result">"&lt;font color='#CC0000'>Resultat: Operatörens närverk och märke angivet&lt;br/>&lt;br/>Kunde inte slutföra justering:&lt;br/>1. Operatörens data kanske inte är pålitlig i början eller slutet av månaden.&lt;br/>2. Appen Säkerhet har inte uppdaterats.&lt;br/>&lt;br/>Rapportera detta för att hjälpa MIUI förbättra verktyget&lt;/font>"</string>
+    <string name="tc_diagnostic_success_result">"&lt;font color='#CC0000'>Resultat: Operatörens nätverk och märke är angivet&lt;br/>&lt;br/>Kunde inte slutföra justering:&lt;br/>1. Operatörens data kanske inte är pålitlig i början eller slutet av månaden.&lt;br/>2. Appen Säkerhet har inte uppdaterats.&lt;br/>&lt;br/>Rapportera detta för att hjälpa MIUI förbättra verktyget&lt;/font>"</string>
     <string name="tc_diagnostic_notification_title">Operatörsdiagnostik</string>
     <string name="tc_diagnostic_notification_summary">Kunde inte justera 5 gånger på raken. Tryck för att starta diagnostik.</string>
     <string name="tc_diagnostic_upload_success">Tack för din feedback!</string>
@@ -916,7 +903,6 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="status_bar_network_flow_exceed_content">Idag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp; | Överskridit dataabonnemang: &lt;font color=%2$s>%3$s&lt;/font></string>
     <string name="status_bar_network_flow_content">Idag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Återstår: %2$s</string>
     <string name="status_bar_network_flow_content_not_setting">Idag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Denna månad: %2$s</string>
-    <string name="status_bar_network_flow_today">Idag: %1$s</string>
     <string name="status_bar_network_flow_content_virtual_card">%1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;%2$s&amp;nbsp;&amp;nbsp;&amp;nbsp;</string>
     <string name="pref_key_tethering_setting">Sätt datagräns en gång</string>
     <string name="pref_key_tethering_title">Sätt datagräns en gång</string>
@@ -991,6 +977,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denna app kan sakta ner
 din enhet"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Avinstallera %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Avinstallera denna appen för att lösa problem med batterianvändningen.</string>
     <string name="om_ill_proc_type_wakelock_title">Denna appen blockerar strömsparläge och drar mycket batteri</string>
@@ -1035,7 +1022,7 @@ din enhet"</string>
     <string name="menu_item_force_stop">Tvinga avslutning</string>
     <string name="menu_item_uninstall">Avinstallera</string>
     <string name="menu_item_app_details">Detaljer</string>
-    <string name="details_subtitle">Användningsdetaljer</string>
+    <string name="details_subtitle">Usage details</string>
     <string name="packages_subtitle">Inkluderade paket</string>
     <string name="battery_desc_standby">Batteri använt när telefonen är inaktiv</string>
     <string name="battery_desc_radio">Batteri använt av radion</string>
@@ -1049,6 +1036,7 @@ din enhet"</string>
     <string name="usage_type_data_send">Mobildata skickad</string>
     <string name="usage_type_no_coverage">Tid utan signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="power_screen">Skärm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1109,7 +1097,7 @@ din enhet"</string>
     <string name="power_optimize_btn_text_fixed">Optimerad</string>
     <string name="power_optimize_loading">Laddar</string>
     <string name="prompt_input_time_illegal">Kan inte ange den här tiden, försök igen</string>
-    <string name="power_settings_saver_title">Strömsparare</string>
+    <string name="power_settings_saver_title">Batterisparare</string>
     <string name="quick_optimize_no_fix_issue_title">Kunde inte lösa batteriproblem</string>
     <string name="quick_optimize_no_fix_issue_subtitle">Kunde inte förlänga batteritiden</string>
     <string name="quick_optimize_no_issue_title">Kunde inte hitta några batteriproblem</string>
@@ -1133,7 +1121,7 @@ din enhet"</string>
     <string name="battery_estimate_usage_time_title">Användningstid</string>
     <string name="battery_estimate_charge_time_title">Laddningstid</string>
     <string name="battery_temperature_title">Temperatur</string>
-    <string name="battery_capacity_title">Batteri kapacitet</string>
+    <string name="battery_capacity_title">Batterikapacitet</string>
     <string name="battery_charge_full">Laddad</string>
     <string name="battery_charge_estimating">Beräknar…</string>
     <string name="battery_charging_prompt">Laddar</string>
@@ -1276,6 +1264,8 @@ din enhet"</string>
     <string name="power_center_list_item_auto_brightness">Justera skärmens ljusstyrka automatiskt</string>
     <string name="power_center_list_item_deep_save_title">Avancerade inställningar</string>
     <string name="power_center_list_item_battery_status_time">h</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
     <string name="power_center_stop_scan_title">Avbryt skanning</string>
     <string name="hide_mode_result_summary_text">Anpassa Batterispararens inställningar för enskilda appar</string>
     <string name="auto_task_result_summary_text">Konfigurera automatiska uppgifter för Batterispararen</string>
@@ -1435,11 +1425,13 @@ din enhet"</string>
     <string name="menu_text_optimize_manage">Öka hastigheten</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_summary_networkassistants">Hantera ditt dataabonnemang</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Överskred datagränsen</string>
     <string name="menu_summary_networkassistants_3">Tillräckligt med mobildata återstår</string>
     <string name="menu_summary_networkassistants_4">Håller på att få slut på mobildata</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1452,12 +1444,14 @@ din enhet"</string>
     <string name="menu_summary_garbage_cleanup">Inga skräpfiler hittades</string>
     <string name="menu_summary_garbage_cleanup_2">Skräpstorlek</string>
     <string name="menu_summary_garbage_cleanup_3">Rensa skräp nu</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Batterianvändning</string>
     <string name="menu_summary_power_manager">Batterispararen ger mer tid mellan laddningarna</string>
     <string name="menu_summary_power_manager_1">Batteriet är fulladdat</string>
     <string name="menu_summary_power_manager_2">%såterstår</string>
     <string name="menu_summary_power_manager_3">Anslut laddare</string>
     <string name="menu_summary_power_manager_4">%still fulladdad</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Föregående skanning avbröts</string>
     <string name="examination_score_100">Allt ser bra ut!</string>
     <string name="examination_score_80_100">Några objekt kan optimeras</string>
@@ -1625,7 +1619,7 @@ din enhet"</string>
     <string name="monitor_requests_from_pc">Hantera installation av appar via USB</string>
     <string name="app_install_intercept">Blockera installation</string>
     <string name="pc_to_phone_install">Blockerade installation av %s via USB</string>
-    <string name="recently_reject_message_one">Avvisade %1$s installations förfrågningar</string>
+    <string name="recently_reject_message_one">Avvisade %1$s installationsbegäran</string>
     <string name="recently_reject_message">Avvisade installation av %1$s och %2$d andra appar</string>
     <string name="delete_from_manual_item_white_list">Ta bort från undantag</string>
     <string name="button_text_ignore">Ignorera</string>
@@ -1636,7 +1630,7 @@ din enhet"</string>
     <string name="title_cloud_service">Mi Cloud</string>
     <string name="summary_cloud_service">Synkronisera dina foton, kontakter, och mer över alla dina enheter</string>
     <string name="title_network_switch">Nätverksanslutning</string>
-    <string name="summary_network_switch">Tillåt Säkerhetsappen att ansluta till internet</string>
+    <string name="summary_network_switch">Tillåt appen Säkerhet att ansluta till internet</string>
     <string name="title_power_optimizer">Batterisparare</string>
     <string name="summary_power_optimizer">Minska din enhets prestanda när batteriet är lågt</string>
     <string name="title_data_flow_monitor">Övervakning av datatrafik är aktiverad</string>
@@ -1751,7 +1745,7 @@ din enhet"</string>
     <string name="antivirus_not_wlan">Din enhet är inte ansluten till Wi-Fi. Att använda mobildata kan generera ytterligare kostnader. Fortsätt ändå?</string>
     <string name="antivirus_longtime_no_update">Dina virusdefinitioner är inaktuella. Kontinuerliga uppdateringar hjälper att förbättra resultatet för virusskanningen. Tillåt Säkerhet att ansluta till Internet och uppdatera virusdefinitioner?</string>
     <string name="antivirus_longtime_no_update1">Dina virusdefinitioner är inaktuella. Kontinuerliga uppdateringar hjälper att förbättra resultatet för virusskanningen. Uppdatera virusdefinitioner och försök igen.</string>
-    <string name="antivirus_sec_network_unavailable">Säkerhetsappen kan inte uppdateras eftersom du har begränsat internetuppkopplingen. Tillåt Säkerhetsappen att ansluta till Internet?</string>
+    <string name="antivirus_sec_network_unavailable">Appen Säkerhet kan inte uppdateras eftersom du har begränsat internetuppkopplingen. Tillåt appen Säkerhet att ansluta till Internet?</string>
     <string name="antivirus_update_btn_contiue">Fortsätta</string>
     <string name="antivirus_update_btn_open">Tillåt</string>
     <string name="antivirus_update_btn_update">Uppdatera</string>
@@ -1831,6 +1825,7 @@ din enhet"</string>
     <string name="card_main_deepclean_wechat_action">Rensa</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1872,7 +1867,7 @@ din enhet"</string>
     <string name="ac_notification_contentTitle">Skydda appar med Applås</string>
     <string name="ac_pre_notification_contentTitle">Prova Applås</string>
     <string name="ac_post_notification_contentTitle">Aktivera Applås</string>
-    <string name="midrop_post_notification_contentTitle">Behöver du överföra filer?</string>
+    <string name="midrop_post_notification_contentTitle">Need to share files?</string>
     <string name="notification_masked_item">Dölj notifikationer</string>
     <string name="lock_mode_title">Låsinställningar</string>
     <string name="after_the_lock_screen">Lås appar tillsammans med skärmen</string>
@@ -1882,7 +1877,7 @@ din enhet"</string>
     <string name="ac_notification_contentText">Tryck för att aktivera</string>
     <string name="ac_pre_notification_contentText">Skydda din personliga information</string>
     <string name="ac_post_notification_contentText">Få skydd på systemnivå</string>
-    <string name="midrop_post_notification_contentText">Testa Mi Drop. Det är snabbt och reklamfritt.</string>
+    <string name="midrop_post_notification_contentText">Transfer files at speeds up to 50 Mbps in Mi Drop.</string>
     <string name="notification_masked_subtitle">Dölj notifikationer från appar med Applås</string>
     <string name="ac_enter_applock">Gå in i Applås</string>
     <string name="ac_mask_all_apps">Dölj för alla appar</string>
@@ -1918,7 +1913,7 @@ din enhet"</string>
     <string name="passwordIncorrect">Användarnamn eller lösenord är felaktiga</string>
     <string name="access_control_app_is_launching">Appen startar</string>
     <string name="access_control_need_to_unlock_nofingerprint">Ange App lås lösenord</string>
-    <string name="access_control_failed_need_to_unlock_nofingerprint">Ange ett lösenord innan du låser upp med ett nytt figneravtryck</string>
+    <string name="access_control_failed_need_to_unlock_nofingerprint">Ange ett lösenord innan du låser upp med ett nytt fingeravtryck</string>
     <string name="access_control_fingerprint_not_identified_msg">Kunde inte läsa fingeravtryck.</string>
     <string name="access_control_need_password">"%s tillagd
 "</string>
@@ -1957,7 +1952,7 @@ din enhet"</string>
     <string name="finger_remind_message">Lägg till ditt fingeravtryck först. Tryck för att öppna Inställningar.</string>
     <string name="fingerprint_not_remind">Fråga inte igen</string>
     <string name="fingerprint_verify_succeed">Fingeravtryck verifierat</string>
-    <string name="fingerprint_verify_failed">Kunde inte verifiera fingeravtryck</string>
+    <string name="fingerprint_verify_failed">Det gick inte att tyda fingeravtrycket</string>
     <string name="fingerprint_verify_try_agin">Det gick inte att läsa fingeravtryck, försök igen</string>
     <string name="cancal_to_setting_fingerprint">Avbryt</string>
     <string name="go_to_setting_fingerprint">Inställningar</string>
@@ -2134,7 +2129,7 @@ din enhet"</string>
     <string name="app_managere_not_have_app">Tom</string>
     <string name="app_manager_pref_ads">Rekommendationer</string>
     <string name="install">Installera</string>
-    <string name="app_manager_app_info_label">Appinformation</string>
+    <string name="app_manager_app_info_label">Information om appen</string>
     <string name="app_manager_app_info_name">Namn på app</string>
     <string name="app_manager_app_ifno_version">Appversion</string>
     <string name="app_manager_app_info_pkg">APK namn</string>
@@ -2369,8 +2364,8 @@ din enhet"</string>
     <string name="gamebox_type_gesture">Svep för att visa</string>
     <string name="gb_first_window_title">Speloptimering</string>
     <string name="gb_first_window_summary">Förbättra hastighet och prestanda på systemnivå</string>
-    <string name="gb_first_window_gamebox_summary_four">Använd snabbsvar, gör skärminspelningar och skärmdumpar</string>
-    <string name="gb_first_window_gamebox_summary_six">Rensa cache, gör skärminspelningar och skärmdumpar</string>
+    <string name="gb_first_window_gamebox_summary_four">Rensa cache, gör skärminspelningar och ta skärmdumpar</string>
+    <string name="gb_first_window_gamebox_summary_six">Använd snabbsvar, gör skärminspelningar och ta skärmdumpar</string>
     <string name="gb_first_window_handsfree_title">Samtal via hands-free</string>
     <string name="gb_first_window_handsfree_summary">Aktivera högtalare automatiskt</string>
     <string name="gb_first_window_antimsg_title">Intelligenta notifikationer</string>
@@ -2380,6 +2375,7 @@ din enhet"</string>
     <string name="gb_create_icon_summary">Skapa genväg på Hemskärmen</string>
     <string name="title_reply">Kommentera</string>
     <string name="title_like">Gilla</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Mobildata</string>
     <string name="game_wid_viewpoint_buttom">Ta en kort paus.</string>
     <string name="video_repeat">Spela igen</string>
@@ -2435,9 +2431,9 @@ Denna funktion stöds inte för systemappar."</string>
     <string name="first_aid_card_unable_install_summary">Endast %s av lagringsutrymmet är tillgängligt. Frigör utrymme för att installera appar.</string>
     <string name="first_aid_card_unable_install_button">Frigör utrymme</string>
     <string name="first_aid_result_summary_normal">Allt ser bra ut!</string>
-    <string name="first_aid_result_summary_not_finished">Skanningen slutförded inte. Vissa risker kan finnas kvar.</string>
+    <string name="first_aid_result_summary_not_finished">Skanningen slutfördes inte. Vissa risker kan finnas kvar.</string>
     <string name="first_aid_result_feedback_title">Feedback</string>
-    <string name="first_aid_result_feedback_summary">"First aid scan couldn't find any problems. However, I spotted some."</string>
+    <string name="first_aid_result_feedback_summary">Första hjälpen skanning kunde inte hitta några problem. Men jag upptäckte några.</string>
     <string name="first_aid_result_feedback_button">Skicka in</string>
     <string name="first_aid_card_kadun_title">Enheten blir långsam</string>
     <string name="first_aid_card_kadun_summary1">Frigör lagringsutrymme så din enhet kan fungera normalt.</string>
@@ -2448,8 +2444,8 @@ Denna funktion stöds inte för systemappar."</string>
     <string name="first_aid_card_kadun_button3">Avaktivera</string>
     <string name="first_aid_dialog_title_stop_scan">Avbryt skanning</string>
     <string name="first_aid_dialog_msg_stop_scan">Avbryt skanning nu?</string>
-    <string name="device_manager_apply_step_1">Activate device administrator for this app?</string>
-    <string name="device_manager_apply_step_2">"Activating device administrator for this app might lead to the exposure of your personal data.
-All data on your device might be erased and your Lock screen password might be reset."</string>
-    <string name="device_manager_apply_step_3">Make sure you understand all the possible risks before you proceed. Activate device administrator for this app now?</string>
+    <string name="device_manager_apply_step_1">Aktivera enhetsadministratör för den här appen?</string>
+    <string name="device_manager_apply_step_2">"Aktivering av enhetsadministratör för den här appen kan leda till exponering av dina personuppgifter.
+All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nollställs."</string>
+    <string name="device_manager_apply_step_3">Se till att du förstår alla möjliga risker innan du fortsätter. Aktivera enhetsadministratör för den här appen nu?</string>
 </resources>

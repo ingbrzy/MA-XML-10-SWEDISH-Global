@@ -7,7 +7,7 @@
     <string name="presentation_unknown">Okänt nummer</string>
     <string name="yellow_page_module_sms_sent">SMS skickat</string>
     <string name="yellow_page_sms_disabled_in_privacy_mode">Kan inte skicka meddelanden i Gästläge</string>
-    <string name="yellow_page_sms_send_failed">Kunde inte skicka MMS</string>
+    <string name="yellow_page_sms_send_failed">Det gick inte att skicka SMS</string>
     <string name="yellow_page_sms_sending">Skickar…</string>
     <string name="yellow_page_unable_send_sms">Kan inte skicka SMS</string>
     <string name="device_hongmi">Redmi</string>

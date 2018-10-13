@@ -118,7 +118,7 @@ Vissa Dubbelappar kräver support för Google Services Framework. I de fallen sk
     <string name="notificationSummary">Byt mellan utrymmena från Notifikationspanelen</string>
     <string name="otherSettings">Andra inställningar</string>
     <string name="privacyContactsTitle">Privata meddelanden och kontakter</string>
-    <string name="privacyContactsSummary">Visa privata object i Sekundära utrymmet</string>
+    <string name="privacyContactsSummary">Visa privata objekt i Sekundära utrymmet</string>
     <string name="switchDataSummary">Flytta objekt mellan utrymmena</string>
     <string name="serNameSummary">Sekundära utrymmet</string>
     <string name="closeSecondSpaceSummary">Ta bort Sekundära utrymmet med all data</string>
@@ -138,7 +138,7 @@ Vissa Dubbelappar kräver support för Google Services Framework. I de fallen sk
     <string name="transferContact">Kontakter från det sekundära utrymmet kommer flyttas till det primära</string>
     <string name="transferMessage">Meddelanden från det sekundära utrymmet kommer flyttas till det primära</string>
     <string name="transferImage">Foton från det sekundära utrymmet kommer flyttas till ett \"Sekundärt utrymme\" album i det primära utrymmet</string>
-    <string name="transferApp">Appar installerade i det sekundära utrymmet kommer flyttas till det pimära utrymmet. All appdata kommer försvinna.</string>
+    <string name="transferApp">Appar installerade i det Sekundära utrymmet kommer flyttas till det Primära utrymmet. All appdata kommer försvinna.</string>
     <string name="transferFile">Välj andra filer manuellt</string>
     <string name="continueButton">Fortsätt</string>
     <string name="removingSpace">Tar bort…</string>
@@ -202,7 +202,7 @@ läggs funktionen till i Sekundära utrymmet automatiskt."</string>
     <string name="setting_is_show_text_contacts">Ställ in privata kontakter och meddelanden</string>
     <string name="switch_data_app">Flytta objekt till sekundärt utrymme</string>
     <string name="guide_pwd_detail_title">"Skydda din data
-Ange sekundärt utrymme från låsskärm"</string>
+Gå till Sekundära utrymmet från Låsskärmen"</string>
     <string name="temporary_no_set">Inte nu</string>
     <string name="set_space_pwd_suc">Lagt till lösenord för sekundärt utrymme</string>
     <string name="set_space_pwd_detail">Du kommer åt sekundärt utrymme genom att ange lösenord</string>
@@ -226,7 +226,7 @@ Du kan även ladda ner dem separat."</string>
     <string name="import_file_suc">Objekt importerade till mappar</string>
     <string name="show_private_content">Visa privata objekt</string>
     <string name="show_normal_content">Visa inte privata objekt</string>
-    <string name="guide_contact_title_desc">Visa privata object i Sekundära utrymmet?</string>
+    <string name="guide_contact_title_desc">Visa privata objekt i Sekundära utrymmet?</string>
     <string name="guide_contact_sub_title_desc">"Kontakter som lagts till i sekundära utrymmet blir privata.
 Meddelande visas endast i sekundära utrymmet."</string>
     <string name="guide_contact_suc_title_desc">Nu ställt</string>
@@ -257,7 +257,7 @@ för att kunna se dem när som helst"</string>
     <string name="please_diff_finger_print">"Se till att olika fingeravtryck är registrerade för det Primära och Sekundära utrymmet.
 Annars kommer du inte kunna logga in på det sekundära utrymmet."</string>
     <string name="start_input_finger_print">Lägg till fingeravtryck</string>
-    <string name="need_set_second_space_pwd_first">Ange först ett Second space lösenord</string>
+    <string name="need_set_second_space_pwd_first">Ange först ett lösenord för det Sekundära utrymmet</string>
     <string name="need_set_second_space_desc">Ange ett lösenord för Sekundärt utrymme innan du lägger till ett fingeravtryck</string>
     <string name="setting_fingerprint_title">Lagt till lösenord för sekundärt utrymme</string>
     <string name="start_new_fingerprint">Lägg till ett nytt fingeravtryck</string>
@@ -278,7 +278,7 @@ för att logga in från Låsskärmen"</string>
     <string name="fingerprint_number_upper_limit">För många misslyckade upplåsningsförsök</string>
     <string name="delete_fingerprint_desc">Sekundära utrymmets fingeravtryck kommer tas bort tillsammans med lösenordet</string>
     <string name="fingerprint_removal_failed">Kunde inte radera fingeravtryck</string>
-    <string name="notification_recommend_title">Top 12 appar för Sekundära utrymmet</string>
+    <string name="notification_recommend_title">12 rekommenderade appar för Sekundära utrymmet</string>
     <string name="scanner_fingerprint">Skannar fingeravtryck…</string>
     <string name="scanner_fingerprint_enter_second">"Skanna Sekundära utrymmets fingeravtryck
  för att gå till Sekundära utrymmet från Låsskärmen"</string>

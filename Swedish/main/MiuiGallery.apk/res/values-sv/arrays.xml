@@ -29,4 +29,9 @@
         <item>Morfar</item>
         <item>Mormor</item>
     </string-array>
+    <string-array name="menu_copy_or_move">
+        <item>Flytta</item>
+        <item>Kopiera</item>
+        <item>@string/cancel</item>
+    </string-array>
 </resources>

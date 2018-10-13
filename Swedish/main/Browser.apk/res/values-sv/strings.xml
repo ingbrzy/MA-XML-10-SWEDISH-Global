@@ -25,6 +25,7 @@
     <string name="s5">Skapa kalenderhändelse</string>
     <string name="s6">Tillåter du att annonsen skapar en kalenderhändelse?</string>
     <string name="s7">Testannons</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="abc_action_bar_home_description">Gå till startsidan</string>
     <string name="abc_action_bar_up_description">Gå upp</string>
     <string name="abc_action_menu_overflow_description">Mer</string>
@@ -296,6 +297,7 @@ Sidor som du ser kommer inte med i historik."</string>
     <string name="exit">Avsluta</string>
     <string name="exit_browser_warning">Stäng webbläsaren nu?</string>
     <string name="exit_fullscreen">Avsluta helskärmsläge</string>
+    <string name="external_app_restricted_access_error">Mi webbläsaren inte kan komma åt detta objekt.</string>
     <string name="fast_search_title">Snabbsökning</string>
     <string name="file_dir">Ändra mapp</string>
     <string name="file_name">"Namn: "</string>
@@ -485,7 +487,7 @@ Sidor som du ser kommer inte med i historik."</string>
     <string name="mw_http_post_warning_resend">lFortsätt</string>
     <string name="mw_js_dialog_before_unload">"%s
 
-Navigera bort från den här sidan?"</string>
+Hämta den här sidan nu?"</string>
     <string name="mw_js_dialog_before_unload_negative_button">Stanna på denna sida</string>
     <string name="mw_js_dialog_before_unload_positive_button">Lämna denna sida</string>
     <string name="mw_js_dialog_before_unload_title">Bekräfta Navigering</string>
@@ -725,6 +727,8 @@ Navigera bort från den här sidan?"</string>
     <string name="mw_snippets_disabled_generic_prompt">Få personligt innehåll</string>
     <string name="mw_snippets_disabled_signed_out_instructions">För att få personligt innehåll som Google föreslår, logga in på Chrome.</string>
     <string name="mw_time_picker_dialog_am">AM</string>
+    <string name="mw_time_picker_dialog_hour_minute_separator">:</string>
+    <string name="mw_time_picker_dialog_minute_second_separator">:</string>
     <string name="mw_time_picker_dialog_pm">PM</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator">.</string>
     <string name="mw_time_picker_dialog_title">inställd tid</string>
@@ -1169,6 +1173,8 @@ Navigera bort från den här sidan?"</string>
     <string name="voice_title_listening">Lyssnar…</string>
     <string name="voice_title_please">Börja tala…</string>
     <string name="voice_title_speech_again">Kunde inte förstå dig</string>
+    <string name="vote_already">Du har redan röstat</string>
+    <string name="vote_fail">Kunde inte rösta, försök igen senare</string>
     <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_location_confirm_message">Stängs denna funktion av kan användandet påverkas.</string>
     <string name="weather_publish_time">Uppdaterad %1$s</string>
@@ -1212,7 +1218,6 @@ Navigera bort från den här sidan?"</string>
     <string name="date_picker_dialog_set">Ange</string>
     <string name="date_picker_dialog_title">Ange datum</string>
     <string name="date_time_picker_dialog_title">Ange datum och tid</string>
-    <string name="external_app_restricted_access_error">Mi webbläsare har inte tillgång till den begärda resursen.</string>
     <string name="find_next">Hitta nästa</string>
     <string name="find_previous">Hitta föregående</string>
     <string name="js_dialog_before_unload">"%s

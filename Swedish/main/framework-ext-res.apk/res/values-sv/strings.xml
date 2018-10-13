@@ -89,7 +89,7 @@
     <string name="screenshot_gesture_detect_alert_button">Aktivera i Inställningar</string>
     <string name="screenshot_gesture_detect_alert_dont_again">Visa inte igen</string>
     <string name="permlab_manageLocationPolicy">Platsåtkomst</string>
-    <string name="permdesc_manageLocationPolicy">Tillåt app att hantera plants policys och definera app specifika regler.</string>
+    <string name="permdesc_manageLocationPolicy">Tillåter appen att hantera platspolicys och definiera appspecifika regler.</string>
     <string name="location_usage_restricted_title">Bakgrundsplats begränsad</string>
     <string name="location_usage_restricted_body">Tryck för att tillåta.</string>
     <string name="fc_dialog_body">Skicka felrapporten till Mi för analys? Denna rapport kan innehålla personligt identifierbar information. Din rapport kommer att användas för att hjälpa till att åtgärda det här felet och kommer aldrig att delas i något kommersiellt sammanhang.</string>
@@ -131,6 +131,7 @@
     <string name="security_permission_xiaomi_account_missed_text">Fyll i ditt Mi-konto ID</string>
     <string name="security_permission_validate_warning">Tack för att du hjälper göra MIUI bättre!</string>
     <string name="security_permission_wifi_and_data_opened_text">Wi-Fi och mobildata påslagna</string>
+    <string name="security_permission_network_failed_text">Det gick inte ansluta till nätverket. Kontrollera dina inställningar och försök igen.</string>
     <string name="xspace_resolver_activity_title">Välj app</string>
     <string name="user_switching_dialog_text">Byter…</string>
     <string name="activity_package_delete_confirm_title">Uppmärksamma</string>
@@ -180,4 +181,6 @@
     <string name="miui_warning_button_ok">OK</string>
     <string name="miui_warning_button_cancel">Avbryt</string>
     <string name="miui_warning_tip_info">Ett fel inträffade i %1$s. Avsluta appen nu?</string>
+    <string name="talk_back_water_mark_string1">Talkback är aktiverad</string>
+    <string name="talk_back_water_mark_string2">Tryck och håll \"Volym+\" och \"Volym-\" i 3 sekunder för att avaktivera</string>
 </resources>

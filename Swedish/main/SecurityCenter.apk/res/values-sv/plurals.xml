@@ -241,12 +241,12 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="one">%d dag sedan den senaste kollen</item>
     </plurals>
     <plurals name="hints_handle_item_text_risk_number">
-        <item quantity="other">%d risker,</item>
+        <item quantity="other">%d risks,</item>
         <item quantity="one">%d risk,</item>
     </plurals>
     <plurals name="hints_handle_item_text_virus_number">
-        <item quantity="other">%d trojaner,</item>
-        <item quantity="one">%d trojan,</item>
+        <item quantity="other">%d trojans</item>
+        <item quantity="one">%d trojan</item>
     </plurals>
     <plurals name="white_list_risk_app_header">
         <item quantity="other">Farliga appar: %d</item>
