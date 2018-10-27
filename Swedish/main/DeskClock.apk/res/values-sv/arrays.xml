@@ -70,7 +70,6 @@
         <item>Harare</item>
         <item>Johannesburg</item>
         <item>Kampala</item>
-        <item>Khartoum</item>
         <item>Kigali</item>
         <item>Kinshasa</item>
         <item>Lagos</item>
@@ -83,9 +82,8 @@
         <item>Tunis</item>
         <item>Anchorage</item>
         <item>Mendoza</item>
-        <item>Aruba</item>
         <item>Asunción</item>
-        <item>Barbados</item>
+        <item>Bridgetown</item>
         <item>Belize</item>
         <item>Bogotá</item>
         <item>Buenos Aires</item>
@@ -93,26 +91,25 @@
         <item>Caracas</item>
         <item>George Town</item>
         <item>Chicago</item>
-        <item>Costa Rica</item>
-        <item>Curaçao</item>
+        <item>San José</item>
+        <item>Willemstad</item>
         <item>Dawson Creek</item>
         <item>Denver</item>
         <item>Detroit</item>
-        <item>Dominica</item>
+        <item>Santo Domingo</item>
         <item>Edmonton</item>
         <item>El Salvador</item>
         <item>Fortaleza</item>
-        <item>Grand Turk</item>
-        <item>Grenada</item>
+        <item>St. Geroges</item>
         <item>Guatemala</item>
-        <item>Guyana</item>
+        <item>Georgetown</item>
         <item>Halifax</item>
         <item>Havanna</item>
         <item>Indianapolis</item>
         <item>Knox</item>
         <item>Marengo</item>
         <item>Petersburg</item>
-        <item>Berätta för City</item>
+        <item>Tell City</item>
         <item>Vevay</item>
         <item>Vincennes</item>
         <item>Winamac</item>
@@ -122,7 +119,7 @@
         <item>Los Angeles</item>
         <item>Louisville</item>
         <item>Managua</item>
-        <item>Martinique</item>
+        <item>Fort-de-France</item>
         <item>Metlakatla</item>
         <item>Mexico City</item>
         <item>Monterrey</item>
@@ -137,25 +134,22 @@
         <item>Phoenix</item>
         <item>Port of Spain</item>
         <item>Port-au-Prince</item>
-        <item>Puerto Rico</item>
-        <item>Santo Domingo</item>
         <item>São Paulo</item>
         <item>St. Johns</item>
         <item>St. Kitts</item>
-        <item>St. Lucia</item>
+        <item>Castries</item>
         <item>St. Thomas</item>
         <item>Tijuana</item>
         <item>Toronto</item>
         <item>Vancouver</item>
         <item>Winnipeg</item>
-        <item>Sydpolen</item>
         <item>Longyearbyen</item>
         <item>Almaty</item>
         <item>Amman</item>
         <item>Anadyr</item>
         <item>Aktau</item>
-        <item>Baghdad</item>
-        <item>Bahrain</item>
+        <item>Bagdad</item>
+        <item>Manama</item>
         <item>Baku</item>
         <item>Bangkok</item>
         <item>Beirut</item>
@@ -165,44 +159,43 @@
         <item>Dubai</item>
         <item>Gaza</item>
         <item>Hebron</item>
-        <item>Ho Chi Minh</item>
+        <item>Ho Chi Minh-staden</item>
         <item>Hong Kong</item>
         <item>Jakarta</item>
         <item>Jerusalem</item>
         <item>Kabul</item>
         <item>Karachi</item>
-        <item>Katmandu</item>
-        <item>Singapore</item>
+        <item>Kathmandu</item>
+        <item>Kuala Lumpur</item>
         <item>Kuwait</item>
         <item>Macau</item>
         <item>Manila</item>
         <item>Muscat</item>
         <item>Phnom Penh</item>
         <item>Pyongyang</item>
-        <item>Qatar</item>
+        <item>Doha</item>
         <item>Rangoon</item>
         <item>Riyadh</item>
-        <item>Ho Chi Minh-staden</item>
         <item>Perth</item>
         <item>Shanghai</item>
         <item>Singapore</item>
-        <item>Kuala Lumpur</item>
+        <item>Taipei</item>
         <item>Teheran</item>
         <item>Tel Aviv</item>
         <item>Tokyo</item>
         <item>Ulaanbaatar</item>
-        <item>Bermuda</item>
+        <item>Hamilton</item>
         <item>Kanarieöarna</item>
-        <item>Kap Verde</item>
+        <item>Praia</item>
         <item>Reykjavik</item>
         <item>Stanley</item>
-        <item>Tokyo, Osaka</item>
         <item>Adelaide</item>
+        <item>Brisbane</item>
         <item>Canberra</item>
-        <item>Yakutsk</item>
+        <item>Darwin</item>
         <item>Melbourne</item>
-        <item>Nya Sydwales</item>
-        <item>Irkutsk</item>
+        <item>New South Wales</item>
+        <item>Perth</item>
         <item>Queensland</item>
         <item>Sydney</item>
         <item>Victoria</item>
@@ -210,27 +203,27 @@
         <item>Saskatchewan</item>
         <item>Easter Island</item>
         <item>Amsterdam</item>
-        <item>Andorra</item>
-        <item>Athens</item>
+        <item>Andorra la Vella</item>
+        <item>Aten</item>
         <item>Belfast</item>
         <item>Belgrad</item>
         <item>Berlin</item>
         <item>Bratislava</item>
         <item>Bryssel</item>
-        <item>Bucharest</item>
+        <item>Bukarest</item>
         <item>Budapest</item>
         <item>Chisinau</item>
-        <item>Copenhagen</item>
+        <item>Köpenhamn</item>
         <item>Dublin</item>
         <item>Gibraltar</item>
         <item>Helsingfors</item>
         <item>Isle of Man</item>
         <item>Istanbul</item>
-        <item>Lisabon</item>
+        <item>Lissabon</item>
         <item>London</item>
         <item>Luxemburg</item>
         <item>Madrid</item>
-        <item>Malta</item>
+        <item>Valletta</item>
         <item>Minsk</item>
         <item>Monaco</item>
         <item>Moskva</item>
@@ -253,17 +246,14 @@
         <item>Zagreb</item>
         <item>Zurich</item>
         <item>Antananarivo</item>
-        <item>Maldiverna</item>
-        <item>Mauritius</item>
+        <item>Malé</item>
+        <item>Port Louis</item>
+        <item>Auckland</item>
+        <item>Suva</item>
         <item>Guam</item>
-        <item>Magadan</item>
-        <item>Sydney, Canberra</item>
         <item>Honolulu</item>
-        <item>Kiritimati</item>
         <item>Noumea</item>
-        <item>Samoa</item>
         <item>Tahiti</item>
-        <item>Antigua</item>
         <item>Austin</item>
         <item>Boston</item>
         <item>Calgary</item>
@@ -279,7 +269,7 @@
         <item>San Diego</item>
         <item>San Francisco</item>
         <item>Salt Lake City</item>
-        <item>San Jose</item>
+        <item>San José</item>
         <item>San Salvador</item>
         <item>Seattle</item>
         <item>St. Louis</item>
@@ -313,14 +303,14 @@
         <item>Lahore</item>
         <item>"Sana'a"</item>
         <item>Barcelona</item>
-        <item>Munich</item>
+        <item>München</item>
         <item>Milan</item>
         <item>Frankfurt</item>
         <item>Hanoi</item>
         <item>Ankara</item>
         <item>Bangalore</item>
         <item>Brasília</item>
-        <item>Cape Town</item>
+        <item>Kapstaden</item>
         <item>Islamabad</item>
         <item>Rio de Janeiro</item>
         <item>Ann Arbor</item>
@@ -338,7 +328,7 @@
         <item>Chihuahua</item>
         <item>Gurgaon</item>
         <item>Manchester</item>
-        <item>Kyiv</item>
+        <item>Kiev</item>
         <item>St. Petersburg</item>
         <item>Kraków</item>
         <item>Wroclaw</item>
@@ -362,53 +352,50 @@
         <item>Guinea</item>
         <item>Senegal</item>
         <item>Tanzania</item>
-        <item>Republic of the Djibouti</item>
+        <item>Djibouti</item>
         <item>Sierra Leone</item>
         <item>Botswana</item>
         <item>Zimbabwe</item>
         <item>South Africa</item>
         <item>Uganda</item>
-        <item>Republic of the Sudan</item>
         <item>Rwanda</item>
-        <item>Democratic Republic of the Congo</item>
+        <item>Demokratiska republiken Kongo</item>
         <item>Nigeria</item>
         <item>Lesotho</item>
-        <item>Somalia</item>
+        <item>Somalien</item>
         <item>Kenya</item>
-        <item>Sao Tome and Principe</item>
+        <item>Sao Tome och Principe</item>
         <item>Mali</item>
-        <item>Libya</item>
-        <item>Tunisia</item>
-        <item>United States</item>
+        <item>Libyen</item>
+        <item>Tunisien</item>
+        <item>USA</item>
         <item>Argentina</item>
-        <item>Aruba</item>
         <item>Paraguay</item>
         <item>Barbados</item>
         <item>Belize</item>
         <item>Colombia</item>
         <item>Argentina</item>
-        <item>Mexiko</item>
+        <item>Mexico</item>
         <item>Venezuela</item>
         <item>Caymanöarna</item>
-        <item>Usa</item>
+        <item>USA</item>
         <item>Costa Rica</item>
         <item>Curaçao</item>
         <item>Kanada</item>
-        <item>Usa</item>
-        <item>Usa</item>
+        <item>USA</item>
+        <item>USA</item>
         <item>Dominikanska republiken</item>
         <item>Kanada</item>
         <item>El Salvador</item>
         <item>Brasilien</item>
-        <item>Turks och Caicosöarna</item>
         <item>Grenada</item>
         <item>Guatemala</item>
         <item>Guyana</item>
         <item>Kanada</item>
         <item>Kuba</item>
-        <item>Usa</item>
-        <item>Usa</item>
-        <item>Usa</item>
+        <item>USA</item>
+        <item>USA</item>
+        <item>USA</item>
         <item>Usa</item>
         <item>Usa</item>
         <item>Usa</item>
@@ -417,26 +404,24 @@
         <item>Jamaica</item>
         <item>Bolivia</item>
         <item>Peru</item>
-        <item>Usa</item>
-        <item>Usa</item>
+        <item>USA</item>
+        <item>USA</item>
         <item>Nicaragua</item>
         <item>Martinique</item>
         <item>Usa</item>
-        <item>Mexiko</item>
-        <item>Usa</item>
+        <item>Mexico</item>
+        <item>USA</item>
         <item>Uruguay</item>
         <item>Kanada</item>
         <item>Bahamas</item>
+        <item>USA</item>
+        <item>USA</item>
+        <item>USA</item>
         <item>Usa</item>
-        <item>Usa</item>
-        <item>Usa</item>
-        <item>United States</item>
         <item>Panama</item>
-        <item>United States</item>
+        <item>Usa</item>
         <item>Trinidad och Tobago</item>
         <item>Haiti</item>
-        <item>Puerto Rico</item>
-        <item>Dominikanska republiken</item>
         <item>Brasilien</item>
         <item>Kanada</item>
         <item>Saint Kitts och Nevis</item>
@@ -446,7 +431,6 @@
         <item>Kanada</item>
         <item>Kanada</item>
         <item>Kanada</item>
-        <item>Antarktis</item>
         <item>Svalbard och Jan Mayen</item>
         <item>Kazakstan</item>
         <item>Jordanien</item>
@@ -466,7 +450,7 @@
         <item>Vietnam</item>
         <item>Kina</item>
         <item>Indonesien</item>
-        <item>Israel</item>
+        <item></item>
         <item>Afghanistan</item>
         <item>Pakistan</item>
         <item>Nepal</item>
@@ -480,20 +464,19 @@
         <item>Qatar</item>
         <item>Myanmar</item>
         <item>Saudiarabien</item>
-        <item>Kina</item>
         <item>Sydkorea</item>
-        <item>Kina</item>
+        <item>China</item>
         <item>Singapore</item>
-        <item>Kina</item>
+        <item>China</item>
         <item>Iran</item>
         <item>Israel</item>
         <item>Japan</item>
-        <item>Mongolien</item>
+        <item>Mongoliet</item>
         <item>Bermuda</item>
         <item>Spanien</item>
         <item>Kap Verde</item>
         <item>Island</item>
-        <item>Falkland Öarna</item>
+        <item>Falklandsöarna</item>
         <item>Australia</item>
         <item>Australien</item>
         <item>Australien</item>
@@ -501,7 +484,7 @@
         <item>Australien</item>
         <item>Australien</item>
         <item>Australien</item>
-        <item>Australien</item>
+        <item>Australia</item>
         <item>Australien</item>
         <item>Kanada</item>
         <item>Kanada</item>
@@ -510,9 +493,9 @@
         <item>Nederländerna</item>
         <item>Andorra</item>
         <item>Grekland</item>
-        <item>Storbritannien</item>
+        <item>United Kingdom</item>
         <item>Serbien</item>
-        <item>Tyskland</item>
+        <item>Germany</item>
         <item>Slovakien</item>
         <item>Belgien</item>
         <item>Rumänien</item>
@@ -537,14 +520,14 @@
         <item>Tjeckien</item>
         <item>Lettland</item>
         <item>Italien</item>
-        <item>San Marino</item>
+        <item></item>
         <item>Bosnien-Hercegovina</item>
-        <item>Ukraina</item>
+        <item></item>
         <item>Makedonien</item>
         <item>Bulgarien</item>
         <item>Sverige</item>
         <item>Estland</item>
-        <item>Vatikanstaten</item>
+        <item></item>
         <item>Österrike</item>
         <item>Litauen</item>
         <item>Polen</item>
@@ -554,32 +537,39 @@
         <item>Maldiverna</item>
         <item>Mauritius</item>
         <item>Nya Zeeland</item>
-        <item>Magadan</item>
-        <item>Sydney, Canberra</item>
-        <item>United States</item>
-        <item>Australien</item>
+        <item>Fiji</item>
+        <item>Guam</item>
+        <item>Usa</item>
         <item>Nya Kaledonien</item>
-        <item>Samoa</item>
         <item>Franska Polynesien</item>
-        <item>Antigua och Barbuda</item>
-        <item>United States</item>
-        <item>United States</item>
+        <item>Usa</item>
+        <item>Usa</item>
+        <item>Kanada</item>
+        <item>USA</item>
+        <item>Usa</item>
+        <item>USA</item>
+        <item>USA</item>
+        <item>USA</item>
+        <item>USA</item>
         <item>Kanada</item>
         <item>United States</item>
-        <item>United States</item>
-        <item>United States</item>
-        <item>United States</item>
-        <item>United States</item>
-        <item>United States</item>
-        <item>Kanada</item>
-        <item>United States</item>
-        <item>United States</item>
-        <item>United States</item>
+        <item>Usa</item>
+        <item>USA</item>
         <item>United States</item>
         <item>United States</item>
         <item>United States</item>
         <item>El Salvador</item>
         <item>United States</item>
+        <item>Usa</item>
+        <item>USA</item>
+        <item>United States</item>
+        <item>United States</item>
+        <item>United States</item>
+        <item>United States</item>
+        <item>United States</item>
+        <item>United States</item>
+        <item>USA</item>
+        <item>United States</item>
         <item>United States</item>
         <item>Usa</item>
         <item>Usa</item>
@@ -588,22 +578,12 @@
         <item>United States</item>
         <item>United States</item>
         <item>United States</item>
-        <item>Usa</item>
-        <item>Usa</item>
-        <item>Usa</item>
-        <item>Usa</item>
-        <item>Usa</item>
-        <item>Usa</item>
-        <item>Usa</item>
-        <item>Usa</item>
-        <item>Usa</item>
-        <item>Usa</item>
         <item>Usa</item>
         <item>Usa</item>
         <item>Usa</item>
         <item>Usa</item>
         <item>Qatar</item>
-        <item>Kina</item>
+        <item>China</item>
         <item>Indien</item>
         <item>Indien</item>
         <item>Indien</item>
@@ -613,33 +593,33 @@
         <item>Spanien</item>
         <item>Germany</item>
         <item>Italien</item>
-        <item>Germany</item>
+        <item>Tyskland</item>
         <item>Vietnam</item>
         <item>Turkiet</item>
         <item>Indien</item>
         <item>Brasilien</item>
-        <item>Sydafrika</item>
+        <item>Sydpolen</item>
         <item>Pakistan</item>
         <item>Brasilien</item>
         <item>Usa</item>
         <item>Usa</item>
         <item>United Kingdom</item>
-        <item>United States</item>
+        <item>USA</item>
         <item>Usa</item>
-        <item>China</item>
+        <item>Kina</item>
         <item>Indien</item>
         <item>Usa</item>
         <item>Brasilien</item>
-        <item>Usa</item>
+        <item>USA</item>
         <item>Liberia</item>
         <item>Sri Lanka</item>
-        <item>Mexiko</item>
+        <item>Mexico</item>
         <item>Indien</item>
         <item>United Kingdom</item>
         <item>Ukraina</item>
         <item>Ryssland</item>
         <item>Polen</item>
-        <item>Polen</item>
+        <item>Germany</item>
         <item>Germany</item>
         <item>Finland</item>
         <item>Israel</item>

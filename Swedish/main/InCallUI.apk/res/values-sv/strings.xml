@@ -136,7 +136,7 @@
     <string name="call_recording_error_sd_access">Kan inte komma åt SD-kortet</string>
     <string name="call_recording_error_sd_unmounted">Stoppade inspelning. SD-kort borttaget.</string>
     <string name="call_recording_error_low_storage">Inte tillräckligt utrymme.</string>
-    <string name="call_recording_error_start_failed">Recorder används av en annan app.</string>
+    <string name="call_recording_error_start_failed">Diktafon används av en annan app.</string>
     <string name="call_recording_error_unknown">Ett okänt fel inträffade.</string>
     <string name="call_recording_notification_title">Samtal inspelat</string>
     <string name="call_recording_notification_title_error">Kunde inte spela in samtalet</string>

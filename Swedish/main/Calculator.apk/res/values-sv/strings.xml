@@ -62,6 +62,21 @@
     <string name="fund" />
     <string name="fund_loan">Finansiera lån</string>
     <string name="global_network_confirm_content">Valutaomvandlaren måste ansluta till internet för att fungera normalt.</string>
+    <string name="global_search_key_area_convertion">Område;Områdeskonverterare;Områdeskonvertering</string>
+    <string name="global_search_key_calculation">Beräkna; Kalkylator; Enhetskonvertering; Konverterare; Enhetsomvandlare</string>
+    <string name="global_search_key_date_convertion">Tidskonverterare;Tidsenheter;Tidskonvertering;Tid</string>
+    <string name="global_search_key_exchange_rate">Växelkurs; Växelkursomräkning; Valutaomvandlare; Valuta; Växelkurser</string>
+    <string name="global_search_key_length_convertion">Längd;Längdkonverterare;Längdkonvertering</string>
+    <string name="global_search_key_mortgage">Huslånsberäkning; Lånekalkyl; Huslån</string>
+    <string name="global_search_key_personal_tax">Enskild inkomstskatt; Inkomst efter skatt; Skatt-kalkylator; Personlig inkomstberäkning; inkomstberäkning; Inkomstberäkning efter skatt; personlig inkomstskatt;skatt;skatter</string>
+    <string name="global_search_key_scientific_convertion">Vetenskaplig kalkylator;Funktionsberäkning;Matematik;Algebra</string>
+    <string name="global_search_key_speed_convertion">Hastighet enhetskonvertering;Hastighetkonvertering;Hastighetskonverterare;Hastighetkonvertering;Hastighet;Hastighet</string>
+    <string name="global_search_key_temperature_convertion">Temperatur enhetskonvertering;Temperaturkonvertering;Temperaturkonverterare;Fahrenheit;Celsius;Centigrade</string>
+    <string name="global_search_key_volume_convertion">Volym enhetskonvertering;Volymkonvertering;Volymkonverterare</string>
+    <string name="global_search_key_weight_convertion">Vikt enhetskonvertering;Viktkonvertering;Viktkonverterare;Kilo;Kg; Kilogram;Pund;Punds;lbs</string>
+    <string name="global_search_key_word_figure">Finansiella tecken</string>
+    <string name="golbal_search_calculator_setting">Kalkylator; Miniräknarens inställningar; Inställningar</string>
+    <string name="golbal_search_path_calculator_setting">Systemappar/Kalender/Inställningar</string>
     <string name="home_title_calculator">Kalkylator</string>
     <string name="income_type" />
     <string name="install">Installera</string>
@@ -141,6 +156,7 @@
     <string name="negDesc">Växla mellan temperaturer under och över nollan</string>
     <string name="network_confirm_content">Valutaomvandlare, skatt- och lånkalkylator behöver använda din enhets nätverksanslutning samt platstjänst för att kunna fungera normalt.</string>
     <string name="network_confirm_title">Tillstånd krävs</string>
+    <string name="not_supported_due_to_language">Den här funktionen är endast tillgänglig för det kinesiska språket</string>
     <string name="percent" />
     <string name="percentDesc">procent</string>
     <string name="piDesc">pi</string>
@@ -536,5 +552,15 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_connect_download_manager_fail">Anslutningen till Download Manager misslyckades, kontrollera statusen i programhanteringen.</string>
+    <string name="xiaomi_external_storage_unavailable">Lagringen är inte tillgänglig, kontrollera SD-kortet.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
+    <string name="xiaomi_update_dialog_message">"Introducerar version %1$s
+Size: %2$s"</string>
+    <string name="xiaomi_update_dialog_message_diff">"Introducerar version %1$s
+Delta uppdateringsstorlek: %2$s"</string>
+    <string name="xiaomi_update_dialog_title">%1$s uppdatering!</string>
     <string name="year" />
 </resources>

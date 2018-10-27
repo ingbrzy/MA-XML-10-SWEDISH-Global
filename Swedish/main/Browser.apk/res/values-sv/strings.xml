@@ -18,6 +18,17 @@
     <string name="common_open_on_phone">Öppna på mobilen</string>
     <string name="common_signin_button_text">Logga in</string>
     <string name="common_signin_button_text_long">Logga in med Google</string>
+    <string name="exo_controls_fastforward_description">Snabbspola framåt</string>
+    <string name="exo_controls_next_description">Nästa spår</string>
+    <string name="exo_controls_pause_description">Pausa</string>
+    <string name="exo_controls_play_description">Spela upp</string>
+    <string name="exo_controls_previous_description">Föregående spår</string>
+    <string name="exo_controls_repeat_all_description">Upprepa alla</string>
+    <string name="exo_controls_repeat_off_description">Upprepa inga</string>
+    <string name="exo_controls_repeat_one_description">Upprepa en</string>
+    <string name="exo_controls_rewind_description">Spola tillbaka</string>
+    <string name="exo_controls_shuffle_description">Blanda</string>
+    <string name="exo_controls_stop_description">Avbryt</string>
     <string name="s1">Spara bild</string>
     <string name="s2">Tillåter du att annonsen sparar bilden i Bildgalleriet?</string>
     <string name="s3">Godkänn</string>
@@ -25,8 +36,9 @@
     <string name="s5">Skapa kalenderhändelse</string>
     <string name="s6">Tillåter du att annonsen skapar en kalenderhändelse?</string>
     <string name="s7">Testannons</string>
-    <string name="abc_action_bar_home_description">Gå till startsidan</string>
-    <string name="abc_action_bar_up_description">Gå upp</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="abc_action_bar_home_description">Till startsidan</string>
+    <string name="abc_action_bar_up_description">Navigera upp</string>
     <string name="abc_action_menu_overflow_description">Mer</string>
     <string name="abc_action_mode_done">Klar</string>
     <string name="abc_action_mode_select_all">Välj alla</string>
@@ -106,7 +118,7 @@
     <string name="autologin_bar_hide_text">Dölj</string>
     <string name="autologin_bar_login_text">Logga in</string>
     <string name="autologin_bar_text">Logga in som</string>
-    <string name="back_button_label">Tillbaka</string>
+    <string name="back_button_label">Bakåt</string>
     <string name="back_description">Tillbaka</string>
     <string name="block">Blockera</string>
     <string name="block_ads_choice_block">Blockera</string>
@@ -147,6 +159,7 @@
     <string name="cannot_download">Kan endast ladda ner \"http\" eller \"https\" URL</string>
     <string name="card_setting_close_recommend">Ta emot rekommendationer</string>
     <string name="cast_video">Kasta video</string>
+    <string name="change_news_language">Change news language?</string>
     <string name="channels_edit">Redigera</string>
     <string name="channels_finish">Slutförd</string>
     <string name="choosertitle_sharevia">Dela via</string>
@@ -240,6 +253,7 @@ Sidor som du ser kommer inte med i historik."</string>
     <string name="document_open_other">Andra appar</string>
     <string name="document_open_title">Öppna med</string>
     <string name="dont_remind_again">Komihåg detta val</string>
+    <string name="download_btn">Download</string>
     <string name="download_btn_select_all">Välj alla</string>
     <string name="download_btn_select_none">Välj ingen</string>
     <string name="download_complete">Nedladdning lyckades</string>
@@ -330,6 +344,7 @@ Sidor som du ser kommer inte med i historik."</string>
     <string name="go_supermarket_title">Flera appar, snabbare hastighet, och mindre dataanvändning i App Butiken</string>
     <string name="gold_medals">Guldmedaljer</string>
     <string name="google_bookmarks">Google</string>
+    <string name="hash_tag">\# %1$s</string>
     <string name="have_sent_bookmark_to_home_screen">Placerad på Hemskärmen</string>
     <string name="hint">Tips</string>
     <string name="history">Historik</string>
@@ -726,6 +741,8 @@ Hämta den här sidan nu?"</string>
     <string name="mw_snippets_disabled_generic_prompt">Få personligt innehåll</string>
     <string name="mw_snippets_disabled_signed_out_instructions">För att få personligt innehåll som Google föreslår, logga in på Chrome.</string>
     <string name="mw_time_picker_dialog_am">AM</string>
+    <string name="mw_time_picker_dialog_hour_minute_separator">:</string>
+    <string name="mw_time_picker_dialog_minute_second_separator">:</string>
     <string name="mw_time_picker_dialog_pm">PM</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator">.</string>
     <string name="mw_time_picker_dialog_title">inställd tid</string>
@@ -959,6 +976,7 @@ Hämta den här sidan nu?"</string>
     <string name="remove_snapshot">Ta bort sparad sida</string>
     <string name="removed_from_bookmarks">Borttagen ifrån bokmärken</string>
     <string name="replace">Ersätt</string>
+    <string name="replay">Play again</string>
     <string name="reply_comment_title">Re: %s</string>
     <string name="resume_download">Starta</string>
     <string name="retry_after_network_available">Kan inte ansluta till nätverket</string>
@@ -1022,6 +1040,7 @@ Hämta den här sidan nu?"</string>
     <string name="sendstartpage">Startsida</string>
     <string name="share_image_text">Titta vad jag delade! @MIUI</string>
     <string name="share_page_text">Titta vad jag delade: %1$s @MIUI| %2$s</string>
+    <string name="share_slide_video_text">Look what I shared: %1$s</string>
     <string name="share_video">Dela video</string>
     <string name="sign_in_to" formatted="false">Logga in på %s1 %s2\"</string>
     <string name="site_sort_des">Ordna om objekten</string>
@@ -1158,6 +1177,9 @@ Hämta den här sidan nu?"</string>
     <string name="video_unknown_duration">Okänd varaktighet</string>
     <string name="view_certificate">Visa certifikat</string>
     <string name="view_document_downloaded_files">Titta på nerladdade filer i Hämtade</string>
+    <string name="view_source">View source</string>
+    <string name="vmate_download_content">Enjoy all prank, comedy, music, dance videos</string>
+    <string name="vmate_download_title">India’s most Entertaining App</string>
     <string name="voice_check_network">Kontrollera din nätverksanslutning och försök igen.</string>
     <string name="voice_connect_network">Kunde inte ansluta till nätverk.</string>
     <string name="voice_description">Röstsökning</string>

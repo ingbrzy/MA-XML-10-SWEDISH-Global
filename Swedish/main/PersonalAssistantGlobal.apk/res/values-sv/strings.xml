@@ -108,6 +108,8 @@
     <string name="card_title_utilities">Verktyg</string>
     <string name="check_network">Kontrollera nätverksinställningar</string>
     <string name="check_network_retry">Kontrollera nätverksinställningarna och försök igen</string>
+    <string name="clean_grabage">Rensare</string>
+    <string name="clean_now">Kontrollera</string>
     <string name="cleanup_garbage">Städaren</string>
     <string name="cleanup_memory">Rensa cache</string>
     <string name="cleanup_power">Storstädning</string>
@@ -129,6 +131,7 @@
     <string name="cta_negative">Stänga</string>
     <string name="cta_positive">Detaljer</string>
     <string name="cta_title">Låt App valv hjälpa dig</string>
+    <string name="current_optimization_value">Risker sänker din enhets säkerhetsbetyg</string>
     <string name="data_error">Ett fel inträffade, vänta en minut eller två och försök igen.</string>
     <string name="data_error_show">Beställningen är slutförd, kan inte se detaljer.</string>
     <string name="donnot_ask">Fråga inte igen</string>
@@ -225,7 +228,11 @@
     <string name="ola_trip">Ring en taxi</string>
     <string name="ola_trip_content">Beräkna priset och ring en Ola</string>
     <string name="ola_trip_content_detail">Beräkna den ungefärliga priset och ringa en Ola.</string>
+    <string name="optimizate_now">Optimera</string>
+    <string name="optimization">Säkerhetsbetyg</string>
     <string name="phone_check">Optimering</string>
+    <string name="phone_has_garbage">Skräpfiler kan sakta ner enheten</string>
+    <string name="phone_has_virus">Skadliga koder och virus utgör säkerhetsrisker</string>
     <string name="place_label">Frekventa platser</string>
     <string name="record_name">Spela in</string>
     <string name="record_parent">Inspelning</string>
@@ -241,6 +248,7 @@
     <string name="search_card_view_date">EE y.M.d</string>
     <string name="search_tip">Söker…</string>
     <string name="security">Säkerhet</string>
+    <string name="security_brief">Skydda din enhet och rensa lagringen</string>
     <string name="service_unavailiable">Anslut till nätverket och försök igen.</string>
     <string name="set_home_failed">Det gick inte att lägga till adress, försök igen.</string>
     <string name="set_office_failed">Det gick inte att lägga till adress, försök igen.</string>
@@ -353,6 +361,7 @@
     <string name="upgrade_now">Uppdatera</string>
     <string name="user_id">Användar-ID: %s</string>
     <string name="utilities_apps_bref">Utforska tredjepartstjänster här</string>
+    <string name="virus_scan">Virussökning</string>
     <string name="walk">Promenera</string>
     <string name="webull_title">Webull</string>
     <string name="which_transport">Hur kommer du normalt till din destination?</string>

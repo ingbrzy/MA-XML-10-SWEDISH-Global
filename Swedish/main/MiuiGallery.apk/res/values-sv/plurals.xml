@@ -76,6 +76,10 @@
         <item quantity="other">%d videor</item>
         <item quantity="one">%d video</item>
     </plurals>
+    <plurals name="creation_max_image">
+        <item quantity="other">Välj upp till %d foton</item>
+        <item quantity="one">Välj upp till %d foto</item>
+    </plurals>
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">%d objekt valda</item>
         <item quantity="one">%d objekt vald</item>
@@ -259,9 +263,5 @@
     <plurals name="sync_total_count">
         <item quantity="other">%d objekt</item>
         <item quantity="one">%d objekt</item>
-    </plurals>
-    <plurals name="creation_max_image">
-        <item quantity="other">Välj upp till %d foton</item>
-        <item quantity="one">Välj upp till %d foto</item>
     </plurals>
 </resources>

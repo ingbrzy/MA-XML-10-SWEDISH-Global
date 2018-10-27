@@ -8,6 +8,10 @@
         <item quantity="other">Uppdateringar tillgängliga för %1$d teman.</item>
         <item quantity="one">Uppdatering tillänglig för %1$d tema.</item>
     </plurals>
+    <plurals name="theme_designer_products_count">
+        <item quantity="other">%1$s arbetar</item>
+        <item quantity="one">%1$s work</item>
+    </plurals>
     <plurals name="theme_update_local_resource_notifaction">
         <item quantity="other">Uppdateringar tillängliga för %1$d tema</item>
         <item quantity="one">Uppdatering tillänglig för %1$d tema</item>

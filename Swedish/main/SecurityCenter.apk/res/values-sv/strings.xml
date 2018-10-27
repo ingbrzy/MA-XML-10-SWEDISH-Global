@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Ljud</string>
@@ -207,7 +209,7 @@
     <string name="report_only">Välj ett meddelande att rapportera</string>
     <string name="report_success">Meddelandet har rapporterats</string>
     <string name="report_error">Kunde inte rapportera meddelandet</string>
-    <string name="report_warning">"Report %1$s SMS to Mi? These messages and phone numbers they were sent from will be uploaded to Mi's servers for review. Any personal info associated with these messages is always kept anonymous."</string>
+    <string name="report_warning">"Rapportera %1$s SMS till Mi? Dessa meddelanden och telefonnummer som de skickades från kommer att laddas upp till Mi's servrar för kontroll. All personlig information kopplad till dessa meddelanden hålls alltid anonymt."</string>
     <string name="report_warning_title">Uppmärksamma</string>
     <string name="st_sub_title_customize_mode_name">Namn</string>
     <string name="read_all_sms">Läs alla</string>
@@ -457,6 +459,7 @@ ska svara"</string>
     <string name="managed_user_title">Alla arbetsappar</string>
     <string name="pref_about_traffic_title">Inställningar för mobildataanvändning</string>
     <string name="pref_traffic_manage_title">Dataanvändning</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Mobildataabonnemang</string>
     <string name="pref_adjust_traffic_data">Ange datagräns</string>
     <string name="pref_category_title_other">Ytterligare inställningar</string>
@@ -662,7 +665,7 @@ Kvarvarande data inkluderar sparad data från förra månaden."</string>
     <string name="tc_sms_report_notify_correction_body">Öppna appen för dataanvändning i Säkerhetscenter och försök igen.</string>
     <string name="tc_sms_report_notify_get_failure_body">Kunde inte skicka dataanvändning. Kontrollera att du är ansluten till ett mobilt nätverk.</string>
     <string name="tc_sms_report_tips_dialog_title">SMS för dataanvändning</string>
-    <string name="tc_sms_report_tips_dialog_message">"An SMS is sent to get the latest data usage info from your carrier. If you think the info isn't correct, send us your feedback."</string>
+    <string name="tc_sms_report_tips_dialog_message">Ett SMS skickas från din operatör för att hämta senaste information om dataanvändning. Om du inte tror att informationen är korrekt, skicka din feedback till oss.</string>
     <string name="tc_sms_report_get_sms_failure">Kunde inte hämta dataanvändningsinformation</string>
     <string name="tc_sms_report_get_sms_timeout">Begäran tog för lång tid</string>
     <string name="tc_sms_report_get_sms_successs">Uppdaterad dataanvändningsinformation</string>
@@ -974,6 +977,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denna app kan sakta ner
 din enhet"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Avinstallera %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Avinstallera denna appen för att lösa problem med batterianvändningen.</string>
     <string name="om_ill_proc_type_wakelock_title">Denna appen blockerar strömsparläge och drar mycket batteri</string>
@@ -1018,7 +1022,7 @@ din enhet"</string>
     <string name="menu_item_force_stop">Tvinga avslutning</string>
     <string name="menu_item_uninstall">Avinstallera</string>
     <string name="menu_item_app_details">Detaljer</string>
-    <string name="details_subtitle">Usage details</string>
+    <string name="details_subtitle">Användardetaljer</string>
     <string name="packages_subtitle">Inkluderade paket</string>
     <string name="battery_desc_standby">Batteri använt när telefonen är inaktiv</string>
     <string name="battery_desc_radio">Batteri använt av radion</string>
@@ -1032,6 +1036,7 @@ din enhet"</string>
     <string name="usage_type_data_send">Mobildata skickad</string>
     <string name="usage_type_no_coverage">Tid utan signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="power_screen">Skärm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1126,7 +1131,6 @@ din enhet"</string>
     <string name="deep_save_ontime_boot_shutdown_summary">Schemalägg när enheten ska startas och stängas av</string>
     <string name="btn_text_quick_save_power">Kyl ned</string>
     <string name="notification_battery_consume_abnormal_title">Batteriet töms för snabbt</string>
-    <string name="notification_battery_consume_abnormal_summary">Tömt %2$s av batteriet under de senaste %1$d minuterna</string>
     <string name="app_check_no_issue">Det finns inga batteriproblem. Coolt!</string>
     <string name="power_save_mode_enable">Batterisparare</string>
     <string name="power_save_mode_summary">Övervaka processer i bakgrunden och stäng av synkronisering.</string>
@@ -1259,12 +1263,17 @@ din enhet"</string>
     <string name="power_center_list_item_auto_brightness">Justera skärmens ljusstyrka automatiskt</string>
     <string name="power_center_list_item_deep_save_title">Avancerade inställningar</string>
     <string name="power_center_list_item_battery_status_time">h</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
     <string name="power_center_stop_scan_title">Avbryt skanning</string>
     <string name="hide_mode_result_summary_text">Anpassa Batterispararens inställningar för enskilda appar</string>
     <string name="auto_task_result_summary_text">Konfigurera automatiska uppgifter för Batterispararen</string>
     <string name="pc_settings_title">Inställningar för batterianvändning</string>
     <string name="pc_main_activity_back">Tillbaka</string>
     <string name="extreme_power_save_mode_card_summary">Aktivera Extremläge för att spara ström när batterinivån är låg.</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
     <string name="handle_bar_title_system">System</string>
     <string name="apps_list_header_title_sms">Kontrollera meddelandeapp</string>
     <string name="apps_list_header_title_sms_access">Begränsa tillgång till verifieringskoder</string>
@@ -1418,11 +1427,13 @@ din enhet"</string>
     <string name="menu_text_optimize_manage">Öka hastigheten</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_summary_networkassistants">Hantera ditt dataabonnemang</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Överskred datagränsen</string>
     <string name="menu_summary_networkassistants_3">Tillräckligt med mobildata återstår</string>
     <string name="menu_summary_networkassistants_4">Håller på att få slut på mobildata</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1435,12 +1446,14 @@ din enhet"</string>
     <string name="menu_summary_garbage_cleanup">Inga skräpfiler hittades</string>
     <string name="menu_summary_garbage_cleanup_2">Skräpstorlek</string>
     <string name="menu_summary_garbage_cleanup_3">Rensa skräp nu</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Batterianvändning</string>
     <string name="menu_summary_power_manager">Batterispararen ger mer tid mellan laddningarna</string>
     <string name="menu_summary_power_manager_1">Batteriet är fulladdat</string>
     <string name="menu_summary_power_manager_2">%såterstår</string>
     <string name="menu_summary_power_manager_3">Anslut laddare</string>
     <string name="menu_summary_power_manager_4">%still fulladdad</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Föregående skanning avbröts</string>
     <string name="examination_score_100">Allt ser bra ut!</string>
     <string name="examination_score_80_100">Några objekt kan optimeras</string>
@@ -1655,6 +1668,8 @@ din enhet"</string>
     <string name="summary_cloud_space_full">Få mer utrymme och tillgång till fler funktioner</string>
     <string name="title_auto_update">Uppdateras automatiskt</string>
     <string name="summary_auto_update">MIUI väljer den lämpligaste tid att ladda ner och installera uppdateringar.</string>
+    <string name="title_rcs_switch">Aktivera China Mobile Messaging</string>
+    <string name="summary_rcs_switch">Skicka SMS till mobilanvändare i Kina utan ytterligare avgifter</string>
     <string name="title_miui_update_latest">MIUI är aktuell</string>
     <string name="title_miui_update">Uppdatering tillgänglig</string>
     <string name="summary_miui_update">Uppdatering tillgänglig för %s.</string>
@@ -1814,6 +1829,7 @@ din enhet"</string>
     <string name="card_main_deepclean_wechat_action">Rensa</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1855,7 +1871,7 @@ din enhet"</string>
     <string name="ac_notification_contentTitle">Skydda appar med Applås</string>
     <string name="ac_pre_notification_contentTitle">Prova Applås</string>
     <string name="ac_post_notification_contentTitle">Aktivera Applås</string>
-    <string name="midrop_post_notification_contentTitle">Need to share files?</string>
+    <string name="midrop_post_notification_contentTitle">Behöver du dela filer?</string>
     <string name="notification_masked_item">Dölj notifikationer</string>
     <string name="lock_mode_title">Låsinställningar</string>
     <string name="after_the_lock_screen">Lås appar tillsammans med skärmen</string>
@@ -1865,7 +1881,7 @@ din enhet"</string>
     <string name="ac_notification_contentText">Tryck för att aktivera</string>
     <string name="ac_pre_notification_contentText">Skydda din personliga information</string>
     <string name="ac_post_notification_contentText">Få skydd på systemnivå</string>
-    <string name="midrop_post_notification_contentText">Transfer files at speeds up to 50 Mbps in Mi Drop.</string>
+    <string name="midrop_post_notification_contentText">Överför filer med hastigheter upp till 50 Mbps med Mi Drop.</string>
     <string name="notification_masked_subtitle">Dölj notifikationer från appar med Applås</string>
     <string name="ac_enter_applock">Gå in i Applås</string>
     <string name="ac_mask_all_apps">Dölj för alla appar</string>
@@ -1985,6 +2001,7 @@ din enhet"</string>
     <string name="reset_data_title">Kan inte återställa lösenord</string>
     <string name="reset_data_dialog_message">Denna enhet är inte kopplad till ditt Mi-konto. Vilket gör ätt du kan inte: Återställa eller nollställa ditt lösenord eller säkerhetskopiera alla viktiga objekt och genomföra en fabriksåterställning. All data kommer permanent tas bort och ditt SD-kort kommer formateras under en fabriksåterställning.</string>
     <string name="reset_data_dialog_ok">Fabriksåterställning</string>
+    <string name="ad_split_screen_title">Byt till helskärmsläge för att låsa upp</string>
     <string name="wakepath_confirm_start_activity">Tillåt %1$s att öppna %2$s?</string>
     <string name="unlike">Nej tack</string>
     <string name="toast_network_eror">Kan inte ansluta till nätverket</string>
@@ -2196,6 +2213,7 @@ din enhet"</string>
     <string name="gs_call_handsfree_mute">Tyst läge</string>
     <string name="gs_gamebox">Genvägar i spel</string>
     <string name="gs_gamebox_detail">Visa panelen för genvägar i spel</string>
+    <string name="gs_gamebox_slip">Tryck ner skärmen för att öppna</string>
     <string name="gs_forbid_autosync">Begränsa synkronisering av bakgrundsdata</string>
     <string name="gs_app_back_self_start">Batterisparare</string>
     <string name="gs_only_self_start_for_list">Begränsa bakgrundsprocesser för att spara batteri för spel</string>
@@ -2347,6 +2365,7 @@ din enhet"</string>
     <string name="screenrecord_not_find">Installera den senaste versionen av Skärminspelaren och försök igen.</string>
     <string name="gamebox_qq_not_find">Installera QQ och försök igen.</string>
     <string name="gamebox_wechat_not_find">Installera WeChat och försök igen.</string>
+    <string name="gamebox_app_not_find">Installera appen först.</string>
     <string name="gamebox_type_close">Visa inte</string>
     <string name="gamebox_type_float">Fast genväg</string>
     <string name="gamebox_type_gesture">Svep för att visa</string>
@@ -2363,6 +2382,7 @@ din enhet"</string>
     <string name="gb_create_icon_summary">Skapa genväg på Hemskärmen</string>
     <string name="title_reply">Kommentera</string>
     <string name="title_like">Gilla</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Mobildata</string>
     <string name="game_wid_viewpoint_buttom">Ta en kort paus.</string>
     <string name="video_repeat">Spela igen</string>
@@ -2411,9 +2431,6 @@ Denna funktion stöds inte för systemappar."</string>
     <string name="first_aid_card_airplane_title">Kan inte ringa samtal eller ansluta till nätverket</string>
     <string name="first_aid_card_airplane_summary">Avaktivera Flygplansläge för att kunna ringa samtal och ansluta till ett nätverk</string>
     <string name="first_aid_card_airplane_button">Avaktivera</string>
-    <string name="first_aid_card_apn_title">Kan inte ansluta till nätverket</string>
-    <string name="first_aid_card_apn_summary">APNs har ändrats. Lös detta för att kunna ansluta till nätverket.</string>
-    <string name="first_aid_card_apn_button">Lös</string>
     <string name="first_aid_card_unable_install_title">Kan inte installera appar</string>
     <string name="first_aid_card_unable_install_summary">Endast %s av lagringsutrymmet är tillgängligt. Frigör utrymme för att installera appar.</string>
     <string name="first_aid_card_unable_install_button">Frigör utrymme</string>

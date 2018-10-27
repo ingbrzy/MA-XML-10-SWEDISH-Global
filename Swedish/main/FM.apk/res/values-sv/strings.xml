@@ -60,11 +60,12 @@
     <string name="fm_has_turned_off">FM-radio avstängd</string>
     <string name="msg_fm_starting">Startar…</string>
     <string name="txt_sleep_mode">Viloläge</string>
+    <string name="txt_divider">" | "</string>
     <string name="group_favor">Förval</string>
     <string name="group_other">Övriga</string>
     <string name="using_recorder_dialog_title">Behörighet krävs</string>
     <string name="using_recorder_dialog_message">Radio behöver behörighet till enhets inspelningstjänster för att fungera normalt.</string>
     <string name="using_recorder_confirm">Tillåt</string>
     <string name="using_recorder_cancel">Neka</string>
-    <string name="runtime_permission_ungranted">Kan inte använda Inspelaren på grund av otillräcklig behörighet</string>
+    <string name="runtime_permission_ungranted">Kan inte starta att spela in på grund av otillräckliga behörigheter</string>
 </resources>

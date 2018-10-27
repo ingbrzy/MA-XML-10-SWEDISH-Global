@@ -435,6 +435,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Djupeffekt</string>
     <string name="portrait_mode_use_hint">"Porträttläge gör bakgrunden suddig
  och frambringar personerna förgrunden."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Försök Poträttläge.
 Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_square_mode_title">Fyrkant</string>
@@ -451,6 +452,7 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Lägen</string>
     <string name="button_front_camera_title">Ta en selfie</string>
     <string name="button_normal_video_title">Spela in video</string>
@@ -566,4 +568,8 @@ i Porträtt läge"</string>
     <string name="lighting_pattern_shutter">Persienner</string>
     <string name="view_privacy_policy">Visa sekretesspolicy</string>
     <string name="fps960_toast">Inspelning i slow motion kommer startas när timern når den vita punkten</string>
+    <string name="portrait_bokeh_text">Porträttläge</string>
+    <string name="portrait_bokeh_first_tips">"Använd Porträttläge för att göra
+ bakgrunden på suddig på dina bilder"</string>
+    <string name="portrait_bokeh_tips">Placera objekt inom 1.5 meter</string>
 </resources>

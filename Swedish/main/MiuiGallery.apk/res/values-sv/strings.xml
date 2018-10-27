@@ -274,6 +274,7 @@
     <string name="collage_poster_global_summer_flower_text">SOMMAR</string>
     <string name="collage_poster_global_tea_text">EFTERMIDDAGSTE</string>
     <string name="collage_rotate">Rotera</string>
+    <string name="collage_select_image_range">Collage kan innehålla 1-4 bilder</string>
     <string name="collage_title_layout">Utseende</string>
     <string name="collage_title_poster">Poster</string>
     <string name="collaps_people">Dölj</string>
@@ -466,6 +467,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="face_name_edit">Redigera</string>
     <string name="face_name_input">Ange namn</string>
     <string name="face_recommend">Rekommendationer</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunde inte slutföra åtgärden</string>
     <string name="fail_to_pick_email">Ogiltig e-postadress</string>
     <string name="fail_to_sync_album">Kunde inte synkronisera album. Kolla din datakoppling och försök igen.</string>
@@ -476,6 +478,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="feature_guidance_photo_effects">"Nya foto effects
 are tillgänglig"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nya effekter finns</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Minne</string>
     <string name="filter_bi_mono">Mono</string>
     <string name="filter_bi_pink">Rosa</string>
@@ -537,6 +540,7 @@ are tillgänglig"</string>
     <string name="finish_fill_baby">Skapa</string>
     <string name="flash_off">Ingen blixt</string>
     <string name="flash_on">Blixt använd</string>
+    <string name="frame_not_support_image_ratio">Detta bildformat stöds inte</string>
     <string name="free_view_desc">3D vy</string>
     <string name="gallery_setting">Inställningar</string>
     <string name="gallery_sync_disable_toast">Synk är avstängd för galleri</string>
@@ -544,6 +548,7 @@ are tillgänglig"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Ange</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri behöver tillgång till 
 %s
  för att fungera normalt, tryck på \"Tillämpa\" för att gå till Behörigheter."</string>
@@ -709,6 +714,7 @@ för att göra galleriet personligt"</string>
     <string name="operation_in_process">Berarbetar…</string>
     <string name="operation_move_to_other_albums">Flytta till annat album</string>
     <string name="operation_not_show_in_photos_tab">Visa inte i Foto</string>
+    <string name="operation_produce">Kreativitet</string>
     <string name="operation_projection">Casta</string>
     <string name="operation_remove_face">Ta bort</string>
     <string name="operation_remove_from_face_album">Ta bort från album</string>
@@ -741,6 +747,7 @@ för att göra galleriet personligt"</string>
     <string name="people_mark_mode_title_no_mark_name">Välj en person</string>
     <string name="people_page_label">Människor</string>
     <string name="people_page_unname">Namnlös</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Sällskapsdjursfoton</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Foton</string>
@@ -751,10 +758,12 @@ för att göra galleriet personligt"</string>
     <string name="photo_editor_beauty_compare">Original</string>
     <string name="photo_editor_crop_and_rotate">Beskär</string>
     <string name="photo_editor_crop_auto">Auto</string>
+    <string name="photo_editor_crop_auto_tips">Beskärs automatiskt</string>
     <string name="photo_editor_crop_reset">Återställ</string>
     <string name="photo_editor_crop_rotation_format">%d°</string>
     <string name="photo_editor_doodle">Klotter</string>
     <string name="photo_editor_filter">Filter</string>
+    <string name="photo_editor_frame">Ram</string>
     <string name="photo_editor_label">Redigera</string>
     <string name="photo_editor_long_crop">Beskär</string>
     <string name="photo_editor_miui_beauty">Försköna</string>
@@ -809,6 +818,7 @@ för att göra galleriet personligt"</string>
     <string name="photo_editor_talkback_redo">Göra om</string>
     <string name="photo_editor_talkback_undo">Ångra</string>
     <string name="photo_editor_text">Text</string>
+    <string name="photo_movie_select_image_range">Klipp kan innehålla 3-6 bilder</string>
     <string name="photo_page_save_uri_image_fail">Kunde inte spara till Galleri</string>
     <string name="photo_page_save_uri_image_ok">Bilder sparade till Galleri</string>
     <string name="photo_print_menu_loading">Laddar plug-in…</string>
@@ -998,6 +1008,9 @@ för att göra galleriet personligt"</string>
     <string name="search_title_recommend">Rekommenderad</string>
     <string name="search_title_suggestion">Förslag</string>
     <string name="search_title_tag">Objekt</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Söker efter projektor…</string>
     <string name="secret_album_card_description">Bästa platsen för alla dina små hemligheter</string>
     <string name="secret_album_card_title">Försök dolda album</string>
@@ -1017,6 +1030,7 @@ för att göra galleriet personligt"</string>
     <string name="secret_reason_unknow_reasons">Okänt fel</string>
     <string name="secret_reason_video_not_support">Kan inte lägga till videor dolda album</string>
     <string name="see_ignore_faces">Visa personer du har ignorerat</string>
+    <string name="select_image_operation">Lägga till foton</string>
     <string name="select_item_face">"Är detta '%s'?"</string>
     <string name="select_origin_tip">Originalfil (%s)</string>
     <string name="send_file_beautify_failed">Kunde inte dela</string>
@@ -1157,6 +1171,7 @@ för att göra galleriet personligt"</string>
     <string name="unpublish_failed">Kunde inte avpublisera</string>
     <string name="unpublish_succeeded">Album avpubliserad</string>
     <string name="unpublishing">Avbryter/u2026</string>
+    <string name="unsupport_video">%s fungerar inte med videor</string>
     <string name="user_agree">Acceptera</string>
     <string name="user_agreement2">Användarvillkor</string>
     <string name="user_agreement4">Integritetspolicy</string>
@@ -1274,6 +1289,7 @@ för att göra galleriet personligt"</string>
     <string name="view_face_album">Visa album</string>
     <string name="view_more_face_desc">Visa fler människor</string>
     <string name="voice_assistant">Röstinmatning</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Välkommen till Mi Cloud</string>
     <string name="where_is_barcode">Var är QR-koden?</string>
     <string name="who_is_this">Vem är det?</string>
@@ -1281,10 +1297,7 @@ för att göra galleriet personligt"</string>
     <string name="yes">Ja</string>
     <string name="yesterday">Igår</string>
     <string name="you_are">Du är barnets</string>
-    <string name="collage_select_image_range">Collage kan innehålla 1-4 bilder</string>
-    <string name="operation_produce">Kreativitet</string>
-    <string name="photo_editor_crop_auto_tips">Cropped automatically</string>
-    <string name="photo_movie_select_image_range">Klipp kan innehålla 3-6 bilder</string>
+    <string name="operation_set_slide_wallpaper">Ställ in detta som ett bildspel och bakgrundsbild</string>
     <string name="refocus_discard_confirm_message">Spara ändringar?</string>
     <string name="refocus_discard_negative_btn">Ta bort</string>
     <string name="refocus_discard_positive_btn">Spara</string>
@@ -1297,6 +1310,6 @@ för att göra galleriet personligt"</string>
     <string name="refocus_title">Oskärpa</string>
     <string name="refocus_type_static">Nivå för oskärpa</string>
     <string name="refocus_type_video">Ljusspår</string>
-    <string name="select_image_operation">Lägga till foton</string>
-    <string name="unsupport_video">%s fungerar inte med videor</string>
+    <string name="set_as_slide_wallpaper_description">Denna bild är en miniatyr, ladda originalet?</string>
+    <string name="set_as_slide_wallpaper_title">Ställ in detta som ett bildspel och bakgrundsbild</string>
 </resources>
