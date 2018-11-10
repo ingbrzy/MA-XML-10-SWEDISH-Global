@@ -92,6 +92,7 @@
     <string name="hints_apk_header_left">Paket</string>
     <string name="hints_residual_header_left">Överblivna filer</string>
     <string name="hints_memory_header_left">Minne</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Stora filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerade appar: %d</string>
     <string name="toast_resolve_apk_error">Lös apk fel</string>
@@ -299,6 +300,7 @@
     <string name="downloading">Laddar ner</string>
     <string name="installing">Installerar</string>
     <string name="start_install">Installera nu</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Öppna i webbläsaren</string>
     <string name="title_share_link">Dela URL</string>
     <string name="connecting">Ansluter…</string>
@@ -467,9 +469,9 @@
     <string name="file_not_found">Filen hittades inte</string>
     <string name="app_usage_never">Inte använd nyligen</string>
     <string name="app_usage_recently">Nyligen använts</string>
-    <string name="resutl_function_deep_clean_summary">" "<Data>&lt;font color=#ff0000 >%1$s&lt;/font> fler filer kan rensas. Frigör mer utrymme.;</Data>" "</string>
-    <string name="resutl_function_wechat_clean_summary">" "<Data>&lt;font color=#ff0000 >%1$s&lt;/font> av WeChat cache. Frigör mer utrymme.;</Data>" "</string>
-    <string name="resutl_function_qq_clean_summary">" "<Data>Du kan rensa &lt;font color=#ff0000 >%1$s&lt;/font> av cachen;</Data>" "</string>
+    <string name="resutl_function_deep_clean_summary">" "<Data> &lt;font color=#ff0000 >%1$s&lt;/font> fler filer kan rensas. Frigör mer utrymme. ;</Data>" "</string>
+    <string name="resutl_function_wechat_clean_summary">" "<Data> &lt;font color=#ff0000 >%1$s&lt;/font> av WeChat cache. Frigör mer utrymme. ;</Data>" "</string>
+    <string name="resutl_function_qq_clean_summary">" "<Data> Du kan rensa &lt;font color=#ff0000 >%1$s&lt;/font> av cachen ;</Data>" "</string>
     <string name="engine_tm">Tencent</string>
     <string name="engine_cm">Clean Master</string>
     <string name="app_description_title">Om Städaren</string>
@@ -498,19 +500,6 @@
     <string name="auto_clean_time_three_day">Var 3:e dag</string>
     <string name="auto_clean_time_seven_day">Var 7:e dag</string>
     <string name="auto_clean_time_fifteen_day">Var 15:e dag</string>
-    <string name="pref_category_title_auto_clean_config_settings">Automatisk städning</string>
-    <string name="pref_title_auto_clean">Städa automatiskt</string>
-    <string name="pref_title_auto_clean_operation">Städmetod</string>
-    <string name="pref_title_auto_clean_trigger">Städa upp lagringsutrymme</string>
-    <string name="auto_clean_operation_dialog_title">Städmetod</string>
-    <string name="auto_clean_operation_clean_and_alert">Påminn och städa</string>
-    <string name="auto_clean_operation_just_clean">Städa endast</string>
-    <string name="auto_clean_trigger_dialog_title">Städa upp lagringsutrymme</string>
-    <string name="auto_clean_trigger_percent_ninety">När 90% är ockuperat</string>
-    <string name="auto_clean_trigger_percent_eighty">När 80% är ockuperat</string>
-    <string name="auto_clean_trigger_percent_sixty">När 60% är ockuperat</string>
-    <string name="auto_clean_notification_title">Påminn om att städa</string>
-    <string name="auto_clean_notification_content">Städa upp %s skräp</string>
     <string name="guide_secure_dialog_title">Optimera prestanda</string>
     <string name="guide_secure_dialog_message">Din optimeringspoäng är under 80 poäng. Optimera nu?</string>
     <string name="guide_secure_dialog_positive">Optimera</string>
@@ -538,10 +527,6 @@
     <string name="whatsapp_group_gif">GIFs</string>
     <string name="whatsapp_group_document">Dokument</string>
     <string name="whatsapp_btn_quick_cleanup">Ta bort valda objekt (%s)</string>
-    <string name="whatsapp_type_image_send">Skickade bilder</string>
-    <string name="whatsapp_type_image_recv">Mottagna bilder</string>
-    <string name="whatsapp_type_document_send">Skickade filer</string>
-    <string name="whatsapp_type_document_recv">Mottagna filer</string>
     <string name="whatsapp_file_show_order">Idag</string>
     <string name="whatsapp_clean_exit_confirm_title">Avbryt skanning?</string>
     <string name="whatsapp_clean_exit_confirm_msg">Skanningen av WhatsApp är inte slutförd. Avbryt skanning ändå?</string>
@@ -567,4 +552,17 @@
     <string name="memory_clean_no_trash_tip">Allt ser bra ut</string>
     <string name="toast_updater_open_4g_text">Appar kommer uppdateras via mobildata (4G)</string>
     <string name="toast_updater_close_4g_text">Appar kommer inte uppdateras via mobildata (4G)</string>
+    <string name="facebook_cleaner">Facebook Cleaner</string>
+    <string name="facebook_group_image">Bilder</string>
+    <string name="facebook_group_video">Videor</string>
+    <string name="facebook_group_gif">GIFs</string>
+    <string name="facebook_group_cache">Cachefiler</string>
+    <string name="app_clean_group_image_send">Skickade bilder</string>
+    <string name="app_clean_group_image_recv">Mottagna bilder</string>
+    <string name="app_clean_group_document_send">Skickade filer</string>
+    <string name="app_clean_group_document_recv">Mottagna filer</string>
+    <string name="facebook_clean_exit_confirm_title">Avbryt skanning?</string>
+    <string name="facebook_clean_exit_confirm_msg">Skanningen av Facebook är inte slutförd. Avbryt skanning ändå?</string>
+    <string name="facebook_clean_exit_confirm_cancel">Fortsätt skanning</string>
+    <string name="facebook_clean_exit_confirm_ok">Avbryt</string>
 </resources>

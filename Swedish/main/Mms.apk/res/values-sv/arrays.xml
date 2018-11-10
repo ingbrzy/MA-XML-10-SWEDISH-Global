@@ -28,7 +28,7 @@
     </string-array>
     <string-array name="prefEntries_vibrateWhen">
         <item>Alltid</item>
-        <item>Alarm i ljudlöst läge</item>
+        <item>Endast i ljudlöst läge</item>
         <item>Aldrig</item>
     </string-array>
     <string-array name="recv_type">

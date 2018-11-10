@@ -74,6 +74,7 @@
     <string name="show_screen_touch_summary">Visualisera gesterna med en vit punkt</string>
     <string name="sound_source">Ljudkälla</string>
     <string name="sound_source_summary">Systemljud eller mikrofon</string>
+    <string name="sound_source_summary_without_system_sounds">Använda mikrofonen eller stänga av ljudet</string>
     <string name="start">Starta</string>
     <string name="start_recording">Starta inspelningen</string>
     <string name="stop_by_second_space">Växla mellan utrymmena kommer avsluta inspelningen</string>

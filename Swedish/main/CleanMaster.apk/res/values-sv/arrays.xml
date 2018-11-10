@@ -23,6 +23,10 @@
         <item>Rensa</item>
         <item>Rensa och meddela</item>
     </string-array>
+    <string-array name="wechat_sort">
+        <item>Datum</item>
+        <item>Storlek</item>
+    </string-array>
     <string-array name="hide_installed_packages">
         <item>com.miui.klo.bugreport</item>
         <item>com.mfashiongallery.emag</item>

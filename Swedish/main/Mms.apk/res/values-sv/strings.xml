@@ -78,7 +78,7 @@
     <string name="check_all">Välj alla</string>
     <string name="class_0_message_activity">Klass 0-meddelande</string>
     <string name="close">Stäng</string>
-    <string name="cloud_state_disabled">Slå på synkronisering med Mi Cloud för att synkronisera meddelande</string>
+    <string name="cloud_state_disabled">Aktivera synkronisering med Mi Cloud för att synkronisera meddelanden</string>
     <string name="cloud_state_sync_finished">Synkroniserat med Mi Cloud</string>
     <string name="cloud_state_syncing">Synkroniserar mot Mi Cloud…</string>
     <string name="cmcc_privacy">Kina mobiloperatör integritetsavtalet</string>
@@ -99,7 +99,7 @@
     <string name="confirm_export_dialog_description">Tidigare konversationer med denna kontakt kommer inte längre att döljas.</string>
     <string name="confirm_export_dialog_title">Ta bort från privata kontakter</string>
     <string name="confirm_no_block_positive">Ta bort blockering</string>
-    <string name="confirm_no_block_title">Avmarkera valda nummer? De kommer att läggas till undantag, men tidigare blockerade objekt visas inte i meddelandets inkorg.</string>
+    <string name="confirm_no_block_title">Avblockera valda nummer? De kommer att läggas till som undantag, men tidigare blockerade objekt visas inte i appen Meddelandes inkorg.</string>
     <string name="confirm_rate_limit">Ett stort antal MMS har skickats.</string>
     <string name="confirm_restore_all_title">Återställa alla meddelanden som skickats från det här numret?</string>
     <string name="confirm_restore_checkbox">Återställ blockerade meddelanden</string>
@@ -126,7 +126,7 @@
     <string name="converting_to_text_message">Konverterar till SMS...</string>
     <string name="converting_vcard_failed">Kunde inte konvertera kontakt</string>
     <string name="copy_message_text">Kopiera</string>
-    <string name="copy_message_text_success">Kopiera text färdigt</string>
+    <string name="copy_message_text_success">Text kopierad</string>
     <string name="copy_to_sdcard">Spara bifogad fil</string>
     <string name="copy_to_sdcard_fail">Kunde inte spara bifogad fil</string>
     <string name="copy_to_sdcard_success">Bifogad fil sparad som %s</string>
@@ -202,6 +202,7 @@
     <string name="file_size">Storlek:</string>
     <string name="file_title">Namn:</string>
     <string name="file_width_height">Storlek:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Nytt meddelande</string>
     <string name="forward_from">Vidarebefordra från:</string>
     <string name="forward_message_select_title">Vidarebefordra meddelande</string>
@@ -310,12 +311,12 @@
     <string name="msg_type_sms_rcs">SMS, MMS och internet-meddelanden</string>
     <string name="msglist_continue_to_pull_for_more">Svep nedåt för att se mera</string>
     <string name="msglist_more_refreshing">Uppdaterar…</string>
-    <string name="msglist_no_more_to_refresh">Redan uppdaterat</string>
+    <string name="msglist_no_more_to_refresh">Redan uppdaterad</string>
     <string name="msglist_release_to_more">Släpp för att se mera</string>
     <string name="multimedia_message">Multimediameddelande</string>
     <string name="multimedia_notification">Notifikation för MMS</string>
     <string name="mx2_type_description">[%s]</string>
-    <string name="mx_activate_allow_notice">Utgående SMS-meddelanden kan behöva aktivera fri text och rösttjänst. Din operatör debiterar dig för detta meddelande. Dessutom när denna funktion är på krävs en liten mängd av mobil data för att kontrollera om andra användare är online. Håller med om?</string>
+    <string name="mx_activate_allow_notice">Utgående SMS-meddelanden kan behöva aktivera fri text och rösttjänst. Din operatör debiterar dig för detta meddelande. Dessutom när denna funktion är på krävs en liten mängd av mobil data för att kontrollera om andra användare är online. Godkänn?</string>
     <string name="mx_activate_dlg_title">Aktivera Mi Message</string>
     <string name="mx_activate_dlg_title_ex">Aktivera Mi Message &amp; Röst</string>
     <string name="mx_activate_error_malformed_info">Mi Message måste aktiveras igen.</string>
@@ -328,7 +329,7 @@
     <string name="mx_activate_int_hint_malformed_info">Ett utgående internationellt SMS kan krävas för att återaktivera Mi Message. Din operatör tar betalt för det här meddelandet.</string>
     <string name="mx_activate_int_hint_server">En utgående internationell SMS kan krävas för att aktivera Mi meddelande. Din operatör tar betalt för det här meddelandet.</string>
     <string name="mx_activate_int_hint_sim_change">Det verkar som att du har bytt SIM-kort. Ett utgående SMS meddelande kan behövas för att återaktivera Mi Message. Din operatör kommer att ta betalt för detta meddelande.</string>
-    <string name="mx_activate_network_allow_notice">När denna funktion är på krävs en liten mängd mobildata för att kontrollera om andra användare är online. Håller med om?</string>
+    <string name="mx_activate_network_allow_notice">När denna funktion är aktiverad krävs en liten mängd mobildata för att kontrollera om andra användare är online. Godkänn?</string>
     <string name="mx_activate_status_desc_activating_now">Aktiverar…</string>
     <string name="mx_activate_status_desc_check_net_connection">Kan ej ansluta till nätverk</string>
     <string name="mx_activate_status_desc_fail">Kan ej aktivera Mi Meddelande</string>
@@ -346,7 +347,7 @@
     <string name="mx_current_status">Inställningar</string>
     <string name="mx_dspt">Skicka SMS och MMS-meddelanden till andra MIUI-enheter utan avgift över data när du är uppkopplad mot Wi-Fi.</string>
     <string name="mx_dspt_listview">Skicka meddelanden till andra MIUI-enheter utan avgift över data</string>
-    <string name="mx_dspt_provision">Mi meddelande kan du skicka meddelanden till andra MIUI användare över internet utan förbundsstyrkorna avgifter. Utgående SMS-meddelanden kan behöva återaktivera Mi meddelande. Din operatör debiterar dig för detta meddelande. Dessutom när denna funktion är på krävs en liten mängd av mobil data för att kontrollera om andra användare är online. Håller med om?</string>
+    <string name="mx_dspt_provision">Mi meddelande kan du skicka meddelanden till andra MIUI användare över internet utan förbundsstyrkorna avgifter. Utgående SMS-meddelanden kan behöva återaktivera Mi meddelande. Din operatör debiterar dig för detta meddelande. Dessutom när denna funktion är på krävs en liten mängd av mobil data för att kontrollera om andra användare är online. Godkänn?</string>
     <string name="mx_dspt_provision_ex2">Integritetspolicy</string>
     <string name="mx_enable">Mi Message</string>
     <string name="mx_enable_ex">Mi Message &amp; Röst</string>
@@ -384,13 +385,13 @@
     <string name="non_english_subject_limit">13 tecken</string>
     <string name="nosend_message">Skicka ej</string>
     <string name="not_prepare_for_send">Inget meddelande att skicka</string>
-    <string name="notification_channel_msg_description">Aviseringar om meddelanden</string>
+    <string name="notification_channel_msg_description">Notifikationer om meddelanden</string>
     <string name="notification_channel_msg_name">Meddelanden</string>
-    <string name="notification_channel_other_description">Andra meddelanden</string>
+    <string name="notification_channel_other_description">Andra notifikationer</string>
     <string name="notification_channel_other_name">Andra</string>
-    <string name="notification_channel_sim1_description">Meddelanden om SIM 1 meddelanden</string>
+    <string name="notification_channel_sim1_description">Notifikationer om SIM 1 meddelanden</string>
     <string name="notification_channel_sim1_name">SIM 1 meddelanden</string>
-    <string name="notification_channel_sim2_description">Meddelanden om SIM 2 meddelanden</string>
+    <string name="notification_channel_sim2_description">Notifikationer om SIM 2 meddelanden</string>
     <string name="notification_channel_sim2_name">SIM 2 meddelanden</string>
     <string name="notification_copy">Kopiera OTP</string>
     <string name="notification_failed_multiple">%s meddelande kunde inte skickas</string>
@@ -418,7 +419,7 @@
     <string name="pref_delivery_ringtone">Leveransljud</string>
     <string name="pref_edit_smsc_address">Meddelandecentral (SMSC)</string>
     <string name="pref_forward_title">Vidarebefordra</string>
-    <string name="pref_hide_verification_code_summary">Dölj automatiskt engångslösenord i aviseringar på säkrade låsskärmen</string>
+    <string name="pref_hide_verification_code_summary">Dölj automatiskt engångslösenord som visas i notifikationer på den säkrade Låsskärmen</string>
     <string name="pref_messages_to_save">Ange antal meddelanden att spara</string>
     <string name="pref_mms_settings_title">Multimediameddelande (MMS)</string>
     <string name="pref_msg_trash_bin_title">Borttagna meddelanden</string>
@@ -443,7 +444,7 @@
     <string name="pref_summary_mms_auto_retrieval">Ladda ned foton och videor i meddelanden automatiskt</string>
     <string name="pref_summary_mms_read_reports">Visa notifikation i konversationen när mottagaren har laddat ner MMS</string>
     <string name="pref_summary_mms_retrieval_during_roaming">Ladda automatiskt ned foton och videor i meddelanden vid roaming</string>
-    <string name="pref_summary_notification_body_enabled">Visa meddelanden på låsskärmen och i meddelandepanelen</string>
+    <string name="pref_summary_notification_body_enabled">Visa notifikationer på Låsskärmen och Notifikationspanelen</string>
     <string name="pref_summary_off_system_mms_priority">Använd tredjepartsappar för att skicka och ta emot MMS</string>
     <string name="pref_summary_on_system_mms_priority">"Sätt MIUI's Meddelande som standardapp för att skicka och ta emot MMS"</string>
     <string name="pref_summary_send_delivery_reports">Skicka leveransbekräftelse till avsändaren när du mottar ett MMS</string>
@@ -465,7 +466,7 @@
     <string name="pref_title_mms_retrieval_during_national_roaming">Ladda ned MMS-innehåll vid nationell roaming</string>
     <string name="pref_title_mms_retrieval_during_roaming">Ladda ned MMS-innehåll vid roaming</string>
     <string name="pref_title_mms_validity_period">MMS utgång</string>
-    <string name="pref_title_notification_body_enabled">Visa meddelanden på låsskärmen</string>
+    <string name="pref_title_notification_body_enabled">Visa notifikationer på Låsskärmen</string>
     <string name="pref_title_ringtone_repeat">Notifikationsljud</string>
     <string name="pref_title_ringtone_repeat_summary">Spela ett notifikationsljud när meddelande tas emot när skärmen är avstängd</string>
     <string name="pref_title_send_delivery_reports">Skicka leveransmeddelanden</string>
@@ -512,7 +513,7 @@
     <string name="rcs_forward_successful">Vidarebefordrats framgångsrikt</string>
     <string name="rcs_group_notification_invitation">群邀请</string>
     <string name="rcs_message">China Mobile Messaging</string>
-    <string name="rcs_message_disable">Kan inte visa det här meddelandet i andra rummet</string>
+    <string name="rcs_message_disable">Kan inte visa det här meddelandet i det Sekundära utrymmet</string>
     <string name="rcs_msg">China Mobile Messaging</string>
     <string name="rcs_not_online">Kan inte använda China Mobile Messaging. Kontrollera dina nätverksinställningar och försök igen.</string>
     <string name="rcs_offline_hint">China Mobile Messaging är offline. Det gick inte att vidarebefordra detta meddelande.</string>
@@ -530,6 +531,7 @@
     <string name="rcs_summary_auto_resend_mms">Konvertera China Mobile multimedia-meddelanden till MMS efter det ursprungliga meddelandet inte kunde skickas. Din operatör debiterar dig för detta meddelande.</string>
     <string name="rcs_summary_auto_resend_sms">Konvertera China Mobile texmeddelanden till SMS efter att det ursprungliga meddelandet inte kunde skickas. Din operatör debiterar dig för detta meddelande.</string>
     <string name="rcs_summary_silence_message">Stäng av meddelande-notifikationer när desktop-klienten arbetar</string>
+    <string name="rcs_unavailable">Kan inte använda China Mobile Messaging nu. China Mobile SIM-kort är inte din standard datakort.</string>
     <string name="rcs_wait_for_retry_text">Väntar…</string>
     <string name="received_at_time">Mottagen kl: %1s</string>
     <string name="received_label">"Mottaget: "</string>
@@ -633,6 +635,7 @@
     <string name="send_signature_confirm_dialog_title">Skicka meddelande</string>
     <string name="send_sms">Skicka meddelande</string>
     <string name="send_to">Till:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Skickades kl: %1s</string>
     <string name="sent_label">"Skickat: "</string>
     <string name="service_message_not_found">Meddelande utgånget eller otillgängligt</string>
@@ -711,7 +714,7 @@
     <string name="timed_message_to">till</string>
     <string name="title_allow_network_access">Uppdatera information automatiskt</string>
     <string name="title_collapse_sp_messages">Gruppnotifikationer</string>
-    <string name="title_hide_verification_code">Dölj automatiskt OTP på låsskärmen</string>
+    <string name="title_hide_verification_code">Dölj automatiskt OTP på Låsskärmen</string>
     <string name="title_show_blocked_messages">Visa blockerade SMS</string>
     <string name="title_show_list_avatar">Visa profilbild</string>
     <string name="title_show_photo_word">Tilldela kontaktbilder</string>

@@ -57,6 +57,7 @@
     <string name="save_pic_success">Sparade bild till %s</string>
     <string name="save_pic_fail">Kunde inte spara bild, kontrollera ditt SD-kort</string>
     <string name="pic_not_exist">Bilden finns inte</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Välj produkt</string>
     <string name="michat_skillset_business_type_title">Välj tjänst</string>
     <string name="michat_close_text">Chatt avslutad</string>
@@ -161,8 +162,8 @@
     <string name="cta_cancel">Avbryt</string>
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Skicka rapport</string>
-    <string name="submit_dialog_content"><Data>"Din feedback tillsammans med bifogade filer och loggar kommer skickas till MIUI's servrar. De kan innehålla personlig information och din platsinfo. Att välja \"Godkänn\" betyder att du har läst och godkänt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>."</Data></string>
-    <string name="submit_dialog_content_global"><Data>"Din feedback tillsammans med bilagor (om det finns några) och loggar (du kan avmarkera de objekt som du inte vill ladda upp) kommer skickas till MIUI's servrar och till begränsad del av MIUI Forum för utvecklare. Informationen om dina trådar och aktivitet i forumet kommer också samlas in för analys och vidare kommunikation. Loggarna kan innehålla personlig information och din platsinfo. Dela inte loggarna med någon om du inte vill att denna information ska exponeras. Att välja \"Godkänn\" betyder att du har läst och godkänt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>."</Data></string>
+    <string name="submit_dialog_content">" "<Data>" Din feedback tillsammans med bifogade filer och loggar kommer skickas till MIUI's servrar. De kan innehålla personlig information och din platsinfo. Att välja \"Godkänn\" betyder att du har läst och godkänt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>. "</Data>" "</string>
+    <string name="submit_dialog_content_global">" "<Data>" Din feedback tillsammans med bilagor (om det finns några) och loggar (du kan avmarkera de objekt som du inte vill ladda upp) kommer skickas till MIUI's servrar och till begränsad del av MIUI Forum för utvecklare. Informationen om dina trådar och aktivitet i forumet kommer också samlas in för analys och vidare kommunikation. Loggarna kan innehålla personlig information och din platsinfo. Dela inte loggarna med någon om du inte vill att denna information ska exponeras. Att välja \"Godkänn\" betyder att du har läst och godkänt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>. "</Data>" "</string>
     <string name="submit_dialog_cancel">Godkänn inte</string>
     <string name="submit_dialog_confirm">Godkänn</string>
     <string name="tab_title_preferences">Inställningar</string>
@@ -180,7 +181,7 @@
     <string name="modem_tool_log_finish_title">Modemlogg sparad</string>
     <string name="modem_tool_log_finish_desc">Logg sparad till %s</string>
     <string name="bugreport_dialog_not_show_again">Visa inte igen</string>
-    <string name="bugreport_dialog_submit_content"><Data>Du sparar dina loggar på denna enhet nu. Loggarna kan innehålla personlig information och din platsinfo. Dela inte loggarna med någon om du inte vill att denna information ska exponeras. Att välja \"Godkänn\" betyder att du har läst och godkänt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>.</Data></string>
+    <string name="bugreport_dialog_submit_content">" "<Data> Du sparar dina loggar på denna enhet nu. Loggarna kan innehålla personlig information och din platsinfo. Dela inte loggarna med någon om du inte vill att denna information ska exponeras. Att välja \"Godkänn\" betyder att du har läst och godkänt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>. </Data>" "</string>
     <string name="bugreport_dump_start_notification_title">Skapar buggrapport…</string>
     <string name="bugreport_dump_start_notification_summary">Detta kan ta flera minuter.</string>
     <string name="bugreport_dump_complete_notification_title">Skapat felrapport</string>

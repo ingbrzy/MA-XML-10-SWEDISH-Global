@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="accept">Acceptera</string>
-    <string name="accept_or_deny">%1$s delade album %2$s med dej.</string>
+    <string name="accept_or_deny">%1$s delade albumet %2$s med dig.</string>
     <string name="actionbar_overflow_item_desc">Fler alternativ</string>
     <string name="add_automatically_alert_msg">Lägg till bilder från \"%1$s\" till detta album automatiskt?</string>
     <string name="add_automatically_alert_title">Lägg till bild automatiskt</string>
@@ -98,7 +98,6 @@
     <string name="app_name">Galleri</string>
     <string name="app_name_view_picture">Visa bilder</string>
     <string name="app_name_view_video">Se videoklipp</string>
-    <string name="apply">Tillämpa</string>
     <string name="associate_face_album">Välj ett album</string>
     <string name="auto_backup_introduce">Säkerhetskopiera bilder och videor automatiskt (Mi konto krävs)</string>
     <string name="auto_download_media_title">Ladda ner bilder från Mi Cloud automatiskt</string>
@@ -123,10 +122,6 @@
     <string name="baby_album_sharers_page_title">Dela med familjen</string>
     <string name="baby_birthday">Födelsedag</string>
     <string name="baby_face_desc">Bebisalbum</string>
-    <string name="baby_lock_wallpaper">Bakgrund på Låsskärmen</string>
-    <string name="baby_lock_wallpaper_cancelled">Ändrad till standardbakgrunden på Låsskärmen</string>
-    <string name="baby_lock_wallpaper_save_settings_msg">Tillämpa nuvarande inställningar?</string>
-    <string name="baby_lock_wallpaper_title">Använd bebisbild som låskärmens bakgrundsbild</string>
     <string name="baby_name_cannot_empty">Ange namn</string>
     <string name="baby_name_cannot_start_with">"Namnet kan inte börja med '%s'"</string>
     <string name="baby_name_contain_invalidate_char">"Namn kan inte innehålla '%s'"</string>
@@ -196,7 +191,6 @@
     <string name="byteShort">B</string>
     <string name="camera_needs_auto_backup_tip">Kameraalbum måste säkerhetskopieras</string>
     <string name="cancel">Avbryt</string>
-    <string name="cancel_baby_lock_wallpaper_confirm_msg">Ändra till standardbakgrunden på Låsskärmen?</string>
     <string name="cancel_download_btn_text">Avbryt</string>
     <string name="cancel_hint">Funktion avbruten</string>
     <string name="cannot_remove_creator">Kan inte ta bort skapare</string>
@@ -274,7 +268,7 @@
     <string name="collage_poster_global_summer_flower_text">SOMMAR</string>
     <string name="collage_poster_global_tea_text">EFTERMIDDAGSTE</string>
     <string name="collage_rotate">Rotera</string>
-    <string name="collage_select_image_range">Collage kan innehålla 1-4 bilder</string>
+    <string name="collage_select_image_range">Kollage kan innehålla 1-4 bilder</string>
     <string name="collage_title_layout">Utseende</string>
     <string name="collage_title_poster">Poster</string>
     <string name="collaps_people">Dölj</string>
@@ -347,6 +341,11 @@
     <string name="disable_auto_upload_tip">Slå av synkronisering mot Mi Cloud för det här albumet?</string>
     <string name="disable_auto_upload_title">Stäng av synkronisering med Mi Cloud</string>
     <string name="do_not_remind_me">Visa inte igen</string>
+    <string name="document_provider_guide_step_1">1. Tryck på knappen ”mer”.</string>
+    <string name="document_provider_guide_step_2">2. Tryck på ”Visa internt lagringsutrymme”.</string>
+    <string name="document_provider_guide_step_3">3. Tryck på knappen Meny på sidan.</string>
+    <string name="document_provider_guide_step_4">4. Välj ”SD-kort”.</string>
+    <string name="document_provider_guide_step_5">5. Tryck på ”Välj”.</string>
     <string name="double_tap_to_higher_definition">Dubbeltryck igen för HD-förhandsvisningen</string>
     <string name="download_canceled">Hämtningen avbröts</string>
     <string name="download_error_format">Kunde inte ladda ned %s</string>
@@ -373,7 +372,7 @@
     <string name="empty_recommend_face_page_view">Inga fler rekommendationer</string>
     <string name="empty_relation">Filnamnet kan inte vara blankt</string>
     <string name="empty_title_no_photos">Inga bilder eller video</string>
-    <string name="enable_auto_upload_tip">Slå på synkronisering mot Mi Cloud för det här albumet?</string>
+    <string name="enable_auto_upload_tip">Aktivera synkronisering med Mi Cloud för det här albumet?</string>
     <string name="enable_auto_upload_title">Sätt på synkronisering mot Mi Cloud</string>
     <string name="enable_cloud_for_sharing">Starta Mi Cloud album för att visa delade bilder.</string>
     <string name="enable_face_album_summary">Sortera bilder av de människor som är i dem automatiskt</string>
@@ -424,7 +423,7 @@
     <string name="error_over_quota_tip">För många förfrågningar. Vänta en minut eller två och försök igen.</string>
     <string name="error_repeat_apply">Albumet har redan delats</string>
     <string name="error_share_not_support">Denna funktion stöds inte ännu</string>
-    <string name="error_share_with_creator">Albumet är redan delat med dej</string>
+    <string name="error_share_with_creator">Albumet är redan delat med dig</string>
     <string name="error_socket_timeout">Nätverksanslutning frånkopplad</string>
     <string name="error_socket_timeout_action">Välj nätverk</string>
     <string name="error_socket_timeout_msg">Anslut till ett annat nätverket och försök igen.</string>
@@ -450,6 +449,18 @@
     <string name="exit_video_play">Avsluta</string>
     <string name="expand_desc">Mer</string>
     <string name="expand_people">Visa fler människor</string>
+    <string name="ext_sdcard_first_entrance_request_failed_text">Galleriet kommer att spara objekt till internt lagringsutrymme istället. Du kan ändra detta i Inställningar > lagring > lagringsinställningar.</string>
+    <string name="ext_sdcard_first_entrance_request_failed_title">Det gick inte att ge tillåtelser.</string>
+    <string name="ext_sdcard_guide_first_page_button_text">Nästa</string>
+    <string name="ext_sdcard_guide_last_page_button_text">Ge tillåtelser</string>
+    <string name="ext_sdcard_guide_text">Galleri behöver din tillåtelse att få tillgång till SD-kortet. Det här kan du göra:</string>
+    <string name="ext_sdcard_operation_failed_text">Galleri behöver behörigheter för åtkomst till SD-kortet.</string>
+    <string name="ext_sdcard_operation_failed_title">Det gick inte att slutföra åtgärden</string>
+    <string name="ext_sdcard_permission_request_button_text">Jag förstår</string>
+    <string name="ext_sdcard_permission_request_reason">Galleri behöver din tillåtelse att få tillgång till SD-kortet. Det gör att du kan ta bort och redigera foton och videoklipp som lagras på SD-kortet.</string>
+    <string name="ext_sdcard_permission_request_title">Tillåt att Galleri får tillgång till SD-kort</string>
+    <string name="ext_sdcard_request_failed_button_text">Okej</string>
+    <string name="ext_sdcard_request_succeed_toast_text">Du är redo att rocka!</string>
     <string name="face_album_empty">"Inte tillräckligt med bilder för att känna igen personer.
 Ta fler bilder av dina vänner!"</string>
     <string name="face_album_empty_syncing">Synkroniserar data, återkom om en stund</string>
@@ -467,6 +478,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="face_name_edit">Redigera</string>
     <string name="face_name_input">Ange namn</string>
     <string name="face_recommend">Rekommendationer</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunde inte slutföra åtgärden</string>
     <string name="fail_to_pick_email">Ogiltig e-postadress</string>
     <string name="fail_to_sync_album">Kunde inte synkronisera album. Kolla din datakoppling och försök igen.</string>
@@ -477,6 +489,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="feature_guidance_photo_effects">"Nya foto effects
 are tillgänglig"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nya effekter finns</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Minne</string>
     <string name="filter_bi_mono">Mono</string>
     <string name="filter_bi_pink">Rosa</string>
@@ -546,6 +559,7 @@ are tillgänglig"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Ange</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri behöver tillgång till 
 %s
  för att fungera normalt, tryck på \"Tillämpa\" för att gå till Behörigheter."</string>
@@ -721,6 +735,7 @@ för att göra galleriet personligt"</string>
     <string name="operation_save">Spara</string>
     <string name="operation_send">Skicka</string>
     <string name="operation_set_contact_photo">Använd som profilbild</string>
+    <string name="operation_set_slide_wallpaper">Ställ in detta som ett bildspel och bakgrundsbild</string>
     <string name="operation_set_wallpaper">Använd som bakgrund</string>
     <string name="operation_share">Dela</string>
     <string name="operation_show_in_photos_tab">Visa i Foto</string>
@@ -744,6 +759,7 @@ för att göra galleriet personligt"</string>
     <string name="people_mark_mode_title_no_mark_name">Välj en person</string>
     <string name="people_page_label">Människor</string>
     <string name="people_page_unname">Namnlös</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Sällskapsdjursfoton</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Foton</string>
@@ -867,6 +883,7 @@ för att göra galleriet personligt"</string>
     <string name="picker_image_will_download">%d av de valda fotona finns inte på enheten. De kommer att laddas ner.</string>
     <string name="picker_no_network_message">Anslut till nätverket för att ladda ner</string>
     <string name="picker_origin_need_download">%1$d av de valda fotona (%2$dMB) finns inte på enheten. Ladda ner med mobildata?</string>
+    <string name="picker_origin_request_progress_fail">Kunde inte ladda ned den ursprungliga bilden på grund av ett nätverksfel.</string>
     <string name="picker_origin_request_progress_message">Förbereda ursprungliga filer (%1$d/%2$d) …</string>
     <string name="picker_title_format">Välj %1$d till %2$d bilder</string>
     <string name="picker_title_selection_format">Valda foton: %d</string>
@@ -1004,6 +1021,9 @@ för att göra galleriet personligt"</string>
     <string name="search_title_recommend">Rekommenderad</string>
     <string name="search_title_suggestion">Förslag</string>
     <string name="search_title_tag">Objekt</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Söker efter projektor…</string>
     <string name="secret_album_card_description">Bästa platsen för alla dina små hemligheter</string>
     <string name="secret_album_card_title">Försök dolda album</string>
@@ -1023,7 +1043,7 @@ för att göra galleriet personligt"</string>
     <string name="secret_reason_unknow_reasons">Okänt fel</string>
     <string name="secret_reason_video_not_support">Kan inte lägga till videor dolda album</string>
     <string name="see_ignore_faces">Visa personer du har ignorerat</string>
-    <string name="select_image_operation">Lägga till foton</string>
+    <string name="select_image_operation">Lägger till foton</string>
     <string name="select_item_face">"Är detta '%s'?"</string>
     <string name="select_origin_tip">Originalfil (%s)</string>
     <string name="send_file_beautify_failed">Kunde inte dela</string>
@@ -1032,7 +1052,8 @@ för att göra galleriet personligt"</string>
     <string name="send_secret_file_failed">Kunde inte dela</string>
     <string name="send_secret_file_space_low">Inte tillräckligt med lagringsutrymme</string>
     <string name="send_too_many_files_error">Kan skicka upp till %d objekt åt gången</string>
-    <string name="set_as_baby_lock_wallpaper">Använd som bakgrund på Låsskärmen</string>
+    <string name="set_as_slide_wallpaper_description">Denna bild är en miniatyr, ladda originalet?</string>
+    <string name="set_as_slide_wallpaper_title">Ställ in detta som ett bildspel och bakgrundsbild</string>
     <string name="set_as_wallpaper_description">Denna bild är en miniatyr, ladda originalet?</string>
     <string name="set_as_wallpaper_title">Använd som bakgrund</string>
     <string name="set_face_group_toast_msg_new_user">Håll en person för att slå samman eller ignorera.</string>
@@ -1049,7 +1070,7 @@ för att göra galleriet personligt"</string>
     <string name="share_album_qr_code">QR-kod Album</string>
     <string name="share_by_email_start">Dela %1$s i bakgrunden</string>
     <string name="share_by_email_successfully">Delad %1$s</string>
-    <string name="share_public_url_text">Jag har delat albumet %1$s med dej. Se det på %2$s</string>
+    <string name="share_public_url_text">Jag har delat albumet %1$s med dig. Se det på %2$s</string>
     <string name="share_with_family">Dela med familjen</string>
     <string name="sharer_quota_fulfiled">Du har redan delat albumet med max antal personer.</string>
     <string name="show_hidden_album_title">Visa dolda album</string>
@@ -1165,7 +1186,7 @@ för att göra galleriet personligt"</string>
     <string name="unpublish_succeeded">Album avpubliserad</string>
     <string name="unpublishing">Avbryter/u2026</string>
     <string name="unsupport_video">%s fungerar inte med videor</string>
-    <string name="user_agree">Acceptera</string>
+    <string name="user_agree">Godkänn</string>
     <string name="user_agreement2">Användarvillkor</string>
     <string name="user_agreement4">Integritetspolicy</string>
     <string name="user_alias_self">Själv</string>
@@ -1282,6 +1303,7 @@ för att göra galleriet personligt"</string>
     <string name="view_face_album">Visa album</string>
     <string name="view_more_face_desc">Visa fler människor</string>
     <string name="voice_assistant">Röstinmatning</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Välkommen till Mi Cloud</string>
     <string name="where_is_barcode">Var är QR-koden?</string>
     <string name="who_is_this">Vem är det?</string>
@@ -1289,7 +1311,7 @@ för att göra galleriet personligt"</string>
     <string name="yes">Ja</string>
     <string name="yesterday">Igår</string>
     <string name="you_are">Du är barnets</string>
-    <string name="operation_set_slide_wallpaper">Ställ in detta som ett bildspel och bakgrundsbild</string>
+    <string name="photo_editor_talkback_crop_screen">Helskärm bildförhållande</string>
     <string name="refocus_discard_confirm_message">Spara ändringar?</string>
     <string name="refocus_discard_negative_btn">Ta bort</string>
     <string name="refocus_discard_positive_btn">Spara</string>
@@ -1302,6 +1324,4 @@ för att göra galleriet personligt"</string>
     <string name="refocus_title">Oskärpa</string>
     <string name="refocus_type_static">Nivå för oskärpa</string>
     <string name="refocus_type_video">Ljusspår</string>
-    <string name="set_as_slide_wallpaper_description">Denna bild är en miniatyr, ladda originalet?</string>
-    <string name="set_as_slide_wallpaper_title">Ställ in detta som ett bildspel och bakgrundsbild</string>
 </resources>

@@ -10,7 +10,7 @@
     </plurals>
     <plurals name="Ndays_ago_at">
         <item quantity="other">%1$d dagar innan kl %2$s</item>
-        <item quantity="one">%1$d dag sedan %2$s</item>
+        <item quantity="one">%1$d dag innan kl %2$s</item>
     </plurals>
     <plurals name="Nhours">
         <item quantity="other">%d timmar före</item>
@@ -77,8 +77,8 @@
         <item quantity="one">Du kan skriva in upp till %1$d dag</item>
     </plurals>
     <plurals name="event_reminders_to_max">
-        <item quantity="other">Kan ställa in %d-påminnelser</item>
-        <item quantity="one">Kan ställa in %d-påminnelser</item>
+        <item quantity="other">Det är möjligt att ställa in %d -påminnelser</item>
+        <item quantity="one">Det är möjligt att ställa in %d -påminnelser</item>
     </plurals>
     <plurals name="month_more_events">
         <item quantity="other">+%d</item>

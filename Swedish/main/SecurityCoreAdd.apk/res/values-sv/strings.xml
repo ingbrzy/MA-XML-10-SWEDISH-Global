@@ -67,10 +67,11 @@
     <string name="xspace_label">Dubbelappar</string>
     <string name="xspace_setting_label">Inställningar för Dual App</string>
     <string name="xspace_account">Konton för Dubbelappar</string>
+    <string name="xspace_remove">Ta bort konton för Dubbelappar</string>
     <string name="declare_dialog_title">Om Dubbelappar</string>
     <string name="menu_item_about_privacy_title">Integritetspolicy</string>
     <string name="stop_xspace_alert_title">Ta bort konton för Dubbelappar</string>
-    <string name="stop_xspace_alert_content">Du har tagit bort alla Dubbelappar. Ta bort konton för Dubbelappar and appdata också? Om detta görs måste du skapa Dubbelappar igen när du behöver dem.</string>
+    <string name="stop_xspace_alert_content">Alla dubbelappar och deras data kommer tas bort permanent. Du måste starta om din enhet för att tillämpa denna ändring. Ta bort konton nu?</string>
     <string name="xspace_loading_msg">Laddar appar…</string>
     <string name="xspace_header">Dubbelappar</string>
     <string name="xspace_introduce">Rekommenderad</string>

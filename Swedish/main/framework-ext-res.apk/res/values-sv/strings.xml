@@ -135,6 +135,7 @@
     <string name="security_permission_open_wifi_settings">Öppna inställningar för Wi-Fi</string>
     <string name="xspace_resolver_activity_title">Välj app</string>
     <string name="user_switching_dialog_text">Byter…</string>
+    <string name="xspace_head">Dubbelapp</string>
     <string name="activity_package_delete_confirm_title">Uppmärksamma</string>
     <string name="button_text_cancel">Avbryt</string>
     <string name="button_text_delete">Avinstallera</string>

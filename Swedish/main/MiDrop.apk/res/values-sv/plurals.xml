@@ -21,19 +21,31 @@
         <item quantity="one">%2$d fil från %1$s</item>
     </plurals>
     <plurals name="f">
+        <item quantity="other">%1$s och %2$s andra objekt håller redan på att överföras.</item>
+        <item quantity="one">%1$s och %2$s andra objekt är redan att vara överföras.</item>
+    </plurals>
+    <plurals name="g">
         <item quantity="other">%d objekt valda</item>
         <item quantity="one">%d objekt valt</item>
     </plurals>
-    <plurals name="g">
+    <plurals name="h">
         <item quantity="other">%1$d objekt</item>
         <item quantity="one">%1$d objekt</item>
     </plurals>
-    <plurals name="h">
+    <plurals name="i">
         <item quantity="other">Receive %1$d files (%2$s)</item>
         <item quantity="one">Ta emot %1$d fil (%2$s)</item>
     </plurals>
-    <plurals name="i">
+    <plurals name="j">
         <item quantity="other">Skicka %1$d filer (%2$s)</item>
         <item quantity="one">Send %1$d file (%2$s)</item>
+    </plurals>
+    <plurals name="k">
+        <item quantity="other">Hittade uppdateringar för %d -appar</item>
+        <item quantity="one">Hittade uppdateringar för %d -appen</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="other">%1$s delade %2$s objekt</item>
+        <item quantity="one">%1$s delade %2$s objekt</item>
     </plurals>
 </resources>

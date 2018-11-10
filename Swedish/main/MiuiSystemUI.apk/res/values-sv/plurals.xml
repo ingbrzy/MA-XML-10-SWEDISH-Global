@@ -28,6 +28,14 @@
         <item quantity="other">Felaktig PUK-kod, %d försök återstår</item>
         <item quantity="one">Felaktig PUK-kod, %d försök återstår</item>
     </plurals>
+    <plurals name="input_password_after_timeout_msg">
+        <item quantity="other">Efter %d timmar av inaktivitet måste lösenord anges</item>
+        <item quantity="one">Efter %d timme av inaktivitet måste lösenord anges</item>
+    </plurals>
+    <plurals name="input_pattern_after_timeout_msg">
+        <item quantity="other">Efter %d timmar av inaktivitet måste mönster ritas</item>
+        <item quantity="one">Efter %d timme av inaktivitet måste mönster ritas</item>
+    </plurals>
     <plurals name="keyguard_charging_info_could_use_hour_time_text">
         <item quantity="other">"Ungefär %d  timmar kvar"</item>
         <item quantity="one">"Ungefär %d  timme kvar"</item>

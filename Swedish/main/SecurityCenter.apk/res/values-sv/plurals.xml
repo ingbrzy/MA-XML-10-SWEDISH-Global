@@ -76,9 +76,9 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="other">"Nätverksåtkomst är begränsad för &lt;font color='#ff0000'>%d&lt;/font> appar"</item>
         <item quantity="one">"Nätverksåtkomst är begränsad för &lt;font color='#ff0000'>%d&lt;/font> app"</item>
     </plurals>
-    <plurals name="om_ill_proc_multi_app_title">
-        <item quantity="other">%d app fungerar inte korrekt och drar mycket ström</item>
-        <item quantity="one">%d app fungerar inte korrekt och drar mycket ström</item>
+    <plurals name="om_locked_apps_title">
+        <item quantity="other">%d låsta appar</item>
+        <item quantity="one">%d låst app</item>
     </plurals>
     <plurals name="power_center_battery_day">
         <item quantity="other">"%d dagar "</item>

@@ -95,4 +95,7 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="message_i_know">Jag förstår</string>
     <string name="high_temp_state">Hög temperatur</string>
     <string name="high_temp_state_message">Skydd mot hög temperatur, data, Wi-Fi, GPS, Kamera kommer bli begränsade</string>
+    <string name="atrace_start">Spelar in atrace-logg…</string>
+    <string name="atrace_saving">Sparar atrace-logg…</string>
+    <string name="atrace_saved">Sparad</string>
 </resources>

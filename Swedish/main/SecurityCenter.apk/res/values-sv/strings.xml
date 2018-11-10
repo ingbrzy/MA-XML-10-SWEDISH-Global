@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Ljud</string>
@@ -347,7 +349,7 @@
     <string name="cta_dialog_title">Internetanslutning</string>
     <string name="cta_dialog_msg">Säkerhet behöver Internetuppkoppling för att få uppdateringar, och även din plats för att fungera normalt.</string>
     <string name="cta_settings">Tillåt internetuppkoppling</string>
-    <string name="gdpr_msg"><Data>För att kunna använda de grundläggande funktionerna i Säkerhet måste du godkänna att Xiaomi samlar, behandlar och använder dina personuppgifter, inklusive information om hur du använder Säkerhetsfunktioner (t.ex. statistik om mobila data, information om skadlig kod, samt grundläggande information om din enhet) och andra typer av information som anges i vår&lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a>.</Data></string>
+    <string name="gdpr_msg">" "<Data> För att kunna använda de grundläggande funktionerna i Säkerhet måste du godkänna att Xiaomi samlar, behandlar och använder dina personuppgifter, inklusive information om hur du använder Säkerhetsfunktioner (t.ex. statistik om mobila data, information om skadlig kod, samt grundläggande information om din enhet) och andra typer av information som anges i vår&lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a>. </Data>" "</string>
     <string name="app_name_na">Dataanvändning</string>
     <string name="list_empty_text">Tom</string>
     <string name="dialog_title_attention">Uppmärksamma</string>
@@ -457,6 +459,7 @@ ska svara"</string>
     <string name="managed_user_title">Alla arbetsappar</string>
     <string name="pref_about_traffic_title">Inställningar för mobildataanvändning</string>
     <string name="pref_traffic_manage_title">Dataanvändning</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Mobildataabonnemang</string>
     <string name="pref_adjust_traffic_data">Ange datagräns</string>
     <string name="pref_category_title_other">Ytterligare inställningar</string>
@@ -897,10 +900,20 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="status_bar_network_flow_purchase">"   Köp >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   Ställ in gräns för mobildata >"</string>
     <string name="status_bar_network_flow_phone_balance">"   Saldo:%1$s "</string>
-    <string name="status_bar_network_flow_exceed_content">Idag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp; | Överskridit dataabonnemang: &lt;font color=%2$s>%3$s&lt;/font></string>
-    <string name="status_bar_network_flow_content">Idag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Återstår: %2$s</string>
-    <string name="status_bar_network_flow_content_not_setting">Idag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Denna månad: %2$s</string>
-    <string name="status_bar_network_flow_content_virtual_card">%1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;%2$s&amp;nbsp;&amp;nbsp;&amp;nbsp;</string>
+    <string name="status_bar_network_flow_exceed_content">"Idag: %1$s
+        &amp;nbsp;&amp;nbsp;&amp;nbsp; | Överskridit dataabonnemang: &lt;font color=%2$s>%3$s&lt;/font>
+        "</string>
+    <string name="status_bar_network_flow_content">"Idag: %1$s
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;
+        Återstår: %2$s"</string>
+    <string name="status_bar_network_flow_content_not_setting">"Idag: %1$s
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;
+        Denna månad: %2$s"</string>
+    <string name="status_bar_network_flow_content_virtual_card">"%1$s
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;
+        %2$s
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;
+        "</string>
     <string name="pref_key_tethering_setting">Sätt datagräns en gång</string>
     <string name="pref_key_tethering_title">Sätt datagräns en gång</string>
     <string name="tether_limit_value_custom">Anpassad</string>
@@ -917,25 +930,8 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="cpu_usage_android_system">Androidsystem</string>
     <string name="cpu_usage_process_run_time_little_time">Mindre än 1 minut</string>
     <string name="cpu_usage_view_action_btn_text">Tryck för att visa</string>
-    <string name="cpu_usage_app_bg_restrict_title">Inställningar för bakgrundsaktivitet</string>
-    <string name="cpu_usage_app_bg_restrict_default">Auto (Rekommenderat)</string>
-    <string name="cpu_usage_app_bg_restrict_no_limit">Begränsa inte</string>
-    <string name="cpu_usage_app_bg_restrict_partly">Efter %s</string>
-    <string name="cpu_usage_app_bg_restrict_full">Begränsa bakgrundsaktivitet</string>
-    <string name="cpu_usage_app_bg_restrict_partly_short">Efter %s</string>
-    <string name="cpu_usage_app_bg_restrict_default_short">Auto</string>
-    <string name="cpu_usage_app_tip_can_not_restrict_system_app">Kan inte begränsa systemtjänster</string>
-    <string name="cpu_usage_app_uninstalled_toast">Den här appen är avinstallerad</string>
     <string name="memory_clean_memory_size_tip">Cache</string>
-    <string name="memory_clean_click_tip">Öka hastigheten</string>
-    <string name="memory_clean_running_process_title">Övervaka appar (%d)</string>
-    <string name="memory_clean_cleaning_title">Rensa cache</string>
     <string name="memory_clean_no_need_clean">Allt ser bra ut</string>
-    <string name="memory_cleaned_memory_up">Hastighetsökning</string>
-    <string name="memory_cleaned_memory_info">Tillgängligt minne</string>
-    <string name="memory_clean_no_running_process">Inga uppgifter att rensa</string>
-    <string name="memory_clean_btn_click_text">Öka hastigheten</string>
-    <string name="optimize_result_header_view_summary">Hastighetsökning</string>
     <string name="optimize_result_available_memory_info">Tillgängligt minne</string>
     <string name="optimize_result_title_uninstall_apps">Appar</string>
     <string name="om_settings_title">Inställningar</string>
@@ -951,44 +947,13 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="om_settings_memory_occupy_notify_never">Aldrig</string>
     <string name="om_lock_app_locked_app">Låst</string>
     <string name="om_lock_app_unlocked_app">Olåst</string>
-    <string name="om_lock_app_locked_app_occupy_memory">Att låsa för många appar minskar din telefons prestanda</string>
-    <string name="om_lock_app_tip_msg">Tryck för att låsa</string>
-    <string name="om_notify_cpu_load_too_high_title">CPU-användningen av %s är för hög</string>
-    <string name="om_notify_cpu_load_too_high_summary">Begränsa bakgrundaktivitet för att öka hastigheten</string>
-    <string name="om_notify_need_clean_memory_title">App cachestorlek nådde %s</string>
-    <string name="om_notify_need_clean_memory_summary">Rensa cachen för öka hastigheten</string>
-    <string name="om_cpu_overload_activity_title">Appar med hög CPU-användning</string>
-    <string name="om_cpu_overload_app_name">Appar med hög CPU-användning</string>
-    <string name="om_cpu_overload_detail">Använde %1$s av CPU-kapaciteten för %2$s</string>
-    <string name="om_btn_text_quick_fix">Optimera</string>
-    <string name="om_cpu_overload_proc_activity_title">Problem</string>
-    <string name="om_cpu_overload_proc_title">Problem</string>
-    <string name="om_media_scan_timeout_proc_name">Mediaserver</string>
-    <string name="om_media_scan_timeout_proc_detail">Mediaservern arbetar i bakgrunder. Du kan begränsa aktiviteten.</string>
-    <string name="om_media_scan_time_warn_title">"Mediaservern arbetar i bakgrunder.
- Aktiviteten förkortar batteritiden."</string>
-    <string name="om_other_processes">Andra uppgifter</string>
-    <string name="om_other_processes_cpu_usage_summary">CPU-användningens genomsnitt är lägre än %s%%</string>
-    <string name="om_cpu_overload_app_fixed">Alla problem löstes</string>
-    <string name="om_memory_clean_cleaning_text">Ökar hastigheten…</string>
-    <string name="om_formatted_percent_string">%s%%</string>
-    <string name="om_cpu_usage_warn_title_text">"Denna app kan sakta ner
-din enhet"</string>
-    <string name="om_ill_proc_handle_unstaill_title">Avinstallera %s?</string>
-    <string name="om_ill_proc_handle_uninstall_prompt">Avinstallera denna appen för att lösa problem med batterianvändningen.</string>
-    <string name="om_ill_proc_type_wakelock_title">Denna appen blockerar strömsparläge och drar mycket batteri</string>
-    <string name="om_ill_proc_type_wakelock_detail">Lös strömsparlägesproblem</string>
-    <string name="om_ill_proc_type_wifiscan_title">Appen söker ofta efter Wi-Fi och drar mycket batteri</string>
-    <string name="om_ill_proc_type_wifiscan_detail">Åtgärda problem med Wi-Fi sökning</string>
-    <string name="om_ill_proc_type_cpu_title">Denna appen ockuperar CPUn och drar mycket batteri</string>
-    <string name="om_ill_proc_type_cpu_detail">Lös problem med arbetsbelastningen på CPU</string>
-    <string name="om_ill_proc_type_gps_title">Appen använder GPS:en ofta och drar mycket batteri</string>
-    <string name="om_ill_proc_type_gps_detail">Åtgärda GPU-användningsproblem</string>
-    <string name="om_ill_proc_type_alarm_title">Appen väcker enheten ofta och drar mycket batteri</string>
-    <string name="om_ill_proc_type_alarm_detail">Åtgärda bakgrundsaktivitetsproblem</string>
-    <string name="om_ill_proc_type_radio_title">Appen ansluter till nätverket ofta och drar mycket batteri</string>
-    <string name="om_ill_proc_type_radio_detail">Åtgärda nätverksanslutningproblem</string>
-    <string name="om_ill_proc_activity_title">Problem</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
+    <string name="om_not_finish_speedboost">Prestandaoptimering krävs</string>
+    <string name="om_running_locked_apps">Låsta appar som körs</string>
+    <string name="om_running_system_apps">Systemappar som kör</string>
+    <string name="om_running_third_apps">Tredjepartsappar som kör</string>
+    <string name="om_locked_apps_summary">Låsta appar kommer ignoreras av prestendaoptimeringen.</string>
+    <string name="om_promotion">Reklam</string>
     <string name="power_center_title">Batterianvändning</string>
     <string name="power_center_back">Tillbaka</string>
     <string name="power_center_auto_shutdown">Schemalägg när enheten ska startas och stängas av</string>
@@ -1032,6 +997,7 @@ din enhet"</string>
     <string name="usage_type_data_send">Mobildata skickad</string>
     <string name="usage_type_no_coverage">Tid utan signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="power_screen">Skärm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1226,16 +1192,6 @@ din enhet"</string>
     <string name="power_center_main_percent_formatted">%s%%</string>
     <string name="auto_task_manage_new_task">Nya automatiska uppgifter</string>
     <string name="extreme_power_save_mode_title">Extrem Batterisparare</string>
-    <string name="extreme_power_save_mode_summary">Extrem Batterisparare begränsar bakgrundsaktivitet och stoppar synkronisering.</string>
-    <string name="extreme_power_save_description"><li>Extrem Batterisparare begränsar bakgrundsaktivitet för en app efter att du lämnat den och gått tillbaka till Hemskärmen. Denna app kommer inte sända notifikationer eller motta uppdateringar.</li>"
-"<li>Lås den i Senast använda appar eller lägg till den som bakgrundsundantag nedan om du vill att en app ska köras i bakgrunden. Upp till 4 appar kan köras i bakgrunden när Extrem Batterisparare är aktiverad.</li>"
-"<li>Extrem Batterisparare avaktiverar automatiskt NFC. Du kan ändra detta i Inställningar.</li>"
-"<li>För att se till att du kan använda alla funktioner på din enhet normalt kommer Extrem Batterisparare automatiskt avaktiveras när batterinivån är över 30%.</li></string>
-    <string name="extreme_add_white_list_title">Bakgrundsundantag</string>
-    <string name="extreme_add_white_list_summary">Lägg till upp till 4 appar</string>
-    <string name="notification_open_extreme_mode_text">Extrem Batterisparare aktiverad</string>
-    <string name="notification_exit_extreme_mode_title">Extrem Batterisparare avaktiverad</string>
-    <string name="notification_exit_extreme_mode_text">Batteriet är laddad mer än %s</string>
     <string name="handle_title_app">Appar</string>
     <string name="handle_title_abnormal">Tömmer batteri</string>
     <string name="handle_title_system">Systemets batterianvändning</string>
@@ -1258,12 +1214,17 @@ din enhet"</string>
     <string name="power_center_list_item_auto_brightness">Justera skärmens ljusstyrka automatiskt</string>
     <string name="power_center_list_item_deep_save_title">Avancerade inställningar</string>
     <string name="power_center_list_item_battery_status_time">h</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
     <string name="power_center_stop_scan_title">Avbryt skanning</string>
     <string name="hide_mode_result_summary_text">Anpassa Batterispararens inställningar för enskilda appar</string>
     <string name="auto_task_result_summary_text">Konfigurera automatiska uppgifter för Batterispararen</string>
     <string name="pc_settings_title">Inställningar för batterianvändning</string>
     <string name="pc_main_activity_back">Tillbaka</string>
     <string name="extreme_power_save_mode_card_summary">Aktivera Extremläge för att spara ström när batterinivån är låg.</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
     <string name="handle_bar_title_system">System</string>
     <string name="apps_list_header_title_sms">Kontrollera meddelandeapp</string>
     <string name="apps_list_header_title_sms_access">Begränsa tillgång till verifieringskoder</string>
@@ -1417,11 +1378,13 @@ din enhet"</string>
     <string name="menu_text_optimize_manage">Öka hastigheten</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_summary_networkassistants">Hantera ditt dataabonnemang</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Överskred datagränsen</string>
     <string name="menu_summary_networkassistants_3">Tillräckligt med mobildata återstår</string>
     <string name="menu_summary_networkassistants_4">Håller på att få slut på mobildata</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1434,12 +1397,14 @@ din enhet"</string>
     <string name="menu_summary_garbage_cleanup">Inga skräpfiler hittades</string>
     <string name="menu_summary_garbage_cleanup_2">Skräpstorlek</string>
     <string name="menu_summary_garbage_cleanup_3">Rensa skräp nu</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Batterianvändning</string>
     <string name="menu_summary_power_manager">Batterispararen ger mer tid mellan laddningarna</string>
     <string name="menu_summary_power_manager_1">Batteriet är fulladdat</string>
     <string name="menu_summary_power_manager_2">%såterstår</string>
     <string name="menu_summary_power_manager_3">Anslut laddare</string>
     <string name="menu_summary_power_manager_4">%still fulladdad</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Föregående skanning avbröts</string>
     <string name="examination_score_100">Allt ser bra ut!</string>
     <string name="examination_score_80_100">Några objekt kan optimeras</string>
@@ -1815,6 +1780,7 @@ din enhet"</string>
     <string name="card_main_deepclean_wechat_action">Rensa</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -2072,8 +2038,8 @@ din enhet"</string>
     <string name="app_manager_permission_manager_title">Behörigheter</string>
     <string name="app_manager_permission_notify_title">Notifikationer</string>
     <string name="app_manager_permission_power_saving_title">Batterisparare</string>
-    <string name="app_manager_default_open_title">Rensa standardappar</string>
-    <string name="app_manager_default_close_summary">Används inte standardapp.</string>
+    <string name="app_manager_default_open_title">Rensa som standardapp</string>
+    <string name="app_manager_default_close_summary">Används inte som standardapp.</string>
     <string name="app_manager_default_open_summary">Appen används som standardapp för vissa åtgärder.</string>
     <string name="app_manager_app_version_name">Version:</string>
     <string name="app_manager_unstall_application">Avinstallera</string>
@@ -2198,6 +2164,7 @@ din enhet"</string>
     <string name="gs_call_handsfree_mute">Tyst läge</string>
     <string name="gs_gamebox">Genvägar i spel</string>
     <string name="gs_gamebox_detail">Visa panelen för genvägar i spel</string>
+    <string name="gs_slip_gamebox_detail">Använd slider för att genvägspanelen ska visas. Snabbsvar och alternativ för skärminspelaren är tillgängliga.</string>
     <string name="gs_gamebox_slip">Tryck ner skärmen för att öppna</string>
     <string name="gs_forbid_autosync">Begränsa synkronisering av bakgrundsdata</string>
     <string name="gs_app_back_self_start">Batterisparare</string>
@@ -2303,7 +2270,7 @@ din enhet"</string>
     <string name="thermal_tips_title">Uppmärksamma</string>
     <string name="thermal_tips_message">Att spela spel i prestandaläge kan leda till överhettningsproblem.</string>
     <string name="forbid_autobright_title">Fast ljusstyrka för skärmen</string>
-    <string name="forbid_autobright_summary">Ljusstyrkan för skärmen kommer vara fast när du spelar spel</string>
+    <string name="forbid_autobright_summary">Automatisk ljusstyrka kommer avaktiveras medan du spelar och återställa när du är klar</string>
     <string name="gamebooster_lowbattery_notification_title">Batterinivån är lägre än 5%%</string>
     <string name="gamebooster_lowbattery_notification_summary">Ladda din enhet innan den sätts på.</string>
     <string name="game_ad_recommendation">Alla spelar</string>
@@ -2367,6 +2334,7 @@ din enhet"</string>
     <string name="gb_create_icon_summary">Skapa genväg på Hemskärmen</string>
     <string name="title_reply">Kommentera</string>
     <string name="title_like">Gilla</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Mobildata</string>
     <string name="game_wid_viewpoint_buttom">Ta en kort paus.</string>
     <string name="video_repeat">Spela igen</string>
