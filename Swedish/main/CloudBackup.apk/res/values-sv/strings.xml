@@ -49,8 +49,6 @@
     <string name="self_device">"Denna telefons "</string>
     <string name="main_space">Primära utrymmet</string>
     <string name="second_space">Sekundärt utrymme</string>
-    <string name="pattern_backup_name_with_home">%1$s (%2$s%3$s: %4$s)</string>
-    <string name="pattern_backup_name_without_home">%1$s (%2$s%3$s)</string>
     <string name="process_whole_recovery">Återställer \"%s\"</string>
     <string name="size_unknown">Okänd storlek</string>
     <string name="recovering">Återställer %s</string>
@@ -132,8 +130,6 @@
     <string name="provision_error_connect_msg">Testa nätverket och försök igen. Säkerhetskopior är inte tillgängliga när enheten är offline.</string>
     <string name="provision_error_connect_title">Kan inte ansluta</string>
     <string name="loading_user_backup">Laddar säkerhetskopia…</string>
-    <string name="loading_progress_num">(%s%%)</string>
-    <string name="error_num_placeholder">--</string>
     <string name="authentication_failed">Kunde inte verifiera konto.</string>
     <string name="no_account">Inte inloggad till Mi-konto.</string>
     <string name="no_backup">Hittade inga säkerhetskopior i Mi Cloud.</string>
