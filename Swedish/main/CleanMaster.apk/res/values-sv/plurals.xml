@@ -89,8 +89,8 @@
         <item quantity="one">Har inte använts på %d år</item>
     </plurals>
     <plurals name="resutl_function_install_app_summary">
-        <item quantity="other">" "&lt;Data> &lt;font color=#ff0000 >%d&lt;/font> appar har inte blivit använda på lång tid, ta en titt. ;&lt;/Data>" "</item>
-        <item quantity="one">" "&lt;Data> &lt;font color=#ff0000 >%d&lt;/font> app har inte blivit använda på lång tid, ta en titt. ;&lt;/Data>" "</item>
+        <item quantity="other">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> appar har inte blivit använda på lång tid, ta en titt.;&lt;/Data></item>
+        <item quantity="one">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> app har inte blivit använda på lång tid, ta en titt.;&lt;/Data></item>
     </plurals>
     <plurals name="clean_long_msg_p1">
         <item quantity="other">"Städar %1$d filer (%2$d%%)

@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Ljud</string>
@@ -347,7 +349,7 @@
     <string name="cta_dialog_title">Internetanslutning</string>
     <string name="cta_dialog_msg">Säkerhet behöver Internetuppkoppling för att få uppdateringar, och även din plats för att fungera normalt.</string>
     <string name="cta_settings">Tillåt internetuppkoppling</string>
-    <string name="gdpr_msg">" "<Data> För att kunna använda de grundläggande funktionerna i Säkerhet måste du godkänna att Xiaomi samlar, behandlar och använder dina personuppgifter, inklusive information om hur du använder Säkerhetsfunktioner (t.ex. statistik om mobila data, information om skadlig kod, samt grundläggande information om din enhet) och andra typer av information som anges i vår&lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a>. </Data>" "</string>
+    <string name="gdpr_msg"><Data>För att kunna använda de grundläggande funktionerna i Säkerhet måste du godkänna att Xiaomi samlar, behandlar och använder dina personuppgifter, inklusive information om hur du använder Säkerhetsfunktioner (t.ex. statistik om mobila data, information om skadlig kod, samt grundläggande information om din enhet) och andra typer av information som anges i vår&lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a>.</Data></string>
     <string name="app_name_na">Dataanvändning</string>
     <string name="list_empty_text">Tom</string>
     <string name="dialog_title_attention">Uppmärksamma</string>
@@ -359,6 +361,7 @@
     <string name="byteShort">B</string>
     <string name="yuan">CNY</string>
     <string name="percent_text_formatted">%s%%</string>
+    <string name="main_traffic_detail">Dataanvändning</string>
     <string name="main_toolbar_firewall">Begränsa dataanvändning</string>
     <string name="main_toolbar_statistic">Statistik för dataanvändning</string>
     <string name="main_toolbar_purchase">Fyll upp</string>
@@ -395,7 +398,7 @@ ska svara"</string>
     <string name="main_tc_over">Kalibrerad</string>
     <string name="main_purchase_tips">Marknadsförning</string>
     <string name="main_month_total_used">Använt den här månaden</string>
-    <string name="main_daily_package">Daglig dataplan</string>
+    <string name="main_daily_package">Daglig surfmängd</string>
     <string name="main_indicator_title">Aktivering</string>
     <string name="main_tobe_added_desc">Mobildata från ¥0.03/MB</string>
     <string name="main_button_mi_sim_close">Aktivera Mi SIM</string>
@@ -408,6 +411,9 @@ ska svara"</string>
     <string name="tc_parse_error">Kunde inte analysera SMS</string>
     <string name="tc_get_cmd_error">Kunde inte hämta mallen</string>
     <string name="tc_web_correct_error">Kunde inte att kalibrera</string>
+    <string name="main_daily_card_guide_dialog_title">Konfigurera surfmängd först</string>
+    <string name="main_daily_card_guide_dialog_summary">Du kan välja mellan daglig, månatlig och obegränsad surfmängd. Ange din surfmängd nu?</string>
+    <string name="main_daily_card_guide_dialog_ok">Ange</string>
     <string name="firewall_activity_lable">Begränsa dataanvändning för app</string>
     <string name="firewall_applist">Appar</string>
     <string name="firewall_mobile">Mobildata</string>
@@ -455,8 +461,10 @@ ska svara"</string>
     <string name="background_traffic">Bakgrund %s</string>
     <string name="detail_app_button">Information om appen</string>
     <string name="managed_user_title">Alla arbetsappar</string>
+    <string name="not_limited_brand">Obegränsat</string>
     <string name="pref_about_traffic_title">Inställningar för mobildataanvändning</string>
     <string name="pref_traffic_manage_title">Dataanvändning</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Mobildataabonnemang</string>
     <string name="pref_adjust_traffic_data">Ange datagräns</string>
     <string name="pref_category_title_other">Ytterligare inställningar</string>
@@ -492,10 +500,17 @@ ska svara"</string>
     <string name="adjust_traffic_carrier_summary_more_onemonth_before">Uppdaterad för över en månad sedan</string>
     <string name="left_precent">60%</string>
     <string name="right_precent">100%</string>
+    <string name="pref_category_package_type_title">Dataplan</string>
+    <string name="pref_title_traffic_package_type">Dataplan</string>
+    <string name="pref_traffic_package_type_summary">Daglig/Månatlig/Obegränsad</string>
+    <string name="pref_traffic_daily_package">Daglig surfmängd</string>
+    <string name="pref_traffic_monthly_package">Månatlig surfmängd</string>
+    <string name="pref_traffic_unlimited_package">Obegränsad surfmängd</string>
+    <string name="pref_traffic_daily_package_brand">Daglig surfmängd</string>
     <string name="pref_avaible_traffic">Mobildataabonnemang</string>
     <string name="pref_daily_traffic">Mobildata som ingår abonnemanget</string>
     <string name="pref_special_package_setting">Anpassad datagräns</string>
-    <string name="pref_data_usage_not_set">Okänd datagräns</string>
+    <string name="pref_data_usage_not_set">Okänd surfmängd</string>
     <string name="pref_operator_not_set">Ingen operatör vald</string>
     <string name="pref_special_package_setting_summary">Hantera lågtrafikdata, fyll på paket, daglig datagräns och designerad data</string>
     <string name="pref_warning_values">Varningsgräns för dataanvändning</string>
@@ -510,6 +525,8 @@ ska svara"</string>
     <string name="daily_pkg_traffic">Mobildata som ingår abonnemanget</string>
     <string name="input_aviable_traffic">Ange gräns för dataanvändning</string>
     <string name="pkg_traffic">Ange gräns för dataanvändning</string>
+    <string name="dialog_change_package_type_title">Ändra din surfmängd</string>
+    <string name="dialog_change_package_type_summary">Att ändra surfmängd kommer återställ alla inställningar för mobildataanvändning (t ex datagränser) till standardvärden. Ändra surfmängd nu?</string>
     <string name="free_traffic_settings">Lågtrafik dataanvändningsinställningar</string>
     <string name="free_time_traffic">Lågtrafik dataanvändningsgräns</string>
     <string name="power_save_on_time_start_time_summary_na">Från</string>
@@ -531,9 +548,9 @@ ska svara"</string>
     <string name="pref_key_half_year_package_switch">Halvårs datapaket</string>
     <string name="pref_key_half_year_package_value">Paketstorlek</string>
     <string name="pref_key_half_year_package_start">Startdatum</string>
-    <string name="pref_category_daily_package_tile">Daglig dataplan</string>
-    <string name="pref_key_daily_package_switch">Daglig dataplan</string>
-    <string name="pref_key_daily_package_value">Daglig dataplan</string>
+    <string name="pref_category_daily_package_tile">Daglig surfmängd</string>
+    <string name="pref_key_daily_package_switch">Daglig surfmängd</string>
+    <string name="pref_key_daily_package_value">Daglig surfmängd</string>
     <string name="pref_key_direction_traffic">Designerad mobildata</string>
     <string name="pref_key_daily_package_summary">Aktivera för att återställa daglig gräns för mobildata</string>
     <string name="traffic_setting_fragment_title">Dataanvändning förfrågan</string>
@@ -551,6 +568,21 @@ ska svara"</string>
     <string name="traffic_setting_fragment_send_num_tips">Ange telefonnummer</string>
     <string name="traffic_setting_fragment_sms_content_tips">Skriv ditt meddelande här</string>
     <string name="traffic_setting_fragment_loacation_alert_nomore">Visa inte igen</string>
+    <string name="traffic_setting_fragment_packege_type">Abonnemangsinställningar</string>
+    <string name="traffic_setting_fragment_month_title">Månatlig surfmängd</string>
+    <string name="traffic_setting_fragment_month_summary">Mobildata och samtalsminuter uppdateras varje månad</string>
+    <string name="traffic_setting_fragment_daily_title">Daglig surfmängd</string>
+    <string name="traffic_setting_fragment_daily_summary">Mobildata uppdateras varje dag</string>
+    <string name="traffic_setting_fragment_not_limited_title">Obegränsad surfmängd</string>
+    <string name="traffic_setting_fragment_not_limited_summary">Obegränsade alternativ för mobildata</string>
+    <string name="traffic_setting_fragment_next">Nästa</string>
+    <string name="daily_card_setting_fragment_daily_card_setting">Inställningar för daglig surfmängd</string>
+    <string name="daily_card_setting_fragment_daily_card_brand">Operatör</string>
+    <string name="daily_card_setting_fragment_daily_card_brand_value">Välj operatör</string>
+    <string name="daily_card_setting_fragment_daily_card_summary">MIUI kommer ange mobildatagränser och appar med obegränsad surfmängd enligt operatören du väljer. Om din operatör inte är listad väljer du \"Annan\" och konfigurerar din dagliga surfmängd manuellt.</string>
+    <string name="daily_card_setting_fragment_daily_package">Daglig gräns för mobildata</string>
+    <string name="daily_card_setting_fragment_month_package">Månatlig surfmängd</string>
+    <string name="daily_card_setting_fragment_package_summary">Om din dagliga surfmängd innehåller ett månatligt datapaket så kommer det månatliga datapaketet användas först.</string>
     <string name="data_usage_warning_body">Tryck för att visa detaljer om dataanvändning.</string>
     <string name="data_usage_mobile_limit_title">Nådde gränsen för mobildata</string>
     <string name="data_usage_limit_body">Tryck för att aktivera mobildata.</string>
@@ -599,7 +631,7 @@ Din operatör kan debitera dig extra avgifter om du slår på mobildata igen."</
     <string name="package_setted_error_notification_summary">Tryck för att visa detaljer om dataanvändning.</string>
     <string name="traffic_config_alert_title">%s rättning</string>
     <string name="traffic_config_alert_auto_modify">Uppdatera abonnemang automatiskt</string>
-    <string name="traffic_config_alert_body">"Din operatörs dataplan visar: %s.
+    <string name="traffic_config_alert_body">"Din operatörs surfmängd visar: %s.
 
 Är det korrekt?"</string>
     <string name="traffic_config_alert_body_normal">"
@@ -897,20 +929,10 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="status_bar_network_flow_purchase">"   Köp >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   Ställ in gräns för mobildata >"</string>
     <string name="status_bar_network_flow_phone_balance">"   Saldo:%1$s "</string>
-    <string name="status_bar_network_flow_exceed_content">"Idag: %1$s
-        &amp;nbsp;&amp;nbsp;&amp;nbsp; | Överskridit dataabonnemang: &lt;font color=%2$s>%3$s&lt;/font>
-        "</string>
-    <string name="status_bar_network_flow_content">"Idag: %1$s
-        &amp;nbsp;&amp;nbsp;&amp;nbsp;
-        Återstår: %2$s"</string>
-    <string name="status_bar_network_flow_content_not_setting">"Idag: %1$s
-        &amp;nbsp;&amp;nbsp;&amp;nbsp;
-        Denna månad: %2$s"</string>
-    <string name="status_bar_network_flow_content_virtual_card">"%1$s
-        &amp;nbsp;&amp;nbsp;&amp;nbsp;
-        %2$s
-        &amp;nbsp;&amp;nbsp;&amp;nbsp;
-        "</string>
+    <string name="status_bar_network_flow_exceed_content">Idag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp; | Överskridit dataabonnemang: &lt;font color=%2$s>%3$s&lt;/font></string>
+    <string name="status_bar_network_flow_content">Idag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Återstår: %2$s</string>
+    <string name="status_bar_network_flow_content_not_setting">Idag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Denna månad: %2$s</string>
+    <string name="status_bar_network_flow_content_virtual_card">%1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;%2$s&amp;nbsp;&amp;nbsp;&amp;nbsp;</string>
     <string name="pref_key_tethering_setting">Sätt datagräns en gång</string>
     <string name="pref_key_tethering_title">Sätt datagräns en gång</string>
     <string name="tether_limit_value_custom">Anpassad</string>
@@ -944,6 +966,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="om_settings_memory_occupy_notify_never">Aldrig</string>
     <string name="om_lock_app_locked_app">Låst</string>
     <string name="om_lock_app_unlocked_app">Olåst</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_not_finish_speedboost">Prestandaoptimering krävs</string>
     <string name="om_running_locked_apps">Låsta appar som körs</string>
     <string name="om_running_system_apps">Systemappar som kör</string>
@@ -993,6 +1016,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="usage_type_data_send">Mobildata skickad</string>
     <string name="usage_type_no_coverage">Tid utan signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="power_screen">Skärm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1209,12 +1233,17 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="power_center_list_item_auto_brightness">Justera skärmens ljusstyrka automatiskt</string>
     <string name="power_center_list_item_deep_save_title">Avancerade inställningar</string>
     <string name="power_center_list_item_battery_status_time">h</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
     <string name="power_center_stop_scan_title">Avbryt skanning</string>
     <string name="hide_mode_result_summary_text">Anpassa Batterispararens inställningar för enskilda appar</string>
     <string name="auto_task_result_summary_text">Konfigurera automatiska uppgifter för Batterispararen</string>
     <string name="pc_settings_title">Inställningar för batterianvändning</string>
     <string name="pc_main_activity_back">Tillbaka</string>
     <string name="extreme_power_save_mode_card_summary">Aktivera Extremläge för att spara ström när batterinivån är låg.</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
     <string name="handle_bar_title_system">System</string>
     <string name="apps_list_header_title_sms">Kontrollera meddelandeapp</string>
     <string name="apps_list_header_title_sms_access">Begränsa tillgång till verifieringskoder</string>
@@ -1308,7 +1337,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="sp_background_risk_type_sign">Inofficiell app körs</string>
     <string name="sp_background_risk_type_root">Systemet har rotat</string>
     <string name="resource_securitycenter_settings">Säkerhet</string>
-    <string name="keywords_securitycenter_settings">Batterianvändning;Hantera autostart;Installera via USB;App behörigheter;Köp mobildata;Blocklista;Dataanvändning;Kalibrera dataplan;Testa nätverk; Spara batteri;Värme;Starta;Stäng av;Batteri problem;Energi;Batterisparläge;Energisparläge;Energisparande;Batterisparande; Autostart;Behörigheter;Auto start;MIUI autostart;App autostart;autostarta appar;Kedjestart;Kedjad start;Utlöst start;USB installera;Installera från dator;ADB installera; Plats;Kontakt tillgång;data;mobildata;köp data;fyll på data;dataplan; Blockera;Svartlista;Smart blockeringslista;Bedrägeri;Försäljning;Agenter;Samtalsblockeringslista;Meddelandeblockeringslista;Chattblockeringslista;SMSblockeringslista;svartlista;svart lista;blocklista; block lista; bedrägeri;blockera kontakt;blockera kontakter; Trafik; Kalibrera; Anslutning;Internet;Test; Batterianvändning Spel;prestandahöjare;Glory of the king;Prestandaläge;Tyst läge</string>
+    <string name="keywords_securitycenter_settings">Batterianvändning;Hantera autostart;Installera via USB;App behörigheter;Köp mobildata;Blocklista;Dataanvändning;Kalibrera surfmängd;Testa nätverk; Spara batteri;Värme;Starta;Stäng av;Batteri problem;Energi;Batterisparläge;Energisparläge;Energisparande;Batterisparande; Autostart;Behörigheter;Auto start;MIUI autostart;App autostart;autostarta appar;Kedjestart;Kedjad start;Utlöst start;USB installera;Installera från dator;ADB installera; Plats;Kontakt tillgång;data;mobildata;köp data;fyll på data;surfmängd; Blockera;Svartlista;Smart blockeringslista;Bedrägeri;Försäljning;Agenter;Samtalsblockeringslista;Meddelandeblockeringslista;Chattblockeringslista;SMSblockeringslista;svartlista;svart lista;blocklista; block lista; bedrägeri;blockera kontakt;blockera kontakter; Trafik; Kalibrera; Anslutning;Internet;Test; Batterianvändning Spel;prestandahöjare;Glory of the king;Prestandaläge;Tyst läge</string>
     <string name="path_securitycenter_settings">Systemappar/Säkerhet</string>
     <string name="resource_securitycenter">Säkerhet</string>
     <string name="keywords_securitycenter">Säkerhet;Kontroll;Sök</string>
@@ -1368,11 +1397,13 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="menu_text_optimize_manage">Öka hastigheten</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_summary_networkassistants">Hantera ditt dataabonnemang</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Överskred datagränsen</string>
     <string name="menu_summary_networkassistants_3">Tillräckligt med mobildata återstår</string>
     <string name="menu_summary_networkassistants_4">Håller på att få slut på mobildata</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1385,12 +1416,14 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="menu_summary_garbage_cleanup">Inga skräpfiler hittades</string>
     <string name="menu_summary_garbage_cleanup_2">Skräpstorlek</string>
     <string name="menu_summary_garbage_cleanup_3">Rensa skräp nu</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Batterianvändning</string>
     <string name="menu_summary_power_manager">Batterispararen ger mer tid mellan laddningarna</string>
     <string name="menu_summary_power_manager_1">Batteriet är fulladdat</string>
     <string name="menu_summary_power_manager_2">%såterstår</string>
     <string name="menu_summary_power_manager_3">Anslut laddare</string>
     <string name="menu_summary_power_manager_4">%still fulladdad</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Föregående skanning avbröts</string>
     <string name="examination_score_100">Allt ser bra ut!</string>
     <string name="examination_score_80_100">Några objekt kan optimeras</string>
@@ -1503,7 +1536,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="about_autostart">Om starta automatiskt</string>
     <string name="permission_action_accept">Acceptera</string>
     <string name="permission_action_prompt">Meddela</string>
-    <string name="permission_action_reject">Neka</string>
+    <string name="permission_action_reject">Tillåt inte</string>
     <string name="empty_title_permission_apps_list">Inga appar.</string>
     <string name="old_sdk_deny_warning">Appen är inte kompatibel med de senaste Android tillståndskrav. Nekad behörigheter kan påverka hur denna app fungerar.</string>
     <string name="empty_title_root_apps">Inga appar har tillgång till root.</string>
@@ -1516,7 +1549,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="button_text_accept">Acceptera</string>
     <string name="button_text_accept_timer">Acceptera (%d)</string>
     <string name="button_text_reject">Avvisa</string>
-    <string name="button_text_deny">Neka</string>
+    <string name="button_text_deny">Tillåt inte</string>
     <string name="button_text_next_step">Nästa</string>
     <string name="button_text_next_step_timer">Nästa steg (%d)</string>
     <string name="toast_root_apply_accept">Rootåtkomst tillåten till %s</string>
@@ -1766,6 +1799,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="card_main_deepclean_wechat_action">Rensa</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -2084,12 +2118,12 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="app_manager_reset_app_preferences_title">Återställ inställningar för applikationerna?</string>
     <string name="app_manager_reset_app_preferences_desc">"Detta kommer återställa alla inställningar för:
 
- "<li>Inaktiverade appar</li>"
- "<li>Inaktiverade notifikationer för appar</li>"
- "<li>Standardappar</li>"
- "<li>Begränsning av bakgrundsdata för appar</li>"
+"<li>Inaktiverade appar</li>"
+"<li>Inaktiverade notifikationer för appar</li>"
+"<li>Standardappar</li>"
+"<li>Begränsning av bakgrundsdata för appar</li>"
 
- Du kommer inte förlora någon appdata."</string>
+Du kommer inte förlora någon appdata."</string>
     <string name="app_manager_reset_app_preferences_button">Återställ appar</string>
     <string name="app_manager_disable_text">Inaktivera</string>
     <string name="app_manager_enable_text">Aktivera</string>
@@ -2319,6 +2353,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="gb_create_icon_summary">Skapa genväg på Hemskärmen</string>
     <string name="title_reply">Kommentera</string>
     <string name="title_like">Gilla</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Mobildata</string>
     <string name="game_wid_viewpoint_buttom">Ta en kort paus.</string>
     <string name="video_repeat">Spela igen</string>

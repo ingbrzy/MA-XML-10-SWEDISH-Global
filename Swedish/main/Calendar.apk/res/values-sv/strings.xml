@@ -56,7 +56,7 @@
     <string name="anniversary_event_title">Årsdag: %1$s</string>
     <string name="anniversary_secondary_tag">Årsdag</string>
     <string name="app_label">Kalender</string>
-    <string name="app_not_found">"Couldn't find selected app"</string>
+    <string name="app_not_found">Det gick inte att hitta den valda appen</string>
     <string name="birthday_born">födelsedatum</string>
     <string name="birthday_calendar_display_name">Påminnelser för födelsedagar</string>
     <string name="birthday_event_description_a_week_ago">En vecka sedan</string>
@@ -94,7 +94,7 @@
     <string name="card_manager_no_data">Inga prenumerationer än</string>
     <string name="card_title_change">Mer</string>
     <string name="change_response_title">Ändra svar</string>
-    <string name="click_to_share">Tap to Share</string>
+    <string name="click_to_share">Tryck för att dela</string>
     <string name="countdown_event_title">Nedräkning: %1$s</string>
     <string name="countdown_notify_before_3_day_title">Nedräkning: %1$s om 3 dagar</string>
     <string name="countdown_notify_title">Nedräkning: %1$s</string>
@@ -102,7 +102,7 @@
     <string name="countdown_today">Idag</string>
     <string name="create_an_account_desc">"Kalendern fungerar bättre med ett Mi-konto.
 
-• Tillgänglig från valfri webbläsare.
+• Få tillgång till den från valfri webbläsare.
 • Säkerhetskopiera dina kontakter."</string>
     <string name="creating_event">Händelse skapad</string>
     <string name="creating_event_with_guest">Skickar inbjudningar…</string>
@@ -195,13 +195,13 @@
     <string name="event_title">Titel</string>
     <string name="event_view">Visa händelse</string>
     <string name="every_weekday">Varje vardag (mån–fre)</string>
-    <string name="fb_birthday_failure">"Couldn't import birthdays from Facebook. Try again."</string>
+    <string name="fb_birthday_failure">Kunde inte importera födelsedagar från Facebook. Försök igen.</string>
     <string name="fb_birthday_success">Importerade födelsedagar från Facebook framgångsrikt</string>
     <string name="fb_calendar_account_name">Mi Lokal kalender</string>
     <string name="fb_calendar_display_name">Facebook-vänners födelsedagar</string>
     <string name="fb_calendar_owner_account">Mi Kalender</string>
     <string name="festival_detail_title">Festival</string>
-    <string name="file_exception">An error occurred</string>
+    <string name="file_exception">Ett fel uppstod</string>
     <string name="force_touch_title_add_new_event">Lägg till händelse</string>
     <string name="from_google_group_calendar">Google kalender</string>
     <string name="gadget_no_events">Inga kommande kalenderhändelser</string>
@@ -224,11 +224,11 @@
     <string name="holiday_card_title">På denna dag</string>
     <string name="holiday_detail_read_more">Mer</string>
     <string name="horoscope_select_activity_label">Välj zodiactecken</string>
-    <string name="image_processing">"Image isn't ready yet"</string>
+    <string name="image_processing">Bilden är inte klar ännu</string>
     <string name="import_action">Importera</string>
     <string name="import_birthday">Importera födelsedag</string>
     <string name="imported">Importerade</string>
-    <string name="importing">Importing…</string>
+    <string name="importing">Importerar…</string>
     <string name="insert_event_dialog_btn_negative">Nej</string>
     <string name="insert_event_dialog_btn_positive">Ja</string>
     <string name="insert_event_dialog_message">Lägga till händelse i kalendern?</string>
@@ -279,7 +279,7 @@
     <string name="no_network">"Kunde inte ansluta till nätverk.
 Kontrollera inställningar och försök igen."</string>
     <string name="no_network_btn">Försök igen</string>
-    <string name="no_storage">Not enough storage space</string>
+    <string name="no_storage">Inte tillräckligt med lagringsutrymme</string>
     <string name="no_title_label">(Inget namn)</string>
     <string name="no_visiable_calendar_message">Du behöver lägga till ett kalenderkonto, klicka på \"Välj Konto\" för att fortsätta.</string>
     <string name="no_visiable_calendar_select_account">Lägg till konto</string>
@@ -380,12 +380,12 @@ Kontrollera inställningar och försök igen."</string>
     <string name="setting_others">Ytterligare</string>
     <string name="setting_title_about">Om</string>
     <string name="setting_title_holiday_display">Visa helgdagar</string>
-    <string name="share_image">Share</string>
-    <string name="share_image_label">Share via</string>
+    <string name="share_image">Dela</string>
+    <string name="share_image_label">Dela via</string>
     <string name="share_title">Dela</string>
     <string name="show_day_view">Visa dag</string>
     <string name="start_date_calculate">Beräkna</string>
-    <string name="storage_permission_denied">Allow access to storage first</string>
+    <string name="storage_permission_denied">Tillåt åtkomst till lagringsutrymmet först</string>
     <string name="subscribe_card">Prenumerera nu</string>
     <string name="subscribe_card_success">Prenumerering lyckad! Se detaljer på hemsidan.</string>
     <string name="subscribe_card_success_for_homepage">Registrering av \"%1$s\" lyckatd</string>

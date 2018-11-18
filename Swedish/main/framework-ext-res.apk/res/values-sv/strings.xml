@@ -41,7 +41,7 @@
     <string name="autofill">Fyll i automatiskt</string>
     <string name="auto_start_warning_title">Tillåt %s att starta automatiskt?</string>
     <string name="auto_start_warning_allow">Tillåt</string>
-    <string name="auto_start_warning_deny">Neka</string>
+    <string name="auto_start_warning_deny">Tillåt inte</string>
     <string name="call_record_sample_prefix_miui">Ring</string>
     <string name="call_record_or">" eller "</string>
     <string name="caller_info_name_delimiter">" eller "</string>

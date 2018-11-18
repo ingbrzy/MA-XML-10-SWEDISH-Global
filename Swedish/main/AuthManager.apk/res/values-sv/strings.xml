@@ -93,7 +93,7 @@
     <string name="screen_overlay_message">För att ändra denna behörighet måste du först stänga av skärmöverlagring från Inställningar > Appar.</string>
     <string name="screen_overlay_button">Öppna inställningar</string>
     <string name="grant_dialog_button_allow">Tillåt</string>
-    <string name="grant_dialog_button_deny">Neka</string>
+    <string name="grant_dialog_button_deny">Tillåt inte</string>
     <string name="current_permission_template">%1$s av %2$s</string>
     <string name="never_ask_again">Fråga inte igen</string>
 </resources>

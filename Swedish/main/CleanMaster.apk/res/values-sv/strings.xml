@@ -92,6 +92,7 @@
     <string name="hints_apk_header_left">Paket</string>
     <string name="hints_residual_header_left">Överblivna filer</string>
     <string name="hints_memory_header_left">Minne</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Stora filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerade appar: %d</string>
     <string name="toast_resolve_apk_error">Lös apk fel</string>
@@ -299,6 +300,7 @@
     <string name="downloading">Laddar ner</string>
     <string name="installing">Installerar</string>
     <string name="start_install">Installera nu</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Öppna i webbläsaren</string>
     <string name="title_share_link">Dela URL</string>
     <string name="connecting">Ansluter…</string>
@@ -467,9 +469,9 @@
     <string name="file_not_found">Filen hittades inte</string>
     <string name="app_usage_never">Inte använd nyligen</string>
     <string name="app_usage_recently">Nyligen använts</string>
-    <string name="resutl_function_deep_clean_summary">" "<Data> &lt;font color=#ff0000 >%1$s&lt;/font> fler filer kan rensas. Frigör mer utrymme. ;</Data>" "</string>
-    <string name="resutl_function_wechat_clean_summary">" "<Data> &lt;font color=#ff0000 >%1$s&lt;/font> av WeChat cache. Frigör mer utrymme. ;</Data>" "</string>
-    <string name="resutl_function_qq_clean_summary">" "<Data> Du kan rensa &lt;font color=#ff0000 >%1$s&lt;/font> av cachen ;</Data>" "</string>
+    <string name="resutl_function_deep_clean_summary">" "<Data>&lt;font color=#ff0000 >%1$s&lt;/font> fler filer kan rensas. Frigör mer utrymme.;</Data>" "</string>
+    <string name="resutl_function_wechat_clean_summary">" "<Data>&lt;font color=#ff0000 >%1$s&lt;/font> av WeChat cache. Frigör mer utrymme.;</Data>" "</string>
+    <string name="resutl_function_qq_clean_summary">" "<Data>Du kan rensa &lt;font color=#ff0000 >%1$s&lt;/font> av cachen;</Data>" "</string>
     <string name="engine_tm">Tencent</string>
     <string name="engine_cm">Clean Master</string>
     <string name="app_description_title">Om Städaren</string>

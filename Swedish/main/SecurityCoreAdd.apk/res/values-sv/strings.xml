@@ -87,7 +87,7 @@ Vissa Dubbelappar kräver support för Google Services Framework. I de fallen sk
     <string name="xspace_install_completed_global">Ikon tillagd i lådan</string>
     <string name="xspace_uninstall_completed">Dubbelapp avinstallerad</string>
     <string name="xspace_uninstall_dialog_title">Avinstallera Dubbelapp</string>
-    <string name="xspace_uninstall_dialog_content">Avinstallation av Dubbelapp kommer ta bort all applikationsdata.</string>
+    <string name="xspace_uninstall_dialog_content">Avinstallation av Dubbelappen kommer ta bort all applikationsdata.</string>
     <string name="loading_apps">Laddar appar…</string>
     <string name="loading_success">Laddad</string>
     <string name="switching">Flyttar…</string>

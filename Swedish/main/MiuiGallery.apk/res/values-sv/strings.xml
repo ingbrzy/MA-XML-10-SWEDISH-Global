@@ -264,7 +264,7 @@
     <string name="collage_poster_global_city_text">METROPOLIS</string>
     <string name="collage_poster_global_dream_text">DRÖMMAR</string>
     <string name="collage_poster_global_foodie_text">YUMMY</string>
-    <string name="collage_poster_global_green_plant_text">JOURNEY</string>
+    <string name="collage_poster_global_green_plant_text">RESA</string>
     <string name="collage_poster_global_summer_flower_text">SOMMAR</string>
     <string name="collage_poster_global_tea_text">EFTERMIDDAGSTE</string>
     <string name="collage_rotate">Rotera</string>
@@ -287,8 +287,8 @@
     <string name="confirm_merge_face_albums">" "<Data> Slå ihop detta album med %s? </Data>" "</string>
     <string name="confirm_merge_many_face_albums">" "<Data> Slå ihop dessa album med %s? </Data>" "</string>
     <string name="confirm_not_face">Inga resultat</string>
-    <string name="confirm_recommandation_face_is">" "<Data> Sure this is &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Personen kommer att flyttas till \"%2$s\" album. </Data>" "</string>
-    <string name="confirm_recommandation_face_not">" "<Data> Är du säker på att detta inter &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
+    <string name="confirm_recommandation_face_is"><Data> Sure this is &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Personen kommer att flyttas till \"%2$s\" album. </Data>" "</string>
+    <string name="confirm_recommandation_face_not"><Data> Är du säker på att detta inter &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
     <string name="confirm_recommandation_multiple_faces_are">" "<Data> Är du säker på att dessa är &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Personerna kommer att flyttas till \"%2$s\" album. </Data>" "</string>
     <string name="confirm_recommandation_multiple_faces_not">" "<Data> Är du säker på att detta inter &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
     <string name="contact_tip">Kontakt</string>
@@ -465,7 +465,7 @@
 Ta fler bilder av dina vänner!"</string>
     <string name="face_album_empty_syncing">Synkroniserar data, återkom om en stund</string>
     <string name="face_album_empty_syncing_when_connect_wifi">Anslut till nätverk för att synkronisera information</string>
-    <string name="face_album_long_tap_tip">Att välja flera personer eller ändra gruppinställningar, tryck &amp; markera en profilbild</string>
+    <string name="face_album_long_tap_tip">Att välja flera personer eller ändra gruppinställningar, tryck &amp; och håll på en profilbild</string>
     <string name="face_album_new_name_hint">Nytt namn</string>
     <string name="face_album_not_named">Namnlös</string>
     <string name="face_album_rename_hint">Ange namn</string>
@@ -478,6 +478,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="face_name_edit">Redigera</string>
     <string name="face_name_input">Ange namn</string>
     <string name="face_recommend">Rekommendationer</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunde inte slutföra åtgärden</string>
     <string name="fail_to_pick_email">Ogiltig e-postadress</string>
     <string name="fail_to_sync_album">Kunde inte synkronisera album. Kolla din datakoppling och försök igen.</string>
@@ -488,6 +489,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="feature_guidance_photo_effects">"Nya foto effects
 are tillgänglig"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nya effekter finns</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Minne</string>
     <string name="filter_bi_mono">Mono</string>
     <string name="filter_bi_pink">Rosa</string>
@@ -557,6 +559,7 @@ are tillgänglig"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Ange</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri behöver tillgång till 
 %s
  för att fungera normalt, tryck på \"Tillämpa\" för att gå till Behörigheter."</string>
@@ -756,6 +759,7 @@ för att göra galleriet personligt"</string>
     <string name="people_mark_mode_title_no_mark_name">Välj en person</string>
     <string name="people_page_label">Människor</string>
     <string name="people_page_unname">Namnlös</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Sällskapsdjursfoton</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Foton</string>
@@ -1017,6 +1021,9 @@ för att göra galleriet personligt"</string>
     <string name="search_title_recommend">Rekommenderad</string>
     <string name="search_title_suggestion">Förslag</string>
     <string name="search_title_tag">Objekt</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Söker efter projektor…</string>
     <string name="secret_album_card_description">Bästa platsen för alla dina små hemligheter</string>
     <string name="secret_album_card_title">Försök dolda album</string>
@@ -1090,7 +1097,7 @@ för att göra galleriet personligt"</string>
     <string name="start_debug">Debug Galleri</string>
     <string name="start_to_use_face_albumset">Sortera efter personer</string>
     <string name="sticker_ad">Broschyrer</string>
-    <string name="sticker_baibai">Växter</string>
+    <string name="sticker_baibai">Krukväxter</string>
     <string name="sticker_beard">Barberare</string>
     <string name="sticker_comics">Serier</string>
     <string name="sticker_cutie">Sötis</string>
@@ -1108,7 +1115,7 @@ för att göra galleriet personligt"</string>
     <string name="storage_description_primary">Internt lagringsutrymme</string>
     <string name="storage_description_sdcard">SD-kort</string>
     <string name="storage_description_usb">USB-lagring</string>
-    <string name="storage_description_xspace">Data för Dual appar</string>
+    <string name="storage_description_xspace">Data för Dubbelappar</string>
     <string name="storage_no_space">Inte tillräckligt med utrymme</string>
     <string name="sub_discard_confirm_message">Spara ändringar?</string>
     <string name="sub_discard_negative_btn">Ta bort</string>
@@ -1296,6 +1303,7 @@ för att göra galleriet personligt"</string>
     <string name="view_face_album">Visa album</string>
     <string name="view_more_face_desc">Visa fler människor</string>
     <string name="voice_assistant">Röstinmatning</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Välkommen till Mi Cloud</string>
     <string name="where_is_barcode">Var är QR-koden?</string>
     <string name="who_is_this">Vem är det?</string>

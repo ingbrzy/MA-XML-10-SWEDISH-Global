@@ -435,6 +435,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Djupeffekt</string>
     <string name="portrait_mode_use_hint">"Porträttläge gör bakgrunden suddig
  och frambringar personerna förgrunden."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Försök Poträttläge.
 Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_square_mode_title">Fyrkant</string>
@@ -451,6 +452,7 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Lägen</string>
     <string name="button_front_camera_title">Ta en selfie</string>
     <string name="button_normal_video_title">Spela in video</string>
@@ -546,7 +548,7 @@ och optimerar dina foton baserat på denna information"</string>
     <string name="pref_video_captrue_ability_title">Ta bilder under inspelning</string>
     <string name="face_analyze_info">Ålder: %2$s (%1$s)</string>
     <string name="pref_camera_picturesize_entry_standard">Standard 4:3</string>
-    <string name="pref_camera_picturesize_entry_fullscreen">Fullskärm 16:9</string>
+    <string name="pref_camera_picturesize_entry_fullscreen">Helskärm 16:9</string>
     <string name="lens_dirty_detected_title_back">Bakre kameralins är smutsig</string>
     <string name="lens_dirty_detected_title_front">Främre kameralins är smutsig</string>
     <string name="lens_dirty_detected_content">"Det verkar som att din kameralins är smutsig.

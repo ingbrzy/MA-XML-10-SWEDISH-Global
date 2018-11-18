@@ -57,6 +57,7 @@
     <string name="save_pic_success">Sparade bild till %s</string>
     <string name="save_pic_fail">Kunde inte spara bild, kontrollera ditt SD-kort</string>
     <string name="pic_not_exist">Bilden finns inte</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Välj produkt</string>
     <string name="michat_skillset_business_type_title">Välj tjänst</string>
     <string name="michat_close_text">Chatt avslutad</string>
@@ -161,8 +162,8 @@
     <string name="cta_cancel">Avbryt</string>
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Skicka rapport</string>
-    <string name="submit_dialog_content">" "<Data>" Din feedback tillsammans med bifogade filer och loggar kommer skickas till MIUI's servrar. De kan innehålla personlig information och din platsinfo. Att välja \"Godkänn\" betyder att du har läst och godkänt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>. "</Data>" "</string>
-    <string name="submit_dialog_content_global">" "<Data>" Din feedback tillsammans med bilagor (om det finns några) och loggar (du kan avmarkera de objekt som du inte vill ladda upp) kommer skickas till MIUI's servrar och till begränsad del av MIUI Forum för utvecklare. Informationen om dina trådar och aktivitet i forumet kommer också samlas in för analys och vidare kommunikation. Loggarna kan innehålla personlig information och din platsinfo. Dela inte loggarna med någon om du inte vill att denna information ska exponeras. Att välja \"Godkänn\" betyder att du har läst och godkänt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>. "</Data>" "</string>
+    <string name="submit_dialog_content"><Data>"Din feedback tillsammans med bifogade filer och loggar kommer skickas till MIUI's servrar. De kan innehålla personlig information och din platsinfo. Att välja \"Godkänn\" betyder att du har läst och godkänt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>."</Data></string>
+    <string name="submit_dialog_content_global"><Data>"Din feedback tillsammans med bilagor (om det finns några) och loggar (du kan avmarkera de objekt som du inte vill ladda upp) kommer skickas till MIUI's servrar och till begränsad del av MIUI Forum för utvecklare. Informationen om dina trådar och aktivitet i forumet kommer också samlas in för analys och vidare kommunikation. Loggarna kan innehålla personlig information och din platsinfo. Dela inte loggarna med någon om du inte vill att denna information ska exponeras. Att välja \"Godkänn\" betyder att du har läst och godkänt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>."</Data></string>
     <string name="submit_dialog_cancel">Godkänn inte</string>
     <string name="submit_dialog_confirm">Godkänn</string>
     <string name="tab_title_preferences">Inställningar</string>
@@ -180,7 +181,7 @@
     <string name="modem_tool_log_finish_title">Modemlogg sparad</string>
     <string name="modem_tool_log_finish_desc">Logg sparad till %s</string>
     <string name="bugreport_dialog_not_show_again">Visa inte igen</string>
-    <string name="bugreport_dialog_submit_content">" "<Data> Du sparar dina loggar på denna enhet nu. Loggarna kan innehålla personlig information och din platsinfo. Dela inte loggarna med någon om du inte vill att denna information ska exponeras. Att välja \"Godkänn\" betyder att du har läst och godkänt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>. </Data>" "</string>
+    <string name="bugreport_dialog_submit_content"><Data>Du sparar dina loggar på denna enhet nu. Loggarna kan innehålla personlig information och din platsinfo. Dela inte loggarna med någon om du inte vill att denna information ska exponeras. Att välja \"Godkänn\" betyder att du har läst och godkänt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>.</Data></string>
     <string name="bugreport_dump_start_notification_title">Skapar buggrapport…</string>
     <string name="bugreport_dump_start_notification_summary">Detta kan ta flera minuter.</string>
     <string name="bugreport_dump_complete_notification_title">Skapat felrapport</string>
@@ -210,7 +211,7 @@
     <string name="feedback_submit_succ_button">Klar</string>
     <string name="feedback_title">Titel</string>
     <string name="feedback_description">Beskrivning</string>
-    <string name="feedback_select_images">Lägg till bilder</string>
+    <string name="feedback_select_images">Lägg till en bild eller en kort video</string>
     <string name="feedback_delete_images">Ta bort bilder</string>
     <string name="feedback_select_upload_log">Lägg till loggar</string>
     <string name="feedback_select_modem_log">Lägg till modemloggar</string>
@@ -324,9 +325,10 @@
     <string name="toast_post_deleted">Det här ämnet finns inte, har tagits bort eller redigeras.</string>
     <string name="toast_log_not_exists">Den nödvändiga loggen har tagits bort eller existerar inte</string>
     <string name="toast_pic_not_exists">Cachad bild raderades</string>
-    <string name="toast_screenshot_too_large">Kan inte ladda upp filer större än 10 MB.</string>
-    <string name="toast_log_too_large">Det gick inte att ladda upp. Filen är för stor.</string>
+    <string name="toast_screenshot_too_large">Det går inte att ladda upp bilder eller videor större än 10MB.</string>
+    <string name="toast_log_too_large">Det går inte att ladda upp. Loggen är för stor.</string>
     <string name="title_customer_service">Kundtjänst</string>
+    <string name="title_first_aid">Första hjälpen</string>
     <string name="customer_service_apply">Begär kundtjänst</string>
     <string name="customer_service_complain">Rapportera till kundtjänst</string>
     <string name="customer_service_station">Sök plats</string>
@@ -355,7 +357,7 @@
     <string name="catch_full_log_notification_content">Tryck för att gå tillbaka till loggar</string>
     <string name="catch_full_log_start_dump_hprof">Generarar logg för lagg</string>
     <string name="catch_full_log_dump_hprof_failed">Det gick inte att genererar logg för lagg</string>
-    <string name="catch_full_log_add_original_photo">Lägg till bild</string>
+    <string name="catch_full_log_add_original_photo">Lägg till en originalbild eller en kort video</string>
     <string name="catch_full_log_add_photo_dialog_content">Om problemet du rapporterar är relaterat till kamerans bildkvalité, lägg till originalfotot (obeskuret) för att hjälpa oss hitta problemet. Lägg till foto nu?</string>
     <string name="catch_full_log_submit_directly">Skicka in</string>
     <string name="catch_full_log_add_photo">Lägg till bild</string>

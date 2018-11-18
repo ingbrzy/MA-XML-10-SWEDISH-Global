@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="activity_not_found">Det finns ingen app som kan hantera denna åtgärd</string>
     <string name="allow_network_hint">Slå på ”Uppdatera information automatiskt” eller kontrollera din nätverksanslutning</string>
     <string name="already_updated">Uppdaterad</string>

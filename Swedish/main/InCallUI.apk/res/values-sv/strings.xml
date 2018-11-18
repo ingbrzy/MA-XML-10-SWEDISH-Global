@@ -51,14 +51,12 @@
     <string name="onscreen_note_calls_text">Anteckning</string>
     <string name="call_record_wait_label">Väntar</string>
     <string name="contacts_icon_label">Kontakter</string>
-    <string name="conference_call_number">%s personer</string>
     <string name="conference_call_description" formatted="false">%s,%s osv. totalt %s</string>
     <string name="conference_call_single_description" formatted="false">%s osv. totalt %s</string>
     <string name="separate_from_conference">Separat samtal</string>
     <string name="caller_manage_header">Konferenssamtal %s</string>
     <string name="incall_call_type_label_sip">Internetsamtal</string>
     <string name="incoming_call_forwarded_title">Vidarekoppla inkommande samtal</string>
-    <string name="call_title_redialing_with_times">Återuppringt %d gånger</string>
     <string name="card_title_dialing">Ringer</string>
     <string name="card_title_conf_call">Konferenssamtal</string>
     <string name="card_title_video_conf_call">Videokonferenssamtal</string>
@@ -146,7 +144,6 @@
     <string name="call_recording_deny_permission_msg">Du har nekat tillstånd för inspelning, kan inte spela in.</string>
     <string name="call_contacts_deny_permission_msg">Du nekade tillstånd att läsa kontakter, kan inte visa kontaktinfo.</string>
     <string name="conference_call_recorder_title">Konferenssamtal</string>
-    <string name="antispam_marked_count">Rapporterad av %1$d MIUI användare</string>
     <string name="antispam_local_marked">Lokalt märkt</string>
     <string name="antispam_provider">Identifierad av %s</string>
     <string name="antispam_notification_title">Okänt nummer</string>

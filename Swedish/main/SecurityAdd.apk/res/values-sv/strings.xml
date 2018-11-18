@@ -13,6 +13,7 @@
     <string name="no_network_btn">Försök igen</string>
     <string name="main_toolbar_purchase">Fyll upp</string>
     <string name="usage_sorted_loading_text">Vänta lite…</string>
+    <string name="empty">" "</string>
     <string name="share">Dela</string>
     <string name="open_browser">Öppna i webbläsaren</string>
     <string name="title_share_link">Dela URL</string>

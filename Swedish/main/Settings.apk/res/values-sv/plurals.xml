@@ -281,12 +281,12 @@ Kontakta administratören om du vill veta mer om certifikatet."</item>
         <item quantity="one">Kontrollera certifikatet</item>
     </plurals>
     <plurals name="status_bar_settings_disabled_header_title">
-        <item quantity="other">%d appar kan inte visa notifikationer</item>
-        <item quantity="one">%d app kan inte visa notifikationer</item>
+        <item quantity="other">%d appar får inte visa notifikationer</item>
+        <item quantity="one">%d app får inte visa notifikationer</item>
     </plurals>
     <plurals name="status_bar_settings_enabled_header_title">
-        <item quantity="other">%d appar kan visa notifikationer</item>
-        <item quantity="one">%d app kan visa notifikationer</item>
+        <item quantity="other">%d appar får visa notifikationer</item>
+        <item quantity="one">%d app får visa notifikationer</item>
     </plurals>
     <plurals name="uri_permissions_text">
         <item quantity="other">%d objekt</item>
