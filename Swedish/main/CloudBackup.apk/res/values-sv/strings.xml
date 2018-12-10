@@ -133,7 +133,6 @@
     <string name="provision_error_connect_msg">Testa nätverket och försök igen. Säkerhetskopior är inte tillgängliga när enheten är offline.</string>
     <string name="provision_error_connect_title">Kan inte ansluta</string>
     <string name="loading_user_backup">Laddar säkerhetskopia…</string>
-    <string name="loading_progress_num">(%s%%)</string>
     <string name="error_num_placeholder">--</string>
     <string name="authentication_failed">Kunde inte verifiera konto.</string>
     <string name="no_account">Inte inloggad till Mi-konto.</string>
