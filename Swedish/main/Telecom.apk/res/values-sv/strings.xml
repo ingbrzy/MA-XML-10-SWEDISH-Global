@@ -105,6 +105,7 @@
     <string name="accessibility_wifi_signal_full">Full signalstyrka för Wi-Fi.</string>
     <string name="accessibility_wifi_security_type_none">Öppet nätverk</string>
     <string name="accessibility_wifi_security_type_secured">Säkert nätverk</string>
+    <string name="process_kernel_label">Operativsystemet Android</string>
     <string name="data_usage_uninstalled_apps">Borttagna appar</string>
     <string name="data_usage_uninstalled_apps_users">Borttagna appar och användare</string>
     <string name="tether_settings_title_usb">Internetdelning via USB</string>
@@ -433,7 +434,7 @@ uppspelningskvalitet"</string>
     <string name="answer_incoming_call">Svara</string>
     <string name="decline_incoming_call">Neka</string>
     <string name="cant_call_due_to_ongoing_call">Kan inte ringa. Annat samtal pågår %1$s.</string>
-    <string name="cant_call_due_to_ongoing_calls">Kan inte ringa. Andra samtal pågår %1$s.</string>
+    <string name="cant_call_due_to_ongoing_calls">Det går inte att ringa. avsluta ditt samtal via %1$s först.</string>
     <string name="cant_call_due_to_ongoing_unknown_call">Kan inte ringa på grund av ett samtal pågår i en annan app.</string>
     <string name="notification_channel_incoming_call">Inkommande samtal</string>
     <string name="notification_channel_missed_call">Missade samtal</string>

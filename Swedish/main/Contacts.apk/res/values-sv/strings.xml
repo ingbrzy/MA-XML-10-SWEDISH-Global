@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="accessibility_calllog_detail">Detaljer för samtalshistoriken</string>
     <string name="accessibility_contact_detail">Kontaktdetaljer</string>
     <string name="account_container_title">Importerad från</string>
@@ -98,6 +99,7 @@
     <string name="call_sim_menu_title_suffix">(Primär)</string>
     <string name="call_telex">Ring telex</string>
     <string name="call_tty_tdd">Ring TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">Ring jobb</string>
     <string name="call_work_mobile">Ring jobbmobil</string>
@@ -120,9 +122,9 @@
     <string name="callrecordview_menu_batch_delete">Ta bort flera</string>
     <string name="callrecordview_menu_blocklist">Blockeringslista</string>
     <string name="callrecordview_menu_conference">Konferenssamtal</string>
-    <string name="callrecordview_menu_delete">Rensa samtalshistoriken</string>
+    <string name="callrecordview_menu_delete">Ta bort</string>
     <string name="callrecordview_menu_delete_accepted">Rensa besvarade samtal</string>
-    <string name="callrecordview_menu_delete_all">Rensa samtalshistorik</string>
+    <string name="callrecordview_menu_delete_all">Ta bort</string>
     <string name="callrecordview_menu_delete_called">Rensa utgående samtal</string>
     <string name="callrecordview_menu_delete_confirm">%s?</string>
     <string name="callrecordview_menu_delete_missed">Rensa missade samtal</string>
@@ -191,8 +193,8 @@
     <string name="composer_has_no_exportable_contact">Det finns inga kontakter som går att exportera. Om du har kontakter på enheten, så tillåter vissa leverantörer inte att kontakterna exporteras från enheten.</string>
     <string name="composer_not_initialized">vCard kompositören startades inte korrekt.</string>
     <string name="conference_call_disable_tip">Kan inte ringa samtal. Kontrollera att enheten är ansluten till ett 4G-nät med stöd för VoLTE.</string>
-    <string name="confirm_delete_contact_all_call_logs">"Rensa alla %s's historia?"</string>
-    <string name="confirm_delete_selected_all_call_logs">Rensa samtalshistorik?</string>
+    <string name="confirm_delete_contact_all_call_logs">Ta bort all samtalshistorik från %s?</string>
+    <string name="confirm_delete_selected_all_call_logs">Ta bort?</string>
     <string name="confirm_delete_sim_entry_miui_title">Ta bort</string>
     <string name="confirm_export_message">Dina kontakter kommer att exporteras till filen: %s.</string>
     <string name="confirm_export_title">Exportera kontakter?</string>
@@ -221,7 +223,7 @@
     <string name="contact_detail_miprofile_binded_label">Verifierad</string>
     <string name="contact_detail_miprofile_exchange_closed">"Inget telefonnummer är kopplat till detta Mi-Konto
 Kontaktkort är avstängda"</string>
-    <string name="contact_detail_miprofile_privacy_settings">Kräv tillstånd för att visa</string>
+    <string name="contact_detail_miprofile_privacy_settings">Behörighet krävs att visa</string>
     <string name="contact_detail_miprofile_request">Byt kontaktkort</string>
     <string name="contact_detail_miprofile_request_fail_toast">Kunde inte sända begäran</string>
     <string name="contact_detail_miprofile_request_subtitle">Uppdatera automatiskt denna kontaktens information</string>
@@ -292,10 +294,10 @@ Kontaktkort är avstängda"</string>
     <string name="deleteConfirmation">Denna kontakt kommer att tas bort.</string>
     <string name="deleteConfirmationDetail">Ta bort \"%s\"?</string>
     <string name="deleteConfirmation_title">Ta bort kontakten?</string>
-    <string name="delete_call_log_message">Rensa samtalshistorik?</string>
-    <string name="delete_call_log_selected_title">Rensa vald samtalshistorik?</string>
-    <string name="delete_call_log_title">Rensa samtalshistoriken</string>
-    <string name="delete_contact_calllog_title">Rensa samtalshistorik?</string>
+    <string name="delete_call_log_message">Ta bort?</string>
+    <string name="delete_call_log_selected_title">Ta bort vald samtalshistorik?</string>
+    <string name="delete_call_log_title">Ta bort</string>
+    <string name="delete_contact_calllog_title">Ta bort?</string>
     <string name="delete_dial_input">Ta bort</string>
     <string name="delete_duplicate">Slå ihop</string>
     <string name="delete_duplicate_message">"Slår ihop kontakter… "</string>
@@ -304,7 +306,7 @@ Kontaktkort är avstängda"</string>
     <string name="delete_selected_sim_entry_miui">Ta bort valda kontakter</string>
     <string name="delete_sim_entries_finish">Kontakter på SIM-kortet borttagna</string>
     <string name="delete_sim_entry_miui">Ta bort</string>
-    <string name="delete_unknown_contact_calllog_title">Rensa samtalshistorik?</string>
+    <string name="delete_unknown_contact_calllog_title">Ta bort?</string>
     <string name="deleting_sim_entry_miui">Tar bort kontakter från SIM-kortet…</string>
     <string name="deleting_sim_entry_miui_prepare">Förbereder kontakter…</string>
     <string name="description_add_contact">Lägg till kontakt</string>
@@ -333,8 +335,8 @@ Kontaktkort är avstängda"</string>
     <string name="description_image_button_plus">Plus</string>
     <string name="description_image_button_pound">Fyrkant</string>
     <string name="description_image_button_seven">sju</string>
-    <string name="description_image_button_sim1_named_dial">Dial using SIM1 %s</string>
-    <string name="description_image_button_sim2_named_dial">Dial using SIM2 %s</string>
+    <string name="description_image_button_sim1_named_dial">Ring med SIM1 %s</string>
+    <string name="description_image_button_sim2_named_dial">Ring med SIM2 %s</string>
     <string name="description_image_button_six">sex</string>
     <string name="description_image_button_star">stjärna</string>
     <string name="description_image_button_three">tre</string>
@@ -379,9 +381,9 @@ Kontaktkort är avstängda"</string>
 2. Upptäcktsbar ska också vara påslagen på Androidenheten. 
 
 3. Tryck på \"Nästa\", och ge Kontakter the nödvändiga behörigheter."</string>
-    <string name="device_transfer_by_sim_message">"\". Spara kontakter ifrån den andra enheten på SIM-kortet; 
+    <string name="device_transfer_by_sim_message">"\"1. Spara kontakter från den andra enheten på SIM-kortet; 
 
-2. Öppna inställningar i Kontakt appen, och gå sedan till \"Importera/Exportera kontakter\" -- \"Importera ifrån SIM kort\", tryck och håll ned på någon SIM kontakt för att välja den, välj alla kontakter som krävs, och tryck \"Importera\".\""</string>
+2. Öppna inställningar i appen Kontakter, och gå sedan till \"Importera/Exportera kontakter\" -- \"Importera från SIM kort\", tryck och håll ned på någon SIM-kontakt för att välja den, välj alla kontakter som krävs, och tryck \"Importera\".\""</string>
     <string name="device_version_header_bluetooth">Importera via bluetooth</string>
     <string name="device_version_header_no_bluetooth">Importera från SIM-kortet</string>
     <string name="dial">Ring</string>
@@ -394,7 +396,7 @@ Kontaktkort är avstängda"</string>
     <string name="dialer_empty_text_loading">Vänta lite…</string>
     <string name="dialer_empty_text_no_call_log">Inga nyligen använda kontakter</string>
     <string name="dialer_empty_text_no_search_result">Inga kontakter hittades</string>
-    <string name="dialer_firewall_entry_name">Logg blockerade samtal</string>
+    <string name="dialer_firewall_entry_name">Registrering av blockerade samtal</string>
     <string name="dialer_menu_description">Visa menyer</string>
     <string name="dialer_menu_title">Menyalternativ</string>
     <string name="dialer_returnToInCallScreen">Återgå till pågående samtal</string>
@@ -406,7 +408,7 @@ Kontaktkort är avstängda"</string>
     <string name="dialog_new_group_account">Skapa grupp under konto</string>
     <string name="dialog_phone_call_prohibited_message">Samtal skickades inte</string>
     <string name="dialog_sync_add">Lägg till synk-grupp</string>
-    <string name="dialog_voicemail_airplane_mode_message">För att ringa röstbrevlådan, stäng av flygplansläget.</string>
+    <string name="dialog_voicemail_airplane_mode_message">För att ringa röstbrevlådan, avaktivera Flygplansläget.</string>
     <string name="dialog_voicemail_not_ready_message">För att sätta upp en röstbrevlåda, gå till Meny > Inställningar.</string>
     <string name="directory_search_label">Katalog</string>
     <string name="disclaimer_text">"Gula sidorna får information om ditt saldo genom att skicka ett SMS. Din operatör kan uppdatera denna information med en viss fördröjning, så informationen du får kanske inte är korrekt. Om du ser ett misstag, kan du rapportera detta via SMS för att hjälpa oss att förbättra den här tjänsten. 
@@ -431,7 +433,7 @@ För undvika återkommande förfrågningar, uppdaterar vi information om ditt sa
     <string name="editContactNameExpandOpenDescription">Expandera namn</string>
     <string name="editGroupDescription">Redigera grupp</string>
     <string name="edit_contact">Redigera kontakt</string>
-    <string name="edit_contact_card_title">Välja objekt att dela</string>
+    <string name="edit_contact_card_title">Välj objekt att dela</string>
     <string name="edit_contact_photo">Redigera kontaktbild</string>
     <string name="email">Skicka e-post</string>
     <string name="emailLabelsGroup">E-post</string>
@@ -487,6 +489,7 @@ Orsak: \"%s\""</string>
     <string name="force_touch_miprofile">Kontaktkort</string>
     <string name="force_touch_new_contact">Ny kontakt</string>
     <string name="frequentList">Frekvent</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Namn</string>
     <string name="gallery">Galleri</string>
     <string name="generic_no_account_prompt">Säkrar dina kontakter även om du tappar din telefon: synkronisera med en onlinetjänst.</string>
@@ -667,6 +670,7 @@ Orsak: \"%s\""</string>
     <string name="miprofile_contact_header">Kontakter med kontaktkort</string>
     <string name="miprofile_contact_meaasge">Lokala kontakter</string>
     <string name="miprofile_contact_verifying">Verifierar</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Redigera profil</string>
     <string name="miprofile_error_accept_self">Kan inte växla ditt eget kontaktkort</string>
     <string name="miprofile_error_no_miaccount">Logga in på ditt Mi Konto</string>
@@ -691,8 +695,8 @@ Orsak: \"%s\""</string>
     <string name="miprofile_request_agenda_date">Denna person vill växla kontakt kort [%1$s]</string>
     <string name="miprofile_request_agenda_today">Denna person vill växla kontaktkort [Idag %1$s]</string>
     <string name="miprofile_request_agenda_yesterday">Denna person vill växla kontakt kort [Igår %1$s]</string>
-    <string name="miprofile_request_agree">Acceptera</string>
-    <string name="miprofile_request_agree_exchange_profile">Växlade kontakt kort</string>
+    <string name="miprofile_request_agree">Godkänn</string>
+    <string name="miprofile_request_agree_exchange_profile">Växlade kontaktkort</string>
     <string name="miprofile_request_agreed">%1$s tackade ja till att byta kontaktkort</string>
     <string name="miprofile_request_alertdialog_message">Ditt kort skickas automatiskt efter att denna person accepterat.</string>
     <string name="miprofile_request_alertdialog_title">Växla kontakt kort</string>
@@ -708,10 +712,10 @@ Orsak: \"%s\""</string>
     <string name="miprofile_save_alertdialog_title">Kontaktkort mottaget</string>
     <string name="miprofile_switch_off_alertdialog_message">Du kommer inte kunna växla kontakt kort med andra.</string>
     <string name="miprofile_switch_on_alertdialog_message">Växla kontakt kort för att visa uppdaterad profil bild.</string>
-    <string name="miprofile_switch_on_alertdialog_positive">Sätt på</string>
-    <string name="miprofile_switch_on_alertdialog_title">Profil bild uppdatera</string>
+    <string name="miprofile_switch_on_alertdialog_positive">Aktivera</string>
+    <string name="miprofile_switch_on_alertdialog_title">Uppdatera profilbild</string>
     <string name="missing_name">(Inget namn)</string>
-    <string name="missing_required_permission">Du har inaktiverat ett obligatoriskt tillstånd.</string>
+    <string name="missing_required_permission">Du har inaktiverat en behörighet som krävs.</string>
     <string name="mobile_equipment_identification">Mobile Equipment Identification</string>
     <string name="more_call_logs">Lyssna på alla dina inspelningar på <a href="https://i.mi.com">i.mi.com</a></string>
     <string name="move_and_resize">Flytta och ändra storlek</string>
@@ -820,7 +824,10 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="path_wipe_data">Systemappar/Kontakter/Organisera kontakter/Rensa data</string>
     <string name="payphone">Betalnummer</string>
     <string name="people">Kontakter</string>
+    <string name="percent_sign">%</string>
+    <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">Telefon</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Numret är för långt</string>
     <string name="phone_primary">Primär</string>
     <string name="photoPickerNotFoundText">Inga bilder finns tillgängliga på enheten.</string>
@@ -977,8 +984,8 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="savingContact">Sparar kontakt…</string>
     <string name="savingDisplayGroups">Sparar visningsalternativ…</string>
     <string name="scan">Skanna</string>
-    <string name="scan_business_card">Scan business card</string>
-    <string name="scan_bussiness_card_merge_tip">Conflicting data has been replaced</string>
+    <string name="scan_business_card">Skanna visitkort</string>
+    <string name="scan_bussiness_card_merge_tip">Motstridiga data har ersatts</string>
     <string name="scan_duplicate_message">%1$d kontakter med identisk information</string>
     <string name="scan_merge">\"Söker efter duplicerade kontakter…\"</string>
     <string name="scan_qrcode_card_hint1">Skanna QR-koden ovan</string>
@@ -1040,7 +1047,7 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="shortcutDialContact">"Snabbuppringning "</string>
     <string name="shortcutMessageContact">Direktmeddelande</string>
     <string name="showAllContactsJoinItem">Visa alla kontakter</string>
-    <string name="simContacts_airplaneMode">För att importera kontakter från SIM-kortet, stäng av flygplansläget</string>
+    <string name="simContacts_airplaneMode">För att importera kontakter från SIM-kortet, stäng av Flygplansläget</string>
     <string name="simContacts_empty">Inga kontakter på SIM-kortet</string>
     <string name="simContacts_emptyLoading">Laddar kontakter från SIM-kortet…</string>
     <string name="simContacts_title">Kontakter på SIM-kort</string>
@@ -1069,6 +1076,7 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="sim_unloaded">SIM-kortet är inte installerat</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Inga gruppmedlemmar</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Företag</string>
     <string name="smart_group_company_unavailable">Ingen företagsinformation</string>
     <string name="smart_group_frequency_1">Inom den senaste månaden</string>
@@ -1143,7 +1151,7 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="toast_join_with_empty_contact">Skriv kontaktens namn innan du slår ihop den med en annan</string>
     <string name="toast_making_personal_copy">Skapar en personlig kopia…</string>
     <string name="toast_start_intent_failed">Det gick inte att hitta appar som hanterade den här åtgärden</string>
-    <string name="toast_text_copied">Text kopierad</string>
+    <string name="toast_text_copied">Kopierad</string>
     <string name="today">Idag</string>
     <string name="transfer_accounts">Överför konton</string>
     <string name="type_incoming">Inkommande samtal</string>
@@ -1203,6 +1211,7 @@ Välj en av följande alternativ:"</string>
     <string name="voip_audio_description">VoIP samtal</string>
     <string name="voip_video_description">VoIP video samtal</string>
     <string name="websiteLabelsGroup">Webbsida</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">Rensa data</string>
     <string name="yellowPageNavigationIconLabel">Gula Sidorna</string>
     <string name="yellowPageNavigationLabel">Gula Sidorna</string>

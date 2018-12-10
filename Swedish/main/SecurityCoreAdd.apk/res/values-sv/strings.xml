@@ -435,4 +435,26 @@ Se till att namnet på ditt företag är korrekt. Läs och godkänn Integritetsp
     <string name="install_error">Det gick inte att installera. Försök igen.</string>
     <string name="ent_install_dialog_content">Installera appar och starta om din enhet nu?</string>
     <string name="ent_disallow_running">Den här appen är förbjuden att köra</string>
+    <string name="greenguard_child_des_title">Jag behöver hjälp från mina vänner och familj</string>
+    <string name="greenguard_child_des">Använd vår app för att fortsätta vara ansluten</string>
+    <string name="greenguard_parent_des_title">Jag behöver hjälpa mina vänner och familj</string>
+    <string name="greenguard_parent_des">Ladda ner vår app och lägg till andra människors enheter</string>
+    <string name="cta_declaration_title">Villkor</string>
+    <string name="cta_declaration_message_format" formatted="false">Du måste läsa och godkänna vår&lt;font color=%s>&lt;a href=%s> %s &lt;/a>&lt;/font> innan du använder företagsläge. Din enhet måste vara ansluten till Internet för att aktivera Företagsläge. Godkänn?</string>
+    <string name="cta_declaration_agree_and_continue">Godkänn</string>
+    <string name="undo_activated_dialog_message">Upphäva behörigheter kommer avaktivera Företagsläge och din enhet kommer fabriksåterställas. Alla relaterade funktioner kommer inte vara tillgängliga längre. Förutom det kommer Xiaomi sluta att samla in information som krävs för Företagsläge (IMEI, Enhets-ID, systemversion region osv.). Vi vill påminna dig att Xiaomi inte hantera datan som samlas in för Företagsläge. Vi kommer göra vårt bästa för att meddela ingående parter men rekommendera att du kontaktar ditt företag för att godkänna upphävningen. Upphäv och genomför en fabriksåterställning?</string>
+    <string name="undo_activated_dialog_ok">Upphäva</string>
+    <string name="undo_grant_dialog_message">Xiaomi kommer sluta att samla in information som krävs för funktionen (IMEI, Enhets-ID, systemversion region osv.) efter att upphävt behörighet. Upphäv nu?</string>
+    <string name="undo_privacy_menu">Upphäv befogenheter</string>
+    <string name="more_settings">Fler</string>
+    <string name="undo_success">Upphävd</string>
+    <string name="master_clear_apply_title">Uppmärksamma</string>
+    <string name="master_clear_apply_step_1">Upphäva behörighet kräver att en fabriksåterställning genomförs på din enhet. Alla dina filer kommer permanent raderas inklusive konton, kontakter, foton och appar. Säkerhetskopiera alla viktiga objekt till din datorn innan du upphäver.</string>
+    <string name="master_clear_apply_step_2">Se till att du säkerhetskopierat alla viktiga objekt till din dator. När tryck på \"Okej\" kommer en fabriksåterställning genomföras på din enhet och permanent radera alla filer och data, inklusive konton, kontakter, foton och appar.</string>
+    <string name="button_text_next_step">Nästa</string>
+    <string name="button_text_next_step_timer">Nästa steg (%d)</string>
+    <string name="dialog_tip_need_network">Din enhet behöver internetanslutning för att upphäva behörigheter.</string>
+    <string name="dialog_undo_negative">Upphäv inte</string>
+    <string name="dialog_title_service_error">Serverfel</string>
+    <string name="dialog_message_service_error">Det gick inte att upphäva behörigheter och genomföra en fabriksåterställning. Försök igen</string>
 </resources>

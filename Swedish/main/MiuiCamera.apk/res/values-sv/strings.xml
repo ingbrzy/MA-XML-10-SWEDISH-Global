@@ -203,7 +203,7 @@
     <string name="tap_to_exposure">Tryck här för att justera exponeringen manuellt</string>
     <string name="accessibility_shutter_button">Slutarknapp</string>
     <string name="accessibility_intent_done_apply">Klar</string>
-    <string name="accessibility_intent_done_retry">Ta om</string>
+    <string name="accessibility_intent_done_retry">Försök igen</string>
     <string name="accessibility_review_thumbnail">Senaste foto</string>
     <string name="accessibility_camera_picker">Växla mellan fram- och baksidans kameror</string>
     <string name="accessibility_stereo_button">Justera fokus</string>
@@ -261,13 +261,12 @@
     <string name="pref_camera_referenceline_title">Visa rutnät</string>
     <string name="pref_camera_volumekey_function_entry_volume">Volym</string>
     <string name="pref_camera_volumekey_function_entry_shutter">Slutare</string>
+    <string name="pref_camera_volumekey_function_entry_timer">Nedräkning slutare</string>
     <string name="pref_camera_volumekey_function_entry_zoom">Zoom</string>
-    <string name="pref_camera_volumekey_function_entry_exposure">Exponering</string>
     <string name="pref_camera_volumekey_function_title">Volymknapparnas funktion</string>
     <string name="error_fail_to_start_audio_capture">Kunde inte starta ljudupptagning</string>
     <string name="toast_start_audio_capture">Gör ett ljud för att ta ett foto</string>
     <string name="record_back_pressed_hint">Klicka igen för att sluta spela in</string>
-    <string name="toast_burst_snap_finished_summary">Fotoserie slutförd, %1$s foton tagna</string>
     <string name="toast_burst_snap_forbidden_when_audio_capture_open">Kan inte fota kontinuerligt när ljudinspelning är på</string>
     <string name="time_lapse_error">Kan inte använda denna videostorlek för time-lapse inspelning</string>
     <string name="pref_camera_movie_solid_title">Bildstabilisering</string>
@@ -431,10 +430,11 @@
     <string name="pref_camera_portrait_mode_entry_on">Porträttläge på</string>
     <string name="portrait_mode_lowlight_hint">Det är för mörkt nu</string>
     <string name="portrait_mode_too_close_hint">Flytta längre från objektet</string>
-    <string name="portrait_mode_too_far_hint">Placera objekt inom 2 meter</string>
+    <string name="portrait_mode_too_far_hint">Placera objektet inom 2 meter</string>
     <string name="portrait_mode_depth_effect_success_hint">Djupeffekt</string>
     <string name="portrait_mode_use_hint">"Porträttläge gör bakgrunden suddig
  och frambringar personerna förgrunden."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Försök Poträttläge.
 Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_square_mode_title">Fyrkant</string>
@@ -451,6 +451,7 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Lägen</string>
     <string name="button_front_camera_title">Ta en selfie</string>
     <string name="button_normal_video_title">Spela in video</string>
@@ -569,5 +570,5 @@ i Porträtt läge"</string>
     <string name="portrait_bokeh_text">Porträttläge</string>
     <string name="portrait_bokeh_first_tips">"Använd Porträttläge för att göra
  bakgrunden på suddig på dina bilder"</string>
-    <string name="portrait_bokeh_tips">Placera objekt inom 1.5 meter</string>
+    <string name="portrait_bokeh_tips">Placera objektet inom 1.5 meter</string>
 </resources>

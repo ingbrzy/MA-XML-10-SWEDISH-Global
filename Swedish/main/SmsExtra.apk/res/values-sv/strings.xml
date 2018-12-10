@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="activity_not_found">Det finns ingen app som kan hantera denna åtgärd</string>
     <string name="allow_network_hint">Slå på ”Uppdatera information automatiskt” eller kontrollera din nätverksanslutning</string>
     <string name="already_updated">Uppdaterad</string>
@@ -42,7 +43,7 @@
     <string name="messaging">Meddelanden</string>
     <string name="more">Mer</string>
     <string name="mx_message">Mi Message</string>
-    <string name="net_sms_unsubscribe">Otecknade framgångsrikt</string>
+    <string name="net_sms_unsubscribe">Abonnemang uppsagt</string>
     <string name="packages_select_sim_cards_title">Välj SIM-kort</string>
     <string name="rcs_message">China Mobile Messaging</string>
     <string name="received_label">"Mottaget: "</string>

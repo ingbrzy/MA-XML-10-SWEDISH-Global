@@ -46,7 +46,6 @@
     <string name="michat_cant_join_artificial">Kunde inte ansluta på grund av ett nätverksfel</string>
     <string name="michat_lose_artificial">Ett nätverksfel har inträffat, du lämnade chatten</string>
     <string name="michat_transfer_message">Letar efter en person som kan hjälpa dig…</string>
-    <string name="michat_queue_pos_update">Det är %1$d personer framför dig, vänta ett ögonblick…</string>
     <string name="michat_in_artificial_customer_state">Kan inte göra detta när du får hjälp</string>
     <string name="michat_pull_to_refresh_pull_label">Svep nedåt för att visa historik</string>
     <string name="michat_pull_to_refresh_release_label">Släpp för att visa historik</string>
@@ -57,6 +56,7 @@
     <string name="save_pic_success">Sparade bild till %s</string>
     <string name="save_pic_fail">Kunde inte spara bild, kontrollera ditt SD-kort</string>
     <string name="pic_not_exist">Bilden finns inte</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Välj produkt</string>
     <string name="michat_skillset_business_type_title">Välj tjänst</string>
     <string name="michat_close_text">Chatt avslutad</string>
@@ -132,7 +132,6 @@
     <string name="toast_report_sent_failed">Det går inte att skicka rapport</string>
     <string name="toast_report_copied_to_clipboard">Rapport kopierad till urklipp</string>
     <string name="toast_description_required">Du måste ange en beskrivning</string>
-    <string name="toast_feedbackservice_in_submit">Hantera föregående feedback…</string>
     <string name="toast_pending_log_collection">Hämtar fortfarande loggar…</string>
     <string name="toast_feedback_submitted">Rapport har skickats</string>
     <string name="toast_feedback_submitting">Skickar…</string>
@@ -161,7 +160,7 @@
     <string name="cta_cancel">Avbryt</string>
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Skicka rapport</string>
-    <string name="submit_dialog_content"><Data>"Din feedback tillsammans med bifogade filer och loggar kommer skickas till MIUI's servrar. De kan innehålla personlig information och din platsinfo. Att välja \"Godkänn\" betyder att du har läst och godkänt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>."</Data></string>
+    <string name="submit_dialog_content"><Data>"Du måste godkänna vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och våra &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a> för att kunna använda Feedback. Problemet du rapporterar tillsammans med objekten du bifogar (kan innehålla personlig information och information om din enhet och ditt nätverk) kommer laddas upp till MIUI's servrar. Detta kommer hjälpa oss att hitta och lösa problemet som du rapporterar."</Data></string>
     <string name="submit_dialog_content_global"><Data>"Din feedback tillsammans med bilagor (om det finns några) och loggar (du kan avmarkera de objekt som du inte vill ladda upp) kommer skickas till MIUI's servrar och till begränsad del av MIUI Forum för utvecklare. Informationen om dina trådar och aktivitet i forumet kommer också samlas in för analys och vidare kommunikation. Loggarna kan innehålla personlig information och din platsinfo. Dela inte loggarna med någon om du inte vill att denna information ska exponeras. Att välja \"Godkänn\" betyder att du har läst och godkänt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>."</Data></string>
     <string name="submit_dialog_cancel">Godkänn inte</string>
     <string name="submit_dialog_confirm">Godkänn</string>
@@ -247,6 +246,7 @@
     <string name="feedback_contact_info_hint">Telefonnummer/Email</string>
     <string name="toast_loading_app_id">Hämtar info…</string>
     <string name="feedback_status_commit_succ_title">Skickad</string>
+    <string name="feedback_status_commit_in_queue_title">Väntar…</string>
     <string name="feedback_status_commit_uploading_title">Skickar…</string>
     <string name="feedback_status_commit_failed_title">Kunde inte skicka rapport</string>
     <string name="feedback_status_processing">Bearbetar…</string>
@@ -333,6 +333,7 @@
     <string name="customer_service_station">Sök plats</string>
     <string name="title_catch_full_log">Loggar</string>
     <string name="toast_catch_full_log_catching">Du kan endast generera en logg i taget.</string>
+    <string name="toast_catch_full_log_open_failed">Det gick inte att starta spela in loggen.</string>
     <string name="catch_full_log_item_title_signal">Telefon, signal och mobila nätverk</string>
     <string name="catch_full_log_item_title_wifi">Wi-Fi och Mi Drop</string>
     <string name="catch_full_log_item_title_gps">Platstjänster</string>

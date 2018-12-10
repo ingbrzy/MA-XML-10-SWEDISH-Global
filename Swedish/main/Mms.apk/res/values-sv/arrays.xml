@@ -31,6 +31,13 @@
         <item>Endast i ljudlöst läge</item>
         <item>Aldrig</item>
     </string-array>
+    <string-array name="reason_type">
+        <item>Bedrägeri</item>
+        <item>Stötande eller olagligt innehåll</item>
+        <item>Skräppost</item>
+        <item>Övrigt</item>
+        <item>Avbryt</item>
+    </string-array>
     <string-array name="recv_type">
         <item>接收并通知</item>
         <item>只接收</item>

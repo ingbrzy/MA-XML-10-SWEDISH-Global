@@ -198,4 +198,5 @@
     <string name="dialpad_nine">9</string>
     <string name="prompt_no_volte_when_failed">Kan inte ringa. Kontrollera att din enhet är ansluten till ett 4G-nätverk som stöder VoLTE.</string>
     <string name="volume_boost_text">Volymen ökad</string>
+    <string name="supp_service_notification_call_waiting">Numret du har ringt är upptaget. Var god att vänta…</string>
 </resources>

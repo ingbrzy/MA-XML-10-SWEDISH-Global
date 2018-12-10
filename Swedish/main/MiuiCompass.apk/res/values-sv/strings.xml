@@ -10,14 +10,14 @@
     <string name="altitude_uncalibrate_tip">Okalibrerad data</string>
     <string name="altitude_unit">m</string>
     <string name="angle">%.0f</string>
-    <string name="app_description_content">Kompass används för navigering och orientering och visar riktning. Se till att du kan undvika dessa funktioner innan du avinstallerar appen.</string>
+    <string name="app_description_content">Kompass används för navigering och orientering och visar riktning. Se till att du kan klara dig utan dessa funktioner innan du avinstallerar appen.</string>
     <string name="app_description_title">Om kompass</string>
     <string name="app_label">Kompass</string>
     <string name="calibrate_failed">Höjdkalibrering misslyckades</string>
     <string name="calibrate_failed_no_location">Det går inte att kalibrera</string>
     <string name="calibrate_failed_timeout">Kan inte ansluta till servern</string>
     <string name="calibrate_rotate_again">Försök igen</string>
-    <string name="calibrate_success">Kalibrera</string>
+    <string name="calibrate_success">Kalibrerad</string>
     <string name="calibrate_tip">Luta din enhet för att rulla bollen runt cirkeln</string>
     <string name="calibrate_title">Kalibrera kompass</string>
     <string name="cancel">Avbryt</string>
@@ -37,7 +37,7 @@
     <string name="error_camera_unavailable">Kontrollera om en annan app för närvarande använder Kamera.</string>
     <string name="error_camera_unavailable_title">Kamera otillgänglig</string>
     <string name="first_using_dialog_message">Kompass behöver använda din enhets nätverksanslutning, kamera, och platstjänster för att fungera normalt.</string>
-    <string name="first_using_dialog_title">Ge tillstånd</string>
+    <string name="first_using_dialog_title">Ge behörighet</string>
     <string name="guide_toast">För att kalibrera, rör din telefon i rörelsen nedan.</string>
     <string name="latitude">LAT</string>
     <string name="location_east">EL</string>
@@ -53,14 +53,14 @@
     <string name="mobiledata_alert_dialog_message">Anslut till internet för att kalibrerar höjden?</string>
     <string name="mobiledata_alert_dialog_title">Varning för dataanvändning</string>
     <string name="open_perm_msg">Kompassen behöver åtkomst till platsinformation och kamera. Detta är nödvändigt att fastställa koordinater och ger förhandsgranskningar. Tillåta?</string>
-    <string name="open_perm_title">Tillstånd krävs</string>
+    <string name="open_perm_title">Behörigheter krävs</string>
     <string name="preference_other">Övrigt</string>
     <string name="preference_privacy_title">Integritetspolicy</string>
     <string name="pressure">%.1f</string>
-    <string name="pressure_title">Press</string>
+    <string name="pressure_title">Tryck</string>
     <string name="pressure_unit">hPa</string>
     <string name="shake_enter_tip">Skaka för att kalibrera</string>
     <string name="unit_degree">Grader</string>
-    <string name="using_camera_confirm_cancel">Lämna</string>
+    <string name="using_camera_confirm_cancel">Avsluta</string>
     <string name="using_camera_confirm_ok">Godkänn</string>
 </resources>

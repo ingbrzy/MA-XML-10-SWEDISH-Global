@@ -29,12 +29,12 @@
         <item quantity="one">Felaktig PUK-kod, %d försök återstår</item>
     </plurals>
     <plurals name="input_password_after_timeout_msg">
-        <item quantity="other">Efter %d timmar av inaktivitet måste lösenord anges</item>
-        <item quantity="one">Efter %d timme av inaktivitet måste lösenord anges</item>
+        <item quantity="other">Du har inte använt ditt lösenord på minst %d timmar. Ange ditt lösenord igen.</item>
+        <item quantity="one">Du har inte använt ditt lösenord på minst %d timme. Ange ditt lösenord igen.</item>
     </plurals>
     <plurals name="input_pattern_after_timeout_msg">
-        <item quantity="other">Efter %d timmar av inaktivitet måste mönster ritas</item>
-        <item quantity="one">Efter %d timme av inaktivitet måste mönster ritas</item>
+        <item quantity="other">Du har inte använt ditt upplåsningsmönster på minst %d timmar. Rita ditt mönster igen.</item>
+        <item quantity="one">Du har inte använt ditt upplåsningsmönster på minst %d timme. Rita ditt mönster igen.</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_hour_time_text">
         <item quantity="other">"Ungefär %d  timmar kvar"</item>
@@ -57,7 +57,7 @@
         <item quantity="one">"%d  minut"</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_time_format">
-        <item quantity="other">"%1$d  timmar %2$d  minuter"</item>
+        <item quantity="other">"%1$d  timmar %2$d\u0000\u0000"</item>
         <item quantity="one">"%1$d  timme %2$d  minut"</item>
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">

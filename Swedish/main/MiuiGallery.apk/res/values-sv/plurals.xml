@@ -264,4 +264,12 @@
         <item quantity="other">%d objekt</item>
         <item quantity="one">%d objekt</item>
     </plurals>
+    <plurals name="backup_file_over_size_title">
+        <item quantity="other">%d objekt är för stora för att säkerhetskopiera</item>
+        <item quantity="one">%d objekt är för stort för att säkerhetskopiera</item>
+    </plurals>
+    <plurals name="sync_oversized_count">
+        <item quantity="other">%d objekt är för stora för att säkerhetskopiera</item>
+        <item quantity="one">%d objekt är för stort för att säkerhetskopiera</item>
+    </plurals>
 </resources>

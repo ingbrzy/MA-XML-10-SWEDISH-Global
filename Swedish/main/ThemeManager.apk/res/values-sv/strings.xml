@@ -38,7 +38,9 @@
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Ljud</string>
@@ -50,6 +52,7 @@
     <string name="exo_track_surround_7_point_1">7.1-kanaligt surroundljud</string>
     <string name="exo_track_unknown">Okänt</string>
     <string name="search_menu_title">Sök</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="accessibiliy_description_content_account">Profil</string>
     <string name="accessibiliy_description_content_ad">Reklam</string>
     <string name="accessibiliy_description_content_add_resource">Lägg till objekt</string>
@@ -119,7 +122,7 @@
     <string name="download_failed">Det går inte att ladda ner</string>
     <string name="download_preview_failed">Kan inte ladda förhandsvisning</string>
     <string name="download_success">Nedladdingen slutförd</string>
-    <string name="exit_extreme_mode_dialog_agree">Samtycker</string>
+    <string name="exit_extreme_mode_dialog_agree">Godkänn</string>
     <string name="exit_extreme_mode_dialog_cancel">Avbryt</string>
     <string name="exit_extreme_mode_dialog_title">Stänga av extrema läget</string>
     <string name="extreme_mode_dialog_message">Den här funktionen är inte tillgänglig i extrema läge. Stänga av extrema läge för att kunna använda den.</string>
@@ -172,6 +175,7 @@
     <string name="incompatible_dialog_ok">Jag förstår</string>
     <string name="incompatible_dialog_title">Kompatibilitetsproblem</string>
     <string name="is_setting_wallpaper_message">Ställer in bakgrund…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarm</string>
     <string name="item_resource_audio_optional_color_ring">Kopplingston</string>
     <string name="item_resource_audio_optional_notification_ring">Notifikationer</string>
@@ -270,7 +274,7 @@
     <string name="resource_can_not_selected">%1$s kan inte väljas</string>
     <string name="resource_category">Kategori</string>
     <string name="resource_clear_search_history">Rensa sökhistorik</string>
-    <string name="resource_clear_search_history_dialog">Rensa alla sökhistorik?</string>
+    <string name="resource_clear_search_history_dialog">Rensa all sökhistorik?</string>
     <string name="resource_comment_1_star">1 Stjärna</string>
     <string name="resource_comment_2_star">2 Stjärnor</string>
     <string name="resource_comment_3_star">3 Stjärnor</string>
@@ -382,7 +386,7 @@
     <string name="resource_no_match_app">Det finns ingen app som kan hantera denna åtgärd.</string>
     <string name="resource_no_network_text">Kan inte ansluta till nätverket.</string>
     <string name="resource_no_result">Hittade ingenting</string>
-    <string name="resource_notification_default">Meddelanden</string>
+    <string name="resource_notification_default">Notifikationer</string>
     <string name="resource_on_trial">Försöker: %1$s</string>
     <string name="resource_on_use">Använder: %1$s</string>
     <string name="resource_online">Online</string>
@@ -393,6 +397,7 @@
     <string name="resource_pack_price_info">Originalpris: %1$s</string>
     <string name="resource_pack_warning">Du har redan köpt %1$d komponenter i detta tema. Det är billigare om du köper de återstående komponenterna individuellt.</string>
     <string name="resource_present">Gåva</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Gratis</string>
     <string name="resource_price_unit"> Mi Krediter</string>
     <string name="resource_purchase_common_error">Ett fel uppstod, försök igen</string>
@@ -404,6 +409,10 @@
     <string name="resource_ranking">Populär</string>
     <string name="resource_ranking_free">Gratis</string>
     <string name="resource_ranking_purchase">Betald</string>
+    <string name="resource_ring_ranking_list_divider">-</string>
+    <string name="resource_ring_ranking_list_rank_1">1</string>
+    <string name="resource_ring_ranking_list_rank_2">2</string>
+    <string name="resource_ring_ranking_list_rank_3">3</string>
     <string name="resource_ringtone_default">Ringsignaler</string>
     <string name="resource_ringtone_playing_error">Fel</string>
     <string name="resource_ringtone_volume_mute">Ringer är tystad</string>
@@ -449,7 +458,7 @@
     <string name="resource_trial_end_purchase">Köp</string>
     <string name="resource_trial_end_restore">Avsluta försök</string>
     <string name="resource_trial_end_time">(försök tills %1$s)</string>
-    <string name="resource_trial_end_time_format">hh:mma MMM d</string>
+    <string name="resource_trial_end_time_format">hh:mma d MMM</string>
     <string name="resource_trial_end_title">Prövoperiod har löpt ut</string>
     <string name="resource_trial_fail_cancel">OK</string>
     <string name="resource_trial_fail_go_settings">Inställningar</string>
@@ -468,7 +477,7 @@
     <string name="sdcard_not_mounted_dialog_message">"Sätt i SD-kortet nu.
 "</string>
     <string name="sdcard_not_mounted_dialog_title">Inget SD-kort upptäckt</string>
-    <string name="search_hint_header_text">Heta ord</string>
+    <string name="search_hint_header_text">Populära ord</string>
     <string name="selected_resource_file_invalid">Kan inte använda valda resursfilen</string>
     <string name="set_color_ring_back_tone">Välj en anpassad kopplingston</string>
     <string name="settings">Inställningar</string>
@@ -479,7 +488,7 @@
     <string name="shortcut_title">Som våra tapeter?</string>
     <string name="show_free">Visa gratis %1$s</string>
     <string name="show_incompatible">Visa inkompatibla %1$s</string>
-    <string name="swipe_find_more">swipe up</string>
+    <string name="swipe_find_more">Svep uppåt för att visa mer</string>
     <string name="system_precust">Förinstallerade</string>
     <string name="the_picture_is_not_support">Bilden stöds inte</string>
     <string name="the_picture_is_too_small">Bilden är för liten</string>
@@ -524,7 +533,7 @@
     <string name="theme_description_title_default">Standard</string>
     <string name="theme_detail_tab_comment">Kommentarer</string>
     <string name="theme_detail_tab_recommend">Rekommendera</string>
-    <string name="theme_detail_tab_theme">Tema</string>
+    <string name="theme_detail_tab_theme">Detaljer</string>
     <string name="theme_empty_redirect">Tillbaka till Teman</string>
     <string name="theme_favorite_add_fail">Kunde inte lägga till i favoriter</string>
     <string name="theme_favorite_add_success">Tillagt i favoriter</string>
@@ -539,6 +548,7 @@
     <string name="theme_is_external_priority_storage">Spara till SD-kort</string>
     <string name="theme_is_external_priority_storage_summary">Tema-appen kommer starta direkt för att verkställa inställningar.</string>
     <string name="theme_multiple_button_title_customize">Anpassa</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Nej</string>
     <string name="theme_purchased_list_empty">Du har inte köpt några teman.</string>
     <string name="theme_purchased_non_local">Online</string>
@@ -554,14 +564,14 @@
     <string name="theme_user_agreement_remind_again">Visa Villkor</string>
     <string name="theme_user_agreement_remind_never">Visa inte igen</string>
     <string name="theme_user_agreement_remind_summary">Visa användarvillkoren popup varje gång du öppnar temaapp. Den här inställningen börjar gälla när du startar enheten.</string>
-    <string name="theme_user_agreement_title">Vilkor</string>
+    <string name="theme_user_agreement_title">Villkor</string>
     <string name="theme_yes">Ja</string>
     <string name="third_party_pickers_activity_title">Lägg till %1$s</string>
     <string name="tips_theme_gate_transfer_fail">Kunde inte öppna den här sidan. Vänta en minut eller två och försök igen.</string>
     <string name="title_component">Anpassa tema</string>
     <string name="title_my_audio_resource">Mina ringsignaler</string>
     <string name="title_my_miwallpaper_resource">Mina levande bakgrunder</string>
-    <string name="title_my_miwallpaper_video_file_resource">Mina tapeter filmer</string>
+    <string name="title_my_miwallpaper_video_file_resource">Mina bakgrunder</string>
     <string name="title_my_wallpaper_resource">Mina bakgrunder</string>
     <string name="title_system_audio_notification_resource">Systemnotifikationer</string>
     <string name="title_system_audio_resource">Systemringsignaler</string>

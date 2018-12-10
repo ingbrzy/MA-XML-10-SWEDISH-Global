@@ -70,7 +70,7 @@
     <string name="screen_on_proximity_sensor_title">Fickläge</string>
     <string name="screen_on_proximity_sensor_summary">Täck inte hörlursområdet</string>
     <string name="screen_on_proximity_sensor_hint">För att stänga av denna funktion, tryck på Volym upp och tillbaka-knapparna samtidigt.</string>
-    <string name="screen_on_proximity_sensor_hint_has_navigation_bar">För att stänga av denna funktion, tryck på Volym upp-knappen.</string>
+    <string name="screen_on_proximity_sensor_hint_has_navigation_bar">För att stänga av funktionen, tryck på Volym upp-knappen.</string>
     <string name="screen_button_notification_title">Navigationsknapparna är avstängda</string>
     <string name="screen_button_notification_text">För att slå på dem, tryck på Hem och Ström knapparna samtidigt.</string>
     <string name="screen_paper_mode_enter_toast">Läsläge är på. För att stänga av denna funktion, gå till Inställningar > Skärm > Läsläge.</string>
@@ -185,4 +185,5 @@
     <string name="miui_warning_tip_info">Ett fel inträffade i %1$s. Avsluta appen nu?</string>
     <string name="talk_back_water_mark_string1">Talkback är aktiverad</string>
     <string name="talk_back_water_mark_string2">Tryck och håll \"Volym+\" och \"Volym-\" i 3 sekunder för att avaktivera</string>
+    <string name="start_dump_log">Börja att hämta problemrelaterade loggar</string>
 </resources>

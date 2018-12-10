@@ -3,34 +3,34 @@
     <string-array name="date_of_traffic_cmcc">
         <item>"Denna Vecka "</item>
         <item>"I dag "</item>
-        <item>"Denna månad "</item>
+        <item>"Denna månaden "</item>
     </string-array>
     <string-array name="date_of_traffic">
         <item>"Igår "</item>
         <item>"Idag "</item>
-        <item>"Senaste månaden "</item>
-        <item>"Denna månad "</item>
+        <item>"Förra månaden "</item>
+        <item>"Denna månaden "</item>
     </string-array>
     <string-array name="date_of_traffic_prefix_cmcc">
         <item>"Denna vecka: "</item>
         <item>"Idag: "</item>
-        <item>"Denna månad: "</item>
+        <item>"Denna månaden: "</item>
     </string-array>
     <string-array name="date_of_traffic_prefix">
         <item>"Igår: "</item>
         <item>"Idag: "</item>
-        <item>"Senaste månaden: "</item>
-        <item>"Denna månad: "</item>
+        <item>"Förra månaden: "</item>
+        <item>"Denna månaden: "</item>
     </string-array>
     <string-array name="date_of_app_all">
         <item>Igår (data)</item>
         <item>Idag (data)</item>
         <item>Förra månaden (data)</item>
-        <item>Denna månad (data)</item>
+        <item>Denna månaden (data)</item>
         <item>Wi-Fi som användes igår</item>
         <item>Wi-Fi som användes idag</item>
-        <item>Wi-Fi som användes senaste månaden</item>
-        <item>Wi-Fi som användes denna månad</item>
+        <item>Wi-Fi som användes förra månaden</item>
+        <item>Wi-Fi som användes denna månaden</item>
     </string-array>
     <string-array name="traffic_type">
         <item>"Mobildata "</item>
@@ -72,6 +72,12 @@
         <item>Sortera efter användningsfrekvens</item>
         <item>Sortera efter använt utrymme</item>
         <item>Sortera efter installationstid</item>
+    </string-array>
+    <string-array name="key_app_info">
+        <item>install_source</item>
+        <item>install_time</item>
+        <item>update_source</item>
+        <item>update_time</item>
     </string-array>
     <string-array name="title_app_info">
         <item>Installationskälla</item>

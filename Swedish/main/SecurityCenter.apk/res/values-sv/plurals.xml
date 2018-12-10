@@ -264,6 +264,18 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="other">"Vänta i %d sekunder och försök igen. "</item>
         <item quantity="one">"Vänta i %d sekund och försök igen. "</item>
     </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short">
+        <item quantity="other">Anslut åtminstone %d punkter</item>
+        <item quantity="one">Anslut åtminstone %d punkt</item>
+    </plurals>
+    <plurals name="numeric_recording_incorrect_too_short">
+        <item quantity="other">Ange minst %d siffror</item>
+        <item quantity="one">Ange minst %d siffra</item>
+    </plurals>
+    <plurals name="mixed_recording_incorrect_too_short">
+        <item quantity="other">Ange minst %d tecken</item>
+        <item quantity="one">Ange minst %d tecken</item>
+    </plurals>
     <plurals name="number_masked">
         <item quantity="other">%d appar</item>
         <item quantity="one">%d app</item>
