@@ -19,7 +19,6 @@
     <string name="abc_shareactionprovider_share_with">Dela med</string>
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="passport_access_denied">Nekat tillträde</string>
     <string name="passport_account_hint_text">Email address, phone number or Mi Account ID</string>
     <string name="passport_account_identity_title">Verifiera din identitet</string>
