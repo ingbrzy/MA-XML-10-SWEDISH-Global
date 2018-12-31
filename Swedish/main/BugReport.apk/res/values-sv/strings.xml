@@ -56,6 +56,7 @@
     <string name="save_pic_success">Sparade bild till %s</string>
     <string name="save_pic_fail">Kunde inte spara bild, kontrollera ditt SD-kort</string>
     <string name="pic_not_exist">Bilden finns inte</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Välj produkt</string>
     <string name="michat_skillset_business_type_title">Välj tjänst</string>
     <string name="michat_close_text">Chatt avslutad</string>
@@ -215,8 +216,10 @@
     <string name="feedback_select_suggestion">Förslag</string>
     <string name="feedback_select_problem">Problem</string>
     <string name="feedback_choose_module">Välj objekt</string>
+    <string name="feedback_choose_app_tag">Välj problem</string>
     <string name="feedback_choose_third_app_name">Välj namn på app</string>
     <string name="toast_module_required">Välj objekt</string>
+    <string name="toast_app_tag_required">Välj problem</string>
     <string name="feedback_choose_module_hint">Nödvändig</string>
     <string name="feedback_choose_reproductivity">Reproduktivitet</string>
     <string name="feedback_title_reproductivity">Välj reproduktivitet</string>
@@ -327,6 +330,7 @@
     <string name="toast_log_too_large">Det går inte att ladda upp. Loggen är för stor.</string>
     <string name="title_customer_service">Kundtjänst</string>
     <string name="title_first_aid">Första hjälpen</string>
+    <string name="title_user_guide">Användarguide</string>
     <string name="customer_service_apply">Begär kundtjänst</string>
     <string name="customer_service_complain">Rapportera till kundtjänst</string>
     <string name="customer_service_station">Sök plats</string>
@@ -340,12 +344,11 @@
     <string name="catch_full_log_item_title_sensor">Sensorer</string>
     <string name="catch_full_log_item_title_bt">Bluetooth</string>
     <string name="catch_full_log_item_title_dump_heap">Laggar</string>
-    <string name="catch_full_log_item_content_need_open">"Steg:
-1. Tryck på \"Generera logg\".
-2. Gå tillbaka till funktionen som du vill rapportera och använd funktionen igen.
+    <string name="catch_full_log_item_content_title">Steg:</string>
+    <string name="catch_full_log_item_content_need_open">"1. Tryck på \"Generera logg\".
+2. Gå tillbaka till funktionen som du vill rapportera och återskapa problemet.
 3. Gå tillbaka till denna sida och tryck på \"Slutför och ladda upp\"."</string>
-    <string name="catch_full_log_item_content_catch_direct">"Steg:
-1. Gå tillbaka till funktionen som du vill rapportera och använd funktionen igen.
+    <string name="catch_full_log_item_content_catch_direct">"1. Gå tillbaka till funktionen som du vill rapportera och återskapa problemet.
 2. Gå tillbaka till denna sida och tryck på \"Slutför och ladda upp\"."</string>
     <string name="catch_full_log_action_start">Generera logg</string>
     <string name="catch_full_log_action_complete">Slutförd och uppladdad</string>

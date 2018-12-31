@@ -86,6 +86,7 @@
     <string name="account_setup_exchange_certificate_title">Klientcertifikat</string>
     <string name="account_setup_exchange_device_id_label">Mobil Enhet ID</string>
     <string name="account_setup_exchange_no_certificate">Ingen</string>
+    <string name="account_setup_failed_auth_required">Den här autentiseringsmetoden stöds inte av servern.</string>
     <string name="account_setup_failed_certificate_inaccessible">Certifikatet är ogiltigt eller otillgängligt.</string>
     <string name="account_setup_failed_certificate_required">Ett klientcertifikat krävs. Vill du ansluta till servern med ett klientcertifikat?</string>
     <string name="account_setup_failed_check_credentials_message">Servern svarade med ett fel. Kontrollera ditt användarnamn och lösenord och försök sedan igen.</string>
@@ -224,6 +225,7 @@
     <string name="battery_saver">Batterisparare</string>
     <string name="battery_saver_keywords">batterisparare; postbatteri</string>
     <string name="bcc">Bcc</string>
+    <string name="bcc_heading">"Bcc: "</string>
     <string name="bill_center_setting">Faktureringsinställningar</string>
     <string name="bill_center_setting_head">Importera information från dessa konton</string>
     <string name="bill_cycle_text">Fakturering cykel</string>
@@ -244,6 +246,7 @@
     <string name="cancel_pop3_attchemt_downloading">Kan inte avbryta pågående nedladdningar för bilagor i POP3-konton</string>
     <string name="cant_move_or_change_labels">Det går inte att flytta objekt från flera konton.</string>
     <string name="cc">Cc</string>
+    <string name="cc_attribution">Cc: %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Cc: "</string>
     <string name="change_folders_selection_dialog_title">Ändra mappar</string>
@@ -261,6 +264,7 @@
     <string name="click_download_all_content">[ Tryck för att ladda ner innehåll ]</string>
     <string name="click_to_reload">Tryck här för att uppdatera</string>
     <string name="collapse_recipient_details">Dölj mottagarens detaljer</string>
+    <string name="colon">:</string>
     <string name="compose">Komponera</string>
     <string name="compose_attachment_number_limit">Kan inte lägga till mer än 10 bilagor</string>
     <string name="compose_paste_address_oob">För många tecken</string>
@@ -474,6 +478,7 @@
     <string name="gmail_web_login_go">OK</string>
     <string name="gmail_web_login_required_message">Logga in på Gmail</string>
     <string name="header_category_account">Konton</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Återkoppling</string>
     <string name="header_label_general_preferences">Allmän</string>
     <string name="help_and_info">Hjälp</string>
@@ -495,6 +500,7 @@
     <string name="invalid_recipient">Adressen %s är ogiltig.</string>
     <string name="invalid_recipient_title">Mottagare Fel</string>
     <string name="kilobytes">%sKB</string>
+    <string name="label_notification_ticker" formatted="false">%s: %s</string>
     <string name="load_from_remote">Sök i brevlådan på servern</string>
     <string name="load_more">Ladda fler</string>
     <string name="loading_conversation">Laddar…</string>
@@ -506,6 +512,7 @@
     <string name="login139">Logga in med China Mobile</string>
     <string name="login_failed_ticker">%s inloggning misslyckad.</string>
     <string name="login_failed_title">Det går inte att logga in</string>
+    <string name="login_mail">Logga in</string>
     <string name="login_support_tip_text">stöder alla större e-postkonton</string>
     <string name="long_press_to_select_tip">Tryck på &amp; och håll ned för att markera en konversation, sedan tryck för att välja mer.</string>
     <string name="mail">E-post</string>
@@ -607,6 +614,7 @@
     <string name="multiple_new_message_notification_item"><b>%1$s</b>"   %2$s"</string>
     <string name="mute">Tyst</string>
     <string name="navigation_menu">Navigeringsmeny</string>
+    <string name="need_get_qq_mail">Kräver QQ Mail</string>
     <string name="network_error">Ingen anslutning</string>
     <string name="network_invaild">Kan inte ansluta till nätverket</string>
     <string name="network_not_available">Kan inte ansluta till nätverket</string>
@@ -639,6 +647,8 @@ Try en annan inkorg."</string>
     <string name="notification_action_undo_delete">Borttaget</string>
     <string name="notification_action_undo_remove_label">Tagg borttagen</string>
     <string name="notification_exchange_calendar_added">Kalender via Exchange tillagd</string>
+    <string name="notify_channel_new_mail">Meddela om nya meddelanden</string>
+    <string name="notify_channel_send_fail">Meddela om misslyckad leverans</string>
     <string name="oauth_error_description">Det gick inte att autentisera</string>
     <string name="oauth_gmail_login_notify">Ange ditt användarnamn och lösenord för ditt Google-konto på följande inloggningssida.</string>
     <string name="oauth_login_continue">Fortsätt</string>
@@ -653,6 +663,10 @@ Try en annan inkorg."</string>
     <string name="open_external_storage_and_calendar_permission">Tillåta Mail att komma åt kontakter och kalenderinformation i inställningarna</string>
     <string name="open_external_storage_and_contacts_and_calendar_permission">Tillåta Mail att komma åt kontakter och kalenderinformation i inställningarna</string>
     <string name="open_external_storage_and_contacts_permission">Tillåta Mail att komma åt kontakter och kalenderinformation i inställningarna</string>
+    <string name="open_notification_kingagent">Aktivera notifikationer för händelsespårning</string>
+    <string name="optimization_suggestion">Optimeringsförslag</string>
+    <string name="others_mail">Övriga</string>
+    <string name="others_mail_des">(Kompatibel med 600K e-tjänster)</string>
     <string name="outbox_alert_button_no_resend">Skicka ej</string>
     <string name="outbox_alert_button_resend">Skicka igen</string>
     <string name="outbox_alert_certificate_error">Kontakta din e-systemets administratör och uppdatera ditt certifikat.</string>
@@ -756,6 +770,7 @@ to få påminnelser om betalningar och resor"</string>
     <string name="preview_attachment">Förhandsvisning</string>
     <string name="previous_action">Bakåt</string>
     <string name="print">Skriva ut</string>
+    <string name="privacy_policy">Integritetspolicy</string>
     <string name="prompt_title">Prompta</string>
     <string name="protocol_setting_toast">Tryck på det övre högra hörnet att gå till inställningar efter du håller</string>
     <string name="pull_to_refresh">Dra nedåt för att uppdatera</string>
@@ -769,6 +784,9 @@ to få påminnelser om betalningar och resor"</string>
     <string name="push_wps_confirm_message">Försök använda WPS Office för att öppna den här bilagan.</string>
     <string name="push_wps_confirm_title">Prova WPS Office</string>
     <string name="push_wps_no_response_app">Ingen ansökan hittades för att hantera denna åtgärd</string>
+    <string name="qq_authorization_help_get">Hämta kod</string>
+    <string name="qq_authorization_know">Om koden</string>
+    <string name="qq_authorization_tips">Visa inte igen</string>
     <string name="qq_auto_login_failed_cpy_pass_success">Kopierade framgångsrikt. Gå tillbaka till sidan logga in och klistra in koden i formuläret lösenord.</string>
     <string name="qq_auto_login_failed_dialog_message">Kopiera Cvv-kod, tryck på ”Enter username och lösenord för att logga in” på sidan logga in och klistra in koden i formuläret lösenord.</string>
     <string name="qq_auto_login_failed_dialog_positive_label">Kopiera kod</string>
@@ -782,6 +800,7 @@ to få påminnelser om betalningar och resor"</string>
     <string name="qq_login_webview">Logga in på QQ webbklienten, tryck på Logga in med lösenord.</string>
     <string name="qq_next_generation_auth_toast">Slå på lösenordsskydd i din webbläsare</string>
     <string name="qq_uthentication_failed">Det gick inte att få kontoinformation, logga in igen</string>
+    <string name="qq_verify_code">(Kräver verifieringskoden från QQ)</string>
     <string name="qq_webview_loading">Vänta lite…</string>
     <string name="questionnair_body_invisibility">Meddelanden visas inte</string>
     <string name="questionnair_confirm_delete">Ta bort konto?</string>
@@ -863,7 +882,7 @@ to få påminnelser om betalningar och resor"</string>
     <string name="saved">Spara, %s</string>
     <string name="saving">Sparar…</string>
     <string name="sdcard_cannot_use">Kan inte använda SD-kortet</string>
-    <string name="search_bar_text">Sök efter meddelanden och kontakter</string>
+    <string name="search_bar_text">Sök efter avsändare eller kontakter</string>
     <string name="search_hint">Sök e-post</string>
     <string name="search_result">"Resultat "</string>
     <string name="search_tabs_name_all">Alla</string>
@@ -922,6 +941,7 @@ to få påminnelser om betalningar och resor"</string>
     <string name="silent_ringtone">Tyst</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">Lösenord för utgående e-postserver är felaktiga</string>
     <string name="sort_attachment">Sortera efter</string>
     <string name="storage">Lagringsutrymme</string>
@@ -952,6 +972,7 @@ to få påminnelser om betalningar och resor"</string>
     <string name="tap_to_configure">Tryck för att ställa in.</string>
     <string name="tap_to_enable_sync">Tryck för aktivera.</string>
     <string name="three_day">3 dagar</string>
+    <string name="title_activity_about">Om</string>
     <string name="to">Till</string>
     <string name="to_heading">"Till: "</string>
     <string name="toast_bar_fail_synchronization">Kan inte ansluta till nätverket</string>
@@ -993,7 +1014,7 @@ Remove konto?"</string>
     <string name="unzip_file_failed">Det gick inte att pakka ut filen</string>
     <string name="update_date_format_templete">HH:mm aa, MMMM dd</string>
     <string name="updated_at">Uppdatera på %1$s</string>
-    <string name="upload_log">Ladda upp logg</string>
+    <string name="upload_log">Skicka</string>
     <string name="upload_log_failed">Kunde inte skicka loggar</string>
     <string name="upload_log_no">Avbryt</string>
     <string name="upload_log_success">Skickad, vi kommer snart tillbaka.</string>
@@ -1007,6 +1028,8 @@ Remove konto?"</string>
     <string name="veiled_alternate_text" />
     <string name="veiled_alternate_text_unknown_person" />
     <string name="veiled_summary_unknown_person" />
+    <string name="verify_code">Verifieringskod</string>
+    <string name="version_string">Version: %s</string>
     <string name="via_domain">via %1$s</string>
     <string name="view_more_conversations">Visa fler konversationer</string>
     <string name="wait_for_manual_sync_body">"Det här kontot är inte inställd att synkronisera automatiskt. 
@@ -1023,12 +1046,10 @@ Rör"<b> Synkronisera nu </b> för att synkronisera e-post en gång, eller<b> Ä
     <string name="widget_other_views">Övriga</string>
     <string name="wipe_account_fail_description">Tillåt</string>
     <string name="wipe_account_fail_title">Det gick inte att ta bort personlig information</string>
+    <string name="wps_title">WPS Mail</string>
     <string name="wrong_password">Lösenordet du angav är inte korrekt</string>
     <string name="yes">Ja</string>
     <string name="you_are_in_mobile_network">Använda mobildata för att ladda upp logg?</string>
     <string name="youfuli">Marknadsförning</string>
     <string name="zip_viewer_no_file">Inga filer.</string>
-    <string name="account_settings_preference_add_account">Lägg till e-postkonto</string>
-    <string name="mailbox_name_display_add_account">Lägg till e-postkonto</string>
-    <string name="update_to_wps_mail">Använd av fler funktioner med WPS Mail</string>
 </resources>

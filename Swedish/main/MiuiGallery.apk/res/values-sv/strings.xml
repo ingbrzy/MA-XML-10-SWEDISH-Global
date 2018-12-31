@@ -88,6 +88,8 @@
     <string name="alert_secret_album_message">Svep ned i albumsfliken för att visa dolda album.</string>
     <string name="alert_secret_album_message_lower_case"> Svep ned i album för att se</string>
     <string name="alert_secret_album_title">Hur man visar dolda album</string>
+    <string name="alert_selection_description">AI väljer de bästa fotona bland liknande bilder med en stjärna.</string>
+    <string name="alert_selection_title">Valts av AI</string>
     <string name="all_faces">Foton med den här personen</string>
     <string name="all_items_synced">Alla album har säkerhetskopierats till Mi Cloud</string>
     <string name="all_video_album_display_name">Alla videor</string>
@@ -148,6 +150,7 @@
     <string name="backup_device_space_low_title">Inte tillräckligt med lagringsutrymme</string>
     <string name="backup_dirty_num">Totalt: %s</string>
     <string name="backup_dirty_tip">Foto och video ej säkerhetskopierat</string>
+    <string name="backup_file_over_size_desc">Bilder större än %1$s och videor som är större än %2$s kan inte säkerhetskopieras.</string>
     <string name="backup_immediately">Säkerhetskopiera</string>
     <string name="backup_need_sync_desc">Tryck för att fortsätta säkerhetskopiering</string>
     <string name="backup_need_sync_title">Säkerhetskopiering stoppad</string>
@@ -268,10 +271,12 @@
     <string name="collage_poster_global_green_plant_text">RESA</string>
     <string name="collage_poster_global_summer_flower_text">SOMMAR</string>
     <string name="collage_poster_global_tea_text">EFTERMIDDAGSTE</string>
+    <string name="collage_ratio_text">Bildförhållande</string>
     <string name="collage_rotate">Rotera</string>
     <string name="collage_select_image_range">Kollage kan innehålla 1-6 bilder</string>
     <string name="collage_title_layout">Utseende</string>
     <string name="collage_title_poster">Poster</string>
+    <string name="collage_title_stitching">Filmrulle</string>
     <string name="collaps_people">Dölj</string>
     <string name="com.qzone_com.qzonex.module.operation.ui.QZonePublishMoodActivity">Qzone</string>
     <string name="com.sina.weibo_com.sina.weibo.composerinde.ComposerDispatchActivity">Weibo</string>
@@ -371,7 +376,7 @@
     <string name="empty_query_text_msg">Vet inte vad som eftersöks…</string>
     <string name="empty_recommend_back">Tillbaka</string>
     <string name="empty_recommend_face_page_view">Inga fler rekommendationer</string>
-    <string name="empty_relation">Filnamnet kan inte vara blankt</string>
+    <string name="empty_relation">Gruppnamn får inte vara tomt</string>
     <string name="empty_title_no_photos">Inga bilder eller video</string>
     <string name="enable_auto_upload_tip">Aktivera synkronisering med Mi Cloud för det här albumet?</string>
     <string name="enable_auto_upload_title">Sätt på synkronisering mot Mi Cloud</string>
@@ -479,6 +484,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="face_name_edit">Redigera</string>
     <string name="face_name_input">Ange namn</string>
     <string name="face_recommend">Rekommendationer</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunde inte slutföra åtgärden</string>
     <string name="fail_to_pick_email">Ogiltig e-postadress</string>
     <string name="fail_to_sync_album">Kunde inte synkronisera album. Kolla din datakoppling och försök igen.</string>
@@ -489,6 +495,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="feature_guidance_photo_effects">"Nya foto effects
 are tillgänglig"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nya effekter finns</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Minne</string>
     <string name="filter_bi_mono">Mono</string>
     <string name="filter_bi_pink">Rosa</string>
@@ -527,17 +534,18 @@ are tillgänglig"</string>
     <string name="filter_master_rise">Öka</string>
     <string name="filter_master_somber">Dyster</string>
     <string name="filter_original">Inga</string>
+    <string name="filter_people_bw">S&amp;V</string>
     <string name="filter_people_fairytale">Barn</string>
-    <string name="filter_people_heart">Känslor</string>
     <string name="filter_people_japanese">Fräsch</string>
+    <string name="filter_people_lilt">Glad melodi</string>
     <string name="filter_people_maze">Labyrint</string>
-    <string name="filter_people_mint">Mynta</string>
     <string name="filter_people_movie">Film</string>
     <string name="filter_people_nature">Naturlig</string>
     <string name="filter_people_pink">Rodna</string>
     <string name="filter_people_riddle">Gåta</string>
-    <string name="filter_people_roman">Romantisk</string>
+    <string name="filter_people_sepia">Sepiabrun</string>
     <string name="filter_people_story">Berättelse</string>
+    <string name="filter_people_tea">Te</string>
     <string name="filter_scene_city">Stad</string>
     <string name="filter_scene_df">Dimma</string>
     <string name="filter_scene_koizora">Kärlek</string>
@@ -558,6 +566,7 @@ are tillgänglig"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Ange</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri behöver tillgång till 
 %s
  för att fungera normalt, tryck på \"Tillämpa\" för att gå till Behörigheter."</string>
@@ -800,6 +809,7 @@ för att göra galleriet personligt"</string>
     <string name="people_mark_mode_title_no_mark_name">Välj en person</string>
     <string name="people_page_label">Människor</string>
     <string name="people_page_unname">Namnlös</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Sällskapsdjursfoton</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Foton</string>
@@ -871,6 +881,8 @@ för att göra galleriet personligt"</string>
     <string name="photo_editor_talkback_redo">Göra om</string>
     <string name="photo_editor_talkback_undo">Ångra</string>
     <string name="photo_editor_text">Text</string>
+    <string name="photo_movie_menu_loading">@string/photo_print_menu_loading</string>
+    <string name="photo_movie_module_failed">@string/error_install_connect_fail</string>
     <string name="photo_movie_module_finish">Klipp laddat</string>
     <string name="photo_movie_module_loading">Laddar klipp…</string>
     <string name="photo_movie_select_image_range">Klipp kan innehålla 3-20 bilder</string>
@@ -1030,6 +1042,9 @@ för att göra galleriet personligt"</string>
     <string name="search_title_recommend">Rekommenderad</string>
     <string name="search_title_suggestion">Förslag</string>
     <string name="search_title_tag">Objekt</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Söker efter projektor…</string>
     <string name="secret_album_card_description">Bästa platsen för alla dina små hemligheter</string>
     <string name="secret_album_card_title">Försök dolda album</string>
@@ -1316,6 +1331,7 @@ för att göra galleriet personligt"</string>
     <string name="view_face_album">Visa album</string>
     <string name="view_more_face_desc">Visa fler människor</string>
     <string name="voice_assistant">Röstinmatning</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Välkommen till Mi Cloud</string>
     <string name="where_is_barcode">Var är QR-koden?</string>
     <string name="who_is_this">Vem är det?</string>
@@ -1323,9 +1339,9 @@ för att göra galleriet personligt"</string>
     <string name="yes">Ja</string>
     <string name="yesterday">Igår</string>
     <string name="you_are">Du är barnets</string>
-    <string name="backup_file_over_size_desc">Bilder större än %1$s och videor som är större än %2$s kan inte säkerhetskopieras.</string>
-    <string name="collage_ratio_text">Bildförhållande</string>
-    <string name="collage_title_stitching">Filmrulle</string>
+    <string name="channel_default_name">Nya funktioner</string>
+    <string name="channel_low_name">Nya meddelande</string>
+    <string name="channel_min_name">Appnotifikationer</string>
     <string name="photomovie_audio_custom">Lokalt</string>
     <string name="photomovie_audio_default">Minne</string>
     <string name="photomovie_audio_kawaii">Romantisk</string>

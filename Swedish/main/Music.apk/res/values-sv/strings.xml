@@ -119,7 +119,7 @@
     <string name="current_version">Aktuell version</string>
     <string name="data_usage_warning">Dataanvändning</string>
     <string name="data_usage_warning_summary">Användning av mobildata för att strömma högkvalitets musik kan öka din räkning för dataanvändning.</string>
-    <string name="date_format_str">MM-dd-yyyy</string>
+    <string name="date_format_str">dd-MM-yyyy</string>
     <string name="delete">Ta bort</string>
     <string name="delete_download">Radera</string>
     <string name="delete_file_as_well">Ta bort låten permanent</string>
@@ -205,6 +205,7 @@
     <string name="download_method">Ladda ned</string>
     <string name="download_no_application_title">Kan inte öppna filen</string>
     <string name="download_paused_in_power_save_mode">Nerladdningar pausas när Batterisparläge är på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laddar ned…</string>
     <string name="download_quality">Nedladdningskvalitet</string>
     <string name="download_quality_summary">Ytterligare inställningar för låtar du laddar ned</string>
@@ -284,7 +285,9 @@
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Ljud</string>
@@ -540,6 +543,7 @@
     <string name="priority_storage">Använd externt SD-kort</string>
     <string name="priority_storage_summary">Ladda automatiskt ned till tillgängligt externt SD-kort</string>
     <string name="privacy_policy">Integritetspolicy</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
     <string name="pro_member">PRO-medlem</string>
     <string name="project_device">Mi Telefon</string>
     <string name="prompt_grant_write_settings_permission">Tillåt att ändra systeminställningar</string>
@@ -637,6 +641,7 @@
     <string name="start_to_check_new_version">Kontroll för updates…</string>
     <string name="start_to_download">Laddar ned…</string>
     <string name="start_to_play">Spela</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
     <string name="storage_usb">USB lagring</string>
@@ -697,6 +702,7 @@
     <string name="upgrade_music_message">Uppdateringar är redo. Starta om för att uppdatera.</string>
     <string name="upgrading_in_backstage">Uppdaterar i bakgrunden…</string>
     <string name="user_agreement">Användaravtal</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
     <string name="version_info">Version</string>
     <string name="video_play_cellular">Enheten inte är ansluten till Wi-Fi. Använda mobildata?</string>
     <string name="video_replay_btn">Spela igen</string>

@@ -23,8 +23,10 @@ Vill du ha hjälp för att förnya det?"</item>
         <item quantity="one">Spelaren kommer stoppas om %d minut</item>
     </plurals>
     <plurals name="Nsong_group_detail_subtitle">
-        <item quantity="other">Skapad den %1$s | totalt %2$d låtar</item>
-        <item quantity="one">Skapad den %1$s | totalt %2$d låtar</item>
+        <item quantity="other">"Skapad den %1$s 
+totalt %2$d låtar"</item>
+        <item quantity="one">"Skapad den %1$s 
+totalt %2$d låtar"</item>
     </plurals>
     <plurals name="Ntracks_add_to_playlist">
         <item quantity="other">%d låtar tillagda till spellistan</item>
@@ -79,6 +81,14 @@ Oppmärkning: Fil kommer också att raderas från den här enheten."</item>
     <plurals name="multichoice_title">
         <item quantity="other">%d objekt valda</item>
         <item quantity="one">%d objekt vald</item>
+    </plurals>
+    <plurals name="notif_title_multiple_downloading">
+        <item quantity="other">Laddar ner %1$d filer</item>
+        <item quantity="one">Laddar ner %1$d fil</item>
+    </plurals>
+    <plurals name="notification_download_failed_more">
+        <item quantity="other">Det gick inte att ladda ner %1$d objekt</item>
+        <item quantity="one">Det gick inte att ladda ner %1$d objekt</item>
     </plurals>
     <plurals name="reader_count">
         <item quantity="other">%d följare</item>

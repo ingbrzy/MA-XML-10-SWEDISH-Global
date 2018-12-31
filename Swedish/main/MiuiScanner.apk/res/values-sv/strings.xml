@@ -3,7 +3,7 @@
     <string name="access_sd_fail">Det gick inte att komma åt SD-kortet</string>
     <string name="accessibility_shutter_button">Slutare</string>
     <string name="address">Adress:</string>
-    <string name="agree_btn">Samtycker</string>
+    <string name="agree_btn">Godkänn</string>
     <string name="amazon_assistant_shopping_title">Sök på Amazon</string>
     <string name="app_description_content">Med Scanner kan du skanna QR-koder, dokument, visitkort och mer. Se till att du kan klara dig utan dessa funktioner innan du avinstallera appen.</string>
     <string name="app_description_title">Om Scanner</string>
@@ -13,7 +13,7 @@
     <string name="barcode_into_rectangle">Placera koden inom ramen</string>
     <string name="birthday">Födelsedag:</string>
     <string name="blog">Weibo</string>
-    <string name="business_card">Företags kort</string>
+    <string name="business_card">Visitkort</string>
     <string name="business_card_title">Placera visitkortet inuti ramen</string>
     <string name="business_copy">Kopiera</string>
     <string name="business_new_contacts">Skapa kontakt</string>
@@ -66,10 +66,10 @@
     <string name="feed_search_fail">Inga resultat, försök igen</string>
     <string name="feedback_description_camera_access">Scanner kan inte ansluta till Kamera</string>
     <string name="feedback_description_save_photo">Kunde inte spara foto eller video</string>
-    <string name="got_it">Uppfattat</string>
+    <string name="got_it">Jag förstår</string>
     <string name="gps">Navigera</string>
     <string name="import_contact">Importera kontakt</string>
-    <string name="impunity_declaration_content">Scanner kräver behörighet att komma åt din kamera och foton. Skannern måste också ansluta till internet för att fungera normalt. Du kommer att anses har läst och godkänt våra %1$sSekretesspolicy för%2$s när du trycker på ”Godkänn” nedan.</string>
+    <string name="impunity_declaration_content">Scanner kräver behörighet att komma åt din kamera och foton. Scanner måste också ansluta till internet för att fungera normalt. Du kommer att anses har läst och godkänt våra %1$sSekretesspolicy för%2$s när du trycker på ”Godkänn” nedan.</string>
     <string name="impunity_declaration_negative_text">Avsluta</string>
     <string name="impunity_declaration_title">Integritetspolicy</string>
     <string name="label_choose_picture">Välj bild</string>
@@ -92,10 +92,11 @@
     <string name="module_title_business_card">Visitkort</string>
     <string name="module_title_code">QR-kod</string>
     <string name="module_title_document">Dokument</string>
+    <string name="module_title_plant">Krukväxt</string>
     <string name="module_title_shopping">Shopping</string>
     <string name="module_title_translation">Översätt</string>
     <string name="name">Namn:</string>
-    <string name="new_schedule">Skapa evenemang</string>
+    <string name="new_schedule">Skapa händelse</string>
     <string name="nickname">Smeknamn:</string>
     <string name="no_network">Kan inte ansluta till nätverket</string>
     <string name="no_storage">Inget internt lagringsutrymme</string>
@@ -106,6 +107,11 @@
     <string name="payment_text">Öppna med %s</string>
     <string name="phone">Telefon:</string>
     <string name="place_barcode_into_rectangle">Placera koden inom ramen</string>
+    <string name="plant_fail">Kunde inte känna igen</string>
+    <string name="plant_loading">Identifierar…</string>
+    <string name="plant_reg_fail_2">Kunde inte känna igen det här objektet. Skannern kan endast identifiera krukväxter.</string>
+    <string name="plant_support">" (Teknisk support)"</string>
+    <string name="plant_title">Skanna den krukväxt som du vill identifiera</string>
     <string name="preparing_sd">Förbereder internt lagringsutrymme…</string>
     <string name="previous">Tillbaka</string>
     <string name="qr_code_details">Detaljer för QR-kod:</string>
@@ -126,7 +132,7 @@
     <string name="title">Titel:</string>
     <string name="translate_auto_lock">Lås översättningen</string>
     <string name="translate_auto_unlock">Lås upp översättningen</string>
-    <string name="translate_copy_success">Kopierade framgångsrikt</string>
+    <string name="translate_copy_success">Kopierad</string>
     <string name="translate_dest_lang">Målspråk</string>
     <string name="translate_fail">Kunde inte översätta</string>
     <string name="translate_loading">Översätter…</string>

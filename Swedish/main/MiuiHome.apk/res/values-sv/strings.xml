@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="action_add_to_workspace">Lägg till i Arbetsutrymmet</string>
     <string name="activity_not_found">Appen är inte installerad på din enhet</string>
     <string name="add_screen">Lägg till skärm</string>
@@ -72,7 +73,7 @@
     <string name="cancel_btn_label">Avbryt</string>
     <string name="cant_edit_lock_screen">Kan inte ändra Låsskärmens stil</string>
     <string name="cant_remove_folder">Det går inte att ta bort mapp</string>
-    <string name="cant_remove_retained_app">Det gick inte att ta appen</string>
+    <string name="cant_remove_retained_app">Det gick inte att ta bort appen</string>
     <string name="cant_remove_system_app">Kan inte ta bort systemapplikation</string>
     <string name="change_wallpaper">Ändra</string>
     <string name="choose_wallpaper">Välj bakgrund</string>
@@ -152,6 +153,7 @@
     <string name="gadget_clock_24_label">Klocka 4x2</string>
     <string name="gadget_clock_34_label">Klocka 4x3</string>
     <string name="gadget_clock_label">Klocka</string>
+    <string name="gadget_dual_clock_label">Dubbelklocka</string>
     <string name="gadget_error_text">Kan inte ladda widget</string>
     <string name="gadget_google_search_label">Google Sök</string>
     <string name="gadget_load_error">Laddar…</string>
@@ -238,8 +240,8 @@
     <string name="online_wallpaper">Online</string>
     <string name="open_personal_assistant_dialog_btn_cancel">Avbryt</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Avaktivera</string>
-    <string name="open_personal_assistant_dialog_desc">Du kommer inte att kunna använda App vault och få sina uppdateringar. Stäng av nu?</string>
-    <string name="open_personal_assistant_dialog_desc_international">Du kommer inte att kunna använda App vault kort (lager, genvägar, etc.) och få uppdateringar när du stänga av funktionen.</string>
+    <string name="open_personal_assistant_dialog_desc">Du kommer inte att kunna använda App vault och få dina uppdateringar. Avaktivera nu?</string>
+    <string name="open_personal_assistant_dialog_desc_international">Du kommer inte att kunna använda kort (Aktier, Genvägar med mera.) i App vault och få uppdateringar när du stänger av funktionen.</string>
     <string name="open_personal_assistant_dialog_title">Avaktivera App vault</string>
     <string name="open_personal_assistant_title">App vault</string>
     <string name="out_of_space">Ingen mer plats på Hemskärmen</string>
@@ -277,11 +279,14 @@
     <string name="recommend_apk_size_and_desc">%1$dMB | %2$s</string>
     <string name="recommend_apps_default_title">Tom</string>
     <string name="recommend_apps_no_data">Ingen data</string>
+    <string name="recommend_apps_no_data_toast">Inga rekommendationer för tillfället.</string>
     <string name="recommend_apps_notice">Rekommenderade appar</string>
     <string name="recommend_apps_notice_nodata">Rekommenderade appar (Ingen data)</string>
     <string name="recommend_apps_switch_title">Rekommenderade appar</string>
     <string name="recommend_apps_tips">Denna funktion kräver anslutning till internet för att fungera normalt. För att stänga av denna funktion, tryck på mappens namn.</string>
     <string name="recommend_loading">Laddar</string>
+    <string name="recommend_refresh">Uppdatera</string>
+    <string name="recommend_xout">Visa inte</string>
     <string name="reset_description_first_time">Du kan återställa layouten från %1$s inom 2 timmar</string>
     <string name="reset_description_others">Du kan återställa layouten från %1$s</string>
     <string name="reset_fail">Det gick inte att återställa</string>
@@ -347,7 +352,4 @@
     <string name="widget_gadget_player">Musik</string>
     <string name="widget_global_search">Sök</string>
     <string name="widget_quick_function">Snabbfunktioner</string>
-    <string name="recommend_apps_no_data_toast">Inga rekommendationer för tillfället.</string>
-    <string name="recommend_refresh">Uppdatera</string>
-    <string name="recommend_xout">Visa inte</string>
 </resources>

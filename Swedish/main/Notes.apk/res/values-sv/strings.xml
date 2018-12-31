@@ -28,17 +28,17 @@
     <string name="audio_toast_network_is_not_available">Kunde inte ansluta till nätverk</string>
     <string name="call_folder_name">Samtalsanteckningar</string>
     <string name="cancel_alarm_description">Avbryt larm</string>
-    <string name="cloud_service_state_open_reminder">Slå på synkronisering med Mi Cloud för att synkronisera anteckningar.</string>
+    <string name="cloud_service_state_open_reminder">Aktivera synkronisering med Mi Cloud för att synkronisera anteckningar.</string>
     <string name="cloud_trash_bin_title">Radera anteckningar i Mi Cloud</string>
     <string name="cta_confirm_cancel">Tillåt inte</string>
     <string name="cta_confirm_ok">Tillåt</string>
-    <string name="cta_dialog_message">Anteckningar behöver tillstånd för att kunna ansluta till internet, spela in ljud, få åtkomst till dina kontakter och för att fungera normalt. Tillåter du detta?</string>
-    <string name="cta_dialog_title">Tillstånd krävs</string>
+    <string name="cta_dialog_message">Anteckningar behöver behörighet för att kunna ansluta till internet, spela in ljud, få åtkomst till dina kontakter och för att fungera normalt. Tillåter du behörigheten?</string>
+    <string name="cta_dialog_title">Behörigheter krävs</string>
     <string name="cta_reminder">Anteckningar behöver behörighet att ansluta till internet, spela in ljud, och åtkomst till dina kontakter att fungera normalt. Tillåta?</string>
     <string name="date_time_picker_alarm_reminder">Alarm</string>
     <string name="date_time_picker_dialog_title">Ange datum och tid</string>
     <string name="date_time_picker_has_not_set_alarm">Larm har inte angetts</string>
-    <string name="date_time_picker_has_set_alarm">Ställa in alarm framgångsrikt</string>
+    <string name="date_time_picker_has_set_alarm">Alarm konfigurerat</string>
     <string name="db_downgrade_clear_button">Rensa applikationsdata</string>
     <string name="db_downgrade_clear_date_reminder">Om du växlar till en annan version av MIUI måste du rensa appdata för Notes. Innan du gör det, se till att du har säkerhetskopierat dina anteckningar till Mi Cloud.</string>
     <string name="default_folder_name">Namnlös mapp</string>
@@ -47,7 +47,7 @@
     <string name="dialog_share_as_pic">Dela anteckning som bild</string>
     <string name="dialog_share_as_text">Dela anteckning som text</string>
     <string name="dlg_btn_set_password">Ange lösenord</string>
-    <string name="dlg_check_reminder">Visa ej igen</string>
+    <string name="dlg_check_reminder">Visa inte igen</string>
     <string name="dlg_delete_message">Tar bort…</string>
     <string name="dlg_hide_message">Döljer…</string>
     <string name="dlg_info_creating_message">Skapa image…</string>
@@ -70,7 +70,7 @@
     <string name="empty_folder_no_notes">Inga anteckningar här</string>
     <string name="enable_sync">Synkronisera</string>
     <string name="enable_sync_desc">Synkronisera anteckningar med ditt Mi-konto (%1$s)?</string>
-    <string name="error_contact_not_exist">Kontakt existerar inte</string>
+    <string name="error_contact_not_exist">Kontakten finns inte</string>
     <string name="error_hide_empty_note">Kan inte dölja en tom anteckning</string>
     <string name="error_note_empty_for_clock">Kan inte ställa in påminnelse för en tom anteckning</string>
     <string name="error_note_empty_for_send_to_desktop">Tomma anteckningar kan inte placeras på hemskärmen</string>
@@ -118,6 +118,7 @@
     <string name="menu_title_select_folder">Välj mapp</string>
     <string name="menu_unhide">Visa</string>
     <string name="menu_unstick">Lossa</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Inte nu</string>
     <string name="note_description_content">Appen Notes är ett utmärkt verktyg för inspelning av dina idéer. Den har inbyggda påminnelser och synkroniserar dina objekt till Mi Cloud så att du kan komma åt dem var som helst, när som helst. Se till att du inte kan använda dessa funktioner innan du tar bort appen.</string>
     <string name="note_description_title">Om Anteckningar</string>
@@ -129,6 +130,7 @@
     <string name="note_sort_way">Välj hur du vill sortera dina anteckningar</string>
     <string name="notealert_enter">Öppna anteckning</string>
     <string name="notealert_ok">Avfärda</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Anteckningspåminnelse</string>
     <string name="permdesc_accessNote">Skadliga appar kan använda detta för att få tillgång till personlig data.</string>
     <string name="permlab_accessNote">Åtkomst till anteckningar</string>

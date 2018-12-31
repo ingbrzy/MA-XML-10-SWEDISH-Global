@@ -341,7 +341,7 @@
         <item>Quito</item>
     </string-array>
     <string-array name="countries_names_miui">
-        <item>"Coate d'Ivoire"</item>
+        <item>Elfenbenskusten</item>
         <item>Ghana</item>
         <item>Ethiopia</item>
         <item>Algeria</item>
@@ -673,17 +673,5 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
-    </string-array>
-    <string-array name="weather_tips_value">
-        <item>Minska utomhusaktiviteter.</item>
-        <item>Vägarna är hala idag.</item>
-        <item>Det är stormigt väder, var försiktig.</item>
-        <item>Det är dimmigt idag. Kör ansvarigt.</item>
-        <item>Luften är förorenad, ta på dig en mask.</item>
-        <item>Ta ett paraply när du går ut.</item>
-        <item>Var försiktig på vägen.</item>
-        <item>Det hyser idag, var försiktig.</item>
-        <item>En sandstorm är på väg, ta på dig en mask.</item>
-        <item>Ha en bra dag!</item>
     </string-array>
 </resources>

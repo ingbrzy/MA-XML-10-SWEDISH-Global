@@ -30,9 +30,6 @@ Se den valda tangentbords sekretesspolicyn."</string>
     <string name="other_settings_auto_update_summary">MIUI väljer när det passar bäst att installera uppdateringar</string>
     <string name="other_settings_ad_enable">Personlig reklam</string>
     <string name="other_settings_ad_enable_summary">Få personlig reklam baserad på din användardata</string>
-    <string name="other_settings_enhanced_lockscreen">Bakgrundsbildskarusell</string>
-    <string name="other_settings_enhanced_lockscreen_summary">Få anpassade bilder och berättelser levererade till din Låsskärm. Godkänn villkoren.</string>
-    <string name="other_settings_enhanced_lockscreen_summary_index">Villkor</string>
     <string name="back">Tillbaka</string>
     <string name="next">Nästa</string>
     <string name="skip_underline">Hoppa över detta steg</string>

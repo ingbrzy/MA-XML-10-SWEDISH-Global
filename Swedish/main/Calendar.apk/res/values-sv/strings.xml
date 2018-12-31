@@ -23,6 +23,7 @@
     <string name="copy_number">Kopiera telefonnummer</string>
     <string name="done">Retur</string>
     <string name="more_string">+%1$s</string>
+    <string name="search_menu_title">Sök</string>
     <string name="status_bar_notification_info_overflow">>999</string>
     <string name="accessibility_add_attendee">Lägg till deltagare</string>
     <string name="accessibility_all_day">Händelse hela dagen</string>
@@ -84,6 +85,7 @@
     <string name="can_not_modify_allday_event">Det går inte att ändra heldagsaktivitet</string>
     <string name="can_not_modify_event">Kan inte ändra händelsen</string>
     <string name="can_not_modify_repeating_acrossing_days_event">Det går inte att ändra en flerdagshändelse</string>
+    <string name="cancel_reminder">Avbryt påminnelse</string>
     <string name="card_detail_dialog_message">%1$s kommer uppdatera varje dag. Registrera för mottaga dagliga uppdateringar.</string>
     <string name="card_detail_dialog_negative">Prenumerera senare</string>
     <string name="card_detail_dialog_positive">Prenumerera nu</string>
@@ -135,6 +137,7 @@
     <string name="description_calendar">Systemappar/Kalender</string>
     <string name="description_calendar_edit_event">Systemappar/Kalender/Agenda</string>
     <string name="directory_searching_fmt">Söker %s…</string>
+    <string name="discard_label">Avbryt</string>
     <string name="does_not_repeat">Aldrig (engångshändelse)</string>
     <string name="edit_date_calculate_days_backward_error_hint">Kan inte räkna framåt</string>
     <string name="edit_date_calculate_days_empty_hint">Ange antal dagar</string>
@@ -202,6 +205,7 @@
     <string name="fb_calendar_owner_account">Mi Kalender</string>
     <string name="festival_detail_title">Festival</string>
     <string name="file_exception">Ett fel uppstod</string>
+    <string name="fixtures">Framtida matcher</string>
     <string name="force_touch_title_add_new_event">Lägg till händelse</string>
     <string name="from_google_group_calendar">Google kalender</string>
     <string name="gadget_no_events">Inga kommande kalenderhändelser</string>
@@ -211,6 +215,7 @@
     <string name="global_football_final">Final</string>
     <string name="global_football_no_match">Inga fotbollsmatcher är schemalagda idag.</string>
     <string name="global_onthisday_com">OnThisDay.com</string>
+    <string name="guide_card_close">Stäng</string>
     <string name="guide_card_import">Importera</string>
     <string name="guide_card_primary_fb_text">Facebook-vänners födelsedagar</string>
     <string name="guide_card_primary_text">Importera dina vänners födelsedagar</string>
@@ -267,12 +272,13 @@
     <string name="month_medium_september">Sep</string>
     <string name="month_view">Månad</string>
     <string name="monthly">Varje månad</string>
-    <string name="monthly_on_day">Månadsvis (samma datum)</string>
+    <string name="monthly_on_day">Varje månad (samma datum)</string>
     <string name="monthly_on_day_count">Varje månad (%1$s %2$sdagen)</string>
     <string name="network_not_available">Kan inte ansluta till nätverket</string>
     <string name="new_event_description">Ny</string>
     <string name="new_event_dialog_label">Ny händelse</string>
     <string name="new_event_dialog_option">Ny händelse</string>
+    <string name="news">Nyheter</string>
     <string name="no_contact_birthday_hint">Inga födelsedagar att importera</string>
     <string name="no_events_hint">Inga händelser</string>
     <string name="no_internet">Det gick inte att ansluta till internet</string>
@@ -368,6 +374,7 @@ Kontrollera inställningar och försök igen."</string>
     <string name="search_calendar_settings">Kalender;Agenda;Påminnelse</string>
     <string name="select_date">Gå till datum</string>
     <string name="select_synced_calendars_title">Kalendrar att synkronisera</string>
+    <string name="set_reminder">Konfigurera påminnelse</string>
     <string name="setting_about_calendar_version">Kalenderversion:</string>
     <string name="setting_about_imei">IMEI:</string>
     <string name="setting_about_miui_version">MIUI-version:</string>
@@ -406,7 +413,8 @@ Du kan också lägga till påminneler så du inte missar något viktigt."</strin
     <string name="tab_title_day">Dag</string>
     <string name="tab_title_month">Månad</string>
     <string name="tab_title_week">Vecka</string>
-    <string name="talk_back_read_date">Nuvarande datum: %1$s (%2$s enligt månkalendern).</string>
+    <string name="talk_back_read_date">%1$s (%2$s enligt månkalendern).</string>
+    <string name="talk_back_setting">Inställningar</string>
     <string name="template_announce_item_index">Händelse %1$s av %2$s.</string>
     <string name="template_week_num">Vecka %1$s</string>
     <string name="time_zone">Tidszon</string>
@@ -443,11 +451,12 @@ Du kan också lägga till påminneler så du inte missar något viktigt."</strin
     <string name="travel_train_station">Tågstation</string>
     <string name="unsubscribe_card">Avsluta prenumeration</string>
     <string name="unsubscribe_card_success">Avregistrerat från \"%1$s\" lyckats</string>
-    <string name="unsubscribing_card">Avslutar prenumeration</string>
+    <string name="unsubscribing_card">Prenumerationen avslutad</string>
     <string name="user_notice_button_exit">Avbryt</string>
     <string name="user_notice_button_ok">OK</string>
     <string name="user_notice_message">Genom att använda denna produkt, samtycker du till Xiaomis %1$s och %2$s. Vissa funktioner kräver internetanslutning, tillgång till plats, kontakter och SMS för att fungera normalt.</string>
     <string name="user_notice_title">Uppmärksamma</string>
+    <string name="view_details">Visa detaljer</string>
     <string name="view_event_calendar_label">Kalender:</string>
     <string name="view_event_organizer_label">Anordnare:</string>
     <string name="view_event_response_label">Delta?</string>

@@ -57,7 +57,7 @@
         <item quantity="one">"%d  minut"</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_time_format">
-        <item quantity="other">"%1$d  timmar %2$d\u0000\u0000"</item>
+        <item quantity="other">"%1$d  timmar %2$d\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"</item>
         <item quantity="one">"%1$d  timme %2$d  minut"</item>
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">

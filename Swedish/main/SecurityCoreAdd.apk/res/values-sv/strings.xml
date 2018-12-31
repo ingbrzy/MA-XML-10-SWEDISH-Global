@@ -341,7 +341,7 @@ för att logga in från Låsskärmen"</string>
     <string name="gpg_message">Att skapa Dubbelappar för spel kräver Google Play Games. Skapa en Dubbelapp för Google Play Games?</string>
     <string name="gpg_title">Dual App för Google Play Games</string>
     <string name="gms_message">Att skapa Dubbelappar kräver Google services. Skapa en Dubbelapp för Google services?</string>
-    <string name="gms_title">Aktivera Googles funktioner</string>
+    <string name="gms_title">Dual App för Google services</string>
     <string name="gms_open_button">Aktivera</string>
     <string name="create_second_space">Skapad utan problem</string>
     <string name="set_space_password">Ange lösenord</string>
@@ -440,7 +440,7 @@ Se till att namnet på ditt företag är korrekt. Läs och godkänn Integritetsp
     <string name="greenguard_parent_des_title">Jag behöver hjälpa mina vänner och familj</string>
     <string name="greenguard_parent_des">Ladda ner vår app och lägg till andra människors enheter</string>
     <string name="cta_declaration_title">Villkor</string>
-    <string name="cta_declaration_message_format" formatted="false">Du måste läsa och godkänna vår&lt;font color=%s>&lt;a href=%s> %s &lt;/a>&lt;/font> innan du använder företagsläge. Din enhet måste vara ansluten till Internet för att aktivera Företagsläge. Godkänn?</string>
+    <string name="cta_declaration_message_format" formatted="false">Du måste läsa och godkänna vår &lt;font color=%s>&lt;a href=%s>%s&lt;/a>&lt;/font> innan du använder företagsläge. Din enhet måste vara ansluten till Internet för att aktivera Företagsläge. Godkänn?</string>
     <string name="cta_declaration_agree_and_continue">Godkänn</string>
     <string name="undo_activated_dialog_message">Upphäva behörigheter kommer avaktivera Företagsläge och din enhet kommer fabriksåterställas. Alla relaterade funktioner kommer inte vara tillgängliga längre. Förutom det kommer Xiaomi sluta att samla in information som krävs för Företagsläge (IMEI, Enhets-ID, systemversion region osv.). Vi vill påminna dig att Xiaomi inte hantera datan som samlas in för Företagsläge. Vi kommer göra vårt bästa för att meddela ingående parter men rekommendera att du kontaktar ditt företag för att godkänna upphävningen. Upphäv och genomför en fabriksåterställning?</string>
     <string name="undo_activated_dialog_ok">Upphäva</string>
@@ -457,4 +457,8 @@ Se till att namnet på ditt företag är korrekt. Läs och godkänn Integritetsp
     <string name="dialog_undo_negative">Upphäv inte</string>
     <string name="dialog_title_service_error">Serverfel</string>
     <string name="dialog_message_service_error">Det gick inte att upphäva behörigheter och genomföra en fabriksåterställning. Försök igen</string>
+    <string name="dialog_verify">Verifiera ditt fingeravtryck</string>
+    <string name="dialog_verify_fingerprint_retry">Det gick inte att tyda fingeravtrycket. Försök igen.</string>
+    <string name="button_touch">Placera ditt finger på sensorn</string>
+    <string name="button_input_password">Ange lösenord</string>
 </resources>
