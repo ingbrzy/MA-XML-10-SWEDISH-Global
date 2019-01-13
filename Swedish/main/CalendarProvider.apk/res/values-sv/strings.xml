@@ -21,4 +21,6 @@
     <string name="debug_tool_email_sender_picker">Välj app för att skicka filen</string>
     <string name="debug_tool_email_subject">Kalenders felsökningsverktyg ansluten</string>
     <string name="debug_tool_email_body">Min Kalenderdatabas är bifogad med alla mina utnämningar och personlig information. Hantera med försiktighet.</string>
+    <string name="channel_name">Kalenderpåminnelser</string>
+    <string name="channel_description" />
 </resources>

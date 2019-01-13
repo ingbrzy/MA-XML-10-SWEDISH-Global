@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Batteri och prestanda</string>
-    <string name="error_filename_too_long">Filnamnet du angav är för lång.</string>
+    <string name="error_filename_too_long">Filnamnet du angav är för långt.</string>
     <string name="power_config_select_apps_title">Appar</string>
     <string name="power_config_event_delete">Ta bort</string>
     <string name="hide_mode_desc"><font color="#000000">När en app kör i bakgrunden övervakas dess aktiviteter för att minska batterianvändning. Denna funktion kommer använda användardata enligt %s</font></string>
@@ -38,7 +38,10 @@
     <string name="vip_feedback_enable">Aktivera VIP feedback</string>
     <string name="extreme_power_config_mode_category">Extremläge</string>
     <string name="extreme_power_config_mode_title">Extremläge</string>
-    <string name="extreme_power_config_mode_desc">Byt till Extremläge för stänga av synkronisering, Bluetooth, GPS, NFC, dubbeltrycka, knapplampor, väck Låsskärmen för notifikationen och notifikationslampan. MIUI kommer fokusera på att spara batteriet.</string>
+    <string name="extreme_power_config_mode_desc"><li>Extrem Batterisparare begränsar bakgrundsaktivitet för en app efter att du lämnat den och gått tillbaka till Hemskärmen. Denna app kommer inte sända notifikationer eller motta uppdateringar.</li>"
+"<li>Lås den i Senast använda appar eller lägg till den som bakgrundsundantag nedan om du vill att en app ska köras i bakgrunden. Upp till 4 appar kan köras i bakgrunden när Extrem Batterisparare är aktiverad.</li>"
+"<li>Extrem Batterisparare avaktiverar automatiskt NFC. Du kan ändra detta i Inställningar.</li>"
+"<li>För att se till att du kan använda alla funktioner på din enhet normalt kommer Extrem Batterisparare automatiskt avaktiveras när batterinivån är över 30%.</li></string>
     <string name="empty_title_apps_container_list">Inga appar</string>
     <string name="hints_loading_text">Bara en sekund…</string>
     <string name="config_mode_title">Inställningar för bakgrundsaktivitet</string>
@@ -98,13 +101,13 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="atrace_start">Spelar in atrace-logg…</string>
     <string name="atrace_saving">Sparar atrace-logg…</string>
     <string name="atrace_saved">Sparad</string>
-    <string name="notification_open_extreme_mode_text">Turned on Extreme battery saver</string>
-    <string name="extreme_power_settings_title">settings</string>
-    <string name="notification_exit_extreme_mode_title">Turned off Extreme battery saver</string>
-    <string name="notification_exit_extreme_mode_text">Battery is more than %s charged</string>
-    <string name="extreme_power_config_mode_summary">Extreme battery saver restricts background activity, and stops sync.</string>
-    <string name="extreme_add_white_list_title">Background exceptions</string>
-    <string name="extreme_add_white_list_summary">Add up to 4 apps</string>
-    <string name="adaptive_battery_title">Use Adaptive Battery</string>
-    <string name="adaptive_battery_summary">"Limit battery for apps that you don't use often"</string>
+    <string name="notification_open_extreme_mode_text">Extrem Batterisparare aktiverad</string>
+    <string name="extreme_power_settings_title">inställningar</string>
+    <string name="notification_exit_extreme_mode_title">Extrem Batterisparare avaktiverad</string>
+    <string name="notification_exit_extreme_mode_text">Batteriet är laddad mer än %s</string>
+    <string name="extreme_power_config_mode_summary">Extrem Batterisparare begränsar bakgrundsaktivitet och stoppar synkronisering.</string>
+    <string name="extreme_add_white_list_title">Bakgrundsundantag</string>
+    <string name="extreme_add_white_list_summary">Lägg till upp till 4 appar</string>
+    <string name="adaptive_battery_title">Använd adaptivt batteri</string>
+    <string name="adaptive_battery_summary">Begränsa batteri för appar som du inte använder så ofta</string>
 </resources>

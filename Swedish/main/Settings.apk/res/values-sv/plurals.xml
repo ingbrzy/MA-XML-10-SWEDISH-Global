@@ -172,6 +172,10 @@
         <item quantity="other">%s minuter</item>
         <item quantity="one">1 minut</item>
     </plurals>
+    <plurals name="miui_sos_emergency_contacts_quantity">
+        <item quantity="other">%d tillagda</item>
+        <item quantity="one">%d tillagd</item>
+    </plurals>
     <plurals name="network_restrictions_summary">
         <item quantity="other">%1$d begränsningar</item>
         <item quantity="one">1 begränsning</item>

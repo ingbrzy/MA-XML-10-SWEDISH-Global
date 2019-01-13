@@ -11,6 +11,7 @@
     <string name="cal_result_format">= %s</string>
     <string name="cal_text_copied">Text kopierad</string>
     <string name="cancel">Avbryt</string>
+    <string name="children_education">Barnens utbildning</string>
     <string name="choose_currency">Välj valuta</string>
     <string name="choose_unit">Välj enhet</string>
     <string name="city">Stad</string>
@@ -44,10 +45,10 @@
     <string name="devided_by_zero_reminder_message">Kan inte dividera med noll</string>
     <string name="dialog_privacy_content">Förutom de grundläggande funktionerna i en miniräknare innehåller vår app också en vetenskaplig kalkylator och en omvandlare för t ex enheter. Vissa funktioner behöver internetanslutning för att fungera normalt. Du måste läsa och godkänna våra %1$s och %2$s innan Kalkylatorn får användas.</string>
     <string name="dialog_privacy_title">Villkor</string>
-    <string name="dialog_rating_desc_ask">How do you feel about Calculator?</string>
-    <string name="dialog_rating_desc_less">Could you give us your feedback as well?</string>
-    <string name="dialog_rating_desc_perfect">Nice! Rate Calculator in App Store as well?</string>
-    <string name="dialog_rating_title">Rate our app</string>
+    <string name="dialog_rating_desc_ask">Vad tycker du om Kalkylator?</string>
+    <string name="dialog_rating_desc_less">Kan du ge oss din feedback också?</string>
+    <string name="dialog_rating_desc_perfect">Tack! Betygsätt Kalkylator i App Store också?</string>
+    <string name="dialog_rating_title">Betygsätt vår app</string>
     <string name="digit0">0</string>
     <string name="digit1">1</string>
     <string name="digit2">2</string>
@@ -66,9 +67,13 @@
     <string name="error">Fel</string>
     <string name="error_fomrat">Fel format</string>
     <string name="exit">Avsluta</string>
+    <string name="extra_deduction_instruction">Avdragsdetaljer</string>
+    <string name="extra_deduction_tips">Tryck på knappen i det övre hörnet av skärmen för att visa avdragsdetaljer.</string>
+    <string name="extra_deduction_title">Ytterligare avdrag</string>
     <string name="factorialDesc">faktoriell</string>
     <string name="fund" />
     <string name="fund_loan">Finansiera lån</string>
+    <string name="further_education">Vidareutbildning</string>
     <string name="global_network_confirm_content">Valutaomvandlaren måste ansluta till internet för att fungera normalt.</string>
     <string name="global_search_key_area_convertion">Område;Områdeskonverterare;Områdeskonvertering</string>
     <string name="global_search_key_calculation">Beräkna; Kalkylator; Enhetskonvertering; Konverterare; Enhetsomvandlare</string>
@@ -85,7 +90,10 @@
     <string name="global_search_key_word_figure">Finansiella tecken</string>
     <string name="golbal_search_calculator_setting">Kalkylator; Miniräknarens inställningar; Inställningar</string>
     <string name="golbal_search_path_calculator_setting">Systemappar/Kalender/Inställningar</string>
+    <string name="help_content_desc">Hjälp</string>
+    <string name="home_loan">Räntekostnader</string>
     <string name="home_title_calculator">Kalkylator</string>
+    <string name="house_rent">Hyra</string>
     <string name="income_type" />
     <string name="install">Installera</string>
     <string name="install_scanner_to_continued_use">Scanner är avinstallerad. Installera den igen?</string>
@@ -109,8 +117,10 @@
     <string name="leftParenDesc">vänsterparentes</string>
     <string name="lg">lg</string>
     <string name="lgDesc">logaritm</string>
+    <string name="license_host_unreachable">Det gick inte ansluta till nätverket. Kontrollera dina nätverksinställningar och försök igen.</string>
     <string name="ln">ln</string>
     <string name="lnDesc">naturlig logaritm</string>
+    <string name="loading">Vänta lite…</string>
     <string name="loading_fail_message_no_network">Det gick inte att ansluta till nätverket, tryck här för att försök igen.</string>
     <string name="loading_fail_refresh">Uppdatera</string>
     <string name="loading_message">Laddar app…</string>
@@ -130,6 +140,7 @@
     <string name="loan_repayment_detail_loading">Laddar detaljerad återbetalning…</string>
     <string name="loan_repayment_detail_unit">Detaljerad återbetalning (CNY)</string>
     <string name="loan_unit">(×10K)</string>
+    <string name="medical_treatment">Medicinsk behandling</string>
     <string name="menuDesc">meny</string>
     <string name="minusDesc">minus</string>
     <string name="month" />
@@ -165,12 +176,14 @@
     <string name="mortgage_tab_combining_loan">Hybrid</string>
     <string name="mortgage_tab_commercial_loan">Kommersiell</string>
     <string name="mortgage_years_amount">Låneperiod</string>
+    <string name="mt_max">Det belopp som du angav är för stort</string>
     <string name="mulDesc">gånger</string>
     <string name="negDesc">Växla mellan temperaturer under och över nollan</string>
     <string name="network_confirm_content">Valutaomvandlare, skatt- och lånkalkylator behöver använda din enhets nätverksanslutning samt platstjänst för att kunna fungera normalt.</string>
     <string name="network_confirm_title">Behörigheter krävs</string>
+    <string name="none">Inga</string>
     <string name="not_supported_due_to_language">Den här funktionen är endast tillgänglig för det kinesiska språket</string>
-    <string name="ok">OK</string>
+    <string name="ok">Okej</string>
     <string name="percent" />
     <string name="percentDesc">procent</string>
     <string name="piDesc">pi</string>
@@ -189,10 +202,10 @@
     <string name="preference_follow_web_title">Officiell webbsida</string>
     <string name="preference_follow_wechat_title">WeChat</string>
     <string name="preference_follow_weibo_title">Sina Weibo</string>
-    <string name="preference_help">Help &amp; feedback</string>
+    <string name="preference_help">Hjälp &amp; feedback</string>
     <string name="preference_other">Övrigt</string>
     <string name="preference_privacy_title">Integritetspolicy</string>
-    <string name="preference_rating_title">Rate our app</string>
+    <string name="preference_rating_title">Betygsätt vår app</string>
     <string name="preference_settings">Inställningar</string>
     <string name="preference_use_degress_summary">Ersätt radianer med vinklar i trigonometriska funktioner</string>
     <string name="preference_use_degress_title">Grader/Radianer</string>
@@ -212,6 +225,7 @@
     <string name="social_security" />
     <string name="sqrtDesc">roten ur</string>
     <string name="start_calculate" />
+    <string name="support_elder">Stöd för äldre</string>
     <string name="switchDesc">Växla</string>
     <string name="tab_title_calculator">Kalkylator</string>
     <string name="tab_title_convert">Omvandlare</string>
@@ -254,7 +268,7 @@
     <string name="tax_location">Plats</string>
     <string name="tax_medical">Medicinsk</string>
     <string name="tax_param_error">Ange försäkringsränta</string>
-    <string name="tax_rate_provider">Data tillhandahållen av hexun.com och East Money</string>
+    <string name="tax_rate_provider">Beräknas enligt de nya skattereglerna. Data tillhandahålls av hexun.com och East Money.</string>
     <string name="tax_result_real_get">Efter skatt</string>
     <string name="tax_social_insurance">Socialförsäkring</string>
     <string name="tax_thershold_foreign">%s (Utländska nationaliteter)</string>
@@ -548,6 +562,7 @@
     <string name="unit_year">Å</string>
     <string name="unit_year_format">År %s</string>
     <string name="unit_yuan">CNY</string>
+    <string name="updating">Uppdatera Kalkylator…</string>
     <string name="user_agreement">Användarvillkor</string>
     <string name="voiceDesc">Röstkommandon</string>
     <string name="wf_word_figure">Finansiella bokstäver</string>
@@ -572,8 +587,11 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Det gick inte ansluta till Nedladdningar. Kontrollera om denna app har alla nödvändiga behörigheter i inställningarna > Installerade appar.</string>
     <string name="xiaomi_external_storage_unavailable">Lagringsutrymmet är inte tillgängligt. Kontrollera ditt SD-kort.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_update_dialog_message">"Introducerar version %1$s
 Size: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerar version %1$s

@@ -27,9 +27,9 @@
     <string name="cloud_back_up_frequence_choice_title">Schemalägg säkerhetskopiering</string>
     <string name="cloud_back_up_frequence_long">Var 7:e dag</string>
     <string name="cloud_back_up_frequence_short">Varje dag</string>
-    <string name="cloud_back_up_share_activity_title">Uppgradera Mi Kontot</string>
-    <string name="cloud_back_up_share_activity_discription">Få mer lagringsutrymme, dagliga säkerhetskopior, och mer.</string>
-    <string name="cloud_back_up_share_activity_confirm">Uppgradera</string>
+    <string name="cloud_back_up_subscribe_vip_title">Upgrade Mi Account</string>
+    <string name="cloud_back_up_subscribe_vip_discription">Get more storage space, daily backups, and more.</string>
+    <string name="cloud_back_up_subscribe_vip_confirm">Upgrade</string>
     <string name="cloud_back_up_detail_discription">"Dessa punkter kommer att säkerhetskopieras till Mi Cloud när enheten är ansluten till Wi-Fi: 
 *  Appar, utseende på Hemskärmen, och bakgrundsbilder 
 *  Alarm, klocka, och tidsinställningar 
@@ -50,6 +50,8 @@
     <string name="self_device_second_space">Telefonens Sekundära utrymme</string>
     <string name="other_device_main_space">Primära utrymmet</string>
     <string name="other_device_second_space">Sekundära utrymmet</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Återställer \"%s\"</string>
     <string name="size_unknown">Okänd storlek</string>
     <string name="recovering">Återställer %s</string>
@@ -59,6 +61,7 @@
     <string name="backing_up_to_micloud">Säkerhetskopierar…</string>
     <string name="restore_from_cloud">Återställ från Mi Cloud säkerhetskopia</string>
     <string name="backup_to_cloud">Säkerhetskopiera app</string>
+    <string name="restoring_file_title_no_progress">Återställer filer…</string>
     <string name="menu_item_sort">Sortera efter</string>
     <string name="menu_item_sort_name">Namn</string>
     <string name="menu_item_sort_size">Storlek</string>
@@ -86,6 +89,8 @@
     <string name="recover_miui_settings">Återställ Systeminställningar</string>
     <string name="wait_icon_download">Ladda ner appikoner</string>
     <string name="download_settings_fail">Kunde inte ladda hem inställningar för Hemskärm</string>
+    <string name="restore_init_description">Starta återställning</string>
+    <string name="restore_finish_description">Återställning slutförd</string>
     <string name="backup_fail_wifi_needed">Det gick inte att säkerhetskopiera, Wi-Fi behövs.</string>
     <string name="backup_success">Säkerhetskopia framgångsrikt skapat</string>
     <string name="cloud_task_in_process">Stoppa %s och ta bort denna säkerhetskopia? Du kan inte ångra denna åtgärd.</string>
@@ -131,6 +136,7 @@
     <string name="provision_error_connect_msg">Testa nätverket och försök igen. Säkerhetskopior är inte tillgängliga när enheten är offline.</string>
     <string name="provision_error_connect_title">Kan inte ansluta</string>
     <string name="loading_user_backup">Laddar säkerhetskopia…</string>
+    <string name="loading_progress_num">(%s%%)</string>
     <string name="error_num_placeholder">--</string>
     <string name="authentication_failed">Kunde inte verifiera konto.</string>
     <string name="no_account">Inte inloggad till Mi-konto.</string>
@@ -173,6 +179,7 @@
     <string name="notification_channel_remind">Påminnelse</string>
     <string name="done_remove">Borttagen</string>
     <string name="doing_restore_home">Återställer Hemskärm och inställningar…</string>
+    <string name="restoring_settings">Återställer Inställningar…</string>
     <string name="title_alert_cancel_restore">Avbryt återställningen</string>
     <string name="msg_alert_cancel_restore">Återställer objekt. Avbryt nu?</string>
     <string name="btn_restore_cancel">Avbryt</string>

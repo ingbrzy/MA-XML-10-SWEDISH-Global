@@ -35,6 +35,7 @@
     <string name="cast_forward">Framåt</string>
     <string name="cast_forward_10">Spola framåt tio sekunder</string>
     <string name="cast_forward_30">Spola framåt trettio sekunder</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_mute">Stäng av ljudet</string>
     <string name="cast_notification_connected_message">Ansluten till %1$s</string>
     <string name="cast_notification_connecting_message">Ansluter till %1$s</string>
@@ -112,6 +113,7 @@
     <string name="s6">Tillåter du att annonsen skapar en kalenderhändelse?</string>
     <string name="s7">Testannons</string>
     <string name="search_menu_title">Sök</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="agree">Godkänn</string>
     <string name="ai_animation_music_text">AI soundtrack</string>
     <string name="ai_music_save_cancel">Avbryt</string>

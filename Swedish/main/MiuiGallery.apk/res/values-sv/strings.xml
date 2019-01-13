@@ -55,7 +55,7 @@
     <string name="album_name_people">Människor</string>
     <string name="album_name_recent_discovery">Nyligen</string>
     <string name="album_name_tags">Taggar</string>
-    <string name="album_notes">Noteringar</string>
+    <string name="album_notes">Anteckningar</string>
     <string name="album_others_share_baby_info_format">Bebisalbum från %s</string>
     <string name="album_others_share_info_format">Från %s</string>
     <string name="album_owner_share">Delat</string>
@@ -205,6 +205,9 @@
     <string name="change_to_face_mode">Visa endast ansikte</string>
     <string name="change_to_photo_mode">Visa fullständiga förhandsvisningar</string>
     <string name="change_to_visible">Återställ den här personen?</string>
+    <string name="channel_default_name">Nya funktioner</string>
+    <string name="channel_low_name">Nya meddelande</string>
+    <string name="channel_min_name">Appnotifikationer</string>
     <string name="checked">Valda</string>
     <string name="checked_something">Valda %s</string>
     <string name="choose_baby_sexy">Kön</string>
@@ -484,6 +487,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="face_name_edit">Redigera</string>
     <string name="face_name_input">Ange namn</string>
     <string name="face_recommend">Rekommendationer</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunde inte slutföra åtgärden</string>
     <string name="fail_to_pick_email">Ogiltig e-postadress</string>
     <string name="fail_to_sync_album">Kunde inte synkronisera album. Kolla din datakoppling och försök igen.</string>
@@ -494,17 +498,19 @@ Ta fler bilder av dina vänner!"</string>
     <string name="feature_guidance_photo_effects">"Nya foto effects
 are tillgänglig"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nya effekter finns</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
+    <string name="filter_bi_bw">B&amp;W</string>
+    <string name="filter_bi_dusk">Skymning</string>
+    <string name="filter_bi_lilt">Glad melodi</string>
     <string name="filter_bi_memory">Minne</string>
-    <string name="filter_bi_mono">Mono</string>
     <string name="filter_bi_pink">Rosa</string>
-    <string name="filter_bi_portrait">Porträtt</string>
     <string name="filter_bi_retro">Retro</string>
     <string name="filter_bi_romantic">Romantisk</string>
+    <string name="filter_bi_sepia">Sepia</string>
     <string name="filter_bi_strong">Stark</string>
     <string name="filter_bi_sunny">Soligt</string>
-    <string name="filter_bi_sweet">Söt</string>
+    <string name="filter_bi_tea">Te</string>
     <string name="filter_bi_warm">Varm</string>
-    <string name="filter_bi_young">Ung</string>
     <string name="filter_category_film">Film</string>
     <string name="filter_category_food">Mat</string>
     <string name="filter_category_master">Master</string>
@@ -564,6 +570,7 @@ are tillgänglig"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Ange</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri behöver tillgång till 
 %s
  för att fungera normalt, tryck på \"Tillämpa\" för att gå till Behörigheter."</string>
@@ -676,6 +683,7 @@ för att göra galleriet personligt"</string>
     <string name="more_album_hint">, etc.</string>
     <string name="more_face">Fler människor som liknar varandra</string>
     <string name="more_face_album_name">Fler människor</string>
+    <string name="motion_photo_play">Play</string>
     <string name="move_to_other_albums_tip">Flytta det här albumet till andra album?</string>
     <string name="movie_add_disable">Du kan välja upp till 20 foton</string>
     <string name="movie_audio_custom">Lokalt</string>
@@ -688,6 +696,10 @@ för att göra galleriet personligt"</string>
     <string name="movie_audio_sport">Techno</string>
     <string name="movie_cancel_download">Avbryt</string>
     <string name="movie_change_to_long_video">Du valde fler än 5 foton. Bytte till längre video.</string>
+    <string name="movie_content_describe_add">Lägg till bilder</string>
+    <string name="movie_content_describe_delete">Ta bort bilder</string>
+    <string name="movie_content_describe_pause">Pausa</string>
+    <string name="movie_content_describe_play">Spela upp</string>
     <string name="movie_delete_disable">Du behöver minst 3 bilder för att skapar ett klipp.</string>
     <string name="movie_download">Ladda ned</string>
     <string name="movie_download_failed">Det gick inte att ladda ner</string>
@@ -806,6 +818,7 @@ för att göra galleriet personligt"</string>
     <string name="people_mark_mode_title_no_mark_name">Välj en person</string>
     <string name="people_page_label">Människor</string>
     <string name="people_page_unname">Namnlös</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Sällskapsdjursfoton</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Foton</string>
@@ -877,6 +890,8 @@ för att göra galleriet personligt"</string>
     <string name="photo_editor_talkback_redo">Göra om</string>
     <string name="photo_editor_talkback_undo">Ångra</string>
     <string name="photo_editor_text">Text</string>
+    <string name="photo_movie_menu_loading">@string/photo_print_menu_loading</string>
+    <string name="photo_movie_module_failed">@string/error_install_connect_fail</string>
     <string name="photo_movie_module_finish">Klipp laddat</string>
     <string name="photo_movie_module_loading">Laddar klipp…</string>
     <string name="photo_movie_select_image_range">Klipp kan innehålla 3-20 bilder</string>
@@ -1036,6 +1051,9 @@ för att göra galleriet personligt"</string>
     <string name="search_title_recommend">Rekommenderad</string>
     <string name="search_title_suggestion">Förslag</string>
     <string name="search_title_tag">Objekt</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Söker efter projektor…</string>
     <string name="secret_album_card_description">Bästa platsen för alla dina små hemligheter</string>
     <string name="secret_album_card_title">Försök dolda album</string>
@@ -1322,6 +1340,7 @@ för att göra galleriet personligt"</string>
     <string name="view_face_album">Visa album</string>
     <string name="view_more_face_desc">Visa fler människor</string>
     <string name="voice_assistant">Röstinmatning</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Välkommen till Mi Cloud</string>
     <string name="where_is_barcode">Var är QR-koden?</string>
     <string name="who_is_this">Vem är det?</string>
@@ -1329,9 +1348,9 @@ för att göra galleriet personligt"</string>
     <string name="yes">Ja</string>
     <string name="yesterday">Igår</string>
     <string name="you_are">Du är barnets</string>
-    <string name="channel_default_name">Nya funktioner</string>
-    <string name="channel_low_name">Nya meddelande</string>
-    <string name="channel_min_name">Appnotifikationer</string>
+    <string name="month_view_tip_button_text">Jag förstår</string>
+    <string name="month_view_tip_sub_title">Dra ihop två fingrar på skärmen för att växla till månadsvy</string>
+    <string name="month_view_tip_title">Månadsvy</string>
     <string name="photomovie_audio_custom">Lokalt</string>
     <string name="photomovie_audio_default">Minne</string>
     <string name="photomovie_audio_kawaii">Romantisk</string>
@@ -1378,4 +1397,6 @@ för att göra galleriet personligt"</string>
     <string name="refocus_title">Oskärpa</string>
     <string name="refocus_type_static">Nivå för oskärpa</string>
     <string name="refocus_type_video">Ljusspår</string>
+    <string name="text_tab_bubble">Bubblor</string>
+    <string name="text_tab_watermark">Vattenstämplar</string>
 </resources>
