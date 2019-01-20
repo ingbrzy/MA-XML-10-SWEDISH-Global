@@ -587,11 +587,8 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
-    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Det gick inte ansluta till Nedladdningar. Kontrollera om denna app har alla nödvändiga behörigheter i inställningarna > Installerade appar.</string>
     <string name="xiaomi_external_storage_unavailable">Lagringsutrymmet är inte tillgängligt. Kontrollera ditt SD-kort.</string>
-    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
-    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_update_dialog_message">"Introducerar version %1$s
 Size: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerar version %1$s

@@ -296,7 +296,6 @@
     <string name="sms_happened">Färdig</string>
     <string name="stock_card_add">Lägg till företag</string>
     <string name="stock_card_title">Aktier</string>
-    <string name="stock_change_rate_format">%.2f%%</string>
     <string name="stock_color_schema">Färgschema</string>
     <string name="stock_list_empty_text">Du följer inte några företag.</string>
     <string name="stock_provider">Citat från aktiemarknaden tillhandahålls av Webull</string>
