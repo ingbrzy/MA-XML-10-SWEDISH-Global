@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="SMTP_independent_verification_text">SMTP-oberoende verifiering</string>
     <string name="SMTP_password_text">Lösenord</string>
     <string name="SMTP_username_text">Användarnamn</string>
@@ -80,7 +81,7 @@
     <string name="account_setup_check_settings_check_incoming_msg">Validerar serverns inställningar…</string>
     <string name="account_setup_check_settings_check_outgoing_msg">Validerar SMTP-inställningar…</string>
     <string name="account_setup_check_settings_retr_info_msg">"    Hämtar kontoinformation…"</string>
-    <string name="account_setup_correct_address_tips">Ange e-postadress</string>
+    <string name="account_setup_correct_address_tips">Denna epostadress är ogiltig.</string>
     <string name="account_setup_creating_account_msg">"    Skapar konto…"</string>
     <string name="account_setup_deleting_account_msg">"    Tar bort Konto…"</string>
     <string name="account_setup_exchange_certificate_title">Klientcertifikat</string>
@@ -225,6 +226,7 @@
     <string name="battery_saver">Batterisparare</string>
     <string name="battery_saver_keywords">batterisparare; postbatteri</string>
     <string name="bcc">Bcc</string>
+    <string name="bcc_heading">"Bcc: "</string>
     <string name="bill_center_setting">Faktureringsinställningar</string>
     <string name="bill_center_setting_head">Importera information från dessa konton</string>
     <string name="bill_cycle_text">Fakturering cykel</string>
@@ -245,6 +247,7 @@
     <string name="cancel_pop3_attchemt_downloading">Kan inte avbryta pågående nedladdningar för bilagor i POP3-konton</string>
     <string name="cant_move_or_change_labels">Det går inte att flytta objekt från flera konton.</string>
     <string name="cc">Cc</string>
+    <string name="cc_attribution">Cc: %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Cc: "</string>
     <string name="change_folders_selection_dialog_title">Ändra mappar</string>
@@ -262,6 +265,7 @@
     <string name="click_download_all_content">[ Tryck för att ladda ner innehåll ]</string>
     <string name="click_to_reload">Tryck här för att uppdatera</string>
     <string name="collapse_recipient_details">Dölj mottagarens detaljer</string>
+    <string name="colon">:</string>
     <string name="compose">Komponera</string>
     <string name="compose_attachment_number_limit">Kan inte lägga till mer än 10 bilagor</string>
     <string name="compose_paste_address_oob">För många tecken</string>
@@ -475,6 +479,7 @@
     <string name="gmail_web_login_go">OK</string>
     <string name="gmail_web_login_required_message">Logga in på Gmail</string>
     <string name="header_category_account">Konton</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Återkoppling</string>
     <string name="header_label_general_preferences">Allmän</string>
     <string name="help_and_info">Hjälp</string>
@@ -483,7 +488,7 @@
     <string name="hint_quick_reply_all">Svara alla</string>
     <string name="imap_name">IMAP</string>
     <string name="imap_or_pop3_name">IMAP/POP3</string>
-    <string name="imap_password_error">Lösenord för inkommande mail server är felaktig</string>
+    <string name="imap_password_error">Lösenord för inkommande e-postserver är felaktigt</string>
     <string name="import_button_text">Importera</string>
     <string name="import_from_other_account">Importera från andra enheter</string>
     <string name="info_actionbar_normal_detail">Marknadsförda</string>
@@ -496,6 +501,7 @@
     <string name="invalid_recipient">Adressen %s är ogiltig.</string>
     <string name="invalid_recipient_title">Mottagare Fel</string>
     <string name="kilobytes">%sKB</string>
+    <string name="label_notification_ticker" formatted="false">%s: %s</string>
     <string name="load_from_remote">Sök i brevlådan på servern</string>
     <string name="load_more">Ladda fler</string>
     <string name="loading_conversation">Laddar…</string>
@@ -936,7 +942,8 @@ to få påminnelser om betalningar och resor"</string>
     <string name="silent_ringtone">Tyst</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
-    <string name="smtp_password_error">Lösenord för utgående e-postserver är felaktiga</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
+    <string name="smtp_password_error">Lösenord för utgående e-postserver är felaktigt</string>
     <string name="sort_attachment">Sortera efter</string>
     <string name="storage">Lagringsutrymme</string>
     <string name="str_select_all">Välj alla</string>
@@ -1006,7 +1013,7 @@ Remove konto?"</string>
     <string name="unknow">Okänd</string>
     <string name="unread_string">konversation oläst</string>
     <string name="unzip_file_failed">Det gick inte att pakka ut filen</string>
-    <string name="update_date_format_templete">HH:mm aa, MMMM dd</string>
+    <string name="update_date_format_templete">HH:mm aa, dd MMMM</string>
     <string name="updated_at">Uppdatera på %1$s</string>
     <string name="upload_log">Skicka</string>
     <string name="upload_log_failed">Kunde inte skicka loggar</string>

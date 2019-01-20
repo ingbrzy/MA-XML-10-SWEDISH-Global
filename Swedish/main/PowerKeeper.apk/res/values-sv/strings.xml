@@ -22,7 +22,7 @@
     <string name="sleep_config_enhance_description_non_nfc">När MIUI upptäcker att du sover kommer MIUI stänga appar som är bakgrunden, begränsa Bluetooth, GPS, mobildata, Wi-Fi och skärmen kommer inte tändas upp av notifikationer.</string>
     <string name="nonui_mode_config_title">Läge för Noninteractive</string>
     <string name="nonui_mode_config_description">Tänd inte upp skärmen för notifikationer, avaktivera LED-lampor, fingeravtrycksensorn och tryck för att spara batteri när MIUI märker att du inte använder din enhet.</string>
-    <string name="power_center">Batteri</string>
+    <string name="power_center">Batterisparare</string>
     <string name="power_usage">Batterianvändning</string>
     <string name="power_mode">Batteriinställningar</string>
     <string name="performance_category">Prestanda</string>
@@ -110,4 +110,8 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="extreme_add_white_list_summary">Lägg till upp till 4 appar</string>
     <string name="adaptive_battery_title">Använd adaptivt batteri</string>
     <string name="adaptive_battery_summary">Begränsa batteri för appar som du inte använder så ofta</string>
+    <string name="dark_mode">Mörkt läge</string>
+    <string name="dark_mode_summary">Byt till mörka färger för att spara batteri</string>
+    <string name="open_dark_mode">Byt till Mörkt läge</string>
+    <string name="open_dark_mode_tip">Bildkvalité av vissa funktioner kan försämras i Mörkt läge. Det kommer återställas till det normala när du avslutar Mörkt läge. Byt till Mörkt läge nu?</string>
 </resources>

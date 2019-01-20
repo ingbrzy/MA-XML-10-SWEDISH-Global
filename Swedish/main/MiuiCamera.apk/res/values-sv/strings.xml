@@ -217,6 +217,7 @@
     <string name="accessibility_shutter_button">Slutarknapp</string>
     <string name="accessibility_intent_done_apply">Klar</string>
     <string name="accessibility_intent_done_retry">Försök igen</string>
+    <string name="accessibility_video_btn_play">Spela upp video</string>
     <string name="accessibility_review_thumbnail">Senaste foto</string>
     <string name="accessibility_camera_picker">Växla mellan fram- och baksidans kameror</string>
     <string name="accessibility_stereo_button">Justera fokus</string>
@@ -250,6 +251,7 @@
     <string name="accessibility_beauty_panel_open">Förskönamenyn är öppen</string>
     <string name="accessibility_back_preview_status">Förhandsvisning bakre kamera</string>
     <string name="accessibility_front_preview_status">Förhandsvisning främre kamera</string>
+    <string name="accessibility_pull_down_to_open_camera">Svep neråt för att öppna Kameran</string>
     <string name="accessibility_focus_status">%1$sX zoom</string>
     <string name="accessibility_filter_pad_close">Filtermeny är dold</string>
     <string name="accessibility_camera_picker_finish">Växlade kameror</string>
@@ -455,6 +457,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Djupeffekt</string>
     <string name="portrait_mode_use_hint">"Porträttläge gör bakgrunden suddig
  och frambringar personerna förgrunden."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Försök Poträttläge.
 Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_square_mode_title">Fyrkant</string>
@@ -471,6 +474,7 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Lägen</string>
     <string name="button_front_camera_title">Ta en selfie</string>
     <string name="button_normal_video_title">Spela in video</string>
@@ -587,7 +591,7 @@ i Porträtt läge"</string>
     <string name="lighting_pattern_dot">Punkter</string>
     <string name="lighting_pattern_shutter">Persienner</string>
     <string name="view_privacy_policy">Visa sekretesspolicy</string>
-    <string name="fps960_toast">Slow-motion capture will start at the last quarter of the recording</string>
+    <string name="fps960_toast">Inspelning i slowmotion kommer startas den sista fjärdedelelen av inspelningen</string>
     <string name="portrait_bokeh_text">Porträttläge</string>
     <string name="portrait_bokeh_first_tips">"Använd Porträttläge för att göra
  bakgrunden på suddig på dina bilder"</string>
@@ -612,7 +616,7 @@ i Porträtt läge"</string>
     <string name="beauty_body_body">Smal</string>
     <string name="beauty_body_shoulder">Skuldror</string>
     <string name="beauty_body_legged">Legs</string>
-    <string name="beauty_body_reset_tip">Borttagna figur effekter lyckades</string>
+    <string name="beauty_body_reset_tip">Bildeffekter har återställts</string>
     <string name="ultra_wide_open_tip">Vidvinkelläge</string>
     <string name="ultra_wide_close_tip">Vidvinkelläget är avstängt</string>
     <string name="pref_camera_zoom_mode_entry_ultra">Vid vinkel</string>
@@ -664,10 +668,11 @@ Vidvinkelläget hjälper till när du inte kan flytta längre från scenen."</st
     <string name="live_music_close_message">Stäng av musik nu?</string>
     <string name="live_music_close_sure_message">Stäng av</string>
     <string name="live_music_close_cancel_message">Avbryt</string>
-    <string name="beauty_body_slim_count_tip">Figureffekterna fungerar bara för en persons skott</string>
+    <string name="beauty_body_slim_count_tip">Bildeffekter fungerar bara för foton på en person</string>
     <string name="pref_menu_ultra_pixel_photography_32mp">32MP</string>
     <string name="ultra_pixel_photography_32mp_open_tip">32MP</string>
     <string name="ultra_pixel_photography_32mp_close_tip">32MP är avstängd</string>
     <string name="accessibility_ultra_pixel_photography_32mp_on">32MP är på</string>
     <string name="accessibility_ultra_pixel_photography_32mp_off">32MP är avstängd</string>
+    <string name="zoom_no_support_tip_48M">Zoomning fungerar inte i läget 48MP</string>
 </resources>

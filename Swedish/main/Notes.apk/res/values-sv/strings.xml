@@ -20,7 +20,7 @@
     <string name="all_folder_name">Alla anteckningar</string>
     <string name="all_terms">%1$s och %2$s</string>
     <string name="app_name">Anteckningar</string>
-    <string name="app_widget">Noteringar</string>
+    <string name="app_widget">Anteckningar</string>
     <string name="application_icon">Appikon</string>
     <string name="audio_panel_time_counter_default">00:00</string>
     <string name="audio_toast_file_invalid">Ljudfilen är ogiltig</string>
@@ -118,6 +118,7 @@
     <string name="menu_title_select_folder">Välj mapp</string>
     <string name="menu_unhide">Visa</string>
     <string name="menu_unstick">Lossa</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Inte nu</string>
     <string name="note_description_content">Appen Notes är ett utmärkt verktyg för inspelning av dina idéer. Den har inbyggda påminnelser och synkroniserar dina objekt till Mi Cloud så att du kan komma åt dem var som helst, när som helst. Se till att du inte kan använda dessa funktioner innan du tar bort appen.</string>
     <string name="note_description_title">Om Anteckningar</string>
@@ -129,6 +130,7 @@
     <string name="note_sort_way">Välj hur du vill sortera dina anteckningar</string>
     <string name="notealert_enter">Öppna anteckning</string>
     <string name="notealert_ok">Avfärda</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Anteckningspåminnelse</string>
     <string name="permdesc_accessNote">Skadliga appar kan använda detta för att få tillgång till personlig data.</string>
     <string name="permlab_accessNote">Åtkomst till anteckningar</string>
@@ -155,7 +157,7 @@
     <string name="save_to_gallery_failure_message">Kunde inte spara</string>
     <string name="save_to_gallery_icon_name">Spara till Galleri</string>
     <string name="save_to_gallery_success_message">Sparad framgångsrikt</string>
-    <string name="search">Noteringar</string>
+    <string name="search">Anteckningar</string>
     <string name="search_hint">Sök anteckningar</string>
     <string name="search_keyword_notes">Anteckningar;Memo</string>
     <string name="search_label">Söker…</string>
@@ -224,6 +226,7 @@
     <string name="toolbar_voice_description">Röst</string>
     <string name="trash_folder_name">Skräp</string>
     <string name="trash_folder_reminder">Anteckningarna du raderar kommer att raderas permanent om 30 dagar.</string>
+    <string name="unclassfied_folder_name">Okategoriserad</string>
     <string name="undo">Ångra</string>
     <string name="unknown_source">Okänd Källa</string>
     <string name="widget_content_loading">Vänta lite…</string>

@@ -35,6 +35,8 @@
     <string name="mx_sub_dspt_provision_with_voip">Internetsamtal</string>
     <string name="phone_number_required_dspt_provision">"Denna tjänst kräver ditt telefonnummer. "</string>
     <string name="sync_dspt_provision">"Synkronisera dina foto, kontakter, anteckningar, och mycket mer genom alla din enheter eller nå dem "</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". Du kan starta eller stanna denna funktion närsomhelst i Inställningar.
 "</string>
     <string name="sync_dspt_entrance_provision">"Synka dina bilder, kontakter, samtalshistorik, och meddelanden över alla dina enheter. Få tillgång till saker du synkar från vilken webbläsare som helst på %s. "</string>
@@ -45,6 +47,8 @@
     <string name="sync_dspt_entrance_provision_skip">Hoppa över detta steg</string>
     <string name="sync_dspt_entrance_provision_network">Denna app behöver vara ansluten till Internet för att fungerar normalt. För att synkronisera data behövs mobildataanslutning och att Wi-Fi är aktiverat.</string>
     <string name="find_device_dspt_provision">Om du tappar bort din enhet så kan du gå till %s för att lokalisera, låsa eller återställa den. Du kan slå på eller av denna funktion när som helst i Inställningar.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_send_sms_alert">Om du byter SIM-kort kommer ett meddelande automatiskt skickas för att återaktivera denna funktion.</string>
     <string name="mx_dspt_provision">"Mi Meddelande låter dig skicka meddelanden till andra MIUI enheter utan att bli debiterad när du är inloggad på Wi-Fi.
 
@@ -286,6 +290,7 @@ på ditt Mi Kontot för att återaktivera Mi Cloud."</string>
     <string name="micloud_find_device_opened">Hitta enheten påslagen</string>
     <string name="micloud_find_device_open_fail">Kunde inte starta Hitta enheten</string>
     <string name="micloud_find_device_opened_content">Hitta din enhet på %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_verify_fail">Kunde inte avaktivera Hitta Enhet</string>
     <string name="micloud_find_device_close_fail">Kunde inte stänga av Hitta enhet</string>
     <string name="micloud_find_device_finish">Klar</string>
@@ -352,6 +357,8 @@ på ditt Mi Kontot för att återaktivera Mi Cloud."</string>
     <string name="micloud_main_head_menu_state_close">Av</string>
     <string name="micloud_main_head_menu_state_unavailable">Stöds inte</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Funktionen Hitta enhet är inte tillgänglig i det Sekundära utrymmet, du kan använda den i Primära utrymmet.</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">Betalningar med fingeravtryck</string>
     <string name="ks_name_fido">FIDO</string>
     <string name="ks_name_alipay">IFAA</string>

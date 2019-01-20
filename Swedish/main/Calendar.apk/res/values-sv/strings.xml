@@ -97,6 +97,7 @@
     <string name="card_title_change">Mer</string>
     <string name="change_response_title">Ändra svar</string>
     <string name="click_to_share">Tryck för att dela</string>
+    <string name="close_alarm">Avaktivera</string>
     <string name="countdown_event_title">Nedräkning: %1$s</string>
     <string name="countdown_notify_before_3_day_title">Nedräkning: %1$s om 3 dagar</string>
     <string name="countdown_notify_title">Nedräkning: %1$s</string>
@@ -291,6 +292,8 @@ Kontrollera inställningar och försök igen."</string>
     <string name="no_visiable_calendar_select_account">Lägg till konto</string>
     <string name="no_visiable_calendar_title">Lägg till konto</string>
     <string name="not_synced">inte synkroniserad</string>
+    <string name="notification_channel_description" />
+    <string name="notification_channel_name">Kalenderpåminnelser</string>
     <string name="panchang_amanta">Amanta</string>
     <string name="panchang_amanta_month">Amanta månad:</string>
     <string name="panchang_ayana">Ayana</string>
