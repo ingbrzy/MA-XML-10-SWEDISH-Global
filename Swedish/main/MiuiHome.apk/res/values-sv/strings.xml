@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="action_add_to_workspace">Lägg till i Arbetsutrymmet</string>
     <string name="activity_not_found">Appen är inte installerad på din enhet</string>
     <string name="add_screen">Lägg till skärm</string>
@@ -98,7 +99,7 @@
     <string name="default_folder_title_services">Tjänster</string>
     <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">Verktyg</string>
-    <string name="default_screen_preview_title">Tryck för att ställa in standardskärm</string>
+    <string name="default_screen_preview_title">Konfigurera standardskärm</string>
     <string name="default_shortcut_title_10086">10086.cn</string>
     <string name="delete">Ta bort</string>
     <string name="delete_screen">Ta bort skärm</string>
@@ -108,6 +109,7 @@
     <string name="download_action">Ladda ner</string>
     <string name="drag_multiple_item_name" />
     <string name="drag_single_item_name" />
+    <string name="dual_app">Dubbelappar</string>
     <string name="edit_folder_title">Ändra mappnamn</string>
     <string name="edit_mode_group">Grupp</string>
     <string name="edit_mode_group_error_full">Inte tillräckligt med utrymme</string>
@@ -234,7 +236,7 @@
     <string name="no_space_toast">Inte tillräckligt med utrymme</string>
     <string name="normal_wallpaper">Bakgrund</string>
     <string name="notification_installed">Installerat</string>
-    <string name="notification_open_button">Öppna</string>
+    <string name="notification_open_button">Öppen</string>
     <string name="notification_reset_title">Ordna ikoner framgångsrikt</string>
     <string name="online_wallpaper">Online</string>
     <string name="open_personal_assistant_dialog_btn_cancel">Avbryt</string>
@@ -310,7 +312,7 @@
     <string name="start_activity_failed">Kan inte starta launcher</string>
     <string name="starting_preset_app">Startar…</string>
     <string name="status_downloaded">Nedladdat</string>
-    <string name="status_downloading">Nedladdning</string>
+    <string name="status_downloading">Laddar ned</string>
     <string name="status_installing">Installerar</string>
     <string name="status_paused">Paus</string>
     <string name="status_pending">Väntar</string>
@@ -351,5 +353,15 @@
     <string name="widget_gadget_player">Musik</string>
     <string name="widget_global_search">Sök</string>
     <string name="widget_quick_function">Snabbfunktioner</string>
-    <string name="dual_app">Dubbelappar</string>
+    <string name="home_gesture_content_center">Innehållscenter</string>
+    <string name="home_gesture_global_search">Sök</string>
+    <string name="home_gesture_no_action">Inga</string>
+    <string name="home_gesture_notification_bar">Notifikationer</string>
+    <string name="home_pull_down_action">Svep nedåt på Hemskärmen</string>
+    <string name="home_slide_up_action">Svep uppåt på Hemskärmen</string>
+    <string name="launcher_pull_down_title">Svep uppåt på Hemskärmen</string>
+    <string name="launcher_slide_up_title">Svep nedåt på Hemskärmen</string>
+    <string name="menu_finish">Klar</string>
+    <string name="minus_one_screen">minus en skärm</string>
+    <string name="widgets_preview_title">Lägg till widget</string>
 </resources>

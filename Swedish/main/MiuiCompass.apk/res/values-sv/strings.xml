@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="allow">Tillåta</string>
+    <string name="allow">Tillåt</string>
     <string name="altitude">%.1f</string>
     <string name="altitude_longitude_Degree_format" formatted="false">%d:%d:%d</string>
     <string name="altitude_title">Altitud</string>
@@ -53,7 +53,7 @@
     <string name="longitude">LON</string>
     <string name="mobiledata_alert_dialog_message">Anslut till internet för att kalibrerar höjden?</string>
     <string name="mobiledata_alert_dialog_title">Varning för dataanvändning</string>
-    <string name="open_perm_msg">Kompassen behöver åtkomst till platsinformation och kamera. Detta är nödvändigt att fastställa koordinater och ger förhandsgranskningar. Tillåta?</string>
+    <string name="open_perm_msg">Kompassen behöver åtkomst till platsinformation och kamera. Detta är nödvändigt att fastställa koordinater och ger förhandsgranskningar. Tillåt?</string>
     <string name="open_perm_title">Behörigheter krävs</string>
     <string name="preference_other">Övrigt</string>
     <string name="preference_privacy_title">Integritetspolicy</string>

@@ -4,16 +4,16 @@
     <string name="error_filename_too_long">Filnamnet du angav är för långt.</string>
     <string name="power_config_select_apps_title">Appar</string>
     <string name="power_config_event_delete">Ta bort</string>
-    <string name="hide_mode_desc"><font color="#000000">När en app kör i bakgrunden övervakas dess aktiviteter för att minska batterianvändning. Denna funktion kommer använda användardata enligt %s</font></string>
+    <string name="hide_mode_desc">När en app är aktiv i bakgrunden övervakas aktiviteterna för att minska batterianvändning. Denna funktion använder användardata enligt %s</string>
     <string name="privacy">Integritetspolicy</string>
     <string name="power_hide_mode_title">Batteri &amp; prestanda</string>
-    <string name="power_config_apps">Batterisparare</string>
+    <string name="power_config_apps">Batterisparare för appar</string>
     <string name="app_list_title">Välj appar</string>
     <string name="power_hide_mode_app_list_summary">Sparar batteri i bakgrunden</string>
     <string name="about_hide_mode">Om Batterisparare</string>
     <string name="show_system_app">Visa systemapplikationer</string>
     <string name="hide_system_app">Dölj systemapplikationer</string>
-    <string name="about_extreme_mode">Extremläge</string>
+    <string name="about_extreme_mode">Extrem Batterisparare</string>
     <string name="scenario_policies_title">Intelligenta scenarier</string>
     <string name="config_scenario_policies_title">Scenarier</string>
     <string name="scenario_policies_summary">Tillämpa olika strategier för att spara ström för olika scenarier.</string>
@@ -22,7 +22,7 @@
     <string name="sleep_config_enhance_description_non_nfc">När MIUI upptäcker att du sover kommer MIUI stänga appar som är bakgrunden, begränsa Bluetooth, GPS, mobildata, Wi-Fi och skärmen kommer inte tändas upp av notifikationer.</string>
     <string name="nonui_mode_config_title">Läge för Noninteractive</string>
     <string name="nonui_mode_config_description">Tänd inte upp skärmen för notifikationer, avaktivera LED-lampor, fingeravtrycksensorn och tryck för att spara batteri när MIUI märker att du inte använder din enhet.</string>
-    <string name="power_center">Batterisparare</string>
+    <string name="power_center">Batterioptimering</string>
     <string name="power_usage">Batterianvändning</string>
     <string name="power_mode">Batteriinställningar</string>
     <string name="performance_category">Prestanda</string>
@@ -36,8 +36,8 @@
     <string name="warm_performance_tip">Din enhet kommer bli varmare om fler processer körs.</string>
     <string name="vip_feedback">VIP feedback</string>
     <string name="vip_feedback_enable">Aktivera VIP feedback</string>
-    <string name="extreme_power_config_mode_category">Extremläge</string>
-    <string name="extreme_power_config_mode_title">Extremläge</string>
+    <string name="extreme_power_config_mode_category">Extrem Batterisparare</string>
+    <string name="extreme_power_config_mode_title">Extrem Batterisparare</string>
     <string name="extreme_power_config_mode_desc"><li>Extrem Batterisparare begränsar bakgrundsaktivitet för en app efter att du lämnat den och gått tillbaka till Hemskärmen. Denna app kommer inte sända notifikationer eller motta uppdateringar.</li>"
 "<li>Lås den i Senast använda appar eller lägg till den som bakgrundsundantag nedan om du vill att en app ska köras i bakgrunden. Upp till 4 appar kan köras i bakgrunden när Extrem Batterisparare är aktiverad.</li>"
 "<li>Extrem Batterisparare avaktiverar automatiskt NFC. Du kan ändra detta i Inställningar.</li>"
@@ -50,7 +50,7 @@
     <string name="config_restrict_function_title">Begränsa bakgrundsappar</string>
     <string name="config_restrict_running_title">Begränsa bakgrundsaktivitet</string>
     <string name="config_restrict_running_warning">Appar i bakgrunden kommer stängas. Detta kan göra att de inte fungerar normalt.</string>
-    <string name="config_description">MIUI kan identifiera appar med specifika bakgrundsprocesser (Meddelanden och navigationsappar, mediaspelare), och tillämpa Batterisparare på ett sätt som inte kommer påverka viktiga bakgrundsaktiviteter.</string>
+    <string name="config_description">MIUI kan identifiera appar med specifika bakgrundsprocesser (meddelanden och navigationsappar, mediaspelare), och tillämpa Batterisparare på ett sätt som inte kommer påverka viktiga bakgrundsaktiviteter.</string>
     <string name="config_suggest_description">"Identifiera appar och aktiviteter för att hålla viktiga processer igång.
 Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="config_no_restrict_description">Batterisparfunktionen begränsar inte appaktivitet</string>
@@ -94,7 +94,7 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="appconfig_active_app_dialog_title">Hantera aktiva appar</string>
     <string name="config_classify">Sortera efter appinställningar</string>
     <string name="active_classify">Sortera efter aktivitetsstatus</string>
-    <string name="extreme_mode_max_item_alert">Du kan välja upp till 4 appar som får köras i bakgrunden i Extremläge</string>
+    <string name="extreme_mode_max_item_alert">Du kan välja upp till 4 appar som får köras i bakgrunden när Extrem batterisparare är aktiverad</string>
     <string name="message_i_know">Jag förstår</string>
     <string name="high_temp_state">Överhettning</string>
     <string name="high_temp_state_message">Din enhet är överhettad. Mobildata, internetdelning, GPS och kamera kommer begränsas.</string>
@@ -110,8 +110,4 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="extreme_add_white_list_summary">Lägg till upp till 4 appar</string>
     <string name="adaptive_battery_title">Använd adaptivt batteri</string>
     <string name="adaptive_battery_summary">Begränsa batteri för appar som du inte använder så ofta</string>
-    <string name="dark_mode">Mörkt läge</string>
-    <string name="dark_mode_summary">Byt till mörka färger för att spara batteri</string>
-    <string name="open_dark_mode">Byt till Mörkt läge</string>
-    <string name="open_dark_mode_tip">Bildkvalité av vissa funktioner kan försämras i Mörkt läge. Det kommer återställas till det normala när du avslutar Mörkt läge. Byt till Mörkt läge nu?</string>
 </resources>

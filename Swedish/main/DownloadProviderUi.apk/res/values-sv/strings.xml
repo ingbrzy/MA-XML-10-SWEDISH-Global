@@ -151,6 +151,14 @@
     <string name="install">Installera</string>
     <string name="installing">Installerar…</string>
     <string name="insufficient_space">Inte tillräckligt med utrymme</string>
+    <string name="korean_all_choose_item_title">Jag godkänner alla villkor nedan.</string>
+    <string name="korean_permission_group_phone_describe">Ge tillgång till enhetens IMEI och nätverkstatus, hämta information om misslyckade nedladdningar för att förbättra tjänster</string>
+    <string name="korean_permission_group_phone_title">Telefon</string>
+    <string name="korean_privacy_btn_accept">Acceptera</string>
+    <string name="korean_privacy_btn_exit">Avsluta</string>
+    <string name="korean_privacy_item_title">Integritetspolicy (obligatorisk)</string>
+    <string name="korean_privacy_tv_summary">Läs följande objekt noga och välj om du accepterar dem.</string>
+    <string name="korean_user_agreement_item_title">Användarvillkor (obligatorisk)</string>
     <string name="load_finish_hint">Det är allt för tillfället.</string>
     <string name="loading">Vänta en stund…</string>
     <string name="media_filter">Media</string>
@@ -162,6 +170,7 @@
     <string name="menu_title_resume_all">Starta alla</string>
     <string name="menu_title_settings">Inställningar</string>
     <string name="net_error">Anslut till nätverket och försök igen</string>
+    <string name="new_file_notification_title_image">Bild</string>
     <string name="no_file_hint">En nedladdning för den här filen finns redan</string>
     <string name="no_result_for_keyword">Kunde inte hitta \"%1$s\"</string>
     <string name="no_share_file">Kunde inte dela denna fil</string>

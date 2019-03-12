@@ -457,6 +457,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Djupeffekt</string>
     <string name="portrait_mode_use_hint">"Porträttläge gör bakgrunden suddig
  och frambringar personerna förgrunden."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Försök Poträttläge.
 Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_square_mode_title">Fyrkant</string>
@@ -473,6 +474,7 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Lägen</string>
     <string name="button_front_camera_title">Ta en selfie</string>
     <string name="button_normal_video_title">Spela in video</string>
@@ -588,6 +590,7 @@ i Porträtt läge"</string>
     <string name="lighting_pattern_leaf">Löv</string>
     <string name="lighting_pattern_dot">Punkter</string>
     <string name="lighting_pattern_shutter">Persienner</string>
+    <string name="lighting_pattern_holi">Holi</string>
     <string name="view_privacy_policy">Visa sekretesspolicy</string>
     <string name="fps960_toast">Inspelning i slowmotion kommer startas den sista fjärdedelelen av inspelningen</string>
     <string name="portrait_bokeh_text">Porträttläge</string>
@@ -608,7 +611,7 @@ i Porträtt läge"</string>
     <string name="live_speed_extreme_fast">Super snabb</string>
     <string name="live_sticker_updating">Uppdaterar…</string>
     <string name="live_sticker_network_error_hint">Nätverksfel</string>
-    <string name="ultra_wide_mode">Vid vinkel</string>
+    <string name="ultra_wide_mode">Vidvinkel</string>
     <string name="beauty_body">Figur</string>
     <string name="beauty_body_head">Huvud</string>
     <string name="beauty_body_body">Smal</string>
@@ -616,19 +619,19 @@ i Porträtt läge"</string>
     <string name="beauty_body_legged">Legs</string>
     <string name="beauty_body_reset_tip">Bildeffekter har återställts</string>
     <string name="ultra_wide_open_tip">Vidvinkelläge</string>
-    <string name="ultra_wide_close_tip">Vidvinkelläget är avstängt</string>
-    <string name="pref_camera_zoom_mode_entry_ultra">Vid vinkel</string>
-    <string name="ultra_wide_recommend_tip_hint">Prova vidvinkelläge</string>
+    <string name="ultra_wide_close_tip">Vidvinkelläge är avaktiverat</string>
+    <string name="pref_camera_zoom_mode_entry_ultra">ULTRA VIDVINKEL</string>
+    <string name="ultra_wide_recommend_tip_hint">Prova Vidvinkelläge</string>
     <string name="camera_liveshot_on_tip">Dynamiska bilder</string>
     <string name="camera_liveshot_off_tip">Slå av dynamiska bilder</string>
     <string name="accessibility_camera_liveshot_on">Slå på dynamiska bilder</string>
     <string name="accessibility_camera_liveshot_off">Slå av dynamiska bilder</string>
     <string name="beauty_tab_name_live_filter">Filter</string>
     <string name="beauty_tab_name_live_beauty">Försköna</string>
-    <string name="accessibility_ultra_wide_on">Aktiverat vidvinkelläge</string>
-    <string name="accessibility_ultra_wide_off">Stänger vid vidvinkelläge</string>
+    <string name="accessibility_ultra_wide_on">Aktiverade Vidvinkelläge</string>
+    <string name="accessibility_ultra_wide_off">Avaktiverade Vidvinkelläge</string>
     <string name="ai_scene_top_tip">Månläge</string>
-    <string name="pref_camera_ultra_wide_ldc_title">Korrekt förvrängning i breda skott</string>
+    <string name="pref_camera_ultra_wide_ldc_title">Korrekt förvrängning i Vidvinkelfoto</string>
     <string name="pref_camera_ultra_wide_ldc_description">Korrigera förvrängda objekt automatiskt</string>
     <string name="pref_camera_normal_wide_ldc_title">Korrigera ansiktsförvrängningar på gruppfoton</string>
     <string name="pref_camera_normal_wide_ldc_description">Korrekt förvrängda ansikten hos de personer som ligger nära rammens kant</string>
@@ -647,8 +650,8 @@ i Porträtt läge"</string>
     <string name="live_edit_share_title">Dela</string>
     <string name="beauty_reset_toast">Ta bort Försköna effekter framgångsrikt</string>
     <string name="pref_camera_ultra_wide_mode_title">Vidvinkelläge</string>
-    <string name="ultra_wide_mode_use_hint_text">"Använd det här läget för att inkludera mer av scenen i ditt foto.
-Vidvinkelläget hjälper till när du inte kan flytta längre från scenen."</string>
+    <string name="ultra_wide_mode_use_hint_text">"Använd det här läget för att inkludera mer bildyta i ditt foto.
+Vidvinkelläget hjälper till när du inte kan flytta längre från objektet."</string>
     <string name="live_reverse_message">Ta bort tidigare tagna objekt?</string>
     <string name="live_reverse_confirm">Ta bort</string>
     <string name="live_error_title">Systemtiden är inte korrekt</string>
@@ -673,4 +676,10 @@ Vidvinkelläget hjälper till när du inte kan flytta längre från scenen."</st
     <string name="accessibility_ultra_pixel_photography_32mp_on">32MP är på</string>
     <string name="accessibility_ultra_pixel_photography_32mp_off">32MP är avstängd</string>
     <string name="zoom_no_support_tip_48M">Zoomning fungerar inte i läget 48MP</string>
+    <string name="hand_gesture_open_tip">Visa din handflata till kameran för att starta timer</string>
+    <string name="hand_gesture_tip">Palmavtryckare</string>
+    <string name="autozoom_landscape_hint">Ta bilder i landskapsläge för bästa effekt</string>
+    <string name="super_night_toast">Håll din telefon stilla medan du tar ett foto</string>
+    <string name="capture_back_pressed_hint">Tryck igen för att avsluta</string>
+    <string name="video_ultra_clear_tip">4K UHD</string>
 </resources>

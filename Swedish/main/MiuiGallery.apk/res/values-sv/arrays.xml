@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="activities_title">
+        <item>En speciell dag</item>
+        <item>Dag att minnas</item>
+        <item>Pulserande stunder</item>
+    </string-array>
     <string-array name="baby_sexy">
         <item>Pojke</item>
         <item>Flicka</item>
+    </string-array>
+    <string-array name="last_weekend_title">
+        <item>Mina helger</item>
+        <item>Bitar av liv</item>
+        <item>Helgminnen</item>
+    </string-array>
+    <string-array name="menu_copy_or_move">
+        <item>Flytta</item>
+        <item>Kopiera</item>
+        <item>@string/cancel</item>
     </string-array>
     <string-array name="month">
         <item>Januari</item>
@@ -26,6 +41,11 @@
         <item>Morfar</item>
         <item>Mormor</item>
     </string-array>
+    <string-array name="parties_title">
+        <item>Tillsammans</item>
+        <item>Goda tider</item>
+        <item>Unisont</item>
+    </string-array>
     <string-array name="relation_with_me">
         <item>Jag</item>
         <item>Barn</item>
@@ -48,5 +68,9 @@
         <item>Farmor</item>
         <item>Morfar</item>
         <item>Mormor</item>
+    </string-array>
+    <string-array name="sports_title">
+        <item>Rör sig framåt</item>
+        <item>Full av energi</item>
     </string-array>
 </resources>

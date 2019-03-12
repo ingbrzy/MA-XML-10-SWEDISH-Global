@@ -244,6 +244,10 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="other">%d dagar sedan den senaste kollen</item>
         <item quantity="one">%d dag sedan den senaste kollen</item>
     </plurals>
+    <plurals name="hints_scan_danger_result_with_number">
+        <item quantity="other">%d risker upptäckta, åtgärda nu</item>
+        <item quantity="one">%d risk upptäckt, åtgärda nu</item>
+    </plurals>
     <plurals name="hints_handle_item_text_risk_number">
         <item quantity="other">%d risker,</item>
         <item quantity="one">%d risk,</item>
@@ -375,10 +379,6 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
     <plurals name="privacy_apps_disable_header_title">
         <item quantity="other">%d appar är dolda</item>
         <item quantity="one">%d app är dold</item>
-    </plurals>
-    <plurals name="first_aid_card_float_window_summary">
-        <item quantity="other">%d appar kanske visas felaktigt. Begränsa svävande notifikationer.</item>
-        <item quantity="one">%d app kanske visas felaktigt. Begränsa svävande notifikationer.</item>
     </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d problem kräver optimering</item>

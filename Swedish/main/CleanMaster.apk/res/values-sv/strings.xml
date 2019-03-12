@@ -92,6 +92,7 @@
     <string name="hints_apk_header_left">Paket</string>
     <string name="hints_residual_header_left">Överblivna filer</string>
     <string name="hints_memory_header_left">Minne</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Stora filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerade appar: %d</string>
     <string name="toast_resolve_apk_error">Lös apk fel</string>
@@ -299,6 +300,7 @@
     <string name="downloading">Laddar ner</string>
     <string name="installing">Installerar</string>
     <string name="start_install">Installera nu</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Öppna i webbläsaren</string>
     <string name="title_share_link">Dela URL</string>
     <string name="connecting">Ansluter…</string>
@@ -467,9 +469,9 @@
     <string name="file_not_found">Filen hittades inte</string>
     <string name="app_usage_never">Inte använd nyligen</string>
     <string name="app_usage_recently">Nyligen använts</string>
-    <string name="resutl_function_deep_clean_summary">" "<Data>&lt;font color=#ff0000 >%1$s&lt;/font> fler filer kan rensas. Frigör mer utrymme.;</Data>" "</string>
-    <string name="resutl_function_wechat_clean_summary">" "<Data>&lt;font color=#ff0000 >%1$s&lt;/font> av WeChat cache. Frigör mer utrymme.;</Data>" "</string>
-    <string name="resutl_function_qq_clean_summary">" "<Data>Du kan rensa &lt;font color=#ff0000 >%1$s&lt;/font> av cachen;</Data>" "</string>
+    <string name="resutl_function_deep_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> fler filer kan rensas. Frigör mer utrymme.;&lt;/Data></string>
+    <string name="resutl_function_wechat_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> av WeChat cache. Frigör mer utrymme.;&lt;/Data></string>
+    <string name="resutl_function_qq_clean_summary">&lt;Data>Du kan rensa &lt;font color=#ff0000 >%1$s&lt;/font> av cachen;&lt;/Data></string>
     <string name="engine_tm">Tencent</string>
     <string name="engine_cm">Clean Master</string>
     <string name="app_description_title">Om Städaren</string>
@@ -545,12 +547,11 @@
     <string name="onekeyclean_boost_available">%s tillgängligt</string>
     <string name="onekeyclean_card_summery">Töm papperskorg för att öka utrymme</string>
     <string name="onekeyclean_card_btn">Städa nu</string>
-    <string name="memory_clean_icon_text">Rensa minne</string>
     <string name="pref_title_create_onekeyclean_shortcut">Skapa genväg på Hemskärmen</string>
     <string name="memory_clean_no_trash_tip">Allt ser bra ut</string>
     <string name="toast_updater_open_4g_text">Appar kommer uppdateras via mobildata (4G)</string>
     <string name="toast_updater_close_4g_text">Appar kommer inte uppdateras via mobildata (4G)</string>
-    <string name="facebook_cleaner">Facebook Cleaner</string>
+    <string name="facebook_cleaner">Städa Facebook</string>
     <string name="facebook_group_image">Bilder</string>
     <string name="facebook_group_video">Videor</string>
     <string name="facebook_group_gif">GIFs</string>
@@ -563,6 +564,6 @@
     <string name="facebook_clean_exit_confirm_msg">Skanningen av Facebook är inte slutförd. Avbryt skanning ändå?</string>
     <string name="facebook_clean_exit_confirm_cancel">Fortsätt skanning</string>
     <string name="facebook_clean_exit_confirm_ok">Avbryt</string>
-    <string name="one_tap_clean_M">%dMB</string>
-    <string name="one_tap_clean_GB">%sGB</string>
+    <string name="one_tap_clean_M">%d MB</string>
+    <string name="one_tap_clean_GB">%s GB</string>
 </resources>

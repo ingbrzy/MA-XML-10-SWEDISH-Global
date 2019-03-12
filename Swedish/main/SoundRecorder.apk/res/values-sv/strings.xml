@@ -64,6 +64,12 @@
     <string name="keywords_search_call_record">Spela in samtal;Spela in samtal;Samtalsinspelning;Samtalsinspelningar</string>
     <string name="keywords_search_record">Ny inspelning;Lägg till inspelning;Inspelning;Inspelningar;Transkript;Transkripera;Inspelare;Röstinspelare;Ljudinspelare;App Inspelare;Inspelningsapp;Hur spelar jag in; Hur ljud spelas in; Var finns inspelare; MIUI inspelare</string>
     <string name="keywords_search_record_list">Inspelare;Transkript;Transkript;Spela in;Dela insplening;Dela inspelningar;Inspelning;Inspelningar</string>
+    <string name="korea_permission_phone">Telefon</string>
+    <string name="korea_permission_phone_resc">För att komma åt enhetens status och hantera inspelningar under samtal</string>
+    <string name="korea_permission_record">Mikrofon</string>
+    <string name="korea_permission_record_resc">För inspelning av ljud</string>
+    <string name="korea_permission_storage">Lagringsutrymme</string>
+    <string name="korea_permission_storage_desc">För att spara inspelningar</string>
     <string name="loading_order_list">Vänta lite…</string>
     <string name="loading_order_list_empty">Inga beställningar här.</string>
     <string name="low_battery_error">Mindre än 5% batteri kvar. Stoppa och spara inspelningen för att se till att den inte går förlorad.</string>
@@ -174,9 +180,9 @@
     <string name="record_download_complete">Nedladdat</string>
     <string name="record_download_msg">Inspelningar kan endast spelas upp efter att de har laddats ned.</string>
     <string name="record_download_msg_reload">Inspelningen finns inte.</string>
-    <string name="record_downloading_notification">Laddar ned…</string>
+    <string name="record_downloading_notification">Laddar ner…</string>
     <string name="record_downloading_notification_complete">Nedladdning klar</string>
-    <string name="record_downloading_notification_count">%d laddar ner</string>
+    <string name="record_downloading_notification_count">%d laddas ner</string>
     <string name="record_format_preference_title">Inspelningsformat</string>
     <string name="record_list">Inspelningar</string>
     <string name="record_list_call">Inspelade samtal</string>

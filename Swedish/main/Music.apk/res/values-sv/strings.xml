@@ -42,17 +42,28 @@
     <string name="add_to_last_of_playlist">Lägg till i slutet på spellistan</string>
     <string name="add_to_playlist_successful">Lades till framgångsriskt</string>
     <string name="added_next_play">Tillagd för att spela nästa</string>
+    <string name="agreement_desc">Användaravtal (obligatoriskt)</string>
     <string name="alaka_required">Du bör betala för den här låten att lyssna på det</string>
     <string name="album_label">Album omslag</string>
     <string name="album_name">Album</string>
     <string name="all_album_count">Alla album (%d)</string>
     <string name="all_playlist_count">Alla album (%d)</string>
     <string name="all_tracks">Alla låtar</string>
-    <string name="already_download">Laddar ned…</string>
-    <string name="already_download_btn">Laddar ned…</string>
+    <string name="already_download">Laddar ner…</string>
+    <string name="already_download_btn">Laddar ner…</string>
     <string name="already_favorited">Redan tillagd i favoriter</string>
     <string name="always_use_metered">Använd alltid mobildata</string>
     <string name="app_label">Nedladdningar</string>
+    <string name="app_permission_confirm">Jag förstår</string>
+    <string name="app_permission_optional">Valfria behörigheter</string>
+    <string name="app_permission_require">Obligatoriska behörigheter</string>
+    <string name="app_permission_use_desc">Behörigheter</string>
+    <string name="app_permission_use_group_account">Konton</string>
+    <string name="app_permission_use_group_account_desc">För att få hämta Mi kontoinformation</string>
+    <string name="app_permission_use_group_phone">Telefon</string>
+    <string name="app_permission_use_group_phone_desc">För Google Push-tjänster</string>
+    <string name="app_permission_use_group_storage">Lagringsutrymme</string>
+    <string name="app_permission_use_group_storage_desc">För att hitta och spela låtar som sparats på enheten</string>
     <string name="artist">Artister</string>
     <string name="artist_area_all">Alla</string>
     <string name="artist_area_china">Kina</string>
@@ -84,7 +95,7 @@
     <string name="cancel">Avbryt</string>
     <string name="cancel_running_download">Avbryt</string>
     <string name="change_download_quality">Ändra nedladdningskvalitet</string>
-    <string name="checking_new_version">Kontroll för updates…</string>
+    <string name="checking_new_version">Söker efter uppdateringar…</string>
     <string name="choose_download_quality">Välj nedladdningskvalitet</string>
     <string name="choose_stream_quality">Välj strömmningskvalitet</string>
     <string name="click_to_shuffle">Klicka för att blanda</string>
@@ -119,6 +130,7 @@
     <string name="current_version">Aktuell version</string>
     <string name="data_usage_warning">Dataanvändning</string>
     <string name="data_usage_warning_summary">Användning av mobildata för att strömma högkvalitets musik kan öka din räkning för dataanvändning.</string>
+    <string name="data_use_desc">Juridiska dokument</string>
     <string name="date_format_str">dd-MM-yyyy</string>
     <string name="delete">Ta bort</string>
     <string name="delete_download">Radera</string>
@@ -132,9 +144,9 @@
     <string name="desktop_lyric_dialog_msg">Slå på eller av låttexter på Hemskärmen under Musik > Inställningar > Avancerade inställningar</string>
     <string name="desktop_lyric_dialog_positive_button">Försök nu</string>
     <string name="desktop_lyric_dialog_title">Försök nu</string>
-    <string name="desktop_lyric_lock_toast">Låst. Du kan låsa upp Musik i Meddelandepanelen.</string>
+    <string name="desktop_lyric_lock_toast">Låst. Du kan låsa upp Musik i Notifikationspanelen.</string>
     <string name="desktop_lyric_setting_summary">Visa låttexter på Hemskärmen</string>
-    <string name="desktop_lyric_setting_title">Hemskärmslåttext</string>
+    <string name="desktop_lyric_setting_title">Låttexter på Hemskärmen</string>
     <string name="desktop_lyric_textsize">Text</string>
     <string name="device_connected">Ansluten</string>
     <string name="device_not_connected">Ej ansluten</string>
@@ -205,7 +217,8 @@
     <string name="download_method">Ladda ned</string>
     <string name="download_no_application_title">Kan inte öppna filen</string>
     <string name="download_paused_in_power_save_mode">Nerladdningar pausas när Batterisparläge är på</string>
-    <string name="download_processing">Laddar ned…</string>
+    <string name="download_percent">%d%%</string>
+    <string name="download_processing">Laddar ner…</string>
     <string name="download_quality">Nedladdningskvalitet</string>
     <string name="download_quality_summary">Ytterligare inställningar för låtar du laddar ned</string>
     <string name="download_queued">Köad</string>
@@ -237,9 +250,9 @@
     <string name="download_while_playing_summary">Ladda automatiskt ned låtar du strömmar online</string>
     <string name="download_while_playing_title">Ladda ned samtidigt som strömmning</string>
     <string name="downloaded_empty">Tom</string>
-    <string name="downloading_apk">Hämtar… Visa framsteg i meddelandeskärmen.</string>
+    <string name="downloading_apk">Laddar ned… Se hur det går i Notifikationspanelen.</string>
     <string name="downloading_empty">Tom</string>
-    <string name="downloading_pause_apk">Pausad. Fortsätt ladda ner i meddelandeskärmen.</string>
+    <string name="downloading_pause_apk">Pausad. Återuppta nedladdningen i Notifikationspanelen.</string>
     <string name="due_date">Förfallodatum: %s</string>
     <string name="edit_playlist_info">Redigera spellista information</string>
     <string name="empty_page_no_album">Inga album.</string>
@@ -284,7 +297,9 @@
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Ljud</string>
@@ -306,6 +321,7 @@
     <string name="favorite_succeed">Tillagd i favoriter</string>
     <string name="favorite_tracks">Favoriter</string>
     <string name="favorites">Favoriter</string>
+    <string name="fcm_fallback_notification_channel_label">Diverse</string>
     <string name="feed_back">Feedback</string>
     <string name="file_not_found">Filen existerar inte</string>
     <string name="filter_by_duration">Efter längd</string>
@@ -326,6 +342,7 @@
     <string name="format_not_support">Detta format stöds inte.</string>
     <string name="format_unsupported_or_corrupted">Formatet stöds inte, eller så är filen korrupt</string>
     <string name="fragment_title_artist_album">Album</string>
+    <string name="gcm_fallback_notification_channel_label">Diverse</string>
     <string name="handle_later">Inte nu</string>
     <string name="hd_quality_audio">HD-kvalitet ljud</string>
     <string name="headset_and_audio_effect_category">Hörlurar &amp; ljudeffekter</string>
@@ -344,7 +361,7 @@
     <string name="hungama_subscribe_positive_button">Köp PRO-medlemskap</string>
     <string name="hungama_subscribe_title">PRO medlemskap</string>
     <string name="i_know">OK</string>
-    <string name="impunity_declaration_content">Du måste läsa och godkänna vår &lt; en href = ”http://www.miui.com/res/doc/eula.html?lang=en” > användaravtal &lt; /a > och &lt; en href = ”http://www.miui.com/res/doc/privacy.html?lang=en” > Sekretesspolicy &lt; /a > innan du använder produkten.</string>
+    <string name="impunity_declaration_content">Du måste läsa och godkänna vår &lt;a href=\"http://www.miui.com/res/doc/eula.html?lang=sv_SE\">Användaravtal&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/privacy.html?lang=sv_SE\">Sekretesspolicy&lt;/a> innan du använder produkten.</string>
     <string name="impunity_declaration_ignore">Visa inte igen</string>
     <string name="impunity_declaration_negative_text">Avsluta</string>
     <string name="impunity_declaration_positive_text">Godkänn</string>
@@ -400,7 +417,7 @@
     <string name="metered_allow">Spela</string>
     <string name="metered_beyond_alert">Dataanvändning har överskridits</string>
     <string name="metered_disallow">Inte nu</string>
-    <string name="metered_play_and_download_summary">Visa inte varningar medan streaming och nedladdning låtar via mobildata.</string>
+    <string name="metered_play_and_download_summary">Visa inte varningar medan streaming och nedladdning av låtar via mobildata.</string>
     <string name="metered_play_and_download_title">Streama och ladda ned låtar via mobildata</string>
     <string name="metered_play_toast">Använder mobil data för att spela låtar</string>
     <string name="metered_play_toast_with_beyond_data">Använder mobil data för att spela låtar. Överskrider gräns med %s</string>
@@ -428,7 +445,7 @@
     <string name="more_add_song_list">Lägga till låtar till kön</string>
     <string name="more_milink_and_bluetooth">Mi Link &amp; Bluetooth</string>
     <string name="more_settings">Avancerade inställningar</string>
-    <string name="more_settings_summary">Sleep timer, filtrering filer och mer</string>
+    <string name="more_settings_summary">Insomningstimer, filtrering filer och mer</string>
     <string name="more_share">Dela</string>
     <string name="music_browser_label">Musik</string>
     <string name="music_filter">Filtrera ljudfiler</string>
@@ -469,7 +486,7 @@
     <string name="notification_download_success_more">%1$d nedladdat</string>
     <string name="notification_need_wifi_for_size">Nedladdningsstorlek kräver Wi-Fi.</string>
     <string name="notification_play_summary">Se nuvarande och nästa låt, visa låttext på hemskärmen</string>
-    <string name="notification_play_title">Meddelandepanelen widget</string>
+    <string name="notification_play_title">Widget på Notifikationspanelen</string>
     <string name="notification_recommend_summary">Läs mer om nya musiktrender och appkampanjer</string>
     <string name="notification_recommend_title">Viktiga notifikationer</string>
     <string name="notification_setting">Notifikationsinställningar</string>
@@ -539,7 +556,9 @@
     <string name="preset_music_playlist">Mi Musik spellista</string>
     <string name="priority_storage">Använd externt SD-kort</string>
     <string name="priority_storage_summary">Ladda automatiskt ned till tillgängligt externt SD-kort</string>
+    <string name="privacy_desc">Integritetspolicy (obligatorisk)</string>
     <string name="privacy_policy">Integritetspolicy</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sv_SE</string>
     <string name="pro_member">PRO-medlem</string>
     <string name="project_device">Mi Telefon</string>
     <string name="prompt_grant_write_settings_permission">Tillåt att ändra systeminställningar</string>
@@ -547,6 +566,7 @@
     <string name="pulluprefreshrecyclerview_loading_finished">Laddades framgångsriskt</string>
     <string name="pulluprefreshrecyclerview_loading_running">Laddar…</string>
     <string name="queue_is_empty">Spelar kön är tom.</string>
+    <string name="ready_to_play">Nästa</string>
     <string name="recently_played">Nyligen spelade</string>
     <string name="recently_played_songs">Senast</string>
     <string name="recommended_file_size_download_in_mobile">Använd %s av mobildata för att ladda ned den här filen?</string>
@@ -634,9 +654,10 @@
     <string name="songgroup_pick_playlist">Spellistor</string>
     <string name="sort_by_name">Namn</string>
     <string name="sort_by_time">Datum</string>
-    <string name="start_to_check_new_version">Kontroll för updates…</string>
-    <string name="start_to_download">Laddar ned…</string>
+    <string name="start_to_check_new_version">Söker efter uppdateringar…</string>
+    <string name="start_to_download">Laddar ner…</string>
     <string name="start_to_play">Spela</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
     <string name="storage_usb">USB lagring</string>
@@ -679,24 +700,25 @@
     <string name="toast_download_error_by_not_login">Logga in på ditt Mi-konto och försök igen.</string>
     <string name="toast_download_error_by_vip_required">Köp Premium Sångpaket för att ladda ned denna låt.</string>
     <string name="toast_download_in_process">Nedladdning pågår</string>
-    <string name="toast_is_pro">Är du redan en PRO-medlem.</string>
+    <string name="toast_is_pro">Du är redan en PRO-medlem.</string>
     <string name="toast_new_playlist_name_no_enter">Kan inte börja en ny paragraf</string>
     <string name="toast_new_playlist_name_too_long">Spellistans namn är för långt</string>
     <string name="toast_normal_songs_for_download">Nedladdningskvalitet inställd på Standard</string>
     <string name="toast_normal_songs_for_stream">Streamingkvalitet inställd på Standard</string>
     <string name="toast_not_pro">Denna funktion är tillgänglig endast för PRO-medlemmar.</string>
-    <string name="toast_uhd_songs_for_download">Nedladdnings kvalitet inställd på Hög</string>
+    <string name="toast_uhd_songs_for_download">Nedladdningskvalitet inställd på Hög</string>
     <string name="toast_uhd_songs_for_stream">Strömmnings kvalitet inställd på Hög</string>
     <string name="ultra_high_quality">Högsta</string>
     <string name="unknown_album_name">Okänt album</string>
     <string name="unknown_artist_name">Okänd artist</string>
     <string name="unlimited_downloads">Obegränsade nedladdningar</string>
     <string name="unlimited_offline_songs">Obegränsad offline-låtar</string>
-    <string name="update_now">Uppdatera nu</string>
+    <string name="update_now">UPPDATERA NU</string>
     <string name="upgrade_music">Uppdatera Musik</string>
     <string name="upgrade_music_message">Uppdateringar är redo. Starta om för att uppdatera.</string>
     <string name="upgrading_in_backstage">Uppdaterar i bakgrunden…</string>
     <string name="user_agreement">Användaravtal</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sv_SE</string>
     <string name="version_info">Version</string>
     <string name="video_play_cellular">Enheten inte är ansluten till Wi-Fi. Använda mobildata?</string>
     <string name="video_replay_btn">Spela igen</string>

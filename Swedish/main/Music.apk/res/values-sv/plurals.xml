@@ -116,6 +116,6 @@ Oppmärkning: Fil kommer också att raderas från den här enheten."</item>
     </plurals>
     <plurals name="video_play_count">
         <item quantity="other">%1$s visningar</item>
-        <item quantity="one">%1$s Visa</item>
+        <item quantity="one">%1$s visning</item>
     </plurals>
 </resources>

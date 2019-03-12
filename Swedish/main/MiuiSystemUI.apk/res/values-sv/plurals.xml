@@ -8,6 +8,10 @@
         <item quantity="other">Nyligen öppnade, tillgänglig appar: %d. Dra upp för att ta bort genom att dra nedåt för att låsa.</item>
         <item quantity="one">Nyligen öppnade, tillgänglig app: %d. Dra upp för att ta bort genom att dra nedåt för att låsa.</item>
     </plurals>
+    <plurals name="aod_dual_togother_city">
+        <item quantity="other">" %1$stimmar %2$s"</item>
+        <item quantity="one">" %1$stimme %2$s"</item>
+    </plurals>
     <plurals name="block_record_notification_more_text">
         <item quantity="other">Döljer notifikationer från %1$s &amp; %2$d appar.</item>
         <item quantity="one">Döljer notifikationer från %1$s &amp; %2$d app.</item>
@@ -57,7 +61,7 @@
         <item quantity="one">"%d  minut"</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_time_format">
-        <item quantity="other">"%1$d  timmar %2$d\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"</item>
+        <item quantity="other">"%1$d  timmar %2$d  minuter"</item>
         <item quantity="one">"%1$d  timme %2$d  minut"</item>
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">

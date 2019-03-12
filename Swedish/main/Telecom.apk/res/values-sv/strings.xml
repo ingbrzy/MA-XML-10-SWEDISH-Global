@@ -105,6 +105,7 @@
     <string name="accessibility_wifi_signal_full">Full signalstyrka för Wi-Fi.</string>
     <string name="accessibility_wifi_security_type_none">Öppet nätverk</string>
     <string name="accessibility_wifi_security_type_secured">Säkert nätverk</string>
+    <string name="process_kernel_label">Operativsystemet Android</string>
     <string name="data_usage_uninstalled_apps">Borttagna appar</string>
     <string name="data_usage_uninstalled_apps_users">Borttagna appar och användare</string>
     <string name="tether_settings_title_usb">Internetdelning via USB</string>
@@ -394,7 +395,7 @@ uppspelningskvalitet"</string>
     <string name="change_default_dialer_dialog_title">Använd %s som standardapp för telefonsamtal?</string>
     <string name="change_default_dialer_dialog_affirmative">Använd som standardapp för samtal</string>
     <string name="change_default_dialer_dialog_negative">Avbryt</string>
-    <string name="change_default_dialer_warning_message">%s kommer kunna lokalisera och kontrollera alla aspekter av samtal. Bara appar som du litar på ska sätta som standardapp för telefonsamtal.</string>
+    <string name="change_default_dialer_warning_message">%s kommer kunna hantera och kontrollera alla aspekter av telefonsamtal. Bara appar som du litar på ska anges som standardapp för telefonsamtal.</string>
     <string name="blocked_numbers">Blockerade nummer</string>
     <string name="blocked_numbers_msg">Du kommer inte motta samtal eller SMS från blockerade nummer.</string>
     <string name="block_number">Lägg till ett nummer</string>
@@ -451,5 +452,5 @@ uppspelningskvalitet"</string>
     <string name="close">Avaktivera</string>
     <string name="callFailed_simError">SIM-korts fel</string>
     <string name="incall_error_supp_service_unknown">Tjänsten stöds inte.</string>
-    <string name="incall_error_power_off">Stäng av flygplansläge för att ringa ett samtal.</string>
+    <string name="incall_error_power_off">Avaktivera Flygplansläge för att ringa ett samtal.</string>
 </resources>

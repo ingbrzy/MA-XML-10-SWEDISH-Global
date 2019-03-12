@@ -175,6 +175,12 @@
     <string name="wifi_assistant_wifi_no_internet">Detta Wi-Fi har inte tillgång till Internet</string>
     <string name="wifi_assistant_wifi_no_internet_detail">Tryck för att visa detaljer</string>
     <string name="resolver_app_recommend_flag">Rekommenderad</string>
+    <string name="resolver_checkbox_once">En gång</string>
+    <string name="resolver_checkbox_always">Alltid</string>
+    <string name="resolver_mi_browser">Mi Browser</string>
+    <string name="resolver_recommend_options_tag">Rekommenderade alternativ</string>
+    <string name="resolver_offical_recommend">Officiell</string>
+    <string name="resolver_other_method">Andra alternativ</string>
     <string name="voice_button_action_up">Tryck för att tala</string>
     <string name="voice_button_action_down">Släpp för att söka</string>
     <string name="voice_begin">Vad söker du?</string>

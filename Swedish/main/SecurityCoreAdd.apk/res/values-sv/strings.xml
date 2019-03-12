@@ -461,4 +461,5 @@ Se till att namnet på ditt företag är korrekt. Läs och godkänn Integritetsp
     <string name="dialog_verify_fingerprint_retry">Det gick inte att tyda fingeravtrycket. Försök igen.</string>
     <string name="button_touch">Placera ditt finger på sensorn</string>
     <string name="button_input_password">Ange lösenord</string>
+    <string name="master_clear_not_available">Fabriksåterställning är begränsad av ditt företag.</string>
 </resources>

@@ -144,10 +144,6 @@
         <item quantity="other">Hoppade över %1$d foton som inte kunde renderas.</item>
         <item quantity="one">Hoppade över ett foto som inte kunde renderas.</item>
     </plurals>
-    <plurals name="file_count_format">
-        <item quantity="other">Totalt %1$d objekt</item>
-        <item quantity="one">Totalt %1$d objekt</item>
-    </plurals>
     <plurals name="number_of_images_and_videos_to_upload">
         <item quantity="other">%1$d objekt väntar på säkerhetskopiering</item>
         <item quantity="one">1 objekt väntar på säkerhetskopiering</item>
@@ -271,5 +267,13 @@
     <plurals name="sync_total_count">
         <item quantity="other">%d objekt</item>
         <item quantity="one">%d objekt</item>
+    </plurals>
+    <plurals name="photo_count_format">
+        <item quantity="other">Totalt %1$d objekt</item>
+        <item quantity="one">Totalt %1$d objekt</item>
+    </plurals>
+    <plurals name="video_count_format">
+        <item quantity="other">%1$d filer</item>
+        <item quantity="one">%1$d fil</item>
     </plurals>
 </resources>

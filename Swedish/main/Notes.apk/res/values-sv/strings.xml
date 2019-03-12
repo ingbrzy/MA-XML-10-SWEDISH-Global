@@ -32,9 +32,9 @@
     <string name="cloud_trash_bin_title">Radera anteckningar i Mi Cloud</string>
     <string name="cta_confirm_cancel">Tillåt inte</string>
     <string name="cta_confirm_ok">Tillåt</string>
-    <string name="cta_dialog_message">Anteckningar behöver behörighet för att kunna ansluta till internet, spela in ljud, få åtkomst till dina kontakter och för att fungera normalt. Tillåter du behörigheten?</string>
+    <string name="cta_dialog_message">Anteckningar behöver kunna ansluta till internet, spela in ljud, få åtkomst till dina kontakter för att fungera normalt. Tillåt?</string>
     <string name="cta_dialog_title">Behörigheter krävs</string>
-    <string name="cta_reminder">Anteckningar behöver behörighet att ansluta till internet, spela in ljud, och åtkomst till dina kontakter att fungera normalt. Tillåta?</string>
+    <string name="cta_reminder">Anteckningar behöver behörighet att ansluta till internet, spela in ljud, och åtkomst till dina kontakter att fungera normalt. Tillåt?</string>
     <string name="date_time_picker_alarm_reminder">Alarm</string>
     <string name="date_time_picker_dialog_title">Ange datum och tid</string>
     <string name="date_time_picker_has_not_set_alarm">Larm har inte angetts</string>
@@ -118,6 +118,7 @@
     <string name="menu_title_select_folder">Välj mapp</string>
     <string name="menu_unhide">Visa</string>
     <string name="menu_unstick">Lossa</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Inte nu</string>
     <string name="note_description_content">Appen Notes är ett utmärkt verktyg för inspelning av dina idéer. Den har inbyggda påminnelser och synkroniserar dina objekt till Mi Cloud så att du kan komma åt dem var som helst, när som helst. Se till att du inte kan använda dessa funktioner innan du tar bort appen.</string>
     <string name="note_description_title">Om Anteckningar</string>
@@ -129,8 +130,13 @@
     <string name="note_sort_way">Välj hur du vill sortera dina anteckningar</string>
     <string name="notealert_enter">Öppna anteckning</string>
     <string name="notealert_ok">Avfärda</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Anteckningspåminnelse</string>
     <string name="permdesc_accessNote">Skadliga appar kan använda detta för att få tillgång till personlig data.</string>
+    <string name="permission_intro_contact">För att göra anteckningar under samtal</string>
+    <string name="permission_intro_microphone">För att spela in röstanteckningar</string>
+    <string name="permission_intro_phone">För att göra anteckningar under samtal</string>
+    <string name="permission_intro_storage">För att spara anteckningar och bifogade filer</string>
     <string name="permlab_accessNote">Åtkomst till anteckningar</string>
     <string name="pref_desc_skip_confirm_for_quick_delete">Fråga inte om bekräftelse när du tar bort en anteckning med en gest</string>
     <string name="pref_title_cloud_trash_bin">Borttagna anteckningar i Mi moln</string>
@@ -213,6 +219,14 @@
     <string name="toast_reach_text_limit_truncate">Anteckningen är för lång. En del av texten har klippts bort från slutet.</string>
     <string name="toast_refuse_to_record_when_in_call">Kan inte använda den här funktionen under samtal</string>
     <string name="toast_refuse_to_record_when_in_multi_window">Kan inte använda den här funktionen med delad skärm</string>
+    <string name="toast_refuse_to_use_contact">"Behörighet till Kontakter är begränsad.
+Tillåt Anteckningar att läsa dina kontakter och hitta konton på enheten."</string>
+    <string name="toast_refuse_to_use_external_storage">"Behörighet till Lagringsutrymmet är begränsad.
+Tillåt Anteckningar att läsa innehållet på SD-kortet."</string>
+    <string name="toast_refuse_to_use_phone_state">"Behörighet till Telefon är begränsad.
+Tillåt Anteckningar att läsa telefonstatus och identitet."</string>
+    <string name="toast_refuse_to_use_record_audio">"Behörighet till Mikrofon är begränsad.
+Tillåt Anteckningar att spela in ljud."</string>
     <string name="toolbar_check_description">Lägg till checkbox</string>
     <string name="toolbar_delete_description">Ta bort anteckningen</string>
     <string name="toolbar_gallery_description">Lägg till bild</string>

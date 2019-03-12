@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="korea_permission_groups_descriptions">
+        <item>För identifiering av synkroniserade objekt</item>
+        <item>För att synkronisera meddelanden</item>
+        <item>För att synkronisera kontakter</item>
+        <item>För att synkronisera kalenderhändelser</item>
+        <item>För att synkronisera objekt med tjänster som använder lagringsutrymmet</item>
+    </string-array>
+    <string-array name="korea_permission_groups_names">
+        <item>Telefon</item>
+        <item>SMS</item>
+        <item>Kontakter</item>
+        <item>Kalender</item>
+        <item>Lagringsutrymme</item>
+    </string-array>
     <string-array name="micloud_entrance_titleArray">
         <item>Synkronisera appdata</item>
         <item>Säkerhetskopiera Hemskärmens utseende</item>
