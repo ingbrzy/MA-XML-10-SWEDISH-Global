@@ -30,6 +30,7 @@
     <string name="sdcard_not_present">Det finns inget SD-kort.</string>
     <string name="only_primary_user_allowed">Endast ägaren av den här enheten kan installera certifikat.</string>
     <string name="credential_usage_label">Användning av användaruppgifter:</string>
+    <string name="certificate_capabilities_warning">Obs! Certifikatets utfärdare kan granska all trafik till och från enheten.</string>
     <string name="wifi_title">Wi-Fi-profil</string>
     <string name="wifi_detail_title">Information för %s</string>
     <string name="wifi_detail_label">Information</string>

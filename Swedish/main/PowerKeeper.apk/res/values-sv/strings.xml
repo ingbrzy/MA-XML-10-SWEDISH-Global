@@ -38,10 +38,17 @@
     <string name="vip_feedback_enable">Aktivera VIP feedback</string>
     <string name="extreme_power_config_mode_category">Extrem Batterisparare</string>
     <string name="extreme_power_config_mode_title">Extrem Batterisparare</string>
+    <string name="notification_open_extreme_mode_text">Extrem Batterisparare aktiverad</string>
+    <string name="extreme_power_settings_title">inställningar</string>
+    <string name="notification_exit_extreme_mode_title">Extrem Batterisparare avaktiverad</string>
+    <string name="notification_exit_extreme_mode_text">Batteriet är laddad mer än %s</string>
+    <string name="extreme_power_config_mode_summary">Extrem Batterisparare begränsar bakgrundsaktivitet och stoppar synkronisering.</string>
     <string name="extreme_power_config_mode_desc"><li>Extrem Batterisparare begränsar bakgrundsaktivitet för en app efter att du lämnat den och gått tillbaka till Hemskärmen. Denna app kommer inte sända notifikationer eller motta uppdateringar.</li>"
 "<li>Lås den i Senast använda appar eller lägg till den som bakgrundsundantag nedan om du vill att en app ska köras i bakgrunden. Upp till 4 appar kan köras i bakgrunden när Extrem Batterisparare är aktiverad.</li>"
 "<li>Extrem Batterisparare avaktiverar automatiskt NFC. Du kan ändra detta i Inställningar.</li>"
 "<li>För att se till att du kan använda alla funktioner på din enhet normalt kommer Extrem Batterisparare automatiskt avaktiveras när batterinivån är över 30%.</li></string>
+    <string name="extreme_add_white_list_title">Bakgrundsundantag</string>
+    <string name="extreme_add_white_list_summary">Lägg till upp till 4 appar</string>
     <string name="empty_title_apps_container_list">Inga appar</string>
     <string name="hints_loading_text">Bara en sekund…</string>
     <string name="config_mode_title">Inställningar för bakgrundsaktivitet</string>
@@ -101,13 +108,6 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="atrace_start">Spelar in atrace-logg…</string>
     <string name="atrace_saving">Sparar atrace-logg…</string>
     <string name="atrace_saved">Sparad</string>
-    <string name="notification_open_extreme_mode_text">Extrem Batterisparare aktiverad</string>
-    <string name="extreme_power_settings_title">inställningar</string>
-    <string name="notification_exit_extreme_mode_title">Extrem Batterisparare avaktiverad</string>
-    <string name="notification_exit_extreme_mode_text">Batteriet är laddad mer än %s</string>
-    <string name="extreme_power_config_mode_summary">Extrem Batterisparare begränsar bakgrundsaktivitet och stoppar synkronisering.</string>
-    <string name="extreme_add_white_list_title">Bakgrundsundantag</string>
-    <string name="extreme_add_white_list_summary">Lägg till upp till 4 appar</string>
     <string name="adaptive_battery_title">Använd adaptivt batteri</string>
     <string name="adaptive_battery_summary">Begränsa batteri för appar som du inte använder så ofta</string>
 </resources>

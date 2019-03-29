@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="action_add_to_workspace">Lägg till i Arbetsutrymmet</string>
     <string name="activity_not_found">Appen är inte installerad på din enhet</string>
     <string name="add_screen">Lägg till skärm</string>
@@ -114,6 +115,7 @@
     <string name="edit_mode_group_error_full">Inte tillräckligt med utrymme</string>
     <string name="edit_mode_group_error_in_folder">Stäng mappen innan ikonerna grupperas</string>
     <string name="edit_mode_group_error_one_folder">Kan inte duplicera en mapp med valda ikoner</string>
+    <string name="edit_mode_top_menu_finish">Klar</string>
     <string name="edit_mode_uninstall">Avinstallera</string>
     <string name="editing_add_widget_tips">Redigera widgetar</string>
     <string name="editing_mode_enter_tip_text">Nyp för att redigera Hemskärmen</string>
@@ -215,6 +217,7 @@
     <string name="menu_default_screen_preview">Ställ in standardskärm</string>
     <string name="menu_edit">Ändra Hemskärmen</string>
     <string name="menu_exit_scene">Avsluta Mi Space</string>
+    <string name="menu_finish">Klar</string>
     <string name="menu_item_add_item">Placera på Hemskärmen</string>
     <string name="menu_launcher_setting">Launcherinställningar</string>
     <string name="menu_lock">Lås Hemskärmens utseende</string>
@@ -352,15 +355,15 @@
     <string name="widget_gadget_player">Musik</string>
     <string name="widget_global_search">Sök</string>
     <string name="widget_quick_function">Snabbfunktioner</string>
+    <string name="widgets_preview_title">Lägg till widget</string>
     <string name="home_gesture_content_center">Innehållscenter</string>
     <string name="home_gesture_global_search">Sök</string>
     <string name="home_gesture_no_action">Inga</string>
     <string name="home_gesture_notification_bar">Notifikationer</string>
     <string name="home_pull_down_action">Svep nedåt på Hemskärmen</string>
     <string name="home_slide_up_action">Svep uppåt på Hemskärmen</string>
-    <string name="launcher_pull_down_title">Svep uppåt på Hemskärmen</string>
-    <string name="launcher_slide_up_title">Svep nedåt på Hemskärmen</string>
-    <string name="menu_finish">Klar</string>
-    <string name="minus_one_screen">minus en skärm</string>
-    <string name="widgets_preview_title">Lägg till widget</string>
+    <string name="launcher_pull_down_title">Svep nedåt på Hemskärmen</string>
+    <string name="launcher_slide_up_title">Svep uppåt på Hemskärmen</string>
+    <string name="launcher_sliding_up_gesture">Svep upp på Hemskärmen för att söka</string>
+    <string name="minus_one_screen">App vault</string>
 </resources>

@@ -29,6 +29,8 @@
     <string name="already_updated">Uppdaterad</string>
     <string name="app_label">Meddelanden</string>
     <string name="app_name">Enheter</string>
+    <string name="application_list_title">Mini app</string>
+    <string name="attach_group_chat">Gruppchatt</string>
     <string name="attach_image">Bilder</string>
     <string name="attach_rcs_file">Fil</string>
     <string name="attach_rcs_location">Lokalisering</string>
@@ -40,6 +42,7 @@
     <string name="attach_take_photo">Ta bild</string>
     <string name="attach_transaction">Överför pengar</string>
     <string name="attach_video">Video</string>
+    <string name="attach_video_call">Videosamtal</string>
     <string name="audio_download_failed">Kunde ej ladda ner ljud</string>
     <string name="audio_message_expired">Detta röstmeddelande har löpt ut.</string>
     <string name="audio_message_mx_offline">Det gick inte att hämta ljud. Mi meddelande är uppkopplad eller inte är tillgänglig.</string>
@@ -73,6 +76,7 @@
     <string name="button_unfold">Veckla ut</string>
     <string name="call_sender">Ring sändaren</string>
     <string name="can_not_send_by_rcs">Kan inte använda China Mobile Messaging</string>
+    <string name="can_not_view_group_chat_stranger">Kan inte visa detaljerna för främlingar.</string>
     <string name="cannot_add_picture_and_video">Kan inte lägga video och foton på en bild.</string>
     <string name="cannot_add_slide_anymore">Kan inte lägga till fler bilder.</string>
     <string name="cannot_forward_drm_obj">Det DRM-skyddade objektet i meddelandet kunde inte vidarebefordras.</string>
@@ -130,6 +134,7 @@
     <string name="confirm_restore_positive">Återställ</string>
     <string name="confirm_restore_title">Återställ meddelande</string>
     <string name="confirm_send_mms">En av dina mottagare inkluderar en E-postadress. Detta meddelande kommer att skickas som ett MMS vilket kan resultera i debutering från din operatör.</string>
+    <string name="contact_not_exists">Den här personen är inte i dina kontakter.</string>
     <string name="context_menu_add_calendar">Lägg till i kalender</string>
     <string name="context_menu_add_contact">Lägg till i kontakter</string>
     <string name="context_menu_add_to_browser_favorite">Lägg till i bokmärken</string>
@@ -224,6 +229,7 @@
     <string name="file_size">Storlek:</string>
     <string name="file_title">Namn:</string>
     <string name="file_width_height">Storlek:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Nytt meddelande</string>
     <string name="forward_from">Vidarebefordra från:</string>
     <string name="forward_message_select_title">Vidarebefordra meddelande</string>
@@ -245,6 +251,7 @@
     <string name="group_resend_message">Skicka (%d) igen</string>
     <string name="group_view_settings_disolved">Det går inte att se objekt. Denna gruppkonversationen har tagits bort.</string>
     <string name="group_view_settings_not_memeber">Det går inte att se objekt. Du inte är medlem i denna gruppkonversation.</string>
+    <string name="groupchat_list_title">Gruppkonversationer</string>
     <string name="guild_add_attachments">Tryck för att lägga till uttryckssymboler och annat innehåll</string>
     <string name="guild_add_recipients">Tryck för att lägga till mottagare från kontakter</string>
     <string name="guild_msim_switcher">Tryck för att byta SIM-kort</string>
@@ -287,6 +294,7 @@
     <string name="menu_edit">Redigera</string>
     <string name="menu_forward">Vidarebefordra</string>
     <string name="menu_lock">Lägg till favoriter</string>
+    <string name="menu_make_call">Samtal</string>
     <string name="menu_mark">Markera</string>
     <string name="menu_more">Mer</string>
     <string name="menu_new_contact">Ny kontakt</string>
@@ -297,6 +305,7 @@
     <string name="menu_traffic_destination">Destination</string>
     <string name="menu_unlock">Ta bort från favoriter</string>
     <string name="menu_view_contact">Visa kontakt</string>
+    <string name="menu_view_group_info">Gruppinfo</string>
     <string name="message_class_label">Meddelandeklass:0020</string>
     <string name="message_contact">Kontakt:</string>
     <string name="message_details_title">Meddelandedetaljer</string>
@@ -408,6 +417,7 @@
     <string name="no_block_button_msg">Ta bort blockering</string>
     <string name="no_conversations">Inga konversationer</string>
     <string name="no_delivery_report">Ingen leveransrapport</string>
+    <string name="no_network_description">Det gick inte ansluta till nätverket. Kontrollera dina nätverksinställningar och försök igen.</string>
     <string name="no_subject">(Inget ämne)</string>
     <string name="no_subject_view">(Inget ämne)</string>
     <string name="non_english_subject_limit">13 tecken</string>
@@ -530,6 +540,9 @@
     <string name="prvate_contact">Privata kontakter</string>
     <string name="quick_reply">Svara</string>
     <string name="rate_limit_surpassed">OK</string>
+    <string name="rcs_auto_resend_as_sms_remind_change">Ändra</string>
+    <string name="rcs_auto_resend_as_sms_remind_desp">När nätverkssignalen är svag kan textdelen av ett meddelande (upp till 900 byte) konverteras och skickas som SMS. Du kan ändra detta i Inställningar.</string>
+    <string name="rcs_auto_resend_as_sms_remind_title">Konvertera till SMS</string>
     <string name="rcs_auto_resend_mms">Konvertera till MMS</string>
     <string name="rcs_auto_resend_sms">Konvertera till SMS</string>
     <string name="rcs_auto_resume">Återupptar avbrutna överföringar automatiskt</string>
@@ -540,10 +553,12 @@
     <string name="rcs_forward_faild">Kunde inte vidarebefordra</string>
     <string name="rcs_forward_successful">Vidarebefordrat</string>
     <string name="rcs_group_notification_invitation">Inbjudan till gruppkonversation</string>
+    <string name="rcs_hello_from_pc">Logga in på Fetion på din dator för att överföra filer.</string>
     <string name="rcs_message">China Mobile Messaging</string>
     <string name="rcs_message_disable">Kan inte visa det här meddelandet i det Sekundära utrymmet</string>
     <string name="rcs_msg">China Mobile Messaging</string>
     <string name="rcs_not_online">Kan inte använda China Mobile Messaging. Kontrollera dina nätverksinställningar och försök igen.</string>
+    <string name="rcs_offline">Inte inloggad på UC. Vänta en minut eller två och försök igen.</string>
     <string name="rcs_offline_hint">China Mobile Messaging är offline. Det gick inte att vidarebefordra detta meddelande.</string>
     <string name="rcs_recipient_type_contact">Vidarebefordra till kontakter</string>
     <string name="rcs_recipient_type_group">Vidarebefordra till gruppkonversation</string>
@@ -668,6 +683,7 @@
     <string name="send_signature_confirm_dialog_title">Skicka meddelande</string>
     <string name="send_sms">Skicka meddelande</string>
     <string name="send_to">Till:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Skickades kl: %1s</string>
     <string name="sent_label">"Skickat: "</string>
     <string name="service_message_not_found">Meddelande har upphört att gälla eller är otillgängligt</string>

@@ -104,7 +104,7 @@
     <string name="item_title_currency">Valuta</string>
     <string name="item_title_dress_size">Klädstorlek</string>
     <string name="item_title_length_conversion">Längd</string>
-    <string name="item_title_mortgage">Lån</string>
+    <string name="item_title_mortgage">Bostadslån</string>
     <string name="item_title_scientific_calculator">Vetenskaplig</string>
     <string name="item_title_tax">Skatter</string>
     <string name="item_title_temprature_conversion">Temperatur</string>
@@ -136,9 +136,7 @@
     <string name="loan_interest_rate">Ränta</string>
     <string name="loan_pay_years">Låneperiod</string>
     <string name="loan_payback_way">Återbetalning</string>
-    <string name="loan_repayment_detail">Detaljerad återbetalning</string>
     <string name="loan_repayment_detail_loading">Laddar detaljerad återbetalning…</string>
-    <string name="loan_repayment_detail_unit">Detaljerad återbetalning (CNY)</string>
     <string name="loan_unit">(×10K)</string>
     <string name="medical_treatment">Medicinsk behandling</string>
     <string name="menuDesc">meny</string>
@@ -166,7 +164,7 @@
     <string name="mortgage_interest_rate">Kommersiella intressen</string>
     <string name="mortgage_item_repayment">Återbetalningsmetod</string>
     <string name="mortgage_item_start_time">Startdatum</string>
-    <string name="mortgage_item_years">Inteckningsperiod</string>
+    <string name="mortgage_item_years">Loan tenure</string>
     <string name="mortgage_loans_amount">Lånebelopp</string>
     <string name="mortgage_provident_found_interest_rate">Fondens ränte</string>
     <string name="mortgage_repayment_amount">Återbetalningsbelopp</string>
@@ -594,8 +592,11 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Det gick inte ansluta till Nedladdningar. Kontrollera om denna app har alla nödvändiga behörigheter i inställningarna > Installerade appar.</string>
     <string name="xiaomi_external_storage_unavailable">Lagringsutrymmet är inte tillgängligt. Kontrollera ditt SD-kort.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_update_dialog_message">"Introducerar version %1$s
 Size: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerar version %1$s

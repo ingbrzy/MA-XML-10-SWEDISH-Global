@@ -73,8 +73,8 @@
         <item>Kuala Lumpur</item>
     </string-array>
     <string-array name="minute_rain_array">
-        <item>Tung</item>
-        <item>Måttlig</item>
+        <item>Kraftigt</item>
+        <item>Måttligt</item>
         <item>Lätt</item>
     </string-array>
     <string-array name="pollution_level_desc_arr">

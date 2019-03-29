@@ -98,7 +98,7 @@
     <string name="got_it">Jag förstår</string>
     <string name="gps">Navigera</string>
     <string name="import_contact">Importera kontakt</string>
-    <string name="impunity_declaration_content">Scanner behöver använda din kamera och bearbeta bilderna du tar medan du använder app. Använd inte skannern för att ta bilder av objekt som innehåller dina personuppgifter. Genom att trycka på ”Godkänn”, godkänner du våra &lt;Teckensnittfärg = \"# ff32b4ff\">&lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\" style=\"color:#ff32b4ff;\">Sekretesspolicy&lt;/a>&lt;/font> och låt skannern ansluta till internet.</string>
+    <string name="impunity_declaration_content">Scanner behöver använda din kamera och bearbeta bilderna du tar medan du använder app. Använd inte skannern för att ta bilder av objekt som innehåller dina personuppgifter. Genom att trycka på ”Godkänn”, godkänner du våra &lt;font color=\"#ff32b4ff\">&lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\" style=\"color:#ff32b4ff;\">Sekretesspolicy&lt;/a>&lt;/font> och låt skannern ansluta till internet.</string>
     <string name="impunity_declaration_negative_text">Avsluta</string>
     <string name="impunity_declaration_title">Integritetspolicy</string>
     <string name="label_choose_picture">Välj bild</string>

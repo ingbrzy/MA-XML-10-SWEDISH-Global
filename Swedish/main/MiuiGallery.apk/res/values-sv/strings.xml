@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="status_bar_notification_info_overflow">>999</string>
-    <string name="confirm_recommandation_face_is">&lt;Data> Sure this is &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Personen kommer att flyttas till \"%2$s\" album. &lt;/Data></string>
-    <string name="confirm_recommandation_face_not">&lt;Data> Är du säker på att detta inter &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data></string>
-    <string name="confirm_recommandation_multiple_faces_are">&lt;Data> Är du säker på att dessa är &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Personerna kommer att flyttas till \"%2$s\" album. &lt;/Data></string>
-    <string name="confirm_recommandation_multiple_faces_not">&lt;Data> Är du säker på att detta inter &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data></string>
     <string name="accept">Acceptera</string>
     <string name="accept_or_deny">%1$s delade albumet %2$s med dig.</string>
     <string name="actionbar_overflow_item_desc">Fler alternativ</string>
@@ -237,6 +232,9 @@
     <string name="cleaner_screen_shot_action">Rensa</string>
     <string name="cleaner_screen_shot_description">Ta bort skärmdumparna du inte längre behöver.</string>
     <string name="cleaner_screen_shot_title">Ta bort skärmdumpar</string>
+    <string name="cleaner_similar_action">Ta bort nu</string>
+    <string name="cleaner_similar_description">Ta bort dubbletter av bilder</string>
+    <string name="cleaner_similar_title">Dubbletter av bilder</string>
     <string name="cleaner_slim_action">Starta optimering</string>
     <string name="cleaner_slim_description">Fortsätt optimera bilder på din enhet. Originalfiler kommer lagras i Mi Cloud.</string>
     <string name="cleaner_slim_start">Optimera</string>
@@ -244,6 +242,10 @@
     <string name="cleaner_space_description">kan frigöras</string>
     <string name="cleaner_space_detail_description">Rensa bland bilder i ditt Galleri för att frigöra mer lagringsutrymme</string>
     <string name="cleaner_stop_scan">Sluta skanna</string>
+    <string name="cleaner_video_action">Ta bort nu</string>
+    <string name="cleaner_video_description">Ta bort videoklipp som tar upp lagringsutrymme</string>
+    <string name="cleaner_video_pick_delete_selected">Ta bort valda videor</string>
+    <string name="cleaner_video_title">Ta bort videor</string>
     <string name="click_download_gif">Tryck för att ladda ner GIF</string>
     <string name="click_top_right">Tryck på ikonen</string>
     <string name="close">Stäng</string>
@@ -306,6 +308,10 @@
     <string name="confirm_merge_face_albums">&lt;Data> Slå ihop detta album med %s? &lt;/Data></string>
     <string name="confirm_merge_many_face_albums">&lt;Data> Slå ihop dessa album med %s? &lt;/Data></string>
     <string name="confirm_not_face">Inga resultat</string>
+    <string name="confirm_recommandation_face_is">&lt;Data> Sure this is &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Personen kommer att flyttas till \"%2$s\" album. &lt;/Data></string>
+    <string name="confirm_recommandation_face_not">&lt;Data> Är du säker på att detta inteär &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data></string>
+    <string name="confirm_recommandation_multiple_faces_are">&lt;Data> Är du säker på att dessa är &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Personerna kommer att flyttas till \"%2$s\" album. &lt;/Data></string>
+    <string name="confirm_recommandation_multiple_faces_not">&lt;Data> Är du säker på att detta inteär &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data></string>
     <string name="contact_tip">Kontakt</string>
     <string name="context_menu_add_contact">Lägg till i kontakter</string>
     <string name="context_menu_copy">Kopiera</string>
@@ -476,7 +482,7 @@
     <string name="ext_sdcard_permission_request_title">Tillåt att Galleri får tillgång till SD-kort</string>
     <string name="ext_sdcard_request_failed_button_text">Okej</string>
     <string name="ext_sdcard_request_succeed_toast_text">Du är redo att rocka!</string>
-    <string name="face_album_empty">"Inte tillräckligt med bilder för att känna igen personer.
+    <string name="face_album_empty">"Inte tillräckligt med bilder för att känna igen personer.r
 Ta fler bilder av dina vänner!"</string>
     <string name="face_album_empty_syncing">Synkroniserar data, återkom om en stund</string>
     <string name="face_album_empty_syncing_when_connect_wifi">Anslut till nätverk för att synkronisera information</string>
@@ -493,6 +499,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="face_name_edit">Redigera</string>
     <string name="face_name_input">Ange namn</string>
     <string name="face_recommend">Rekommendationer</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunde inte slutföra åtgärden</string>
     <string name="fail_to_pick_email">Ogiltig e-postadress</string>
     <string name="fail_to_sync_album">Kunde inte synkronisera album. Kolla din datakoppling och försök igen.</string>
@@ -503,6 +510,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="feature_guidance_photo_effects">"Nya foto effects
 are tillgänglig"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nya effekter finns</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_bw">B&amp;W</string>
     <string name="filter_bi_dusk">Skymning</string>
     <string name="filter_bi_lilt">Glad melodi</string>
@@ -576,6 +584,7 @@ are tillgänglig"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Ange</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri behöver tillgång till 
 %s
  för att fungera normalt, tryck på \"Tillämpa\" för att gå till Behörigheter."</string>
@@ -829,6 +838,7 @@ för att göra galleriet personligt"</string>
     <string name="people_mark_mode_title_no_mark_name">Välj en person</string>
     <string name="people_page_label">Människor</string>
     <string name="people_page_unname">Namnlös</string>
+    <string name="percent_sign">%</string>
     <string name="permissin_contract_desc">För att namnge människor på foton</string>
     <string name="permission_contract_name">Kontakter</string>
     <string name="permission_optional_category">Valfria behörigheter</string>
@@ -1021,6 +1031,16 @@ för att göra galleriet personligt"</string>
     <string name="scan_barcode_guide">För att få albumets QR-kod, tryck på Dela-ikonen.</string>
     <string name="scan_barcode_to_join">Scanna QR-kod för att lägga till album</string>
     <string name="scan_qr_code_buttom_text">Scanna QR-koden för att titta på albumet</string>
+    <string name="screen_doodle_talkback_size">Linjebredd Doodle</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
+    <string name="screen_editor_finish">Klar</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
+    <string name="screen_save_dialog_btn_cancel">Avbryt</string>
+    <string name="screen_save_dialog_btn_delete">Ta bort skärmdump</string>
+    <string name="screen_save_dialog_btn_save">Spara till Galleri</string>
     <string name="search_backup_full_screen">Aktivera synkronisering med Mi Cloud för att hitta mer objekt och personer</string>
     <string name="search_backup_now">Aktivera</string>
     <string name="search_backup_sub_title">Aktivera för att hitta fler bilder</string>
@@ -1075,6 +1095,9 @@ för att göra galleriet personligt"</string>
     <string name="search_title_recommend">Rekommenderad</string>
     <string name="search_title_suggestion">Förslag</string>
     <string name="search_title_tag">Objekt</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Söker efter projektor…</string>
     <string name="secret_album_card_description">Bästa platsen för alla dina små hemligheter</string>
     <string name="secret_album_card_title">Försök dolda album</string>
@@ -1131,6 +1154,7 @@ för att göra galleriet personligt"</string>
     <string name="show_hidden_album_title">Visa dolda album</string>
     <string name="show_in_other_albums_disable_toast_long_press_menu">Flyttat, gå till andra album för att visa</string>
     <string name="show_in_other_albums_enable_toast_long_press_menu">Flyttat, gå till Album för att visa</string>
+    <string name="similar_keep_clear">Behåll de bästa bilderna</string>
     <string name="slideshow_interval_dialog_title">Ange intervall</string>
     <string name="slideshow_interval_invalid">Intervall måste vara mellan 3 och 3600 sekunder</string>
     <string name="slideshow_interval_title">Visa varje bild i bildspelet i</string>
@@ -1151,6 +1175,7 @@ för att göra galleriet personligt"</string>
     <string name="slim_stop">Avsluta optimering</string>
     <string name="start_debug">Debug Galleri</string>
     <string name="start_to_use_face_albumset">Sortera efter personer</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="sticker_ad">Broschyrer</string>
     <string name="sticker_baibai">Krukväxter</string>
     <string name="sticker_beard">Barberare</string>
@@ -1167,6 +1192,10 @@ för att göra galleriet personligt"</string>
     <string name="sticker_spring">Vår</string>
     <string name="sticker_summer">Sommar</string>
     <string name="sticker_words">Ord</string>
+    <string name="storage_description_primary">Internt lagringsutrymme</string>
+    <string name="storage_description_sdcard">SD-kort</string>
+    <string name="storage_description_usb">USB-lagring</string>
+    <string name="storage_description_xspace">Data för Dubbelappar</string>
     <string name="storage_no_space">Inte tillräckligt med utrymme</string>
     <string name="story_back_stop_download">Tryck igen för att stoppa nedladdningen</string>
     <string name="story_cancel_download">Avbryt</string>
@@ -1229,6 +1258,7 @@ för att göra galleriet personligt"</string>
     <string name="to_enable_sync_dialog_message">Starta synk först</string>
     <string name="to_enable_sync_dialog_positive_button_text">Gå till Inställningar</string>
     <string name="to_enable_sync_dialog_title">Synk</string>
+    <string name="today">Idag</string>
     <string name="too_many_recipients">Kan inte lägga till mer än %2$s mottagare (du har för tillfället lagt till %1$s).</string>
     <string name="trash_bin">Papperskorg</string>
     <string name="trash_bin_summary">Bläddra bland säkerhetskopierade bilder som har tagits bort nyligen</string>
@@ -1365,64 +1395,6 @@ för att göra galleriet personligt"</string>
     <string name="who_is_this">Vem är det?</string>
     <string name="xiaomi_account_not_exists_toast">Mi konto finns inte</string>
     <string name="yes">Ja</string>
+    <string name="yesterday">Igår</string>
     <string name="you_are">Du är barnets</string>
-    <string name="cleaner_similar_action">Ta bort nu</string>
-    <string name="cleaner_similar_description">Ta bort dubbletter av bilder</string>
-    <string name="cleaner_similar_title">Dubbletter av bilder</string>
-    <string name="cleaner_video_action">Ta bort nu</string>
-    <string name="cleaner_video_description">Ta bort videoklipp som tar upp lagringsutrymme</string>
-    <string name="cleaner_video_pick_delete_selected">Ta bort valda videor</string>
-    <string name="cleaner_video_title">Ta bort videor</string>
-    <string name="photomovie_audio_custom">Lokalt</string>
-    <string name="photomovie_audio_default">Minne</string>
-    <string name="photomovie_audio_kawaii">Romantisk</string>
-    <string name="photomovie_audio_light">Ballad</string>
-    <string name="photomovie_audio_linear">Rock</string>
-    <string name="photomovie_audio_none">Ingen</string>
-    <string name="photomovie_audio_soft">Ukulele</string>
-    <string name="photomovie_audio_sport">Techno</string>
-    <string name="photomovie_cancel_download">Avbryt</string>
-    <string name="photomovie_delete_disable">Du behöver minst 3 bilder för att skapar ett klipp.</string>
-    <string name="photomovie_download">Ladda ned</string>
-    <string name="photomovie_download_failed">Det gick inte att ladda ner</string>
-    <string name="photomovie_download_failed_for_notwork">Det gick inte att. Anslut till nätverket och försök igen.</string>
-    <string name="photomovie_download_without_wifi_msg">Att använda mobildataanslutning för att hämta filer kommer att öka din mobildataanvändning. Om du går över din datagräns, kan din operatör debiterar dig extra avgifter.</string>
-    <string name="photomovie_download_without_wifi_title">Varning för dataanvändning</string>
-    <string name="photomovie_exit_cancel">Avbryt</string>
-    <string name="photomovie_exit_confirm">Avsluta</string>
-    <string name="photomovie_exit_content">Alla ändringar kommer försvinna. Avsluta nu?</string>
-    <string name="photomovie_exit_title">Avsluta</string>
-    <string name="photomovie_item_name">Klipp</string>
-    <string name="photomovie_return">Bakåt</string>
-    <string name="photomovie_save">Spara</string>
-    <string name="photomovie_save_failed">Det gick inte att spara</string>
-    <string name="photomovie_save_successfully">Sparad framgångsrikt</string>
-    <string name="photomovie_saving">Skapar klipp…</string>
-    <string name="photomovie_tab_edit">Redigera</string>
-    <string name="photomovie_tab_music">Musik</string>
-    <string name="photomovie_tab_template">Mall</string>
-    <string name="photomovie_template_default">Långsam</string>
-    <string name="photomovie_template_kawaii">Charms</string>
-    <string name="photomovie_template_light">Vind</string>
-    <string name="photomovie_template_linear">Roadtrip</string>
-    <string name="photomovie_template_soft">Ungdom</string>
-    <string name="photomovie_template_sport">Vigor</string>
-    <string name="refocus_discard_confirm_message">Spara ändringar?</string>
-    <string name="refocus_discard_negative_btn">Ta bort</string>
-    <string name="refocus_discard_positive_btn">Spara</string>
-    <string name="refocus_photo_not_support">Kan inte göra göra bilden oskarp</string>
-    <string name="refocus_save_cancel">Avbryt</string>
-    <string name="refocus_save_title">Välj format</string>
-    <string name="refocus_save_to_photo">Spara som bild</string>
-    <string name="refocus_save_to_video">Spara som video</string>
-    <string name="refocus_saving">Sparar…</string>
-    <string name="refocus_title">Oskärpa</string>
-    <string name="refocus_type_static">Nivå för oskärpa</string>
-    <string name="refocus_type_video">Ljusspår</string>
-    <string name="screen_doodle_talkback_size">Linjebredd Doodle</string>
-    <string name="screen_editor_finish">Klar</string>
-    <string name="screen_save_dialog_btn_cancel">Avbryt</string>
-    <string name="screen_save_dialog_btn_delete">Ta bort skärmdump</string>
-    <string name="screen_save_dialog_btn_save">Spara till Galleri</string>
-    <string name="similar_keep_clear">Behåll de bästa bilderna</string>
 </resources>

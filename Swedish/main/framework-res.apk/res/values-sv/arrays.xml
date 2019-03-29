@@ -56,7 +56,7 @@
         <item>Om du vill ringa samtal och skicka meddelanden via Wi-Fi ber du först operatören att konfigurera tjänsten. Därefter kan du aktivera Wi-Fi-samtal på nytt från Inställningar. (Felkod: %1$s)</item>
     </string-array>
     <string-array name="wfcOperatorErrorNotificationMessages">
-        <item>Registrera dig hos operatören (felkod: %1$s)</item>
+        <item>Följande fel uppstod när Wi-Fi-samtal skulle registreras hos operatören: %1$s</item>
     </string-array>
     <string-array name="wfcSpnFormats">
         <item>%s</item>

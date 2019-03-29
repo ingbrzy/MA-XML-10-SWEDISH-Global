@@ -84,6 +84,10 @@
         <item quantity="other">+%d</item>
         <item quantity="one">+1</item>
     </plurals>
+    <plurals name="repeat_custom_prompt">
+        <item quantity="other">var %1$s , %2$s</item>
+        <item quantity="one">varje %1$s , %2$s</item>
+    </plurals>
     <plurals name="repeat_interval_frequency_day_multiple">
         <item quantity="other">%1$d dagar</item>
         <item quantity="one">%1$d dag</item>
@@ -99,6 +103,10 @@
     <plurals name="repeat_interval_frequency_year_multiple">
         <item quantity="other">%1$d år</item>
         <item quantity="one">%1$d år</item>
+    </plurals>
+    <plurals name="travel_eta_advice">
+        <item quantity="other">%2$s minuters bilresa till %1$s.</item>
+        <item quantity="one">%2$s minuts bilresa till %1$s.</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="other">Vecka %d</item>

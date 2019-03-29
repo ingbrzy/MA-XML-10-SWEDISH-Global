@@ -27,8 +27,8 @@
     <string name="stk_dialog_reject">NEJ</string>
     <string name="no_sim_card_inserted">Sätt i SIM-kortet för att starta SIM-Verktyg.</string>
     <string name="stk_channel_name">Mobiltjänstmeddelanden</string>
-    <string name="stk_intent_permission">Behörigheter krävs</string>
     <string name="sim_type_sim_name">SIM-Verktyg</string>
     <string name="sim_type_usim_name">USIM-Verktyg</string>
     <string name="sim_type_uim_name">UIM-Verktyg</string>
+    <string name="stk_intent_permission">Behörigheter krävs</string>
 </resources>

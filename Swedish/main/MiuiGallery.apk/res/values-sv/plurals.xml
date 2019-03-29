@@ -176,6 +176,10 @@
         <item quantity="other">%1$d videor väntar på säkerhetskopiering</item>
         <item quantity="one">1 video väntar på säkerhetskopiering</item>
     </plurals>
+    <plurals name="photo_count_format">
+        <item quantity="other">Totalt %1$d objekt</item>
+        <item quantity="one">Totalt %1$d objekt</item>
+    </plurals>
     <plurals name="picker_all_image_need_download">
         <item quantity="other">Valda foton finns inte på enheten. Ladda ner dem med mobildata?</item>
         <item quantity="one">Valt foto finns inte på enheten. Ladda ner med mobildata?</item>
@@ -267,10 +271,6 @@
     <plurals name="sync_total_count">
         <item quantity="other">%d objekt</item>
         <item quantity="one">%d objekt</item>
-    </plurals>
-    <plurals name="photo_count_format">
-        <item quantity="other">Totalt %1$d objekt</item>
-        <item quantity="one">Totalt %1$d objekt</item>
     </plurals>
     <plurals name="video_count_format">
         <item quantity="other">%1$d filer</item>

@@ -13,7 +13,7 @@
         <item quantity="one">%d meddelande blev inte synkroniserade</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
-        <item quantity="other">Ta bort valda &lt;g example="15" id="number">%1$s&lt;/g> konversationer?</item>
+        <item quantity="other">Ta bort valda %1$s konversationer?</item>
         <item quantity="one">Ta bort den här konversationen?</item>
     </plurals>
     <plurals name="custom_select_title_items_selected">
@@ -39,6 +39,10 @@
     <plurals name="message_count">
         <item quantity="other">%1$s meddelanden</item>
         <item quantity="one">%1$s meddelande</item>
+    </plurals>
+    <plurals name="rcs_group_notification_invitation_receive">
+        <item quantity="other">Du fick %d gruppchattinbjudan</item>
+        <item quantity="one">Du fick %d gruppchattinbjudan</item>
     </plurals>
     <plurals name="recipient_count">
         <item quantity="other">%1$s personer</item>

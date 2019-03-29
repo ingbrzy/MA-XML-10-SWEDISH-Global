@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="button_dismiss">OK</string>
     <string name="app_label">Cell Broadcasts</string>
     <string name="sms_cb_settings">Cell broadcast-inställningar</string>
     <string name="cell_broadcast_settings_not_available">Inställningarna för cellsändning är inte tillgängliga för den här användaren</string>
-    <string name="button_dismiss">OK</string>
     <string name="no_cell_broadcasts">Det finns inga aktiva varningar i ditt område. Du kan ändra inställningarna för vilka varningar som visas i menyalternativet Inställningar.</string>
     <string name="menu_preferences">Inställningar</string>
     <string name="menu_delete_all">Ta bort sändningar</string>

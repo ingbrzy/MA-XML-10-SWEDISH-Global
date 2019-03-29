@@ -72,6 +72,10 @@
         <item quantity="other">om %d å</item>
         <item quantity="one">om %d å</item>
     </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Försök igen om %d sekunder.</item>
+        <item quantity="one">Försök igen om 1 sekund.</item>
+    </plurals>
     <plurals name="last_num_days">
         <item quantity="other">De senaste %d dagarna</item>
         <item quantity="one">Den senaste dagen (%d)</item>

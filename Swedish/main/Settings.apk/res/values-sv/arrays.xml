@@ -30,6 +30,16 @@
         <item>MSB</item>
         <item>MSA</item>
     </string-array>
+    <string-array name="ai_key_item_name">
+        <item>Prata med Google Assistant</item>
+        <item>Starta Google Sök</item>
+        <item>Starta bakre kameran</item>
+        <item>Starta främre kameran</item>
+        <item>Öppna föregående app</item>
+        <item>Slå på ficklampan</item>
+        <item>Aktivera Läsläge</item>
+        <item>Inget</item>
+    </string-array>
     <string-array name="alarm_repeat_type">
         <item>Varje dag</item>
         <item>Vardagskvällar</item>
@@ -227,7 +237,8 @@
     </string-array>
     <string-array name="battery_indicator_style_entries">
         <item>Grafisk</item>
-        <item>Procentsats</item>
+        <item>Procent (i ikonen)</item>
+        <item>Procent (bredvid ikonen)</item>
         <item>Längst upp</item>
     </string-array>
     <string-array name="battery_labels">
@@ -262,24 +273,24 @@
         <item>Låg latency</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Använd Systemets inställning(Standard)</item>
+        <item>Använd Systemets val (Standard)</item>
         <item>16 bits/sample</item>
         <item>24 bits/sample</item>
         <item>32 bits/sample</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Använd Systemets inställning(Standard)</item>
+        <item>Använd Systemets val (Standard)</item>
         <item>16 bits/sample</item>
         <item>24 bits/sample</item>
         <item>32 bits/sample</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Använd Systemets inställning(Standard)</item>
+        <item>Använd Systemets val (Standard)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Använd Systemets inställning(Standard)</item>
+        <item>Använd Systemets val (Standard)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
@@ -296,7 +307,7 @@
         <item>Bäst prestanda (adaptiv bithastighet)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Använd Systemets inställning(Standard)</item>
+        <item>Använd Systemets val (Standard)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
@@ -310,7 +321,7 @@
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Använd Systemets inställning(Standard)</item>
+        <item>Använd Systemets val (Standard)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ audio</item>
@@ -325,21 +336,37 @@
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ audio</item>
-        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptive audio</item>
         <item>Aktivera valfria codecs</item>
         <item>Inaktivera valfria codecs</item>
     </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>" | Aktiv"</item>
+        <item>" | Aktiv (media)"</item>
+        <item>" | Aktiv (telefon)"</item>
+    </string-array>
     <string-array name="bluetooth_avrcp_version_values">
         <item>avrcp14</item>
+        <item>avrcp13</item>
         <item>avrcp15</item>
         <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
         <item>AVRCP 1.4 (Default)</item>
+        <item>AVRCP 1.3</item>
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_max_connected_audio_devices">
+        <item>Använd systemstandard: %1$d</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
     </string-array>
     <string-array name="bluetooth_visibility_timeout_entries">
         <item>2 minuter</item>
@@ -398,18 +425,8 @@
     <string-array name="change_security_lock_picker">
         <item>Ansiktsupplåsning</item>
         <item>Mönster</item>
-        <item>PIN</item>
+        <item>PIN-kod</item>
         <item>Lösenord</item>
-    </string-array>
-    <string-array name="check_importance_entries">
-        <item>Rekommendera</item>
-        <item>Viktigt</item>
-        <item>Oviktigt</item>
-    </string-array>
-    <string-array name="check_importance_summary">
-        <item>MIUI kommer bestämma vilka Notifikationer som visas direkt</item>
-        <item>Notifikationer kommer synas i Notifikationspanelen</item>
-        <item>Notifikationer kommer visas i en egen mapp</item>
     </string-array>
     <string-array name="city_name">
         <item>Abidjan</item>
@@ -702,6 +719,31 @@
         <item>Paramaribo</item>
         <item>Quito</item>
     </string-array>
+    <array name="click_bottom">
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom04</item>
+        <item>@drawable/clickbottom05</item>
+        <item>@drawable/clickbottom06</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom08</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+    </array>
     <string-array name="color_mode_descriptions">
         <item>Förstärkta färger</item>
         <item>Naturliga färger som ögat ser dem</item>
@@ -736,6 +778,11 @@
         <item>0</item>
         <item>1</item>
     </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Automatisk (grundat på tidpunkt)</item>
+        <item>Alltid på</item>
+        <item>Alltid av</item>
+    </string-array>
     <string-array name="data_usage_data_range">
         <item>Senaste 30 dagarna</item>
         <item>Ange användningscykel ...</item>
@@ -744,10 +791,6 @@
         <item>Av</item>
         <item>Visa övertrasserade områden</item>
         <item>Visa områden för Deuteranomaly</item>
-    </string-array>
-    <string-array name="debug_hw_renderer_entries">
-        <item>OpenGL (Default)</item>
-        <item>OpenGL (Skia)</item>
     </string-array>
     <string-array name="dream_timeout_entries">
         <item>Aldrig</item>
@@ -789,6 +832,21 @@
         <item>Förbättrar enhetens prestanda</item>
         <item>Kan sakta ner enhetens prestanda</item>
     </string-array>
+    <string-array name="fold_entries">
+        <item>Rekommenderad</item>
+        <item>Viktigt</item>
+        <item>Oviktig</item>
+    </string-array>
+    <string-array name="fold_summaries">
+        <item>MIUI kommer bestämma vilka notifikationer som visas direkt</item>
+        <item>Notifikationer kommer visas i Notifikationspanelen</item>
+        <item>Notifikationer kommer visas i en egen mapp</item>
+    </string-array>
+    <string-array name="fold_values">
+        <item>0</item>
+        <item>1</item>
+        <item>-1</item>
+    </string-array>
     <string-array name="handy_mode_size_text_entries">
         <item>4,5 tum</item>
         <item>4,0 tum</item>
@@ -814,6 +872,19 @@
         <item>Kontrollera aldrig</item>
         <item>Sök endast efter DRM-innehåll</item>
         <item>Kontrollera alltid</item>
+    </string-array>
+    <string-array name="hide_account_list">
+        <item>com.android.localphone</item>
+        <item>com.android.sim</item>
+    </string-array>
+    <string-array name="key_and_gesture_shortcut_action">
+        <item>long_press_home_key</item>
+        <item>long_press_menu_key</item>
+        <item>long_press_back_key</item>
+        <item>key_combination_power_home</item>
+        <item>key_combination_power_menu</item>
+        <item>key_combination_power_back</item>
+        <item>key_none</item>
     </string-array>
     <string-array name="keyguard_notification_status_entries">
         <item>Väck skärmen</item>
@@ -858,6 +929,43 @@
         <item>Efter 5 minuter</item>
         <item>Aldrig</item>
     </string-array>
+    <array name="long_press">
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom04</item>
+        <item>@drawable/clickbottom05</item>
+        <item>@drawable/clickbottom06</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+    </array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Kort</item>
         <item>Mellan</item>
@@ -926,6 +1034,14 @@
         <item>"Avinstallera enhet: fusermount -u /media/mtp
 Note: Bara för Ubuntu 8.04!"</item>
     </string-array>
+    <string-array name="msd_pc_system_retry_mac">
+        <item>@string/msd_install_retry_reinstall_mac</item>
+        <item>@string/msd_install_retry_connect</item>
+        <item>@string/msd_install_retry_reinstall</item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_vista">
+        <item>@string/msd_install_retry_connect</item>
+    </string-array>
     <string-array name="msd_pc_system_retry_xp">
         <item>@string/msd_install_retry_connect</item>
         <item>Installera Mi PC Suite igen</item>
@@ -944,7 +1060,33 @@ Note: Bara för Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="notch_battery_indicator_style_entries">
         <item>Grafisk</item>
-        <item>Procentsats</item>
+        <item>Procent</item>
+    </string-array>
+    <string-array name="notifi_importance_entries">
+        <item>@string/importance_high</item>
+        <item>@string/importance_default</item>
+        <item>@string/importance_low</item>
+        <item>@string/importance_min</item>
+    </string-array>
+    <string-array name="notifi_importance_summaries">
+        <item>@string/notifi_importance_high</item>
+        <item>@string/notifi_importance_default</item>
+        <item>@string/notifi_importance_low</item>
+        <item>@string/notifi_importance_min</item>
+    </string-array>
+    <string-array name="notifi_importance_values">
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="notification_shade_shortcut_entries">
+        <item>Sök</item>
+        <item>Inställningar</item>
+    </string-array>
+    <string-array name="notification_style_entries">
+        <item>MIUI</item>
+        <item>Android</item>
     </string-array>
     <string-array name="organized_locales">
         <item>dz</item>
@@ -1017,6 +1159,62 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Dämpa bruset för en mikrofon</item>
         <item>Dämpa bruset för två mikrofoner</item>
     </string-array>
+    <array name="power_click">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
+    <array name="power_double_click">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
     <string-array name="power_mode_entries">
         <item>Prestanda</item>
         <item>Balanserad</item>
@@ -1104,6 +1302,11 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Ökad kontrast</item>
         <item>Standard</item>
     </string-array>
+    <string-array name="screen_resolution_format">
+        <item>@string/screen_resolution_ultrahigh_format</item>
+        <item>@string/screen_resolution_high_format</item>
+        <item>@string/screen_resolution_normal_format</item>
+    </string-array>
     <string-array name="screen_resolution_text">
         <item>2K</item>
         <item>1080p</item>
@@ -1166,6 +1369,10 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Rita icke-rektangulära regioner i blått</item>
         <item>Markera testade ritkommandon i grönt</item>
     </string-array>
+    <string-array name="silent_entries">
+        <item>@string/standard</item>
+        <item>@string/total</item>
+    </string-array>
     <string-array name="silent_mode_duration_text">
         <item>Alltid</item>
         <item>30 minuter</item>
@@ -1188,13 +1395,35 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Tillåt</item>
         <item>Tillåt inte</item>
     </string-array>
-    <string-array name="status_bar_settings_notification_shade_shortcut_entries">
-        <item>Sök</item>
-        <item>Inställningar</item>
-    </string-array>
-    <string-array name="status_bar_settings_notification_style_entries">
-        <item>MIUI</item>
-        <item>Android</item>
+    <array name="three_drop">
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop02</item>
+        <item>@drawable/threedrop03</item>
+        <item>@drawable/threedrop04</item>
+        <item>@drawable/threedrop05</item>
+        <item>@drawable/threedrop06</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
+    <string-array name="time_format_entries">
+        <item>12-timmar 1:00 PM</item>
+        <item>24-timmar 13:00</item>
+        <item>Automatiskt (baseras på systemspråk)</item>
     </string-array>
     <string-array name="timezone_filters">
         <item>Amerika</item>
@@ -1313,7 +1542,7 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Enhet ansluten</item>
     </string-array>
     <string-array name="whetstone_level_entries">
-        <item>Av</item>
+        <item>Avaktiverad</item>
         <item>Låg</item>
         <item>Medel</item>
         <item>Hög</item>
@@ -1323,6 +1552,14 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
+    </string-array>
+    <string-array name="wifi_ap_band_config_2G_5G">
+        <item>@string/wifi_ap_choose_2G</item>
+        <item>@string/wifi_ap_choose_5G</item>
+    </string-array>
+    <string-array name="wifi_ap_security">
+        <item>@string/wifi_security_none</item>
+        <item>@string/wifi_security_wpa2</item>
     </string-array>
     <string-array name="wifi_calling_mode_choices">
         <item>Wi-Fi i första hand</item>
@@ -1371,9 +1608,18 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>AKA</item>
         <item>"AKA'"</item>
     </string-array>
+    <string-array name="wifi_hidden_entries">
+        <item>Nej</item>
+        <item>Ja</item>
+    </string-array>
     <string-array name="wifi_ip_settings">
         <item>DHCP</item>
         <item>Statisk</item>
+    </string-array>
+    <string-array name="wifi_metered_entries">
+        <item>Identifiera automatiskt</item>
+        <item>Behandla som nätverk med datapriser</item>
+        <item>Behandla som nätverk utan datapriser</item>
     </string-array>
     <string-array name="wifi_p2p_status">
         <item>Ansluten</item>
@@ -1419,16 +1665,6 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Bra</item>
         <item>Utmärkt</item>
     </string-array>
-    <string-array name="wifi_sleep_policy_entries">
-        <item>Alltid</item>
-        <item>Endast när den är inkopplad</item>
-        <item>Aldrig</item>
-    </string-array>
-    <string-array name="wifi_sleep_policy_entries_wifi_only">
-        <item>Alltid</item>
-        <item>Endast när den är inkopplad</item>
-        <item>Aldrig</item>
-    </string-array>
     <string-array name="wifi_ssid_type_entries">
         <item>Anslut automatiskt</item>
         <item>Anslut manuellt</item>
@@ -1460,6 +1696,10 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Misslyckad</item>
         <item>Blockerad</item>
         <item>Undviker dålig anslutning temporärt</item>
+    </string-array>
+    <string-array name="wifi_tether_security_values">
+        <item>4</item>
+        <item>0</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animering avaktiverad</item>
