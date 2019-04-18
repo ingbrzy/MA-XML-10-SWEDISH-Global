@@ -86,8 +86,6 @@
     <string name="force_touch_menu_add">Lägg till anteckning</string>
     <string name="format_move_note_out_folder">Anteckningen togs bort</string>
     <string name="format_move_note_to_folder">Flyttad till %1$s</string>
-    <string name="format_move_notes_out_folder">Flyttade ut %1$s</string>
-    <string name="format_move_notes_to_folder">Flyttade %1$s till %2$s</string>
     <string name="hidden_notes_fragment_title">Dolda anteckningar</string>
     <string name="hide_arrow_description">Dölj</string>
     <string name="hint_cannot_view_hidden_note_content">Kan inte visa innehåll i dolda anteckningar</string>
@@ -129,6 +127,7 @@
     <string name="note_sort_way">Välj hur du vill sortera dina anteckningar</string>
     <string name="notealert_enter">Öppna anteckning</string>
     <string name="notealert_ok">Avfärda</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Anteckningspåminnelse</string>
     <string name="permdesc_accessNote">Skadliga appar kan använda detta för att få tillgång till personlig data.</string>
     <string name="permission_intro_contact">För att göra anteckningar under samtal</string>
@@ -207,11 +206,9 @@
     <string name="toast_cancel_to_insert_image">Kunde inte lägga till bild.</string>
     <string name="toast_message_add_image_fail">Kunde inte lägga till bild</string>
     <string name="toast_notes_delete_success">Borttagen</string>
-    <string name="toast_notes_hidden_count">Dolde %1$s</string>
     <string name="toast_notes_hidden_edit">Denna anteckning döljdes framgångsrikt. Dra ner för att se dolda anteckningar.</string>
     <string name="toast_notes_hidden_home">Denna anteckning döljdes framgångsrikt. Dra ner för att se dolda anteckningar.</string>
     <string name="toast_notes_unhidden">Visar</string>
-    <string name="toast_notes_unhidden_count">Visade %1$s</string>
     <string name="toast_reach_text_limit_attachment">Kan inte lägga till bilagor eftersom anteckningen är för lång</string>
     <string name="toast_reach_text_limit_checkbox">Kan inte lägga till en checkbox eftersom anteckningen är för lång</string>
     <string name="toast_reach_text_limit_truncate">Anteckningen är för lång. En del av texten har klippts bort från slutet.</string>

@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Ljud</string>
@@ -463,6 +465,7 @@ ska svara"</string>
     <string name="not_limited_brand">Obegränsat</string>
     <string name="pref_about_traffic_title">Inställningar för mobildataanvändning</string>
     <string name="pref_traffic_manage_title">Dataanvändning</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Mobildataabonnemang</string>
     <string name="pref_adjust_traffic_data">Ange datagräns</string>
     <string name="pref_category_title_other">Ytterligare inställningar</string>
@@ -951,7 +954,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="memory_clean_memory_size_tip">Cache</string>
     <string name="memory_clean_no_need_clean">Allt ser bra ut</string>
     <string name="optimize_result_available_memory_info">Tillgängligt minne</string>
-    <string name="optimize_result_title_uninstall_apps">Appar</string>
+    <string name="optimize_result_title_uninstall_apps">Avinstallera appar</string>
     <string name="om_settings_title">Inställningar</string>
     <string name="om_settings_lock_app_manage">Låsta appar</string>
     <string name="om_settings_lock_app">Låsta appar</string>
@@ -1014,6 +1017,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="usage_type_data_send">Mobildata skickad</string>
     <string name="usage_type_no_coverage">Tid utan signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="power_screen">Skärm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1236,12 +1240,17 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="power_center_list_item_auto_brightness">Justera skärmens ljusstyrka automatiskt</string>
     <string name="power_center_list_item_deep_save_title">Avancerade inställningar</string>
     <string name="power_center_list_item_battery_status_time">h</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
     <string name="power_center_stop_scan_title">Avbryt skanning</string>
     <string name="hide_mode_result_summary_text">Anpassa Batterispararens inställningar för enskilda appar</string>
     <string name="auto_task_result_summary_text">Konfigurera automatiska uppgifter för Batterispararen</string>
     <string name="pc_settings_title">Inställningar för batterioptimering</string>
     <string name="pc_main_activity_back">Tillbaka</string>
     <string name="extreme_power_save_mode_card_summary">Aktivera Extremläge för att spara ström när batterinivån är låg.</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
     <string name="handle_bar_title_system">System</string>
     <string name="apps_list_header_title_sms">Kontrollera meddelandeapp</string>
     <string name="apps_list_header_title_sms_access">Begränsa tillgång till verifieringskoder</string>
@@ -1350,11 +1359,13 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="menu_text_optimize_manage">Öka hastigheten</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_summary_networkassistants">Hantera ditt dataabonnemang</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Överskred datagränsen</string>
     <string name="menu_summary_networkassistants_3">Tillräckligt med mobildata återstår</string>
     <string name="menu_summary_networkassistants_4">Håller på att få slut på mobildata</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1367,12 +1378,14 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="menu_summary_garbage_cleanup">Inga skräpfiler hittades</string>
     <string name="menu_summary_garbage_cleanup_2">Skräpstorlek</string>
     <string name="menu_summary_garbage_cleanup_3">Rensa skräp nu</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Batterioptimering</string>
     <string name="menu_summary_power_manager">Batterispararen ger mer tid mellan laddningarna</string>
     <string name="menu_summary_power_manager_1">Batteriet är fulladdat</string>
     <string name="menu_summary_power_manager_2">%såterstår</string>
     <string name="menu_summary_power_manager_3">Anslut laddare</string>
     <string name="menu_summary_power_manager_4">%still fulladdad</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Föregående skanning avbröts</string>
     <string name="examination_score_100">Allt ser bra ut!</string>
     <string name="examination_score_80_100">Några objekt kan optimeras</string>
@@ -1750,6 +1763,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="card_main_deepclean_wechat_action">Rensa</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -2012,6 +2026,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="confirmSecondSpacePassword">Bekräfta lösenordet för det sekundära utrymmet</string>
     <string name="sponsored_sec_fb">Sponsrade</string>
     <string name="add_game_notification_summary">Tryck för att starta &amp; Öka prestanda</string>
+    <string name="gb_shortcut_pref_title">Genväg på Hemskärmen</string>
     <string name="app_manager_title">Hantera appar</string>
     <string name="app_manager_uninstall">Avinstallera</string>
     <string name="app_manager_bipartition">Dubbelappar</string>
@@ -2127,6 +2142,7 @@ Du kommer inte förlora någon appdata."</string>
     <string name="manage_hybrid_permissions">Hantera appens behörigheter</string>
     <string name="app_manager_full_screen_title">Helskärmsläge</string>
     <string name="app_manager_full_screen_summary">Tillåt valda appar att använda helskärmsläge</string>
+    <string name="app_manager_find_apps">Hitta appar</string>
     <string name="ad_btn_default_text">Läs mer</string>
     <string name="open_activity_err">Applikationen hittades inte</string>
     <string name="low_memory_warning_dialog_title">Inte tillräckligt med lagringsutrymme</string>
@@ -2356,6 +2372,7 @@ Du kommer inte förlora någon appdata."</string>
     <string name="gb_advance_settings_reset_dialog_content">Återställ standardinställningar nu?</string>
     <string name="title_reply">Kommentera</string>
     <string name="title_like">Gilla</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Mobildata</string>
     <string name="game_wid_viewpoint_buttom">Ta en kort paus.</string>
     <string name="video_repeat">Spela igen</string>
@@ -2395,6 +2412,11 @@ Du kommer inte förlora någon appdata."</string>
     <string name="gamebox_recent_task_expand_fail">Appar som fungerar med genvägar är inte installerade</string>
     <string name="gamecenter_install_sucessfull">Installerad</string>
     <string name="gamecenter_install_fail">Det gick inte att installera</string>
+    <string name="securityadd_update_tips_title">Uppdatera</string>
+    <string name="securityadd_update_tips_message">Uppdatera service plug-in för Säkerhet för att få tillgång till senaste spelfunktioner. %1$dMB kommer att laddas ner.</string>
+    <string name="securityadd_update_tips_cancle">Inte nu</string>
+    <string name="securityadd_update_tips_now">Uppdatera</string>
+    <string name="securityadd_install_fail">Det gick inte att uppdatera plug-in. Försök igen.</string>
     <string name="notify_channel_name_security">Systemsäkerhet</string>
     <string name="privacy_apps_category_title">Dolda appar</string>
     <string name="privacy_apps">Dolda appar</string>
@@ -2526,5 +2548,4 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="resource_gamebooster">Speloptimering</string>
     <string name="keywords_gamebooster">Spel;Öka hastighet;King of Glory;Prestandaläge;Tyst läge;Spel;Spelhastighet;Öka</string>
     <string name="path_gamebooster">Systemappar/Säkerhet/Öka spelhastighet</string>
-    <string name="gb_shortcut_pref_title">Home screen shortcut</string>
 </resources>

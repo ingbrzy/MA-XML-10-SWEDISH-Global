@@ -4,6 +4,14 @@
         <item quantity="other">%d objekt</item>
         <item quantity="one">%d objekt</item>
     </plurals>
+    <plurals name="loan_repayment_detail">
+        <item quantity="other">Detaljerad återbetalning (%d år)</item>
+        <item quantity="one">Detaljerad återbetalning (%d år)</item>
+    </plurals>
+    <plurals name="loan_repayment_detail_unit">
+        <item quantity="other">Detaljerad återbetalning (%d år), CNY</item>
+        <item quantity="one">Detaljerad återbetalning (%d år), CNY</item>
+    </plurals>
     <plurals name="mortgage_summary_years">
         <item quantity="other">%1$d år (%2$d månader)</item>
         <item quantity="one">%1$d år (%2$d månad)</item>

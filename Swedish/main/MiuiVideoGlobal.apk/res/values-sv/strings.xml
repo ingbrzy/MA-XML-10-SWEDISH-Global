@@ -58,6 +58,7 @@
     <string name="cast_forward">Framåt</string>
     <string name="cast_forward_10">Spola framåt tio sekunder</string>
     <string name="cast_forward_30">Spola framåt trettio sekunder</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_mute">Stäng av ljudet</string>
     <string name="cast_notification_connected_message">Ansluten till %1$s</string>
     <string name="cast_notification_connecting_message">Ansluter till %1$s</string>
@@ -451,7 +452,7 @@ Se andra videor!"</string>
     <string name="pw_search_history_clear">Rensa sökhistorik</string>
     <string name="pw_splash_ignore">Hoppa över</string>
     <string name="pw_ui_card_banner_btn_download">Ladda ner</string>
-    <string name="pw_ui_card_banner_btn_downloading">Laddar ned…</string>
+    <string name="pw_ui_card_banner_btn_downloading">Laddar ner…</string>
     <string name="pw_ui_card_banner_btn_open">Öppna</string>
     <string name="pw_uitype_next">Nästa typ</string>
     <string name="pw_uitype_title">UI-typ %d</string>
@@ -487,6 +488,7 @@ Se andra videor!"</string>
     <string name="slid_fail_message">Det gick inte att spara</string>
     <string name="slide_save_message">Genererar video…</string>
     <string name="sns_sign_in">Andra sätt att logga in</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="sure_to_logout">Logga ut nu?</string>
     <string name="switch_ratio_pause">Uppspelningshastigheten är instabil. Växla tillbaka till standardhastighet…</string>
     <string name="symbol_rmb">¥</string>
@@ -518,4 +520,26 @@ Se andra videor!"</string>
     <string name="v_ok">Okej</string>
     <string name="v_pw_need_update_app">Uppdatera Mi Video för att använda alla funktioner</string>
     <string name="v_save">Spara</string>
+    <string name="Subscribe">Prenumerera</string>
+    <string name="diy_channels_tips">Nu kan du anpassa listan över dina kanaler.</string>
+    <string name="empty_channels">Hantera kanaler</string>
+    <string name="empty_subscribe">Du prenumererar inte på något ännu.</string>
+    <string name="hidden_channels">Följande kanaler visas inte på startsidan.</string>
+    <string name="init_channels">Återställ standardinställningarna</string>
+    <string name="isSubscribed">Prenumererar</string>
+    <string name="my_favorite_channels">Mina kanaler</string>
+    <string name="ovp_navigation_subscribe">Prenumerera</string>
+    <string name="ovp_player_plugin_dlg_neg_btn">Stäng</string>
+    <string name="ovp_player_plugin_dlg_no_content">Inga plug-ins till videospelaren är installerade.</string>
+    <string name="ovp_player_plugin_dlg_title">Plug-ins videospelare</string>
+    <string name="permission_phone">Telefon</string>
+    <string name="permission_phone_desc">För att komma åt enhetens status och pausa uppspelning under samtal</string>
+    <string name="permission_storage">Lagringsutrymme</string>
+    <string name="permission_storage_desc">För åtkomst till objekt, spara filer, visa och spela lokala videor</string>
+    <string name="pw_channels">Kanaler</string>
+    <string name="recommend_channels">Rekommenderade kanaler</string>
+    <string name="restore_channel_list">Återställ nu?</string>
+    <string name="title_publisher">Skapare</string>
+    <string name="title_subscribe">Prenumerationer</string>
+    <string name="ugc_confirm_unsubscribe">Avsluta prenumeration?</string>
 </resources>

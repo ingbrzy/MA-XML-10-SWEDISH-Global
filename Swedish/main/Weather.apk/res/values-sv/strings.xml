@@ -25,7 +25,7 @@
     <string name="activity_main_update_time">Updaterad %1$s</string>
     <string name="activity_main_update_time_expire">Data upphört att gälla</string>
     <string name="activity_main_update_time_right_now">just nu</string>
-    <string name="activity_minute_rain_location_fail_msg">Kunde inte hitta positionen. Visa Beijing som standard.</string>
+    <string name="activity_minute_rain_location_fail_msg">Det gick inte att få säkerställd platsinformation. Bytte till den nuvarande staden.</string>
     <string name="add_city">Lägg till</string>
     <string name="alert_detail_title">Varningsdetaljer</string>
     <string name="alert_warning">Vädervarningar</string>
@@ -55,6 +55,8 @@
     <string name="aqi_quality_pm10_desc">Partiklar som är mellan 2,5 och 10 μm</string>
     <string name="aqi_quality_pm25_desc">Partiklar mindre än 2,5 μm</string>
     <string name="aqi_quality_so2_desc">Svaveldioxid</string>
+    <string name="aqi_settings_summary">AQI varningar</string>
+    <string name="aqi_settings_title">AQI</string>
     <string name="aqi_station_best_quality_station">Bäst omkring</string>
     <string name="aqi_station_min_distance_station">Närmaste station</string>
     <string name="aqi_top_pollution">Stora föroreningar</string>
@@ -91,10 +93,12 @@
     <string name="daily_forecast_add_city_message">Följ vädret i %1$s för en mer detaljerad prognos.</string>
     <string name="daily_forecast_add_city_title">Följ vädret i %1$s</string>
     <string name="daily_forecast_detail_date">d/M</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Kunde inte hämta väderinformation
 Dra neråt för att uppdatera eller kontrollera nätverksinställningarna"</string>
     <string name="data_provided_by">Uppgifter lämnas delvis av</string>
     <string name="edit_city">Hantera städer</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Uppdaterar…</string>
     <string name="empty_view_net_unavailable">Det gick inte att ansluta till nätverket</string>
     <string name="empty_view_refresh">Försök igen</string>
@@ -113,6 +117,8 @@ Dra neråt för att uppdatera eller kontrollera nätverksinställningarna"</stri
     <string name="first_start_network_title">Internetanslutning och platsåtkomst</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="hourly_forcast_now">Nu</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">M/d</string>
     <string name="hourly_forecast_title_24_hours_desc">24-timmars prognos</string>
     <string name="hourly_forecast_title_hourly_desc">Timme för timme</string>
@@ -128,9 +134,11 @@ Dra neråt för att uppdatera eller kontrollera nätverksinställningarna"</stri
     <string name="indices_title_feel">Känns som</string>
     <string name="indices_title_pressure">Tryck</string>
     <string name="install">Installera</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_pressure_title">LUFTTRYCK</string>
     <string name="international_details_title">Detaljer</string>
     <string name="international_details_uv_index_title">UV INDEX</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">VIND</string>
     <string name="it_is_going_to_rain">Det kommer att regna</string>
     <string name="locate_fail_detail_err">"Kan inte hitta enhet
@@ -198,7 +206,7 @@ Tryck på skärmen för att manuellt lägga till eller ändra stad"</string>
     <string name="real_time_sunrise">Soluppgång: %1$s</string>
     <string name="real_time_sunset">Solnedgång: %1$s</string>
     <string name="realtime_aqi_title">Luftkvalitetsindex</string>
-    <string name="realtime_humidity_title">Relativ luftfuktighet</string>
+    <string name="realtime_humidity_title">Fuktighet</string>
     <string name="realtime_temperature_no_data">N/A</string>
     <string name="realtime_wind_default_title">Vind</string>
     <string name="refresh_fail">Det gick inte att ansluta till nätverket</string>
@@ -214,6 +222,7 @@ Tryck på skärmen för att manuellt lägga till eller ändra stad"</string>
     <string name="share_menu_title">Dela</string>
     <string name="share_subject">Dela</string>
     <string name="share_weather_desc">\#MIUI Väder#Idag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Det gick inte att ta skärmdump</string>
     <string name="some_where_on_earth">Någonstans på jorden</string>

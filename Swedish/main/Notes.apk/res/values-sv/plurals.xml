@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="alert_message_delete">
+        <item quantity="other">Ta bort %1$s objekt?</item>
+        <item quantity="one">Ta bort %1$s objekt?</item>
+    </plurals>
     <plurals name="cloud_state_unsynced_count">
-        <item quantity="other">%1$s har inte synkroniserats</item>
-        <item quantity="one">%1$s har inte synkroniserats</item>
+        <item quantity="other">%1$s objekt har inte synkroniserats</item>
+        <item quantity="one">%1$s objekt har inte synkroniserats</item>
     </plurals>
-    <plurals name="folder_terms">
-        <item quantity="other">%1$s mappar</item>
-        <item quantity="one">%1$s mapp</item>
+    <plurals name="format_move_notes_out_folder">
+        <item quantity="other">Tog bort %1$s anteckningar från mappen</item>
+        <item quantity="one">Tog bort %1$s anteckning från mappen</item>
     </plurals>
-    <plurals name="note_terms">
-        <item quantity="other">%1$s anteckningar</item>
-        <item quantity="one">%1$s anteckning</item>
+    <plurals name="format_move_notes_to_folder">
+        <item quantity="other">Flyttade %1$s anteckningar till %2$s</item>
+        <item quantity="one">Flyttade %1$s anteckning till %2$s</item>
     </plurals>
     <plurals name="record_last_ten_seconds_reminder">
         <item quantity="other">%d andra vänster</item>
         <item quantity="one">%d andra vänster</item>
+    </plurals>
+    <plurals name="toast_notes_hidden_count">
+        <item quantity="other">Dolde %1$s anteckningar</item>
+        <item quantity="one">Dolde %1$s anteckning</item>
+    </plurals>
+    <plurals name="toast_notes_unhidden_count">
+        <item quantity="other">Visade %1$s anteckningar</item>
+        <item quantity="one">Visade %1$s anteckning</item>
     </plurals>
     <plurals name="word_count">
         <item quantity="other">%d tecken</item>

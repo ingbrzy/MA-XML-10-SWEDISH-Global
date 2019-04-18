@@ -13,8 +13,8 @@
         <item quantity="one">Ta bort detta alarm?</item>
     </plurals>
     <plurals name="delete_timezone_confirm">
-        <item quantity="other">Ta bort den valda tidzonen?</item>
-        <item quantity="one">Ta bort tidzonen?</item>
+        <item quantity="other">Ta bort den valda tidszonen?</item>
+        <item quantity="one">Ta bort tidszonen?</item>
     </plurals>
     <plurals name="hour">
         <item quantity="other">%d timmar</item>
@@ -29,8 +29,8 @@
         <item quantity="one">%d minut</item>
     </plurals>
     <plurals name="second">
-        <item quantity="other">%d andra</item>
-        <item quantity="one">%d andra</item>
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">%d sekund</item>
     </plurals>
     <plurals name="snooze_duration_summary">
         <item quantity="other">Alarmet aktiveras %2$s gånger (%1$s min. varje gång)</item>

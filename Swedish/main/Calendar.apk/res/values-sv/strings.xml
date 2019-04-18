@@ -86,6 +86,7 @@
     <string name="birthday_notification_type_term_lunar" />
     <string name="birthday_saved">Födelsedag sparad</string>
     <string name="birthday_term">födelsedag</string>
+    <string name="calendar_permission_desc">Hantera händelser</string>
     <string name="can_not_create_long_event">Händelsenamn för långt</string>
     <string name="can_not_modify_allday_event">Det går inte att ändra heldagsaktivitet</string>
     <string name="can_not_modify_event">Kan inte ändra händelsen</string>
@@ -103,6 +104,7 @@
     <string name="change_response_title">Ändra svar</string>
     <string name="click_to_share">Tryck för att dela</string>
     <string name="close_alarm">Avaktivera</string>
+    <string name="contacts_permission_desc">Tillgång till kontaktinformation</string>
     <string name="countdown_event_title">Nedräkning: %1$s</string>
     <string name="countdown_notify_before_3_day_title">Nedräkning: %1$s om 3 dagar</string>
     <string name="countdown_notify_title">Nedräkning: %1$s</string>
@@ -132,6 +134,7 @@
     <string name="date_interval_text_to">Till %1$s</string>
     <string name="date_jump_hint">Gå till en specifik dag direkt</string>
     <string name="date_jump_title">Gå till datum</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_today">" (idag)"</string>
     <string name="day_view_new_event_hint">Ny händelse</string>
     <string name="default_reminder_mode">Påminnelser</string>
@@ -214,6 +217,9 @@
     <string name="global_cricket_no_match">Inga cricketmatcher är planerade för denna dag. Kolla in andra dagar.</string>
     <string name="global_football_final">Final</string>
     <string name="global_football_no_match">Inga fotbollsmatcher är planerade för denna dag.</string>
+    <string name="global_joke_collapse_text">Visa mindre</string>
+    <string name="global_joke_copy_toast_message">Kopierad</string>
+    <string name="global_joke_expand_text">Visa mer</string>
     <string name="global_onthisday_com">OnThisDay.com</string>
     <string name="greetingcard_end_of_page">Det är allt för idag. Kom tillbaka imorgon!</string>
     <string name="greetingcard_notification_desc">Kolla in senaste statusar</string>
@@ -475,7 +481,4 @@ Du kan också lägga till påminneler så du inte missar något viktigt."</strin
     <string name="xiaomi_calendar_display_name">Mi Account-kalender</string>
     <string name="yearly">Varje år (%s)</string>
     <string name="yearly_plain">Varje år</string>
-    <string name="global_joke_collapse_text">Show less</string>
-    <string name="global_joke_copy_toast_message">Copied text successfully</string>
-    <string name="global_joke_expand_text">Show more</string>
 </resources>

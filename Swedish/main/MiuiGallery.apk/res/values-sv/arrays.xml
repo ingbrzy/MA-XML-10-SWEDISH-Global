@@ -14,6 +14,11 @@
         <item>Bitar av liv</item>
         <item>Helgminnen</item>
     </string-array>
+    <string-array name="menu_copy_or_move">
+        <item>Flytta</item>
+        <item>Kopiera</item>
+        <item>@string/cancel</item>
+    </string-array>
     <string-array name="month">
         <item>Januari</item>
         <item>Februari</item>

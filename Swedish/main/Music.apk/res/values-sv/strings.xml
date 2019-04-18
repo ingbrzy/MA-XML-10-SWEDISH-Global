@@ -47,8 +47,13 @@
     <string name="album_label">Album omslag</string>
     <string name="album_name">Album</string>
     <string name="all_album_count">Alla album (%d)</string>
+    <string name="all_albums">Alla album</string>
+    <string name="all_artists">Alla artister</string>
     <string name="all_playlist_count">Alla album (%d)</string>
+    <string name="all_playlists">Alla spellistor</string>
+    <string name="all_songs">Alla låtar</string>
     <string name="all_tracks">Alla låtar</string>
+    <string name="all_videos">Alla videor</string>
     <string name="already_download">Laddar ner…</string>
     <string name="already_download_btn">Laddar ner…</string>
     <string name="already_favorited">Redan tillagd i favoriter</string>
@@ -217,6 +222,7 @@
     <string name="download_method">Ladda ned</string>
     <string name="download_no_application_title">Kan inte öppna filen</string>
     <string name="download_paused_in_power_save_mode">Nerladdningar pausas när Batterisparläge är på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laddar ner…</string>
     <string name="download_quality">Nedladdningskvalitet</string>
     <string name="download_quality_summary">Ytterligare inställningar för låtar du laddar ned</string>
@@ -296,7 +302,9 @@
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Ljud</string>
@@ -358,7 +366,7 @@
     <string name="hungama_subscribe_positive_button">Köp PRO-medlemskap</string>
     <string name="hungama_subscribe_title">PRO medlemskap</string>
     <string name="i_know">OK</string>
-    <string name="impunity_declaration_content">Du måste läsa och godkänna vår &lt;a href=\"http://www.miui.com/res/doc/eula.html?lang=sv_SE\">Användaravtal&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/privacy.html?lang=sv_SE\">Sekretesspolicy&lt;/a> innan du använder produkten.</string>
+    <string name="impunity_declaration_content">Du måste läsa och godkänna vårt &lt;a href=\"http://www.miui.com/res/doc/eula.html?lang=sv_SE\">Användaravtal&lt;/a> och vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?lang=sv_SE\">Sekretesspolicy&lt;/a> innan du använder produkten.</string>
     <string name="impunity_declaration_ignore">Visa inte igen</string>
     <string name="impunity_declaration_negative_text">Avsluta</string>
     <string name="impunity_declaration_positive_text">Godkänn</string>
@@ -555,6 +563,7 @@
     <string name="priority_storage_summary">Ladda automatiskt ned till tillgängligt externt SD-kort</string>
     <string name="privacy_desc">Integritetspolicy (obligatorisk)</string>
     <string name="privacy_policy">Integritetspolicy</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sv_SE</string>
     <string name="pro_member">PRO-medlem</string>
     <string name="project_device">Mi Telefon</string>
     <string name="prompt_grant_write_settings_permission">Tillåt att ändra systeminställningar</string>
@@ -592,6 +601,8 @@
     <string name="search_for_album">Album</string>
     <string name="search_for_artist">Artist</string>
     <string name="search_hint">Sök efter artister, låtar, album och rekommendationer</string>
+    <string name="search_hint_local">Sök efter låtar på enheten</string>
+    <string name="search_hint_online">Sök efter artister, album, låtar, spellistor och videoklipp online</string>
     <string name="search_history_clear_all">Rensa</string>
     <string name="search_instant_online_music">Online</string>
     <string name="search_menu_title">Sök</string>
@@ -653,6 +664,7 @@
     <string name="start_to_check_new_version">Söker efter uppdateringar…</string>
     <string name="start_to_download">Laddar ner…</string>
     <string name="start_to_play">Spela</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
     <string name="storage_usb">USB lagring</string>
@@ -662,8 +674,10 @@
     <string name="tab_artist">Artister</string>
     <string name="tab_artist_list">Artister</string>
     <string name="tab_folder">Mappar</string>
+    <string name="tab_playlist">Spellistor</string>
     <string name="tab_track">Låtar</string>
     <string name="tab_track_list">Låtar</string>
+    <string name="tab_video">Videor</string>
     <string name="take_effect_afater_restart">Du måste starta om appen för att denna inställning ska verka.</string>
     <string name="talkback_back">Gå tillbaka</string>
     <string name="talkback_batch_process">Flera objekt</string>
@@ -713,6 +727,7 @@
     <string name="upgrade_music_message">Uppdateringar är redo. Starta om för att uppdatera.</string>
     <string name="upgrading_in_backstage">Uppdaterar i bakgrunden…</string>
     <string name="user_agreement">Användaravtal</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sv_SE</string>
     <string name="version_info">Version</string>
     <string name="video_play_cellular">Enheten inte är ansluten till Wi-Fi. Använda mobildata?</string>
     <string name="video_replay_btn">Spela igen</string>
@@ -720,6 +735,7 @@
     <string name="view_album">Visa album</string>
     <string name="vip_required">Köp Premium Låtpaket för att spela denna låt. Hoppa över låten så länge.</string>
     <string name="vip_required_with_song">%s är tillgänglig för PRO-medlemmar endast. Hoppade över denna låt för nu.</string>
+    <string name="voice_search_first_hint">Prova röstsökning!</string>
     <string name="wifi_required_body" formatted="false">"Anslut till Wi-Fi för att slutföra detta %s ladda ner. 
 
 klicka %s för att starta denna nedladdning nästa gång du är ansluten till ett Wi-Fi-nätverk."</string>

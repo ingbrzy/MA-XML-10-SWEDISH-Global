@@ -81,6 +81,10 @@
         <item>Denna och framtida händelser</item>
         <item>Alla händelser</item>
     </string-array>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
+    </string-array>
     <string-array name="gemini_info">
         <item>gemini</item>
         <item>Tvillingarna</item>
@@ -118,7 +122,7 @@
     </string-array>
     <string-array name="prefEntries_alerts_vibrateWhen">
         <item>Alltid</item>
-        <item>Endast när ringsignalen tystnar</item>
+        <item>Endast när ringsignalen är tystad</item>
         <item>Aldrig</item>
     </string-array>
     <string-array name="preferences_week_start_day_labels">

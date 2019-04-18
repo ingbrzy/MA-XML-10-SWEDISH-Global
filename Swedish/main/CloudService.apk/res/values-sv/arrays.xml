@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="user_detail_fixed_items">
+        <item>Visa synkroniserade objekt</item>
+        <item>Lagringsdetaljer</item>
+    </string-array>
     <string-array name="korea_permission_groups_descriptions">
         <item>För identifiering av synkroniserade objekt</item>
         <item>För att synkronisera meddelanden</item>

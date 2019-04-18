@@ -50,6 +50,8 @@
     <string name="self_device_second_space">Telefonens Sekundära utrymme</string>
     <string name="other_device_main_space">Primära utrymmet</string>
     <string name="other_device_second_space">Sekundära utrymmet</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Återställer \"%s\"</string>
     <string name="size_unknown">Okänd storlek</string>
     <string name="recovering">Återställer %s</string>
@@ -72,7 +74,7 @@
     <string name="desktop_waiting">Väntar</string>
     <string name="desktop_downloading">Laddar ner</string>
     <string name="desktop_installing">Installerar</string>
-    <string name="desktop_wait_wifi">Väntar</string>
+    <string name="desktop_wait_network">Väntar…</string>
     <string name="desktop_failed">Fel</string>
     <string name="recover_from_micloud">Återställ från Mi Cloud säkerhetskopia</string>
     <string name="click_try_to_restore_again">Tryck för att försöka igen</string>
@@ -114,7 +116,7 @@
     <string name="confirm_cancel_restore_positive">Fortsätt</string>
     <string name="confirm_cancel_restore_negative">Avbryt</string>
     <string name="confirm_restore_title">Återställ</string>
-    <string name="confirm_restore_summary">Hemskärmen kommer starta om och appar kommer bli nedladdade automatiskt när man ansluter till Wi-Fi</string>
+    <string name="confirm_restore_summary">Din Hemskärm kommer se ut som innan. Säkerhetskopierade appar kommer laddas ner automatiskt.</string>
     <string name="confirm_restore">Återställ</string>
     <string name="cloud_backup_have_data">Hittade säkerhetskopia i Mi Cloud</string>
     <string name="cloud_backup_select_recover">Välj säkerhetskopiering ifrån Mi Cloud</string>
@@ -134,7 +136,9 @@
     <string name="provision_error_connect_msg">Testa nätverket och försök igen. Säkerhetskopior är inte tillgängliga när enheten är offline.</string>
     <string name="provision_error_connect_title">Kan inte ansluta</string>
     <string name="loading_user_backup">Laddar säkerhetskopia…</string>
+    <string name="loading_progress_num">(%s%%)</string>
     <string name="error_num_placeholder">--</string>
+    <string name="doing_calc_backup_data_size">Beräknar storlek…</string>
     <string name="authentication_failed">Kunde inte verifiera konto.</string>
     <string name="no_account">Inte inloggad till Mi-konto.</string>
     <string name="no_backup">Hittade inga säkerhetskopior i Mi Cloud.</string>
@@ -181,10 +185,34 @@
     <string name="msg_alert_cancel_restore">Återställer objekt. Avbryt nu?</string>
     <string name="btn_restore_cancel">Avbryt</string>
     <string name="btn_restore_resume">Återuppta</string>
+    <string name="btn_restore_wait">Vänta på Wi-Fi</string>
+    <string name="btn_restore_continue">Återställ ändå</string>
+    <string name="msg_restore_with_metered_network_pattern">"&lt;font color='red'>&lt;b>%s&lt;/b>&lt;/font> av filer kommer laddas ner."</string>
+    <string name="msg_restore_with_metered_network_hint">Om du fortsätter att återställa dessa objekt kommer mobildata användas för att ladda ner.</string>
+    <string name="msg_restore_start_with_metered_network">"Din Hemskärm kommer att återställas. Säkerhetskopierade appar kommer laddas ner automatiskt. &lt;br />&lt;b>&lt;font color='red'>%s av filer kommer laddas ner &lt;/font>&lt;/b>"</string>
+    <string name="title_restore_with_current_network">Använd nuvarande anslutning för att ladda ner filer</string>
     <string name="title_alert_restore_error">Kunde inte återställa</string>
     <string name="msg_alert_restore_error">Det gick inte att återställa objekt från Mi Cloud. Försök igen.</string>
     <string name="btn_restore_retry">Försök igen</string>
     <string name="btn_restore_abort">Avbryt</string>
     <string name="backup_stopped_title">Säkerhetskopiering pausad</string>
     <string name="backup_stopped_msg">Denna säkerhetskopia kommer skriva över den föregående. Tryck för att visa.</string>
+    <string name="restore_network_unconnect">%s (Väntar på anslutning)</string>
+    <string name="restore_network_pause">%s (Tryck för att återställa)</string>
+    <string name="restore_detail_title">Välj objekt att återställa</string>
+    <string name="restore_detail_category_settings">Inställningar</string>
+    <string name="restore_detail_category_apps">Utseende på Hemskärmen &amp; appar</string>
+    <string name="restore_detail_more">Mer</string>
+    <string name="restore_app_order_title">Prioritera återställda objekt</string>
+    <string name="restore_app_order_search_hint">Sök efter objekt för att ange prioritet</string>
+    <string name="restore_app_order_search_prior">Högprioterade appar</string>
+    <string name="restore_app_order_search_normal">Normalprioriterade appar</string>
+    <string name="restore_app_order_search_installed">Appar på denna enhet</string>
+    <string name="restore_app_order_retry">Försök igen</string>
+    <string name="restore_app_order_retry_desc">"Kunde inte ansluta till nätverk.
+Kontrollera dina inställningar och försök igen."</string>
+    <string name="restore_app_order_loading">Vänta lite…</string>
+    <string name="restore_app_order_finish">Klar</string>
+    <string name="provision_restore_data">Återställer objekt</string>
+    <string name="provision_background_restore_more_data">Återställ fler objekt i bakgrunde</string>
 </resources>

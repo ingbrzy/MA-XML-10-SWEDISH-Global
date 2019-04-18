@@ -20,6 +20,10 @@
         <item quantity="other">Mycket kort fördröjning (%1$d ms)</item>
         <item quantity="one">Mycket kort fördröjning (%1$d ms)</item>
     </plurals>
+    <plurals name="aod_dual_togother_city">
+        <item quantity="other">" %1$stimmar %2$s"</item>
+        <item quantity="one">" %1$stimme %2$s"</item>
+    </plurals>
     <plurals name="app_notification_listing_summary_others">
         <item quantity="other">Inaktiverat för %d appar</item>
         <item quantity="one">Inaktiverat för %d app</item>
