@@ -290,7 +290,6 @@
     <string name="month_view">Månad</string>
     <string name="monthly">Varje månad</string>
     <string name="monthly_on_day">Varje månad (samma datum)</string>
-    <string name="monthly_on_day_count">Varje månad (%1$s %2$sdagen)</string>
     <string name="network_not_available">Kan inte ansluta till nätverket</string>
     <string name="new_event_description">Ny</string>
     <string name="news">Nyheter</string>
