@@ -102,6 +102,7 @@
     <string name="card_title_change">Mer</string>
     <string name="cards_language_hint">Vissa kort kanske inte finns på det valda språket.</string>
     <string name="change_response_title">Ändra svar</string>
+    <string name="change_zodiac">Ändra stjärntecken</string>
     <string name="click_to_share">Tryck för att dela</string>
     <string name="close_alarm">Avaktivera</string>
     <string name="contacts_permission_desc">Tillgång till kontaktinformation</string>
@@ -134,6 +135,7 @@
     <string name="date_interval_text_to">Till %1$s</string>
     <string name="date_jump_hint">Gå till en specifik dag direkt</string>
     <string name="date_jump_title">Gå till datum</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_today">" (idag)"</string>
     <string name="day_view_new_event_hint">Ny händelse</string>
     <string name="default_reminder_mode">Påminnelser</string>
@@ -162,9 +164,9 @@
     <string name="edit_event_input_year">Ange år</string>
     <string name="edit_event_label">Detaljer</string>
     <string name="edit_event_no_reminder_value">Påminn inte</string>
-    <string name="edit_event_reminder_3_days_before">Och påminna om 3 dagar före</string>
+    <string name="edit_event_reminder_3_days_before">Och påminn om 3 dagar innan</string>
     <string name="edit_event_reminder_summary">På händelsedagen kl. %1$s</string>
-    <string name="edit_event_reminder_summary_3_days_before">3 dagar före och på händelsedagen kl. %1$s</string>
+    <string name="edit_event_reminder_summary_3_days_before">3 dagar innan och på händelsedagen kl. %1$s</string>
     <string name="edit_event_reminder_text">På %1$s kl. %2$s</string>
     <string name="edit_event_reminder_time">Påminnelsetid</string>
     <string name="edit_event_reminder_with_another_day_text">På %1$s, %2$s kl. %3$s</string>
@@ -202,6 +204,7 @@
     <string name="event_view">Visa händelse</string>
     <string name="every_weekday">Varje vardag (mån–fre)</string>
     <string name="fb_birthday_failure">Kunde inte importera födelsedagar från Facebook. Försök igen.</string>
+    <string name="fb_birthday_region_warning">Den här funktionen är inte tillgänglig i din region</string>
     <string name="fb_birthday_success">Importerade födelsedagar från Facebook framgångsrikt</string>
     <string name="fb_calendar_account_name">Mi Lokal kalender</string>
     <string name="fb_calendar_display_name">Facebook-vänners födelsedagar</string>
@@ -290,6 +293,7 @@
     <string name="month_view">Månad</string>
     <string name="monthly">Varje månad</string>
     <string name="monthly_on_day">Varje månad (samma datum)</string>
+    <string name="monthly_on_day_count">Varje månad (%1$s)</string>
     <string name="network_not_available">Kan inte ansluta till nätverket</string>
     <string name="new_event_description">Ny</string>
     <string name="news">Nyheter</string>

@@ -81,11 +81,13 @@
     <string name="HIPS_Perm_service_foreground_Desc">förgrunds tjänster</string>
     <string name="HIPS_Perm_UDevice_ID">Dela delar av enhetsinfo med spelutvecklare för att hjälpa dem att förbättra spelupplevelsen. Godkänn?</string>
     <string name="HIPS_Perm_UDevice_ID_DESC">dela delar av enhetsinfo med spelutvecklare för att hjälpa dem att förbättra spelupplevelsen. Godkänn?</string>
+    <string name="HIPS_Perm_deamon_notification">Permanent notifikationer</string>
+    <string name="HIPS_Perm_deamon_notification_Desc">visa permanenta notifikationer</string>
     <string name="permission_group_title_charges_related">Kostnader</string>
     <string name="permission_group_title_privacy_related">Integritet</string>
     <string name="permission_group_title_media_related">Multimedia</string>
     <string name="permission_group_title_settings_related">Inställningar</string>
-    <string name="ok">OK</string>
+    <string name="ok">Okej</string>
     <string name="default_permission_description">utför okända åtgärder</string>
     <string name="location_settings">Platsinställningar</string>
     <string name="location_warning">%1$s är en leverantör av platstjänster för denna enhet. Platsåtkomst kan ändras från platsinställningar.</string>

@@ -21,7 +21,7 @@ Se den valda tangentbords sekretesspolicyn."</string>
     <string name="other_settings">Ytterligare inställningar</string>
     <string name="other_settings_location">Plats</string>
     <string name="other_settings_location_summary">Tillåt appar att få åtkomst till din plats</string>
-    <string name="other_settings_user_experience">Användarupplevelse Program</string>
+    <string name="other_settings_user_experience">Program för Användarupplevelse</string>
     <string name="other_settings_user_experience_summary">Hjälp oss förbättra våra produkter och tjänster genom att dela din användarstatistik med oss. Visa detaljer</string>
     <string name="other_settings_user_experience_summary_index">Visa detaljer</string>
     <string name="other_settings_upload_debug_log_title">Skicka data för diagnostik automatiskt</string>
@@ -92,6 +92,8 @@ Du måste godkänna Kika's Integritetspolicy innan du använder denna funktion."
     <string name="content_description_complete">Slutförd</string>
     <string name="language_picker_other_languages_title">Fler språk</string>
     <string name="language_settings">Välj språk</string>
+    <string name="font_hint_normal">Förstora textstorlek</string>
+    <string name="font_hint_large">Standard textstorlek</string>
     <string name="navigation_picker_radio_text_full_screen">Helskärmsgester</string>
     <string name="navigation_picker_radio_text_virtual_key">Knappar</string>
     <string name="congratulation_swipe">Svep för gå in i systemet</string>
@@ -119,4 +121,8 @@ Du måste godkänna Kika's Integritetspolicy innan du använder denna funktion."
     <string name="ai_button_double_press_desc">Dubbeltryck på knappen för AI för slutföra personliga inställningar</string>
     <string name="zone_picker_title">Välj tidszon</string>
     <string name="locale_picker_other_locale_title">Fler regioner</string>
+    <string name="skip_gesture_guide_dialog_title">Helskärmsgester</string>
+    <string name="skip_gesture_guide_dialog_message">Se till att du vet hur du använder helskärmsgester innan du väljer detta alternativ.</string>
+    <string name="skip_gesture_guide_dialog_negative_btn">Avbryt</string>
+    <string name="skip_gesture_guide_dialog_positive_btn">Okej</string>
 </resources>

@@ -15,7 +15,7 @@
     <string name="add_to_album_success">Tillagd i album</string>
     <string name="add_to_album_tip">Bilder i molnet</string>
     <string name="add_to_favorites_failed">Kunde inte lägga till i favoriter</string>
-    <string name="add_to_secret_exist">Bild finns redan i dolda album</string>
+    <string name="add_to_secret_exist">Detta objekt finns redan i ett dolt album</string>
     <string name="add_to_secret_fail">Kunde inte lägga till i dolda album</string>
     <string name="add_to_secret_failed_with_reason">Kan inte lägga till i dolda album. %1$s.</string>
     <string name="add_to_secret_successful">Lagt till i dolda album</string>
@@ -32,13 +32,14 @@
     <string name="adjust_saturation">Mättnad</string>
     <string name="adjust_sharpen">Skärpa</string>
     <string name="adjust_vignette">Vingette</string>
-    <string name="agreement_agree">Godkänn</string>
+    <string name="agreement_agree">Acceptera</string>
     <string name="agreement_optional_tip">(Valfri)</string>
     <string name="agreement_quit">Avsluta</string>
-    <string name="agreement_required_tip">(Obligatoriskt)</string>
+    <string name="agreement_required_tip">(Obligatorisk)</string>
     <string name="agreement_summary">Juridiska dokument</string>
     <string name="ai_album_open_switch_button_title">Börja analysera bilder</string>
     <string name="ai_album_requesting_title">AI-algoritmen bearbetar fortfarande dina foton. Kom tillbaka om ett tag.</string>
+    <string name="ai_album_setting_key_word">Sök efter bilder</string>
     <string name="ai_album_setting_sub_title">Låt AI-algoritmen identifiera personer, platser och objekt på dina foton så att du kan hitta dem snabbare.</string>
     <string name="ai_album_setting_title">Identifiera objekt på foton</string>
     <string name="album_already_exists_check">Visa</string>
@@ -185,9 +186,11 @@
     <string name="backup_with_gprs_dialog_message">%s av data krävs för att säkerhetskopiera. Säkerhetskopiera nu?</string>
     <string name="backup_with_gprs_dialog_title">Säkerhetskopiera via mobildata</string>
     <string name="backuped_desc">Foto och video säkerhetskopieras automatiskt till Mi Cloud</string>
-    <string name="backuped_title">Säkerhetskopiering framgångsrikt skapat</string>
+    <string name="backuped_title">Säkerhetskopierats</string>
     <string name="backuping_title_gprs">Säkerhetskopierar via mobildata…</string>
     <string name="backuping_title_normal">Säkerhetskopierar…</string>
+    <string name="base_btn_cancel">Avbryt</string>
+    <string name="base_btn_download">Ladda ned</string>
     <string name="begin_share">Skapade Bebisalbum \"%s\", du kan dela det nu</string>
     <string name="begin_share_toast">Skapa ett separat album för barnet innan delning?</string>
     <string name="blank_app_name" />
@@ -499,6 +502,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="face_name_edit">Redigera</string>
     <string name="face_name_input">Ange namn</string>
     <string name="face_recommend">Rekommendationer</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunde inte slutföra åtgärden</string>
     <string name="fail_to_pick_email">Ogiltig e-postadress</string>
     <string name="fail_to_sync_album">Kunde inte synkronisera album. Kolla din datakoppling och försök igen.</string>
@@ -509,6 +513,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="feature_guidance_photo_effects">"Nya foto effects
 are tillgänglig"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nya effekter finns</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_bw">B&amp;W</string>
     <string name="filter_bi_dusk">Skymning</string>
     <string name="filter_bi_lilt">Glad melodi</string>
@@ -526,6 +531,7 @@ are tillgänglig"</string>
     <string name="filter_category_master">Master</string>
     <string name="filter_category_portrait">Porträtt</string>
     <string name="filter_category_scene">Landskap</string>
+    <string name="filter_category_sky">Himmel</string>
     <string name="filter_film_blackwhite">B&amp;W</string>
     <string name="filter_film_dew">Dagg</string>
     <string name="filter_film_fade">Blekna</string>
@@ -568,6 +574,17 @@ are tillgänglig"</string>
     <string name="filter_scene_series">Reflektioner</string>
     <string name="filter_scene_vivid">Levande</string>
     <string name="filter_scene_warm">Sol</string>
+    <string name="filter_sky_cloudy">Molnigt</string>
+    <string name="filter_sky_detect_forbidden_tips">Kunde inte identifiera himmel</string>
+    <string name="filter_sky_download_failed">Kunde inte ladda ner plug-in. Kontrollera dina nätverksinställningar och försök igen.</string>
+    <string name="filter_sky_download_finish">Plug-in nedladdat</string>
+    <string name="filter_sky_download_sdk_without_wifi_msg">Om du inte är ansluten till Wi-Fi kan du använda mobildata för att ladda ner plug-in (%1$dMB) som tillåter dig att ersätta himlen på dina foton.</string>
+    <string name="filter_sky_download_sdk_without_wifi_title">Ladda ner plug-in</string>
+    <string name="filter_sky_dusk">Skymning</string>
+    <string name="filter_sky_glow">Sken</string>
+    <string name="filter_sky_rainbow">Regnbåge</string>
+    <string name="filter_sky_sunny">Soligt</string>
+    <string name="filter_sky_sunset">Solnedgång</string>
     <string name="finish_create_baby_album_toast">Skapa album för \"%s\" i Mi Cloud</string>
     <string name="finish_fill_baby">Skapa</string>
     <string name="flash_off">Ingen blixt</string>
@@ -582,11 +599,12 @@ are tillgänglig"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Ange</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri behöver tillgång till 
 %s
  för att fungera normalt, tryck på \"Tillämpa\" för att gå till Behörigheter."</string>
     <string name="grant_permission_title">Tillåt åtkomst</string>
-    <string name="grant_permission_unlock_and_set">Lås upp och ställ in</string>
+    <string name="grant_permission_unlock_and_set">Lås upp och konfigurera</string>
     <string name="has_invalid_recipient">Ogiltig mottagare: %1$s</string>
     <string name="have_known">Jag förstår</string>
     <string name="hidden_album_display_name">Dolda album</string>
@@ -835,6 +853,7 @@ för att göra galleriet personligt"</string>
     <string name="people_mark_mode_title_no_mark_name">Välj en person</string>
     <string name="people_page_label">Människor</string>
     <string name="people_page_unname">Namnlös</string>
+    <string name="percent_sign">%</string>
     <string name="permissin_contract_desc">För att namnge människor på foton</string>
     <string name="permission_contract_name">Kontakter</string>
     <string name="permission_optional_category">Valfria behörigheter</string>
@@ -1030,7 +1049,12 @@ för att göra galleriet personligt"</string>
     <string name="scan_barcode_to_join">Scanna QR-kod för att lägga till album</string>
     <string name="scan_qr_code_buttom_text">Scanna QR-koden för att titta på albumet</string>
     <string name="screen_doodle_talkback_size">Linjebredd Doodle</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">Klar</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">Avbryt</string>
     <string name="screen_save_dialog_btn_delete">Ta bort skärmdump</string>
     <string name="screen_save_dialog_btn_save">Spara till Galleri</string>
@@ -1088,6 +1112,9 @@ för att göra galleriet personligt"</string>
     <string name="search_title_recommend">Rekommenderad</string>
     <string name="search_title_suggestion">Förslag</string>
     <string name="search_title_tag">Objekt</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Söker efter projektor…</string>
     <string name="secret_album_card_description">Bästa platsen för alla dina små hemligheter</string>
     <string name="secret_album_card_title">Försök dolda album</string>
@@ -1107,7 +1134,7 @@ för att göra galleriet personligt"</string>
     <string name="secret_reason_unknow_reasons">Okänt fel</string>
     <string name="secret_reason_video_not_support">Kan inte lägga till videor dolda album</string>
     <string name="see_ignore_faces">Visa personer du har ignorerat</string>
-    <string name="select_all">Markera allt</string>
+    <string name="select_all">Välj alla</string>
     <string name="select_image_operation">Lägger till foton</string>
     <string name="select_item_face">"Är detta '%s'?"</string>
     <string name="select_origin_tip">Originalfil (%s)</string>
@@ -1205,7 +1232,7 @@ för att göra galleriet personligt"</string>
     <string name="sync_off_title">Aktivera synkronisering med Mi Cloud för att säkerhetskopiera foto och video automatiskt</string>
     <string name="sync_pending_title">Kommer att synkroniseras automatiskt</string>
     <string name="sync_state_unknow">Hämtar information</string>
-    <string name="synced_title">Säkerhetskopierade foto och video framgångsrikt</string>
+    <string name="synced_title">Foto och video säkerhetskopierades</string>
     <string name="syncing_gprs_title">Använd mobildata för att säkerhetskopiera</string>
     <string name="syncing_metadata_title">Synkroniserar Mi Cloud data</string>
     <string name="syncing_normal_title">Säkerhetskopierar foto och video</string>
@@ -1251,6 +1278,7 @@ för att göra galleriet personligt"</string>
     <string name="today">Idag</string>
     <string name="too_many_recipients">Kan inte lägga till mer än %2$s mottagare (du har för tillfället lagt till %1$s).</string>
     <string name="trash_bin">Papperskorg</string>
+    <string name="trash_bin_key_word">Borttagna bilder</string>
     <string name="trash_bin_summary">Bläddra bland säkerhetskopierade bilder som har tagits bort nyligen</string>
     <string name="try_again_later">Försök igen senare.</string>
     <string name="try_to_send">Skicka</string>
@@ -1267,7 +1295,7 @@ för att göra galleriet personligt"</string>
     <string name="user_agreement2">Användarvillkor</string>
     <string name="user_agreement4">Integritetspolicy</string>
     <string name="user_alias_self">Själv</string>
-    <string name="user_notice_identify_summary_format">"Genom att använda denna tjänsten, godkänner du Xiaomi's %1$s och %2$s."</string>
+    <string name="user_notice_identify_summary_format">"Genom att använda denna tjänsten godkänner du Xiaomi's %1$s och %2$s."</string>
     <string name="user_notice_title">Villkor</string>
     <string name="video_edit_file_not_exits_tip">Ladda ner video först</string>
     <string name="video_editor_abandon_changes_tip_message">Ignorera alla ändringar?</string>

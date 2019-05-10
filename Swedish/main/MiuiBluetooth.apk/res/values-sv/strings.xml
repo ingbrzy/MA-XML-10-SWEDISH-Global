@@ -79,7 +79,7 @@
     <string name="mi_key_take_photo">Ta bild</string>
     <string name="notify_device_lose_connection_text">Tryck för att frånkoppla %1$s</string>
     <string name="notify_device_lose_connection_title">Tappat anslutningen med %1$s</string>
-    <string name="ok_button">OK</string>
+    <string name="ok_button">Okej</string>
     <string name="progress_scanning">Söker…</string>
     <string name="reset_function_msg">Återställa denna funktion kan förhindra %1$s från att fungera normalt.</string>
     <string name="search_menu_title">Sök</string>

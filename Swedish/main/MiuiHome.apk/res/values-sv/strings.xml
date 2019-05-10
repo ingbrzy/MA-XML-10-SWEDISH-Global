@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="action_add_to_workspace">Lägg till i Arbetsutrymmet</string>
     <string name="activity_not_found">Appen är inte installerad på din enhet</string>
     <string name="add_screen">Lägg till skärm</string>
@@ -110,9 +111,12 @@
     <string name="drag_single_item_name" />
     <string name="dual_app">Dubbelappar</string>
     <string name="edit_folder_title">Ändra mappnamn</string>
+    <string name="edit_mode_dual_app">Skapa en Dubbelapp</string>
     <string name="edit_mode_group">Grupp</string>
+    <string name="edit_mode_group_error_cant_delete_system_apps">Det går inte att avinstallera systemappar</string>
     <string name="edit_mode_group_error_full">Inte tillräckligt med utrymme</string>
     <string name="edit_mode_group_error_in_folder">Stäng mappen innan ikonerna grupperas</string>
+    <string name="edit_mode_group_error_nothing_be_selected">Välj en app först</string>
     <string name="edit_mode_group_error_one_folder">Kan inte duplicera en mapp med valda ikoner</string>
     <string name="edit_mode_top_menu_finish">Klar</string>
     <string name="edit_mode_uninstall">Avinstallera</string>
@@ -186,15 +190,22 @@
     <string name="guide_install_app_msg">Appen är inte installerad på din enhet. Hitta och installera appen nu?</string>
     <string name="guide_install_app_title">Hitta och installera app?</string>
     <string name="guide_tips_editing_mode">Tryck &amp; håll för att plocka upp en widget</string>
+    <string name="home_gesture_content_center">Innehållscenter</string>
+    <string name="home_gesture_global_search">Sök</string>
+    <string name="home_gesture_no_action">Inga</string>
+    <string name="home_gesture_notification_bar">Notifikationer</string>
+    <string name="home_pull_down_action">Svep nedåt på Hemskärmen</string>
     <string name="home_screen">Hemskärm</string>
+    <string name="home_slide_up_action">Svep uppåt på Hemskärmen</string>
     <string name="icon_reorganize_channel">Ordna ikoner</string>
     <string name="image_too_small_message">Originalbilden är inte tillräckligt stor.</string>
     <string name="install">Installera</string>
     <string name="invalid_contact_shortcut">Ogiltig kontakt</string>
     <string name="is_setting_wallpaper_message">Använder bakgrund…</string>
     <string name="is_system_wallpaper_message">Kan inte ta bort systemresurser</string>
-    <string name="launcher_auto_fill_empty_title">Fyll tomma celler</string>
     <string name="launcher_not_exist">Ett fel uppstod. Gå tillbaka till Hemskärmen och försök igen.</string>
+    <string name="launcher_pull_down_title">Svep nedåt på Hemskärmen</string>
+    <string name="launcher_slide_up_title">Svep uppåt på Hemskärmen</string>
     <string name="launcher_sliding_up_gesture">Svep upp på Hemskärmen för att söka</string>
     <string name="launcher_title">Hemskärm &amp; senast använda appar</string>
     <string name="like">Lägg till i favoriter</string>
@@ -210,7 +221,7 @@
     <string name="memory_clear_nothing_result">Inget att rensa i cache</string>
     <string name="memory_clear_result">%1$sB frigjort</string>
     <string name="menu_add">Lägg till</string>
-    <string name="menu_auto_fill">Fyll tomma celler</string>
+    <string name="menu_auto_fill_of_uninstall">Fyll celler efter avinstallerade appar</string>
     <string name="menu_back_desktop">Tillbaka till Hemskärmen</string>
     <string name="menu_cell_setting">Hemskärmens utseende</string>
     <string name="menu_customize">Inställningar</string>
@@ -231,6 +242,7 @@
     <string name="menu_wallpaper">Bakgrund</string>
     <string name="menu_workspace_preview">Förhandsvisa Hemskärm</string>
     <string name="mi_wallpaper">Teman från MIUI</string>
+    <string name="minus_one_screen">App vault</string>
     <string name="miui_screen_config_title">Inställningar för Hemskärm</string>
     <string name="mtzgadget_missing_text">Widget är inte tillgänglig</string>
     <string name="multi_selecting_tips">För att plocka upp en app, dra ikonen och släpp här.</string>
@@ -356,16 +368,7 @@
     <string name="widget_global_search">Sök</string>
     <string name="widget_quick_function">Snabbfunktioner</string>
     <string name="widgets_preview_title">Lägg till widget</string>
-    <string name="edit_mode_dual_app">Skapa en Dubbelapp</string>
-    <string name="edit_mode_group_error_cant_delete_system_apps">Det går inte att avinstallera systemappar</string>
-    <string name="edit_mode_group_error_nothing_be_selected">Välj en app först</string>
-    <string name="home_gesture_content_center">Innehållscenter</string>
-    <string name="home_gesture_global_search">Sök</string>
-    <string name="home_gesture_no_action">Inga</string>
-    <string name="home_gesture_notification_bar">Notifikationer</string>
-    <string name="home_pull_down_action">Svep nedåt på Hemskärmen</string>
-    <string name="home_slide_up_action">Svep uppåt på Hemskärmen</string>
-    <string name="launcher_pull_down_title">Svep nedåt på Hemskärmen</string>
-    <string name="launcher_slide_up_title">Svep uppåt på Hemskärmen</string>
-    <string name="minus_one_screen">App vault</string>
+    <string name="privacy_thumbnail_blur_summary">Blur app previews in Recents</string>
+    <string name="privacy_thumbnail_blur_title">Blur app previews</string>
+    <string name="system_shortcuts_more_operation">Appinformation</string>
 </resources>

@@ -218,6 +218,7 @@ För att aktivera ditt konto, följ
     <string name="passport_talkback_switch_image_captcha">Byt till bildverifieringskod</string>
     <string name="passport_license_info_open">Detaljer</string>
     <string name="passport_license_info_collapse">Fäll ihop</string>
+    <string name="passport_first_login_prompt">Mi-konto kommer skapas automatiskt när du loggar in första gången.</string>
     <string name="search_app_name">Mi-konto</string>
     <string name="search_mi_account">Mi-konto</string>
     <string name="search_mi_account_key_words">Mi Cloud, Kontoinställningar, Mi Pay, Logga ut</string>
@@ -352,6 +353,8 @@ För att aktivera ditt konto, följ
     <string name="activity_not_found_notice">Kan inte hitta appen</string>
     <string name="scan_barcode_title">För att logga in på ditt Mi konto, skanna QR-koden</string>
     <string name="talkback_scan_barcode">Skanna QR-kod</string>
+    <string name="scan_barcode">Skanna QR-kod för att logga in</string>
+    <string name="agreement_and_privacy">Integritetspolicy och Användarvillkor</string>
     <string name="authorize_title">Tillstånd</string>
     <string name="my_device_title">Aktuella enheten</string>
     <string name="device_list_title">Min enhet</string>
@@ -418,9 +421,8 @@ För att aktivera ditt konto, följ
     <string name="push_notify_dialog_title">Kontoverifiering</string>
     <string name="push_notify_dialog_message">En okänd enhet användes för att logga in på ditt Mi-konto. Ange denna verifieringskod på enheten. Om det inte var du, ändra ditt lösenord på ditt Mi-Konto snarast. Ge inte ut verifieringskoden till andra personer.</string>
     <string name="account_secure_info_pref_title">Kontoinformation</string>
-    <string name="account_user_email">E-post</string>
-    <string name="account_user_phone">Telefon</string>
-    <string name="account_user_recovery_phone">Återställ telefon</string>
+    <string name="account_user_email">Återställ E-post</string>
+    <string name="account_user_phone">Återställ telefon</string>
     <string name="input_new_pwd">Ange nytt lösenord</string>
     <string name="confirm_new_pwd">Bekräfta nytt lösenord</string>
     <string name="inconsistent_pwd">Lösenorden matchar inte</string>

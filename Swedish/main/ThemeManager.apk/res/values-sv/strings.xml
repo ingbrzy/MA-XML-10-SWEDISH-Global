@@ -38,7 +38,9 @@
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Ljud</string>
@@ -50,6 +52,7 @@
     <string name="exo_track_surround_7_point_1">7.1-kanaligt surroundljud</string>
     <string name="exo_track_unknown">Okänt</string>
     <string name="search_menu_title">Sök</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="accessibility_setting_hint">"Tryck på knappen i det övre högra hörnet för att aktivera denna tjänst.
 Teman kommer att upptäcka vilka appar du använder och visa transparenta bakgrunder i apparna som du väljer"</string>
     <string name="accessibiliy_description_content_account">Profil</string>
@@ -89,10 +92,11 @@ Teman kommer att upptäcka vilka appar du använder och visa transparenta bakgru
     <string name="apply_theme_with_ringtones">Använd tema ringsignaler</string>
     <string name="audio_duration_minutes_format">%1$d minuter</string>
     <string name="audio_duration_seconds_format">%1$d sekunder</string>
+    <string name="audition_ringtone">Spela upp</string>
     <string name="automatically_update_using_theme_tips">Uppdatera automatiskt nästa gång</string>
     <string name="backup_theme_dialog_message">Säkerhetskopiera din nuvarande tema?</string>
     <string name="backup_theme_dialog_ok">Säkerhetskopiering</string>
-    <string name="backup_theme_fail_trial_rights_message">Det går inte att säkerhetskopiera objekt som är på prövotid</string>
+    <string name="backup_theme_fail_trial_rights_message">Det går inte att säkerhetskopiera objekt som är på utvärderingsperiod</string>
     <string name="backup_theme_name">Tema säkerhetskopiering</string>
     <string name="backup_theme_progress_message">Säkerhetskopierar…</string>
     <string name="backup_theme_success_message">Dina aktuella temainställningar har säkerhetskopierats.</string>
@@ -115,6 +119,7 @@ Teman kommer att upptäcka vilka appar du använder och visa transparenta bakgru
     <string name="component_title_settings_video_wallpaper">Bakgrundsbilder med specialeffekter</string>
     <string name="component_title_video_wallpaper">Bakgrunder från filmer</string>
     <string name="component_title_wallpaper">Bakgrunder</string>
+    <string name="count_down_tip">%ds återstår</string>
     <string name="current_using_desktop_wallpaper_text">Hemskärm</string>
     <string name="current_using_lockscreen_wallpaper_text">Låsskärm</string>
     <string name="current_version_incompatible">Inte kompatibel</string>
@@ -206,11 +211,13 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="incompatible_dialog_ok">Jag förstår</string>
     <string name="incompatible_dialog_title">Kompatibilitetsproblem</string>
     <string name="is_setting_wallpaper_message">Ställer in bakgrund…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarm</string>
     <string name="item_resource_audio_optional_color_ring">Kopplingston</string>
     <string name="item_resource_audio_optional_notification_ring">Notifikationer</string>
     <string name="item_resource_audio_optional_phone_ring">Ringsignal</string>
     <string name="lab">Teman laboratorium</string>
+    <string name="like_list">Objekt som jag gillade</string>
     <string name="live_wallpaper">Levande bakgrund</string>
     <string name="loading">Vänta lite…</string>
     <string name="loading_resource_detail_fail">Det går inte att ladda resursen</string>
@@ -277,6 +284,7 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="online_precust_plant">Krukväxt</string>
     <string name="online_precust_scenery">Omgivning</string>
     <string name="online_search_hint">Sök efter onlineresurser</string>
+    <string name="playing_ringtone">Spelar</string>
     <string name="pref_privacy_policy">Integritetspolicy</string>
     <string name="present_local_fonts">Mina teckensnitt</string>
     <string name="present_local_themes">Mina Teman</string>
@@ -309,7 +317,6 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="resource_alarm_default">Alarm</string>
     <string name="resource_app_name">Visa resurser</string>
     <string name="resource_apply">Tillämpa</string>
-    <string name="resource_apply_trial">Försök nu</string>
     <string name="resource_back">Tillbaka</string>
     <string name="resource_buy">Köpa</string>
     <string name="resource_can_not_selected">%1$s kan inte väljas</string>
@@ -380,7 +387,6 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="resource_download">Ladda ner</string>
     <string name="resource_download_notification_title_many">%1$s tema nedladdad</string>
     <string name="resource_download_notification_title_one">Tema nedladdad</string>
-    <string name="resource_download_trial">Prova gratis</string>
     <string name="resource_downloaded_title">Nedladdade resurser</string>
     <string name="resource_downloading">Laddar ner</string>
     <string name="resource_exchange">Återlösa</string>
@@ -435,6 +441,7 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="resource_pack_price_info">Originalpris: %1$s</string>
     <string name="resource_pack_warning">Du har redan köpt %1$d komponenter i detta tema. Det är billigare om du köper de återstående komponenterna individuellt.</string>
     <string name="resource_present">Gåva</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Gratis</string>
     <string name="resource_price_unit"> Mi Krediter</string>
     <string name="resource_purchase_common_error">Ett fel uppstod, försök igen</string>
@@ -446,9 +453,13 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="resource_ranking">Populär</string>
     <string name="resource_ranking_free">Gratis</string>
     <string name="resource_ranking_purchase">Betald</string>
+    <string name="resource_ring_ranking_list_divider">-</string>
+    <string name="resource_ring_ranking_list_rank_1">1</string>
+    <string name="resource_ring_ranking_list_rank_2">2</string>
+    <string name="resource_ring_ranking_list_rank_3">3</string>
     <string name="resource_ringtone_default">Ringsignaler</string>
     <string name="resource_ringtone_playing_error">Fel</string>
-    <string name="resource_ringtone_volume_mute">Ringer är tystad</string>
+    <string name="resource_ringtone_volume_mute">Ringsignal är tystad</string>
     <string name="resource_save_to_note">Spara till Notes</string>
     <string name="resource_search_color_hint_blue">Blå</string>
     <string name="resource_search_color_hint_green">Grön</string>
@@ -487,7 +498,7 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="resource_trial_end_checkbox_hint">Få Mi krediter först</string>
     <string name="resource_trial_end_get_mibi">Få Mi krediter</string>
     <string name="resource_trial_end_jump_hint">Omdirigerar…</string>
-    <string name="resource_trial_end_message">Prövotid av %1$s har gått ut. Köp det om du gillar det.</string>
+    <string name="resource_trial_end_message">Utvärderingsperiod av %1$s har gått ut. Köp det om du gillar det.</string>
     <string name="resource_trial_end_purchase">Köp</string>
     <string name="resource_trial_end_restore">Avsluta försök</string>
     <string name="resource_trial_end_time">(försök tills %1$s)</string>
@@ -540,8 +551,6 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="theme_changed_failed_message">Det går inte att tillämpa tema</string>
     <string name="theme_changed_message">Tema Tillämpad</string>
     <string name="theme_changing_dialog_title">"Tillämpar "</string>
-    <string name="theme_comment_dialog_message">Betygsätt denna app och berätta vad du tycker.</string>
-    <string name="theme_comment_dialog_ok">Takt</string>
     <string name="theme_component_title_alarm">Alarm</string>
     <string name="theme_component_title_alarmstyle">Alarm stil</string>
     <string name="theme_component_title_all">Teman</string>
@@ -585,13 +594,13 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="theme_is_external_priority_storage">Spara till SD-kort</string>
     <string name="theme_is_external_priority_storage_summary">Tema-appen kommer starta direkt för att verkställa inställningar.</string>
     <string name="theme_multiple_button_title_customize">Anpassa</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Nej</string>
     <string name="theme_purchased_list_empty">Du har inte köpt några teman.</string>
     <string name="theme_purchased_non_local">Online</string>
     <string name="theme_select_others">Bläddra</string>
     <string name="theme_setting">Inställningar</string>
     <string name="theme_staggered_item_text">Få Mi krediter</string>
-    <string name="theme_to_comment">Inte illa!</string>
     <string name="theme_user_agreement_allow">Godkänn</string>
     <string name="theme_user_agreement_content1">"Genom att använda denna produkt, godkänner du till vår "</string>
     <string name="theme_user_agreement_content2">Användaravtal</string>
@@ -630,6 +639,17 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="transparent_wallpaper_guide">Gå till Teman</string>
     <string name="transparent_wallpaper_guide_tip">Du kan välja en transparent bakgrundsbild i Teman nu.</string>
     <string name="transparent_wallpaper_pref_summary">Bakgrundsbilder med mindre bakgrundsopacitet</string>
+    <string name="transparent_wallpaper_white_wallpaper">Gör bakgrunden vit</string>
+    <string name="transparent_wallpaper_white_wallpaper_failed">Det gick inte att göra bakgrunden vit</string>
+    <string name="transparent_wallpaper_white_wallpaper_success">Bakgrundsfärgen är vit nu</string>
+    <string name="transparent_wallpaper_white_wallpaper_tip">Transparent bakgrundsbild ser bäst ut på vit bakgrund</string>
+    <string name="trial_count_empty">Inga fler gratisobjekt kvar idag. Kom tillbaka imorgon!</string>
+    <string name="trial_count_tip">Utvärderingsperioden slutar om %1$s:%2$s:%3$s</string>
+    <string name="trial_for_free">Gratis utvärderingsperiod</string>
+    <string name="trial_get_failed_tip">Titta färdigt på videon för att hämta temat.</string>
+    <string name="trial_get_success_tip">Grattis! Du har fått en 3-dagars utvärderingsperiod.</string>
+    <string name="trial_now">Prova nu</string>
+    <string name="try_5_min">Prova i 5 minuter</string>
     <string name="uid_change_dialog_message">Du har tagit bort uppdateringar. Starta om enheten nu för kunna använda teman.</string>
     <string name="uid_change_dialog_ok">Jag förstår</string>
     <string name="uid_change_dialog_title">Starta om enheten</string>
@@ -647,6 +667,11 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="using_theme_next_automatic_update">Automatiska uppdateringar</string>
     <string name="using_theme_next_automatic_update_summary">Uppdatera nerladdade teman automatiskt via Wi-Fi när skärmen är låst</string>
     <string name="using_theme_show_ad">Rekommendationer</string>
+    <string name="video_ad_click">Prova nu</string>
+    <string name="video_ad_try_for_free">Gratis utvärderingsperiod</string>
+    <string name="video_ad_uncomplete_tip">Titta färdigt på videon för att hämta temat.</string>
+    <string name="video_ad_uncomplete_tip_cancel">Avbryt</string>
+    <string name="video_ad_uncomplete_tip_continue">Fortsätt titta</string>
     <string name="video_audio_apply_success">Konfigurerad video med ljud lyckades</string>
     <string name="video_data_tips_message">Att använda mobildata kan generera ytterligare avgifter. Fortsätt ändå?</string>
     <string name="video_data_tips_title">Varning för dataanvändning</string>

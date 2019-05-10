@@ -3,7 +3,12 @@
     <string name="allow">Godkänn</string>
     <string name="app_name">Kalkylator</string>
     <string name="app_name_danfa">Mi Kalkylator</string>
+    <string name="app_notification_info">Kalkylatorn fungerar i bakgrunden</string>
     <string name="base_rate">Bas ränta</string>
+    <string name="btn_float_window_alpha">Justera opacitet</string>
+    <string name="btn_float_window_back_to_app">Maximera kalkylatorn</string>
+    <string name="btn_float_window_close">Stäng minimerad kalkylator</string>
+    <string name="btn_float_window_resize">Ändra storlek på minimerad kalkylatorn</string>
     <string name="cal_convert_to_word_figure">Omvandla till finansiella bokstäver</string>
     <string name="cal_copy">Kopiera</string>
     <string name="cal_edit_mode">Redigeringsläge</string>
@@ -71,6 +76,7 @@
     <string name="extra_deduction_tips">Tryck på knappen i det övre hörnet av skärmen för att visa avdragsdetaljer.</string>
     <string name="extra_deduction_title">Ytterligare avdrag</string>
     <string name="factorialDesc">faktoriell</string>
+    <string name="float_window_guide_text">Tryck här för att minimera kalkylatorn</string>
     <string name="fund" />
     <string name="fund_loan">Finansiera lån</string>
     <string name="further_education">Vidareutbildning</string>
@@ -91,6 +97,7 @@
     <string name="golbal_search_calculator_setting">Kalkylator; Miniräknarens inställningar; Inställningar</string>
     <string name="golbal_search_path_calculator_setting">Systemappar/Kalender/Inställningar</string>
     <string name="help_content_desc">Hjälp</string>
+    <string name="hint_floatwindow_alpha_guide_text">Tryck för att justera opaciteten</string>
     <string name="home_loan">Räntekostnader</string>
     <string name="home_title_calculator">Kalkylator</string>
     <string name="house_rent">Hyra</string>
@@ -569,6 +576,7 @@
     <string name="unit_yuan">CNY</string>
     <string name="updating">Uppdatera Kalkylator…</string>
     <string name="user_agreement">Användarvillkor</string>
+    <string name="view_float_window_move">Flytta minimerad kalkylatorn</string>
     <string name="voiceDesc">Röstkommandon</string>
     <string name="wf_word_figure">Finansiella bokstäver</string>
     <string name="word_figure_big_unit_fen">分</string>
@@ -592,20 +600,15 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Det gick inte ansluta till Nedladdningar. Kontrollera om denna app har alla nödvändiga behörigheter i inställningarna > Installerade appar.</string>
     <string name="xiaomi_external_storage_unavailable">Lagringsutrymmet är inte tillgängligt. Kontrollera ditt SD-kort.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_update_dialog_message">"Introducerar version %1$s
 Size: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerar version %1$s
 Delta uppdateringsstorlek: %2$s"</string>
     <string name="xiaomi_update_dialog_title">%1$s uppdatering!</string>
     <string name="year" />
-    <string name="app_notification_info">Kalkylatorn fungerar i bakgrunden</string>
-    <string name="btn_float_window_alpha">Justera opacitet</string>
-    <string name="btn_float_window_back_to_app">Maximera kalkylatorn</string>
-    <string name="btn_float_window_close">Stäng minimerad kalkylator</string>
-    <string name="btn_float_window_resize">Ändra storlek på minimerad kalkylatorn</string>
-    <string name="float_window_guide_text">Tryck här för att minimera kalkylatorn</string>
-    <string name="hint_floatwindow_alpha_guide_text">Tryck för att justera opaciteten</string>
-    <string name="view_float_window_move">Flytta minimerad kalkylatorn</string>
 </resources>

@@ -50,6 +50,8 @@
     <string name="self_device_second_space">Telefonens Sekundära utrymme</string>
     <string name="other_device_main_space">Primära utrymmet</string>
     <string name="other_device_second_space">Sekundära utrymmet</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Återställer \"%s\"</string>
     <string name="size_unknown">Okänd storlek</string>
     <string name="recovering">Återställer %s</string>
@@ -134,6 +136,7 @@
     <string name="provision_error_connect_msg">Testa nätverket och försök igen. Säkerhetskopior är inte tillgängliga när enheten är offline.</string>
     <string name="provision_error_connect_title">Kan inte ansluta</string>
     <string name="loading_user_backup">Laddar säkerhetskopia…</string>
+    <string name="loading_progress_num">(%s%%)</string>
     <string name="error_num_placeholder">--</string>
     <string name="doing_calc_backup_data_size">Beräknar storlek…</string>
     <string name="authentication_failed">Kunde inte verifiera konto.</string>
@@ -196,6 +199,7 @@
     <string name="backup_stopped_msg">Denna säkerhetskopia kommer skriva över den föregående. Tryck för att visa.</string>
     <string name="restore_network_unconnect">%s (Väntar på anslutning)</string>
     <string name="restore_network_pause">%s (Tryck för att återställa)</string>
+    <string name="hint_restore_cross_space">Hemskärmens utseende kan visas felaktigt om överför objekt mellan utrymmena.</string>
     <string name="restore_detail_title">Välj objekt att återställa</string>
     <string name="restore_detail_category_settings">Inställningar</string>
     <string name="restore_detail_category_apps">Utseende på Hemskärmen &amp; appar</string>
@@ -212,4 +216,6 @@ Kontrollera dina inställningar och försök igen."</string>
     <string name="restore_app_order_finish">Klar</string>
     <string name="provision_restore_data">Återställer objekt</string>
     <string name="provision_background_restore_more_data">Återställ fler objekt i bakgrunde</string>
+    <string name="selected">Valda</string>
+    <string name="unselected">Inte vald</string>
 </resources>

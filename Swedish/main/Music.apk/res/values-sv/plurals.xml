@@ -79,8 +79,8 @@ Oppmärkning: Fil kommer också att raderas från den här enheten."</item>
         <item quantity="one">&lt;font color==\"red\">%d låt&lt;/font> laddas ned</item>
     </plurals>
     <plurals name="free_downloads_num_hint">
-        <item quantity="other">Gratis nerladdningar återstår, %d låtar</item>
-        <item quantity="one">Gratis nerladdningar återstår, %d låt</item>
+        <item quantity="other">%d gratis nerladdningar återstår</item>
+        <item quantity="one">%d gratis nerladdning återstår</item>
     </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d objekt valda</item>
@@ -123,7 +123,7 @@ Oppmärkning: Fil kommer också att raderas från den här enheten."</item>
         <item quantity="one">%1$s visning</item>
     </plurals>
     <plurals name="vip_remain_days_hint">
-        <item quantity="other">Återstår %d dagar</item>
-        <item quantity="one">Återstår %d dag</item>
+        <item quantity="other">%d dagar kvar</item>
+        <item quantity="one">%d dag kvar</item>
     </plurals>
 </resources>

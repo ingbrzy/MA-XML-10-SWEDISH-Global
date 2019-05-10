@@ -29,7 +29,7 @@
     <string name="already_updated">Uppdaterad</string>
     <string name="app_label">Meddelanden</string>
     <string name="app_name">Enheter</string>
-    <string name="application_list_title">Mini app</string>
+    <string name="application_list_title">Miniappar</string>
     <string name="attach_group_chat">Gruppchatt</string>
     <string name="attach_image">Bilder</string>
     <string name="attach_rcs_file">Fil</string>
@@ -173,6 +173,8 @@
     <string name="dialog_message_mx">Mi Meddelande tillåter dig att skicka meddelanden till andra MIUI-enheter utan att ådra sig avgifter. Ett utgående SMS-meddelande krävs för att aktivera Mi Meddelande. Din operatör debiterar dig för det här meddelandet. Du måste godkänna vår \"%1$s\" och \"%2$s\" innan du använder Mi Message.</string>
     <string name="dialog_message_networking">Meddelande behöver att använda Gula sidorna för att kunna tillhandahålla Sändar-ID. Meddelande och Gula sidorna behöver ansluta till internet och få åtkomst till din position för att fungera normalt. Tillåt?</string>
     <string name="dialog_message_rcs">China Mobile Messaging kan du skicka meddelanden till andra China Mobile-användare i fastlandet Kina utan förbundsstyrkorna avgifter. Du måste godkänna ”%1$s” innan du använder China Mobile Messaging.</string>
+    <string name="dialog_sim_locked_confirm">OK</string>
+    <string name="dialog_sim_locked_message">"Your SIM card isn't fully operational with this phone because it doesn't comply with the terms and conditions of your subscription. If you have any questions or need more information about this matter, please contact Xiaomi service centers or the store that sold products to you."</string>
     <string name="dialog_title_fake_cell_detect_error">Rättning</string>
     <string name="dialog_title_mx_rcs">Mi Message</string>
     <string name="dialog_title_networking">Villkor</string>
@@ -229,6 +231,7 @@
     <string name="file_size">Storlek:</string>
     <string name="file_title">Namn:</string>
     <string name="file_width_height">Storlek:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Nytt meddelande</string>
     <string name="forward_from">Vidarebefordra från:</string>
     <string name="forward_message_select_title">Vidarebefordra meddelande</string>
@@ -539,8 +542,8 @@
     <string name="prvate_contact">Privata kontakter</string>
     <string name="quick_reply">Svara</string>
     <string name="rate_limit_surpassed">OK</string>
-    <string name="rcs_auto_resend_as_sms_remind_change">Ändra</string>
-    <string name="rcs_auto_resend_as_sms_remind_desp">När nätverkssignalen är svag kan textdelen av ett meddelande (upp till 900 byte) konverteras och skickas som SMS. Du kan ändra detta i Inställningar.</string>
+    <string name="rcs_auto_resend_as_sms_remind_change">Ändra inställningar</string>
+    <string name="rcs_auto_resend_as_sms_remind_desp">Meddelande upp till 900B kan konverteras och skickas som SMS när nätverkssignalen är dålig. Tryck på \"Ändra inställningar\" om du inte vill konvertera ditt meddelande till SMS.</string>
     <string name="rcs_auto_resend_as_sms_remind_title">Konvertera till SMS</string>
     <string name="rcs_auto_resend_mms">Konvertera till MMS</string>
     <string name="rcs_auto_resend_sms">Konvertera till SMS</string>
@@ -657,6 +660,7 @@
     <string name="security_alert_dialog_title">Rapportera</string>
     <string name="select_audio">Välj ljud</string>
     <string name="select_bottom_text">Text i botten</string>
+    <string name="select_copy_text">Välj text att kopiera</string>
     <string name="select_different_attachment">Välj en annan bilaga.</string>
     <string name="select_different_audio">Välj ett annat ljud.</string>
     <string name="select_different_picture">Välj en annan bild.</string>
@@ -682,6 +686,7 @@
     <string name="send_signature_confirm_dialog_title">Skicka meddelande</string>
     <string name="send_sms">Skicka meddelande</string>
     <string name="send_to">Till:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Skickades kl: %1s</string>
     <string name="sent_label">"Skickat: "</string>
     <string name="service_message_not_found">Meddelande har upphört att gälla eller är otillgängligt</string>

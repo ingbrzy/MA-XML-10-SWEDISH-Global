@@ -21,8 +21,8 @@
         <item quantity="one">%d minut före</item>
     </plurals>
     <plurals name="Nweeks">
-        <item quantity="other">%d veckor före</item>
-        <item quantity="one">%d vecka före</item>
+        <item quantity="other">%d veckor innan</item>
+        <item quantity="one">%d vecka innan</item>
     </plurals>
     <plurals name="anniversary_day">
         <item quantity="other">%1$s dagar</item>

@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Obs!</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Videon kan tyvärr inte spelas upp i den här enheten.</string>
     <string name="selectTextMode">Markera text</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Ikon för fingeravtryck</string>
     <string name="paste_as_plain_text">Klistra in som oformaterad text</string>
     <string name="autofill">Autofyll</string>
@@ -386,6 +387,7 @@ Kontakta organisationens administratör om du har några frågor."</string>
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Funktionskoden är fullständig.</string>
     <string name="fcError">Anslutningsproblem eller ogiltig funktionskod.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Sök efter</string>
     <string name="find_next">Sök nästa</string>
     <string name="find_on_page">Sök på sidan</string>
@@ -591,6 +593,7 @@ Besök "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_reordering_delete_drop_target_text">Ta bort</string>
     <string name="kg_sim_pin_instructions">Ange PIN-kod för SIM-kortet</string>
     <string name="kg_sim_unlock_progress_dialog_message">Låser upp SIM-kort …</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Du har angett fel lösenord %1$d gånger. 
 
 Försök igen om %2$d sekunder."</string>
@@ -615,14 +618,14 @@ Försök igen om %2$d sekunder."</string>
     <string name="leave_accessibility_shortcut_on">Använd kortkommandot</string>
     <string name="loading">Läser in …</string>
     <string name="locale_search_menu">Sök</string>
-    <string name="lock_to_app_description">"Bocka i låsen på skärmen visar en enkel vy
+    <string name="lock_to_app_description">"Fästa och lossa skärmar. Om du fäster en appskärm visas den tills du lossar den.
 
-För att bocka av denna skärm, tryck och håll Hem och På knappen samtidigt."</string>
-    <string name="lock_to_app_description_accessible">"Bocka i låsen på skärmen visar en enkel vy
+För att lossa, tryck och håll Hem- och Strömknappen samtidigt."</string>
+    <string name="lock_to_app_description_accessible">"Fästa och lossa skärmar. Om du fäster en appskärm visas den tills du lossar den.
 
-För att bocka av denna skärm, tryck och håll Hem och På knappen samtidigt."</string>
-    <string name="lock_to_app_toast">För att bocka av denna skärm, tryck och håll Hem och På knappen samtidigt.</string>
-    <string name="lock_to_app_toast_accessible">För att bocka av denna skärm, tryck och håll Hem och På knappen samtidigt.</string>
+För att lossa, tryck och håll Hem- och Strömknappen samtidigt."</string>
+    <string name="lock_to_app_toast">För att bocka av denna skärm, tryck och håll Hem- och Strömknappen samtidigt.</string>
+    <string name="lock_to_app_toast_accessible">För att bocka av denna skärm, tryck och håll Hem- och Strömknappen samtidigt.</string>
     <string name="lock_to_app_unlock_password">Be om lösenord innan skärmen slutar fästas</string>
     <string name="lock_to_app_unlock_pattern">Be om upplåsningsmönster innan skärmen slutar fästas</string>
     <string name="lock_to_app_unlock_pin">Be om pinkod innan skärmen slutar fästas</string>
@@ -652,18 +655,18 @@ Besök "<b>google.com/accounts/recovery</b>.</string>
     <string name="lockscreen_glogin_username_hint">Användarnamn (e-post)</string>
     <string name="lockscreen_instructions_when_pattern_disabled">Tryck på Menu för att låsa upp.</string>
     <string name="lockscreen_instructions_when_pattern_enabled">Tryck på Menu för att låsa upp eller ringa nödsamtal.</string>
-    <string name="lockscreen_missing_sim_instructions">Sätt in SIM kort.</string>
-    <string name="lockscreen_missing_sim_instructions_long">SIM kort saknas eller är inte läsbar. Vänligen för in en SIM kort.</string>
-    <string name="lockscreen_missing_sim_message">Inget SIM kort i telefonen.</string>
+    <string name="lockscreen_missing_sim_instructions">Sätt in SIM-kort.</string>
+    <string name="lockscreen_missing_sim_instructions_long">SIM-kort saknas eller är inte läsbar. Vänligen för in en SIM-kort.</string>
+    <string name="lockscreen_missing_sim_message">Inget SIM-kort i telefonen.</string>
     <string name="lockscreen_missing_sim_message_short">Inget SIM-kort</string>
     <string name="lockscreen_network_locked_message">Nätverk låst</string>
     <string name="lockscreen_password_wrong">Försök igen</string>
     <string name="lockscreen_pattern_correct">Korrekt!</string>
     <string name="lockscreen_pattern_instructions">Rita grafiskt lösenord för att låsa upp</string>
     <string name="lockscreen_pattern_wrong">Försök igen</string>
-    <string name="lockscreen_permanent_disabled_sim_instructions">"Ditt SIM-kort är permanent inaktiverad.
- Var god kontakta din leverantör för att få ett annat SIM kort."</string>
-    <string name="lockscreen_permanent_disabled_sim_message_short">Oanvändbart SIM kort.</string>
+    <string name="lockscreen_permanent_disabled_sim_instructions">"Ditt SIM-kort är permanent inaktiverat.
+ Var god kontakta din leverantör för att få ett annat SIM-kort."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">Oanvändbart SIM-kort.</string>
     <string name="lockscreen_return_to_call">Tillbaka till samtal</string>
     <string name="lockscreen_screen_locked">Skärmen har låsts.</string>
     <string name="lockscreen_sim_locked_message">SIM-kortet är låst.</string>
@@ -883,6 +886,7 @@ Försök igen om %2$d sekunder."</string>
     <string name="notification_channel_wfc">Wi-Fi-samtal</string>
     <string name="notification_hidden_text">Ny avisering</string>
     <string name="notification_listener_binding_label">Meddelandelyssnare</string>
+    <string name="notification_messaging_title_template">%1$s: %2$s</string>
     <string name="notification_ranker_binding_label">Rankningstjänst för aviseringar</string>
     <string name="notification_reply_button_accessibility">Svara</string>
     <string name="notification_title">Inloggningsfel för %1$s</string>
@@ -1428,11 +1432,11 @@ Att lyssna med stark volym långa stunder åt gången kan skada hörseln."</stri
     <string name="system_error_wipe_data">Ett internt problem har uppstått i enheten, och det kan hända att problemet kvarstår tills du återställer standardinställningarna.</string>
     <string name="taking_remote_bugreport_notification_title">Felrapporten överförs …</string>
     <string name="terabyteShort">TB</string>
-    <string name="tethered_notification_message">Tap to set up.</string>
-    <string name="tethered_notification_multi_device_message">%1$s connected devices</string>
+    <string name="tethered_notification_message">Tryck för att konfigurera.</string>
+    <string name="tethered_notification_multi_device_message">%1$s enheter anslutna</string>
     <string name="tethered_notification_no_device_message">Inga anslutna enheter</string>
-    <string name="tethered_notification_one_device_message">%1$s connected device</string>
-    <string name="tethered_notification_title">Tethering or hotspot active</string>
+    <string name="tethered_notification_one_device_message">%1$s enhet ansluten</string>
+    <string name="tethered_notification_title">Internetdelning eller hotspot aktiv</string>
     <string name="textSelectionCABTitle">Textmarkering</string>
     <string name="text_copied">Text har kopierats till urklipp.</string>
     <string name="time_of_day" formatted="false">%H:%M:%S</string>
@@ -1500,10 +1504,10 @@ Att lyssna med stark volym långa stunder åt gången kan skada hörseln."</stri
     <string name="volume_dialog_ringer_guidance_silent">Ljudet stängs av för samtal och aviseringar</string>
     <string name="volume_dialog_ringer_guidance_vibrate">Vibrerar vid samtal och aviseringar</string>
     <string name="volume_icon_description_bluetooth">Bluetooth</string>
-    <string name="volume_icon_description_incall">Ring</string>
+    <string name="volume_icon_description_incall">Samtal</string>
     <string name="volume_icon_description_media">Media</string>
-    <string name="volume_icon_description_notification">Meddelande</string>
-    <string name="volume_icon_description_ringer">Klockare</string>
+    <string name="volume_icon_description_notification">Notifikation</string>
+    <string name="volume_icon_description_ringer">Ringsignal</string>
     <string name="volume_music">Mediavolym</string>
     <string name="volume_music_hint_playing_through_bluetooth">Spelar upp genom Bluetooth</string>
     <string name="volume_music_hint_silent_ringtone_selected">Tyst ringsignal har valts</string>
@@ -1608,6 +1612,7 @@ Vill du stänga sidan?"</string>
     <string name="zen_mode_feature_name">Stör ej</string>
     <string name="zen_mode_forever">Tills du stänger av</string>
     <string name="zen_mode_forever_dnd">Tills du inaktiverar Stör ej</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">Till kl. %1$s</string>
     <string name="zen_upgrade_notification_content">Tryck om du vill se vad som blockeras.</string>
     <string name="zen_upgrade_notification_title">Stör ej har ändrats</string>

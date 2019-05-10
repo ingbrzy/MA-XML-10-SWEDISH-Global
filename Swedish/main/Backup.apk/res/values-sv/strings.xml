@@ -6,6 +6,9 @@ Storlek: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerar version %1$s
 Delta-uppdatering storlek: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Lagring inte tillgänglig, kontrollera ditt SD-kort.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunde inte starta nedladdning. Kontrollera att appen för Nedladdningar fungerar normalt.</string>
     <string name="app_name">Säkerhetskopia</string>
     <string name="local_app_name">Säkerhetskopia</string>
@@ -73,6 +76,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="sms_title">Meddelanden</string>
     <string name="mms_title">MMS</string>
     <string name="wifi_title">Wi-Fi-inställningar</string>
+    <string name="phone_title">Telefoninställningar</string>
     <string name="note_title">Anteckningar</string>
     <string name="compute_backup_info">Hämtar säkerhetskopieringsinfo…</string>
     <string name="compute_delete_contact_info">Hämtar info…</string>
@@ -225,6 +229,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="restore_backup">Återställ</string>
     <string name="enable_encrypt_description">Kryptera</string>
     <string name="disable_encrypt_description">Inte krypterad</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Vänta en stund…</string>
     <string name="state_mounting">Kommer åt utrymme på router…</string>
     <string name="abort_backup_confirm">Säkerhetskopiering är inte klar. Sluta ändå?</string>
@@ -254,6 +259,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="err_pkg_not_exist">Kunde inte hitta app.</string>
     <string name="err_user_abort">Avbrutet av användaren.</string>
     <string name="err_binder_died">Appen stoppades oväntat.</string>
+    <string name="err_no_gms">Inkompatibel appversion. Installera denna app separat</string>
     <string name="backup_is_running">Säkerhetskopierar enhet</string>
     <string name="restore_is_running">Återställer enhet</string>
     <string name="notif_backup_title">Säkerhetskopierar data</string>
@@ -307,6 +313,7 @@ Håll enheterna nära varandra."</string>
     <string name="trans_detail_qq_data">QQdata (inklusive chatthistorik)</string>
     <string name="trans_detail_app_data_useless_tip">Du kan återställa detta från appen, ingen överföring behövs.</string>
     <string name="trans_detail_item_app_data_too_large_tip">Ser ut som att objektet är för stort för att överföra.</string>
+    <string name="trans_detail_item_app_data_skip_data">Det går inte att överföra data</string>
     <string name="trans_detail_item_app_data_selected_tip">Motsvarande appar också.</string>
     <string name="trans_detail_list_footer">"1. Du kan välja enskilda appar som du vill överföra.
 2. Om du väljer appdata kommer motsvarande app också väljas.
@@ -428,13 +435,13 @@ för att ladda ner och installera Mi Mover."</string>
     <string name="user_notice_declaration_ignore">Visa inte igen</string>
     <string name="total_size">, %s</string>
     <string name="trans_intro_title">FAQ</string>
-    <string name="trans_intro_question_1">%d. Hur använder Mi Mover för att flytta data från en iOS-enhet?</string>
+    <string name="trans_intro_question_1">%d. Hur använder jag Mi Mover för att flytta data från en iOS-enhet?</string>
     <string name="trans_intro_desc_1">På en Mi-telefon, anslut till Wi-Fi och tryck \"Jag är en mottagare\". Välj din iOS-enhet, logga in på iCloud och importera data.</string>
-    <string name="trans_intro_question_2">%d. Hur använder Mi Mover för att flytta data från en Androidenhet?</string>
+    <string name="trans_intro_question_2">%d. Hur använder jag Mi Mover för att flytta data från en Androidenhet?</string>
     <string name="trans_intro_title_new">På en ny telefon:</string>
-    <string name="trans_intro_desc_new">Tryck \"Jag är en mottagare\". En QR-kod kommer att genereras.</string>
+    <string name="trans_intro_desc_new">Tryck \"Jag är mottagare\". En QR-kod kommer att genereras.</string>
     <string name="trans_intro_title_old">På en gammal telefon:</string>
-    <string name="trans_intro_desc_old">Tryck \"Jag är en avsändare\". Skanna QR-koden på den nya telefonen, vänta tills Mi Mover listar ut vilken fil som ska skickas och tryck på \"Sänd\".</string>
+    <string name="trans_intro_desc_old">Tryck \"Jag är sändare\". Skanna QR-koden på den nya telefonen, vänta tills Mi Mover listar ut vilken fil som ska skickas och tryck på \"Sänd\".</string>
     <string name="trans_intro_desc_old_market">Tryck \"Starta\". Skanna QR-koden på den nya telefonen, vänta tills Mi Mover listar ut vilken fil som ska skickas och tryck på \"Sänd\".</string>
     <string name="trans_intro_question_10">%d. Det går inte att hotspoten på gamla enheten?</string>
     <string name="trans_intro_desc_10">Tryck \"Anslut via QR-kod\" på den nya enheten och skanna QR-koden för att upprätta en anslutning.</string>
@@ -443,13 +450,13 @@ för att ladda ner och installera Mi Mover."</string>
     <string name="trans_intro_question_4">%d. Varför kan jag inte använda Wi-Fi under tiden överföringen genomförs?</string>
     <string name="trans_intro_desc_4">Mi Mover använder Wi-Fi för att överföra filer. Därför kan du inte ansluta till internet med Wi-Fi på någon av enheterna under tiden överföringen genomförs. Du kan fortfarande mobildata. Men på vissa nya enheter (till exempel Mi 6) kan fortfarande ansluta till internet med Wi-Fi under tiden överföringen genomförs.</string>
     <string name="trans_intro_desc_4_market">Mi Mover använder Wi-Fi för att överföra filer. Du kan därför inte ansluta till Internet via Wi-Fi på någon av enheterna under tiden en överföring pågår. Du kan fortfarande mobildata.</string>
-    <string name="trans_intro_question_5">%d. Varför berättar Mi Mover att det inte är tillräckligt med utrymme på min gamla telefon?</string>
+    <string name="trans_intro_question_5">%d. Varför berättar Mi Mover att det inte finns tillräckligt med lagringsutrymme på min gamla telefon?</string>
     <string name="trans_intro_desc_5">Lagringsutrymme på gamla enheter används för att skapa överföringspaket. Se till att du har minst 500 MB - 1 GB tillgängligt utrymme på din gamla telefon innan du påbörjar en överföring.</string>
     <string name="trans_intro_question_6">%d. Varför misslyckas överföringen av vissa appar?</string>
     <string name="trans_intro_desc_6">Det finns flera orsaker till varför det kan hända: kompatibilitetsproblem med system och appversion, nätverksproblem, kompatibilitetsproblem men vissa enheter, etc.</string>
     <string name="trans_intro_question_7">%d. Varför startar inte vissa appar på min nya enhet?</string>
     <string name="trans_intro_desc_7">Vissa approfiler (internetbank, finans, etc) associeras med specifika enheter på grund av säkerhetsorsaker. Försök rensa appdata eller installera om appen på den nya enheten.</string>
-    <string name="trans_intro_question_8">%d. Varför överförs all historik på WeChat?</string>
+    <string name="trans_intro_question_8">%d. Varför överförs inte all historik på WeChat?</string>
     <string name="trans_intro_desc_8">Data och chatthistorik från WeChat kanske inte kan överföras helt med Mi Mover. Gå till inställningar för WeChat och logga ut från ditt konto för att öka chansen för en lyckad överföring.</string>
     <string name="trans_intro_question_9">%d. Vilka objekt kan inte överföras?</string>
     <string name="trans_intro_title_account">Konto och lösenord:</string>
@@ -562,6 +569,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
  ska du först skapa en iCloud säkerhetskopia."</string>
     <string name="list_footer_tip_title">Tips:</string>
     <string name="import_tip_summary">På grund av kompatibilitetsproblem så kan du bara överföra delar av din data från iOS-enheter. Se till att du har skapat en iCloud backup före du börjar överföra.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importera</string>
     <string name="select_empty">Välj objekt att importera</string>
     <string name="select_item_summary_wait">Väntar…</string>
