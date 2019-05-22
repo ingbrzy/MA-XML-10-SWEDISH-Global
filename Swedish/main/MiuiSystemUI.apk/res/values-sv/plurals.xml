@@ -8,10 +8,6 @@
         <item quantity="other">Nyligen öppnade, tillgänglig appar: %d. Dra upp för att ta bort genom att dra nedåt för att låsa.</item>
         <item quantity="one">Nyligen öppnade, tillgänglig app: %d. Dra upp för att ta bort genom att dra nedåt för att låsa.</item>
     </plurals>
-    <plurals name="aod_dual_togother_city">
-        <item quantity="other">" %1$stimmar %2$s"</item>
-        <item quantity="one">" %1$stimme %2$s"</item>
-    </plurals>
     <plurals name="block_record_notification_more_text">
         <item quantity="other">Döljer notifikationer från %1$s &amp; %2$d appar.</item>
         <item quantity="one">Döljer notifikationer från %1$s &amp; %2$d app.</item>

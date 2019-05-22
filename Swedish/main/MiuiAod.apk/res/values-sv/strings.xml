@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="abc_action_bar_home_description">Visa startsidan</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
     <string name="abc_action_bar_up_description">Navigera uppåt</string>
     <string name="abc_action_menu_overflow_description">Fler alternativ</string>
     <string name="abc_action_mode_done">Klart</string>
@@ -19,4 +21,18 @@
     <string name="abc_toolbar_collapse_description">Komprimera</string>
     <string name="search_menu_title">Sök</string>
     <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="accessibility_battery_level">Batteri %d procent.</string>
+    <string name="accessibility_battery_level_charging">Laddar, %d procent.</string>
+    <string name="aod_close_color_inversion">Denna funktion kan inte kombineras med färginversion. Avaktivera färginversion först.</string>
+    <string name="aod_lock_screen_date">EE, d MMMM</string>
+    <string name="aod_lock_screen_date_12">EE, d MMMM</string>
+    <string name="aod_mode_style">Stil på klockan och bakgrund</string>
+    <string name="aod_mode_summary">Den här funktionen ökar systemets batteriförbrukning. Den kommer att avaktiveras när din enhet är i mörker länge eller om Batterisparare är aktiverad.</string>
+    <string name="aod_mode_time_summary">Schemalägg när läget Alltid på ska aktiveras och avaktiveras</string>
+    <string name="aod_mode_time_title">Schemalägg</string>
+    <string name="aod_mode_title">Alltid På</string>
+    <string name="aod_to_close">Avaktivera</string>
+    <string name="cancel">Avbryt</string>
+    <string name="paper_mode_end_time_title">Avaktivera</string>
+    <string name="paper_mode_start_time_title">Aktivera</string>
 </resources>

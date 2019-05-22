@@ -6,6 +6,9 @@ Storlek: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerar version %1$s
 Delta-uppdatering storlek: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Lagring inte tillgänglig, kontrollera ditt SD-kort.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunde inte starta nedladdning. Kontrollera att appen för Nedladdningar fungerar normalt.</string>
     <string name="app_name">Säkerhetskopia</string>
     <string name="local_app_name">Säkerhetskopia</string>
@@ -226,6 +229,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="restore_backup">Återställ</string>
     <string name="enable_encrypt_description">Kryptera</string>
     <string name="disable_encrypt_description">Inte krypterad</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Vänta en stund…</string>
     <string name="state_mounting">Kommer åt utrymme på router…</string>
     <string name="abort_backup_confirm">Säkerhetskopiering är inte klar. Sluta ändå?</string>
@@ -255,17 +259,17 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="err_pkg_not_exist">Kunde inte hitta app.</string>
     <string name="err_user_abort">Avbrutet av användaren.</string>
     <string name="err_binder_died">Appen stoppades oväntat.</string>
-    <string name="err_no_gms">Inkompatibel appversion. Installera denna app separat</string>
+    <string name="err_no_gms">Inkompatibel appversion. Installera appen separat.</string>
     <string name="backup_is_running">Säkerhetskopierar enhet</string>
     <string name="restore_is_running">Återställer enhet</string>
     <string name="notif_backup_title">Säkerhetskopierar data</string>
     <string name="notif_backup_content">Säkerhetskopierar användardata</string>
     <string name="notif_restore_title">Återställer data</string>
     <string name="notif_restore_content">Återställer användardata</string>
-    <string name="notif_backup_complete_title">Säkerhetskopiering framgångsrikt skapat</string>
+    <string name="notif_backup_complete_title">Säkerhetskopia skapad</string>
     <string name="notif_restore_complete_title">Återställning lyckad</string>
-    <string name="notif_trans_sending_completed">Data skickades framgångsrikt</string>
-    <string name="notif_trans_receiving_completed">Data mottagen framgångsrikt</string>
+    <string name="notif_trans_sending_completed">All data skickad</string>
+    <string name="notif_trans_receiving_completed">All data mottagen</string>
     <string name="notif_trans_sending_failed">Det gick inte att skicka data</string>
     <string name="notif_trans_receiving_failed">Det gick inte att ta emot data</string>
     <string name="notif_trans_wait_for_reconnecting">Anslutningen avbröts. Anslut igen.</string>
@@ -565,6 +569,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
  ska du först skapa en iCloud säkerhetskopia."</string>
     <string name="list_footer_tip_title">Tips:</string>
     <string name="import_tip_summary">På grund av kompatibilitetsproblem så kan du bara överföra delar av din data från iOS-enheter. Se till att du har skapat en iCloud backup före du börjar överföra.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importera</string>
     <string name="select_empty">Välj objekt att importera</string>
     <string name="select_item_summary_wait">Väntar…</string>
@@ -636,4 +641,11 @@ Frigör utrymme eller överför endast viktiga objekt."</string>
 Frigör utrymme eller gör flera mindre överföringar."</string>
     <string name="usb_trans_old_phone_low_space_title">Inte tillräckligt med lagringsutrymme</string>
     <string name="usb_trans_old_phone_low_space_msg">Ytterligare lagringsutrymme krävs för att spara din säkerhetskopior. Det finns inte tillräckligt med lagringsutrymme för att fortsätta överföringar. Du kan frigöra utrymme och ta bort onödiga filer i appen Säkerhet eller endast överföra viktiga objekt.</string>
+    <string name="dialog_app_upgrade_message">Det finns en ny version av Mi Mover. Uppdatera Mi Mover nu?</string>
+    <string name="dialog_app_upgrade_exit">Avsluta</string>
+    <string name="dialog_app_upgrade_download">Uppdatera</string>
+    <string name="dialog_backup_password_change_machine_tips">"You won't be able to transfer password-protected backups. Turn off backup password before using Mi Mover."</string>
+    <string name="dialog_backup_password_backup_tips">"Can't back up items when backup password is on. Turn off backup password."</string>
+    <string name="dialog_backup_password_cancel">Cancel</string>
+    <string name="dialog_backup_password_to_settings">Settings</string>
 </resources>

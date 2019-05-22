@@ -71,11 +71,11 @@
     <string name="account_setup_address_label">E-post</string>
     <string name="account_setup_autodiscover_dlg_authfail_message">Bekräfta att användarnamn, lösenord och kontoinställningar är korrekta.</string>
     <string name="account_setup_autodiscover_dlg_authfail_title">Det gick inte att konfigurera konto</string>
-    <string name="account_setup_basics_email_label">Ange e-postadress</string>
+    <string name="account_setup_basics_email_label">E-postadress</string>
     <string name="account_setup_basics_login_gmail_without_proxy">Logga in med nuvarande nätverk</string>
     <string name="account_setup_basics_manual_setup_action">Manuell konfiguration</string>
     <string name="account_setup_basics_mi_mail_login_help">Du kan behöva verifiera ditt konto via SMS för att få e-postmeddelanden</string>
-    <string name="account_setup_basics_password_label">Ange lösenord</string>
+    <string name="account_setup_basics_password_label">Lösenord</string>
     <string name="account_setup_basics_title">Lägg till konto</string>
     <string name="account_setup_check_settings_check_incoming_msg">Validerar serverns inställningar…</string>
     <string name="account_setup_check_settings_check_outgoing_msg">Validerar SMTP-inställningar…</string>
@@ -163,8 +163,10 @@
     <string name="ad_merge">Annonser &amp; meddelanden</string>
     <string name="add_account">Lägg till konto</string>
     <string name="add_account_keywords">Lägg till konto, lägg till e-postkonto</string>
+    <string name="add_account_search">Lägg till konto</string>
     <string name="add_attachment">Bifoga</string>
     <string name="add_calendar">Påminna</string>
+    <string name="add_file_exception">"Couldn't add. Try adding this attachment from a different place."</string>
     <string name="add_label">Lägg till mapp</string>
     <string name="add_pre_message_attachments">Lägg till bilagorna till förhandsmeddelandet?</string>
     <string name="add_pre_message_attachments_no">Lägg inte till</string>
@@ -174,6 +176,10 @@
     <string name="always_bcc_myself">Alltid Bcc själv</string>
     <string name="always_show_images">Visa alltid bilder från denna avsändare</string>
     <string name="app_name">E-post</string>
+    <string name="appraise_des">Do you like our app?</string>
+    <string name="appraise_good">Yes</string>
+    <string name="appraise_ignore">"Can't say now"</string>
+    <string name="appraise_negative">No</string>
     <string name="archive">Arkiv</string>
     <string name="archived">Arkiverad</string>
     <string name="att_download_failed_content">Kunde inte hämta den bifogade filen för detta meddelande.</string>
@@ -225,6 +231,7 @@
     <string name="battery_saver">Batterisparare</string>
     <string name="battery_saver_keywords">batterisparare; postbatteri</string>
     <string name="bcc">Bcc</string>
+    <string name="bcc_heading">"Bcc: "</string>
     <string name="bill_center_setting">Faktureringsinställningar</string>
     <string name="bill_center_setting_head">Importera information från dessa konton</string>
     <string name="bill_cycle_text">Fakturering cykel</string>
@@ -245,6 +252,7 @@
     <string name="cancel_pop3_attchemt_downloading">Kan inte avbryta pågående nedladdningar för bilagor i POP3-konton</string>
     <string name="cant_move_or_change_labels">Det går inte att flytta objekt från flera konton.</string>
     <string name="cc">Cc</string>
+    <string name="cc_attribution">Cc: %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Cc: "</string>
     <string name="change_folders_selection_dialog_title">Ändra mappar</string>
@@ -262,6 +270,7 @@
     <string name="click_download_all_content">[ Tryck för att ladda ner innehåll ]</string>
     <string name="click_to_reload">Tryck här för att uppdatera</string>
     <string name="collapse_recipient_details">Dölj mottagarens detaljer</string>
+    <string name="colon">:</string>
     <string name="compose">Komponera</string>
     <string name="compose_attachment_number_limit">Kan inte lägga till mer än 10 bilagor</string>
     <string name="compose_paste_address_oob">För många tecken</string>
@@ -346,6 +355,7 @@
     <string name="default_signature_2">Skickat från min %s</string>
     <string name="del_account_questionnair_hint">Kan du berätta varför du tar bort det här kontot?</string>
     <string name="delete">Ta bort</string>
+    <string name="delete_contact_content">Delete this contact now?</string>
     <string name="delete_message_flow">Ta bort meddelandeflöde</string>
     <string name="delete_message_flow_keywords">radera meddelandeflöde, ta bort omdirigering</string>
     <string name="deleted">Borttaget</string>
@@ -356,7 +366,9 @@
     <string name="device_not_activiey_lint1">Enhetshanteraren är inte aktiverad</string>
     <string name="device_not_activiey_lint2">Tjänsten för e-post fungerar inte med Exchange</string>
     <string name="dialog_account_auto_sync_setting_no_open">Du valde att synkronisera e-postmeddelanden manuellt. Uppdatera om du vill synkronisera.</string>
+    <string name="dialog_agree">Godkänn</string>
     <string name="dialog_change_sync_lookback">E-post från %s raderas automatiskt. Tryck för att ändra.</string>
+    <string name="dialog_disagree">Godkänn inte</string>
     <string name="dialog_insufficient_space_on_external">Kan inte hämta bifogad fil. Inte tillräckligt med utrymme på extern lagring.</string>
     <string name="dialog_insufficient_space_on_internal">Inte tillräckligt med utrymme på det interna lagringsutrymmet.</string>
     <string name="dialog_system_auto_sync_account_no_open">Aktivera synkronisering för kontot för att ta emot e-postmeddelanden automatiskt</string>
@@ -411,7 +423,8 @@
     <string name="error">Fel</string>
     <string name="exception_cancel">"
         Denna händelse har annullerats för:
-%s "</string>
+        %s
+    "</string>
     <string name="exception_updated">"Detaljerna i denna händelse har ändrats för: %s "</string>
     <string name="exchange_name">Exchange</string>
     <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
@@ -440,8 +453,10 @@
     <string name="file_save_term">Filen sparar villkor</string>
     <string name="filtered_tag">" [%1$s]%2$s"</string>
     <string name="first_quick_default_reply">Tryck på knappen för att skicka \"%s\" till alla personer i konversationen</string>
+    <string name="folder_empty_to_fresh">"Mail isn't synced. Pull down to sync."</string>
     <string name="folder_list_display_all">Visa alla mappar</string>
     <string name="folder_list_display_only_import">Endast Visa viktiga mappar</string>
+    <string name="folder_no_mails">No emails in this folder.</string>
     <string name="folder_picker_title">Välj mapp</string>
     <string name="folder_removed">Borttagen från %1$s</string>
     <string name="folder_shortcut_widget_label">Mapp för E-post</string>
@@ -474,10 +489,13 @@
     <string name="gmail_server_authorization_deleted">Kunde inte verifiera konto. Försök att lägga till det här kontot igen.</string>
     <string name="gmail_web_login_go">OK</string>
     <string name="gmail_web_login_required_message">Logga in på Gmail</string>
+    <string name="have_auth_code">I have a code</string>
     <string name="header_category_account">Konton</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Återkoppling</string>
     <string name="header_label_general_preferences">Allmän</string>
     <string name="help_and_info">Hjälp</string>
+    <string name="help_me_get_qq_auth">Get QQ code</string>
     <string name="hide_elided">▼ Dölj citerad text</string>
     <string name="hide_password">Dölj lösenord</string>
     <string name="hint_quick_reply_all">Svara alla</string>
@@ -496,6 +514,8 @@
     <string name="invalid_recipient">Adressen %s är ogiltig.</string>
     <string name="invalid_recipient_title">Mottagare Fel</string>
     <string name="kilobytes">%sKB</string>
+    <string name="label_notification_ticker" formatted="false">%s: %s</string>
+    <string name="list_empty_to_fresh">No emails yet.</string>
     <string name="load_from_remote">Sök i brevlådan på servern</string>
     <string name="load_more">Ladda fler</string>
     <string name="loading_conversation">Laddar…</string>
@@ -531,12 +551,6 @@
     <string name="mailbox_settings_mailbox_sync_window_label">Synkronisera e-post från</string>
     <string name="mailbox_settings_sync_enabled_label">Synkronisera den här mappen</string>
     <string name="mailbox_settings_sync_enabled_summary">Synkronisera meddelanden i denna mapp</string>
-    <string name="maileditor_fontsize_textitem1">8pt</string>
-    <string name="maileditor_fontsize_textitem2">10pt</string>
-    <string name="maileditor_fontsize_textitem3">12pt</string>
-    <string name="maileditor_fontsize_textitem4">14pt</string>
-    <string name="maileditor_fontsize_textitem5">16pt</string>
-    <string name="maileditor_fontsize_textitem6">18pt</string>
     <string name="manual_sync">Synkronisera nu</string>
     <string name="mark_important">Markera viktigt</string>
     <string name="mark_not_important">Avmarkera som viktigt</string>
@@ -545,26 +559,29 @@
     <string name="mark_unread">Markera som oläst</string>
     <string name="me_object_pronun">jag</string>
     <string name="me_subject_pronun">jag</string>
-    <string name="meeting_accepted">"         Acceptera %s "</string>
+    <string name="meeting_accepted">"         Acceptera        %s    "</string>
     <string name="meeting_allday">"
         När:
-%s (hela dagen)
+        %s
+        (hela dagen)
     "</string>
     <string name="meeting_allday_recurring">"
         När:
-%s (hela dagen, återkommande)
+        %s
+        (hela dagen, återkommande)
     "</string>
-    <string name="meeting_canceled">"         Avbryt %s "</string>
-    <string name="meeting_declined">"        Neka %s "</string>
+    <string name="meeting_canceled">"         Avbryt        %s    "</string>
+    <string name="meeting_declined">"        Neka        %s    "</string>
     <string name="meeting_recurring">"
         När:
-%s (återkommande)
+        %s
+        (återkommande)
     "</string>
     <string name="meeting_responded_failed">Inga svar</string>
     <string name="meeting_tentative">Tentative %s \"</string>
-    <string name="meeting_updated">"Uppdaterad %s "</string>
-    <string name="meeting_when">"         när %s "</string>
-    <string name="meeting_where">"        Var: %s "</string>
+    <string name="meeting_updated">"Uppdaterad %s    "</string>
+    <string name="meeting_when">"         när        %s    "</string>
+    <string name="meeting_where">"        Var: %s    "</string>
     <string name="megabytes">%s MB</string>
     <string name="menu_att_mgr">Bilaga</string>
     <string name="menu_att_mgr_order_default">Nyligen visad</string>
@@ -635,15 +652,18 @@ Try en annan inkorg."</string>
     <string name="not_synced_title">Kontot är inte synkroniserat</string>
     <string name="notification_action_archive">Arkiv</string>
     <string name="notification_action_delete">Ta bort</string>
-    <string name="notification_action_remove_label">Ta bort Tagg</string>
+    <string name="notification_action_remove_label">Ta bort etikett</string>
     <string name="notification_action_reply">Svara</string>
     <string name="notification_action_reply_all">Svara alla</string>
     <string name="notification_action_undo_archive">Arkiverad</string>
     <string name="notification_action_undo_delete">Borttaget</string>
-    <string name="notification_action_undo_remove_label">Tagg borttagen</string>
+    <string name="notification_action_undo_remove_label">Etikett borttagen</string>
     <string name="notification_exchange_calendar_added">Kalender via Exchange tillagd</string>
     <string name="notify_channel_new_mail">Meddela om nya meddelanden</string>
+    <string name="notify_channel_no_disterb">Stör ej läge</string>
+    <string name="notify_channel_permission_notice">Tillstånd krävs</string>
     <string name="notify_channel_send_fail">Meddela om misslyckad leverans</string>
+    <string name="notify_channel_service">Notify about background sync</string>
     <string name="oauth_error_description">Det gick inte att autentisera</string>
     <string name="oauth_gmail_login_notify">Ange ditt användarnamn och lösenord för ditt Google-konto på följande inloggningssida.</string>
     <string name="oauth_login_continue">Fortsätt</string>
@@ -654,6 +674,7 @@ Try en annan inkorg."</string>
     <string name="one_day">1 dag</string>
     <string name="one_month">1 månad</string>
     <string name="one_week">1 week</string>
+    <string name="open_androidp_warning">Warn about 9.0 unofficial SDKs</string>
     <string name="open_calendar_and_contacts_permission">Tillåta Mail komma åt kontakter och kalenderinformation i inställningarna</string>
     <string name="open_external_storage_and_calendar_permission">Tillåta Mail att komma åt kontakter och kalenderinformation i inställningarna</string>
     <string name="open_external_storage_and_contacts_and_calendar_permission">Tillåta Mail att komma åt kontakter och kalenderinformation i inställningarna</string>
@@ -754,7 +775,7 @@ to få påminnelser om betalningar och resor"</string>
     <string name="policy_screen_timeout">Kräver inaktiv enhet på låsskärmen</string>
     <string name="policy_text_truncation">Begränsa textens e-poststorlek</string>
     <string name="pop3_name">POP3</string>
-    <string name="preference_eas_tips">Peka på \"Aktivera \" för att ställa in postserver.</string>
+    <string name="preference_eas_tips">"Peka på  \"Aktivera \" för att ställa in postserver."</string>
     <string name="preference_imap_tips" />
     <string name="preference_pop_tips">I POP3 hämtas bilagor automatiskt med e-post. Detta kan öka din mobila datanvändning.</string>
     <string name="preference_sender_image_description">Visa profilbilder bredvid avsändarens namn i inkorgen</string>
@@ -765,6 +786,7 @@ to få påminnelser om betalningar och resor"</string>
     <string name="preview_attachment">Förhandsvisning</string>
     <string name="previous_action">Bakåt</string>
     <string name="print">Skriva ut</string>
+    <string name="privacy_des">"Logs contain debugging info of the email client and your device info. This information is used to locate problems faster. By tapping \"%1$s\" below, you're agreeing to our \"%2$s\"."</string>
     <string name="privacy_policy">Integritetspolicy</string>
     <string name="prompt_title">Prompta</string>
     <string name="protocol_setting_toast">Tryck på det övre högra hörnet att gå till inställningar efter du håller</string>
@@ -789,11 +811,13 @@ to få påminnelser om betalningar och resor"</string>
     <string name="qq_bar_send_message">Sicka SMS</string>
     <string name="qq_login_basecode">Logga in på webben QQ Mail. Ange lösenordet för oberoende.</string>
     <string name="qq_login_get_auth">Slå på lösenordsskydd om du inte kan få SMS</string>
+    <string name="qq_login_notice">"Note: If you've already set up a password, you'll need to verify it when you sign in."</string>
     <string name="qq_login_open_imap">Tryck på \"Hjälp\" för att aktivera IMAP / SMTP</string>
     <string name="qq_login_origin_setting">Ange användarnamn och lösenord för att logga in ></string>
     <string name="qq_login_send_message">Tryck på \"Hjälp\" för att aktivera IMAP / SMTP</string>
     <string name="qq_login_webview">Logga in på QQ webbklienten, tryck på Logga in med lösenord.</string>
     <string name="qq_next_generation_auth_toast">Slå på lösenordsskydd i din webbläsare</string>
+    <string name="qq_pwd_or_qq_auth_code">Enter QQ code or email password</string>
     <string name="qq_uthentication_failed">Det gick inte att få kontoinformation, logga in igen</string>
     <string name="qq_verify_code">(Kräver verifieringskoden från QQ)</string>
     <string name="qq_webview_loading">Vänta lite…</string>
@@ -811,7 +835,7 @@ to få påminnelser om betalningar och resor"</string>
     <string name="quick_3">Jag läser detta senare och kommer tillbaka till dig.</string>
     <string name="quick_4">Låt oss skapa ett möte för att diskutera detta.</string>
     <string name="quick_reply_dialog_title">Välja ett svar</string>
-    <string name="quick_reply_hint_bcc">(I CC)</string>
+    <string name="quick_reply_hint_bcc">(I BCC)</string>
     <string name="quick_reply_hint_cc">(I CC)</string>
     <string name="quick_reply_hint_reply_only_from">Snabbt svar (endast avsändaren)</string>
     <string name="quick_responses_empty_view">Inga snabba svar</string>
@@ -848,6 +872,7 @@ to få påminnelser om betalningar och resor"</string>
     <string name="recognize_ticket_train_return">Återvände</string>
     <string name="recognize_ticket_train_user_name">Passagerare: %1$s</string>
     <string name="recognize_title">Reseinformation</string>
+    <string name="recommend_protocal">Recommendations Usage Protocol</string>
     <string name="reduce_the_receiving_frequencye_summary">Synkronisera inkorg mer sällan när Stör ej är på</string>
     <string name="reduce_the_receiving_frequencye_title">Synkronisera mer sällan</string>
     <string name="refresh">Uppdatera</string>
@@ -855,6 +880,7 @@ to få påminnelser om betalningar och resor"</string>
     <string name="refreshing_done">Klart</string>
     <string name="release_to_refresh">Släpp för att uppdatera</string>
     <string name="remind_attachment_size_limit">Din e-post bör vara mindre än %sMB</string>
+    <string name="remote_no_mail">Det finns inga fler e-postmeddelanden på servern.</string>
     <string name="remove_account">Ta bort konto</string>
     <string name="remove_folder">Ta bort från %1$s</string>
     <string name="remove_star">Ta bort stjärnmärkning</string>
@@ -927,6 +953,7 @@ to få påminnelser om betalningar och resor"</string>
     <string name="shortcut_name_title">Genväg för namnkatalog</string>
     <string name="show_elided">▶ citerade text</string>
     <string name="show_images">Ladda ner och visa bilder</string>
+    <string name="show_more_attachment">Fler bilagor</string>
     <string name="show_password">Visa lösenord</string>
     <string name="signature">"
 
@@ -936,8 +963,10 @@ to få påminnelser om betalningar och resor"</string>
     <string name="silent_ringtone">Tyst</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">Lösenord för utgående e-postserver är felaktigt</string>
     <string name="sort_attachment">Sortera efter</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="storage">Lagringsutrymme</string>
     <string name="str_select_all">Välj alla</string>
     <string name="str_select_none">Välj ingen</string>
@@ -975,6 +1004,7 @@ to få påminnelser om betalningar och resor"</string>
     <string name="toast_bar_no_connection_network">Du har ingen internetanslutning</string>
     <string name="toast_bar_open_gmail_synchronization">Kunde inte ansluta till Gmail. Aktivera Gmail proxy.</string>
     <string name="toast_bar_send_fail_remind">Det gick inte att skicka e-post. Sparade den till mappen \"Utgående\".</string>
+    <string name="toast_bar_sync_failed_mi_authority">"Couldn't sync. Wait a minute or two and try again. If you're signing in for the first time, authorize your device via the intranet/SMS token."</string>
     <string name="toastbar_calendar_and_contacts_permission_switch_close">Om du vill synkronisera kalender info och kontakter, ge E-post behörighet i inställningarna</string>
     <string name="toastbar_calendar_permission_switch_close">Ta emot kalenderpåminnelser, ge E-post behörighet i inställningarna</string>
     <string name="toastbar_contacts_permission_switch_close">Om du vill lägga till kontakter, ge E-post behörighet i inställningarna</string>
@@ -1039,6 +1069,7 @@ Rör"<b> Synkronisera nu </b> för att synkronisera e-post en gång, eller<b> Ä
     <string name="widget_large_unread_count">%d+</string>
     <string name="widget_other_views">Övriga</string>
     <string name="wipe_account_fail_description">Tillåt</string>
+    <string name="wipe_account_fail_description_remind">Due to data usage restrictions, there may be residual data in Calendar and Contacts after you delete the account. Delete these items manually.</string>
     <string name="wipe_account_fail_title">Det gick inte att ta bort personlig information</string>
     <string name="wps_title">WPS Mail</string>
     <string name="wrong_password">Lösenordet du angav är inte korrekt</string>

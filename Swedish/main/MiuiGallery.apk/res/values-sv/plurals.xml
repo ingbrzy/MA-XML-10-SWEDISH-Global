@@ -80,6 +80,10 @@
         <item quantity="other">%d videor</item>
         <item quantity="one">%d video</item>
     </plurals>
+    <plurals name="collage_select_image_dynamic_range">
+        <item quantity="other">Kollage kan innehålla 1-%d bilder</item>
+        <item quantity="one">Kollage kan innehålla 1-%d bild</item>
+    </plurals>
     <plurals name="creation_max_image">
         <item quantity="other">Välj upp till %d foton</item>
         <item quantity="one">Välj upp till %d foto</item>

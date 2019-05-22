@@ -17,7 +17,7 @@
         <item quantity="one">Radera den här konversationen?</item>
     </plurals>
     <plurals name="confirm_delete_conversation_with_sub">
-        <item quantity="other">Samtalen innehåller sammanslagna objekt. Ta bort det ändå?</item>
+        <item quantity="other">Samtalen innehåller sammanslagna objekt. Ta bort dem ändå?</item>
         <item quantity="one">Samtalen innehåller sammanslagna objekt. Ta bort det ändå?</item>
     </plurals>
     <plurals name="confirm_delete_draft">
