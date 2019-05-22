@@ -42,5 +42,4 @@ Tryck %s för att starta nedladdningen nästa gång du är ansluten till Wi-Fi n
     <string name="download_queued">Köad</string>
     <string name="download_running">Laddar ned</string>
     <string name="download_error">Det gick inte att ladda ner</string>
-    <string name="download_running_percent">Laddar ner %s</string>
 </resources>
