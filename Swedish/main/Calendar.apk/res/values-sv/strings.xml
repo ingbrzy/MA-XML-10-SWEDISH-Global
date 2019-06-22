@@ -136,7 +136,6 @@
     <string name="date_interval_text_to">Till %1$s</string>
     <string name="date_jump_hint">Gå till en specifik dag direkt</string>
     <string name="date_jump_title">Gå till datum</string>
-    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_today">" (idag)"</string>
     <string name="day_view_new_event_hint">Ny händelse</string>
     <string name="default_reminder_mode">Påminnelser</string>
