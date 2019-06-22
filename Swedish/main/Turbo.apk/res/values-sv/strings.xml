@@ -42,6 +42,14 @@
     <string name="common_google_play_services_update_text">%1$s kan inte köras om du inte uppdaterar Google Play-tjänsterna.</string>
     <string name="common_google_play_services_update_title">Uppdatera Google Play-tjänster</string>
     <string name="common_google_play_services_updating_text">%1$s kan inte köras utan Google Play-tjänster, och dessa uppdateras för närvarande.</string>
+    <string name="early_warning_android_system">Android-system</string>
+    <string name="early_warning_feedback_action">Feedback</string>
+    <string name="early_warning_feedback_body">Ange din feedback här</string>
+    <string name="early_warning_feedback_chooser_text">Välj en e-postapp</string>
+    <string name="early_warning_feedback_subject">Feedback om avisering för tidig varning</string>
+    <string name="early_warning_notification_channel_name">Batterivarningar</string>
+    <string name="early_warning_notification_text">Det är innan du vanligtvis laddar enheten</string>
+    <string name="early_warning_notification_title">Batteriet kan ta slut kl. %1$s</string>
     <string name="icon_content_description">Dialogikon</string>
     <string name="password_toggle_content_description">Visa lösenord</string>
     <string name="ssb_clear_data_activity_name">Återställa anpassad ljusstyrka?</string>

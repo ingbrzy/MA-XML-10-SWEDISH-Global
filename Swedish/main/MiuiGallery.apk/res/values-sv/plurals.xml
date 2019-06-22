@@ -72,6 +72,18 @@
         <item quantity="other">%1$d foton och videor</item>
         <item quantity="one">%1$d foto eller video</item>
     </plurals>
+    <plurals name="burst_image_download_item_title_count">
+        <item quantity="other">%d bilder</item>
+        <item quantity="one">%d bild</item>
+    </plurals>
+    <plurals name="burst_save_confirm_dialog_message">
+        <item quantity="other">Spara %d utvalda foton och ta bort resten?</item>
+        <item quantity="one">Spara %d utvalda foton och ta bort resten?</item>
+    </plurals>
+    <plurals name="burst_save_selected">
+        <item quantity="other">Spara %d valda foton</item>
+        <item quantity="one">Spara %d valt foto</item>
+    </plurals>
     <plurals name="cloud_storage_photo_num">
         <item quantity="other">%d foton</item>
         <item quantity="one">%d foto</item>
@@ -91,6 +103,18 @@
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">%d objekt valda</item>
         <item quantity="one">%d objekt vald</item>
+    </plurals>
+    <plurals name="delete_burst_photo_from_all_devices_and_cloud_msg">
+        <item quantity="other">Ta bort %d sprängskisser från Mi Cloud och alla sknkroniserade enheter?</item>
+        <item quantity="one">Ta bort %d sprängskiss från Mi Cloud och alla sknkroniserade enheter?</item>
+    </plurals>
+    <plurals name="delete_burst_photo_from_local">
+        <item quantity="other">Ta bort %d sprängskisser?</item>
+        <item quantity="one">Ta bort %d sprängskiss?</item>
+    </plurals>
+    <plurals name="delete_burst_photo_from_this_album_and_cloud_msg">
+        <item quantity="other">Ta bort %d sprängskisser från Mi Cloud och denna enhet?</item>
+        <item quantity="one">Ta bort %d sprängskiss från Mi Cloud och denna enhet?</item>
     </plurals>
     <plurals name="delete_media_from_all_devices_and_cloud_msg">
         <item quantity="other">Ta bort %d objekt från alla enheter och från Mi Cloud?</item>
@@ -115,6 +139,10 @@
     <plurals name="delete_photo_from_this_album_and_cloud_msg">
         <item quantity="other">Ta bort %d bilder från albumet och från Mi Cloud?</item>
         <item quantity="one">Ta bort bilden från albumet och från Mi Cloud?</item>
+    </plurals>
+    <plurals name="delete_third_party_burst_photo">
+        <item quantity="other">Ta bort %d sprängskisser från din enhet?</item>
+        <item quantity="one">Ta bort %d sprängskiss från din enhet?</item>
     </plurals>
     <plurals name="delete_video_from_all_devices_and_cloud_msg">
         <item quantity="other">Ta bort %d videor från alla enheter och från Mi Cloud?</item>

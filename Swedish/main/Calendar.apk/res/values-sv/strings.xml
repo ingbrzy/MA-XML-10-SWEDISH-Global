@@ -64,6 +64,7 @@
     <string name="alert_reminder_divider">|</string>
     <string name="alert_reminder_expired">Utgånget</string>
     <string name="alert_title">Kalendernotifikationer</string>
+    <string name="all_events">Alla händelser</string>
     <string name="anniversary_event_title">Årsdag: %1$s</string>
     <string name="anniversary_secondary_tag">Årsdag</string>
     <string name="app_label">Kalender</string>
@@ -135,6 +136,7 @@
     <string name="date_interval_text_to">Till %1$s</string>
     <string name="date_jump_hint">Gå till en specifik dag direkt</string>
     <string name="date_jump_title">Gå till datum</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_today">" (idag)"</string>
     <string name="day_view_new_event_hint">Ny händelse</string>
     <string name="default_reminder_mode">Påminnelser</string>
@@ -204,7 +206,7 @@
     <string name="every_weekday">Varje vardag (mån–fre)</string>
     <string name="fb_birthday_failure">Kunde inte importera födelsedagar från Facebook. Försök igen.</string>
     <string name="fb_birthday_region_warning">Den här funktionen är inte tillgänglig i din region</string>
-    <string name="fb_birthday_success">Importerade födelsedagar från Facebook framgångsrikt</string>
+    <string name="fb_birthday_success">Födelsedagar Importerades från Facebook</string>
     <string name="fb_calendar_account_name">Mi Lokal kalender</string>
     <string name="fb_calendar_display_name">Facebook-vänners födelsedagar</string>
     <string name="fb_calendar_owner_account">Mi Kalender</string>
@@ -344,6 +346,7 @@ Kontrollera inställningar och försök igen."</string>
     <string name="preferences_default_reminder_title">Standardtid för påminnelse</string>
     <string name="preferences_home_tz_title">Hemtidzon</string>
     <string name="preferences_notification_ringtone_title">Ljud</string>
+    <string name="preferences_show_indic_date_title">Visa indisk kalender</string>
     <string name="preferences_title">Kalender</string>
     <string name="preferences_use_home_tz_descrip">Visa kalender- och händelsetider i din hemtidzon när du reser</string>
     <string name="preferences_use_home_tz_title">Använd hemtidzonen</string>
@@ -403,10 +406,12 @@ Kontrollera inställningar och försök igen."</string>
     <string name="setting_others">Ytterligare</string>
     <string name="setting_title_about">Om</string>
     <string name="setting_title_holiday_display">Visa helgdagar</string>
+    <string name="setting_title_policy">Sekretesspolicy</string>
     <string name="share_image">Dela</string>
     <string name="share_image_label">Dela via</string>
     <string name="share_title">Dela</string>
     <string name="show_day_view">Visa dag</string>
+    <string name="show_indic_date_summary">Indisk kalender är tillgänglig när ett av de språk som talas i Indien har angetts som ditt systemspråk</string>
     <string name="start_date_calculate">Beräkna</string>
     <string name="storage_permission_denied">Tillåt åtkomst till lagringsutrymmet först</string>
     <string name="subscribe_card">Prenumerera nu</string>

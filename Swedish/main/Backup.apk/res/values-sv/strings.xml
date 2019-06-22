@@ -6,6 +6,9 @@ Storlek: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerar version %1$s
 Delta-uppdatering storlek: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Lagring inte tillgänglig, kontrollera ditt SD-kort.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunde inte starta nedladdning. Kontrollera att appen för Nedladdningar fungerar normalt.</string>
     <string name="app_name">Säkerhetskopia</string>
     <string name="local_app_name">Säkerhetskopia</string>
@@ -22,7 +25,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="backup_progress">Säkerhetskopierar…</string>
     <string name="button_ok">OK</string>
     <string name="button_continue">Fortsätta</string>
-    <string name="backup_finished">Säkerhetskopiering framgångsrikt skapat</string>
+    <string name="backup_finished">Säkerhetskopia skapad</string>
     <string name="backup_report">Visa detaljer</string>
     <string name="backup_hint">Håll enheten påslagen</string>
     <string name="backup_hint_onpad">Håll enheten påslagen</string>
@@ -46,6 +49,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="restore_launcher_layout_hit">Återställ launcherinställningar</string>
     <string name="settings_summary">Telefon och meddelandeinställningar</string>
     <string name="camera_summary">Kamerainställningar (foton räknas inte)</string>
+    <string name="gallery_summary">Galleriinställningar (foton inkluderas inte)</string>
     <string name="account_summary">Säkerhetskopiera Google Konto, Mi Konto och annan användardata</string>
     <string name="cloud_app_name">Mi Cloud Säkerhetskopiering</string>
     <string name="cloud_home_title">Mi Cloud</string>
@@ -82,7 +86,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="task_pending">Väntar…</string>
     <string name="task_pre_running">Startar…</string>
     <string name="task_post_running">Säkerhetskopierar…</string>
-    <string name="task_finished">"Backats upp framgångsrikt "</string>
+    <string name="task_finished">"Säkerhetskopia skapad "</string>
     <string name="task_canceled">Säkerhetskopiering avbruten</string>
     <string name="task_failed">Det gick inte att säkerhetskopiera</string>
     <string name="task_canceled_local">Säkerhetskopia ofullständig (%s)</string>
@@ -165,7 +169,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="current_account">Hej %s</string>
     <string name="current_sim">Nuvarande SIM kort</string>
     <string name="date_format">HH:mm:ss dd-MM-yyyy</string>
-    <string name="dir_date_format">yyyyMMdd_HHmmss</string>
+    <string name="dir_date_format">ååååMMdd_TTmmss</string>
     <string name="no_network">Kan inte ansluta till nätverket</string>
     <string name="retry">Försök igen</string>
     <string name="select_all">Välj alla</string>
@@ -226,6 +230,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="restore_backup">Återställ</string>
     <string name="enable_encrypt_description">Kryptera</string>
     <string name="disable_encrypt_description">Inte krypterad</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Vänta en stund…</string>
     <string name="state_mounting">Kommer åt utrymme på router…</string>
     <string name="abort_backup_confirm">Säkerhetskopiering är inte klar. Sluta ändå?</string>
@@ -234,6 +239,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="feature_title_contacts">Kontakter</string>
     <string name="feature_title_sms">Meddelanden</string>
     <string name="feature_title_mms">MMS</string>
+    <string name="feature_title_mms_setting">Inställningar Meddelanden</string>
     <string name="feature_title_account">Mi Konto</string>
     <string name="feature_title_antispam">Blockeringslista</string>
     <string name="summary_err_backup_encrypting">Logga in på ditt Mi Konto.</string>
@@ -392,9 +398,10 @@ Frigör lagringsutrymme och överför endast viktiga objekt."</string>
     <string name="button_clean_garbage">Frigör utrymme</string>
     <string name="button_quit">Avsluta</string>
     <string name="soft_ap_creating">Skapar hotspot…</string>
-    <string name="wait_link">"Anslut din gamla enhet till hotspoten.
-Lämna inte sidan in anslutningen har upprättats."</string>
-    <string name="old_way">Du kan också använda en QR-kod för att ansluta. Tryck för att generera koden.</string>
+    <string name="wait_link">"Öppna Mi Mover på den gamla enheten,
+ tryck på \"Jag är sändare\" och välj en hotspot för att ansluta.
+Stäng inte sidan innan anslutningen är upprättad."</string>
+    <string name="old_way">Du kan också generera en QR-kod på din nya enhet och skanna den med den gamla enheten.</string>
     <string name="soft_ap_create_failed">Det gick inte att skapa hotspot</string>
     <string name="scan_soft_ap_label">Anslut den gamla enheten</string>
     <string name="scan_soft_ap">Söker efter den nya enheten…</string>
@@ -565,6 +572,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
  ska du först skapa en iCloud säkerhetskopia."</string>
     <string name="list_footer_tip_title">Tips:</string>
     <string name="import_tip_summary">På grund av kompatibilitetsproblem så kan du bara överföra delar av din data från iOS-enheter. Se till att du har skapat en iCloud backup före du börjar överföra.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importera</string>
     <string name="select_empty">Välj objekt att importera</string>
     <string name="select_item_summary_wait">Väntar…</string>
@@ -639,8 +647,14 @@ Frigör utrymme eller gör flera mindre överföringar."</string>
     <string name="dialog_app_upgrade_message">Det finns en ny version av Mi Mover. Uppdatera Mi Mover nu?</string>
     <string name="dialog_app_upgrade_exit">Avsluta</string>
     <string name="dialog_app_upgrade_download">Uppdatera</string>
-    <string name="dialog_backup_password_change_machine_tips">"You won't be able to transfer password-protected backups. Turn off backup password before using Mi Mover."</string>
-    <string name="dialog_backup_password_backup_tips">"Can't back up items when backup password is on. Turn off backup password."</string>
-    <string name="dialog_backup_password_cancel">Cancel</string>
-    <string name="dialog_backup_password_to_settings">Settings</string>
+    <string name="dialog_backup_password_change_machine_tips">Du kommer inte att kunna överföra lösenordsskyddade säkerhetskopior. Stäng av säkerhetskopieringslösenordet innan användning av Mi Mover.</string>
+    <string name="dialog_backup_password_backup_tips">Det går inte att säkerhetskopiera objekt när säkerhetskopieringslösenordet är på. Stäng av säkerhetskopieringslösenordet.</string>
+    <string name="dialog_backup_password_cancel">Avbryt</string>
+    <string name="dialog_backup_password_to_settings">Inställningar</string>
+    <string name="user_feedback">Feedback</string>
+    <string name="iCloud_ID_verification_tip">Ange SMS-verifieringskoden skickad till telefonnumret associerat med ditt Apple-ID. Ignorera popup-koden visad på skärmen på din iPhone.</string>
+    <string name="trans_complete_restoring">Överförd framgångsrikt. Återställer app-data…</string>
+    <string name="dialog_backup_password_auto_backup_tips">Kan inte säkerhetskopiera objekt automatiskt när säkerhetskopieringslösenordet är på. Stäng av säkerhetskopieringslösenordet först.</string>
+    <string name="dialog_backup_password_change_device_restore_tips">Det går inte att använda Mi Mover när säkerhetskopieringslösenordet är på. Stäng av säkerhetskopieringslösenordet.</string>
+    <string name="dialog_backup_password_restore_tips">Det går inte att återställa objekt när säkerhetskopieringslösenordet är på. Stäng av säkerhetskopieringslösenordet.</string>
 </resources>

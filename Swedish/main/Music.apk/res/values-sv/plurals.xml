@@ -48,6 +48,10 @@ totalt %2$d låtar"</item>
         <item quantity="other">%d Kommentarer</item>
         <item quantity="one">%d Kommentar</item>
     </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%d dagar sedan</item>
+        <item quantity="one">%d dag sedan</item>
+    </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">Radera %d objekt?</item>
         <item quantity="one">Radera %d objekt?</item>

@@ -36,6 +36,22 @@
         <item quantity="other">"&lt;font color='# 20a7ff'>%1$s&lt;/font> folk har röstat"</item>
         <item quantity="one">"&lt;font color='# 20a7ff'>%1$s&lt;/font> folk har röstat"</item>
     </plurals>
+    <plurals name="tts_report_temperature_high_centigrade">
+        <item quantity="other">Högsta temperatur: %1$s grader Celsius</item>
+        <item quantity="one">Högsta temperatur: %1$s grader Celsius</item>
+    </plurals>
+    <plurals name="tts_report_temperature_high_fahrenheit">
+        <item quantity="other">Högsta temperatur: %1$s grad Fahrenheit</item>
+        <item quantity="one">Högsta temperatur: %1$s grader Fahrenheit</item>
+    </plurals>
+    <plurals name="tts_report_temperature_low_centigrade">
+        <item quantity="other">Lägsta temperatur: %1$s grader Celsius</item>
+        <item quantity="one">Lägsta temperatur: %1$s grader Celsius</item>
+    </plurals>
+    <plurals name="tts_report_temperature_low_fahrenheit">
+        <item quantity="other">Lägsta temperatur: %1$s grad Fahrenheit</item>
+        <item quantity="one">Lägsta temperatur: %1$s grader Fahrenheit</item>
+    </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Klart</item>
         <item quantity="one">Klart</item>

@@ -195,6 +195,13 @@
     <string name="begin_share_toast">Skapa ett separat album för barnet innan delning?</string>
     <string name="blank_app_name" />
     <string name="browse_category_title">Bläddra</string>
+    <string name="burst_image_download_item_title" formatted="false">Hämta original (%s|%s)</string>
+    <string name="burst_preview_title">Kontinuerligt fotoläge</string>
+    <string name="burst_save_all">Spara Alla</string>
+    <string name="burst_save_choice_title" formatted="false">Utvalda %d av %d</string>
+    <string name="burst_save_confirm_dialog_title">Sparar bild</string>
+    <string name="burst_save_error_msg">Kunde inte spara</string>
+    <string name="burst_save_processing">Berarbetar…</string>
     <string name="buy_member_tip">Bli medlem</string>
     <string name="by_email">E-post</string>
     <string name="by_others">Annat</string>
@@ -337,6 +344,8 @@
     <string name="custom_select_title_select_item">Välj objekt</string>
     <string name="debugging_info">Debuginfo har genererats. Tryck OK för öppna mappen.</string>
     <string name="debugging_tip">Genererar debug data</string>
+    <string name="decrypt_video_failed">Det gick inte att förbereda video</string>
+    <string name="decrypting_video">Förbered video…</string>
     <string name="default_relation_name">Ny grupp</string>
     <string name="define_by_user">Anpassad</string>
     <string name="delete">Ta bort</string>
@@ -390,6 +399,10 @@
     <string name="downloading_dialog_message">Du kan välja vilken kvalité för de nedladdade bilderna eller stänga av automatisk nedladdning i Inställningar.</string>
     <string name="downloading_title">Laddar ner bilder från Mi Cloud</string>
     <string name="edit_baby_info">Visa bebisinfo</string>
+    <string name="editor_cancel">Avbryt</string>
+    <string name="editor_export">Spara</string>
+    <string name="editor_talkback_redo">Göra om</string>
+    <string name="editor_talkback_undo">Ångra</string>
     <string name="email_picker_title">Lägg till delad e-post</string>
     <string name="empty_query_text_msg">Vet inte vad som eftersöks…</string>
     <string name="empty_recommend_back">Tillbaka</string>
@@ -502,6 +515,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="face_name_edit">Redigera</string>
     <string name="face_name_input">Ange namn</string>
     <string name="face_recommend">Rekommendationer</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunde inte slutföra åtgärden</string>
     <string name="fail_to_pick_email">Ogiltig e-postadress</string>
     <string name="fail_to_sync_album">Kunde inte synkronisera album. Kolla din datakoppling och försök igen.</string>
@@ -512,6 +526,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="feature_guidance_photo_effects">"Nya foto effects
 are tillgänglig"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nya effekter finns</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_bw">B&amp;W</string>
     <string name="filter_bi_dusk">Skymning</string>
     <string name="filter_bi_lilt">Glad melodi</string>
@@ -560,7 +575,7 @@ are tillgänglig"</string>
     <string name="filter_people_movie">Film</string>
     <string name="filter_people_nature">Naturlig</string>
     <string name="filter_people_pink">Rodna</string>
-    <string name="filter_people_riddle">Candy</string>
+    <string name="filter_people_riddle">Godis</string>
     <string name="filter_people_sepia">Sepiabrun</string>
     <string name="filter_people_story">Berättelse</string>
     <string name="filter_people_tea">Te</string>
@@ -585,18 +600,20 @@ are tillgänglig"</string>
     <string name="filter_sky_sunset">Solnedgång</string>
     <string name="finish_create_baby_album_toast">Skapa album för \"%s\" i Mi Cloud</string>
     <string name="finish_fill_baby">Skapa</string>
+    <string name="first_time_add_video_to_secret_tips">Uppdatera Galleri för att kunna dölja videor</string>
     <string name="flash_off">Ingen blixt</string>
     <string name="flash_on">Blixt använd</string>
     <string name="frame_not_support_image_ratio">Detta bildformat stöds inte</string>
     <string name="free_view_desc">3D vy</string>
     <string name="gallery_setting">Inställningar</string>
     <string name="gallery_sync_disable_toast">Synk är avstängd för galleri</string>
-    <string name="generate_story_summary">MIUI analyserar dina foton och skapar album som berättar. Stäng av funktionen för att sluta skapa album som berättar.</string>
-    <string name="generate_story_title">Album som berättar</string>
+    <string name="generate_story_summary">MIUI analyserar dina foton och skapa minnen. Stäng av funktionen för att sluta skapa minnen.</string>
+    <string name="generate_story_title">Minnen</string>
     <string name="get_album_info_in_process">Hämtar detaljer för delade album…</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Ange</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri behöver tillgång till 
 %s
  för att fungera normalt, tryck på \"Tillämpa\" för att gå till Behörigheter."</string>
@@ -850,6 +867,7 @@ för att göra galleriet personligt"</string>
     <string name="people_mark_mode_title_no_mark_name">Välj en person</string>
     <string name="people_page_label">Människor</string>
     <string name="people_page_unname">Namnlös</string>
+    <string name="percent_sign">%</string>
     <string name="permissin_contract_desc">För att namnge människor på foton</string>
     <string name="permission_contract_name">Kontakter</string>
     <string name="permission_optional_category">Valfria behörigheter</string>
@@ -875,7 +893,7 @@ för att göra galleriet personligt"</string>
     <string name="photo_editor_crop_rotation_format">%d°</string>
     <string name="photo_editor_doodle">Klotter</string>
     <string name="photo_editor_filter">Filter</string>
-    <string name="photo_editor_font_default">>Mi Lanting (Normal)</string>
+    <string name="photo_editor_font_default">Mi Lanting (Normal)</string>
     <string name="photo_editor_frame">Ram</string>
     <string name="photo_editor_label">Redigera</string>
     <string name="photo_editor_long_crop">Beskär</string>
@@ -906,6 +924,7 @@ för att göra galleriet personligt"</string>
     <string name="photo_editor_navigator_module_downloading">Laddar ner %s…</string>
     <string name="photo_editor_navigator_need_download">Anslut till nätverket för att ladda ner %s.</string>
     <string name="photo_editor_remove_watermark">Ta bort vattenstämpel</string>
+    <string name="photo_editor_remove_watermark_on">Lägg till vattenstämpel</string>
     <string name="photo_editor_remover">Ta bort</string>
     <string name="photo_editor_rotate">Rotera</string>
     <string name="photo_editor_saving">Sparar…</string>
@@ -914,6 +933,7 @@ för att göra galleriet personligt"</string>
     <string name="photo_editor_talkback_confirm">Bekräfta</string>
     <string name="photo_editor_talkback_crop_16_9">16:9</string>
     <string name="photo_editor_talkback_crop_1_1">1:1</string>
+    <string name="photo_editor_talkback_crop_2_3">Två till tre</string>
     <string name="photo_editor_talkback_crop_3_4">3:4</string>
     <string name="photo_editor_talkback_crop_4_3">4:3</string>
     <string name="photo_editor_talkback_crop_9_16">9:16</string>
@@ -1045,7 +1065,12 @@ för att göra galleriet personligt"</string>
     <string name="scan_barcode_to_join">Scanna QR-kod för att lägga till album</string>
     <string name="scan_qr_code_buttom_text">Scanna QR-koden för att titta på albumet</string>
     <string name="screen_doodle_talkback_size">Linjebredd Doodle</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">Klar</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">Avbryt</string>
     <string name="screen_save_dialog_btn_delete">Ta bort skärmdump</string>
     <string name="screen_save_dialog_btn_save">Spara till Galleri</string>
@@ -1103,6 +1128,9 @@ för att göra galleriet personligt"</string>
     <string name="search_title_recommend">Rekommenderad</string>
     <string name="search_title_suggestion">Förslag</string>
     <string name="search_title_tag">Objekt</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Söker efter projektor…</string>
     <string name="secret_album_card_description">Bästa platsen för alla dina små hemligheter</string>
     <string name="secret_album_card_title">Försök dolda album</string>
@@ -1178,6 +1206,12 @@ för att göra galleriet personligt"</string>
     <string name="slim_running">Optimerar…</string>
     <string name="slim_space">frigjorde</string>
     <string name="slim_stop">Avsluta optimering</string>
+    <string name="special_type_eye_repair">Åtgärdade stängda ögon med hjälp av AI</string>
+    <string name="special_type_hdr">HDR</string>
+    <string name="special_type_night_beauty">AI lågljusporträtt</string>
+    <string name="special_type_night_mode">AI nattläge</string>
+    <string name="special_type_portrait">AI ljust målade porträtt</string>
+    <string name="special_type_wide_angle">AI ultrabred vinkel</string>
     <string name="start_debug">Debug Galleri</string>
     <string name="start_to_use_face_albumset">Sortera efter personer</string>
     <string name="status_bar_notification_info_overflow">>999</string>
@@ -1291,8 +1325,14 @@ för att göra galleriet personligt"</string>
     <string name="video_editor_adjust">Förbättra</string>
     <string name="video_editor_analyzing">Analyserar video…</string>
     <string name="video_editor_audio">Ljud</string>
+    <string name="video_editor_audio_antiquity">Retro</string>
     <string name="video_editor_audio_custom">Välj</string>
+    <string name="video_editor_audio_dream">Dream</string>
+    <string name="video_editor_audio_electronics">Electro</string>
     <string name="video_editor_audio_none">Inga</string>
+    <string name="video_editor_audio_quiet">Zen</string>
+    <string name="video_editor_audio_summertime">Sommar</string>
+    <string name="video_editor_audio_vitality">Vigor</string>
     <string name="video_editor_auto_trim">Auto trimma</string>
     <string name="video_editor_auto_trim_tip">Auto trimmar…</string>
     <string name="video_editor_cancel">Avbryt</string>

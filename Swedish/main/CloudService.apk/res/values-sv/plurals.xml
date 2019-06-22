@@ -52,6 +52,10 @@
         <item quantity="other">%d objekt i App valvet</item>
         <item quantity="one">%d objekt i App valvet</item>
     </plurals>
+    <plurals name="dirty_phrase_count">
+        <item quantity="other">%d vanliga fraser</item>
+        <item quantity="one">%d vanlig fras</item>
+    </plurals>
     <plurals name="dirty_secretphoto_count">
         <item quantity="other">%d dold bilder synkroniseras inte. Logga ut efter att alla objekt är synkroniserade för att behålla dem annars kommer objekten tas bort.</item>
         <item quantity="one">%d dold bild synkroniseras inte. Logga ut efter att alla objekt är synkroniserade för att behålla dem annars kommer objekten tas bort.</item>

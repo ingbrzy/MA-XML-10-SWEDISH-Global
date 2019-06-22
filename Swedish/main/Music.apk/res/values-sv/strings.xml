@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="April">April</string>
+    <string name="August">Augusti</string>
+    <string name="December">December</string>
+    <string name="February">Februari</string>
+    <string name="January">Januari</string>
+    <string name="July">Juli</string>
+    <string name="June">Juni</string>
+    <string name="March">Mars</string>
+    <string name="May">Maj</string>
+    <string name="November">November</string>
+    <string name="October">Oktober</string>
+    <string name="September">September</string>
+    <string name="Updated_at">"Skapad: "</string>
     <string name="abc_action_bar_home_description">Visa startsidan</string>
     <string name="abc_action_bar_up_description">Navigera uppåt</string>
     <string name="abc_action_menu_overflow_description">Fler alternativ</string>
@@ -88,6 +101,7 @@
     <string name="available_playlist_name_format">Ny spellista %d</string>
     <string name="avoid_to_use_traffic_summary">Använd inte mobildata för att strömma musik</string>
     <string name="avoid_to_use_traffic_title">Meddela när mobildata används för att spela låtar</string>
+    <string name="back">Tillbaka</string>
     <string name="back_confirm">Tryck igen för att skicka appen till bakgrunden</string>
     <string name="bluetooth_device">Bluetooth-enhet</string>
     <string name="buffering">Buffrar…</string>
@@ -222,6 +236,7 @@
     <string name="download_method">Ladda ned</string>
     <string name="download_no_application_title">Kan inte öppna filen</string>
     <string name="download_paused_in_power_save_mode">Nerladdningar pausas när Batterisparläge är på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laddar ner…</string>
     <string name="download_quality">Nedladdningskvalitet</string>
     <string name="download_quality_summary">Ytterligare inställningar för låtar du laddar ned</string>
@@ -301,7 +316,9 @@
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Ljud</string>
@@ -359,6 +376,9 @@
     <string name="hot_icon_in_fast_indexer">H</string>
     <string name="hungama_batch_download_alert_summary">Endast PRO-medlemmar kan ladda ner flera låtar. Få ett PRO-medlemskap nu?</string>
     <string name="hungama_free_download_out_summary">Du kan inte ladda ner fler gratis låtar. Få ett PRO-medlemskap att ladda ner obegränsade låtar?</string>
+    <string name="hungama_privacy_desc">Hungama Sekretess Policy (valfritt)</string>
+    <string name="hungama_privacy_tips_content">För att få åtkomst online måste du godkänna <a href="/link/click">Hungama Integritetspolicy</a>.</string>
+    <string name="hungama_privacy_tips_title">Hungarna Integritetspolicy</string>
     <string name="hungama_subscribe_message">Köp PRO-medlemskap för att ladda ner musik i hög kvalitet.</string>
     <string name="hungama_subscribe_positive_button">Köp PRO-medlemskap</string>
     <string name="hungama_subscribe_title">PRO medlemskap</string>
@@ -498,14 +518,29 @@
     <string name="nowplaying_dialog_title_delete_tracks">Ta bort denna låt från kön?</string>
     <string name="nowplaying_menu_item_delete">Ta bort från kö</string>
     <string name="ok">OK</string>
+    <string name="online_apk_acquired">Laddar %d%%</string>
+    <string name="online_apk_acquiring">Laddar … %d%%</string>
     <string name="online_apk_download_error_no_enough_space">Det gick inte att ladda ner på grund av för lite lagringsutrymme.</string>
     <string name="online_apk_downloading">Laddar ner…%d%%</string>
     <string name="online_apk_install_alert_confirm">Ladda ner</string>
+    <string name="online_apk_install_alert_continue">Återuppta</string>
+    <string name="online_apk_install_alert_failed_text">Det gick inte att ladda ner. Försök igen.</string>
     <string name="online_apk_install_alert_message">Du måste hämta Yandex.Music plug-in. Hämta nu?</string>
+    <string name="online_apk_install_alert_mobile_net_text">Du använder nu din mobildata. Användning av mobildata kan generera ytterligare avgifter.</string>
     <string name="online_apk_install_alert_note">Denna tjänst tillhandahålls av Yandex.Music</string>
+    <string name="online_apk_install_alert_note_new">Innehållet online utges av %s</string>
+    <string name="online_apk_install_alert_pause">Pausa</string>
+    <string name="online_apk_install_alert_retry">Försök igen</string>
+    <string name="online_apk_install_alert_start">Börja</string>
+    <string name="online_apk_install_completed">Uppladdningen online har lyckats. Tryck på %s för att se innehållet.</string>
     <string name="online_apk_install_error_no_enough_space">Det gick inte att installera på grund av för lite lagringsutrymme.</string>
     <string name="online_apk_install_error_with_reason">Det gick inte att installera (Fel %d)</string>
+    <string name="online_apk_install_failed_with_reason" formatted="false">Vi kunde inte ladda online-innehållet. Tryck på %s för att försöka igen. Felmeddelande: %d.</string>
+    <string name="online_apk_install_in_background">Laddar online-innehåll i bakgrunden…</string>
+    <string name="online_apk_install_network_change_paused">Du använder din mobildata. Vi kommer pausa uppladdningen. Tryck på %s för att se mer.</string>
+    <string name="online_apk_install_network_error">Det gick inte ansluta till nätverket. Kontrollera dina nätverksinställningar och försök igen.</string>
     <string name="online_list_delete_message">Alla nedladdade låtar i den här spellistan kommer tas bort från den interna lagringen.</string>
+    <string name="online_playlist_category">Spellistor</string>
     <string name="online_recommend">Spellista</string>
     <string name="online_service_open_tip">Musiktjänster online är på</string>
     <string name="online_service_title">Onlinetjänster</string>
@@ -523,7 +558,7 @@
     <string name="paused_waiting_for_network">Väntar på nätverk</string>
     <string name="paused_waiting_to_retry">Väntar på att försöka igen</string>
     <string name="pay_now">Aktuell tjänst</string>
-    <string name="payment_success_message">Tack! Din betalning behandlades framgångsrikt. Njut av PRO tjänster.</string>
+    <string name="payment_success_message">Tack! Din betalning är mottagen. Njut av PRO-tjänster.</string>
     <string name="payment_success_title">Grattis!</string>
     <string name="pending_apk">Avvaktar…</string>
     <string name="permission_declaration_message">Tillåt åtkomst till lagringsutrymme i Säkerhet > Behörigheter > Behörigheter > Lagring > Musik för att kunna använda appen normalt.</string>
@@ -560,6 +595,7 @@
     <string name="priority_storage_summary">Ladda automatiskt ned till tillgängligt externt SD-kort</string>
     <string name="privacy_desc">Integritetspolicy (obligatorisk)</string>
     <string name="privacy_policy">Integritetspolicy</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sv_SE</string>
     <string name="pro_member">PRO-medlem</string>
     <string name="project_device">Mi Telefon</string>
     <string name="prompt_grant_write_settings_permission">Tillåt att ändra systeminställningar</string>
@@ -594,6 +630,8 @@
     <string name="save_changes">Spara ändringar</string>
     <string name="search_album_and_lyric">Sök albumomslag och texter</string>
     <string name="search_empty">Inga resultat</string>
+    <string name="search_empty_subtitle_online_music">Tryck på knappen nedan för att öppna %s.</string>
+    <string name="search_empty_title_online_music">Inga objekt här ännu.</string>
     <string name="search_for_album">Album</string>
     <string name="search_for_artist">Artist</string>
     <string name="search_hint">Sök efter artister, låtar, album och rekommendationer</string>
@@ -660,6 +698,7 @@
     <string name="start_to_check_new_version">Söker efter uppdateringar…</string>
     <string name="start_to_download">Laddar ner…</string>
     <string name="start_to_play">Spela</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
     <string name="storage_usb">USB lagring</string>
@@ -712,6 +751,8 @@
     <string name="toast_not_pro">Denna funktion är tillgänglig endast för PRO-medlemmar.</string>
     <string name="toast_uhd_songs_for_download">Nedladdningskvalitet inställd på Hög</string>
     <string name="toast_uhd_songs_for_stream">Strömmnings kvalitet inställd på Hög</string>
+    <string name="today">Idag</string>
+    <string name="top_chart_title">Topplistor</string>
     <string name="ultra_high_quality">Högsta</string>
     <string name="unknown_album_name">Okänt album</string>
     <string name="unknown_artist_name">Okänd artist</string>
@@ -722,6 +763,7 @@
     <string name="upgrade_music_message">Uppdateringar är redo. Starta om för att uppdatera.</string>
     <string name="upgrading_in_backstage">Uppdaterar i bakgrunden…</string>
     <string name="user_agreement">Användaravtal</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sv_SE</string>
     <string name="version_info">Version</string>
     <string name="video_play_cellular">Enheten inte är ansluten till Wi-Fi. Använda mobildata?</string>
     <string name="video_replay_btn">Spela igen</string>

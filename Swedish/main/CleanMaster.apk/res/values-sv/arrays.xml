@@ -65,14 +65,14 @@
     <string-array name="white_list_cache">
         <item>/MIUI/theme/.data</item>
         <item>/MIUI/contactphoto/.data</item>
-        <item>/MIUI/wallpaper</item>
-        <item>/MIUI/ringtone\"</item>
-        <item>/MIUI/Gallery/cloud</item>
-        <item>/MiMarket/files</item>
+        <item>/MIUI/bakgrund</item>
+        <item>/MIUI/ringsignal\"</item>
+        <item>/MIUI/Gallery/moln</item>
+        <item>/MiMarket/filer</item>
         <item>/miliao/cache</item>
         <item>/tencent/blob/mqq</item>
     </string-array>
     <string-array name="white_list_ad">
-        <item>/MIUI/debug_log</item>
+        <item>MIUI/felrättningslogg</item>
     </string-array>
 </resources>

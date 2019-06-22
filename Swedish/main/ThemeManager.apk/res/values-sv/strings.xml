@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="abc_action_bar_home_description">Visa startsidan</string>
-    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
-    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
     <string name="abc_action_bar_up_description">Navigera uppåt</string>
     <string name="abc_action_menu_overflow_description">Fler alternativ</string>
     <string name="abc_action_mode_done">Klart</string>
@@ -10,6 +8,16 @@
     <string name="abc_activitychooserview_choose_application">Välj en app</string>
     <string name="abc_capital_off">AV</string>
     <string name="abc_capital_on">PÅ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt + </string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl + </string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">retur</string>
+    <string name="abc_menu_function_shortcut_label">Funktion + </string>
+    <string name="abc_menu_meta_shortcut_label">Meta + </string>
+    <string name="abc_menu_shift_shortcut_label">Skift + </string>
+    <string name="abc_menu_space_shortcut_label">blanksteg</string>
+    <string name="abc_menu_sym_shortcut_label">Symbol + </string>
+    <string name="abc_prepend_shortcut_label">Meny + </string>
     <string name="abc_search_hint">Sök …</string>
     <string name="abc_searchview_description_clear">Ta bort frågan</string>
     <string name="abc_searchview_description_query">Sökfråga</string>
@@ -19,37 +27,8 @@
     <string name="abc_shareactionprovider_share_with">Dela med</string>
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
-    <string name="exo_controls_fastforward_description">Snabbspola framåt</string>
-    <string name="exo_controls_fullscreen_description">Helskärmsläge</string>
-    <string name="exo_controls_next_description">Nästa spår</string>
-    <string name="exo_controls_pause_description">Pausa</string>
-    <string name="exo_controls_play_description">Spela upp</string>
-    <string name="exo_controls_previous_description">Föregående spår</string>
-    <string name="exo_controls_repeat_all_description">Upprepa alla</string>
-    <string name="exo_controls_repeat_off_description">Upprepa inga</string>
-    <string name="exo_controls_repeat_one_description">Upprepa en</string>
-    <string name="exo_controls_rewind_description">Spola tillbaka</string>
-    <string name="exo_controls_shuffle_description">Blanda spår</string>
-    <string name="exo_controls_stop_description">Stoppa</string>
-    <string name="exo_download_completed">Nedladdningen är klar</string>
-    <string name="exo_download_description">Ladda ned</string>
-    <string name="exo_download_downloading">Laddar ned</string>
-    <string name="exo_download_failed">Nedladdningen misslyckades</string>
-    <string name="exo_download_notification_channel_name">Nedladdningar</string>
-    <string name="exo_download_removing">Nedladdningar tas bort</string>
-    <string name="exo_item_list">%1$s, %2$s</string>
-    <string name="exo_track_mono">Mono</string>
-    <string name="exo_track_selection_auto">Automatiskt</string>
-    <string name="exo_track_selection_none">Ingen</string>
-    <string name="exo_track_selection_title_audio">Ljud</string>
-    <string name="exo_track_selection_title_text">Text</string>
-    <string name="exo_track_selection_title_video">Video</string>
-    <string name="exo_track_stereo">Stereo</string>
-    <string name="exo_track_surround">Surroundljud</string>
-    <string name="exo_track_surround_5_point_1">5.1-kanaligt surroundljud</string>
-    <string name="exo_track_surround_7_point_1">7.1-kanaligt surroundljud</string>
-    <string name="exo_track_unknown">Okänt</string>
-    <string name="search_menu_title">Sök</string>
+    <string name="about_app_name">Om teman</string>
+    <string name="about_version_update">Vad är nytt</string>
     <string name="accessibility_setting_hint">"Tryck på knappen i det övre högra hörnet för att aktivera denna tjänst.
 Teman kommer att upptäcka vilka appar du använder och visa transparenta bakgrunder i apparna som du väljer"</string>
     <string name="accessibiliy_description_content_account">Profil</string>
@@ -79,6 +58,7 @@ Teman kommer att upptäcka vilka appar du använder och visa transparenta bakgru
     <string name="ad_downloading_tip">Objektet laddas ner. Du kan se nedladdningsförloppet i Notifikationspanelen.</string>
     <string name="add_resource_detail_fail">Kan inte lägga till resursen</string>
     <string name="all_resources">Alla</string>
+    <string name="already_latest_version">Uppdaterad</string>
     <string name="app_disable_transparent_wallpaper">Utan transparent bakgrund</string>
     <string name="app_enable_transparent_wallpaper">Med transparent bakgrund</string>
     <string name="app_name">Teman</string>
@@ -107,8 +87,13 @@ Teman kommer att upptäcka vilka appar du använder och visa transparenta bakgru
     <string name="card_retry">Försök igen</string>
     <string name="change_host_hint">Ändra värd</string>
     <string name="change_wallpaper">Bakgrund</string>
+    <string name="check_has_new_version">Uppdatering finns tillgänglig</string>
     <string name="classification_more_understand_you">Välj din favoritkategori</string>
     <string name="close">Stäng</string>
+    <string name="common_applying">Tillämpar…</string>
+    <string name="common_downloading">Laddar ned…</string>
+    <string name="common_format_date_no_year">dd/MM</string>
+    <string name="common_skip">Hoppa över</string>
     <string name="component_backup_preference_title">Säkerhetskopiera tema</string>
     <string name="component_category_finest_title">ALLMÄN</string>
     <string name="component_category_more_title">Avancerad</string>
@@ -119,6 +104,7 @@ Teman kommer att upptäcka vilka appar du använder och visa transparenta bakgru
     <string name="count_down_tip">%ds återstår</string>
     <string name="current_using_desktop_wallpaper_text">Hemskärm</string>
     <string name="current_using_lockscreen_wallpaper_text">Låsskärm</string>
+    <string name="current_version">Aktuell version: %1$s</string>
     <string name="current_version_incompatible">Inte kompatibel</string>
     <string name="deleting">Tar bort…</string>
     <string name="description_author">Upphovsman</string>
@@ -144,6 +130,38 @@ Teman kommer att upptäcka vilka appar du använder och visa transparenta bakgru
     <string name="exit_extreme_mode_dialog_agree">Godkänn</string>
     <string name="exit_extreme_mode_dialog_cancel">Avbryt</string>
     <string name="exit_extreme_mode_dialog_title">Stänga av extrema läget</string>
+    <string name="exo_controls_fastforward_description">Snabbspola framåt</string>
+    <string name="exo_controls_fullscreen_description">Helskärmsläge</string>
+    <string name="exo_controls_next_description">Nästa spår</string>
+    <string name="exo_controls_pause_description">Pausa</string>
+    <string name="exo_controls_play_description">Spela upp</string>
+    <string name="exo_controls_previous_description">Föregående spår</string>
+    <string name="exo_controls_repeat_all_description">Upprepa alla</string>
+    <string name="exo_controls_repeat_off_description">Upprepa inga</string>
+    <string name="exo_controls_repeat_one_description">Upprepa en</string>
+    <string name="exo_controls_rewind_description">Spola tillbaka</string>
+    <string name="exo_controls_shuffle_description">Blanda spår</string>
+    <string name="exo_controls_stop_description">Stoppa</string>
+    <string name="exo_download_completed">Nedladdningen är klar</string>
+    <string name="exo_download_description">Ladda ned</string>
+    <string name="exo_download_downloading">Laddar ned</string>
+    <string name="exo_download_failed">Nedladdningen misslyckades</string>
+    <string name="exo_download_notification_channel_name">Nedladdningar</string>
+    <string name="exo_download_removing">Nedladdningar tas bort</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_selection_auto">Automatiskt</string>
+    <string name="exo_track_selection_none">Ingen</string>
+    <string name="exo_track_selection_title_audio">Ljud</string>
+    <string name="exo_track_selection_title_text">Text</string>
+    <string name="exo_track_selection_title_video">Video</string>
+    <string name="exo_track_stereo">Stereo</string>
+    <string name="exo_track_surround">Surroundljud</string>
+    <string name="exo_track_surround_5_point_1">5.1-kanaligt surroundljud</string>
+    <string name="exo_track_surround_7_point_1">7.1-kanaligt surroundljud</string>
+    <string name="exo_track_unknown">Okänt</string>
     <string name="extreme_mode_dialog_message">Den här funktionen är inte tillgänglig i extrema läge. Stänga av extrema läge för att kunna använda den.</string>
     <string name="extreme_mode_dialog_ok">Jag förstår</string>
     <string name="extreme_mode_dialog_title">Varning</string>
@@ -186,6 +204,8 @@ Teman kommer att upptäcka vilka appar du använder och visa transparenta bakgru
     <string name="gift_use_fail_dlg_title">Något gick snett</string>
     <string name="gift_used">Skickat</string>
     <string name="go_accessibility_setting">Välj</string>
+    <string name="goto_purchased_list">Se betaltningshistorik</string>
+    <string name="goto_wechat">Kopierat WeChat-konto \"%1$s\" till Urklipp. Öppna WeChat nu?</string>
     <string name="hide_free">Dölj gratis %1$s</string>
     <string name="hide_incompatible">Dölj inkompatibla %1$s</string>
     <string name="home_apply_failured">Det går inte att tillämpa bakgrund Hemskärmen</string>
@@ -208,6 +228,7 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="incompatible_dialog_ok">Jag förstår</string>
     <string name="incompatible_dialog_title">Kompatibilitetsproblem</string>
     <string name="is_setting_wallpaper_message">Ställer in bakgrund…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarm</string>
     <string name="item_resource_audio_optional_color_ring">Kopplingston</string>
     <string name="item_resource_audio_optional_notification_ring">Notifikationer</string>
@@ -220,6 +241,7 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="loading_resource_detail_info">Vänta en stund…</string>
     <string name="local_photos">Bilder från din telefon</string>
     <string name="local_resouce_creator_name">Utvecklare: %1$s</string>
+    <string name="lock_screen_apply">Bakgrund på Låsskärm</string>
     <string name="lockscreen_apply_failured">Det går inte att tillämpa Bakgrund för Låsskärmen</string>
     <string name="lockscreen_apply_failured_but_home_apply_success">Bakgrund för Hemskärmen tillämpad. Kan inte tillämpa bakgrund för Låsskärmen.</string>
     <string name="lockscreen_apply_success">Bakgrund för Låsskärmen tillämpad</string>
@@ -268,7 +290,9 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="my_gifts">Gåvor</string>
     <string name="my_gifts_purchased">Köpt</string>
     <string name="my_gifts_received">Mottagit</string>
+    <string name="network_exception">Det gick inte ansluta till nätverket. Kontrollera dina nätverksinställningar och försök igen.</string>
     <string name="no_data">Kan inte ansluta till nätverket</string>
+    <string name="official_accounts">WeChat</string>
     <string name="online_no_network">Det går inte ansluta till nätverket</string>
     <string name="online_precust_abstract">Abstrakt</string>
     <string name="online_precust_animal">Djur</string>
@@ -328,7 +352,7 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="resource_comment_average_score">Betygsättning</string>
     <string name="resource_comment_bad_comments">Negativ</string>
     <string name="resource_comment_current_version">Aktuell version</string>
-    <string name="resource_comment_detainment_fail">Kasta</string>
+    <string name="resource_comment_detainment_fail">Ta bort</string>
     <string name="resource_comment_detainment_msg">Du har inte skickat din kommentar än. Ignorera ändringar?</string>
     <string name="resource_comment_detainment_success">Stanna</string>
     <string name="resource_comment_edit_comment">Lägg till kommentarer</string>
@@ -418,6 +442,7 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="resource_import_successful">Komplett</string>
     <string name="resource_importing">Importerar…</string>
     <string name="resource_is_off_shelf">Inte tillgänglig</string>
+    <string name="resource_is_off_shelf_can_not_share">Kan inte dela. Denna artikel är inte längre tiigänglig.</string>
     <string name="resource_list_title">Nyligen valda</string>
     <string name="resource_local_picker">Välj ringsignal från enheten</string>
     <string name="resource_menu_refresh">Uppdatera</string>
@@ -437,6 +462,7 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="resource_pack_price_info">Originalpris: %1$s</string>
     <string name="resource_pack_warning">Du har redan köpt %1$d komponenter i detta tema. Det är billigare om du köper de återstående komponenterna individuellt.</string>
     <string name="resource_present">Gåva</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Gratis</string>
     <string name="resource_price_unit"> Mi Krediter</string>
     <string name="resource_purchase_common_error">Ett fel uppstod, försök igen</string>
@@ -448,6 +474,10 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="resource_ranking">Populär</string>
     <string name="resource_ranking_free">Gratis</string>
     <string name="resource_ranking_purchase">Betald</string>
+    <string name="resource_ring_ranking_list_divider">-</string>
+    <string name="resource_ring_ranking_list_rank_1">1</string>
+    <string name="resource_ring_ranking_list_rank_2">2</string>
+    <string name="resource_ring_ranking_list_rank_3">3</string>
     <string name="resource_ringtone_default">Ringsignaler</string>
     <string name="resource_ringtone_playing_error">Fel</string>
     <string name="resource_ringtone_volume_mute">Ringsignal är tystad</string>
@@ -513,6 +543,7 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
 "</string>
     <string name="sdcard_not_mounted_dialog_title">Inget SD-kort upptäckt</string>
     <string name="search_hint_header_text">Populära ord</string>
+    <string name="search_menu_title">Sök</string>
     <string name="selected_resource_file_invalid">Kan inte använda valda resursfilen</string>
     <string name="set_color_ring_back_tone">Välj en anpassad kopplingston</string>
     <string name="settings">Inställningar</string>
@@ -523,6 +554,7 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="shortcut_title">Gillar du våra bakgrunder?</string>
     <string name="show_free">Visa gratis %1$s</string>
     <string name="show_incompatible">Visa inkompatibla %1$s</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="swipe_find_more">Svep uppåt för att visa mer</string>
     <string name="system_precust">Förinstallerade</string>
     <string name="the_picture_is_not_support">Bilden stöds inte</string>
@@ -585,6 +617,7 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="theme_is_external_priority_storage">Spara till SD-kort</string>
     <string name="theme_is_external_priority_storage_summary">Tema-appen kommer starta direkt för att verkställa inställningar.</string>
     <string name="theme_multiple_button_title_customize">Anpassa</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Nej</string>
     <string name="theme_purchased_list_empty">Du har inte köpt några teman.</string>
     <string name="theme_purchased_non_local">Online</string>
@@ -657,6 +690,7 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="using_theme_next_automatic_update">Automatiska uppdateringar</string>
     <string name="using_theme_next_automatic_update_summary">Uppdatera nerladdade teman automatiskt via Wi-Fi när skärmen är låst</string>
     <string name="using_theme_show_ad">Rekommendationer</string>
+    <string name="version_update">Sök efter uppdateringar</string>
     <string name="video_ad_click">Prova nu</string>
     <string name="video_ad_try_for_free">Gratis utvärderingsperiod</string>
     <string name="video_ad_uncomplete_tip">Titta färdigt på videon för att hämta temat.</string>
@@ -703,6 +737,8 @@ För att avaktivera denna funktion, gå till Inställningar > Ljud &amp; vibrati
     <string name="wallpaper_settings_no_history">Ingen historik</string>
     <string name="wallpaper_settings_pad_more_page_title">Fler bakgrunder</string>
     <string name="wallpaper_settings_page_title">Bakgrund</string>
+    <string name="wechat_not_found">Installera först WeChat</string>
+    <string name="weibo">Weibo</string>
     <string name="wifi_check_cancel">Avbryt</string>
     <string name="wifi_check_confirm">Bekräfta</string>
     <string name="wifi_check_message">Använd mobildata för att hämta uppdateringar?</string>

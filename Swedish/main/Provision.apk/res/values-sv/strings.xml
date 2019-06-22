@@ -56,6 +56,7 @@ Du måste godkänna våra användarvillkor och vår integritetspolicy innan du k
     <string name="terms_of_use_label_systemhelper">, Självregistrerande tjänst</string>
     <string name="terms_of_use_lable_smart_cards">, Smarta kort</string>
     <string name="terms_of_use_lable_vsimcore">, MConnService</string>
+    <string name="terms_of_use_label_updater">, Uppdaterare</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 Du måste godkänna Facmoji's Integritetspolicy innan du använder denna funktion."</string>

@@ -6,7 +6,7 @@
     <string name="button_cancel">Avbryt</string>
     <string name="button_next">Nästa</string>
     <string name="date_format">HH:mm:ss dd-MM-yyyy</string>
-    <string name="dir_date_format">HHmmss_MMddyyyy</string>
+    <string name="dir_date_format">TTmmss_MMddåååå</string>
     <string name="retry">Försök igen</string>
     <string name="cloud_app_current_device">Aktuella enheten</string>
     <string name="cloud_app_other_devices">Övriga enheter</string>
@@ -50,6 +50,8 @@
     <string name="self_device_second_space">Telefonens Sekundära utrymme</string>
     <string name="other_device_main_space">Primära utrymmet</string>
     <string name="other_device_second_space">Sekundära utrymmet</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Återställer \"%s\"</string>
     <string name="size_unknown">Okänd storlek</string>
     <string name="recovering">Återställer %s</string>
@@ -100,7 +102,7 @@
     <string name="restore_task_cancelling">Avbryter…</string>
     <string name="remove_task_in_process">Tar bort…</string>
     <string name="remove_task_unfinished">Borttagning avbruten</string>
-    <string name="back_up_task_unfinished">Säkerhetskopiering avbruten</string>
+    <string name="back_up_task_unfinished">Det gick inte att säkerhetskopiera</string>
     <string name="about_to_recover">Vänta en stund…</string>
     <string name="success_open_cloudbackup">Aktiverat säkerhetskopiering för Hemskärmsinställningar</string>
     <string name="as_new_device">Ersätt föregående Hemskärm och inställningar</string>
@@ -134,6 +136,7 @@
     <string name="provision_error_connect_msg">Testa nätverket och försök igen. Säkerhetskopior är inte tillgängliga när enheten är offline.</string>
     <string name="provision_error_connect_title">Kan inte ansluta</string>
     <string name="loading_user_backup">Laddar säkerhetskopia…</string>
+    <string name="loading_progress_num">(%s%%)</string>
     <string name="error_num_placeholder">--</string>
     <string name="doing_calc_backup_data_size">Beräknar storlek…</string>
     <string name="authentication_failed">Kunde inte verifiera konto.</string>
@@ -215,4 +218,10 @@ Kontrollera dina inställningar och försök igen."</string>
     <string name="provision_background_restore_more_data">Återställ fler objekt i bakgrunde</string>
     <string name="selected">Valda</string>
     <string name="unselected">Inte vald</string>
+    <string name="backup_failed_reason_network_error">Nätverksfel. Vänta ett par minuter och försök igen.</string>
+    <string name="backup_failed_reason_disk_space_not_enough">Inte tillräckligt med lagringsutrymme. Frigör lagringsutrymme först.</string>
+    <string name="backup_failed_reason_cloud_space_not_enough">Inte tillräckligt med lagringsutrymme i Mi Cloud. Uppgradera ditt medlemskap eller frigör lagringsutrymme.</string>
+    <string name="restore_task_unfinished">Det gick inte att återställa</string>
+    <string name="restore_failed_reason_network_error">Nätverksfel. Vänta ett par minuter och försök igen.</string>
+    <string name="restore_failed_reason_disk_space_not_enough">Inte tillräckligt med lagringsutrymme. Frigör lagringsutrymme först.</string>
 </resources>

@@ -127,6 +127,7 @@
     <string name="note_sort_way">Välj hur du vill sortera dina anteckningar</string>
     <string name="notealert_enter">Öppna anteckning</string>
     <string name="notealert_ok">Avfärda</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Anteckningspåminnelse</string>
     <string name="permdesc_accessNote">Skadliga appar kan använda detta för att få tillgång till personlig data.</string>
     <string name="permission_intro_contact">För att göra anteckningar under samtal</string>
@@ -134,13 +135,13 @@
     <string name="permission_intro_phone">För att göra anteckningar under samtal</string>
     <string name="permission_intro_storage">För att spara anteckningar och bifogade filer</string>
     <string name="permlab_accessNote">Åtkomst till anteckningar</string>
-    <string name="pref_desc_skip_confirm_for_quick_delete">Fråga inte om bekräftelse när du tar bort en anteckning med en gest</string>
+    <string name="pref_desc_skip_confirm_for_quick_delete">Svep uppåt med 2 fingrar för att bort anteckningar utan att bekräfta</string>
     <string name="pref_title_cloud_trash_bin">Borttagna anteckningar i Mi moln</string>
     <string name="pref_title_common">Ytterligare inställningar</string>
     <string name="pref_title_font_size">Textstorlek</string>
     <string name="pref_title_note_style">Stil</string>
     <string name="pref_title_show_root_folder_in_homepage">Visa endast snabba anteckningar på startsidan</string>
-    <string name="pref_title_skip_confirm_for_quick_delete">Snabbradering</string>
+    <string name="pref_title_skip_confirm_for_quick_delete">Ta bort med en gest</string>
     <string name="recover_notes_hint">Ett fel inträffade, gå till i.mi.com för att återställa anteckningar.</string>
     <string name="redo">Göra om</string>
     <string name="refuse_to_open_as_pic_because_of_loading">Vänta till anteckningen har laddats och försök igen.</string>
@@ -156,7 +157,7 @@
     <string name="root_folder_name">Snabbanteckningar</string>
     <string name="save_to_gallery_failure_message">Kunde inte spara</string>
     <string name="save_to_gallery_icon_name">Spara till Galleri</string>
-    <string name="save_to_gallery_success_message">Sparad framgångsrikt</string>
+    <string name="save_to_gallery_success_message">Sparad</string>
     <string name="search">Anteckningar</string>
     <string name="search_hint">Sök anteckningar</string>
     <string name="search_keyword_notes">Anteckningar;Memo</string>
@@ -205,9 +206,10 @@
     <string name="toast_cancel_to_insert_image">Kunde inte lägga till bild.</string>
     <string name="toast_message_add_image_fail">Kunde inte lägga till bild</string>
     <string name="toast_notes_delete_success">Borttagen</string>
-    <string name="toast_notes_hidden_edit">Denna anteckning döljdes framgångsrikt. Dra ner för att se dolda anteckningar.</string>
-    <string name="toast_notes_hidden_home">Denna anteckning döljdes framgångsrikt. Dra ner för att se dolda anteckningar.</string>
+    <string name="toast_notes_hidden_edit">Anteckningen doldes. Dra ner för att se dolda anteckningar.</string>
+    <string name="toast_notes_hidden_home">Anteckningen doldes. Dra ner för att se dolda anteckningar.</string>
     <string name="toast_notes_unhidden">Visar</string>
+    <string name="toast_pic_is_not_really">Sparar bild…</string>
     <string name="toast_reach_text_limit_attachment">Kan inte lägga till bilagor eftersom anteckningen är för lång</string>
     <string name="toast_reach_text_limit_checkbox">Kan inte lägga till en checkbox eftersom anteckningen är för lång</string>
     <string name="toast_reach_text_limit_truncate">Anteckningen är för lång. En del av texten har klippts bort från slutet.</string>

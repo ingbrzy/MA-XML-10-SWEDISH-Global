@@ -2,6 +2,7 @@
 <resources>
     <string name="action_add_to_workspace">Lägg till i Arbetsutrymmet</string>
     <string name="activity_not_found">Appen är inte installerad på din enhet</string>
+    <string name="activity_not_unlocked">Vänta tills enheten är omstartad innan du öppnar appar</string>
     <string name="add_screen">Lägg till skärm</string>
     <string name="announce_for_app_move_in_folder">Flyttade till position %1$d i mappen</string>
     <string name="announce_for_checked">%1$s，markerad</string>
@@ -30,9 +31,11 @@
     <string name="announce_for_open_default_preview">Öppnade standardinställningarna för Hemskärmen</string>
     <string name="announce_for_open_folder">Öppnade mapp %1$s</string>
     <string name="announce_for_open_launcher_menu">Öppnade menyn</string>
+    <string name="announce_for_search_bar">Sökruta</string>
     <string name="announce_for_show_uninstall_dialog">Dialog för avinstallation visas. Avbryt eller bekräfta.</string>
     <string name="announce_for_unchecked">%1$s, avmarkerad</string>
     <string name="announce_for_widget_span">Bredd %1$d, höjd %2$d</string>
+    <string name="announce_for_xiaoai">Mi AI</string>
     <string name="app_already_exist">App finns redan</string>
     <string name="app_being_backup_message">Appar säkerhetskopieras</string>
     <string name="app_being_restored_message">App återställs</string>
@@ -92,6 +95,7 @@
     <string name="defalut_launcher_title">Hemskärmsapp</string>
     <string name="default_folder_title_claro">Claro</string>
     <string name="default_folder_title_game">Spel</string>
+    <string name="default_folder_title_meitu">Meitu apps</string>
     <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_recommend">Fler appar</string>
     <string name="default_folder_title_security">System</string>
@@ -288,6 +292,8 @@
     <string name="preferences_general_title">Ytterligare inställningar</string>
     <string name="preferences_title">Launcherinställningar</string>
     <string name="preferred_app_settings_not_selected">Inte vald</string>
+    <string name="privacy_thumbnail_blur_summary">Gör förhandsvisningar av appar suddiga i Senast använda appar</string>
+    <string name="privacy_thumbnail_blur_title">Gör förhandsvisningar av appar suddiga</string>
     <string name="quick_app">Snabb appar</string>
     <string name="recents_config_title">Senast använda appar</string>
     <string name="recommend_apk_size_and_desc">%1$dMB | %2$s</string>
@@ -315,6 +321,9 @@
     <string name="setting_wallpaper_tip">Nyp eller svep för att justera</string>
     <string name="settings">Inställningar</string>
     <string name="settings_shortcut">Inställningar</string>
+    <string name="shake_to_align_icons">Skaka enheten för att fyll tomma celler med ikoner</string>
+    <string name="shake_to_align_icons_summary">Skaka din enhet när du är i redigeringsläge för att automatiskt fylla celler med ikoner</string>
+    <string name="shake_to_align_icons_title">Skaka för att fylla tomma celler</string>
     <string name="share">Dela</string>
     <string name="show_all">Visa alla</string>
     <string name="show_mem_info_title">Visa minnesanvändning</string>
@@ -324,11 +333,13 @@
     <string name="sort_by_not_defined">Sortera automatiskt</string>
     <string name="start_activity_failed">Kan inte starta launcher</string>
     <string name="starting_preset_app">Startar…</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="status_downloaded">Nedladdat</string>
     <string name="status_downloading">Laddar ned</string>
     <string name="status_installing">Installerar</string>
     <string name="status_paused">Paus</string>
     <string name="status_pending">Väntar</string>
+    <string name="system_shortcuts_more_operation">Appinformation</string>
     <string name="title_jeejen">Jeejen Hemskärm</string>
     <string name="title_select_live_folder">Välj mapp</string>
     <string name="title_select_shortcut">Välj genväg</string>
@@ -367,9 +378,4 @@
     <string name="widget_global_search">Sök</string>
     <string name="widget_quick_function">Snabbfunktioner</string>
     <string name="widgets_preview_title">Lägg till widget</string>
-    <string name="activity_not_unlocked">Wait until your device is fully rebooted before opening apps</string>
-    <string name="default_folder_title_meitu">Meitu</string>
-    <string name="privacy_thumbnail_blur_summary">Gör förhandsvisningar av appar suddiga i Senast använda appar</string>
-    <string name="privacy_thumbnail_blur_title">Gör förhandsvisningar av appar suddiga</string>
-    <string name="system_shortcuts_more_operation">Appinformation</string>
 </resources>
