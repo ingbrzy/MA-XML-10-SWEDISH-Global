@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notifikationer</string>
+    <string name="default_list_type">Sortera efter inkommande tid</string>
+    <string name="disable_float_notification">Svävande notifikationer tillåts inte</string>
+    <string name="disable_lockscreen_notification">Notifikationer på Låsskärmen tillåts inte</string>
+    <string name="disable_show_badge_notification">Notifikationsmärken tillåts inte</string>
+    <string name="enable_float_notification">Svävande notifikationer tillåts</string>
+    <string name="enable_lockscreen_notification">Notifikationer på Låsskärmen tillåts</string>
+    <string name="enable_show_badge_notification">Notifikationsmärken tillåts</string>
+    <string name="expandable_under_keyguard">Öppna notifikationsskuggan på låsskärmen</string>
+    <string name="float_notifications">Svävande notifikationer</string>
+    <string name="hint_search_all">Sök efter appar</string>
+    <string name="hint_search_in_disabled_apps">Sök efter appar som inte får visa notifikationer</string>
+    <string name="hint_search_in_enabled_apps">Sök efter appar som får visa notifikationer</string>
+    <string name="list_title_disable_notification">Notifikationer tillåts inte</string>
+    <string name="loading">Vänta lite…</string>
+    <string name="lock_screen_display_rules">Formatera</string>
+    <string name="lock_screen_tip_toast">Tillåt notifikationer i \"Appnotfikationer\" först</string>
+    <string name="lockscreen_notifications">Notifikationer på Låsskärmen</string>
+    <string name="not_sent_recently">Inte nyligen</string>
+    <string name="notification_display_setting">Notifikationsskugga</string>
+    <string name="notification_display_style">Notifikationsstil</string>
+    <string name="notification_fold_summary">Alla oviktiga notifikationer kommer visas i en egen mapp</string>
+    <string name="notification_fold_title">Mapp för notifikationer</string>
+    <string name="notification_manager">Appnotifikationer</string>
+    <string name="notification_style_android">Android</string>
+    <string name="notification_style_miui">MIUI</string>
+    <string name="off">Av</string>
+    <string name="on">På</string>
+    <string name="show_badge_notifications">Notifikationsmärken</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_disable_float_notification">Svävande notifikationer tillåts inte</string>
+    <string name="summary_disable_lockscreen_notification">Notifikationer på Låsskärmen tillåts inte</string>
+    <string name="summary_disable_show_badge_notification">Notifikationsmärken tillåts inte</string>
+    <string name="summary_enable_float_notification">Svävande notifikationer tillåts</string>
+    <string name="summary_enable_lockscreen_notification">Notifikationer på Låsskärmen tillåts</string>
+    <string name="summary_enable_show_badge_notification">Notifikationsmärken tillåts</string>
+    <string name="summary_float_enable_notification_first">Tillåt notifikationer att aktivera svävande notifikationer</string>
+    <string name="summary_lock_screen_enable_notification_first">Tillåt notifikationer att aktivera notifikationer på Låsskärmen</string>
+    <string name="summary_show_badge_enable_notification_first">Tillåt notifikationer att aktivera notifikationsmärken</string>
+</resources>
