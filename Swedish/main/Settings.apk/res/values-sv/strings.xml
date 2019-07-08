@@ -2428,7 +2428,6 @@ När du aktiverar automatisk säkerhetskopiering fjärrsparas enhets- och appdat
     <string name="gesture_prevent_ringing_title">Tryck ned strömbrytaren och knappen Volym upp samtidigt</string>
     <string name="gesture_setting_off">Av</string>
     <string name="gesture_setting_on">På</string>
-    <string name="gesture_wakeup_title">Dubbeltryck på skärmen för att väcka</string>
     <string name="giga_hertz">GHz</string>
     <string name="gigabyteShort">GB</string>
     <string name="global_change_warning">Denna inställning påverkar alla användare på denna telefon.</string>
