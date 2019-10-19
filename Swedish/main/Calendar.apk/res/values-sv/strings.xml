@@ -51,12 +51,13 @@
     <string name="accessibility_repeats">Upprepa</string>
     <string name="accessibility_sync_cal">Synkronisera kalender</string>
     <string name="account_and_calendar">Konton</string>
-    <string name="action_bar_date_button_title">Beräkna datum</string>
     <string name="action_bar_return">Bakåt</string>
     <string name="action_text_card_manager">Kanal</string>
     <string name="add_anniversary">Lägg till årsdag</string>
     <string name="add_countdown">Lägg till nedräkning</string>
     <string name="add_event">Lägg till händelse</string>
+    <string name="add_holiday_desc">Lägg till lediga dagar här</string>
+    <string name="add_holiday_title">Lägg till ledig dag</string>
     <string name="agenda_month_empty_hint">Inga händelser idag</string>
     <string name="agenda_tomorrow">IMORGON, %1$s</string>
     <string name="agenda_view">Händelser</string>
@@ -104,6 +105,7 @@
     <string name="cards_language_hint">Vissa kort kanske inte finns på det valda språket.</string>
     <string name="change_response_title">Ändra svar</string>
     <string name="change_zodiac">Ändra stjärntecken</string>
+    <string name="choose_your_holidays">Välj lediga dagar</string>
     <string name="click_to_share">Tryck för att dela</string>
     <string name="close_alarm">Avaktivera</string>
     <string name="contacts_permission_desc">Tillgång till kontaktinformation</string>
@@ -116,6 +118,7 @@
 
 • Få tillgång till den från valfri webbläsare.
 • Säkerhetskopiera dina kontakter."</string>
+    <string name="create_kundli">Skapa Kundli</string>
     <string name="creating_event">Händelse skapad</string>
     <string name="creating_event_with_guest">Skickar inbjudningar…</string>
     <string name="daily">Varje dag</string>
@@ -136,6 +139,7 @@
     <string name="date_interval_text_to">Till %1$s</string>
     <string name="date_jump_hint">Gå till en specifik dag direkt</string>
     <string name="date_jump_title">Gå till datum</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_today">" (idag)"</string>
     <string name="day_view_new_event_hint">Ny händelse</string>
     <string name="default_reminder_mode">Påminnelser</string>
@@ -176,6 +180,7 @@
     <string name="edit_event_tab_countdown">Nedräkning</string>
     <string name="edit_event_tab_event">Händelse</string>
     <string name="edit_event_to_label">Till</string>
+    <string name="edit_your_long_holidays">Redigera lediga dagar</string>
     <string name="email_guests_label">Maila gäster</string>
     <string name="email_install_hint">E-post har avinstallerats. Installera E-post igen för återställa kalenderkonton eller skapa en ny.</string>
     <string name="email_picker_label">Maila med</string>
@@ -204,6 +209,12 @@
     <string name="event_view">Visa händelse</string>
     <string name="every_weekday">Varje vardag (mån–fre)</string>
     <string name="fb_birthday_failure">Kunde inte importera födelsedagar från Facebook. Försök igen.</string>
+    <string name="fb_birthday_import_pref_desc">Importera vänners födelsedagar från Facebook</string>
+    <string name="fb_birthday_import_pref_title">Importera nu</string>
+    <string name="fb_birthday_logout_failure">Du har inte lagt till ditt Facebook-konto än</string>
+    <string name="fb_birthday_logout_pref_desc">Ta bort Facebook-konto inklusive vänners födelsedagar</string>
+    <string name="fb_birthday_logout_pref_title">Ta bort Facebook-konto</string>
+    <string name="fb_birthday_logout_success">Facebook-konto borttaget</string>
     <string name="fb_birthday_region_warning">Den här funktionen är inte tillgänglig i din region</string>
     <string name="fb_birthday_success">Födelsedagar Importerades från Facebook</string>
     <string name="fb_calendar_account_name">Mi Lokal kalender</string>
@@ -212,6 +223,7 @@
     <string name="festival_detail_title">Festival</string>
     <string name="file_exception">Ett fel uppstod</string>
     <string name="fixtures">Framtida matcher</string>
+    <string name="fourth_saturday_holiday">Varannan och var fjärde lördag är lediga dagar</string>
     <string name="from_google_group_calendar">Google kalender</string>
     <string name="gadget_no_events">Inga kommande kalenderhändelser</string>
     <string name="gadget_title">Kalender</string>
@@ -226,6 +238,10 @@
     <string name="greetingcard_end_of_page">Det är allt för idag. Kom tillbaka imorgon!</string>
     <string name="greetingcard_notification_desc">Kolla in senaste statusar</string>
     <string name="greetingcard_notification_title">Ditt dagliga flöde är klart</string>
+    <string name="greetingcard_reminder_dialog_message">Tillåt Kalendern att skicka dagliga notifikationer till dig om hälsningar och statusar?</string>
+    <string name="greetingcard_reminder_dialog_negative">Nej tack</string>
+    <string name="greetingcard_reminder_dialog_positive">Tillåt</string>
+    <string name="greetingcard_reminder_dialog_title">Få notifikationer</string>
     <string name="greetingcard_reminder_disabled_status">Du kommer inte få dagliga påminnelser om WhatsApp.</string>
     <string name="greetingcard_reminder_disabled_text">Aktivera påminnelser</string>
     <string name="greetingcard_reminder_enabled_status">Här får du dagliga påminnelser om WhatsApp.</string>
@@ -246,7 +262,14 @@
     <string name="hint_what">Händelsenamn</string>
     <string name="hint_where">Plats</string>
     <string name="holiday_card_title">På denna dag</string>
+    <string name="holiday_date">Datum</string>
+    <string name="holiday_date_title">Datum för ledig dag</string>
     <string name="holiday_detail_read_more">Mer</string>
+    <string name="holiday_name">Namn på ledig dag</string>
+    <string name="holiday_name_empty">Namn på ledig dag får inte vara tomt</string>
+    <string name="holiday_name_exists">Den här lediga dagen finns redan</string>
+    <string name="holiday_saved">Sparades</string>
+    <string name="holidays_title">Lediga dagar</string>
     <string name="horoscope_select_activity_label">Välj zodiactecken</string>
     <string name="image_processing">Bilden är inte klar ännu</string>
     <string name="import_action">Importera</string>
@@ -268,9 +291,21 @@
     <string name="loading">Vänta en stund…</string>
     <string name="local_calendar_display_name">Lokala kalendern</string>
     <string name="local_owner_account_name">Lokalt på enheten</string>
+    <string name="long_holiday_date_place_holder">dd MMMM</string>
+    <string name="long_holiday_dates">Börjar den %1$s</string>
+    <string name="long_holiday_month_off">Lediga månatliga dagar</string>
+    <string name="long_holiday_week_off">Lediga veckodagar</string>
     <string name="lunar_date">Månens datum</string>
+    <string name="manage_holidays">Hantera lediga dagar</string>
+    <string name="manage_title">Hantera</string>
     <string name="match_finished">Kan inte konfigurera påminnelser för pågående och färdiga spel</string>
     <string name="match_select_activity_label">Ligor</string>
+    <string name="match_zodiac">Matcha stjärntecken</string>
+    <string name="menstruation_card_default_title">Inga registrerade menstruationer</string>
+    <string name="menstruation_card_error_sub_title">Stäng Kalender och starta om igen.</string>
+    <string name="menstruation_card_error_title">Kunde inte hämta data</string>
+    <string name="menstruation_card_private_mode_sub_title">Privat läge</string>
+    <string name="menstruation_card_private_mode_title">Menstruationscykel ****</string>
     <string name="menu_general_preferences">Allmänt</string>
     <string name="menu_reminder_preferences">Påminnelser</string>
     <string name="missing_name">(Inget namn)</string>
@@ -299,7 +334,9 @@
     <string name="news">Nyheter</string>
     <string name="no_contact_birthday_hint">Inga födelsedagar att importera</string>
     <string name="no_events_hint">Inga händelser</string>
+    <string name="no_holiday_selected">Lediga dagar har inte valts</string>
     <string name="no_internet">Det gick inte att ansluta till internet</string>
+    <string name="no_long_holidays">Inga kommande lediga dagar</string>
     <string name="no_network">"Kunde inte ansluta till nätverk.
 Kontrollera inställningar och försök igen."</string>
     <string name="no_network_btn">Försök igen</string>
@@ -308,6 +345,7 @@ Kontrollera inställningar och försök igen."</string>
     <string name="no_visiable_calendar_message">Du behöver lägga till ett kalenderkonto, klicka på \"Välj Konto\" för att fortsätta.</string>
     <string name="no_visiable_calendar_select_account">Lägg till konto</string>
     <string name="no_visiable_calendar_title">Lägg till konto</string>
+    <string name="not_more_than_three_weekday">Du kan välja upp till 3 dagar</string>
     <string name="notification_channel_description" />
     <string name="notification_channel_name">Kalenderpåminnelser</string>
     <string name="panchang_amanta">Amanta</string>
@@ -325,12 +363,14 @@ Kontrollera inställningar och försök igen."</string>
     <string name="panchang_ritu">Ritu</string>
     <string name="panchang_shaka_samvat">Shaka Samvat</string>
     <string name="panchang_sun_sign">Soltecken</string>
+    <string name="panchang_till_time">Till och med %1$s</string>
     <string name="panchang_tithi">Tithi</string>
     <string name="panchang_to"> till </string>
     <string name="panchang_upto"> upto </string>
     <string name="panchang_vikram_samvat">Vikram Samvat</string>
     <string name="panchang_yamaghanta">Yamaghanta</string>
     <string name="panchang_yog">Yog</string>
+    <string name="partner_compatibility">Partner-kompatibilitet</string>
     <string name="path_calendar_settings">Systemappar/Kalender/Inställningar</string>
     <string name="prefDialogTitle_vibrateWhen">Vibrera</string>
     <string name="pref_reminder_time">Påminnelsetid</string>
@@ -385,11 +425,13 @@ Kontrollera inställningar och försök igen."</string>
     <string name="response_no">Nej</string>
     <string name="response_yes">Ja</string>
     <string name="rest_day_indication">: )</string>
+    <string name="saturday_click_disabled">Varannan och var fjärde lördag är nu lediga dagar</string>
     <string name="saving_event">Händelse sparad</string>
     <string name="saving_event_with_guest">Skickar uppdateringar…</string>
     <string name="search_calendar">Datum;Soltermer;Mån;Almanacka;Lycka;Agenda;Möte;Påminnelse;Semester;Semester;Födelsedag;2016;2017;Vårfestival;Nyårsdagen;Internationella Arbetsdagen;Mitt-höst Festival</string>
     <string name="search_calendar_edit_event">Möte;Påminnelse;Agenda</string>
     <string name="search_calendar_settings">Kalender;Agenda;Påminnelse</string>
+    <string name="second_saturday_holiday">Varannan lördag är en ledig dag</string>
     <string name="select_date">Gå till datum</string>
     <string name="set_reminder">Konfigurera påminnelse</string>
     <string name="setting_about_calendar_version">Kalenderversion:</string>
@@ -398,6 +440,7 @@ Kontrollera inställningar och försök igen."</string>
     <string name="setting_about_summary">Version:</string>
     <string name="setting_accounts">Kalenderkonton</string>
     <string name="setting_change_language">Välj språk i Kalender</string>
+    <string name="setting_desc_import_todo">Importera schemalagda uppgifter från Anteckningar</string>
     <string name="setting_fb_birthdays_title">Importera födelsedagar från Facebook</string>
     <string name="setting_features_title">Inställningar för funktioner</string>
     <string name="setting_holiday_display_desc">Helgdagskort finns under din agenda på hemsidan</string>
@@ -405,12 +448,18 @@ Kontrollera inställningar och försök igen."</string>
     <string name="setting_others">Ytterligare</string>
     <string name="setting_title_about">Om</string>
     <string name="setting_title_holiday_display">Visa helgdagar</string>
+    <string name="setting_title_import_todo">Importera uppgifter</string>
     <string name="setting_title_policy">Sekretesspolicy</string>
+    <string name="settings_show_long_holiday">Längre ledighet</string>
+    <string name="settings_show_long_holiday_description">Planera dina lediga dagar i förväg</string>
+    <string name="settings_show_p_tracker">Visa information om menstruation</string>
+    <string name="settings_show_p_tracker_description">Håll koll på dina menstruationer</string>
     <string name="share_image">Dela</string>
     <string name="share_image_label">Dela via</string>
     <string name="share_title">Dela</string>
     <string name="show_day_view">Visa dag</string>
     <string name="show_indic_date_summary">Indisk kalender är tillgänglig när ett av de språk som talas i Indien har angetts som ditt systemspråk</string>
+    <string name="single_selected_holiday">%1$s är en ledig dag</string>
     <string name="start_date_calculate">Beräkna</string>
     <string name="storage_permission_denied">Tillåt åtkomst till lagringsutrymmet först</string>
     <string name="subscribe_card">Prenumerera nu</string>
@@ -432,11 +481,16 @@ Du kan också lägga till påminneler så du inte missar något viktigt."</strin
     <string name="talk_back_read_date">%1$s (%2$s enligt månkalendern).</string>
     <string name="talk_back_setting">Inställningar</string>
     <string name="template_announce_item_index">Händelse %1$s av %2$s.</string>
+    <string name="three_selected_holiday">%1$s, %2$s och %3$s är lediga dagar</string>
     <string name="time_zone">Tidszon</string>
     <string name="timezone_label">Tidszon</string>
+    <string name="title_p_tracker">Menstruation</string>
     <string name="today">Idag</string>
     <string name="today_at_time_fmt">Idag klockan %s</string>
     <string name="today_no_events">Inga händelser</string>
+    <string name="todays_panchang_title">Dagens Panchang</string>
+    <string name="todo_audio_event">"[Voice task] "</string>
+    <string name="todo_event">Kommande uppgifter</string>
     <string name="tomorrow">Imorgon</string>
     <string name="tomorrow_at_time_fmt">Imorgon klockan %s</string>
     <string name="too_long_content">Innehållet är för långt</string>
@@ -463,6 +517,7 @@ Du kan också lägga till påminneler så du inte missar något viktigt."</strin
     <string name="travel_seat_number_text">Säte</string>
     <string name="travel_train_number_text">Tåg</string>
     <string name="travel_train_station">Tågstation</string>
+    <string name="two_selected_holiday">%1$s och %2$s är lediga dagar</string>
     <string name="unsubscribe_card">Avsluta prenumeration</string>
     <string name="unsubscribe_card_success">Avregistrerat från \"%1$s\" lyckats</string>
     <string name="unsubscribing_card">Prenumerationen avslutad</string>
@@ -486,4 +541,8 @@ Du kan också lägga till påminneler så du inte missar något viktigt."</strin
     <string name="xiaomi_calendar_display_name">Mi Account-kalender</string>
     <string name="yearly">Varje år (%s)</string>
     <string name="yearly_plain">Varje år</string>
+    <string name="action_bar_date_button_title">Beräkna datum</string>
+    <string name="preferences_week_settings_title">Veckoinställningar</string>
+    <string name="preferences_weekly_holiday_summary">Markerade dagar kommer att markeras som lediga dagar</string>
+    <string name="preferences_weekly_holiday_title">Lediga dagar</string>
 </resources>

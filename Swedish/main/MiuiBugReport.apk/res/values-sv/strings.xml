@@ -9,8 +9,7 @@
     <string name="app_search">Sök efter appar</string>
     <string name="btn_send">Skicka</string>
     <string name="bugreport_dialog_not_show_again">Visa inte igen</string>
-    <string name="bugreport_dialog_submit_content">"&lt;Data>Du sparar dina loggar på denna enhet nu. Loggarna kan innehålla personlig information och din platsinfo. Dela inte loggarna med någon om du inte vill att denna information ska exponeras. Att välja \"Godkänn\" betyder att du har läst och godkänt vår
-         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>.&lt;/Data>"</string>
+    <string name="bugreport_dialog_submit_content">&lt;Data>Du sparar dina loggar på denna enhet nu. Loggarna kan innehålla personlig information och din platsinfo. Dela inte loggarna med någon om du inte vill att denna information ska exponeras. Att välja \"Godkänn\" betyder att du har läst och godkänt vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a> och &lt;a href=\"%2$s\">Användarvillkor&lt;/a>.&lt;/Data></string>
     <string name="bugreport_dump_complete_notification_summary">Tryck för att visa.</string>
     <string name="bugreport_dump_complete_notification_title">Skapat felrapport</string>
     <string name="bugreport_dump_start_notification_summary">Detta kan ta flera minuter.</string>
@@ -103,9 +102,23 @@
     <string name="feedback_description_hint_suggestion">Berätta för oss hur du vill förbättra MIUI.</string>
     <string name="feedback_description_label">Beskrivning</string>
     <string name="feedback_description_suggest_hint">Jag vill att ni lägger till en ny funktion () för att ().</string>
-    <string name="feedback_detail_tile">Framsteg</string>
+    <string name="feedback_detail_copy_toast">Kopierat till urklipp</string>
+    <string name="feedback_detail_feedback_attach">Bilagor</string>
+    <string name="feedback_detail_feedback_attach_upload_failed">Kunde inte ladda upp</string>
+    <string name="feedback_detail_feedback_attach_uploading">Laddar upp…</string>
+    <string name="feedback_detail_feedback_category">Kategori</string>
+    <string name="feedback_detail_feedback_id">Rapport-ID: %d</string>
+    <string name="feedback_detail_feedback_reply_hint">Svara</string>
+    <string name="feedback_detail_feedback_summary">Återkoppling</string>
+    <string name="feedback_detail_need_content">Ange innehåll först</string>
+    <string name="feedback_detail_title">Detaljer</string>
+    <string name="feedback_detail_upload_generate_log">Generera loggar</string>
+    <string name="feedback_detail_upload_image">Ladda upp bilder/videor</string>
+    <string name="feedback_detail_upload_local_log">Ladda upp fil</string>
+    <string name="feedback_detail_upload_log">Ladda upp loggar</string>
+    <string name="feedback_detail_waiting">Genererar…</string>
     <string name="feedback_empty_report_list">Inga rapporter ännu</string>
-    <string name="feedback_guess">Vår gissning</string>
+    <string name="feedback_guess">Vår gissning:</string>
     <string name="feedback_history_remind_login_desc">Logga in med ditt Mi-konto för att se detaljer och se din rapports framsteg</string>
     <string name="feedback_id">ID: %d</string>
     <string name="feedback_jira_key">JIRA Key: %s</string>
@@ -182,12 +195,13 @@
     <string name="issue_search">Sök</string>
     <string name="kr_authorization_agree">Godkänn</string>
     <string name="kr_authorization_contact">Konton</string>
-    <string name="kr_authorization_contact_desc">För att få Mi kontoinformation och verifiera ditt konto</string>
+    <string name="kr_authorization_contact_desc">För åtkomst till Mi Konto-information för att identifiera enhet</string>
     <string name="kr_authorization_exit">Avsluta</string>
+    <string name="kr_authorization_function">Skicka feedback, generera loggar, visa vanliga frågor</string>
     <string name="kr_authorization_log_protocol">Log-protokoll (tillval)</string>
     <string name="kr_authorization_log_protocol_desc">För att förbättra tjänsterna somm tillhandahålls till dig, laddar vi upp användningsstatistik och systemloggar till våra servrar. Dessa objekt kan inkludera din personliga information, liksom information om enheten och nätverk. Vi använder uppladdade objekt för att hitta och analysera problemen i systemet.</string>
     <string name="kr_authorization_phone">Telefon</string>
-    <string name="kr_authorization_phone_desc">För att identifiera enheten med IMEI och modellnummer, samt att lokalisera och analysera problem</string>
+    <string name="kr_authorization_phone_desc">För åtkomst till enhetsmodell, IMEI och enhets-ID för att hitta och lösa problem</string>
     <string name="kr_authorization_privacy_policy">Integritetspolicy (obligatorisk)</string>
     <string name="kr_authorization_select_all">Välj alla</string>
     <string name="kr_authorization_storage">Lagringsutrymme</string>
@@ -200,6 +214,10 @@
     <string name="max_error">Din %1$s måste vara kortare.</string>
     <string name="menu_copy">Kopiera</string>
     <string name="message_label">Meddelande</string>
+    <string name="mi_service_dialog_cancel">Avsluta</string>
+    <string name="mi_service_dialog_confirm">Öppna</string>
+    <string name="mi_service_dialog_content">Alla funktioner för återkoppling har flyttats till appen \"Tjänster och återkoppling\". Återkopplingsappen tas bort från din hemskärm. Tryck på \"Öppna\" för att testa \"Tjänster och återkoppling\".</string>
+    <string name="mi_service_dialog_title">Introducerar \"Tjänster och återkoppling\"</string>
     <string name="michat_app_name">Onlinesupport</string>
     <string name="michat_artificial_customer_phone">4001005678</string>
     <string name="michat_artificial_customer_phone_dial_error">Om du inte kan ringa 400 direktlinjen, ring %1$s med en annan telefon</string>
@@ -283,7 +301,7 @@
     <string name="module_more">Mer</string>
     <string name="module_network">Nätverk</string>
     <string name="module_search">Sök</string>
-    <string name="module_security">Säkerhet &amp; Mi Cloud</string>
+    <string name="module_security">Säkerhet &amp; Xiaomi Cloud</string>
     <string name="module_system">System</string>
     <string name="module_tools">Systemverktyg</string>
     <string name="modules">Välj objekt</string>
@@ -494,9 +512,8 @@ För att aktivera ditt konto, följ
     <string name="select_system_app_tag">Välj ett problem</string>
     <string name="submit_dialog_cancel">Godkänn inte</string>
     <string name="submit_dialog_confirm">Godkänn</string>
-    <string name="submit_dialog_content">"&lt;Data>Du måste godkänna vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och våra &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a> för att kunna använda Feedback. Problemet du rapporterar tillsammans med objekten du bifogar (kan innehålla personlig information och information om din enhet och ditt nätverk) kommer laddas upp till MIUI's servrar. Detta kommer hjälpa oss att hitta och lösa problemet som du rapporterar.&lt;/Data>"</string>
-    <string name="submit_dialog_content_global">"&lt;Data>Din feedback tillsammans med bilagor (om det finns några) och loggar (du kan avmarkera de objekt som du inte vill ladda upp) kommer skickas till MIUI's servrar och till begränsad del av MIUI Forum för utvecklare. Informationen om dina trådar och aktivitet i forumet kommer också samlas in för analys och vidare kommunikation. Loggarna kan innehålla personlig information och din platsinfo. Dela inte loggarna med någon om du inte vill att denna information ska exponeras. Att välja \"Godkänn\" betyder att du har läst och godkänt vår
-         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>.&lt;/Data>"</string>
+    <string name="submit_dialog_content">"&lt;Data>Du måste godkänna vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a> och våra &lt;a href=\"%2$s\">Användarvillkor&lt;/a> för att kunna använda Feedback. Problemet du rapporterar tillsammans med objekten du bifogar (kan innehålla personlig information och information om din enhet och ditt nätverk) kommer laddas upp till MIUI's servrar. Detta kommer hjälpa oss att hitta och lösa problemet som du rapporterar.&lt;/Data>"</string>
+    <string name="submit_dialog_content_global">"&lt;Data>Din feedback tillsammans med bifogade filer (om det finns några) och loggar (du kan avmarkera de objekt som du inte vill ladda upp) kommer skickas till MIUI's servrar. Loggar kan innehålla personlig information och dina platsdata. Att välja \"Godkänn\" betyder att du har läst och godkänt vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a> och våra &lt;a href=\"%2$s\">Användarvillkor&lt;/a>.&lt;/Data>"</string>
     <string name="submit_dialog_title">Skicka rapport</string>
     <string name="submit_feedback_info_failed">Kunde inte skicka rapport</string>
     <string name="suggestion_description">Lägg till en beskrivning här</string>
@@ -505,7 +522,7 @@ För att aktivera ditt konto, följ
     <string name="tab_title_chat">FAQ</string>
     <string name="tab_title_my_reports">Mina rapporter</string>
     <string name="tab_title_preferences">Inställningar</string>
-    <string name="tab_title_report">Återkoppling</string>
+    <string name="tab_title_report">Feedback</string>
     <string name="title_answer_feedback_main">Vi hittade svar!</string>
     <string name="title_catch_full_log">Loggar</string>
     <string name="title_customer_service">Kundtjänst</string>

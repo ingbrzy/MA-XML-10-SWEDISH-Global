@@ -8,6 +8,14 @@
         <item quantity="other">%1$s objekt har inte synkroniserats</item>
         <item quantity="one">%1$s objekt har inte synkroniserats</item>
     </plurals>
+    <plurals name="date_calculate_days_after">
+        <item quantity="other">%1$d dagar efter</item>
+        <item quantity="one">%1$d dag efter</item>
+    </plurals>
+    <plurals name="date_calculate_days_ago">
+        <item quantity="other">%1$d dagar före</item>
+        <item quantity="one">%1$d dag före</item>
+    </plurals>
     <plurals name="format_move_notes_out_folder">
         <item quantity="other">Tog bort %1$s anteckningar från mappen</item>
         <item quantity="one">Tog bort %1$s anteckning från mappen</item>
@@ -27,6 +35,26 @@
     <plurals name="toast_notes_unhidden_count">
         <item quantity="other">Visade %1$s anteckningar</item>
         <item quantity="one">Visade %1$s anteckning</item>
+    </plurals>
+    <plurals name="todo_N_days_after">
+        <item quantity="other">Om %1$d dagar</item>
+        <item quantity="one">Om %1$d dag</item>
+    </plurals>
+    <plurals name="todo_N_days_ago">
+        <item quantity="other">%1$d dagar sedan</item>
+        <item quantity="one">%1$d dag sedan</item>
+    </plurals>
+    <plurals name="todo_alert_message_delete">
+        <item quantity="other">Ta bort %1$s uppgifter?</item>
+        <item quantity="one">Ta bort %1$s uppgift?</item>
+    </plurals>
+    <plurals name="todo_event_description_days_ago">
+        <item quantity="other">%1$d dagar sedan</item>
+        <item quantity="one">%1$d dag sedan</item>
+    </plurals>
+    <plurals name="todo_event_description_days_later">
+        <item quantity="other">Om %1$d dagar</item>
+        <item quantity="one">Om %1$d dag</item>
     </plurals>
     <plurals name="word_count">
         <item quantity="other">%d tecken</item>

@@ -26,8 +26,8 @@
     <string name="confirm_pairing">Är du säker på att du vill para ihop Bluetooth-enheten %1$s?</string>
     <string name="pair_yes">Ja</string>
     <string name="pair_no">Nej</string>
-    <string name="tap_again_to_pay">Tryck igen om du vill betala med %1$s</string>
-    <string name="tap_again_to_complete">Tryck igen om du vill slutföra med %1$s</string>
+    <string name="tap_again_to_pay">Tryck igen för att betala med %1$s</string>
+    <string name="tap_again_to_complete">Tryck igen för att slutföra med %1$s</string>
     <string name="transaction_failure">Transaktionen kunde inte slutföras med %1$s.</string>
     <string name="could_not_use_app">Det gick inte att använda %1$s.</string>
     <string name="pay_with">Betala med</string>
@@ -41,4 +41,5 @@
     <string name="prompt_connect_to_network">Vill du ansluta till nätverket %1$s?</string>
     <string name="beam_requires_nfc_enabled">Android Beam kräver att NFC har aktiverats. Vill du göra det?</string>
     <string name="android_beam">Android Beam</string>
+    <string name="beam_requires_external_storage_permission">Appen har inte behörighet till externt lagringsutrymme. Detta krävs för att överföra filen trådlöst.</string>
 </resources>

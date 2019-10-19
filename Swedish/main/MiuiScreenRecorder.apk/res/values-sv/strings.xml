@@ -58,6 +58,7 @@
     <string name="operation_send">Skicka</string>
     <string name="permission_intro_microphone">För inspelning av ljud när ljudkällan är inställt på mikrofonen</string>
     <string name="permission_intro_storage">För att spara skärminspelningar</string>
+    <string name="permission_microphone_desc">Använda mikrofon som ljudkälla för skärminspelningar</string>
     <string name="quit_recording">Avsluta Skärminspelare</string>
     <string name="recording_failure">Kunde inte spela in, börja om</string>
     <string name="recording_max_size">Inspelningen stoppades och sparades eftersom videofilen överskred storleksgränsen. Starta inspelningen där du slutade om du inte är färdig än.</string>
@@ -70,6 +71,8 @@
     <string name="screen_record_params">Inspelningsparametrar</string>
     <string name="select_all">Välj alla</string>
     <string name="settings">Inställningar</string>
+    <string name="settings_other">Annat</string>
+    <string name="settings_privacy">Integritetspolicy</string>
     <string name="show_hard_key">Visualisera navigeringsknapparna</string>
     <string name="show_hard_key_summary">Visa en skylt när Hem-, Meny- och Tillbakaknappen blir nedtryckta</string>
     <string name="show_screen_touch">Visa pekgester</string>

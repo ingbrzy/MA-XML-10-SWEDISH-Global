@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Ljud</string>
@@ -105,7 +107,7 @@
  De kommer läggas till som undantag men tidigare objekt som blockerats kommer inte synas i samtalshistoriken."</string>
     <string name="dlg_update_date_title">Varning</string>
     <string name="dlg_update_data_content">Din enhet är inte ansluten till Wi-Fi. Att använda mobildata kan generera ytterligare kostnader. Fortsätt ändå?</string>
-    <string name="dlg_sec_network_unavailable">Appen Säkerhet kan inte uppdateras eftersom du har begränsat internetuppkopplingen. Tillåt appen Säkerhet att ansluta till Internet?</string>
+    <string name="dlg_sec_network_unavailable">Säkerhet kan inte uppdateras eftersom du har begränsat internetanslutningen. Tillåt Säkerhet att ansluta till Internet?</string>
     <string name="dlg_update_btn_contiue">Fortsätt</string>
     <string name="dlg_update_btn_open">Tillåt</string>
     <string name="dlg_update_updating">Uppdaterar…</string>
@@ -174,7 +176,7 @@
     <string name="sms_filter">Spamfilter</string>
     <string name="sms_keywords">Blockeringslista för nyckelord</string>
     <string name="sms_service">Blockera tjänsten för SMS</string>
-    <string name="sms_stranger_block">Blockera SMS från okända</string>
+    <string name="sms_stranger_block">Blockerad</string>
     <string name="sms_contact_block">Blockera SMS från kontakter</string>
     <string name="sms_malicious_url">Blockera SMS från skadliga URLs</string>
     <string name="sms_cloud_block">Blockeringslista för molntjänster</string>
@@ -200,7 +202,9 @@
     <string name="sms_delete_title">Ta bort meddelanden</string>
     <string name="call_delete_title">Ta bort samtalshistorik</string>
     <string name="sms_delete_hint">Ta bort alla blockerade meddelanden från detta numret?</string>
+    <string name="sms_delete_all_hint">Ta bort alla meddelanden nu?</string>
     <string name="call_delete_hint">Ta bort alla blockerade samtal från detta numret?</string>
+    <string name="call_delete_all_hint">Rensa blockerade samtal?</string>
     <string name="backsound_set_hint">Ange ditt frånvaromeddelande till %s?</string>
     <string name="report">Rapportera</string>
     <string name="report_only">Välj ett meddelande att rapportera</string>
@@ -210,6 +214,7 @@
     <string name="report_warning_title">Uppmärksamma</string>
     <string name="st_sub_title_customize_mode_name">Namn</string>
     <string name="read_all_sms">Läs alla</string>
+    <string name="delete_all_sms">Ta bort alla</string>
     <string name="loding">Laddar data</string>
     <string name="action_source_sms_title">Blockerade meddelanden</string>
     <string name="action_source_call_title">Blockerade samtal</string>
@@ -239,6 +244,7 @@
     <string name="st_antispam_title_anoy_incoming">Samtal från främlingar</string>
     <string name="st_antispam_title_null_incoming">Privata nummer</string>
     <string name="st_antispam_title_service_sms">Notifikation för tjänster</string>
+    <string name="st_antispam_title_mms">MMS</string>
     <string name="st_summary_keywords_blacklist">Lägg till sökord för att blockera meddelanden</string>
     <string name="st_summary_blacklist_numbers">Blockerar samtal och meddelanden från specifika nummer och områden</string>
     <string name="st_summary_whitelist_numbers">Tillåt samtal och meddelanden från specifika nummer och områden</string>
@@ -344,11 +350,11 @@
     <string name="st_confirm_dialog_summary_contact_call">Alla samtal från kontakter kommer blockeras.</string>
     <string name="st_confirm_dialog_summary_oversea_call">Aktivera att blockera alla inkommande samtal från okända telefonnummer.</string>
     <string name="cta_dialog_title">Internetanslutning</string>
-    <string name="cta_dialog_msg">&lt;Data>Du måste godkänna vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> innan du använder appen Säkerhet. Appen behöver också ansluta till internet och ha tillgång till din platsinformation för att fungera normalt och hålla antivirusdefinitionerna uppdaterade. Godkänn?&lt;/Data></string>
     <string name="cta_dialog_negative">Avsluta</string>
     <string name="cta_dialog_positive">Godkänn</string>
     <string name="cta_settings">Tillåt internetuppkoppling</string>
-    <string name="gdpr_msg">&lt;Data>För att kunna använda de grundläggande funktionerna i Säkerhet måste du godkänna att Xiaomi samlar, behandlar och använder dina personuppgifter, inklusive information om hur du använder Säkerhetsfunktioner (t.ex. statistik om mobila data, information om skadlig kod, samt grundläggande information om din enhet) och andra typer av information som anges i vår&lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a>.&lt;/Data></string>
+    <string name="gdpr_msg">&lt;Data>För att kunna använda de grundläggande funktionerna i Säkerhet måste du godkänna att Xiaomi samlar, behandlar och använder dina personuppgifter, inklusive information om hur du använder Säkerhetsfunktioner (t.ex. statistik om mobila data, information om malware, samt grundläggande information om din enhet) och andra typer av information som anges i vår&lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Integritetspolicy&lt;/a>.&lt;/Data></string>
+    <string name="cta_main_purpose">Välkommen till säkerhet! Du kan använda den här appen till att rensa skräp på din enhet, hitta och neutralisera virus, optimera prestanda för spel, spara batteri, hantera appar och mer.</string>
     <string name="app_name_na">Dataanvändning</string>
     <string name="list_empty_text">Tom</string>
     <string name="dialog_title_attention">Uppmärksamma</string>
@@ -463,6 +469,7 @@ ska svara"</string>
     <string name="not_limited_brand">Obegränsat</string>
     <string name="pref_about_traffic_title">Inställningar för mobildataanvändning</string>
     <string name="pref_traffic_manage_title">Dataanvändning</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Mobildataabonnemang</string>
     <string name="pref_adjust_traffic_data">Ange datagräns</string>
     <string name="pref_category_title_other">Ytterligare inställningar</string>
@@ -971,7 +978,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="om_running_system_apps">Systemappar som kör</string>
     <string name="om_running_third_apps">Tredjepartsappar som kör</string>
     <string name="om_locked_apps_summary">Låsta appar kommer ignoreras av prestendaoptimeringen.</string>
-    <string name="power_center_title">Batterioptimering</string>
+    <string name="power_center_title">Batteri och prestanda</string>
     <string name="power_center_back">Tillbaka</string>
     <string name="power_center_auto_shutdown">Schemalägg när enheten ska startas och stängas av</string>
     <string name="power_center_ontime_boot">Tid när enheten ska startas</string>
@@ -1014,6 +1021,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="usage_type_data_send">Mobildata skickad</string>
     <string name="usage_type_no_coverage">Tid utan signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="power_screen">Skärm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1021,6 +1029,8 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="power_cell">Telefonvänteläge</string>
     <string name="power_phone">Röstsamtal</string>
     <string name="power_idle">Telefon inaktiv</string>
+    <string name="power_ambient_display">Aktiv låsskärm</string>
+    <string name="battery_desc_ambient_display">Batteri förbrukad av Ambient display</string>
     <string name="usage_type_cpu">CPU totalt</string>
     <string name="usage_type_cpu_foreground">CPU förgrund</string>
     <string name="usage_type_wake_lock">Hållit skärmen vaken</string>
@@ -1088,7 +1098,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="btn_text_optimize_now">Optimera</string>
     <string name="btn_text_optimize_manually">Optimera manuellt</string>
     <string name="battery_history_activity_title">Historik</string>
-    <string name="btn_text_goto_power_rank">Visa batterianvändning</string>
+    <string name="btn_text_goto_power_rank">Visa all statistik</string>
     <string name="btn_text_goto_setup">Gå till Inställningar</string>
     <string name="power_save_title_text">Batterisparare</string>
     <string name="power_save_summary_text">Aktivera batterisparare för att reducera appars bakgrundsaktivitet, stoppa synkronisering och minimera animationer.</string>
@@ -1114,7 +1124,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="deep_power_save_item_title_bluetooth">Avaktivera Bluetooth</string>
     <string name="deep_power_save_item_summary_bluetooth">Avaktivera Bluetooth för att spara batteri</string>
     <string name="deep_power_save_item_title_lock_screen_time">Släck skärmen</string>
-    <string name="deep_power_save_item_summary_lock_screen_time">Släck skärmen efter 30 sekunders inaktivitet för att spara batteri</string>
+    <string name="deep_power_save_item_summary_lock_screen_time">Släck skärmen efter 15 sekunders inaktivitet för att spara batteri</string>
     <string name="power_save_mode_enable">Batterisparare</string>
     <string name="power_save_mode_summary">Övervaka processer i bakgrunden och stäng av synkronisering.</string>
     <string name="power_optimize_save_mode_not_opened">Batterisparare avaktiverad</string>
@@ -1236,18 +1246,23 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="power_center_list_item_auto_brightness">Justera skärmens ljusstyrka automatiskt</string>
     <string name="power_center_list_item_deep_save_title">Avancerade inställningar</string>
     <string name="power_center_list_item_battery_status_time">h</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
     <string name="power_center_stop_scan_title">Avbryt skanning</string>
     <string name="hide_mode_result_summary_text">Anpassa Batterispararens inställningar för enskilda appar</string>
     <string name="auto_task_result_summary_text">Konfigurera automatiska uppgifter för Batterispararen</string>
-    <string name="pc_settings_title">Inställningar för batterioptimering</string>
+    <string name="pc_settings_title">Inställningar för batteri och prestanda</string>
     <string name="pc_main_activity_back">Tillbaka</string>
     <string name="extreme_power_save_mode_card_summary">Aktivera Extremläge för att spara ström när batterinivån är låg.</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
     <string name="power_save_ps_limit">Begränsa aktiviteten för systemappar</string>
     <string name="power_save_ps_freeze">Frys appar i bakgrunden</string>
     <string name="power_save_ps_clean">Rensa cache när enheten är låst</string>
     <string name="power_save_ps_close_setting">Stäng av bakgrundstjänster (synkronisering, GPS) för att spara ström</string>
     <string name="power_center_dialog_msg_top">När batterispararen är aktiverad kommer MIUI göra följande optimeringar:</string>
-    <string name="power_center_dialog_msg_bottom">Du kan förbättra batteritiden med upp till %1$dh och %2$dm. Aktivera Batterisparare?</string>
+    <string name="power_center_dialog_msg_bottom">Du kan öka batteritiden upp till %1$d t %2$d m. Slå på Batterisparare?</string>
     <string name="power_dialog_super_save_msg">Ultra batterisparare begränsar de flesta kraftkrävande funktionerna och minskar enhetens prestanda. Detta ger telefonen en grundläggande funktionalitet (t.ex. samtal, SMS och anslutning till nätverket). Slå på Ultra batterisparare?</string>
     <string name="power_dialog_super_save_title">Ultra Batterisparare</string>
     <string name="power_center_power_save_title_text">Batterisparare</string>
@@ -1261,6 +1276,15 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="power_setting_category_other">Ytterligare inställningar</string>
     <string name="power_setting_background_app_save_title">Batterisparare i bakgrunden</string>
     <string name="power_setting_background_app_save_summary">Begränsa apparnas aktivitet i bakgrunden utan att påverka funktionaliteten</string>
+    <string name="power_setting_warm_configure">Temperaturreglering</string>
+    <string name="power_setting_config_scenario_policies_title">Scenario</string>
+    <string name="power_setting_scenario_policies_summary">Identifiera scenario för att växla mellan batterisparlägen automatiskt</string>
+    <string name="power_setting_important_warning">Uppmärksamhet</string>
+    <string name="power_setting_warm_performance_tip">Scenario som kräver hög strömförbrukning ökar temperaturen på din enhet över nivåerna på förvalda läget för temperaturreglering.</string>
+    <string name="power_setting_features">Specialfunktioner</string>
+    <string name="power_setting_wireless_reverse_charging_title">Omvänd trådlös laddning</string>
+    <string name="power_setting_wireless_reverse_charging_summary">Ladda kompatibla enheter trådlöst</string>
+    <string name="battery_and_property">Batteri och prestanda</string>
     <string name="power_settings_lock_screen_saver_title">Inställningar för Låsskärm</string>
     <string name="quick_optimize_sub_summary_with_battery_text">Lade till %1$s, ungefär %2$s kvar</string>
     <string name="quick_optimize_sub_battery_text">Ungefär %s kvar</string>
@@ -1275,6 +1299,17 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="pc_main_sub_battery_text_hour_minute">%1$sh %2$sm återstår</string>
     <string name="pc_main_power_manager_day_hour">%1$sd %2$sh återstår till fulladdad</string>
     <string name="pc_main_power_manager_hour_minute">%1$sh %2$sm återstår till fulladdad</string>
+    <string name="battery_statistics_activity_title">Statistik för batterianvändning</string>
+    <string name="pc_battery_history_consume_rank_menu_item">Rankning</string>
+    <string name="pc_battery_history_battery_detail_menu_item">Detaljer</string>
+    <string name="pc_battery_history_rank_percent_menu_item">Procentsats</string>
+    <string name="pc_battery_history_rank_mha_menu_item">Milliamperetimme</string>
+    <string name="pc_battery_detail_curve_reference_now">Nu</string>
+    <string name="pc_battery_detail_device_item_title">Statistik för batterianvändning</string>
+    <string name="pc_statistics_battery_use_title">Batterianvändning</string>
+    <string name="pc_statistics_battery_use_summary">%s sedan sista laddningen</string>
+    <string name="pc_statistics_battery_use_hour_minute">%1$dh %2$dm sedan sista laddningen</string>
+    <string name="pc_statistics_battery_last_hour_minute">%1$d tim %2$d min återstår</string>
     <string name="notification_battery_scan_consume_abnormal_title_set">%s tömmer batteriet</string>
     <string name="notification_battery_scan_consume_abnormal_summary">Tryck för att lösa problemet</string>
     <string name="pc_abnormal_scan_reason_prevent_standby">Förhindrar systemet från att gå till läget standby</string>
@@ -1284,6 +1319,38 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="pc_abnormal_scan_reason_wake_system">Väcker systemet för ofta</string>
     <string name="pc_abnormal_scan_reason_reconnect">Försöker ansluta till nätverket för ofta</string>
     <string name="pc_abnormal_scan_button_text">Stäng appar</string>
+    <string name="superpower_settings">Ultra batterisparare</string>
+    <string name="superpower_notification_time_12">EEEE dd MMMM</string>
+    <string name="superpower_notification_time_24">EEEE dd MMMM</string>
+    <string name="superpower_notification_hint_enter">Slå på</string>
+    <string name="superpower_savemode_limit1">Mörkt tema</string>
+    <string name="superpower_savemode_limit2">Restriktera bakgrundsaktiviteter</string>
+    <string name="superpower_savemode_limit3">Begränsa strömkrävande aktivitet (synkronisering, GPS, vibration, omgivningsvisning etc.)</string>
+    <string name="superpower_savemode_limit4">Tillåt valda appar att fungera normalt</string>
+    <string name="superpower_settins_switch_summary">Restrikterar de flesta kraftkrävande funktionerna för att göra den grundläggande funktionaliteten (t.ex. samtal, SMS och valda appar) tillgänglig så länge som möjligt</string>
+    <string name="superpower_settins_autoleave_title">Stäng av automatiskt</string>
+    <string name="superpower_settins_autoleave_summary">Stäng av Ultra batterisparare automatiskt när batteriet är 50% laddat</string>
+    <string name="superpower_settins_other">Ytterligare inställningar</string>
+    <string name="superpower_settins_autoenter_title">Slå på automatiskt</string>
+    <string name="superpower_settins_autoenter_summary">Sätt på Ultra batterisparare automatiskt när batteriet är 10% laddat</string>
+    <string name="superpower_notification_title">Mindre än 10% av batteriet återstår</string>
+    <string name="superpower_notification_summary">Aktivera Ultra Batterisparare</string>
+    <string name="superpower_dialog_title">Ultra Batterisparare</string>
+    <string name="superpower_dialog_massage">Ultra batterisparare begränsar de flesta kraftkrävande funktionerna och minskar enhetens prestanda för att lämna grundläggande funktionalitet (t.ex. samtal, SMS och anslutning till nätverket) så länge som möjligt. Slå på Ultra batterisparare?</string>
+    <string name="superpower_dialog_button_ok">OK</string>
+    <string name="superpower_dialog_button_disable_dialog">Visa inte igen</string>
+    <string name="superpower_progress_title">Återstående tid</string>
+    <string name="superpower_progress_content">Aktivera Ultra Batterisparare…</string>
+    <string name="superpower_progress_turnoff_items">Begränsa kraftkrävande aktivitet</string>
+    <string name="superpower_progress_turnoff_process">Begränsa bakgrundsaktivitet</string>
+    <string name="superpower_progress_turndown_brightness">Minskar skärmens ljusstyrka</string>
+    <string name="superpower_progress_switch_home">Byter till mörkt tema</string>
+    <string name="superpower_progress_left_time">%1$dh %2$dm</string>
+    <string name="pc_search_keywords_battery">Batteri</string>
+    <string name="pc_search_keywords_battery_save">Batterisparare</string>
+    <string name="pc_search_keywords_battery_use">Batterianvändning</string>
+    <string name="pc_search_keywords_capacity">Batterikapacitet</string>
+    <string name="pc_search_keywords_property">Prestanda</string>
     <string name="handle_bar_title_system">System</string>
     <string name="apps_list_header_title_sms">Kontrollera meddelandeapp</string>
     <string name="apps_list_header_title_sms_access">Begränsa tillgång till verifieringskoder</string>
@@ -1351,7 +1418,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="sp_settings_check_item_title_wifi">Wi-Fi</string>
     <string name="sp_settings_check_item_title_root">Root</string>
     <string name="sp_settings_check_item_title_update">Systemuppdateringar</string>
-    <string name="sp_settings_check_item_title_virus_exception">Virusundantag</string>
+    <string name="sp_settings_check_item_title_virus_exception">Undantag</string>
     <string name="sp_settings_check_item_title_sign_exception">Undantag för signaturer</string>
     <string name="sp_settings_check_item_summary_virus_exception">Hantera virusundantag</string>
     <string name="sp_settings_check_item_summary_sign_exception">Hantera undantag för signaturer</string>
@@ -1359,7 +1426,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="sp_empty_title_sign_exception">Håll appen för att lägga till undantag</string>
     <string name="sp_toast_removed_from_sign_white_list">Borttagen från undantag. Objektet kommer skannas nästa gång.</string>
     <string name="sp_network_privacy_dialog_title">Kan inte utföra en säkerhetsskanning</string>
-    <string name="sp_network_privacy_dialog_message">Appen Säkerhet kan inte fungera normalt eftersom du har begränsat internetanslutningen. Tillåt Säkerhet att ansluta till internet?</string>
+    <string name="sp_network_privacy_dialog_message">Säkerhet kan inte fungera normalt eftersom du har begränsat internetanslutningen. Tillåt Säkerhet att ansluta till internet?</string>
     <string name="sp_settings_exception_count_zero">Inga objekt</string>
     <string name="sp_monitored_apps_count_zero">Inga betalningsappar är skyddade</string>
     <string name="monitor_app_more">Mer</string>
@@ -1387,8 +1454,6 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="btn_text_quick_scan">Skanna</string>
     <string name="menu_text_antivirus">Säkerhetsskanning</string>
     <string name="menu_summary_antivirus">Sök efter virus på din enhet</string>
-    <string name="menu_summary_antivirus_2">Potentiella risker hittades</string>
-    <string name="menu_summary_antivirus_3">Enheten behöver skannas</string>
     <string name="menu_text_optimize_manage">Öka hastigheten</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_summary_networkassistants">Hantera ditt dataabonnemang</string>
@@ -1397,24 +1462,25 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="menu_summary_networkassistants_4">Håller på att få slut på mobildata</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_antispam">Blockeringslista</string>
     <string name="menu_summary_antispam">Blockera samtal och meddelanden</string>
-    <string name="menu_summary_antispam_2">Blockerade samtal och meddelanden</string>
     <string name="menu_text_license_manager">Behörigheter</string>
     <string name="menu_text_garbage_cleanup">Städaren</string>
     <string name="menu_summary_garbage_cleanup">Inga skräpfiler hittades</string>
-    <string name="menu_summary_garbage_cleanup_2">Skräpstorlek</string>
-    <string name="menu_summary_garbage_cleanup_3">Rensa skräp nu</string>
-    <string name="menu_text_power_manager">Batterioptimering</string>
+    <string name="menu_summary_garbage_cleanup_ex">Rensa %s skräp</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
+    <string name="menu_text_power_manager">Batteri och prestanda</string>
     <string name="menu_summary_power_manager">Batterispararen ger mer tid mellan laddningarna</string>
     <string name="menu_summary_power_manager_1">Batteriet är fulladdat</string>
     <string name="menu_summary_power_manager_2">%såterstår</string>
     <string name="menu_summary_power_manager_3">Anslut laddare</string>
     <string name="menu_summary_power_manager_4">%still fulladdad</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Föregående skanning avbröts</string>
     <string name="examination_score_100">Allt ser bra ut!</string>
     <string name="examination_score_80_100">Några objekt kan optimeras</string>
@@ -1429,7 +1495,6 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="activity_title_power_manager">Batterioptimering</string>
     <string name="activity_title_garbage_cleanup">Städaren</string>
     <string name="menu_summary_app_manager">Uppdatera och installera appar</string>
-    <string name="menu_summary_app_manager_2">Uppdateringar är tillgängliga</string>
     <string name="memory_check_content">Frigjorde %s</string>
     <string name="memory_clear_unused">Rensa cache (%s)</string>
     <string name="activity_title_virus">Virus</string>
@@ -1502,7 +1567,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="hints_virus_app_list_item_summary">app</string>
     <string name="hints_virus_apk_list_item_summary">apk</string>
     <string name="hints_loading_text">Laddar…</string>
-    <string name="security_center_slogan">Säkerhet. Alltid på sin vakt.</string>
+    <string name="security_center_slogan">Håll din enhet snabb och säker</string>
     <string name="activity_title_auto_start_manager">Starta automatiskt</string>
     <string name="activity_title_permission_manager">Behörigheter</string>
     <string name="activity_title_other_permission_manager">Andra behörigheter</string>
@@ -1528,6 +1593,8 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="permission_action_accept">Acceptera</string>
     <string name="permission_action_prompt">Meddela</string>
     <string name="permission_action_reject">Tillåt inte</string>
+    <string name="permission_action_always">Tillåt alltid</string>
+    <string name="permission_action_foreground">När appen används</string>
     <string name="empty_title_permission_apps_list">Inga appar.</string>
     <string name="old_sdk_deny_warning">Appen är inte kompatibel med de senaste Android tillståndskrav. Nekad behörigheter kan påverka hur denna app fungerar.</string>
     <string name="empty_title_root_apps">Inga appar har tillgång till root.</string>
@@ -1590,10 +1657,10 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="empty_title_manual_item_white_list">Inga undantag.</string>
     <string name="title_cloud_account">Mi-konto</string>
     <string name="summary_cloud_account">Få ut det mesta av din Mi enhet</string>
-    <string name="title_cloud_service">Mi Cloud</string>
+    <string name="title_cloud_service">Xiaomi Cloud</string>
     <string name="summary_cloud_service">Synkronisera dina foton, kontakter, och mer över alla dina enheter</string>
     <string name="title_network_switch">Nätverksanslutning</string>
-    <string name="summary_network_switch">Tillåt appen Säkerhet att ansluta till internet</string>
+    <string name="summary_network_switch">Tillåt Säkerhet att ansluta till internet</string>
     <string name="title_power_optimizer">Batterisparare</string>
     <string name="summary_power_optimizer">Minska din enhets prestanda när batteriet är lågt</string>
     <string name="title_data_flow_monitor">Övervakning av datatrafik är aktiverad</string>
@@ -1704,7 +1771,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="antivirus_none_engine_dialog_ok">OK</string>
     <string name="antivirus_privacy_dialog_title">Integritetspolicy</string>
     <string name="antivirus_privacy_dialog_summary">Den här funktionen krypterar och laddar upp enhetens ID till Avast, AVL och Tencent servrar (%s).</string>
-    <string name="antivirus_privacy_dialog_summary_link">visa sekretesspolicy</string>
+    <string name="antivirus_privacy_dialog_summary_link">Integritetspolicy</string>
     <string name="antivirus_privacy_dialog_cloudscan">Ladda upp appnamn och detaljer</string>
     <string name="antivirus_privacy_dialog_cloudscan_description">Ladda och skanna appnamn och detaljer med hjälp av virusdefinitioner från internet.</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
@@ -1714,7 +1781,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="antivirus_not_wlan">Din enhet är inte ansluten till Wi-Fi. Att använda mobildata kan generera ytterligare kostnader. Fortsätt ändå?</string>
     <string name="antivirus_longtime_no_update">Dina virusdefinitioner är inaktuella. Kontinuerliga uppdateringar hjälper att förbättra resultatet för virusskanningen. Tillåt Säkerhet att ansluta till Internet och uppdatera virusdefinitioner?</string>
     <string name="antivirus_longtime_no_update1">Dina virusdefinitioner är inaktuella. Kontinuerliga uppdateringar hjälper att förbättra resultatet för virusskanningen. Uppdatera virusdefinitioner och försök igen.</string>
-    <string name="antivirus_sec_network_unavailable">Appen Säkerhet kan inte uppdateras eftersom du har begränsat internetuppkopplingen. Tillåt appen Säkerhet att ansluta till Internet?</string>
+    <string name="antivirus_sec_network_unavailable">Säkerhet kan inte uppdateras eftersom du har begränsat internetanslutningen. Tillåt Säkerhet att ansluta till Internet?</string>
     <string name="antivirus_update_btn_contiue">Fortsätta</string>
     <string name="antivirus_update_btn_open">Tillåt</string>
     <string name="antivirus_update_btn_update">Uppdatera</string>
@@ -1796,6 +1863,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="card_main_deepclean_wechat_action">Rensa</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1852,7 +1920,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="ac_enter_applock">Gå in i Applås</string>
     <string name="ac_mask_all_apps">Dölj för alla appar</string>
     <string name="ac_unmask_all_apps">Visa för alla appar</string>
-    <string name="ac_summaryOn">Aktiverad, lösenord krävs för att öppna appar</string>
+    <string name="ac_summaryOn">Skriv in lösenord för att öppna valda appar</string>
     <string name="ac_summaryOff">Avaktiverad, lösenord krävs inte för att öppna appar</string>
     <string name="lockpattern_tutorial_cancel_label">Avbryt</string>
     <string name="lockpattern_tutorial_continue_label">Nästa</string>
@@ -1866,8 +1934,8 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="modifypassword">Ändra lösenordstyp</string>
     <string name="back_modifypassword">Gå tillbaka till att ändra lösenordstyp</string>
     <string name="showpattern">Visa mönster</string>
-    <string name="notification_mask_title">Dölj innehåll</string>
-    <string name="notification_mask_summary">Dölj notifikationsinnehåll på Låsskärmen och i Notifikationsfältet</string>
+    <string name="notification_mask_title">Göm notifikationsinnehåll</string>
+    <string name="notification_mask_summary">Visa inte notifikations-innehåll för skyddade appar</string>
     <string name="convenient_mode">Lås upp alla appar</string>
     <string name="convenient_summary">Ange lösenord en gång för att låsa upp alla appar</string>
     <string name="suggest_app_tolock">Förslag</string>
@@ -2180,6 +2248,7 @@ Du kommer inte förlora någon appdata."</string>
     <string name="app_manager_find_apps">Hitta appar</string>
     <string name="app_manager_thumbnail_blur_title">Gör förhandsvisningar av appar suddiga</string>
     <string name="app_manager_thumbnail_blur_summary">Gör förhandsvisningar av appar suddiga i Nyligen använda</string>
+    <string name="app_manager_power_consume">%.1f%%</string>
     <string name="ad_btn_default_text">Läs mer</string>
     <string name="open_activity_err">Applikationen hittades inte</string>
     <string name="low_memory_warning_dialog_title">Inte tillräckligt med lagringsutrymme</string>
@@ -2235,7 +2304,7 @@ Du kommer inte förlora någon appdata."</string>
     <string name="already_close_gamebooster">Game Speed Booster är av</string>
     <string name="no_game">Kunde inte hitta några spel</string>
     <string name="gamebooster_network_dialog_title">Vissa funktioner är inte tillgängliga</string>
-    <string name="gamebooster_network_dialog_message">Tillåt appen Säkerhet att ansluta till ett nätverk för att kunna använda alla funktioner av Game speed booster?</string>
+    <string name="gamebooster_network_dialog_message">Tillåt Säkerhet att ansluta till nätverket för att kunna använda alla funktioner av Game Turbo?</string>
     <string name="ask_create_shortcut">Skapa en genväg på Hemskärmen?</string>
     <string name="create_shortcut">Skapa en genväg på Hemskärmen för Game speed booster</string>
     <string name="i_know">Jag förstår</string>
@@ -2247,6 +2316,12 @@ Du kommer inte förlora någon appdata."</string>
     <string name="gmscore_support_service">Grundläggande tjänster från Google</string>
     <string name="gmscore_support_remind">Aktivera denna funktion om du upplever problem med Gmail, Google Maps och andra Google appar. Det kommer dra lite mer batteri.</string>
     <string name="google_base_app_install_choice">Denna applikation kräver Google Service Framework för att fungera normalt, ladda ned och installera dem?</string>
+    <string name="function_gwsd_title">Tillåt inte att inkommande samtal avbryter data-SIM-anslutning</string>
+    <string name="function_gwsd_detail">"Om funktionen:
+ 1. Inkommande samtal till ditt data-SIM avbryter inte mobildataanslutningen. Anslutningen avbryts endast när du svarar på ett samtal.
+ 2. När den här funktionen är påslagen kommer uppringaren inte att höra ringsignalerna för samtal väntar. Inkommande samtal avslutas om du inte svarar inom 6 sekunder.
+ 3. Den här funktionen fungerar endast för data-SIM-kort. Samtal till ditt primära SIM-kort avbryter mobildataanslutningen.
+ 4. Den här funktionen stöds endast av China Mobile och China Unicorn."</string>
     <string name="application_item_disable">Begränsad</string>
     <string name="application_item_already_permission">Tillåten</string>
     <string name="man_add_application">Lägg till appar som autostartas manuellt</string>
@@ -2379,6 +2454,7 @@ Du kommer inte förlora någon appdata."</string>
     <string name="gamebox_display_3">Ljus</string>
     <string name="gamebox_display_4">Ljus &amp; mättnad</string>
     <string name="gamebox_display_set">"Visuell förbättring: "</string>
+    <string name="gamebox_milink">Casta</string>
     <string name="gb_first_window_title">Speloptimering</string>
     <string name="gb_first_window_summary">Förbättra hastighet och prestanda på systemnivå</string>
     <string name="gb_first_window_gamebox_summary_four">Rensa cache, gör skärminspelningar och ta skärmdumpar</string>
@@ -2413,6 +2489,7 @@ Du kommer inte förlora någon appdata."</string>
     <string name="gb_advance_settings_reset_dialog_content">Återställ standardinställningar nu?</string>
     <string name="title_reply">Kommentera</string>
     <string name="title_like">Gilla</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Mobildata</string>
     <string name="game_wid_viewpoint_buttom">Ta en kort paus.</string>
     <string name="video_repeat">Spela igen</string>
@@ -2462,12 +2539,21 @@ Du kommer inte förlora någon appdata."</string>
     <string name="function_shield_eye_shield">Avaktivera Läsläge</string>
     <string name="function_shield_three_finger">Tillåt inte gest för skärmdump</string>
     <string name="function_shield_pull_notification_bar">Öppna inte Notifikationspanel</string>
+    <string name="function_shield_voice_trigger">Väck inte Mi AI med röst</string>
     <string name="choose_gs_show_way">Välj hemsidesorientering</string>
     <string name="gs_show_way">Hemsidesorientering</string>
     <string name="gs_show_way_horizontal">Horisontell</string>
     <string name="gs_show_way_vertical">Vertikal</string>
     <string name="gb_global_settings">Allmänna inställningar</string>
     <string name="gb_add_game_hint">Lägg till objekt från listan över appar</string>
+    <string name="gb_first_guide_title">Förbättra hastighet och prestanda på systemnivå</string>
+    <string name="gb_first_guide_gamebox_des">Använd genvägar medan att spel spelas</string>
+    <string name="gb_first_guide_handsfree_des">Besvara samtal i bakgrunden</string>
+    <string name="gb_first_guide_shortcut_des">En genväg för Speloptimering har skapats</string>
+    <string name="gb_first_guide_function_shiled_title">Avaktivera systemfunktioner när Speloptimering är aktiverad</string>
+    <string name="stop_milink_connect">Slutat casta</string>
+    <string name="other_milink_connect">Kan inte casta. En annan funktion castar just nu.</string>
+    <string name="alert_back_milink_hangup_tips_content">Casting avbryts inte medan du avslutar ett samtal. Du kan trycka på strömknappen för att väcka skärmen.</string>
     <string name="notify_channel_name_security">Systemsäkerhet</string>
     <string name="privacy_apps_category_title">Dolda appar</string>
     <string name="privacy_apps">Dolda appar</string>
@@ -2482,6 +2568,12 @@ Du kommer inte förlora någon appdata."</string>
     <string name="privacy_apps_checkbox_remind_choice">Visa inte igen</string>
     <string name="privacy_apps_go_to_use">Starta</string>
     <string name="privacy_apps_close">Stäng</string>
+    <string name="privacy_apps_shield_message_title">Visa inte notifikationer</string>
+    <string name="privacy_apps_shield_message_summary">Visa inte notifikations-innehåll för skyddade appar</string>
+    <string name="privacy_apps_begin_use">Start</string>
+    <string name="privacy_apps_next_stup">Nästa</string>
+    <string name="privacy_apps_button_know">Jag förstår</string>
+    <string name="privacy_apps_tutorial_dlg_title">Hur man visar dolda appar</string>
     <string name="first_aid_stop_scan">Avbryt skanning</string>
     <string name="first_aid_scanning_item1">Skannar efter prestandaproblem…</string>
     <string name="first_aid_scanning_item2">Skannar efter nätverksproblem…</string>
@@ -2554,6 +2646,55 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="third_desktop_dialog_content">Launchers från tredje part kan resultera i problem som t ex dataläckage, onormal batteriförbrukning och fördröjning. Endast launchers som är verifierade av MIUI går att konfigurera som standardlauncher.</string>
     <string name="third_desktop_dialog_ok">Jag förstår</string>
     <string name="user_guide">Svep uppåt för att upptäcka fler nya spel</string>
+    <string name="system_permission_declare_main_purpose" formatted="false">Välkommen till %1s! Med den här appen kan du använda följande funktion:%2s.</string>
+    <string name="system_permission_declare_privacy_declare">Vi respekterar och skyddar din integritet. Notera att %1sbehöver samla in din data och kräver följande behörigheter för att fungera normalt:</string>
+    <string name="system_permission_declare_analytics_declare">Tack för att du registrerar dig i vårt användarupplevelseprogram. Din enhet måste vara ansluten till internet för att den här funktionen ska fungera korrekt. Du måste även ge oss följande behörigheter till att samla in data som hjälper oss att förbättra våra produkter och tjänster. Dessa data samlas endast in för statistiska ändamål. Vi kan inte använda dessa data till att identifiera dig personligen.</string>
+    <string name="system_permission_declare_privacy_no_permission">Notera att %1s behöver samla in din data för att kunna fungera normalt. Vi respekterar och skyddar din integritet.</string>
+    <string name="system_permission_declare_use_network">Anslut till nätverket</string>
+    <string name="system_permission_declare_use_network_no_permission">Anslut till nätverket</string>
+    <string name="system_permission_declare_no_say_no">Om du väljer att inte ge de nödvändiga behörigheterna eller inte tillåter oss att samla in och använda dina data kommer den här appen inte att kunna fungera normalt.</string>
+    <string name="system_permission_declare_no_say_no_analytics">Om du inte vill ge dessa behörigheter kan du avregistrera i Inställningar > Andra inställningar > Sekretess > Användarupplevelseprogram</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">Om du väljer att inte ge de nödvändiga behörigheterna eller inte tillåter oss att samla in och använda dina data kommer den här appen inte att kunna fungera normalt.</string>
+    <string name="system_permission_declare_revoke_uninstallable">Du kan logga ut, avinstallera den här appen eller återkalla din auktorisering i Säkerhet > Hantera appar > Behörigheter > Behörigheter.</string>
+    <string name="system_permission_declare_revoke_system">Du kan avsluta den här appen.</string>
+    <string name="system_permission_declare_double_link">&lt;Data>Läs och godkänn vårt &lt;a href=\"%1$s\">Användaravtal&lt;/a> och &lt;a href=\"%2$s\">Integritetspolicy&lt;/a> innan du använder den här funktionen.&lt;/Data></string>
+    <string name="system_permission_declare_user_agreement">&lt;Data>Läs och godkänn vårt &lt;a href=\"%1$s\">Användaravtal och Integritetspolicy&lt;/a> innan du använder den här funktionen.&lt;/Data></string>
+    <string name="system_permission_declare_privacy_policy">&lt;Data>Läs och godkänn vårt &lt;a href=\"%1$s\">Användaravtal och Integritetspolicy&lt;/a> innan du använder den här funktionen.&lt;/Data></string>
+    <string name="system_permission_declare_agree">Godkänn</string>
+    <string name="system_permission_declare_disagree">Godkänn inte</string>
+    <string name="system_permission_perm_send_mms">Skicka MMS</string>
+    <string name="system_permission_perm_read_mms">Läs MMS</string>
+    <string name="system_permission_perm_answer_call">Ring samtal</string>
+    <string name="system_permission_perm_read_numbers">Visa telefonnummer</string>
+    <string name="permgroupdesc_contacts">Kom åt kontakter</string>
+    <string name="permgroupdesc_location">Kom åt platsinfo</string>
+    <string name="permgroupdesc_calendar">Kom åt kalenderhändelser</string>
+    <string name="permgroupdesc_sms">Läs eller skicka SMS</string>
+    <string name="permgroupdesc_storage">Kom åt foton eller filer på enhet</string>
+    <string name="permgroupdesc_microphone">Spela in ljud</string>
+    <string name="permgroupdesc_camera">Ta foton och spela in videor</string>
+    <string name="permgroupdesc_calllog">Kom åt och spara objekt i samtalshistorik</string>
+    <string name="permgroupdesc_phone">Ring samtal och hantera konversationer</string>
+    <string name="permgroupdesc_sensors">Få åtkomst till kroppsensordata</string>
+    <string name="permgroupdesc_recognition">Få åtkomst till hälso- och aktivitetsdata</string>
+    <string name="phone_manage">Verktyg</string>
+    <string name="securitycenter_tab_title">Säkerhet</string>
+    <string name="phone_manage_system_tool_title">Verktyg</string>
+    <string name="phone_manage_system_tool_summary">Användbara verktyg på systemnivå</string>
+    <string name="phone_manage_clean_title">Rensare</string>
+    <string name="phone_manage_clean_summary">Frigör lagringsutrymme</string>
+    <string name="phone_manage_app_manager_summary">Hantera appar på din enhet</string>
+    <string name="phone_manage_electric_title">Batteri</string>
+    <string name="phone_manage_electric_summary">Optimera din enhet för att spara batteri</string>
+    <string name="phone_manage_special_title">Specialfunktioner</string>
+    <string name="phone_manage_special_summary">Upptäck andra funktioner</string>
+    <string name="system_tool_green_guard">Föräldrakontroll</string>
+    <string name="system_tool_sos">Nödsamtal SOS</string>
+    <string name="power_save_mode">Batterisparare</string>
+    <string name="power_save_settings">Batteriinställningar</string>
+    <string name="banner_optimizemanage_summary">Frigör minne</string>
+    <string name="banner_red_money_assist_summary">Öppna röda kuvert snabbare</string>
+    <string name="banner_red_money_assist_button">Slå på</string>
     <string name="resource_securitycenter_settings">Säkerhet</string>
     <string name="keywords_securitycenter_settings">Batterianvändning;Hantera autostart;Installera via USB;App behörigheter;Köp mobildata;Blocklista;Dataanvändning;Kalibrera surfmängd;Testa nätverk; Spara batteri;Värme;Starta;Stäng av;Batteri problem;Energi;Batterisparläge;Energisparläge;Energisparande;Batterisparande; Autostart;Behörigheter;Auto start;MIUI autostart;App autostart;autostarta appar;Kedjestart;Kedjad start;Utlöst start;USB installera;Installera från dator;ADB installera; Plats;Kontakt tillgång;data;mobildata;köp data;fyll på data;surfmängd; Blockera;Svartlista;Smart blockeringslista;Bedrägeri;Försäljning;Agenter;Samtalsblockeringslista;Meddelandeblockeringslista;Chattblockeringslista;SMSblockeringslista;svartlista;svart lista;blocklista; block lista; bedrägeri;blockera kontakt;blockera kontakter; Trafik; Kalibrera; Anslutning;Internet;Test; Batterianvändning, Batterioptimering, Batterianvändning Spel;prestandahöjare;Glory of the king;Prestandaläge;Tyst läge</string>
     <string name="path_securitycenter_settings">Systemappar/Säkerhet</string>

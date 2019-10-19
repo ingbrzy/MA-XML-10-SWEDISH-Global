@@ -180,6 +180,22 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="other">%s minuter återstår till fulladdad</item>
         <item quantity="one">%s minut återstår till fulladdad</item>
     </plurals>
+    <plurals name="pc_statistics_battery_use_minute">
+        <item quantity="other">%d minuter sedan sista laddningen</item>
+        <item quantity="one">%d minut sedan sista laddningen</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_use_second">
+        <item quantity="other">%d sekunder sedan sista laddningen</item>
+        <item quantity="one">%d sekund sedan sista laddningen</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_minute">
+        <item quantity="other">%d minuter återstår</item>
+        <item quantity="one">%d minut återstår</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_hour">
+        <item quantity="other">%d timmar återstår</item>
+        <item quantity="one">%d timme återstår</item>
+    </plurals>
     <plurals name="notification_battery_scan_consume_abnormal_title_split">
         <item quantity="other">%2$d appar, inklusive %1$s, tömmer batteriet</item>
         <item quantity="one">%2$d app, inklusive %1$s, tömmer batteriet</item>
@@ -232,21 +248,21 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="other">%s appar skyddas inte</item>
         <item quantity="one">%s app skyddas inte</item>
     </plurals>
-    <plurals name="menu_text_antivirus_2">
-        <item quantity="other">%d objekt</item>
-        <item quantity="one">%d objekt</item>
+    <plurals name="menu_text_antivirus_virus_ex">
+        <item quantity="other">%d appar innehåller virus eller malware</item>
+        <item quantity="one">%d app innehåller virus eller malware</item>
     </plurals>
-    <plurals name="menu_text_antivirus_3">
-        <item quantity="other">%d dagar</item>
-        <item quantity="one">%d dag</item>
+    <plurals name="menu_text_antivirus_day_ex">
+        <item quantity="other">Har inte skannat enhet på %d dagar</item>
+        <item quantity="one">Har inte skannat enhet på %d dag</item>
     </plurals>
-    <plurals name="menu_text_antispam_2">
-        <item quantity="other">%d objekt</item>
-        <item quantity="one">%d objekt</item>
+    <plurals name="menu_text_antispam_ex">
+        <item quantity="other">%d meddelanden och samtal blockerades</item>
+        <item quantity="one">%d meddelande eller samtal blockerades</item>
     </plurals>
-    <plurals name="menu_text_app_manager_2">
-        <item quantity="other">%d appar</item>
-        <item quantity="one">%d app</item>
+    <plurals name="menu_text_app_manager_ex">
+        <item quantity="other">%d uppdateringar är tillgängliga</item>
+        <item quantity="one">%d uppdatering är tillgänglig</item>
     </plurals>
     <plurals name="system_check_content">
         <item quantity="other">%1$d objekt säkrade</item>
@@ -433,12 +449,12 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="one">    +%1$d tecken till</item>
     </plurals>
     <plurals name="privacy_apps_enable_header_title">
-        <item quantity="other">Kan dölja %d appar</item>
-        <item quantity="one">Kan dölja %d app</item>
+        <item quantity="other">%d appikoner är inte dolda</item>
+        <item quantity="one">%d appikon är inte dold</item>
     </plurals>
     <plurals name="privacy_apps_disable_header_title">
-        <item quantity="other">%d appar är dolda</item>
-        <item quantity="one">%d app är dold</item>
+        <item quantity="other">%d appikoner är dolda</item>
+        <item quantity="one">%d appikon är dold</item>
     </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d problem kräver optimering</item>

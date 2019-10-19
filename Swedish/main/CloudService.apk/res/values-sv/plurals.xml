@@ -61,8 +61,8 @@
         <item quantity="one">%d dold bild synkroniseras inte. Logga ut efter att alla objekt är synkroniserade för att behålla dem annars kommer objekten tas bort.</item>
     </plurals>
     <plurals name="micloud_manual_pause_and_resume">
-        <item quantity="other">Synkronisering är pausad. Återupptas om %d minuter…</item>
-        <item quantity="one">Synkronisering är pausad. Återupptas om %d minut…</item>
+        <item quantity="other">Återuppta synkronisering om %d minuter</item>
+        <item quantity="one">Återuppta synkronisering om %d minut</item>
     </plurals>
     <plurals name="last_sync_time_mins_ago">
         <item quantity="other">%s minuter sedan</item>
@@ -73,7 +73,7 @@
         <item quantity="one">%s timme sedan</item>
     </plurals>
     <plurals name="provision_sync_items_status_title">
-        <item quantity="other">%s tjänster kommer synkroniseras med Mi Cloud</item>
-        <item quantity="one">%s tjänst kommer synkroniseras med Mi Cloud</item>
+        <item quantity="other">%s tjänster kommer att synkroniseras med Xiaomi Cloud</item>
+        <item quantity="one">%s tjänst kommer att synkroniseras med Xiaomi Cloud</item>
     </plurals>
 </resources>

@@ -60,19 +60,19 @@
     <string name="wating">Vänta lite…</string>
     <string name="Active">Aktiv</string>
     <string name="ok_button">OK</string>
-    <string name="remove_button">Ta bort och starta om</string>
-    <string name="remove_button_time">Ta bort och starta om (%ds)</string>
+    <string name="remove_button">Ta bort</string>
+    <string name="remove_button_time">Ta bort (%ds)</string>
     <string name="cancel_button">Avbryt</string>
     <string name="list_empty_text">Tom</string>
-    <string name="list_empty_text_xspace">Installera WeChat/QQ/Weibo, skapa Dubbelappar och försök igen.</string>
+    <string name="list_empty_text_xspace">Skapa fler dubbelappar och försök igen.</string>
     <string name="xspace_label">Dubbelappar</string>
     <string name="xspace_setting_label">Inställningar för Dual App</string>
     <string name="xspace_account">Konton för Dubbelappar</string>
     <string name="xspace_remove">Ta bort konton för Dubbelappar</string>
     <string name="declare_dialog_title">Om Dubbelappar</string>
     <string name="menu_item_about_privacy_title">Integritetspolicy</string>
-    <string name="stop_xspace_alert_title">Ta bort konton för Dubbelappar</string>
-    <string name="stop_xspace_alert_content">Alla dubbelappar och deras data kommer tas bort permanent. Du måste starta om din enhet för att tillämpa denna ändring. Ta bort konton nu?</string>
+    <string name="stop_xspace_alert_title">Ta bort konton för dubbelappar</string>
+    <string name="stop_xspace_alert_content">Ta bort alla dubbelappar tillsammans med deras konton och appdata? Din enhet kommer att startas om för att tillämpa ändringen.</string>
     <string name="xspace_loading_msg">Laddar appar…</string>
     <string name="xspace_header">Dubbelappar</string>
     <string name="xspace_introduce">Rekommenderad</string>
@@ -295,15 +295,23 @@ för att logga in från Låsskärmen"</string>
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">WeChat Pay</string>
     <string name="weixin_share_sign">Logga in och dela</string>
-    <string name="use_xiaoai_open">Väck med röstassistent</string>
+    <string name="use_xiaoai_open">Vakna med hjälp av Mi AI</string>
+    <string name="use_google_open">Väck med Google Assistant</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">Skicka till Weibo</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="qq_send">Skicka till QQ vänner/datorer</string>
     <string name="qq_login">Logga in på QQ</string>
-    <string name="xspace_default_setting_label">Standardapp</string>
-    <string name="xspace_default_app_title">Standardapp</string>
-    <string name="xspace_default_app_summary">Ställ in standardapp för betalningar, delningar, favoriter och mer.</string>
+    <string name="xspace_whatsapp_title">WhatsApp</string>
+    <string name="whatsapp_send">Dela till Whatsapp</string>
+    <string name="xspace_facebook_title">Facebook</string>
+    <string name="facebook_send">Dela till Facebook</string>
+    <string name="facebook_login">Logga in med Facebook</string>
+    <string name="xspace_instagram_title">Instagram</string>
+    <string name="instagram_send">Dela till Instagram</string>
+    <string name="xspace_default_setting_label">Anpassning</string>
+    <string name="xspace_default_app_title">Anpassning</string>
+    <string name="xspace_default_app_summary">Välj standardappar som används för inloggning, delning och röstassistent</string>
     <string name="xspace_default_setting_dialog_title"> standard</string>
     <string name="xspace_default_guide_notification_content">Tryck för att ändra</string>
     <string name="xspace_default_guide_notification_main_title">Använd standardapp</string>
@@ -437,10 +445,12 @@ Se till att namnet på ditt företag är korrekt. Läs och godkänn Integritetsp
     <string name="install_error">Det gick inte att installera. Försök igen.</string>
     <string name="ent_install_dialog_content">Installera appar och starta om din enhet nu?</string>
     <string name="ent_disallow_running">Den här appen är förbjuden att köra</string>
-    <string name="greenguard_child_des_title">Jag behöver hjälp från mina vänner och familj</string>
-    <string name="greenguard_child_des">Använd vår app för att fortsätta vara ansluten</string>
-    <string name="greenguard_parent_des_title">Jag behöver hjälpa mina vänner och familj</string>
-    <string name="greenguard_parent_des">Ladda ner vår app och lägg till andra människors enheter</string>
+    <string name="greenguard_child_des_title">Scanna QR-kod för att lägga till enhet</string>
+    <string name="greenguard_child_des">Hantera enheterna för dina vänner och din familj</string>
+    <string name="greenguard_parent_des_title">Använd Kite Guard för att lägga till enheter</string>
+    <string name="greenguard_parent_des">Hantera enheterna för dina vänner och din familj</string>
+    <string name="greenguard_functional_description">"Fjärrhantera din enheter, få platsinformation,
+kontrollera installerade appar och begränsa användning"</string>
     <string name="cta_declaration_title">Villkor</string>
     <string name="cta_declaration_message_format" formatted="false">Du måste läsa och godkänna vår &lt;font color=%s>&lt;a href=%s>%s&lt;/a>&lt;/font> innan du använder företagsläge. Din enhet måste vara ansluten till Internet för att aktivera Företagsläge. Godkänn?</string>
     <string name="cta_declaration_agree_and_continue">Godkänn</string>
@@ -466,4 +476,5 @@ Se till att namnet på ditt företag är korrekt. Läs och godkänn Integritetsp
     <string name="master_clear_not_available">Fabriksåterställning är begränsad av ditt företag.</string>
     <string name="dual_animation">Visa animation</string>
     <string name="dual_animation_description">Visa animation när Dubbelappar startas</string>
+    <string name="can_not_switch_when_super_power_active">Kan inte växla mellan mellanslag när ultra-batterisparläge är på</string>
 </resources>

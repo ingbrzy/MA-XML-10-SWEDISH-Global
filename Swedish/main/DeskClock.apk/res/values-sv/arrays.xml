@@ -25,14 +25,14 @@
         <item>Anpassad</item>
     </string-array>
     <string-array name="alarm_set">
-        <item>Alarmet kommer aktiveras om mindre än 1 minut.</item>
-        <item>Alarmet kommer aktiveras om %1$s och .</item>
-        <item>Alarmet kommer aktiveras om %2$s.</item>
-        <item>Alarmet kommer aktiveras om %1$s och %2$s.</item>
-        <item>Alarmet kommer aktiveras om %3$s.</item>
-        <item>Alarmet kommer aktiveras om %1$s och %3$s.</item>
-        <item>Alarmet kommer aktiveras om %2$s och %3$s.</item>
-        <item>Alarmet kommer aktiveras om %1$s, %2$s, och %3$s från nu.</item>
+        <item>Larmet kommer utlösas om mindre än 1 minut.</item>
+        <item>Alarmet kommer att gå av om %1$s.</item>
+        <item>Alarmet kommer att gå av om %2$s.</item>
+        <item>Alarmet kommer att gå av om %1$s och %2$s.</item>
+        <item>Alarmet kommer att gå av om %3$s.</item>
+        <item>Alarmet kommer att gå av om %1$s och %3$s.</item>
+        <item>Alarmet kommer att gå av om %2$s och %3$s.</item>
+        <item>Alarmet kommer att gå av om %1$s %2$s och %3$s.</item>
     </string-array>
     <string-array name="aqi_value">
         <item>Bra</item>

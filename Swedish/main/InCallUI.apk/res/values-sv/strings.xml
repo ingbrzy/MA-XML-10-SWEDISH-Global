@@ -78,7 +78,6 @@
     <string name="respond_via_sms_custom_message">Anpassat SMS</string>
     <string name="manageConferenceLabel">Hantera konferenssamtal</string>
     <string name="emergency_call_dialog_number_for_display">Nödnummer</string>
-    <string name="volte_call">VoLTE-samtal</string>
     <string name="notification_dialing">Ringer</string>
     <string name="notification_ongoing_call">Pågående samtal</string>
     <string name="notification_on_hold">Parkerad</string>
@@ -128,14 +127,9 @@
     <string name="msim_select_default_time_left">(%d sekunder)</string>
     <string name="select_sim_hint">Kan inte använda SIM %2$d, samtidigt som SIM %1$d används.</string>
     <string name="select_one_sim_title">Kan endast använda SIM %1$d</string>
-    <string name="select_sim_hint_for_heduohao">"Can't use other, while SIM %1$d Sub %2$d is in use."</string>
-    <string name="select_one_sim_title_for_heduohao">Can only use SIM %1$d Sub %2$d</string>
     <string name="can_not_use">Kan inte använda</string>
     <string name="sim1_description">SIM1</string>
     <string name="sim2_description">SIM2</string>
-    <string name="sim1_heduohao_card">Sub1</string>
-    <string name="sim2_heduohao_card">Sub2</string>
-    <string name="sim3_heduohao_card">Sub3</string>
     <string name="call_description_recording">Spelar in…</string>
     <string name="call_recording_error_privacy">Kan inte spela in medans du är i Gästläge</string>
     <string name="call_recording_error_sd_access">Kan inte komma åt SD-kortet</string>
@@ -169,7 +163,6 @@
     <string name="onscreen_message_text">Meddelanden</string>
     <string name="onscreen_close_preview_camera">Stäng</string>
     <string name="upgrade_vt_prompt">Byt till videosamtal?</string>
-    <string name="incoming_answer_voice_text">Röstsvar</string>
     <string name="picking_participant">Hämtar kontaktinformation…</string>
     <string name="conference_caller_info_name">%1$ss konferenssamtal</string>
     <string name="video_conference_caller_info_name">%1$ss videokonferenssamtal</string>
@@ -191,8 +184,8 @@
     <string name="incoming_circle_text_reject">Släpp</string>
     <string name="incoming_circle_text_answer_p">Dra upp</string>
     <string name="incoming_circle_text_answer">Släpp</string>
-    <string name="incoming_circle_text_message_p">Dra upp</string>
-    <string name="incoming_circle_text_message">Släpp</string>
+    <string name="incoming_circle_text_video_answer_p">Svep uppåt för att svara med video</string>
+    <string name="incoming_circle_text_video_answer">Släpp för att svara med video</string>
     <string name="dialpad_zero">0</string>
     <string name="dialpad_one">1</string>
     <string name="dialpad_two">2</string>
@@ -206,4 +199,9 @@
     <string name="prompt_no_volte_when_failed">Kan inte ringa. Kontrollera att din enhet är ansluten till ett 4G-nätverk som stöder VoLTE.</string>
     <string name="volume_boost_text">Volymen ökad</string>
     <string name="supp_service_notification_call_waiting">Numret du har ringt är upptaget. Var god att vänta…</string>
+    <string name="incall_bubble_hangup_click_hint">Tryck igen för att återgå till samtal</string>
+    <string name="manager_conference_done">Klart</string>
+    <string name="incoming_answer_voice_text">Röstsvar</string>
+    <string name="incoming_circle_text_message_p">Dra upp</string>
+    <string name="incoming_circle_text_message">Släpp</string>
 </resources>

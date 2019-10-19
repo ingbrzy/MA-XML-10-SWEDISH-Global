@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="accessibility_calllog_detail">Detaljer för samtalshistoriken</string>
     <string name="accessibility_contact_detail">Kontaktdetaljer</string>
     <string name="account_container_title">Importerad från</string>
@@ -100,6 +101,7 @@
     <string name="call_sim_menu_title_suffix">(Primär)</string>
     <string name="call_telex">Ring telex</string>
     <string name="call_tty_tdd">Ring TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">Ring arbete</string>
     <string name="call_work_mobile">Ring jobbmobil</string>
@@ -133,6 +135,7 @@
     <string name="callrecordview_menu_delete_sim">Rensa samtalshistorik (%s)</string>
     <string name="callrecordview_menu_delete_stranger">Rensa okända nummer</string>
     <string name="callrecordview_menu_edit_call_note">Ändra samtals anteckning</string>
+    <string name="callrecordview_menu_identify_numbers">Identifiera telefonnummer</string>
     <string name="callrecordview_menu_ip">Automatisk IP uppringning</string>
     <string name="callrecordview_menu_livetalk">Fyll på paket</string>
     <string name="callrecordview_menu_misim">Mi SIM</string>
@@ -182,10 +185,10 @@
     <string name="cloud_antispam_marked">Flaggade</string>
     <string name="cloud_antispam_title">Nummerpresentation</string>
     <string name="cloud_recommend_msg">Tryck för att synkronisera kontakter med Mi Cloud.</string>
-    <string name="cloud_state_disabled">Synkronisera kontakter med Mi Cloud</string>
+    <string name="cloud_state_disabled">Synkronisera kontakter med molnet</string>
     <string name="cloud_state_loading">Vänta en stund…</string>
-    <string name="cloud_state_sync_finished">Synkroniserat med Mi Cloud</string>
-    <string name="cloud_state_syncing">Synkroniserat med Mi Cloud</string>
+    <string name="cloud_state_sync_finished">Synkroniserad med Mi Cloud</string>
+    <string name="cloud_state_syncing">Synkroniseras med molnet</string>
     <string name="combined_title_and_miprofile_swaped">%1$s, %2$s</string>
     <string name="combined_title_and_miprofile_swaped_huge_mode">"%1$s
 %2$s"</string>
@@ -212,6 +215,7 @@
     <string name="contact_detail_action_item_nocalllog">Ingen historik</string>
     <string name="contact_detail_calllog_call_note_tips">Anteckningar</string>
     <string name="contact_detail_calllog_call_record_tips">Inspelade samtal</string>
+    <string name="contact_detail_calllog_correct_yellow_page">Korrigera eller rapportera</string>
     <string name="contact_detail_calllog_empty">Ingen historik</string>
     <string name="contact_detail_entry_pay">Skicka pengar</string>
     <string name="contact_detail_entry_pay_dialog_title">Välj telefonnummer</string>
@@ -233,6 +237,7 @@ Kontaktkort är avstängda"</string>
     <string name="contact_detail_miprofile_save_success_toast">Tog emot kontaktkort</string>
     <string name="contact_detail_miprofile_settings_header">YTTERLIGARE INSTÄLLNINGAR</string>
     <string name="contact_detail_miprofile_subtitle">Har redan bytt kort</string>
+    <string name="contact_detail_more_calllog">Visa mer</string>
     <string name="contact_detail_profile_switch_fail_network_toast">Kan inte ansluta till nätverket</string>
     <string name="contact_detail_profile_switch_fail_toast">Något fel inträffade med vår server</string>
     <string name="contact_detail_profile_switch_off">Avaktivera kontaktkort</string>
@@ -253,6 +258,7 @@ Kontaktkort är avstängda"</string>
     <string name="contact_import_methods_dialog_bluetooth">Bluetooth</string>
     <string name="contact_import_methods_dialog_mi_mover">Mi Mover</string>
     <string name="contact_import_methods_dialog_title">Välj metod för att importera</string>
+    <string name="contact_is_deleted">Kontakten är borttagen</string>
     <string name="contact_is_readOnly">Kan inte redigera skrivskyddade kontakter</string>
     <string name="contact_list_loading">Laddar…</string>
     <string name="contact_pick_photo">Foto</string>
@@ -302,7 +308,7 @@ Kontaktkort är avstängda"</string>
     <string name="delete_dial_input">Ta bort</string>
     <string name="delete_duplicate">Slå ihop</string>
     <string name="delete_duplicate_message">"Slår ihop kontakter… "</string>
-    <string name="delete_group_dialog_message">Ta bort gruppen %1$s, kontakterna kommer inte att tas bort.</string>
+    <string name="delete_group_dialog_message">Ta bort \"%1$s\"? Kontakterna tas inte bort.</string>
     <string name="delete_group_dialog_title">Ta bort grupp</string>
     <string name="delete_selected_sim_entry_miui">Ta bort valda kontakter</string>
     <string name="delete_sim_entries_finish">Kontakter på SIM-kortet borttagna</string>
@@ -436,6 +442,8 @@ För undvika återkommande förfrågningar, uppdaterar vi information om ditt sa
     <string name="edit_contact">Redigera kontakt</string>
     <string name="edit_contact_card_title">Välj objekt att dela</string>
     <string name="edit_contact_photo">Redigera kontaktbild</string>
+    <string name="eight">8</string>
+    <string name="eight_letter">TUV</string>
     <string name="email">Skicka e-post</string>
     <string name="emailLabelsGroup">E-post</string>
     <string name="email_custom">Skicka e-post till %s</string>
@@ -487,9 +495,14 @@ Orsak: \"%s\""</string>
     <string name="favoritesFrequentContacted">Ofta kontaktade</string>
     <string name="favorites_list_empty">Inga favoriter</string>
     <string name="firewall_setting">Blockeringslista</string>
+    <string name="five">5</string>
+    <string name="five_letter">JKL</string>
     <string name="force_touch_miprofile">Kontaktkort</string>
     <string name="force_touch_new_contact">Ny kontakt</string>
+    <string name="four">4</string>
+    <string name="four_letter">GHI</string>
     <string name="frequentList">Frekvent</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Namn</string>
     <string name="gallery">Galleri</string>
     <string name="generic_no_account_prompt">Säkrar dina kontakter även om du tappar din telefon: synkronisera med en onlinetjänst.</string>
@@ -673,6 +686,7 @@ Orsak: \"%s\""</string>
     <string name="miprofile_contact_header">Kontakter med kontaktkort</string>
     <string name="miprofile_contact_meaasge">Lokala kontakter</string>
     <string name="miprofile_contact_verifying">Verifierar</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Redigera profil</string>
     <string name="miprofile_error_accept_self">Kan inte växla ditt eget kontaktkort</string>
     <string name="miprofile_error_no_miaccount">Logga in på ditt Mi Konto</string>
@@ -746,6 +760,8 @@ Orsak: \"%s\""</string>
     <string name="nickname_editor_title">Redigera smeknamn</string>
     <string name="nickname_picker_name_column">Kontaktnamn</string>
     <string name="nickname_picker_nickname_column">Titel</string>
+    <string name="nine">9</string>
+    <string name="nine_letter">WXYZ</string>
     <string name="noAccounts">För att skapa grupper så behöver du ha ett konto.</string>
     <string name="noContactHelpTextAccountsInfo" />
     <string name="noContactHelpTextImportXiaomiAccountInfo">Återställ kontaktinformation från Mi-konto</string>
@@ -782,6 +798,7 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="notification_action_voicemail_play">Spela</string>
     <string name="notification_new_voicemail_ticker">Ny röstmeddelande från %1$s</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
+    <string name="one">1</string>
     <string name="openDialKeyboard">Knappsats</string>
     <string name="open_contact">Visa kontakt</string>
     <string name="open_dial_pad_description">Öppna knappsats</string>
@@ -826,7 +843,10 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="path_wipe_data">Systemappar/Kontakter/Organisera kontakter/Rensa data</string>
     <string name="payphone">Betalnummer</string>
     <string name="people">Kontakter</string>
+    <string name="percent_sign">%</string>
+    <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">Telefon</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Numret är för långt</string>
     <string name="phone_primary">Primär</string>
     <string name="photoPickerNotFoundText">Inga bilder finns tillgängliga på enheten.</string>
@@ -857,6 +877,7 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="postal_postcode">Postkod</string>
     <string name="postal_region">Län</string>
     <string name="postal_street">Gata</string>
+    <string name="pound">\#</string>
     <string name="pref_key_photo">Foto</string>
     <string name="pref_key_photo_word_summary">Tilldela en bild automatiskt till kontakter som saknar en</string>
     <string name="pref_key_photo_word_title">Tilldela kontaktbilder</string>
@@ -986,6 +1007,7 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="scan_bussiness_card_merge_tip">Motstridiga data har ersatts</string>
     <string name="scan_duplicate_message">%1$d kontakter med identisk information</string>
     <string name="scan_merge">\"Söker efter duplicerade kontakter…\"</string>
+    <string name="scan_not_installed">Installera Scanner först</string>
     <string name="scan_qrcode_card_hint1">Skanna QR-koden ovan</string>
     <string name="scan_qrcode_card_hint2" />
     <string name="scanning_sdcard_failed_message">Orsak: \"%s\".</string>
@@ -1036,6 +1058,8 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="set_data_package">Ställ in dataplan först</string>
     <string name="set_default">Ange som standard</string>
     <string name="set_photo_failed_msg">Kunde inte tilldela bild</string>
+    <string name="seven">7</string>
+    <string name="seven_letter">PQRS</string>
     <string name="share_contact_as">Dela kontakt som</string>
     <string name="share_error">Denna kontakt kan inte delas</string>
     <string name="share_over_limit">Kan inte dela över 1000 kontakter</string>
@@ -1046,6 +1070,8 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="shortcutContact">Kontakt</string>
     <string name="shortcutDialContact">"Snabbuppringning "</string>
     <string name="shortcutMessageContact">Direktmeddelande</string>
+    <string name="shortcut_new_contact_label">Ny kontakt</string>
+    <string name="shortcut_scan_label">Skanna visitkort</string>
     <string name="showAllContactsJoinItem">Visa alla kontakter</string>
     <string name="simContacts_airplaneMode">För att importera kontakter från SIM-kortet, stäng av Flygplansläget</string>
     <string name="simContacts_empty">Inga kontakter på SIM-kortet</string>
@@ -1076,6 +1102,9 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="sim_unloaded">SIM-kortet är inte installerat</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Inga gruppmedlemmar</string>
+    <string name="six">6</string>
+    <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Företag</string>
     <string name="smart_group_company_unavailable">Ingen företagsinformation</string>
     <string name="smart_group_frequency_1">Inom den senaste månaden</string>
@@ -1115,6 +1144,8 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="special_code_security_exception">Kunde inte slutföra åtgärden. Detta är inte din standardknappsats.</string>
     <string name="splitConfirmation">Den här kontakten kommer att bli delad till flera kontakter.</string>
     <string name="splitConfirmation_title">Dela kontakter?</string>
+    <string name="star">*</string>
+    <string name="star_letter">,</string>
     <string name="starredList">Stjärnmarkerad</string>
     <string name="starred_contacts">Favoriter</string>
     <string name="status_available">Tillgänglig</string>
@@ -1134,6 +1165,8 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="t9_search_guide_zhuyin_title2">Ange \"5\" och \"6\" för att söka efter \"<font fgcolor="">J</font>ohan <font fgcolor="">M</font>artin\"</string>
     <string name="take_new_photo">Ta en ny bild</string>
     <string name="take_photo">Ta bild</string>
+    <string name="three">3</string>
+    <string name="three_letter">DEF</string>
     <string name="titleJoinContactDataWith">Slå ihop kontakter</string>
     <string name="title_other_devices">Övriga tillgängliga enheter</string>
     <string name="title_paired_devices">Parkopplade enheter</string>
@@ -1153,6 +1186,8 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="toast_text_copied">Kopierad</string>
     <string name="today">Idag</string>
     <string name="transfer_accounts">Överför konton</string>
+    <string name="two">2</string>
+    <string name="two_letter">ABC</string>
     <string name="type_incoming">Inkommande samtal</string>
     <string name="type_missed">Missat samtal</string>
     <string name="type_mx_msg">Mi Meddelande</string>
@@ -1210,9 +1245,11 @@ Välj en av följande alternativ:"</string>
     <string name="voip_audio_description">VoIP samtal</string>
     <string name="voip_video_description">VoIP video samtal</string>
     <string name="websiteLabelsGroup">Webbsida</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">Rensa data</string>
     <string name="yellowPageNavigationIconLabel">Gula Sidorna</string>
     <string name="yellowPageNavigationLabel">Gula Sidorna</string>
+    <string name="yellowpage_address_tag">Adress</string>
     <string name="yellowpage_fc_toast">Det går inte att använda den här funktionen eftersom Gula sidorna kraschade.</string>
     <string name="yellowpage_navigation_ad_hint">Reklam</string>
     <string name="yellowpage_navigation_balance_refresh_failed">Saldo och mobildata kunde inte verifieras, försök igen senare.</string>
@@ -1233,7 +1270,10 @@ Välj en av följande alternativ:"</string>
     <string name="yellowpage_navigation_send_to_desktop_downloading">Laddar ner…</string>
     <string name="yellowpage_navigation_send_to_desktop_failed">Kan inte ansluta till nätverket</string>
     <string name="yellowpage_navigation_send_to_desktop_succeeded">Tillagd på Hemskärmen</string>
+    <string name="yellowpage_provider_label">Data försedd av</string>
     <string name="yellowpage_search_the_yellowpage">Sök Gula sidorna</string>
     <string name="yellowpage_user_profile">Profil</string>
+    <string name="zero">0</string>
     <string name="zero_items_selected">Välj objekt</string>
+    <string name="zero_letter">+</string>
 </resources>

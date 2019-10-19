@@ -3,12 +3,12 @@
     <string-array name="aquarius_info">
         <item>aquarius</item>
         <item>Aquarius</item>
-        <item>1/20 - 2/18</item>
+        <item>20/1 - 18/2</item>
     </string-array>
     <string-array name="aries_info">
         <item>aries</item>
         <item>Väduren</item>
-        <item>3/21 - 4/19</item>
+        <item>21/3 - 19/4</item>
     </string-array>
     <string-array name="bundesliga">
         <item>2</item>
@@ -17,12 +17,12 @@
     <string-array name="cancer_info">
         <item>cancer</item>
         <item>Kräftan</item>
-        <item>6/22 - 7/22</item>
+        <item>22/6 - 22/7</item>
     </string-array>
     <string-array name="capricorn_info">
         <item>capricorn</item>
         <item>Capricorn</item>
-        <item>12/22 - 1/19</item>
+        <item>22/12 - 19/1</item>
     </string-array>
     <string-array name="change_response_labels">
         <item>Bara denna händelsen</item>
@@ -81,10 +81,14 @@
         <item>Denna och framtida händelser</item>
         <item>Alla händelser</item>
     </string-array>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
+    </string-array>
     <string-array name="gemini_info">
         <item>gemini</item>
         <item>Tvillingarna</item>
-        <item>5/21 - 6/21</item>
+        <item>21/5 - 21/6</item>
     </string-array>
     <string-array name="la_liga">
         <item>3</item>
@@ -93,21 +97,30 @@
     <string-array name="leo_info">
         <item>leo</item>
         <item>Lejonet</item>
-        <item>7/23 - 8/22</item>
+        <item>23/7 - 22/8</item>
     </string-array>
     <string-array name="libra_info">
         <item>libra</item>
         <item>Vågen</item>
-        <item>9/23 - 10/23</item>
+        <item>23/9 - 23/10</item>
     </string-array>
     <string-array name="ligue_1">
         <item>5</item>
         <item>Ligue 1</item>
     </string-array>
+    <string-array name="panchang_weeks">
+        <item>Söndag</item>
+        <item>Måndag</item>
+        <item>Tisdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>Fredag</item>
+        <item>Lördag</item>
+    </string-array>
     <string-array name="pisces_info">
         <item>pisces</item>
         <item>Pisces</item>
-        <item>2/19 - 3/20</item>
+        <item>19/2 - 20/3</item>
     </string-array>
     <string-array name="prefEntries_alerts_vibrateWhen">
         <item>Alltid</item>
@@ -204,6 +217,43 @@
         <item>månad</item>
         <item>år</item>
     </string-array>
+    <string-array name="repeat_monthly_on_day_count_values">
+        <item>första måndagen</item>
+        <item>första tisdagen</item>
+        <item>första onsdagen</item>
+        <item>första torsdagen</item>
+        <item>första fredagen</item>
+        <item>första lördagen</item>
+        <item>första söndagen</item>
+        <item>andra måndagen</item>
+        <item>andra tisdagen</item>
+        <item>andra onsdagen</item>
+        <item>andra torsdagen</item>
+        <item>andra fredagen</item>
+        <item>andra lördagen</item>
+        <item>andra söndagen</item>
+        <item>tredje måndagen</item>
+        <item>tredje tisdagen</item>
+        <item>tredje onsdagen</item>
+        <item>tredje torsdagen</item>
+        <item>tredje fredagen</item>
+        <item>tredje lördagen</item>
+        <item>tredje söndagen</item>
+        <item>fjärde måndagen</item>
+        <item>fjärde tisdagen</item>
+        <item>fjärde onsdagen</item>
+        <item>fjärde torsdagen</item>
+        <item>fjärde fredagen</item>
+        <item>fjärde lördagen</item>
+        <item>fjärde söndagen</item>
+        <item>sista måndagen</item>
+        <item>sista tisdagen</item>
+        <item>sista onsdagen</item>
+        <item>sista torsdagen</item>
+        <item>sista fredagen</item>
+        <item>sista lördagen</item>
+        <item>sista söndagen</item>
+    </string-array>
     <string-array name="response_labels1">
         <item>Inga svar</item>
         <item>Ja</item>
@@ -213,12 +263,12 @@
     <string-array name="sagittarius_info">
         <item>sagittarius</item>
         <item>Skytten</item>
-        <item>11/23 - 12/21</item>
+        <item>23/11 - 21/12</item>
     </string-array>
     <string-array name="scorpio_info">
         <item>scorpio</item>
         <item>Skorpionen</item>
-        <item>10/24 - 11/22</item>
+        <item>24/10 - 22/11</item>
     </string-array>
     <string-array name="serie_a">
         <item>1</item>
@@ -227,7 +277,7 @@
     <string-array name="taurus_info">
         <item>taurus</item>
         <item>Oxen</item>
-        <item>4/20 - 5/20</item>
+        <item>20/4 - 20/5</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Marshallöarna</item>
@@ -327,7 +377,7 @@
     <string-array name="virgo_info">
         <item>virgo</item>
         <item>Jungfrun</item>
-        <item>8/23 - 9/22</item>
+        <item>23/8 - 22/9</item>
     </string-array>
     <string-array name="week_header_name">
         <item>SÖN</item>
@@ -341,42 +391,5 @@
     <string-array name="widget_style_list">
         <item>Transparent</item>
         <item>Vit bakgrund</item>
-    </string-array>
-    <string-array name="repeat_monthly_on_day_count_values">
-        <item>första måndagen</item>
-        <item>första tisdagen</item>
-        <item>första onsdagen</item>
-        <item>första torsdagen</item>
-        <item>första fredagen</item>
-        <item>första lördagen</item>
-        <item>första söndagen</item>
-        <item>andra måndagen</item>
-        <item>andra tisdagen</item>
-        <item>andra onsdagen</item>
-        <item>andra torsdagen</item>
-        <item>andra fredagen</item>
-        <item>andra lördagen</item>
-        <item>andra söndagen</item>
-        <item>tredje måndagen</item>
-        <item>tredje tisdagen</item>
-        <item>tredje onsdagen</item>
-        <item>tredje torsdagen</item>
-        <item>tredje fredagen</item>
-        <item>tredje lördagen</item>
-        <item>tredje söndagen</item>
-        <item>fjärde måndagen</item>
-        <item>fjärde tisdagen</item>
-        <item>fjärde onsdagen</item>
-        <item>fjärde torsdagen</item>
-        <item>fjärde fredagen</item>
-        <item>fjärde lördagen</item>
-        <item>fjärde söndagen</item>
-        <item>sista måndagen</item>
-        <item>sista tisdagen</item>
-        <item>sista onsdagen</item>
-        <item>sista torsdagen</item>
-        <item>sista fredagen</item>
-        <item>sista lördagen</item>
-        <item>sista söndagen</item>
     </string-array>
 </resources>

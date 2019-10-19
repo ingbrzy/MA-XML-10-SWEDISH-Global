@@ -26,13 +26,16 @@ Se den valda tangentbords sekretesspolicyn."</string>
     <string name="other_settings_user_experience_summary_index">Visa detaljer</string>
     <string name="other_settings_upload_debug_log_title">Skicka data för diagnostik automatiskt</string>
     <string name="other_settings_upload_debug_log_summary">Användningsstatistik som hjälper oss att lokalisera och lösa problem kan innehålla personlig information</string>
-    <string name="other_settings_auto_update">Uppdatera automatiskt</string>
-    <string name="other_settings_auto_update_summary">MIUI väljer när det passar bäst att installera uppdateringar</string>
-    <string name="other_settings_ad_enable">Personlig reklam</string>
-    <string name="other_settings_ad_enable_summary">Få personlig reklam baserad på din användardata</string>
+    <string name="other_settings_auto_update">Automatiska systemuppdateringar</string>
+    <string name="other_settings_auto_update_summary">MIUI väljer den bästa tidpunkten för att ladda ner och installera uppdateringar. Din enhet startas automatiskt om för att applicera ändringar.</string>
+    <string name="other_settings_ad_enable">Anpassade annonser</string>
+    <string name="other_settings_ad_enable_summary">Anpassade annonser baserade på dina intressen</string>
+    <string name="other_settings_ad_disable_summary">Aktivera för att anpassa annonser</string>
+    <string name="other_settings_ad_dialog_content">När du har avaktiverat denna funktion kommer du inte längre att få anpassade annonser. Du kommer emellertid att få annonser som inte är relevanta för dina intressen. Du kan läsa mer om anpassade annonser i Xiaomis integritetspolicy. Avaktivera personliga annonser ändå?</string>
     <string name="other_settings_enhanced_lockscreen">Bakgrundsbildskarusell</string>
-    <string name="other_settings_enhanced_lockscreen_summary">Få anpassade bilder och berättelser levererade till din Låsskärm. Godkänn villkoren.</string>
-    <string name="other_settings_enhanced_lockscreen_summary_index">Villkor</string>
+    <string name="other_settings_enhanced_lockscreen_summary">Få handplockade bilder och berättelser levererade till din låsskärm dagligen. %1$s och %2$s</string>
+    <string name="other_settings_enhanced_lockscreen_summary_index">Licensavtal för slutanvändare</string>
+    <string name="other_settings_enhanced_lockscreen_privacy_index">Integritetspolicy</string>
     <string name="back">Tillbaka</string>
     <string name="next">Nästa</string>
     <string name="skip_underline">Hoppa över detta steg</string>
@@ -51,12 +54,17 @@ Se den valda tangentbords sekretesspolicyn."</string>
     <string name="terms_of_use_label">"Din integritet är väldigt viktig för oss. Läs våra användarvillkor och vår integritetspolicy för att förstå vilken information som vi samlar in, hur vi använder den och vilka alternativ som är tillgängliga för dig.
 
 Du måste godkänna våra användarvillkor och vår integritetspolicy innan du kan använda MIUI. %s och Mi-konto kommer ansluta till internet och finna din plats."</string>
-    <string name="terms_of_use_lable_apps">Mi tjänster, Mi SIM activation services, Mi Cloud, Hitta enhet, Hemskärm, Spelcenter, MAB, MIUI Daemon and MSA system components, översättningsappar, Snabbappar, Appvalv, statistik, Mi Link</string>
+    <string name="terms_of_use_lable_apps">Mi services, Mi SIM activation services, Xiaomi Cloud, Find device, Home screen, Games, MIUI Daemon, MSA system components, translation services, Quick apps, App vault, statistics, Mi Link</string>
+    <string name="terms_of_use_label_mab">, MAB</string>
+    <string name="terms_of_use_label_Mistore">, Mi Store system plug-in</string>
     <string name="terms_of_use_lable_gms">, Google Play services</string>
     <string name="terms_of_use_label_systemhelper">, Självregistrerande tjänst</string>
+    <string name="terms_of_use_ble_htmlViewer">, Sammansatt platsleverantör, HTMLViewer</string>
     <string name="terms_of_use_lable_smart_cards">, Smarta kort</string>
     <string name="terms_of_use_lable_vsimcore">, MConnService</string>
     <string name="terms_of_use_label_updater">, Uppdaterare</string>
+    <string name="terms_of_use_label_package">, Packageinstaller</string>
+    <string name="terms_of_use_label_phrase">, Frequent phrases</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 Du måste godkänna Facmoji's Integritetspolicy innan du använder denna funktion."</string>
@@ -88,7 +96,7 @@ Du måste godkänna Kika's Integritetspolicy innan du använder denna funktion."
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_international_fingerprint">Använd ditt fingeravtryck för att låsa upp enheten, eller logga in till appar och tjänster.</string>
     <string name="content_description_start">Starta</string>
-    <string name="start_up_slogan">Designad för helskärmsupplevelse</string>
+    <string name="start_up_slogan">Livet blir lättare</string>
     <string name="content_description_miui_version">MIUI 10</string>
     <string name="content_description_complete">Slutförd</string>
     <string name="language_picker_other_languages_title">Fler språk</string>
@@ -97,7 +105,7 @@ Du måste godkänna Kika's Integritetspolicy innan du använder denna funktion."
     <string name="font_hint_large">Standard textstorlek</string>
     <string name="navigation_picker_radio_text_full_screen">Helskärmsgester</string>
     <string name="navigation_picker_radio_text_virtual_key">Knappar</string>
-    <string name="congratulation_swipe">Svep för gå in i systemet</string>
+    <string name="congratulation_swipe">Svep uppåt för gå in i systemet</string>
     <string name="enable_accessibility_dialog_message">Du aktiverade TalkBack genom att trycka på skärmen med två fingrar i över 10 sekunder. TalkBack ger röståterkoppling med personer med nedsatt syn. Om du aktiverade det av misstag, tryck på Avbryt och dubbeltryck sedan på skärmen.</string>
     <string name="enable_accessibility_dialog_positive_btn">OK</string>
     <string name="enable_accessibility_dialog_negative_btn">Avbryt</string>

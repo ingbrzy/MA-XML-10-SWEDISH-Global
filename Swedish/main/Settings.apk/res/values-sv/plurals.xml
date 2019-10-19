@@ -156,6 +156,14 @@
         <item quantity="other">Lösenordet måste innehålla minst %d stora bokstäver</item>
         <item quantity="one">Lösenordet måste innehålla minst en stor bokstav</item>
     </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">Du kan skriva in upp till %d tecken</item>
+        <item quantity="one">Du kan skriva in upp till %d tecken</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">Ange minst %d tecken</item>
+        <item quantity="one">Ange minst %d tecken</item>
+    </plurals>
     <plurals name="lockpassword_pin_fixed_length">
         <item quantity="other">PIN måste vara %d siffror</item>
         <item quantity="one">PIN måste vara %d siffra</item>

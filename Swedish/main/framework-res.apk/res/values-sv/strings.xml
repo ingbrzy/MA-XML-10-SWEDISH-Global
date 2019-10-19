@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Obs!</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Videon kan tyvärr inte spelas upp i den här enheten.</string>
     <string name="selectTextMode">Markera text</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Ikon för fingeravtryck</string>
     <string name="paste_as_plain_text">Klistra in som oformaterad text</string>
     <string name="autofill">Autofyll</string>
@@ -386,6 +387,7 @@ Kontakta organisationens administratör om du har några frågor."</string>
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Funktionskoden är fullständig.</string>
     <string name="fcError">Anslutningsproblem eller ogiltig funktionskod.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Sök efter</string>
     <string name="find_next">Sök nästa</string>
     <string name="find_on_page">Sök på sidan</string>
@@ -591,6 +593,7 @@ Besök "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_reordering_delete_drop_target_text">Ta bort</string>
     <string name="kg_sim_pin_instructions">Ange PIN-kod för SIM-kortet</string>
     <string name="kg_sim_unlock_progress_dialog_message">Låser upp SIM-kort …</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Du har angett fel lösenord %1$d gånger. 
 
 Försök igen om %2$d sekunder."</string>
@@ -883,6 +886,7 @@ Försök igen om %2$d sekunder."</string>
     <string name="notification_channel_wfc">Wi-Fi-samtal</string>
     <string name="notification_hidden_text">Ny avisering</string>
     <string name="notification_listener_binding_label">Meddelandelyssnare</string>
+    <string name="notification_messaging_title_template">%1$s: %2$s</string>
     <string name="notification_ranker_binding_label">Rankningstjänst för aviseringar</string>
     <string name="notification_reply_button_accessibility">Svara</string>
     <string name="notification_title">Inloggningsfel för %1$s</string>
@@ -995,8 +999,8 @@ Försök igen om %2$d sekunder."</string>
     <string name="permdesc_requestInstallPackages">Tillåter att en app begär paketinstallation.</string>
     <string name="permdesc_route_media_output">Tillåter att appen omdirigerar medieuppspelningar till andra externa enheter.</string>
     <string name="permdesc_runInBackground">Appen kan köras i bakgrunden. Det kan minska batteritiden.</string>
-    <string name="permdesc_sdcardRead">Tillåter att appen läser innehållet på SD-kortet.</string>
-    <string name="permdesc_sdcardWrite">Tillåter att appen skriver till SD-kortet.</string>
+    <string name="permdesc_sdcardRead">Låter appen läsa USB-innehåll.</string>
+    <string name="permdesc_sdcardWrite">Gör att app skriver till USB.</string>
     <string name="permdesc_sendSms">Tillåter att appen skickar SMS. Detta kan leda till oväntade avgifter. Skadliga appar kan skicka meddelanden utan ditt godkännande vilket kan kosta pengar.</string>
     <string name="permdesc_setAlarm">Tillåter att appen ställer in ett alarm i en befintlig alarmapp. Vissa alarmappar har inte den här funktionen.</string>
     <string name="permdesc_setInputCalibration">Tillåter att appen ändrar kalibreringsparametrarna för pekskärmen. Detta behövs aldrig för vanliga appar.</string>
@@ -1043,16 +1047,16 @@ Försök igen om %2$d sekunder."</string>
     <string name="permgrouplab_sensors">Kroppssensorer</string>
     <string name="permgrouplab_sms">Sms</string>
     <string name="permgrouplab_storage">Lagring</string>
-    <string name="permgrouprequest_calendar">Vill du ge &lt;b>%1$s&lt;/b> åtkomstbehörighet till din kalender?</string>
+    <string name="permgrouprequest_calendar">Vill du ge &lt;b>%1$s&lt;/b> åtkomst till din kalender?</string>
     <string name="permgrouprequest_calllog">Vill du ge &lt;b>%1$s&lt;/b> åtkomst till samtalsloggarna?</string>
     <string name="permgrouprequest_camera">Vill du ge &lt;b>%1$s&lt;/b> behörighet att ta bilder och spela in video?</string>
-    <string name="permgrouprequest_contacts">Vill du ge &lt;b>%1$s&lt;/b> åtkomstbehörighet till dina kontakter?</string>
-    <string name="permgrouprequest_location">Vill du ge &lt;b>%1$s&lt;/b> åtkomstbehörighet till enhetens plats?</string>
+    <string name="permgrouprequest_contacts">Vill du ge &lt;b>%1$s&lt;/b> åtkomst till dina kontakter?</string>
+    <string name="permgrouprequest_location">Vill du ge &lt;b>%1$s&lt;/b> åtkomst till enhetens plats?</string>
     <string name="permgrouprequest_microphone">Vill du ge &lt;b>%1$s&lt;/b> behörighet att spela in ljud?</string>
     <string name="permgrouprequest_phone">Vill du ge &lt;b>%1$s&lt;/b> behörighet att ringa och hantera telefonsamtal?</string>
-    <string name="permgrouprequest_sensors">Vill du ge &lt;b>%1$s&lt;/b> åtkomstbehörighet till sensordata om vitalparametrar?</string>
+    <string name="permgrouprequest_sensors">Vill du ge &lt;b>%1$s&lt;/b> åtkomst till sensordata om vitalparametrar?</string>
     <string name="permgrouprequest_sms">Vill du ge &lt;b>%1$s&lt;/b> behörighet att skicka och visa sms?</string>
-    <string name="permgrouprequest_storage">Vill du ge &lt;b>%1$s&lt;/b> åtkomstbehörighet till foton, mediafiler och andra filer på enheten?</string>
+    <string name="permgrouprequest_storage">Vill du ge &lt;b>%1$s&lt;/b> åtkomst till foton, mediefiler och andra filer på enheten?</string>
     <string name="permission_request_notification_title">Begärd behörighet</string>
     <string name="permission_request_notification_with_subtitle">"Begärd behörighet
 för kontot %s."</string>
@@ -1137,8 +1141,8 @@ för kontot %s."</string>
     <string name="permlab_requestInstallPackages">begära installationspaket</string>
     <string name="permlab_route_media_output">dirigera medieuppspelning</string>
     <string name="permlab_runInBackground">kör i bakgrunden</string>
-    <string name="permlab_sdcardRead">läsa innehållet på SD-kortet</string>
-    <string name="permlab_sdcardWrite">ändra eller ta bort innehåll på SD-kortet</string>
+    <string name="permlab_sdcardRead">läsa innehåll på USB-enheten</string>
+    <string name="permlab_sdcardWrite">ändra eller ta bort innehåll på USB-enheten</string>
     <string name="permlab_sendSms">skicka och visa sms</string>
     <string name="permlab_setAlarm">ställa in ett alarm</string>
     <string name="permlab_setInputCalibration">ändra kalibreringen för inmatningsenheten</string>
@@ -1229,7 +1233,7 @@ för kontot %s."</string>
     <string name="printing_disabled_by">Utskrift har inaktiverats av %s.</string>
     <string name="profile_encrypted_detail">Jobbprofilen är låst</string>
     <string name="profile_encrypted_message">Tryck och lås upp jobbprofilen</string>
-    <string name="progress_erasing">Raderar SD-kort ...</string>
+    <string name="progress_erasing">Raderar USB-lagring ...</string>
     <string name="quick_contacts_not_available">Ingen app för att visa den här kontakten hittades.</string>
     <string name="reason_service_unavailable">Utskriftstjänsten har inte aktiverats</string>
     <string name="reason_unknown">okänt</string>
@@ -1580,6 +1584,9 @@ Vill du stänga sidan?"</string>
     <string name="wifi_p2p_show_pin_message">PIN-kod:</string>
     <string name="wifi_p2p_to_message">Till:</string>
     <string name="wifi_p2p_turnon_message">Starta direkt Wi-Fi-användning. Detta inaktiverar Wi-Fi-användning med klient/surfzon.</string>
+    <string name="wifi_softap_config_change">Ändringar i inställningarna för surfzon</string>
+    <string name="wifi_softap_config_change_detailed">Den här enheten har inte stöd för inställningen för att endast använda 5 GHz. I stället används 5 GHz när det är möjligt.</string>
+    <string name="wifi_softap_config_change_summary">Frekvensbandet för surfzonen har ändrats.</string>
     <string name="wifi_wakeup_enabled_content">Du är i närheten av ett sparat nätverk: %1$s</string>
     <string name="wifi_wakeup_enabled_title">Wi-Fi aktiverades automatiskt</string>
     <string name="wifi_wakeup_onboarding_action_disable">Återaktivera inte</string>
@@ -1608,6 +1615,7 @@ Vill du stänga sidan?"</string>
     <string name="zen_mode_feature_name">Stör ej</string>
     <string name="zen_mode_forever">Tills du stänger av</string>
     <string name="zen_mode_forever_dnd">Tills du inaktiverar Stör ej</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">Till kl. %1$s</string>
     <string name="zen_upgrade_notification_content">Tryck om du vill se vad som blockeras.</string>
     <string name="zen_upgrade_notification_title">Stör ej har ändrats</string>

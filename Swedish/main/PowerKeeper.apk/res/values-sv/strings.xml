@@ -57,7 +57,7 @@
     <string name="config_restrict_function_title">Begränsa bakgrundsappar</string>
     <string name="config_restrict_running_title">Begränsa bakgrundsaktivitet</string>
     <string name="config_restrict_running_warning">Appar i bakgrunden kommer stängas. Detta kan göra att de inte fungerar normalt.</string>
-    <string name="config_description">MIUI kan identifiera appar med specifika bakgrundsprocesser (meddelanden och navigationsappar, mediaspelare), och tillämpa Batterisparare på ett sätt som inte kommer påverka viktiga bakgrundsaktiviteter.</string>
+    <string name="config_description">MIUI kan identifiera appar med specifika bakgrundsprocesser (Meddelanden och navigationsappar, mediaspelare), och tillämpa Batterisparare på ett sätt som inte kommer påverka viktiga bakgrundsaktiviteter.</string>
     <string name="config_suggest_description">"Identifiera appar och aktiviteter för att hålla viktiga processer igång.
 Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="config_no_restrict_description">Batterisparfunktionen begränsar inte appaktivitet</string>

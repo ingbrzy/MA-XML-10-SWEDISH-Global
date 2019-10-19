@@ -19,104 +19,104 @@
         <item>Lagringsutrymme</item>
     </string-array>
     <string-array name="settings_search_contacts">
-        <item>Synkronisera kontakter med Mi Cloud</item>
+        <item>Synkronisera kontakter med Xiaomi Cloud</item>
         <item>Aktivera/konfigurera synkronisering</item>
-        <item>Kontakter;Samtalshistorik;Cloud;Synkronisera;Molntjänster;Mi Cloud</item>
+        <item>Kontakter;Samtalshistorik;Cloud;Synkronisera;Molntjänster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_sms">
-        <item>Synkronisera meddelande med Mi Cloud</item>
+        <item>Synkronisera meddelanden med Xiaomi Cloud</item>
         <item>Aktivera/konfigurera synkronisering</item>
-        <item>Meddelanden;SMS;MMS;Cloud;Molntjänster;Mi Cloud</item>
+        <item>Meddelanden;SMS;MMS;Cloud;Molntjänster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_gallery">
-        <item>Synkronisera Galleri med Mi Cloud</item>
+        <item>Synkronisera Galleri med Xiaomi Cloud</item>
         <item>Aktivera/konfigurera synkronisering</item>
-        <item>Galleri;Bilder;Cloud;Synkronisera;Molntjänster;Mi Cloud</item>
+        <item>Galleri;Bilder;Moln;Synkronisera;Molntjänster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_dial">
-        <item>Synkronisera samtalshistorik med Mi Cloud</item>
+        <item>Synkronisera samtalshistorik med Xiaomi Cloud</item>
         <item>Aktivera/konfigurera synkronisering</item>
-        <item>Samtalshistorik;Cloud;Synkronisera;Molntjänster;Mi Cloud</item>
+        <item>Samtalshistorik;Moln;Synkronisera;Molntjänster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_recorder">
-        <item>Synkronisera inspelningar med Mi Cloud</item>
+        <item>Synkronisera inspelningar med Xiaomi Cloud</item>
         <item>Aktivera/konfigurera synkronisering</item>
-        <item>Inspelare;Cloud;Synkronisera;Molntjänster;Mi Cloud</item>
+        <item>Inspelare;Moln;Synkronisera;Molntjänster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_music">
-        <item>Synkronisera musik med Mi Cloud</item>
+        <item>Synkronisera musik med Xiaomi Cloud</item>
         <item>Aktivera synkronisering</item>
-        <item>Musik;Cloud;Synkronisera;Molntjänster;Mi Cloud</item>
+        <item>Musik;Moln;Synkronisera;Molntjänster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_notes">
-        <item>Synkronisera anteckningar med Mi Cloud</item>
+        <item>Synkronisera noteringar med Xiaomi Cloud</item>
         <item>Aktivera synkronisering</item>
-        <item>Anteckningar;Cloud;Synkronisera;Molntjänster;Mi Cloud</item>
+        <item>Noteringar;Moln;Synkronisera;Molntjänster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_wlan">
-        <item>Synkronisera Wi-Fi-inställningar med Mi Cloud</item>
+        <item>Synkronisera Wi-Fi-inställningar med Xiaomi Cloud</item>
         <item>Aktivera synkronisering</item>
-        <item>WLAN;Wi-Fi;wifi;Cloud;Synkronisera;Molntjänster;Mi Cloud</item>
+        <item>WLAN;Wi-Fi;wifi;Moln;Synkronisera;Molntjänster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_calendar">
-        <item>Synkronisera Kalender med Mi Cloud</item>
+        <item>Synkronisera Kalender med Xiaomi Cloud</item>
         <item>Aktivera synkronisering</item>
-        <item>Kalender;Cloud;Synkronisera;Molntjänster;Mi Cloud</item>
+        <item>Kalender;Moln;Synkronisera;Molntjänster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_browser">
-        <item>Synkronisera Webbläsare med Mi Cloud</item>
+        <item>Synkronisera Webbläsare med Xiaomi Cloud</item>
         <item>Aktivera synkronisering</item>
-        <item>Webbläsare;Cloud;Synkronisera;Molntjänster;Mi Cloud</item>
+        <item>Webbläsare;Moln;Synkronisera;Molntjänster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_security">
-        <item>Synkronisera Säkerhet med Mi Cloud</item>
+        <item>Synkronisera Säkerhet med Xiaomi Cloud</item>
         <item>Aktivera synkronisering</item>
-        <item>Säkerhet;Cloud;Synkronisera;Molntjänster;Mi Cloud</item>
+        <item>Säkerhet;Moln;Synkronisera;Molntjänster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_personal_assistant">
-        <item>Synkronisera App vault med Mi Cloud</item>
+        <item>Synkronisera App vault med Xiaomi Cloud</item>
         <item>Aktivera synkronisering</item>
-        <item>App vault;Kort;Cloud;Synkronisera;Molntjänster;Mi Cloud</item>
+        <item>App vault;Kort;Moln;Synkronisera;Molntjänster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_sync_manage">
-        <item>Mi Cloud. Alla tjänster på en plats.</item>
+        <item>Xiaomi Cloud. Alla tjänster på en plats.</item>
         <item>Få tillgång till dina bilder, kontakter, meddelanden och enheter överallt</item>
-        <item>Otillräckligt lagringsutrymme;Medlemskap;Lagringsutrymme;Cloud;Synkronisera;Molntjänster;Mi Cloud;Papperskorg;Borttagna objekt;Säkerhet</item>
+        <item>Otillräckligt lagringsutrymme;Medlemskap;Lagringsutrymme;Moln;Synkronisera;Molntjänster;Xiaomi Cloud;Papperskorg;Borttagna objekt;Säkerhet</item>
     </string-array>
     <string-array name="settings_search_find_phone">
         <item>Hitta enhet</item>
         <item>Radera data och lås din enhet om den är försvunnen</item>
-        <item>Hitta enhet;Försvunnen;Cloud;Synkronisera;Molntjänster;Mi Cloud</item>
+        <item>Hitta enhet;Försvunnen;Moln;Synkronisera;Molntjänster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_find_pad">
         <item>Hitta enhet</item>
         <item>Radera data och lås din enhet om den är försvunnen</item>
-        <item>Hitta enhet;Försvunnen;Cloud;Synkronisera;Molntjänster;Mi Cloud</item>
+        <item>Hitta enhet;Försvunnen;Moln;Synkronisera;Molntjänster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_recycle_bin">
-        <item>Borttagna objekt i Mi Cloud</item>
+        <item>Borttagna objekt i Xiaomi Cloud</item>
         <item>Återställ kontakter, bilder, meddelanden och mer</item>
-        <item>Papperskorg;Borttagna objekt;Återställ;Molntjänster;Mi Cloud</item>
+        <item>Papperskorg;Borttagna objekt;Återställ;Molntjänster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_subscribe_vip">
-        <item>Medlemskap Mi Cloud</item>
+        <item>Köp Xiaomi Cloud medlemskap</item>
         <item>Uppgradera ditt medlemskap och få mer lagringsutrymme och säkra din data</item>
-        <item>Otillräckligt lagringsutrymme;Medlemskap;Lagringsutrymme;Cloud;Synkronisera;Molntjänster;Mega;Ultra;VIP;Säkerhetskopiera;Säkerhetskopiering;Återställ;Papperskorg;Borttagna objekt</item>
+        <item>Otillräckligt lagringsutrymme;Medlemskap;Lagringsutrymme;Moln;Synkronisera;Molntjänster;Xiaomi Cloud;Mega;Ultra;VIP;Säkerhetskopiera;Säkerhetskopiering;Återställ;Papperskorg;Borttagna objekt</item>
     </string-array>
     <string-array name="settings_search_backup_setting">
-        <item>Säkerhetskopiera Hemskärmen till Mi Cloud</item>
+        <item>Säkerhetskopiera Hemskärmen till Xiaomi Cloud</item>
         <item>Säkerhetskopiera Hemskärmens utseende, lista alla appar och systeminställningar</item>
-        <item>Cloud;Säkerhetskopiera;Backup;Molntjänster;Mi Cloud;Hemskärm;Utseende;Appar;Inställningar;Säkerhetskopieringsfrekvens;Hantera säkerhetskopior;Återställ</item>
+        <item>Moln;Säkerhetskopiera;Uppbackning;Molntjänster;Xiaomi Cloud;Hemskärm;Utseende;Appar;Inställningar;Säkerhetskopieringsfrekvens;Hantera säkerhetskopior;Återställ</item>
     </string-array>
     <string-array name="settings_search_backup_manage">
         <item>Säkerhetskopior</item>
         <item>Säkerhetskopierade objekt</item>
-        <item>Cloud;Säkerhetskopiera;Backup;Molntjänster;Mi Cloud;Hemskärm;Utseende;Appar;Hantera säkerhetskopior;Återställ</item>
+        <item>Moln;Säkerhetskopiera;Backup;Molntjänster;Xiaomi Cloud;Hemskärm;Utseende;Appar;Hantera säkerhetskopior;Återställ</item>
     </string-array>
     <string-array name="settings_search_restore_device">
-        <item>Återställ objekt från Mi Cloud</item>
+        <item>Återställ objekt från Xiaomi Cloud</item>
         <item>Ladda ner säkerhetskopierade objekt på din enhet</item>
-        <item>Cloud;Säkerhetskopiera;Backup;Återställ;Molntjänster;Mi Cloud</item>
+        <item>Moln;Säkerhetskopiera;Uppbackning;Återställ;Molntjänster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="micloud_entrance_titleArray">
         <item>Synkronisera appdata</item>

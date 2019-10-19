@@ -32,9 +32,25 @@
         <item quantity="other">%d sekunder</item>
         <item quantity="one">%d sekund</item>
     </plurals>
+    <plurals name="snooze_duration_changed_info">
+        <item quantity="other">Ändrade snoozeintervallet till %d minuter</item>
+        <item quantity="one">Ändrade snoozeintervallet till %d minut</item>
+    </plurals>
+    <plurals name="snooze_duration_count">
+        <item quantity="other">Gå av %1$s gånger</item>
+        <item quantity="one">Gå av %1$s gång</item>
+    </plurals>
+    <plurals name="snooze_duration_desc">
+        <item quantity="other">Var %1$s min, gå av %2$s gånger</item>
+        <item quantity="one">Var %1$s min, gå av %2$s gång</item>
+    </plurals>
+    <plurals name="snooze_duration_min">
+        <item quantity="other">Var %1$s minut</item>
+        <item quantity="one">Var %1$s minut</item>
+    </plurals>
     <plurals name="snooze_duration_summary">
-        <item quantity="other">Alarmet aktiveras %2$s gånger (%1$s min. varje gång)</item>
-        <item quantity="one">Alarmet aktiveras %2$s gång (%1$s min)</item>
+        <item quantity="other">Larmet utlöses %2$s gånger (%1$s min. varje gång)</item>
+        <item quantity="one">Larmet utlöses %2$s gång (%1$s min)</item>
     </plurals>
     <plurals name="snooze_message">
         <item quantity="other">Snooza i %d minuter</item>

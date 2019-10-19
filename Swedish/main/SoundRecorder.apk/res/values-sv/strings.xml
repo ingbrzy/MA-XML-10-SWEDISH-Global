@@ -2,7 +2,7 @@
 <resources>
     <string name="alert_message_clear_records">Ta bort markerade inspelningar?</string>
     <string name="alert_message_delete_local_record">Ta bort denna inspelning?</string>
-    <string name="alert_message_delete_record">Om inspelningen tas bort från enheten kommer också att tas bort denna inspelning från Mi Cloud. Ta bort nu?</string>
+    <string name="alert_message_delete_record">Om inspelningen tas bort från enheten kommer också att tas bort denna inspelning från Xiaomi Cloud. Ta bort nu?</string>
     <string name="alert_message_delete_record_title">Ta bort inspelning?</string>
     <string name="app_name">Diktafon</string>
     <string name="back">Tillbaka</string>
@@ -14,12 +14,12 @@
     <string name="call_record_list_group_unconnected">Inte ansluten</string>
     <string name="clear_records">Radera synkroniserade inspelningar</string>
     <string name="cloud_record_open">Synkronisera inspelningar</string>
-    <string name="cloud_record_tip">Synkronisera inspelningar med Mi Cloud.</string>
-    <string name="cloud_service_state_open_reminder">Aktivera Synkronisera med Mi molnet att synkronisera inspelningar.</string>
+    <string name="cloud_record_tip">Synkronisera inspelningar med Xiaomi Cloud.</string>
+    <string name="cloud_service_state_open_reminder">Slå på synkronisering med molnet för att synkronisera inspelningar.</string>
     <string name="cloud_status_full_dialog_cancel">Inte nu</string>
     <string name="cloud_status_full_dialog_msg">Din molnlagring är full, kan inte synkronisera inspelningar. Uppgradera ditt konto för att få mer utrymme.</string>
     <string name="cloud_status_full_dialog_ok">Uppgradera</string>
-    <string name="cloud_status_full_dialog_title">Mi molnlagring är full</string>
+    <string name="cloud_status_full_dialog_title">Xiaomi molnlagring är full</string>
     <string name="data_connection_body">Användning av mobildata för att ladda ned den här filen ökar din dataanvändning. Om du överskrider ditt abonnemangs gräns kan du bli debiterad extra för detta.</string>
     <string name="data_connection_button_text">OK</string>
     <string name="data_connection_title">Varning för dataanvändning</string>
@@ -28,7 +28,7 @@
     <string name="deleting_message">Tar bort…</string>
     <string name="details">Detaljer</string>
     <string name="dialog_content_storage_full">Inspelning stoppad eftersom det inte finns tillräckligt med lagringsutrymme på din enhet.</string>
-    <string name="dialog_privacy_revoke_tips">När du upphävt befogenheterna kommer appen sluta samla in data och alla relaterad data kommer tas bort från servrarna. Detta kan komma att göra appen instabil. Upphäva befogenheterna ändå? För att säkerställa ditt kontos styrka, logga in på i.mi.com innan du upphäver befogenheter för tjänsten för Mi Cloud.</string>
+    <string name="dialog_privacy_revoke_tips">När du upphävt befogenheterna kommer appen sluta samla in data och alla relaterade data tas bort från servrarna. Detta kan göra appen instabil. Upphäva befogenheterna ändå? För att säkerställa säkerheten på ditt konto, logga in på i.mi.com innan du upphäver befogenheter för Xiaomi Cloud-tjänsterna.</string>
     <string name="dialog_title_storage_full">Inte tillräckligt med utrymme</string>
     <string name="download">Ladda ned</string>
     <string name="duration_format_hour">%sh</string>
@@ -180,7 +180,7 @@
     <string name="recognize_extra_price_desp">(exklusivt erbjudande för Mi-användare)</string>
     <string name="record">Spela in</string>
     <string name="record_back_pressed_hint">För att stoppa inspelninge, tryck Bakåt igen</string>
-    <string name="record_download">Ladda ned från Mi Cloud</string>
+    <string name="record_download">Ladda ned från Xiaomi Cloud</string>
     <string name="record_download_complete">Nedladdat</string>
     <string name="record_download_msg">Inspelningar kan endast spelas upp efter att de har laddats ned.</string>
     <string name="record_download_msg_reload">Inspelningen finns inte.</string>
@@ -245,7 +245,9 @@
     <string name="status_bar_back">Tryck för att återgå till Recorder</string>
     <string name="status_bar_recording">Inspelning…</string>
     <string name="status_bar_recording_pause">Recorder pausad</string>
+    <string name="text_btn_backward_3_seconds">3 sekunder bakåt</string>
     <string name="text_btn_complete">Stoppa</string>
+    <string name="text_btn_forward_3_seconds">3 sekunder framåt</string>
     <string name="text_btn_list">Inspelningar</string>
     <string name="text_btn_mark">Markera</string>
     <string name="text_btn_pause">Pausa</string>
@@ -255,11 +257,16 @@
     <string name="text_btn_recording">Spela in</string>
     <string name="text_btn_wave">Våg</string>
     <string name="text_finish">Bekräfta</string>
+    <string name="text_play_speed_0_5">0,5X uppspelningshastighet</string>
+    <string name="text_play_speed_1_0">Normal uppspelningshastighet</string>
+    <string name="text_play_speed_1_5">1,5X uppspelningshastighet</string>
+    <string name="text_play_speed_2_0">2X uppspelningshastighet</string>
     <string name="timer_format" formatted="false">%02d:%02d</string>
     <string name="timer_format_three_sections" formatted="false">%02d:%02d:%02d</string>
     <string name="title_activity_recinbox_sdk_browser">RecinboxSdkBrowser</string>
     <string name="toast_max_record_time">%1$s kan spela in för ca %2$s</string>
     <string name="toast_uninstall_fileexplorer">Utforskaren är inte installerad</string>
+    <string name="usage_description">Transkribera ljud och synkronisera objekt med molnet</string>
     <string name="webview_check_network">Nätverksinställningar</string>
     <string name="webview_data_error">Ett fel uppstod</string>
     <string name="webview_locating_fail">Kunde inte hitta din plats</string>

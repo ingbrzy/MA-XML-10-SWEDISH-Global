@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fast_connect_headset_reset">
+        <item quantity="other">Tryck och håll ner knappen på lådan i %1$d sekunder</item>
+        <item quantity="one">Tryck och håll ner knappen på lådan i %1$d sekund</item>
+    </plurals>
+</resources>

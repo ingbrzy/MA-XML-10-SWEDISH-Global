@@ -26,8 +26,8 @@
     <string name="cert_too_large_error">Det gick inte att installera eftersom certifikatet är för stort.</string>
     <string name="cert_missing_error">Det gick inte att installera eftersom certifikatfilen inte hittades.</string>
     <string name="cert_read_error">Det gick inte att installera eftersom certifikatfilen inte kunde läsas.</string>
-    <string name="no_cert_file_found">Det finns ingen certifikatfil på SD-kortet.</string>
-    <string name="sdcard_not_present">Det finns inget SD-kort.</string>
+    <string name="no_cert_file_found">Ingen certifikatfil hittades på USB-lagringsenheten.</string>
+    <string name="sdcard_not_present">USB-enheten är ej tillgänglig.</string>
     <string name="only_primary_user_allowed">Endast ägaren av den här enheten kan installera certifikat.</string>
     <string name="credential_usage_label">Användning av användaruppgifter:</string>
     <string name="certificate_capabilities_warning">Obs! Certifikatets utfärdare kan granska all trafik till och från enheten.</string>
