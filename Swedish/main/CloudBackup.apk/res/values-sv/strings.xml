@@ -50,8 +50,6 @@ Note: Informationen från de appar du har installerat säkerhetskopieras inte ti
     <string name="self_device_second_space">Telefonens Sekundära utrymme</string>
     <string name="other_device_main_space">Primära utrymmet</string>
     <string name="other_device_second_space">Sekundära utrymmet</string>
-    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
-    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Återställer \"%s\"</string>
     <string name="size_unknown">Okänd storlek</string>
     <string name="recovering">Återställer %s</string>
@@ -135,7 +133,6 @@ Note: Informationen från de appar du har installerat säkerhetskopieras inte ti
     <string name="provision_error_connect_msg">Testa nätverket och försök igen. Säkerhetskopior är inte tillgängliga när enheten är offline.</string>
     <string name="provision_error_connect_title">Kan inte ansluta</string>
     <string name="loading_user_backup">Laddar säkerhetskopia…</string>
-    <string name="loading_progress_num">(%s%%)</string>
     <string name="error_num_placeholder">--</string>
     <string name="doing_calc_backup_data_size">Beräknar storlek…</string>
     <string name="authentication_failed">Kunde inte verifiera konto.</string>

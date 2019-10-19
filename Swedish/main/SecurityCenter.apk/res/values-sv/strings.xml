@@ -19,9 +19,7 @@
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
-    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Ljud</string>
@@ -469,7 +467,6 @@ ska svara"</string>
     <string name="not_limited_brand">Obegränsat</string>
     <string name="pref_about_traffic_title">Inställningar för mobildataanvändning</string>
     <string name="pref_traffic_manage_title">Dataanvändning</string>
-    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Mobildataabonnemang</string>
     <string name="pref_adjust_traffic_data">Ange datagräns</string>
     <string name="pref_category_title_other">Ytterligare inställningar</string>
@@ -1021,7 +1018,6 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="usage_type_data_send">Mobildata skickad</string>
     <string name="usage_type_no_coverage">Tid utan signal</string>
     <string name="usage_type_gps">GPS</string>
-    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="power_screen">Skärm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1246,17 +1242,12 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="power_center_list_item_auto_brightness">Justera skärmens ljusstyrka automatiskt</string>
     <string name="power_center_list_item_deep_save_title">Avancerade inställningar</string>
     <string name="power_center_list_item_battery_status_time">h</string>
-    <string name="power_center_list_item_battery_status_temperature">℃</string>
-    <string name="power_center_list_item_battery_status_capacity">mAh</string>
     <string name="power_center_stop_scan_title">Avbryt skanning</string>
     <string name="hide_mode_result_summary_text">Anpassa Batterispararens inställningar för enskilda appar</string>
     <string name="auto_task_result_summary_text">Konfigurera automatiska uppgifter för Batterispararen</string>
     <string name="pc_settings_title">Inställningar för batteri och prestanda</string>
     <string name="pc_main_activity_back">Tillbaka</string>
     <string name="extreme_power_save_mode_card_summary">Aktivera Extremläge för att spara ström när batterinivån är låg.</string>
-    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
-    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
-    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
     <string name="power_save_ps_limit">Begränsa aktiviteten för systemappar</string>
     <string name="power_save_ps_freeze">Frys appar i bakgrunden</string>
     <string name="power_save_ps_clean">Rensa cache när enheten är låst</string>
@@ -1462,7 +1453,6 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="menu_summary_networkassistants_4">Håller på att få slut på mobildata</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
-    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1473,14 +1463,12 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="menu_text_garbage_cleanup">Städaren</string>
     <string name="menu_summary_garbage_cleanup">Inga skräpfiler hittades</string>
     <string name="menu_summary_garbage_cleanup_ex">Rensa %s skräp</string>
-    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Batteri och prestanda</string>
     <string name="menu_summary_power_manager">Batterispararen ger mer tid mellan laddningarna</string>
     <string name="menu_summary_power_manager_1">Batteriet är fulladdat</string>
     <string name="menu_summary_power_manager_2">%såterstår</string>
     <string name="menu_summary_power_manager_3">Anslut laddare</string>
     <string name="menu_summary_power_manager_4">%still fulladdad</string>
-    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Föregående skanning avbröts</string>
     <string name="examination_score_100">Allt ser bra ut!</string>
     <string name="examination_score_80_100">Några objekt kan optimeras</string>
@@ -1863,7 +1851,6 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="card_main_deepclean_wechat_action">Rensa</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
-    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -2489,7 +2476,6 @@ Du kommer inte förlora någon appdata."</string>
     <string name="gb_advance_settings_reset_dialog_content">Återställ standardinställningar nu?</string>
     <string name="title_reply">Kommentera</string>
     <string name="title_like">Gilla</string>
-    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Mobildata</string>
     <string name="game_wid_viewpoint_buttom">Ta en kort paus.</string>
     <string name="video_repeat">Spela igen</string>

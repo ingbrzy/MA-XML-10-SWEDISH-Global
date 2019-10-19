@@ -161,7 +161,6 @@
     <string name="dialog_type_image">Bilder</string>
     <string name="dialog_type_text">Dokument</string>
     <string name="dialog_type_video">Videor</string>
-    <string name="directory_info_divider">"  |  "</string>
     <string name="display_name">Visa namn</string>
     <string name="domain">Domän</string>
     <string name="download_success">Nedladdning lyckades</string>
@@ -208,7 +207,6 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="favorite_ringtone">Ringsignaler</string>
     <string name="favorite_screen_cap">Skärmdumpar</string>
     <string name="feedback_send_email_body_extra_info">Ta inte bort följande info. Det kommer att hjälpa oss hitta problemet.</string>
-    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Läsbar: </string>
     <string name="file_info_canwrite">Skrivbar: </string>
     <string name="file_info_ishidden">Dold: </string>

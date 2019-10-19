@@ -36,7 +36,6 @@
     <string name="dialog_market_score_title_step2">Tack för din feedback!</string>
     <string name="dual_app_title">Dubbelappar</string>
     <string name="dual_app_words">Varje konto förtjänar en egen app</string>
-    <string name="empty">" "</string>
     <string name="fastboot_locked_answer_1">Fastboot är den traditionella metoden för att flasha Mi-enheter. När enheten är läget Fastboot kommer all data som är lagrad på enheten att bli tillgänglig och kan tas bort direkt. Vi låser Fastboot för att se till att din data är säker om din enhet försvinner och för att garantera pålitligheten vid funktionen Hitta enhet.</string>
     <string name="fastboot_locked_answer_2">Om din enhet försvinner garanterar Fastboot säkerheten på objekten som är lagrade på den. Om du låser upp Fastboot kommer du inte kunna fjärrlåsa din enhet eller ta bort data med Hitta enhet. Därför rekommendera vi inte att låsa upp Fastboot på din enhet.</string>
     <string name="fastboot_locked_answer_3">"Du ska använda upplåsningsverktyget från MIUI's webbsida. För att låsa upp enheten behöver vi säkerställa att enheten tillhör dig. Därför måste du logga in på ditt Mi-konto och aktivera Hitta enhet."</string>
