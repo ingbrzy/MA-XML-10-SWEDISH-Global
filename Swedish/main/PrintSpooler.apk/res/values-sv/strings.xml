@@ -82,7 +82,6 @@
     <string name="printer_busy">Skrivaren är upptagen</string>
     <string name="printer_error">Felmeddelande skrivare</string>
     <string name="printer_error_msg">Skrivarfel: %1$s</string>
-    <string name="printer_extended_description_template">%1$s – %2$s</string>
     <string name="printer_info_desc">Mer information om den här skrivaren</string>
     <string name="printer_notification_error_title">Kunde inte skriva ut %1$s</string>
     <string name="printer_unavailable">Skrivaren är inte tillgänglig</string>
