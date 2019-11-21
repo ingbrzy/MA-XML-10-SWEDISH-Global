@@ -73,6 +73,7 @@
     <string name="bt_path_not_exit">Denna sökväg finns inte</string>
     <string name="bt_restart_dialog_message">Starta om alla nedladdningar i BT-mappen?</string>
     <string name="bt_restart_dialog_title">Starta om alla nedladdningar</string>
+    <string name="byteShort_per_seconds">B/s</string>
     <string name="cancel">Avbryt</string>
     <string name="check_new_downloaded_action">Visa</string>
     <string name="check_new_downloaded_file">En ny fil hittades</string>
@@ -113,6 +114,7 @@
     <string name="download_pending">Nedladdning avvaktar</string>
     <string name="download_remain_time">Återstående:</string>
     <string name="download_speed">Nedladdningshastighet:</string>
+    <string name="download_speed_suffix">%1$s %2$s</string>
     <string name="download_spend_time">Tid</string>
     <string name="download_status_continue">Återuppta</string>
     <string name="download_status_fail">Försök igen</string>
@@ -141,6 +143,7 @@
     <string name="file_exist_hint">Filen finns redan</string>
     <string name="file_size">Storlek:</string>
     <string name="get_data_failed">Det gick inte att hämta informationen. Vänta en minut eller två och försök igen.</string>
+    <string name="gigabyteShort_per_seconds">GB/s</string>
     <string name="guess_like">Du kanske också gillar</string>
     <string name="hint">Uppmärksamma</string>
     <string name="info_download_details">Detaljer</string>
@@ -151,9 +154,12 @@
     <string name="install">Installera</string>
     <string name="installing">Installerar…</string>
     <string name="insufficient_space">Inte tillräckligt med utrymme</string>
+    <string name="kilobyteShort_per_seconds">kB/s</string>
     <string name="korean_all_choose_item_title">Jag godkänner alla villkor nedan.</string>
     <string name="korean_permission_group_phone_describe">Ge tillgång till enhetens IMEI och nätverkstatus, hämta information om misslyckade nedladdningar för att förbättra tjänster</string>
     <string name="korean_permission_group_phone_title">Telefon</string>
+    <string name="korean_permission_group_storage_describe">Tillgång till enhetens lagringsutrymme för att hantera nedladdningar</string>
+    <string name="korean_permission_group_storage_title">Lagringsutrymme</string>
     <string name="korean_privacy_btn_accept">Acceptera</string>
     <string name="korean_privacy_btn_exit">Avsluta</string>
     <string name="korean_privacy_item_title">Integritetspolicy (obligatorisk)</string>
@@ -162,6 +168,7 @@
     <string name="load_finish_hint">Det är allt för tillfället.</string>
     <string name="loading">Vänta en stund…</string>
     <string name="media_filter">Media</string>
+    <string name="megabyteShort_per_seconds">MB/s</string>
     <string name="menu_all_task_pause">Pausa alla</string>
     <string name="menu_all_task_start">Starta alla</string>
     <string name="menu_enter_edit_mode">Redigeraren</string>
@@ -176,7 +183,7 @@
     <string name="no_share_file">Kunde inte dela denna fil</string>
     <string name="no_share_file_content">Filen som du har valt har redan raderats</string>
     <string name="no_share_files">Kan inte dela filer som redan har raderats</string>
-    <string name="no_share_files_content">Några av de filer du vill dela har redan raderats. Delade andra filer framgångsrikt.</string>
+    <string name="no_share_files_content">Några av de filer du vill dela har redan raderats. De andra filerna är delade.</string>
     <string name="notify_disabled_net_by_app">Begränsad internetåtkomst</string>
     <string name="notify_only_wifi_download">Väntar på Wi-Fi</string>
     <string name="only_support_torrent">Endast torrentfiler stöds</string>
@@ -194,6 +201,7 @@
     <string name="paused_unknown">Pausad</string>
     <string name="paused_waiting_for_network">Väntar på nätverk</string>
     <string name="paused_waiting_to_retry">Väntar på att försöka igen</string>
+    <string name="petabyteShort_per_seconds">PB/s</string>
     <string name="pref_download_settings_title">Storleksgräns för nedladdning</string>
     <string name="pref_summary_any_bytes_popup">Vänta alltid på Wi-Fi-anslutning för att hämta filer</string>
     <string name="pref_summary_enable_max_bytes_popup">Visa popup meddelande när du använder mobildata för att ladda ned filer</string>
@@ -237,6 +245,7 @@
     <string name="task_detail">Uppgifter</string>
     <string name="task_detail_notfound_confirm">OK</string>
     <string name="task_fail">Misslyckades</string>
+    <string name="terabyteShort_per_seconds">TB/s</string>
     <string name="toast_only_wifi_download">Anslut till Wi-Fi för att ladda ner detta objekt</string>
     <string name="total_speedup">Fartökning (totalt)</string>
     <string name="version">Version %s</string>

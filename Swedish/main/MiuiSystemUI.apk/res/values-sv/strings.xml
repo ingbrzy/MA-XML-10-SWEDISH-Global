@@ -4,10 +4,10 @@
     <string name="China_Mobile_HD">China Mobile (HD)</string>
     <string name="China_Telecom">China Telecom</string>
     <string name="China_Unicom">China Unicom</string>
-    <string name="abc_action_bar_home_description">Visa startsidan</string>
+    <string name="abc_action_bar_home_description">Navigera hem</string>
     <string name="abc_action_bar_up_description">Navigera uppåt</string>
     <string name="abc_action_menu_overflow_description">Fler alternativ</string>
-    <string name="abc_action_mode_done">Klart</string>
+    <string name="abc_action_mode_done">Klar</string>
     <string name="abc_activity_chooser_view_see_all">Visa alla</string>
     <string name="abc_activitychooserview_choose_application">Välj en app</string>
     <string name="abc_capital_off">AV</string>
@@ -63,6 +63,7 @@
     <string name="accessibility_camera_button">Kamera</string>
     <string name="accessibility_carrier_network_change_mode">Operatörsnätverk ändras.</string>
     <string name="accessibility_cast_name">Ansluten till %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Castning av skärmen avslutad.</string>
     <string name="accessibility_cell_data">Mobildata</string>
     <string name="accessibility_cell_data_off">Mobildata avaktiverad</string>
@@ -347,16 +348,18 @@
     <string name="bluetooth_a2dp_profile_summary_connected">Ansluten till medialjud</string>
     <string name="bluetooth_a2dp_profile_summary_use_for">Använd för medialjud</string>
     <string name="bluetooth_active_battery_level">Aktiv, %1$s batteri</string>
+    <string name="bluetooth_active_battery_level_untethered">Aktiv, L: %1$s batteri, R: %2$s batteri</string>
     <string name="bluetooth_active_no_battery_level">Aktiv</string>
     <string name="bluetooth_battery_level">%1$s batteri</string>
+    <string name="bluetooth_battery_level_untethered">L: %1$s batteri, R: %2$s batteri</string>
     <string name="bluetooth_connected">Anslöt %1$s</string>
     <string name="bluetooth_connected_battery_level">Ansluten | Batteri %1$s%2$s</string>
     <string name="bluetooth_connected_no_a2dp">Ansluten (ingen media) %1$s</string>
-    <string name="bluetooth_connected_no_a2dp_battery_level">Anslut (inget medialjud)|Batteri %1$s%2$s</string>
+    <string name="bluetooth_connected_no_a2dp_battery_level">Ansluten (inget medialjud) | Batteri %1$s%2$s</string>
     <string name="bluetooth_connected_no_headset">Ansluten (ingen telefon) %1$s</string>
-    <string name="bluetooth_connected_no_headset_battery_level">Anslut (ingen telefon)|Batteri %1$s%2$s</string>
+    <string name="bluetooth_connected_no_headset_battery_level">Ansluten (ingen telefon) | Batteri %1$s%2$s</string>
     <string name="bluetooth_connected_no_headset_no_a2dp">Anslut (ingen telefon- eller medialjud), Batteri %1$s</string>
-    <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">Anslut (inget medialjud eller telefon)|Batteri %1$s%2$s</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">Ansluten (inget medialjud eller telefon) | Batteri %1$s%2$s</string>
     <string name="bluetooth_connected_no_map">Ansluten (inte tillgång till meddelande) %1$s</string>
     <string name="bluetooth_connecting">Ansluter…</string>
     <string name="bluetooth_disable_absolute_volume">Inaktivera absolut volym</string>
@@ -488,6 +491,7 @@ Sample Rate"</string>
     <string name="confirm_enable_oem_unlock_text">VARNING: Enhetsskyddsåtgärder fungerar inte på den här enheten när denna inställning är aktiverad.</string>
     <string name="confirm_enable_oem_unlock_title">Tillåt att låsa upp OEM?</string>
     <string name="confirm_pin_msg">Ange PIN-kod igen</string>
+    <string name="connected_via_app">Ansluten via %1$s</string>
     <string name="connected_via_carrier">Ansluten via %1$s</string>
     <string name="connected_via_network_scorer">Automatiskt ansluten via %1$s</string>
     <string name="connected_via_network_scorer_default">Automatiskt ansluten via rekommenderad nätverksleverantör</string>
@@ -500,6 +504,7 @@ Sample Rate"</string>
     <string name="convert_to_file_encryption">Konvertera till filkryptering</string>
     <string name="convert_to_file_encryption_done">Filerna är krypterade</string>
     <string name="convert_to_file_encryption_enabled">Konvertera…</string>
+    <string name="copy">Kopiera</string>
     <string name="daltonizer_mode_deuteranomaly">Deuteranomaly (röd-grön)</string>
     <string name="daltonizer_mode_disabled">Inaktiverad</string>
     <string name="daltonizer_mode_monochromacy">Monochromacy</string>
@@ -519,6 +524,7 @@ Om du fortsätter använda mobildata kan ytterligare avgifter från din operatö
     <string name="data_usage_disabled_dialog_enable">Återuppta</string>
     <string name="data_usage_disabled_dialog_mobile_title">Mobildata avaktiverat</string>
     <string name="data_usage_disabled_dialog_title">Mobildata inaktiverat</string>
+    <string name="data_usage_ota">Systemuppdateringar</string>
     <string name="data_usage_uninstalled_apps">Borttagna appar</string>
     <string name="data_usage_uninstalled_apps_users">Borttagna appar och användare</string>
     <string name="debug_app">Välj debug-app</string>
@@ -561,7 +567,7 @@ Om du fortsätter använda mobildata kan ytterligare avgifter från din operatö
     <string name="disable_overlays_summary">Använd alltid GPU för skärmrendering</string>
     <string name="disable_vpn">Inaktivera VPN</string>
     <string name="disabled">Inaktiverad</string>
-    <string name="disabled_by_admin">Inaktiverad av administratör</string>
+    <string name="disabled_by_admin">Inaktiverad av administratören</string>
     <string name="disabled_by_admin_summary_text">Kontrollerad av administratör</string>
     <string name="disconnect_vpn">Koppla från VPN</string>
     <string name="dismount_storage">Nej</string>
@@ -726,8 +732,6 @@ Om du fortsätter använda mobildata kan ytterligare avgifter från din operatö
     <string name="float_incall_message">Meddelande</string>
     <string name="force_allow_on_external">Forcera att tillåta appar att skriva till det externa lagringsutrymmet</string>
     <string name="force_allow_on_external_summary">Gör vilken app som helst behörig till att skriva till externa lagringsutrymmet oavsett vilka värden</string>
-    <string name="force_hw_ui">Forcera GPU-rendering</string>
-    <string name="force_hw_ui_summary">Tvinga användning av GPU för rita 2D</string>
     <string name="force_msaa">Forcera 4x MSAA</string>
     <string name="force_msaa_summary">Aktivera 4x MSAA i OpenGL ES 2.0 appar</string>
     <string name="force_resizable_activities">Forcera att det är möjligt att ändra storlek på aktiviteter</string>
@@ -796,7 +800,7 @@ Om du fortsätter använda mobildata kan ytterligare avgifter från din operatö
     <string name="hdcp_checking_dialog_title">Ställ in beteende vid HDCP-kontroll</string>
     <string name="hdcp_checking_title">Kontroll av HDCP</string>
     <string name="headset">Headset</string>
-    <string name="help_feedback_label">Hjälp &amp; feedback</string>
+    <string name="help_feedback_label">Hjälp och feedback</string>
     <string name="hidden_notifications_cancel">Nej tack</string>
     <string name="hidden_notifications_setup">Konfigurera</string>
     <string name="hidden_notifications_text">Se notifikationer innan du låser upp</string>
@@ -907,7 +911,12 @@ Använd endast den medföljande laddaren."</string>
     <string name="keyguard_carrier_default">Ingen tjänst</string>
     <string name="keyguard_charged">Fulladdad</string>
     <string name="keyguard_charging_back_to_lockscreen">Tillbaka till Låsskärmen</string>
+    <string name="keyguard_charging_battery_level">%s %%</string>
     <string name="keyguard_charging_info_battery_used_time_text">På batteri</string>
+    <string name="keyguard_charging_info_data_c">%s℃</string>
+    <string name="keyguard_charging_info_data_ma">%smA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Tömd</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Idag %s</string>
@@ -935,6 +944,7 @@ Använd endast den medföljande laddaren."</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-kort saknas eller är inte läsbar. Vänligen för in en SIM kort.</string>
     <string name="keyguard_missing_sim_message">Inget SIM kort i telefonen.</string>
     <string name="keyguard_missing_sim_message_short">Inget SIM-kort</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Nätverket är låst</string>
     <string name="keyguard_password_enter_password_code">Ange ditt lösenord för att låsa upp</string>
     <string name="keyguard_password_enter_pin_code">Ange PIN-koden</string>
@@ -1018,6 +1028,8 @@ Försök igen om %2$d sekunder."</string>
     <string name="left_keycode">Tangentkod för vänster knapp</string>
     <string name="left_nav_bar_button_type">Extra knapptyp till vänster</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
+    <string name="loading_injected_setting_summary">Laddar…</string>
     <string name="local_backup_password_summary_change">Tryck för att ändra eller ta bort lösenord för säkerhetskopior för Hemskärmen</string>
     <string name="local_backup_password_summary_none">Fullständig säkerhetskopia för Desktop är inte skyddad för tillfället</string>
     <string name="local_backup_password_title">Lösenord för Säkerhetskopia av Hemskärmen</string>
@@ -1082,6 +1094,7 @@ en skrollnings-skärmdump"</string>
     <string name="media_projection_action_text">Börja nu</string>
     <string name="media_projection_dialog_text">%s kommer att samla in allt som visas på skärmen.</string>
     <string name="media_projection_remember_text">Visa inte igen</string>
+    <string name="media_transfer_this_device_name">Den här enheten</string>
     <string name="megabyte_per_second">MB/s</string>
     <string name="memory_clear_result_giga">%1$sGB frigjort</string>
     <string name="memory_clear_result_mega">%1$sMB frigjort</string>
@@ -1091,6 +1104,7 @@ en skrollnings-skärmdump"</string>
     <string name="miui_guide_dialog_message">Medialjud (t ex musik, videor) kommer fortfarande spelas i Tyst läge. Du kan ändra detta i Inställningar.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Upplåst av Bluetoothenhet</string>
     <string name="miui_ringer_count_down">Räkna ner</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Tyst</string>
     <string name="miui_ringer_standard_description">Stäng av ringsignal för inkommande samtal och notifikationer</string>
     <string name="miui_ringer_total">Stör ej</string>
@@ -1118,12 +1132,14 @@ Du är också ansluten till %3$s som kan övervaka din personliga nätverksaktiv
 
 Kontakta din administratör för mer information."</string>
     <string name="monitoring_description_ca_cert_settings">Öppna betrodda uppgifter</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">En Certifikatutfärdare är installerad på denna enhet. Din säkra nätverkstrafik kan vara övervakad eller har blivit modifierad.</string>
     <string name="monitoring_description_do_body">Din administratör kan övervaka och hantera inställningar, företagstillgång, appar, data kopplad till din enhet och din enhets platsinformation.</string>
     <string name="monitoring_description_do_body_vpn">Du är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-post, appar och websidor.</string>
     <string name="monitoring_description_do_header_generic">Din enhet hanteras av %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s använder %2$s för att hantera din enhet.</string>
     <string name="monitoring_description_do_learn_more">Läs mer</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Din organisation installerade en Certifikatutfärdare i din arbetsprofil. Din säkra nätverkstrafik kan övervakas eller modifieras.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Din arbetsprofil är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-post, appar och webbsidor.</string>
     <string name="monitoring_description_management">"Din enhet hanteras av din organisation.
@@ -1155,6 +1171,7 @@ Kontakta din administratör för mer information.
 
 Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</string>
     <string name="monitoring_description_vpn_settings">Öppna inställningar för VPN</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA-certifikat</string>
     <string name="monitoring_subtitle_network_logging">Nätverksloggning</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1162,6 +1179,30 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="monitoring_title_device_owned">Enhetshantering</string>
     <string name="monitoring_title_profile_owned">Profilövervakning</string>
     <string name="mount_storage">Ja</string>
+    <string name="mr_button_content_description">Cast-knappen</string>
+    <string name="mr_cast_button_connected">Cast-knappen. Ansluten</string>
+    <string name="mr_cast_button_connecting">Cast-knappen. Ansluter</string>
+    <string name="mr_cast_button_disconnected">Cast-knappen. Frånkopplad</string>
+    <string name="mr_cast_dialog_title_view_placeholder">Det finns ingen tillgänglig information</string>
+    <string name="mr_chooser_searching">Letar efter enheter</string>
+    <string name="mr_chooser_title">Casta till</string>
+    <string name="mr_controller_album_art">Skivomslag</string>
+    <string name="mr_controller_casting_screen">Skärmen castas</string>
+    <string name="mr_controller_close_description">Stäng</string>
+    <string name="mr_controller_collapse_group">Dölj</string>
+    <string name="mr_controller_disconnect">Koppla från</string>
+    <string name="mr_controller_expand_group">Utöka</string>
+    <string name="mr_controller_no_info_available">Det finns ingen information</string>
+    <string name="mr_controller_no_media_selected">Ingen media har valts</string>
+    <string name="mr_controller_pause">Pausa</string>
+    <string name="mr_controller_play">Spela upp</string>
+    <string name="mr_controller_stop">Stopp</string>
+    <string name="mr_controller_stop_casting">Sluta casta</string>
+    <string name="mr_controller_volume_slider">Volymreglage</string>
+    <string name="mr_dialog_groupable_header">Lägga till en enhet</string>
+    <string name="mr_dialog_transferable_header">Spela upp på en grupp enheter</string>
+    <string name="mr_system_route_name">System</string>
+    <string name="mr_user_route_category_name">Enheter</string>
     <string name="nav_bar">Navigationsfält</string>
     <string name="nav_bar_default">(standard)</string>
     <string name="nav_bar_layout">Layout</string>
@@ -1169,10 +1210,12 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="nav_guide_message">Använd gester för att dölja/visa skärmknappar.</string>
     <string name="nav_guide_ok">Ställ in</string>
     <string name="nav_guide_title">Dölj skärmknappar</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Inget</string>
     <string name="no_multi_window_app">Inga appar stöder Delad skärm</string>
     <string name="no_notification_tips">Inga notifikationer</string>
     <string name="no_weather_description">Hämta väderinfo ></string>
+    <string name="not_set">Inte angett</string>
     <string name="not_support_multi_window">Nuvarande app stöder inte Delad skärm</string>
     <string name="notch_sos_status_bar_title">SOS</string>
     <string name="notification_all_categories">Alla Kategorier</string>
@@ -1244,6 +1287,11 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="open_extreme_power_save_mode_title">Aktivera Extrem Batterisparare</string>
     <string name="open_lock_screen_magazine_hint_text">Svep höger för fler alternativ</string>
     <string name="open_remote_center_hint_text">Svep åt höger för att se kontrollerna</string>
+    <string name="osu_completing_sign_up">Slutför medlemskap…</string>
+    <string name="osu_connect_failed">Det gick inte att ansluta</string>
+    <string name="osu_opening_provider">Öppnar %1$s</string>
+    <string name="osu_sign_up_complete">Registrering slutförd. Ansluter…</string>
+    <string name="osu_sign_up_failed">Det gick inte att slutföra medlemskapet. Tryck för att försöka igen.</string>
     <string name="other">Övrigt</string>
     <string name="overlay_display_devices_title">Simulera sekundära skärmar</string>
     <string name="overview">Översikt</string>
@@ -1282,6 +1330,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="power_discharge_by_enhanced">Borde räcka ungefär till %1$s återstår baserat på din användning (%2$s)</string>
     <string name="power_discharge_by_only">Borde räcka ungefär till %1$s</string>
     <string name="power_discharge_by_only_enhanced">Borde räcka ungefär till %1$s baserat på din användning</string>
+    <string name="power_discharge_by_only_short">Till och med %1$s</string>
     <string name="power_notification_controls_description">"Med notifikationsinställningarna kan du ange prioritetsnivå från 0 till 5 för notifikationerna från en app. 
 
 \""<b>Nivå 5</b>"\" 
@@ -1326,12 +1375,15 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="power_save_ps_close_setting">Stäng av bakgrundstjänster (synkronisering, GPS) för att spara ström</string>
     <string name="power_save_ps_freeze">Frys appar i bakgrunden</string>
     <string name="power_save_ps_limit">Begränsa aktiviteten för systemappar</string>
+    <string name="power_suggestion_extend_battery">Få batteriet att hålla längre än till %1$s</string>
+    <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="preference_summary_default_combination">%1$s / %2$s</string>
     <string name="private_dns_mode_off">Avaktiverad</string>
     <string name="private_dns_mode_opportunistic">Automatisk</string>
     <string name="private_dns_mode_provider">Värdnamn privat DNS-leverantör</string>
     <string name="private_dns_mode_provider_failure">Det gick inte att ansluta</string>
     <string name="private_dns_mode_provider_hostname_hint">Ange värdnamn för DNS-leverantör</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_owned_footer">Profilen kan vara övervakat</string>
     <string name="prompt_danger">Fara</string>
     <string name="prompt_detecting">Undersöker</string>
@@ -1545,6 +1597,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="screenshot_saving_title">Sparar skärmdump…</string>
     <string name="screenshot_send">Skicka</string>
     <string name="search_hint">Sök efter webbsidor, appar, kontakter och videor…</string>
+    <string name="search_menu">Sökinställningar</string>
     <string name="search_menu_title">Sök</string>
     <string name="select_application">Välj applikation</string>
     <string name="select_logd_size_dialog_title">Välj bufferstorlek för logg</string>
@@ -1724,6 +1777,7 @@ Dra ner för att låsa"</string>
     <string name="switch_bar_on">Aktiverad</string>
     <string name="switch_system_user">Tillbaka till Primära utrymmet</string>
     <string name="system_ui_tuner">Inställningar för systemgränssnitt</string>
+    <string name="tap_to_sign_up">Tryck för att bli medlem</string>
     <string name="task_access_locked_app_msg">Aktiverade Applås</string>
     <string name="tether_settings_title_all">Internetdelning &amp; portabel hotspot</string>
     <string name="tether_settings_title_bluetooth">Internetdelning via Bluetooth</string>
@@ -1917,6 +1971,7 @@ Alla användare kan uppdatera för alla användare."</string>
     <string name="wapi_psk_type_ascii">ASCII</string>
     <string name="wapi_psk_type_hex">Hexadecimal</string>
     <string name="wapi_yes">Ja</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Uppdaterad %1$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Tillgångspunkten är tillfällig full</string>
     <string name="wifi_auto_sel_wapi_cert">Välj automatiskt</string>
@@ -1924,7 +1979,6 @@ Alla användare kan uppdatera för alla användare."</string>
     <string name="wifi_cant_connect_to_ap">"Kan inte ansluta till '%1$s'"</string>
     <string name="wifi_check_password_try_again">Kontrollera lösenord och försök igen</string>
     <string name="wifi_connected_mac_randomization">Ansluten slumpmässig MAC</string>
-    <string name="wifi_connected_mac_randomization_summary">Slumpmässa MAC-adress vid anslutning till Wi-Fi</string>
     <string name="wifi_connected_no_internet">Ansluten, inget Internet</string>
     <string name="wifi_coverage_extend">Aktiverar utökning av täckning för Wi-Fi</string>
     <string name="wifi_coverage_extend_summary">Aktivera utökad Wi-Fi-täckning med Hotspot</string>
@@ -1933,42 +1987,29 @@ Alla användare kan uppdatera för alla användare."</string>
     <string name="wifi_disabled_network_failure">Kunde inte konfigurera IP</string>
     <string name="wifi_disabled_password_failure">Autentiseringsproblem</string>
     <string name="wifi_disabled_wifi_failure">Det gick inte att ansluta till Wi-Fi</string>
+    <string name="wifi_disconnected">Frånkopplad</string>
     <string name="wifi_display_certification">Trådlös displaycertifiering</string>
     <string name="wifi_display_certification_summary">Visa alternativ för certifikation av trådlös skärm</string>
     <string name="wifi_fail_to_scan">Det gick inte att söka efter nätverk</string>
     <string name="wifi_hand_sel_wapi_cert">WAPI-certifikat</string>
     <string name="wifi_is_off">Wi-Fi är avaktiverad</string>
+    <string name="wifi_limited_connection">Begränsad anslutning</string>
     <string name="wifi_metered_label">Anslutning med datapris</string>
     <string name="wifi_no_internet">Kan inte ansluta till Internet</string>
     <string name="wifi_no_internet_no_reconnect">Kan inte ansluta till Internet</string>
     <string name="wifi_not_in_range">Inte inom räckvidd</string>
     <string name="wifi_remembered">Sparad</string>
+    <string name="wifi_scan_throttling">Begränsar Wi‑Fi-sökning</string>
+    <string name="wifi_scan_throttling_summary">Reducerar batteritömning och förbättrar nätverksprestanda</string>
     <string name="wifi_security_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_WAPI_PSK">WAPI PSK</string>
-    <string name="wifi_security_dpp">DPP</string>
-    <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Ingen</string>
-    <string name="wifi_security_owe">OWE</string>
-    <string name="wifi_security_passpoint">Passpoint</string>
-    <string name="wifi_security_sae">SAE</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
-    <string name="wifi_security_short_dpp">DPP</string>
-    <string name="wifi_security_short_eap">802.1x</string>
-    <string name="wifi_security_short_owe">OWE</string>
-    <string name="wifi_security_short_sae">SAE</string>
-    <string name="wifi_security_short_wep">WEP</string>
-    <string name="wifi_security_short_wpa">WPA</string>
-    <string name="wifi_security_short_wpa2">WPA2</string>
-    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
     <string name="wifi_security_wapi_cert">WAPI-Cert</string>
     <string name="wifi_security_wapi_psk">WAPI-PSK</string>
     <string name="wifi_security_wapi_psk_ascii">ASCII</string>
     <string name="wifi_security_wapi_psk_hexadecimal">Hexadecimal</string>
-    <string name="wifi_security_wep">WEP</string>
-    <string name="wifi_security_wpa">WPA PSK</string>
-    <string name="wifi_security_wpa2">WPA2 PSK</string>
-    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
     <string name="wifi_ssid_is_empty">SSID får inte vara tomt</string>
     <string name="wifi_ssid_length_is_max">SSID kan upp till 32 tecken långt</string>
     <string name="wifi_status_mac_randomized">MAC-adress slumpmässig</string>
@@ -2003,6 +2044,7 @@ Det ser ut som att utrymmet för credentials inte är aktiverat."</string>
     <string name="zen_mode_duration_always_prompt_title">Fråga varje gång</string>
     <string name="zen_mode_duration_settings_title">Varaktighet</string>
     <string name="zen_mode_enable_dialog_turn_on">Aktivera</string>
+    <string name="zen_mode_forever">Tills du avaktiverar</string>
     <string name="zen_mode_settings_summary_off">Aldrig</string>
     <string name="zen_mode_settings_turn_on_dialog_title">Aktivera Stör ej</string>
     <string name="zen_priority_customize_button">Anpassa</string>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="day_index">
+        <item quantity="other">%1$d dagar</item>
+        <item quantity="one">%1$d dag</item>
+    </plurals>
+    <plurals name="goal_format_with_unit">
+        <item quantity="other">Mål: %1$d steg</item>
+        <item quantity="one">Mål: %1$d steg</item>
+    </plurals>
+    <plurals name="goal_unit">
+        <item quantity="other">"  steg"</item>
+        <item quantity="one">"  steg"</item>
+    </plurals>
+    <plurals name="menstruation_sum_days">
+        <item quantity="other">%1$d-dags menstruation</item>
+        <item quantity="one">%1$d-dags menstruation</item>
+    </plurals>
+    <plurals name="step_num_format">
+        <item quantity="other">%1$d steg</item>
+        <item quantity="one">%1$d steg</item>
+    </plurals>
+    <plurals name="steps_format">
+        <item quantity="other">%1$d</item>
+        <item quantity="one">%1$d</item>
+    </plurals>
+    <plurals name="subtitle_add_record">
+        <item quantity="other">Du har inte registrerat i %1$d dagar. Registrera dina menstruationer för att få mer precisa förutsägelser.</item>
+        <item quantity="one">Du har inte registrerat i %1$d dag. Registrera dina menstruationer för att få mer precisa förutsägelser.</item>
+    </plurals>
+    <plurals name="subtitle_menstruation_continued_days">
+        <item quantity="other">Denna menstruation varar i totalt %1$d dagar</item>
+        <item quantity="one">Denna menstruation varar i totalt %1$d dag</item>
+    </plurals>
+    <plurals name="subtitle_menstruation_cycle_days">
+        <item quantity="other">Dag %1$d av denna menstruationscykel</item>
+        <item quantity="one">Dag %1$d av denna menstruationscykel</item>
+    </plurals>
+    <plurals name="sum_cycle_days">
+        <item quantity="other">%1$d-dags cykel</item>
+        <item quantity="one">%1$d-dags cykel</item>
+    </plurals>
+    <plurals name="times_format">
+        <item quantity="other">%1$d gånger</item>
+        <item quantity="one">%1$d gång</item>
+    </plurals>
+    <plurals name="title_menstruation_day">
+        <item quantity="other">Dag %1$d av menstruationen</item>
+        <item quantity="one">Dag %1$d av menstruationen</item>
+    </plurals>
+    <plurals name="title_menstruation_margin_next_time_days">
+        <item quantity="other">%1$d dagar till nästa menstruation</item>
+        <item quantity="one">%1$d dag till nästa menstruation</item>
+    </plurals>
+    <plurals name="title_menstruation_predict_period">
+        <item quantity="other">Uppskattad dag %1$d för menstruationen</item>
+        <item quantity="one">Uppskattad dag %1$d för menstruationen</item>
+    </plurals>
+    <plurals name="unit_days">
+        <item quantity="other">" dagar"</item>
+        <item quantity="one">" dag"</item>
+    </plurals>
+    <plurals name="user_age_display_format_year">
+        <item quantity="other">%1$d år</item>
+        <item quantity="one">%1$d år</item>
+    </plurals>
+</resources>

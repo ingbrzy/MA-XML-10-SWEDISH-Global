@@ -10,7 +10,6 @@
     <string name="abc_capital_on">PÅ</string>
     <string name="abc_menu_alt_shortcut_label">Alt + </string>
     <string name="abc_menu_ctrl_shortcut_label">Ctrl + </string>
-    <string name="abc_menu_delete_shortcut_label">delete</string>
     <string name="abc_menu_enter_shortcut_label">retur</string>
     <string name="abc_menu_function_shortcut_label">Funktion + </string>
     <string name="abc_menu_meta_shortcut_label">Meta + </string>
@@ -39,8 +38,6 @@
     <string name="alarm_in_silent_mode_title">Alarm i ljudlöst läge</string>
     <string name="alarm_klaxon_service_desc">Uppspelning av ljudservice för larm ställda i klockan.</string>
     <string name="alarm_label_hint">Larmetikett</string>
-    <string name="alarm_list_title">Alarm</string>
-    <string name="alarm_notify_snooze_label">%s snooze</string>
     <string name="alarm_notify_text">Snooze eller avfärda alarm.</string>
     <string name="alarm_repeat">Upprepa</string>
     <string name="alarm_ringtone">Alarmringsignaler</string>
@@ -56,12 +53,9 @@
     <string name="app_label">Klocka</string>
     <string name="auto_silence_never">Aldrig</string>
     <string name="auto_silence_title">Tystnar automatiskt</string>
-    <string name="battery_charging_level">%d%%</string>
     <string name="birthday_alarm">Alarm på födelsedag</string>
     <string name="birthday_alarm_summary">Spela \"Happy Birthday\" istället för den vanliga alarmsignalen på din födelsedag</string>
     <string name="cancel">Avbryt</string>
-    <string name="channel_name_alarm">Alarm</string>
-    <string name="channel_name_timer">Timer</string>
     <string name="check_theme_app_install">Kontrollera att appen Teman är installerad på din enhet.</string>
     <string name="check_voice_assist_app_version">Uppdatera Mi AI till senaste versionen.</string>
     <string name="clock_bg_button_setting_summary_common">Välj bakgrundsfärg för appen Klocka</string>
@@ -74,10 +68,8 @@
     <string name="content_desc_keep_screen">”Hålla skärmen på”-knappen</string>
     <string name="control_set_alarm">Ställ in alarm</string>
     <string name="control_set_alarm_with_existing">Alarm ställt: %s</string>
-    <string name="day_concat">", "</string>
     <string name="default_alarm_alert">Alarmsignal som standard</string>
     <string name="default_alarm_title">Standardsignal</string>
-    <string name="default_label">Alarm</string>
     <string name="delete">Ta bort</string>
     <string name="delete_alarm">Ta bort alarm</string>
     <string name="delete_selected_timer_item">Ta bort den markerade timern?</string>
@@ -109,13 +101,11 @@
     <string name="expired_timers_dismissed">Timer avstängd</string>
     <string name="force_touch_add_alarm">Lägg till alarm</string>
     <string name="force_touch_enter_stopwatch">Tidtagarur</string>
-    <string name="force_touch_enter_timer">Timer</string>
     <string name="go_back">Tillbaka</string>
     <string name="holiday_update">En uppdatering för helgdagar är tillgänglig</string>
     <string name="holiday_update_fail">Det gick inte uppdatera</string>
     <string name="holiday_update_loading">Uppdaterar…</string>
     <string name="holiday_update_success">Alla objekt är uppdaterade</string>
-    <string name="hour_unit">Hr +</string>
     <string name="install_weather_app_error">Kunde inte starta app</string>
     <string name="install_weather_app_loading">Vänta en stund…</string>
     <string name="invalid_time">Felaktig tid: %3$s %1$d: %2$d</string>
@@ -151,13 +141,11 @@
     <string name="life_post_wake_up_item_acumu_day_title">Dagsräkning</string>
     <string name="life_post_wake_up_item_percentage_title">Mi fläktar bakom dig</string>
     <string name="life_post_wake_up_item_time_title">Uppvakningstid</string>
-    <string name="life_post_wake_up_percentage_sign">%</string>
     <string name="life_post_wake_up_percentage_title">Mi fläktar bakom dig</string>
     <string name="life_post_wake_up_time_title">Uppvakningstid</string>
     <string name="life_post_weather_invalid">Tryck för att få väderinfo</string>
     <string name="life_post_weather_no_network">Anslut till nätverket för att uppdatera väderinformation</string>
-    <string name="life_post_weather_temperature_centigrade">°</string>
-    <string name="listen_news_privacy">&lt;Data>För att tillhandahålla personliga tjänster och inkludera morgonnyheter i ditt alarm behöver appen Klocka ansluta till internet. Innan du använder appen Klocka måste du också läsa och godkänna våra &lt;a href= %1$s\">Användarvillkor&lt;/a> och vår&lt;a href=\"%2$s\">Integritetspolicy&lt;/a>. Godkänn?&lt;/Data></string>
+    <string name="listen_news_privacy">&lt;Data>För att tillhandahålla personliga tjänster och inkludera morgonnyheter i ditt alarm behöver appen Klocka ansluta till internet. Innan du använder appen Klocka måste du också läsa och godkänna våra &lt;a href=\"%1$s\">Användarvillkor&lt;/a> och vår &lt;a href=\"%2$s\">Integritetspolicy&lt;/a>. Godkänn?&lt;/Data></string>
     <string name="loading_ringtone">Laddar ringsignal…</string>
     <string name="menu_add_worldclock">Lägg till klocka</string>
     <string name="menu_desk_clock">Klocka</string>
@@ -184,32 +172,33 @@
     <string name="module_download_success">Ljud nedladdat</string>
     <string name="module_download_title">Ytterligare ljudfiler krävs</string>
     <string name="module_downloading">Laddar ner ljud…</string>
+    <string name="module_unzipping">Packar upp ljud…</string>
     <string name="module_update_success">Uppdaterat ljud för MIUI smart Alarms laddades ner utan problem. Du kan konfigurera MIUI smart alarms i inställningar för Klockan.</string>
     <string name="module_update_success_control">Jag förstår</string>
     <string name="module_weather_ringtone_download_data">Väderalarm väljer olika ringsignaler för olika väderförhållanden. Appen klocka behöver ladda ner ≈30MB ljud för att fungera. Ladda ner nu?</string>
-    <string name="module_weather_ringtone_download_data_privacy">&lt;Data>Väderalarm väljer olika ringsignaler för olika väderförhållanden. Appen Klocka behöver ansluta till internet för att ladda ner ≈30MB ljud. Innan du använder appen Klocka måste du läsa och godkänna våra &lt;a href= %1$s\">Användarvillkor&lt;/a> och vår &lt;a href=\"%2$s\">Integritetspolicy&lt;/a>. Godkänn?&lt;/Data></string>
+    <string name="module_weather_ringtone_download_data_privacy">&lt;Data>Väderalarm väljer olika ringsignaler för olika väderförhållanden. Appen Klocka behöver ansluta till internet för att ladda ner ≈30MB ljud. Innan du använder appen Klocka måste du läsa och godkänna våra &lt;a href=\"%1$s\">Användarvillkor&lt;/a> och vår &lt;a href=\"%2$s\">Integritetspolicy&lt;/a>. Godkänn?&lt;/Data></string>
     <string name="module_weather_ringtone_download_wifi">Väderalarm väljer olika ringsignaler för olika väderförhållanden. Appen Klocka behöver ladda ner ljud för att det ska fungera. Ladda ner nu?</string>
-    <string name="module_weather_ringtone_download_wifi_privacy">&lt;Data>Väderalarm väljer olika ringsignaler för olika väderförhållanden. Appen Klocka behöver ansluta till internet för att ladda ner ljud. Innan du använder appen Klocka måste du också läsa och godkänna våra &lt;a href= %1$s\">Användarvillkor&lt;/a> och vår &lt;a href=\"%2$s\">Integritetspolicy&lt;/a>. Godkänn?&lt;/Data></string>
+    <string name="module_weather_ringtone_download_wifi_privacy">&lt;Data>Väderalarm väljer olika ringsignaler för olika väderförhållanden. Appen Klocka behöver ansluta till internet för att ladda ner ljud. Innan du använder appen Klocka måste du också läsa och godkänna våra &lt;a href=\"%1$s\">Användarvillkor&lt;/a> och vår &lt;a href=\"%2$s\">Integritetspolicy&lt;/a>. Godkänn?&lt;/Data></string>
     <string name="module_weather_ringtone_introduce">Väderalarm väljer olika ringsignaler beroende på aktuellt väder. Du kan även lyssna på aktuell väderinformation på morgonen.</string>
     <string name="module_weather_ringtone_introduce_global">Väderalarm väljer olika ringsignaler för olika väderförhållanden.</string>
     <string name="module_weather_ringtone_update_data">Väderalarm innehåller nu bakgrundsmusik och bättre röstmeddelanden. Appen Klocka behöver ladda ner ≈30MB ljud för att det ska fungera. Ladda ner nu?</string>
     <string name="module_weather_ringtone_update_success">Väderalarm innehåller nu bakgrundsmusik och bättre röstmeddelanden. Du kan skapa ett nytt larm för att testa funktionen.</string>
-    <string name="module_week_ringtone_download_data">Veckoalarm spelar olika naturljud för varje dag i veckan. Appen Klocka behöver ladda ner ≈30MB ljud för att det ska fungera. Ladda ner nu?</string>
-    <string name="module_week_ringtone_download_data_privacy">&lt;Data>Veckoalarm spelar olika naturljud för varje dag i veckan. Appen Klocka behöver ansluta till internet för att ladda ner ≈30MB ljud. Innan du använder appen Klocka måste du också läsa och godkänna våra &lt;a href= %1$s\">Användarvillkor&lt;/a> och vår &lt;a href=\"%2$s\">Integritetspolicy&lt;/a>. Godkänn?&lt;/Data></string>
-    <string name="module_week_ringtone_download_wifi">Veckoalarm spelar olika naturljud för varje dag i veckan. Appen Klocka behöver ladda ner ljud för att det ska fungera. Ladda ner nu?</string>
-    <string name="module_week_ringtone_download_wifi_privacy">&lt;Data>Veckoalarm spelar olika naturljud för varje dag i veckan. Appen Klocka behöver ansluta till internet för att ladda ner ljud. Innan du använder appen Klocka måste du också läsa och godkänna våra &lt;a href= %1$s\">Användarvillkor&lt;/a> och vår &lt;a href=\"%2$s\">Integritetspolicy&lt;/a>. Godkänn?&lt;/Data></string>
-    <string name="module_week_ringtone_introduce">Veckoalarm spelar olika naturljud för varje dag i veckan.</string>
-    <string name="module_week_ringtone_update_data">Veckoalarm spelar olika naturljud för varje dag i veckan. Appen Klocka behöver ladda ner ≈30MB ljud för att det ska fungera. Ladda ner nu?</string>
-    <string name="module_week_ringtone_update_success">Veckoalarm innehåller bakgrundsmusik för varje dag i veckan. Du kan skapa ett nytt larm för att testa funktionen.</string>
+    <string name="module_week_ringtone_download_data">Naturalarm spelar olika ljud beroende på datumet. Appen Klocka behöver ladda ner ≈30 MB ljud för att det ska fungera. Ladda ner nu?</string>
+    <string name="module_week_ringtone_download_data_privacy">&lt;Data>Naturalarm spelar olika ljud beroende på datumet. Appen Klocka behöver ansluta till internet för att ladda ner ≈30 MB ljud. Innan du använder appen Klocka måste du också läsa och godkänna våra &lt;a href=\"%1$s\">Användarvillkor&lt;/a> och vår &lt;a href=\"%2$s\">Integritetspolicy&lt;/a>. Godkänn?&lt;/Data></string>
+    <string name="module_week_ringtone_download_wifi">Naturalarm spelar olika ljud beroende på datumet. Appen klocka behöver ladda ner ljud för att den ska fungera. Ladda ner nu?</string>
+    <string name="module_week_ringtone_download_wifi_privacy">&lt;Data>Naturalarm spelar olika ljud beroende på datumet. Appen Klocka behöver ansluta till internet för att ladda ner ljud. Innan du använder appen Klocka måste du också läsa och godkänna våra &lt;a href=\"%1$s\">Användarvillkor&lt;/a> och vår &lt;a href=\"%2$s\">Integritetspolicy&lt;/a>. Godkänn?&lt;/Data></string>
+    <string name="module_week_ringtone_introduce">Naturalarm spelar olika ljud beroende på datumet.</string>
+    <string name="module_week_ringtone_update_data">Naturalarm spelar olika ljud beroende på datumet. Appen Klocka behöver ladda ner ≈30 MB ljud för att den ska fungera. Ladda ner nu?</string>
+    <string name="module_week_ringtone_update_success">Naturalarm spelar olika ljud beroende på datumet. Du kan skapa ett nytt alarm för att prova denna funktion.</string>
     <string name="module_white_noise_download_data">Appen Klocka behöver ladda ner ljudfiler för omgivningsljud för timers ≈30MB av mobildata kommer att behövas för nedladdningen. Ladda ner nu?</string>
-    <string name="module_white_noise_download_data_privacy">&lt;Data>För att kunna ladda ner ljudfiler för omgivningsljud för timers (≈30 MB) och tillhandahålla personliga tjänster behöver appen Klocka ansluta till internet. Innan du använder appen Klocka måste du också läsa och godkänna våra &lt;a href= %1$s\">Användarvillkor&lt;/a> och vår&lt;a href=\"%2$s\">Integritetspolicy&lt;/a>. Du använder mobildata nu. Godkänn?&lt;/Data></string>
+    <string name="module_white_noise_download_data_privacy">&lt;Data>För att kunna ladda ner ljudfiler för omgivningsljud för timers (≈30MB) och tillhandahålla personliga tjänster behöver appen Klocka ansluta till internet. Innan du använder appen Klocka måste du också läsa och godkänna våra &lt;a href=\"%1$s\">Användarvillkor&lt;/a> och vår &lt;a href=\"%2$s\">Integritetspolicy&lt;/a>. Du använder mobildata nu. Godkänn?&lt;/Data></string>
     <string name="module_white_noise_download_wifi">Appen Klocka behöver ladda ner ljudfiler för omgivningsljud för timers. Ladda ner nu?</string>
-    <string name="module_white_noise_download_wifi_privacy">&lt;Data>För att kunna ladda ner ljudfiler för omgivningsljud för timers och tillhandahålla personliga tjänster behöver appen Klocka ansluta till internet. Innan du använder appen Klocka måste du också läsa och godkänna våra &lt;a href= %1$s\">Användarvillkor&lt;/a> och vår &lt;a href=\"%2$s\">Integritetspolicy&lt;/a> Godkänn?&lt;/Data></string>
+    <string name="module_white_noise_download_wifi_privacy">&lt;Data>För att kunna ladda ner ljudfiler för omgivningsljud för timers och tillhandahålla personliga tjänster behöver appen Klocka ansluta till internet. Innan du använder appen Klocka måste du också läsa och godkänna våra &lt;a href=\"%1$s\">Användarvillkor&lt;/a> och vår &lt;a href=\"%2$s\">Integritetspolicy&lt;/a> Godkänn?&lt;/Data></string>
     <string name="monday_to_friday">Måndag till Fredag</string>
     <string name="more_setting">Fler inställningar</string>
     <string name="more_settings">Inställningar</string>
-    <string name="network_privacy">&lt;Data>För att hämta relevant information om helgdagar och justera larm behöver appen Klocka ansluta till internet. Innan du använder appen Klocka, måste du också läsa och godkänna våra &lt;a href= %1$s\">Användarvillkor&lt;/a> och vår&lt;a href=\"%2$s\">Integritetspolicy&lt;/a>. Godkänn?&lt;/Data></string>
-    <string name="network_privacy_global">&lt;Data>För att tillhandahålla personliga tjänster måste appen Klocka ansluta till internet. Innan du använder appen Klocka måste du också läsa och godkänna våra &lt;a href= %1$s\">Användarvillkor&lt;/a> och vår&lt;a href=\"%2$s\">Integritetspolicy&lt;/a>. Godkänn?&lt;/Data></string>
+    <string name="network_privacy">&lt;Data>För att hämta relevant information om helgdagar och justera larm behöver appen Klocka ansluta till internet. Innan du använder appen Klocka, måste du också läsa och godkänna våra &lt;a href=\"%1$s\">Användarvillkor&lt;/a> och vår &lt;a href=\"%2$s\">Integritetspolicy&lt;/a>. Godkänn?&lt;/Data></string>
+    <string name="network_privacy_global">&lt;Data>För att tillhandahålla personliga tjänster måste appen Klocka ansluta till internet. Innan du använder appen Klocka måste du också läsa och godkänna våra &lt;a href=\"%1$s\">Användarvillkor&lt;/a> och vår &lt;a href=\"%2$s\">Integritetspolicy&lt;/a>. Godkänn?&lt;/Data></string>
     <string name="never">En gång</string>
     <string name="no_alarm_setting">Inga alarm här</string>
     <string name="no_worldclock">Inga klockor här</string>
@@ -217,17 +206,11 @@
     <string name="open_keep_screen">Skärmen kommer att vara påslagen</string>
     <string name="other_category_title">Övrigt</string>
     <string name="pause">Pausa</string>
-    <string name="percentage_sign">%</string>
     <string name="personal_recommend">Personliga rekommendationer</string>
     <string name="privacy_policy">Integritetspolicy</string>
     <string name="privacy_policy_title">Integritetspolicy</string>
     <string name="remind_ringtone">Ringsignal</string>
     <string name="repeat_count">Gånger</string>
-    <string name="repeat_count_value_five">5</string>
-    <string name="repeat_count_value_one">1</string>
-    <string name="repeat_count_value_ten">10</string>
-    <string name="repeat_count_value_three">3</string>
-    <string name="repeat_count_value_two">2</string>
     <string name="reset">Nollställ</string>
     <string name="revert">Återställ</string>
     <string name="ringtone_all">Alla ringsignaler</string>
@@ -236,10 +219,9 @@
     <string name="ringtone_firefly">Eldflugor</string>
     <string name="ringtone_other">Fler ringsignaler</string>
     <string name="ringtone_weather">Väderlarm</string>
-    <string name="ringtone_week">Veckovis alarm</string>
+    <string name="ringtone_week">Naturalarm</string>
     <string name="search_alarm_clock_keywords">Alarm; Väckarklocka;</string>
     <string name="search_stopwatch_keywords">Tidtagarur</string>
-    <string name="search_timer_keywords">Timer</string>
     <string name="search_worldclock_keywords">Tid; Världsklocka; Klocka</string>
     <string name="set_alarm">Välj tid</string>
     <string name="set_alarm_choose_ringtone">Välj ringsignal</string>
@@ -262,37 +244,18 @@
     <string name="skip_alarm_once_hint">Stäng av en gång %s</string>
     <string name="slider_text">Dra upp för att stänga av</string>
     <string name="snooze_confirm_cancel">Stänga av alarm</string>
-    <string name="snooze_duration">Snooze</string>
-    <string name="snooze_duration_text">%1$s | %2$s</string>
-    <string name="snooze_duration_title">Snooze</string>
     <string name="snooze_duration_value">Intervall (minuter)</string>
-    <string name="snooze_duration_value_fifteen">15</string>
-    <string name="snooze_duration_value_five">5</string>
-    <string name="snooze_duration_value_one">1</string>
-    <string name="snooze_duration_value_ten">10</string>
-    <string name="snooze_duration_value_thirty">30</string>
-    <string name="snooze_duration_value_twenty">20</string>
-    <string name="snooze_duration_value_twenty_five">25</string>
     <string name="star_wy_alarm_speech">Möt Roy Wang</string>
     <string name="start">Starta</string>
     <string name="start_up">Starta</string>
-    <string name="status_bar_clock_date_time_format">H:mm:ss</string>
-    <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
-    <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
     <string name="stopwatch_lap_empty_text">Inga varv</string>
     <string name="stopwatch_title">Tidtagarur</string>
     <string name="system_permission_purpose">Skapa vardagsalarm och ställa in anpassade ringsignaler</string>
     <string name="system_time_setting">Inställningar</string>
     <string name="system_time_settings_category_title">Tidsinställningar</string>
-    <string name="temperature_unit">℃</string>
     <string name="time">Tid</string>
-    <string name="time_picker_colon">:</string>
-    <string name="time_picker_label_hour">H</string>
-    <string name="time_picker_label_minute">M</string>
     <string name="time_picker_label_second">L</string>
-    <string name="timer_alarm_alert_pad">%s</string>
     <string name="timer_alarm_cancel_pad">Tryck på skärmen för att stänga av ringsignalen</string>
-    <string name="timer_alarm_dot_matrix_label">TIMER</string>
     <string name="timer_alert_alert_silenced">Timer tystnar efter %1$s.</string>
     <string name="timer_alert_mute_off">Alarmet kommer att ljuda när timern stannar</string>
     <string name="timer_alert_mute_on">Alarmet kommer inte att ljuda när timern stannar</string>
@@ -314,13 +277,10 @@
     <string name="timer_created">Timer skapad</string>
     <string name="timer_end_time">Timern kommer att sluta klockan %s</string>
     <string name="timer_end_time_format">HH:mm dd MMM</string>
-    <string name="timer_end_time_format_today">HH:mm</string>
     <string name="timer_got_it">Okej</string>
     <string name="timer_is_paused">Timer är pausad</string>
     <string name="timer_item_duration_display">%1$d min %2$d sek</string>
     <string name="timer_item_label_hint">Timernamn</string>
-    <string name="timer_item_picker_hour">H</string>
-    <string name="timer_item_picker_minute">M</string>
     <string name="timer_item_picker_second">L</string>
     <string name="timer_new_item">Lägg till timer</string>
     <string name="timer_notify_text">Snooza eller avvisa timer.</string>
@@ -328,7 +288,6 @@
     <string name="timer_running">Timer är igång</string>
     <string name="timer_start_alarm">Tiden är ute!</string>
     <string name="timer_start_timer">Starta timer</string>
-    <string name="timer_title">Timer</string>
     <string name="timezone_exist_error_message">Du visar redan den tidszonen</string>
     <string name="today">Idag</string>
     <string name="tomorrow">Imorgon</string>
@@ -355,6 +314,5 @@
     <string name="worldcolock_timezone_current">Nuvarande: %1$s</string>
     <string name="worldcolock_timezone_current_date">dd/MM/yyyy</string>
     <string name="worldcolock_timezone_date">dd MMM</string>
-    <string name="worldcolock_timezone_gap">%s H</string>
     <string name="worldcolock_timezone_local">Samma som lokal tid</string>
 </resources>

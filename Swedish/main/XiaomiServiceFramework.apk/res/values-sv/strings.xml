@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="accept">OK</string>
     <string name="app_name">Xiaomi service ramverk</string>
     <string name="error_device_id_message">"Ogiltigt enhets-ID: %s
  Enhets-ID måste vara en giltig IMEI eller MAC-adress. Utan enhets-ID kommer vissa Mi-konto och Mi Cloud-funktioner inte att vara tillgängliga."</string>
@@ -11,6 +10,5 @@
     <string name="pop_up_allow_notify_dialog">Tillåt</string>
     <string name="pop_up_deny_notify_dialog">Tillåt inte</string>
     <string name="sync_notification_title_format">Aktuellt objekt som synkas: %1$s</string>
-    <string name="xiaomi_cloud_service">Mi Cloud</string>
     <string name="xmsf_activate_info">XMSF aktivera info</string>
 </resources>

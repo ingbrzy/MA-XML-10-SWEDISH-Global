@@ -12,6 +12,7 @@
     <string name="call_record_list_group_all">Alla</string>
     <string name="call_record_list_group_connected">Ansluten</string>
     <string name="call_record_list_group_unconnected">Inte ansluten</string>
+    <string name="cancel_rename">Avbryt</string>
     <string name="clear_records">Radera synkroniserade inspelningar</string>
     <string name="cloud_record_open">Synkronisera inspelningar</string>
     <string name="cloud_record_tip">Synkronisera inspelningar med Xiaomi Cloud.</string>
@@ -21,7 +22,6 @@
     <string name="cloud_status_full_dialog_ok">Uppgradera</string>
     <string name="cloud_status_full_dialog_title">Xiaomi molnlagring är full</string>
     <string name="data_connection_body">Användning av mobildata för att ladda ned den här filen ökar din dataanvändning. Om du överskrider ditt abonnemangs gräns kan du bli debiterad extra för detta.</string>
-    <string name="data_connection_button_text">OK</string>
     <string name="data_connection_title">Varning för dataanvändning</string>
     <string name="delete">Ta bort</string>
     <string name="delete_dialog_message">Ta bort inspelning?</string>
@@ -31,9 +31,6 @@
     <string name="dialog_privacy_revoke_tips">När du upphävt befogenheterna kommer appen sluta samla in data och alla relaterade data tas bort från servrarna. Detta kan göra appen instabil. Upphäva befogenheterna ändå? För att säkerställa säkerheten på ditt konto, logga in på i.mi.com innan du upphäver befogenheter för Xiaomi Cloud-tjänsterna.</string>
     <string name="dialog_title_storage_full">Inte tillräckligt med utrymme</string>
     <string name="download">Ladda ned</string>
-    <string name="duration_format_hour">%sh</string>
-    <string name="duration_format_minute">%sm</string>
-    <string name="duration_format_second">%ss</string>
     <string name="empty_recognition_tip">Tom</string>
     <string name="err_msg_abandon">Beställning övergavs</string>
     <string name="err_msg_complete">Beställningen har slutförts</string>
@@ -73,10 +70,10 @@
     <string name="korea_permission_record_resc">För inspelning av ljud</string>
     <string name="korea_permission_storage">Lagringsutrymme</string>
     <string name="korea_permission_storage_desc">För att spara inspelningar</string>
+    <string name="loading_more">Vänta lite…</string>
     <string name="loading_order_list">Vänta lite…</string>
     <string name="loading_order_list_empty">Inga beställningar här.</string>
     <string name="low_battery_error">Mindre än 5% batteri kvar. Stoppa och spara inspelningen för att se till att den inte går förlorad.</string>
-    <string name="low_battery_error_confirm">OK</string>
     <string name="low_battery_error_title">Låg batterinivå</string>
     <string name="lyric_item_point_count">%1$d till %2$d</string>
     <string name="mark_point_list_title">Markeringar</string>
@@ -105,7 +102,6 @@
     <string name="online_recognize_duration_limite">(Start från 10 minuter)</string>
     <string name="online_recognize_fail">Det gick inte att transkribera</string>
     <string name="online_recognize_login_fail">Det gick inte att logga in</string>
-    <string name="online_recognize_order_audio_price">%s CNY</string>
     <string name="online_recognize_order_create">Logga in</string>
     <string name="online_recognize_order_duration_key">Varaktighet</string>
     <string name="online_recognize_order_pay">Betala och se resultatet</string>
@@ -121,11 +117,11 @@
     <string name="online_recognize_order_upload">Bekräfta och ladda upp</string>
     <string name="online_recognize_order_uploading">Laddar upp %s…</string>
     <string name="online_recognize_other_order_upload">Vänta till nuvarande uppladdning är slutförd och försök igen.</string>
+    <string name="online_recognize_progress">Transkriberar %s…</string>
     <string name="online_recognize_running">Transkriberar…</string>
     <string name="online_recognize_service_unavailable">Tjänsten är inte tillgänglig nu. Vänta en minut eller två och försök igen.</string>
     <string name="order_item_duration">Längd: %s</string>
     <string name="order_item_number">Beställningsnummer: %s</string>
-    <string name="order_item_price">%s CNY</string>
     <string name="path_soundrecorder_setting">Systemappar/Recorder</string>
     <string name="pause">Pausa</string>
     <string name="pay_error_cancel">Betalningen avbröts</string>
@@ -190,15 +186,11 @@
     <string name="record_format_preference_title">Inspelningsformat</string>
     <string name="record_list">Inspelningar</string>
     <string name="record_list_call">Inspelade samtal</string>
-    <string name="record_list_category_title_format">MMMM yyyy</string>
     <string name="record_list_cloud">Synkroniserade inspelningar</string>
     <string name="record_list_cloud_call">Synkronisera inspelade samtal</string>
     <string name="record_list_cloud_fm">Synkroniserade FM inspelningar</string>
     <string name="record_list_fm">FM inspelningar</string>
-    <string name="record_list_item_recognize_text">Text</string>
     <string name="record_mark_point">Markera %s</string>
-    <string name="record_name_hour">.</string>
-    <string name="record_name_minute" />
     <string name="record_quliaty_preference_title">Inspelningskvalitet</string>
     <string name="record_resotre">Återställ inspelningar</string>
     <string name="recording">Inspelning</string>
@@ -224,8 +216,9 @@
     <string name="rename_no_more_tip">Visa inte igen</string>
     <string name="retry">Försök igen</string>
     <string name="runtime_permission_ungranted">Kan inte använda Inspelaren på grund av otillräcklig behörighet</string>
-    <string name="search_app">Recorder</string>
+    <string name="search_empty">Inga resultat</string>
     <string name="search_enable_earpiece_title">Använd mottagare för att spela upp ljud</string>
+    <string name="search_hint">Sök</string>
     <string name="search_led_indicator">Notifikationer på Låsskärmen</string>
     <string name="search_led_indicator_prompt">Under inspelning, visa i statusfältet och pulsera notifikationslampan på låsskärmen</string>
     <string name="search_quliaty_title">Inspelningskvalitet</string>
@@ -261,9 +254,6 @@
     <string name="text_play_speed_1_0">Normal uppspelningshastighet</string>
     <string name="text_play_speed_1_5">1,5X uppspelningshastighet</string>
     <string name="text_play_speed_2_0">2X uppspelningshastighet</string>
-    <string name="timer_format" formatted="false">%02d:%02d</string>
-    <string name="timer_format_three_sections" formatted="false">%02d:%02d:%02d</string>
-    <string name="title_activity_recinbox_sdk_browser">RecinboxSdkBrowser</string>
     <string name="toast_max_record_time">%1$s kan spela in för ca %2$s</string>
     <string name="toast_uninstall_fileexplorer">Utforskaren är inte installerad</string>
     <string name="usage_description">Transkribera ljud och synkronisera objekt med molnet</string>

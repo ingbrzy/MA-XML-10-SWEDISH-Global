@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="April">April</string>
     <string name="August">Augusti</string>
-    <string name="December">December</string>
     <string name="February">Februari</string>
     <string name="January">Januari</string>
     <string name="July">Juli</string>
     <string name="June">Juni</string>
     <string name="March">Mars</string>
     <string name="May">Maj</string>
-    <string name="November">November</string>
     <string name="October">Oktober</string>
-    <string name="September">September</string>
     <string name="Updated_at">"Skapad: "</string>
     <string name="abc_action_bar_home_description">Navigera hem</string>
     <string name="abc_action_bar_up_description">Navigera uppåt</string>
@@ -23,7 +19,6 @@
     <string name="abc_capital_on">PÅ</string>
     <string name="abc_menu_alt_shortcut_label">Alt + </string>
     <string name="abc_menu_ctrl_shortcut_label">Ctrl + </string>
-    <string name="abc_menu_delete_shortcut_label">delete</string>
     <string name="abc_menu_enter_shortcut_label">retur</string>
     <string name="abc_menu_function_shortcut_label">Funktion + </string>
     <string name="abc_menu_meta_shortcut_label">Meta + </string>
@@ -69,7 +64,6 @@
     <string name="alaka_required">Du bör betala för den här låten att lyssna på det</string>
     <string name="alarm_clock_ringtones_successful">Alarm konfigurerat</string>
     <string name="album_label">Album omslag</string>
-    <string name="album_name">Album</string>
     <string name="all_album_count">Alla album (%d)</string>
     <string name="all_albums">Alla album</string>
     <string name="all_artists">Alla artister</string>
@@ -97,15 +91,12 @@
     <string name="artist_area_all">Alla</string>
     <string name="artist_area_china">Kina</string>
     <string name="artist_area_europe_usa">Europa/USA</string>
-    <string name="artist_area_japan">Japan</string>
-    <string name="artist_area_korea">Korea</string>
     <string name="artist_gender_all">Alla</string>
     <string name="artist_gender_female">Kvinna</string>
     <string name="artist_gender_group">Grupp</string>
     <string name="artist_gender_male">Man</string>
     <string name="artist_home_search_hint">Sök efter artister</string>
     <string name="artist_is_empty">Artistnamn kan inte vara tom.</string>
-    <string name="artist_name">Artist</string>
     <string name="audio_picker_title">Välj en låt</string>
     <string name="auto_update">Uppdateras automatiskt</string>
     <string name="auto_update_tip">Du kan uppdatera systemappar via mobildata. Detta kan generera ytterligare data avgifter.</string>
@@ -131,7 +122,6 @@
     <string name="choose_stream_quality">Välj strömmningskvalitet</string>
     <string name="click_to_shuffle">Klicka för att blanda</string>
     <string name="close_music_time">"Återstående tid: "</string>
-    <string name="comment_format" formatted="false">%s: %s</string>
     <string name="common_google_play_services_enable_button">Aktivera</string>
     <string name="common_google_play_services_enable_text">%1$s fungerar inte om du inte aktiverar Google Play-tjänster.</string>
     <string name="common_google_play_services_enable_title">Aktivera Google Play-tjänster</string>
@@ -150,7 +140,6 @@
     <string name="common_open_on_phone">Öppna på mobilen</string>
     <string name="common_signin_button_text">Logga in</string>
     <string name="common_signin_button_text_long">Logga in med Google</string>
-    <string name="confirm">OK</string>
     <string name="confirm_exit">Spara ändringarna?</string>
     <string name="connect_now">Anslut</string>
     <string name="connecting_apk">Ansluting…</string>
@@ -159,6 +148,7 @@
     <string name="current_album">Nuvarande albumomslag</string>
     <string name="current_lyric">Nuvarande texter</string>
     <string name="current_version">Aktuell version</string>
+    <string name="daily_recommendation">Daglig mix</string>
     <string name="dark_mode">Mörkt läge</string>
     <string name="data_usage_warning">Dataanvändning</string>
     <string name="data_usage_warning_summary">Användning av mobildata för att strömma högkvalitets musik kan öka din räkning för dataanvändning.</string>
@@ -180,7 +170,6 @@
     <string name="desktop_lyric_lock_toast">Låst. Du kan låsa upp Musik i Notifikationspanelen.</string>
     <string name="desktop_lyric_setting_summary">Visa låttexter på Hemskärmen</string>
     <string name="desktop_lyric_setting_title">Låttexter på Hemskärmen</string>
-    <string name="desktop_lyric_textsize">Text</string>
     <string name="device_connected">Ansluten</string>
     <string name="device_not_connected">Ej ansluten</string>
     <string name="dialog_cannot_resume">Nedladdning avbruten. Den kan inte återupptas.</string>
@@ -202,6 +191,10 @@
     <string name="dialog_renew_free_end">Provperioden är över. Prenumerera på Hungama PRO?</string>
     <string name="dialog_renew_positive_text">YEAH, JAG VILL ROCKA SOM ETT PROFFS</string>
     <string name="dialog_renew_success">Tack för din bekräftelse</string>
+    <string name="dialog_score_btn_good">Betygsätt</string>
+    <string name="dialog_score_prompt_bad">Tack för din feedback! Vi kommer göra vårt bästa för att förbättra vår app och våra tjänster.</string>
+    <string name="dialog_score_prompt_good">Tack för din support! Betygsätt vår app i Google Play också?</string>
+    <string name="dialog_score_title">Betygsätt vår app</string>
     <string name="dialog_song_sort_type">Sorterar låtar</string>
     <string name="dialog_song_sort_type_name">Efter namn</string>
     <string name="dialog_song_sort_type_playing_times">Efter hur många gånger de spelats</string>
@@ -219,6 +212,7 @@
     <string name="dialog_title_remove_tracks">Ta bort</string>
     <string name="disallow_add_to_fm">Kan inte lägga till låtar till FM radio</string>
     <string name="do_not_remind_this_version">Påminn mig inte om denna version</string>
+    <string name="do_not_support_google_voice_search">Google Voice Search stöds inte på din enhet.</string>
     <string name="download">Ladda ned</string>
     <string name="download_added_to_list">Tillagd i nedladdningslistan</string>
     <string name="download_apk_desktop_installing">Installerar</string>
@@ -297,7 +291,6 @@
     <string name="enjoy_hungama_pro">Njut av Hungama PRO</string>
     <string name="enter_garbage_clean">Städa upp internt lagringsutrymme.</string>
     <string name="eq_auto">Anpassad</string>
-    <string name="eq_blues">Blues</string>
     <string name="eq_classical">Klassisk</string>
     <string name="eq_country">Land</string>
     <string name="eq_dance">Dansa</string>
@@ -305,15 +298,10 @@
     <string name="eq_delete_success">Klar</string>
     <string name="eq_electronic">Elektroniskt</string>
     <string name="eq_flat">Standard</string>
-    <string name="eq_hiphop">Hip Hop</string>
-    <string name="eq_jazz">Jazz</string>
     <string name="eq_metal">Metall</string>
-    <string name="eq_pop">Pop</string>
     <string name="eq_preset_format">Användares förinställning %d</string>
     <string name="eq_preset_hint">Effektnamn</string>
     <string name="eq_preset_select">Välj en förinställning</string>
-    <string name="eq_rock">Rock</string>
-    <string name="equalizer">Equalizer</string>
     <string name="error_not_support">Stöds inte</string>
     <string name="exo_controls_fastforward_description">Snabbspola framåt</string>
     <string name="exo_controls_fullscreen_description">Helskärmsläge</string>
@@ -333,14 +321,10 @@
     <string name="exo_download_failed">Nedladdningen misslyckades</string>
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
-    <string name="exo_item_list">%1$s, %2$s</string>
-    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Ljud</string>
-    <string name="exo_track_selection_title_text">Text</string>
-    <string name="exo_track_selection_title_video">Video</string>
-    <string name="exo_track_stereo">Stereo</string>
     <string name="exo_track_surround">Surroundljud</string>
     <string name="exo_track_surround_5_point_1">5.1-kanaligt surroundljud</string>
     <string name="exo_track_surround_7_point_1">7.1-kanaligt surroundljud</string>
@@ -360,7 +344,6 @@
     <string name="favorite_tracks">Favoriter</string>
     <string name="favorites">Favoriter</string>
     <string name="fcm_fallback_notification_channel_label">Diverse</string>
-    <string name="feed_back">Feedback</string>
     <string name="file_not_found">Filen existerar inte</string>
     <string name="filter_by_duration">Efter längd</string>
     <string name="filter_by_duration_max">%d minuter</string>
@@ -374,7 +357,6 @@
     <string name="filter_by_size_min">%d KB</string>
     <string name="filter_by_size_prefix">"Dölj filer mindre än "</string>
     <string name="filter_by_size_summary">Dölj små ljudfiler</string>
-    <string name="filter_size_unit">%dKB</string>
     <string name="floating_view_dialog_desc">Musiken kommer att sluta spela om du lämnar denna sida nu. Lämna ändå?</string>
     <string name="floating_view_dialog_leave">Lämna</string>
     <string name="floating_view_dialog_stay">Stanna</string>
@@ -401,16 +383,16 @@
     <string name="home_tab_more_music">Mer musik</string>
     <string name="home_tab_online">Musik på nätet</string>
     <string name="home_tab_search">Sök</string>
-    <string name="hot_icon_in_fast_indexer">H</string>
     <string name="hungama_batch_download_alert_summary">Endast PRO-medlemmar kan ladda ner flera låtar. Få ett PRO-medlemskap nu?</string>
+    <string name="hungama_batch_download_alert_summary_toast">Skaffa en prenumeration för att ladda ner hela spellistan.</string>
     <string name="hungama_free_download_out_summary">Du kan inte ladda ner fler gratis låtar. Få ett PRO-medlemskap att ladda ner obegränsade låtar?</string>
+    <string name="hungama_free_download_out_summary_toast">Du har redan laddat ner %d låtar. Skaffa en prenumeration för att ladda ner fler.</string>
     <string name="hungama_privacy_desc">Hungama Sekretess Policy (valfritt)</string>
     <string name="hungama_privacy_tips_content">För att få åtkomst online måste du godkänna <a href="/link/click">Hungama Integritetspolicy</a>.</string>
     <string name="hungama_privacy_tips_title">Hungarna Integritetspolicy</string>
     <string name="hungama_subscribe_message">Köp PRO-medlemskap för att ladda ner musik i hög kvalitet.</string>
     <string name="hungama_subscribe_positive_button">Köp PRO-medlemskap</string>
     <string name="hungama_subscribe_title">PRO medlemskap</string>
-    <string name="i_know">OK</string>
     <string name="impunity_declaration_content">Du måste läsa och godkänna vårt &lt;a href=\"http://www.miui.com/res/doc/eula.html?lang=sv_SE\">Användaravtal&lt;/a> och vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?lang=sv_SE\">Sekretesspolicy&lt;/a> innan du använder produkten.</string>
     <string name="impunity_declaration_ignore">Visa inte igen</string>
     <string name="impunity_declaration_negative_text">Avsluta</string>
@@ -494,10 +476,10 @@
     <string name="modify_song_info_success">Sånginfo har uppdaterats</string>
     <string name="more">Mer</string>
     <string name="more_add_song_list">Lägga till låtar till kön</string>
-    <string name="more_milink_and_bluetooth">Mi Link &amp; Bluetooth</string>
     <string name="more_settings">Avancerade inställningar</string>
     <string name="more_settings_summary">Insomningstimer, filtrering filer och mer</string>
     <string name="more_share">Dela</string>
+    <string name="more_splendid_contents">Mer</string>
     <string name="mulit_choice_management">Hantera flera objekt</string>
     <string name="music_browser_label">Musik</string>
     <string name="music_filter">Filtrera ljudfiler</string>
@@ -534,7 +516,6 @@
     <string name="normal_quality">Bra</string>
     <string name="not_login">Inte inloggad</string>
     <string name="not_now">Inte nu</string>
-    <string name="not_selected">Choose a song</string>
     <string name="not_support_documentui">DocumentUI stöds inte på denna enhet</string>
     <string name="notif_title_file_size">%1$d totalt</string>
     <string name="notif_title_single_downloading">Laddar ned %1$s</string>
@@ -552,7 +533,6 @@
     <string name="nowplaying_circle_style_wave">Våg</string>
     <string name="nowplaying_dialog_title_delete_tracks">Ta bort denna låt från kön?</string>
     <string name="nowplaying_menu_item_delete">Ta bort från kö</string>
-    <string name="ok">OK</string>
     <string name="online_apk_acquired">Laddar %d%%</string>
     <string name="online_apk_acquiring">Laddar … %d%%</string>
     <string name="online_apk_download_error_no_enough_space">Det gick inte att ladda ner på grund av för lite lagringsutrymme.</string>
@@ -620,9 +600,7 @@
     <string name="playlist_title_is_empty">Spellistans namn får inte vara tomt</string>
     <string name="playlist_title_is_invalid">Spellista finns redan</string>
     <string name="playlist_type_album">Album</string>
-    <string name="playlist_type_artist">Artist</string>
     <string name="playlist_type_billboard">Topplistor</string>
-    <string name="playlist_type_fm">FM</string>
     <string name="playlist_type_my">Mina spellistor</string>
     <string name="playlist_type_recommend">Utvalda spellistor</string>
     <string name="please_download_first">Du måste ladda ned denna låt för att använda den som ringsignal</string>
@@ -633,6 +611,7 @@
     <string name="priority_storage_summary">Ladda automatiskt ned till tillgängligt externt SD-kort</string>
     <string name="privacy_desc">Integritetspolicy (obligatorisk)</string>
     <string name="privacy_policy">Integritetspolicy</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sv_SE</string>
     <string name="pro_member">PRO-medlem</string>
     <string name="project_device">Mi Telefon</string>
     <string name="prompt_grant_write_settings_permission">Tillåt att ändra systeminställningar</string>
@@ -675,19 +654,15 @@
     <string name="search_empty">Inga resultat</string>
     <string name="search_empty_subtitle_online_music">Tryck på knappen nedan för att öppna %s.</string>
     <string name="search_empty_title_online_music">Inga objekt här ännu.</string>
-    <string name="search_for_album">Album</string>
-    <string name="search_for_artist">Artist</string>
     <string name="search_hint">Sök efter artister, låtar, album och rekommendationer</string>
     <string name="search_hint_local">Sök efter låtar på enheten</string>
     <string name="search_hint_online">Sök efter artister, album, låtar, spellistor och videoklipp online</string>
     <string name="search_history_clear_all">Rensa</string>
     <string name="search_history_delete_all_dialog_titile">Rensa sökhistorik nu?</string>
     <string name="search_in_youtube">Sök på YouTube</string>
-    <string name="search_instant_online_music">Online</string>
     <string name="search_menu_title">Sök</string>
     <string name="search_more">Mer</string>
     <string name="search_result_local_songs">Lokalt</string>
-    <string name="search_result_online_songs">Online</string>
     <string name="search_songs">Sök efter låtar</string>
     <string name="search_songs_count">Låtar: %d</string>
     <string name="select">Välj</string>
@@ -704,7 +679,6 @@
     <string name="selected_count">%1$d av %2$d valda</string>
     <string name="send_to_title">Skicka till (%1$s)</string>
     <string name="service_and_settings">Tjänst och inställningar</string>
-    <string name="set_as_alarm_clock_ringtone">Alarm</string>
     <string name="set_as_ring">Ange som ringsignal</string>
     <string name="set_ringtones_failed">Kunde inte ange ringsignal</string>
     <string name="set_ringtones_successful">%s Ange som ringsignal</string>
@@ -736,7 +710,6 @@
     <string name="sleep_mode_canceled">Sovläge avstängd</string>
     <string name="sleep_mode_summary">Stoppa spelaren efter en viss tid</string>
     <string name="sleep_mode_title">Insomningstimer</string>
-    <string name="sliding_pro_center">PRO center</string>
     <string name="song_already_in_playlist">Den här låten finns redan i spellistan</string>
     <string name="song_exist_in_playlist">Denna låt är redan i kön</string>
     <string name="song_info">Information om låten</string>
@@ -758,11 +731,11 @@
     <string name="storage_sd_card">SD-kort</string>
     <string name="storage_usb">USB lagring</string>
     <string name="streamloadingtext">Ansluter till %s</string>
-    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="tab_album">Album</string>
     <string name="tab_album_list">Album</string>
     <string name="tab_artist">Artister</string>
     <string name="tab_artist_list">Artister</string>
+    <string name="tab_chart">Topplistor</string>
     <string name="tab_folder">Mappar</string>
     <string name="tab_playlist">Spellistor</string>
     <string name="tab_top_results">Bästa resultat</string>
@@ -783,8 +756,6 @@
     <string name="talkback_mode_repeat_shuffle">Slumpvis</string>
     <string name="talkback_more">Fler menyer</string>
     <string name="talkback_next">Nästa låt</string>
-    <string name="talkback_nowplaying_bar">Play bar</string>
-    <string name="talkback_nowplaying_circle">Play circle</string>
     <string name="talkback_play">Spela / Paus</string>
     <string name="talkback_pre">Föregående låt</string>
     <string name="talkback_search">Sök</string>
@@ -825,9 +796,9 @@
     <string name="upgrade_music_message">Uppdateringar är redo. Starta om för att uppdatera.</string>
     <string name="upgrading_in_backstage">Uppdaterar i bakgrunden…</string>
     <string name="user_agreement">Användaravtal</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sv_SE</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
-    <string name="version_info">Version</string>
     <string name="video_play_cellular">Enheten inte är ansluten till Wi-Fi. Använda mobildata?</string>
     <string name="video_replay_btn">Spela igen</string>
     <string name="video_retry_btn">Försök igen</string>
@@ -840,4 +811,5 @@
 klicka %s för att starta denna nedladdning nästa gång du är ansluten till ett Wi-Fi-nätverk."</string>
     <string name="wifi_required_title">Du borde ansluta till Wi-Fi för att ladda ned den här filen</string>
     <string name="you_can_switch_mode_in_settings">Du kan växla mellan lägen i Inställningar</string>
+    <string name="you_may_like">Du kanske också gillar</string>
 </resources>

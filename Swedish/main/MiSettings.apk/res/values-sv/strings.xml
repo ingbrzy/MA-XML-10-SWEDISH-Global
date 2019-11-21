@@ -5,7 +5,7 @@
     <string name="calendar_sound">Händelsepåminnelser</string>
     <string name="calendar_tip">Ljud för händelsepåminnelser används för kalenderpåminnelser, anteckningar och uppgifter</string>
     <string name="follow_sim1">Använd inställningar för SIM 1</string>
-    <string name="intelligent_recognition_item_summary">Identifiera inkommande samtal från tjänsteleveratörer (t.ex. matbud) och använd separata ringsignaler för dessa</string>
+    <string name="intelligent_recognition_item_summary">Använd en designerad ringsignal för samtal från leverans- och taxitjänster. Denna funktion fungerar när %s är angiven som din standard ringsignal.</string>
     <string name="intelligent_recognition_item_title">Identitetstjänster</string>
     <string name="mms">Meddelanden</string>
     <string name="more_ringtone">Alla ringsignaler</string>

@@ -72,6 +72,10 @@
         <item quantity="other">om %d å</item>
         <item quantity="one">om %d å</item>
     </plurals>
+    <plurals name="file_count">
+        <item quantity="other">%1$s + %2$d filer</item>
+        <item quantity="one">%1$s + %2$d fil</item>
+    </plurals>
     <plurals name="kg_too_many_failed_attempts_countdown">
         <item quantity="other">Försök igen om %d sekunder.</item>
         <item quantity="one">Försök igen om 1 sekund.</item>

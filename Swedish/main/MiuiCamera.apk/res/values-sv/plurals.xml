@@ -6,6 +6,6 @@
     </plurals>
     <plurals name="toast_burst_snap_finished_summary">
         <item quantity="other">Fotoserie slutförd, %1$s foton tagna</item>
-        <item quantity="one">Fotoserie slutförd, %1$s foto tagna</item>
+        <item quantity="one">Fotoserie slutförd, %1$s foto taget</item>
     </plurals>
 </resources>

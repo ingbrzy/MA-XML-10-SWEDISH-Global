@@ -2,79 +2,53 @@
 <resources>
     <string-array name="aquarius_info">
         <item>aquarius</item>
-        <item>Aquarius</item>
-        <item>20/1 - 18/2</item>
+        <item>Vattumannen</item>
+        <item>1/20 - 2/18</item>
     </string-array>
     <string-array name="aries_info">
-        <item>aries</item>
+        <item>väduren</item>
         <item>Väduren</item>
-        <item>21/3 - 19/4</item>
-    </string-array>
-    <string-array name="bundesliga">
-        <item>2</item>
-        <item>Bundesliga</item>
+        <item>3/21 - 4/19</item>
     </string-array>
     <string-array name="cancer_info">
-        <item>cancer</item>
+        <item>kräftan</item>
         <item>Kräftan</item>
-        <item>22/6 - 22/7</item>
+        <item>6/22 - 7/22</item>
     </string-array>
     <string-array name="capricorn_info">
         <item>capricorn</item>
         <item>Capricorn</item>
-        <item>22/12 - 19/1</item>
+        <item>12/22 - 1/19</item>
     </string-array>
     <string-array name="change_response_labels">
         <item>Bara denna händelsen</item>
         <item>Alla händelser i denna serien</item>
     </string-array>
+    <string-array name="close_alarm_repeating_labels">
+        <item>Bara för denna gång</item>
+        <item>Avaktivera upprepad påminnelse</item>
+    </string-array>
     <string-array name="date_calculate_spinner">
         <item>Framåt</item>
         <item>Bakåt</item>
     </string-array>
-    <string-array name="dates">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
-        <item>16</item>
-        <item>17</item>
-        <item>18</item>
-        <item>19</item>
-        <item>20</item>
-        <item>21</item>
-        <item>22</item>
-        <item>23</item>
-        <item>24</item>
-        <item>25</item>
-        <item>26</item>
-        <item>27</item>
-        <item>28</item>
-        <item>29</item>
-        <item>30</item>
-        <item>31</item>
-    </string-array>
     <string-array name="default_reminder_labels">
-        <item>Vid start av händelse</item>
+        <item>Vid händelsetid</item>
         <item>5 minuter innan</item>
+        <item>10 minuter innan</item>
         <item>15 minuter innan</item>
         <item>30 minuter innan</item>
         <item>1 timme innan</item>
-        <item>4 timmar innan</item>
         <item>1 dag innan</item>
         <item>2 dagar innan</item>
         <item>1 vecka innan</item>
+    </string-array>
+    <string-array name="default_reminder_later_time_labels">
+        <item>5 minuter</item>
+        <item>10 minuter</item>
+        <item>15 minuter</item>
+        <item>30 minuter</item>
+        <item>1 timme</item>
     </string-array>
     <string-array name="delete_repeating_labels">
         <item>Bara denna händelsen</item>
@@ -82,45 +56,37 @@
         <item>Alla händelser</item>
     </string-array>
     <string-array name="gemini_info">
-        <item>gemini</item>
+        <item>tvillingarna</item>
         <item>Tvillingarna</item>
-        <item>21/5 - 21/6</item>
-    </string-array>
-    <string-array name="la_liga">
-        <item>3</item>
-        <item>La Liga</item>
+        <item>5/21 - 6/21</item>
     </string-array>
     <string-array name="leo_info">
-        <item>leo</item>
+        <item>lejonet</item>
         <item>Lejonet</item>
-        <item>23/7 - 22/8</item>
+        <item>7/23 - 8/22</item>
     </string-array>
     <string-array name="libra_info">
-        <item>libra</item>
+        <item>vågen</item>
         <item>Vågen</item>
-        <item>23/9 - 23/10</item>
+        <item>9/23 - 10/23</item>
     </string-array>
-    <string-array name="ligue_1">
-        <item>5</item>
-        <item>Ligue 1</item>
-    </string-array>
-    <string-array name="panchang_weeks">
-        <item>Söndag</item>
-        <item>Måndag</item>
-        <item>Tisdag</item>
-        <item>Onsdag</item>
-        <item>Torsdag</item>
-        <item>Fredag</item>
-        <item>Lördag</item>
+    <string-array name="open_alarm_repeating_labels">
+        <item>Bara för denna gång</item>
+        <item>Ange upprepad påminnelse</item>
     </string-array>
     <string-array name="pisces_info">
-        <item>pisces</item>
-        <item>Pisces</item>
-        <item>19/2 - 20/3</item>
+        <item>fiskarna</item>
+        <item>Fiskarna</item>
+        <item>2/19 - 3/20</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_popup_new">
+        <item>Av</item>
+        <item>För alla händelser</item>
+        <item>För tidskänsliga händelser</item>
     </string-array>
     <string-array name="prefEntries_alerts_vibrateWhen">
         <item>Alltid</item>
-        <item>Endast när ringsignalen är tystad</item>
+        <item>Endast när ringsignalen tystnar</item>
         <item>Aldrig</item>
     </string-array>
     <string-array name="preferences_week_start_day_labels">
@@ -238,8 +204,8 @@
         <item>fjärde måndagen</item>
         <item>fjärde tisdagen</item>
         <item>fjärde onsdagen</item>
+        <item>fjärde onsdagen</item>
         <item>fjärde torsdagen</item>
-        <item>fjärde fredagen</item>
         <item>fjärde lördagen</item>
         <item>fjärde söndagen</item>
         <item>sista måndagen</item>
@@ -256,36 +222,38 @@
         <item>Kanske</item>
         <item>Nej</item>
     </string-array>
+    <string-array name="response_labels2">
+        <item>Svara inte</item>
+        <item>Acceptera</item>
+        <item>Bestäm senare</item>
+        <item>Avböj</item>
+    </string-array>
     <string-array name="sagittarius_info">
-        <item>sagittarius</item>
+        <item>skytten</item>
         <item>Skytten</item>
-        <item>23/11 - 21/12</item>
+        <item>11/23 - 12/21</item>
     </string-array>
     <string-array name="scorpio_info">
-        <item>scorpio</item>
+        <item>skorpionen</item>
         <item>Skorpionen</item>
-        <item>24/10 - 22/11</item>
-    </string-array>
-    <string-array name="serie_a">
-        <item>1</item>
-        <item>Serie A</item>
+        <item>10/24 - 11/22</item>
     </string-array>
     <string-array name="taurus_info">
-        <item>taurus</item>
+        <item>oxen</item>
         <item>Oxen</item>
-        <item>20/4 - 20/5</item>
+        <item>4/20 - 5/20</item>
     </string-array>
-    <string-array name="timezone_labels">
-        <item>Marshallöarna</item>
-        <item>Midwayöarna</item>
+    <string-array name="timezone_labels_v3">
+        <item>Marshall Islands</item>
+        <item>Midway Island</item>
         <item>Hawaii</item>
         <item>Alaska</item>
-        <item>Stillahavstid</item>
+        <item>Pacific Time</item>
         <item>Tijuana</item>
         <item>Arizona</item>
         <item>Chihuahua</item>
         <item>Mountain Time</item>
-        <item>Centralamerika</item>
+        <item>Central America</item>
         <item>Central Time</item>
         <item>Mexico City</item>
         <item>Saskatchewan</item>
@@ -293,75 +261,80 @@
         <item>Eastern Time</item>
         <item>Venezuela</item>
         <item>Atlantic Time (Barbados)</item>
-        <item>Atlantic Time (Kanada)</item>
+        <item>Atlantic Time (Canada)</item>
         <item>Manaus</item>
         <item>Santiago</item>
         <item>Newfoundland</item>
         <item>Brasilia</item>
         <item>Buenos Aires</item>
-        <item>Grönland</item>
+        <item>Greenland</item>
         <item>Montevideo</item>
         <item>Mid-Atlantic</item>
-        <item>Azorerna</item>
-        <item>Kap Verde</item>
+        <item>Azores</item>
+        <item>Cape Verde</item>
         <item>Casablanca</item>
-        <item>London, Dublin</item>
-        <item>Amsterdam, Berlin</item>
-        <item>Belgrad</item>
-        <item>Bryssel</item>
+        <item>London</item>
+        <item>Dublin</item>
+        <item>Amsterdam</item>
+        <item>Berlin</item>
+        <item>Belgrade</item>
+        <item>Brussels</item>
         <item>Sarajevo</item>
         <item>Windhoek</item>
         <item>W. Africa Time</item>
-        <item>Amman, Jordan</item>
-        <item>Aten, Istanbul</item>
-        <item>Beirut, Lebanon</item>
-        <item>Kairo</item>
-        <item>Helsingfors</item>
+        <item>Amman</item>
+        <item>Athens</item>
+        <item>Istanbul</item>
+        <item>Beirut</item>
+        <item>Cairo</item>
+        <item>Helsinki</item>
         <item>Jerusalem</item>
         <item>Minsk</item>
         <item>Harare</item>
         <item>Baghdad</item>
-        <item>Moskva</item>
+        <item>Moscow</item>
         <item>Kuwait</item>
         <item>Nairobi</item>
-        <item>Teheran</item>
+        <item>Tehran</item>
         <item>Baku</item>
         <item>Tbilisi</item>
         <item>Yerevan</item>
         <item>Dubai</item>
         <item>Kabul</item>
-        <item>Islamabad, Karachi</item>
+        <item>Karachi</item>
         <item>"Ural'sk"</item>
         <item>Yekaterinburg</item>
         <item>Kolkata</item>
         <item>Sri Lanka</item>
-        <item>Katmandu</item>
+        <item>Kathmandu</item>
         <item>Astana</item>
         <item>Yangon</item>
         <item>Krasnoyarsk</item>
         <item>Bangkok</item>
         <item>Beijing</item>
+        <item>Chongqing</item>
         <item>Hong Kong</item>
-        <item>Macao</item>
-        <item>Singapore</item>
-        <item>Macao</item>
+        <item>Macau</item>
         <item>Singapore</item>
         <item>Irkutsk</item>
         <item>Kuala Lumpur</item>
         <item>Perth</item>
         <item>Taipei</item>
         <item>Seoul</item>
-        <item>Tokyo, Osaka</item>
+        <item>Tokyo</item>
         <item>Yakutsk</item>
         <item>Adelaide</item>
         <item>Darwin</item>
         <item>Brisbane</item>
         <item>Hobart</item>
-        <item>Sydney, Canberra</item>
+        <item>Sydney</item>
+        <item>Canberra</item>
         <item>Vladivostok</item>
         <item>Guam</item>
         <item>Magadan</item>
         <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Tonga</item>
     </string-array>
     <string-array name="travel_reminder_minutes_labels">
         <item>3 timmar innan</item>
@@ -371,9 +344,9 @@
         <item>1 dag innan</item>
     </string-array>
     <string-array name="virgo_info">
-        <item>virgo</item>
+        <item>jungfrun</item>
         <item>Jungfrun</item>
-        <item>23/8 - 22/9</item>
+        <item>8/23 - 9/22</item>
     </string-array>
     <string-array name="week_header_name">
         <item>SÖN</item>
@@ -387,5 +360,14 @@
     <string-array name="widget_style_list">
         <item>Transparent</item>
         <item>Vit bakgrund</item>
+    </string-array>
+    <string-array name="year_view_week_header_name">
+        <item>Sö</item>
+        <item>Må</item>
+        <item>Ti</item>
+        <item>On</item>
+        <item>To</item>
+        <item>Fr</item>
+        <item>Lö</item>
     </string-array>
 </resources>

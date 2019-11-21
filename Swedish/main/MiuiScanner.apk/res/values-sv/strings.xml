@@ -29,6 +29,8 @@
     <string name="abc_toolbar_collapse_description">Komprimera</string>
     <string name="search_menu_title">Sök</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="Approval">Ansök</string>
+    <string name="Xiaomi_account_pending_approval">Granskar ansökan</string>
     <string name="about_title">Om</string>
     <string name="access_sd_fail">Det gick inte att komma åt SD-kortet</string>
     <string name="accessibility_shutter_button">Slutare</string>
@@ -59,6 +61,7 @@
     <string name="call_anyone">Samtal</string>
     <string name="camera_error_title">Kamerafel</string>
     <string name="cancel">Avbryt</string>
+    <string name="check_for_updates">Sök efter beta-uppdateringar</string>
     <string name="choose_open_code_app">Välj en app</string>
     <string name="choose_pay_title">Välj betalningsmetod</string>
     <string name="choose_picture">Välj QR-kod bild</string>
@@ -72,6 +75,7 @@
     <string name="contact_details">Kontakt för QR-kod:</string>
     <string name="continue_access_web_url">Gå till webbsida</string>
     <string name="continue_to_website">Gå till webbsida</string>
+    <string name="continue_waiting">Fortsätt vänta</string>
     <string name="copy_text">Kopiera text</string>
     <string name="copy_text_success">Text kopierad</string>
     <string name="crop_cancel_description">Avbryt</string>
@@ -96,6 +100,8 @@
     <string name="document_title">Ta ett foto av dokumentet</string>
     <string name="document_top_panel_title">Dokument foto</string>
     <string name="done">Klar</string>
+    <string name="download_stable_version">Använd stabil version</string>
+    <string name="download_use_stable_version">Ladda ner stabil version</string>
     <string name="drag_barcode_into_frame">Håll koden innanför ramen</string>
     <string name="drag_crop_to_business_card">Flytta till beskära</string>
     <string name="email">E-post:</string>
@@ -106,11 +112,28 @@
     <string name="error_media_storage_failure">Kunde inte spara foto</string>
     <string name="error_permissions">Scanner har inte korrekt behörighet för att fungera normalt. Gå in i Inställningar och kontrollera behörigheter för att fortsätta.</string>
     <string name="error_server_error">Ett serverfel inträffade.</string>
+    <string name="experience_new_feature_tips">Logga in till ditt Mi-konto för att ansöka om behörighet att använda beta-versionen. Du kommer kunna använda beta-versionen efter att vi har granskat din ansökan. Beta-versionen kan innehålla buggar.</string>
+    <string name="experience_new_features">Beta-version</string>
+    <string name="experiential_version_of_the_prompt_content">Logga in till ditt Mi-konto för att få tillgång till Scanner Beta. Logga in nu?</string>
+    <string name="failed_to_get_xiaomi_account">Det gick inte att logga in</string>
     <string name="fax">Fax</string>
     <string name="feed_search_fail">Inga resultat, försök igen</string>
+    <string name="feedback">Feedback</string>
     <string name="feedback_description_camera_access">Scanner kan inte ansluta till Kamera</string>
     <string name="feedback_description_save_photo">Kunde inte spara foto eller video</string>
+    <string name="feedback_title">Feedback</string>
     <string name="flight_mode_connecting_to_wifi">Aktivera Wi-Fi manuellt när flygplatsläget är på</string>
+    <string name="food_identification_fail_tips">Skanna frukter, grönsaker och annat livsmedel. Denna funktion fungerar även med bilder.</string>
+    <string name="food_identification_tip_msg">Känner igen mat…</string>
+    <string name="food_make_complaints_hint">Ange feedback här</string>
+    <string name="food_module_feedback_str">Feedback</string>
+    <string name="food_module_get_more_info">Mer info</string>
+    <string name="food_module_identification_failure">Kunde inte känna igen denna vara</string>
+    <string name="food_module_send_feedback">Skicka</string>
+    <string name="food_module_step_on">Gilla inte</string>
+    <string name="food_module_thumbs_up">Gilla</string>
+    <string name="food_module_tip">Placera livsmedlet inom ramen</string>
+    <string name="food_module_title_food">Kalorier</string>
     <string name="got_it">Jag förstår</string>
     <string name="gps">Navigera</string>
     <string name="import_contact">Importera kontakt</string>
@@ -145,6 +168,8 @@
     <string name="name">Namn:</string>
     <string name="new_schedule">Skapa händelse</string>
     <string name="nickname">Smeknamn:</string>
+    <string name="no_has_experience_version_permission">Du har inte behörighet att använda Scanner beta. Ansök om behörighet eller ladda ner den stabila versionen.</string>
+    <string name="no_inner_version">Beta-versionen är inte tillgänglig</string>
     <string name="no_network">Kan inte ansluta till nätverket</string>
     <string name="no_storage">Inget internt lagringsutrymme</string>
     <string name="no_support_to_translate_type">Detta språk stöds inte</string>
@@ -165,9 +190,11 @@
     <string name="plant_title">Skanna den krukväxt som du vill identifiera</string>
     <string name="preparing_sd">Förbereder internt lagringsutrymme…</string>
     <string name="previous">Tillbaka</string>
+    <string name="prompt">Obs!</string>
     <string name="qr_code_details">Detaljer för QR-kod:</string>
     <string name="recognize">Skanna</string>
     <string name="recognize_fail">Det gick inte att läsa koden</string>
+    <string name="request_server_failed">Det gick inte att ansluta till servern</string>
     <string name="scan_result">Resultat</string>
     <string name="scan_support_type">WeChat, Alipay, QR-koder, streckkoder</string>
     <string name="sdk_not_ready">Förbereder SDK. Försök igen senare.</string>
@@ -192,6 +219,7 @@
     <string name="study_searching">Söker efter resultat…</string>
     <string name="study_title">Skanna problemet du vill lösa</string>
     <string name="study_vendor_info">Drivs av Zuoyebang</string>
+    <string name="suggested_submission_success">Skickat in din feedback framgångsrikt</string>
     <string name="switch_open">Aktivera</string>
     <string name="tel">Telefon</string>
     <string name="title">Titel:</string>
@@ -227,6 +255,7 @@
     <string name="translation_see_more">Visa definition</string>
     <string name="translation_type_sentence">Fras</string>
     <string name="translation_type_word">Ord</string>
+    <string name="uninstall_prompt">Om problem uppstår under installationen, gå till Inställningar > Appar > Hantera appar > Scanner, tryck på \"Avinstallera\", och försök att installera appen igen.</string>
     <string name="url_is_phish">Detta kan vara en nätfiskewebbplats</string>
     <string name="url_is_safety">Denna webbplats är säker</string>
     <string name="url_is_unknown">Kan inte kontrollera om denna webbplats är säker</string>
@@ -235,6 +264,7 @@
     <string name="web">Webbsida:</string>
     <string name="website_details">Webbplats:</string>
     <string name="weixin_code_tip">Skanna denna QR-kod med WeChat</string>
+    <string name="welcome_to_thesweepversion">Välkommen till Scanner beta!</string>
     <string name="wifi_details">Wi-Fi:</string>
     <string name="wifi_exist_fail">Surfzon \"%1$s\" finns redan. Ta bort den och skanna koden igen för att ansluta.</string>
     <string name="wifi_open_fail">Kan inte slå på Wi-Fi</string>
@@ -242,5 +272,9 @@
     <string name="wifi_pwd">Lösenord:</string>
     <string name="wifi_security">Säkerhet:</string>
     <string name="wifi_ssid">SSID:</string>
+    <string name="will_be_sent_tothe_background_review">" (Din ansökan kommer att skickas för granskning inom kort.)"</string>
     <string name="wx_not_installed_toast">Den här funktionen använder WeChat. Installera WeChat först.</string>
+    <string name="you_have_permission_to_download">Tryck för att ladda ner beta-versionen</string>
+    <string name="you_id">"Ditt ID: "</string>
+    <string name="your_application_is_under_review">" (Din ansökan håller på att granskas)"</string>
 </resources>

@@ -24,7 +24,6 @@
     <string name="announce_for_close_folder">Stängde mapp</string>
     <string name="announce_for_close_launcher_menu">Stängde menyn</string>
     <string name="announce_for_create_folder_with_app">Skapade en mapp med %1$s</string>
-    <string name="announce_for_delete_gadget_and_widget">Widget</string>
     <string name="announce_for_delete_item">%1$s har tagits bort</string>
     <string name="announce_for_drag_enter_delete_zone">Objekt som dragits till avinstallationszonen</string>
     <string name="announce_for_drag_enter_folder_grid">Du kan släppa objekt i mappen</string>
@@ -48,7 +47,6 @@
     <string name="announce_for_show_uninstall_dialog">Dialog för avinstallation visas. Avbryt eller bekräfta.</string>
     <string name="announce_for_unchecked">%1$s, avmarkerad</string>
     <string name="announce_for_widget_span">Bredd %1$d, höjd %2$d</string>
-    <string name="announce_for_xiaoai">Mi AI</string>
     <string name="app_already_exist">App finns redan</string>
     <string name="app_being_backup_message">Appar säkerhetskopieras</string>
     <string name="app_being_restored_message">App återställs</string>
@@ -64,12 +62,9 @@
     <string name="app_category_photos">Fotografi</string>
     <string name="app_category_productivity">Produktivitet</string>
     <string name="app_category_shopping">Handla</string>
-    <string name="app_category_social">Social</string>
     <string name="app_category_sport">Sport</string>
     <string name="app_category_tools">Verktyg</string>
     <string name="app_category_travel">Resa</string>
-    <string name="app_category_vr">VR</string>
-    <string name="application_name">System launcher</string>
     <string name="apply">Ange</string>
     <string name="apply_action">Ange</string>
     <string name="apply_as_lock_screen">Bakgrund på Låsskärm</string>
@@ -95,7 +90,6 @@
     <string name="chooser_wallpaper">Välj en ny bakgrund</string>
     <string name="cloud_app_restore_title">Väntar</string>
     <string name="configure_wallpaper">Inställningar</string>
-    <string name="confirm_btn_label">OK</string>
     <string name="confirm_uninstall_dialog_contain_xspace_app_msg">Dubbelappar kommer avinstalleras tillsammans med de här.</string>
     <string name="confirm_uninstall_dialog_has_xspace_app_msg">Dubbelappar kommer avinstalleras tillsammans med den här.</string>
     <string name="confirm_uninstall_dialog_title">Dubbelappar kommer avinstalleras</string>
@@ -106,25 +100,17 @@
     <string name="current_wallpaper">Nuvarande</string>
     <string name="custom_wallpaper_picker">Bläddra</string>
     <string name="defalut_launcher_title">Hemskärmsapp</string>
-    <string name="default_folder_title_claro">Claro</string>
     <string name="default_folder_title_game">Spel</string>
-    <string name="default_folder_title_meitu">Meitu apps</string>
-    <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_recommend">Fler appar</string>
-    <string name="default_folder_title_security">System</string>
     <string name="default_folder_title_services">Tjänster</string>
-    <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">Verktyg</string>
     <string name="default_screen_preview_title">Konfigurera standardskärm</string>
-    <string name="default_shortcut_title_10086">10086.cn</string>
     <string name="delete">Ta bort</string>
     <string name="delete_screen">Ta bort skärm</string>
     <string name="delete_wallpaper_message">Ta bort %1$d bakgrundsbild?</string>
     <string name="deselect_all">Välj ingen</string>
     <string name="disable_wallpaper_scroll">Avaktivera sidskrollning</string>
     <string name="download_action">Ladda ner</string>
-    <string name="drag_multiple_item_name" />
-    <string name="drag_single_item_name" />
     <string name="dual_app">Dubbelappar</string>
     <string name="edit_folder_title">Ändra mappnamn</string>
     <string name="edit_mode_dual_app">Skapa en Dubbelapp</string>
@@ -154,7 +140,6 @@
     <string name="frame_load_failed">Kan inte läsa in ram</string>
     <string name="free_style_apps_title">Välj app</string>
     <string name="free_style_drawer_title">Alla appar</string>
-    <string name="free_style_edit_app">App</string>
     <string name="free_style_edit_bar_empty">Tom</string>
     <string name="free_style_edit_bar_select_app">Välj app</string>
     <string name="free_style_edit_bottom_empty_tip">Tryck på rektangeln för att ändra</string>
@@ -162,7 +147,6 @@
     <string name="free_style_edit_move_tip">Tryck &amp; håll för att flytta ett objekt</string>
     <string name="free_style_edit_tab_free_component">Objekt</string>
     <string name="free_style_edit_tab_shortcut">Genvägar</string>
-    <string name="free_style_edit_tab_widget">Widgets</string>
     <string name="free_style_enter_tip">För att visa Mi Space, dra ned med två fingrar från toppen av skärmen</string>
     <string name="free_style_exit_tip">För att återgå till Hemskärmen, dra upp med två fingrar från nedre delen av skärmen</string>
     <string name="free_style_londing_text">Vänta lite…</string>
@@ -178,7 +162,6 @@
     <string name="gadget_error_text">Kan inte ladda widget</string>
     <string name="gadget_google_search_label">Google Sök</string>
     <string name="gadget_load_error">Laddar…</string>
-    <string name="gadget_mtz_label">Gadgets</string>
     <string name="gadget_notes_label">Anteckningar</string>
     <string name="gadget_photo_22_label">Bild 2x2</string>
     <string name="gadget_photo_24_label">Bild 4x2</string>
@@ -258,7 +241,6 @@
     <string name="menu_wallpaper">Bakgrund</string>
     <string name="menu_workspace_preview">Förhandsvisa Hemskärm</string>
     <string name="mi_wallpaper">Teman från MIUI</string>
-    <string name="minus_one_screen">App vault</string>
     <string name="miui_screen_config_title">Inställningar för Hemskärm</string>
     <string name="mtzgadget_missing_text">Widget är inte tillgänglig</string>
     <string name="multi_selecting_tips">För att plocka upp en app, dra ikonen och släpp här.</string>
@@ -269,13 +251,11 @@
     <string name="notification_installed">Installerat</string>
     <string name="notification_open_button">Öppen</string>
     <string name="notification_reset_title">Ordna ikoner framgångsrikt</string>
-    <string name="online_wallpaper">Online</string>
     <string name="open_personal_assistant_dialog_btn_cancel">Avbryt</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Avaktivera</string>
     <string name="open_personal_assistant_dialog_desc">Du kommer inte att kunna använda App vault och få dina uppdateringar. Avaktivera nu?</string>
     <string name="open_personal_assistant_dialog_desc_international">Du kommer inte att kunna använda kort (Aktier, Genvägar med mera.) i App vault och få uppdateringar när du stänger av funktionen.</string>
     <string name="open_personal_assistant_dialog_title">Avaktivera App vault</string>
-    <string name="open_personal_assistant_title">App vault</string>
     <string name="out_of_space">Ingen mer plats på Hemskärmen</string>
     <string name="permdesc_install_shortcut">Tillåt en app att lägga till genvägar utan att åtgärd från användaren.</string>
     <string name="permdesc_install_widget">Tillåt en app att lägga till widgets utan att åtgärd från användaren.</string>
@@ -311,7 +291,6 @@
     <string name="quick_app">Snabb appar</string>
     <string name="recent_apps">Senaste</string>
     <string name="recents_config_title">Senast använda appar</string>
-    <string name="recommend_apk_size_and_desc">%1$dMB | %2$s</string>
     <string name="recommend_apps_default_title">Tom</string>
     <string name="recommend_apps_no_data">Ingen data</string>
     <string name="recommend_apps_no_data_toast">Inga rekommendationer för tillfället.</string>
@@ -352,6 +331,7 @@
     <string name="sort_by_not_defined">Sortera automatiskt</string>
     <string name="start_activity_failed">Kan inte starta launcher</string>
     <string name="starting_preset_app">Startar…</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="status_downloaded">Nedladdat</string>
     <string name="status_downloading">Laddar ned</string>
     <string name="status_installing">Installerar</string>
@@ -366,7 +346,6 @@
     <string name="toggle_title">Knappar</string>
     <string name="transformation_type_classic">Överskjutning</string>
     <string name="transformation_type_classic_no_overshoot">Skjutning</string>
-    <string name="transformation_type_crossfade">Crossfade</string>
     <string name="transformation_type_cube">Kub</string>
     <string name="transformation_type_falldown">Tumla</string>
     <string name="transformation_type_leftpage">Sida</string>

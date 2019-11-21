@@ -8,7 +8,6 @@
     <string name="app_label">Utskriftskö</string>
     <string name="blocked_notification_title_template">Skrivaren har blockerat %1$s</string>
     <string name="button_delete">Radera</string>
-    <string name="button_ok">OK</string>
     <string name="cancel">Avbryt</string>
     <string name="cancel_print">Avbryt uppgift</string>
     <string name="cancelling_notification_title_template">Avbryter %1$s</string>
@@ -31,9 +30,7 @@
     <string name="label_color">Färg</string>
     <string name="label_copies">Kopior</string>
     <string name="label_copies_summary">Kopior:</string>
-    <string name="label_destination">Destination</string>
     <string name="label_duplex">Dubbelsidig</string>
-    <string name="label_orientation">Layout</string>
     <string name="label_pages">Sidor</string>
     <string name="label_paper_size">Papper</string>
     <string name="label_paper_size_summary">Pappersstorlek:</string>
@@ -63,7 +60,7 @@
     <string name="print_forget_printer">Ta bort en skrivare</string>
     <string name="print_help_label">Hjälp</string>
     <string name="print_help_tip">Se till att både telefonen och skrivaren är anslutna till samma Wi-Fi-nätverk eller att Wi-Fi Direct är på. %1$s.</string>
-    <string name="print_help_tip_reg">Visa Hjälp</string>
+    <string name="print_help_tip_reg">Visa \"Hjälp\"</string>
     <string name="print_no_print_services">Inga utskriftstjänster har aktiverats</string>
     <string name="print_no_printers">Det gick inte att hitta några skrivare</string>
     <string name="print_options_collapsed">Utskriftsalternativen har komprimerats</string>
@@ -85,6 +82,7 @@
     <string name="printer_busy">Skrivaren är upptagen</string>
     <string name="printer_error">Felmeddelande skrivare</string>
     <string name="printer_error_msg">Skrivarfel: %1$s</string>
+    <string name="printer_extended_description_template">%1$s – %2$s</string>
     <string name="printer_info_desc">Mer information om den här skrivaren</string>
     <string name="printer_notification_error_title">Kunde inte skriva ut %1$s</string>
     <string name="printer_unavailable">Skrivaren är inte tillgänglig</string>
@@ -103,7 +101,6 @@
     <string name="search_brand">Sök</string>
     <string name="select_to_add_printers">Lägg till en skrivare</string>
     <string name="start_print">Skriv ut</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_template">Sammanfattning, antal kopior %1$s, pappersformat %2$s</string>
     <string name="system_print_service_help">Om utskrift</string>
     <string name="template_all_pages">Alla %1$s</string>

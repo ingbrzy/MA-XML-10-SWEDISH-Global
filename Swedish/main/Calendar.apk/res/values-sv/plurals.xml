@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="Ndays">
-        <item quantity="other">%d dagar före</item>
-        <item quantity="one">%d dag före</item>
+        <item quantity="other">%d dagar innan händelsen</item>
+        <item quantity="one">%d dag innan händelsen</item>
     </plurals>
     <plurals name="Ndays_after_at">
         <item quantity="other">Efter %1$d dagar kl. %2$s</item>
         <item quantity="one">Efter %1$d dag kl. %2$s</item>
     </plurals>
     <plurals name="Ndays_ago_at">
-        <item quantity="other">%1$d dagar innan kl %2$s</item>
-        <item quantity="one">%1$d dag innan kl %2$s</item>
+        <item quantity="other">%1$d dagar innan händelsen kl %2$s</item>
+        <item quantity="one">%1$d dag innan händelsen kl %2$s</item>
     </plurals>
     <plurals name="Nhours">
-        <item quantity="other">%d timmar före</item>
-        <item quantity="one">%d timme före</item>
+        <item quantity="other">%d timmar innan händelsen</item>
+        <item quantity="one">%d timme innan händelsen</item>
     </plurals>
     <plurals name="Nminutes">
-        <item quantity="other">%d minuter före</item>
-        <item quantity="one">%d minut före</item>
+        <item quantity="other">%d minuter innan händelsen</item>
+        <item quantity="one">%d minut innan händelsen</item>
     </plurals>
     <plurals name="Nweeks">
-        <item quantity="other">%d veckor innan</item>
-        <item quantity="one">%d vecka innan</item>
+        <item quantity="other">%d veckor innan händelsen</item>
+        <item quantity="one">%d vecka innan händelsen</item>
     </plurals>
     <plurals name="anniversary_day">
         <item quantity="other">%1$s dagar</item>
@@ -77,12 +77,28 @@
         <item quantity="one">Du kan skriva in upp till %1$d dag</item>
     </plurals>
     <plurals name="event_reminders_to_max">
-        <item quantity="other">Det är möjligt att ställa in %d -påminnelser</item>
-        <item quantity="one">Det är möjligt att ställa in %d -påminnelser</item>
+        <item quantity="other">Det är möjligt att ställa in %d påminnelser</item>
+        <item quantity="one">Det är möjligt att ställa in %d påminnelse</item>
     </plurals>
     <plurals name="month_more_events">
         <item quantity="other">+%d</item>
         <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="reminder_custom_unit_day">
+        <item quantity="other">" dagar"</item>
+        <item quantity="one">" dag"</item>
+    </plurals>
+    <plurals name="reminder_custom_unit_hour">
+        <item quantity="other">" timmar"</item>
+        <item quantity="one">" timme"</item>
+    </plurals>
+    <plurals name="reminder_custom_unit_minute">
+        <item quantity="other">" minuter"</item>
+        <item quantity="one">" minut"</item>
+    </plurals>
+    <plurals name="reminder_later_toast">
+        <item quantity="other">Nästa påminnelse om %1$d minuter</item>
+        <item quantity="one">Nästa påminnelse om %1$d minut</item>
     </plurals>
     <plurals name="repeat_custom_prompt">
         <item quantity="other">var %1$s , %2$s</item>
@@ -103,10 +119,6 @@
     <plurals name="repeat_interval_frequency_year_multiple">
         <item quantity="other">%1$d år</item>
         <item quantity="one">%1$d år</item>
-    </plurals>
-    <plurals name="travel_eta_advice">
-        <item quantity="other">%2$s minuters bilresa till %1$s.</item>
-        <item quantity="one">%2$s minuts bilresa till %1$s.</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="other">Vecka %d</item>

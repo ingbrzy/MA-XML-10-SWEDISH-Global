@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d dagar sedan</item>
+        <item quantity="one">%d dag sedan</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d minuter sedan</item>
+        <item quantity="one">%d minut sedan</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d år sedan</item>
+        <item quantity="one">%d år sedan</item>
+    </plurals>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">%1$d appar har fullständig åtkomst till din enhet</item>
+        <item quantity="one">1 app har fullständig åtkomst till din enhet</item>
+    </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
         <item quantity="other">Extremt kort fördröjning (%1$d ms)</item>
         <item quantity="one">Extremt kort fördröjning (%1$d ms)</item>
@@ -132,6 +148,14 @@
         <item quantity="other">%s timmar</item>
         <item quantity="one">1 timme</item>
     </plurals>
+    <plurals name="location_app_permission_summary_location_on">
+        <item quantity="other">%1$d av %2$d appar har platsåtkomst</item>
+        <item quantity="one">%1$d av %2$d appar har platsåtkomst</item>
+    </plurals>
+    <plurals name="location_settings_summary_location_on">
+        <item quantity="other">På – %1$d appar har platsåtkomst</item>
+        <item quantity="one">På – %1$d app har platsåtkomst</item>
+    </plurals>
     <plurals name="lockpassword_password_requires_letters">
         <item quantity="other">Lösenordet måste innehålla minst %d bokstäver</item>
         <item quantity="one">Lösenordet måste innehålla minst en bokstav</item>
@@ -208,9 +232,17 @@
         <item quantity="other">%d tillagda</item>
         <item quantity="one">%d tillagd</item>
     </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">%1$d SIM-kort</item>
+        <item quantity="one">%1$d SIM-kort</item>
+    </plurals>
     <plurals name="network_restrictions_summary">
         <item quantity="other">%1$d begränsningar</item>
         <item quantity="one">1 begränsning</item>
+    </plurals>
+    <plurals name="notification_few_channel_count_summary">
+        <item quantity="other">%1$d aviseringskanaler.</item>
+        <item quantity="one">%1$d aviseringskanal.</item>
     </plurals>
     <plurals name="notification_group_summary">
         <item quantity="other">%d kategorier</item>
@@ -224,9 +256,21 @@
         <item quantity="other">%d kategorier har inaktiverats</item>
         <item quantity="one">%d kategori har inaktiverats</item>
     </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">ca %d aviseringar om dagen</item>
+        <item quantity="one">ca %d avisering om dagen</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">ca %d aviseringar i veckan</item>
+        <item quantity="one">ca %d avisering i veckan</item>
+    </plurals>
     <plurals name="number_of_device_admins">
         <item quantity="other">%d aktiva appar</item>
         <item quantity="one">%d aktiv app</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s appar</item>
+        <item quantity="one">1 app</item>
     </plurals>
     <plurals name="permissions_summary">
         <item quantity="other">%d behörigheter har getts</item>
@@ -271,6 +315,10 @@
     <plurals name="settings_suggestion_header_summary_hidden_items">
         <item quantity="other">Visa %d dolda objekt</item>
         <item quantity="one">Visa %d dolt objekt</item>
+    </plurals>
+    <plurals name="show_bluetooth_devices">
+        <item quantity="other">%1$d anslutna enheter</item>
+        <item quantity="one">%1$d ansluten enhet</item>
     </plurals>
     <plurals name="show_cit_countdown">
         <item quantity="other">Du är %1$d steg från att gå in i CIT.</item>
@@ -373,8 +421,8 @@ Kontakta administratören om du vill veta mer om certifikatet."</item>
         <item quantity="one">%d minut</item>
     </plurals>
     <plurals name="usage_state_miunte_text">
-        <item quantity="other">" min"</item>
-        <item quantity="one">" min"</item>
+        <item quantity="other">" minuter"</item>
+        <item quantity="one">" minut"</item>
     </plurals>
     <plurals name="usage_state_noti_count">
         <item quantity="other">%d notifikationer</item>
@@ -405,8 +453,8 @@ Kontakta administratören om du vill veta mer om certifikatet."</item>
         <item quantity="one">" tim"</item>
     </plurals>
     <plurals name="usagestats_device_notification_des_min">
-        <item quantity="other">" min"</item>
-        <item quantity="one">" min"</item>
+        <item quantity="other">" minuter"</item>
+        <item quantity="one">" minut"</item>
     </plurals>
     <plurals name="virus_scan_app_find_risk">
         <item quantity="other">%d risker upptäckta</item>
@@ -415,6 +463,14 @@ Kontakta administratören om du vill veta mer om certifikatet."</item>
     <plurals name="wifi_saved_access_points_summary">
         <item quantity="other">%d nätverk</item>
         <item quantity="one">1 nätverk</item>
+    </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">%d nätverk och prenumerationer</item>
+        <item quantity="one">1 nätverk och prenumeration</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">%d prenumerationer</item>
+        <item quantity="one">1 prenumeration</item>
     </plurals>
     <plurals name="wifi_share_count">
         <item quantity="other">Delade %d nätverk</item>
@@ -428,17 +484,21 @@ Kontakta administratören om du vill veta mer om certifikatet."</item>
         <item quantity="other">Du angav fel pinkod för SIM-kortet. %d försök återstår.</item>
         <item quantity="one">Du angav fel pinkod för SIM-kortet. %d försök återstår innan du måste kontakta operatören för att låsa upp enheten.</item>
     </plurals>
+    <plurals name="zen_mode_bypassing_apps_subtext">
+        <item quantity="other">Aviseringar från %1$d appar kan åsidosätta Stör ej</item>
+        <item quantity="one">Aviseringar från 1 app kan åsidosätta Stör ej</item>
+    </plurals>
     <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d timmar (om det inte aktiveras automatiskt)</item>
-        <item quantity="one">1 timme (om det inte aktiveras automatiskt)</item>
+        <item quantity="other">%d timmar</item>
+        <item quantity="one">1 timme</item>
     </plurals>
     <plurals name="zen_mode_settings_summary_on">
-        <item quantity="other">%d regler</item>
-        <item quantity="one">1 regel</item>
+        <item quantity="other">%d har aktiverats</item>
+        <item quantity="one">1 har aktiverats</item>
     </plurals>
     <plurals name="zen_mode_sound_summary_summary_off_info">
-        <item quantity="other">%d regler kan aktiveras automatiskt</item>
-        <item quantity="one">1 regel kan aktiveras automatiskt</item>
+        <item quantity="other">%d scheman kan aktiveras automatiskt</item>
+        <item quantity="one">1 schema kan aktiveras automatiskt</item>
     </plurals>
     <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
         <item quantity="other">%d till</item>

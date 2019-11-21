@@ -230,6 +230,11 @@
         <item>3 processer som mest</item>
         <item>4 processer som mest</item>
     </string-array>
+    <string-array name="autofill_logging_level_entries">
+        <item>Av</item>
+        <item>Felsökning</item>
+        <item>Utförlig</item>
+    </string-array>
     <string-array name="automatic_storage_management_days">
         <item>Äldre än 30 dagar</item>
         <item>Äldre än 60 dagar</item>
@@ -306,28 +311,6 @@
         <item>Optimerad för anslutningskvalité (330kbps/303kbps)</item>
         <item>Bäst prestanda (adaptiv bithastighet)</item>
     </string-array>
-    <string-array name="bluetooth_a2dp_codec_lhdc_latency_summaries">
-        <item>Short latency</item>
-        <item>Middle latency</item>
-        <item>Long latency</item>
-    </string-array>
-    <string-array name="bluetooth_a2dp_codec_lhdc_latency_titles">
-        <item>Short latency (50~100ms)</item>
-        <item>Middle latency (150~200ms)</item>
-        <item>Long latency (300~500ms)</item>
-    </string-array>
-    <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_summaries">
-        <item>Optimized for connection quality</item>
-        <item>Balanced audio and connection quality</item>
-        <item>Optimized for audio quality</item>
-        <item>Best effort (Auto bit rate)</item>
-    </string-array>
-    <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_titles">
-        <item>Optimized for connection quality (400kbps)</item>
-        <item>Balanced audio and connection quality (500/560kbps)</item>
-        <item>Optimized for audio quality (900kbps)</item>
-        <item>Best effort (Auto bit rate)</item>
-    </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
         <item>Använd Systemets val (Standard)</item>
         <item>44.1 kHz</item>
@@ -350,7 +333,6 @@
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptive audio</item>
-        <item>LHDC</item>
         <item>Aktivera valfria codecs</item>
         <item>Inaktivera valfria codecs</item>
     </string-array>
@@ -362,7 +344,6 @@
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptive audio</item>
-        <item>LHDC</item>
         <item>Aktivera valfria codecs</item>
         <item>Inaktivera valfria codecs</item>
     </string-array>
@@ -397,6 +378,13 @@
         <item>5 minuter</item>
         <item>1 timme</item>
         <item>Ange aldrig tidsgräns</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Inaktiverad</item>
+        <item>Filter aktiverat</item>
+        <item>Heders Filtered aktiverat</item>
+        <item>Media Pkts Filtered aktiverat</item>
+        <item>Aktiverad</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 sekund</item>
@@ -445,6 +433,14 @@
         <item>Informell</item>
         <item>Kursiv</item>
         <item>Kapitäler</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Endast hemma</item>
+        <item>Automatisk</item>
     </string-array>
     <string-array name="change_security_lock_picker">
         <item>Ansiktsupplåsning</item>
@@ -743,6 +739,31 @@
         <item>Paramaribo</item>
         <item>Quito</item>
     </string-array>
+    <array name="click_bottom">
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom04</item>
+        <item>@drawable/clickbottom05</item>
+        <item>@drawable/clickbottom06</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom08</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+    </array>
     <string-array name="color_mode_descriptions">
         <item>Förstärkta färger</item>
         <item>Naturliga färger som ögat ser dem</item>
@@ -778,9 +799,8 @@
         <item>1</item>
     </string-array>
     <string-array name="dark_ui_mode_entries">
-        <item>Automatisk (grundat på tidpunkt)</item>
-        <item>Alltid på</item>
-        <item>Alltid av</item>
+        <item>Mörkt</item>
+        <item>Ljust</item>
     </string-array>
     <string-array name="data_usage_data_range">
         <item>Senaste 30 dagarna</item>
@@ -818,12 +838,6 @@
         <item>5 minuter</item>
         <item>10 minuter</item>
         <item>30 minuter</item>
-    </string-array>
-    <string-array name="eap_method_without_sim_auth">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Inga</item>
@@ -889,6 +903,15 @@
         <item>com.android.localphone</item>
         <item>com.android.sim</item>
     </string-array>
+    <string-array name="key_and_gesture_shortcut_action">
+        <item>long_press_home_key</item>
+        <item>long_press_menu_key</item>
+        <item>long_press_back_key</item>
+        <item>key_combination_power_home</item>
+        <item>key_combination_power_menu</item>
+        <item>key_combination_power_back</item>
+        <item>key_none</item>
+    </string-array>
     <string-array name="keyguard_notification_status_entries">
         <item>Väck inte skärmen</item>
         <item>Väck skärmen</item>
@@ -932,6 +955,43 @@
         <item>Efter 5 minuter</item>
         <item>Aldrig</item>
     </string-array>
+    <array name="long_press">
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom04</item>
+        <item>@drawable/clickbottom05</item>
+        <item>@drawable/clickbottom06</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+    </array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Kort</item>
         <item>Mellan</item>
@@ -999,6 +1059,14 @@
         <item>Tillgång till monterade enheter: mtpfs /media/mtp via Utforskaren; samma som lokal katalog.</item>
         <item>"Avinstallera enhet: fusermount -u /media/mtp
 Note: Bara för Ubuntu 8.04!"</item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_mac">
+        <item>@string/msd_install_retry_reinstall_mac</item>
+        <item>@string/msd_install_retry_connect</item>
+        <item>@string/msd_install_retry_reinstall</item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_vista">
+        <item>@string/msd_install_retry_connect</item>
     </string-array>
     <string-array name="msd_pc_system_retry_xp">
         <item>@string/msd_install_retry_connect</item>
@@ -1100,6 +1168,97 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Dämpa bruset för en mikrofon</item>
         <item>Dämpa bruset för två mikrofoner</item>
     </string-array>
+    <array name="power_click">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
+    <array name="power_double_click">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
+    <array name="power_long_press">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
     <string-array name="power_mode_entries">
         <item>Prestanda</item>
         <item>Balanserad</item>
@@ -1114,6 +1273,36 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Musik</item>
         <item>E-post</item>
         <item>Spela upp video</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Föredrar GSM/WCDMA</item>
+        <item>Endast GSM</item>
+        <item>Endast WCDMA</item>
+        <item>Automatiskt GSM/WCDMA</item>
+        <item>Automatiskt CDMA/EvDo</item>
+        <item>CDMA utan EvDo</item>
+        <item>Endast EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>Globalt</item>
+        <item>LTE</item>
+        <item>LTE/WCDMA</item>
+        <item>Endast TDSCDMA</item>
+        <item>TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA</item>
+        <item>TDSCDMA/GSM</item>
+        <item>LTE/TDSCDMA/GSM</item>
+        <item>TDSCDMA/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_world_mode">
+        <item>Globalt</item>
+        <item>LTE/CDMA</item>
+        <item>LTE/GSM/UMTS</item>
     </string-array>
     <string-array name="priority_storage_entries">
         <item>Internt lagringsutrymme</item>
@@ -1180,12 +1369,17 @@ Note: Bara för Ubuntu 8.04!"</item>
     <string-array name="screen_optimize_summary">
         <item>Justera färger baserat på nuvarande ljussättning</item>
         <item>Förbättra alltid färger</item>
-        <item>Kontrasten kommer vara konstant</item>
+        <item>Återställ standardfärg för skärminnehåll med färgkalibrering</item>
     </string-array>
     <string-array name="screen_optimize_title">
-        <item>Auto (Rekommenderat)</item>
+        <item>Auto (rekommenderat)</item>
         <item>Mättad</item>
-        <item>Standard</item>
+        <item>Originalfärg</item>
+    </string-array>
+    <string-array name="screen_resolution_format">
+        <item>@string/screen_resolution_ultrahigh_format</item>
+        <item>@string/screen_resolution_high_format</item>
+        <item>@string/screen_resolution_normal_format</item>
     </string-array>
     <string-array name="screen_resolution_text">
         <item>2K</item>
@@ -1254,6 +1448,10 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Rita icke-rektangulära regioner i blått</item>
         <item>Markera testade ritkommandon i grönt</item>
     </string-array>
+    <string-array name="silent_entries">
+        <item>@string/standard</item>
+        <item>@string/total</item>
+    </string-array>
     <string-array name="silent_mode_duration_text">
         <item>Alltid</item>
         <item>30 minuter</item>
@@ -1276,6 +1474,35 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Tillåt</item>
         <item>Tillåt inte</item>
     </string-array>
+    <string-array name="swipe_direction_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <array name="three_drop">
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop02</item>
+        <item>@drawable/threedrop03</item>
+        <item>@drawable/threedrop04</item>
+        <item>@drawable/threedrop05</item>
+        <item>@drawable/threedrop06</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
     <string-array name="time_format_entries">
         <item>12-timmar 1:00 PM</item>
         <item>24-timmar 13:00</item>
@@ -1377,6 +1604,10 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>2</item>
         <item>3</item>
     </string-array>
+    <string-array name="vpn_proxy_settings">
+        <item>Inga</item>
+        <item>Manuell</item>
+    </string-array>
     <string-array name="vpn_states">
         <item>Frånkopplad</item>
         <item>Initierar...</item>
@@ -1418,14 +1649,13 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Procent (i ikonen)</item>
         <item>Procent (bredvid ikonen i meddelandeskärmen)</item>
     </string-array>
+    <string-array name="wifi_ap_band_config_2G_5G">
+        <item>@string/wifi_ap_choose_2G</item>
+        <item>@string/wifi_ap_choose_5G</item>
+    </string-array>
     <string-array name="wifi_ap_security">
         <item>@string/wifi_security_none</item>
         <item>@string/wifi_security_wpa2</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices">
-        <item>Wi-Fi i första hand</item>
-        <item>Mobilanpassad</item>
-        <item>Endast Wi-Fi</item>
     </string-array>
     <string-array name="wifi_calling_mode_choices_v2">
         <item>Wi-Fi</item>
@@ -1435,19 +1665,6 @@ Note: Bara för Ubuntu 8.04!"</item>
     <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
         <item>Wi-Fi</item>
         <item>Mobil enhet</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices_without_wifi_only">
-        <item>Wi-Fi i första hand</item>
-        <item>Mobilanpassad</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_values">
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_values_without_wifi_only">
-        <item>2</item>
-        <item>1</item>
     </string-array>
     <string-array name="wifi_connect_type_entries">
         <item>Anslut automatiskt</item>
@@ -1459,15 +1676,6 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>TLS</item>
         <item>TTLS</item>
         <item>PWD</item>
-    </string-array>
-    <string-array name="wifi_eap_method">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
-        <item>SIM</item>
-        <item>AKA</item>
-        <item>"AKA'"</item>
     </string-array>
     <string-array name="wifi_hidden_entries">
         <item>Nej</item>
@@ -1514,6 +1722,10 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
     </string-array>
+    <string-array name="wifi_privacy_entries">
+        <item>Använd slumpgenererad MAC-adress (standard)</item>
+        <item>Använd enhetens MAC-adress</item>
+    </string-array>
     <string-array name="wifi_proxy_settings">
         <item>Ingen</item>
         <item>Manuell</item>
@@ -1557,10 +1769,6 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Misslyckad</item>
         <item>Blockerad</item>
         <item>Undviker dålig anslutning temporärt</item>
-    </string-array>
-    <string-array name="wifi_tether_security_values">
-        <item>4</item>
-        <item>0</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animering avaktiverad</item>

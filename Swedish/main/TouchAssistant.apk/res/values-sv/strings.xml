@@ -18,7 +18,6 @@
     <string name="motion_behavior">Gest att föredra</string>
     <string name="name_alipay_payment_code">Alipay betalning</string>
     <string name="name_alipay_scan">Alipay skannare</string>
-    <string name="name_all_mipay_cards">Mi Pay</string>
     <string name="name_handy_mode">Enhandsläge</string>
     <string name="name_long_press_power_key">Långtryck på Strömknappen</string>
     <string name="name_memory_clean">Rensa cache</string>
@@ -36,7 +35,6 @@
     <string name="name_screenshot">Skärmdump</string>
     <string name="name_trans_cards">Transporter kort</string>
     <string name="name_wechat_payment_code">Wechat betalning</string>
-    <string name="name_wechat_scan">WeChat scanner</string>
     <string name="nfc_all_mipay_card_not_in_use">Mi Pay är inte aktiverat</string>
     <string name="nfc_trans_card_not_in_use">Transportkort är inte aktiverat</string>
     <string name="not_working">%s (Fungerar inte)</string>

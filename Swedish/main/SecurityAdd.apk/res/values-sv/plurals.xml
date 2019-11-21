@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="net_booster_expire_notification_tip">
+        <item quantity="other">%d dagar kvarstår innan sessionen med ökad hastighet på nätverket avslutas. Förnya sessionen för att undvika hastighetsproblem i nätverket.</item>
+        <item quantity="one">%d dag kvarstår innan sessionen med ökad hastighet på nätverket avslutas. Förnya sessionen för att undvika hastighetsproblem i nätverket.</item>
+    </plurals>
+</resources>
