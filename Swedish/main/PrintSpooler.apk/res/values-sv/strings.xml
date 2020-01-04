@@ -8,6 +8,7 @@
     <string name="app_label">Utskriftskö</string>
     <string name="blocked_notification_title_template">Skrivaren har blockerat %1$s</string>
     <string name="button_delete">Radera</string>
+    <string name="button_ok">OK</string>
     <string name="cancel">Avbryt</string>
     <string name="cancel_print">Avbryt uppgift</string>
     <string name="cancelling_notification_title_template">Avbryter %1$s</string>
@@ -16,6 +17,7 @@
     <string name="connectio_delay_content">Du kan behöva bekräfta anslutningen på din skrivare.</string>
     <string name="connectio_help_title">Anslutning till skrivaren</string>
     <string name="could_not_create_file">Det gick inte att skapa filen</string>
+    <string name="current_page_template">%1$d/%2$d</string>
     <string name="delete_saved_printer_content">Ta bort valda skrivare nu?</string>
     <string name="destination_default_text">Välj skrivare</string>
     <string name="disabled_services_title">Inaktiverade tjänster</string>
@@ -30,7 +32,9 @@
     <string name="label_color">Färg</string>
     <string name="label_copies">Kopior</string>
     <string name="label_copies_summary">Kopior:</string>
+    <string name="label_destination">Destination</string>
     <string name="label_duplex">Dubbelsidig</string>
+    <string name="label_orientation">Layout</string>
     <string name="label_pages">Sidor</string>
     <string name="label_paper_size">Papper</string>
     <string name="label_paper_size_summary">Pappersstorlek:</string>
@@ -82,6 +86,7 @@
     <string name="printer_busy">Skrivaren är upptagen</string>
     <string name="printer_error">Felmeddelande skrivare</string>
     <string name="printer_error_msg">Skrivarfel: %1$s</string>
+    <string name="printer_extended_description_template">%1$s – %2$s</string>
     <string name="printer_info_desc">Mer information om den här skrivaren</string>
     <string name="printer_notification_error_title">Kunde inte skriva ut %1$s</string>
     <string name="printer_unavailable">Skrivaren är inte tillgänglig</string>
@@ -100,6 +105,7 @@
     <string name="search_brand">Sök</string>
     <string name="select_to_add_printers">Lägg till en skrivare</string>
     <string name="start_print">Skriv ut</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_template">Sammanfattning, antal kopior %1$s, pappersformat %2$s</string>
     <string name="system_print_service_help">Om utskrift</string>
     <string name="template_all_pages">Alla %1$s</string>

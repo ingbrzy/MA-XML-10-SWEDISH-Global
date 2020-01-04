@@ -52,6 +52,17 @@
         <item>25 minuter</item>
         <item>30 minuter</item>
     </string-array>
+    <string-array name="bedtime_guide_repeat_type">
+        <item>Måndag till fredag</item>
+        <item>Varje dag</item>
+        <item>Arbetsdagar</item>
+    </string-array>
+    <string-array name="bedtime_repeat_entries">
+        <item>Varje dag</item>
+        <item>Måndag till fredag</item>
+        <item>Arbetsdagar</item>
+        <item>Anpassad</item>
+    </string-array>
     <string-array name="cities_names_miui">
         <item>Abidjan</item>
         <item>Accra</item>
@@ -633,6 +644,22 @@
         <item>Surinam</item>
         <item>Ecuador</item>
     </string-array>
+    <string-array name="days_of_week">
+        <item>Sön</item>
+        <item>Mån</item>
+        <item>Tis</item>
+        <item>Ons</item>
+        <item>Tor</item>
+        <item>Fre</item>
+        <item>Lör</item>
+    </string-array>
+    <string-array name="notification_adv_time_entries">
+        <item>Vid angiven tid</item>
+        <item>15 minuter före</item>
+        <item>30 minuter före</item>
+        <item>1 timme i förväg</item>
+        <item>Ingen</item>
+    </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 minut</item>
         <item>5 minuter</item>
@@ -641,6 +668,15 @@
         <item>20 minuter</item>
         <item>25 minuter</item>
         <item>30 minuter</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
     </string-array>
     <string-array name="time">
         <item>%1$s</item>
@@ -664,5 +700,10 @@
         <item>Gör inget</item>
         <item>Snooze</item>
         <item>Stäng av</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
 </resources>

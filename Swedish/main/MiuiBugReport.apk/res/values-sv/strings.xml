@@ -4,6 +4,8 @@
     <string name="action_submit">Skicka</string>
     <string name="announcement">Uppmärksamma</string>
     <string name="app_empty">Kunde inte hitta appar.</string>
+    <string name="app_label">Feedback</string>
+    <string name="app_name">Feedback</string>
     <string name="app_search">Sök efter appar</string>
     <string name="btn_send">Skicka</string>
     <string name="bugreport_dialog_not_show_again">Visa inte igen</string>
@@ -30,6 +32,7 @@
 3. Gå tillbaka till denna sida och tryck på \"Slutför och ladda upp\"."</string>
     <string name="catch_full_log_item_content_title">Steg:</string>
     <string name="catch_full_log_item_title_audio">Ljud, ljudinspelning och samtalsljud</string>
+    <string name="catch_full_log_item_title_bt">Bluetooth</string>
     <string name="catch_full_log_item_title_dump_heap">Laggar</string>
     <string name="catch_full_log_item_title_gps">Platstjänster</string>
     <string name="catch_full_log_item_title_sensor">Sensorer</string>
@@ -54,6 +57,7 @@
     <string name="customer_service_apply">Begär kundtjänst</string>
     <string name="customer_service_complain">Rapportera till kundtjänst</string>
     <string name="customer_service_station">Sök plats</string>
+    <string name="default_text_view">TextView</string>
     <string name="description">Beskriv problemet</string>
     <string name="dialog_ask_delete">Ta bort</string>
     <string name="dialog_ask_quit">Avsluta</string>
@@ -64,6 +68,7 @@
     <string name="err_type">Buggtyp</string>
     <string name="err_type_app">Appar</string>
     <string name="err_type_appstore">App butik</string>
+    <string name="err_type_bluetooth">Bluetooth</string>
     <string name="err_type_camera">Kamera</string>
     <string name="err_type_hardware">Hårdvara</string>
     <string name="err_type_hardware_summary">Knappar, laddning, sensorer, osv.</string>
@@ -73,9 +78,12 @@
     <string name="err_type_reboot">Starta om</string>
     <string name="err_type_signal">Nätverk</string>
     <string name="err_type_suggestion">Förslag</string>
+    <string name="err_type_system">System</string>
     <string name="err_type_system_summary">Minne, prestanda, osv.</string>
     <string name="err_type_systemapp">MIUI appar</string>
     <string name="err_type_translate">Språk</string>
+    <string name="err_type_wifi">Wi-Fi</string>
+    <string name="err_type_xiaomi_family">Mi Home</string>
     <string name="err_type_xiaomi_service">Kundtjänst</string>
     <string name="error_no_connection">Kunde inte ansluta till nätverket</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problem \"%2$s\"</string>
@@ -112,6 +120,8 @@
     <string name="feedback_empty_report_list">Inga rapporter ännu</string>
     <string name="feedback_guess">Vår gissning:</string>
     <string name="feedback_history_remind_login_desc">Logga in med ditt Mi-konto för att se detaljer och se din rapports framsteg</string>
+    <string name="feedback_id">ID: %d</string>
+    <string name="feedback_jira_key">JIRA Key: %s</string>
     <string name="feedback_jira_key_place_holder">Skapa en Jira…</string>
     <string name="feedback_package_log_failed">Kunde inte komprimera loggar</string>
     <string name="feedback_phone_model_label">Telefonmodell</string>
@@ -175,7 +185,10 @@
     <string name="feedback_title_hint">Beskriv problemet i korthet</string>
     <string name="feedback_title_reproductivity">Välj reproduktivitet</string>
     <string name="feedback_tracking">Spåra fel</string>
+    <string name="feedback_version_label">Version</string>
     <string name="feesback_list">Rapporter</string>
+    <string name="first_position">2#</string>
+    <string name="floor">%1$s#</string>
     <string name="from">från %1$s</string>
     <string name="goon_feedback_main">Fortsätt</string>
     <string name="hint_feedback_main">Beskriv problemet</string>
@@ -197,6 +210,7 @@
     <string name="kr_authorization_user_protocol">Användaravtal (obligatoriskt)</string>
     <string name="loading_apps">Laddar lista…</string>
     <string name="login_system_failed">Kunde inte logga in, försök igen</string>
+    <string name="logo_title">Feedback</string>
     <string name="max_error">Din %1$s måste vara kortare.</string>
     <string name="menu_copy">Kopiera</string>
     <string name="message_label">Meddelande</string>
@@ -205,6 +219,7 @@
     <string name="mi_service_dialog_content">Alla funktioner för återkoppling har flyttats till appen \"Tjänster och återkoppling\". Återkopplingsappen tas bort från din hemskärm. Tryck på \"Öppna\" för att testa \"Tjänster och återkoppling\".</string>
     <string name="mi_service_dialog_title">Introducerar \"Tjänster och återkoppling\"</string>
     <string name="michat_app_name">Onlinesupport</string>
+    <string name="michat_artificial_customer_phone">4001005678</string>
     <string name="michat_artificial_customer_phone_dial_error">Om du inte kan ringa 400 direktlinjen, ring %1$s med en annan telefon</string>
     <string name="michat_artificial_customer_text">Supportpersonal</string>
     <string name="michat_attach_image">Bild</string>
@@ -279,12 +294,15 @@
     <string name="module_data">Lagring &amp; Dubbelappar</string>
     <string name="module_desktop">Hemskärm &amp; inställningar</string>
     <string name="module_finance">Finans &amp; Mi Wallet</string>
+    <string name="module_google_apps">Google apps</string>
     <string name="module_item_less">Dölj</string>
     <string name="module_item_more">Mer</string>
+    <string name="module_medias">Media</string>
     <string name="module_more">Mer</string>
     <string name="module_network">Nätverk</string>
     <string name="module_search">Sök</string>
     <string name="module_security">Säkerhet &amp; Xiaomi Cloud</string>
+    <string name="module_system">System</string>
     <string name="module_tools">Systemverktyg</string>
     <string name="modules">Välj objekt</string>
     <string name="multi_graph_more">Objekt totalt: %d</string>
@@ -307,6 +325,7 @@
     <string name="network_unavailable_dialog_content">Rapporten kommer skickas när du har en dataanslutning.</string>
     <string name="network_unavailable_dialog_title">Det går inte ansluta till nätverket</string>
     <string name="non_system_app_select">Nedladdade appar</string>
+    <string name="nothing">--</string>
     <string name="open_feedback_main">Mer</string>
     <string name="packaging_dialog_content">Skapar rapport…</string>
     <string name="passport_access_denied">Nekat tillträde</string>
@@ -344,6 +363,7 @@ För att aktivera ditt konto, följ
     <string name="passport_error_device_id">Kan inte hämta enhets-Id</string>
     <string name="passport_error_dup_email">E-postmeddelandet du angav är redan kopplad till ett annat konto.</string>
     <string name="passport_error_email">Den e-postadress du angav är ogiltig</string>
+    <string name="passport_error_empty_captcha_code">Enter captcha</string>
     <string name="passport_error_empty_email">Skriv in din e-postadress</string>
     <string name="passport_error_empty_phone_num">Ange telefonnummer</string>
     <string name="passport_error_empty_pwd">Ange ditt lösenord</string>
@@ -381,6 +401,7 @@ För att aktivera ditt konto, följ
     <string name="passport_login">Logga in</string>
     <string name="passport_login_failed">Kan inte logga in</string>
     <string name="passport_login_instead_reg">Använd detta nummer</string>
+    <string name="passport_login_instead_reg_with_email">Use this email</string>
     <string name="passport_login_prompt">Ett Mi konto. Alla Mi tjänster.</string>
     <string name="passport_login_title">Logga in på ditt Mi-Konto</string>
     <string name="passport_login_using_other_ways"><u>Andra sätt att logga in</u></string>
@@ -436,6 +457,7 @@ För att aktivera ditt konto, följ
     <string name="passport_send_too_many_code">För många verifikationskoder har skickats från detta nummer. Vänta 24 tim och försök igen.</string>
     <string name="passport_setting">Ställer in…</string>
     <string name="passport_skip_login">Hoppa över</string>
+    <string name="passport_skip_register">Skip sign-up</string>
     <string name="passport_skip_setup_account_msg">Du kan ställa in en Mi-konto senare i Inställningar.</string>
     <string name="passport_skip_setup_account_title">Hoppa över setup</string>
     <string name="passport_title_reg">Skapa ett konto</string>
@@ -461,6 +483,7 @@ För att aktivera ditt konto, följ
     <string name="passport_wrong_phone_number_format">Formatet på det telefonnummer som du angav är ogiltigt</string>
     <string name="passport_wrong_vcode">Koden du angav är felaktig</string>
     <string name="pic_not_exist">Bilden finns inte</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="plus_one_submit_dialog_content">"Din feedback samt felloggar kommer skickas till Mi's servrar."</string>
     <string name="plus_one_submit_dialog_not_show_again">Kom ihåg egenskaper</string>
     <string name="post_miui_bbs_failed">Kunde inte skicka till forum</string>
@@ -482,6 +505,7 @@ För att aktivera ditt konto, följ
     <string name="save_pic_fail">Kunde inte spara bild, kontrollera ditt SD-kort</string>
     <string name="save_pic_success">Sparade bild till %s</string>
     <string name="screen_lock">Skärmlås</string>
+    <string name="second_position">3#</string>
     <string name="section_description">Beskrivning</string>
     <string name="section_err_type">Buggtyp</string>
     <string name="section_screenshot">Skärmdump</string>
@@ -495,12 +519,15 @@ För att aktivera ditt konto, följ
     <string name="suggestion_description">Lägg till en beskrivning här</string>
     <string name="system_app_select">Inbyggda appar</string>
     <string name="systemui">Notifikationspanel</string>
+    <string name="tab_title_chat">FAQ</string>
     <string name="tab_title_my_reports">Mina rapporter</string>
     <string name="tab_title_preferences">Inställningar</string>
+    <string name="tab_title_report">Feedback</string>
     <string name="title_answer_feedback_main">Vi hittade svar!</string>
     <string name="title_catch_full_log">Loggar</string>
     <string name="title_customer_service">Kundtjänst</string>
     <string name="title_first_aid">Första hjälpen</string>
+    <string name="title_frequent_question_feedback_main">FAQ</string>
     <string name="title_mi_family">Mi Homes närliggande</string>
     <string name="title_nonsystem_app">Andra appar</string>
     <string name="title_same_question_feedback_main">Liknande frågor i MIUI forum</string>
@@ -531,6 +558,7 @@ För att aktivera ditt konto, följ
     <string name="toast_screenshot_too_large">Det går inte att ladda upp bilder eller videor större än 100MB.</string>
     <string name="toast_third_packagename_required">Ange ett appnamn</string>
     <string name="toast_title_required">Beskriv ditt problem</string>
+    <string name="topic_author">1#</string>
     <string name="try_again">Försök igen</string>
     <string name="upload_log_failed">Kunde inte skicka loggar</string>
     <string name="warning_field_empty">Ange %1$s</string>

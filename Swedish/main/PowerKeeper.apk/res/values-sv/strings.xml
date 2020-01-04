@@ -32,6 +32,7 @@
     <string name="config_suggest_description">"Identifiera appar och aktiviteter för att hålla viktiga processer igång.
 Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="config_suggest_suffix_title">Batterisparare (rekommenderas)</string>
+    <string name="confirm">OK</string>
     <string name="current_cloud_addr_is">Adressen för molnstyrd server är:</string>
     <string name="empty_title_apps_container_list">Inga appar</string>
     <string name="enable_sleep_mode">Aktivera Viloläge för att optimera batterianvändning under natten</string>
@@ -105,6 +106,7 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="sucess">Klart</string>
     <string name="update_profile_failture_not_connect_wifi">Kunde inte uppdatera. Anslut till Wi-Fi och försök igen.</string>
     <string name="update_profile_sucess">Uppdaterad från server</string>
+    <string name="vip_feedback">VIP feedback</string>
     <string name="vip_feedback_enable">Aktivera VIP feedback</string>
     <string name="warm_configure">Inställningar för temperaturreglering</string>
     <string name="warm_performance_tip">Din enhet kommer bli varmare om fler processer körs.</string>

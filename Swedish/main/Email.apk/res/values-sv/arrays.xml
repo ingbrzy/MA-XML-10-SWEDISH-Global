@@ -51,6 +51,10 @@
         <item>Äldre meddelande</item>
         <item>Inkorg</item>
     </string-array>
+    <string-array name="prefEntries_contact_add">
+        <item>Alla</item>
+        <item>Endast avsändare</item>
+    </string-array>
     <string-array name="signature_normal_string_array_next">
         <item>Adress:</item>
         <item>Tel:</item>
