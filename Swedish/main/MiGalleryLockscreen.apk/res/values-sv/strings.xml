@@ -74,6 +74,7 @@
     <string name="search_menu_title">Sök</string>
     <string name="sign_in_title">Logga in med ditt Mi-Konto</string>
     <string name="sns_sign_in">Andra sätt att logga in</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="ticket_hint">Verifieringskod</string>
     <string name="ticket_invalid">Koden du angav är felaktig</string>
     <string name="ticket_sign_in">Logga in med SMS</string>

@@ -100,7 +100,6 @@
     <string name="aqi_quality_index_light_pollution">Försiktighet</string>
     <string name="aqi_quality_index_moderate">Måttlig</string>
     <string name="aqi_quality_index_unhealthy">Ohälsosam</string>
-    <string name="auto_add_app_shortcut">新安装应用添加到桌面</string>
     <string name="auto_delete_category_dialog_content">Aktuella appar kommer att tas bort från denna kategori och kategorin kommer att raderas. Radera kategorin nu?</string>
     <string name="auto_delete_category_dialog_title">Raderar kategorin</string>
     <string name="backup_fail">Kunde inte backningen launcher</string>
@@ -403,6 +402,7 @@
     <string name="sort_by_not_defined">Sortera automatiskt</string>
     <string name="start_activity_failed">Kan inte starta launcher</string>
     <string name="starting_preset_app">Startar…</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="status_downloaded">Nedladdat</string>
     <string name="status_downloading">Laddar ned</string>
     <string name="status_installing">Installerar</string>
