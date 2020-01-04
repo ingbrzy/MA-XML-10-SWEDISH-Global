@@ -483,7 +483,6 @@ För att aktivera ditt konto, följ
     <string name="passport_wrong_phone_number_format">Formatet på det telefonnummer som du angav är ogiltigt</string>
     <string name="passport_wrong_vcode">Koden du angav är felaktig</string>
     <string name="pic_not_exist">Bilden finns inte</string>
-    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="plus_one_submit_dialog_content">"Din feedback samt felloggar kommer skickas till Mi's servrar."</string>
     <string name="plus_one_submit_dialog_not_show_again">Kom ihåg egenskaper</string>
     <string name="post_miui_bbs_failed">Kunde inte skicka till forum</string>
