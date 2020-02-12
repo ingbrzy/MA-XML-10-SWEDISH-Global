@@ -29,7 +29,6 @@
     <string name="abc_toolbar_collapse_description">Komprimera</string>
     <string name="expand_button_title">Avancerat</string>
     <string name="search_menu_title">Sök</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
