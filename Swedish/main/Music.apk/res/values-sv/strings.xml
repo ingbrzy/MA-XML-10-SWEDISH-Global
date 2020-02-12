@@ -54,6 +54,7 @@
     <string name="action_item_hifi">Hörlurar &amp; ljudeffekter</string>
     <string name="action_item_play_all">Blanda alla</string>
     <string name="action_item_play_next">Spela senare</string>
+    <string name="action_item_play_video">Spela musikvideo</string>
     <string name="action_item_remove">Ta bort</string>
     <string name="action_item_remove_from_favorite">Ta bort favorit</string>
     <string name="action_item_share">Dela</string>
@@ -111,6 +112,7 @@
     <string name="artist_name">Artist</string>
     <string name="audio_picker_title">Välj en låt</string>
     <string name="auto_recommend">Auto (Rekommenderat)</string>
+    <string name="auto_sound_quality">Auto</string>
     <string name="auto_update">Uppdateras automatiskt</string>
     <string name="auto_update_tip">Du kan uppdatera systemappar via mobildata. Detta kan generera ytterligare data avgifter.</string>
     <string name="available_playlist_name_format">Ny spellista %d</string>
@@ -128,11 +130,13 @@
     <string name="button_wait_for_wifi">Vänta</string>
     <string name="cancel">Avbryt</string>
     <string name="cancel_running_download">Avbryt</string>
+    <string name="cannot_download_to_sdcard_hint">Kan inte ladda ner objekt till SD-kortet på grund av copyright-restriktioner. Objekten kommer att laddas ner till interna lagringen istället.</string>
     <string name="change_download_quality">Ändra nedladdningskvalitet</string>
     <string name="checking_new_version">Söker efter uppdateringar…</string>
     <string name="choose_download_quality">Välj nedladdningskvalitet</string>
     <string name="choose_music_lang_pref">Önskade språk för låtar</string>
     <string name="choose_stream_quality">Välj strömmningskvalitet</string>
+    <string name="click_and_watch_video_tip">Tryck för att spela upp musikvideon</string>
     <string name="click_to_add_album_cover_and_lyric">Tryck för att lägga till albumomslag och låttexter</string>
     <string name="click_to_shuffle">Klicka för att blanda</string>
     <string name="close_music_time">"Återstående tid: "</string>
@@ -161,6 +165,7 @@
     <string name="connecting_apk">Ansluting…</string>
     <string name="create_playlist">Skapa spellista</string>
     <string name="create_playlist_failure">Kunde inte skapa spellista</string>
+    <string name="create_playlist_input_hint">Ange spellistans namn</string>
     <string name="current_album">Nuvarande albumomslag</string>
     <string name="current_lyric">Nuvarande texter</string>
     <string name="current_version">Aktuell version</string>
@@ -265,7 +270,9 @@
     <string name="download_method">Ladda ned</string>
     <string name="download_no_application_title">Kan inte öppna filen</string>
     <string name="download_paused_in_power_save_mode">Nerladdningar pausas när Batterisparläge är på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laddar ner…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Nedladdningskvalitet</string>
     <string name="download_quality_summary">Ytterligare inställningar för låtar du laddar ned</string>
     <string name="download_queued">Köad</string>
@@ -346,7 +353,9 @@
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Ljud</string>
@@ -374,6 +383,7 @@
     <string name="fcm_fallback_notification_channel_label">Diverse</string>
     <string name="feed_back">Feedback</string>
     <string name="file_not_found">Filen existerar inte</string>
+    <string name="filter_by_MP4">Visa mappar med MP4-filer</string>
     <string name="filter_by_duration">Efter längd</string>
     <string name="filter_by_duration_max">%d minuter</string>
     <string name="filter_by_duration_min">%d sekunder</string>
@@ -415,6 +425,7 @@
     <string name="home_tab_local">Min musik</string>
     <string name="home_tab_more_music">Mer musik</string>
     <string name="home_tab_online">Musik på nätet</string>
+    <string name="home_tab_recommend">Online</string>
     <string name="home_tab_search">Sök</string>
     <string name="hot_icon_in_fast_indexer">H</string>
     <string name="hungama_batch_download_alert_summary">Endast PRO-medlemmar kan ladda ner flera låtar. Få ett PRO-medlemskap nu?</string>
@@ -599,6 +610,7 @@
     <string name="online_apk_install_in_background">Laddar online-innehåll i bakgrunden…</string>
     <string name="online_apk_install_network_change_paused">Du använder din mobildata. Vi kommer pausa uppladdningen. Tryck på %s för att se mer.</string>
     <string name="online_apk_install_network_error">Det gick inte ansluta till nätverket. Kontrollera dina nätverksinställningar och försök igen.</string>
+    <string name="online_apk_install_tips">Du måste ladda ner en plug-in för denna innehållsleverantör en gång. Du kommer kunna få tillgång till låtar direkt nästa gång.</string>
     <string name="online_list_delete_message">Alla nedladdade låtar i den här spellistan kommer tas bort från den interna lagringen.</string>
     <string name="online_playlist_category">Spellistor</string>
     <string name="online_recommend">Spellista</string>
@@ -661,6 +673,7 @@
     <string name="priority_storage_summary">Ladda automatiskt ned till tillgängligt externt SD-kort</string>
     <string name="privacy_desc">Integritetspolicy (obligatorisk)</string>
     <string name="privacy_policy">Integritetspolicy</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sv_SE</string>
     <string name="pro_member">PRO-medlem</string>
     <string name="project_device">Mi Telefon</string>
     <string name="prompt_grant_write_settings_permission">Tillåt att ändra systeminställningar</string>
@@ -738,6 +751,8 @@
     <string name="service_and_settings">Tjänst och inställningar</string>
     <string name="set_as_alarm_clock_ringtone">Alarm</string>
     <string name="set_as_ring">Ange som ringsignal</string>
+    <string name="set_online_home_subtitle">Öppna online-rekommendationer när appen startas</string>
+    <string name="set_online_home_title">Visa online-rekommendationer vid uppstart</string>
     <string name="set_ringtones_failed">Kunde inte ange ringsignal</string>
     <string name="set_ringtones_successful">%s Ange som ringsignal</string>
     <string name="setting_feature_setting">Inställningar för funktioner</string>
@@ -786,6 +801,7 @@
     <string name="start_to_check_new_version">Söker efter uppdateringar…</string>
     <string name="start_to_download">Laddar ner…</string>
     <string name="start_to_play">Spela</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Lagringsutrymme för Dubbelappar</string>
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
@@ -862,6 +878,7 @@
     <string name="upgrade_music_message">Uppdateringar är redo. Starta om för att uppdatera.</string>
     <string name="upgrading_in_backstage">Uppdaterar i bakgrunden…</string>
     <string name="user_agreement">Användaravtal</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sv_SE</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="version_info">Version</string>
@@ -878,4 +895,5 @@ klicka %s för att starta denna nedladdning nästa gång du är ansluten till et
     <string name="wifi_required_title">Du borde ansluta till Wi-Fi för att ladda ned den här filen</string>
     <string name="you_can_switch_mode_in_settings">Du kan växla mellan lägen i Inställningar</string>
     <string name="you_may_like">Du kanske också gillar</string>
+    <string name="youtube_play_history">Spelhistorik</string>
 </resources>

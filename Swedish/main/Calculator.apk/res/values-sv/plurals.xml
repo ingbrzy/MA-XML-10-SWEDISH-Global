@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="age_label_days">
+        <item quantity="other">%d dagar</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="age_label_months">
+        <item quantity="other">%d månader</item>
+        <item quantity="one">%d månad</item>
+    </plurals>
+    <plurals name="age_label_yrs">
+        <item quantity="other">år</item>
+        <item quantity="one">år</item>
+    </plurals>
     <plurals name="entries">
         <item quantity="other">%d objekt</item>
         <item quantity="one">%d objekt</item>
@@ -15,5 +27,9 @@
     <plurals name="mortgage_summary_years">
         <item quantity="other">%1$d år (%2$d månader)</item>
         <item quantity="one">%1$d år (%2$d månad)</item>
+    </plurals>
+    <plurals name="tenure_months">
+        <item quantity="other">%d månader</item>
+        <item quantity="one">%d månad</item>
     </plurals>
 </resources>

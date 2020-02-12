@@ -105,7 +105,7 @@
         <item quantity="one">%1$d kontakter med delvis identisk information</item>
     </plurals>
     <plurals name="merge_info">
-        <item quantity="other">hopslagen från %0$d källor</item>
+        <item quantity="other">hopslagen från %1$d källor</item>
         <item quantity="one">inte ihopslagen</item>
     </plurals>
     <plurals name="notification_voicemail_title">
@@ -121,7 +121,7 @@
         <item quantity="one">%1$d person från %2$s</item>
     </plurals>
     <plurals name="num_groups_in_account">
-        <item quantity="other">%0$d grupper</item>
+        <item quantity="other">%1$d grupper</item>
         <item quantity="one">1 grupp</item>
     </plurals>
     <plurals name="number_of_items_available">

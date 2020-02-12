@@ -10,16 +10,12 @@
     <string name="bubble_text">Tryck för att starta inspelning</string>
     <string name="button_back">Tillbaka</string>
     <string name="button_clear_storage">Frigör utrymme</string>
-    <string name="button_confirm">OK</string>
     <string name="button_goon_recorder">Återuppta</string>
     <string name="cancel_edit">Avbryt</string>
     <string name="cannot_change_frames">Bildhastigheten kan endast anpassa inspelningar med konstant bildhastighet.</string>
     <string name="cannot_change_parames">Kunde inte ändra parametrar medan inspelning pågår</string>
     <string name="cannot_record">Det gick inte att spela in, försök igen senare.</string>
     <string name="close_screen_record">Inspelningen stoppad</string>
-    <string name="date_day" />
-    <string name="date_month">/</string>
-    <string name="date_year">/</string>
     <string name="description_content">Skärminspelaren kan spela in på systemnivå. Du kommer inte kunna använda Skärminspelaren om du fortsätter. Bekräfta för att fortsätta.</string>
     <string name="description_title">Om Skärminspelare</string>
     <string name="deselect_all">Välj ingen</string>
@@ -77,10 +73,6 @@
     <string name="show_hard_key_summary">Visa en skylt när Hem-, Meny- och Tillbakaknappen blir nedtryckta</string>
     <string name="show_screen_touch">Visa pekgester</string>
     <string name="show_screen_touch_summary">Visualisera gesterna med en vit punkt</string>
-    <string name="size_byte">B</string>
-    <string name="size_gigabyte">GB</string>
-    <string name="size_kilobyte">KB</string>
-    <string name="size_megabyte">MB</string>
     <string name="sound_source">Ljudkälla</string>
     <string name="sound_source_summary">Systemljud eller mikrofon</string>
     <string name="sound_source_summary_without_system_sounds">Använda mikrofonen eller stänga av ljudet</string>
@@ -92,7 +84,6 @@
     <string name="stop_recording">Stoppa inspelningen</string>
     <string name="storage_location">Lagring</string>
     <string name="storage_location_summary">Välj lagringsplats</string>
-    <string name="timer_format">%s</string>
     <string name="unchecked">Inte vald</string>
     <string name="using_record_confirm_cancel">Begränsa</string>
     <string name="using_record_confirm_ok">Tillåt</string>

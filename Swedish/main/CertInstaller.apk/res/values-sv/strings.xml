@@ -54,8 +54,6 @@ Auktoriseringsmetod: EAP-%5$s
     <string name="wifi_installer_fail_title">Det gick inte att installera</string>
     <string name="wifi_installing_label">Installerar</string>
     <string name="wifi_no_config">Inga</string>
-    <string name="wifi_sim_config_text">"SIM: %s
-"</string>
     <string name="wifi_title">Wi-Fi-profil</string>
     <string name="wifi_tls_config_text">"Klientcertifikat:
 %1$s

@@ -100,6 +100,7 @@
     <string name="aqi_quality_index_light_pollution">Försiktighet</string>
     <string name="aqi_quality_index_moderate">Måttlig</string>
     <string name="aqi_quality_index_unhealthy">Ohälsosam</string>
+    <string name="auto_add_app_shortcut">Placera nya appar på Hemskärmen</string>
     <string name="auto_delete_category_dialog_content">Aktuella appar kommer att tas bort från denna kategori och kategorin kommer att raderas. Radera kategorin nu?</string>
     <string name="auto_delete_category_dialog_title">Raderar kategorin</string>
     <string name="backup_fail">Kunde inte backningen launcher</string>
@@ -254,6 +255,7 @@
     <string name="home_pull_down_action">Svep nedåt på Hemskärmen</string>
     <string name="home_screen">Hemskärm</string>
     <string name="home_slide_up_action">Svep uppåt på Hemskärmen</string>
+    <string name="home_switch_personal_assistant">-1 skärm</string>
     <string name="icon_reorganize_channel">Ordna ikoner</string>
     <string name="icon_size">Ikonstorlek</string>
     <string name="image_too_small_message">Originalbilden är inte tillräckligt stor.</string>
@@ -263,6 +265,9 @@
     <string name="is_system_wallpaper_message">Kan inte ta bort systemresurser</string>
     <string name="launcher_not_exist">Ett fel uppstod. Gå tillbaka till Hemskärmen och försök igen.</string>
     <string name="launcher_pull_down_title">Svep nedåt på Hemskärmen</string>
+    <string name="launcher_search_bar_title">Sökfält på Hemskärmen</string>
+    <string name="launcher_search_bar_value_disable">Av</string>
+    <string name="launcher_search_bar_value_enable">På</string>
     <string name="launcher_slide_up_title">Svep uppåt på Hemskärmen</string>
     <string name="launcher_sliding_up_gesture">Svep upp på Hemskärmen för att söka</string>
     <string name="launcher_title">Hemskärm &amp; senast använda appar</string>
@@ -313,6 +318,7 @@
     <string name="notification_installed">Installerat</string>
     <string name="notification_open_button">Öppen</string>
     <string name="notification_reset_title">Ordna ikoner framgångsrikt</string>
+    <string name="one_key_call_title">Tryck för att ringa</string>
     <string name="online_wallpaper">Online</string>
     <string name="open_personal_assistant_dialog_btn_cancel">Avbryt</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Avaktivera</string>
@@ -402,12 +408,17 @@
     <string name="sort_by_not_defined">Sortera automatiskt</string>
     <string name="start_activity_failed">Kan inte starta launcher</string>
     <string name="starting_preset_app">Startar…</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="status_downloaded">Nedladdat</string>
     <string name="status_downloading">Laddar ned</string>
     <string name="status_installing">Installerar</string>
     <string name="status_paused">Paus</string>
     <string name="status_pending">Väntar</string>
+    <string name="switch_personal_assistant_app_vault">App vault</string>
+    <string name="switch_personal_assistant_google">Google Discover</string>
+    <string name="switch_personal_assistant_none">Ingen</string>
     <string name="system_shortcuts_more_operation">Appinformation</string>
+    <string name="system_shortcuts_remove">Ta bort</string>
     <string name="system_text">System</string>
     <string name="title_jeejen">Jeejen Hemskärm</string>
     <string name="title_select_live_folder">Välj mapp</string>

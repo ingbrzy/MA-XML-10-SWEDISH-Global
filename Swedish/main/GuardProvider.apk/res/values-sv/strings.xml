@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="AVL">AVL</string>
-    <string name="Avast">Avast</string>
-    <string name="DesAVL">AVL</string>
-    <string name="DesAvast">Avast</string>
-    <string name="DesMi">Mi</string>
-    <string name="DesTencent">Tencent</string>
-    <string name="Mi">Mi</string>
-    <string name="Tencent">Tencent</string>
     <string name="app_name">MIUI säkerhetskomponenter</string>
-    <string name="avast_dialog_cloudscan" />
-    <string name="avast_dialog_dbupdate" />
     <string name="avast_dialog_header">Den här funktionen krypterar och laddar upp enhetens ID till Avasts servrar (%s).</string>
     <string name="avast_dialog_policy">Integritetspolicy</string>
     <string name="avast_dialog_title">Avasts Sekretesspolicy</string>
-    <string name="avast_dialog_url">http://api.sec.miui.com/policy/proxy?p=avast&amp;l=en_US</string>
     <string name="avast_virus_type_adware_description">Viruset är ett reklamprogram. Det visar reklam automatiskt.</string>
     <string name="avast_virus_type_cryportor_description">Viruset är en cryptor. Det är ett skadligt program som sprids genom att återskapa sig själv i lagringsutrymmet.</string>
     <string name="avast_virus_type_dropper_description">Viruset är en dropper. Det innehåler kod som installerar andra skadliga virus.</string>
@@ -29,12 +18,9 @@
     <string name="avast_virus_type_trjan_description">Viruset är en trojan. Det är en skadlig programvara som tillåter obehörig, fjärrstyrning av enheten. Trojaner har vanligtvis inte förmågan att återskapa sig själv som andra virus; men de kan leda till att andra skadliga program installeras på enheten, att information blir stulen, eller andra skadliga aktiviteter.</string>
     <string name="avast_virus_type_unknown_description">Okänd typ av infektion.</string>
     <string name="avast_virus_type_worm_description">Viruset är en mask. Det är en fristående skadlig programvara som återskapar sig själv för att sprida sig till andra enheter. Det tar fördel av fil- eller informationsförflyttningen i systemet (som nätverket), det kan sprida sig utan någon interaktion. Maskar skapar nästan alltid någon sorts skada i nätverket.</string>
-    <string name="avl_dialog_cloudscan" />
-    <string name="avl_dialog_dbupdate" />
     <string name="avl_dialog_header">Den här funktionen krypterar och laddar upp enhetens ID till AVL servrar (%s).</string>
     <string name="avl_dialog_policy">Integritetspolicy</string>
     <string name="avl_dialog_title">AVLs Sekretesspolicy</string>
-    <string name="avl_dialog_url">http://api.sec.miui.com/policy/proxy?p=antiy&amp;l=en_US</string>
     <string name="hello_world">Hej världen!</string>
     <string name="menu_settings">Inställningar</string>
     <string name="tencent_dialog_cloudscan">Ladda och skanna appnamn och detaljer med hjälp av virusdefinitioner från internet.</string>
@@ -42,6 +28,4 @@
     <string name="tencent_dialog_header">Den här funktionen krypterar och laddar upp enhetens ID Tencent servrar (%s).</string>
     <string name="tencent_dialog_policy">Integritetspolicy</string>
     <string name="tencent_dialog_title">Tencent’s sekretesspolicy</string>
-    <string name="tencent_dialog_url">http://api.sec.miui.com/policy/proxy?p=tencent&amp;l=en_US</string>
-    <string name="title_activity_main">MainActivity</string>
 </resources>

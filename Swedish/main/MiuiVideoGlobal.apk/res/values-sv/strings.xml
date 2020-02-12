@@ -111,6 +111,7 @@
     <string name="cast_forward">Framåt</string>
     <string name="cast_forward_10">Spola framåt tio sekunder</string>
     <string name="cast_forward_30">Spola framåt trettio sekunder</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_mute">Stäng av ljudet</string>
     <string name="cast_notification_connected_message">Ansluten till %1$s</string>
     <string name="cast_notification_connecting_message">Ansluter till %1$s</string>
@@ -298,6 +299,7 @@ Skicka koden till handledaren."</string>
     <string name="fw_loading">Vänta en stund…</string>
     <string name="fw_reload_sub_title">Tryck på skärmen för att försöka igen</string>
     <string name="fw_reload_title">Det gick inte att ansluta till nätverket.</string>
+    <string name="gallery_fold_tags">Dölj märken</string>
     <string name="gallery_folder_alias_TAOBAO">Taobao</string>
     <string name="gallery_folder_alias_camera">Kamera</string>
     <string name="gallery_folder_alias_download">Nedladdningar</string>
@@ -330,6 +332,7 @@ Skicka koden till handledaren."</string>
     <string name="gallery_video_operate_text">Justering av slowmotion</string>
     <string name="gallery_video_save_video">Skapar video…</string>
     <string name="gallery_video_slow_edit">Slow-motion</string>
+    <string name="gallery_view_tags">Visa märken</string>
     <string name="get_back_pwd">Återställer lösenord</string>
     <string name="get_ph_ticket">Hämta kod</string>
     <string name="get_phone_bind_exceed_limit">Du kan associera upp till 3 Mi Konto med ett telefonnummer. Det går inte att lägga till nya konton.</string>
@@ -357,11 +360,16 @@ för videor"</string>
     <string name="language_setting_tips_dialog">Du kan välja språkinställningar för innehåll i Konto > Språk.</string>
     <string name="later">Senare</string>
     <string name="loading">Vänta en stund…</string>
+    <string name="local_push_title">Populärt idag</string>
     <string name="login">Logga in</string>
     <string name="login_tip">Logga in för att kunna ta emot våra svar på din feedback.</string>
     <string name="logout">Logga ut</string>
     <string name="logout_account">Logga ut</string>
     <string name="lp_base_folder">SD-kort</string>
+    <string name="lp_play_mode_list_loop">Loopa alla</string>
+    <string name="lp_play_mode_pause">Spela en</string>
+    <string name="lp_play_mode_single_loop">Loopa en</string>
+    <string name="lp_play_mode_title">Uppspelningsläge</string>
     <string name="lp_speed_title">Uppspelningshastighet</string>
     <string name="lp_speed_toast">Spelar upp med %sX hastighet…</string>
     <string name="lp_videoView_error_button">Jag förstår</string>
@@ -382,6 +390,7 @@ för videor"</string>
     <string name="lv_audio_track">Ljudspår</string>
     <string name="lv_auto_update">Uppdatera senare</string>
     <string name="lv_brightness">Ljusstyrka</string>
+    <string name="lv_cast">Casta</string>
     <string name="lv_check_delete_file">Välj objekt att ta bort</string>
     <string name="lv_check_send_file">Du kan bara skicka 1 fil i taget</string>
     <string name="lv_confirm_delete_history">Ta bort valda objekt?</string>
@@ -518,6 +527,7 @@ för videor"</string>
     <string name="next">Nästa</string>
     <string name="nick_name">Smeknamn</string>
     <string name="no_account">Inte inloggad</string>
+    <string name="no_more_content">Det är allt för nu</string>
     <string name="no_network_tips">Det går inte att använda den här funktionen nu. Nätverksåtkomst är begränsad.</string>
     <string name="no_phone">Inget telefonnummer</string>
     <string name="no_recommend_data">Inga rekommenderade videor nu</string>
@@ -531,6 +541,7 @@ för videor"</string>
     <string name="notice_title">Meddelanden</string>
     <string name="notify_apk_installed">Nedladdad</string>
     <string name="ok">OK</string>
+    <string name="order_alphabet">A-Ö</string>
     <string name="order_recently_subscribe">Senaste prenumerationer</string>
     <string name="order_recently_updated">Nyligen uppdaterade</string>
     <string name="ovp_alert_dialog_download_install_task">Laddar ned HD plug-in…</string>
@@ -930,6 +941,7 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="sns_bind_limit">För många försök. Försök att logga in på andra sätt.</string>
     <string name="sns_sign_in">Andra sätt att logga in på</string>
     <string name="source">"Källa: "</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kort</string>
     <string name="storage_internal_sdcard">Internt lagringsutrymme</string>
     <string name="submit">Skicka</string>

@@ -152,6 +152,10 @@
     <string name="preference_status_bar_indicator_prompt">Visa statusradgenväg under inspelning</string>
     <string name="preference_tip_rename">Namnge inspelningar manuellt</string>
     <string name="privacy_policy_title">Integritetspolicy</string>
+    <string name="recognition_button_add_to_queue">Lägg till i kön</string>
+    <string name="recognition_button_cancel">Inte nu</string>
+    <string name="recognition_button_start">Transkribera</string>
+    <string name="recognition_confirm_dialog_body">Transkribering kan ta lite tid. Du får ett meddelande när denna åtgärd är slutförd. Transkribera nu?</string>
     <string name="recognition_error_cancel">Avbruten</string>
     <string name="recognition_error_code">Felkod: %d</string>
     <string name="recognition_error_download_cancel">Senare</string>
@@ -167,6 +171,11 @@
     <string name="recognition_error_internal">Internt fel</string>
     <string name="recognition_error_stopped">Transkribering avbruten</string>
     <string name="recognition_error_unknown">Ett okänt fel inträffade. Anmäl det till oss och försök igen.</string>
+    <string name="recognition_interrupt_current_dialog_body">Transkribering kan ta lite tid. Du får ett meddelande när denna åtgärd är slutförd. \"%s\" transkriberas nu. Lägg till denna åtgärd till transkriberingskön?</string>
+    <string name="recognition_notification_channel">Transkriberar</string>
+    <string name="recognition_notification_complete_success">Transkribering av \"%s\" slutförd. Tryck för att visa.</string>
+    <string name="recognition_notification_error">Det gick inte att transkribera \"%s\"</string>
+    <string name="recognition_notification_running">Transkriberar \"%s\"…</string>
     <string name="recognition_process_dialog_body">Andra inspelningar (%s) håller på att transkriberas nu. Stoppa de pågående aktiviteterna och starta en ny?</string>
     <string name="recognition_process_dialog_cancel">Kö</string>
     <string name="recognition_process_dialog_confirm">Tvinga starta</string>
@@ -174,6 +183,7 @@
     <string name="recognition_status_downloaded">Transkriberingmotorn nedladdad</string>
     <string name="recognition_status_downloading">"Laddar ner "</string>
     <string name="recognition_status_init">"Förbereder "</string>
+    <string name="recognition_stop_current">Stoppa pågående åtgärd</string>
     <string name="recognize_choose_dialog_offline">Transkribera gratis</string>
     <string name="recognize_choose_dialog_offline_desp">Transkribera inspelningar utan internetanslutning</string>
     <string name="recognize_choose_dialog_online">Transkribera i molnet</string>

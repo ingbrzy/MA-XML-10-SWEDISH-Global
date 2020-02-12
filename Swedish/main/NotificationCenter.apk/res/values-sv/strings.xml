@@ -25,8 +25,6 @@
     <string name="notification_fold_summary">Alla oviktiga notifikationer kommer visas i en egen mapp</string>
     <string name="notification_fold_title">Mapp för notifikationer</string>
     <string name="notification_manager">Appnotifikationer</string>
-    <string name="notification_style_android">Android</string>
-    <string name="notification_style_miui">MIUI</string>
     <string name="off">Av</string>
     <string name="on">På</string>
     <string name="settings_guide_title">Behöver andra inställningar?</string>
