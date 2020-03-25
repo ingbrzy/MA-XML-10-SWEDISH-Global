@@ -32,7 +32,6 @@
     <string name="on">På</string>
     <string name="settings_guide_title">Behöver andra inställningar?</string>
     <string name="show_badge_notifications">Notifikationsmärken</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statusfält</string>
     <string name="summary_disable_float_notification">Svävande notifikationer tillåts inte</string>
     <string name="summary_disable_lockscreen_notification">Notifikationer på Låsskärmen tillåts inte</string>
