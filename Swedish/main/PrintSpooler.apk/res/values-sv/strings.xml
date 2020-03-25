@@ -17,6 +17,7 @@
     <string name="connectio_delay_content">Du kan behöva bekräfta anslutningen på din skrivare.</string>
     <string name="connectio_help_title">Anslutning till skrivaren</string>
     <string name="could_not_create_file">Det gick inte att skapa filen</string>
+    <string name="current_page_template">%1$d/%2$d</string>
     <string name="delete_saved_printer_content">Ta bort valda skrivare nu?</string>
     <string name="destination_default_text">Välj skrivare</string>
     <string name="disabled_services_title">Inaktiverade tjänster</string>
@@ -85,6 +86,7 @@
     <string name="printer_busy">Skrivaren är upptagen</string>
     <string name="printer_error">Felmeddelande skrivare</string>
     <string name="printer_error_msg">Skrivarfel: %1$s</string>
+    <string name="printer_extended_description_template">%1$s – %2$s</string>
     <string name="printer_info_desc">Mer information om den här skrivaren</string>
     <string name="printer_notification_error_title">Kunde inte skriva ut %1$s</string>
     <string name="printer_unavailable">Skrivaren är inte tillgänglig</string>

@@ -28,6 +28,8 @@
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
     <string name="search_menu_title">Sök</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="above_image">Upp</string>
     <string name="accessibility_battery_level">Batteri %d procent.</string>
     <string name="accessibility_battery_level_charging">Laddar, %d procent.</string>
     <string name="align_type">Justera</string>
@@ -42,19 +44,22 @@
     <string name="aod_mode_summary">Visa klocka, datum, meddelanden och bakgrundsbilder när skärmen är avstängd</string>
     <string name="aod_mode_time_summary">Schemalägg när läget Alltid på ska aktiveras och avaktiveras</string>
     <string name="aod_mode_time_title">Schemalägg</string>
-    <string name="aod_mode_title">Alltid På</string>
+    <string name="aod_mode_title">Skärm alltid på</string>
+    <string name="aod_show_date_and_time">Visa datum och tid</string>
     <string name="aod_show_style_title">Visa innehåll</string>
     <string name="aod_style">Tema</string>
     <string name="aod_to_close">Avaktivera</string>
     <string name="apply">Verkställ</string>
     <string name="apply_succeed">Tillämpad</string>
     <string name="background_icon">Bakgrund</string>
+    <string name="below_image">Ner</string>
     <string name="cancel">Avbryt</string>
     <string name="choose_aod_style">Välj tema</string>
     <string name="chosen_picture">Välj bakgrund</string>
     <string name="clock_panel_icon">Urtavla</string>
     <string name="color_change_with_time_description">Ändra textfärg automatiskt över tiden</string>
     <string name="color_change_with_time_title">Ändra färg automatiskt</string>
+    <string name="custom_image">Anpassad bild</string>
     <string name="deep_space_planet">Yttre rymden</string>
     <string name="deep_space_planet_des">Detta tema återspeglar de ljusförändringar som sker omkring dig under dagen. Soluppgångar och solnedgångar synkroniseras också med din plats.</string>
     <string name="digital_clock">Digial</string>
@@ -84,18 +89,20 @@
     <string name="show_battery_status">Visa batteristatus</string>
     <string name="show_notification">Visa aviseringar</string>
     <string name="show_notificaton">Visa aviseringar</string>
+    <string name="shownone_arround_image">Inga</string>
     <string name="signature">Signatur</string>
     <string name="signature_default_content">"Tro alltid att något
 underbart kommer hända"</string>
     <string name="standard_clock_panel">Standard</string>
     <string name="standard_style">Standard</string>
-    <string name="summary">"För att minska strömförbrukningen kommer objekt inte att visas i följande situationer:
-1. När enheten ligger i mörkret under en lång tid.
-2. När DND-läget är på."</string>
+    <string name="summary">För att minska strömförbrukningen kommer objekt inte att visas när din enhet ligger i mörkret en längre tid.</string>
     <string name="temporary_style">Under 10 sekunder efter att du rört den</string>
     <string name="text_color">Textfärg</string>
     <string name="text_length_exceed_limit_alert">*Texten du angav är för lång</string>
     <string name="text_size">Textstorlek</string>
+    <string name="time_location">Klockposition</string>
     <string name="time_style">Stil</string>
     <string name="time_style_layout">Utseende</string>
+    <string name="disable_aod_in_power_save_mode">Stäng av när Batterispararen är på</string>
+    <string name="disable_aod_in_power_save_mode_summary">Visa inte objekt för att spara ström</string>
 </resources>

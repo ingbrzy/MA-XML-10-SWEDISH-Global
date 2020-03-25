@@ -83,6 +83,7 @@
     <string name="handy_mode_summary">För att stänga, tryck på det mörka området</string>
     <string name="handy_mode_title">Enhandsläge</string>
     <string name="ignore_home_when_fingerprint_enrolling_msg">Placera ditt finger på Hemknappen</string>
+    <string name="input_method_clipboard_tips">Kopierade objekt kommer att raderas från urklipp efter 48 timmar</string>
     <string name="input_method_edit_phrase_text">Redigera vanliga fraser</string>
     <string name="input_method_no_content_text">Inga objekt här ännu</string>
     <string name="input_method_switch_settings_text">Tangentbordsinställningar</string>

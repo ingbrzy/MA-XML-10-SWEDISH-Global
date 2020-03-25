@@ -10,7 +10,6 @@
     <string name="retry">Försök igen</string>
     <string name="cloud_app_current_device">Aktuella enheten</string>
     <string name="cloud_app_other_devices">Övriga enheter</string>
-    <string name="cloud_app_restore_app_and_data">Konfigurera enheten</string>
     <string name="cloud_app_restore_data">Personuppgifter och tidigare installerade appar visas på enheten automatiskt</string>
     <string name="cloud_app_dont_restore">Ställ in som en ny enhet</string>
     <string name="cloud_app_restore_wifi_prompt">Återställ från molnets säkerhetskopia.</string>
@@ -50,6 +49,8 @@ Note: Informationen från de appar du har installerat säkerhetskopieras inte ti
     <string name="self_device_second_space">Telefonens Sekundära utrymme</string>
     <string name="other_device_main_space">Primära utrymmet</string>
     <string name="other_device_second_space">Sekundära utrymmet</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Återställer \"%s\"</string>
     <string name="size_unknown">Okänd storlek</string>
     <string name="recovering">Återställer %s</string>
@@ -222,4 +223,5 @@ Kontrollera dina inställningar och försök igen."</string>
     <string name="restore_task_unfinished">Det gick inte att återställa</string>
     <string name="restore_failed_reason_network_error">Nätverksfel. Vänta ett par minuter och försök igen.</string>
     <string name="restore_failed_reason_disk_space_not_enough">Inte tillräckligt med lagringsutrymme. Frigör lagringsutrymme först.</string>
+    <string name="cloud_app_restore_app_and_data">Konfigurera enheten</string>
 </resources>

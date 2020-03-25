@@ -10,6 +10,7 @@
     <string name="abc_capital_on">PÅ</string>
     <string name="abc_menu_alt_shortcut_label">Alt + </string>
     <string name="abc_menu_ctrl_shortcut_label">Ctrl + </string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
     <string name="abc_menu_enter_shortcut_label">retur</string>
     <string name="abc_menu_function_shortcut_label">Funktion + </string>
     <string name="abc_menu_meta_shortcut_label">Meta + </string>
@@ -26,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Dela med</string>
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
+    <string name="app_name">MIUI Bluetooth</string>
     <string name="ble_device_address">Bluetooth Smart enhet MAC</string>
     <string name="ble_device_profile">Profil Bluetoothenhet</string>
     <string name="ble_device_profile_header_title">Inställningar</string>
@@ -44,19 +46,20 @@
     <string name="device_picker">Inställningar för Bluetoothenheter</string>
     <string name="disconnect">Frånkoppla</string>
     <string name="expand_button_title">Avancerat</string>
+    <string name="fast_connect_device_box">Box</string>
+    <string name="fast_connect_device_box_name">%1$s Box</string>
     <string name="fast_connect_device_connect_cancel">Avbryt</string>
     <string name="fast_connect_device_connect_ok">Anslut</string>
     <string name="fast_connect_device_connect_retry">Försök igen</string>
     <string name="fast_connect_device_connect_setup">Inställningar</string>
     <string name="fast_connect_device_connect_success">Klar</string>
-    <string name="fast_connect_device_headset">Batteri</string>
     <string name="fast_connect_device_headset_l">Vänster</string>
     <string name="fast_connect_device_headset_r">Höger</string>
     <string name="fast_connect_device_headset_reset">Tryck och håll knappen på boxen</string>
     <string name="fast_connect_device_title_connect_fail">Det gick inte att ansluta %1$s</string>
     <string name="fast_connect_device_title_connecting">Ansluter…</string>
-    <string name="fast_connect_device_title_find_headset">Hitta headset %1$s</string>
-    <string name="fast_connect_device_title_find_headset_others">Hitta headset %1$s övrigt</string>
+    <string name="fast_connect_device_title_find_headset">Hitta %1$s</string>
+    <string name="fast_connect_device_title_find_headset_others">Verkar som att denna enhet inte är din: %1$s</string>
     <string name="goto_package">Öppen %1$s</string>
     <string name="install_package">Installera %1$s för mer funktioner</string>
     <string name="mi_band_vibrate_alarm">Vibrera vid alarm</string>
@@ -67,6 +70,7 @@
     <string name="mi_band_vibrate_sms_in_contacts">Meddelanden från kontakter</string>
     <string name="mi_band_vibrate_sms_no_contacts">Meddelande från okända nummer</string>
     <string name="mi_key_alert_dialog_message">Tryck på OK för att tysta larmet.</string>
+    <string name="mi_key_alert_dialog_title">Mi Key Alarm</string>
     <string name="mi_key_find_mikey">Hitta Mi Nyckel</string>
     <string name="mi_key_find_phone">Hitta enhet</string>
     <string name="mi_key_open_camera">Öppna kamera</string>
@@ -83,6 +87,8 @@
     <string name="reset_function_msg">Återställa denna funktion kan förhindra %1$s från att fungera normalt.</string>
     <string name="search_menu_title">Sök</string>
     <string name="some_app_taking">(%1$s använder redan denna funktion)</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="unbind_device_alert_cancel">Avbryt</string>
     <string name="unbind_device_alert_content">Tappat anslutningen med %1$s. För att spara batteri, frånkoppla enheten nu.</string>
     <string name="unbind_device_alert_ok">Frånkoppla</string>

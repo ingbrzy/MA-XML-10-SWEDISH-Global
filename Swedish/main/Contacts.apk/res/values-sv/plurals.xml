@@ -88,29 +88,17 @@
         <item quantity="other">(%1$d)</item>
         <item quantity="one">(%1$d)</item>
     </plurals>
-    <plurals name="listFoundAllContacts">
-        <item quantity="other">%d hittade</item>
-        <item quantity="one">1 hittad</item>
-    </plurals>
     <plurals name="listTotalAllContacts">
         <item quantity="other">%d kontakter</item>
-        <item quantity="one">1 kontakt</item>
-    </plurals>
-    <plurals name="listTotalPhoneContacts">
-        <item quantity="other">%d kontakter med telefonnummer</item>
-        <item quantity="one">1 kontakt med telefonnummer</item>
+        <item quantity="one">%d kontakt</item>
     </plurals>
     <plurals name="merge_contact_message_plurals">
         <item quantity="other">%1$d kontakter med delvis identisk information</item>
         <item quantity="one">%1$d kontakter med delvis identisk information</item>
     </plurals>
     <plurals name="merge_info">
-        <item quantity="other">hopslagen från %1$d källor</item>
+        <item quantity="other">hopslagen från %0$d källor</item>
         <item quantity="one">inte ihopslagen</item>
-    </plurals>
-    <plurals name="notification_voicemail_title">
-        <item quantity="other">%1$d Röstmeddelanden</item>
-        <item quantity="one">Röstmeddelande</item>
     </plurals>
     <plurals name="numSelectedSimContacts">
         <item quantity="other">%1$d valda</item>
@@ -121,8 +109,8 @@
         <item quantity="one">%1$d person från %2$s</item>
     </plurals>
     <plurals name="num_groups_in_account">
-        <item quantity="other">%1$d grupper</item>
-        <item quantity="one">1 grupp</item>
+        <item quantity="other">%d grupper</item>
+        <item quantity="one">%d grupp</item>
     </plurals>
     <plurals name="number_of_items_available">
         <item quantity="other">%1$d objekt kvarstår</item>
@@ -150,7 +138,7 @@
     </plurals>
     <plurals name="searchFoundContacts">
         <item quantity="other">%d hittade</item>
-        <item quantity="one">1 hittad</item>
+        <item quantity="one">%d hittad</item>
     </plurals>
     <plurals name="select_all_exceed_plurals">
         <item quantity="other">Välj inte fler än %1$d, det går inte att välja alla</item>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="accessibility_nfc_enabled">NFC aktiverat.</string>
+    <string name="android_beam">Android Beam</string>
+    <string name="app_name">Nfc Service</string>
     <string name="ask_nfc_tap">Slutför genom att trycka på en annan enhet</string>
     <string name="beam_busy">Beam används för närvarande. Försök igen när den pågående överföringen är klar.</string>
     <string name="beam_canceled">Den trådlösa överföringen avbröts</string>
@@ -32,6 +34,7 @@
     <string name="pairing_peripheral_failed">Det gick inte att koppla %1$s</string>
     <string name="pay_with">Betala med</string>
     <string name="prompt_connect_to_network">Vill du ansluta till nätverket %1$s?</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_unable_to_connect">Det gick inte att ansluta till nätverket</string>
     <string name="status_wifi_connected">Ansluten</string>
     <string name="tap_again_to_complete">Tryck igen för att slutföra med %1$s</string>

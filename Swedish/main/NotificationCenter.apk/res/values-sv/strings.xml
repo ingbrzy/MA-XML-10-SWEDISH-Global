@@ -13,6 +13,7 @@
     <string name="hint_search_all">Sök efter appar</string>
     <string name="hint_search_in_disabled_apps">Sök efter appar som inte får visa notifikationer</string>
     <string name="hint_search_in_enabled_apps">Sök efter appar som får visa notifikationer</string>
+    <string name="last_sent_time_second">Just nu</string>
     <string name="list_title_disable_notification">Notifikationer tillåts inte</string>
     <string name="loading">Vänta lite…</string>
     <string name="lock_screen_display_rules">Formatera</string>
@@ -25,10 +26,13 @@
     <string name="notification_fold_summary">Alla oviktiga notifikationer kommer visas i en egen mapp</string>
     <string name="notification_fold_title">Mapp för notifikationer</string>
     <string name="notification_manager">Appnotifikationer</string>
+    <string name="notification_style_android">Android</string>
+    <string name="notification_style_miui">MIUI</string>
     <string name="off">Av</string>
     <string name="on">På</string>
     <string name="settings_guide_title">Behöver andra inställningar?</string>
     <string name="show_badge_notifications">Notifikationsmärken</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statusfält</string>
     <string name="summary_disable_float_notification">Svävande notifikationer tillåts inte</string>
     <string name="summary_disable_lockscreen_notification">Notifikationer på Låsskärmen tillåts inte</string>

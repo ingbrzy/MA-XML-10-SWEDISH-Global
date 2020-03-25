@@ -100,7 +100,6 @@
     <string name="aqi_quality_index_light_pollution">Försiktighet</string>
     <string name="aqi_quality_index_moderate">Måttlig</string>
     <string name="aqi_quality_index_unhealthy">Ohälsosam</string>
-    <string name="auto_add_app_shortcut">Placera nya appar på Hemskärmen</string>
     <string name="auto_delete_category_dialog_content">Aktuella appar kommer att tas bort från denna kategori och kategorin kommer att raderas. Radera kategorin nu?</string>
     <string name="auto_delete_category_dialog_title">Raderar kategorin</string>
     <string name="backup_fail">Kunde inte backningen launcher</string>
@@ -117,9 +116,6 @@
     <string name="category_cannot_empty">Ange kategori först</string>
     <string name="category_choose_no_app_select_tip">Varje kategori måste innehålla minst 1 app.</string>
     <string name="category_drawer_name_hint">Ange kategorinamn</string>
-    <string name="category_edit_back_confirm_dialog_content">Spara ändringar nu?</string>
-    <string name="category_edit_back_confirm_dialog_negative_button">Spara inte</string>
-    <string name="category_edit_back_confirm_dialog_positive_button">Spara</string>
     <string name="category_group">Kategorisera appar</string>
     <string name="category_group_summary">Kategorisera appar i App-låda</string>
     <string name="category_not_selected">Tillgängliga appar</string>
@@ -265,9 +261,6 @@
     <string name="is_system_wallpaper_message">Kan inte ta bort systemresurser</string>
     <string name="launcher_not_exist">Ett fel uppstod. Gå tillbaka till Hemskärmen och försök igen.</string>
     <string name="launcher_pull_down_title">Svep nedåt på Hemskärmen</string>
-    <string name="launcher_search_bar_title">Sökfält på Hemskärmen</string>
-    <string name="launcher_search_bar_value_disable">Av</string>
-    <string name="launcher_search_bar_value_enable">På</string>
     <string name="launcher_slide_up_title">Svep uppåt på Hemskärmen</string>
     <string name="launcher_sliding_up_gesture">Svep upp på Hemskärmen för att söka</string>
     <string name="launcher_title">Hemskärm &amp; senast använda appar</string>
@@ -384,7 +377,7 @@
     <string name="screen_cells_config_title">Hemskärmens utseende</string>
     <string name="screen_locked_toast">Hemskärmens utseende är låst.</string>
     <string name="screen_number">%d skärm</string>
-    <string name="search_in_apps_store">Sök efter \"%1$s i %2$s</string>
+    <string name="search_in_apps_store">Sök efter \"%1$s\" i %2$s</string>
     <string name="search_no_result">Kunde inte hitta några resultat</string>
     <string name="select_all">Välj alla</string>
     <string name="select_frame">Ram</string>
@@ -408,6 +401,7 @@
     <string name="sort_by_not_defined">Sortera automatiskt</string>
     <string name="start_activity_failed">Kan inte starta launcher</string>
     <string name="starting_preset_app">Startar…</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="status_downloaded">Nedladdat</string>
     <string name="status_downloading">Laddar ned</string>
     <string name="status_installing">Installerar</string>

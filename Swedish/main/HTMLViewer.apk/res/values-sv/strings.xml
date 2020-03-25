@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="ad_service">Reklamtjänst</string>
+    <string name="app_label">HTML Viewer</string>
+    <string name="app_name_which_call">App: %s</string>
     <string name="app_version_which_call">Appversion: %s</string>
     <string name="autoconnect">Anslut automatiskt</string>
     <string name="ime_privacy_policy">Välj tangentbord</string>
@@ -12,6 +14,8 @@
     <string name="open_wifi_connect_summary">Tryck för att visa detaljer.</string>
     <string name="open_wifi_connect_title">Ansluten till %1$s</string>
     <string name="permdesc_accessDrm">Tillåt appen att få tillgån till DRM-skyddat innehåll.</string>
+    <string name="poco_launcher_privacy_policy">Sekretesspolicy för Poco Launcher</string>
+    <string name="poco_launcher_user_agreement">Poco Launcher användaravtal</string>
     <string name="poco_privacy_policy">Sekretesspolicy för Poco Launcher &amp; Poco Launcher användaravtal</string>
     <string name="policy_name">Protokoll: %s</string>
     <string name="pre_installed_apps">Förinstallerade appar</string>

@@ -35,6 +35,7 @@
     <string name="content_description_start">Starta</string>
     <string name="content_introduction">Innehållscenter samlar innehåll och tjänster från flera olika kanaler. Här kan du läsa artiklar, titta på videor, visa dagliga utvalda objekt och få innehållsrekommendationer.</string>
     <string name="continue_to_enable_accessibility">Fortsätt hålla ner två fingrar för att aktivera tillgänglighet.</string>
+    <string name="data_traffic_enable_dialog_title">Om du inte är ansluten till WiFi nu kommer din enhet att använda mobildata. Användning av mobildata kan generera ytterligare operatörsavgifter.</string>
     <string name="desc_extra_fingerprint" />
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_fingerprint">Använd ditt fingeravtryck för att låsa upp enheten, verifiera Mi Pay transaktioner, eller logga in till appar och tjänster.</string>
@@ -59,7 +60,7 @@
     <string name="font_hint_large">Standard textstorlek</string>
     <string name="font_hint_normal">Förstora textstorlek</string>
     <string name="framework_introduction">Med Mi Services Ramverk kan du använda Mi Konto, Mi Push, Mi Stats och MIUI BI.</string>
-    <string name="framwork_base_service">För att förse dig med dessa tjänster behöver Mi Services Ramverk (Mi Konto, Mi Push, Mi Stats, MIUI BI) ansluta till internet, få tillgång till ditt telefonnummer, IMEI och IMSI samt låta din enhet ta emot push-aviseringar</string>
+    <string name="framwork_base_service">För att förse dig med dessa tjänster behöver Mi Services Ramverk (Mi Konto, Mi Push, Mi Stats, MIUI BI) ansluta till internet, få tillgång till din plats, telefonnummer, IMEI och IMSI samt låta din enhet ta emot push-aviseringar</string>
     <string name="game_introduction">Med plug-in för spel kan du logga in, skapa beställningar, genomföra betalningar, använda kuponger och delta i kampanjevenemang.</string>
     <string name="google_service_introduction">För att kunna fungera normalt behöver Google Play ansluta till internet, få åtkomst till din plats, kunna spela in ljud, ringa samtal, få åtkomst till kalenderhändelser, samtalshistorik, sensorer, lagring, kamera, enhetsinformation och konton.</string>
     <string name="ime_privacy_policy">Integritetspolicy för det valda tangentbordet</string>
@@ -146,6 +147,8 @@ Avaktivera personliga annonser ändå?"</string>
     <string name="permission_virusscan_introduction">För utförande av virusskanning och optimering av din enhet</string>
     <string name="permission_xunlei_introduction">För inloggning i och hantering av systemkonton för att kunna tillhandahålla Xunlei-tjänster</string>
     <string name="poco_agree_terms_other">(inklusive Poco Launcher Sekretesspolicy och Användaravtal)</string>
+    <string name="poco_launcher_privacy_policy">Sekretesspolicy för Poco Launcher</string>
+    <string name="poco_launcher_user_agreement">Poco Launcher användaravtal</string>
     <string name="pref_title_data_slot">SIM-kort för mobildata att föredra</string>
     <string name="pref_title_voice_slot">Föredragit röst SIM-kort</string>
     <string name="privacy_policy">Integritetspolicy</string>
@@ -214,11 +217,11 @@ Du måste godkänna vårt användaravtal och vår integritetspolicy innan du kan
     <string name="terms_of_use_label_systemhelper">, Självregistrerande tjänst</string>
     <string name="terms_of_use_label_updater">, Uppdaterare</string>
     <string name="terms_of_use_lable_apps">Mi-tjänster, Mi SIM-aktiveringstjänster, Xiaomi Cloud, Hitta enhet, Hemskärm, Spel, MIUI Daemon och MSA-systemkomponenter, översättningstjänster, Snabbappar, Appvalv, statistik, Mi Link</string>
-    <string name="terms_of_use_lable_default_input_method_facemoji">"r
-r
+    <string name="terms_of_use_lable_default_input_method_facemoji">"
+
 Du måste godkänna Facmoji's Integritetspolicy innan du använder denna funktion."</string>
-    <string name="terms_of_use_lable_default_input_method_kika">"r
-r
+    <string name="terms_of_use_lable_default_input_method_kika">"
+
 Du måste godkänna Kika's Integritetspolicy innan du använder denna funktion."</string>
     <string name="terms_of_use_lable_gms">, Google Play services</string>
     <string name="terms_of_use_lable_smart_cards">, Smarta kort</string>
@@ -227,7 +230,7 @@ Du måste godkänna Kika's Integritetspolicy innan du använder denna funktion."
     <string name="terms_privacy_policy_input_method_kika">Kika Integritetspolicy</string>
     <string name="title_fingerprint">Ange lösenord</string>
     <string name="user_agreement">Användaravtal</string>
-    <string name="user_agreement_declare">Innan du använder MIUI måste du läsa och godkänna våra Användarvillkor och vår Integritetspolicy. När din enhet aktiveras ansluter Mi SIM-aktiveringstjänst, Hemskärmen, Frekventa fraser, Översättningstjänst, MIUI Daemon och Uppdateraren till internet. MSA kommer att ansluta till internet och få åtkomst till din plats.</string>
+    <string name="user_agreement_declare">Innan du använder MIUI måste du läsa och godkänna våra Användarvillkor och vår Integritetspolicy. När din enhet aktiveras ansluter Mi SIM-aktiveringstjänst, Xiaomi Cloud, Hitta enhet, Hemskärmen, Frekventa fraser, Översättningstjänst, MIUI Daemon, HTML-visningsprogram, AI-assistent, Batteri och prestanda, Power Detector, Joyose, OS AI-inställningar och Uppdateraren till internet. Smarta tjänster kommer att ansluta till internet och få åtkomst till din plats.</string>
     <string name="voice_assist_advice">Mi AI tillåter dig att använda röstkontroll men det förbrukar också mer ström (+1% varje timme).</string>
     <string name="voice_assist_condition">"Du kommer kunna använda Mi AI i dessa fall:r
 1. När skärmen är på.r

@@ -2,7 +2,7 @@
 <resources>
     <plurals name="delete_confirm_text">
         <item quantity="other">Ta bort %1$d skärminspelningar?</item>
-        <item quantity="one">Ta bort denna skärminspelning?</item>
+        <item quantity="one">Ta bort %1$d skärminspelning?</item>
     </plurals>
     <plurals name="home_title_selected">
         <item quantity="other">%1$d objekt valda</item>

@@ -111,6 +111,7 @@
     <string name="cast_forward">Framåt</string>
     <string name="cast_forward_10">Spola framåt tio sekunder</string>
     <string name="cast_forward_30">Spola framåt trettio sekunder</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_mute">Stäng av ljudet</string>
     <string name="cast_notification_connected_message">Ansluten till %1$s</string>
     <string name="cast_notification_connecting_message">Ansluter till %1$s</string>
@@ -142,6 +143,9 @@
     <string name="choose_to_signup">Nej, jag vill skapa ett</string>
     <string name="click_to_reload_more">Tryck för att ladda mer</string>
     <string name="click_to_retry">Försök igen</string>
+    <string name="cloud_online_switch">Personliga rekommendationer</string>
+    <string name="cloud_online_switch_close_time">Du kan slå på personliga innehållsrekommendationer i %s</string>
+    <string name="cloud_online_switch_open_time">Visa personliga innehållsrekommendationer</string>
     <string name="collect_diagnosis_log">Hämta loggfiler</string>
     <string name="com_facebook_device_auth_instructions">Gå till &lt;b>facebook.com/device&lt;/b> och skriv in koden som visas ovan.</string>
     <string name="com_facebook_image_download_unknown_error">Ett oväntat fel inträffade när en bild skulle laddas ned.</string>
@@ -171,6 +175,7 @@
     <string name="comment_model_add_comment">Lägg till en kommentar</string>
     <string name="comment_model_bg_add_comment">Dela dina tankar med vår community</string>
     <string name="comment_model_bg_deleted_comment">Denna kommentar raderades</string>
+    <string name="comment_model_close">Kommentering är inte tillgängligt nu. Håll dig uppdaterad!</string>
     <string name="comment_model_comment">Kommentarer</string>
     <string name="comment_model_confirm_delete">Radera kommentar nu?</string>
     <string name="comment_model_copy">Kopiera</string>
@@ -358,6 +363,7 @@ för videor"</string>
     <string name="language_setting_tips">Välj dina språkinställningar för att få mer relevanta innehållsrekommendationer. Du kan ändra dina språkinställningar i Profil > Språk.</string>
     <string name="language_setting_tips_dialog">Du kan välja språkinställningar för innehåll i Konto > Språk.</string>
     <string name="later">Senare</string>
+    <string name="live_tv_title">Live-TV</string>
     <string name="loading">Vänta en stund…</string>
     <string name="local_push_title">Populärt idag</string>
     <string name="login">Logga in</string>
@@ -532,6 +538,7 @@ för videor"</string>
     <string name="no_recommend_data">Inga rekommenderade videor nu</string>
     <string name="no_subscriptions">Inga objekt här</string>
     <string name="not_show">Visa inte igen</string>
+    <string name="not_support_share">Det går inte att dela detta objekt i nuläget</string>
     <string name="notice_comment_action">%s kommenterade ditt inlägg</string>
     <string name="notice_comment_action_deleted">Denna kommentar raderades</string>
     <string name="notice_feedback_content">Det finns en uppdatering för din feedback. Tryck för att visa.</string>
@@ -540,6 +547,7 @@ för videor"</string>
     <string name="notice_title">Meddelanden</string>
     <string name="notify_apk_installed">Nedladdad</string>
     <string name="ok">OK</string>
+    <string name="order_alphabet">A-Ö</string>
     <string name="order_recently_subscribe">Senaste prenumerationer</string>
     <string name="order_recently_updated">Nyligen uppdaterade</string>
     <string name="ovp_alert_dialog_download_install_task">Laddar ned HD plug-in…</string>
@@ -912,6 +920,10 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="save_cancel_toast">Tryck på ”Tillbaka” igen för att avbryta spara video</string>
     <string name="screenrecord_cancel">Kompatibilitetsproblem</string>
     <string name="screenrecord_nosupport_record">Skärminspelare stöds för närvarande inte på denna enhet.</string>
+    <string name="screenshot_8k">8K-skärmdump</string>
+    <string name="screenshot_8k_save_toast">Sparade 8K-skärmdump till %s</string>
+    <string name="screenshot_8k_saving">Sparar 8K-skärmdump…</string>
+    <string name="screenshot_8k_share">Skicka fil till</string>
     <string name="search">Sök</string>
     <string name="search_choose_language">Välj språk</string>
     <string name="search_choose_voice_language">Välj språket som används för röstsökning</string>
@@ -939,6 +951,7 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="sns_bind_limit">För många försök. Försök att logga in på andra sätt.</string>
     <string name="sns_sign_in">Andra sätt att logga in på</string>
     <string name="source">"Källa: "</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kort</string>
     <string name="storage_internal_sdcard">Internt lagringsutrymme</string>
     <string name="submit">Skicka</string>
