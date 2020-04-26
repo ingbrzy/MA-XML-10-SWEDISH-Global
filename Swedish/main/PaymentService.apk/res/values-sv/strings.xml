@@ -213,5 +213,4 @@ För att aktivera ditt konto, följ
     <string name="passport_wrong_phone_number_format">Formatet på det telefonnummer som du angav är ogiltigt</string>
     <string name="passport_wrong_vcode">Koden du angav är felaktig</string>
     <string name="passport_yes">Yes</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
 </resources>
