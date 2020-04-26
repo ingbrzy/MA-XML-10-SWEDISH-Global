@@ -97,7 +97,7 @@
     <string name="grant_dialog_button_deny_background_and_dont_ask_again">Neka och fråga inte igen</string>
     <string name="location_settings">Platsinställningar</string>
     <string name="location_warning">%1$s är en leverantör av platstjänster för denna enhet. Platsåtkomst kan ändras från platsinställningar.</string>
-    <string name="never_ask_again">Fråga inte igen</string>
+    <string name="never_ask_again">Fråga inte igen efter begränsning</string>
     <string name="ok">Okej</string>
     <string name="permdesc_camera">Ta foton och spela in videor</string>
     <string name="permdesc_in_calls">Övervaka inkommande samtal</string>

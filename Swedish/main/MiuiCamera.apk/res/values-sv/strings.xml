@@ -76,6 +76,7 @@
 och justera preferenser automatiskt"</string>
     <string name="ai_scene_top_moon_off">Lågt ljusläge</string>
     <string name="ai_scene_top_tip">Månläge</string>
+    <string name="ai_watermark_title">AI vattenstämpel</string>
     <string name="audio_focus_exit_button_text">Avaktivera ljudfokus</string>
     <string name="autozoom_click_hint">Tryck på ett objektiv för att hålla det fokus medan det rör sig. Va minst 3 meter ifrån för bästa resultat.</string>
     <string name="autozoom_disabled_hint">Stoppade spårning av rörelseobjekt</string>
@@ -109,6 +110,7 @@ och justera preferenser automatiskt"</string>
     <string name="button_fisheye_camera_title">Fisheye</string>
     <string name="button_front_camera_title">Ta en selfie</string>
     <string name="button_normal_video_title">Spela in video</string>
+    <string name="camcorder_tip_8k_max_video_duration">Du kan spela in upp till 6 minuter i 8K</string>
     <string name="camera_disabled">Kameran har inaktiverats</string>
     <string name="camera_error_title">Kamerafel</string>
     <string name="camera_label">Kamera</string>
@@ -122,14 +124,15 @@ och justera preferenser automatiskt"</string>
     <string name="camera_snap_mode_title_detail">Tryck för att visa detaljer</string>
     <string name="cannot_connect_camera_once">Kan inte ansluta till kameran</string>
     <string name="cannot_connect_camera_twice">Kan fortfarande inte ansluta till kameran. Försök att starta om din telefon.</string>
-    <string name="cannot_connect_camera_volte_call">Videosamtal pågår, försök igen senare.</string>
     <string name="cannot_move_warning_message">Tar bild, håll enheten stilla</string>
     <string name="capture_back_pressed_hint">Tryck igen för att avsluta</string>
+    <string name="ccc_temperature_warning_msg">Din enhet är överhettad. Kameran kommer stängas om %d sekunder. Dina foton eller videor kommer att sparas automatiskt.</string>
+    <string name="ccc_temperature_warning_title">Enheten är överhettad</string>
     <string name="close_back_flash_toast">Din enhet är överhettad. Det går inte att använda blixten nu.</string>
     <string name="close_front_flash_toast">Din enhet är överhettad. Det går inte att använda blixten nu.</string>
     <string name="color_effect_entry_berry">Bär</string>
     <string name="color_effect_entry_blackwhite">S&amp;V</string>
-    <string name="color_effect_entry_classic">Classic</string>
+    <string name="color_effect_entry_classic">Klassisk</string>
     <string name="color_effect_entry_cookie">Kaka</string>
     <string name="color_effect_entry_delicacy">Gourmet</string>
     <string name="color_effect_entry_fade">Blekna</string>
@@ -150,6 +153,7 @@ och justera preferenser automatiskt"</string>
     <string name="color_effect_live_none">Normal</string>
     <string name="color_effect_live_solar">Himmelsblå</string>
     <string name="color_effect_live_years">Sepia</string>
+    <string name="color_enhance_mode">Förstärkta färger</string>
     <string name="config_name_group">Grupp-selfie</string>
     <string name="config_name_hht">HHT</string>
     <string name="config_name_magic">Magisk</string>
@@ -183,6 +187,12 @@ och justera preferenser automatiskt"</string>
     <string name="dialog_ok_time">OKEJ (%ds)</string>
     <string name="dirty_tip_toast">Linsen är smutsig. Rengör linsen.</string>
     <string name="do_not_remind_me">Visa inte igen</string>
+    <string name="document_blackwhite">B&amp;W</string>
+    <string name="document_mode_use_hint_text_body">"Rada upp och förbättra
+skannade dokument automatiskt"</string>
+    <string name="document_mode_use_hint_text_title">Skanna dokument</string>
+    <string name="document_origin">Original</string>
+    <string name="document_strengthen">Förbättrad</string>
     <string name="dual_camera_lens_covered_toast">Linsen är täckt.</string>
     <string name="dual_camera_lowlight_toast">Det är för mörkt.</string>
     <string name="dual_camera_too_close_toast">Kameran är för nära motivet.</string>
@@ -193,6 +203,7 @@ och justera preferenser automatiskt"</string>
     <string name="edit_eyebrow_dye">Ögonbryn</string>
     <string name="edit_face_ruddy">Rödblommig</string>
     <string name="edit_face_slender">Smal</string>
+    <string name="edit_hairline">Hårlinje</string>
     <string name="edit_jelly_lips">Läppglans</string>
     <string name="edit_lips">Läppar</string>
     <string name="edit_neck">Nacke</string>
@@ -238,6 +249,7 @@ och justera preferenser automatiskt"</string>
     <string name="face_beauty_smart">Smart</string>
     <string name="face_score_info">Poäng: %.1f</string>
     <string name="fps960_toast">Inspelning i slowmotion kommer startas den sista fjärdedelelen av inspelningen</string>
+    <string name="fragment_tab_name_bokeh">Bokeh</string>
     <string name="front_camera_hint_text_place">"Tar seflies kommer bli lättare
 om du roterar din telefon"</string>
     <string name="front_camera_hint_text_rotate">Rotera din telefon</string>
@@ -256,8 +268,16 @@ och skapar sedan ett foton där alla ser bäst ut."</string>
     <string name="hint_groupshot_beauty">Kan inte Försköna i gruppbilder</string>
     <string name="hint_mimovie">Spela in i landskapsläge för bästa effekt</string>
     <string name="hint_slow_motion">Videon som du spelar in kommer spelas långsammare.</string>
+    <string name="hint_subtitle">Diktera undertexter medan du filmar video</string>
+    <string name="hint_subtitle_prompt">Du kan diktera undertexter nu</string>
     <string name="hunt_dual_water_mark">Vattenstämpel för Dubbelkamera kommer läggas till automatiskt.</string>
+    <string name="id_card_mode_hint_back">Skanna in baksidan av ditt ID</string>
+    <string name="id_card_mode_hint_front">Skanna in framsidan av ditt ID</string>
+    <string name="id_card_mode_use_hint_text_body">"Kombinera båda sidorna av ditt ID på en bild.
+Skriv ut kopian trådlöst på A4-papper."</string>
+    <string name="id_card_mode_use_hint_text_title">Skannings-ID</string>
     <string name="install_confirmed">Installera</string>
+    <string name="kaleidoscope_fragment_tab_name">Kalejdoskop</string>
     <string name="lens_dirty_detected_content">"Det verkar som att din kameralins är smutsig.
 Rengör linsen för bättre bilder."</string>
     <string name="lens_dirty_detected_title_back">Bakre kameralins är smutsig</string>
@@ -391,9 +411,10 @@ se större ut i bilder"</string>
     <string name="moive_frame">Filmram</string>
     <string name="multi_window_mode_not_supported">Kameran fungerar inte i Delad skärm</string>
     <string name="network_access_user_notice_agree">Godkänn</string>
-    <string name="network_access_user_notice_message_live_video">&lt;Data>Kamera måste ansluta till internet för att tillhandahålla effekter, musik och andra funktioner till videoklipp.&lt;br/>&lt;br/>Genom att trycka på Godkänn nedan godkänner du vårt &lt;a href =%1$s>Användaravtal&lt;/a> och vår &lt;a href =%2$s>Integritetspolicy&lt;/a> samt tillåter att Kamera ansluter till internet.&lt;/Data></string>
-    <string name="network_access_user_notice_message_sticker">&lt;Data>Kamera måste ansluta till internet för att tillhandahålla etiketter för den här funktionen.&lt;br/>&lt;br/>Genom att trycka på Godkänn nedan godkänner du vårt &lt;a href =%1$s>Användaravtal&lt;/a> och vår &lt;a href =%2$s>Integritetspolicy&lt;/a> samt tillåter att Kamera ansluter till internet.&lt;/Data></string>
-    <string name="network_access_user_notice_message_voice_caption">&lt;Data>Kamera måste ansluta till internet för att tillhandahålla tal-till-text-utmatning.&lt;br/>&lt;br/>Genom att trycka på Godkänn nedan godkänner du vårt &lt;a href =%1$s>Användaravtal&lt;/a> och vår &lt;a href =%2$s>Integritetspolicy&lt;/a> samt tillåter att Kamera ansluter till internet.&lt;/Data></string>
+    <string name="network_access_user_notice_message_live_video">&lt;Data>Kamera måste ansluta till internet för att tillhandahålla effekter, musik och andra funktioner till videoklipp.&lt;br/>&lt;br/>Genom att trycka på \"Godkänn\" nedan godkänner du vårt &lt;a href =%1$s>Användaravtal&lt;/a> och vår &lt;a href =%2$s>Integritetspolicy&lt;/a> samt tillåter att Kamera ansluter till internet.&lt;/Data></string>
+    <string name="network_access_user_notice_message_mi_live_video">&lt;Data>Välkommen till korta videor! Vår tjänst behöver ansluta till nätverket för att förse dig med musik och andra funktioner. &lt;br/>&lt;br/>Innan du använder vår tjänst behöver du läsa och acceptera vårt &lt;a href =%1$s>Användaravtal&lt;/a> och &lt;a href =%2$s>Integritetspolicy&lt;/a>, såväl som tillåta att appen ansluter till internet.&lt;/Data></string>
+    <string name="network_access_user_notice_message_sticker">&lt;Data>Kamera måste ansluta till internet för att tillhandahålla etiketter för den här funktionen.&lt;br/>&lt;br/>Genom att trycka på \"Godkänn\" nedan godkänner du vårt &lt;a href =%1$s>Användaravtal&lt;/a> och vår &lt;a href =%2$s>Integritetspolicy&lt;/a> samt tillåter att Kamera ansluter till internet.&lt;/Data></string>
+    <string name="network_access_user_notice_message_voice_caption">&lt;Data>Kamera måste ansluta till internet för att tillhandahålla tal-till-text-utmatning.&lt;br/>&lt;br/>Genom att trycka på \"Godkänn\" nedan godkänner du vårt &lt;a href =%1$s>Användaravtal&lt;/a> och vår &lt;a href =%2$s>Integritetspolicy&lt;/a> samt tillåter att Kamera ansluter till internet.&lt;/Data></string>
     <string name="network_access_user_notice_title">Anslutning till internet</string>
     <string name="no_storage">Sätt i SD-kort innan du använder kameran</string>
     <string name="not_enough_space">SD-kortet är fullt</string>
@@ -409,6 +430,7 @@ se större ut i bilder"</string>
     <string name="parameter_ef_split_description">Du kan dra exponeringsringen bort från fokusringen och justera de två parametrarna separat.</string>
     <string name="parameter_ef_split_title">Separat fokusering och exponeringsmätning</string>
     <string name="parameter_et_description">Automatisk slutarhastighet avgörs av kamerans ljusmätare. När du väljer slutarhastighet automatiskt, kom ihåg att ju längre tid slutaren är öppen, ju mer ljus kommer på sensorn, vilket gör din bild ljusare.</string>
+    <string name="parameter_et_title">Slutarhastighet</string>
     <string name="parameter_exposure_description">Denna funktion tillåter dig att kompensera exponeringen när du vill att din bild ska bli ljusare eller mörkare än vad mätaren föreslår.</string>
     <string name="parameter_exposure_feecback_description">Markera underexponerade områden i blått och överexponerade områden i rött för att kunna justera exponeringen korrekt.</string>
     <string name="parameter_exposure_feecback_title">Exponeringsverifiering</string>
@@ -418,7 +440,8 @@ se större ut i bilder"</string>
     <string name="parameter_histogram_description">Histogram är en realtids representation av exponering som indikerar de mörkaste delarna av din bild på vänstersidan och går över till de ljusaste delarna av högersidan. Den vertikala delen av skalan visar hur mycket av bilden som som är ljus eller mörk.</string>
     <string name="parameter_histogram_title">Histogram</string>
     <string name="parameter_iso_description">ISO-värden kan bestämmas automatiskt av ljusmätaren. Du kan även ändra värdet manuellt. Kom ihåg att högre ISO gör din kamera mer känslig för ljus, men ger mer digitalt brus till din bild.</string>
-    <string name="parameter_lens_description">Du kan växla mellan flera tillgängliga linser:</string>
+    <string name="parameter_iso_title">ISO-känslighet</string>
+    <string name="parameter_lens_description">"Du kan växla mellan flera tillgängliga linser: "</string>
     <string name="parameter_lens_marco">, MACRO (macro-lins)</string>
     <string name="parameter_lens_st">, S-TELE (zoomlins)</string>
     <string name="parameter_lens_t">, TELE (telefotolins)</string>
@@ -512,6 +535,7 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_auxiliary_close">Av</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Exponeringsverifiering</string>
     <string name="pref_camera_auxiliary_focus_peak">Maximera fokus</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
@@ -544,22 +568,8 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_delay_capture_entry_audio">Ljud</string>
     <string name="pref_camera_delay_capture_title">Timer</string>
     <string name="pref_camera_device_watermark_title">Enhetsvattenstämpel</string>
-    <string name="pref_camera_exposuretime_entry_0_5">2 s</string>
-    <string name="pref_camera_exposuretime_entry_1000">1/1000s</string>
-    <string name="pref_camera_exposuretime_entry_125">1/125s</string>
-    <string name="pref_camera_exposuretime_entry_15">1/15s</string>
-    <string name="pref_camera_exposuretime_entry_16s">16s</string>
-    <string name="pref_camera_exposuretime_entry_250">1/250s</string>
-    <string name="pref_camera_exposuretime_entry_30">1/30s</string>
-    <string name="pref_camera_exposuretime_entry_32s">32s</string>
-    <string name="pref_camera_exposuretime_entry_4">1/4s</string>
-    <string name="pref_camera_exposuretime_entry_4s">4s</string>
-    <string name="pref_camera_exposuretime_entry_500">1/500s</string>
-    <string name="pref_camera_exposuretime_entry_60">1/60s</string>
-    <string name="pref_camera_exposuretime_entry_8">1/8s</string>
-    <string name="pref_camera_exposuretime_entry_8s">8s</string>
-    <string name="pref_camera_exposuretime_entry_auto">AUTO</string>
     <string name="pref_camera_face_info_watermark_title">Lägg till åldersstämpel i foto</string>
+    <string name="pref_camera_first_tag_tips">Markerad</string>
     <string name="pref_camera_flashmode_entry_auto">Auto</string>
     <string name="pref_camera_flashmode_entry_back_soft_light">Mjukt ljus</string>
     <string name="pref_camera_flashmode_entry_off">Av</string>
@@ -690,6 +700,8 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_video_duration_entry_120">Ingen gräns</string>
     <string name="pref_camera_video_duration_entry_30">30 minuter</string>
     <string name="pref_camera_video_duration_entry_mms">30 sekunder (MMS)</string>
+    <string name="pref_camera_video_tag">Tillåt markering av video</string>
+    <string name="pref_camera_video_tag_description">Tryck på \"Markera\" medan du filmar en video för att kunna gå tillbaka till markerade tillfällen under uppspelningen</string>
     <string name="pref_camera_volumekey_function_entry_shutter">Slutare</string>
     <string name="pref_camera_volumekey_function_entry_timer">Nedräkning slutare</string>
     <string name="pref_camera_volumekey_function_entry_volume">Volym</string>
@@ -708,8 +720,8 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_zoom_mode_entry_macro">MAKRO</string>
     <string name="pref_camera_zoom_mode_entry_standard">NORMAL</string>
     <string name="pref_camera_zoom_mode_entry_tele">TELE</string>
-    <string name="pref_camera_zoom_mode_entry_tele_2X">Tele 2X</string>
-    <string name="pref_camera_zoom_mode_entry_tele_standalone">Tele 5X</string>
+    <string name="pref_camera_zoom_mode_entry_tele_2X">TELE 2X</string>
+    <string name="pref_camera_zoom_mode_entry_tele_standalone">TELE 5X</string>
     <string name="pref_camera_zoom_mode_entry_ultra">ULTRA VIDVINKEL</string>
     <string name="pref_camera_zoom_mode_entry_wide">WIDE</string>
     <string name="pref_camera_zoom_mode_title">LINS</string>
@@ -717,6 +729,7 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_zsl_entry_off">Av</string>
     <string name="pref_camera_zsl_entry_on">På</string>
     <string name="pref_capture_settings">Kamera</string>
+    <string name="pref_document_mode">Dokument</string>
     <string name="pref_face_beauty_title">Försköna</string>
     <string name="pref_fingerprint_capture_title">Fingeravtrycksslutare</string>
     <string name="pref_front_mirror_entry_auto">När ansikte upptäcks</string>
@@ -778,13 +791,14 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_video_speed_entry_slow">Långsam</string>
     <string name="pref_video_speed_fast_title">Tids-intervall</string>
     <string name="pref_video_speed_slow_title">Slow-motion</string>
+    <string name="pref_video_subtitle">Undertexter</string>
     <string name="pref_video_time_lapse_frame_interval_entry_10">10X (0.3-sekunders intervall)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_120">120X (4-sekunders intervall)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_150">150X (5-sekunders intervall)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_1800">1800X (60-sekunders intervall)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_2">2X (0.06-sekunders intervall)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_240">240X (8-sekunders intervall)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_30">30X (1 sekund)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_30">30X (1-sekunders intervall)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_300">300X (10-sekunders intervall)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_4">4X (0.12-sekunders intervall)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_450">450X (15-sekunders intervall)</string>
@@ -796,6 +810,7 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_watermark_on">På</string>
     <string name="pref_watermark_title">Vattenmärke</string>
     <string name="preparing_sd">Kontrollerar SD-kortet…</string>
+    <string name="pro_color_mode">Pro-color</string>
     <string name="recommend_macro_mode">Testa Macro-läge</string>
     <string name="recommend_portrait">Testa porträttläge</string>
     <string name="recommend_soft_light_tip">Slå på blixt</string>
@@ -834,6 +849,10 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sticker_tab1">Söt</string>
     <string name="sticker_tab2">Rolig</string>
+    <string name="subtitle_network_exception_tips">Kunde inte ansluta till nätverket. Kan inte transkribera nu.</string>
+    <string name="super_eis">Superstabilisering</string>
+    <string name="super_eis_disabled_hint">Superstabilisering av</string>
+    <string name="super_night_hint">Optimerar bild… Håll enheten stadigt.</string>
     <string name="super_night_toast">Håll din telefon stilla medan du tar ett foto</string>
     <string name="tap_to_exposure">Tryck här för att justera exponeringen manuellt</string>
     <string name="tap_to_focus">Tryck för att fokusera</string>
@@ -846,13 +865,17 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="toast_start_audio_capture">Gör ett ljud för att ta ett foto</string>
     <string name="ubi_focus_capture_fail">Kunde inte ta bild</string>
     <string name="ubifocus_capture_warning_message">För bästa resultat bör din bild innehålla föremål både nära (mindre än en meter från objektivet) och långt</string>
+    <string name="ultra_pixel_108mp">108 MP</string>
     <string name="ultra_pixel_32mp">32MP</string>
     <string name="ultra_pixel_48mp">48MP</string>
     <string name="ultra_pixel_64mp">64MP</string>
     <string name="ultra_pixel_photography_close_tip">%s Ultra HD är avaktiverat</string>
     <string name="ultra_pixel_photography_open_tip">%s Ultra HD är aktiverat</string>
-    <string name="ultra_pixel_portrait_hint">HD-porträtt</string>
+    <string name="ultra_pixel_portrait_hint">Lågljusporträtt</string>
     <string name="ultra_pixel_zoom_no_support_tip">Zoom fungerar inte i %s Ultra HD-läget</string>
+    <string name="ultra_tele_use_hint_text_body">"Använd 50X zoom för att ta bilder av objekt långt iväg
+med hög detaljrikedom"</string>
+    <string name="ultra_tele_use_hint_text_title">50X zoom</string>
     <string name="ultra_wide_bokeh_close_tip">Hel kroppsläge är avstängt</string>
     <string name="ultra_wide_bokeh_open_tip">Full kroppsläge</string>
     <string name="ultra_wide_close_tip">Vidvinkelläge är avaktiverat</string>
@@ -871,14 +894,27 @@ Vidvinkelläget hjälper till när du inte kan flytta längre från objektet."</
     <string name="user_notice_identify_summary_format">Innan du börjar använda Kameran måste du godkänna våra <a href="http://www.miui.com/res/doc/eula.html?lang=sv_SE">Användarvillkor</a> och vår <a href="http://www.miui.com/res/doc/privacy.html?lang=sv_SE">Integritetspolicy</a>. Kameran behöver också ansluta till internet för att fungera normalt. Godkänn?</string>
     <string name="user_notice_title">Villkor</string>
     <string name="video_beauty_tip">Försköna videoklipp</string>
+    <string name="video_beauty_tip_beautification">Beautify</string>
+    <string name="video_beauty_tip_filter">Filter</string>
+    <string name="video_beauty_tip_portrait_bokeh">Bokeh</string>
     <string name="video_camera_label">Videokamera</string>
     <string name="video_effect_entry_blackwhite">S&amp;V</string>
     <string name="video_effect_entry_bygone">Bygone</string>
+    <string name="video_effect_entry_central">Central</string>
+    <string name="video_effect_entry_color_retention">Färg-pop</string>
+    <string name="video_effect_entry_fantasy">Fantasi</string>
     <string name="video_effect_entry_film">Film</string>
     <string name="video_effect_entry_forest">Grove</string>
     <string name="video_effect_entry_holiday">Reflektioner</string>
+    <string name="video_effect_entry_lost">Vilse</string>
+    <string name="video_effect_entry_meet">Möte</string>
+    <string name="video_effect_entry_northern_europe">Nordisk</string>
     <string name="video_effect_entry_polaroid">Polaroid</string>
+    <string name="video_effect_entry_rome">Rom</string>
+    <string name="video_effect_entry_summer_day">Sommar</string>
+    <string name="video_effect_entry_wind_sing">Lätt vind</string>
     <string name="video_reach_size_limit">Storleksbegränsning nådd.</string>
+    <string name="video_tag_flag_title">Markera</string>
     <string name="video_ultra_clear_tip">4K UHD</string>
     <string name="video_ultra_clear_tip_8k">AI 8K</string>
     <string name="view_privacy_policy">Visa sekretesspolicy</string>
@@ -890,6 +926,11 @@ Vidvinkelläget hjälper till när du inte kan flytta längre från objektet."</
 spela in och redigera videor på språng"</string>
     <string name="vv_use_hint_text_title">VLOG</string>
     <string name="wait">Vänta lite…</string>
+    <string name="watermark_tab_city">Stad</string>
+    <string name="watermark_tab_festival">Semester</string>
+    <string name="watermark_tab_general">Allmän</string>
+    <string name="watermark_tab_scene">Scen</string>
+    <string name="watermark_tab_spots">Plats</string>
     <string name="wideselfie_press_shoot_key_to_start">Tryck på slutarknappen</string>
     <string name="wideselfie_result_image_lossless">Det gick inte att skapa panoramabild</string>
     <string name="wideselfie_rotate_slowly">Vrid telefonen åt sidan</string>

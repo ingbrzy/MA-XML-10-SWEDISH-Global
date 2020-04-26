@@ -49,6 +49,8 @@ Note: Informationen från de appar du har installerat säkerhetskopieras inte ti
     <string name="self_device_second_space">Telefonens Sekundära utrymme</string>
     <string name="other_device_main_space">Primära utrymmet</string>
     <string name="other_device_second_space">Sekundära utrymmet</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Återställer \"%s\"</string>
     <string name="size_unknown">Okänd storlek</string>
     <string name="recovering">Återställer %s</string>
@@ -57,6 +59,7 @@ Note: Informationen från de appar du har installerat säkerhetskopieras inte ti
     <string name="start_backup_to_micloud">Säkerhetskopiera appar till Xiaomi Cloud</string>
     <string name="backing_up_to_micloud">Säkerhetskopierar…</string>
     <string name="restore_from_cloud">Återställ från molnets säkerhetskopia</string>
+    <string name="restore_from_mimover">Överför från din gamla enhet med Mi Mover</string>
     <string name="backup_to_cloud">Säkerhetskopiera app</string>
     <string name="restoring_file_title_no_progress">Återställer filer…</string>
     <string name="menu_item_sort">Sortera efter</string>
@@ -80,7 +83,7 @@ Note: Informationen från de appar du har installerat säkerhetskopieras inte ti
     <string name="download_settings">Laddar ner Hemskärmsinställningar %s%%</string>
     <string name="cloud_back_up_date_format">HH:mm dd.MM.yyyy</string>
     <string name="recover_home_settings">Återställ inställningar för Hemskärmen</string>
-    <string name="cancel_recover_settings"><u>Avbryt</u></string>
+    <string name="cancel_recover_settings">Avbryt</string>
     <string name="recover_settings_description">Håll enheten påslagen</string>
     <string name="recover_miui_settings">Återställ Systeminställningar</string>
     <string name="wait_icon_download">Ladda ner appikoner</string>
@@ -106,6 +109,7 @@ Note: Informationen från de appar du har installerat säkerhetskopieras inte ti
     <string name="restore_data_summary">Denna finess kräver en internetanslutning.</string>
     <string name="query_restore_summary">Hitta en Xiaomi Cloud säkerhetskopiering för denna enhet. Vill du återställa apparna på Hemskärmen samt inställningarna, eller vill du använda den som en ny enhet och ta bort gamla Xiaomi Cloud säkerhetskopieringar?</string>
     <string name="restore_home_screen_apps">Återställ från molnets säkerhetskopia</string>
+    <string name="restoring_home_screen_apps">Återställer från Xiaomi Cloud…</string>
     <string name="query_restore_description">Återställ appar på Hemskärmen och inställningar genom denna säkerhetskopiering. Detta kommer skriva över data för appar som redan är installerade på denna enhet. Appar som inte ingår i säkerhetskopieringen kommer bli flyttade till den sista Hemskärmen.</string>
     <string name="restore_from_this_device">Återställ genom denna säkerhetskopia</string>
     <string name="confirm_cancel_restore_title">Avbryt återställning?</string>
@@ -132,7 +136,7 @@ Note: Informationen från de appar du har installerat säkerhetskopieras inte ti
     <string name="provision_error_connect_msg">Testa nätverket och försök igen. Säkerhetskopior är inte tillgängliga när enheten är offline.</string>
     <string name="provision_error_connect_title">Kan inte ansluta</string>
     <string name="loading_user_backup">Laddar säkerhetskopia…</string>
-    <string name="loading_progress_num">(%s%%)</string>
+    <string name="loading_progress_num">Laddat %s%%</string>
     <string name="error_num_placeholder">--</string>
     <string name="doing_calc_backup_data_size">Beräknar storlek…</string>
     <string name="authentication_failed">Kunde inte verifiera konto.</string>
@@ -165,7 +169,7 @@ Note: Informationen från de appar du har installerat säkerhetskopieras inte ti
     <string name="cloud_backup">Säkerhetskopiering i molnet</string>
     <string name="open_backup_switch">Slå på och av säkerhetskopiering</string>
     <string name="restore_cloud_backup_to_phone">Återställ objekt från molnet</string>
-    <string name="cloud_backup_in_process">Säkerhetskopierar…</string>
+    <string name="cloud_backup_in_process">Säkerhetskopierar</string>
     <string name="cloud_backup_in_cancel">Avbryt</string>
     <string name="dialog_cancel_backup_title">Avbryt pågående säkerhetskopiering?</string>
     <string name="dialog_cancel_backup_msg">Att slå på och av säkerhetskopieringen kommer avsluta den pågående säkerhetskopieringen.</string>
@@ -221,5 +225,6 @@ Kontrollera dina inställningar och försök igen."</string>
     <string name="restore_task_unfinished">Det gick inte att återställa</string>
     <string name="restore_failed_reason_network_error">Nätverksfel. Vänta ett par minuter och försök igen.</string>
     <string name="restore_failed_reason_disk_space_not_enough">Inte tillräckligt med lagringsutrymme. Frigör lagringsutrymme först.</string>
-    <string name="cloud_app_restore_app_and_data">Konfigurera enheten</string>
+    <string name="storage_unit_mb">%s MB</string>
+    <string name="storage_unit_gb">%s GB</string>
 </resources>

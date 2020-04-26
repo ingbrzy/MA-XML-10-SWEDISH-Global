@@ -58,6 +58,7 @@
     <string name="additional_gsm_call_settings_with_label">Ytterligare inställningar (%s)</string>
     <string name="administrative_disable">Administrativ är av</string>
     <string name="administrative_enable">Administrativ är på</string>
+    <string name="advanced_mobile_settings">Avancerade inställningar</string>
     <string name="advanced_options_title">Avancerat</string>
     <string name="advanced_settings">Valfria inställningar</string>
     <string name="advanced_settings_hide">▽ Tryck för att dölja alla</string>
@@ -98,9 +99,9 @@
     <string name="audio_mode_wired_headset">Trådat headset</string>
     <string name="auth_username_summary">Användarnamn för autentisering</string>
     <string name="auth_username_title">Autentiseringsanvändarnamn</string>
-    <string name="auto_answer_delay_entries_delay_10s">10 sekunder</string>
-    <string name="auto_answer_delay_entries_delay_3s">3 sekunder</string>
-    <string name="auto_answer_delay_entries_delay_5s">5 sekunder</string>
+    <string name="auto_answer_delay_entries_delay_10s">%d sekunder</string>
+    <string name="auto_answer_delay_entries_delay_3s">%d sekunder</string>
+    <string name="auto_answer_delay_entries_delay_5s">%d sekunder</string>
     <string name="auto_answer_delay_entries_immediately">Ingen fördröjning</string>
     <string name="auto_answer_delay_title">Fördröj auto-svar</string>
     <string name="auto_answer_pref_summary">Svara automatiskt på inkommande samtal</string>
@@ -117,7 +118,23 @@
     <string name="auto_redial_pref_title">Ringa upp igen automatiskt</string>
     <string name="auto_retry_mode_summary">Aktivera automatiskt försök-igen-läge</string>
     <string name="auto_retry_mode_title">Försök igen automatiskt</string>
+    <string name="autoip">Automatisk IP uppringning</string>
+    <string name="autoip_add_zero_prefix">Ange 0 prefix för mobil</string>
+    <string name="autoip_areacode_required">Riktnummer krävs</string>
+    <string name="autoip_areacode_required_accept">OK</string>
     <string name="autoip_areacode_required_for_emergency_number">Lokalt riktnummer krävs för nödsamtal</string>
+    <string name="autoip_autoip_current_areacode_summary">Current area code is %s</string>
+    <string name="autoip_current_areacode">Nuvarande riktnummer</string>
+    <string name="autoip_current_areacode_summary">Nuvarande plats riktnummer</string>
+    <string name="autoip_exception">Siffror som inte behöver IP-prefix</string>
+    <string name="autoip_exception_summary">%d totalt</string>
+    <string name="autoip_exception_summary_more">, %d totalt</string>
+    <string name="autoip_no_exceptions">Lägg till nummer som inte kräver ett IP-prefix</string>
+    <string name="autoip_prefix">IP prefix</string>
+    <string name="autoip_prefix_summary">Operatörens IP prefix är %s</string>
+    <string name="autoip_setting">Automatiska IP inställningar</string>
+    <string name="autoip_summary">Ange ett IP prefix för internationella nummer</string>
+    <string name="autoip_support_local_numbers">Använd alltid IP prefix</string>
     <string name="available_via_carrier">Tillgängligt via %1$s</string>
     <string name="available_via_passpoint">Tillgängligt via %1$s</string>
     <string name="back">Tillbaka</string>
@@ -391,13 +408,13 @@ Val"</string>
     <string name="cfb_title">Vidarekoppla vid upptaget</string>
     <string name="cfnrc_title">Vidarekoppla när ej nåbar</string>
     <string name="cfnrc_title_cta">Vidarekoppla när ej nåbar</string>
-    <string name="cfnry_time_fifteen_sec">15 sek</string>
-    <string name="cfnry_time_five_sec">5 sek</string>
+    <string name="cfnry_time_fifteen_sec">%d sek</string>
+    <string name="cfnry_time_five_sec">%d sek</string>
     <string name="cfnry_time_setting_title">Ställ in väntetid</string>
-    <string name="cfnry_time_ten_sec">10 sek</string>
-    <string name="cfnry_time_thirty_sec">30 sek</string>
-    <string name="cfnry_time_twenty_five_sec">25 sek</string>
-    <string name="cfnry_time_twenty_sec">20 sek</string>
+    <string name="cfnry_time_ten_sec">%d sek</string>
+    <string name="cfnry_time_thirty_sec">%d sek</string>
+    <string name="cfnry_time_twenty_five_sec">%d sek</string>
+    <string name="cfnry_time_twenty_sec">%d sek</string>
     <string name="cfnry_title">Vidarekoppla vid obesvarat</string>
     <string name="cfu_title">Vidarekoppla alltid samtal</string>
     <string name="change_data_preference_4g_only_prompt">Ser ut som att du har ett SIM-kort som endast stöder 4G. För att säkerställa att det fungerar normalt, sätt det som förstaval för mobildata. Sätt nu?</string>
@@ -609,16 +626,16 @@ Val"</string>
     <string name="dialog_cancel">Avbryt</string>
     <string name="dialog_network_priority_title">Prioriterat nät</string>
     <string name="dialog_report">Rapportera</string>
-    <string name="dialpad_eight">8</string>
-    <string name="dialpad_five">5</string>
-    <string name="dialpad_four">4</string>
-    <string name="dialpad_nine">9</string>
-    <string name="dialpad_one">1</string>
-    <string name="dialpad_seven">7</string>
-    <string name="dialpad_six">6</string>
-    <string name="dialpad_three">3</string>
-    <string name="dialpad_two">2</string>
-    <string name="dialpad_zero">0</string>
+    <string name="dialpad_eight">%d</string>
+    <string name="dialpad_five">%d</string>
+    <string name="dialpad_four">%d</string>
+    <string name="dialpad_nine">%d</string>
+    <string name="dialpad_one">%d</string>
+    <string name="dialpad_seven">%d</string>
+    <string name="dialpad_six">%d</string>
+    <string name="dialpad_three">%d</string>
+    <string name="dialpad_two">%d</string>
+    <string name="dialpad_zero">%d</string>
     <string name="direct_boot_unaware_dialog_message">Obs! När du har startat om enheten måste du låsa upp mobilen innan du kan starta den här appen</string>
     <string name="disable">Stäng av</string>
     <string name="disable_all_cf">Stäng av alla vidarekopplingsfunktioner</string>
@@ -715,7 +732,7 @@ Val"</string>
     <string name="enhanced_4g_lte_mode_summary">Använd LTE tjänster för att förbättra röst och andra kommunikationer (rekommenderad)</string>
     <string name="enhanced_4g_lte_mode_summary_o2">Använd 4G-tjänster för att förbättra bl.a. röstkommunikation (rekommenderas)</string>
     <string name="enhanced_4g_lte_mode_title">Förbättrad 4G LTE Läge</string>
-    <string name="enter_callbarring_password">Ange ett lösenord för samtalsspärr (4 siffror)</string>
+    <string name="enter_callbarring_password">Ange lösenord för samtalsspärr (%d siffror)</string>
     <string name="enter_input" formatted="false">USSD meddelande måste vara mellan %d och %d symboler. Var god försök igen.</string>
     <string name="enter_pin2_text">PIN2</string>
     <string name="enter_pin_text">SIM PIN:</string>
@@ -746,6 +763,10 @@ Val"</string>
     <string name="fdn_summary">Begränsa utgående samtal till listade FDNs eller till nummer med vissa prefix</string>
     <string name="fdn_with_label">Låst telefonnummer (%s)</string>
     <string name="fire_type_description">Brand</string>
+    <string name="fiveg_sa_switch_open_dialog_content">5G-anslutning kan vara instabil i fristående läge, vilket kan påverka telefontjänster. Aktivera fristående läge ändå?</string>
+    <string name="fiveg_sa_switch_open_dialog_title">Uppmärksamma</string>
+    <string name="fiveg_sa_switch_summary">Tillåt anslutning till 5G-nätverk i fristående läge</string>
+    <string name="fiveg_sa_switch_title">Fristående läge</string>
     <string name="fiveg_switch_title">5G-nätverk</string>
     <string name="flash_when_ring_summary">Använd blinkning för meddela vid inkommande samtal</string>
     <string name="flash_when_ring_title">Blixt när det ringer</string>
@@ -801,6 +822,7 @@ Kontakta din operatör om problemet kvarstår."</string>
     <string name="incall_error_no_phone_number_supplied">För att ringa ett samtal, ange ett giltigt nummer.</string>
     <string name="incall_error_out_of_service">Inget mobilt nätverk är tillgängligt.</string>
     <string name="incall_error_out_of_service_wfc">Inget mobilt nätverk är tillgängligt. Anslut till ett trådlöst nätverk för att ringa ett samtal.</string>
+    <string name="incall_error_outgoing_call_failed">Kunde inte ringa</string>
     <string name="incall_error_power_off">Stäng av Flygplansläge för att ringa ett samtal.</string>
     <string name="incall_error_power_off_wfc">Stäng av Flygplansläge eller anslut till ett trådlöst nätverk för att ringa ett samtal.</string>
     <string name="incall_error_promote_wfc">Aktivera samtal via Wi-Fi för att ringa.</string>
@@ -823,11 +845,11 @@ Kontakta din operatör om problemet kvarstår."</string>
     <string name="invalidPin">Ange en PIN-kod som är 4 till 8 siffror.</string>
     <string name="invalidPin2">Ange en PIN2 som är 4 till 8 siffror.</string>
     <string name="invalidPuk2">Ange en PUK2 som är 4 till 8 siffror.</string>
-    <string name="invalid_password">Ange ett lösenord som är 4 siffror långt</string>
-    <string name="invalid_pin">Ange en PIN-kod som är 4 till 8 siffror.</string>
-    <string name="invalid_pin2">Ange en PIN2 som är 4 till 8 siffror.</string>
-    <string name="invalid_puk">Ange en PUK-kod som är 4 till 8 siffror.</string>
-    <string name="invalid_puk2">Ange en PUK2 som är 4 till 8 siffror.</string>
+    <string name="invalid_password">Ange ett lösenord som är %d siffror långt</string>
+    <string name="invalid_pin">Skriv en PIN som är %1$d till %2$d siffror.</string>
+    <string name="invalid_pin2">Skriv en PIN2 som är %1$d till %2$d siffror.</string>
+    <string name="invalid_puk">Skriv en PUK som är %1$d till %2$d siffror.</string>
+    <string name="invalid_puk2">Skriv en PUK2 som är %d siffror.</string>
     <string name="ivr_mo_area_code_settings">Nuvarande riktnummer</string>
     <string name="ivr_mo_area_code_settings_hint">Ange nuvarande riktnummer</string>
     <string name="ivr_parameter_settings">IVR parameterinställningar</string>
@@ -875,6 +897,8 @@ Kontakta din operatör om problemet kvarstår."</string>
     <string name="lable_network_not_supported">Nätverk stöds inte</string>
     <string name="lafs_disable">Flygtider för lokala flygplatsen är av</string>
     <string name="lafs_enable">Flygtider för lokala flygplatsen är på</string>
+    <string name="last_sim_callback_summary">När du ringer samtal från samtalshistoriken, använd ett SIM-kort som användes under det föregående samtalet med denna kontakt</string>
+    <string name="last_sim_callback_title">Kom ihåg SIM-preferenser</string>
     <string name="launch_defaults_none">Inga standardinställningar har angetts</string>
     <string name="launch_defaults_some">Några standardinställningar har angetts</string>
     <string name="list_language_dtitle">Språk</string>
@@ -895,6 +919,7 @@ Kontakta din operatör om problemet kvarstår."</string>
     <string name="location">Area</string>
     <string name="lodgings_disable">Boende är av</string>
     <string name="lodgings_enable">Boende är på</string>
+    <string name="main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="maintenance_disable">Underhåll är av</string>
     <string name="maintenance_enable">Underhåll är på</string>
     <string name="make_and_receive_calls">Ringa och ta emot samtal</string>
@@ -923,19 +948,22 @@ Kontakta din operatör om problemet kvarstår."</string>
     <string name="mismatch_password">Lösenordet du angav matchar inte</string>
     <string name="mismatch_pin">PIN-koderna matchar inte.</string>
     <string name="mismatch_pin2">Angivna PIN2 matchar inte. Försök igen.</string>
-    <string name="missed_call_notify_five_times">5 gånger</string>
+    <string name="missed_call_notify_five_times">%d gånger</string>
     <string name="missed_call_notify_none">Inga påminnelser</string>
-    <string name="missed_call_notify_once">1 gång</string>
-    <string name="missed_call_notify_ten_times">10 gånger</string>
-    <string name="missed_call_notify_thrice">3 gånger</string>
-    <string name="missed_call_notify_times_summary">Påminnelser skiljs åt av 5 minuters intervaller</string>
+    <string name="missed_call_notify_once">%d gång</string>
+    <string name="missed_call_notify_ten_times">%d gånger</string>
+    <string name="missed_call_notify_thrice">%d gånger</string>
+    <string name="missed_call_notify_times_summary">Påminnelser separeras med %d minuters intervall</string>
     <string name="missed_call_notify_times_title">Påminnelse om missade samtal</string>
-    <string name="missed_call_notify_twice">2 gånger</string>
+    <string name="missed_call_notify_twice">%d gånger</string>
     <string name="miui_network_selection_reset_text">Återställ</string>
     <string name="miui_notification_network_selection_title">SIM: ingen tjänst</string>
     <string name="miui_notification_network_selection_title_by_sim">SIM %s ingen tjänst</string>
     <string name="mmiCancelled">MMI kod avbruten</string>
     <string name="mmiStarted">MMI kod startad</string>
+    <string name="mobile_advanced_dns_server_title">DNS serveradress</string>
+    <string name="mobile_advanced_ip_address_title">IP-adress</string>
+    <string name="mobile_connection_management">Hantera mobil nätverksanslutning</string>
     <string name="mobile_data_activate_button">LÄGG TILL DATA</string>
     <string name="mobile_data_activate_cancel_button">AVBRYT</string>
     <string name="mobile_data_activate_diag_message">Du kan behöva lägga till data från %s</string>
@@ -956,6 +984,7 @@ Kontakta din operatör om problemet kvarstår."</string>
     <string name="mobile_data_status_roaming_without_plan_subtext">Roaming används, behöver en surfmängd</string>
     <string name="mobile_network_settings_not_available">Inställningar för mobila nätverk är inte tillgängliga för den här användaren</string>
     <string name="mobile_networks">Inställningar för Mobilt nätverk</string>
+    <string name="mobile_property">Egenskaper för mobilt nätverk</string>
     <string name="mock_location_app">Välj app för påhittad plats</string>
     <string name="mock_location_app_not_set">Ingen app för påhittad plats har angetts</string>
     <string name="mock_location_app_set">App för påhittad plats: %1$s</string>
@@ -1022,6 +1051,7 @@ Kontakta din operatör om problemet kvarstår."</string>
     <string name="name">Namn</string>
     <string name="national_disable">Nationella nyheter är av</string>
     <string name="national_enable">Nationella nyheter är på</string>
+    <string name="netcheck_title">Mobil nätverksdiagnostik</string>
     <string name="network_4G">4G (Rekommenderat)</string>
     <string name="network_connected">Ansluten</string>
     <string name="network_connecting">Ansluter …</string>
@@ -1057,7 +1087,7 @@ Använder föredraget nätverk."</string>
     <string name="networks_title">Mobila nätverk</string>
     <string name="newPin2Label">Ny PIN2</string>
     <string name="newPinLabel">Ny PIN</string>
-    <string name="new_password_label">Nytt 4-siffrigt lösenord</string>
+    <string name="new_password_label">Nytt %d-siffrigt lösenord</string>
     <string name="new_pin2_label">Ny PIN2</string>
     <string name="new_pin_label">Ny PIN</string>
     <string name="no_application">Ingen</string>
@@ -1072,7 +1102,7 @@ Använder föredraget nätverk."</string>
     <string name="not_allowed">Ditt SIM kort tillåter inte en anslutning till detta nätverk.</string>
     <string name="not_set">Inte angett</string>
     <string name="not_voice_capable">Röstsamtal stöds inte</string>
-    <string name="notification_network_selection_text">Valt nätverk (%s) inte tillgängligt</string>
+    <string name="notification_network_selection_text">Valt nätverk%s inte tillgängligt</string>
     <string name="notification_network_selection_title">Ingen tjänst</string>
     <string name="notification_voicemail_no_vm_number">Numret till röstbrevlådan är okänt</string>
     <string name="notification_voicemail_text_format">Ring %s</string>
@@ -1086,7 +1116,7 @@ Använder föredraget nätverk."</string>
     <string name="okay">OK</string>
     <string name="oldPin2Label">Gammal PIN</string>
     <string name="oldPinLabel">Gammal PIN</string>
-    <string name="old_password_label">Nuvarande 4-siffriga lösenord</string>
+    <string name="old_password_label">Nuvarande %d-siffriga lösenord</string>
     <string name="old_pin2_label">PIN2</string>
     <string name="old_pin_label">Gammal PIN</string>
     <string name="onHold">Parkerad</string>
@@ -1308,7 +1338,6 @@ Telefonen kommer att låsas automatiskt efter ett till misslyckat försök"</str
     <string name="preferred_network_type_pref_entries_only_3g_lm_cr">Endast WCDMA</string>
     <string name="preferred_network_type_title">Nätverkstyp att föredra</string>
     <string name="preferred_phone_account">Samtalskonto att föredra</string>
-    <string name="preferred_wificall_roaming_title">Roaming-inställningar</string>
     <string name="preferred_wificall_title">Nätverksinställningar</string>
     <string name="privacy_policy_title">Integritetspolicy</string>
     <string name="private_dns_mode_off">Av</string>
@@ -1317,6 +1346,7 @@ Telefonen kommer att låsas automatiskt efter ett till misslyckat försök"</str
     <string name="private_dns_mode_provider_failure">Kan inte ansluta</string>
     <string name="private_dns_mode_provider_hostname_hint">Ange värdnamn för DNS-leverantör</string>
     <string name="private_num">Privat nummer</string>
+    <string name="process_kernel_label">Operativsystemet Android</string>
     <string name="progress_dialog_exiting_ecm">Lämnar återuppringningsläge för nödsamtal</string>
     <string name="prompt_to_turnoff_volte_when_failed">Tjänster för VoLTE är inte tillgängliga. Avaktivera VoLTE för att ringa ett samtal.</string>
     <string name="prompt_to_turnoff_volte_when_supp_service">Tjänsten är inte tillgänglig. Avaktivera VoLTE i Inställningar.</string>
@@ -1409,11 +1439,41 @@ Ditt SIM-kort kommer att låsas efter nästa misslyckade försök."</string>
     <string name="screen_zoom_summary_large">Stor</string>
     <string name="screen_zoom_summary_small">Små</string>
     <string name="screen_zoom_summary_very_large">Större</string>
+    <string name="search_answer_state_setting_title">@string/answer_state_setting_title</string>
     <string name="search_antispam_setting">Blockeringslista</string>
     <string name="search_app_name">Telefon;Ring inspelning;Omdirigera samtal;omdirigering;Samtal väntar;Blockerings, landskod;riktnummer;landskoder;Riktnummer; spela in samtal;Spela in samtal;Dial pad;Ring;Samtal;Telefoni;VoIP;Volte;Missade samtal;Missade samtal;SIP;T9;IP-telefoni;FDN</string>
+    <string name="search_auto_answer_pref_title">@string/auto_answer_pref_title</string>
     <string name="search_auto_retry_mode_title">\@Sträng/auto_retry_mode_title</string>
+    <string name="search_call_forwarding_settings">@string/call_forwarding_settings</string>
+    <string name="search_call_record_auto_title">@string/call_record_auto_title</string>
+    <string name="search_call_record_setting">@string/call_record_setting</string>
+    <string name="search_call_recording_notification_toggle_title">@string/call_recording_notification_toggle_title</string>
+    <string name="search_call_waiting_title">@string/call_waiting_title</string>
+    <string name="search_call_waiting_tone_title">@string/call_waiting_tone_title</string>
+    <string name="search_caller_id_title">@string/caller_id_title</string>
+    <string name="search_cloud_antispam_title">@string/cloud_antispam_title</string>
+    <string name="search_connect_disconnect_vibrate_title">@string/connect_disconnect_vibrate_title</string>
+    <string name="search_crescendo_ringer_title">@string/crescendo_ringer_title</string>
+    <string name="search_dtmf_tones_title">@string/dtmf_tones_title</string>
+    <string name="search_enable_antispam_strange_title">@string/enable_antispam_strange_title</string>
+    <string name="search_enable_proximity_title">@string/enable_proximity_title</string>
+    <string name="search_fdn">@string/fdn</string>
+    <string name="search_flash_when_ring_title">@string/flash_when_ring_title</string>
+    <string name="search_handon_ringer_title">@string/handon_ringer_title</string>
     <string name="search_menu">Sökinställningar</string>
     <string name="search_menu_title">Sök</string>
+    <string name="search_missed_call_notify_times_title">@string/missed_call_notify_times_title</string>
+    <string name="search_preference_dial_pad_touch_tone_title">@string/preference_dial_pad_touch_tone_title</string>
+    <string name="search_preference_telocation_title">@string/preference_telocation_title</string>
+    <string name="search_reject_via_sms">@string/reject_via_sms</string>
+    <string name="search_sip_settings">@string/sip_settings</string>
+    <string name="search_t9_indexing_method_title">@string/t9_indexing_method_title</string>
+    <string name="search_telocation_auto_country_code">@string/telocation_auto_country_code</string>
+    <string name="search_telocation_contacts_countrycode">@string/telocation_contacts_countrycode</string>
+    <string name="search_telocation_custom_location_title">@string/telocation_custom_location_title</string>
+    <string name="search_telocation_enable_title">@string/telocation_enable_title</string>
+    <string name="search_turnover_mute_title">@string/turnover_mute_title</string>
+    <string name="search_voicemail_settings">@string/voicemail_settings</string>
     <string name="selectContact">välj kontakt</string>
     <string name="select_application">Välj app</string>
     <string name="select_automatically">Välj nätverk automatiskt</string>
@@ -1503,6 +1563,7 @@ Ditt SIM-kort kommer att låsas efter nästa misslyckade försök."</string>
     <string name="smart_divert_title">Intelligent-vidarekoppling</string>
     <string name="smart_forwarding_settings_menu">Smart vidarebefordran</string>
     <string name="smart_forwarding_settings_menu_summary">När ett nummer är onåbart kan samtal alltid vidarebefordras till ditt andra nummer</string>
+    <string name="sms_messages_title">SMS</string>
     <string name="smsc_dialog_message">Kontrollera att numret du angivit är korrekt. Om inte kommer du inte kunna skicka eller ta emot SMS. Kontakta din operatör för att bekräfta ditt SMS-nummer.</string>
     <string name="speed_label_fast">Snabb</string>
     <string name="speed_label_medium">Medelsnabb</string>
@@ -1639,6 +1700,7 @@ Nästa period börjar om %2$d dagar (%3$s)"</string>
     <string name="time_end_minute">time end minute</string>
     <string name="time_formate_am">AM</string>
     <string name="time_formate_pm">PM</string>
+    <string name="time_interval_char">:</string>
     <string name="time_next_day">" nästa dag "</string>
     <string name="time_start">" Från "</string>
     <string name="time_start_hour">time start hour</string>
@@ -1681,6 +1743,7 @@ Nästa period börjar om %2$d dagar (%3$s)"</string>
     <string name="tty_mode_entries_hco">TTY HCO</string>
     <string name="tty_mode_entries_off">TTY Av</string>
     <string name="tty_mode_entries_vco">TTY VCO</string>
+    <string name="tty_mode_key">button_tty_mode_key</string>
     <string name="tty_mode_not_allowed_video_call">Att växla TTY-läge är inte tillåtet under ett videosamtal</string>
     <string name="tty_mode_option_summary">Ställ TTY-läge</string>
     <string name="tty_mode_option_title">TTY Läge</string>
@@ -1747,6 +1810,7 @@ Denna surfplatta har inget headset. Du kan växla till läget hands-free eller a
     <string name="voicemail">Röstbrevlåda</string>
     <string name="voicemail_abbreviated">VM:</string>
     <string name="voicemail_change_pin_dialog_title">Ändra PIN</string>
+    <string name="voicemail_change_pin_key">voicemail_change_pin_key</string>
     <string name="voicemail_default">Din operatör</string>
     <string name="voicemail_notification_vibrate_when_title">Vibrera</string>
     <string name="voicemail_notifications_preference_title">Notifikationer</string>
@@ -1759,6 +1823,7 @@ Denna surfplatta har inget headset. Du kan växla till läget hands-free eller a
     <string name="voicemail_settings_number_label">Nummer till röstbrevlåda</string>
     <string name="voicemail_settings_number_title">Nummer till röstbrevlåda</string>
     <string name="voicemail_settings_with_label">Röstbrevlåda (%s)</string>
+    <string name="voicemail_visual_voicemail_key">voicemail_visual_voicemail_key</string>
     <string name="voicemail_visual_voicemail_switch_title">Visuell röstbrevlåda</string>
     <string name="voip_setting">VoIP inställningar</string>
     <string name="volte_provision_notification_activate">Aktivera</string>
@@ -1771,7 +1836,6 @@ Denna surfplatta har inget headset. Du kan växla till läget hands-free eller a
     <string name="volte_switch_title">Använd VoLTE</string>
     <string name="volte_switch_title_ct">VoLTE</string>
     <string name="volte_tips_when_turn_on">VoLTE-tjänster från China Telecom stöds endast i områden med VoLTE-täckning. VoLTE-tjänster tillhandahålls av operatören.</string>
-    <string name="vowifi_emergency_notification_channel">WiFi Calling emergency warning</string>
     <string name="vowifi_emergency_notification_content">Nödsamtal i områden med mobiltäckning endast</string>
     <string name="vowifi_emergency_notification_title">Vodafone Wi-Fi-samtal</string>
     <string name="vowifi_emergency_warning_check">Visa inte igen.</string>
@@ -1791,16 +1855,30 @@ Nödsamtal är endast möjliga i områden med mobiltäckning."</string>
     <string name="wfcmode_wifi_only">Endast Wi-Fi</string>
     <string name="wfcmode_wifi_preferred">Föredra Wi-Fi</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Åtkomstpunkten har inga platser över för tillfället</string>
-    <string name="wifi_call_accept">OK</string>
+    <string name="wifi_call_accept">Hoppa över</string>
     <string name="wifi_call_available_message">Du kan nu ringa samtal med Wi-Fi. Om du är ansluten till ett Wi-Fi-nätverk kan du även prata på platser som saknar mobiltäckning.</string>
     <string name="wifi_call_available_title">Slår på Wi-Fi-samtal</string>
-    <string name="wifi_call_cancel">Avbryt</string>
+    <string name="wifi_call_cancel">Mer info</string>
     <string name="wifi_call_help">Hjälp</string>
-    <string name="wifi_call_help_message">Om du väljer att föredra mobilnätverk så används mobilnätverk för samtal som standard. Om det saknas signal i mobilnätverket eller om den är svag så används Wi-Fi-nätverk istället.</string>
+    <string name="wifi_call_help_message_1">"Wi-Fi Calling är en tjänst som tillhandahålls av Orange och som tillåter dig att ringa och ta emot samtal via Wi-Fi. Denna funktion kan användas i områden med dålig mobil nätverkstäckning.
+
+För att använda Wi-Fi Calling, slå på det i Inställningar > Wi-Fi Calling.
+
+För att aktivera tjänsten kommer Orange skicka dig ett bekräftelsemeddelande så fort att tjänsten är tillgänglig. Efter detta kommer du kunna ansluta till ett Wi-Fi-nätverk och ringa samtal.
+
+Samtal gjorda via Wi-Fi kommer debiteras din plans villkor.
+
+Så fort att denna funktion är tillgänglig kommer följande ikon att visas längst upp på din skärm."</string>
+    <string name="wifi_call_help_message_2">"Om du väljer att föredra Wi-Fi-nätverk kommer de användas som default för att ringa telefonsamtal. Om du inte är ansluten till W-Fi eller om signalen är dålig kommer mobilnätverk att användas för att ringa samtal.
+
+Om du väljer att föredra mobilnätverk. kommer de användas som default för att ringa telefonsamtal. Om det inte finns någon mobilnätverks-täckning eller om signalen är dålig kommer Wi-Fi-nätverk att användas istället."</string>
     <string name="wifi_call_help_title">Wi-Fi-samtal Hjälp</string>
     <string name="wifi_call_notification_message">Den här tjänsten tillhandahålls av Orange. Det kan ta flera timmar att aktivera tjänsten. Du får en bekräftelse via SMS när den är tillgänglig.</string>
+    <string name="wifi_call_preferred_summary">Om du väljer att föredra mobilnätverk så används mobilnätverk för samtal som standard. Om det saknas signal i mobilnätverket eller om den är svag så används Wi-Fi-nätverk istället.</string>
     <string name="wifi_call_setting">Samtal via Wi-Fi</string>
+    <string name="wifi_call_welcome_settings">Samtal via Wi-Fi</string>
     <string name="wifi_calling">Samtal via Wi-Fi</string>
+    <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
     <string name="wifi_calling_settings_title">Samtal via Wi-Fi</string>
     <string name="wifi_cant_connect">Det gick inte att ansluta</string>
     <string name="wifi_cant_connect_to_ap">Det gick inte att ansluta till %1$s</string>

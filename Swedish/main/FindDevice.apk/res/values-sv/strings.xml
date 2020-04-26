@@ -22,12 +22,13 @@ Kontakta ditt försäljningsagent för detaljer."</string>
     <string name="find_device_error_access_denied">Åtkomst nekad.</string>
     <string name="find_device_error_account_sys_timeout">"Det gick inte att ansluta till Mi kontot. "</string>
     <string name="find_device_error_account_unknown_error">Mi Konto fel (%s).</string>
+    <string name="find_device_error_custom">%s</string>
     <string name="find_device_error_network">Nätverksfel.</string>
     <string name="find_device_error_password_changed">Konto lösenord har nyligen ändrats.</string>
     <string name="find_device_error_server">Server fel (%s).</string>
     <string name="find_device_error_unknown">Okänt fel (%s).</string>
     <string name="find_device_noise_title">Hitta enhet larm</string>
-    <string name="find_device_notice">Gå till&lt;br />&lt;b>&lt;font color=#e84700>i.mi.com&lt;/font>&lt;/b>&lt;br />för att hitta, låsa eller återställa din enhet.</string>
+    <string name="find_device_notice">Gå till &lt;b>&lt;font color=#0099FF>i.mi.com&lt;/font>&lt;/b> för att hitta, låsa eller återställa din enhet.</string>
     <string name="find_device_notice_sms_alert">Om du byter SIM-kort kommer kanske ett SMS skickas för att automatiskt återaktivera denna funktion.</string>
     <string name="find_device_stop_noise">Tryck på OK för att tysta</string>
     <string name="find_device_storage_corrupted">Hitta enheten lagring skadad. Din enhet är osäker nu.</string>

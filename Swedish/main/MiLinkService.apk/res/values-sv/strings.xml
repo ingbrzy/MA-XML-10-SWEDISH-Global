@@ -1,4 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="actionbar_button_up_description">Tillbaka</string>
+    <string name="app_pkg_name">com.milink.service</string>
+    <string name="app_ver_code">1</string>
+    <string name="app_ver_name">1.0</string>
+    <string name="casting_tips">Castar…</string>
+    <string name="console_guide_btn_got_it">Jag förstår</string>
+    <string name="console_guide_subtitle_hang_up">Du kan fortsätta casta när skärmen på enheten är avstängd. Den här funktionen minskar strömförbrukningen.</string>
+    <string name="console_guide_subtitle_private">Visa inte flytande aviseringar, inkommande samtal och andra privata objekt på externa skärmar</string>
+    <string name="console_guide_subtitle_small_window">Minimera fönstret som castas om du vill använda andra funktioner på telefonen</string>
+    <string name="dialog_can_not_find_device">Det gick inte att hitta enheter i närheten</string>
+    <string name="dialog_cancle">Avbryt</string>
+    <string name="dialog_connect_fail">Det gick inte att ansluta</string>
+    <string name="dialog_connect_retry">Tryck för att försöka igen</string>
+    <string name="dialog_connect_verify_perssion">Tillåt casting på din TV först</string>
+    <string name="dialog_connect_verify_perssion_fail">Det gick inte att tillåta casting på din TV. Vänta en minut eller två och försök igen.</string>
+    <string name="dialog_connected">Ansluten</string>
+    <string name="dialog_connecting">Ansluter…</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_only_suport_content">Strömma foton, videor eller musik</string>
+    <string name="dialog_open_wifi_bt">Aktivera</string>
+    <string name="dialog_please_make_sure_tv_ok_or_help">"Se till att den trådlösa casting-funktionen är aktiverad på målenheten.
+Titta i hjälpen om du får problem med att ansluta."</string>
+    <string name="dialog_recent_connected">Senast</string>
+    <string name="dialog_retry">Försök igen</string>
+    <string name="dialog_scanning_device">Söker efter enheter i närheten…</string>
+    <string name="dialog_scanning_precondition">Aktivera Wi-Fi och Bluetooth på din telefon för att använda trådlös bildskärm.</string>
+    <string name="dialog_select_tv">Välj enhet (%d)</string>
+    <string name="dialog_show_help">Hjälp</string>
+    <string name="disconnect">Sluta casta</string>
+    <string name="hang_up">Casta med skärmen avstängd</string>
+    <string name="hang_up_alert_dialog_content">Fortsätt casta när skärmen på din enhet är avstängd. Den här funktionen minskar strömförbrukningen. Tryck på strömknappen för att aktivera skärmen igen.</string>
+    <string name="hang_up_alert_dialog_neg">Avbryt</string>
+    <string name="hang_up_alert_dialog_pos">OK</string>
+    <string name="hang_up_alert_dialog_title">På väg att casta med skärmen av…</string>
+    <string name="help_page_text_01">Hjälp</string>
+    <string name="help_page_text_02">Vad är casting?</string>
+    <string name="help_page_text_03">Casting projicerar objekt från din telefonskärm till en större extern skärm. Detta gör att du kan dela bilder och videor med dina vänner och familj utan att använda mobildata.</string>
+    <string name="help_page_text_04">Hur castar jag objekt till en större skärm?</string>
+    <string name="help_page_text_05">Steg 1: Kontrollera dina enheter och din nätverksmiljö</string>
+    <string name="help_page_text_06">"1. Du behöver inte ansluta till internet om du vill casta något från en Mi-telefon till en Mi TV.
+2. Om du inte kan upprätta en anslutning mellan de två enheterna kan du försöka att ansluta båda till samma Wi-Fi-nätverk."</string>
+    <string name="help_page_text_08">Steg 2: Aktivera casting</string>
+    <string name="help_page_text_09">Tryck på ”Casta” på din telefons Notifikationspanel. Aktivera både Wi-Fi och Bluetooth för en stabilare anslutning.</string>
+    <string name="help_page_text_10">Om du vill casta objekt från Galleri eller Mi Video kan du använda den inbyggda castingfunktionen i dessa appar.</string>
+    <string name="help_page_text_11">Steg 3: Välj enhet</string>
+    <string name="help_page_text_12">Välj en extern enhet från listan över tillgängliga enheter för att börja casta.</string>
+    <string name="help_page_text_13">Kan du inte ansluta till en extern enhet?</string>
+    <string name="help_page_text_14">"1. Om du vill använda en Xiaomi-enhet, men inte hittar den i listan över tillgängliga enheter kan du prova följande:
+Anslut både din telefon och den externa skärmen (t.ex. din TV) till samma Wi-Fi-nätverk eller anslut den externa skärmen till telefonens surfzon. Om det inte finns några tillgängliga Wi-Fi-nätverk eller om du inte kan ansluta båda enheterna till samma enhet kan du kontroller om castingfunktionerna på din externa skärm är uppdaterade, aktivera Bluetooth på både din telefon samt den externa skärmen och aktivera Miracast på din TV. 
+2. Om du castar på en Xiaomi-enhet för första gången måste du slutföra verifikationen. 
+3. Om du vill använda en enhet som inte är Xiaomi, men inte hittar den i listan över tillgängliga enheter kan du prova följande:
+Anslut både din telefon och den externa skärmen (t.ex. din TV) till samma Wi-Fi-nätverk eller anslut den externa skärmen till din telefons surfzon. Om detta inte hjälper kan du installera castingappen LeEco på din TV och följ instruktionerna."</string>
+    <string name="help_page_text_14_global">"1. Om du vill använda en Xiaomi-enhet, men inte hittar den i listan över tillgängliga enheter kan du prova följande:
+Anslut både din telefon och den externa skärmen (t.ex. din TV) till samma Wi-Fi-nätverk eller anslut den externa skärmen till din telefons surfzon. Om det inte finns några tillgängliga Wi-Fi-nätverk eller om du inte kan ansluta båda enheterna till samma nätverk kan du kontrollera om castingfunktionera på din externa skärm är uppdaterade, aktivera Bluetooth på både din telefon och den externa skärmen och aktivera Miracast på din TV.
+2. Om du castar på en Xiaomi-enhet för första gången måste du slutföra verifikationen.
+3. Om du vill använda en enhet som inte är Xiaomi, men inte hittar den i listan över tillgängliga enheter kan du prova följande:
+Anslut både din telefon och den externa skärmen (t.ex. din TV) till samma Wi-Fi-nätverk eller anslut den externa skärmen till din telefons surfzon."</string>
+    <string name="help_page_text_15">Miracast-funktionalitet på olika enheter</string>
+    <string name="help_page_text_16">Mi TV/Mi Projektor</string>
+    <string name="help_page_text_17">"Du kan projicera objekt från din Mi-telefon till de flesta Mi TV-modeller med Bluetooth-kapacitet utan att aktivera Miracast manuellt.
+Om du behöver aktivera Miracast trycker du på [MENU]-knappen och väljer Mina appar > Casting > Miracast."</string>
+    <string name="help_page_text_17_1">Xiaomi-kundsupport: 400-100-5678</string>
+    <string name="help_page_text_18">Samsung TV</string>
+    <string name="help_page_text_19">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. På vissa modeller kan du trycka på [SOURCE]-knappen på fjärrkontrollen och sedan välja ”Skärmspegling”. Denna funktion är aktiverad som standard på vissa modeller.</string>
+    <string name="help_page_text_20">Samsung-kundsupport: 400-810-5858</string>
+    <string name="help_page_text_21">LG TV</string>
+    <string name="help_page_text_22">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. Denna funktion är aktiverad som standard på vissa modeller.</string>
+    <string name="help_page_text_23">LG-kundsupport: 400-819-9999</string>
+    <string name="help_page_text_24">Philips TV</string>
+    <string name="help_page_text_25">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. Denna funktion är aktiverad som standard på vissa enheter.</string>
+    <string name="help_page_text_26">Philips-kundsupport: 400-880-0008</string>
+    <string name="help_page_text_27">TPV</string>
+    <string name="help_page_text_28">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. På vissa modeller kan du trycka på [MENU]-knappen på fjärrkontroller och sedan välja Inställningar > Anslutning > Nätverk > Flera skärmar.</string>
+    <string name="help_page_text_29">TPV-kundsupport: 400-887-8007</string>
+    <string name="help_page_text_30">Hisense</string>
+    <string name="help_page_text_31">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. På vissa modeller kan du trycka på [SMART]-knappen på fjärrkontroller och sedan välja Casting > Trådlös bildskärm. Vissa modeller stödjer också casting för spel: Hi Cast > Casta spel > Android.</string>
+    <string name="help_page_text_32">Hisense-kundsupport: 400-611-1111</string>
+    <string name="help_page_text_33">Skyworth</string>
+    <string name="help_page_text_34">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. På vissa modeller kan du välja Appar > Casting > Android-enhet > Miracast.</string>
+    <string name="help_page_text_35">Skyworth-kundsupport: 95105555</string>
+    <string name="help_page_text_36">Sony</string>
+    <string name="help_page_text_37">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. På vissa modeller kan du trycka på [SOURCE]-knappen på fjärrkontroller och sedan välja ”Skärmspegling”. På vissa modeller kan du aktivera denna funktion via Nätverket > Wi-Fi Direct. Denna funktion är aktiverad som standard på vissa modeller.</string>
+    <string name="help_page_text_38">Sony-kundsupport: 400-810-9000</string>
+    <string name="help_page_text_39">Panasonic</string>
+    <string name="help_page_text_40">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. På vissa modeller kan du välja Appar > Skärmspegling.</string>
+    <string name="help_page_text_41">Panasonic-kundsupport: 400-881-1315</string>
+    <string name="help_page_text_42">Changhong</string>
+    <string name="help_page_text_43">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. På vissa modeller kan du välja System > Systemverktyg > Flera skärmar > Skärmspegling.</string>
+    <string name="help_page_text_44">Changhong-kundsupport: 400-811-1666</string>
+    <string name="help_page_text_45">TCL</string>
+    <string name="help_page_text_46">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. På vissa modeller kan du välja Appar > Trådlös bildskärm.</string>
+    <string name="help_page_text_47">TCL-kundsupport: 400-812-3456</string>
+    <string name="help_page_text_48">AODIN</string>
+    <string name="help_page_text_49">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. För att aktivera denna funktion, gå till Mina appar > WiFi-bildskärm.</string>
+    <string name="help_page_text_50">AODIN-kundsupport: 400-810-5858</string>
+    <string name="help_page_text_51">LeEco</string>
+    <string name="help_page_text_52">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. På vissa modeller kan du aktivera denna funktion i Inställningar > Nätverk > Flera skärmar > Trådlös bildskärm.</string>
+    <string name="help_page_text_53">LeEco-kundsupport: 10109000</string>
+    <string name="help_page_text_55">"Om du inte kan ansluta till nätverket kan du kontrollera om din externa skärm stödjer Miracast-funktionalitet och att den är aktiverad. På vissa modeller kallas denna funktion trådlös bildskärm, skärmspegling eller flera skärmar. Visa informationen nedan för för att lära dig hur du ska aktivera Miracast.
+4. Om du stöter på några problem kan du rapportera dem med hjälp av appen ”Tjänster och feedback”."</string>
+    <string name="help_page_text_55_global">"Om du inte kan ansluta till nätverket kan du kontrollera om din externa skärm stödjer Miracast-funktionalitet och att den är aktiverad. På vissa modeller kallas denna funktion trådlös bildskärm, skärmspegling eller flera skärmar.
+4. Om du stöter på några problem kan du rapportera dem med hjälp av appen ”Tjänster och feedback”."</string>
+    <string name="help_page_text_end">Om märket för din enhet inte anges här kan du kontakta tillverkaren för att lära dig mer om castingfunktion.</string>
+    <string name="notification_rc_title">XiaoMi TV-assistent</string>
+    <string name="notification_show_more">Tryck för att visa fler funktioner</string>
+    <string name="privacy_agree">Godkänn</string>
+    <string name="privacy_text_1">"&lt;Data>Välkommen till Casting! Med Casting kan du projicera objekt från din telefonskärm till en större extern skärm.
+Vi skyddar din personliga information i enlighet med relevanta lagar, förordningar och integritetspolicyer. Vissa funktioner tillhandahålls av HappyCast. Innan du använder denna funktion ska du läsa och godkänna &lt;a href=%2$s>HappyCast Juridiska meddelande&lt;/a> och &lt;a href=%1$s>HappyCast Integritetspolicy&lt;/a>.
+För att kunna fungera normalt måste den här appen ansluta till internet och få tillgång till följande behörigheter för att kunna samla in din personliga information:&lt;/Data>"</string>
+    <string name="privacy_text_2">"&lt;Data>Om du inte går med på att bevilja sådana behörigheter eller dela och ladda upp din personliga information kommer du inte att kunna använda denna app. Du kan välja att avinstallera denna app, logga ut eller begränsa behörigheter i Inställningar i sådana fall.
+Läs och godkänn våra &lt;a href=%1$s>Användarvillkor&lt;/a> och vår &lt;a href=%2$s>Integritetspolicy&lt;/a> innan du använder denna funktion.&lt;/Data>"</string>
+    <string name="privacy_text_pemission">"　　•Få åtkomst till och spara bilder på din enhet för att projicera dessa objekt till externa skärmar
+　　•Spela in samtal och ljud för att casta ljud till externa enheter
+　　•Få åtkomst till telefonnummer, IMEI och IMSI för att identifiera din enhet
+　　•Få åtkomst till din plats för att hitta enheter i närheten"</string>
+    <string name="private_protect">Dölj privata objekt</string>
+    <string name="san_wait_msg_1">Aktivera trådlös casting på målenheten</string>
+    <string name="san_wait_msg_2">Det kan ta lite tid att söka efter enheter…</string>
+    <string name="san_wait_msg_3">Externa enheter är lättare att hitta när de är anslutna till samma nätverk som din telefon</string>
+    <string name="san_wait_msg_4">Se ”Hjälp” om du inte hittar enheter</string>
+    <string name="small_window">Minimera fönster</string>
+    <string name="status_bar_in_casting">Castar…</string>
+    <string name="status_bar_in_casting_long">Tryck för att visa fler castingfunktioner</string>
     <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="tile_label">Casta</string>
+    <string name="toast_guide_show_more">Läs mer</string>
+    <string name="toast_guide_title">Utforska våra nya funktioner här</string>
+    <string name="toast_msg_for_multi_window">Kan inte använda denna funktion med delad skärm</string>
+    <string name="toast_msg_for_small_window">Du kan minimera fönstret som du castar till om du vill använda andra funktioner på din telefon utan att avbryta castingprocessen.</string>
+    <string name="toast_title_for_small_window">Välj ”Minimera fönster” i appen</string>
 </resources>

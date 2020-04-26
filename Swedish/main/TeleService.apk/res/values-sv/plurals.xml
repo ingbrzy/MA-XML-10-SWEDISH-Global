@@ -9,8 +9,8 @@
         <item quantity="one">Den valda åtgärden är inte tillgänglig medan den är i läget för nödsamtal. Telefonen kommer att vara i detta läge för %s minut. Vill du avsluta nu?</item>
     </plurals>
     <plurals name="auto_answer_summary_delay">
-        <item quantity="other">fördröjning: %s sekunder</item>
-        <item quantity="one">fördröjning: %s sekund</item>
+        <item quantity="other">fördröjning: %d sekunder</item>
+        <item quantity="one">fördröjning: %d sekund</item>
     </plurals>
     <plurals name="call_record_add_white_list_over_reminder">
         <item quantity="other">Du kan lägga till upp till %s personer, välj igen.</item>

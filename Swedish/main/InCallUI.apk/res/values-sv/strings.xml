@@ -91,7 +91,6 @@
     <string name="description_image_button_four">fyra</string>
     <string name="description_image_button_hangup">Lägg på</string>
     <string name="description_image_button_message_enter">Svara med meddelande</string>
-    <string name="description_image_button_message_exit">Dölj meddelanden</string>
     <string name="description_image_button_nine">nio</string>
     <string name="description_image_button_one">en</string>
     <string name="description_image_button_pound">fyrkant</string>
@@ -207,4 +206,5 @@
     <string name="wait_prompt_str">"Skicka följande toner?
 "</string>
     <string name="waiting_close_airplane_mode">Vänta en stund…</string>
+    <string name="wifi_call">VoWiFi-samtal</string>
 </resources>

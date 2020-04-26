@@ -28,6 +28,10 @@
         <item quantity="other">Använd för %d år sedan</item>
         <item quantity="one">Använd för %d år sedan</item>
     </plurals>
+    <plurals name="applock_guide_app_count_tips">
+        <item quantity="other">Du kan skydda minst %s appar</item>
+        <item quantity="one">Du kan skydda minst %s app</item>
+    </plurals>
     <plurals name="bg_network_allow_count">
         <item quantity="other">%d appar kan ansluta till nätverket i bakgrunden</item>
         <item quantity="one">%d app kan ansluta till nätverket i bakgrunden</item>
@@ -99,6 +103,10 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
     <plurals name="gb_ad_ten_thousand_people_play">
         <item quantity="other">%1$d personer spelar</item>
         <item quantity="one">%1$d person spelar</item>
+    </plurals>
+    <plurals name="gb_record_time_title">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">%d sekund</item>
     </plurals>
     <plurals name="gb_signed_days_sum">
         <item quantity="other">Incheckad %d dagar i rad</item>
@@ -455,6 +463,10 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
     <plurals name="uninstall_game_count_title">
         <item quantity="other">Har inte lagt till %d spel</item>
         <item quantity="one">Har inte lagt till %d spel</item>
+    </plurals>
+    <plurals name="videobox_settings_manager_apps_count">
+        <item quantity="other">%d appar</item>
+        <item quantity="one">%d app</item>
     </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$d visningar</item>

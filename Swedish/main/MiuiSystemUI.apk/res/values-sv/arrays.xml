@@ -26,6 +26,24 @@
         <item>%1$s</item>
         <item>%1$s</item>
     </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+    </string-array>
     <string-array name="battery_labels">
         <item>0%</item>
         <item>50%</item>
@@ -93,8 +111,11 @@
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptive audio</item>
         <item>Qualcomm® aptX™ TWS+ audio</item>
-        <item>Aktivera valfria codecs</item>
-        <item>Inaktivera Valfria Codecs</item>
+        <item>LHDC V3</item>
+        <item>LHDC V2</item>
+        <item>LHDC V1</item>
+        <item>Aktivera valfria Codecs</item>
+        <item>Inaktivera valfria Codecs</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Använd Systemets val (Standard)</item>
@@ -105,6 +126,9 @@
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptive audio</item>
         <item>Qualcomm® aptX™ TWS+ audio</item>
+        <item>LHDC V3</item>
+        <item>LHDC V2</item>
+        <item>LHDC V1</item>
         <item>Aktivera valfria codecs</item>
         <item>Inaktivera Valfria Codecs</item>
     </string-array>
@@ -130,8 +154,8 @@
         <item>Inaktiverad</item>
         <item>Filter aktiverat</item>
         <item>Aktiverad</item>
-        <item>Aktiverat Rubriker filtrerade</item>
-        <item>Aktiverat Mediapaket filtrerade</item>
+        <item>Aktiverat \"Rubriker filtrerade\"</item>
+        <item>Aktiverat \"Mediapaket filtrerade\"</item>
     </string-array>
     <string-array name="clock_options">
         <item>Visa timmar, minuter och sekunder</item>

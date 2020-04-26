@@ -47,6 +47,7 @@
     <string name="content_description_web_url">Bläddra</string>
     <string name="copy">Kopiera</string>
     <string name="cut">Klipp ut</string>
+    <string name="data_usage_context">If Wi-Fi is not turned on, your device will connect to a mobile network, which may result in additional charges depending on your payment plan.Thank you!</string>
     <string name="default_device_name">Okänd enhet</string>
     <string name="default_name">Standard</string>
     <string name="description_title">Tyst läge</string>
@@ -71,7 +72,7 @@
     <string name="fp_nav_center_action_choose_dlg_negative_btn_text">Inte nu</string>
     <string name="fp_nav_center_action_choose_dlg_positive_btn_text">Aktivera</string>
     <string name="fp_nav_center_action_choose_dlg_title">Aktivera snabbtryck</string>
-    <string name="frequent_email">Regelbundna e-brev</string>
+    <string name="frequent_email">Ofta använda e-post</string>
     <string name="frequent_phrases">Frekventa fraser</string>
     <string name="functions_are_being_developed">Denna funktion blir tillgänglig snart.</string>
     <string name="global_actions_airplane_mode">Flygplansläge</string>
@@ -202,6 +203,7 @@
     <string name="sim_added_reboot_title">SIM-kortet aktiveras när du startar om din enhet.</string>
     <string name="sim_lock_non_ais_msg">Ditt SIM-kort fungerar inte till fullo med denna telefon eftersom den inte uppfyller villkoren och förhållandena för abonnemanget. Om du har några frågor eller behöver mer information om detta, kontakta Xiaomi servicecenter eller butiken som sålde produkterna till dig.</string>
     <string name="sim_lock_now_ais_title">SIM %1$d</string>
+    <string name="slatoast">Användning av mobildata för att öka hastigheten kan förbruka mobil data</string>
     <string name="slavewifi">Wi-Fi med dubbla band</string>
     <string name="slavewifi_disconnect">Koppla från</string>
     <string name="slavewifi_notification_title">Använd Wi-Fi med dubbla band</string>

@@ -56,7 +56,7 @@
     <string name="s7">Testannons</string>
     <string name="select_all">Välj alla</string>
     <string name="selected_count">%1$d av %2$d valda</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="DOWNLOAD_UNIT_BIT">B</string>
     <string name="DOWNLOAD_UNIT_GB">GB</string>
     <string name="DOWNLOAD_UNIT_KB">KB</string>
@@ -129,11 +129,11 @@
     <string name="downloads_operating">Arbetar…</string>
     <string name="durationDayHour">%1$d dag %2$d timme</string>
     <string name="durationDayHours">%1$d dag %2$d timmar</string>
-    <string name="durationHourMinute">%1$d timme %2$d minuter</string>
-    <string name="durationHourMinutes">%1$d timme %2$d minuter</string>
+    <string name="durationHourMinute">%1$d t %2$d min</string>
+    <string name="durationHourMinutes">%1$d t %2$d min</string>
     <string name="durationMinute">%1$d minut</string>
-    <string name="durationMinuteSecond">%1$d minut %2$d sekund</string>
-    <string name="durationMinuteSeconds">%1$d minut %2$d sekunder</string>
+    <string name="durationMinuteSecond">%1$d min %2$d sek</string>
+    <string name="durationMinuteSeconds">%1$d min %2$d sek</string>
     <string name="durationMinutes">%1$d minuter</string>
     <string name="durationSecond">%1$d sekund</string>
     <string name="durationSeconds">%1$d sekunder</string>
@@ -249,4 +249,5 @@
     <string name="toast_only_wifi_download">Anslut till Wi-Fi för att ladda ner detta objekt</string>
     <string name="total_speedup">Fartökning (totalt)</string>
     <string name="version">Version %s</string>
+    <string name="security_ui_title">Security ads</string>
 </resources>

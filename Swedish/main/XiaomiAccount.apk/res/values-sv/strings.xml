@@ -120,6 +120,7 @@
     <string name="passport_change_phone_number">Växla nummer</string>
     <string name="passport_forget_password"><u>Glömt lösenord</u></string>
     <string name="passport_forget_password_no_underline">Glömt lösenord</string>
+    <string name="passport_can_not_receive_verification_code">Kunde du inte ta emot verifieringskoden?</string>
     <string name="passport_reg_type_email">E-postadress</string>
     <string name="passport_register_by_email"><u>Skapa ett konto med e-postadress</u></string>
     <string name="passport_international_register_by_email">Skapa ett konto med e-postadress</string>
@@ -505,7 +506,9 @@ Du kan logga in på ditt Mi Konto med %s nu."</string>
     <string name="input_new_pwd">Ange nytt lösenord</string>
     <string name="confirm_new_pwd">Bekräfta nytt lösenord</string>
     <string name="inconsistent_pwd">Lösenorden matchar inte</string>
-    <string name="same_new_and_old_pwd">Kan inte vara samma som nuvarande lösenord</string>
+    <string name="same_new_and_old_pwd">Nytt lösenord måste skilja sig från det gamla</string>
+    <string name="pwd_width_phone_number_or_mail_num">Lösenordet kan inte innehålla ditt telefonnummer, e-postadress eller Mi konto-ID</string>
+    <string name="risky_pwd_not_allow">Nya lösenordet är inte säkert. Ange ett annat.</string>
     <string name="account_security_info_pref_title">Säkerhetsinformation</string>
     <string name="account_bind_settings">Konton</string>
     <string name="account_bind_devices">Enheter</string>

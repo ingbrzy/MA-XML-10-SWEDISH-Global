@@ -30,8 +30,12 @@
     <string name="mi_service_app_name">Tjänster och återkoppling</string>
     <string name="miservice_channel_update_notification_info">\"Tjänster och återkoppling\" begär data online…</string>
     <string name="miservice_notification_boot_content">Läs mer om vad MIUI kan göra</string>
+    <string name="miservice_notification_huanji_content">Överför dem med Mi Mover</string>
+    <string name="miservice_notification_huanji_title">Har du viktiga objekt på din gamla telefon?</string>
     <string name="miservice_notification_open_feedback_content">Alla återkopplingsfunktioner har flyttats till den nya appen</string>
     <string name="miservice_notification_open_feedback_title">Introducerar \"Tjänster och återkoppling\"</string>
+    <string name="miservice_notification_scan_content">Använd Scanner för att översätta ord och fraser</string>
+    <string name="miservice_notification_scan_title">Översätt ögonblickligen</string>
     <string name="miui_feedback_answer_detail_community">Du kan hitta svar på dina frågor i Mi Community</string>
     <string name="miui_feedback_answer_detail_feedback_resolved">Ja</string>
     <string name="miui_feedback_answer_detail_feedback_result">Tack för din feedback!</string>
@@ -46,6 +50,7 @@
     <string name="miui_feedback_edit_add_original_images_dialog_content">Om problemet du rapporterar är relaterat till kamerans bildkvalité, lägg till originalfotot (obeskuret) för att hjälpa oss hitta problemet. Lägg till foto nu?</string>
     <string name="miui_feedback_edit_choose_module">Välj objekt</string>
     <string name="miui_feedback_edit_choose_module_hint">Krävs</string>
+    <string name="miui_feedback_edit_choose_occurrence_time">Tid</string>
     <string name="miui_feedback_edit_choose_reproductivity">Reproduktivitet</string>
     <string name="miui_feedback_edit_choose_third_app_name">Välj namn på app</string>
     <string name="miui_feedback_edit_contact_info_hint">Telefonnummer/e-post</string>
@@ -58,6 +63,7 @@
     <string name="miui_feedback_edit_discard_draft_dialog_title">Ta bort utkast?</string>
     <string name="miui_feedback_edit_hint">Rapportera fel varje gång du stöter på problem för att hjälpa oss att lösa dem snabbare</string>
     <string name="miui_feedback_edit_hint_gone">Meddelande stängt</string>
+    <string name="miui_feedback_edit_hint_optional">Välj</string>
     <string name="miui_feedback_edit_mobile_data_note_dialog_cancel">Vänta på Wi-Fi</string>
     <string name="miui_feedback_edit_mobile_data_note_dialog_confirm">Ladda upp</string>
     <string name="miui_feedback_edit_mobile_data_note_dialog_content">Det verkar som att du är ansluten till betalnätverk. Att ladda upp loggar kan ge ytterligare kostnader.</string>
@@ -92,6 +98,7 @@
     <string name="miui_feedback_edit_submit_dialog_not_show_again">Visa inte igen</string>
     <string name="miui_feedback_edit_submit_dialog_title">Skicka rapport</string>
     <string name="miui_feedback_edit_submit_directly">Skicka</string>
+    <string name="miui_feedback_edit_title_occurrence_time">Välj tid</string>
     <string name="miui_feedback_edit_title_reproductivity">Välj reproduktivitet</string>
     <string name="miui_feedback_edit_toast_description_required">Du måste ange en beskrivning</string>
     <string name="miui_feedback_edit_toast_module_required">Välj objekt</string>

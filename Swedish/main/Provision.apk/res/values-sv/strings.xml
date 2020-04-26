@@ -95,6 +95,7 @@ Avaktivera personliga annonser ändå?"</string>
     <string name="other_settings_auto_update">Automatiska systemuppdateringar</string>
     <string name="other_settings_auto_update_summary">MIUI väljer den bästa tidpunkten för att ladda ner och installera uppdateringar. Din enhet startas automatiskt om för att applicera ändringar.</string>
     <string name="other_settings_enhanced_lockscreen">Bakgrundsbildskarusell</string>
+    <string name="other_settings_enhanced_lockscreen_for_india">Glance för Mi</string>
     <string name="other_settings_enhanced_lockscreen_privacy_index">Integritetspolicy</string>
     <string name="other_settings_enhanced_lockscreen_summary">Få handplockade bilder och berättelser levererade till din låsskärm dagligen. %1$s och %2$s</string>
     <string name="other_settings_enhanced_lockscreen_summary_index">Licensavtal för slutanvändare</string>
@@ -160,7 +161,7 @@ Se den valda tangentbords sekretesspolicyn."</string>
     <string name="require_authority_statement">För att vi ska kunna förse dig med grundläggande tjänster behöver du bevilja följande behörigheter så att vi kan samla in din personliga information:</string>
     <string name="require_network_authority_statement">För att vi ska kunna förse dig med grundläggande tjänster behöver du ansluta till internet och bevilja följande behörigheter så att vi kan samla in din personliga information:</string>
     <string name="screen_recording_introduction">Med denna app kan du spela in vad som händer på din skärm.</string>
-    <string name="security_introduction">Du kan använda denna app för att rensa skräp på din enhet, hitta och neutralisera virus, optimera prestanda för spel, spara batteri, hantera appar och mer.</string>
+    <string name="security_introduction">Du kan använda denna app för att rensa skräp på din enhet, hitta och neutralisera virus, optimera prestanda för spel, spara batteri, hantera appar, behörigheter och mer.</string>
     <string name="security_mobile_account_introduction">För inloggning och hantering av systemkonton</string>
     <string name="service_agreement">Jag har läst och godkänt villkoren.</string>
     <string name="service_name_album">Galleri</string>
@@ -206,7 +207,7 @@ Se den valda tangentbords sekretesspolicyn."</string>
     <string name="summary_not_set">Inte angivet</string>
     <string name="system_navigation_mode">Navigera i systemet</string>
     <string name="terms_of_use">Villkor</string>
-    <string name="terms_of_use_ble_htmlViewer">, Sammansatt platsleverantör, HTMLViewer</string>
+    <string name="terms_of_use_ble_htmlViewer">, Sammansatt platsleverantör, HTML-visningsprogram</string>
     <string name="terms_of_use_label">"Läs vårt användaravtal och vår integritetspolicy för att förstå vilken information som vi samlar in, hur vi använder den och vilka alternativ som är tillgängliga för dig.
 Du måste godkänna vårt användaravtal och vår integritetspolicy innan du kan använda MIUI.
 %s och Mi-konto kommer ansluta till internet och finna din plats."</string>

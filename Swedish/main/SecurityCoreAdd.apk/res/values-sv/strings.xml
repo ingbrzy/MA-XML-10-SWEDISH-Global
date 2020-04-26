@@ -174,6 +174,10 @@ Se till att namnet på ditt företag är korrekt. Läs och godkänn Integritetsp
     <string name="greenguard_child_des_title">Scanna QR-kod för att lägga till enhet</string>
     <string name="greenguard_functional_description">"Fjärrhantera din enheter, få platsinformation,
 kontrollera installerade appar och begränsa användning"</string>
+    <string name="greenguard_install_cancle">No thanks</string>
+    <string name="greenguard_install_confirm">Install</string>
+    <string name="greenguard_install_message">"Family Guard is a system app. You don't need internet to install it."</string>
+    <string name="greenguard_install_title">Install Family Guard</string>
     <string name="greenguard_parent_des">Hantera enheterna för dina vänner och din familj</string>
     <string name="greenguard_parent_des_title">Använd Kite Guard för att lägga till enheter</string>
     <string name="guide_contact_sub_title_desc">"Kontakter som lagts till i sekundära utrymmet blir privata.

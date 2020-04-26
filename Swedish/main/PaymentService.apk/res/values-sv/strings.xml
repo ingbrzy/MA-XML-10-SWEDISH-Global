@@ -23,7 +23,7 @@
     <string name="passport_account_hint_text">Email address, phone number or Mi Account ID</string>
     <string name="passport_account_identity_title">Verifiera din identitet</string>
     <string name="passport_account_label">Mi Konto</string>
-    <string name="passport_account_name">Konto: %1$s</string>
+    <string name="passport_account_name">"Konto: %1$s "</string>
     <string name="passport_account_not_activated">Kontot har inte blivit aktiverat</string>
     <string name="passport_account_not_actived">Ditt konto har inte blivit aktiverat</string>
     <string name="passport_account_set_password">Set password</string>
@@ -213,4 +213,5 @@ För att aktivera ditt konto, följ
     <string name="passport_wrong_phone_number_format">Formatet på det telefonnummer som du angav är ogiltigt</string>
     <string name="passport_wrong_vcode">Koden du angav är felaktig</string>
     <string name="passport_yes">Yes</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
 </resources>
