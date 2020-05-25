@@ -160,7 +160,6 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
     <string name="dialog_backup_password_change_machine_tips">Du kommer inte att kunna överföra lösenordsskyddade säkerhetskopior. Stäng av säkerhetskopieringslösenordet innan användning av Mi Mover.</string>
     <string name="dialog_backup_password_restore_tips">Det går inte att återställa objekt när säkerhetskopieringslösenordet är på. Stäng av säkerhetskopieringslösenordet.</string>
     <string name="dialog_backup_password_to_settings">Inställningar</string>
-    <string name="digit_percent">%</string>
     <string name="dir_date_format">ååååMMdd_TTmmss</string>
     <string name="disable_encrypt_description">Inte krypterad</string>
     <string name="disable_encrypt_title">Stäng av kryptering</string>
@@ -255,7 +254,6 @@ Se till att USB-minnet har tillräckligt med utrymme innan du startar."</string>
 2.\u0009Gå till inställningar i Mi Talk och välj \"Säkerhetskopiera kontakter till Mi Konto\""</string>
     <string name="import_from_xiaomi_account_hint2">Om du redan har säkerhetskopierat, tryck Nästa.</string>
     <string name="import_from_xiaomi_account_hint_title">Använda Mi Talk för att säkerhetskopiera dina kontakter på flera enheter.</string>
-    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">På grund av kompatibilitetsproblem så kan du bara överföra delar av din data från iOS-enheter. Se till att du har skapat en iCloud backup före du börjar överföra.</string>
     <string name="lack_perm_msg">Mi Mover behöver följande behörigheter: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Behörigheter krävs</string>
@@ -757,11 +755,8 @@ Frigör utrymme eller överför endast viktiga objekt."</string>
 Stäng inte sidan innan anslutningen är upprättad."</string>
     <string name="waiting">Vänta lite…</string>
     <string name="wifi_title">Wi-Fi-inställningar</string>
-    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunde inte starta nedladdning. Kontrollera att appen för Nedladdningar fungerar normalt.</string>
     <string name="xiaomi_external_storage_unavailable">Lagring inte tillgänglig, kontrollera ditt SD-kort.</string>
-    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
-    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_router">Mi Router</string>
     <string name="xiaomi_router_location">Mi Router %s</string>
     <string name="xiaomi_update_dialog_message">"Introducerar version %1$s

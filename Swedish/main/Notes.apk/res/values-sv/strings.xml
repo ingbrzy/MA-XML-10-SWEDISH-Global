@@ -294,7 +294,6 @@
     <string name="note_sort_way">Välj hur du vill sortera dina anteckningar</string>
     <string name="notealert_enter">Öppna anteckning</string>
     <string name="notealert_ok">Avfärda</string>
-    <string name="notelist_string_info">…</string>
     <string name="notification_content_add_todo_from_other_app">Du lade till en ny uppgift. Tryck för att visa.</string>
     <string name="notify_alarm_title">Anteckningspåminnelse</string>
     <string name="permdesc_accessNote">Skadliga appar kan använda detta för att få tillgång till personlig data.</string>
