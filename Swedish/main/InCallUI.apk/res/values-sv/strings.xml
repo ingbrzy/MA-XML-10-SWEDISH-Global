@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="ai_assistant">Smarta samtal</string>
+    <string name="ai_assistant_not_installed">Installera AI Call Assistant först</string>
     <string name="antispam_local_marked">Lokalt märkt</string>
     <string name="antispam_notification_title">Okänt nummer</string>
     <string name="antispam_provider">Identifierad av %s</string>
@@ -50,14 +52,10 @@
     <string name="can_not_use">Kan inte använda</string>
     <string name="cancel">Avbryt</string>
     <string name="card_title_answering">Besvara samtal</string>
-    <string name="card_title_answering_time_out">Kunde inte besvara samtal, försök igen.</string>
     <string name="card_title_call_ended">"Samtal avslutat "</string>
     <string name="card_title_conf_call">Konferenssamtal</string>
     <string name="card_title_dialing">Ringer</string>
     <string name="card_title_hanging_up">"Lägger på "</string>
-    <string name="card_title_hanging_up_fail">Kunde inte avsluta samtal, försök igen.</string>
-    <string name="card_title_hanging_up_restart">Kan inte avsluta samtal. Starta om din enhet.</string>
-    <string name="card_title_hanging_up_weak_signal">Svag signalstyrka. Avslutar samtal…</string>
     <string name="card_title_in_call">I samtal</string>
     <string name="card_title_in_call_short">I samtal</string>
     <string name="card_title_in_video">Video</string>
@@ -117,6 +115,8 @@
     <string name="dialpad_zero">0</string>
     <string name="do_not_support_video_calls_by_remote">Videosamtal stöds inte på den andra enheten</string>
     <string name="emergency_call_dialog_number_for_display">Nödnummer</string>
+    <string name="enter_ai_assistant">Använd</string>
+    <string name="enter_ai_assistant_tip">Om det inte är bekvämt för dig att prata kan du använda AI Call Assistant för att konvertera dina meddelanden till tal under det här samtalet. Använd AI Call Assistant?</string>
     <string name="inCallLabel">Telefon</string>
     <string name="incall_bubble_hangup_click_hint">Tryck igen för att återgå till samtal</string>
     <string name="incall_call_type_label_sip">Internetsamtal</string>

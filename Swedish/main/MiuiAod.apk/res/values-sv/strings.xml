@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">Visa startsidan</string>
+    <string name="abc_action_bar_home_description">Navigera hem</string>
     <string name="abc_action_bar_up_description">Navigera uppåt</string>
     <string name="abc_action_menu_overflow_description">Fler alternativ</string>
-    <string name="abc_action_mode_done">Klart</string>
+    <string name="abc_action_mode_done">Klar</string>
     <string name="abc_activity_chooser_view_see_all">Visa alla</string>
     <string name="abc_activitychooserview_choose_application">Välj en app</string>
     <string name="abc_capital_off">AV</string>
@@ -27,16 +27,19 @@
     <string name="abc_shareactionprovider_share_with">Dela med</string>
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
-    <string name="search_menu_title">Sök</string>
     <string name="above_image">Upp</string>
     <string name="accessibility_battery_level">Batteri %d procent.</string>
     <string name="accessibility_battery_level_charging">Laddar, %d procent.</string>
+    <string name="add_from_album">Lägg till från Galleri</string>
     <string name="align_type">Justera</string>
     <string name="always_style">Alltid</string>
     <string name="animation_clock_panel">Urtavla med vågmönster</string>
     <string name="aod_close_color_inversion">Denna funktion kan inte kombineras med färginversion. Avaktivera färginversion först.</string>
     <string name="aod_lock_screen_date">EE, d MMMM</string>
     <string name="aod_lock_screen_date_12">EE, d MMMM</string>
+    <string name="aod_lock_screen_date_smartcover">"EE
+dd MM"</string>
+    <string name="aod_lock_screen_date_smartcover_b">EE dd MM</string>
     <string name="aod_mode_preview">Förhandsvisning</string>
     <string name="aod_mode_style">Stil på klockan och bakgrund</string>
     <string name="aod_mode_style_title">Fler alternativ</string>
@@ -52,21 +55,32 @@
     <string name="apply_succeed">Tillämpad</string>
     <string name="background_icon">Bakgrund</string>
     <string name="below_image">Ner</string>
+    <string name="btn_know">Jag förstår</string>
     <string name="cancel">Avbryt</string>
     <string name="choose_aod_style">Välj tema</string>
     <string name="chosen_picture">Välj bakgrund</string>
     <string name="clock_panel_icon">Urtavla</string>
     <string name="color_change_with_time_description">Ändra textfärg automatiskt över tiden</string>
     <string name="color_change_with_time_title">Ändra färg automatiskt</string>
+    <string name="copy">Kopiera</string>
     <string name="custom_image">Anpassad bild</string>
     <string name="deep_space_planet">Yttre rymden</string>
     <string name="deep_space_planet_des">Detta tema återspeglar de ljusförändringar som sker omkring dig under dagen. Soluppgångar och solnedgångar synkroniseras också med din plats.</string>
+    <string name="delete">Radera</string>
     <string name="digital_clock">Digial</string>
+    <string name="disable_aod_in_power_save_mode">Stäng av när Batterispararen är på</string>
+    <string name="disable_aod_in_power_save_mode_summary">Visa inte objekt för att spara ström</string>
+    <string name="expand_button_title">Avancerat</string>
     <string name="font_thickness">Fetstil</string>
     <string name="large_time">Stor klocka</string>
     <string name="letter_space">Teckenavstånd</string>
     <string name="line_space">Radavstånd</string>
     <string name="mini_time">Liten klocka</string>
+    <string name="minimalist_clock">Enkel klocka</string>
+    <string name="modify_scheduled_time">Ändra tid</string>
+    <string name="more_online_theme">Online-objekt</string>
+    <string name="my_style_title">Mitt tema</string>
+    <string name="not_set">Inte angett</string>
     <string name="notification_anim_pulse">Pulsera</string>
     <string name="notification_anim_rhythm">Rytm</string>
     <string name="notification_anim_star">Stjärnljus</string>
@@ -74,18 +88,28 @@
     <string name="notification_screen_on">Tänd skärmen</string>
     <string name="only_show_bg_description">Visa inte tid, datum och andra objekt</string>
     <string name="only_show_bg_title">Visa endast bakgrund</string>
+    <string name="open_aod_mode">Slå på</string>
     <string name="panel_clock">Analog</string>
     <string name="paper_mode_end_time_title">Avaktivera</string>
     <string name="paper_mode_start_time_title">Aktivera</string>
+    <string name="photo_editor_saving">Sparar…</string>
     <string name="please_input_signature">Ange signatur</string>
+    <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
+    <string name="scheduled_mode_dialog_msg">Objekt kommer att visas på din Alltid-på-skärm inom denna period: %s.</string>
+    <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
+    <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
+    <string name="scheduled_mode_msg">Aktiv period: %s</string>
     <string name="scheduled_style">Schemalagd</string>
     <string name="scope_des">Varje kalejdoskop består av fem olika mönster som visas efter varandra när skärmen tänds.</string>
     <string name="scope_icon">Kalejdoskopstil</string>
     <string name="scope_time">Kalejdoskop</string>
+    <string name="search_menu_title">Sök</string>
     <string name="select_notification_animation_style">Välj specialeffekt</string>
     <string name="select_notification_notify_style">Välj aviseringseffekt</string>
     <string name="show_battery">Visa batteristatus</string>
     <string name="show_battery_status">Visa batteristatus</string>
+    <string name="show_lunar">Visa traditionell kinesisk kalender</string>
+    <string name="show_lunar_desc">Dubbelklocka stöder inte traditionell kinesisk kalender</string>
     <string name="show_notification">Visa aviseringar</string>
     <string name="show_notificaton">Visa aviseringar</string>
     <string name="shownone_arround_image">Inga</string>
@@ -94,7 +118,9 @@
 underbart kommer hända"</string>
     <string name="standard_clock_panel">Standard</string>
     <string name="standard_style">Standard</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary">För att minska strömförbrukningen kommer objekt inte att visas när din enhet ligger i mörkret en längre tid.</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="temporary_style">Under 10 sekunder efter att du rört den</string>
     <string name="text_color">Textfärg</string>
     <string name="text_length_exceed_limit_alert">*Texten du angav är för lång</string>
@@ -102,6 +128,7 @@ underbart kommer hända"</string>
     <string name="time_location">Klockposition</string>
     <string name="time_style">Stil</string>
     <string name="time_style_layout">Utseende</string>
-    <string name="disable_aod_in_power_save_mode">Stäng av när Batterispararen är på</string>
-    <string name="disable_aod_in_power_save_mode_summary">Visa inte objekt för att spara ström</string>
+    <string name="tip_to_open_aod_mode">Alltid-på-skärm är avslaget. Slå på nu?</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
 </resources>

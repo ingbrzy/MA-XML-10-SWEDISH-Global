@@ -88,6 +88,10 @@
         <item quantity="other">%d dagar kvar</item>
         <item quantity="one">%d dag kvar</item>
     </plurals>
+    <plurals name="bt_usable_device_title">
+        <item quantity="other">%d tillgängliga enheter</item>
+        <item quantity="one">%d tillgänglig enhet</item>
+    </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d enheter</item>
         <item quantity="one">%d enhet</item>
@@ -189,8 +193,8 @@
         <item quantity="one">Ange minst %d tecken</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
-        <item quantity="other">PIN måste vara %d siffror</item>
-        <item quantity="one">PIN måste vara %d siffra</item>
+        <item quantity="other">PIN-koden måste vara %d siffror</item>
+        <item quantity="one">PIN-koden måste vara %d siffra</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
         <item quantity="other">Du kan skriva in upp till %d siffror</item>
@@ -303,6 +307,10 @@
     <plurals name="runtime_permissions_summary">
         <item quantity="other">%1$d av %2$d behörigheter har beviljats</item>
         <item quantity="one">%1$d av %2$d behörighet har beviljats</item>
+    </plurals>
+    <plurals name="saved_network_checked_num">
+        <item quantity="other">Valde %d objekt</item>
+        <item quantity="one">Valde %d objekt</item>
     </plurals>
     <plurals name="seconds">
         <item quantity="other">%s sekunder</item>

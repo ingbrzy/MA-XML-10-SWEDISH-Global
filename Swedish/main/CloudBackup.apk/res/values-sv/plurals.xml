@@ -8,20 +8,20 @@
         <item quantity="other">%1$s säkerhetskopior (%2$s)</item>
         <item quantity="one">%1$s säkerhetskopia (%2$s)</item>
     </plurals>
-    <plurals name="restoring_file_tile">
-        <item quantity="other">Återställer %d filer</item>
-        <item quantity="one">Återställer %d fil</item>
-    </plurals>
-    <plurals name="restore_app_order_prior">
-        <item quantity="other">Hög prioritet: %d appar</item>
-        <item quantity="one">Hög prioritet: %d app</item>
+    <plurals name="restore_app_order_installed">
+        <item quantity="other">%d appar på denna enhet</item>
+        <item quantity="one">%d app på denna enhet</item>
     </plurals>
     <plurals name="restore_app_order_normal">
         <item quantity="other">Normal prioritet: %d appar</item>
         <item quantity="one">Normal prioritet: %d app</item>
     </plurals>
-    <plurals name="restore_app_order_installed">
-        <item quantity="other">%d appar på denna enhet</item>
-        <item quantity="one">%d app på denna enhet</item>
+    <plurals name="restore_app_order_prior">
+        <item quantity="other">Hög prioritet: %d appar</item>
+        <item quantity="one">Hög prioritet: %d app</item>
+    </plurals>
+    <plurals name="restoring_file_tile">
+        <item quantity="other">Återställer %d filer</item>
+        <item quantity="one">Återställer %d fil</item>
     </plurals>
 </resources>

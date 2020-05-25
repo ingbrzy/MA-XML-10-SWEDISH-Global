@@ -17,6 +17,7 @@
     <string name="dialog_connect_verify_perssion_fail">Det gick inte att tillåta casting på din TV. Vänta en minut eller två och försök igen.</string>
     <string name="dialog_connected">Ansluten</string>
     <string name="dialog_connecting">Ansluter…</string>
+    <string name="dialog_nfc_cast_wifi_off">Slå på Wi-Fi för att kunna casta med NFC. Slå på nu?</string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">Strömma foton, videor eller musik</string>
     <string name="dialog_open_wifi_bt">Aktivera</string>
@@ -41,6 +42,11 @@ Titta i hjälpen om du får problem med att ansluta."</string>
     <string name="help_page_text_05">Steg 1: Kontrollera dina enheter och din nätverksmiljö</string>
     <string name="help_page_text_06">"1. Du behöver inte ansluta till internet om du vill casta något från en Mi-telefon till en Mi TV.
 2. Om du inte kan upprätta en anslutning mellan de två enheterna kan du försöka att ansluta båda till samma Wi-Fi-nätverk."</string>
+    <string name="help_page_text_06_global">"1. Mi TV-apparater, Mi-boxar, och Mi Projektorer:
+Anslut både din telefon och externa monitor till samma Wi-Fi-nätverk för bästa effekt. Om de är anslutna till olika nätverk kan det ta mer tid att hitta den externa monitorn och ansluta.
+Obs: Äldre Mi TV-apparater kanske inte stöder casting över olika nätverk.
+2. Om du använder TV-apparater, set-top-boxar eller projektorer av andra märken, anslut både din telefon och externa monitor till samma Wi-Fi-nätverk.
+Om de två enheterna inte kan anslutas till samma nätverk, slå på Miracast på din externa mon itor. Namngivningen av Miracast-funktionaliteten kan variera."</string>
     <string name="help_page_text_08">Steg 2: Aktivera casting</string>
     <string name="help_page_text_09">Tryck på ”Casta” på din telefons Notifikationspanel. Aktivera både Wi-Fi och Bluetooth för en stabilare anslutning.</string>
     <string name="help_page_text_10">Om du vill casta objekt från Galleri eller Mi Video kan du använda den inbyggda castingfunktionen i dessa appar.</string>
@@ -87,7 +93,7 @@ Om du behöver aktivera Miracast trycker du på [MENU]-knappen och väljer Mina 
     <string name="help_page_text_40">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. På vissa modeller kan du välja Appar > Skärmspegling.</string>
     <string name="help_page_text_41">Panasonic-kundsupport: 400-881-1315</string>
     <string name="help_page_text_42">Changhong</string>
-    <string name="help_page_text_43">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. På vissa modeller kan du välja System > Systemverktyg > Flera skärmar > Skärmspegling.</string>
+    <string name="help_page_text_43">Kontrollera inställningarna på din TV för att säkerställa att din externa monitor stöder Miracast-funktionalitet.</string>
     <string name="help_page_text_44">Changhong-kundsupport: 400-811-1666</string>
     <string name="help_page_text_45">TCL</string>
     <string name="help_page_text_46">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. På vissa modeller kan du välja Appar > Trådlös bildskärm.</string>
@@ -103,6 +109,7 @@ Om du behöver aktivera Miracast trycker du på [MENU]-knappen och väljer Mina 
     <string name="help_page_text_55_global">"Om du inte kan ansluta till nätverket kan du kontrollera om din externa skärm stödjer Miracast-funktionalitet och att den är aktiverad. På vissa modeller kallas denna funktion trådlös bildskärm, skärmspegling eller flera skärmar.
 4. Om du stöter på några problem kan du rapportera dem med hjälp av appen ”Tjänster och feedback”."</string>
     <string name="help_page_text_end">Om märket för din enhet inte anges här kan du kontakta tillverkaren för att lära dig mer om castingfunktion.</string>
+    <string name="nfc_connect_failed_toast">Det gick inte att casta. Försök igen.</string>
     <string name="notification_rc_title">XiaoMi TV-assistent</string>
     <string name="notification_show_more">Tryck för att visa fler funktioner</string>
     <string name="privacy_agree">Godkänn</string>
@@ -121,13 +128,15 @@ Läs och godkänn våra &lt;a href=%1$s>Användarvillkor&lt;/a> och vår &lt;a h
     <string name="san_wait_msg_3">Externa enheter är lättare att hitta när de är anslutna till samma nätverk som din telefon</string>
     <string name="san_wait_msg_4">Se ”Hjälp” om du inte hittar enheter</string>
     <string name="small_window">Minimera fönster</string>
+    <string name="small_window_not_supported">Kan inte minimera denna app medan den castas</string>
     <string name="status_bar_in_casting">Castar…</string>
     <string name="status_bar_in_casting_long">Tryck för att visa fler castingfunktioner</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="tile_label">Casta</string>
     <string name="toast_guide_show_more">Läs mer</string>
     <string name="toast_guide_title">Utforska våra nya funktioner här</string>
     <string name="toast_msg_for_multi_window">Kan inte använda denna funktion med delad skärm</string>
     <string name="toast_msg_for_small_window">Du kan minimera fönstret som du castar till om du vill använda andra funktioner på din telefon utan att avbryta castingprocessen.</string>
+    <string name="toast_nfc_dont_move">Flytta inte bort din telefon</string>
     <string name="toast_title_for_small_window">Välj ”Minimera fönster” i appen</string>
+    <string name="toast_turn_off_hotspot_before_cast">Avaktivera internetdelning innan du castar</string>
 </resources>

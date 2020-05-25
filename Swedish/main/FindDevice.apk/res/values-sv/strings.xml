@@ -83,6 +83,7 @@ Gå till id.mi.com för att återställa ditt lösenord.
 Andra skäl
 Logga in på i.mi.com och försök att låsa upp din enhet därifrån."</string>
     <string name="unlock_help_title">Låsa upp hjälp:</string>
+    <string name="unlock_number">Upplåsningskod: %s</string>
     <string name="unlock_wrong_captcha">Koden du angav är felaktig</string>
     <string name="unlocking">Aktiverar…</string>
     <string name="verifing_account">Verifierar lösenord…</string>

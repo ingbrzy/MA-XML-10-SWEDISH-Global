@@ -4,4 +4,8 @@
         <item quantity="other">" %1$stimmar %2$s"</item>
         <item quantity="one">" %1$stimme %2$s"</item>
     </plurals>
+    <plurals name="count_selected">
+        <item quantity="other">Valt %d objekt</item>
+        <item quantity="one">Valt %d objekt</item>
+    </plurals>
 </resources>

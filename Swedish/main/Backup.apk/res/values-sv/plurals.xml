@@ -16,6 +16,22 @@
         <item quantity="other">%d objekt</item>
         <item quantity="one">%d objekt</item>
     </plurals>
+    <plurals name="data_item_count_pair">
+        <item quantity="other">%1$d/%2$d objekt</item>
+        <item quantity="one">%1$d/%2$d objekt</item>
+    </plurals>
+    <plurals name="local_main_backup_manage_summary">
+        <item quantity="other">%1$s säkerhetskopieringar (%2$s)</item>
+        <item quantity="one">%1$s säkerhetskopiering (%2$s)</item>
+    </plurals>
+    <plurals name="new_task_backup_failed">
+        <item quantity="other">Framgångsrikt säkerhetskopierat. Kunde inte säkerhetskopiera %d objekt.</item>
+        <item quantity="one">Framgångsrikt säkerhetskopierat. Kunde inte säkerhetskopiera %d objekt.</item>
+    </plurals>
+    <plurals name="new_task_restore_failed">
+        <item quantity="other">Framgångsrikt återställd. Kunde inte återställa %d objekt.</item>
+        <item quantity="one">Framgångsrikt återställd. Kunde inte återställa %d objekt.</item>
+    </plurals>
     <plurals name="save_item_failed_summary_seg1">
         <item quantity="other">"Impoterade %d objekt. "</item>
         <item quantity="one">"Impoterade %d objekt. "</item>

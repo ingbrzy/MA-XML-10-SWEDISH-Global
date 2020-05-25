@@ -181,9 +181,6 @@ Val"</string>
     <string name="bugreport_in_power">Genväg till felrapport</string>
     <string name="bugreport_in_power_summary">Visa en knapp för felrapportering i extramenyn</string>
     <string name="button_convert_fbe">Rensa och konvertera …</string>
-    <string name="callFailed_simError">SIM-korts fel</string>
-    <string name="can_not_dial_vt_while_voice_prompt">Kan inte starta ett videosamtal medan röstsamtal pågår</string>
-    <string name="can_not_dial_while_vt_prompt">Det går inte att ringa under ett pågående videosamtal</string>
     <string name="cancel">Avbryt</string>
     <string name="cant_call_due_to_no_supported_service">Det går inte att ringa på grund av att det inte finns uppringningskonton som stöder den här samtalstypen.</string>
     <string name="cant_call_due_to_ongoing_call">Kan inte ringa. Annat samtal pågår %1$s.</string>
@@ -203,7 +200,6 @@ Val"</string>
     <string name="charge_length_format">för %1$s sedan</string>
     <string name="choose_profile">Välj profil</string>
     <string name="clear_adb_keys">Återkalla åtkomst till USB-felsökning</string>
-    <string name="close">Avaktivera</string>
     <string name="confirm_enable_oem_unlock_text">Varning! Funktionerna för enhetsskydd fungerar inte på enheten när den här inställningen är aktiverad.</string>
     <string name="confirm_enable_oem_unlock_title">Vill du tillåta OEM-upplåsning?</string>
     <string name="connected_via_app">Anslutet via %1$s</string>
@@ -254,8 +250,6 @@ Val"</string>
     <string name="development_settings_not_available">Utvecklaralternativ är inte tillgängliga för den här användaren</string>
     <string name="development_settings_summary">Ange alternativ för apputveckling</string>
     <string name="development_settings_title">Utvecklaralternativ</string>
-    <string name="dial_conference_fail_prompt">Det går inte att ringa konferenssamtal direkt eftersom nuvarande nätverk inte stödjer VoLTE.</string>
-    <string name="dial_vt_fail_prompt">Nuvarande nätverk stödjer inte VoLTE. Växla till vanligt röstsamtal?</string>
     <string name="direct_boot_unaware_dialog_message">Obs! När du har startat om enheten måste du låsa upp mobilen innan du kan starta den här appen</string>
     <string name="disable_overlays">Inaktivera HW-överlagringar</string>
     <string name="disable_overlays_summary">Använd alltid GPU för skärmsammansättning</string>
@@ -300,9 +294,6 @@ Val"</string>
     <string name="inactive_app_active_summary">Aktiv. Tryck om du vill inaktivera.</string>
     <string name="inactive_app_inactive_summary">Inaktiv. Tryck om du vill aktivera.</string>
     <string name="inactive_apps_title">Appar i viloläge</string>
-    <string name="incall_error_call_failed">Kunde inte ringa.</string>
-    <string name="incall_error_power_off">Avaktivera Flygplansläge för att ringa ett samtal.</string>
-    <string name="incall_error_supp_service_unknown">Tjänsten stöds inte.</string>
     <string name="install_other_apps">Installera okända appar</string>
     <string name="keep_screen_on">Håll aktiverad</string>
     <string name="keep_screen_on_summary">Skärmen vilar aldrig när laddning pågår</string>
@@ -318,7 +309,6 @@ Val"</string>
     <string name="managed_user_title">Alla jobbappar</string>
     <string name="media_category">Media</string>
     <string name="media_transfer_this_device_name">Den här enheten</string>
-    <string name="missedcall_notification_public_version_title">Telefon</string>
     <string name="mobile_data_always_on">Mobildata alltid aktiverad</string>
     <string name="mobile_data_always_on_summary">Håll alltid mobildata aktiverad, även när Wi-Fi är aktiverat (så att du snabbt kan byta mellan nätverk).</string>
     <string name="mock_location_app">Välj app för påhittad plats</string>
@@ -353,7 +343,6 @@ Val"</string>
     <string name="no_vm_number_msg">Inget nummer till röstbrevlåda är sparat på SIM-kortet.</string>
     <string name="non_primary_user">Bara ägaren av enheten kan visa och hantera blockerade nummer.</string>
     <string name="not_set">Inte angett</string>
-    <string name="notification_AllMissedCallTitle">Alla missade samtal</string>
     <string name="notification_channel_call_blocking">Samtalsblockering</string>
     <string name="notification_channel_incoming_call">Inkommande samtal</string>
     <string name="notification_channel_missed_call">Missade samtal</string>
@@ -362,7 +351,6 @@ Val"</string>
     <string name="notification_missedCallTicker">Missat samtal från %s</string>
     <string name="notification_missedCallTitle">Missat samtal</string>
     <string name="notification_missedCall_call_back">Ring tillbaka</string>
-    <string name="notification_missedCall_call_back_miui">Ring upp</string>
     <string name="notification_missedCall_message">Meddelande</string>
     <string name="notification_missedCallsMsg">%s missade samtal</string>
     <string name="notification_missedCallsTitle">Missade samtal</string>
@@ -419,6 +407,7 @@ Val"</string>
     <string name="private_dns_mode_provider">Värdnamn för leverantör av privat DNS</string>
     <string name="private_dns_mode_provider_failure">Kan inte ansluta</string>
     <string name="private_dns_mode_provider_hostname_hint">Ange värdnamn för DNS-leverantör</string>
+    <string name="process_kernel_label">Operativsystemet Android</string>
     <string name="remaining_length_format">%1$s kvar</string>
     <string name="respond_via_sms_canned_response_1">Kan inte prata nu. Vad händer?</string>
     <string name="respond_via_sms_canned_response_2">Jag ringer strax tillbaka.</string>
@@ -546,9 +535,6 @@ Val"</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="verify_apps_over_usb_summary">Kontrollera om appar som installeras via ADB/ADT kan vara skadliga.</string>
     <string name="verify_apps_over_usb_title">Verifiera appar via USB</string>
-    <string name="voice_dial_out">Röstsamtal</string>
-    <string name="voice_report_incoming_call">Inkommande samtal</string>
-    <string name="voice_report_unknown_num">Okänt nummer</string>
     <string name="vpn_settings_not_available">VPN-inställningarna är inte tillgängliga för den här användaren</string>
     <string name="wait_for_debugger">Vänta på felsökningen</string>
     <string name="wait_for_debugger_summary">Felsökaren måste ansluta till appen först</string>

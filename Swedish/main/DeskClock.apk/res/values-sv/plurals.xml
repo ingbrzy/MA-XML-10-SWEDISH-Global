@@ -28,6 +28,10 @@
         <item quantity="other">%d minuter</item>
         <item quantity="one">%d minut</item>
     </plurals>
+    <plurals name="minute_text">
+        <item quantity="other">" min"</item>
+        <item quantity="one">" min"</item>
+    </plurals>
     <plurals name="second">
         <item quantity="other">%d sekunder</item>
         <item quantity="one">%d sekund</item>
@@ -72,6 +76,14 @@
         <item quantity="other">Snooza i %d minuter</item>
         <item quantity="one">Snooza i %d minut</item>
     </plurals>
+    <plurals name="stopwatch_running_notification_day">
+        <item quantity="other">Tidtagarur har körts i %s dagar. Tryck för att visa.</item>
+        <item quantity="one">Tidtagarur har körts i %s dag. Tryck för att visa.</item>
+    </plurals>
+    <plurals name="stopwatch_running_notification_hour">
+        <item quantity="other">Tidtagarur har körts i %s timmar. Tryck för att visa.</item>
+        <item quantity="one">Tidtagarur har körts i %s timme. Tryck för att visa.</item>
+    </plurals>
     <plurals name="timer_message_hour">
         <item quantity="other">"%1$d timmar "</item>
         <item quantity="one">"%1$d timme "</item>
@@ -83,5 +95,13 @@
     <plurals name="timer_message_second">
         <item quantity="other">%1$d sekunder</item>
         <item quantity="one">%1$d sekund</item>
+    </plurals>
+    <plurals name="worldcolock_timezone_gap_fast">
+        <item quantity="other">%s tim framåt</item>
+        <item quantity="one">%s tim framåt</item>
+    </plurals>
+    <plurals name="worldcolock_timezone_gap_slow">
+        <item quantity="other">%s tim bakåt</item>
+        <item quantity="one">%s tim bakåt</item>
     </plurals>
 </resources>

@@ -63,6 +63,7 @@
     <string name="accessibility_camera_button">Kamera</string>
     <string name="accessibility_carrier_network_change_mode">Operatörsnätverk ändras.</string>
     <string name="accessibility_cast_name">Ansluten till %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Castning av skärmen avslutad.</string>
     <string name="accessibility_cell_data">Mobildata</string>
     <string name="accessibility_cell_data_off">Mobildata avaktiverad</string>
@@ -250,6 +251,11 @@
     <string name="accessibility_status_bar_headset">Headset anslutet</string>
     <string name="accessibility_status_bar_hotspot">Internetdelning</string>
     <string name="accessibility_status_bar_micphone">Anslutit mikrofonen framgångsrikt</string>
+    <string name="accessibility_status_bar_no_slave_wifi">Hjälpande Wi-Fi nedkopplat</string>
+    <string name="accessibility_status_bar_slave_wifi_four_bars">Hjälpande Wi-Fi fyra streck</string>
+    <string name="accessibility_status_bar_slave_wifi_one_bar">Hjälpande Wi-Fi ett streck</string>
+    <string name="accessibility_status_bar_slave_wifi_three_bars">Hjälpande Wi-Fi tre streck</string>
+    <string name="accessibility_status_bar_slave_wifi_two_bars">Hjälpande Wi-Fi två streck</string>
     <string name="accessibility_three_bars">Tre staplar.</string>
     <string name="accessibility_tty_enabled">Teleprinter aktiverad.</string>
     <string name="accessibility_two_bars">Två staplar.</string>
@@ -315,7 +321,6 @@
     <string name="band_24G">" (2,4 GHz band)"</string>
     <string name="band_5G">" (5 GHz band)"</string>
     <string name="battery">Batteri</string>
-    <string name="battery_can_use_time">Återstår ungefär %s</string>
     <string name="battery_detail_charging_summary">Batterisparare är inte tillgänglig under laddning</string>
     <string name="battery_detail_switch_summary">Reducerar prestanda och bakgrundsaktivitet</string>
     <string name="battery_detail_switch_title">Batterisparare</string>
@@ -334,9 +339,9 @@
     <string name="battery_low_title">Låg batterinivå</string>
     <string name="battery_low_title_power_save">Batterisparare</string>
     <string name="battery_low_why">Inställningar</string>
+    <string name="battery_meter_percent_sign">%</string>
     <string name="battery_meter_very_low_overlay_symbol">!</string>
     <string name="battery_panel_title">Batterianvändning</string>
-    <string name="battery_profiles">Använd batteriprofiler</string>
     <string name="battery_saver_confirmation_ok">Aktivera</string>
     <string name="battery_saver_confirmation_title">Aktivera Batterisparare?</string>
     <string name="battery_saver_notification_action_text">Avaktivera Batterispararen</string>
@@ -446,7 +451,6 @@ Sample Rate"</string>
     <string name="bt_hci_snoop_log">Aktivera Bluetooth HCI snoop log</string>
     <string name="bt_hci_snoop_log_summary">Fånga alla Bluetooth HCI-paket till en fil. (Växla Bluetooth efter ändring av denna inställning)</string>
     <string name="bt_is_off">Bluetooth är avaktiverad</string>
-    <string name="btn_camera">Ange ditt ansikte</string>
     <string name="bugreport_in_power">Genväg för buggrapport</string>
     <string name="bugreport_in_power_summary">Visa en knapp i Strömmenyn för att rapportera en buggrapport</string>
     <string name="button_convert_fbe">Rensa och konvertera…</string>
@@ -473,6 +477,8 @@ Sample Rate"</string>
     <string name="category_work">Arbete</string>
     <string name="charge_length_format">%1$s sedan</string>
     <string name="chooseUsbActivity">Välj en enhet för USB-enheten</string>
+    <string name="choose_clock_panel_title">Låsskärms-layout</string>
+    <string name="choose_clock_third_theme_hint_text">Låsskärm från det nuvarande tillämpade temat</string>
     <string name="choose_clock_title_left_top">Vänsterjusterad</string>
     <string name="choose_clock_title_middle">Centrerad</string>
     <string name="choose_clock_title_vertical">Vertikal</string>
@@ -576,17 +582,10 @@ Om du fortsätter använda mobildata kan ytterligare avgifter från din operatö
     <string name="divider_menu_close">Stäng</string>
     <string name="divider_menu_select_apps">Välj</string>
     <string name="divider_menu_swap_task">Byta</string>
-    <string name="dlg_cancel">Avbryt</string>
-    <string name="dlg_confirm">Aktivera</string>
     <string name="dlg_confirm_kill_storage_users_text">Om du aktiverar USB-lagring kan vissa applikationer sluta att fungera och blir otillgängliga tills att du avaktiverar USB-lagring.</string>
     <string name="dlg_confirm_kill_storage_users_title">Aktivera USB-lagring</string>
     <string name="dlg_error_title">USB-funktion misslyckades</string>
     <string name="dlg_ok">OK</string>
-    <string name="dlg_summary_close_app">Begränsa bakgrundsaktivitet och notifikationer</string>
-    <string name="dlg_summary_close_theme">Begränsa animerade teman</string>
-    <string name="dlg_summary_close_wifi">Avaktivera Wi-Fi, Bluetooth och Internetdelning</string>
-    <string name="dlg_summary_nfc">Avaktivera NFC</string>
-    <string name="dlg_summary_title">Extrem Batterisparare stoppar all bakgrundsaktivitet efter att du lämnar en app och går tillbaka till Hemskärmen. Om du vill att en app ska kunna köra i bakgrunden, lägg då till den som bakgrundsundantag.</string>
     <string name="dnd_is_off">Stör ej är avaktiverad</string>
     <string name="dnd_notification_warnings_title">Stör ej är aktiverat. Samtal och notifikationer kommer bli tystade.</string>
     <string name="do_disclosure_generic">Denna enhet hanteras av din organisation</string>
@@ -612,13 +611,11 @@ Om du fortsätter använda mobildata kan ytterligare avgifter från din operatö
     <string name="enable_bluetooth_message">Aktivera Bluetooth först för att ansluta ett tangentbord till din platta.</string>
     <string name="enable_bluetooth_title">Aktivera Bluetooth?</string>
     <string name="enable_demo_mode">Aktivera demoläge</string>
-    <string name="enable_extreme_power_save_mode">Extrem Batterisparare</string>
     <string name="enable_freeform_support">Aktivera fri form för fönster</string>
     <string name="enable_freeform_support_summary">Aktivera stöd för experimentell fri form för fönster.</string>
     <string name="enable_gpu_debug_layers">Aktivera felsökning GPU-lager</string>
     <string name="enable_gpu_debug_layers_summary">Tillåt att felsökning av GPU-lager laddas för felsökning av appar</string>
     <string name="enable_opengl_traces_title">Aktivera OpenGL-spårning</string>
-    <string name="enable_power_save_mode">Aktivera batterisparare</string>
     <string name="enable_terminal_summary">Aktivera app för terminal som ger tillgång till local shell</string>
     <string name="enable_terminal_title">Lokal terminal</string>
     <string name="enabled_by_admin">Aktiverad av administratör</string>
@@ -647,75 +644,17 @@ Om du fortsätter använda mobildata kan ytterligare avgifter från din operatö
     <string name="ext_media_unmountable_notification_title">Skadad USB-lagring</string>
     <string name="external_source_trusted">Tillåten</string>
     <string name="external_source_untrusted">Inte tillåten</string>
-    <string name="face_data_apply_for_category_title">Lås upp med ansiktsdata</string>
-    <string name="face_data_apply_for_keyguard_title">Låsskärm</string>
-    <string name="face_data_input_camera_fail">Det gick inte att starta kameran</string>
-    <string name="face_data_input_camera_ok">Startar Kamera…</string>
-    <string name="face_data_input_cancel">Avbryt</string>
-    <string name="face_data_input_cancel_msg">Kunde inte läsa ansiktsdata</string>
-    <string name="face_data_input_msg">Placera ditt ansikte inom ramen</string>
-    <string name="face_data_input_ok">Klart</string>
-    <string name="face_data_input_ok_msg">Aktivera att låsa upp din enhet med din ansiktsdata.</string>
-    <string name="face_data_input_ok_msg_angle">"Lås upp enheten med ditt ansikte när skärmen är på.
-(Spela in din ansiktsdata inklusive alla vinklar som behövs)"</string>
-    <string name="face_data_input_ok_title">Tillagd</string>
-    <string name="face_data_input_structure_title">3D-ansiktsdata</string>
-    <string name="face_data_input_title">Lägg till ansiktsdata</string>
-    <string name="face_data_introduction_msg">Ansiktsdata kan användas för att låsa upp din enhet eller verifiera din identitet. Lägg till lösenord för Låsskärmen innan du lägger till din ansiktsdata.</string>
-    <string name="face_data_introduction_next">Nästa</string>
-    <string name="face_data_introduction_title">Ansiktsigenkänning</string>
-    <string name="face_data_manage_delete">Ta bort ansiktsdata?</string>
-    <string name="face_data_manage_delete_msg">Ta bort ansiktsdata</string>
-    <string name="face_data_manage_delete_sure">Du kan inte låsa upp enheten med ansiktsdata efter att du har tagit bort det.</string>
-    <string name="face_data_manage_delete_title">Ansiktsdata</string>
-    <string name="face_data_manage_unlock_liftcamera_msg">När skärmen tänds upp, svep uppåt för att låsa upp med ansiktsdata.</string>
-    <string name="face_data_manage_unlock_msg">Lås upp enheten med din ansiktsdata</string>
-    <string name="face_data_manage_unlock_slide_msg">Ersätt svepgester men ansiktsupplåsning</string>
-    <string name="face_data_manage_unlock_title">Lås upp med ansiktsdata</string>
-    <string name="face_data_siggesstion_next">Nästa</string>
-    <string name="face_data_siggesstion_next_time">Nästa (%ds)</string>
-    <string name="face_data_suggesstion_first">Säkerhetsproblem: Ansiktsupplåsning är mindre säkert än en PIN-kod, lösenord eller mönster. Din enhet kan kanske låsas upp med ett foto och av människor eller objekt med liknande drag.</string>
-    <string name="face_data_suggesstion_second">Se till att alla delar av ditt ansikte är synliga och inte täckta. Ditt ansikte ska även vara belyst.</string>
-    <string name="face_unlock_adjust_distance">Se till att avståndet mellan ditt ansikte och skärmen är optimalt.</string>
     <string name="face_unlock_be_on_the_screen">Håll enheten framför ditt ansikte</string>
-    <string name="face_unlock_by_notification_screen_on_msg">Du kan låsa upp enheten med ansiktsdata när skärmen tänds upp för en inkommande notifikation. Detta kan dra mer batteri.</string>
-    <string name="face_unlock_by_notification_screen_on_title">Tillåt att ansiktsupplåsning när skärmen tänds</string>
-    <string name="face_unlock_category_title">Alternativ för låsskärm</string>
     <string name="face_unlock_check_failed">Kunde inte känna igen dig</string>
-    <string name="face_unlock_close_screen">Kom närmare skärmen</string>
-    <string name="face_unlock_down">Höj huvudet</string>
     <string name="face_unlock_fail">Det gick inte att verifiera ansikte</string>
     <string name="face_unlock_fail_retry">Det gick inte att verifiera ditt ansikte. Tryck ovanför för att försöka igen.</string>
     <string name="face_unlock_fail_retry_global">Tryck ovanför för att använda Ansiktsupplåsning</string>
-    <string name="face_unlock_identify_error">Ett igenkänningsfel inträffade</string>
     <string name="face_unlock_not_found">Kunde inte känna igen dig</string>
-    <string name="face_unlock_not_roi">Placera ditt ansikte inom ramen</string>
-    <string name="face_unlock_offset_bottom">Sänk din telefon lite</string>
-    <string name="face_unlock_offset_left">Flytta till höger</string>
-    <string name="face_unlock_offset_right">Flytta till vänster</string>
-    <string name="face_unlock_offset_top">Höj din telefon lite</string>
     <string name="face_unlock_open_eye">Öppna dina ögon lite mer</string>
     <string name="face_unlock_passwork">Använd lösenord</string>
     <string name="face_unlock_passwork_and_fingerprint">Använd lösenord eller fingeravtryck</string>
-    <string name="face_unlock_quality">Kunde inte se ditt ansikte tydligt</string>
-    <string name="face_unlock_reenter_content">Algoritmen för ansiktsupplåsningen uppdateras. Tryck för att spela in ansiktsdata igen.</string>
-    <string name="face_unlock_reenter_title">Spela in din ansiktsdata igen.</string>
     <string name="face_unlock_reveal_eye">Gör dina ögon synliga</string>
     <string name="face_unlock_reveal_mouth">Gör dina läppar synliga</string>
-    <string name="face_unlock_rise">Sänk huvudet</string>
-    <string name="face_unlock_rotated_left">Vänd huvudet till höger</string>
-    <string name="face_unlock_rotated_right">Vänd huvudet till vänster</string>
-    <string name="face_unlock_sc_status">Dra neråt på skärmen för att starta kameran</string>
-    <string name="face_unlock_stay_away_screen">Stanna 25 till 40 cm ifrån skärmen</string>
-    <string name="face_unlock_success_show_message_dialog_msg">Tillåt notifikationer på Låsskärmen för att kunna se dem på din Låsskärm.</string>
-    <string name="face_unlock_success_show_message_dialog_negative_btn">Nej tack</string>
-    <string name="face_unlock_success_show_message_dialog_positive_btn">Tillåt</string>
-    <string name="face_unlock_success_show_message_dialog_title">Notifikationer på Låsskärmen</string>
-    <string name="face_unlock_success_show_message_msg">Visa endast från vilken app notifikationen kommer ifrån när enheten är låst och visa först innehållet när ansiktsdata har verifierats</string>
-    <string name="face_unlock_success_show_message_title">Visa notifikationsdetaljer efter att ansiktsdata har verifierats</string>
-    <string name="face_unlock_success_show_message_toast">Notifikationer kommer visas på Låsskärmen</string>
-    <string name="face_unlock_success_stay_screen_msg">Stanna vid Låsskärmen efter att ditt ansikte blivit verifierat. Svep uppåt för att gå till Hemskärmen.</string>
-    <string name="face_unlock_success_stay_screen_title">Stanna vid Låsskärmen efter upplåsning</string>
     <string name="failed_to_open_app_settings_toast">Det gick inte att öppna inställningar för %1$s</string>
     <string name="fingerprint_add_text">Fingeravtrycksgränssnittet har uppdaterats. Lägg till ditt fingeravtryck igen.</string>
     <string name="fingerprint_add_title">Lägg till fingeravtryck</string>
@@ -775,6 +714,28 @@ Om du fortsätter använda mobildata kan ytterligare avgifter från din operatö
     <string name="gxzw_area">Fingeravtryckssensor</string>
     <string name="gxzw_long_press_tip" />
     <string name="gxzw_press_harder">Trycka lite hårdare</string>
+    <string name="gxzw_quick_close">Stäng</string>
+    <string name="gxzw_quick_open_add_event">Lägg till händelse</string>
+    <string name="gxzw_quick_open_add_event_sub">Kalender</string>
+    <string name="gxzw_quick_open_alipay_pay">Betalningskod</string>
+    <string name="gxzw_quick_open_alipay_pay_sub">Alipay</string>
+    <string name="gxzw_quick_open_alipay_scan">Scanner</string>
+    <string name="gxzw_quick_open_alipay_scan_sub">Alipay</string>
+    <string name="gxzw_quick_open_qr_code">QR-kod</string>
+    <string name="gxzw_quick_open_qr_code_sub">Scanner</string>
+    <string name="gxzw_quick_open_search">Sök</string>
+    <string name="gxzw_quick_open_search_sub">Webbläsare</string>
+    <string name="gxzw_quick_open_skip_teach">Hoppa över handledning</string>
+    <string name="gxzw_quick_open_title">Öppnade genvägsmeny</string>
+    <string name="gxzw_quick_open_wechat_pay">Betalningskod</string>
+    <string name="gxzw_quick_open_wechat_pay_sub">WeChat</string>
+    <string name="gxzw_quick_open_wechat_scan">Scanner</string>
+    <string name="gxzw_quick_open_wechat_scan_sub">WeChat</string>
+    <string name="gxzw_quick_open_xiaoai_sub">Mi AI</string>
+    <string name="gxzw_quick_open_xiaoai_title1">Säg namnet på den app du vill öppna</string>
+    <string name="gxzw_quick_open_xiaoai_title2">Säg namnet på den funktion du vill använda</string>
+    <string name="gxzw_quick_tip_press">Fortsätt trycka på…</string>
+    <string name="gxzw_quick_tip_slide">Lyft inte upp fingret. Dra för att välja.</string>
     <string name="gxzw_try_again">Försök igen</string>
     <string name="gxzw_try_more_again">Försök igen</string>
     <string name="gxzw_use_password">Använd ditt lösenord för att låsa upp</string>
@@ -795,6 +756,9 @@ När din telefon har kylts ner kommer den fungera normalt."</string>
     <string name="home">Inställningar för Hemskärm</string>
     <string name="how_to_back_home">Gå till Hemskärmen</string>
     <string name="how_to_switch_recents">Öppna senaste använda appar</string>
+    <string name="how_to_use_app_quick">Hur du växlar mellan appar</string>
+    <string name="how_to_use_app_quick_hide_line_summary">Svep uppåt från underkanten av skärmen och sedan till höger eller vänster</string>
+    <string name="how_to_use_app_quick_summary">Svep till höger eller vänster från helskärmsindikatorn eller från underkanten av skärmen</string>
     <string name="how_to_use_drawer">Hur du öppnar svepmenyn</string>
     <string name="how_to_use_drawer_summary">Svep höger på den övre delen av skärmen</string>
     <string name="how_to_use_fsg">Du kan utföra dessa åtgärder med gester:</string>
@@ -895,8 +859,12 @@ Använd endast den medföljande laddaren."</string>
     <string name="keyguard_carrier_default">Ingen tjänst</string>
     <string name="keyguard_charged">Fulladdad</string>
     <string name="keyguard_charging_back_to_lockscreen">Tillbaka till Låsskärmen</string>
-    <string name="keyguard_charging_battery_level">%s %%</string>
+    <string name="keyguard_charging_battery_level">%s%%</string>
     <string name="keyguard_charging_info_battery_used_time_text">På batteri</string>
+    <string name="keyguard_charging_info_data_c">%s℃</string>
+    <string name="keyguard_charging_info_data_ma">%smA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Tömd</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Idag %s</string>
@@ -924,6 +892,7 @@ Använd endast den medföljande laddaren."</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-kort saknas eller är inte läsbar. Vänligen för in en SIM kort.</string>
     <string name="keyguard_missing_sim_message">Inget SIM kort i telefonen.</string>
     <string name="keyguard_missing_sim_message_short">Inget SIM-kort</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Nätverket är låst</string>
     <string name="keyguard_password_enter_password_code">Ange ditt lösenord för att låsa upp</string>
     <string name="keyguard_password_enter_pin_code">Ange PIN-koden</string>
@@ -1007,6 +976,7 @@ Försök igen om %2$d sekunder."</string>
     <string name="left_keycode">Tangentkod för vänster knapp</string>
     <string name="left_nav_bar_button_type">Extra knapptyp till vänster</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="loading_injected_setting_summary">Laddar…</string>
     <string name="local_backup_password_summary_change">Tryck för att ändra eller ta bort lösenord för säkerhetskopior för Hemskärmen</string>
     <string name="local_backup_password_summary_none">Fullständig säkerhetskopia för Desktop är inte skyddad för tillfället</string>
@@ -1029,6 +999,8 @@ d MMMM"</string>
     <string name="lock_screen_magazine_preview_fullscreen_bottom_button_text">Ange</string>
     <string name="lock_screen_no_sim_card_emergency_only">Endast nödsamtal</string>
     <string name="lock_screen_no_sim_card_no_service">Ingen tjänst</string>
+    <string name="lock_screen_signature_msg">Visa signatur på Låsskärmen</string>
+    <string name="lock_screen_signature_title">Ägarinfo på Låsskärmen</string>
     <string name="lockscreen_access_pattern_area">Mönsterområde.</string>
     <string name="lockscreen_access_pattern_cell_added">Cell tillagd</string>
     <string name="lockscreen_access_pattern_cell_added_verbose">Cell %1$s tillagd</string>
@@ -1082,6 +1054,7 @@ en skrollnings-skärmdump"</string>
     <string name="miui_guide_dialog_message">Medialjud (t ex musik, videor) kommer fortfarande spelas i Tyst läge. Du kan ändra detta i Inställningar.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Upplåst av Bluetoothenhet</string>
     <string name="miui_ringer_count_down">Räkna ner</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Tyst</string>
     <string name="miui_ringer_standard_description">Stäng av ringsignal för inkommande samtal och notifikationer</string>
     <string name="miui_ringer_total">Stör ej</string>
@@ -1100,21 +1073,23 @@ en skrollnings-skärmdump"</string>
     <string name="mock_location_app_not_set">Ingen app för påhittad plats vald</string>
     <string name="mock_location_app_set">App för påhittad plats: %1$s</string>
     <string name="monitoring_button_view_policies">Visa Policyer</string>
-    <string name="monitoring_description_app">Du är ansluten till %1$s som kan övervaka din aktivitet på nätverket. inklusive e-post, appar och webbsidor.</string>
+    <string name="monitoring_description_app">Du är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-post, appar och websidor.</string>
     <string name="monitoring_description_app_personal">Du är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-post, appar och webbsidor.</string>
-    <string name="monitoring_description_app_personal_work">"Din arbetsprofil hanteras av %1$s. Profilen är ansluten till %2$s som kan övervaka din nätverksaktivitet, inklusive e-post, appar och webbsidor.
+    <string name="monitoring_description_app_personal_work">"Din arbetsprofil hanteras av %1$s. Profilen är ansluten till %2$s som kan övervaka din nätverksaktivitet, inklusive e-post, appar och webbplatser.
 
 Du är också ansluten till %3$s som kan övervaka din personliga nätverksaktivitet."</string>
-    <string name="monitoring_description_app_work">"Din arbetsprofil hanteras av %1$s. Profilen är ansluten till %2$s som kan övervaka din nätverksaktivitet, inklusive e-post, appar och webbsidor.
+    <string name="monitoring_description_app_work">"Din arbetsprofil hanteras av %1$s. Profilen är ansluten till %2$s som kan övervaka din nätverksaktivitet, inklusive e-post, appar och webbplatser.
 
 Kontakta din administratör för mer information."</string>
     <string name="monitoring_description_ca_cert_settings">Öppna betrodda uppgifter</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">En Certifikatutfärdare är installerad på denna enhet. Din säkra nätverkstrafik kan vara övervakad eller har blivit modifierad.</string>
     <string name="monitoring_description_do_body">Din administratör kan övervaka och hantera inställningar, företagstillgång, appar, data kopplad till din enhet och din enhets platsinformation.</string>
     <string name="monitoring_description_do_body_vpn">Du är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-post, appar och websidor.</string>
     <string name="monitoring_description_do_header_generic">Din enhet hanteras av %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s använder %2$s för att hantera din enhet.</string>
     <string name="monitoring_description_do_learn_more">Läs mer</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Din organisation installerade en Certifikatutfärdare i din arbetsprofil. Din säkra nätverkstrafik kan övervakas eller modifieras.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Din arbetsprofil är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-post, appar och webbsidor.</string>
     <string name="monitoring_description_management">"Din enhet hanteras av din organisation.
@@ -1146,6 +1121,7 @@ Kontakta din administratör för mer information.
 
 Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</string>
     <string name="monitoring_description_vpn_settings">Öppna inställningar för VPN</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA-certifikat</string>
     <string name="monitoring_subtitle_network_logging">Nätverksloggning</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1184,6 +1160,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="nav_guide_message">Använd gester för att dölja/visa skärmknappar.</string>
     <string name="nav_guide_ok">Ställ in</string>
     <string name="nav_guide_title">Dölj skärmknappar</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Inget</string>
     <string name="no_multi_window_app">Inga appar stöder Delad skärm</string>
     <string name="no_notification_tips">Inga notifikationer</string>
@@ -1191,6 +1168,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="not_set">Inte angett</string>
     <string name="not_support_multi_window">Nuvarande app stöder inte Delad skärm</string>
     <string name="notch_sos_status_bar_title">SOS</string>
+    <string name="notification_aggregate_text">Markera notifikationer från %1$s som oviktiga</string>
     <string name="notification_all_categories">Alla Kategorier</string>
     <string name="notification_app_settings">Anpassa: %1$s</string>
     <string name="notification_channel_alerts">Påminnelser</string>
@@ -1216,21 +1194,13 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="notification_header_title">Notifikationer</string>
     <string name="notification_hidden_by_policy_text">Innehåll dolt</string>
     <string name="notification_hidden_text">Du har ett nytt meddelande</string>
-    <string name="notification_info_channel_disabled_text">Du kommer inte ta emot %2$s notifikationer från %1$s.</string>
-    <string name="notification_info_channel_enabled_text">Du kommer ta emot %2$s notifikationer från %1$s.</string>
-    <string name="notification_low_battery_action_btn">Aktivera</string>
-    <string name="notification_low_battery_need_charge">Batterinivån är låg. Ladda din enhet.</string>
-    <string name="notification_low_battery_open_save_mode">Aktivera batterisparläge</string>
-    <string name="notification_low_battery_title">Mindre än %d%% av batteriet återstår</string>
+    <string name="notification_info_disabled_text">Blockerade notifikationer från %1$s</string>
+    <string name="notification_info_enabled_text">Notifikationer från %1$s</string>
     <string name="notification_manager">Hantera notifikationer</string>
     <string name="notification_manager_des">Filtrera och hantera notifikationer</string>
     <string name="notification_menu_accessibility">%1$s %2$s</string>
-    <string name="notification_menu_filter_description">Oviktiga notifikationer</string>
-    <string name="notification_menu_filter_secondary_text">Alla notifikationer från %s kommer visas i en egen mapp.</string>
-    <string name="notification_menu_filter_title">Oviktigt</string>
+    <string name="notification_menu_aggregate_description">Grupperingsalternativ</string>
     <string name="notification_menu_gear_description">Konfigurera notifikationer</string>
-    <string name="notification_menu_remove_from_filter_secondary_text">Alla viktiga notifikationer från %s kommer visas direkt i Notifikationspanelen.</string>
-    <string name="notification_menu_remove_from_filter_title">Viktigt</string>
     <string name="notification_menu_snooze_description">Inställningar för notifikation vid snooze</string>
     <string name="notification_more_settings">Fler inställningar</string>
     <string name="notification_otg_gamestick_in">Spelkontroller ansluten</string>
@@ -1254,10 +1224,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="oem_unlock_enable">Lås upp OEM</string>
     <string name="oem_unlock_enable_summary">Tillåt bootloadern att bli upplåst</string>
     <string name="okay">OK</string>
-    <string name="oldman_airplane_mode_text">Flygplansläge</string>
-    <string name="oldman_incall_text">Tillbaka till samtal</string>
     <string name="open_camera_hint_text">Drag ikonen för att öppna kameran</string>
-    <string name="open_extreme_power_save_mode_title">Aktivera Extrem Batterisparare</string>
     <string name="open_lock_screen_magazine_hint_text">Svep höger för fler alternativ</string>
     <string name="open_remote_center_hint_text">Svep åt höger för att se kontrollerna</string>
     <string name="osu_completing_sign_up">Slutför medlemskap…</string>
@@ -1268,12 +1235,13 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="other">Övrigt</string>
     <string name="overlay_display_devices_title">Simulera sekundära skärmar</string>
     <string name="overview">Översikt</string>
+    <string name="owner_info_settings_edit_text_hint">T. ex. Jans Android.</string>
     <string name="phone_hint">Svep från ikonen för Telefon</string>
     <string name="phone_label">Öppna Telefon</string>
     <string name="phone_locked_foget_password">Glömt lösenord?</string>
     <string name="phone_locked_foget_password_mehod_back">Tillbaka</string>
     <string name="phone_locked_foget_password_method">Glömt lösenord?</string>
-    <string name="phone_locked_foget_password_method_content">&lt;Data>Du måste &lt;font color=#a5220e> rensa all data &lt;/font> på din enhet, inklusive bilder och kontakter, och sedan sätta ett nytt lösenord för låsskärmen.&lt;/Data></string>
+    <string name="phone_locked_foget_password_method_content">&lt;Data>Du måste &lt;font color=#a5220e>rensa all data &lt;/font>på din enhet, inklusive bilder och kontakter, och sedan sätta ett nytt lösenord för låsskärmen.&lt;/Data></string>
     <string name="phone_locked_foget_password_method_next">Nästa</string>
     <string name="phone_locked_foget_password_ok">Jag förstår</string>
     <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data>Stäng av din enhet, tryck och håll &lt;font color=#a5220e> Strömknappen&lt;/font> och &lt;font color=#a5220e>Volymknappen upp&lt;/font> samtidigt till du ser Mi-loggan.&lt;/Data></string>
@@ -1306,32 +1274,32 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="power_discharge_by_only_short">Till och med %1$s</string>
     <string name="power_notification_controls_description">"Med notifikationsinställningarna kan du ange prioritetsnivå från 0 till 5 för notifikationerna från en app. 
 
-\""<b>Nivå 5</b>"\" 
+\""<b>\"Nivå 5\"</b>"\" 
 – Visa högst upp i notifikationslistan 
 – Tillåt avbrott i helskärmsläge 
 – Snabbvisa alltid 
 
-\""<b>Nivå 4</b>"\" 
+\""<b>\"Nivå 4\"</b>"\" 
 – Tillåt inte avbrott i helskärmsläge 
 – Snabbvisa alltid 
 
-\""<b>Nivå 3</b>"\" 
+\""<b>\"Nivå 3\"</b>"\" 
 - Tillåt inte avbrott i helskärmsläge 
 – Snabbvisa aldrig 
 
-\""<b>Nivå 2</b>"\" 
+\""<b>\"Nivå 2\"</b>"\" 
 – Tillåt inte avbrott i helskärmsläge 
 – Snabbvisa aldrig 
 – Aldrig med ljud eller vibration 
 
-\""<b>Nivå 1</b>"\" 
+\""<b>\"Nivå 1\"</b>"\" 
 – Tillåt inte avbrott i helskärmsläge 
 – Snabbvisa aldrig 
 – Aldrig med ljud eller vibration 
 – Visa inte på låsskärmen och i statusfältet 
 – Visa längst ned i notifikationslistan 
 
-\""<b>Nivå 0</b>"\" 
+\""<b>\"Nivå 0\"</b>"\" 
 – Blockera alla notifikationer från appen "</string>
     <string name="power_remaining_charging_duration_only">Återstår %1$s till fulladdat</string>
     <string name="power_remaining_duration_only">Ungefär %1$s återstår</string>
@@ -1349,6 +1317,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="power_save_ps_freeze">Frys appar i bakgrunden</string>
     <string name="power_save_ps_limit">Begränsa aktiviteten för systemappar</string>
     <string name="power_suggestion_extend_battery">Få batteriet att hålla längre än till %1$s</string>
+    <string name="pref_show_lunar_calendar_title">Visa traditionell Kinesisk kalender på Låskärmen</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="preference_summary_default_combination">%1$s / %2$s</string>
     <string name="private_dns_mode_off">Avaktiverad</string>
@@ -1356,11 +1325,27 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="private_dns_mode_provider">Värdnamn privat DNS-leverantör</string>
     <string name="private_dns_mode_provider_failure">Det gick inte att ansluta</string>
     <string name="private_dns_mode_provider_hostname_hint">Ange värdnamn för DNS-leverantör</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_owned_footer">Profilen kan vara övervakat</string>
     <string name="prompt_danger">Fara</string>
     <string name="prompt_detecting">Undersöker</string>
     <string name="prompt_safe">Säker</string>
     <string name="prompt_unknown">Okänd</string>
+    <string name="qs_control_big_tile_state_closed">Av</string>
+    <string name="qs_control_big_tile_state_closing">Stänger av…</string>
+    <string name="qs_control_big_tile_state_connected">Ansluten</string>
+    <string name="qs_control_big_tile_state_connecting">Ansluter…</string>
+    <string name="qs_control_big_tile_state_disconnected">Inte ansluten</string>
+    <string name="qs_control_big_tile_state_disconnecting">Kopplar från…</string>
+    <string name="qs_control_big_tile_state_opened">På</string>
+    <string name="qs_control_big_tile_state_opening">Slår på…</string>
+    <string name="qs_control_big_tile_state_unavailable">Inte tillgänglig</string>
+    <string name="qs_control_customize_other_tiles_title">Tillgängliga växlingsknappar</string>
+    <string name="qs_control_customize_save_text">Klart</string>
+    <string name="qs_control_customize_sub_title">Dra tillagda växlingsknappar för att ordna om dem</string>
+    <string name="qs_control_customize_title">Lagt till växlingsknappar</string>
+    <string name="qs_control_expand_detail_title">Min data</string>
+    <string name="qs_control_header_tiles_title">Kontrollcenter</string>
     <string name="qs_customize_title">Redigera</string>
     <string name="qs_dnd_keep">Behåll</string>
     <string name="qs_dnd_prompt_app">Stör ej aktiverades av en app (%s).</string>
@@ -1392,6 +1377,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="quick_settings_cellular_detail_over_limit">Övre gräns</string>
     <string name="quick_settings_cellular_detail_remaining_data">Återstående data</string>
     <string name="quick_settings_cellular_detail_title">Mobildata</string>
+    <string name="quick_settings_cellular_detail_unable_change">Går inte att ställa in under samtal</string>
     <string name="quick_settings_color_space_label">Färgkorrigeringsläge</string>
     <string name="quick_settings_connect_success">Ansluten</string>
     <string name="quick_settings_connected">Ansluten</string>
@@ -1457,6 +1443,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="quick_settings_screenshot_label">Skärmdump</string>
     <string name="quick_settings_secondary_label_until">Till och med %s</string>
     <string name="quick_settings_settings_label">Inställningar</string>
+    <string name="quick_settings_sim_disabled">" (Inaktiverad)"</string>
     <string name="quick_settings_sync_label">Synkronisera</string>
     <string name="quick_settings_tethering_label">Internetdelning</string>
     <string name="quick_settings_time_label">Tid</string>
@@ -1465,6 +1452,12 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="quick_settings_user_new_user">Ny användare</string>
     <string name="quick_settings_user_title">Användare</string>
     <string name="quick_settings_vibrate_label">Vibrera</string>
+    <string name="quick_settings_wifi_detail_dual_wifi_accelerated">Ökar hastigheten</string>
+    <string name="quick_settings_wifi_detail_dual_wifi_switching_cancel">Avbryt</string>
+    <string name="quick_settings_wifi_detail_dual_wifi_switching_confirm">Bekräfta</string>
+    <string name="quick_settings_wifi_detail_dual_wifi_switching_not_remind">Visa inte igen</string>
+    <string name="quick_settings_wifi_detail_dual_wifi_switching_prompt">Växlar mellan nätverk</string>
+    <string name="quick_settings_wifi_detail_dual_wifi_switching_summary">Wi-Fi-hastighetsökning med dubbla band måste använda två olika Wi-Fi-band. Om du ansluter till ett annat huvudnätverk kommer tilläggsanslutningen att förloras.</string>
     <string name="quick_settings_wifi_detail_empty_text">Inga Wi-Fi nätverk är tillgängliga</string>
     <string name="quick_settings_wifi_label">Wi-Fi</string>
     <string name="quick_settings_wifi_nearby">Välj ett närliggande nätverk</string>
@@ -1472,7 +1465,6 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="quick_settings_wifi_not_connected">Ej ansluten</string>
     <string name="quick_settings_wifi_off_label">Wi-Fi är avaktiverad</string>
     <string name="quick_settings_wifi_on_label">Wi-Fi är aktiverad</string>
-    <string name="quick_settings_wireless_label">Omvänd trådlös laddning</string>
     <string name="quick_settings_work_mode_label">Arbetsläge</string>
     <string name="rapid_charge_mode_tip">Snabbladdning</string>
     <string name="recent_cannot_dock">Det går inte använda Delad skärm i det Sekundära utrymmet</string>
@@ -1524,8 +1516,6 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="retail_demo_reset_next">Nästa</string>
     <string name="retail_demo_reset_title">Lösenord krävs</string>
     <string name="return_to_incall_screen">Återgå till samtal</string>
-    <string name="rgb_face_data_introduction_title">Lägg till 2D-ansiktsdata</string>
-    <string name="rgb_face_data_manage_delete_msg">Ta bort 2D-ansiktsdata</string>
     <string name="right_icon">Ikon till höger</string>
     <string name="right_keycode">Tangentkod för höger knapp</string>
     <string name="right_nav_bar_button_type">Extra knapptyp till höger</string>
@@ -1535,7 +1525,6 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="runningservices_settings_summary">Visa kontrollera de tjänster som körs för tillfället</string>
     <string name="runningservices_settings_title">Tjänster som körs</string>
     <string name="save">Spara</string>
-    <string name="save_mode_btn_ok">OK</string>
     <string name="saved_network">Sparad av %1$s</string>
     <string name="screen_button_notification_text">För att slå på dem, tryck på Hem- och Strömknappen samtidigt.</string>
     <string name="screen_button_notification_title">Navigationsknapparna är avstängda</string>
@@ -1556,6 +1545,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="screenshot_dlg_cancel">Avbryt</string>
     <string name="screenshot_dlg_delete_button">Radera</string>
     <string name="screenshot_edit">Redigera</string>
+    <string name="screenshot_failed_in_landscape_mode">Kan inte göra scrollande skärmdumpar i landskapsläge</string>
     <string name="screenshot_failed_title">Det gick inte att ta skärmdump.</string>
     <string name="screenshot_failed_to_capture_text">Ta skärmdumpar är inte tillåtet av appen eller din organisation</string>
     <string name="screenshot_failed_to_capture_title">Denna app tillåter inte att ta skärmdumpar</string>
@@ -1610,6 +1600,9 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="show_touches">Visa tryck</string>
     <string name="show_touches_summary">Visa visuell återkoppling för tryck</string>
     <string name="simulate_color_space">Simulera färgrymd</string>
+    <string name="small_window_guide_title">Flytande fönster</string>
+    <string name="small_window_notification_text">Tryck för att läsa mer om denna funktion i MIUI %d</string>
+    <string name="small_window_notification_title">Flytande fönster</string>
     <string name="snooze_option_15_min">15 minuter</string>
     <string name="snooze_option_1_hour">1 timme</string>
     <string name="snooze_option_2_hour">2 timmar</string>
@@ -1638,6 +1631,8 @@ vara övervakat"</string>
     <string name="status_bar_clock_date_format_12">E, d MMM</string>
     <string name="status_bar_clock_date_time_format">H:mm E, d MMM</string>
     <string name="status_bar_clock_date_time_format_12">h:mm aa, E, d MMM</string>
+    <string name="status_bar_clock_date_weekday_format">EEE dd/MM</string>
+    <string name="status_bar_clock_date_weekday_format_12">EEE dd/MM</string>
     <string name="status_bar_date_format">"E
 d MMM"</string>
     <string name="status_bar_date_format_12">"E
@@ -1695,58 +1690,9 @@ Dra ner för att låsa"</string>
     <string name="stream_voice_call">Ring</string>
     <string name="strict_mode">Strängt läge aktiverat</string>
     <string name="strict_mode_summary">Blinka skärmen när appar gör långa operationer på huvudtråden</string>
-    <string name="structure_face_data_delete_fail">Kunde inte ta bort 3D ansiktsdata. Försök igen.</string>
-    <string name="structure_face_data_input_down">Sänk huvudet</string>
     <string name="structure_face_data_input_error_away_screen">För telefonen lite längre bort från ditt ansikte</string>
-    <string name="structure_face_data_input_error_expose_eye">Kan inte se dina ögon nu</string>
     <string name="structure_face_data_input_error_expose_features">Kan inte se vissa delar av ditt ansikte</string>
-    <string name="structure_face_data_input_error_expose_mouth">Kan inte se dina läppar nu</string>
-    <string name="structure_face_data_input_error_keep_inface">Placera ditt ansikte inom ramen</string>
-    <string name="structure_face_data_input_error_near_screen">För telefonen närmare ditt ansikte</string>
-    <string name="structure_face_data_input_error_open_eye">Öppna dina ögon lite mer</string>
     <string name="structure_face_data_input_error_overly_light">Bakgrundsljus är för starkt</string>
-    <string name="structure_face_data_input_left">Vänd huvudet till vänster</string>
-    <string name="structure_face_data_input_ok">Klart</string>
-    <string name="structure_face_data_input_right">Vänd huvudet till höger</string>
-    <string name="structure_face_data_input_success">Klart!</string>
-    <string name="structure_face_data_input_timeout_msg">Kunde inte spela in, försök igen.</string>
-    <string name="structure_face_data_input_timeout_title">Försök igen</string>
-    <string name="structure_face_data_input_up">Titta upp</string>
-    <string name="structure_face_data_introduction_back">Tillbaka</string>
-    <string name="structure_face_data_introduction_msg">3D ansiktsdata tillåts att låsa upp din enhet och verifiera din identitet. Du måste ange ett lösenord innan funktionen används.</string>
-    <string name="structure_face_data_introduction_next">Fortsätt</string>
-    <string name="structure_face_data_introduction_settingpassword">Ange</string>
-    <string name="structure_face_data_introduction_title">Lägg till 3D-ansiktsdata</string>
-    <string name="structure_face_data_ir_input_face">Flytta ditt huvud lite</string>
-    <string name="structure_face_data_manage_delete_msg">Ta bort 3D-ansiktsdata</string>
-    <string name="structure_face_data_open_cameraing">Startar Kamera…</string>
-    <string name="structure_face_data_rgb_input_face">Placera ditt ansikte inom ramen</string>
-    <string name="structure_face_data_suggestion_text">Se till att alla delar av ditt ansikte är synligt. Bär inte hattar, solglasögon eller andra accessoarer som kan täcka ditt ansikte men du spelar in 3D ansiktsdata. Se också till att ditt ansikte jämnt belyst.</string>
-    <string name="structure_face_data_suggestion_warning_text">Observera: Att använda 3D ansiktsdata är lite osäkrare än att använda ett lösenord. Människor eller objekt som är väldigt lik dig kan kanske låsa upp din enhet.</string>
-    <string name="structure_face_delete_data_dialog_msg">Det gick inte att starta Kamera och få en förhandsvisning. Försök igen.</string>
-    <string name="structure_face_delete_data_dialog_msg_retry">Försök igen</string>
-    <string name="structure_face_delete_data_dialog_title">Det gick inte att starta Kameran</string>
-    <string name="structure_face_hardware_abnormal_btn">Jag förstår</string>
-    <string name="structure_face_hardware_abnormal_msg">Ett hårdvarufel inträffade. Starta om din enhet. Om det inte hjälper ring 400-100-5678 för att få hjälp.</string>
-    <string name="structure_face_hardware_abnormal_title">Hårdvarufel</string>
-    <string name="structure_face_modules_abnormal_btn">Starta om</string>
-    <string name="structure_face_modules_abnormal_msg">Kan inte spela in ansiktsdata på grund av fel på optiska modulen. Starta om din enhet och försök igen.</string>
-    <string name="structure_face_modules_abnormal_title">Fel på optisk modul</string>
-    <string name="structure_face_unlock_model2d_dialog_msg">3D-igenkänning kommer avaktiveras. Din 3D-ansiktsdata kommer tas bort. Du måste också lägga till din 2D-ansiktsdata. Aktivera 2D-igenkänning?</string>
-    <string name="structure_face_unlock_model2d_dialog_title">Aktiverar 2D-igenkänning</string>
-    <string name="structure_face_unlock_model3d_dialog_msg">2D-igenkänning kommer avaktiveras. Din 2D-ansiktsdata kommer tas bort. Du måste också lägga till din 3D-ansiktsdata. Aktivera 3D-igenkänning?</string>
-    <string name="structure_face_unlock_model3d_dialog_title">Aktiverar 3D-igenkänning</string>
-    <string name="structure_face_unlock_model_dialog_enable">Aktivera</string>
-    <string name="structure_face_unlock_model_dialog_notenable">Nej tack</string>
-    <string name="structure_face_unlock_model_other">Övrigt</string>
-    <string name="structure_face_unlock_model_other_msg_2d">2D-igenkänning</string>
-    <string name="structure_face_unlock_model_other_msg_3d">3D-igenkänning</string>
-    <string name="structure_face_unlock_model_other_suggestion_2d">2D-ansiktsigenkänning är mindre säkert än mönster, PIN-kod eller lösenord. När denna funktion är aktiverad kan din enhet bli upplåst av ett foto av dig men även av människor eller objekt som ser ut som dig.</string>
-    <string name="structure_face_unlock_model_other_suggestion_3d">3D-ansiktsigenkänning är relativt säkert. Det är högst osannolikt att din enhet kan låsas upp med ett foto av dig när denna funktion är aktiverad. Men det finns en risk att människor eller objekt som ser ut som dig kan låsa upp enheten.</string>
-    <string name="structure_face_unlock_model_other_title">Ansiktsigenkänning</string>
-    <string name="structure_face_unlock_not_same_person">Du måste fylla i alla steg själv. Byt inte plats med någon.</string>
-    <string name="structure_face_unlock_really_person">Det ser ut som om du har ersatt ditt ansikte med ett föremål.</string>
-    <string name="structure_face_unlock_tof_covered">Det gick inte att lägga till ansiktsdata. Flytta längre från skärmen.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_bar_off">Avaktiverad</string>
     <string name="switch_bar_on">Aktiverad</string>
@@ -1831,9 +1777,7 @@ Din telefon kan bli för varm om du:
     <string name="unimportant_desc">Alla oviktiga notifikationer kommer visas i en egen mapp.</string>
     <string name="unimportant_title">Oviktig</string>
     <string name="unknown">Okänd</string>
-    <string name="unlock_camera_steady">Flytta inte din telefon</string>
     <string name="unlock_failed">Internt fel</string>
-    <string name="unlock_failed_face_not_found">Undersöker</string>
     <string name="unlock_label">Lås upp</string>
     <string name="unlock_string">Lås upp</string>
     <string name="unlocking_sim_card">Låser upp SIM-kort</string>
@@ -1946,6 +1890,7 @@ Alla användare kan uppdatera för alla användare."</string>
     <string name="wapi_psk_type_ascii">ASCII</string>
     <string name="wapi_psk_type_hex">Hexadecimal</string>
     <string name="wapi_yes">Ja</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Uppdaterad %1$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Tillgångspunkten är tillfällig full</string>
     <string name="wifi_auto_sel_wapi_cert">Välj automatiskt</string>
@@ -2009,15 +1954,6 @@ Det ser ut som att utrymmet för credentials inte är aktiverat."</string>
     <string name="wireless_charge_reset_device">Laddningen går långsamt. Flytta din enhet lite.</string>
     <string name="wireless_charge_reset_device_detail">Se till att din enhet ligger korrekt på laddningsbasen</string>
     <string name="wireless_charge_stop">Avslutade trådlös laddning</string>
-    <string name="wireless_charging_connected_message">Kan inte använda omvänd trådlös laddning när din enhet laddas trådlöst.</string>
-    <string name="wireless_charging_low_battery_level_message">Kan inte använda omvänd trådlös laddning när batteriet har mindre än 30 % laddning.</string>
-    <string name="wireless_charging_ok">Ok</string>
-    <string name="wireless_charging_saver_cancel">Stäng av</string>
-    <string name="wireless_charging_saver_message">Batterisparare är på nu. Ska omvänd trådlös laddning fortfarande vara tillgänglig?</string>
-    <string name="wireless_charging_saver_ok">Behåll</string>
-    <string name="wireless_charging_tips_disable">Visa inte igen</string>
-    <string name="wireless_charging_tips_message">Placera enheter som stödjer Qi-trådlös laddning (telefoner, tillbehör, etc.) på baksidan av den här enheten.</string>
-    <string name="wireless_charging_tips_title">Omvänd trådlös laddning</string>
     <string name="wrong_password">Felaktigt lösenord</string>
     <string name="zen_alarm_warning">Du kommer inte höra ditt nästa alarm %1$s</string>
     <string name="zen_alarm_warning_indef">Du kommer inte höra ditt nästa alarm %1$s om du inte stänger av detta innan dess</string>

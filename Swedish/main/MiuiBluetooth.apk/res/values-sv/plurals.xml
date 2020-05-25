@@ -4,4 +4,12 @@
         <item quantity="other">Tryck och håll ner knappen på lådan i %1$d sekunder</item>
         <item quantity="one">Tryck och håll ner knappen på lådan i %1$d sekund</item>
     </plurals>
+    <plurals name="fast_connect_reset_air2_se">
+        <item quantity="other">Tryck och håll någon beröringskänslig yta på hörlurarna i %1$d sekunder</item>
+        <item quantity="one">Tryck och håll någon beröringskänslig yta på hörlurarna i %1$d sekund</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d enheter anslutna</item>
+        <item quantity="one">%1$d enhet ansluten</item>
+    </plurals>
 </resources>

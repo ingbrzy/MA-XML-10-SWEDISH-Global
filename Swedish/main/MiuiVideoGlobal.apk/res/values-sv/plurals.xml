@@ -28,6 +28,10 @@
         <item quantity="other">Ditt innehåll innehåller objekten (%1$s) som bryter mot våra community-standarder. Ditt konto är avstängt i %2$d dagar fram till %3$s.</item>
         <item quantity="one">Ditt innehåll innehåller objekten (%1$s) som bryter mot våra community-standarder. Ditt konto är avstängt i %2$d dag fram till %3$s.</item>
     </plurals>
+    <plurals name="notification_close_tip">
+        <item quantity="other">Den här funktionen kommer att stängas av i %s dagar</item>
+        <item quantity="one">Den här funktionen kommer att stängas av i %s dag</item>
+    </plurals>
     <plurals name="ovp_detail_v_video_count">
         <item quantity="other">%d videor</item>
         <item quantity="one">%d video</item>

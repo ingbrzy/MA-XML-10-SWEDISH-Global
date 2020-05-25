@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Navigera hem</string>
+    <string name="abc_action_bar_up_description">Navigera uppåt</string>
+    <string name="abc_action_menu_overflow_description">Fler alternativ</string>
+    <string name="abc_action_mode_done">Klar</string>
+    <string name="abc_activity_chooser_view_see_all">Visa alla</string>
+    <string name="abc_activitychooserview_choose_application">Välj en app</string>
+    <string name="abc_capital_off">AV</string>
+    <string name="abc_capital_on">PÅ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt + </string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl + </string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">retur</string>
+    <string name="abc_menu_function_shortcut_label">Funktion + </string>
+    <string name="abc_menu_meta_shortcut_label">Meta + </string>
+    <string name="abc_menu_shift_shortcut_label">Skift + </string>
+    <string name="abc_menu_space_shortcut_label">blanksteg</string>
+    <string name="abc_menu_sym_shortcut_label">Symbol + </string>
+    <string name="abc_prepend_shortcut_label">Meny + </string>
+    <string name="abc_search_hint">Sök …</string>
+    <string name="abc_searchview_description_clear">Ta bort frågan</string>
+    <string name="abc_searchview_description_query">Sökfråga</string>
+    <string name="abc_searchview_description_search">Sök</string>
+    <string name="abc_searchview_description_submit">Skicka fråga</string>
+    <string name="abc_searchview_description_voice">Röstsökning</string>
+    <string name="abc_shareactionprovider_share_with">Dela med</string>
+    <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
+    <string name="abc_toolbar_collapse_description">Komprimera</string>
     <string name="about_extreme_mode">Extrem Batterisparare</string>
     <string name="about_hide_mode">Om Batterisparare</string>
     <string name="active_classify">Sortera efter aktivitetsstatus</string>
@@ -15,9 +42,6 @@
     <string name="atrace_start">Spelar in atrace-logg…</string>
     <string name="base_info">Basinformation</string>
     <string name="cloud_addr_info">Molninformation</string>
-    <string name="cloud_china_addr">Uppdatera Kinesisk serverdata</string>
-    <string name="cloud_international_addr">Uppdatera Internationell serverdata</string>
-    <string name="cloud_staging_addr">Uppdatera staging serverdata</string>
     <string name="config_classify">Sortera efter appinställningar</string>
     <string name="config_description">MIUI kan identifiera appar med specifika bakgrundsprocesser (meddelanden och navigationsappar, mediaspelare), och tillämpa Batterisparare på ett sätt som inte kommer påverka viktiga bakgrundsaktiviteter.</string>
     <string name="config_mode_title">Inställningar för bakgrundsaktivitet</string>
@@ -33,10 +57,11 @@
 Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="config_suggest_suffix_title">Batterisparare (rekommenderas)</string>
     <string name="confirm">OK</string>
-    <string name="current_cloud_addr_is">Adressen för molnstyrd server är:</string>
+    <string name="copy">Kopiera</string>
     <string name="empty_title_apps_container_list">Inga appar</string>
     <string name="enable_sleep_mode">Aktivera Viloläge för att optimera batterianvändning under natten</string>
     <string name="error_filename_too_long">Filnamnet du angav är för långt.</string>
+    <string name="expand_button_title">Avancerat</string>
     <string name="extreme_add_white_list_summary">Lägg till upp till 4 appar</string>
     <string name="extreme_add_white_list_title">Bakgrundsundantag</string>
     <string name="extreme_mode_max_item_alert">Du kan välja upp till 4 appar som får köras i bakgrunden när Extrem batterisparare är aktiverad</string>
@@ -60,6 +85,7 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="message_i_know">Jag förstår</string>
     <string name="nonui_mode_config_description">Tänd inte upp skärmen för notifikationer, avaktivera LED-lampor, fingeravtrycksensorn och tryck för att spara batteri när MIUI märker att du inte använder din enhet.</string>
     <string name="nonui_mode_config_title">Läge för Noninteractive</string>
+    <string name="not_set">Inte angett</string>
     <string name="notification_exit_extreme_mode_text">Batteriet är laddad mer än %s</string>
     <string name="notification_exit_extreme_mode_title">Extrem Batterisparare avaktiverad</string>
     <string name="notification_open_extreme_mode_text">Extrem Batterisparare aktiverad</string>
@@ -90,11 +116,13 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="power_mode">Batteriinställningar</string>
     <string name="power_usage">Batterianvändning</string>
     <string name="pref_config_title">Optimering av Prestanda</string>
+    <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="privacy">Integritetspolicy</string>
     <string name="scenario_policies_summary">Tillämpa olika strategier för att spara ström för olika scenarier.</string>
     <string name="scenario_policies_title">Intelligenta scenarier</string>
     <string name="scenario_policies_warmcontrol">Temperaturreglering</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s:&lt;/font>"</string>
+    <string name="search_menu_title">Sök</string>
     <string name="search_result_text">Kunde inte hitta några appar</string>
     <string name="show_system_app">Visa systemapplikationer</string>
     <string name="sleep_config_enhance_description">När MIUI upptäcker att du sover kommer MIUI stänga appar som är bakgrunden, begränsa NFC, Bluetooth, GPS, mobildata, Wi-Fi och skärmen kommer inte tändas upp av notifikationer.</string>
@@ -105,9 +133,11 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="sleepmode_privacy_content">Denna funktion kommer använda din telefons system och enhetsinformationsdata, vilket inte kommer laddas upp till servern.</string>
     <string name="sleepmode_privacy_link">Läs mer om integritet och säkerhet</string>
     <string name="sleepmode_privacy_title">Viloläge</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sucess">Klart</string>
-    <string name="update_profile_failture_not_connect_wifi">Kunde inte uppdatera. Anslut till Wi-Fi och försök igen.</string>
-    <string name="update_profile_sucess">Uppdaterad från server</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
     <string name="vip_feedback">VIP feedback</string>
     <string name="vip_feedback_enable">Aktivera VIP feedback</string>
     <string name="warm_configure">Inställningar för temperaturreglering</string>

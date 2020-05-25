@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Navigera hem</string>
+    <string name="abc_action_bar_up_description">Navigera uppåt</string>
+    <string name="abc_action_menu_overflow_description">Fler alternativ</string>
+    <string name="abc_action_mode_done">Klar</string>
+    <string name="abc_activity_chooser_view_see_all">Visa alla</string>
+    <string name="abc_activitychooserview_choose_application">Välj en app</string>
+    <string name="abc_capital_off">AV</string>
+    <string name="abc_capital_on">PÅ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt + </string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl + </string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">retur</string>
+    <string name="abc_menu_function_shortcut_label">Funktion + </string>
+    <string name="abc_menu_meta_shortcut_label">Meta + </string>
+    <string name="abc_menu_shift_shortcut_label">Skift + </string>
+    <string name="abc_menu_space_shortcut_label">blanksteg</string>
+    <string name="abc_menu_sym_shortcut_label">Symbol + </string>
+    <string name="abc_prepend_shortcut_label">Meny + </string>
+    <string name="abc_search_hint">Sök …</string>
+    <string name="abc_searchview_description_clear">Ta bort frågan</string>
+    <string name="abc_searchview_description_query">Sökfråga</string>
+    <string name="abc_searchview_description_search">Sök</string>
+    <string name="abc_searchview_description_submit">Skicka fråga</string>
+    <string name="abc_searchview_description_voice">Röstsökning</string>
+    <string name="abc_shareactionprovider_share_with">Dela med</string>
+    <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
+    <string name="abc_toolbar_collapse_description">Komprimera</string>
     <string name="accessibility_calllog_detail">Detaljer för samtalshistoriken</string>
     <string name="accessibility_contact_detail">Kontaktdetaljer</string>
     <string name="account_container_title">Importerad från</string>
@@ -106,6 +133,7 @@
     <string name="call_sim_menu_title_suffix">(Primär)</string>
     <string name="call_telex">Ring telex</string>
     <string name="call_tty_tdd">Ring TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">Ring arbete</string>
     <string name="call_work_mobile">Ring jobbmobil</string>
@@ -125,6 +153,7 @@
     <string name="callrecordview_item_op_time_short_outgoing">"Utgående: "</string>
     <string name="callrecordview_item_op_video">Video</string>
     <string name="callrecordview_menu_add_call_note">Lägg till samtalsanteckning</string>
+    <string name="callrecordview_menu_aiphone">AI-samtal</string>
     <string name="callrecordview_menu_batch_delete">Ta bort flera</string>
     <string name="callrecordview_menu_blocklist">Blockeringslista</string>
     <string name="callrecordview_menu_conference">Konferenssamtal</string>
@@ -189,7 +218,7 @@
     <string name="cloud_antispam_marked">Flaggade</string>
     <string name="cloud_antispam_title">Nummerpresentation</string>
     <string name="cloud_recommend_msg">Tryck för att synkronisera kontakter med Mi Cloud.</string>
-    <string name="cloud_state_disabled">Synkronisera kontakter med molnet</string>
+    <string name="cloud_state_disabled">Synkronisera kontakter med Xiaomi Cloud</string>
     <string name="cloud_state_loading">Vänta en stund…</string>
     <string name="cloud_state_sync_finished">Synkroniserad med Mi Cloud</string>
     <string name="cloud_state_syncing">Synkroniseras med molnet</string>
@@ -262,7 +291,7 @@ Kontaktkort är avstängda"</string>
     <string name="contact_editor_prompt_one_account">Nya kontakter kommer att synkroniseras med %1$s.</string>
     <string name="contact_editor_prompt_zero_accounts">Lagra på mobilen eller i ett online konto</string>
     <string name="contact_import_methods_dialog_bluetooth">Bluetooth</string>
-    <string name="contact_import_methods_dialog_mi_mover">Mi Mover</string>
+    <string name="contact_import_methods_dialog_mi_mover">Importera med Mi Mover</string>
     <string name="contact_import_methods_dialog_title">Välj metod för att importera</string>
     <string name="contact_is_deleted">Kontakten är borttagen</string>
     <string name="contact_is_readOnly">Kan inte redigera skrivskyddade kontakter</string>
@@ -287,6 +316,7 @@ Kontaktkort är avstängda"</string>
     <string name="contacts_unavailable_import_from_old_device">Importera från en äldre enhet</string>
     <string name="contacts_unavailable_import_sim_contacts">Importera SIM-kontakter</string>
     <string name="convenient_service">Tjänster</string>
+    <string name="copy">Kopiera</string>
     <string name="copy_number">Kopiera</string>
     <string name="copy_text">Kopiera till urklipp</string>
     <string name="createContactShortcutSuccessful">Kontaktwidget tillagd på Hemskärmen</string>
@@ -468,6 +498,7 @@ För undvika återkommande förfrågningar, uppdaterar vi information om ditt sa
     <string name="event_edit_field_hint_text">Datum</string>
     <string name="expandCloseViewDescription">Fäll ihop</string>
     <string name="expandOpenViewDescription">Expandera</string>
+    <string name="expand_button_title">Avancerat</string>
     <string name="export_sim_contact_finish">Kontakter exporterade</string>
     <string name="export_sim_contact_finish_msg">%1$d överförd | %2$d duplicerade | %3$d kvarstår %4$s</string>
     <string name="export_to_sdcard">Exportera till lagringsutrymmet</string>
@@ -508,6 +539,7 @@ Orsak: \"%s\""</string>
     <string name="force_touch_new_contact">Ny kontakt</string>
     <string name="four_letter">GHI</string>
     <string name="frequentList">Frekvent</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Namn</string>
     <string name="gallery">Galleri</string>
     <string name="generic_no_account_prompt">Säkrar dina kontakter även om du tappar din telefon: synkronisera med en onlinetjänst.</string>
@@ -691,6 +723,7 @@ Orsak: \"%s\""</string>
     <string name="miprofile_contact_header">Kontakter med kontaktkort</string>
     <string name="miprofile_contact_meaasge">Lokala kontakter</string>
     <string name="miprofile_contact_verifying">Verifierar</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Redigera profil</string>
     <string name="miprofile_error_accept_self">Kan inte växla ditt eget kontaktkort</string>
     <string name="miprofile_error_no_miaccount">Logga in på ditt Mi Konto</string>
@@ -800,6 +833,7 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="non_phone_close">Stäng</string>
     <string name="none_paired">Inga enheter är för närvarande parkopplade</string>
     <string name="not_applied">Kunde inte applicera</string>
+    <string name="not_set">Inte angett</string>
     <string name="notification_action_voicemail_play">Spela</string>
     <string name="notification_new_voicemail_ticker">Ny röstmeddelande från %1$s</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
@@ -847,7 +881,10 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="path_wipe_data">Systemappar/Kontakter/Organisera kontakter/Rensa data</string>
     <string name="payphone">Betalnummer</string>
     <string name="people">Kontakter</string>
+    <string name="percent_sign">%1$s</string>
+    <string name="percentage">%1$s%2$s</string>
     <string name="phoneLabelsGroup">Telefon</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Numret är för långt</string>
     <string name="phone_primary">Primär</string>
     <string name="photoPickerNotFoundText">Inga bilder finns tillgängliga på enheten.</string>
@@ -901,6 +938,7 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="preference_contacts_filter">Konfigurera kontaktlista</string>
     <string name="preference_contacts_more">Organisera kontakter</string>
     <string name="preference_contacts_moresetting">Fler inställningar</string>
+    <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="preference_dial_pad_touch_tone_default">Standard</string>
     <string name="preference_dial_pad_touch_tone_human">Röst</string>
     <string name="preference_dial_pad_touch_tone_piano">Pianotangenter</string>
@@ -1037,6 +1075,7 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="search_key_photo_word">Tilldela;kontakt;foton;Kontakter</string>
     <string name="search_key_rebuild_t9_index_title">Organisera;Kontakter;t9</string>
     <string name="search_key_sim_manage">Organisera;Kontakter</string>
+    <string name="search_menu_title">Sök</string>
     <string name="search_preference_contacts_filter">Kontakter;Visning</string>
     <string name="search_quick_dial_setting">Telefon</string>
     <string name="search_remove_duplicate">Organisera;Kontakter</string>
@@ -1110,6 +1149,7 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Inga gruppmedlemmar</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Företag</string>
     <string name="smart_group_company_unavailable">Ingen företagsinformation</string>
     <string name="smart_group_frequency_1">Inom den senaste månaden</string>
@@ -1155,9 +1195,11 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="starred_contacts">Favoriter</string>
     <string name="status_available">Tillgänglig</string>
     <string name="status_away">Borta</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Upptagen</string>
     <string name="strequentList">Favoriter</string>
     <string name="success_message_import_from_account">Kontakt importerad</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_kind_title">Summering</string>
     <string name="sv">SV</string>
     <string name="t9_search_empty_create_contact">Ny kontakt</string>
@@ -1165,7 +1207,7 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="t9_search_empty_send_sms">Skicka meddelande</string>
     <string name="t9_search_empty_video_call">Videosamtal</string>
     <string name="t9_search_guide_pinyin_title1">Skriv in nummer för söka kontakt</string>
-    <string name="t9_search_guide_pinyin_title2" formatted="false">Ange \"%d\" and \"%d\" för att söka efter \"<font fgcolor="">X</font>avier <font fgcolor="">H</font>enry\"</string>
+    <string name="t9_search_guide_pinyin_title2" formatted="false">Ange \"%d\" och \"%d\" för att söka efter \"<font fgcolor="">D</font>ebbie <font fgcolor="">S</font>mith\"</string>
     <string name="t9_search_guide_zhuyin_title1">Skriv in nummer för söka kontakt</string>
     <string name="t9_search_guide_zhuyin_title2" formatted="false">Ange \"%d\" och \"%d\" för att söka efter \"<font fgcolor="">J</font>eff <font fgcolor="">M</font>ax\"</string>
     <string name="take_new_photo">Ta en ny bild</string>
@@ -1217,6 +1259,8 @@ Välj en av följande alternativ:"</string>
     <string name="use_photo_as_primary2">Använd %1$ss kontaktbild</string>
     <string name="useful_numbers">Användbara nummer</string>
     <string name="user_profile_contacts_list_header">Jag</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
     <string name="vcard_export_request_rejected_message">vCard exportförfrågan nekades. Försök igen senare.</string>
     <string name="vcard_export_will_start_message">%s kommer att importeras snart.</string>
     <string name="vcard_import_failed">Kunde inte importera vCard %s.</string>
@@ -1248,6 +1292,7 @@ Välj en av följande alternativ:"</string>
     <string name="voip_audio_description">VoIP samtal</string>
     <string name="voip_video_description">VoIP video samtal</string>
     <string name="websiteLabelsGroup">Webbsida</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">Rensa data</string>
     <string name="yellowPageNavigationIconLabel">Gula Sidorna</string>
     <string name="yellowPageNavigationLabel">Gula Sidorna</string>

@@ -4,6 +4,14 @@
         <item quantity="other">%d dagar</item>
         <item quantity="one">%d dag</item>
     </plurals>
+    <plurals name="steady_on_screen_notification_summary">
+        <item quantity="other">Du har använt din enhet i %d minuter utan avbrott</item>
+        <item quantity="one">Du har använt din enhet i %d minut utan avbrott</item>
+    </plurals>
+    <plurals name="steady_on_screen_time_pick">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
     <plurals name="trend_from_last_several_day_equal">
         <item quantity="other">Skärmtiden idag är samma som ditt %d-dagarssnitt</item>
         <item quantity="one">Skärmtiden idag är samma som ditt %d-dagssnitt</item>
@@ -23,6 +31,26 @@
     <plurals name="usage_days">
         <item quantity="other">%d dagar</item>
         <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="usage_new_home_avg_unlockc">
+        <item quantity="other">%.2f gånger om dagen i snitt</item>
+        <item quantity="one">%.2f gång om dagen i snitt</item>
+    </plurals>
+    <plurals name="usage_new_home_total_unlocks">
+        <item quantity="other">Upplåst %d gånger</item>
+        <item quantity="one">Upplåst %d gång</item>
+    </plurals>
+    <plurals name="usage_new_home_total_week_unlocks">
+        <item quantity="other">Upplåst %d gånger</item>
+        <item quantity="one">Upplåst %d gång</item>
+    </plurals>
+    <plurals name="usage_remain_about_hour">
+        <item quantity="other">≈%s tim</item>
+        <item quantity="one">≈%s tim</item>
+    </plurals>
+    <plurals name="usage_remain_about_miunte">
+        <item quantity="other">≈%s min</item>
+        <item quantity="one">≈%s min</item>
     </plurals>
     <plurals name="usage_state_device_explain_today">
         <item quantity="other">Upplåst %d gånger</item>
@@ -87,6 +115,14 @@
     <plurals name="usage_state_work_day_minute">
         <item quantity="other">Vardagar: %d minuter</item>
         <item quantity="one">Vardagar: %d minut</item>
+    </plurals>
+    <plurals name="usage_stats_remain_hour">
+        <item quantity="other">%s tim</item>
+        <item quantity="one">%s tim</item>
+    </plurals>
+    <plurals name="usage_stats_remain_miunte">
+        <item quantity="other">%s min</item>
+        <item quantity="one">%s min</item>
     </plurals>
     <plurals name="usagestats_device_notification_des_hour">
         <item quantity="other">"  tim"</item>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">Visa startsidan</string>
+    <string name="abc_action_bar_home_description">Navigera hem</string>
     <string name="abc_action_bar_up_description">Navigera uppåt</string>
     <string name="abc_action_menu_overflow_description">Fler alternativ</string>
-    <string name="abc_action_mode_done">Klart</string>
+    <string name="abc_action_mode_done">Klar</string>
     <string name="abc_activity_chooser_view_see_all">Visa alla</string>
     <string name="abc_activitychooserview_choose_application">Välj en app</string>
     <string name="abc_capital_off">AV</string>
@@ -43,7 +43,7 @@
     <string name="miui_feedback_answer_detail_feedback_unresolved">Nej</string>
     <string name="miui_feedback_answer_detail_menu_online_service">Få hjälp online</string>
     <string name="miui_feedback_answer_detail_menu_phone_service">Ring kundsupport</string>
-    <string name="miui_feedback_answer_detail_relative_tip">Detta kan vara till hjälp:</string>
+    <string name="miui_feedback_answer_detail_relative_tip">Detta kan vara till hjälp</string>
     <string name="miui_feedback_answer_detail_title">Detaljer</string>
     <string name="miui_feedback_edit_action_submit">Skicka</string>
     <string name="miui_feedback_edit_add_original_images">Lägg till bild</string>
@@ -111,6 +111,7 @@
     <string name="miui_feedback_main_menu_catch_full_log">Generera loggar</string>
     <string name="miui_feedback_main_menu_feedback_list">Visa historik för feedback</string>
     <string name="miui_feedback_main_search_footer">Är det här inte de frågor som du vill ställa?</string>
+    <string name="miui_feedback_main_search_footer_submit">立即提交问题</string>
     <string name="miui_feedback_main_search_issue">Ange nyckelord för att söka</string>
     <string name="miui_feedback_main_start_submit">Lämna återkoppling</string>
     <string name="miui_feedback_main_submit_dialog_confirm">Skicka</string>
@@ -135,6 +136,7 @@
     <string name="miui_main_update_start">Uppdatera nu</string>
     <string name="miui_main_update_success_sub_title">Möt den nya MIUI</string>
     <string name="miui_main_update_success_title">Livet blir lättare</string>
+    <string name="miui_main_update_success_title_12">Yours alone</string>
     <string name="permission_agree">Godkänn</string>
     <string name="permission_china_version_msg">&lt;Data>Innan du använder \"Tjänster och återkoppling\" måste du läsa och godkänna vårt &lt;a href=%1$s>användaravtal&lt;/a> och vår &lt;a href=%2$s>integritetspolicy&lt;/a>. Den här appen måste även ansluta till internet för att fungera korrekt.&lt;/Data></string>
     <string name="permission_complete">Klart</string>

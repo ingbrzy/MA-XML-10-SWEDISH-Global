@@ -51,8 +51,10 @@
     <string name="cannot_get_location">--</string>
     <string name="compass_settings">Inställningar</string>
     <string name="copy">Kopiera</string>
+    <string name="cta_agree_desc">Tillåt denna app att ansluta till internet och bevilja de valfria behörigheterna för att kunna använda alla dess funktioner.</string>
     <string name="cta_v2_app_purpose">visar vägbeskrivningar, koordinater, atmosfärstryck, och nuvarande altitud</string>
     <string name="dialog_body_no_network">Anslut till Wi-Fi eller aktivera mobildata.</string>
+    <string name="dialog_body_no_network_china">Connect to WLAN or turn on mobile data.</string>
     <string name="dialog_calibrat_altitude">Kalibrerar…</string>
     <string name="dialog_title_no_network">Kunde inte ansluta till nätverket</string>
     <string name="direction_east">Ö</string>
@@ -86,8 +88,8 @@
     <string name="not_set">Inte angett</string>
     <string name="open_perm_msg">Kompassen behöver åtkomst till platsinformation och kamera. Detta är nödvändigt att fastställa koordinater och ger förhandsgranskningar. Tillåt?</string>
     <string name="open_perm_title">Behörigheter krävs</string>
-    <string name="permission_camera_desc">Använda vattenpass</string>
-    <string name="permission_location_desc">Visar koordinater och atmosfäriskt tryck</string>
+    <string name="permission_camera_desc">För att visa azimut på live-förhandsgranskningen</string>
+    <string name="permission_location_desc">För att visa koordinater</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="preference_other">Övrigt</string>
     <string name="preference_privacy_title">Integritetspolicy</string>

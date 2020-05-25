@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Dela med</string>
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
+    <string name="agree_description">Tillåt denna app att ansluta till internet för att kunna använda alla dess funktioner.</string>
     <string name="alert_message_clear_records">Ta bort markerade inspelningar?</string>
     <string name="alert_message_delete_local_record">Ta bort denna inspelning?</string>
     <string name="alert_message_delete_record">Om inspelningen tas bort från enheten kommer också att tas bort denna inspelning från Xiaomi Cloud. Ta bort nu?</string>
@@ -48,6 +49,7 @@
     <string name="cloud_status_full_dialog_msg">Din molnlagring är full, kan inte synkronisera inspelningar. Uppgradera ditt konto för att få mer utrymme.</string>
     <string name="cloud_status_full_dialog_ok">Uppgradera</string>
     <string name="cloud_status_full_dialog_title">Xiaomi molnlagring är full</string>
+    <string name="copy">Kopiera</string>
     <string name="data_connection_body">Användning av mobildata för att ladda ned den här filen ökar din dataanvändning. Om du överskrider ditt abonnemangs gräns kan du bli debiterad extra för detta.</string>
     <string name="data_connection_button_text">OK</string>
     <string name="data_connection_title">Varning för dataanvändning</string>
@@ -88,6 +90,7 @@
     <string name="error_filename_too_long">Filnamnet är för långt.</string>
     <string name="error_sdcard_access">Kan inte komma åt SD-kortet</string>
     <string name="error_sdcard_unmounted">Sätt i SD kort nu</string>
+    <string name="expand_button_title">Avancerat</string>
     <string name="export_to_note">Exportera</string>
     <string name="head_set_tip_dialog_msg">Koppla ifrån din hörlurar för kunna spela in ljud med speciella förval (t ex Musik, Röst).</string>
     <string name="head_set_tip_dialog_ok">Jag förstår</string>
@@ -122,6 +125,7 @@
     <string name="network_unavailable_tip">Anslut till nätverket och försök igen.</string>
     <string name="new_record_name">Ny inspelning</string>
     <string name="no_file">Tom</string>
+    <string name="not_set">Inte angett</string>
     <string name="notification_message_all_paused">Väntar på Wi-Fi nätverk.</string>
     <string name="notification_playback">Spelar…</string>
     <string name="notification_recording">Inspelning…</string>
@@ -164,6 +168,7 @@
     <string name="pay_error_unknown">Okänt fel</string>
     <string name="playback_delete_records">Radera inspelning</string>
     <string name="playback_share_records">Dela inspelning</string>
+    <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="preference_enable_earpiece_summary">Använd mottagarens högtalare för extern uppspelning</string>
     <string name="preference_enable_earpiece_title">Använd mottagare för att spela upp ljud</string>
     <string name="preference_led_indicator">Notifikationer på Låsskärmen</string>
@@ -292,6 +297,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Inspelning…</string>
     <string name="status_bar_recording_pause">Recorder pausad</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="text_btn_backward_3_seconds">3 sekunder bakåt</string>
     <string name="text_btn_complete">Stoppa</string>
     <string name="text_btn_forward_3_seconds">3 sekunder framåt</string>
@@ -314,6 +320,8 @@
     <string name="toast_max_record_time">%1$s kan spela in för ca %2$s</string>
     <string name="toast_uninstall_fileexplorer">Utforskaren är inte installerad</string>
     <string name="usage_description">Transkribera ljud och synkronisera objekt med molnet</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
     <string name="webview_check_network">Nätverksinställningar</string>
     <string name="webview_data_error">Ett fel uppstod</string>
     <string name="webview_locating_fail">Kunde inte hitta din plats</string>

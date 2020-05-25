@@ -6,6 +6,33 @@
 Meddelanden kommer bara visas i Sekundära utrymmet."</string>
     <string name="PrivacyContactDes2">"Om du använde privata meddelande i Primärt utrymme,
 läggs funktionen till i Sekundära utrymmet automatiskt."</string>
+    <string name="abc_action_bar_home_description">Navigera hem</string>
+    <string name="abc_action_bar_up_description">Navigera uppåt</string>
+    <string name="abc_action_menu_overflow_description">Fler alternativ</string>
+    <string name="abc_action_mode_done">Klar</string>
+    <string name="abc_activity_chooser_view_see_all">Visa alla</string>
+    <string name="abc_activitychooserview_choose_application">Välj en app</string>
+    <string name="abc_capital_off">AV</string>
+    <string name="abc_capital_on">PÅ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt + </string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl + </string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">retur</string>
+    <string name="abc_menu_function_shortcut_label">Funktion + </string>
+    <string name="abc_menu_meta_shortcut_label">Meta + </string>
+    <string name="abc_menu_shift_shortcut_label">Skift + </string>
+    <string name="abc_menu_space_shortcut_label">blanksteg</string>
+    <string name="abc_menu_sym_shortcut_label">Symbol + </string>
+    <string name="abc_prepend_shortcut_label">Meny + </string>
+    <string name="abc_search_hint">Sök …</string>
+    <string name="abc_searchview_description_clear">Ta bort frågan</string>
+    <string name="abc_searchview_description_query">Sökfråga</string>
+    <string name="abc_searchview_description_search">Sök</string>
+    <string name="abc_searchview_description_submit">Skicka fråga</string>
+    <string name="abc_searchview_description_voice">Röstsökning</string>
+    <string name="abc_shareactionprovider_share_with">Dela med</string>
+    <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
+    <string name="abc_toolbar_collapse_description">Komprimera</string>
     <string name="about_ent_mode">Om Företagsläge</string>
     <string name="activate_ent_mode">Aktivera Företagsläge</string>
     <string name="add_finger_print">Lägg till fingeravtryck</string>
@@ -61,6 +88,7 @@ läggs funktionen till i Sekundära utrymmet automatiskt."</string>
 för att kunna se dem när som helst"</string>
     <string name="contact_us">Kontakta oss</string>
     <string name="continueButton">Fortsätt</string>
+    <string name="copy">Kopiera</string>
     <string name="createANewSpace">Skapa ett separat utrymme på din telefon.</string>
     <string name="createUserFail">Kunde inte skapa</string>
     <string name="create_app_icon_failed">Kunde inte skapa ikon</string>
@@ -149,6 +177,7 @@ Se till att namnet på ditt företag är korrekt. Läs och godkänn Integritetsp
     <string name="err_unknown">Okänt fel</string>
     <string name="err_volume_not_enough">Inte tillräckligt med lagringsutrymme</string>
     <string name="exit_private_space">Byt</string>
+    <string name="expand_button_title">Avancerat</string>
     <string name="experience_more_features">Lägg till en enhet för att visa alla funktioner</string>
     <string name="facebook_login">Logga in med Facebook</string>
     <string name="facebook_send">Dela till Facebook</string>
@@ -174,10 +203,10 @@ Se till att namnet på ditt företag är korrekt. Läs och godkänn Integritetsp
     <string name="greenguard_child_des_title">Scanna QR-kod för att lägga till enhet</string>
     <string name="greenguard_functional_description">"Fjärrhantera din enheter, få platsinformation,
 kontrollera installerade appar och begränsa användning"</string>
-    <string name="greenguard_install_cancle">No thanks</string>
-    <string name="greenguard_install_confirm">Install</string>
-    <string name="greenguard_install_message">"Family Guard is a system app. You don't need internet to install it."</string>
-    <string name="greenguard_install_title">Install Family Guard</string>
+    <string name="greenguard_install_cancle">Nej tack</string>
+    <string name="greenguard_install_confirm">Installera</string>
+    <string name="greenguard_install_message">Family Guard är en systemapp. Du behöver inte internet för att installera den.</string>
+    <string name="greenguard_install_title">Installera Family Guard</string>
     <string name="greenguard_parent_des">Hantera enheterna för dina vänner och din familj</string>
     <string name="greenguard_parent_des_title">Använd Kite Guard för att lägga till enheter</string>
     <string name="guide_contact_sub_title_desc">"Kontakter som lagts till i sekundära utrymmet blir privata.
@@ -223,6 +252,7 @@ Du kan även ladda ner dem separat."</string>
     <string name="master_clear_apply_step_2">Se till att du säkerhetskopierat alla viktiga objekt till din dator. När tryck på \"Okej\" kommer en fabriksåterställning genomföras på din enhet och permanent radera alla filer och data, inklusive konton, kontakter, foton och appar.</string>
     <string name="master_clear_apply_title">Uppmärksamma</string>
     <string name="master_clear_not_available">Fabriksåterställning är begränsad av ditt företag.</string>
+    <string name="master_clear_not_available_ep">Du tillåts inte att utföra en fabriksåterställning eller upphäva din behörighet nu. Kontakta din handledare.</string>
     <string name="menu_item_about_privacy_title">Integritetspolicy</string>
     <string name="messageData">Meddelanden</string>
     <string name="more_settings">Fler</string>
@@ -240,6 +270,7 @@ Du kan även ladda ner dem separat."</string>
     <string name="next_setp">Nästa</string>
     <string name="no_match_repate_scanner">Kunde inte hitta matchande fingeravtryck, Skanna igen</string>
     <string name="normal_app">Primära utrymmet</string>
+    <string name="not_set">Inte angett</string>
     <string name="not_support_air_space">Funktionen stöds inte på din telefon</string>
     <string name="not_support_multiple_users">Flera utrymmen stöds inte</string>
     <string name="notificationSetPassword">Välj lösenord</string>
@@ -262,6 +293,7 @@ Du kan även ladda ner dem separat."</string>
     <string name="passwordProtect">Lösenord</string>
     <string name="please_diff_finger_print">"Se till att olika fingeravtryck är registrerade för det Primära och Sekundära utrymmet.
 Annars kommer du inte kunna logga in på det sekundära utrymmet."</string>
+    <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="privacyContactsSummary">Visa privata objekt i Sekundära utrymmet</string>
     <string name="privacyContactsTitle">Privata meddelanden och kontakter</string>
     <string name="privacy_password_fingerprint_dialog_message">Placera fingret på sensorn</string>
@@ -312,6 +344,7 @@ Om du inte uppdaterar kommer Dubbelappar inte fungera som det ska."</string>
 Om du inte uppdaterar kommer Dubbelappar inte fungerar som det ska."</string>
     <string name="sdcradfs_dialog_in_sec_title">Viktig uppdatering</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s:&lt;/font>"</string>
+    <string name="search_menu_title">Sök</string>
     <string name="search_result_text">Kunde inte hitta några appar</string>
     <string name="secondSpace">Sekundärt utrymme</string>
     <string name="second_owner_finger_print">Fingeravtryck för det Sekundära utrymmet</string>
@@ -392,6 +425,7 @@ för att logga in från Låsskärmen"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_xspace_alert_content">Ta bort alla dubbelappar tillsammans med deras konton och appdata? Din enhet kommer att startas om för att tillämpa ändringen.</string>
     <string name="stop_xspace_alert_title">Ta bort konton för dubbelappar</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_switch_apps_settings">Välj appar som används i det nuvarande utrymmet</string>
     <string name="support_desc">Säkerhetsfunktioner tillhandahålls av Spaces Mobile</string>
     <string name="sure_to_use">Bekräfta</string>
@@ -441,6 +475,8 @@ för att logga in från Låsskärmen"</string>
     <string name="undo_success">Upphävd</string>
     <string name="use_google_open">Väck med Google Assistant</string>
     <string name="use_xiaoai_open">Vakna med hjälp av Mi AI</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
     <string name="wating">Vänta lite…</string>
     <string name="weibo_send">Skicka till Weibo</string>
     <string name="weixin_pay">WeChat Pay</string>
@@ -460,6 +496,8 @@ för att logga in från Låsskärmen"</string>
     <string name="xspace_description">"Dubbelappar är en kopia av appen och kan användas helt separat med ett annat konto.
 
 Vissa Dubbelappar kräver support för Google Services Framework. I de fallen skapas dubbla Google Services Framework."</string>
+    <string name="xspace_disable">Inte skapad</string>
+    <string name="xspace_enable">Skapad</string>
     <string name="xspace_facebook_title">Facebook</string>
     <string name="xspace_guide_des">Använd två konton utan att behöva växla</string>
     <string name="xspace_guide_title">Skapa en Dubbelapp</string>
@@ -472,9 +510,12 @@ Vissa Dubbelappar kräver support för Google Services Framework. I de fallen sk
     <string name="xspace_introduce">Rekommenderad</string>
     <string name="xspace_label">Dubbelappar</string>
     <string name="xspace_loading_msg">Laddar appar…</string>
+    <string name="xspace_notification">Dubbelapp-notiser</string>
+    <string name="xspace_notification_error">Logga in på dubbel WeChat och försök igen</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="xspace_remove">Ta bort konton för Dubbelappar</string>
     <string name="xspace_setting_label">Inställningar för Dual App</string>
+    <string name="xspace_settins">Konfigurera</string>
     <string name="xspace_uninstall_completed">Dubbelapp avinstallerad</string>
     <string name="xspace_uninstall_dialog_content">Avinstallation av Dubbelappen kommer ta bort all applikationsdata.</string>
     <string name="xspace_uninstall_dialog_title">Avinstallera Dubbelapp</string>

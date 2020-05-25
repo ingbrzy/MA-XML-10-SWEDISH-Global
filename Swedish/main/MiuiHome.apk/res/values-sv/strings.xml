@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">Visa startsidan</string>
+    <string name="abc_action_bar_home_description">Navigera hem</string>
     <string name="abc_action_bar_up_description">Navigera uppåt</string>
     <string name="abc_action_menu_overflow_description">Fler alternativ</string>
-    <string name="abc_action_mode_done">Klart</string>
+    <string name="abc_action_mode_done">Klar</string>
     <string name="abc_activity_chooser_view_see_all">Visa alla</string>
     <string name="abc_activitychooserview_choose_application">Välj en app</string>
     <string name="abc_capital_off">AV</string>
@@ -170,9 +170,13 @@
     <string name="confirm_uninstall_dialog_contain_xspace_app_msg">Dubbelappar kommer avinstalleras tillsammans med de här.</string>
     <string name="confirm_uninstall_dialog_has_xspace_app_msg">Dubbelappar kommer avinstalleras tillsammans med den här.</string>
     <string name="confirm_uninstall_dialog_title">Dubbelappar kommer avinstalleras</string>
+    <string name="content_description_button_add">Tryck för att lägga till i aktuella appar</string>
+    <string name="content_description_button_disable">Det går inte att lägga till fler aktuella appar</string>
+    <string name="content_description_button_remove">Tryck för att ta bort från aktuella appar</string>
     <string name="content_description_for_shortcut_icon_checked">%1$s，markerad</string>
     <string name="content_description_shortcut_icon_unchecked">%1$s, avmarkerad</string>
     <string name="content_description_workspace_thumbnail_item">Förhandsvisning av skärm, sida %1$s</string>
+    <string name="copy">Kopiera</string>
     <string name="current_preview">Förhandsvisning</string>
     <string name="current_wallpaper">Nuvarande</string>
     <string name="custom_wallpaper_picker">Bläddra</string>
@@ -226,6 +230,7 @@
     <string name="emptyplaylist">Tryck för att lägga till sånger</string>
     <string name="enable_wallpaper_scroll">Aktivera sidskrollning</string>
     <string name="encryption">Kryptering</string>
+    <string name="expand_button_title">Avancerat</string>
     <string name="failed_to_delete_temporary">Kan inte ta bort</string>
     <string name="failed_to_drop">Kan inte flytta</string>
     <string name="failed_to_drop_widget_invalid">Widgeten är felaktig</string>
@@ -355,6 +360,7 @@
     <string name="no_space_toast">Inte tillräckligt med utrymme</string>
     <string name="no_space_toast_when_click_widget">Inte tillräckligt med utrymme på den här sidan. Försök att dra detta objekt till en annan sida.</string>
     <string name="normal_wallpaper">Bakgrund</string>
+    <string name="not_set">Inte angett</string>
     <string name="notification_installed">Installerat</string>
     <string name="notification_open_button">Öppen</string>
     <string name="notification_reset_title">Ordna ikoner framgångsrikt</string>
@@ -367,11 +373,13 @@
     <string name="open_personal_assistant_dialog_title">Avaktivera App vault</string>
     <string name="open_personal_assistant_title">App vault</string>
     <string name="out_of_space">Ingen mer plats på Hemskärmen</string>
+    <string name="perfect_icons_switch_summary">Rendera animeringar på tredjeparts-appikoner</string>
+    <string name="perfect_icons_switch_title">Globala ikon-animeringar</string>
     <string name="permdesc_install_shortcut">Tillåt en app att lägga till genvägar utan att åtgärd från användaren.</string>
-    <string name="permdesc_install_widget">Tillåt en app att lägga till widgets utan att åtgärd från användaren.</string>
+    <string name="permdesc_install_widget">Tillåter en app att lägga till widgets utan att behöva ytterligare åtgärder från användaren.</string>
     <string name="permdesc_read_settings">Tillåt en app att läsa Hemskärmens inställningar och genvägar.</string>
     <string name="permdesc_uninstall_shortcut">Tillåt en app att ta bort genvägar utan att åtgärd från användaren.</string>
-    <string name="permdesc_uninstall_widget">Tillåt en app att ta bort widgets utan användaringripande.</string>
+    <string name="permdesc_uninstall_widget">Tillåter en app att ta bort widgets utan att behöva ytterligare åtgärder från användaren.</string>
     <string name="permdesc_write_settings">Tillåt en app att ändra Hemskärmens inställningar och genvägar.</string>
     <string name="permlab_install_shortcut">Installera genvägar</string>
     <string name="permlab_install_widget">Installera widgets</string>
@@ -396,6 +404,7 @@
     <string name="pref_render_in_truecolor_title">Högkvalitetsgrafik</string>
     <string name="pref_screen_transformation_type_title">Skärmövergångseffekt</string>
     <string name="pref_wallpaper_scroll_type_title">Bakgrundsorientering</string>
+    <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="preferences_general_title">Ytterligare inställningar</string>
     <string name="preferences_title">Launcherinställningar</string>
     <string name="preferred_app_settings_not_selected">Inte vald</string>
@@ -416,6 +425,7 @@
     <string name="recents_exit_multi_window_mode">Avsluta</string>
     <string name="recents_forbid_dock_when_screening_toast_text">Man kan inte använda split-skärmen under casting</string>
     <string name="recents_incompatible_app_message">Denna appen stöder inte Delad skärm</string>
+    <string name="recents_smallwindow_text">Släpp för att lägga till</string>
     <string name="recents_task_screening">Casting</string>
     <string name="recents_title_app_manager">Hantera appar</string>
     <string name="recents_title_game">Spel</string>
@@ -423,6 +433,7 @@
     <string name="recents_title_garbage_deepclean">Djuprensning</string>
     <string name="recents_title_market">Hitta appar</string>
     <string name="recents_title_security_scan">Säkerhetsskanning</string>
+    <string name="recents_tv_small_window_text">Flytande fönster</string>
     <string name="recommend_apk_size_and_desc">%1$dMB | %2$s</string>
     <string name="recommend_app">Appförslag</string>
     <string name="recommend_apps_default_title">Tom</string>
@@ -467,11 +478,19 @@
     <string name="show_most_popular_apps_you_used">Visa mest använda appar i lådan</string>
     <string name="show_recents_recommend_title">Visa förslag</string>
     <string name="slide_to_open_newhome">Svep upp för att öppna Kontrollcenter</string>
+    <string name="small_window_button_complete">Klar</string>
+    <string name="small_window_edit_content">Du kan lägga till upp till %d appar</string>
+    <string name="small_window_edit_title">Aktuella appar</string>
+    <string name="small_window_empty">Välj bland tillgängliga appar</string>
+    <string name="small_window_select_title">Tillgängliga appar</string>
+    <string name="small_window_title_text">Tryck för att öppna ett flytande fönster</string>
+    <string name="small_window_toast">Du kan lägga till upp till %d appar</string>
     <string name="sort_by_abc">Sortera efter namn</string>
     <string name="sort_by_frequency">Sortera efter användande</string>
     <string name="sort_by_not_defined">Sortera automatiskt</string>
     <string name="start_activity_failed">Kan inte starta launcher</string>
     <string name="starting_preset_app">Startar…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_info1">%1$sB av %2$sB tillgängligt</string>
     <string name="status_bar_recent_memory_info2" />
     <string name="status_downloaded">Nedladdat</string>
@@ -479,6 +498,7 @@
     <string name="status_installing">Installerar</string>
     <string name="status_paused">Paus</string>
     <string name="status_pending">Väntar</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_personal_assistant_app_vault">App vault</string>
     <string name="switch_personal_assistant_google">Google Discover</string>
     <string name="switch_personal_assistant_none">Ingen</string>
@@ -510,6 +530,8 @@
     <string name="uninstall_xspace_dialog_title_format">Avinstallera dubbel \"%s\"?</string>
     <string name="unknown_artist_name">Okänd artist</string>
     <string name="unnamed_folder_name">Mapp</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
     <string name="wallpaper">Bakgrund</string>
     <string name="wallpaper_auto_change_title">Låsskärm</string>
     <string name="wallpaper_failed_message">Kan inte ställa in bakgrundsbild</string>

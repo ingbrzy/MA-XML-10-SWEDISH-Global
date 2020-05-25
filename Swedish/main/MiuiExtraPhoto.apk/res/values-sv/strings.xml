@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="extra_photo_common_save_fail">Det gick inte att spara</string>
     <string name="extra_photo_common_saving">Sparar…</string>
-    <string name="motion_photo_re_pick_title">Välj bästa foto</string>
+    <string name="motion_photo_cancel">Avbryt</string>
+    <string name="motion_photo_re_pick_title">Live-foto</string>
+    <string name="motion_photo_save_fail">Det gick inte att spara</string>
+    <string name="motion_photo_save_gif">Spara som GIF</string>
+    <string name="motion_photo_save_gif_ing">Sparar GIF…</string>
+    <string name="motion_photo_save_image">Spara bästa bilden</string>
+    <string name="motion_photo_save_image_ing">Sparar bästa bilden…</string>
+    <string name="motion_photo_save_video">Spara som video</string>
+    <string name="motion_photo_save_video_ing">Sparar video…</string>
     <string name="motion_photo_toast_default">Standard</string>
+    <string name="motion_photo_toast_long_press_play">Tryck och håll ner på fotot för att spela</string>
     <string name="motion_photo_toast_suggest">Rekommenderad</string>
     <string name="refocus_discard_confirm_message">Spara ändringar?</string>
     <string name="refocus_discard_negative_btn">Ta bort</string>

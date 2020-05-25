@@ -19,11 +19,12 @@
     <string name="abc_shareactionprovider_share_with">Dela med</string>
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="passport_access_denied">Nekat tillträde</string>
     <string name="passport_account_hint_text">Email address, phone number or Mi Account ID</string>
     <string name="passport_account_identity_title">Verifiera din identitet</string>
     <string name="passport_account_label">Mi Konto</string>
-    <string name="passport_account_name">"Konto: %1$s "</string>
+    <string name="passport_account_name">Konto: %1$s</string>
     <string name="passport_account_not_activated">Kontot har inte blivit aktiverat</string>
     <string name="passport_account_not_actived">Ditt konto har inte blivit aktiverat</string>
     <string name="passport_account_set_password">Set password</string>

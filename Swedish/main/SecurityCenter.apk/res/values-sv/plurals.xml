@@ -4,6 +4,58 @@
         <item quantity="other">La till %d spel</item>
         <item quantity="one">La till %d spel</item>
     </plurals>
+    <plurals name="app_behavior_desc_allow">
+        <item quantity="other">Tillåtet %3$d gånger mellan %1$s och %2$s</item>
+        <item quantity="one">Tillåtet %3$d gång mellan %1$s och %2$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_allow_minute">
+        <item quantity="other">Tillåten %2$d gånger kl. %1$s</item>
+        <item quantity="one">Tillåten %2$d gång kl. %1$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_deny">
+        <item quantity="other">Begränsat %3$d gånger mellan %1$s och %2$s</item>
+        <item quantity="one">Begränsat %3$d gång mellan %1$s och %2$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_deny_minute">
+        <item quantity="other">Nekade %2$d gånger kl. %1$s</item>
+        <item quantity="one">Nekade %2$d gång kl. %1$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_virtual">
+        <item quantity="other">Returnerade %3$d blanka meddelanden mellan %1$s och %2$s</item>
+        <item quantity="one">Returnerade %3$d blankt meddelande mellan %1$s och %2$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_virtual_minute">
+        <item quantity="other">Returnerat %2$d blanka meddelanden kl. %1$s</item>
+        <item quantity="one">Returnerat %2$d blankt meddelande kl. %1$s</item>
+    </plurals>
+    <plurals name="app_behavior_notification_audio_more">
+        <item quantity="other">%2$d appar inklusive %1$1s spelar in ljud</item>
+        <item quantity="one">%2$d app inklusive %1$1s spelar in ljud</item>
+    </plurals>
+    <plurals name="app_behavior_notification_camera_more">
+        <item quantity="other">%2$d appar inklusive %1$1s tar foton</item>
+        <item quantity="one">%2$d app inklusive %1$1s tar foton</item>
+    </plurals>
+    <plurals name="app_behavior_notification_location_more">
+        <item quantity="other">%2$d appar inklusive %1$1s tillträder din plats</item>
+        <item quantity="one">%2$d app inklusive %1$1s tillträder din plats</item>
+    </plurals>
+    <plurals name="app_behavior_privacy_manager_off">
+        <item quantity="other">Du kommer inte att meddelas om känsliga åtgärder som utförts av %1$d appar</item>
+        <item quantity="one">Du kommer inte att meddelas om känsliga åtgärder som utförts av %1$d app</item>
+    </plurals>
+    <plurals name="app_behavior_privacy_manager_on">
+        <item quantity="other">Du kommer att meddelas om känsliga åtgärder som utförts av %1$d appar</item>
+        <item quantity="one">Du kommer att meddelas om känsliga åtgärder som utförts av %1$d app</item>
+    </plurals>
+    <plurals name="app_behavior_wakepath_multiple">
+        <item quantity="other">%1$1s startade %2$d appar</item>
+        <item quantity="one">%1$1s startade %2$d app</item>
+    </plurals>
+    <plurals name="app_behavior_wakepath_multiple_single">
+        <item quantity="other">Denna app startade %1$d andra appar</item>
+        <item quantity="one">Denna app startade %1$d annan app</item>
+    </plurals>
     <plurals name="app_manager_permission_summary_accept">
         <item quantity="other">%d behörigheter tillåtna</item>
         <item quantity="one">%d behörighet tillåten</item>
@@ -176,6 +228,14 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="other">La till %d spel</item>
         <item quantity="one">La till %d spel</item>
     </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="other">%s timmar</item>
+        <item quantity="one">%s timme</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="other">%s minuter</item>
+        <item quantity="one">%s minut</item>
+    </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Anslut åtminstone %d punkter</item>
         <item quantity="one">Anslut åtminstone %d punkt</item>
@@ -267,6 +327,14 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
     <plurals name="pc_abnormal_scan_result_model_result_title">
         <item quantity="other">%d appar tömmer batteriet</item>
         <item quantity="one">%d app tömmer batteriet</item>
+    </plurals>
+    <plurals name="pc_battery_history_hour">
+        <item quantity="other">" timmar"</item>
+        <item quantity="one">" timme"</item>
+    </plurals>
+    <plurals name="pc_battery_history_minute">
+        <item quantity="other">" minuter"</item>
+        <item quantity="one">" minut"</item>
     </plurals>
     <plurals name="pc_main_power_center_battery_day">
         <item quantity="other">%s dagar</item>
@@ -368,6 +436,14 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="other">%s minuter återstår</item>
         <item quantity="one">%s minut återstår</item>
     </plurals>
+    <plurals name="power_off_warning_button_ok_time">
+        <item quantity="other">Jag förstår (%ds)</item>
+        <item quantity="one">Jag förstår (%ds)</item>
+    </plurals>
+    <plurals name="power_off_warning_notification_message">
+        <item quantity="other">Din enhet kommer att stängas av om %d sekunder. Anslut laddaren.</item>
+        <item quantity="one">Din enhet kommer att stängas av om %d sekund. Anslut laddaren.</item>
+    </plurals>
     <plurals name="privacy_apps_disable_header_title">
         <item quantity="other">%d appikoner är dolda</item>
         <item quantity="one">%d appikon är dold</item>
@@ -375,6 +451,14 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
     <plurals name="privacy_apps_enable_header_title">
         <item quantity="other">%d appikoner är inte dolda</item>
         <item quantity="one">%d appikon är inte dold</item>
+    </plurals>
+    <plurals name="privacy_permission_summary">
+        <item quantity="other">%s appar har permanent tillträde</item>
+        <item quantity="one">%s app har permanent tillträde</item>
+    </plurals>
+    <plurals name="privacy_pop_times">
+        <item quantity="other">%s gånger</item>
+        <item quantity="one">%s gång</item>
     </plurals>
     <plurals name="quick_optimize_issue_count">
         <item quantity="other">%d batteriproblem</item>

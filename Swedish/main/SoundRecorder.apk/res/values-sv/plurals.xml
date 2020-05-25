@@ -28,6 +28,14 @@
         <item quantity="other">%d inspelningar nedladdade</item>
         <item quantity="one">%d inspelning nedladdad</item>
     </plurals>
+    <plurals name="search_alll_records_hint">
+        <item quantity="other">Sök bland %d inspelningar</item>
+        <item quantity="one">Sök bland %d inspelning</item>
+    </plurals>
+    <plurals name="search_call_records_hint">
+        <item quantity="other">Sök bland %d samtalsinspelningar</item>
+        <item quantity="one">Sök bland %d samtalsinspelning</item>
+    </plurals>
     <plurals name="search_result">
         <item quantity="other">Hittade %d inspelningar</item>
         <item quantity="one">Hittade %d inspelning</item>

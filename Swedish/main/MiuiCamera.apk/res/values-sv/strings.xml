@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Navigera hem</string>
+    <string name="abc_action_bar_up_description">Navigera uppåt</string>
+    <string name="abc_action_menu_overflow_description">Fler alternativ</string>
+    <string name="abc_action_mode_done">Klar</string>
+    <string name="abc_activity_chooser_view_see_all">Visa alla</string>
+    <string name="abc_activitychooserview_choose_application">Välj en app</string>
+    <string name="abc_capital_off">AV</string>
+    <string name="abc_capital_on">PÅ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt + </string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl + </string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">retur</string>
+    <string name="abc_menu_function_shortcut_label">Funktion + </string>
+    <string name="abc_menu_meta_shortcut_label">Meta + </string>
+    <string name="abc_menu_shift_shortcut_label">Skift + </string>
+    <string name="abc_menu_space_shortcut_label">blanksteg</string>
+    <string name="abc_menu_sym_shortcut_label">Symbol + </string>
+    <string name="abc_prepend_shortcut_label">Meny + </string>
+    <string name="abc_search_hint">Sök …</string>
+    <string name="abc_searchview_description_clear">Ta bort frågan</string>
+    <string name="abc_searchview_description_query">Sökfråga</string>
+    <string name="abc_searchview_description_search">Sök</string>
+    <string name="abc_searchview_description_submit">Skicka fråga</string>
+    <string name="abc_searchview_description_voice">Röstsökning</string>
+    <string name="abc_shareactionprovider_share_with">Dela med</string>
+    <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
+    <string name="abc_toolbar_collapse_description">Komprimera</string>
     <string name="access_sd_fail">Det gick inte att komma åt SD-kortet.</string>
     <string name="accessibility_ai_scene_off">AI kamera är avstängd</string>
     <string name="accessibility_ai_scene_on">AI kamera är på</string>
@@ -50,8 +77,8 @@
     <string name="accessibility_intent_done_retry">Försök igen</string>
     <string name="accessibility_lighting_panel_off">Studiobelysningsfältet är dolt</string>
     <string name="accessibility_lighting_panel_on">Visar studio belysning bar</string>
-    <string name="accessibility_mimovie_off">Filmläge är av</string>
-    <string name="accessibility_mimovie_on">Filmläge är på</string>
+    <string name="accessibility_mimovie_off">Utan filmram</string>
+    <string name="accessibility_mimovie_on">Med filmram</string>
     <string name="accessibility_more">Mer</string>
     <string name="accessibility_open">Aktiverad</string>
     <string name="accessibility_portrait_button">Porträttläge</string>
@@ -85,6 +112,7 @@ och justera preferenser automatiskt"</string>
     <string name="auxiliary_exposure_feedback_status">Exponeringsverifiering är på</string>
     <string name="auxiliary_focus_peak_status">Maximera fokus är på</string>
     <string name="back_bokeh_use_hint">Håll objektet inom 1.5 meter för bästa effekt</string>
+    <string name="background">Background</string>
     <string name="beauty_body">Kroppsfigur</string>
     <string name="beauty_body_body">Smal</string>
     <string name="beauty_body_head">Huvud</string>
@@ -128,6 +156,17 @@ och justera preferenser automatiskt"</string>
     <string name="capture_back_pressed_hint">Tryck igen för att avsluta</string>
     <string name="ccc_temperature_warning_msg">Din enhet är överhettad. Kameran kommer stängas om %d sekunder. Dina foton eller videor kommer att sparas automatiskt.</string>
     <string name="ccc_temperature_warning_title">Enheten är överhettad</string>
+    <string name="clone_don_not_move_phone">请不要移动手机</string>
+    <string name="clone_landscape_hint">分身模式仅支持横屏拍摄</string>
+    <string name="clone_no_person_found_in_viewfinder">取景区域未识别到人</string>
+    <string name="clone_offset_is_too_large">手机偏移过大，请重新拍摄</string>
+    <string name="clone_photo_mode">拍照模式</string>
+    <string name="clone_photo_mode_start_hint">请点击快门键开始拍照</string>
+    <string name="clone_preview_no_person">未识别到人,可能拍摄失败</string>
+    <string name="clone_put_phone_back_in_place">请把手机恢复原位</string>
+    <string name="clone_start_capture">开始拍摄</string>
+    <string name="clone_video_mode">视频模式</string>
+    <string name="clone_video_mode_start_hint">请点击快门键开始录制</string>
     <string name="close_back_flash_toast">Din enhet är överhettad. Det går inte att använda blixten nu.</string>
     <string name="close_front_flash_toast">Din enhet är överhettad. Det går inte att använda blixten nu.</string>
     <string name="color_effect_entry_berry">Bär</string>
@@ -157,7 +196,7 @@ och justera preferenser automatiskt"</string>
     <string name="config_name_group">Grupp-selfie</string>
     <string name="config_name_hht">HHT</string>
     <string name="config_name_magic">Magisk</string>
-    <string name="config_name_mimovie">Filmläge</string>
+    <string name="config_name_mimovie">Filmram</string>
     <string name="config_name_scene">Scen</string>
     <string name="config_name_setting">Inställningar</string>
     <string name="config_name_sound">Ljud</string>
@@ -214,6 +253,7 @@ skannade dokument automatiskt"</string>
     <string name="edit_skin_white">Ton</string>
     <string name="edit_slim_nose">Näsa</string>
     <string name="edit_smile">Le</string>
+    <string name="emoticon">Sticker pack</string>
     <string name="error_fail_to_start_audio_capture">Kunde inte starta ljudupptagning</string>
     <string name="eye_light">Ögonglitter</string>
     <string name="eye_light_angel">Ängel</string>
@@ -348,6 +388,9 @@ se större ut i bilder"</string>
     <string name="mimoji_check_no_face">Det gick inte att detektera ett ansikte</string>
     <string name="mimoji_check_normal">Tryck på slutareknappen</string>
     <string name="mimoji_confirm">Okej</string>
+    <string name="mimoji_create_emoticon">Create sticker pack</string>
+    <string name="mimoji_create_emoticon_error">"Couldn't create sticker pack"</string>
+    <string name="mimoji_create_emoticon_progress">Creating sticker pack…</string>
     <string name="mimoji_create_tips">Titta rakt in i kameran för att skapa din Mimoji</string>
     <string name="mimoji_delete"><font fgcolor="#ffff0000">Ta bort</font></string>
     <string name="mimoji_delete_dialog_title">Ta bort Mimoji?</string>
@@ -371,6 +414,8 @@ se större ut i bilder"</string>
     <string name="mimoji_edit_cancel_alert">Alla ändringar kommer tas bort. Avbryt ändå?</string>
     <string name="mimoji_edit_mimoji">Redigera Mimoji</string>
     <string name="mimoji_editor">Redigera</string>
+    <string name="mimoji_emoticon_save">Save sticker pack</string>
+    <string name="mimoji_emoticon_with_jpeg_save">Save images as well</string>
     <string name="mimoji_eye">Ögon</string>
     <string name="mimoji_eye_shape">Ögonform</string>
     <string name="mimoji_eyebrow">Ögonbryn</string>
@@ -380,6 +425,12 @@ se större ut i bilder"</string>
     <string name="mimoji_featured_face">Ansikte</string>
     <string name="mimoji_fragment_tab_name">Mimoji</string>
     <string name="mimoji_freckle">Fräknar</string>
+    <string name="mimoji_gif_accelerate">Speed</string>
+    <string name="mimoji_gif_clear_bg">Remove background</string>
+    <string name="mimoji_gif_edit_hint">Tap to add text</string>
+    <string name="mimoji_gif_edit_title">Edit GIF</string>
+    <string name="mimoji_gif_record_time_short">Recorded video is too short</string>
+    <string name="mimoji_gif_reverse">Reverse</string>
     <string name="mimoji_hairstyle">Hår</string>
     <string name="mimoji_headwear">Hattar</string>
     <string name="mimoji_mole">Födelsemärke</string>
@@ -393,7 +444,9 @@ se större ut i bilder"</string>
     <string name="mimoji_recapture_alert">Alla ändringar kommer tas bort när du börjar om. Börja om ändå?</string>
     <string name="mimoji_reset">Nollställ</string>
     <string name="mimoji_save">Spara</string>
+    <string name="mimoji_save_finish">Done</string>
     <string name="mimoji_save_success">Sparad</string>
+    <string name="mimoji_select_number_error">Select at least 1 item</string>
     <string name="mimoji_selected">Välj</string>
     <string name="mimoji_start_create">Skapar Mimoji…</string>
     <string name="mimoji_tips">Tryck för att ta ett foto. Tryck och håll för att spela in video.</string>
@@ -409,7 +462,7 @@ se större ut i bilder"</string>
     <string name="module_name_square">Fyrkant</string>
     <string name="module_name_video">Video</string>
     <string name="moive_frame">Filmram</string>
-    <string name="multi_window_mode_not_supported">Kameran fungerar inte i Delad skärm</string>
+    <string name="multi_window_mode_not_supported">"Camera can't be used in multi-window mode"</string>
     <string name="network_access_user_notice_agree">Godkänn</string>
     <string name="network_access_user_notice_message_live_video">&lt;Data>Kamera måste ansluta till internet för att tillhandahålla effekter, musik och andra funktioner till videoklipp.&lt;br/>&lt;br/>Genom att trycka på \"Godkänn\" nedan godkänner du vårt &lt;a href =%1$s>Användaravtal&lt;/a> och vår &lt;a href =%2$s>Integritetspolicy&lt;/a> samt tillåter att Kamera ansluter till internet.&lt;/Data></string>
     <string name="network_access_user_notice_message_mi_live_video">&lt;Data>Välkommen till korta videor! Vår tjänst behöver ansluta till nätverket för att förse dig med musik och andra funktioner. &lt;br/>&lt;br/>Innan du använder vår tjänst behöver du läsa och acceptera vårt &lt;a href =%1$s>Användaravtal&lt;/a> och &lt;a href =%2$s>Integritetspolicy&lt;/a>, såväl som tillåta att appen ansluter till internet.&lt;/Data></string>
@@ -419,6 +472,7 @@ se större ut i bilder"</string>
     <string name="no_storage">Sätt i SD-kort innan du använder kameran</string>
     <string name="not_enough_space">SD-kortet är fullt</string>
     <string name="object_track_enable_toast">Om du vill markera ett objekt, samtidigt tryck på två diagonala punkter runt dess kant.</string>
+    <string name="only_mimoji_multi_window_mode_not_supported">"This feature can't be used in multi-window mode"</string>
     <string name="pano_how_to_use_prompt_align_reference_line">Rikta in pilen mot referenslinjen</string>
     <string name="pano_how_to_use_prompt_go_on_moving">Fortsätt…</string>
     <string name="pano_how_to_use_prompt_slow_down">Sakta ner…</string>
@@ -508,6 +562,7 @@ se större ut i bilder"</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Prova Poträttläge.
 Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_960_watermark_title">960 Fps vattenmärke</string>
+    <string name="pref_advance_settings">Additional settings</string>
     <string name="pref_ai_detect">AI igenkänning</string>
     <string name="pref_audio_focus_entry_front">Främre</string>
     <string name="pref_audio_focus_entry_general">Normal</string>
@@ -535,6 +590,7 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_auxiliary_close">Av</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Exponeringsverifiering</string>
     <string name="pref_camera_auxiliary_focus_peak">Maximera fokus</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
@@ -543,7 +599,7 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_coloreffect_entry_big_face">Sprid</string>
     <string name="pref_camera_coloreffect_entry_blackwhite">B&amp;W</string>
     <string name="pref_camera_coloreffect_entry_fisheye">Fisheye</string>
-    <string name="pref_camera_coloreffect_entry_instagram_clarendon">Förstärk färger</string>
+    <string name="pref_camera_coloreffect_entry_instagram_clarendon">Färgfokus</string>
     <string name="pref_camera_coloreffect_entry_instagram_crema">Rustik</string>
     <string name="pref_camera_coloreffect_entry_instagram_hudson">Isig</string>
     <string name="pref_camera_coloreffect_entry_instagram_rise">Lomo</string>
@@ -568,7 +624,7 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_delay_capture_title">Timer</string>
     <string name="pref_camera_device_watermark_title">Enhetsvattenstämpel</string>
     <string name="pref_camera_face_info_watermark_title">Lägg till åldersstämpel i foto</string>
-    <string name="pref_camera_first_tag_tips">Markerad</string>
+    <string name="pref_camera_first_tag_tips">Taggad</string>
     <string name="pref_camera_flashmode_entry_auto">Auto</string>
     <string name="pref_camera_flashmode_entry_back_soft_light">Mjukt ljus</string>
     <string name="pref_camera_flashmode_entry_off">Av</string>
@@ -635,6 +691,7 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_peak_entry_off">Av</string>
     <string name="pref_camera_peak_entry_on">På</string>
     <string name="pref_camera_peak_title">Maximera fokus</string>
+    <string name="pref_camera_picturesize_entry_fullscreen">Helskärm</string>
     <string name="pref_camera_picturesize_entry_standard">Standard 4:3</string>
     <string name="pref_camera_picturesize_title_simple_mode">Kameraram</string>
     <string name="pref_camera_portrait_mode_entry_off">Porträttläge av</string>
@@ -699,8 +756,8 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_video_duration_entry_120">Ingen gräns</string>
     <string name="pref_camera_video_duration_entry_30">30 minuter</string>
     <string name="pref_camera_video_duration_entry_mms">30 sekunder (MMS)</string>
-    <string name="pref_camera_video_tag">Tillåt markering av video</string>
-    <string name="pref_camera_video_tag_description">Tryck på \"Markera\" medan du filmar en video för att kunna gå tillbaka till markerade tillfällen under uppspelningen</string>
+    <string name="pref_camera_video_tag">Tillåt taggning av videor</string>
+    <string name="pref_camera_video_tag_description">Tryck på \"Tagga\" medan du filmar en video för att kunna gå tillbaka till markerade tillfällen under uppspelningen</string>
     <string name="pref_camera_volumekey_function_entry_shutter">Slutare</string>
     <string name="pref_camera_volumekey_function_entry_timer">Nedräkning slutare</string>
     <string name="pref_camera_volumekey_function_entry_volume">Volym</string>
@@ -783,6 +840,7 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
     <string name="pref_video_quality_entry_720p">HD 720p, 30fps</string>
     <string name="pref_video_quality_entry_720p_60fps">HD 720p, 60fps</string>
+    <string name="pref_video_quality_entry_8k_24fps_uhd">UHD 8K, 24 fps</string>
     <string name="pref_video_quality_entry_8kuhd">UHD 8K, 30 fps</string>
     <string name="pref_video_quality_title">Videokvalitet</string>
     <string name="pref_video_speed_entry_fast">Snabb</string>
@@ -809,6 +867,7 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_watermark_on">På</string>
     <string name="pref_watermark_title">Vattenmärke</string>
     <string name="preparing_sd">Kontrollerar SD-kortet…</string>
+    <string name="preview_back_pressed_hint">Tap again to go back to preview</string>
     <string name="pro_color_mode">Pro-color</string>
     <string name="recommend_macro_mode">Testa Macro-läge</string>
     <string name="recommend_portrait">Testa porträttläge</string>
@@ -819,8 +878,10 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="reset_manually_parameter_hint">Återställ</string>
     <string name="screen_on_proximity_sensor_hint">För att stänga av denna funktion, tryck på Volym upp och tillbaka-knapparna samtidigt.</string>
     <string name="screen_on_proximity_sensor_summary">Täck inte hörlursområdet</string>
+    <string name="search_menu_title">Sök</string>
     <string name="search_settings">Kamerainställningar;Kvalitet;Bildkvalitet;Bildposition;Fotoplats;Ansiktsigenkänning;Kameraljud</string>
     <string name="see_qrcode_detals">Visa QR-koddetaljer</string>
+    <string name="share">Share</string>
     <string name="simple_mode_button_asd_flash">Avaktivera blixt</string>
     <string name="simple_mode_button_asd_hdr">Avaktivera HDR</string>
     <string name="simple_mode_button_text_audio_capture">Stäng av rösttrigger</string>
@@ -849,14 +910,22 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="sticker_tab1">Söt</string>
     <string name="sticker_tab2">Rolig</string>
     <string name="subtitle_network_exception_tips">Kunde inte ansluta till nätverket. Kan inte transkribera nu.</string>
-    <string name="super_eis">Superstabilisering</string>
-    <string name="super_eis_disabled_hint">Superstabilisering av</string>
+    <string name="super_eis">Stadig video</string>
+    <string name="super_eis_disabled_hint">Stadig video är avstängt</string>
     <string name="super_night_hint">Optimerar bild… Håll enheten stadigt.</string>
+    <string name="super_night_se_tip">Nattläge</string>
     <string name="super_night_toast">Håll din telefon stilla medan du tar ett foto</string>
     <string name="tap_to_exposure">Tryck här för att justera exponeringen manuellt</string>
     <string name="tap_to_focus">Tryck för att fokusera</string>
     <string name="text_ai_scene_selector_text_off">CONTRE-JOUR</string>
     <string name="text_ai_scene_selector_text_on">SILHOUETTE</string>
+    <string name="timbre">Voice</string>
+    <string name="timbre_baby">Kid</string>
+    <string name="timbre_gentlemen">Gent</string>
+    <string name="timbre_girl">Girl</string>
+    <string name="timbre_lady">Lady</string>
+    <string name="timbre_normal">Original</string>
+    <string name="timbre_robot">Robot</string>
     <string name="time_lapse_error">Kan inte använda denna videostorlek för time-lapse inspelning</string>
     <string name="title_snap_double_confirm">Bekräfta igen</string>
     <string name="toast_burst_snap_forbidden_when_audio_capture_open">Kan inte fota kontinuerligt när ljudinspelning är på</string>
@@ -887,20 +956,21 @@ Vidvinkelläget hjälper till när du inte kan flytta längre från objektet."</
     <string name="ultra_wide_open_tip_sat">0.6X Vidvinkel</string>
     <string name="ultra_wide_recommend_tip_hint">Prova Vidvinkelläge</string>
     <string name="ultra_wide_recommend_tip_hint_sat">Växla till 0,6X ultrabred vinkel</string>
+    <string name="unknow_error">Unknown error</string>
     <string name="user_agree">Godkänn</string>
     <string name="user_define_watermark_cancel">Avbryt</string>
     <string name="user_define_watermark_save">Spara</string>
     <string name="user_notice_identify_summary_format">Innan du börjar använda Kameran måste du godkänna våra <a href="http://www.miui.com/res/doc/eula.html?lang=sv_SE">Användarvillkor</a> och vår <a href="http://www.miui.com/res/doc/privacy.html?lang=sv_SE">Integritetspolicy</a>. Kameran behöver också ansluta till internet för att fungera normalt. Godkänn?</string>
     <string name="user_notice_title">Villkor</string>
     <string name="video_beauty_tip">Försköna videoklipp</string>
-    <string name="video_beauty_tip_beautification">Beautify</string>
+    <string name="video_beauty_tip_beautification">Försköna</string>
     <string name="video_beauty_tip_filter">Filter</string>
     <string name="video_beauty_tip_portrait_bokeh">Bokeh</string>
     <string name="video_camera_label">Videokamera</string>
     <string name="video_effect_entry_blackwhite">S&amp;V</string>
     <string name="video_effect_entry_bygone">Bygone</string>
     <string name="video_effect_entry_central">Central</string>
-    <string name="video_effect_entry_color_retention">Färg-pop</string>
+    <string name="video_effect_entry_color_retention">Färgfokus</string>
     <string name="video_effect_entry_fantasy">Fantasi</string>
     <string name="video_effect_entry_film">Film</string>
     <string name="video_effect_entry_forest">Grove</string>
@@ -913,7 +983,7 @@ Vidvinkelläget hjälper till när du inte kan flytta längre från objektet."</
     <string name="video_effect_entry_summer_day">Sommar</string>
     <string name="video_effect_entry_wind_sing">Lätt vind</string>
     <string name="video_reach_size_limit">Storleksbegränsning nådd.</string>
-    <string name="video_tag_flag_title">Markera</string>
+    <string name="video_tag_flag_title">Tagga</string>
     <string name="video_ultra_clear_tip">4K UHD</string>
     <string name="video_ultra_clear_tip_8k">AI 8K</string>
     <string name="view_privacy_policy">Visa sekretesspolicy</string>
