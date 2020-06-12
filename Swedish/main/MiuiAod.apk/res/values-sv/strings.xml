@@ -118,7 +118,6 @@ dd MM"</string>
 underbart kommer hända"</string>
     <string name="standard_clock_panel">Standard</string>
     <string name="standard_style">Standard</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary">För att minska strömförbrukningen kommer objekt inte att visas när din enhet ligger i mörkret en längre tid.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="temporary_style">Under 10 sekunder efter att du rört den</string>
