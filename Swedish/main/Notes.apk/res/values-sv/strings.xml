@@ -140,8 +140,11 @@
     <string name="first_enter_custom_folder_hint">Du kan byta namn på eller radera mappar här</string>
     <string name="float_todo_guide_cancel">Avbryt</string>
     <string name="float_todo_guide_message">Genvägar på Hemskärmen tillåter dig att svepa från kanten av skärmen för att visa och skapa uppgifter. Skapa genvägen nu?</string>
+    <string name="float_todo_guide_message_v2">Genväg för rörelse tillåter dig att visa och skapa uppgifter genom att svepa från kanten av skärmen. Du kan slå på och stänga av denna funktion i Inställningar.</string>
     <string name="float_todo_guide_ok">Skapa</string>
+    <string name="float_todo_guide_ok_v2">Slå på</string>
     <string name="float_todo_guide_title">Genvägar på Hemskärmen</string>
+    <string name="float_todo_guide_title_v2">Genväg för Rörelse</string>
     <string name="fmt_chinese_date">N e</string>
     <string name="fmt_date_day">dd</string>
     <string name="fmt_date_long_month">MMMM</string>
@@ -294,6 +297,7 @@
     <string name="note_sort_way">Välj hur du vill sortera dina anteckningar</string>
     <string name="notealert_enter">Öppna anteckning</string>
     <string name="notealert_ok">Avfärda</string>
+    <string name="notelist_string_info">…</string>
     <string name="notification_content_add_todo_from_other_app">Du lade till en ny uppgift. Tryck för att visa.</string>
     <string name="notify_alarm_title">Anteckningspåminnelse</string>
     <string name="permdesc_accessNote">Skadliga appar kan använda detta för att få tillgång till personlig data.</string>
@@ -313,7 +317,9 @@
     <string name="pref_desc_skip_confirm_for_quick_delete">Svep uppåt med 2 fingrar för att bort anteckningar utan att bekräfta</string>
     <string name="pref_desc_todo_float_mode">Svep från ovansidan av kanten av skärmen för att öppna verktygslådan</string>
     <string name="pref_remind_type_summary">Spela upp påminnelseljud i Tyst läge</string>
+    <string name="pref_remind_type_summary_new">Ignorera Tyst läge och fortsätt spela ljud tills att alarmet stängs av</string>
     <string name="pref_remind_type_title">Ignorera Tyst läge</string>
+    <string name="pref_remind_type_title_new">Högprioriterade påminnelser</string>
     <string name="pref_title_cloud_trash_bin">Borttagna anteckningar i molnet</string>
     <string name="pref_title_common">Ytterligare inställningar</string>
     <string name="pref_title_font_size">Textstorlek</string>
@@ -473,6 +479,7 @@
     <string name="toast_reach_text_limit_truncate">Anteckningen är för lång. En del av texten har klippts bort från slutet.</string>
     <string name="toast_refuse_to_record_when_in_call">Kan inte använda den här funktionen under samtal</string>
     <string name="toast_refuse_to_record_when_in_multi_window">Kan inte använda den här funktionen med delad skärm</string>
+    <string name="toast_refuse_to_record_when_in_multi_window_new">Kan inte använda denna funktion i Delad skärm eller flytande fönster</string>
     <string name="toast_refuse_to_use_contact">"Behörighet till Kontakter är begränsad.
 Tillåt Anteckningar att läsa dina kontakter och hitta konton på enheten."</string>
     <string name="toast_refuse_to_use_external_storage">"Behörighet till Lagringsutrymmet är begränsad.
@@ -556,6 +563,7 @@ Tillåt Anteckningar att spela in ljud."</string>
     <string name="toolbar_voice_description">Röst</string>
     <string name="trash_folder_name">Skräp</string>
     <string name="trash_folder_reminder">Anteckningarna du raderar kommer att raderas permanent om 30 dagar.</string>
+    <string name="trash_folder_reminder_new">Notes are kept in the trash for 30 days before being permanently deleted</string>
     <string name="tuesday">Tisdag</string>
     <string name="tuesday_short">Tis</string>
     <string name="tuesday_shortest">Tis</string>

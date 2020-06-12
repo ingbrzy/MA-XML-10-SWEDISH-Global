@@ -32,6 +32,10 @@
         <item quantity="other">Sök bland %d inspelningar</item>
         <item quantity="one">Sök bland %d inspelning</item>
     </plurals>
+    <plurals name="search_app_records_hint">
+        <item quantity="other">Search among %d recordings</item>
+        <item quantity="one">Search among %d recording</item>
+    </plurals>
     <plurals name="search_call_records_hint">
         <item quantity="other">Sök bland %d samtalsinspelningar</item>
         <item quantity="one">Sök bland %d samtalsinspelning</item>

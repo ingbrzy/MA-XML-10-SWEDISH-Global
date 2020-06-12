@@ -184,6 +184,8 @@ Note: Informationen från de appar du har installerat säkerhetskopieras inte ti
     <string name="open_wifi_setting">Wi-Fi-inställningar</string>
     <string name="other_device_main_space">Primära utrymmet</string>
     <string name="other_device_second_space">Sekundära utrymmet</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="process_whole_recovery">Återställer \"%s\"</string>
     <string name="provision_background_restore_more_data">Återställ fler objekt i bakgrunde</string>

@@ -91,6 +91,8 @@
     <string name="feedback_custom_hint">Beskriv problemen du har stött på här. Om du ger förslag skulle vi uppskatta fler detaljer!</string>
     <string name="find_device">Hitta Enhet</string>
     <string name="find_device_dspt_provision">Om du tappar bort din enhet så kan du gå till &lt;font color=#0097FF>%s&lt;/font> för att lokalisera, låsa eller återställa den. Du kan slå på eller av denna funktion när som helst i Inställningar.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_error_network">Kontrollera din anslutning och försök igen.</string>
     <string name="find_device_error_server">Server fel</string>
     <string name="find_device_gdpr_prompt">Genom att aktivera Hitta enhet godkänner vår <a href="app://com.miui.cloudservice.gdpr.license"><u>Integritetspolicy</u></a>. Om du behöver upphäva tillståndet avaktiverar du funktionen.</string>
@@ -230,11 +232,14 @@ Lokalisera och lås din enhet om du förlorar den."</string>
     <string name="micloud_find_device_open_fail">Kunde inte starta Hitta enheten</string>
     <string name="micloud_find_device_opened">Hitta enheten påslagen</string>
     <string name="micloud_find_device_opened_content">Hitta din enhet på %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_sms_alert">Ett SMS kan behövas för att aktivera funktionen. Din operatör kommer fakturera dig för SMS:et. När du byter SIM-kort kommer ett SMS skickas automatiskt för att reaktivera denna funktion.</string>
     <string name="micloud_find_device_verify_button">Återaktivera Hitta enhet</string>
     <string name="micloud_find_device_verify_close">Avaktivera Hitta enhet</string>
     <string name="micloud_find_device_verify_fail">Kunde inte avaktivera Hitta Enhet</string>
     <string name="micloud_find_device_verify_progress">Återaktivera Hitta enhet…</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
     <string name="micloud_last_sync_canceled">Synkning avbröts. Försök igen.</string>
     <string name="micloud_main_head_menu_cloud_backup">Säkerhetskopia av Hemskärmen</string>
     <string name="micloud_main_head_menu_cloud_backup_summary">Systeminställningar och Hemskärmens utseende</string>
@@ -469,6 +474,8 @@ Denna funktion krypterar och sänder din enhets ID till MI's servrar."</string>
     <string name="sync_dspt_entrance_provision_network">Denna app behöver vara ansluten till Internet för att fungerar normalt. För att synkronisera data behövs mobildataanslutning och att Wi-Fi är aktiverat.</string>
     <string name="sync_dspt_entrance_provision_skip">Hoppa över detta steg</string>
     <string name="sync_dspt_provision">"Synkronisera dina foto, kontakter, anteckningar, och mycket mer genom alla din enheter eller nå dem "</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". Du kan starta eller stanna denna funktion närsomhelst i Inställningar.
 "</string>
     <string name="sync_item_calllog_summary">Synkronisera inspelningar av samtal gjorda och mottagna från denna telefon</string>
