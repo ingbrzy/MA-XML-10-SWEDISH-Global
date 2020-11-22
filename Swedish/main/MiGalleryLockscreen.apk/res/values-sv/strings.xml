@@ -226,7 +226,6 @@ Skicka koden till handledaren."</string>
     <string name="sns_access_token_expired_warning">Sessionen har gått ut. Logga in igen för att återansluta det här kontot.</string>
     <string name="sns_bind_limit">För många försök. Försök att logga in på andra sätt.</string>
     <string name="sns_sign_in">Andra sätt att logga in på</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="temporary_not_available">Denna funktion stöds inte ännu</string>
     <string name="ticket_hint">Verifieringskod</string>
     <string name="ticket_invalid">Koden du angav är felaktig</string>
