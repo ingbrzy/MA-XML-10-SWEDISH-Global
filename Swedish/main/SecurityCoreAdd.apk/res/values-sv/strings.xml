@@ -126,13 +126,6 @@ för att kunna se dem när som helst"</string>
     <string name="dual_animation">Visa animation</string>
     <string name="dual_animation_description">Visa animation när Dubbelappar startas</string>
     <string name="enable">Aktivera</string>
-    <string name="encrypt_space_delete_dialog_click_message">*Om du inte behöver flytta data, %s</string>
-    <string name="encrypt_space_delete_dialog_click_message_action">ta bort eller skapa det Sekundära utrymmet nu.</string>
-    <string name="encrypt_space_delete_dialog_message">Du ska snart genomföra en systemuppdatering. Efter uppdateringen kommer det data i det Sekundära utrymmet bli inkompatibel. För att undvika detta, flytta all data till det Primära utrymmet, ta bort det Sekundära utrymmet och skapa det igen.</string>
-    <string name="encrypt_space_delete_dialog_positive_text">Flytta data</string>
-    <string name="encrypt_space_delete_dialog_title">Uppmärksamma</string>
-    <string name="encrypt_space_delete_notification_message">Ta bort ditt Sekundära utrymme och skapa ett nytt för att uppdatera din enhet.</string>
-    <string name="encrypt_space_delete_notification_title">Sekundära utrymmet</string>
     <string name="ent_activating">Aktiverar…</string>
     <string name="ent_activation">Aktivera</string>
     <string name="ent_activation_hint">Ange din företagskod tillsammans med licenskoden för att aktivera Företagsläge. När du har gjort detta kommer anpassade företagstjänster aktiveras.</string>
@@ -217,7 +210,6 @@ Meddelande visas endast i sekundära utrymmet."</string>
     <string name="guide_pwd_detail_title">"Skydda din data
 Gå till Sekundära utrymmet från Låsskärmen"</string>
     <string name="guide_setting_guide_title">Hantera sekundärt utrymme</string>
-    <string name="guide_start_ads_text">En helt ny nivå av säkerhet</string>
     <string name="guide_start_text">Två utrymmen. En enhet.</string>
     <string name="has_created_second_space">"Du kan öppna det Sekundära utrymmet nu.
 Två utrymmen. En enhet."</string>
@@ -255,6 +247,14 @@ Du kan även ladda ner dem separat."</string>
     <string name="master_clear_not_available_ep">Du tillåts inte att utföra en fabriksåterställning eller upphäva din behörighet nu. Kontakta din handledare.</string>
     <string name="menu_item_about_privacy_title">Integritetspolicy</string>
     <string name="messageData">Meddelanden</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra nedåt för att uppdatera</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Uppdaterat</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Uppdaterar…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Släpp för att uppdatera</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">Det är allt för nu</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">Det är allt för nu</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Vänta en stund…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Det gick inte att ladda objekt</string>
     <string name="more_settings">Fler</string>
     <string name="msg_switch_file">Ta bort dessa filer i det Primära utrymmet efter att de har flyttats?</string>
     <string name="msg_switch_file_second">Ta bort dessa filer i det Sekundära utrymmet efter att de har flyttats?</string>
@@ -286,7 +286,6 @@ Du kan även ladda ner dem separat."</string>
     <string name="openPasswordGuard">Ange Sekundära utrymmets lösenord</string>
     <string name="openSuccess">Aktiverad</string>
     <string name="opened">På</string>
-    <string name="optimize_now">Optimera</string>
     <string name="other">Övrigt</string>
     <string name="otherSettings">Andra inställningar</string>
     <string name="passWordGuardSummary">Gå in i Sekundära utrymmet från låsskärmen med ett lösenord</string>
@@ -310,8 +309,6 @@ Annars kommer du inte kunna logga in på det sekundära utrymmet."</string>
     <string name="remove_button">Ta bort</string>
     <string name="remove_button_time">Ta bort (%ds)</string>
     <string name="remove_second_space_msg">All data från det Sekundära utrymmet kommer försvinna när du tar bort den. Ta bort Sekundära utrymmet nu?</string>
-    <string name="remove_user_click_message">*Om du inte har några viktiga objekt i Sekundära utrymmet, %s</string>
-    <string name="remove_user_click_message_action">kan du ta bort det Sekundära utrymmet om starta om enheten nu.</string>
     <string name="removingSpace">Tar bort…</string>
     <string name="repeat_scanner_fingerprint">Lägg till igen</string>
     <string name="reset_passwd_success">Lösenordet återställt</string>
@@ -335,14 +332,6 @@ Annars kommer du inte kunna logga in på det sekundära utrymmet."</string>
     <string name="scanner_fingerprint_tips_desc">Välj befintligt fingeravtryck för att logga in på Sekundära utrymmet. Du kommer inte kunna använda det på det primära utrymmet.</string>
     <string name="scanner_fingerprint_tips_title">Logga in på Sekundära utrymmet med ett befintligt fingeravtryck</string>
     <string name="scanner_second_space_fingerprint">Skanna Sekundära utrymmets fingeravtryck</string>
-    <string name="sdcardfs_dialog_message">Ett nytt filsystem introduceras i denna uppdatering. Gammal data kan vara inkompatibel med det. För att lösa detta problem, följ stegen för att installera en uppdatering. Din enhet kommer starta om två gånger under uppdateringen.</string>
-    <string name="sdcardfs_dialog_title">Viktig uppdatering</string>
-    <string name="sdcradfs_dialog_in_owner_message">"Ett nytt filsystem introduceras i denna uppdatering. Gammal data kan vara inkompatibel med det. För att uppdatera: flytta objekt från Sekundära utrymmet, starta om din enhet och skapa ett Sekundärt utrymme igen.
-Om du inte uppdaterar kommer Dubbelappar inte fungera som det ska."</string>
-    <string name="sdcradfs_dialog_in_owner_title">Sekundärt utrymme</string>
-    <string name="sdcradfs_dialog_in_sec_message">"För att uppdatera ska du ta bort ditt Sekundära utrymme och sedan skapar det igen. Flytta data från Sekundära utrymmet till det Primära utrymmet och starta om enheten för att slutföra uppdateringen.
-Om du inte uppdaterar kommer Dubbelappar inte fungerar som det ska."</string>
-    <string name="sdcradfs_dialog_in_sec_title">Viktig uppdatering</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s:&lt;/font>"</string>
     <string name="search_menu_title">Sök</string>
     <string name="search_result_text">Kunde inte hitta några appar</string>
@@ -353,6 +342,8 @@ Om du inte uppdaterar kommer Dubbelappar inte fungerar som det ska."</string>
     <string name="second_space_desktop_tips_dialog_title">Viktig uppdatering</string>
     <string name="second_space_finger_printf_desc">Lägg till ett fingeravtryck specifikt för att logga in på Sekundärt utrymme</string>
     <string name="second_space_finger_printf_title">Fingeravtryck för Sekundära utrymmet</string>
+    <string name="secondspace_homepage">"Ange ett designerat skärmlås för Sekundärt utrymme.
+Separera och säkra din data."</string>
     <string name="select_existed_fingerprint">Välj fingeravtryck</string>
     <string name="serNameSummary">Sekundära utrymmet</string>
     <string name="setSecondSpacePassword">Ange Sekundära utrymmets lösenord</string>
@@ -410,7 +401,6 @@ Om du inte uppdaterar kommer Dubbelappar inte fungerar som det ska."</string>
     <string name="space_create_guide_title_1">Skydda din integritet</string>
     <string name="space_create_guide_title_2">Skapa när som helst</string>
     <string name="space_create_guide_title_3">Absolut riskfri</string>
-    <string name="space_created_success">Sekundärt utrymme skapat</string>
     <string name="space_deleted">Utrymmet är borttaget</string>
     <string name="space_des_default">Isolerat utrymme med krypterad data</string>
     <string name="space_finger_sub_text">Ange fingeravtryck för Sekundära utrymmet för att byta snabbare</string>
@@ -427,7 +417,6 @@ för att logga in från Låsskärmen"</string>
     <string name="stop_xspace_alert_title">Ta bort konton för dubbelappar</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_switch_apps_settings">Välj appar som används i det nuvarande utrymmet</string>
-    <string name="support_desc">Säkerhetsfunktioner tillhandahålls av Spaces Mobile</string>
     <string name="sure_to_use">Bekräfta</string>
     <string name="switchDataSummary">Flytta objekt mellan utrymmena</string>
     <string name="switch_apps_settings">App inställningar</string>

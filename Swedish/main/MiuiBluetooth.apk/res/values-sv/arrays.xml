@@ -26,26 +26,27 @@
         <item></item>
         <item>Mi Fit</item>
         <item>Mi VR</item>
+        <item>Xiaomi Wear</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Använd Systemets val (Standard)</item>
+        <item>Använd Systemets inställning (Standard)</item>
         <item>16 bits/sample</item>
         <item>24 bits/sample</item>
         <item>32 bits/sample</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Använd Systemets val (Standard)</item>
+        <item>Använd Systemets inställning (Standard)</item>
         <item>16 bits/sample</item>
         <item>24 bits/sample</item>
         <item>32 bits/sample</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Använd Systemets val (Standard)</item>
+        <item>Använd Systemets inställning (Standard)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Använd Systemets val (Standard)</item>
+        <item>Använd Systemets inställning (Standard)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
@@ -53,23 +54,23 @@
         <item>Optimerad för ljudkvalité</item>
         <item>Balanserad för ljud- och anslutningskvalité</item>
         <item>Optimerad för anslutningskvalité</item>
-        <item>Bäst prestanda (adaptiv bithastighet)</item>
+        <item>Bästa ansträngning (Automatisk bithastighet)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
         <item>Optimerad för ljudkvalité (990kbps/909kbps)</item>
-        <item>Balanserad för ljud- och anslutningskvalité (660kbps/606kbps)</item>
+        <item>Balanserat ljud och anslutningskvalité (660kbps/606kbps)</item>
         <item>Optimerad för anslutningskvalité (330kbps/303kbps)</item>
-        <item>Bäst prestanda (adaptiv bithastighet)</item>
+        <item>Bästa ansträngning (Automatisk bithastighet)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Använd Systemets val (Standard)</item>
+        <item>Använd Systemets inställning (Standard)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Använd Systemets val (Standard)</item>
+        <item>Använd Systemets inställning (Standard)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
@@ -87,15 +88,13 @@
         <item>LHDC V3</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
-        <item>Aktivera valfria Codecs</item>
-        <item>Inaktivera valfria Codecs</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Använd Systemets val (Standard)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ audio</item>
-        <item>Qualcomm® aptX™ HD audio</item>
+        <item>Qualcomm® aptX™ audio</item>
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptive audio</item>
         <item>Qualcomm® aptX™ TWS+ audio</item>
@@ -103,7 +102,7 @@
         <item>LHDC V2</item>
         <item>LHDC V1</item>
         <item>Aktivera valfria codecs</item>
-        <item>Inaktivera Valfria Codecs</item>
+        <item>Inaktivera valfria codecs</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -123,12 +122,22 @@
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (Default)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Inaktiverad</item>
-        <item>Filter aktiverat</item>
+        <item>Filtered</item>
         <item>Aktiverad</item>
-        <item>Aktiverat \"Rubriker filtrerade\"</item>
-        <item>Aktiverat \"Mediapaket filtrerade\"</item>
+        <item>Headers filtered</item>
+        <item>Media packets filtered</item>
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>Förstärkta färger</item>
@@ -177,25 +186,25 @@
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>Av</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Av</item>
-        <item>64 KB i buffertutrymme per logg</item>
-        <item>256 KB i buffertutrymme per logg</item>
+        <item>64 KB i bufferutrymme per logg</item>
+        <item>256 KB i bufferutrymme per logg</item>
         <item>1 MB i bufferutrymme per logg</item>
         <item>4 MB i bufferutrymme per logg</item>
         <item>16 MB i bufferutrymme per logg</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Av</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
-        <item>4M</item>
-        <item>16M</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Av</item>

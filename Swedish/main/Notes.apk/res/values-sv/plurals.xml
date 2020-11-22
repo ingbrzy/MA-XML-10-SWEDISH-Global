@@ -120,6 +120,10 @@
         <item quantity="other">Om %1$d dagar</item>
         <item quantity="one">Om %1$d dag</item>
     </plurals>
+    <plurals name="todo_terms">
+        <item quantity="other">%1$s uppgifter</item>
+        <item quantity="one">%1$s uppgift</item>
+    </plurals>
     <plurals name="word_count">
         <item quantity="other">%d tecken</item>
         <item quantity="one">%d tecken</item>

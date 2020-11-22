@@ -19,6 +19,7 @@
     <string name="application_package_introduction">Med denna app kan du installera tredjepartsappar, skanna dem före installation och ge rekommendationer efter installationen.</string>
     <string name="application_permissions">Appbehörigheter</string>
     <string name="back">Tillbaka</string>
+    <string name="backup_introduction">Du kan använda denna app för att säkerhetskopiera och återställa objekt på din enhet.</string>
     <string name="calculator_introduction">Du kan använda denna app för beräkningar, konvertering av enheter och valutor samt för uppskattning av återbetalning av lån.</string>
     <string name="camera_introduction">Du kan använda kameran för att ta foton och spela in videor.</string>
     <string name="carrier_introduction">För att ge dig bättre tjänster kan din enhet periodvis skicka information om enhetsversion, data om enhetsidentifikation (inklusive IMEI-/IMSI-/MSISDN-/MAC-adress, MEID/ICCID) och ungefärlig platsinformation (inklusive basstations-ID) till operatören via Wi-Fi, mobildatanätverk eller gratis SMS. Operatören lovar att endast analysera relevant information för att förbättra tjänsternas kvalitet eller för att tillhandahålla anpassade tjänster eller teknik och att inte lämna ut relevant information till tredje parter i någon form som identifierar dig personligen. Det specifika operatörsmeddelandet har företräde. Rådfråga din operatör när det gäller priset för att använda denna tjänst.</string>
@@ -44,6 +45,7 @@
     <string name="disageement_abnormal_download">Om du inte går med på att bevilja sådana behörigheter eller dela och ladda upp din personliga information kommer du inte att kunna använda denna tjänst.</string>
     <string name="disagree">Avbryt</string>
     <string name="disagreement_abnormal_running">Om du inte går med på att bevilja sådana behörigheter eller dela och ladda upp din personliga information kommer du inte att kunna använda denna app. Du kan välja att inte använda denna app eller begränsa behörigheter i Inställningar i sådana fall.</string>
+    <string name="disagreement_abnormal_running_fast_pairing">Om du inte går med på att bevilja sådana behörigheter kommer du inte kunna använde denna app. Du kan välja att begränsa behörigheter och stänga av denna funktion i Inställningar i sådana fall.</string>
     <string name="disagreement_donnot_use_application">Om du inte går med på att bevilja sådana behörigheter eller dela och ladda upp din personliga information kommer du inte att kunna använda denna app. Du kan välja att inte använda denna app i sådana fall.</string>
     <string name="disagreement_donnot_use_product">Om du inte går med på att bevilja sådana behörigheter eller dela och ladda upp din personliga information kommer du inte att kunna använda denna produkt. Du kan välja att inte använda denna produkt i sådana fall.</string>
     <string name="disagreement_donnot_use_service">Om du inte går med på att bevilja sådana behörigheter eller dela och ladda upp din personliga information kommer du inte att kunna använda denna tjänst. Du kan välja att inte använda denna tjänst i sådana fall.</string>
@@ -51,18 +53,22 @@
     <string name="disagreement_function">Om du inte går med på att bevilja sådana behörigheter eller dela och ladda upp din personliga information kommer du inte att kunna använda denna funktion. Du kan välja att inte använda denna funktion i sådana fall.</string>
     <string name="disagreement_location_service">Om du inte går med på att bevilja sådana behörigheter eller dela och ladda upp din personliga information kommer du inte att kunna använda denna tjänst.</string>
     <string name="disagreement_terminate_service">Om du inte går med på att bevilja sådana behörigheter eller dela och ladda upp din personliga information kommer du inte att kunna använda denna app. Du kan välja att avinstallera, logga ut eller begränsa behörigheter i Inställningar i sådana fall.</string>
-    <string name="download_introduction">Denna app hanterar alla dina nedladdningar, inklusive de som gjorts i GetApps, Mi Video, Uppdateraren, Teman och Webbläsaren.</string>
+    <string name="download_introduction">\"Nedladdningar\" använder Xunlei för att ladda ner objekt på din enhet. Detta verktyg fungerar för GetApps, systemuppdateringar, teman, videor, och webbläsar-nedladdningar.</string>
     <string name="enable_accessibility_canceled">Tillgänglighet avbruten.</string>
     <string name="enable_accessibility_dialog_message">Du aktiverade TalkBack genom att trycka på skärmen med två fingrar i över 10 sekunder. TalkBack ger röståterkoppling med personer med nedsatt syn. Om du aktiverade det av misstag, tryck på Avbryt och dubbeltryck sedan på skärmen.</string>
     <string name="enable_accessibility_dialog_negative_btn">Avbryt</string>
     <string name="enable_accessibility_dialog_positive_btn">OK</string>
     <string name="fast_application_introduction">Med ramverk för snabbappar kan du skapa och tillhandahålla tjänster i snabbappar.</string>
+    <string name="fast_pairing_introduction">Mi Link tillåter din enhet att ansluta till Bluetooth-enheter i närheten genom användning av MIUI Bluetooth Service. För att hitta enheter i närheten, tillåt MIUI Bluetooth Service att ansluta till internet.</string>
     <string name="font_hint_large">Standard textstorlek</string>
     <string name="font_hint_normal">Förstora textstorlek</string>
     <string name="framework_introduction">Med Mi Services Ramverk kan du använda Mi Konto, Mi Push, Mi Stats och MIUI BI.</string>
     <string name="framwork_base_service">För att förse dig med dessa tjänster behöver Mi Services Ramverk (Mi Konto, Mi Push, Mi Stats, MIUI BI) ansluta till internet, få tillgång till din plats, telefonnummer, IMEI och IMSI samt låta din enhet ta emot push-aviseringar</string>
     <string name="game_introduction">Med plug-in för spel kan du logga in, skapa beställningar, genomföra betalningar, använda kuponger och delta i kampanjevenemang.</string>
     <string name="google_service_introduction">För att kunna fungera normalt behöver Google Play ansluta till internet, få åtkomst till din plats, kunna spela in ljud, ringa samtal, få åtkomst till kalenderhändelser, samtalshistorik, sensorer, lagring, kamera, enhetsinformation och konton.</string>
+    <string name="home_settings_miui_home">Klassisk</string>
+    <string name="home_settings_poco_launcher">Applåda</string>
+    <string name="home_settings_title">Välj standard-launcher</string>
     <string name="ime_privacy_policy">Integritetspolicy för det valda tangentbordet</string>
     <string name="ime_privacy_policy_no_network">Ingen anslutning. Visa integritetspolicy för tangentbordet på %s.</string>
     <string name="input_method_category">Välj standardtangentbord som du kommer användas för att skriva meddelanden, anteckningar och annat. Du kan installera ett tredjepartstangentbord senare.</string>
@@ -70,16 +76,27 @@
     <string name="install_preinstall_app">Laddar appar…</string>
     <string name="item_fingerprint">Fingeravtryck</string>
     <string name="item_lock_screen_password">Endast skärmlås</string>
+    <string name="ktlocation_U">(KT Service Agent)</string>
+    <string name="ktposition_header">Dela platsinformation med räddningstjänster</string>
     <string name="language_picker_other_languages_title">Fler språk</string>
     <string name="language_settings">Välj språk</string>
     <string name="locale_picker_other_locale_title">Fler regioner</string>
     <string name="locale_picker_title">Välj din region</string>
+    <string name="location_U">U+ GPSnWPS</string>
+    <string name="location_content">I enlighet med lagen kan mobiloperatörer få tag på platsinformationen för mobilenheter för att följa kraven för räddningstjänstenheter (brandkåren och polisen) som strävar efter säkerhet och räddningar i nödsituationer som uppgift.</string>
     <string name="location_introduction">Platsbaserade tjänster hittar produkter och tjänster nära dig.</string>
+    <string name="location_location">Räddningstjänstenheter kan få tag på din nuvarande position vid begäran</string>
     <string name="lockscreen_introduction">Med bakgrundskarusell kan du få nya bilder levererade till din låsskärm varje dag.</string>
     <string name="mint_keyboard_oobe_checkbox">Jag har läst och godkänner integritetspolicyn för Mint Keyboard</string>
     <string name="mint_keyboard_oobe_terms">Integritetspolicy för Mint Keyboard</string>
     <string name="miui_privacy_policy_no_network">Du har ingen internetanslutning. Visa integritetspolicyn på %s.</string>
     <string name="miui_terms_no_network">Det finns ingen internetanslutning. Visa användaravtalet på %s.</string>
+    <string name="mobile_network">Med mobildata</string>
+    <string name="move_data_dialog_box_le">Detta möjliggör användning av mobildata och GPS-anslutning baserat på användarens begäran. Synkronisering av konton och andra objekt kan kräva användning av mobildata beroende på din smartphones specifikationer.</string>
+    <string name="move_data_dialog_box_title">Om du inte har en plan med obegränsad data, kan användning av mobildata generera ytterligare operatörskostnader. Använd mobildata ändå?</string>
+    <string name="move_data_dialog_cancel">Avbryt</string>
+    <string name="move_data_dialog_title">Du kan begränsa mobildata-anslutning i Inställningarna senare</string>
+    <string name="move_data_dialog_use">Använd</string>
     <string name="multisim_settings_category">Inställningar för SIM-kort</string>
     <string name="multisim_settings_title">2 SIM-kort upptäckta</string>
     <string name="navigation_picker_gesture_guide">Guide för gester</string>
@@ -111,6 +128,8 @@ Avaktivera personliga annonser ändå?"</string>
     <string name="permission_account">Få åtkomst till konton på din enhet:</string>
     <string name="permission_account_introduction">För att logga in med Mi Konto</string>
     <string name="permission_application_package_introduction">För åtkomst till lagring för att kunna analysera och skanna installationspaket</string>
+    <string name="permission_backup">Tillträder lagringsutrymmet</string>
+    <string name="permission_backup_introduction">För att tillträda och spara säkerhetskopior på din enhet</string>
     <string name="permission_call_records">Få åtkomst till samtalshistorik:</string>
     <string name="permission_call_records_introduction">För åtkomst till samtalshistorik för att kunna visa blockerade objekt</string>
     <string name="permission_call_state_introduction">För åtkomst till telefonstatus, inspelning av samtal och pausande av inspelningar under inkommande samtal</string>
@@ -152,6 +171,8 @@ Avaktivera personliga annonser ändå?"</string>
     <string name="poco_agree_terms_other">(inklusive Poco Launcher Sekretesspolicy och Användaravtal)</string>
     <string name="poco_launcher_privacy_policy">Sekretesspolicy för Poco Launcher</string>
     <string name="poco_launcher_user_agreement">Poco Launcher användaravtal</string>
+    <string name="position_header">Dela platsinformation</string>
+    <string name="position_subheading">Platsinformation</string>
     <string name="pref_title_data_slot">SIM-kort för mobildata att föredra</string>
     <string name="pref_title_voice_slot">Föredragit röst SIM-kort</string>
     <string name="privacy_policy">Integritetspolicy</string>
@@ -168,6 +189,7 @@ Se den valda tangentbords sekretesspolicyn."</string>
     <string name="service_agreement">Jag har läst och godkänt villkoren.</string>
     <string name="service_name_album">Galleri</string>
     <string name="service_name_application_package">Paketinstallerare</string>
+    <string name="service_name_backup">Säkerhetskopieringar</string>
     <string name="service_name_calculator">Kalkylator</string>
     <string name="service_name_camera">Kamera</string>
     <string name="service_name_carrier">Meddelande om operatörstjänster</string>
@@ -176,6 +198,7 @@ Se den valda tangentbords sekretesspolicyn."</string>
     <string name="service_name_content_center">Innehållscenter</string>
     <string name="service_name_download">Nedladdningar</string>
     <string name="service_name_fast_application">Ramverk för snabbappar</string>
+    <string name="service_name_fast_pairing">Mi Link</string>
     <string name="service_name_game">Plug-in för spel</string>
     <string name="service_name_google_service">Meddelande om Google-tjänster</string>
     <string name="service_name_location">Platsbaserade tjänster</string>
@@ -186,6 +209,7 @@ Se den valda tangentbords sekretesspolicyn."</string>
     <string name="service_name_security">Säkerhet</string>
     <string name="service_name_service_framework">Mi Services Ramverk</string>
     <string name="service_policy">&lt;Data>Läs och godkänn vår &lt;a href=%1$s>Integritetspolicy&lt;/a >.&lt;/Data></string>
+    <string name="service_policy_download">&lt;Data>Innan du använder våra tjänster, läs och acceptera &lt;a href=%1$s>Xunlei integritetspolicy&lt;/a >.&lt;/Data></string>
     <string name="service_privacy_index">Integritetspolicy</string>
     <string name="servicestate_title">Meddelande om grundläggande tjänster</string>
     <string name="setting_locale">Ställer in region…</string>
@@ -219,7 +243,7 @@ Du måste godkänna vårt användaravtal och vår integritetspolicy innan du kan
     <string name="terms_of_use_label_phrase">, Vanliga fraser</string>
     <string name="terms_of_use_label_systemhelper">, Självregistrerande tjänst</string>
     <string name="terms_of_use_label_updater">, Uppdaterare</string>
-    <string name="terms_of_use_lable_apps">Mi-tjänster, Mi SIM-aktiveringstjänster, Xiaomi Cloud, Hitta enhet, Hemskärm, Spel, MIUI Daemon och MSA-systemkomponenter, översättningstjänster, Snabbappar, Appvalv, statistik, Mi Link</string>
+    <string name="terms_of_use_lable_apps">Mi-tjänster, Mi SIM-aktiveringstjänster, Xiaomi Cloud, Hitta enhet, Hemskärm, Spel, MIUI Daemon och MSA-systemkomponenter, översättningstjänster, MIUI SDK, Snabbappar, Appvalv, statistik, Mi Link</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 Du måste godkänna Facmoji's Integritetspolicy innan du använder denna funktion."</string>
@@ -236,7 +260,7 @@ Du måste godkänna Integritetspolicyn för Mint Keyboard innan du använder den
     <string name="terms_privacy_policy_input_method_kika">Kika Integritetspolicy</string>
     <string name="title_fingerprint">Ange lösenord</string>
     <string name="user_agreement">Användaravtal</string>
-    <string name="user_agreement_declare">Innan du använder MIUI måste du läsa och godkänna våra Användarvillkor och vår Integritetspolicy. När din enhet aktiveras ansluter Mi SIM-aktiveringstjänst, Xiaomi Cloud, Hitta enhet, Hemskärmen, Frekventa fraser, Översättningstjänst, MIUI Daemon, HTML-visningsprogram, AI-assistent, Batteri och prestanda, Power Detector, Joyose, OS AI-inställningar, behörighetshanteraren och Uppdateraren till nätverket. Smarta tjänster kommer att ansluta till internet och få åtkomst till din plats.</string>
+    <string name="user_agreement_declare">Innan du använder MIUI måste du läsa och godkänna våra Användarvillkor och vår Integritetspolicy. När din enhet aktiveras ansluter Mi SIM-aktiveringstjänst, Xiaomi Cloud, Hitta enhet, Hemskärmen, Frekventa fraser, Översättningstjänst, MIUI Daemon, HTML-visningsprogram, MIUI SDK, AI-assistent, Batteri och prestanda, Power Detector, Joyose, OS AI-inställningar, behörighetshanteraren och Uppdateraren till nätverket. Smarta tjänster kommer att ansluta till internet och få åtkomst till din plats.</string>
     <string name="voice_assist_advice">Mi AI tillåter dig att använda röstkontroll men det förbrukar också mer ström (+1% varje timme).</string>
     <string name="voice_assist_condition">"Du kommer kunna använda Mi AI i dessa fall:r
 1. När skärmen är på.r

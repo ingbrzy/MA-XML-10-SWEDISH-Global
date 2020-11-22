@@ -160,6 +160,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
     <string name="dialog_backup_password_change_machine_tips">Du kommer inte att kunna överföra lösenordsskyddade säkerhetskopior. Stäng av säkerhetskopieringslösenordet innan användning av Mi Mover.</string>
     <string name="dialog_backup_password_restore_tips">Det går inte att återställa objekt när säkerhetskopieringslösenordet är på. Stäng av säkerhetskopieringslösenordet.</string>
     <string name="dialog_backup_password_to_settings">Inställningar</string>
+    <string name="digit_percent">%</string>
     <string name="dir_date_format">ååååMMdd_TTmmss</string>
     <string name="disable_encrypt_description">Inte krypterad</string>
     <string name="disable_encrypt_title">Stäng av kryptering</string>
@@ -254,6 +255,7 @@ Se till att USB-minnet har tillräckligt med utrymme innan du startar."</string>
 2.\u0009Gå till inställningar i Mi Talk och välj \"Säkerhetskopiera kontakter till Mi Konto\""</string>
     <string name="import_from_xiaomi_account_hint2">Om du redan har säkerhetskopierat, tryck Nästa.</string>
     <string name="import_from_xiaomi_account_hint_title">Använda Mi Talk för att säkerhetskopiera dina kontakter på flera enheter.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">På grund av kompatibilitetsproblem så kan du bara överföra delar av din data från iOS-enheter. Se till att du har skapat en iCloud backup före du börjar överföra.</string>
     <string name="lack_perm_msg">Mi Mover behöver följande behörigheter: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Behörigheter krävs</string>
@@ -305,6 +307,14 @@ Se till att USB-minnet har tillräckligt med utrymme innan du startar."</string>
     <string name="logining">Loggar in…</string>
     <string name="miliao_account_guide">Använd ditt Mi Konto för att logga in på Xiaomi Cloud, MIUI Teman och andra Mi-tjänster oavsett var du befinner dig.</string>
     <string name="miliao_account_login">Logga in med Mi Talk</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra nedåt för att uppdatera</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Uppdaterat</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Uppdaterar…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Släpp för att uppdatera</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">Det är allt för nu</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">Det är allt för nu</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Vänta en stund…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Det gick inte att ladda objekt</string>
     <string name="mms_title">MMS</string>
     <string name="multi_select_title">%1$s vald</string>
     <string name="multi_user_mode_backup_message">Det går inte att använda säkerhetskopiering i Fler-användar läge. Stäng av Fler-användar läge för att fortsätta.</string>
@@ -326,8 +336,8 @@ Se till att USB-minnet har tillräckligt med utrymme innan du startar."</string>
     <string name="new_local_detail_description">"Obs:
 %1$d. Kopiera säkerhetskopior till din dator för att undvika dataförlust. %2$s.
 %3$d. Säkerhetskopior kommer att sparas till MIUI-Backup-AllBackup."</string>
-    <string name="new_local_tab_backup">Säkerhetskopiera till mobilenhet</string>
-    <string name="new_local_tab_restore">Återställ från mobilenhet</string>
+    <string name="new_local_tab_backup">Säkerhetskopiera</string>
+    <string name="new_local_tab_restore">Återställ</string>
     <string name="new_low_storage_title">Inte tillräckligt med lagringsutrymme</string>
     <string name="new_more_settings_label">Ytterligare inställningar</string>
     <string name="new_pc_backup_content1">%1$d. Öppna \"%2$s\".</string>
@@ -350,8 +360,8 @@ Se till att USB-minnet har tillräckligt med utrymme innan du startar."</string>
     <string name="new_select_third">Appar och appdata från tredjepart</string>
     <string name="new_select_third_apk">Tredjeparts-appar</string>
     <string name="new_select_third_data">Appdata från tredjepart</string>
-    <string name="new_tab_pc_backup">Säkerhetskopiera till dator</string>
-    <string name="new_tab_pc_restore">Återställ från dator</string>
+    <string name="new_tab_pc_backup">Säkerhetskopiera</string>
+    <string name="new_tab_pc_restore">Återställ</string>
     <string name="new_task_finished">Klart</string>
     <string name="new_usb_detail_description">"Obs:
 %1$d. Denna metod tillåter säkerhetskopiering av tredjeparts-appar och appdata.
@@ -359,8 +369,8 @@ Se till att USB-minnet har tillräckligt med utrymme innan du startar."</string>
     <string name="new_usb_disconnect_dialog_message">Anslut ett USB-minne först.</string>
     <string name="new_usb_disconnect_dialog_title">Kunde inte hitta USB-minne</string>
     <string name="new_usb_select_data_no_space">Endast %s av lagringen är tillgänglig på ditt USB-minne. Frigör lagringsutrymme.</string>
-    <string name="new_usb_tab_backup">Säkerhetskopiera till USB-minne</string>
-    <string name="new_usb_tab_restore">Återställ från USB-minne</string>
+    <string name="new_usb_tab_backup">Säkerhetskopiera</string>
+    <string name="new_usb_tab_restore">Återställ</string>
     <string name="no_encrypt_password">Inget lösenord</string>
     <string name="no_network">Kan inte ansluta till nätverket</string>
     <string name="not_set">Inte angett</string>
@@ -755,8 +765,11 @@ Frigör utrymme eller överför endast viktiga objekt."</string>
 Stäng inte sidan innan anslutningen är upprättad."</string>
     <string name="waiting">Vänta lite…</string>
     <string name="wifi_title">Wi-Fi-inställningar</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunde inte starta nedladdning. Kontrollera att appen för Nedladdningar fungerar normalt.</string>
     <string name="xiaomi_external_storage_unavailable">Lagring inte tillgänglig, kontrollera ditt SD-kort.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_router">Mi Router</string>
     <string name="xiaomi_router_location">Mi Router %s</string>
     <string name="xiaomi_update_dialog_message">"Introducerar version %1$s

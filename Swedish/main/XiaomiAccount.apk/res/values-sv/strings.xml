@@ -158,6 +158,7 @@ Du kan logga in på ditt Mi Konto med %s nu."</string>
     <string name="confirm_unbundled_phone_dialog_message">Telefonnumret %1$s associerar med Mi-Kontot %2$s. Det kommer inte associerar med Mi-kontot %3$s om du fortsätter. Fortsätta?</string>
     <string name="continue_action">Fortsätt</string>
     <string name="copy">Kopiera</string>
+    <string name="copy_to_clipboard_successful">Kopiering lyckades</string>
     <string name="delete_action">Ta bort</string>
     <string name="delete_bank_card_message">Mi Pay bankkort and NFC kort kommer att raderas när du loggats ut.</string>
     <string name="delete_bank_card_title">Uppmärksamma</string>
@@ -358,6 +359,10 @@ Skicka koden till handledaren."</string>
     <string name="passport_get_verify_code">Hämta kod</string>
     <string name="passport_getting_activator_phone">Hämtar SMS info…</string>
     <string name="passport_getting_verify_code">Hämtar</string>
+    <string name="passport_google_login">Logga in med det tidigare använda Google-kontot?</string>
+    <string name="passport_google_login_agree">Google Konto</string>
+    <string name="passport_google_login_disagree">Mi Konto</string>
+    <string name="passport_google_login_failed">Det gick inte att logga in med Google. Logga in till ditt Mi konto direkt.</string>
     <string name="passport_i_know">Jag förstår</string>
     <string name="passport_identification_expired">Verifieringkod gått ut, starta om</string>
     <string name="passport_imei_permission_denied_message">Vi begär tillstånd att få enhetens IMEI. Mi konto använder IMEI för att identifiera enheten som du logga in / registrera dig, för att hålla kontot Mi säker.</string>

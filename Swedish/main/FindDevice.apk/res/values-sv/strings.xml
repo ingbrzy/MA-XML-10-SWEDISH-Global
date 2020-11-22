@@ -46,8 +46,8 @@ Kontakta ditt försäljningsagent för detaljer."</string>
     <string name="passport_trust_device">Lita på den här enheten</string>
     <string name="passport_vcode_prompt_long">Ange verifieringskod</string>
     <string name="passport_verify">Verifiera</string>
-    <string name="password">Lösenord</string>
-    <string name="phone_locked">Denna enhet är förknippad med befintligt Mi konto-Id (%s). Logga in för att aktivera den här enheten.</string>
+    <string name="password">Ange lösenord</string>
+    <string name="phone_locked">Denna enhet är associerad med ett Mi konto (%s). Ange lösenord för att aktivera enheten.</string>
     <string name="phone_locked_account_email">, tillhörande e-post: %s</string>
     <string name="phone_locked_account_phone">, tillhörande telefonnummer: %s</string>
     <string name="return_to_call">Återgå till samtal</string>
@@ -74,14 +74,13 @@ Kontakta ditt försäljningsagent för detaljer."</string>
     <string name="unlock_error_unknown">Kan inte logga in</string>
     <string name="unlock_error_user_name">Ogiltigt användarnamn</string>
     <string name="unlock_error_wrong_vcode">Koden du angav är felaktig</string>
-    <string name="unlock_help">"Håll kontakten med nätverket.
-Se till att du har installerat ett fungerande SIM-kort (om din enhet stöder detta) och att enheten är ansluten till ett aktivt trådlöst nätverk.
+    <string name="unlock_help">"Anslut till nätverket.
+Sätt i ett fungerande SIM-kort och anslut inte till ogiltiga Wi-Fi-nätverk.
 
-Glömt lösenord?
-Gå till id.mi.com för att återställa ditt lösenord.
-
-Andra skäl
-Logga in på i.mi.com och försök att låsa upp din enhet därifrån."</string>
+Glömt lösenordet?
+Gå till id.mi.com, välj \"Glömt lösenordet?\", och följ instruktionerna.
+Kan du inte aktivera enheten?
+Gå till i.mi.com/ss och skicka din ansökan för att låsa upp enheten."</string>
     <string name="unlock_help_title">Låsa upp hjälp:</string>
     <string name="unlock_number">Upplåsningskod: %s</string>
     <string name="unlock_wrong_captcha">Koden du angav är felaktig</string>

@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="activity_convert_pdf_alert_message">Filkonverteringen tillhandahålls av WPS Office</string>
+    <string name="activity_convert_pdf_alert_title">Konverterar fil före utskrift…</string>
+    <string name="activity_jump_market_alert_install_message">Installera WPS Office för att konvertera denna fil och förbereda den för utskrift. Du kommer behöva starta utskriften igen efter att installationen är slutförd. Installera nu?</string>
+    <string name="activity_jump_market_alert_install_positive_button">Installera</string>
+    <string name="activity_jump_market_alert_title">Obs!</string>
+    <string name="activity_jump_market_alert_update_message">Uppdatera WPS Office för att konvertera denna fil och förbereda den för utskrift. Du kommer behöva starta utskriften igen efter att den nya versionen är installerad. Uppdatera nu?</string>
+    <string name="activity_jump_market_alert_update_positive_button">Uppdatera</string>
     <string name="add_print_service_label">Lägg till tjänst</string>
     <string name="all_printers">Alla skrivare ...</string>
     <string name="all_printers_label">Alla skrivare</string>
@@ -16,7 +23,10 @@
     <string name="collapse_handle">Handtag som komprimerar utskriftsalternativen</string>
     <string name="connectio_delay_content">Du kan behöva bekräfta anslutningen på din skrivare.</string>
     <string name="connectio_help_title">Anslutning till skrivaren</string>
+    <string name="copies_decrease">Minus en kopia</string>
+    <string name="copies_increase">Plus en kopia</string>
     <string name="could_not_create_file">Det gick inte att skapa filen</string>
+    <string name="current_page_template">%1$d/%2$d</string>
     <string name="delete_saved_printer_content">Ta bort valda skrivare nu?</string>
     <string name="destination_default_text">Välj skrivare</string>
     <string name="disabled_services_title">Inaktiverade tjänster</string>
@@ -45,7 +55,7 @@
     <string name="open_print_service">Aktivera utskrift</string>
     <string name="open_print_service_tips">För att kunna använda den här funktionen, aktivera utskrift först i inställningarna.</string>
     <string name="open_wlan">Slå på WiFi</string>
-    <string name="open_wlan_tips">Slå på Wi-Fi för att hitta skrivare snabbare.</string>
+    <string name="open_wlan_tips">Slå på Wi-Fi för att hitta skrivare</string>
     <string name="other_printer">Övriga skrivare</string>
     <string name="page_description_template">Sidan %1$d av %2$d</string>
     <string name="pages_range_example">t.ex. 1–5,8,11–13</string>
@@ -62,7 +72,7 @@
     <string name="print_fail_network_error">Det gick inte att öppna, kontrollera nätverksinställningarna och försök igen.</string>
     <string name="print_forget_printer">Ta bort en skrivare</string>
     <string name="print_help_label">Hjälp</string>
-    <string name="print_help_tip">Se till att både telefonen och skrivaren är anslutna till samma Wi-Fi-nätverk eller att Wi-Fi Direct är på. %1$s.</string>
+    <string name="print_help_tip">Se till att både skrivaren och din telefon och är anslutna till samma Wi-Fi-nätverk eller att Wi-Fi Direct är på. %1$s.</string>
     <string name="print_help_tip_reg">Visa \"Hjälp\"</string>
     <string name="print_no_print_services">Inga utskriftstjänster har aktiverats</string>
     <string name="print_no_printers">Det gick inte att hitta några skrivare</string>
@@ -85,6 +95,7 @@
     <string name="printer_busy">Skrivaren är upptagen</string>
     <string name="printer_error">Felmeddelande skrivare</string>
     <string name="printer_error_msg">Skrivarfel: %1$s</string>
+    <string name="printer_extended_description_template">%1$s – %2$s</string>
     <string name="printer_info_desc">Mer information om den här skrivaren</string>
     <string name="printer_notification_error_title">Kunde inte skriva ut %1$s</string>
     <string name="printer_unavailable">Skrivaren är inte tillgänglig</string>
@@ -109,4 +120,6 @@
     <string name="template_all_pages">Alla %1$s</string>
     <string name="template_page_range">Intervall på %1$s</string>
     <string name="wifi_direct">Wi-Fi Direkt</string>
+    <string name="wps_convert_error_toast_text">Det gick inte att konvertera filen på grund av ett formatfel</string>
+    <string name="wps_convert_too_large_and_wait_toast_text">Konverteringen kan ta längre tid på grund av en större filstorlek. Konverterar…</string>
 </resources>

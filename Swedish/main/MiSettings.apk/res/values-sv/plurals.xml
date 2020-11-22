@@ -40,6 +40,10 @@
         <item quantity="other">Upplåst %d gånger</item>
         <item quantity="one">Upplåst %d gång</item>
     </plurals>
+    <plurals name="usage_new_home_total_unlocks_new">
+        <item quantity="other">Upplåst %1$d gånger den %2$s</item>
+        <item quantity="one">Upplåst %1$d gång den %2$s</item>
+    </plurals>
     <plurals name="usage_new_home_total_week_unlocks">
         <item quantity="other">Upplåst %d gånger</item>
         <item quantity="one">Upplåst %d gång</item>

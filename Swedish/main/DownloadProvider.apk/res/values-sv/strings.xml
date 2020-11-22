@@ -10,6 +10,7 @@
     <string name="download_queued">Köad</string>
     <string name="download_remaining">%s återstår</string>
     <string name="download_running">Laddar ned</string>
+    <string name="download_running_percent">Laddar ner %s</string>
     <string name="download_unknown_title">&lt;Okänd></string>
     <string name="notif_title_file_size">%1$d totalt</string>
     <string name="notif_title_single_downloading">Laddar ned %1$s</string>
@@ -34,12 +35,12 @@
     <string name="permlab_downloadWithoutNotification">Ladda ner filer utan notifikationer</string>
     <string name="permlab_seeAllExternal">Visa alla nedladdningar till USB-lagringen</string>
     <string name="root_downloads">Nedladdningar</string>
-    <string name="wifi_recommended_body" formatted="false">"Att starta denna %s nedladdning nu kan förkorta livslängden på ditt batteri och/eller resultera i överdriven användning av din mobildata vilket kan leda till avgifter från din operatör beroende på ditt abonnemang.
+    <string name="wifi_recommended_body">"Att starta denna %1$s nedladdning nu kan förkorta livslängden på ditt batteri och/eller resultera i överdriven användning av din mobildata vilket kan leda till avgifter från din operatör beroende på ditt abonnemang.
 
-Tryck %s för att starta nedladdningen nästa gång du är ansluten till Wi-Fi nätverk."</string>
+Tryck %2$s för att starta nedladdningen nästa gång du är ansluten till Wi-Fi nätverk."</string>
     <string name="wifi_recommended_title">Köa för nedladdning senare?</string>
-    <string name="wifi_required_body" formatted="false">"Anslut till Wi-Fi för att slutföra denna %s nedladdning. 
+    <string name="wifi_required_body">"Anslut till Wi-Fi för att slutföra denna %1$s nedladdning. 
 
-Tryck %s för att starta denna nedladdning nästa gång du är ansluten till Wi-Fi."</string>
+Tryck %2$s för att starta denna nedladdning nästa gång du är ansluten till Wi-Fi."</string>
     <string name="wifi_required_title">Filen är för stor för att ladda ner med mobildata</string>
 </resources>

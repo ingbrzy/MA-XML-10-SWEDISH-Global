@@ -30,7 +30,7 @@
     <string name="advanced_mode">Avancerade inställningar</string>
     <string name="anti_flicker_mode">Anti-flimmer</string>
     <string name="anti_flicker_mode_categroy">Lägen</string>
-    <string name="anti_flicker_mode_summary">Reducera flimmer i lågljusförhållanden för att minska ansträngningen på ögonen. Vissa element kanske inte visas korrekt.</string>
+    <string name="anti_flicker_mode_summary">Förebygg omfattande flimmer och minska ögonansträngningen i lågljusförhållanden</string>
     <string name="anti_flicker_title">Anti-flimmer läge</string>
     <string name="app_name">Inställningar</string>
     <string name="application_sound">Notifikationer för appar</string>
@@ -51,6 +51,10 @@
     <string name="created">Skapad</string>
     <string name="created_successfully">Skapad utan problem</string>
     <string name="cu_confirm">Ställ in</string>
+    <string name="dc_light_hint_enable_title">Obs</string>
+    <string name="dc_light_hint_normal">DC dimming kan påverka hur vissa objekt visas.</string>
+    <string name="dc_light_hint_other">DC dimming kan påverka uppdateringsfrekvensen och hur vissa objekt visas.</string>
+    <string name="dc_lignt_enable_hint">Antiflimmer-läge kommer sätta skärmens uppdateringsfrekvens till 60 Hz. Växla till Antiflimmer-läge?</string>
     <string name="display_description">Större ikoner, stor text, mindre synlig oreda</string>
     <string name="display_title">Större objekt</string>
     <string name="exit_easymode">Inaktivera Enkelt läge</string>
@@ -66,6 +70,7 @@
     <string name="follow_sim1">Använd inställningar för SIM 1</string>
     <string name="gamma">Gamma</string>
     <string name="healthy_use_phone">Hantera skärmtid</string>
+    <string name="high_fps_description">Hög skärmuppdateringsgrad. Högre strömförbrukning.</string>
     <string name="hsv_space_color">HSV-färgutrymme</string>
     <string name="hsv_space_color_hue">Nyans</string>
     <string name="hsv_space_color_saturation">Mättnad</string>
@@ -74,6 +79,7 @@
     <string name="intelligent_recognition_item_title">Identitetstjänster</string>
     <string name="less_than_one">&lt; %d</string>
     <string name="lock_summary">Skydda din personliga information</string>
+    <string name="low_fps_description">Låg skärmuppdateringsgrad. Lägre strömförbrukning.</string>
     <string name="low_light_preview">Lågljusförhandsvisning</string>
     <string name="mms">Meddelanden</string>
     <string name="more_ringtone">Alla ringsignaler</string>
@@ -119,6 +125,7 @@
     <string name="search_menu_title">Sök</string>
     <string name="several_days_use_time">Skärmtid: %2$s</string>
     <string name="shortcut_created">Genvägen finns redan</string>
+    <string name="silent_ringtone_hint">Ljudet är avstängt nu. Öka volymen och försök igen.</string>
     <string name="sim_slot_1">" (SIM 1)"</string>
     <string name="sim_slot_2">" (SIM 2)"</string>
     <string name="sms_delivered_sound_title">Levererat meddelande</string>
@@ -158,7 +165,9 @@
     <string name="usage_app_limit_alter_title">Kontrollera skärmtidsgräns</string>
     <string name="usage_app_limit_prelong">Utöka tid</string>
     <string name="usage_app_limit_reach_summay">%s återstår</string>
+    <string name="usage_app_limit_reach_summay_new">Tryck för att lägga till %d minuter</string>
     <string name="usage_app_limit_reach_title">%s når sin skärmtidsgräns</string>
+    <string name="usage_app_limit_reach_title_new" formatted="false">Kvarstående skärmtid för %1s: %2s</string>
     <string name="usage_app_limit_summary">Valda appar kommer inte att vara tillgängliga när gränsen uppnås</string>
     <string name="usage_app_limit_title">Begränsa skärmtid</string>
     <string name="usage_app_other_settings">Övriga inställningar</string>
@@ -210,8 +219,12 @@ Denna app behöver även ansluta till internet och kräver följande behörighet
     <string name="usage_home_premission_second_summary_double_link_prefix">Vi kommer att skydda din personliga information i enlighet med relevanta lagar, regleringar och integritetspolicyer. Om du inte accepterar att bevilja sådana behörigheter eller dela och ladda upp din personliga information så kommer du inte kunna använda denna app. Du kan återkalla din auktorisering i Screen time > Inställningar > Stäng av skärmtid.</string>
     <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>Innan du använder denna app, läs och acceptera vårt &lt;a href='%1s'>användaravtal&lt;/a> och vår &lt;a href='%2s'>integritetspolicy&lt;/a>.&lt;/Data>"</string>
     <string name="usage_home_premission_second_summary_new">Vi kommer att skydda din personliga information i enlighet med relevanta lagar, regleringar och integritetspolicyer. Om du inte accepterar att bevilja sådana behörigheter eller dela och ladda upp din personliga information så kommer du inte kunna använda denna app. Du kan återkalla din auktorisering i Screen time > Inställningar > Stäng av skärmtid. Om du har fler frågor om sekretess kan du kontakta oss på privacy@xiaomi.com.</string>
+    <string name="usage_new_home_app_limit_summary">Ställ in en daglig skärmtidsgräns för denna app</string>
+    <string name="usage_new_home_app_limit_title">Begränsa skärmtid</string>
     <string name="usage_new_home_average">"Snitt "</string>
+    <string name="usage_new_home_avg_usage_day">Snitt %s dagligen</string>
     <string name="usage_new_home_category">Kategori</string>
+    <string name="usage_new_home_classify_manage">Hantera appkategorier</string>
     <string name="usage_new_home_compare_text1">%.2f mer än dagen innan</string>
     <string name="usage_new_home_compare_text2">%.2f mindre än dagen innan</string>
     <string name="usage_new_home_compare_text3">Samma som dagen innan</string>
@@ -219,15 +232,19 @@ Denna app behöver även ansluta till internet och kräver följande behörighet
     <string name="usage_new_home_dashboard">Instrumentbräda</string>
     <string name="usage_new_home_date_day_title">%s | Användningsvaraktighet</string>
     <string name="usage_new_home_day_category_title">App-kategorier</string>
+    <string name="usage_new_home_day_category_title_new">Skärmtid för app-kategorier den: %s</string>
     <string name="usage_new_home_day_title">Dag</string>
     <string name="usage_new_home_day_usage_title">Enskilda appar</string>
+    <string name="usage_new_home_day_usage_title_new">Skärmtid den: %s</string>
     <string name="usage_new_home_first_unlock">Lås först upp: %s</string>
     <string name="usage_new_home_name">Namn</string>
     <string name="usage_new_home_show_more_data_summary">Du kan även begränsa skärmtiden för enskilda appar</string>
     <string name="usage_new_home_show_more_data_title">Visa mer statistik</string>
+    <string name="usage_new_home_sys_no_limit_summary">Det går inte att begränsa skärmtid för systemappar</string>
     <string name="usage_new_home_unlock_equals_text">Samma som dagen innan</string>
     <string name="usage_new_home_unused">Använde inte</string>
     <string name="usage_new_home_update">Ändra</string>
+    <string name="usage_new_home_usage_detail">Användningsdetaljer</string>
     <string name="usage_new_home_week_category_title">App-kategorier</string>
     <string name="usage_new_home_week_compare_text1">%.2f mer än veckan innan</string>
     <string name="usage_new_home_week_compare_text2">%.2f mindre än veckan innan</string>
@@ -249,7 +266,7 @@ Denna app behöver ansluta till internet och kräver följande behörigheter fö
     <string name="usage_reach_device_limit_warning_text">Du har uppnått din skärmtidsgräns för idag</string>
     <string name="usage_refresh">Försök igen</string>
     <string name="usage_remain_about_hour_miunte">≈%1$s %2$s</string>
-    <string name="usage_remain_hour_miunte">%1$s%2$s</string>
+    <string name="usage_remain_hour_miunte">%1$s %2$s</string>
     <string name="usage_request_error_summary">Ett okänt fel inträffade</string>
     <string name="usage_request_timeout_summary">Begäran tog för lång tid</string>
     <string name="usage_runtime_per_des_summary">För att spara din skärmtidsstatistik</string>
@@ -363,6 +380,8 @@ Denna app behöver ansluta till internet och kräver följande behörigheter fö
     <string name="usage_stats_week_day">Helger</string>
     <string name="usage_total_days">Totalt antal dagar</string>
     <string name="usage_total_times">Totalt antal sessioner</string>
+    <string name="usage_week_avg_usage_title">Snitt denna vecka</string>
+    <string name="usage_week_avg_usage_title2">Snittid</string>
     <string name="usage_weekly_report_summary">Lär dig hur mycket tid du lägger på din enhet</string>
     <string name="usage_weekly_report_title">Veckorapport</string>
     <string name="usagestats_app_category_miui_education">Utbildning</string>

@@ -104,14 +104,6 @@
         <item quantity="other">Certifikatutfärdare har installerats</item>
         <item quantity="one">Certifikatutfärdare har installerats</item>
     </plurals>
-    <plurals name="wifi_available">
-        <item quantity="other">Wi-Fi-nätverk är tillgängliga</item>
-        <item quantity="one">Wi-Fi-nätverk är tillgängligt</item>
-    </plurals>
-    <plurals name="wifi_available_detailed">
-        <item quantity="other">Öppna Wi-Fi-nätverk är tillgängliga</item>
-        <item quantity="one">Öppet Wi-Fi-nätverk är tillgängligt</item>
-    </plurals>
     <plurals name="zen_mode_duration_hours">
         <item quantity="other">I %d timmar</item>
         <item quantity="one">I en timme</item>

@@ -4,6 +4,30 @@
         <item quantity="other">Fokuserad. %d ansikten detekterade</item>
         <item quantity="one">Fokuserad. %d ansikte detekterat</item>
     </plurals>
+    <plurals name="accessibility_timer_burst_count">
+        <item quantity="other">%d foton i en fotoserie</item>
+        <item quantity="one">%d foto i en fotoserie</item>
+    </plurals>
+    <plurals name="accessibility_timer_burst_interval">
+        <item quantity="other">Intervall: %d sekunder</item>
+        <item quantity="one">Intervall: %d sekund</item>
+    </plurals>
+    <plurals name="accessibility_vv_duartion">
+        <item quantity="other">Duration: %d seconds</item>
+        <item quantity="one">Duration: %d second</item>
+    </plurals>
+    <plurals name="clone_guide_tip2">
+        <item quantity="other">Du kan skapa upp till %d kloner åt gången.</item>
+        <item quantity="one">Du kan skapa upp till %d klon åt gången.</item>
+    </plurals>
+    <plurals name="pref_camera_fastmotion_duration_unit">
+        <item quantity="other">%1$s minuter</item>
+        <item quantity="one">%1$s minut</item>
+    </plurals>
+    <plurals name="timer_burst_setting_total_count">
+        <item quantity="other">%1$s foton</item>
+        <item quantity="one">%1$s foto</item>
+    </plurals>
     <plurals name="toast_burst_snap_finished_summary">
         <item quantity="other">Fotoserie slutförd, %1$s foton tagna</item>
         <item quantity="one">Fotoserie slutförd, %1$s foto taget</item>

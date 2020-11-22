@@ -20,6 +20,12 @@
         <item>Säkerhetskopiera viktiga inställningar inklusive Wi-Fi och skärmen</item>
         <item>Fjärrlås din enhet om den försvinner</item>
     </string-array>
+    <string-array name="micloud_entrance_subtitleArray_china">
+        <item>Sync your contacts, messages, notes, calendar, and more</item>
+        <item>Back up apps, Home screen layout, and wallpaper</item>
+        <item>Back up important settings, including WLAN and display</item>
+        <item>"Lock your device remotely if it's lost"</item>
+    </string-array>
     <string-array name="micloud_entrance_titleArray">
         <item>Synkronisera appdata</item>
         <item>Säkerhetskopiera Hemskärmens utseende</item>
@@ -98,6 +104,11 @@
         <item>Aktivera synkronisering</item>
         <item>App vault;Kort;Moln;Synkronisera;Molntjänster;Xiaomi Cloud</item>
     </string-array>
+    <string-array name="settings_search_phrase">
+        <item>Synkronisera snabbsvar</item>
+        <item>Slå på synkning</item>
+        <item>Snabbsvar;Urklipp;Editor;Moln;Synkronisera;Molntjänster</item>
+    </string-array>
     <string-array name="settings_search_recorder">
         <item>Synkronisera inspelningar med Xiaomi Cloud</item>
         <item>Aktivera/konfigurera synkronisering</item>
@@ -114,9 +125,9 @@
         <item>Moln;Säkerhetskopiera;Uppbackning;Återställ;Molntjänster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_security">
-        <item>Synkronisera Säkerhet med Xiaomi Cloud</item>
+        <item>Säkerhetssynkronisering av molnet</item>
         <item>Aktivera synkronisering</item>
-        <item>Säkerhet;Moln;Synkronisera;Molntjänster;Xiaomi Cloud</item>
+        <item>Säkerhet;Moln;Xiaomi Cloud,Synkronisera;Molntjänster</item>
     </string-array>
     <string-array name="settings_search_sms">
         <item>Synkronisera meddelanden med Xiaomi Cloud</item>
@@ -137,6 +148,11 @@
         <item>Synkronisera Wi-Fi-inställningar med Xiaomi Cloud</item>
         <item>Aktivera synkronisering</item>
         <item>WLAN;Wi-Fi;wifi;Moln;Synkronisera;Molntjänster;Xiaomi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_wlan_china">
+        <item>Sync WLAN settings with Xiaomi Cloud</item>
+        <item>Turn on sync</item>
+        <item>WLAN;wifi;Wi-Fi;Cloud;Sync;Cloud services;Xiaomi Cloud</item>
     </string-array>
     <string-array name="user_detail_fixed_items">
         <item>Visa synkroniserade objekt</item>

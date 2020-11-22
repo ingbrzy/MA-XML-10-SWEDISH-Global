@@ -10,6 +10,14 @@
  gå till %s på en annan enhet."</string>
     <string name="loading">Vänta lite…</string>
     <string name="mibi_license">Mi Credits användaravtal</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra nedåt för att uppdatera</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Uppdaterat</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Uppdaterar…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Släpp för att uppdatera</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">Det är allt för nu</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">Det är allt för nu</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Vänta en stund…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Det gick inte att ladda objekt</string>
     <string name="open_wifi_connect_and_use_data_summary">Använder mobildata. Tryck för att byta till Wi-Fi.</string>
     <string name="open_wifi_connect_summary">Tryck för att visa detaljer.</string>
     <string name="open_wifi_connect_title">Ansluten till %1$s</string>

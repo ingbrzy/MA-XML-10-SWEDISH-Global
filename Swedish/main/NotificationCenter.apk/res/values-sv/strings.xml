@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
     <string name="app_name">Notifikationer</string>
+    <string name="back">Tillbaka</string>
     <string name="cancel">Avbryt</string>
     <string name="category_other">Annat</string>
     <string name="confirm">OK</string>
@@ -46,6 +47,7 @@
     <string name="feedback_tip_msg">För att gruppera notifikationer mer exakt behöver vi samla in appnamn, notifikationstitel och beskrivning, och tiden för när notifikationen skickades. Skicka in din feedback?</string>
     <string name="feedback_tip_title">Feedback om notifikationskategorier</string>
     <string name="float_notifications">Svävande notifikationer</string>
+    <string name="float_notifications_short">Flytande</string>
     <string name="function_description">Om denna funktion</string>
     <string name="hint_search_all">Sök efter appar</string>
     <string name="hint_search_in_disabled_apps">Sök efter appar som inte får visa notifikationer</string>
@@ -56,20 +58,14 @@
     <string name="lock_screen_display_rules">Formatera</string>
     <string name="lock_screen_tip_toast">Tillåt notifikationer på Låsskärmen i \"Format\"</string>
     <string name="lockscreen_notifications">Notifikationer på Låsskärmen</string>
-    <string name="menu_setting_recommend_to_minus">Visa färre notifikationer</string>
-    <string name="menu_setting_recommend_to_normal">Reducera inte notifikationer</string>
+    <string name="lockscreen_notifications_short">Låsskärm</string>
     <string name="menu_setting_show_in_home">Gruppera inte</string>
-    <string name="menu_setting_tip_recommend_minus">Du kommer se färre notifikationer från %s</string>
-    <string name="menu_setting_tip_recommend_normal">Notifikationer från %s kommer inte att reduceras</string>
     <string name="menu_setting_tip_show_in_home">Notifikationer från %s kommer inte att grupperas</string>
     <string name="menu_setting_tip_unfold">Alla notifikationer från denna app kommer att anses vara viktiga</string>
-    <string name="menu_setting_toast_recommend_minus">Du kommer se färre notifikationer från %s</string>
-    <string name="menu_setting_toast_recommend_normal">Notifikationer från %s kommer inte att reduceras</string>
-    <string name="menu_setting_toast_show_in_home">Notifikationer från %s kommer inte att grupperas</string>
     <string name="menu_setting_unfold">Viktigt</string>
     <string name="not_sent_recently">Inte nyligen</string>
     <string name="not_set">Inte angett</string>
-    <string name="notch_and_status_bar_setting">Sensorpanel &amp; statusfält</string>
+    <string name="notch_and_status_bar_setting">Kontrollcenter &amp; statusfält</string>
     <string name="notification_aggregate_description1">MIUI kan gruppera push- och reklam-notifikationer automatiskt, och göra din notifikationsskugga mindre fullpackad.</string>
     <string name="notification_aggregate_description2">Våra algoritmer analyserar notifikationsinnehåll och tillämpar inte denna funktion på viktiga aviseringar och notifikationer från direktmeddelandeprogram. Om du märker att viktiga notifikationer grupperas av misstag, rapportera problemet du har stött på via vår \"Feedback\"-funktion.</string>
     <string name="notification_aggregate_summary">Tillåt MIUI att gruppera notifikationer automatiskt</string>
@@ -80,8 +76,6 @@
     <string name="notification_fold_summary">Gruppera oviktiga notifikationer automatiskt</string>
     <string name="notification_fold_title">Gruppera notifikationer</string>
     <string name="notification_manager">Appnotifikationer</string>
-    <string name="notification_setting_menu_feedback_text">"Bör denna notifikation inte finnas här?
-Rapportera detta problem >"</string>
     <string name="notification_style_android">Android</string>
     <string name="notification_style_miui">MIUI</string>
     <string name="off">Av</string>
@@ -90,6 +84,8 @@ Rapportera detta problem >"</string>
     <string name="search_menu_title">Sök</string>
     <string name="settings_guide_title">Behöver andra inställningar?</string>
     <string name="show_badge_notifications">Notifikationsmärken</string>
+    <string name="show_badge_notifications_short">Märken</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statusfält</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_disable_float_notification">Svävande notifikationer tillåts inte</string>
@@ -102,8 +98,6 @@ Rapportera detta problem >"</string>
     <string name="summary_lock_screen_enable_notification_first">Tillåt notifikationer att aktivera notifikationer på Låsskärmen</string>
     <string name="summary_show_badge_enable_notification_first">Tillåt notifikationer att aktivera notifikationsmärken</string>
     <string name="swipe_to_delete">Svep åt vänster eller höger för att ta bort</string>
-    <string name="tip_feedback_success">Inskickat</string>
-    <string name="tip_select_category">Välj notifikationskategori</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
 </resources>

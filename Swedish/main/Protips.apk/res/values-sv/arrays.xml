@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tips">
+        <item>"Visa alla dina program.
+ Tryck på startikonen. @dragbar/alla_program"</item>
+        <item>"Dra appar till din startskärm.
+ Tryck på en app i startprogrammet tills den vibrerar."</item>
+        <item>"Ordna om startskärmen.
+ Tryck på ett objekt tills det vibrerar och dra det sedan dit du vill ha det."</item>
+        <item>"Ta bort objekt.
+ Tryck på ett objekt tills det vibrerar och dra det sedan till papperskorgen. @drawable/trash"</item>
+        <item>"Flera startskärmar.
+ Dra åt höger eller vänster om du vill byta. Dra objekt till andra skärmar."</item>
+        <item>"Är du klar med widgeten?
+ Tryck på den tills den vibrerar och dra den sedan till papperskorgen."</item>
+    </string-array>
+</resources>

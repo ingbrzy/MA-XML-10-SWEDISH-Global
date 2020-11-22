@@ -4,10 +4,10 @@
     <string name="This_week">Denna vecka</string>
     <string name="Today">Idag</string>
     <string name="Yesterday">Igår</string>
-    <string name="abc_action_bar_home_description">Visa startsidan</string>
+    <string name="abc_action_bar_home_description">Navigera hem</string>
     <string name="abc_action_bar_up_description">Navigera uppåt</string>
     <string name="abc_action_menu_overflow_description">Fler alternativ</string>
-    <string name="abc_action_mode_done">Klart</string>
+    <string name="abc_action_mode_done">Klar</string>
     <string name="abc_activity_chooser_view_see_all">Visa alla</string>
     <string name="abc_activitychooserview_choose_application">Välj en app</string>
     <string name="abc_capital_off">AV</string>
@@ -66,8 +66,17 @@
     <string name="action_update_phone">Ändra telefonnummer</string>
     <string name="activate_email_notice">Se till att aktivera ditt konto inom 24 timmar</string>
     <string name="activity_not_found_notice">Kan inte hitta appen</string>
+    <string name="ad_buy">Köp</string>
+    <string name="ad_download">Ladda ner</string>
+    <string name="ad_join">Anslut till communityn</string>
+    <string name="ad_more">Mer</string>
+    <string name="add_search_channel_link">URL</string>
+    <string name="add_search_channel_name">Namn</string>
+    <string name="add_search_channel_tip">Sök efter \"%s\" på målwebbplatsen, kopiera och klistra sedan in URL:en här.</string>
     <string name="add_to_trust_device">Det är en betrodd enhet</string>
+    <string name="add_website">Lägga till en webbplats</string>
     <string name="agree">Godkänn</string>
+    <string name="agree_and_continue">Godkänn</string>
     <string name="ai_animation_music_text">AI soundtrack</string>
     <string name="ai_music_save_cancel">Avbryt</string>
     <string name="ai_music_save_dialog_title">Spara</string>
@@ -86,9 +95,11 @@
     <string name="alert_dialog_download_progress">"Laddar ner app: "</string>
     <string name="all">Visa alla</string>
     <string name="app_name">Mi Video</string>
+    <string name="auth_again">Acceptera</string>
     <string name="auth_fail_warning">Sessionen löpte ut, logga in igen.</string>
     <string name="auto_play_next_off">Automatisk uppspelning är inaktiverad</string>
     <string name="auto_play_next_on">Automatisk uppspelning är aktiverad</string>
+    <string name="back_to_mainpage">Upptäck</string>
     <string name="before_yestoday">2 dagar sedan</string>
     <string name="bind_sign_in_title">Lägg till Mi Konto</string>
     <string name="cancel">Avbryt</string>
@@ -104,6 +115,7 @@
     <string name="cast_expanded_controller_ad_image_description">Bild som visas medan en annons spelas upp på Cast-mottagaren</string>
     <string name="cast_expanded_controller_ad_in_progress">Pågående annons …</string>
     <string name="cast_expanded_controller_background_image">Skivomslag</string>
+    <string name="cast_expanded_controller_live_head_description">Aktuell position är högst upp i liveströmmen</string>
     <string name="cast_expanded_controller_live_stream_indicator">Livestream</string>
     <string name="cast_expanded_controller_loading">Läser in …</string>
     <string name="cast_expanded_controller_skip_ad_label">Hoppa över annons</string>
@@ -111,6 +123,8 @@
     <string name="cast_forward">Framåt</string>
     <string name="cast_forward_10">Spola framåt tio sekunder</string>
     <string name="cast_forward_30">Spola framåt trettio sekunder</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
+    <string name="cast_live_label">LIVE</string>
     <string name="cast_mute">Stäng av ljudet</string>
     <string name="cast_notification_connected_message">Ansluten till %1$s</string>
     <string name="cast_notification_connecting_message">Ansluter till %1$s</string>
@@ -142,6 +156,8 @@
     <string name="choose_to_signup">Nej, jag vill skapa ett</string>
     <string name="click_to_reload_more">Tryck för att ladda mer</string>
     <string name="click_to_retry">Försök igen</string>
+    <string name="cloud_auto_pip_play_switch">Använd bild-i-bild automatiskt</string>
+    <string name="cloud_online_player">Spelare</string>
     <string name="cloud_online_switch">Personliga rekommendationer</string>
     <string name="cloud_online_switch_close_time">Du kan slå på personliga innehållsrekommendationer i %s</string>
     <string name="cloud_online_switch_open_time">Visa personliga innehållsrekommendationer</string>
@@ -218,19 +234,23 @@
     <string name="confirm_unbundled_phone_dialog_message">Detta telefonnummer associerades med Mi Konto %2$s den %1$s. Om du fortsätter kommer det inte längre vara associerat med Mi Konto %3$s. Fortsätt?</string>
     <string name="content">Innehåll</string>
     <string name="content_can_not_null">Det går inte att skicka feedback utan prenumeration.</string>
+    <string name="continue_play">Återuppta</string>
     <string name="data_empty">Inga objekt här</string>
     <string name="description">Beskrivning</string>
+    <string name="detail_select_source">Välj uppspelningskälla</string>
     <string name="diagnosis_log_send_failed">Kunde inte skicka loggfiler. Försök igen.</string>
     <string name="diagnosis_log_sent_format">"Loggarna skickade.
 ID:%s
 Skicka koden till handledaren."</string>
-    <string name="dialog_privacy_info_new2">För att kunna använda dessa tjänster måste du godkänna att %1$s kommer att samla in, bearbeta och använda dina personuppgifter. Du anses ha läst och godkänt vår &lt;a href=\"%2$s\">Integritetspolicy&lt;/a> när du trycker på \"Godkänn\" nedan.</string>
+    <string name="dialog_privacy_info_new2">För att kunna använda dessa tjänster måste du godkänna att %1$s kommer att samla in, bearbeta och använda dina personuppgifter. Du anses ha läst och godkänt vår &lt;a href=%2$s>Integritetspolicy&lt;/a> när du trycker på \"Godkänn\" nedan.</string>
+    <string name="dialog_privacy_info_new3">För att kunna använda denna tjänst behöver du tillåta %1$s att samla in, behandla, och använda din personliga information i enlighet med Integritetspolicyn. Genom att trycka på Acceptera nedan, så accepterar du Xiaomis &lt;a href=%2$s>Integritetspolicy&lt;/a> och &lt;a href=%3$s>Användaravtal&lt;/a>. &lt;br/>&lt;br/>När du trycker på Acceptera så ger du även Mi Video åtkomst till listan över appar som är installerade på din enhet. Med denna behörighet kommer Mi VIdeo kunna dela objekt, veta om en app är installerad på din enhet, vilken version av en som är installerad, och om en app är säker.</string>
     <string name="dialog_privacy_title">Tillstånd</string>
     <string name="dialog_revoke_privacy_info_new2">När du har upphävt befogenhet kommer appen att sluta samla in data och alla relaterade data kommer att tas bort från våra servrar. Detta kan göra appen oanvändbar. Upphäv befogenhet ändå?</string>
     <string name="dialog_revoke_privacy_title">Upphäver befogenhet</string>
     <string name="diy_channels_tips">Nu kan du anpassa listan över dina kanaler.</string>
     <string name="do_not_show_again">Visa inte igen</string>
     <string name="download">Ladda ner</string>
+    <string name="download_checking_tip">Förbereder att ladda ner…</string>
     <string name="download_complete">Nedladdat</string>
     <string name="download_delete_tip">Ta bort valda objekt?</string>
     <string name="download_delete_title">Ta bort</string>
@@ -239,6 +259,7 @@ Skicka koden till handledaren."</string>
     <string name="download_power_off_tips">Denna funktion är inte tillgänglig nu</string>
     <string name="download_progress">%d%%</string>
     <string name="download_retry">Försök igen</string>
+    <string name="download_unable_tip">Kan inte ladda ner detta objekt</string>
     <string name="download_video">Laddar ner video</string>
     <string name="downloading">Laddar ner…</string>
     <string name="empty_channels">Hantera kanaler</string>
@@ -279,6 +300,7 @@ Skicka koden till handledaren."</string>
     <string name="exo_track_surround_5_point_1">5.1-kanaligt surroundljud</string>
     <string name="exo_track_surround_7_point_1">7.1-kanaligt surroundljud</string>
     <string name="exo_track_unknown">Okänt</string>
+    <string name="explore">Upptäck</string>
     <string name="explore_on_mi_video">Hitta mer på Mi Video</string>
     <string name="failed_dup_secure_phone_number">Detta telefonnummer är redan kopplat till ett annat Mi Konto</string>
     <string name="failed_to_fetch_data">Det gick inte att ladda information.</string>
@@ -291,6 +313,7 @@ Skicka koden till handledaren."</string>
     <string name="favorite_fail">Det gick inte att lägga till i favoriter. Försök igen.</string>
     <string name="favorite_success">Tillagd i favoriter</string>
     <string name="fcm_fallback_notification_channel_label">Diverse</string>
+    <string name="fcm_push_title">Populära videor</string>
     <string name="feedback">Feedback</string>
     <string name="feedback_activity_title">Feedback</string>
     <string name="feedback_contact_empty">Ange korrekt kontaktinformation</string>
@@ -306,8 +329,11 @@ Skicka koden till handledaren."</string>
     <string name="feedback_success_toast">Inskickat. Tack för din feedback!</string>
     <string name="feedback_tag_title">Kategori</string>
     <string name="feedback_text_empty_toast">Skriv din feedback först.</string>
+    <string name="file_cant_rename">File with %1$s name already exists. Please rename</string>
+    <string name="file_space_not_enough_tip">Inte tillräckligt med lagringsutrymme. Frigör minst %d MB och starta appen igen.</string>
     <string name="find_psw">Glömt lösenord</string>
     <string name="finish">Klar</string>
+    <string name="firework_privacy">Fireworks Integritetspolicy</string>
     <string name="for_diagnosis_usage_only">Loggfiler används endast för diagnostik.</string>
     <string name="for_you">FÖR DIG</string>
     <string name="friday">Fredag</string>
@@ -332,11 +358,17 @@ Skicka koden till handledaren."</string>
     <string name="gallery_folder_alias_youku_video">Youku</string>
     <string name="gallery_tab_all">Alla</string>
     <string name="gallery_tab_videos">Videor</string>
+    <string name="galleryplus_already_cloud_member">Using VIP membership to play</string>
+    <string name="galleryplus_check_network">Inställningar</string>
     <string name="galleryplus_chose_play_speed">Spelar upp med %1$.1fX hastighet</string>
+    <string name="galleryplus_chose_play_speed_2">Spelar upp med %1$.2fX hastighet</string>
     <string name="galleryplus_chose_play_speed_failure">Det gick inte att justera uppspelningshastigheten</string>
     <string name="galleryplus_click_to_higher_definition">Dubbeltryck för att öppna HD-förhandsvisningen</string>
+    <string name="galleryplus_copyright_unsported_audio">Kan inte spela upp ljudspår på grund av skrivskyddsrättigheter</string>
+    <string name="galleryplus_copyright_unsported_video">Kan inte spela upp denna video på grund av skrivskyddsrättigheter</string>
     <string name="galleryplus_cta_tips">Du kan hjälpa oss förbättra våra tjänster genom att delta i användarupplevelse-programmet och tillåta att Mi Video ansluter till internet. Accepterar du?</string>
     <string name="galleryplus_double_tap_to_higher_definition">Dubbeltryck igen för att öppna HD-förhandsvisningen</string>
+    <string name="galleryplus_fr_unsupport_restore_speed">Bildfrekvensen stöds inte. Växlade tillbaka till normal hastighet.</string>
     <string name="galleryplus_gallery_fold_tags">Dölj märken</string>
     <string name="galleryplus_gallery_video_adjust_hint">Endast videor med 960 fps stöds</string>
     <string name="galleryplus_gallery_video_adjust_text">Justera</string>
@@ -353,7 +385,16 @@ Skicka koden till handledaren."</string>
     <string name="galleryplus_gallery_video_save_video">Skapar video…</string>
     <string name="galleryplus_gallery_video_slow_edit">Slow-motion</string>
     <string name="galleryplus_gallery_view_tags">Visa märken</string>
-    <string name="galleryplus_is_higher_definition">Öppnade HD-förhandsgranskning</string>
+    <string name="galleryplus_is_higher_definition">HD förhandsvisning</string>
+    <string name="galleryplus_network_connect_check">Det gick inte att ansluta till nätverket</string>
+    <string name="galleryplus_network_connect_confirm">Anslut till Wi-Fi eller slå på mobildata i nätverksinställningarna.</string>
+    <string name="galleryplus_network_error">Det gick inte att ansluta till nätverket</string>
+    <string name="galleryplus_network_not_wifi">Användning av mobildata för att streama videor kan generera ytterligare operatörsavgifter</string>
+    <string name="galleryplus_online_cta">Mi Video behöver ansluta till internet för att den ska kunna fungera korrekt. Godkänn?</string>
+    <string name="galleryplus_online_cta_agree">Godkänn</string>
+    <string name="galleryplus_online_cta_disagree">Godkänn inte</string>
+    <string name="galleryplus_online_cta_title">Regler och villkor</string>
+    <string name="galleryplus_online_video_loading">Vänta lite…</string>
     <string name="galleryplus_permission_content">Ge Mi Video de nödvändiga behörigheterna för att kunna använda denna funktion.</string>
     <string name="galleryplus_permission_content2">"För att kunna använda denna funktion, gå till Inställningar > Appar > Mi Video > App-behörigheter, och tillåt Mi Video att göra följande:
 
@@ -375,6 +416,7 @@ Skicka koden till handledaren."</string>
     <string name="galleryplus_subtitle_edit_edit">Redigera undertexter</string>
     <string name="galleryplus_subtitle_edit_hide">Dölj undertexter</string>
     <string name="galleryplus_subtitle_edit_literal_edit">Redigera text</string>
+    <string name="galleryplus_subtitle_edit_reminder">Texten du angav är för lång</string>
     <string name="galleryplus_subtitle_recognized_empty_subtitles">Kunde inte känna igen tal medan du spelade in</string>
     <string name="galleryplus_v_agree">Acceptera</string>
     <string name="galleryplus_v_cancel">Avbryt</string>
@@ -397,6 +439,7 @@ Skicka koden till handledaren."</string>
     <string name="get_ph_ticket">Hämta kod</string>
     <string name="get_phone_bind_exceed_limit">Du kan associera upp till 3 Mi Konto med ett telefonnummer. Det går inte att lägga till nya konton.</string>
     <string name="get_phone_verifycode_exceed_limit">För många verifieringskoder har skickats till det här numret. Vänta 24 timmar och försök igen.</string>
+    <string name="got_it">Jag förstår</string>
     <string name="goto_sign_up">Skapa konto</string>
     <string name="have_learned">Jag förstår</string>
     <string name="hidden_channels">Följande kanaler visas inte på startsidan.</string>
@@ -404,6 +447,7 @@ Skicka koden till handledaren."</string>
     <string name="history">Historik</string>
     <string name="history_local_video">Lokalt</string>
     <string name="history_online_video">Online</string>
+    <string name="hot">Populärt</string>
     <string name="identity">Identifiering</string>
     <string name="inconsistent_pwd">Lösenorden matchar inte</string>
     <string name="init_channels">Återställ standardinställningarna</string>
@@ -412,6 +456,12 @@ Skicka koden till handledaren."</string>
     <string name="input_size_tips">Du kan skriva upp till 1000 tecken</string>
     <string name="isornot_your_mi_account">Är detta ditt Mi-Konto?</string>
     <string name="issue">Problem</string>
+    <string name="item_card_all_replies">Alla svar</string>
+    <string name="item_card_continue_play">Automatisk uppspelning</string>
+    <string name="item_card_more_trailers">Fler trailers</string>
+    <string name="item_card_open_in">"Öppna om "</string>
+    <string name="item_card_related">Relaterad</string>
+    <string name="item_setting_go_back">Återkallelse av ditt samtycke</string>
     <string name="just_a_second">Vänta ett ögonblick…</string>
     <string name="language_later_setting_tips">Du kan ändra dina språkinställningar i Profil > Språk.</string>
     <string name="language_select_tips">"Välj önskat språk
@@ -532,7 +582,7 @@ för videor"</string>
     <string name="lv_subtitle_onlinesub_loading">Laddar undertexter…</string>
     <string name="lv_subtitle_onlinesub_loading_wait">Laddar undertexter…</string>
     <string name="lv_subtitle_onlinesub_right_declare">Ansvarsfriskrivning</string>
-    <string name="lv_subtitle_onlinesub_right_declare_content">Hämta undertexter &lt;br/>&lt;br/>från &lt;a href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>.&lt;br/>&lt;br/>All undertexter online kommer från &lt;a href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>.</string>
+    <string name="lv_subtitle_onlinesub_right_declare_content">Hämta undertexter &lt;br/>&lt;br/>från &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.&lt;br/>&lt;br/>All undertexter online kommer från &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.</string>
     <string name="lv_subtitle_onlinesub_save_failed">Det gick inte att lägga till undertexter</string>
     <string name="lv_subtitle_onlinesub_save_success">Undertexter tillagda</string>
     <string name="lv_subtitle_onlinesub_search_keyword">Ange nyckelord för att söka</string>
@@ -554,6 +604,7 @@ för videor"</string>
     <string name="lv_video_null">Inga videor</string>
     <string name="lv_volume">Volym</string>
     <string name="manage">Hantera</string>
+    <string name="mediation_ad_can_not_share">Kan inte dela denna video</string>
     <string name="mi_video">Mi Video</string>
     <string name="mnc_live_tv">Live-TV</string>
     <string name="moment_guide_desc">Använd gester för att zooma in och ut</string>
@@ -595,7 +646,9 @@ för videor"</string>
     <string name="need_update_app">Uppdatera Mi Video för att använda alla dess funktioner</string>
     <string name="network_connect_info">Det gick inte att ansluta till nätverket. Kontroller dina nätverksinställningar och försök igen.</string>
     <string name="network_failed">Det gick inte att ansluta till nätverket</string>
+    <string name="new_channel_tip">Ta en titt på nya kanaler!</string>
     <string name="next">Nästa</string>
+    <string name="next_step">Nästa</string>
     <string name="nick_name">Smeknamn</string>
     <string name="no_account">Inte inloggad</string>
     <string name="no_longer_prompt">Visa inte igen</string>
@@ -614,9 +667,17 @@ för videor"</string>
     <string name="notice_message_title">Notifikationer</string>
     <string name="notice_title">Meddelanden</string>
     <string name="notification_bar">Notifikationsskugga</string>
+    <string name="notification_bar_player_subtitle">Visa minimerad spelare i Notifikationspanelen</string>
+    <string name="notification_bar_player_title">Minimera spelaren</string>
     <string name="notification_open_tip">Slå på för att få notifikationer</string>
+    <string name="notification_recall_action">Aktivera</string>
+    <string name="notification_recall_desc">Mi Video kan meddela dig om populära videor och dina prenumerationer.</string>
+    <string name="notification_recall_title">Aktivera notifikationer</string>
     <string name="notify_apk_installed">Nedladdad</string>
+    <string name="off_tip_firework_recommend">Du kommer inte få personliga innehållsrekommendationer från Firework</string>
     <string name="ok">OK</string>
+    <string name="on_tip_firework_recommend">Du kommer få personliga innehållsrekommendationer från Firework</string>
+    <string name="order_alphabet">A-Ö</string>
     <string name="order_recently_subscribe">Senaste prenumerationer</string>
     <string name="order_recently_updated">Nyligen uppdaterade</string>
     <string name="ovp_alert_dialog_download_install_task">Laddar ned HD plug-in…</string>
@@ -624,7 +685,7 @@ för videor"</string>
     <string name="ovp_category">Kategorier</string>
     <string name="ovp_confirm_delete_favor">Ta bort valda objekt från favoriter?</string>
     <string name="ovp_default_plugin_name">HD plug-in</string>
-    <string name="ovp_detail_back_to_watch_more">Upptäck mer saker på hemsidan</string>
+    <string name="ovp_detail_back_to_watch_more">Discover more brilliant videos</string>
     <string name="ovp_detail_collapse_summary">Dölj</string>
     <string name="ovp_detail_collect">Lägg till i favoriter</string>
     <string name="ovp_detail_comment">Kommentera</string>
@@ -785,8 +846,8 @@ Uppdatera Mi Video till den senaste versionen först."</string>
     <string name="passport_unknow_error">Ett okänt fel uppstod</string>
     <string name="passport_unknow_host_network_error">Kontrollera din nätverksanslutning och försök igen</string>
     <string name="passport_unknow_network_error">Ett nätverksfel inträffade</string>
-    <string name="passport_user_agreement_link">&lt;Data>Jag har läst och godkänner Xiaomis &lt;a href=\"%1$s\">användaravtal&lt;/a> och &lt;a href=\"%2$s\">integritetspolicy&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_link_more">&lt;Data>Jag har läst och godkänner följande dokument: Xiaomis &lt;a href=\"%1$s\">användaravtal&lt;/a> och &lt;a href=\"%4$s\">integritetspolicy&lt;/a>, &lt;a href=\"%2$s\">\"%3$s\"&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_link">&lt;Data>Jag har läst och godkänner Xiaomis &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_link_more">&lt;Data>Jag har läst och godkänner följande dokument: Xiaomis &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%4$s>integritetspolicy&lt;/a>, &lt;a href=%2$s>%3$s&lt;/a>.&lt;/Data></string>
     <string name="passport_user_id_intro">Ange lösenord för %1$s</string>
     <string name="passport_v_code_error">Verifieringskod är felaktig</string>
     <string name="passport_vcode_notification_title">Din inloggningsverifiering är ofullständig</string>
@@ -812,16 +873,23 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="permission_storage">Lagringsutrymme</string>
     <string name="permission_storage_desc">För åtkomst till objekt, spara filer, visa och spela lokala videor</string>
     <string name="permission_title">Behörigheter krävs</string>
+    <string name="pgc_push_title">Prenumerationer</string>
     <string name="phone_bind_too_many">Detta telefonnummer är sammankopplats med flera Mi-konton under kort tid. Försök använda ett annat telefonnummer.</string>
     <string name="phone_hint">Telefonnummer</string>
     <string name="phone_num_use_for">Telefonnummer används för:</string>
     <string name="phone_number">Telefonnummer</string>
     <string name="photoPickerNotFoundText">Inga bilder tillgängliga.</string>
+    <string name="pip">BiB</string>
+    <string name="playlist_create">Skapa</string>
     <string name="playlist_detail_recomm_title">Rekommenderade spellistor</string>
+    <string name="playlist_finish">Klar</string>
     <string name="playlist_hot">Populära</string>
+    <string name="playlist_name">Ange spellistans titel</string>
     <string name="playlist_new">Nya</string>
     <string name="playlist_no_more">Inga fler videor här</string>
+    <string name="playlist_no_videos">Inga videor här</string>
     <string name="playlist_offline">Denna spellista är inte längre tillgänglig.</string>
+    <string name="playlist_remove">Ta bort</string>
     <string name="playlist_title">Spellista</string>
     <string name="playlist_view_more">Fler spellistor</string>
     <string name="plus_add_shortcut">Skapa genväg på Hemskärmen</string>
@@ -889,7 +957,7 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="plus_player_subtitle_local_add_success">Undertexter tillagda</string>
     <string name="plus_player_subtitle_no_file">Inga undertexter här.</string>
     <string name="plus_player_subtitle_online">Undertexter online</string>
-    <string name="plus_player_subtitle_online_declare_content">Du håller på att söka efter &lt;br/>undertexter i databasen &lt;a href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>. &lt;br/>Alla undertexter tillhandahålls av &lt;a href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>.</string>
+    <string name="plus_player_subtitle_online_declare_content">Du håller på att söka efter &lt;br/>undertexter i databasen &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>. &lt;br/>Alla undertexter tillhandahålls av &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.</string>
     <string name="plus_player_subtitle_online_declare_title">Ansvarsfriskrivning</string>
     <string name="plus_player_subtitle_online_download_fail">Det gick inte att ladda ner undertexter</string>
     <string name="plus_player_subtitle_online_download_start">Laddar ner undertexter…</string>
@@ -968,6 +1036,7 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="remaining_space">Tillgängligt: %s</string>
     <string name="remaining_space_not_enough">Det går inte att ladda ner på grund av för lite lagringsutrymme</string>
     <string name="reminder">Obs!</string>
+    <string name="rename">Byt namn</string>
     <string name="report">Rapportera</string>
     <string name="report_content_dislike">Våld eller olämpligt beteende</string>
     <string name="report_content_fakement">Skräppost eller bedrägeri</string>
@@ -989,6 +1058,8 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="restart_phone_bind_title">Ändra telefonnummer för återställning</string>
     <string name="restore_channel_list">Återställ nu?</string>
     <string name="retry">Försök igen</string>
+    <string name="reveal">Rotera</string>
+    <string name="reveal_tip">Rotera din enhet för en bättre tittarupplevelse</string>
     <string name="revoke">Upphäv</string>
     <string name="s1">Spara bild</string>
     <string name="s2">Tillåter du att annonsen sparar bilden i Bildgalleriet?</string>
@@ -1009,6 +1080,8 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="search_hot_words">Populära</string>
     <string name="search_key_not_null">Sökbegäran kan inte vara tom</string>
     <string name="search_menu_title">Sök</string>
+    <string name="search_result_download_error">Kunde inte ladda ned</string>
+    <string name="search_result_startdownload">Laddar ned…</string>
     <string name="selectall">Välj alla</string>
     <string name="selectnull">Välj bort alla</string>
     <string name="send_diagnosis_log">Skicka loggfiler</string>
@@ -1032,6 +1105,7 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="sns_sign_in">Andra sätt att logga in på</string>
     <string name="source">"Källa: "</string>
     <string name="start_download_tip">Tillagt i kön. Kontrollera utvecklingen under Profil > Nedladdningar.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kort</string>
     <string name="storage_internal_sdcard">Internt lagringsutrymme</string>
     <string name="submit">Skicka</string>
@@ -1080,11 +1154,19 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="ticket_hint">Verifieringskod</string>
     <string name="ticket_invalid">Koden du angav är felaktig</string>
     <string name="ticket_sign_in">Logga in med SMS</string>
+    <string name="tip_auth_again">Eftersom du tidigare inte har accepterat villkoren för den motsvarande Integritetspolicyn för tredje-partens innehållsleverantör, så kan vi inte visa videoinnehåll i Moments. Tryck på knappen nedan för att acceptera Integritetspolicyn och få tillgång till den här funktionen.</string>
+    <string name="tip_author_click">Tryck för att visa fler videor från detta konto</string>
+    <string name="tip_pop">&lt;Data>Innehåll från Moments tillhandahålls av Firework. För att förbättra din visningsupplevelse och få fler relevanta innehållsrekommendationer, tillåt Firework att samla in, behandla, och använda din personliga information i enlighet med dess Integritetspolicy. Läs och acceptera &lt;a href=\"%1$s\">Fireworks Integritetspolicy&lt;/a> innan du använder dess tjänster.&lt;/Data></string>
+    <string name="tip_topic_click">Tryck för att hitta fler videor om detta ämne</string>
+    <string name="title_firework_recommend">Fireworks rekommendationer</string>
     <string name="title_publisher">Skapare</string>
     <string name="title_subscribe">Prenumerationer</string>
+    <string name="toast_no_data">Det här objektet är inte tillgängligt nu. Kom tillbaka senare.</string>
     <string name="toast_request_too_frequently">Inte så snabbt!</string>
     <string name="toast_share_failed">Det gick inte att dela. Vänta en minut eller två och försök igen.</string>
     <string name="today">Idag</string>
+    <string name="tool_bar_notification_setting_sub_title">Visa verktygsfältet i Notifikationspanelen</string>
+    <string name="tool_bar_notification_setting_title">Notifikationspanel verktygsfält</string>
     <string name="top_bar_game_desc">Upptäck mängder av nya spel här</string>
     <string name="top_bar_game_title">Spelkanaler</string>
     <string name="tuesday">Tisdag</string>
@@ -1140,10 +1222,13 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="video_resolution_kb_size_suffix">%.2f KB</string>
     <string name="video_resolution_mb_size_suffix">%.2f MB</string>
     <string name="video_resolution_tag_suffix">%dP</string>
+    <string name="view">Visa</string>
     <string name="vp_VideoView_error_button">OK</string>
     <string name="vp_VideoView_error_text_unknown">Ett fel uppstod</string>
     <string name="vp_VideoView_error_title">Okänt fel</string>
     <string name="vp_app_name">Videospelare</string>
+    <string name="vp_copyright_unsported_audio">Kan inte spela upp ljudspår på grund av skrivskyddsrättigheter</string>
+    <string name="vp_copyright_unsported_video">Kan inte spela upp denna video på grund av skrivskyddsrättigheter</string>
     <string name="vp_hardware_unsported">Denna video kan inte spelas på din enhet.</string>
     <string name="vp_notify_apk_installed">Nedladdning lyckades</string>
     <string name="vp_replay">Spela igen</string>

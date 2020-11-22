@@ -28,13 +28,17 @@
         <item quantity="other">%d inspelningar nedladdade</item>
         <item quantity="one">%d inspelning nedladdad</item>
     </plurals>
+    <plurals name="recovery_failed_dialog_message">
+        <item quantity="other">Kunde inte återställa %d objekt på grund av ett okänt fel.</item>
+        <item quantity="one">Kunde inte återställa %d objektet på grund av ett okänt fel.</item>
+    </plurals>
     <plurals name="search_alll_records_hint">
         <item quantity="other">Sök bland %d inspelningar</item>
         <item quantity="one">Sök bland %d inspelning</item>
     </plurals>
     <plurals name="search_app_records_hint">
-        <item quantity="other">Search among %d recordings</item>
-        <item quantity="one">Search among %d recording</item>
+        <item quantity="other">Sök bland %d inspelningar</item>
+        <item quantity="one">Sök bland %d inspelning</item>
     </plurals>
     <plurals name="search_call_records_hint">
         <item quantity="other">Sök bland %d samtalsinspelningar</item>
@@ -43,6 +47,18 @@
     <plurals name="search_result">
         <item quantity="other">Hittade %d inspelningar</item>
         <item quantity="one">Hittade %d inspelning</item>
+    </plurals>
+    <plurals name="time_left_for_clear_file">
+        <item quantity="other">%d dagar kvar</item>
+        <item quantity="one">%d dag kvar</item>
+    </plurals>
+    <plurals name="trash_box_delete_items">
+        <item quantity="other">Ta bort %d valda inspelningar permanent?</item>
+        <item quantity="one">Ta bort %d valda inspelningar permanent?</item>
+    </plurals>
+    <plurals name="trash_box_tip">
+        <item quantity="other">Borttagna objekt kan lagras i papperskorgen i upp till %d dagar</item>
+        <item quantity="one">Borttagna objekt kan lagras i papperskorgen i upp till %d dag</item>
     </plurals>
     <plurals name="unsynced_records_count">
         <item quantity="other">%d inte synkroniserade</item>

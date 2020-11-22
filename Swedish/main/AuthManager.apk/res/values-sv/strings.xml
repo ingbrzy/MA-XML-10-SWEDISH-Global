@@ -83,6 +83,8 @@
     <string name="HIPS_Perm_get_tasks_Desc">hämta uppgifter</string>
     <string name="HIPS_Perm_install_shortcut">Genvägar på Hemskärmen</string>
     <string name="HIPS_Perm_install_shortcut_Desc">lägg till genvägar på Hemskärmen</string>
+    <string name="HIPS_Perm_mediaVolume">Justera mediavolymen</string>
+    <string name="HIPS_Perm_mediaVolume_Desc">Tillåt appen att justera mediavolymen</string>
     <string name="HIPS_Perm_process_nfc">NFC</string>
     <string name="HIPS_Perm_process_nfc_Desc">tillgång till närfältskommunikationshårdvara (NFC)</string>
     <string name="HIPS_Perm_process_outgoing_calls">Få tillgång till Telefon appen</string>
@@ -117,6 +119,10 @@
     <string name="location_warning">%1$s är en leverantör av platstjänster för denna enhet. Platsåtkomst kan ändras från platsinställningar.</string>
     <string name="never_ask_again">Fråga inte igen efter begränsning</string>
     <string name="ok">Okej</string>
+    <string name="perm_action_allow">Tillåt</string>
+    <string name="perm_action_deny">Tillåt aldrig</string>
+    <string name="perm_modem_location">Tillgång till din plats</string>
+    <string name="perm_modem_location_desc">Din operatör försöker komma åt din platsinformation. Vill du dela platsinformationen med operatören?</string>
     <string name="permdesc_camera">Ta foton och spela in videor</string>
     <string name="permdesc_in_calls">Övervaka inkommande samtal</string>
     <string name="permdesc_location">Få åtkomst till platsinformation</string>

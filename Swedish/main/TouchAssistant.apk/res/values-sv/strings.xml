@@ -35,6 +35,11 @@
     <string name="close_panel">Avaktivera Snabbmeny</string>
     <string name="copy">Kopiera</string>
     <string name="customize_entries">Välj genvägar</string>
+    <string name="edge_distance_pref_summary">Tryck på väckningsområden nära skärmkanterna för att få Snabbmenyn att dyka upp</string>
+    <string name="edge_distance_pref_title">Väckningsområden</string>
+    <string name="edge_mode_custom_summary">Justera storleken på väckningsområdena nära skärmkanterna</string>
+    <string name="edge_mode_custom_title">Anpassad</string>
+    <string name="edge_mode_default_title">Standard</string>
     <string name="enable_touch_assistant">Aktivera Snabbmeny</string>
     <string name="expand_button_title">Avancerat</string>
     <string name="function_settings">Genvägsinställningar</string>
@@ -67,6 +72,7 @@
     <string name="name_trans_cards">Transporter kort</string>
     <string name="name_wechat_payment_code">Wechat betalning</string>
     <string name="name_wechat_scan">WeChat scanner</string>
+    <string name="name_xiao_ai">Mi AI</string>
     <string name="nfc_all_mipay_card_not_in_use">Mi Pay är inte aktiverat</string>
     <string name="nfc_trans_card_not_in_use">Transportkort är inte aktiverat</string>
     <string name="not_set">Inte angett</string>

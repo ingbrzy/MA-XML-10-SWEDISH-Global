@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_search_earth">
+        <item>Hemma</item>
+        <item>Bakgrundsbilder/Super-bakgrunder/Hemma</item>
+        <item>Jorden;Super-bakgrunder;Jord-utgåva;Bakgrundsbild</item>
+    </string-array>
+    <string-array name="settings_search_mars">
+        <item>Den röda planeten</item>
+        <item>Bakgrundsbild/Super-bakgrunder/Den röda planeten</item>
+        <item>Mars;Mars-utgåva;Super-bakgrunder;Bakgrundsbilder</item>
+    </string-array>
+    <string-array name="settings_search_superwp">
+        <item>Super-bakgrunder</item>
+        <item>Bakgrundsbilder/Super-bakgrunder</item>
+        <item>Super-bakgrunder;Bakgrundsbild;Dynamisk bakgrundsbild;3D-bakgrundsbild</item>
+    </string-array>
+</resources>

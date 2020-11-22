@@ -83,6 +83,14 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="lasttime_applist_cloud">Uppdaterade appar:</string>
     <string name="lasttime_feature_cloud">Uppdaterade funktion:</string>
     <string name="message_i_know">Jag förstår</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra nedåt för att uppdatera</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Uppdaterat</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Uppdaterar…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Släpp för att uppdatera</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">Det är allt för nu</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">Det är allt för nu</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Vänta en stund…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Det gick inte att ladda objekt</string>
     <string name="nonui_mode_config_description">Tänd inte upp skärmen för notifikationer, avaktivera LED-lampor, fingeravtrycksensorn och tryck för att spara batteri när MIUI märker att du inte använder din enhet.</string>
     <string name="nonui_mode_config_title">Läge för Noninteractive</string>
     <string name="not_set">Inte angett</string>

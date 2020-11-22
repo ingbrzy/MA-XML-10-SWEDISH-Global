@@ -161,9 +161,9 @@
     <string name="antivirus_none_engine_dialog_ok">OK</string>
     <string name="antivirus_not_wlan">Din enhet är inte ansluten till Wi-Fi. Att använda mobildata kan generera ytterligare kostnader. Fortsätt ändå?</string>
     <string name="antivirus_privacy_dialog_cloudscan">Ladda upp appnamn och detaljer</string>
-    <string name="antivirus_privacy_dialog_cloudscan_description">Ladda och skanna appnamn och detaljer med hjälp av virusdefinitioner från internet.</string>
+    <string name="antivirus_privacy_dialog_cloudscan_description">För att upptäcka och neutralisera virus mer effektivt kommer vi ladda upp apparnas paketnamn och egenskaper för att skanna dem med en molnmotor.</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
-    <string name="antivirus_privacy_dialog_summary">Den här funktionen krypterar och laddar upp enhetens ID till Avast, AVL och Tencent servrar (%s).</string>
+    <string name="antivirus_privacy_dialog_summary"><Data>Denna funktion drivs av en tredje parts antivirus-motor. För att lära dig mer, läs &lt;a href=\"%1$s\">Licensavtalet&lt;/a> som tillhandahålls av den tredje parten.</Data></string>
     <string name="antivirus_privacy_dialog_summary_link">Integritetspolicy</string>
     <string name="antivirus_privacy_dialog_title">Integritetspolicy</string>
     <string name="antivirus_sec_network_unavailable">Säkerhet kan inte uppdateras eftersom du har begränsat internetanslutningen. Tillåt Säkerhet att ansluta till Internet?</string>
@@ -288,6 +288,8 @@
     <string name="app_behavior_start_from_notification_single">Denna app startades av en notifikation</string>
     <string name="app_behavior_start_from_recent">%1s startades från Senaste</string>
     <string name="app_behavior_start_from_recent_single">Denna app startades från Senaste</string>
+    <string name="app_behavior_start_from_widget">%1s startades av en widget</string>
+    <string name="app_behavior_start_from_widget_single">" Denna app startades av en widget"</string>
     <string name="app_behavior_storage">%1s tog fram eller sparade filer</string>
     <string name="app_behavior_storage_bg">%1s tog fram fram eller sparade filer i bakgrunden</string>
     <string name="app_behavior_storage_bg_single">Den här appen tog fram eller sparade filer i bakgrunden</string>
@@ -310,7 +312,7 @@
     <string name="app_install_tips_install_success">Installerade %1$s</string>
     <string name="app_manager_advanced_setting">Avancerade inställningar</string>
     <string name="app_manager_allow">Ja</string>
-    <string name="app_manager_anomaly_analysis">Analyze third party app problems</string>
+    <string name="app_manager_anomaly_analysis">Analysera tredjeparts app-problem</string>
     <string name="app_manager_app_ifno_version">Appversion</string>
     <string name="app_manager_app_info_label">Information om appen</string>
     <string name="app_manager_app_info_name">Namn på app</string>
@@ -764,6 +766,7 @@ Du kommer inte förlora någon appdata."</string>
     <string name="card_main_private_space_summary">Att använda det Sekundära utrymmet är som att ha två enheter</string>
     <string name="card_main_private_space_title">Sekundärt utrymme</string>
     <string name="card_main_sectool_title">Verktyg</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_xspace_action">Skapa</string>
     <string name="card_main_xspace_summary">Skapa dubbla konton för appar</string>
     <string name="card_main_xspace_title">Dubbelappar</string>
@@ -968,6 +971,7 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="doze_optimization_title">Optimerade tryckinställningar</string>
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
+    <string name="ellipsis">…</string>
     <string name="email">E-post</string>
     <string name="empty_app">Inga appar</string>
     <string name="empty_title_auto_start_list">Inga appar tillåts att starta automatiskt.</string>
@@ -1019,7 +1023,9 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Ljud</string>
@@ -1125,6 +1131,13 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="first_aid_scanning_item4">Skannar efter batteriproblem…</string>
     <string name="first_aid_scanning_item5">Skannar efter andra problem…</string>
     <string name="first_aid_stop_scan">Avbryt skanning</string>
+    <string name="first_settings_default_camera_title">Dela utan metadata som standard</string>
+    <string name="first_settings_default_location_subtitle">Ta bort platsinfo från delade foton</string>
+    <string name="first_settings_default_location_title">Dela utan platsinfo som standard</string>
+    <string name="first_settings_share_enable">Lägg till \"Säker delning\"-märke</string>
+    <string name="first_settings_share_enable_subtitle">De objekt du delat på WeChat kommer att visas med ett MIUI-märke</string>
+    <string name="first_settings_subtitle">Här är de säkra delningsalternativen som finns tillgängliga för dig:</string>
+    <string name="first_settings_title">Skydda din integritet</string>
     <string name="five_percent_total_pkg">%s (5%% av månatlig data)</string>
     <string name="fod_authentication_shift_button">Avbryt</string>
     <string name="fod_button_finger">Använd fingeravtryck</string>
@@ -1150,11 +1163,10 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="free_time_traffic_title">Ange lågtrafiksgräns för data</string>
     <string name="free_traffic_settings">Lågtrafik dataanvändningsinställningar</string>
     <string name="function_close">Av</string>
-    <string name="function_gwsd_detail">"Om funktionen:
- 1. Inkommande samtal till ditt data-SIM avbryter inte mobildataanslutningen. Anslutningen avbryts endast när du svarar på ett samtal.
- 2. När den här funktionen är påslagen kommer uppringaren inte att höra ringsignalerna för samtal väntar. Inkommande samtal avslutas om du inte svarar inom 6 sekunder.
- 3. Den här funktionen fungerar endast för data-SIM-kort. Samtal till ditt primära SIM-kort avbryter mobildataanslutningen.
- 4. Den här funktionen stöds endast av China Mobile och China Unicorn."</string>
+    <string name="function_gwsd_detail">"Om denna funktion:
+ 1. När du använder mobildata på ett data SIM eller ett vanligt SIM-kort anslutet till et VoLTE-nätverk kommer anslutningen inte att avbrytas av inkommande samtal innan du svarar.
+ 2. När denna funktion är på kommer den andra personen inte kunna höra dina ringsignaler om du inte använder ett vanligt SIM-kort. Inkommande samtal kommer att avvisas automatiskt efter 7-10 sekunders inaktivitet.
+ 3. Data SIM-kort utfärdade av China Mobile och China Unicom stöds. Vanliga SIM-kort utfärdade av China Mobile, China Unicom och China Telecom stöds."</string>
     <string name="function_gwsd_title">Tillåt inte att inkommande samtal avbryter data-SIM-anslutning</string>
     <string name="function_shield_auto_bright">Avaktivera automatisk ljusstyrka</string>
     <string name="function_shield_eye_shield">Avaktivera Läsläge</string>
@@ -1335,7 +1347,7 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="gb_xunyou_gift_type_one">Xunyou 1-dag boost</string>
     <string name="gb_xunyou_gift_type_three">Xunyou 3-dagar boost</string>
     <string name="gb_xunyou_gift_type_two">Xunyou 2-dagar boost</string>
-    <string name="gdpr_msg">&lt;Data>För att kunna använda de grundläggande funktionerna i Säkerhet måste du godkänna att Xiaomi samlar, behandlar och använder dina personuppgifter, inklusive information om hur du använder Säkerhetsfunktioner (t.ex. statistik om mobila data, information om malware, samt grundläggande information om din enhet) och andra typer av information som anges i vår&lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Integritetspolicy&lt;/a>.&lt;/Data></string>
+    <string name="gdpr_msg"><Data>För att kunna upptäcka säkerhetsrisker och skydda din data behöver vi samla in den nödvändiga mängden information om din enhet. Läs och acceptera vår &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Integritetspolicy&lt;/a> innan du använder våra tjänster. Om du inte tillåter att vi samlar in sådan information kommer du fortfarande kunna använda denna app, men vissa funktioner kommer inte vara tillgängliga för dig. </Data></string>
     <string name="get_sys_info">Hämtar info…</string>
     <string name="gigabyteShort">GB</string>
     <string name="global_wa_setting_alert_dialog_content">Du kan frigöra %s</string>
@@ -1394,8 +1406,15 @@ Videor kommer att sparas till Spelturbo > Viktiga ögonblick."</string>
     <string name="gs_show_way_vertical">Vertikal</string>
     <string name="gs_sign_notification">Påminn om incheckning klockan 20.00 dagligen</string>
     <string name="gs_slip_gamebox_detail">Använd Slider eller svep från toppen av skärmen för att få fram panelen för genvägar</string>
+    <string name="gtb_dialog_btn_close">Stäng av</string>
+    <string name="gtb_dialog_btn_open">Slå på</string>
+    <string name="gtb_dialog_hint_smart_5g">Du kan slå på eller av denna funktion i Game Turbo > Inställningar.</string>
+    <string name="gtb_dialog_summary_smart_5g">När Game Turbo känner av ett 5G-nätverk kan det ansluta din enhet till det bästa tillgängliga nätverket för att reducera nätverksfördröjning. Slå på denna funktion nu?</string>
+    <string name="gtb_dialog_title_smart_5g">5G-nätverksoptimering</string>
     <string name="gtb_exit_game_to_gtb">Öppna spelboxen</string>
     <string name="gtb_exit_game_to_home">Tillbaka till Hemskärmen</string>
+    <string name="gtb_setting_item_summary_smart_5g">När Game Turbo känner av ett 5G-nätverk kan det ansluta din enhet till det bästa tillgängliga nätverket för att reducera nätverksfördröjning</string>
+    <string name="gtb_setting_item_title_smart_5g">5G-nätverksoptimering</string>
     <string name="guide_get_operator_error">"&lt;font color='#33b4ff'>&lt;U>Fel Operatör?&lt;/U>&lt;/font>"</string>
     <string name="guide_operator_text">"Din nuvarande operatör: "</string>
     <string name="guide_quck_open">Aktivera</string>
@@ -1486,6 +1505,7 @@ Din operatör kan debitera för ytterligare kostnader om du använder mobildataa
     <string name="list_empty_text">Tom</string>
     <string name="load_only_under_wlan">Ladda med enbart Wi-Fi</string>
     <string name="loading">Vänta en stund…</string>
+    <string name="loading_text_format" formatted="false">Tar bort privat info från foton (%d/%d)…</string>
     <string name="local_ip_exception_summary">Kunde inte hämta lokal IP-adress. För att rapportera detta till MIUI, öppna Feedback-appen och skicka loggen från din enhet.</string>
     <string name="lock_all_title">Lås alla appar</string>
     <string name="lock_mode_title">Låsinställningar</string>
@@ -1614,6 +1634,7 @@ ska svara"</string>
     <string name="memory_check_content">Frigjorde %s</string>
     <string name="memory_clean_memory_size_tip">Cache</string>
     <string name="memory_clean_no_need_clean">Allt ser bra ut</string>
+    <string name="memory_clean_no_need_clean_1" formatted="false">Frigjorde %s. Din enhet är %d%% snabbare nu.</string>
     <string name="memory_clear_unused">Rensa cache (%s)</string>
     <string name="memory_title">Tillgängligt: %1$s\u0009\u0009Totalt: %2$s</string>
     <string name="menu_add">Lägg till</string>
@@ -1654,11 +1675,14 @@ ska svara"</string>
     <string name="menu_summary_antivirus">Sök efter virus på din enhet</string>
     <string name="menu_summary_app_manager">Uppdatera och installera appar</string>
     <string name="menu_summary_garbage_cleanup">Inga skräpfiler hittades</string>
-    <string name="menu_summary_garbage_cleanup_ex">Rensa %s skräp</string>
+    <string name="menu_summary_garbage_cleanup_ex">Frigör %s</string>
+    <string name="menu_summary_garbage_cleanup_new">%d%% av lagringsutrymmet</string>
     <string name="menu_summary_networkassistants">Hantera ditt dataabonnemang</string>
     <string name="menu_summary_networkassistants_2">Överskred datagränsen</string>
     <string name="menu_summary_networkassistants_3">Tillräckligt med mobildata återstår</string>
     <string name="menu_summary_networkassistants_4">Håller på att få slut på mobildata</string>
+    <string name="menu_summary_optimize_manage">Rensa minnet</string>
+    <string name="menu_summary_optimize_manage_1">Gör din enhet %d%% snabbare</string>
     <string name="menu_summary_power_manager">Batterispararen ger mer tid mellan laddningarna</string>
     <string name="menu_summary_power_manager_1">Batteriet är fulladdat</string>
     <string name="menu_summary_power_manager_2">%såterstår</string>
@@ -1667,16 +1691,20 @@ ska svara"</string>
     <string name="menu_text_antispam">Blockeringslista</string>
     <string name="menu_text_antivirus">Säkerhetsskanning</string>
     <string name="menu_text_garbage_cleanup">Städaren</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_license_manager">Behörigheter</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_optimize_manage">Öka hastigheten</string>
+    <string name="menu_text_optimize_manage_1">Öka hastigheten</string>
     <string name="menu_text_power_manager">Batteri och prestanda</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Ta bort från undantag</string>
     <string name="menu_white">Lägg till i undantag</string>
     <string name="mi_service_app_detail">Detaljer för dataanvändning</string>
@@ -1836,6 +1864,8 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="om_locked_apps_summary">Låsta appar kommer ignoreras av prestendaoptimeringen.</string>
     <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_not_finish_speedboost">Prestandaoptimering krävs</string>
+    <string name="om_optimzing_big_button_text">Öka hastigheten</string>
+    <string name="om_running_app_info_summary">Frigör %s</string>
     <string name="om_running_locked_apps">Låsta appar som körs</string>
     <string name="om_running_system_apps">Systemappar som kör</string>
     <string name="om_running_third_apps">Tredjepartsappar som kör</string>
@@ -1850,6 +1880,13 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="om_settings_notify_manage">Notifikationer</string>
     <string name="om_settings_speed_up_auto">Automatisk hastighetsökning</string>
     <string name="om_settings_title">Inställningar</string>
+    <string name="om_shortcut_added_toast_text">Tillagd</string>
+    <string name="om_shortcut_dialog_summary">RAM Jet tillåter dig att rensa minnet och öka hastigheten på din enhet med ett enda tryck. Lägg till RAM Jet till din hemskärm?</string>
+    <string name="om_shortcut_dialog_title">RAM Jet</string>
+    <string name="once_settings_camera_ttile">Dela utan metadata</string>
+    <string name="once_settings_location_title">Dela utan platsinfo</string>
+    <string name="once_settings_subtitle">Hur vill du dela det valda objektet?</string>
+    <string name="once_settings_title">Integritetsskydd</string>
     <string name="one_address_choose_hint">%s1</string>
     <string name="open_activity_err">Applikationen hittades inte</string>
     <string name="open_app">Öppna</string>
@@ -2056,6 +2093,11 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="power_center_dialog_msg_top">När batterispararen är aktiverad kommer MIUI göra följande optimeringar:</string>
     <string name="power_center_hints_scan_danger_result">Du kan lösa batteriproblem nu</string>
     <string name="power_center_list_item_auto_brightness">Justera skärmens ljusstyrka automatiskt</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">h</string>
     <string name="power_center_list_item_close_bluetooth">Avaktivera Bluetooth</string>
     <string name="power_center_list_item_deep_save_title">Avancerade inställningar</string>
@@ -2232,6 +2274,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="pref_normal_traffic_limit">När din data i mobildataabonnemanget överskrids</string>
     <string name="pref_open_adjust_traffic">Uppdatera dataanvändning varje dag med information från din operatör</string>
     <string name="pref_operator_not_set">Ingen operatör vald</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">När du överskrider din gräns för dataanvändning</string>
     <string name="pref_package_traffic_settings">Mobildataabonnemang</string>
     <string name="pref_pkg_begin_date">Återställningsdatum för dataanvändning</string>
@@ -2395,6 +2438,7 @@ Under tiden du kalibrerar kommer MIUI skicka ett meddelande till din operatör f
     <string name="privacy_using_record">Spelar in ljud</string>
     <string name="privacyapp_number_masked_text">Notisinnehåll är dolt</string>
     <string name="privacyapp_number_unmasked_text">Notisinnehåll kan inte döljas</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="process_vpnsdkmanager_label">Speloptimering</string>
     <string name="promotion">Reklam</string>
@@ -2533,10 +2577,18 @@ Under tiden du kalibrerar kommer MIUI skicka ett meddelande till din operatör f
     <string name="settings">Inställningar för mobildataanvändning</string>
     <string name="settings_battery_consume_abnormal_summary">Visa notifikationer när batteriet töms för snabbt</string>
     <string name="settings_battery_consume_abnormal_title">Notifikationer om batteriet töms snabbt</string>
+    <string name="settings_camera_subtitle_no">Ingen metadata</string>
     <string name="settings_category_other">Andra inställningar</string>
     <string name="settings_category_overheat">Överhettning</string>
     <string name="settings_choice_no_notification">Av</string>
+    <string name="settings_image_camera_summary">Enhetsmodell, metadata, etc.</string>
+    <string name="settings_location_subtitle_no">Ingen platsinfo</string>
     <string name="settings_power_save_ontime_title">Schemalägg</string>
+    <string name="settings_share_enable_summary">De objekt du delat på WeChat kommer att visas med ett MIUI-märke</string>
+    <string name="settings_share_info">Här är de säkra delningsalternativen som är tillgängliga för objekten som delas från Galleri och Filhanterare:</string>
+    <string name="settings_show_detail">Visa detaljer</string>
+    <string name="settings_tip">Gå till Galleri > Inställningar för att visa fler alternativ</string>
+    <string name="settings_title">Säker delning</string>
     <string name="shield_keyboard_detail">Dubbeltryck på knapparna för att aktivera dem igen</string>
     <string name="shield_keyboard_summary">Begränsa knappar och helskärmsgester när du spelar</string>
     <string name="shield_keyboard_title">Begränsa knappar och gester</string>
@@ -2996,6 +3048,8 @@ Formateringen kommer att radera befintligt innehåll på ^2. För att undvika f�
     <string name="text_button">Jag förstår</string>
     <string name="text_cycle_day">%s</string>
     <string name="text_day" />
+    <string name="text_done">OK</string>
+    <string name="text_security">Integritet</string>
     <string name="thermal_tips_message">Att spela spel i prestandaläge kan leda till överhettningsproblem.</string>
     <string name="thermal_tips_title">Uppmärksamma</string>
     <string name="third_application">Installerade appar</string>
