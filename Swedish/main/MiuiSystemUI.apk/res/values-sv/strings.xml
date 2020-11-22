@@ -63,6 +63,7 @@
     <string name="accessibility_camera_button">Kamera</string>
     <string name="accessibility_carrier_network_change_mode">Operatörsnätverk ändras.</string>
     <string name="accessibility_cast_name">Ansluten till %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Castning av skärmen avslutad.</string>
     <string name="accessibility_cell_data">Mobildata</string>
     <string name="accessibility_cell_data_off">Mobildata avaktiverad</string>
@@ -923,6 +924,10 @@ Använd endast den medföljande laddaren."</string>
     <string name="keyguard_charging_back_to_lockscreen">Tillbaka till Låsskärmen</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
     <string name="keyguard_charging_info_battery_used_time_text">På batteri</string>
+    <string name="keyguard_charging_info_data_c">%s℃</string>
+    <string name="keyguard_charging_info_data_ma">%smA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Tömd</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Idag %s</string>
@@ -950,6 +955,7 @@ Använd endast den medföljande laddaren."</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-kort saknas eller är inte läsbar. Vänligen för in en SIM kort.</string>
     <string name="keyguard_missing_sim_message">Inget SIM kort i telefonen.</string>
     <string name="keyguard_missing_sim_message_short">Inget SIM-kort</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Nätverket är låst</string>
     <string name="keyguard_password_enter_password_code">Ange ditt lösenord för att låsa upp</string>
     <string name="keyguard_password_enter_pin_code">Ange PIN-koden</string>
@@ -1034,6 +1040,7 @@ Försök igen om %2$d sekunder."</string>
     <string name="left_keycode">Tangentkod för vänster knapp</string>
     <string name="left_nav_bar_button_type">Extra knapptyp till vänster</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="loading_injected_setting_summary">Vänta en stund…</string>
     <string name="local_backup_password_summary_change">Tryck för att ändra eller ta bort lösenord för säkerhetskopior för Hemskärmen</string>
     <string name="local_backup_password_summary_none">Fullständig säkerhetskopia för Desktop är inte skyddad för tillfället</string>
@@ -1113,6 +1120,7 @@ en skrollnings-skärmdump"</string>
     <string name="miui_guide_dialog_message">Medialjud (t ex musik, videor) kommer fortfarande spelas i Tyst läge. Du kan ändra detta i Inställningar.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Upplåst av Bluetoothenhet</string>
     <string name="miui_ringer_count_down">Räkna ner</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Tyst</string>
     <string name="miui_ringer_standard_description">Stäng av ringsignal för inkommande samtal och notifikationer</string>
     <string name="miui_ringer_total">Stör ej</string>
@@ -1148,12 +1156,14 @@ Du är också ansluten till %3$s som kan övervaka din personliga nätverksaktiv
 
 Kontakta din administratör för mer information."</string>
     <string name="monitoring_description_ca_cert_settings">Öppna betrodda uppgifter</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">En Certifikatutfärdare är installerad på denna enhet. Din säkra nätverkstrafik kan vara övervakad eller har blivit modifierad.</string>
     <string name="monitoring_description_do_body">Din administratör kan övervaka och hantera inställningar, företagstillgång, appar, data kopplad till din enhet och din enhets platsinformation.</string>
     <string name="monitoring_description_do_body_vpn">Du är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-post, appar och websidor.</string>
     <string name="monitoring_description_do_header_generic">Din enhet hanteras av %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s använder %2$s för att hantera din enhet.</string>
     <string name="monitoring_description_do_learn_more">Läs mer</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Din organisation installerade en Certifikatutfärdare i din arbetsprofil. Din säkra nätverkstrafik kan övervakas eller modifieras.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Din arbetsprofil är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-post, appar och webbsidor.</string>
     <string name="monitoring_description_management">"Din enhet hanteras av din organisation.
@@ -1185,6 +1195,7 @@ Kontakta din administratör för mer information.
 
 Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</string>
     <string name="monitoring_description_vpn_settings">Öppna inställningar för VPN</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA-certifikat</string>
     <string name="monitoring_subtitle_network_logging">Nätverksloggning</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1223,6 +1234,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="nav_guide_message">Använd gester för att dölja/visa skärmknappar.</string>
     <string name="nav_guide_ok">Ställ in</string>
     <string name="nav_guide_title">Dölj skärmknappar</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Inga</string>
     <string name="no_multi_window_app">Inga appar stöder Delad skärm</string>
     <string name="no_notification_tips">Inga notifikationer</string>
@@ -1394,6 +1406,7 @@ Du är också ansluten till en VPN som kan övervaka din nätverksaktivitet."</s
     <string name="private_dns_mode_provider">Värdnamn privat DNS-leverantör</string>
     <string name="private_dns_mode_provider_failure">Kan inte ansluta</string>
     <string name="private_dns_mode_provider_hostname_hint">Ange värdnamn för DNS-leverantör</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">Problem connecting. Turn device off &amp; back on</string>
     <string name="profile_info_settings_title">Profil info</string>
     <string name="profile_owned_footer">Profilen kan vara övervakat</string>
@@ -1996,6 +2009,7 @@ Alla användare kan uppdatera för alla användare."</string>
     <string name="wapi_psk_type_ascii">ASCII</string>
     <string name="wapi_psk_type_hex">Hexadecimal</string>
     <string name="wapi_yes">Ja</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Uppdaterad %1$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Tillgångspunkten är tillfällig full</string>
     <string name="wifi_auto_sel_wapi_cert">Välj automatiskt</string>

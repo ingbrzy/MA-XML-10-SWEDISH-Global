@@ -54,6 +54,7 @@
     <string name="dual_app_title">Dubbelappar</string>
     <string name="dual_app_words">Varje konto förtjänar en egen app</string>
     <string name="early_morning">Morgon</string>
+    <string name="empty">" "</string>
     <string name="eras_ad">V.T.</string>
     <string name="eras_bc">F.V.T.</string>
     <string name="evening">Eftermiddag</string>
@@ -263,6 +264,7 @@
     <string name="saturday_shortest">Lör</string>
     <string name="search_menu_title">Sök</string>
     <string name="share">Dela</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>
     <string name="sunday_shortest">Sön</string>
