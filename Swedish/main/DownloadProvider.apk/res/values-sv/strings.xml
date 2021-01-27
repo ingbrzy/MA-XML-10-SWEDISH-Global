@@ -10,7 +10,6 @@
     <string name="download_queued">Köad</string>
     <string name="download_remaining">%s återstår</string>
     <string name="download_running">Laddar ned</string>
-    <string name="download_running_percent">Laddar ner %s</string>
     <string name="download_unknown_title">&lt;Okänd></string>
     <string name="notif_title_file_size">%1$d totalt</string>
     <string name="notif_title_single_downloading">Laddar ned %1$s</string>
