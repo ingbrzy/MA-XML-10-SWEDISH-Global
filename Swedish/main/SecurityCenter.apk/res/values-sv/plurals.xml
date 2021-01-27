@@ -156,6 +156,10 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="other">%1$d personer spelar</item>
         <item quantity="one">%1$d person spelar</item>
     </plurals>
+    <plurals name="gb_dialog_game_uninstall_multi_tips_title">
+        <item quantity="other">Avinstallera %2$d spel (inklusive %1$s)</item>
+        <item quantity="one">Avinstallera %2$d spel (inklusive %1$s)</item>
+    </plurals>
     <plurals name="gb_record_time_title">
         <item quantity="other">%d sekunder</item>
         <item quantity="one">%d sekund</item>

@@ -94,6 +94,7 @@
     <string name="auth_fail_warning">Sessionen löpte ut, logga in igen.</string>
     <string name="auto_play_next_off">Automatisk uppspelning är inaktiverad</string>
     <string name="auto_play_next_on">Automatisk uppspelning är aktiverad</string>
+    <string name="back_to_mainpage">Upptäck</string>
     <string name="before_yestoday">2 dagar sedan</string>
     <string name="bind_sign_in_title">Lägg till Mi Konto</string>
     <string name="cancel">Avbryt</string>
@@ -117,6 +118,7 @@
     <string name="cast_forward">Framåt</string>
     <string name="cast_forward_10">Spola framåt tio sekunder</string>
     <string name="cast_forward_30">Spola framåt trettio sekunder</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">LIVE</string>
     <string name="cast_mute">Stäng av ljudet</string>
     <string name="cast_notification_connected_message">Ansluten till %1$s</string>
@@ -233,7 +235,7 @@
 ID:%s
 Skicka koden till handledaren."</string>
     <string name="dialog_privacy_info_new2">För att kunna använda dessa tjänster måste du godkänna att %1$s kommer att samla in, bearbeta och använda dina personuppgifter. Du anses ha läst och godkänt vår &lt;a href=%2$s>Integritetspolicy&lt;/a> när du trycker på \"Godkänn\" nedan.</string>
-    <string name="dialog_privacy_info_new3">För att kunna använda den här tjänsten måste du tillåta att %1$s kan samla in, behandla och använda din personliga information i enlighet med sekretesspolicyn. Genom att klicka på \"Godkänn\" nedan, så godkänner du Xiamois &lt;a href=%2$s>integritetspolicy&lt;/a> och &lt;a href=%3$s>användaravtal&lt;/a>.</string>
+    <string name="dialog_privacy_info_new3">För att kunna använda denna tjänst behöver du tillåta %1$s att samla in, behandla, och använda din personliga information i enlighet med Integritetspolicyn. Genom att trycka på Acceptera nedan, så accepterar du Xiaomis &lt;a href=%2$s>Integritetspolicy&lt;/a> och &lt;a href=%3$s>Användaravtal&lt;/a>. &lt;br/>&lt;br/>När du trycker på Acceptera så ger du även Mi Video åtkomst till listan över appar som är installerade på din enhet. Med denna behörighet kommer Mi VIdeo kunna dela objekt, veta om en app är installerad på din enhet, vilken version av en som är installerad, och om en app är säker.</string>
     <string name="dialog_privacy_title">Tillstånd</string>
     <string name="dialog_revoke_privacy_info_new2">När du har upphävt befogenhet kommer appen att sluta samla in data och alla relaterade data kommer att tas bort från våra servrar. Detta kan göra appen oanvändbar. Upphäv befogenhet ändå?</string>
     <string name="dialog_revoke_privacy_title">Upphäver befogenhet</string>
@@ -303,6 +305,7 @@ Skicka koden till handledaren."</string>
     <string name="favorite_fail">Det gick inte att lägga till i favoriter. Försök igen.</string>
     <string name="favorite_success">Tillagd i favoriter</string>
     <string name="fcm_fallback_notification_channel_label">Diverse</string>
+    <string name="fcm_push_title">Populära videor</string>
     <string name="feedback">Feedback</string>
     <string name="feedback_activity_title">Feedback</string>
     <string name="feedback_contact_empty">Ange korrekt kontaktinformation</string>
@@ -649,6 +652,9 @@ för videor"</string>
     <string name="notification_bar_player_subtitle">Visa minimerad spelare i Notifikationspanelen</string>
     <string name="notification_bar_player_title">Minimera spelaren</string>
     <string name="notification_open_tip">Slå på för att få notifikationer</string>
+    <string name="notification_recall_action">Aktivera</string>
+    <string name="notification_recall_desc">Mi Video kan meddela dig om populära videor och dina prenumerationer.</string>
+    <string name="notification_recall_title">Aktivera notifikationer</string>
     <string name="notify_apk_installed">Nedladdad</string>
     <string name="ok">OK</string>
     <string name="order_alphabet">A-Ö</string>
@@ -847,6 +853,7 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="permission_storage">Lagringsutrymme</string>
     <string name="permission_storage_desc">För åtkomst till objekt, spara filer, visa och spela lokala videor</string>
     <string name="permission_title">Behörigheter krävs</string>
+    <string name="pgc_push_title">Prenumerationer</string>
     <string name="phone_bind_too_many">Detta telefonnummer är sammankopplats med flera Mi-konton under kort tid. Försök använda ett annat telefonnummer.</string>
     <string name="phone_hint">Telefonnummer</string>
     <string name="phone_num_use_for">Telefonnummer används för:</string>

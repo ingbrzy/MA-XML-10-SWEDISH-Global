@@ -68,6 +68,13 @@
     <string name="focus_mode_timer_pick_dialog_title">Ange varaktighet</string>
     <string name="focus_time_exception_tip">Verkar som att systemtiden ändrades. Stäng av Fokusläge.</string>
     <string name="follow_sim1">Använd inställningar för SIM 1</string>
+    <string name="fps_nature_summary">Högt uppdateringsintervall gör allt skarpt och tydligt</string>
+    <string name="fps_nature_title">Hög</string>
+    <string name="fps_smooth_summary">Medium uppdateringsintervall lägger till mer tydlighet av detaljer</string>
+    <string name="fps_smooth_title">Medium</string>
+    <string name="fps_standard_summary">Standard uppdateringsintervall sparar batteri</string>
+    <string name="fps_standard_title">Standard</string>
+    <string name="fps_user_tip">Dessa demoanimationer spelas upp i låg hastighet för din referens. Verklig prestanda kan se annorlunda ut baserat på varierande faktorer.</string>
     <string name="gamma">Gamma</string>
     <string name="healthy_use_phone">Hantera skärmtid</string>
     <string name="high_fps_description">Hög skärmuppdateringsgrad. Högre strömförbrukning.</string>
@@ -114,6 +121,7 @@
     <string name="screen_fps_summary_power_save">Användning av fast frekvens konsumerar lindre ström</string>
     <string name="screen_fps_summary_smooth">Vissa appar ökar uppdateringsfrekvensen automatiskt för att förbättra bildkvaliten</string>
     <string name="screen_fps_title">Uppdateringsintervall</string>
+    <string name="screen_fps_unit">%d Hz</string>
     <string name="screen_fps_unit_power_save">%dHz (Sparar batteri)</string>
     <string name="screen_fps_unit_smooth">%dHz (Bättre kvalitet)</string>
     <string name="screen_original_gamut">Förbättrad</string>
@@ -186,6 +194,7 @@
     <string name="usage_device_limit_app_prolong_time2">Lägg till 40 minuter</string>
     <string name="usage_device_limit_app_prolong_time3">Lägg till 60 minuter</string>
     <string name="usage_device_limit_app_prolong_time4">Begränsa inte idag</string>
+    <string name="usage_device_limit_app_prolong_time5">Lägg till tid en gång</string>
     <string name="usage_device_limit_notifation_summary_start">Du kommer uppnå din gräns om %1$s</string>
     <string name="usage_device_limit_notifation_title">Kvarstående tid idag</string>
     <string name="usage_device_limit_time_over">Du har uppnått dagens gräns (%1$s)</string>

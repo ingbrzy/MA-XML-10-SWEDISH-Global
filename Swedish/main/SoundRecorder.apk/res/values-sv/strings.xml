@@ -43,6 +43,8 @@
     <string name="call_record_list_group_connected">Ansluten</string>
     <string name="call_record_list_group_unconnected">Inte ansluten</string>
     <string name="cancel_rename">Avbryt</string>
+    <string name="clear_data_dialog_content">Cachade objekt, appdata, och anpassade inställningar kommer att raderas, men dina inspelningar kommer förbli på plats.</string>
+    <string name="clear_data_dialog_title">Rensa data nu?</string>
     <string name="clear_records">Radera synkroniserade inspelningar</string>
     <string name="cloud_record_open">Synkronisera inspelningar</string>
     <string name="cloud_record_tip">Synkronisera inspelningar med Xiaomi Cloud.</string>
@@ -127,7 +129,7 @@
     <string name="network_unavailable_tip">Anslut till nätverket och försök igen.</string>
     <string name="new_record_name">Ny inspelning</string>
     <string name="no_file">Tom</string>
-    <string name="no_network">"Couldn't connect to the network"</string>
+    <string name="no_network">Kunde inte ansluta till nätverket</string>
     <string name="not_set">Inte angett</string>
     <string name="notification_message_all_paused">Väntar på Wi-Fi nätverk.</string>
     <string name="notification_playback">Spelar…</string>
@@ -171,6 +173,7 @@
     <string name="pay_error_unknown">Okänt fel</string>
     <string name="playback_delete_records">Radera inspelning</string>
     <string name="playback_share_records">Dela inspelning</string>
+    <string name="preference_clear_data">Rensa data</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="preference_enable_earpiece_summary">Använd mottagarens högtalare för extern uppspelning</string>
     <string name="preference_enable_earpiece_title">Använd mottagare för att spela upp ljud</string>
@@ -329,6 +332,8 @@
     <string name="trash_box">Nyligen borttagna objekt</string>
     <string name="trash_box_close_tip">Stäng prompt</string>
     <string name="trash_box_delete_all">Vill du ta bort alla objekt från papperskorgen permanent?</string>
+    <string name="uninstall_warning_content">Diktafon är en system-app. Du kommer inte kunna spela in och transkribera ljud och röstsamtal efter du avinstallerat den.</string>
+    <string name="uninstall_warning_title">Avinstallera Diktafon?</string>
     <string name="usage_description">Transkribera ljud och synkronisera objekt med molnet</string>
     <string name="user_feedback">Återkoppling</string>
     <string name="v7_preference_off">AV</string>

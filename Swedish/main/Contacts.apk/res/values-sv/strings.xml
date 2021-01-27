@@ -123,6 +123,10 @@
     <string name="call_record_text_auto_delete_half_year">Efter %d månader</string>
     <string name="call_record_text_auto_delete_never">Aldrig</string>
     <string name="call_record_text_auto_delete_one_month">Efter %d månad</string>
+    <string name="call_record_user_notice_all_purpose">Hitta samtalen under vilka vissa ord nämndes</string>
+    <string name="call_record_user_notice_permission_desc_microphone">För att spela in samtal</string>
+    <string name="call_record_user_notice_permission_desc_storage">För att spara inspelningar</string>
+    <string name="call_record_user_notice_title">Röstsamtalssökning</string>
     <string name="call_record_whitelist_custom">Valda samtal</string>
     <string name="call_recording_notification_summary">Få ett meddelande när ett samtal har spelats in</string>
     <string name="call_recording_notification_title">Meddela om inspelade samtal</string>
@@ -173,6 +177,7 @@
     <string name="callrecordview_menu_show_missed">Missade samtal</string>
     <string name="callrecordview_menu_show_sim">%s samtal</string>
     <string name="callrecordview_menu_show_stranger">Samtal från okända nummer</string>
+    <string name="cancel">Avbryt</string>
     <string name="cancel_confirmation_dialog_message">Ignorera ändringar?</string>
     <string name="cancel_confirmation_dialog_title">Avbryt</string>
     <string name="cancel_export_confirmation_message">Avbryt exporten av %s?</string>
@@ -251,6 +256,15 @@
     <string name="contactsList">Kontakter</string>
     <string name="contacts_default_notification_channel">Notifikationer</string>
     <string name="contacts_hybrid_activity_label">Återställ kontakter</string>
+    <string name="contacts_trash_activity_hint">Välj kontakter att återställa</string>
+    <string name="contacts_trash_activity_title">Nyligen borttagna kontakter</string>
+    <string name="contacts_trash_delete">Ta bort</string>
+    <string name="contacts_trash_delete_dialog_continue">Ta bort</string>
+    <string name="contacts_trash_delete_dialog_hint">Du kommer inte kunna återställa detta.</string>
+    <string name="contacts_trash_delete_dialog_loading">Tar bort…</string>
+    <string name="contacts_trash_delete_dialog_title">Ta bort valda kontakter?</string>
+    <string name="contacts_trash_restore">Återställ</string>
+    <string name="contacts_trash_restore_loading">Återställer…</string>
     <string name="contacts_unavailable_add_account">Logga in på ett konto</string>
     <string name="contacts_unavailable_create_contact">Skapa ny kontakt</string>
     <string name="contacts_unavailable_import_contacts">Importera från fil</string>
@@ -389,6 +403,7 @@
     <string name="email_work">Skicka e-post till jobb</string>
     <string name="emergency_number_label">Larmnummer</string>
     <string name="empty" />
+    <string name="ensure">OK</string>
     <string name="eras_ad">V.T.</string>
     <string name="eras_bc">F.V.T.</string>
     <string name="evening">Eftermiddag</string>
@@ -468,6 +483,7 @@ Orsak: \"%s\""</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Namn</string>
     <string name="gallery">Galleri</string>
     <string name="ghostData_company">Företag</string>
@@ -488,6 +504,8 @@ Orsak: \"%s\""</string>
     <string name="group_sms_progress_msg">Grupperar…</string>
     <string name="groupsLabel">Grupper</string>
     <string name="groups_list_empty">Inga grupper</string>
+    <string name="hide_app_description_content">Kontakter är en system-app. Du kommer fortfarande kunna använda den via Telefon-appen efter du tagit bort genvägen på hemskärmen.</string>
+    <string name="hide_app_description_title">Ta bort \"Kontakter\" från hemskärmen?</string>
     <string name="hint_distance" />
     <string name="hint_findContacts">Hitta kontakter</string>
     <string name="hint_more_contact">Slå ihop dubletter</string>
@@ -589,6 +607,7 @@ Orsak: \"%s\""</string>
     <string name="menu_sync_remove">Ta bort synk-grupp</string>
     <string name="midnight">Natt</string>
     <string name="miprofile_account_type">Kontaktkort</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Redigera profil</string>
     <string name="miprofile_name">Min profil</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -717,6 +736,7 @@ Orsak: \"%s\""</string>
     <string name="payphone">Betalnummer</string>
     <string name="people">Kontakter</string>
     <string name="phoneLabelsGroup">Telefon</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Numret är för långt</string>
     <string name="phone_primary">Primär</string>
     <string name="photoPickerNotFoundText">Inga bilder finns tillgängliga på enheten.</string>
@@ -829,6 +849,10 @@ Orsak: \"%s\""</string>
     <string name="remove_duplicate">"MIUI hjälper dig att finna och slå ihop dubblerade kontakter.
 
  För att börja, välj Slå ihop ikonen på botten av din skärm."</string>
+    <string name="restore_app_btn_cancel">Avbryt</string>
+    <string name="restore_app_btn_restore">OK</string>
+    <string name="restore_app_description_content">Lägg till en genväg på hemskärmen för att få tillgång till dina kontakter snabbare.</string>
+    <string name="restore_app_description_title">Lägg till \"Kontakter\" på Hemskärmen?</string>
     <string name="restore_nickname">Återställ</string>
     <string name="return_call">Tryck för att gå tillbaka till att ringa</string>
     <string name="return_call_calling">Samtal pågår</string>
@@ -916,6 +940,7 @@ Orsak: \"%s\""</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Inga gruppmedlemmar</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Företag</string>
     <string name="smart_group_company_unavailable">Ingen företagsinformation</string>
     <string name="smart_group_frequency_1">Inom den senaste månaden</string>
@@ -957,6 +982,7 @@ Orsak: \"%s\""</string>
     <string name="starred_contacts">Favoriter</string>
     <string name="status_available">Tillgänglig</string>
     <string name="status_away">Borta</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Upptagen</string>
     <string name="strequentList">Favoriter</string>
     <string name="success_message_import_from_account">Kontakt importerad</string>

@@ -97,7 +97,7 @@
     <string-array name="settings_search_notes">
         <item>Synkronisera noteringar med Xiaomi Cloud</item>
         <item>Aktivera synkronisering</item>
-        <item>Noteringar;Moln;Synkronisera;Molntjänster;Xiaomi Cloud</item>
+        <item>Noteringar;Moln;Synkronisera;Molntjänster;Xiaomi Cloud;Anteckningar</item>
     </string-array>
     <string-array name="settings_search_personal_assistant">
         <item>Synkronisera App vault med Xiaomi Cloud</item>

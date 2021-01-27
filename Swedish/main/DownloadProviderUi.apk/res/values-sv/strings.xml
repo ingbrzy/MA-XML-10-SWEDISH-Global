@@ -65,6 +65,10 @@
     <string name="about">Om</string>
     <string name="action_settings">Inställningar</string>
     <string name="ad_install">Installera</string>
+    <string name="add_download_download">Ladda ned</string>
+    <string name="add_download_error_not_support">Denna länk stöds inte</string>
+    <string name="add_download_text_hint">Ange en HTTP/HTTPS-länk</string>
+    <string name="add_download_title">Lägg till URL</string>
     <string name="all_downloads">Alla nedladdningar</string>
     <string name="all_fileter">Alla</string>
     <string name="all_share_files_content">Filerna som du har valt har redan raderats.</string>
@@ -89,6 +93,8 @@
     <string name="dialog_btn_cancel">Avbryt</string>
     <string name="dialog_btn_ok">OK</string>
     <string name="dialog_btn_ok_disabled_net">Nätverksinställningar</string>
+    <string name="dialog_clipboard_permission_message">Tillåt nedladdningar för att få tillgång till objekt i urklipp och lägga till kopierade URL:er automatiskt?</string>
+    <string name="dialog_clipboard_permission_title">Behörigheter krävs</string>
     <string name="dialog_confirm_delete_checkbox_message">Ta bort även lokala filer</string>
     <string name="dialog_confirm_delete_the_download_item_message">Ta bort dessa objekt</string>
     <string name="dialog_file_missing_title">Kan inte öppna filen</string>
@@ -124,19 +130,13 @@
     <string name="download_when_network_connected">Använd dataanslutning vid nedladdning</string>
     <string name="downloaded">Nedladdning klar</string>
     <string name="downloaded_empty">Tom</string>
+    <string name="downloaded_tab_hint">Du kan visa nedladdade objekt i Filhanteraren</string>
     <string name="downloading">Laddar ned…</string>
     <string name="downloading_empty">Tom</string>
     <string name="downloads_operating">Arbetar…</string>
-    <string name="durationDayHour">%1$d dag %2$d timme</string>
-    <string name="durationDayHours">%1$d dag %2$d timmar</string>
-    <string name="durationHourMinute">%1$d t %2$d min</string>
-    <string name="durationHourMinutes">%1$d t %2$d min</string>
-    <string name="durationMinute">%1$d minut</string>
-    <string name="durationMinuteSecond">%1$d min %2$d sek</string>
-    <string name="durationMinuteSeconds">%1$d min %2$d sek</string>
-    <string name="durationMinutes">%1$d minuter</string>
-    <string name="durationSecond">%1$d sekund</string>
-    <string name="durationSeconds">%1$d sekunder</string>
+    <string name="durationDayHours">%1$s %2$s</string>
+    <string name="durationHourMinutes">%1$s %2$s</string>
+    <string name="durationMinuteSeconds">%1$s %2$s</string>
     <string name="editmode_menu_delete">Ta bort</string>
     <string name="editmode_menu_share">Dela</string>
     <string name="extend">Mer</string>
@@ -205,10 +205,20 @@
     <string name="pref_download_settings_title">Storleksgräns för nedladdning</string>
     <string name="pref_summary_any_bytes_popup">Vänta alltid på Wi-Fi-anslutning för att hämta filer</string>
     <string name="pref_summary_enable_max_bytes_popup">Visa popup meddelande när du använder mobildata för att ladda ned filer</string>
-    <string name="pref_summary_max_bytes_limit_format">Vänta på Wi-Fi om filstorleken överstiger%s</string>
     <string name="pref_summary_no_limit_popup">Obegränsat</string>
     <string name="pref_title_enable_max_bytes_popup">Visa dataanvändningsprompt</string>
     <string name="preferences_title">Inställningar</string>
+    <string name="privacy_agree_dialog_msg">&lt;Data>Välkommen till Downloads! Du kan använda denna app för att ladda ned filer.&lt;BR>Downloads behöver samla in nödvändig personlig information för att förse dig med de tjänster som genererar nedladdningsstatistik. Du kan lära dig hur vi hanterar den information vi samlar in i vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a>.&lt;BR>Läs och acceptera vårt &lt;a href=\"%2$s\">Användaravtal&lt;/a> och &lt;a href=\"%1$s\">Integritetspolicy&lt;/a> innan du använder Downloads.&lt;BR>Du kan dra tillbaka ditt samtycke i Inställningarna när som helst. Om du inte accepterar vår Integritetspolicy kommer du inte kunna använda vissa funktioner i denna app; men dess grundläggande funktionalitet kommer fortfarande vara tillgänglig för dig.&lt;/Data></string>
+    <string name="privacy_agree_dialog_title">Regler och villkor</string>
+    <string name="privacy_revoke_dialog_later">Avbryt</string>
+    <string name="privacy_revoke_dialog_msg">Genom att växla till av, så drar du tillbaka ditt samtycke till integritetspolicyn för Downloads. Vi kommer upphöra att samla in din personliga information. De personliga data som redan samlats in och bevaras kommer att raderas inom en specifik period som krav enligt gällande lagar. Downloads behöver samla in nödvändig personlig information för att förse dig med tjänster som genererar nedladdningsstatistik. Ditt tillbakadragande av samtycke till dess integritetspolicy kommer hållas som vägran att acceptera dess tjänster baserat på insamlad personlig information.</string>
+    <string name="privacy_revoke_dialog_ok">Dra tillbaka</string>
+    <string name="privacy_revoke_dialog_title">Återkallelse av ditt samtycke</string>
+    <string name="privacy_revoke_label">Återkallelse av ditt samtycke</string>
+    <string name="privacy_revoke_msg">Genom att växla till av drar du tillbaka ditt samtycke till integritetspolicyn för Downloads.</string>
+    <string name="privacy_revoke_nonetwork_msg">Din enhet behöver ansluta till nätverket för att du ska kunna dra tillbaka samtycket. Kontrollera dina nätverksinställningar och försök igen.</string>
+    <string name="privacy_revoke_nonetwork_ok">Jag förstår</string>
+    <string name="privacy_revoke_nonetwork_title">Kan inte ansluta till nätverket</string>
     <string name="privacy_tip_cancel">Avbryt</string>
     <string name="privacy_tip_ok">OK</string>
     <string name="rank">Rankningar</string>
@@ -249,5 +259,4 @@
     <string name="toast_only_wifi_download">Anslut till Wi-Fi för att ladda ner detta objekt</string>
     <string name="total_speedup">Fartökning (totalt)</string>
     <string name="version">Version %s</string>
-    <string name="security_ui_title">Säkerhetsannonser</string>
 </resources>

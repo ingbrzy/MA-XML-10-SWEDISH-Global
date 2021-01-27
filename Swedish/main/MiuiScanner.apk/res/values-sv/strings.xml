@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Dela med</string>
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
+    <string name="clearable_edittext_clear_description">Rensa</string>
     <string name="copy">Kopiera</string>
     <string name="expand_button_title">Avancerat</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra nedåt för att uppdatera</string>

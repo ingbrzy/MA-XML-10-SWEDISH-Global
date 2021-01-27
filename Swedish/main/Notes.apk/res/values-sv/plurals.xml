@@ -88,6 +88,14 @@
         <item quantity="other">%d minuter sedan</item>
         <item quantity="one">1 minut sedan</item>
     </plurals>
+    <plurals name="pc_notes_search_result">
+        <item quantity="other">Hittade %1$s anteckningar</item>
+        <item quantity="one">Hittade %1$s anteckning</item>
+    </plurals>
+    <plurals name="pc_todo_search_result">
+        <item quantity="other">Hittade %1$s uppgifter</item>
+        <item quantity="one">Hittade %1$s uppgift</item>
+    </plurals>
     <plurals name="record_last_ten_seconds_reminder">
         <item quantity="other">%d andra vänster</item>
         <item quantity="one">%d andra vänster</item>

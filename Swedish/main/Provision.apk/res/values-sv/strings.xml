@@ -106,8 +106,9 @@
     <string name="next_fingerprint">Nästa</string>
     <string name="note_introduction">Med denna app kan du skapa, visa och redigera anteckningar.</string>
     <string name="other_settings">Ytterligare inställningar</string>
-    <string name="other_settings_ad_dialog_content">"När du har avaktiverat denna funktion kommer du inte längre att få anpassade annonser. Du kommer emellertid att få annonser som inte är relevanta för dina intressen. Du kan läsa mer om anpassade annonser i Xiaomis integritetspolicy.
-Avaktivera personliga annonser ändå?"</string>
+    <string name="other_settings_ad_dialog_agree">Slå på</string>
+    <string name="other_settings_ad_dialog_content">När personliga reklamrekommendationer är avstängt kommer du fortfarande se samma antal annonser som när funktionen är avstängd. Men annonserna kommer inte längre vara relevanta eftersom de inte kommer vara grundade på dina personliga preferenser.</string>
+    <string name="other_settings_ad_dialog_disagree">Stäng av</string>
     <string name="other_settings_ad_disable_summary">Aktivera för att anpassa annonser</string>
     <string name="other_settings_ad_enable">Anpassade annonser</string>
     <string name="other_settings_ad_enable_summary">Anpassade annonser baserade på dina intressen</string>

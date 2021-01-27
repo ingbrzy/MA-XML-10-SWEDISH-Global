@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="MediaControlView_audio_track_none_text">Inget</string>
+    <string name="MediaControlView_audio_track_number_text">Spår %1$d</string>
+    <string name="MediaControlView_audio_track_text">Ljudspår</string>
+    <string name="MediaControlView_playback_speed_normal">Normal</string>
+    <string name="MediaControlView_playback_speed_text">Uppspelningshastighet</string>
+    <string name="MediaControlView_subtitle_off_text">Av</string>
+    <string name="MediaControlView_subtitle_track_number_and_lang_text">Spår %1$d – %2$s</string>
+    <string name="MediaControlView_subtitle_track_number_text">Spår %1$d</string>
+    <string name="MediaControlView_time_placeholder">00:00:00</string>
     <string name="abc_action_bar_home_description">Navigera hem</string>
     <string name="abc_action_bar_up_description">Navigera uppåt</string>
     <string name="abc_action_menu_overflow_description">Fler alternativ</string>
@@ -47,6 +56,7 @@ to add cards"</string>
     <string name="afternoon">Eftermiddag</string>
     <string name="all_records">Alla poster</string>
     <string name="altitude">Altitude</string>
+    <string name="altitude_pressure_hint">*Altitude calculated based on atmospheric pressure is approximate</string>
     <string name="altitude_range">Altitud</string>
     <string name="am">F.m</string>
     <string name="audio_permission_dialog_desc">För att analysera din sömncykel och spela in prat och snarkning, behöver Xiaomi Health behörighet att spela in ljud.</string>
@@ -153,6 +163,7 @@ to add cards"</string>
     <string name="deep_sleep_duration_description">"When people sleep, periodic rapid eye movements occur. Sleep can be divided into rapid eye movement (REM) sleep and non-rapid eye movement (NREM) sleep. Deep sleep occurs during periods of NREM sleep, accounting for about 20 to 25%% of the overall sleep duration. Your brain rests during deep sleep, showing low levels of conscious activity, so waking up isn't easy."</string>
     <string name="deep_sleep_duration_increase_description">Your deep sleep is too long</string>
     <string name="deep_sleep_duration_normal_description">You have a sufficient amount of deep sleep</string>
+    <string name="default_notification_channel_name">Nu spelas</string>
     <string name="delete">Delete</string>
     <string name="delete_menstruation_record_confirm">Ta bort denna post?</string>
     <string name="description">Details</string>
@@ -195,6 +206,7 @@ Xiaomi Health skickar bara aviseringar till dig om det är viktigt."</string>
     <string name="dialog_keep">Keep</string>
     <string name="dialog_known">Jag förstår</string>
     <string name="dialog_menstruation_purpose">Välkommen till Xiaomi Health! Med ”Menstruation” kan du registrera menstruationer, fastställa beräknade datum för kommande menstruationer och få påminnelser. Alla relaterade data lagras lokalt på din enhet så att du enkelt ska kunna hantera dem.</string>
+    <string name="dialog_new_version_title">An update is available</string>
     <string name="dialog_no_more_prompt">Visa inte igen</string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_open">Tillåt</string>
@@ -213,6 +225,7 @@ Xiaomi Health skickar bara aviseringar till dig om det är viktigt."</string>
     <string name="dialog_user_agreement_purpose">Välkommen till Xiaomi Health! Du kan använda den här appen för att räkna steg, registrera sömn, mens, och vikt, såväl som synka din statistik till molnet.</string>
     <string name="dialog_user_agreement_purpose2">Välkommen till Xiaomi Health! Du kan använda denna app för att räkna dina steg, analysera sömn, hålla reda på menstruationscykler, registrera vikt, och mer.</string>
     <string name="disable">Off</string>
+    <string name="discard_update">No thanks</string>
     <string name="dream_talk">Talking %1$s</string>
     <string name="dream_talk_record">You were recorded when you talked during in your sleep</string>
     <string name="dream_talk_title">Talking</string>
@@ -229,6 +242,12 @@ Xiaomi Health skickar bara aviseringar till dig om det är viktigt."</string>
     <string name="enable_right_now">Turn on</string>
     <string name="engrgy_format">%1$d W</string>
     <string name="enough">Enough</string>
+    <string name="environment_detection_again">Try again</string>
+    <string name="environment_detection_fail">"Looks like it's too noisy here"</string>
+    <string name="environment_detection_fail_hint">Move to a quiet place and try again.</string>
+    <string name="environment_detection_hint_one">Avoid noisy places to make stats more accurate.</string>
+    <string name="environment_detection_hint_two">Your workout will be paused and resumed automatically based on the sounds you produce.</string>
+    <string name="environment_detection_ing">Checking workout environment…</string>
     <string name="eras_ad">V.T.</string>
     <string name="eras_bc">F.V.T.</string>
     <string name="evening">Eftermiddag</string>
@@ -306,6 +325,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="feedback_need_permission_msg">Tillåt Xiaomi Health att skriva till extern lagring för att kunna generera loggar som används för feedback.</string>
     <string name="feedback_permission_denied_msg">Xiaomi Health kan inte spara loggar till extern lagring. Ge Xiaomi Health nödvändig behörighet i inställningarna.</string>
     <string name="fewer">Little</string>
+    <string name="find_new_verision">Version %s is available now</string>
     <string name="finish">Färdig</string>
     <string name="finished_rate">Completed %1$d%%</string>
     <string name="fmt_date_day">dd</string>
@@ -372,6 +392,8 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="health_app_name_dev">Hälsoutvecklare</string>
     <string name="health_score">Hälsopoäng</string>
     <string name="health_score_tips">Hälsopoäng beräknas utifrån din BMI (kroppsmasseindex), din sömn och dina aktivitetssteg. Ju närmare du är dina mål, desto högre är dina hälsopoäng.</string>
+    <string name="health_uninstall_dialog_content">Xiaomi Health är en system-app. Du kan använda denna app för att räkna steg, spåra sömn, menstruationer, och vikt, såväl som synka din statistik till molnet. Du kommer inte kunna använda denna app efter du avinstallerat den.</string>
+    <string name="health_uninstall_dialog_title">Avinstallera Xiaomi Health?</string>
     <string name="height">Hight</string>
     <string name="high">Hög</string>
     <string name="high2">Hög</string>
@@ -384,6 +406,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="hour">H</string>
     <string name="hour_in_day_format">%1$d</string>
     <string name="hour_in_day_format_short">%1$d</string>
+    <string name="immediately_experience">Update</string>
     <string name="improve_step_target">Du når dina mål för ofta. Prova att sätta högre mål.</string>
     <string name="improve_your_health_default_tips">Motionera och få tillräckligt med sömn för att hålla dig i form.</string>
     <string name="inactivated">Not activated</string>
@@ -432,6 +455,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="low">Låg</string>
     <string name="low_intensity">Low</string>
     <string name="low_intensity_description">Normal andningsfrekvens som tillåter dig upprätthålla konversation</string>
+    <string name="lowest_freq">Lägsta frekvens</string>
     <string name="lowest_jump">Lowest jump</string>
     <string name="manage_home">Manage start page</string>
     <string name="manual_add">Add manually</string>
@@ -441,6 +465,26 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="max_altitude">Highest altitude</string>
     <string name="max_heart_rate">Highest heart rate</string>
     <string name="maximum_pace">Highest pace</string>
+    <string name="mcv2_back_button_desc">Tillbaka</string>
+    <string name="mcv2_cc_is_off">Undertexter har inaktiverats. Klicka för att visa dem.</string>
+    <string name="mcv2_cc_is_on">Undertexter har aktiverats. Klicka för att dölja dem.</string>
+    <string name="mcv2_error_dialog_button">OK</string>
+    <string name="mcv2_ffwd_button_desc">Spola framåt 30 sekunder</string>
+    <string name="mcv2_full_screen_button_desc">Helskärm</string>
+    <string name="mcv2_music_artist_unknown_text">Okänd artist</string>
+    <string name="mcv2_music_title_unknown_text">Okänd låttitel</string>
+    <string name="mcv2_next_button_desc">Nästa media</string>
+    <string name="mcv2_non_music_title_unknown_text">Okänd videotitel</string>
+    <string name="mcv2_overflow_left_button_desc">Tillbaka till föregående knapplista</string>
+    <string name="mcv2_overflow_right_button_desc">Visa fler knappar</string>
+    <string name="mcv2_pause_button_desc">Pausa</string>
+    <string name="mcv2_play_button_desc">Spela upp</string>
+    <string name="mcv2_playback_error_text">Det gick inte att spela upp det valda objektet</string>
+    <string name="mcv2_previous_button_desc">Föregående media</string>
+    <string name="mcv2_replay_button_desc">Spela upp igen</string>
+    <string name="mcv2_rewind_button_desc">Spola bakåt tio sekunder</string>
+    <string name="mcv2_seek_bar_desc">Uppspelningsförlopp</string>
+    <string name="mcv2_settings_button_desc">Inställningar</string>
     <string name="medium_intensity">Moderate</string>
     <string name="medley">Mixed</string>
     <string name="meet_days">Reached goal</string>
@@ -513,6 +557,11 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="miuix_sbl_tracking_progress_labe_up_none">Det är allt för nu</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Vänta en stund…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Det gick inte att ladda objekt</string>
+    <string name="miuix_search_action_mode_cancel">Avbryt</string>
+    <string name="miuix_search_history_clear">Rensa sökhistorik</string>
+    <string name="miuix_search_history_default_title">Sökhistorik</string>
+    <string name="miuix_search_recommendation_default_title">Du kanske är intresserad av dessa</string>
+    <string name="miuix_search_recommendation_item_del_des">Ta bort</string>
     <string name="model_card_setting">Card settings</string>
     <string name="modify">Edit</string>
     <string name="modify_end_date">Ändra slutdatum</string>
@@ -562,6 +611,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="name_title_menstruation_today_end">Menstruationen förväntas sluta idag</string>
     <string name="need_auto_start_permission">Tillåt att Xiaomi Health startar automatiskt för att få mer tillförlitlig statistik.</string>
     <string name="need_unrestricted_permission">Tillåt att Xiaomi Health alltid körs i bakgrunden för att få mer tillförlitlig statistik.</string>
+    <string name="network_name_china">WLAN</string>
     <string name="network_not_available">"Couldn't connect to the network. Check your network settings and try again."</string>
     <string name="network_not_available2">"Couldn't connect to the network"</string>
     <string name="next_step">Nästa</string>
@@ -590,6 +640,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="passable">OK</string>
     <string name="passport_oauth_actionbar_title">Mi Konto</string>
     <string name="passport_oauth_sucess_tip">Authorized success</string>
+    <string name="pause_button_content_description">Pausa</string>
     <string name="per_count_minutes1">%d SPM</string>
     <string name="per_time_minutes">%d per minute</string>
     <string name="per_time_minutes1">" per minute"</string>
@@ -607,6 +658,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="placement_tips_title">Where should you put your phone?</string>
     <string name="placement_tips_warn">Not recommended</string>
     <string name="placement_tips_warn_1">Treadmill</string>
+    <string name="play_button_content_description">Spela upp</string>
     <string name="pm">E.m</string>
     <string name="pool_swimming">Pool swim</string>
     <string name="predict_menstruation">Förväntad menstruation</string>
@@ -684,6 +736,26 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="setting_sedentary_title">Påminn mig om att jag ska röra på mig</string>
     <string name="share">Share</string>
     <string name="skip">Hoppa över</string>
+    <string name="skip_to_next_item_button_content_description">Hoppa till nästa objekt</string>
+    <string name="skip_to_previous_item_button_content_description">Hoppa till föregående objekt</string>
+    <string name="skipping_count">Jumps</string>
+    <string name="skipping_detection_no">"Couldn't detect your workout."</string>
+    <string name="skipping_detection_no_hint">Avoid noisy places and keep this device close by.</string>
+    <string name="skipping_kcal">Calories</string>
+    <string name="skipping_pause">Workout paused</string>
+    <string name="skipping_pause_tips">Paused | Resume your workout to continue tracking automatically</string>
+    <string name="skipping_ready">You can start your workout now</string>
+    <string name="skipping_ready_hint_one">Keep this device no farther than 1 meter away from you.</string>
+    <string name="skipping_ready_hint_two">Your workout will be paused and resumed automatically based on the sounds you produce.</string>
+    <string name="skipping_ready_toast">"We've increased the volume so you hear the instructions better."</string>
+    <string name="skipping_reset_time">Rest</string>
+    <string name="skipping_start_counting">Start</string>
+    <string name="skipping_time">Duration</string>
+    <string name="skipping_upload_dialog_agree_and_upload">Ladda upp</string>
+    <string name="skipping_upload_dialog_msg">När din enhet är ansluten till %s kan du välja att ladda upp ljud som spelats in under träningspass för att förbättra exaktheten i träningspassens statistik. För att skydda din integritet kommer ljudfilerna att krypteras.</string>
+    <string name="skipping_upload_dialog_reject_not_remind">Nej tack</string>
+    <string name="skipping_upload_dialog_title">Ladda upp ljud</string>
+    <string name="skipping_upload_tips">Upload audio to make stats more accurate</string>
     <string name="sleep">Sov</string>
     <string name="sleep_and_get_up_time">Bedtime schedule</string>
     <string name="sleep_auto_start_perm_grant">Behörighet har beviljats</string>
@@ -696,7 +768,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="sleep_deep">Deep sleep</string>
     <string name="sleep_deep_light_analysis">Light sleep and deep sleep</string>
     <string name="sleep_deep_light_close_tip">Deep sleep analysis is off</string>
-    <string name="sleep_deep_light_no_data">Placing your mobile device next to the pillow will make sleep data more accurate</string>
+    <string name="sleep_deep_light_no_data">"Couldn't track sleep. Placing your mobile device next to the pillow will make sleep data more accurate."</string>
     <string name="sleep_detection_enable">Analyze sleep cycle</string>
     <string name="sleep_detection_feedback">Feedback</string>
     <string name="sleep_detection_guide_four_description">Sleep tracking consumes only about 1% of your battery per night</string>
@@ -861,6 +933,8 @@ sömndata"</string>
     <string name="sustain_title">"Du har inte rört dig på "</string>
     <string name="swim">Swimming</string>
     <string name="swim_type">Style</string>
+    <string name="swipe_right_to_end">Swipe right to end</string>
+    <string name="swipe_up_to_end">Swipe up to end</string>
     <string name="tb_mens_mark_success">Marked successfully</string>
     <string name="tb_mens_select_column">Cycle starts on%1$s.%2$s.%3$s.</string>
     <string name="tb_mens_unmark_success">Canceled successfully</string>
@@ -945,7 +1019,8 @@ sömndata"</string>
     <string name="total_distance_label">Total distans</string>
     <string name="total_slip">Number of strokes</string>
     <string name="total_time_label">Total tid</string>
-    <string name="treadmill">跑步机</string>
+    <string name="treadmill">Treadmill</string>
+    <string name="try_again">Try again</string>
     <string name="tuesday">Tisdag</string>
     <string name="tuesday_short">Tis</string>
     <string name="tuesday_shortest">Tis</string>
@@ -979,6 +1054,7 @@ Uppdatera nu?"</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="value_error_correct">Redigera registrering</string>
+    <string name="voice_remind">"We've increased the volume so you hear the instructions better."</string>
     <string name="walk">Walking</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>

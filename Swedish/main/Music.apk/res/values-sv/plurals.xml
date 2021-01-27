@@ -86,6 +86,14 @@ Oppmärkning: Fil kommer också att raderas från den här enheten."</item>
         <item quantity="other">%d gratis nerladdningar återstår</item>
         <item quantity="one">%d gratis nerladdning återstår</item>
     </plurals>
+    <plurals name="list_header_fans_count">
+        <item quantity="other">%d följare</item>
+        <item quantity="one">%d följare</item>
+    </plurals>
+    <plurals name="list_header_follow_count">
+        <item quantity="other">Följer %d personer</item>
+        <item quantity="one">Följer %d person</item>
+    </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d objekt valda</item>
         <item quantity="one">%d objekt vald</item>

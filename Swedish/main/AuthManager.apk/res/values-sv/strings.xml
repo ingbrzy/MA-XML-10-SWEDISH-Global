@@ -91,6 +91,8 @@
     <string name="HIPS_Perm_process_outgoing_calls_Desc">övervaka inkommande samtal</string>
     <string name="HIPS_Perm_read_notification_sms">Tjänst SMS</string>
     <string name="HIPS_Perm_read_notification_sms_Desc">läs tjänst SMS</string>
+    <string name="HIPS_Perm_recognition">Få åtkomst till aktivitetsinfo</string>
+    <string name="HIPS_Perm_recognition_Desc">Tillåt appen att få åtkomst till din aktivitetsinfo</string>
     <string name="HIPS_Perm_service_foreground">Förgrunds tjänster</string>
     <string name="HIPS_Perm_service_foreground_Desc">förgrunds tjänster</string>
     <string name="HIPS_Perm_show_when_locked">Visa på Låsskärmen</string>

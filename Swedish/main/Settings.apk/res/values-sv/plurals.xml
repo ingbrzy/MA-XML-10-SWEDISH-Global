@@ -46,7 +46,7 @@
     </plurals>
     <plurals name="auto_disable_screenbuttons_enabled_header_title">
         <item quantity="other">Inaktivera alltid för %d appar</item>
-        <item quantity="one">Inaktivera alltid för %d appar</item>
+        <item quantity="one">Inaktivera alltid för %d app</item>
     </plurals>
     <plurals name="auto_startup_count">
         <item quantity="other">%d appar tillåts att starta automatiskt</item>
@@ -353,8 +353,8 @@
         <item quantity="one">%1$d hörapparat har sparats</item>
     </plurals>
     <plurals name="show_pho_countdown">
-        <item quantity="other">"You're %1$d step away from opening device info."</item>
-        <item quantity="one">"You're %1$d step away from opening device info."</item>
+        <item quantity="other">Du är %1$d steg bort från att öppna enhetsinfo.</item>
+        <item quantity="one">Du är %1$d steg bort från att öppna enhetsinfo.</item>
     </plurals>
     <plurals name="show_rep_countdown">
         <item quantity="other">Du har %1$d steg kvar från att rapportera bugg.</item>

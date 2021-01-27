@@ -41,6 +41,7 @@
     <string name="account_unactivated">Konto inte aktiverad</string>
     <string name="ad_app_download_start">Startar nedladdning…</string>
     <string name="ad_app_is_downloading">Laddar ner…</string>
+    <string name="ad_service">Visa annonser</string>
     <string name="add_resource_detail_fail">Kan inte lägga till resursen</string>
     <string name="agreement_desc">Användaravtal (obligatoriskt)</string>
     <string name="alarm_sound">Alarm</string>
@@ -163,7 +164,9 @@
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Ljud</string>
@@ -181,6 +184,7 @@
     <string name="fail_to_add_account">Kan inte lägga till konto</string>
     <string name="favorite_list">Favoriter</string>
     <string name="favorite_list_format">Favorit %1$s</string>
+    <string name="fcm_fallback_notification_channel_label">Diverse</string>
     <string name="find_more">Hitta fler</string>
     <string name="find_more_theme">Hitta fler</string>
     <string name="find_more_wallpapers">Hitta fler</string>
@@ -230,6 +234,7 @@
     <string name="incompatible_dialog_ok">Jag förstår</string>
     <string name="incompatible_dialog_title">Kompatibilitetsproblem</string>
     <string name="is_setting_wallpaper_message">Ställer in bakgrund…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarm</string>
     <string name="item_resource_audio_optional_color_ring">Kopplingston</string>
     <string name="item_resource_audio_optional_notification_ring">Notifikationer</string>
@@ -252,7 +257,8 @@
     <string name="lockscreen_magazine_title">Bakgrundsbildskarusell</string>
     <string name="lockscreen_wallpaper">Låsskärm</string>
     <string name="lockstyle_personal_settings">Anpassa</string>
-    <string name="login_invalid">Sessionen har gått ut</string>
+    <string name="login_invalid">Sessionen löpte. Logga in igen.</string>
+    <string name="match_theme">Matchar teman</string>
     <string name="max_usable_themes">99+</string>
     <string name="message">Textmeddelande</string>
     <string name="message_sim_one">SIM 1 meddelande</string>
@@ -274,6 +280,7 @@
     <string name="my_gifts">Gåvor</string>
     <string name="my_gifts_purchased">Köpt</string>
     <string name="my_gifts_received">Mottagit</string>
+    <string name="need_permission">Obligatoriska behörigheter (används för grundläggande funktioner och tjänster i denna app)</string>
     <string name="no_data">Kan inte ansluta till nätverket</string>
     <string name="no_related_font">Det gick inte att hitta resultat</string>
     <string name="no_related_ringtone">Det gick inte att hitta resultat</string>
@@ -296,6 +303,12 @@
     <string name="online_search_hint">Sök efter onlineresurser</string>
     <string name="online_themes">Teman online</string>
     <string name="online_wallpapers">Bakgrundsbilder online</string>
+    <string name="ota_theme_default_push_content">Prova något nytt</string>
+    <string name="ota_theme_default_push_title">Trött på standardtemat?</string>
+    <string name="ota_theme_new_push_content">Ge din enhet en ny look</string>
+    <string name="ota_theme_new_push_title">Prova de helt nya MIUI 12-temana</string>
+    <string name="personal_recommend_desc">Få innehållsrekommendationer baserat på dina preferenser</string>
+    <string name="personal_recommend_title">Personliga rekommendationer</string>
     <string name="phone_ringtone">Ringsignal</string>
     <string name="popular_themes">Populära teman</string>
     <string name="popular_wallpapers">Populära bakgrundsbilder</string>
@@ -322,6 +335,7 @@
     <string name="rank_one">1.%s</string>
     <string name="rank_three">3.%s</string>
     <string name="rank_two">2.%s</string>
+    <string name="read_write_file">Få åtkomst till och spara filer på denna enhet</string>
     <string name="recently_used">Nyligen använda</string>
     <string name="refresh_footer_all_loaded">Det är allt för tillfället.</string>
     <string name="refresh_footer_failed">Kunde inte ladda information</string>
@@ -473,6 +487,7 @@
     <string name="resource_pack_price_info">Originalpris: %1$s</string>
     <string name="resource_pack_warning">Du har redan köpt %1$d komponenter i detta tema. Det är billigare om du köper de återstående komponenterna individuellt.</string>
     <string name="resource_present">Gåva</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Gratis</string>
     <string name="resource_price_unit"> Mi Krediter</string>
     <string name="resource_purchase_common_error">Ett fel uppstod, försök igen</string>
@@ -573,6 +588,7 @@
     <string name="s5">Skapa kalenderhändelse</string>
     <string name="s6">Tillåter du att annonsen skapar en kalenderhändelse?</string>
     <string name="s7">Testannons</string>
+    <string name="scroll_switch">Svep för att växla mellan objekt</string>
     <string name="sdcard_not_mounted_dialog_message">"Sätt i SD-kortet nu.
 "</string>
     <string name="sdcard_not_mounted_dialog_title">Inget SD-kort upptäckt</string>
@@ -594,6 +610,8 @@
     <string name="sim_one">SIM 1</string>
     <string name="sim_two">SIM 2</string>
     <string name="similar_theme">Liknande teman</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_file">För att spara nedladdade objekt</string>
     <string name="swipe_find_more">Svep uppåt för att visa mer</string>
     <string name="system_phone">Samtal</string>
     <string name="system_precust">Förinstallerade</string>
@@ -604,6 +622,7 @@
     <string name="theme_apply_audio_dialog_item_notification">Notifikation</string>
     <string name="theme_apply_audio_dialog_item_ringtone">Ringsignal</string>
     <string name="theme_apply_failured">Det gick inte att tillämpa</string>
+    <string name="theme_apply_fully">Tillämpade tema framgångsrikt. Bakgrundsbildskarusell är av.</string>
     <string name="theme_apply_success">Tillämpad</string>
     <string name="theme_applying">Tillämpar…</string>
     <string name="theme_batch_update_all">Uppdatera alla</string>
@@ -657,6 +676,7 @@
     <string name="theme_is_external_priority_storage">Spara till SD-kort</string>
     <string name="theme_is_external_priority_storage_summary">Tema-appen kommer starta direkt för att verkställa inställningar.</string>
     <string name="theme_multiple_button_title_customize">Anpassa</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Nej</string>
     <string name="theme_select_others">Bläddra</string>
     <string name="theme_setting">Inställningar</string>
@@ -694,7 +714,7 @@
     <string name="uid_change_dialog_ok">Jag förstår</string>
     <string name="uid_change_dialog_title">Starta om enheten</string>
     <string name="unsupport_tip">Detta filformat stöds inte. Prova att välja en annan fil.</string>
-    <string name="up_to_the_end">Det är allt för tillfället. Kom tillbaka senare.</string>
+    <string name="up_to_the_end">Inga fler objekt att visa</string>
     <string name="update_btn">Uppdatera nu</string>
     <string name="update_check">Sök efter uppdateringar</string>
     <string name="update_checking">Söker efter uppdateringar…</string>
@@ -709,7 +729,7 @@
     <string name="user_agree">Godkänn</string>
     <string name="user_authorization_dialog_agree">Acceptera</string>
     <string name="user_authorization_dialog_disagree">Avsluta</string>
-    <string name="user_authorization_dialog_message">Innan du använder Themes, läs och acceptera vårt &lt;a href=\"%1$s\">Användaravtal&lt;/a> och &lt;a href=\"%2$s\">Integritetspolicy&lt;/a>.</string>
+    <string name="user_authorization_dialog_message">Läs och acceptera vårt &lt;a href=\"%1$s\">Användaravtal&lt;/a> och &lt;a href=\"%2$s\">Integritetspolicy&lt;/a> innan du fortsätter.</string>
     <string name="user_authorization_dialog_title">Beviljar tillstånd</string>
     <string name="user_know">Jag förstår</string>
     <string name="using_theme_has_update_tips">En uppdatering för detta tema är tillgänglig.</string>

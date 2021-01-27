@@ -22,11 +22,6 @@
         <item>Nästa månad</item>
         <item>Välj datum</item>
     </string-array>
-    <string-array name="compose_modes">
-        <item>Svara</item>
-        <item>Svara alla</item>
-        <item>Framåt</item>
-    </string-array>
     <string-array name="general_preference_text_zoom_summary_array">
         <item>Mycket liten</item>
         <item>Liten</item>

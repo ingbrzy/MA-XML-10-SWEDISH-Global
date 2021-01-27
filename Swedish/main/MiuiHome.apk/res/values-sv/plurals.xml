@@ -16,6 +16,10 @@
         <item quantity="other">%1$d objekt valda</item>
         <item quantity="one">%1$d objekt valt</item>
     </plurals>
+    <plurals name="remove_dialog_title_multi_format">
+        <item quantity="other">Ta bort %1$d appar från hemskärmen?</item>
+        <item quantity="one">Ta bort %1$d app från hemskärmen?</item>
+    </plurals>
     <plurals name="scroll_tip_format_when_announce_accessibility">
         <item quantity="other">Sida %1$d, %2$d appar.</item>
         <item quantity="one">Sida %1$d, %2$d app.</item>

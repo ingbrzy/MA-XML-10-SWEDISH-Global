@@ -153,7 +153,7 @@
     <string name="miui_feedback_edit_submit_directly">Skicka</string>
     <string name="miui_feedback_edit_title_occurrence_time">Välj tid</string>
     <string name="miui_feedback_edit_title_reproductivity">Välj reproduktivitet</string>
-    <string name="miui_feedback_edit_toast_description_required">Du måste ange en beskrivning</string>
+    <string name="miui_feedback_edit_toast_description_required">Beskriv problemet först</string>
     <string name="miui_feedback_edit_toast_module_required">Välj objekt</string>
     <string name="miui_feedback_edit_toast_more_desc_required">Din beskrivning bör vara längre</string>
     <string name="miui_feedback_edit_toast_problem_class_required">Välj kategori</string>
@@ -186,6 +186,7 @@
     <string name="miui_main_next_page">Nästa</string>
     <string name="miui_main_pre_page">Tillbaka</string>
     <string name="miui_main_shortcut_label_submit_feedback">Skicka feedback</string>
+    <string name="miui_main_update_back_to_home">Förbereder hemskärmen…</string>
     <string name="miui_main_update_continue">Nästa</string>
     <string name="miui_main_update_learn_more">Läs mer</string>
     <string name="miui_main_update_start">Uppdatera nu</string>

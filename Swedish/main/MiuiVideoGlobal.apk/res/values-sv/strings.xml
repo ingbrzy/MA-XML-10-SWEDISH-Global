@@ -31,6 +31,7 @@
     <string name="abc_shareactionprovider_share_with">Dela med</string>
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
+    <string name="access_denied_info">För många försök. Vänta en minut eller två och försök igen.</string>
     <string name="account_bind_secure_email_title">Lägg till e-post för återställning</string>
     <string name="account_bind_secure_phone_title">Lägg till telefonnummer för återställning</string>
     <string name="account_crop_user_avatar">Beskär bild</string>
@@ -66,6 +67,8 @@
     <string name="action_update_phone">Ändra telefonnummer</string>
     <string name="activate_email_notice">Se till att aktivera ditt konto inom 24 timmar</string>
     <string name="activity_not_found_notice">Kan inte hitta appen</string>
+    <string name="ad_bar_notification_setting_sub_title">Visa händelser i notifikationspanelen</string>
+    <string name="ad_bar_notification_setting_title">Händelser</string>
     <string name="ad_buy">Köp</string>
     <string name="ad_download">Ladda ner</string>
     <string name="ad_join">Anslut till communityn</string>
@@ -123,6 +126,7 @@
     <string name="cast_forward">Framåt</string>
     <string name="cast_forward_10">Spola framåt tio sekunder</string>
     <string name="cast_forward_30">Spola framåt trettio sekunder</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">LIVE</string>
     <string name="cast_mute">Stäng av ljudet</string>
     <string name="cast_notification_connected_message">Ansluten till %1$s</string>
@@ -394,6 +398,8 @@ Skicka koden till handledaren."</string>
     <string name="galleryplus_online_cta_disagree">Godkänn inte</string>
     <string name="galleryplus_online_cta_title">Regler och villkor</string>
     <string name="galleryplus_online_video_loading">Vänta lite…</string>
+    <string name="galleryplus_orientation_lock">Orientering låst</string>
+    <string name="galleryplus_orientation_unlock">Skärmorientering är olåst</string>
     <string name="galleryplus_permission_content">Ge Mi Video de nödvändiga behörigheterna för att kunna använda denna funktion.</string>
     <string name="galleryplus_permission_content2">"För att kunna använda denna funktion, gå till Inställningar > Appar > Mi Video > App-behörigheter, och tillåt Mi Video att göra följande:
 
@@ -447,6 +453,7 @@ Skicka koden till handledaren."</string>
     <string name="history_local_video">Lokalt</string>
     <string name="history_online_video">Online</string>
     <string name="hot">Populärt</string>
+    <string name="i_know">Jag förstår</string>
     <string name="identity">Identifiering</string>
     <string name="inconsistent_pwd">Lösenorden matchar inte</string>
     <string name="init_channels">Återställ standardinställningarna</string>
@@ -643,8 +650,10 @@ för videor"</string>
     <string name="my_favorite_channels">Mina favoritkanaler</string>
     <string name="my_feedback_title">Min feedback</string>
     <string name="need_update_app">Uppdatera Mi Video för att använda alla dess funktioner</string>
-    <string name="network_connect_info">Det gick inte att ansluta till nätverket. Kontroller dina nätverksinställningar och försök igen.</string>
+    <string name="network_connect_info">Kunde inte ansluta till nätverket.</string>
+    <string name="network_error_info">Ett nätverksfel uppstod. Kontrollera dina nätverksinställningar och försök igen.</string>
     <string name="network_failed">Det gick inte att ansluta till nätverket</string>
+    <string name="network_timeout_info">Det gick inte att ansluta till nätverket. Försök igen.</string>
     <string name="new_channel_tip">Ta en titt på nya kanaler!</string>
     <string name="next">Nästa</string>
     <string name="next_step">Nästa</string>
@@ -676,6 +685,8 @@ för videor"</string>
     <string name="off_tip_firework_recommend">Du kommer inte få personliga innehållsrekommendationer från Firework</string>
     <string name="ok">OK</string>
     <string name="on_tip_firework_recommend">Du kommer få personliga innehållsrekommendationer från Firework</string>
+    <string name="open_settings">Inställningar</string>
+    <string name="order_alphabet">A-Ö</string>
     <string name="order_recently_subscribe">Senaste prenumerationer</string>
     <string name="order_recently_updated">Nyligen uppdaterade</string>
     <string name="ovp_alert_dialog_download_install_task">Laddar ned HD plug-in…</string>
@@ -776,6 +787,7 @@ Uppdatera Mi Video till den senaste versionen först."</string>
     <string name="passport_area_code_title">Riksnummer</string>
     <string name="passport_bad_authentication">Ogiltigt användarnamn eller lösenord</string>
     <string name="passport_barcode_add_account_prompt">Skanna QR-koden på nytt när du har loggat in för att lägga till ett konto.</string>
+    <string name="passport_can_not_receive_verification_code">Kunde du inte ta emot verifieringskoden?</string>
     <string name="passport_captcha_title">Captcha</string>
     <string name="passport_checking_account">Kontrollerar lösenord…</string>
     <string name="passport_close">Stäng</string>
@@ -915,6 +927,7 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="plus_menu_delete_popup_text">Radera nu?</string>
     <string name="plus_menu_properties">Egenskaper</string>
     <string name="plus_menu_rename">Byt namn</string>
+    <string name="plus_menu_rename_cant_empty">Filnamnet får inte vara tomt</string>
     <string name="plus_menu_rename_fail">Filnamn kan inte innehålla \"/\"</string>
     <string name="plus_menu_share">Dela</string>
     <string name="plus_mine_gallery">Mina album</string>
@@ -1010,6 +1023,7 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="plus_sort_type_time">Tid</string>
     <string name="plus_tab_gallery">Mappar</string>
     <string name="plus_tab_time">Tidslinje</string>
+    <string name="progressbar_title">Skannar efter säkerhetsproblem…</string>
     <string name="psw_hint">Lösenord</string>
     <string name="psw_sign_in">Logga in med lösenord</string>
     <string name="pull_to_refresh_from_bottom_pull_label">Dra upp för att uppdatera…</string>
@@ -1047,6 +1061,7 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="report_content_violence">Hattal</string>
     <string name="report_fail">Det gick inte att rapportera. Försök igen.</string>
     <string name="report_success">Rapporterad</string>
+    <string name="request_camera_permission_message">Vi kommer att skydda din personliga information i enlighet med de relevanta lagarna och regleringarna. Denna app behöver följande behörigheter för att fungera normalt:&lt;br>&lt;br>&lt;b>Använda kameran (för att ställa in ditt profilfoto)&lt;/b>&lt;br>&lt;br>Om du inte accepterar att bevilja sådana behörigheter kommer du inte kunna använda vissa funktioner i denna app; men dess grundläggande funktionalitet kommer fortfarande vara tillgänglig för dig. Du kan alltid begränsa behörigheter eller dra tillbaka din auktorisering i Inställningarna.</string>
     <string name="resend_active_email">Skicka igen</string>
     <string name="resend_email_reach_limit_message">Du har begärt för många verifieringsmeddelanden. Kontrollera att verifieringsmeddelandet inte ligger i din e-posts skräpkorg.</string>
     <string name="resend_email_reach_limit_title">Alltför många försök</string>
@@ -1103,6 +1118,7 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="sns_sign_in">Andra sätt att logga in på</string>
     <string name="source">"Källa: "</string>
     <string name="start_download_tip">Tillagt i kön. Kontrollera utvecklingen under Profil > Nedladdningar.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kort</string>
     <string name="storage_internal_sdcard">Internt lagringsutrymme</string>
     <string name="submit">Skicka</string>
@@ -1121,6 +1137,7 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="sync_favorites_limit">Det finns mer än 500 videor i dina favoriter. Vi behöver ta bort några av de tidigare videorna för att fortsätta synkroniseringen.</string>
     <string name="sync_favorites_message">Synkronisera favoriter från denna enhet till ditt konto? Objekt som inte längre är tillgängliga kommer att tas bort.</string>
     <string name="sync_favorites_title">Synkronisera favoriter</string>
+    <string name="system_error_info">Systemet är upptaget. Vänta en minut eller två och försök igen.</string>
     <string name="t_check_hide_file">Välj objekt att dölja</string>
     <string name="t_check_unhide_file">Välj objekt att visa</string>
     <string name="t_downloading">Laddar ner:</string>
@@ -1173,6 +1190,7 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="ugc_no_net">Det gick inte att ansluta till nätverket. Kontrollera dina nätverksinställningar och försök igen.</string>
     <string name="ui_log_tip">Tryck på detta område för att dölja, tryck och håll för att rensa gamla loggar. Dra loggar manuellt.</string>
     <string name="unknow">Okänd</string>
+    <string name="unknown_error_info">Okänt fel</string>
     <string name="update">Uppdatera</string>
     <string name="update_email_address_dialog_message">Du behöver verifiera din identitet innan du kan uppdatera e-postadressen för återställning.</string>
     <string name="update_email_address_dialog_title">Uppdatera e-post för återställning</string>

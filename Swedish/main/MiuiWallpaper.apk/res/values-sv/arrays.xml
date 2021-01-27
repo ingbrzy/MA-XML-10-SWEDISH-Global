@@ -5,14 +5,29 @@
         <item>Bakgrundsbilder/Super-bakgrunder/Hemma</item>
         <item>Jorden;Super-bakgrunder;Jord-utgåva;Bakgrundsbild</item>
     </string-array>
+    <string-array name="settings_search_geometry">
+        <item>Geometri</item>
+        <item>Bakgrundsbilder/Super-bakgrunder/Geometri</item>
+        <item>Geometri;Abstrakt;Super-bakgrunder;Bakgrundsbilder</item>
+    </string-array>
     <string-array name="settings_search_mars">
         <item>Den röda planeten</item>
         <item>Bakgrundsbild/Super-bakgrunder/Den röda planeten</item>
         <item>Mars;Mars-utgåva;Super-bakgrunder;Bakgrundsbilder</item>
     </string-array>
+    <string-array name="settings_search_saturn">
+        <item>Rings of Saturn</item>
+        <item>Wallpaper/Super wallpapers/Rings of Saturn</item>
+        <item>Planet;Saturn;Super wallpaper;Wallpaper</item>
+    </string-array>
     <string-array name="settings_search_superwp">
         <item>Super-bakgrunder</item>
         <item>Bakgrundsbilder/Super-bakgrunder</item>
         <item>Super-bakgrunder;Bakgrundsbild;Dynamisk bakgrundsbild;3D-bakgrundsbild</item>
+    </string-array>
+    <string-array name="settings_search_weather">
+        <item>Väder</item>
+        <item>Bakgrundsbilder/Super-bakgrunder/Väder</item>
+        <item>Väder;Väderinfo;Super-bakgrunder;Bakgrundsbilder</item>
     </string-array>
 </resources>

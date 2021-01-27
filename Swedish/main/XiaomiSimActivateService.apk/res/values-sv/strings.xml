@@ -121,7 +121,7 @@ Ange telefonnumret kopplat till ditt nya SIM-kort för att återaktivera %s."</s
     <string name="phone_verify_text">%1$s Kommer inte få tillgång till ditt telefonnummer. Det kommer bara kontrollera att numret är giltigt. Godkänn?</string>
     <string name="phone_verify_title">Tillåt %1$s att verifiera ditt telefonnummer</string>
     <string name="privacy_revoke_failed_msg">Aktivering kräver att befogenheter är beviljade så att Meddelande kan få ditt telefonnummer.</string>
-    <string name="privacy_revoke_tips">När du upphävt befogenheterna kommer appen sluta samla in data och all data kommer tas bort från servrarna. Synkronisera med Mi Cloud, Mi Message och andra meddelandefunktioner kommer inte vara tillgängliga. Upphäv befogenheter ändå?</string>
+    <string name="privacy_revoke_tips">När du upphävt befogenheterna kommer appen sluta samla in data och all data kommer tas bort från servrarna. Synkronisera med Xiaomi Cloud, Mi Message och andra meddelandefunktioner kommer inte vara tillgängliga. Upphäv befogenheter ändå?</string>
     <string name="sim_unactivated_title">Ditt SIM-kort är inte aktiverat</string>
     <string name="waiting_sim_in_service">Väntar på att SIM-kortet ska bli aktiverat</string>
 </resources>

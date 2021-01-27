@@ -65,6 +65,7 @@
     <string name="ad_setting">Ytterligare inställningar</string>
     <string name="add_music">Lägg till låtar</string>
     <string name="add_to_last_of_playlist">Lägg till i slutet på spellistan</string>
+    <string name="add_to_playlist">Lägg till i kön</string>
     <string name="add_to_playlist_successful">Lades till framgångsriskt</string>
     <string name="added_next_play">Tillagd för att spela nästa</string>
     <string name="agreement_desc">Användaravtal (obligatoriskt)</string>
@@ -123,6 +124,7 @@
     <string name="back">Tillbaka</string>
     <string name="back_confirm">Tryck igen för att skicka appen till bakgrunden</string>
     <string name="bluetooth_device">Bluetooth-enhet</string>
+    <string name="btn_text_edit">Redigera</string>
     <string name="buffering">Buffrar…</string>
     <string name="button_cancel_download">Avbryt</string>
     <string name="button_download_now">Ladda ned nu</string>
@@ -208,6 +210,7 @@
     <string name="dialog_insufficient_space_on_cache">Kan inte slutföra nedladdningen, inte tillräckligt med internt lager kvar.</string>
     <string name="dialog_insufficient_space_on_external">Kan inte slutföra nedladdningen. inte tillräckligt med utrymme på SD-kortet.</string>
     <string name="dialog_media_not_found">Kan inte ladda ned. SD-kortet är inte tillgängligt.</string>
+    <string name="dialog_message_unfollow">Sluta följa denna person?</string>
     <string name="dialog_my_playlist_online_changed_merge">Behåll</string>
     <string name="dialog_my_playlist_online_changed_message">Den här spellistan har ändrats. Du kan ersätta den med den nya versionen eller behålla den gamla.</string>
     <string name="dialog_my_playlist_online_changed_replace">Ersätt</string>
@@ -235,6 +238,7 @@
     <string name="dialog_song_view_type_artist">Efter artist</string>
     <string name="dialog_song_view_type_folder">Efter mapp</string>
     <string name="dialog_song_view_type_song">Efter låt</string>
+    <string name="dialog_subtitle_make_playlist_public">Publika spellistor är tillgängliga för andra människor. Privata spellistor är bara synliga för dig på alla synkade enheter.</string>
     <string name="dialog_title_clearlist_tracks">Ta bort från kö</string>
     <string name="dialog_title_delete_tracks">Radera</string>
     <string name="dialog_title_name_playlist">Spellistans namn</string>
@@ -280,7 +284,9 @@
     <string name="download_method">Ladda ned</string>
     <string name="download_no_application_title">Kan inte öppna filen</string>
     <string name="download_paused_in_power_save_mode">Nerladdningar pausas när Batterisparläge är på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laddar ner…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Nedladdningskvalitet</string>
     <string name="download_quality_summary">Ytterligare inställningar för låtar du laddar ned</string>
     <string name="download_queued">Köad</string>
@@ -368,7 +374,9 @@
     <string name="exo_media_action_repeat_all_description">Upprepa alla</string>
     <string name="exo_media_action_repeat_off_description">Upprepa inga</string>
     <string name="exo_media_action_repeat_one_description">Upprepa en</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativ</string>
     <string name="exo_track_role_closed_captions">Undertexter</string>
     <string name="exo_track_role_commentary">Kommentar</string>
@@ -390,11 +398,13 @@
     <string name="fail_to_play">Kan inte spela låt</string>
     <string name="failed_not_access_sd_card">Tillåt åtkomst till SD-kortet först</string>
     <string name="failed_obtain_permissions">Det gick inte att ge behörigheter</string>
+    <string name="fans">Följare</string>
     <string name="fav_login_msg">Logga in på ditt Mi Account för att ladda ner låtar</string>
     <string name="favorite_canceled">Borttagen från favoriter</string>
     <string name="favorite_playlist">Favoriter</string>
     <string name="favorite_singer">Favoritartister</string>
     <string name="favorite_succeed">Tillagd i favoriter</string>
+    <string name="favorite_to_playlist">Lägg till i spellista</string>
     <string name="favorite_tracks">Favoriter</string>
     <string name="favorites">Favoriter</string>
     <string name="fcm_fallback_notification_channel_label">Diverse</string>
@@ -615,8 +625,10 @@
     <string name="no_album_info">Inget albuminfo</string>
     <string name="no_artist_info">Ingen artistinfo</string>
     <string name="no_downloads">Inga nedladdningar</string>
+    <string name="no_fans_empty_title">Du har inte några följare än</string>
     <string name="no_favorites_songs">Tom</string>
     <string name="no_file_picker_find">Utforskaren är inte installerad.</string>
+    <string name="no_follow_empty_title">Du följer ingen än</string>
     <string name="no_local_songs">Tom</string>
     <string name="no_local_songs_selected">Kan inte skicka låtar för de har inte laddats ned</string>
     <string name="no_local_source_find">Kunde inte hitta låt</string>
@@ -651,7 +663,7 @@
     <string name="nowplaying_menu_item_delete">Ta bort från kö</string>
     <string name="ok">OK</string>
     <string name="online_apk_acquired">Laddar %d%%</string>
-    <string name="online_apk_acquiring">Laddar … %d%%</string>
+    <string name="online_apk_acquiring">Laddar… %d%%</string>
     <string name="online_apk_download_error_no_enough_space">Det gick inte att ladda ner på grund av för lite lagringsutrymme.</string>
     <string name="online_apk_downloading">Laddar ner…%d%%</string>
     <string name="online_apk_install_alert_confirm">Ladda ner</string>
@@ -740,6 +752,7 @@
     <string name="privacy_authorize_revoking">Upphäver tillståndet…</string>
     <string name="privacy_desc">Integritetspolicy (obligatorisk)</string>
     <string name="privacy_policy">Integritetspolicy</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sv_SE</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Musik behöver samla in nödvändig personlig information för att förse dig med online streaming-tjänster. Du kan läsa om hur vi hanterar den information vi samlar in i vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a>. Du kan när som helst dra tillbaka ditt samtycke till Integritetspolicyn för Mi Musik i Inställningarna.
 Läs och acceptera vårt &lt;a href=\"%2$s\">Användaravtal&lt;/a> och &lt;a href=\"%1$s\">Integritetspolicy&lt;/a> innan du använder Mi Musik.
 Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte kunna använda vissa funktioner i denna app; men dess grundläggande funktionalitet kommer fortfarande vara tillgänglig för dig.&lt;/Data>"</string>
@@ -848,6 +861,7 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="share_end_note">Från Mi Musik</string>
     <string name="share_failed">Kunde inte dela</string>
     <string name="share_image_error">Det gick inte att dela bilden på grund av en nedladdning fel</string>
+    <string name="share_song">Dela</string>
     <string name="share_text_list">"Spellista från Mi Musik: "</string>
     <string name="share_text_song">"Låt i Mi Musik: "</string>
     <string name="show_float_first_hint">Minimera spelare</string>
@@ -885,6 +899,7 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="start_to_download">Laddar ner…</string>
     <string name="start_to_play">Spela</string>
     <string name="start_update">Installerar ny version…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Lagringsutrymme för Dubbelappar</string>
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
@@ -933,11 +948,14 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="title_online_recommend">Utvalda spellistor</string>
     <string name="title_search_history">Sökhistorik</string>
     <string name="title_search_hot">Populära</string>
+    <string name="toast_cant_collect_mine_playlist">Kan inte lägga till dina egna spellistor till favoriter</string>
     <string name="toast_cant_commit_without_title">Ange låttitel</string>
     <string name="toast_download_error_by_count_limit">Du har använt upp din nedladdningsbegräningsning den här månaden.</string>
     <string name="toast_download_error_by_not_login">Logga in på ditt Mi-konto och försök igen.</string>
     <string name="toast_download_error_by_vip_required">Köp Premium Sångpaket för att ladda ned denna låt.</string>
     <string name="toast_download_in_process">Nedladdning pågår</string>
+    <string name="toast_favorite_has_been_added">Tillagd i spellistan</string>
+    <string name="toast_follow_success">Följer</string>
     <string name="toast_is_pro">Du är redan en PRO-medlem.</string>
     <string name="toast_my_playlist_illegal_name">Titeln på den här spellistan är inte giltig. Byt namn på spellistan.</string>
     <string name="toast_my_playlist_set_to_private">Den här spellistan är privat nu. Andra personer kan inte se den.</string>
@@ -948,6 +966,9 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="toast_normal_songs_for_download">Nedladdningskvalitet inställd på Standard</string>
     <string name="toast_normal_songs_for_stream">Streamingkvalitet inställd på Standard</string>
     <string name="toast_not_pro">Denna funktion är tillgänglig endast för PRO-medlemmar.</string>
+    <string name="toast_playlist_has_been_added">Tillagd i kön</string>
+    <string name="toast_playlist_has_been_private">Denna spellista är privat</string>
+    <string name="toast_playlist_has_been_public">Denna spellista är publik</string>
     <string name="toast_playmode_loop_playback">Nuvarande spellista är loopad</string>
     <string name="toast_playmode_shuffle_play">Uppspelningen är blandad</string>
     <string name="toast_playmode_single_cycle">Nuvarande låt är loopad</string>
@@ -975,11 +996,16 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="upload_playlist_to_hungama_title">Synkronisera online-låtar med Hungama för att kunna komma åt dem på andra enheter där du använder ditt Mi-konto.</string>
     <string name="upload_playlist_to_hungama_toast">Online-låtar kommer synkroniseras till Hungarna</string>
     <string name="user_agreement">Användaravtal</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sv_SE</string>
+    <string name="user_playlist_plaza">Spellistor</string>
     <string name="user_privacy_dialog_negative_text">Avbryt</string>
     <string name="user_privacy_dialog_positive_count_down_text">Dra tillbaka (%ss)</string>
     <string name="user_privacy_dialog_positive_text">Dra tillbaka</string>
     <string name="user_privacy_setting_group_title">Återkallelse av ditt samtycke</string>
     <string name="user_privacy_setting_title">Genom att växla till av drar du tillbaka ditt samtycke till integritetspolicyn för Mi Music.</string>
+    <string name="user_profile_created_playlist_title">Anpassade spellistor</string>
+    <string name="user_profile_fans_count">Följare: %s</string>
+    <string name="user_profile_follow_count">Följer: %s</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="version_info">Version</string>

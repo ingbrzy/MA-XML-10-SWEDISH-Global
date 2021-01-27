@@ -82,8 +82,8 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">Det är allt för nu</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Vänta en stund…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Det gick inte att ladda objekt</string>
-    <string name="multi_music_coexistence_summary">När notifikationsljudet låter förblir mediavolymen oförändrad, och flera medialjud påverkas inte av varandra</string>
-    <string name="multi_music_coexistence_title">Tillåt flera ljud</string>
+    <string name="multi_music_coexistence_summary">Justera inte mediavolymen under inkommande notifikationer eller medans ljud från andra källor spelas upp</string>
+    <string name="multi_music_coexistence_title">Flera ljudkällor</string>
     <string name="music_add_my_sound">Lägg till som förval</string>
     <string name="music_app_unavailable">Kontrollera att appen Mi Musik är tillgänglig.</string>
     <string name="music_audio_effect_optimize">Ljudinställningar</string>
@@ -99,6 +99,8 @@
     <string name="music_delete">Radera</string>
     <string name="music_delete_sound_title">Radera förinställningarna</string>
     <string name="music_dirac_control">Optimera ljudkvalitet</string>
+    <string name="music_dirac_mode_bluetooth_collar">Mi Bluetooth nackbandshörlurar</string>
+    <string name="music_dirac_mode_bluetooth_linefree">Mi Bluetooth hörlurar (kabelfritt utförande)</string>
     <string name="music_dirac_mode_cancelling">Mi Brusreducering 3.5mm</string>
     <string name="music_dirac_mode_capsule">Mi Capsule</string>
     <string name="music_dirac_mode_earbuds">Mi Hörlurar</string>
@@ -193,6 +195,8 @@
     <string name="personal_sound">Spela med förinställningarna aktiverade</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="retry_test">Börja om</string>
+    <string name="ringtone_output_device_summary">Tillåt ljud för inkommande samtal och notifikationer när tillbehör (headset med kabel eller Bluetooth-enheter) är anslutna</string>
+    <string name="ringtone_output_device_title">Tillåt högtalarljud</string>
     <string name="save_and_apply">Spara och lägg till</string>
     <string name="search_menu_title">Sök</string>
     <string name="second_note">Sätt på dig hörlurarna.</string>

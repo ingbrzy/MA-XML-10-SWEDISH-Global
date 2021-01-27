@@ -37,18 +37,32 @@
     <string name="back_up_task_in_process">Säkerhetskopierar…</string>
     <string name="back_up_task_unfinished">Det gick inte att säkerhetskopiera</string>
     <string name="backing_up_to_micloud">Säkerhetskopierar…</string>
-    <string name="backup_failed_reason_cloud_space_not_enough">Inte tillräckligt med lagringsutrymme i Xiaomi Cloud. Uppgradera ditt medlemskap eller frigör lagringsutrymme.</string>
+    <string name="backup_action_buy_cloud_space">Få mer lagringsutrymme</string>
+    <string name="backup_action_check_network">Kontrollera nätverksinställningar</string>
+    <string name="backup_action_clean_disk_space">Frigör utrymme</string>
+    <string name="backup_action_retry_now">Försök igen</string>
+    <string name="backup_failed_reason_cloud_space_not_enough">Inte tillräckligt med lagringsutrymme för att spara denna säkerhetskopia. Uppgradera din plan eller frigör molnlagringsutrymme.</string>
     <string name="backup_failed_reason_disk_space_not_enough">Inte tillräckligt med lagringsutrymme. Frigör lagringsutrymme först.</string>
-    <string name="backup_failed_reason_network_error">Nätverksfel. Vänta ett par minuter och försök igen.</string>
+    <string name="backup_failed_reason_network_error">Kontrollera din nätverksanslutning och försök igen</string>
     <string name="backup_finished_notification_content">Säkerhetskopierade appar på Hemskärmen, systeminställningar, etc.</string>
     <string name="backup_now">Säkerhetskopiera nu</string>
     <string name="backup_progress_percent_unit">%</string>
+    <string name="backup_remind_buy_cloud_space">Uppgradera din molnlagringsplan</string>
+    <string name="backup_remind_clean_disk_space">Frigör lagringsutrymme</string>
+    <string name="backup_remind_cloud_space_cost">Säkerhetskopieringsstorlek: %s</string>
     <string name="backup_size">Storlek: %s</string>
     <string name="backup_stopped_msg">Denna säkerhetskopia kommer skriva över den föregående. Tryck för att visa.</string>
     <string name="backup_stopped_title">Säkerhetskopiering pausad</string>
     <string name="backup_success">Säkerhetskopia skapad</string>
     <string name="backup_successfully">Säkerhetskopia skapad</string>
     <string name="backup_to_cloud">Säkerhetskopiera app</string>
+    <string name="backup_warning_reason_cloud_space_not_enough">Kan inte säkerhetskopiera</string>
+    <string name="backup_warning_reason_disk_space_not_enough">"Inte tillräckligt med lagring
+Kan inte säkerhetskopiera"</string>
+    <string name="backup_warning_reason_network_error">"Nätverksfel
+Kan inte säkerhetskopiera"</string>
+    <string name="backup_warning_reason_no_server_response">"Anslutningen avbröts
+Försök igen"</string>
     <string name="btn_back">Bakåt</string>
     <string name="btn_continue">Fortsätt</string>
     <string name="btn_restore_abort">Avbryt</string>
@@ -94,7 +108,7 @@ Note: Informationen från de appar du har installerat säkerhetskopieras inte ti
 *  MIUI and system settings 
 Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</string>
     <string name="cloud_back_up_frequence_choice_title">Schemalägg säkerhetskopiering</string>
-    <string name="cloud_back_up_frequence_long">Var 7:e dag</string>
+    <string name="cloud_back_up_frequence_long">Var %d:e dag</string>
     <string name="cloud_back_up_frequence_short">Varje dag</string>
     <string name="cloud_back_up_ok_btn">OK</string>
     <string name="cloud_back_up_opening">Vänta lite…</string>
@@ -105,6 +119,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup">Säkerhetskopiering i molnet</string>
     <string name="cloud_backup_derail_size_summary">Storlek: %s</string>
     <string name="cloud_backup_detail_frequence">Schemalägg säkerhetskopiering</string>
+    <string name="cloud_backup_detail_frequence_every_7_day">Säkerhetskopiera var %d:e dag</string>
+    <string name="cloud_backup_detail_frequence_every_day">Säkerhetskopiera varje dag</string>
     <string name="cloud_backup_detail_manage">Hantera säkerhetskopior</string>
     <string name="cloud_backup_detail_state">Automatisk säkerhetskopiering</string>
     <string name="cloud_backup_detail_state_summary">Skapa säkerhetskopior i Xiaomi Cloud automatiskt när enheten är ansluten till Wi-Fi.</string>
@@ -190,6 +206,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">Slå på och av säkerhetskopiering</string>
     <string name="other_device_main_space">Primära utrymmet</string>
     <string name="other_device_second_space">Sekundära utrymmet</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="process_whole_recovery">Återställer \"%s\"</string>
     <string name="provision_background_restore_more_data">Återställ fler objekt i bakgrunde</string>

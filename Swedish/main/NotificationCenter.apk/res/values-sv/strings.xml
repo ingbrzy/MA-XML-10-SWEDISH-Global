@@ -31,6 +31,9 @@
     <string name="back">Tillbaka</string>
     <string name="cancel">Avbryt</string>
     <string name="category_other">Annat</string>
+    <string name="channel_name_aggregation">Grupperade notifikationer</string>
+    <string name="channel_name_notification">Appnotifikationer</string>
+    <string name="channel_name_recovered">Återställda notifikationer</string>
     <string name="confirm">OK</string>
     <string name="copy">Kopiera</string>
     <string name="default_list_type">Sortera efter inkommande tid</string>
@@ -59,10 +62,14 @@
     <string name="lock_screen_tip_toast">Tillåt notifikationer på Låsskärmen i \"Format\"</string>
     <string name="lockscreen_notifications">Notifikationer på Låsskärmen</string>
     <string name="lockscreen_notifications_short">Låsskärm</string>
+    <string name="menu_setting_aggregatation_feedback">Grupperingsalternativ</string>
+    <string name="menu_setting_feedback_donot_classify">Gruppera inte</string>
+    <string name="menu_setting_more_settings">Fler inställningar</string>
     <string name="menu_setting_show_in_home">Gruppera inte</string>
     <string name="menu_setting_tip_show_in_home">Notifikationer från %s kommer inte att grupperas</string>
     <string name="menu_setting_tip_unfold">Alla notifikationer från denna app kommer att anses vara viktiga</string>
     <string name="menu_setting_unfold">Viktigt</string>
+    <string name="mune_setting_prefix_category">"Gruppera med "</string>
     <string name="not_sent_recently">Inte nyligen</string>
     <string name="not_set">Inte angett</string>
     <string name="notch_and_status_bar_setting">Kontrollcenter &amp; statusfält</string>
@@ -82,9 +89,11 @@
     <string name="on">På</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="search_menu_title">Sök</string>
+    <string name="setting_menu_success">Angiven</string>
     <string name="settings_guide_title">Behöver andra inställningar?</string>
     <string name="show_badge_notifications">Notifikationsmärken</string>
     <string name="show_badge_notifications_short">Märken</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statusfält</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_disable_float_notification">Svävande notifikationer tillåts inte</string>
@@ -97,6 +106,7 @@
     <string name="summary_lock_screen_enable_notification_first">Tillåt notifikationer att aktivera notifikationer på Låsskärmen</string>
     <string name="summary_show_badge_enable_notification_first">Tillåt notifikationer att aktivera notifikationsmärken</string>
     <string name="swipe_to_delete">Svep åt vänster eller höger för att ta bort</string>
+    <string name="tip_feedback_thanks">Tack för din feedback!</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
 </resources>

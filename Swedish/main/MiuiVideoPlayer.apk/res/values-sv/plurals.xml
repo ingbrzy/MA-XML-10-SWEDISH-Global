@@ -72,6 +72,18 @@
         <item quantity="other">%d videor</item>
         <item quantity="one">%d video</item>
     </plurals>
+    <plurals name="s_double_tap_backward">
+        <item quantity="other">Dubbeltryck för att spola tillbaka %d sekunder</item>
+        <item quantity="one">Dubbeltryck för att spola tillbaka %d sekund</item>
+    </plurals>
+    <plurals name="s_double_tap_forward">
+        <item quantity="other">Dubbeltryck för att snabbspola framåt %d sekunder</item>
+        <item quantity="one">Dubbeltryck för att snabbspola framåt %d sekund</item>
+    </plurals>
+    <plurals name="s_forward_tip">
+        <item quantity="other">%1$s sek</item>
+        <item quantity="one">%1$s sek</item>
+    </plurals>
     <plurals name="subscriber">
         <item quantity="other">%s prenumeranter</item>
         <item quantity="one">%s prenumerant</item>

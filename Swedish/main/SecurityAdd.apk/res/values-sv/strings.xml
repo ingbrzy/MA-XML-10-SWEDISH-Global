@@ -54,6 +54,7 @@
     <string name="dual_app_title">Dubbelappar</string>
     <string name="dual_app_words">Varje konto förtjänar en egen app</string>
     <string name="early_morning">Morgon</string>
+    <string name="empty">" "</string>
     <string name="eras_ad">V.T.</string>
     <string name="eras_bc">F.V.T.</string>
     <string name="evening">Eftermiddag</string>
@@ -161,8 +162,14 @@
     <string name="gb_advance_settings_vibration_4d_summary">Vibrera vid skott i spelet</string>
     <string name="gb_advance_settings_vibration_4d_summary2">Vibrera vid dödande i spelet</string>
     <string name="gb_alipays_can_not_complete">Kan inte slutföra betalning. Installera för att fortsätta.</string>
+    <string name="gb_dialog_game_speed_close">Stänger av Light speed-läge…</string>
+    <string name="gb_dialog_game_speed_exist">Du kan endast använda ett spel i Light speed-läge. Ersätt \"%s\" nu?</string>
     <string name="gb_game_control">GPU-inställningar</string>
     <string name="gb_game_settings">Ytterligare inställningar</string>
+    <string name="gb_game_speed_closed">Light speed-läge är av</string>
+    <string name="gb_game_speed_closed_fail">Kunde inte stänga av Light speed-läge</string>
+    <string name="gb_game_speed_open">Light speed-läge är på</string>
+    <string name="gb_game_speed_open_fail">Kunde inte aktivera Light speed-läge</string>
     <string name="gb_gpu_control_anisotropic_filtering">Anisotropisk filtrering</string>
     <string name="gb_gpu_control_anti_aliasing">Kantutjämning</string>
     <string name="gb_gpu_control_fps">Bildfrekvens</string>
@@ -191,6 +198,7 @@
     <string name="gb_pannel_control_mode_power_saving">Spara batteri</string>
     <string name="gb_weixinpay_can_not_complete">Kan inte slutföra betalning. Installera för att fortsätta.</string>
     <string name="gdpr_msg">&lt;Data>För att kunna använda grundläggande funktioner i Säkerhet måste du godkänna att Xiaomi samlar in, behandlar och använder dina personuppgifter, inklusive information om hur du använder Säkerhets funktioner (t.ex. statistik om mobil dataanvändning, information om skadliga koder samt grundläggande information om din enhet) och andra typer av information som anges i vår &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Integritetspolicy&lt;/a>.&lt;/Data></string>
+    <string name="install_success">%s Install Success</string>
     <string name="lucky_result_title">Röda kuvert</string>
     <string name="main_toolbar_purchase">Fyll upp</string>
     <string name="midnight">Natt</string>
@@ -263,6 +271,7 @@
     <string name="saturday_shortest">Lör</string>
     <string name="search_menu_title">Sök</string>
     <string name="share">Dela</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>
     <string name="sunday_shortest">Sön</string>
@@ -341,6 +350,9 @@
     <string name="title_share_link">Dela URL</string>
     <string name="today">Idag</string>
     <string name="tomorrow">Imorgon</string>
+    <string name="tool_box_active_loading">Vänta lite…</string>
+    <string name="tool_box_active_no_networ">Det gick inte att ansluta till nätverket</string>
+    <string name="tool_box_active_reload">Uppdatera</string>
     <string name="tuesday">Tisdag</string>
     <string name="tuesday_short">Tis</string>
     <string name="tuesday_shortest">Tis</string>

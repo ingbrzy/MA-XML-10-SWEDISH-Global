@@ -46,22 +46,17 @@
     <string name="account_security_title">Enhetssäkerhet</string>
     <string name="account_security_verification">Kontoverifiering</string>
     <string name="account_set_up_change_type_note">Om du behöver byta mellan POP3 och IMAP-inställningar raderar du ditt konto och skapar en ny med dina önskade inställningar.</string>
-    <string name="account_setting">Konton</string>
-    <string name="account_setting_keywords">Konton, postkonton</string>
     <string name="account_setting_message_body_load_complete">Fullt meddelande</string>
     <string name="account_setting_message_body_load_head_abstract">E-post sammanfattning</string>
     <string name="account_setting_message_body_load_head_only">Endast rubrik</string>
     <string name="account_setting_message_body_load_text">Endast kropp</string>
     <string name="account_settings_action">Kontoinställningar</string>
-    <string name="account_settings_background_attachments_label">Ladda ner bilagor</string>
     <string name="account_settings_background_attachments_summary">Hämta bilagor med WLAN</string>
     <string name="account_settings_background_attachments_summary_inter">Hämta bilagor med WLAN</string>
     <string name="account_settings_data_usage">Inställningar för synkronisering</string>
     <string name="account_settings_description_label">Kontonamn</string>
     <string name="account_settings_edit_quick_responses_label">Snabbsvar</string>
     <string name="account_settings_edit_quick_responses_summary">Redigera korta meddelanden för att klistra in i e-postmeddelanden</string>
-    <string name="account_settings_enforced_label">Policy</string>
-    <string name="account_settings_enforced_summary">Inga</string>
     <string name="account_settings_incoming_summary">Användarnamn, lösenord och andra serverinställningar</string>
     <string name="account_settings_login_dialog_content_fmt">"Användarnamnet eller lösenordet för %s är felaktigt. 
  Uppdatera dem nu?"</string>
@@ -76,12 +71,9 @@
     <string name="account_settings_notify_label">Notifikationer för e-post</string>
     <string name="account_settings_notify_summary">Visa en notifikation när ny e-post anländer</string>
     <string name="account_settings_param">Kontoinställningar</string>
-    <string name="account_settings_policies">Säkerhetspolicy</string>
     <string name="account_settings_preference_att_save_path">Standardplatsen för bilagor</string>
     <string name="account_settings_preference_head_icon">Profilbild</string>
     <string name="account_settings_preference_notify">Notifieringar</string>
-    <string name="account_settings_retry_label">Försök synkronisera</string>
-    <string name="account_settings_retry_summary">Tryck på synkronisera konto</string>
     <string name="account_settings_ringtone">Notifikationsljud</string>
     <string name="account_settings_servers">Serverinställningar</string>
     <string name="account_settings_smime_title">S/MIME (Säkra/Flersyftes e-posttillägg på internet)</string>
@@ -92,13 +84,9 @@
     <string name="account_settings_sync_contacts_summary">Synkronisera kontakter för det här kontot</string>
     <string name="account_settings_sync_email_enable">Synkronisera e-post</string>
     <string name="account_settings_sync_email_summary">Synkronisera e-post för det här kontot</string>
-    <string name="account_settings_unsupported_label">Policies som inte stöds</string>
-    <string name="account_settings_unsupported_summary">Ingen</string>
     <string name="account_settings_user_usage">Kontoinställningar</string>
     <string name="account_settings_using_ringtone">Ringsignal</string>
     <string name="account_settings_vibrate_when_label">Vibrera</string>
-    <string name="account_setup_account_type_instructions">Vilken typ av konto är detta?</string>
-    <string name="account_setup_account_type_title">Konfigurera konto</string>
     <string name="account_setup_address_label">E-post</string>
     <string name="account_setup_autodiscover_dlg_authfail_message">Bekräfta att användarnamn, lösenord och kontoinställningar är korrekta.</string>
     <string name="account_setup_autodiscover_dlg_authfail_title">Det gick inte att konfigurera konto</string>
@@ -116,7 +104,6 @@
     <string name="account_setup_creating_account_msg">"    Skapar konto…"</string>
     <string name="account_setup_deleting_account_msg">"    Tar bort Konto…"</string>
     <string name="account_setup_exchange_certificate_title">Klientcertifikat</string>
-    <string name="account_setup_exchange_device_id_label">Mobil Enhet ID</string>
     <string name="account_setup_exchange_no_certificate">Ingen</string>
     <string name="account_setup_failed_auth_required">Den här autentiseringsmetoden stöds inte av servern.</string>
     <string name="account_setup_failed_certificate_inaccessible">Certifikatet är ogiltigt eller otillgängligt.</string>
@@ -134,7 +121,6 @@
     <string name="account_setup_failed_dlg_server_message_fmt">"Kan inte anslutas till servern.
 (%s)"</string>
     <string name="account_setup_failed_dlg_title">Det gick inte att konfigurera konto</string>
-    <string name="account_setup_failed_dlg_todo1">Ställ in konto som visas nedan eller försök logga in med EXCHANGE.</string>
     <string name="account_setup_failed_dlg_todo2">Ställ in kontot som visas nedan</string>
     <string name="account_setup_failed_dlg_unknown_auth_message">Okänt fel.</string>
     <string name="account_setup_failed_ioerror">Det gick inte att ansluta till servern.</string>
@@ -182,8 +168,6 @@
     <string name="account_setup_outgoing_port_label">Port</string>
     <string name="account_setup_outgoing_require_login_label">Du måste logga in först</string>
     <string name="account_setup_outgoing_smtp_server_label">SMTP-server</string>
-    <string name="account_setup_security_policies_required_fmt">Servern %s kräver att du tillåter den att fjärrstyra vissa säkerhetsfunktioner i din Android-enhet. Vill du slutför konfigurationen av kontot?</string>
-    <string name="account_setup_security_required_title">Avlägsna säkerhetsadministration</string>
     <string name="account_setup_server_acc_manager_title">Konton</string>
     <string name="account_setup_username_password_toast">Ange en giltig e-postadress och lösenord.</string>
     <string name="account_smime">S/MIME</string>
@@ -195,17 +179,13 @@
     <string name="account_sync_settings_settings">Synkronisera kontakter och kalender</string>
     <string name="account_sync_settingstip_description">Synkronisera</string>
     <string name="account_waiting_for_folders_msg">Laddar mappar…</string>
-    <string name="actionbar_more_option">Fler alternativ</string>
     <string name="activity_folder_selection">Välj mapp</string>
     <string name="activity_mailbox_selection">Välj konto</string>
     <string name="ad_merge">Annonser &amp; meddelanden</string>
     <string name="add_account">Lägg till konto</string>
-    <string name="add_account_keywords">Lägg till konto, lägg till e-postkonto</string>
-    <string name="add_account_search">Lägg till konto</string>
     <string name="add_attachment">Bifoga</string>
     <string name="add_calendar">Påminna</string>
     <string name="add_file_exception">Kunde inte lägga till. Försök att lägga till denna bilaga från en annan plats.</string>
-    <string name="add_label">Lägg till mapp</string>
     <string name="add_pre_message_attachments">Lägg till bilagorna till förhandsmeddelandet?</string>
     <string name="add_pre_message_attachments_no">Lägg inte till</string>
     <string name="add_pre_message_attachments_yes">Lägg till</string>
@@ -213,7 +193,6 @@
     <string name="all_purpose">Välkommen till Mail! Detta är en e-postklient som är skräddarsydd för Xiaomi, och skapad av Kingsoft. Du kan använda den här appen för att skriva, skicka och ta emot e-postmeddelanden.</string>
     <string name="allread">Läs alla</string>
     <string name="always_bcc_myself">Alltid Bcc själv</string>
-    <string name="always_show_images">Visa alltid bilder från denna avsändare</string>
     <string name="app_name">E-post</string>
     <string name="appraise_des">Gillar du vår app?</string>
     <string name="appraise_good">Ja</string>
@@ -222,7 +201,6 @@
     <string name="archive">Arkiv</string>
     <string name="archived">Arkiverad</string>
     <string name="att_download_failed_content">Kunde inte hämta den bifogade filen för detta meddelande.</string>
-    <string name="att_download_failed_network_slow">Anslutningshastighet för långsamt, försök igen senare</string>
     <string name="att_download_failed_permission_denied">Har inte behörigheter för extern lagring</string>
     <string name="att_download_failed_title">Kan inte ladda ner bilaga</string>
     <string name="att_file_not_exists">Kunde inte hitta %s</string>
@@ -273,9 +251,8 @@
     <string name="b_contacts_remove_tips">Ta bort denna adress från blockeringslistan?</string>
     <string name="back">Tillbaka</string>
     <string name="bank_card_detail">Kreditkortsuppgifter</string>
-    <string name="battery_saver">Batterisparare</string>
-    <string name="battery_saver_keywords">batterisparare; postbatteri</string>
     <string name="bcc">Bcc</string>
+    <string name="bcc_heading">"Bcc: "</string>
     <string name="bill_center_setting">Faktureringsinställningar</string>
     <string name="bill_center_setting_head">Importera information från dessa konton</string>
     <string name="bill_cycle_text">Fakturering cykel</string>
@@ -297,6 +274,7 @@
     <string name="cancel_pop3_attchemt_downloading">Kan inte avbryta pågående nedladdningar för bilagor i POP3-konton</string>
     <string name="cant_move_or_change_labels">Det går inte att flytta objekt från flera konton.</string>
     <string name="cc">Cc</string>
+    <string name="cc_attribution">Cc: %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Cc: "</string>
     <string name="certificate_add_failed">Kunde inte lägga till certifikatet \"%s\"</string>
@@ -313,7 +291,6 @@
     <string name="change_sync_settings">Ändra synkroniseringsinställningar</string>
     <string name="changepw_dialog_auth_tips">Skriv in koden från %s igen</string>
     <string name="changepw_dialog_tips">Ange lösenord för %s</string>
-    <string name="changepw_dialog_tips_please_clikc_btn">Visa verifieringskoden på %s och logga in igen.</string>
     <string name="chat_item_msg_people_unit">människor</string>
     <string name="chat_item_msg_user_etc">etc.</string>
     <string name="check_setup_data">"    Validerar serverns inställningar…"</string>
@@ -325,8 +302,8 @@
     <string name="click_download_all_content">[ Tryck för att ladda ner innehåll ]</string>
     <string name="click_to_reload">Tryck här för att uppdatera</string>
     <string name="collapse_recipient_details">Dölj mottagarens detaljer</string>
+    <string name="colon">:</string>
     <string name="compose">Komponera</string>
-    <string name="compose_attachment_number_limit">Kan inte lägga till mer än 10 bilagor</string>
     <string name="compose_event">Inbjudan</string>
     <string name="compose_paste_address_oob">För många tecken</string>
     <string name="compose_picturesexceedlimits">Du kan lägga till fler bilder som bilagor</string>
@@ -335,10 +312,6 @@
     <string name="confirm">OK</string>
     <string name="confirm_add_to_calendar">Lägger till i kalendern…</string>
     <string name="confirm_age">Bekräfta ålder</string>
-    <string name="confirm_before_delete">Bekräfta innan du raderar</string>
-    <string name="confirm_before_delete_keywords">bekräfta innan du raderar, ta bort bekräfta</string>
-    <string name="confirm_before_send">Bekräfta innan du raderar</string>
-    <string name="confirm_before_send_keywords">bekräfta innan du skickar, skicka bekräfta</string>
     <string name="confirm_delete_attachment">Ta bort bilaga?</string>
     <string name="confirm_delete_conversation_title">Ta bort</string>
     <string name="confirm_discard_text">Ta bort det här meddelandet?</string>
@@ -359,8 +332,6 @@
     <string name="contact_edit_set_phone_contact">Redigera telefonkontakter</string>
     <string name="contact_edit_title_phone_contact">Telefonkontakter lista</string>
     <string name="contact_in_filter_title">Avsändare</string>
-    <string name="contact_info_string">Visa kontaktinformation för %1$s</string>
-    <string name="contact_info_string_default">Visa kontaktinformation</string>
     <string name="contact_list_add_btn">Lägg till</string>
     <string name="contact_list_search_hint">Sök efter kontakter</string>
     <string name="contact_list_title">Kontakter</string>
@@ -396,21 +367,17 @@
     <string name="conversation_message_encrypt_tips">Detta är ett krypterat mail. Lägg till det certifikat som krävs för att avkryptera det.</string>
     <string name="conversation_msg_header_collapsed_sent_to">"Skickat till "</string>
     <string name="conversation_photo_welcome_text">Tryck på en avsändarbild för att markera konversationen.</string>
-    <string name="conversation_pull_ad_content">Hantera dina e-postmeddelanden utan ansträngning</string>
     <string name="conversation_quick_button_approve">OK</string>
     <string name="conversation_quick_button_disapprove">Avbryt</string>
     <string name="conversation_quick_button_received">Mottagit</string>
     <string name="conversation_report_spam">Rapportera skräppost</string>
     <string name="conversation_spam_dig_msg">Markera detta meddelande som skräppost? Meddelandet kommer att flyttas till \"Skräppost\"-mappen och dess avsändare kommer att läggas till i blockeringslistan.</string>
     <string name="conversation_spam_tips">Markera detta meddelande som skräppost?</string>
-    <string name="conversation_view">Konversationsvy</string>
-    <string name="conversation_view_keywords">konversationsvy; e-postkonversation</string>
     <string name="copied">Kopierat</string>
     <string name="copy">Kopiera</string>
     <string name="copy_email">Kopiera e-postadressen</string>
     <string name="copy_number">Kopiera telefonnummer</string>
     <string name="create_action">Ny</string>
-    <string name="credit_limit_text">Kreditgräns</string>
     <string name="cur_debt">Saldot på konto</string>
     <string name="custom_from_account_label">Skicka e-post som:</string>
     <string name="database_exception">Ett fel uppstod, försök att logga in igen.</string>
@@ -429,8 +396,6 @@
     <string name="delete">Ta bort</string>
     <string name="delete_contact_content">Radera kontakten nu?</string>
     <string name="delete_message_event">Ta bort den här inbjudan?</string>
-    <string name="delete_message_flow">Ta bort meddelandeflöde</string>
-    <string name="delete_message_flow_keywords">radera meddelandeflöde, ta bort omdirigering</string>
     <string name="deleted">Borttaget</string>
     <string name="device_activity_btn_str">Aktivera</string>
     <string name="device_activity_lint_str">Aktivera fullständig uppdatering av posttjänsten och aktivera säkerhetsinställningar</string>
@@ -438,7 +403,6 @@
     <string name="device_admin_label">E-post</string>
     <string name="device_not_activiey_lint1">Enhetshanteraren är inte aktiverad</string>
     <string name="device_not_activiey_lint2">Tjänsten för e-post fungerar inte med Exchange</string>
-    <string name="dialog_account_auto_sync_setting_no_open">Du valde att synkronisera e-postmeddelanden manuellt. Uppdatera om du vill synkronisera.</string>
     <string name="dialog_agree">Godkänn</string>
     <string name="dialog_change_sync_lookback">E-post från %s raderas automatiskt. Tryck för att ändra.</string>
     <string name="dialog_disagree">Godkänn inte</string>
@@ -447,7 +411,6 @@
     <string name="dialog_system_auto_sync_account_no_open">Aktivera synkronisering för kontot för att ta emot e-postmeddelanden automatiskt</string>
     <string name="dialog_system_auto_sync_master_no_open">Aktivera synkronisering att ta emot e-postmeddelanden automatiskt</string>
     <string name="disable_admin_warning">VARNING: Deaktivering av e-postapps behörighet att administrera enheten kommer att ta bort alla e-postkonton som kräver det, tillsammans med deras meddelanden, kontakter, kalenderhändelser och annan data.</string>
-    <string name="discard">Ta bort</string>
     <string name="discard_drafts">Ta bort utkast</string>
     <string name="dismiss_tip_hover_text">Avfärda tips</string>
     <string name="disturb_switch">Stör ej</string>
@@ -462,7 +425,6 @@
     <string name="downlaod_confirm_download">Ladda ner</string>
     <string name="downlaod_nonWifi_confirm_message">Använd din mobildataanslutning för att ladda ned den här filen?</string>
     <string name="downlaod_nonWifi_confirm_title">Ladda ner denna bilaga?</string>
-    <string name="download_again">Ladda ner igen</string>
     <string name="download_before_sharing">" har inte slutat ladda ner."</string>
     <string name="download_cancel_confirm_message">Nedladdningar kommer att avbrytas</string>
     <string name="download_cancel_confirm_title">Ladda ner denna bilaga?</string>
@@ -472,7 +434,6 @@
     <string name="download_message_failed_for_too_large">Meddelandet är för stort för att hämta.</string>
     <string name="draft_count_format"> (%1$s)</string>
     <string name="drawer_bank_bill">Kontoutdrag</string>
-    <string name="drawer_classification">Kategorier</string>
     <string name="drawer_close">Stäng navigeringspanelen</string>
     <string name="drawer_contacts">Kontakter</string>
     <string name="drawer_open">Öppna navigeringspanelen</string>
@@ -485,8 +446,6 @@
     <string name="editor_max_length_limit_hint">Meddelandet du angav är för långt</string>
     <string name="email_netease">NetEase Mail</string>
     <string name="email_qq">QQ Mail</string>
-    <string name="email_setting">E-post</string>
-    <string name="email_setting_keywords">Konton, Lägg till konto, Postkonton, Lägg till e-postkonto, Bekräfta innan du raderar, Ta bort bekräfta, Bekräfta innan du skickar, Skicka bekräfta, Ta bort meddelandeflöde, Ta bort omdirigering, Konversationsvyn, E-postkonversation, Batterisparare, E-postbatteri, Skicka feedback, Ladda upp loggar</string>
     <string name="email_sina">Sina Mail</string>
     <string name="email_sync_failed">Kunde inte synka mailen</string>
     <string name="eml_parse_message">Öppna EML-filen…</string>
@@ -511,7 +470,6 @@
     <string name="fail_get_email_message">Misslyckades att hämta meddelande.</string>
     <string name="failed">Det gick inte att ladda bilden</string>
     <string name="failed_parse_eml_file">Kunde inte öppna EML-filen, försök igen.</string>
-    <string name="failed_read_phone_state_permission">Tillåt åtkomst till enhetens status</string>
     <string name="failed_read_write_calendar_permission">Tillgång till kalender är begränsad</string>
     <string name="failed_read_write_contacts_permission">Tillgång till kontakter är begränsad</string>
     <string name="feedback">Skicka feedback</string>
@@ -592,19 +550,16 @@
     <string name="gmail_login_confirm_to_use_proxy">Använd proxyserver för åtkomst till ditt Gmail-konto?</string>
     <string name="gmail_login_failed_non_proxy_title">Kunde inte komma åt Gmail-servern</string>
     <string name="gmail_server_authorization_deleted">Kunde inte verifiera konto. Försök att lägga till det här kontot igen.</string>
-    <string name="gmail_web_login_go">OK</string>
-    <string name="gmail_web_login_required_message">Logga in på Gmail</string>
     <string name="go_to_mail_content">Visa e-postmeddelande</string>
     <string name="have_auth_code">Jag har en kod</string>
     <string name="header_category_account">Konton</string>
-    <string name="header_category_other">Återkoppling</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_label_general_preferences">Allmän</string>
     <string name="help_and_info">Hjälp</string>
     <string name="help_me_get_qq_auth">Hämta kod</string>
     <string name="help_weixin_title">"Om du har några frågor, tveka inte att skriva en rad till oss i vårt officiella WeChat-konto: "</string>
     <string name="hide_elided">▼ Dölj citerad text</string>
     <string name="hide_password">Dölj lösenord</string>
-    <string name="hint_quick_reply_all">Svara alla</string>
     <string name="imap_name">IMAP</string>
     <string name="imap_or_pop3_name">IMAP/POP3</string>
     <string name="imap_password_error">Lösenord för inkommande e-postserver är felaktigt</string>
@@ -612,14 +567,13 @@
     <string name="import_from_other_account">Importera från andra enheter</string>
     <string name="info_actionbar_normal_detail">Marknadsförda</string>
     <string name="info_item_hide">Radera</string>
-    <string name="info_switch_summary">Visa kampanjer ovanpå inkorgen</string>
-    <string name="info_switch_title">Marknadsförning</string>
     <string name="inline_picture_deleted">Hämtar saknad bild…</string>
     <string name="input_password_prompt">Ange ditt lösenord</string>
     <string name="interact_with_server_error">Det gick inte att ansluta till servern</string>
     <string name="invalid_recipient">Adressen %s är ogiltig.</string>
     <string name="invalid_recipient_title">Mottagare Fel</string>
     <string name="kilobytes">%sKB</string>
+    <string name="label_notification_ticker">%1$s: %2$s</string>
     <string name="list_empty_to_fresh">Inga e-postmeddelanden ännu.</string>
     <string name="load_from_remote">Sök i brevlådan på servern</string>
     <string name="load_more">Ladda fler</string>
@@ -631,7 +585,6 @@
     <string name="log_save_path">Loggsökvägen</string>
     <string name="login">Logga in</string>
     <string name="login_des_126">Logga in på 126 Mail</string>
-    <string name="login_des_139">Logga in på 139 Mail</string>
     <string name="login_des_163">Logga in på 163 Mail</string>
     <string name="login_des_exchange">Logga in på Exchange</string>
     <string name="login_des_gmail">Logga in på Gmail</string>
@@ -651,7 +604,6 @@
     <string name="login_failed_title">Det går inte att logga in</string>
     <string name="login_mail">Logga in</string>
     <string name="login_qq_psw">Lägg till kod manuellt</string>
-    <string name="login_support_tip_text">stöder alla större e-postkonton</string>
     <string name="long_press_to_select_tip">Tryck på &amp; och håll ned för att markera en konversation, sedan tryck för att välja mer.</string>
     <string name="mail">E-post</string>
     <string name="mail_body_turncated">Detta e-mail är för stort att laddas, visas endast en del av det och gå igenom allt på en PC senare</string>
@@ -691,28 +643,11 @@
     <string name="me_object_pronun">jag</string>
     <string name="me_subject_pronun">jag</string>
     <string name="meeting_accepted">"         Acceptera        %s    "</string>
-    <string name="meeting_allday">"
-        När:
-        %s
-        (hela dagen)
-    "</string>
-    <string name="meeting_allday_recurring">"
-        När:
-        %s
-        (hela dagen, återkommande)
-    "</string>
     <string name="meeting_canceled">"         Avbryt        %s    "</string>
     <string name="meeting_declined">"        Neka        %s    "</string>
-    <string name="meeting_recurring">"
-        När:
-        %s
-        (återkommande)
-    "</string>
     <string name="meeting_responded_failed">Inga svar</string>
     <string name="meeting_tentative">"Tentative         %s    \""</string>
     <string name="meeting_updated">"Uppdaterad %s    "</string>
-    <string name="meeting_when">"         när        %s    "</string>
-    <string name="meeting_where">"        Var: %s    "</string>
     <string name="megabytes">%s MB</string>
     <string name="menu_att_mgr">Bilaga</string>
     <string name="menu_att_mgr_order_default">Nyligen visad</string>
@@ -727,9 +662,6 @@
     <string name="menu_folder_options">Synkroniseringsalternativ</string>
     <string name="menu_move_to">Flytta till</string>
     <string name="menu_move_to_inbox">Flytta till Inkorgen</string>
-    <string name="menu_photo_save_all">Spara Alla</string>
-    <string name="menu_photo_share">Dela</string>
-    <string name="menu_photo_share_all">Dela alla</string>
     <string name="menu_resend_all">Skicka allt igen</string>
     <string name="menu_search">Sök</string>
     <string name="menu_settings">Inställningar</string>
@@ -737,7 +669,6 @@
     <string name="message_body_load_set_description">Läsa e-postmeddelanden när du använder mobildata</string>
     <string name="message_compose_insert_quick_response_list_title">Infoga snabbsvar</string>
     <string name="message_decode_error">Kan inte avkoda meddelandet</string>
-    <string name="message_details_title">Meddelandedetaljer</string>
     <string name="message_discarded">Utkast borttagen</string>
     <string name="message_invite_accept">Ja</string>
     <string name="message_invite_calendar_view">Visa i kalendern</string>
@@ -748,7 +679,6 @@
     <string name="message_invite_state_decline">Nekad</string>
     <string name="message_invite_state_tentative">Väntar</string>
     <string name="message_invite_tentative">Kanske</string>
-    <string name="message_invite_title">Kalenderinbjudan</string>
     <string name="message_saved">Meddelandet sparat som utkast.</string>
     <string name="message_view_attachment_background_load">Bilagor i ditt vidarebefordrade meddelande laddas ner innan du skickar.</string>
     <string name="mi_sync_erroe_toast">"Ett nätverksfel inträffade: "</string>
@@ -760,12 +690,10 @@
     <string name="mibill_privacy_policy_title">Hantera räkningar automatiskt</string>
     <string name="min_payment_text">Minsta betalning</string>
     <string name="modify_contact_address">Ändra kontaktens e-postadress</string>
-    <string name="more_context">Mer</string>
     <string name="move_to_selection_dialog_title">Flytta till en annan mapp</string>
     <string name="multiple_new_message_notification_item"><b>%1$s</b>"   %2$s"</string>
     <string name="mute">Tyst</string>
     <string name="navigation_menu">Navigeringsmeny</string>
-    <string name="need_get_qq_mail">Kräver QQ Mail</string>
     <string name="network_error">Ingen anslutning</string>
     <string name="network_invaild">Kan inte ansluta till nätverket</string>
     <string name="network_not_available">Kan inte ansluta till nätverket</string>
@@ -782,15 +710,12 @@ Try byta till en annan e-postkonto."</string>
     <string name="no_contacts">Inga kontakter.</string>
     <string name="no_content_in_body">[No Body]</string>
     <string name="no_conversations">Inga meddelanden</string>
-    <string name="no_filtrable_email_account">Inga konton att filtrera</string>
     <string name="no_img_application_found">Kunde inte hitta en app som kan öppna denna bild</string>
     <string name="no_img_application_found_title">Kan inte öppna denna bilden</string>
     <string name="no_mails">Ingen e-post.</string>
     <string name="no_matched_attachment">Inga resultat.</string>
     <string name="no_more_mail">Inga fler meddelanden</string>
     <string name="no_open_smime_toast">Lägg till S/MIME certifikat först</string>
-    <string name="no_recognize_describe">"Kunde inte hitta e-postmeddelanden som innehåller biljetter eller bokningar.
-Försök med en annan inkorg."</string>
     <string name="no_search_results">Sök på servern</string>
     <string name="not_set">Inte angett</string>
     <string name="not_subject">(Inget ämne)</string>
@@ -803,7 +728,6 @@ Försök med en annan inkorg."</string>
     <string name="notification_action_undo_archive">Arkiverad</string>
     <string name="notification_action_undo_delete">Borttaget</string>
     <string name="notification_action_undo_remove_label">Etikett borttagen</string>
-    <string name="notification_exchange_calendar_added">Kalender via Exchange tillagd</string>
     <string name="notify_channel_new_mail">Meddela om nya meddelanden</string>
     <string name="notify_channel_no_disterb">Stör ej läge</string>
     <string name="notify_channel_permission_notice">Tillstånd krävs</string>
@@ -824,7 +748,6 @@ Försök med en annan inkorg."</string>
     <string name="oauth_gmail_login_notify">Ange ditt användarnamn och lösenord för ditt Google-konto på följande inloggningssida.</string>
     <string name="oauth_login_continue">Fortsätt</string>
     <string name="oauth_login_continue_qq">Få ett lösenord och logga in ></string>
-    <string name="oauth_login_usr_proxy">Logga in med proxy</string>
     <string name="obtain_new_auth_code">Hämta en ny kod</string>
     <string name="ok">OK</string>
     <string name="okay_action">OK</string>
@@ -870,7 +793,6 @@ Försök med en annan inkorg."</string>
     <string name="over_sixteen">Jag är 16 år eller äldre.</string>
     <string name="parase_setup_data">Få data…</string>
     <string name="parse_bill_discribe">Bearbetning kreditkort bills…</string>
-    <string name="parse_recognize_describe">Analysera e-post…</string>
     <string name="password_expire_warning_content_title">Låsskärmslösenord löper ut</string>
     <string name="password_expire_warning_dialog_content_fmt">Du måste ändra din låsskärms-PIN eller ditt lösenord snart, eller data för %s raderas. Vill du ändra det nu?</string>
     <string name="password_expire_warning_dialog_title">Låsskärmslösenord löper ut</string>
@@ -879,16 +801,6 @@ Försök med en annan inkorg."</string>
     <string name="password_expired_dialog_content_fmt">Data för %s raderas från din enhet. Du kan återställa den genom att ändra PIN-koden eller lösenordet för låsskärmen. Ändra det nu?</string>
     <string name="password_expired_dialog_title">Låsskärmslösenord löper ut</string>
     <string name="password_expired_ticker">Låsskärmen PINKODEN eller lösenordet har gått ut.</string>
-    <string name="path_about_account_setting">Mail/inställningar/konton</string>
-    <string name="path_about_add_account">Mail / Inställningar / Lägg till konto</string>
-    <string name="path_about_battery_saver">Mail/Settings/Battery saver</string>
-    <string name="path_about_confirm_before_delete">Mail / Inställningar / Bekräfta innan du raderar</string>
-    <string name="path_about_confirm_before_send">Mail / Inställningar / Bekräfta innan du skickar</string>
-    <string name="path_about_conversation_view">Mail / Inställningar / Konversationsvy</string>
-    <string name="path_about_delete_message_flow">Mail / Inställningar / Radera meddelandeflöde</string>
-    <string name="path_about_email_setting">Post / Inställningar</string>
-    <string name="path_about_send_feed_back">Mail / Inställningar / Skicka feedback</string>
-    <string name="path_about_upload_logs">Mail / Inställningar / Ladda upp loggar</string>
     <string name="perference_change_pw_notnull_tips">Ange ditt lösenord</string>
     <string name="perference_change_pw_ok_tips">Lösenordet ändrat</string>
     <string name="perference_setup_pop_del">Ta bort mail från server</string>
@@ -904,19 +816,15 @@ Försök med en annan inkorg."</string>
     <string name="personal_data_collection_summary">När reglaget är påslaget godkänner du att vi kan samla in dina personliga uppgifter. Du kan stänga av reglaget, återkalla ditt godkännande och ta bort din data från våra servrar när som helst.</string>
     <string name="personal_data_collection_title">Tillåt insamling av personliga uppgifter</string>
     <string name="phone">telefon</string>
-    <string name="photo_load_failed">Det gick inte att ladda bilden</string>
     <string name="photo_view_count">%1$d/%2$d</string>
     <string name="pl_select_age">Välj ålder</string>
-    <string name="please_fill_in_your_mailbox_information2">Ange din brevlåda info</string>
     <string name="pls_parse_bill_discribe">"Analysera räkningar och reseinformation i din email
 to få påminnelser om betalningar och resor"</string>
     <string name="policy_app_blacklist">Tillåt inte angivna appar</string>
     <string name="policy_app_whitelist">Tillåt endast angivna appar</string>
     <string name="policy_bluetooth_restricted">Begränsa Bluetooth-användning</string>
-    <string name="policy_calendar_age">Begränsa antalet kalenderhändelser som synkroniseras</string>
     <string name="policy_dont_allow_attachments">Tillåt inte bifogade filer</string>
     <string name="policy_dont_allow_browser">Tillåt inte webbläsare</string>
-    <string name="policy_dont_allow_camera">Blockera användning av enhetens kamera</string>
     <string name="policy_dont_allow_consumer_email">Tillåt inte konsumentens email</string>
     <string name="policy_dont_allow_html">Tillåt inte HTML-e-post</string>
     <string name="policy_dont_allow_internet_sharing">Tillåt inte Internetdelning</string>
@@ -928,28 +836,19 @@ to få påminnelser om betalningar och resor"</string>
     <string name="policy_dont_allow_unsigned_installers">Tillåt inte installera osignerade appar</string>
     <string name="policy_dont_allow_wifi">Tillåt inte WLAN</string>
     <string name="policy_dont_allow_wifi_inter">Tillåt inte WLAN</string>
-    <string name="policy_email_age">Begränsa antalet e-postmeddelanden som synkroniseras</string>
     <string name="policy_html_truncation">Begränsa HTML-e-poststorlek</string>
-    <string name="policy_password_expiration">Ställ in utgångsdatum för lösenord</string>
-    <string name="policy_password_history">Begränsa användningen av senaste lösenord</string>
     <string name="policy_require_encryption">Kräver enhetskryptering</string>
     <string name="policy_require_manual_sync_roaming">Tillåt endast manuell synkronisering under roaming</string>
-    <string name="policy_require_password">Kräv enhetslösenord för</string>
     <string name="policy_require_sd_encryption">Begränsa HTML-e-poststorlek</string>
     <string name="policy_require_smime">Kräver SMIME-meddelanden</string>
-    <string name="policy_screen_timeout">Kräver inaktiv enhet på låsskärmen</string>
     <string name="policy_text_truncation">Begränsa textens e-poststorlek</string>
     <string name="pop3_name">POP3</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="preference_eas_tips">"Peka på  \"Aktivera \" för att ställa in postserver."</string>
     <string name="preference_imap_tips" />
     <string name="preference_pop_tips">I POP3 hämtas bilagor automatiskt med e-post. Detta kan öka din mobila datanvändning.</string>
-    <string name="preference_sender_image_description">Visa profilbilder bredvid avsändarens namn i inkorgen</string>
-    <string name="preference_sender_image_title">Visa profilbilder i inkorgen</string>
     <string name="preferences_signature_dialog_title">Signatur</string>
-    <string name="preferences_signature_summary_not_set">Ej inställd</string>
     <string name="preferences_signature_title">Signatur</string>
-    <string name="preview_attachment">Förhandsvisning</string>
     <string name="previous_action">Bakåt</string>
     <string name="print">Skriva ut</string>
     <string name="print_scheduler_title">Skriv ut alla schemaläggare</string>
@@ -958,7 +857,6 @@ to få påminnelser om betalningar och resor"</string>
     <string name="privacy_setting_agree">Acceptera</string>
     <string name="prompt_title">Prompta</string>
     <string name="protocol_setting_toast">Tryck på det övre högra hörnet att gå till inställningar efter att du har godkänt</string>
-    <string name="pull_load_more">Dra upp för att ladda mer</string>
     <string name="pull_to_refresh">Dra nedåt för att uppdatera</string>
     <string name="push_wps_better_confirm_download">Ladda ner</string>
     <string name="push_wps_better_confirm_exit">Övriga appar</string>
@@ -979,26 +877,17 @@ to få påminnelser om betalningar och resor"</string>
     <string name="qq_bar_open_imap">Hjälp</string>
     <string name="qq_bar_send_message">Sicka SMS</string>
     <string name="qq_changepw_dialog_tips">Hämta en ny kod från %s för att logga in.</string>
-    <string name="qq_login_basecode">Logga in på webben QQ Mail. Ange lösenordet för oberoende.</string>
-    <string name="qq_login_get_auth">Slå på lösenordsskydd om du inte kan få SMS</string>
     <string name="qq_login_help_bottom_tip">"Om du glömt ditt lösenord eller behöver kontrollera ditt kontos status, använd webb-versionen av QQ Mail. Du kan även få hjälp i WeChat: "</string>
     <string name="qq_login_help_details1">1. QQ-lösenord kan användas när inget oberoende lösenord eller behörighetskod ställdes in med IMAP-/Exchange-protokoll.</string>
     <string name="qq_login_help_details2">2. Oberoende lösenord kan användas när inget oberoende lösenord eller behörighetskod ställdes in med IMAP-/Exchange-protokoll.</string>
     <string name="qq_login_help_details3">"3. Behörighetskoder genererade för tredjeparters e-postklienter kan också användas för att logga in. Om du glömt din kod, läs mer under länken: "</string>
     <string name="qq_login_help_title">QQ/Oberoende lösenord/Behörighetskod:</string>
     <string name="qq_login_notice">Notera: Om du redan har ställt inte lösenord kommer du behöva verifiera det när du loggar in.</string>
-    <string name="qq_login_open_imap">Tryck på \"Hjälp\" för att aktivera IMAP / SMTP</string>
-    <string name="qq_login_origin_setting">Ange användarnamn och lösenord för att logga in ></string>
-    <string name="qq_login_send_message">Tryck på \"Hjälp\" för att aktivera IMAP / SMTP</string>
     <string name="qq_login_sent_setting">Synkronisera skickade meddelanden</string>
-    <string name="qq_login_webview">Logga in på QQ webbklienten, tryck på Logga in med lösenord.</string>
-    <string name="qq_next_generation_auth_toast">Slå på lösenordsskydd i din webbläsare</string>
     <string name="qq_pwd_or_qq_auth_code">Ange kod</string>
     <string name="qq_sent_no_message">Hittar du inte dina skickade e-postmeddelanden? Tryck här för att lära dig vad du kan göra.</string>
     <string name="qq_sent_no_message_setting">Synkronisera skickade meddelanden från QQ Mail</string>
     <string name="qq_uthentication_failed">Det gick inte att få kontoinformation, logga in igen</string>
-    <string name="qq_verify_code">(Kräver verifieringskoden från QQ)</string>
-    <string name="qq_webview_loading">Vänta lite…</string>
     <string name="questionnair_body_invisibility">Meddelanden visas inte</string>
     <string name="questionnair_confirm_delete">Ta bort konto?</string>
     <string name="questionnair_instability">Kraschar ofta</string>
@@ -1014,9 +903,6 @@ to få påminnelser om betalningar och resor"</string>
     <string name="quick_4">Låt oss skapa ett möte för att diskutera detta.</string>
     <string name="quick_reply_dialog_title">Välja ett svar</string>
     <string name="quick_reply_expend">Mer</string>
-    <string name="quick_reply_hint_bcc">(I BCC)</string>
-    <string name="quick_reply_hint_cc">(I CC)</string>
-    <string name="quick_reply_hint_reply_only_from">Snabbt svar (endast avsändaren)</string>
     <string name="quick_responses_empty_view">Inga snabba svar</string>
     <string name="quoted_text">Inkludera citerad text</string>
     <string name="quoted_text_label">Citera texten</string>
@@ -1025,38 +911,11 @@ to få påminnelser om betalningar och resor"</string>
     <string name="read_string">konversation läst</string>
     <string name="recipient_needed">Lägg till minst 1 mottagare.</string>
     <string name="recipient_needed_title">Varna</string>
-    <string name="recognize_hotel_check_in_date">Check-in tid</string>
-    <string name="recognize_hotel_hotel_money">Pris %1$s</string>
-    <string name="recognize_hotel_notification_content">Ha en trevlig resa!</string>
-    <string name="recognize_hotel_notification_title">Du bokat rum på %1$s med start från %2$s/%3$s. Dubbelkolla din bokning innan du kommer dit.</string>
-    <string name="recognize_hotel_order_money">Total</string>
-    <string name="recognize_hotel_other_money">Andra kostnader %1$s</string>
-    <string name="recognize_hotel_reverse_date">Checka in före %1$s:%2$s %3$s</string>
-    <string name="recognize_hotel_room_type">Rum</string>
-    <string name="recognize_hotel_room_type_value">%1$s × %2$s</string>
-    <string name="recognize_hotel_title">Hotellbokning</string>
-    <string name="recognize_hotel_user_names">Gäst</string>
-    <string name="recognize_hotel_user_names_value">%1$s+%2$s</string>
-    <string name="recognize_setting_title">Resor-inställningar</string>
-    <string name="recognize_ticket_air_notification_content">Njut av din flygresa!</string>
-    <string name="recognize_ticket_air_notification_title">Flyg %3$s (%1$s/%2$s) kommer att lyfta snart. Dubbelkolla flyginformation.</string>
-    <string name="recognize_ticket_air_state_stopover">Mellanlandning</string>
-    <string name="recognize_ticket_air_state_transfer">Överför</string>
-    <string name="recognize_ticket_air_user_name">Passagerare: %1$s</string>
-    <string name="recognize_ticket_title">Flyg &amp; tåg biljetter</string>
-    <string name="recognize_ticket_train_alter">Ändrad</string>
-    <string name="recognize_ticket_train_depart_date">Avgår vid %3$s:%4$s på %1$s/%2$s</string>
-    <string name="recognize_ticket_train_notification_content">Trevlig resa!</string>
-    <string name="recognize_ticket_train_notification_title">Tåg %3$s (%1$s/%2$s) avgår snart. Dubbelkolla din biljett.</string>
-    <string name="recognize_ticket_train_return">Återvände</string>
-    <string name="recognize_ticket_train_user_name">Passagerare: %1$s</string>
-    <string name="recognize_title">Reseinformation</string>
     <string name="recommend_protocal">Rekommendationer för användningsprotokoll</string>
     <string name="reduce_the_receiving_frequencye_summary">Synkronisera inkorg mer sällan när Stör ej är på</string>
     <string name="reduce_the_receiving_frequencye_title">Synkronisera mer sällan</string>
     <string name="refresh">Uppdatera</string>
     <string name="refreshing">Uppdaterar…</string>
-    <string name="refreshing_done">Klart</string>
     <string name="release_to_refresh">Släpp för att uppdatera</string>
     <string name="remind_attachment_size_limit">Din e-post bör vara mindre än %sMB</string>
     <string name="reminder">Påminnelse</string>
@@ -1079,14 +938,10 @@ Vänta tills att det har synkats helt eller visa meddelandet på din dator."</st
     <string name="respond_inline">"   Svara inline"</string>
     <string name="retry_login">Logga in igen</string>
     <string name="save_action">Spara</string>
-    <string name="save_attachment">Spara</string>
     <string name="save_draft_failed">Spara utkast misslyckades</string>
     <string name="save_power_summary">Ställ in power sparar tid</string>
     <string name="save_power_title">Batterisparare</string>
-    <string name="save_this_new_signature">Spara ny signatur?</string>
     <string name="saved">Spara, %s</string>
-    <string name="saving">Sparar…</string>
-    <string name="sdcard_cannot_use">Kan inte använda SD-kortet</string>
     <string name="search_bar_text">Sök efter avsändare eller kontakter</string>
     <string name="search_hint">Sök e-post</string>
     <string name="search_menu_title">Sök</string>
@@ -1097,9 +952,7 @@ Vänta tills att det har synkats helt eller visa meddelandet på din dator."</st
     <string name="search_tabs_name_sender">Avsändare</string>
     <string name="search_tabs_name_subject">Ämne</string>
     <string name="search_txt_size_limit_prompt">Sökord måste vara större än 3 tecken</string>
-    <string name="security_changed_ticker_fmt">Konto \"%s\" ändrade sina säkerhetsinställningar; ingen användaråtgärd krävs.</string>
     <string name="security_needed_ticker_fmt">Konto \"%s\" kräver uppdatering av säkerhetsinställningar.</string>
-    <string name="security_notification_content_change_title">"Säkerhetspolitiken har         förändrats"</string>
     <string name="security_notification_content_unsupported_title">"Säkerhetskraven kan inte         uppfyllas"</string>
     <string name="security_notification_content_update_title">Säkerhetsuppdatering krävs</string>
     <string name="security_unsupported_ticker_fmt">Konto \"%s\" kan inte synkroniseras på grund av säkerhetskraven.</string>
@@ -1111,9 +964,6 @@ Vänta tills att det har synkats helt eller visa meddelandet på din dator."</st
     <string name="send_encrypt_dialog_fail_content">Verkar som att mottagaren inte har det betrodda certifikatet som krävs för att kryptera detta e-postmeddelande. Skicka ett vanligt e-postmeddelande istället?</string>
     <string name="send_encrypt_dialog_fail_title">Kan inte skicka krypterade e-postmeddelanden</string>
     <string name="send_failed">Meddelandet skickades inte.</string>
-    <string name="send_feed_back">Skicka feedback</string>
-    <string name="send_feed_back_keywords">skicka återkoppling</string>
-    <string name="send_mail">Skicka</string>
     <string name="sender_whitelist_cleared">Bilderna visas inte automatiskt.</string>
     <string name="senders_split_token">, </string>
     <string name="sending">Skickar…</string>
@@ -1138,7 +988,6 @@ Vänta tills att det har synkats helt eller visa meddelandet på din dator."</st
     <string name="server_cet_cert_issuer">"Certifikatutfärdare:  "</string>
     <string name="server_cet_data">"Giltighetsperiod: "</string>
     <string name="server_cet_data_exp">Denna servers certifikat löpte ut.</string>
-    <string name="server_cet_data_to" formatted="false">%s - %s</string>
     <string name="server_cet_domain">"Domännamn: "</string>
     <string name="server_cet_error_sug">"Prova följande:
 1. Anslut till ett annat nätverk eller starta om din Wi-Fi-router.
@@ -1171,11 +1020,12 @@ Vänta tills att det har synkats helt eller visa meddelandet på din dator."</st
 
 
 %s"</string>
-    <string name="silent_ringtone">Tyst</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">Lösenord för utgående e-postserver är felaktigt</string>
     <string name="sort_attachment">Sortera efter</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage">Lagringsutrymme</string>
     <string name="str_select_all">Välj alla</string>
     <string name="str_select_none">Välj ingen</string>
@@ -1188,23 +1038,14 @@ Vänta tills att det har synkats helt eller visa meddelandet på din dator."</st
     <string name="sync_calendra_fail_permission">Kunde inte synka kalenderhändelser. Tillåt Mail att få tillgång till kalendern först.</string>
     <string name="sync_contacts_fail_per_content">Tryck för att tillåta åtkomst till kontakter</string>
     <string name="sync_contacts_fail_per_title">Kunde inte lägga till kontakter</string>
-    <string name="sync_contacts_fail_permission">Kunde inte synkronisera kontakter, tillåta Mail att komma åt dina kontakter i Inställningarna</string>
     <string name="sync_contacts_req_per_ignored">Tillåta Mail att komma åt dina kontakter att synkronisera</string>
     <string name="sync_error">Kunde inte synkronisera.</string>
     <string name="sync_error_message">Enheten har inte tillräckligt med lagringsutrymme som ska synkroniseras.</string>
-    <string name="sync_failed_mi_authority_view_detail">Visa detaljer</string>
     <string name="sync_question_feed">Rapportera synkroniseringsproblem</string>
     <string name="sync_upload_question">Återkoppling</string>
     <string name="syncing_wait_restart">Försök igen</string>
     <string name="syncing_wait_restart_title">Nätverksanslutning frånkopplad</string>
     <string name="system_account_create_failed">Kunde inte skapa kontot. Försök igen.</string>
-    <string name="system_folders_sent_dlg">Välj mappen för din serverns skickade objekt</string>
-    <string name="system_folders_sent_summary">Välj mappen för din serverns skickade objekt</string>
-    <string name="system_folders_sent_title">Mapp för skickade objekt</string>
-    <string name="system_folders_title">Systemmappar</string>
-    <string name="system_folders_trash_dlg">Välj din serverns papperskorg</string>
-    <string name="system_folders_trash_summary">Välj serverns papperskorg</string>
-    <string name="system_folders_trash_title">Papperskorg</string>
     <string name="system_root_path">Inställningar för internt lagringsutrymme</string>
     <string name="system_security_open_error">För att justera säkerhetsinställningarna, ge E-post behörighet i inställningarna</string>
     <string name="system_setup_open_error">Aktivera synkronisering för E-post i inställningarna</string>
@@ -1263,18 +1104,14 @@ Remove konto?"</string>
     <string name="unknow">Okänd</string>
     <string name="unread_string">konversation oläst</string>
     <string name="unzip_file_failed">Det gick inte att pakka ut filen</string>
-    <string name="update_date_format_templete">HH:mm aa, dd MMMM</string>
     <string name="update_domain_summary">Uppdatera listan över tillgängliga domäner och konfigurationer</string>
     <string name="update_domain_title">Uppdatera domäninställningar</string>
-    <string name="updated_at">Uppdatera på %1$s</string>
     <string name="upload_log">Skicka</string>
     <string name="upload_log_failed">Kunde inte skicka loggar</string>
     <string name="upload_log_no">Avbryt</string>
     <string name="upload_log_success">Skickad, vi kommer snart tillbaka.</string>
     <string name="upload_log_title">Skicka felloggar för att hjälpa oss att förbättra Mail</string>
     <string name="upload_log_yes">Skicka</string>
-    <string name="upload_logs">Ladda upp logg</string>
-    <string name="upload_logs_keywords">ladda upp logg</string>
     <string name="uploading_logs">Vänta lite…</string>
     <string name="user_new_auth_code">Använd en ny kod för att logga in</string>
     <string name="user_privacy_settings">Integritetsinställningar</string>
@@ -1284,14 +1121,12 @@ Remove konto?"</string>
     <string name="user_privacy_settings_title">Integritetsmeddelande för Mail</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
-    <string name="validation_failed_prompt">Kan inte verifiera konto, kontrollera serverinställningarna för %s</string>
     <string name="veiled_address" />
     <string name="veiled_alternate_text" />
     <string name="veiled_alternate_text_unknown_person" />
     <string name="veiled_summary_unknown_person" />
     <string name="verify_code">Verifieringskod</string>
     <string name="version_string">Version: %s</string>
-    <string name="via_domain">via %1$s</string>
     <string name="view_more_conversations">Visa fler konversationer</string>
     <string name="wait_for_manual_sync_body">"Det här kontot är inte inställd att synkronisera automatiskt. 
 Rör"<b> Synkronisera nu </b> för att synkronisera e-post en gång, eller<b> Ändra synkroniseringsinställningar </b> för att ställa in det här kontot för att synkronisera post automatiskt.</string>
@@ -1307,13 +1142,9 @@ Rör"<b> Synkronisera nu </b> för att synkronisera e-post en gång, eller<b> Ä
     <string name="widget_large_unread_count">%d+</string>
     <string name="widget_other_views">Övriga</string>
     <string name="wipe_account_fail_description">Tillåt</string>
-    <string name="wipe_account_fail_description_remind">På grund av dataanvändnings-restriktioner kan det bli kvarvarande data i Kalender och Kontakter efter att du raderar kontot. Radera dessa manuellt.</string>
     <string name="wipe_account_fail_title">Det gick inte att ta bort personlig information</string>
-    <string name="wps_title">WPS Mail</string>
     <string name="wrong_password">Lösenordet du angav är inte korrekt</string>
-    <string name="xiaomi_auth_toastbar">Logga in för att godkänna din enhet</string>
     <string name="xiaomi_email">E-post</string>
-    <string name="xiaomi_under_certification">Godkänner…</string>
     <string name="yes">Ja</string>
     <string name="you_are_in_mobile_network">Använda mobildata för att ladda upp logg?</string>
     <string name="youfuli">Marknadsförning</string>

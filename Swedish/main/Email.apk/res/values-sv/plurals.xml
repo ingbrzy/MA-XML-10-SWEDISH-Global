@@ -92,17 +92,9 @@
         <item quantity="other">%s resultat i synkroniserade meddelanden</item>
         <item quantity="one">%s resultat i synkroniserade meddelanden</item>
     </plurals>
-    <plurals name="month">
-        <item quantity="other">%d månader</item>
-        <item quantity="one">%d månad</item>
-    </plurals>
     <plurals name="more_atts_remaining">
         <item quantity="other">%1$d kvarstående bilaga</item>
         <item quantity="one">%1$d kvarstående bilaga</item>
-    </plurals>
-    <plurals name="move_conversation">
-        <item quantity="other">Flytta %1$d konversationer</item>
-        <item quantity="one">Flytta konversation</item>
     </plurals>
     <plurals name="new_incoming_messages_many">
         <item quantity="other">Visa %1$d nytt meddelande.</item>
@@ -155,10 +147,6 @@
     <plurals name="number_of_week_before">
         <item quantity="other">%1$d veckor innan</item>
         <item quantity="one">%1$d vecka innan</item>
-    </plurals>
-    <plurals name="quick_reply_hint">
-        <item quantity="other">Svara på %1$d personer</item>
-        <item quantity="one">Svar på %1$d person</item>
     </plurals>
     <plurals name="remote_search_result">
         <item quantity="other">%s resultat i alla konton</item>
