@@ -36,6 +36,14 @@
         <item quantity="other">%1$s minuter</item>
         <item quantity="one">%1$s minut</item>
     </plurals>
+    <plurals name="pref_live_duration_prompt">
+        <item quantity="other">Spela in %d sekunder</item>
+        <item quantity="one">Spela in %d sekund</item>
+    </plurals>
+    <plurals name="timefreeze_guide_tip1">
+        <item quantity="other">Du kan filma tidsfrysningsvideor med upp till %d motiv.</item>
+        <item quantity="one">Du kan bara filma tidsfrysningsvideor med %d motiv.</item>
+    </plurals>
     <plurals name="timer_burst_setting_total_count">
         <item quantity="other">%1$s foton</item>
         <item quantity="one">%1$s foto</item>

@@ -148,6 +148,7 @@
     <string name="dynamic_weather">Väder</string>
     <string name="early_morning">Morgon</string>
     <string name="edit_city">Hantera städer</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Uppdaterar…</string>
     <string name="empty_view_net_unavailable">Det gick inte att ansluta till nätverket</string>
     <string name="empty_view_refresh">Försök igen</string>
@@ -241,13 +242,17 @@
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
     <string name="hourly_forcast_now">Nu</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">M/d</string>
     <string name="index_item_experience_now">Installera nu</string>
     <string name="indices_title_chance_of_rain">Chans för regn</string>
     <string name="indices_title_feel">Känns som</string>
     <string name="indices_title_pressure">Tryck</string>
     <string name="indices_title_wind_speed">Vindhastighet</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV index</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Aktivera platstjänster</string>
     <string name="location_tag">Lokalisera</string>
     <string name="manager_city_option_add_home">Lägg till på startsida</string>
@@ -400,6 +405,7 @@
     <string name="share_menu_title">Dela</string>
     <string name="share_subject">Dela</string>
     <string name="share_weather_desc">\#MIUI Väder#Idag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Det gick inte att ta skärmdump</string>
     <string name="shortcut_short_label_24_hour_forecast">24-timmars prognos</string>
@@ -549,8 +555,10 @@
     <string name="welcome_app_title">Välkommen till Väder!</string>
     <string name="wind_direction_no_data">Vind</string>
     <string name="wind_unit">%1$skm/h</string>
-    <string name="xiaomi_weather_description_content">Väder ger dig korrekt väderinformation. Utan denna app kommer inte vädret i statusfältet och Väderwidgeten på Hemskärmen fungera fullt ut. Se till att du klarar dig utan dessa funktioner innan du avinstallera appen.</string>
-    <string name="xiaomi_weather_description_title">Om Väder</string>
+    <string name="xiaomi_weather_description_content">Weather är en system-app. Du kommer inte kunna visa väderinfo eller använda relaterade widgets efter du avinstallerat appen.</string>
+    <string name="xiaomi_weather_description_content_remove">Weather är en system-app. Du kommer inte kunna visa väderinfo eller använda relaterade widgets efter du tagit bort genvägen på Hemskärmen.</string>
+    <string name="xiaomi_weather_description_title">Avinstallera \"Weather\"?</string>
+    <string name="xiaomi_weather_description_title_remove">Ta bort \"Weather\" från Hemskärmen?</string>
     <string name="yes_vote_ratio">För %1$s%%</string>
     <string name="yesterday">Igår</string>
 </resources>

@@ -423,6 +423,7 @@
     <string name="navigation_type_full_screen">Rörelser</string>
     <string name="navigation_type_title">Navigera i systemet</string>
     <string name="navigation_type_virtual_key">Knappar</string>
+    <string name="network_error">Det gick inte att ansluta till nätverket. Försök igen.</string>
     <string name="no_detail_page">Ingen detaljsida</string>
     <string name="no_space_toast">Inte tillräckligt med utrymme</string>
     <string name="no_space_toast_when_click_widget">Inte tillräckligt med utrymme på den här sidan. Försök att dra detta objekt till en annan sida.</string>
@@ -519,6 +520,8 @@
     <string name="remove_dialog_message">Valda appar innehåller viktiga systemfunktioner. Du kan endast ta bort deras hemskärmsgenvägar.</string>
     <string name="remove_dialog_title_format">Ta bort \"%s\" från hemskärmen?</string>
     <string name="remove_invalidate_gadget_tips">En av widgetarna du använder är inte längre tillgänglig. Du kan lägga till en annan.</string>
+    <string name="remove_sys_app_content">Du kommer kunna lägga till genvägen på Hemskärmen igen i Inställningar > Appar > Hantera genvägar på Hemskärmen. Ta bort nu?</string>
+    <string name="remove_sys_app_title">Ta bort genvägen på Hemskärmen?</string>
     <string name="reset_cate_tip_content">Om du fortsätter, återställs standardappgrupper. Fortsätt ändå?</string>
     <string name="reset_cate_tip_title">Återställ standardgrupper</string>
     <string name="reset_description_first_time">Du kan återställa layouten från %1$s inom 2 timmar</string>
@@ -527,6 +530,7 @@
     <string name="reset_scene_prompt">Skärmen kommer att återställas till standardlayout.</string>
     <string name="reset_title">Återställ</string>
     <string name="restore_icon_successful">Lades till framgångsrikt</string>
+    <string name="russia_preinstall_folder_name">Ryssland</string>
     <string name="screen_cells_config_title">Hemskärmens utseende</string>
     <string name="screen_locked_toast">Hemskärmens utseende är låst.</string>
     <string name="screen_number">%d skärm</string>
@@ -536,6 +540,7 @@
     <string name="select_all">Välj alla</string>
     <string name="select_frame">Ram</string>
     <string name="select_photo">Foto</string>
+    <string name="server_error">Ett serverfel inträffade. Vänta en minut eller två och försök igen.</string>
     <string name="setting_wallpaper_tip">Nyp eller svep för att justera</string>
     <string name="settings">Inställningar</string>
     <string name="settings_shortcut">Inställningar</string>
@@ -563,6 +568,7 @@
     <string name="sort_by_not_defined">Sortera automatiskt</string>
     <string name="start_activity_failed">Kan inte starta launcher</string>
     <string name="starting_preset_app">Startar…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s av %2$s tillgängligt</string>
     <string name="status_bar_recent_memory_info2" />

@@ -31,6 +31,7 @@
     <string name="app_name">Hörlurar</string>
     <string name="apply_sound">Tillämpa</string>
     <string name="can_you_here">Kan du höra ljudet?</string>
+    <string name="choose_bluetooth_device">Välj enhet</string>
     <string name="complete_dialog_button">Uppfattat</string>
     <string name="complete_dialog_message">Du har avslutat testet.</string>
     <string name="complete_dialog_title">Testresultat</string>
@@ -39,6 +40,13 @@
     <string name="customization_continue">Fortsätt</string>
     <string name="customization_pause_tip">Vill du avsluta testet nu? Koppla i hörlurarna för att fortsätta.</string>
     <string name="customization_quit">Avsluta</string>
+    <string name="dolby_atoms">Dolby Atmos</string>
+    <string name="dolby_dax_geq_select_title">Förinställningar</string>
+    <string name="dolby_dax_geq_title">Grafisk equalizer</string>
+    <string name="dolby_dax_profile_dynamic">Dynamisk</string>
+    <string name="dolby_dax_setting">Dolby-effekter</string>
+    <string name="dolby_dax_title">Surround-ljud</string>
+    <string name="end_wireless_transmission">Stoppa</string>
     <string name="eq_auto">Anpassad</string>
     <string name="eq_blues">Blues</string>
     <string name="eq_cancel">Avbryt</string>
@@ -74,6 +82,7 @@
     <string name="input_hint_prefix">Ange %1$s</string>
     <string name="keep_sound">Spara förinställningen</string>
     <string name="low_pitch">Lågt tonläge</string>
+    <string name="misound_effect_setting">Ml-ljud</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra nedåt för att uppdatera</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uppdaterat</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Uppdaterar…</string>
@@ -117,6 +126,7 @@
     <string name="music_dirac_mode_in_ear_pro">Mi In-Ear Pro</string>
     <string name="music_dirac_mode_india_earphones">Mi Hörlurar</string>
     <string name="music_dirac_mode_india_earphones_basic">Mi Hörlurar Basic</string>
+    <string name="music_dirac_mode_mi_dual_driver_in_ear_earphones">Mi Dual Driver In-ear hörlurar</string>
     <string name="music_dirac_mode_off">Dirac av</string>
     <string name="music_dirac_mode_piston_1">Mi Piston-1</string>
     <string name="music_dirac_mode_piston_100">Pi Piston</string>
@@ -126,6 +136,7 @@
     <string name="music_dirac_mode_piston_standard">Standardupplaga</string>
     <string name="music_dirac_mode_piston_typec">Mi In-Ear hörlurar (Typ-C)</string>
     <string name="music_dirac_mode_piston_youth">Ungdomlig upplaga</string>
+    <string name="music_dirac_mode_redmi_earphones">Redmi hörlurar</string>
     <string name="music_dirac_mode_reduction_noise">Mi Brusreducering Type-C</string>
     <string name="music_dolby_mode_movie">Video</string>
     <string name="music_dolby_mode_music">Musik</string>
@@ -152,6 +163,8 @@
     <string name="music_headset_calibrate_volume_up">Öka volym</string>
     <string name="music_headset_calibrate_wrong_key">Det är fel knapp</string>
     <string name="music_headset_control_setting">Hörlurskontroller</string>
+    <string name="music_headset_effect_harman_kardon">Harman Kardon</string>
+    <string name="music_headset_effect_harman_kardon_summary">Certifierat pro-ljud</string>
     <string name="music_headset_effect_settings">Ljudeffekter</string>
     <string name="music_headset_improve_sound">Justera ljud till hörlurarna</string>
     <string name="music_headset_is_open">På</string>
@@ -203,7 +216,25 @@
     <string name="sound_assist_key_summary">Justera ljud för individuella appar medans flera appar spelar upp ljud samtidigt</string>
     <string name="sound_assist_key_title">Justera medialjud i flera appar</string>
     <string name="sound_assist_title">Ljudassistent</string>
+    <string name="sound_effect_hall">Sal</string>
+    <string name="sound_effect_original">Original</string>
+    <string name="sound_effect_room">Rum</string>
+    <string name="sound_effect_theater">Teater</string>
     <string name="sound_test_title">Hörselupplevelse-test</string>
+    <string name="sound_transmission_cancel">Nej tack</string>
+    <string name="sound_transmission_confirm">Tillåt</string>
+    <string name="sound_transmission_continue">Återuppta</string>
+    <string name="sound_transmission_device">Enhet</string>
+    <string name="sound_transmission_dialog_message">Ljudassistent</string>
+    <string name="sound_transmission_dialog_title">Slå på Bluetooth</string>
+    <string name="sound_transmission_end">Stoppa</string>
+    <string name="sound_transmission_function_generalize">Överför ljud från din telefons mikrofon till en extern Bluetooth-enhet</string>
+    <string name="sound_transmission_processing">Mikrofon</string>
+    <string name="sound_transmission_prompt">Tillåt denna funktion att slå på Bluetooth för att kunna använda trådlös mikrofon.</string>
+    <string name="sound_transmission_scenes">Scen</string>
+    <string name="sound_transmission_start">Starta</string>
+    <string name="sound_transmission_stop">Pausa</string>
+    <string name="sound_transmission_title">Trådlös mikrofon</string>
     <string name="start_test_sound">Starta testet</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -212,7 +243,14 @@
     <string name="switch_audio_device_bt">Bluetooth</string>
     <string name="switch_audio_device_phone">Den här enheten</string>
     <string name="switch_audio_dialog_title">Växla ljud till</string>
+    <string name="switch_bluetooth_device">Växla enhet</string>
     <string name="third_note">Hitta en tyst plats.</string>
+    <string name="transmission_volume_option_title">Mikrofonvolym</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
+    <string name="wireless_transmission">Trådlös högtalare</string>
+    <string name="wireless_transmission_cancel">Avbryt</string>
+    <string name="wireless_transmission_confirm">Aktivera</string>
+    <string name="wireless_transmission_definition">Sänd din telefons mic-feed till en extern Bluetooth-enhet</string>
+    <string name="wireless_transmission_prompt">För att sända ljud behöver trådlösa högtalaren aktivera Bluetooth. Aktivera nu?</string>
 </resources>

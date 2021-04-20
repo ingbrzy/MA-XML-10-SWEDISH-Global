@@ -40,6 +40,10 @@
         <item quantity="other">%d anteckningar</item>
         <item quantity="one">%d anteckning</item>
     </plurals>
+    <plurals name="dirty_note_count_v2">
+        <item quantity="other">%d anteckningar</item>
+        <item quantity="one">%d anteckning</item>
+    </plurals>
     <plurals name="dirty_personalAssistant_count">
         <item quantity="other">%d objekt i App valvet</item>
         <item quantity="one">%d objekt i App valvet</item>
@@ -64,6 +68,10 @@
         <item quantity="other">%d WLAN networks</item>
         <item quantity="one">%d WLAN network</item>
     </plurals>
+    <plurals name="error_screen_pwd_next_retry_time">
+        <item quantity="other">Försök igen om %d sekunder</item>
+        <item quantity="one">Försök igen om %d sekund</item>
+    </plurals>
     <plurals name="items_unsynced">
         <item quantity="other">Objekt som väntar på synk: %d</item>
         <item quantity="one">Objekt som väntar på synk: %d</item>
@@ -87,5 +95,21 @@
     <plurals name="select_no_more_than">
         <item quantity="other">Kan inte välja fler än %d objekt</item>
         <item quantity="one">Kan inte välja fler än %d objekt</item>
+    </plurals>
+    <plurals name="share_sdk_invitation_some_people_accepted">
+        <item quantity="other">Inbjudan accepterad av %d personer</item>
+        <item quantity="one">Inbjudan accepterad av %d person</item>
+    </plurals>
+    <plurals name="time_format_day">
+        <item quantity="other">%1$s dagar</item>
+        <item quantity="one">%1$s dag</item>
+    </plurals>
+    <plurals name="time_format_hour">
+        <item quantity="other">%1$s timmar</item>
+        <item quantity="one">%1$s timme</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="other">%1$s minuter</item>
+        <item quantity="one">%1$s minut</item>
     </plurals>
 </resources>

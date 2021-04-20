@@ -125,6 +125,7 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="gradienter_title">Vattenpass</string>
     <string name="guide_toast">För att kalibrera, flytta enheten som visas nedan.</string>
     <string name="latitude">LAT</string>
     <string name="location_east">EL</string>
@@ -218,6 +219,8 @@
     <string name="pressure">%.1f</string>
     <string name="pressure_title">Tryck</string>
     <string name="pressure_unit">hPa</string>
+    <string name="remove_icon_description_content">Kompass är en systemapp. Du kan inte använda den för att kontrollera riktningar, koordinater, atmosfärstryck och aktuell höjd när du har tagit bort genvägen till startskärmen.</string>
+    <string name="remove_icon_description_title">Ta bort \"Kompass\" från hemskärmen?</string>
     <string name="saturday">Lördag</string>
     <string name="saturday_short">Lör</string>
     <string name="saturday_shortest">Lör</string>

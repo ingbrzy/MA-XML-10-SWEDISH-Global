@@ -104,6 +104,10 @@
         <item quantity="other">%d gånger</item>
         <item quantity="one">%d gång</item>
     </plurals>
+    <plurals name="usage_state_unlock_count_new">
+        <item quantity="other">Snitt %.2f gånger</item>
+        <item quantity="one">Snitt %.2f gånger</item>
+    </plurals>
     <plurals name="usage_state_week_day_hour">
         <item quantity="other">Helger: %d timmar</item>
         <item quantity="one">Helger: %d timme</item>

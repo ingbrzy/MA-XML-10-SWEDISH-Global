@@ -47,15 +47,17 @@
     <string name="alarm_sound">Alarm</string>
     <string name="all_resources">Alla</string>
     <string name="all_wallpapers">Alla bakgrundsbilder</string>
+    <string name="app_description_content">Themes är en system-app. Den tillhandahåller bakgrundsbilder och flera anpassningsalternativ. Du kommer fortfarande kunna använda Themes via Inställningar efter du tagit bort genvägen från Hemskärmen.</string>
+    <string name="app_description_title">Ta bort \"Themes\" från Hemskärmen?</string>
     <string name="app_name">Teman</string>
     <string name="app_permission_optional">Valfria behörigheter</string>
     <string name="app_permission_require">Obligatoriska behörigheter</string>
     <string name="app_permission_use_desc">Behörigheter</string>
     <string name="app_permission_use_group_account">Konton</string>
-    <string name="app_permission_use_group_account_desc">För att få hämta Mi kontoinformation</string>
+    <string name="app_permission_use_group_account_desc">För att få Mi-kontoinformation</string>
     <string name="app_permission_use_group_phone">Telefon</string>
     <string name="app_permission_use_group_phone_desc">För kontoverifiering och auktorisering</string>
-    <string name="app_permission_use_group_storage">Lagringsutrymme</string>
+    <string name="app_permission_use_group_storage">Lagring</string>
     <string name="app_permission_use_group_storage_desc">För att använda och spara teman, bakgrundsbilder, ringsignaler och teckensnitt</string>
     <string name="apply_default_font_tip">Fortsätt använda systemets aktuella teckensnittet?</string>
     <string name="apply_font_btn_exclude">Inte nu</string>
@@ -164,7 +166,9 @@
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Ljud</string>
@@ -232,6 +236,7 @@
     <string name="incompatible_dialog_ok">Jag förstår</string>
     <string name="incompatible_dialog_title">Kompatibilitetsproblem</string>
     <string name="is_setting_wallpaper_message">Ställer in bakgrund…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarm</string>
     <string name="item_resource_audio_optional_color_ring">Kopplingston</string>
     <string name="item_resource_audio_optional_notification_ring">Notifikationer</string>
@@ -277,8 +282,9 @@
     <string name="my_gifts">Gåvor</string>
     <string name="my_gifts_purchased">Köpt</string>
     <string name="my_gifts_received">Mottagit</string>
-    <string name="need_permission">Obligatoriska behörigheter (används för grundläggande funktioner och tjänster i denna app)</string>
+    <string name="need_permission">Välkommen till Teman! Denna app tillhandahåller följande personliga tjänster:</string>
     <string name="no_data">Kan inte ansluta till nätverket</string>
+    <string name="no_network">Kan inte ansluta till nätverket</string>
     <string name="no_related_font">Det gick inte att hitta resultat</string>
     <string name="no_related_ringtone">Det gick inte att hitta resultat</string>
     <string name="no_related_theme">Det gick inte att hitta resultat</string>
@@ -312,14 +318,14 @@
     <string name="pref_animation_preview">Animerade förhandsgranskningar</string>
     <string name="pref_animation_preview_switch">Visa övergång från låsskärm till hemskärm på temaomslag</string>
     <string name="pref_privacy_policy">Integritetspolicy</string>
-    <string name="preference_authorization_summary">Växla reglaget på och av för att bevilja eller upphäva ditt tillstånd</string>
+    <string name="preference_authorization_summary">Genom att växla till av drar du tillbaka ditt samtycke till integritetspolicyn för Themes.</string>
     <string name="preference_authorization_title">Tillstånd</string>
     <string name="premium">Premium</string>
     <string name="present_local_themes">Mina Teman</string>
     <string name="present_local_themes_subtitle">Anpassa enheten</string>
     <string name="present_official_themes">Våra val</string>
     <string name="present_online_themes">Hämtar fler teman online</string>
-    <string name="privacy_desc">Integritetspolicy (obligatorisk)</string>
+    <string name="privacy_desc">Sekretesspolicy (obligatorisk)</string>
     <string name="provision_default_theme_title">Standard</string>
     <string name="provision_download_cancel">Avbröt nedladdning</string>
     <string name="provision_download_fail">Kunde inte ladda ner. Prova standard eller klassiskt tema.</string>
@@ -484,6 +490,7 @@
     <string name="resource_pack_price_info">Originalpris: %1$s</string>
     <string name="resource_pack_warning">Du har redan köpt %1$d komponenter i detta tema. Det är billigare om du köper de återstående komponenterna individuellt.</string>
     <string name="resource_present">Gåva</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Gratis</string>
     <string name="resource_price_unit"> Mi Krediter</string>
     <string name="resource_purchase_common_error">Ett fel uppstod, försök igen</string>
@@ -559,11 +566,12 @@
     <string name="restore_last_theme_title">Återställer ursprungligt tema</string>
     <string name="restore_push_content">Återgå till det tema du har använt före uppdateringen</string>
     <string name="restore_push_title">Återställ ditt tema</string>
-    <string name="revoke_dialog_agree">Upphäv</string>
+    <string name="revoke_dialog_agree">Dra tillbaka</string>
     <string name="revoke_dialog_agree_with_timestamp">Upphäv (%1$ds)</string>
     <string name="revoke_dialog_disagree">Avbryt</string>
-    <string name="revoke_dialog_message">När du upphävt tillståndet, kommer Themes vault att stoppa insamlingen av data och radera all relaterade data från våra servrar. Detta kan göra Themes praktiskt taget oanvändbar. Upphäv tillståndet ändå?</string>
-    <string name="revoke_dialog_title">Upphäver tillståndet</string>
+    <string name="revoke_dialog_message">Genom att växla till av, så drar du tillbaka ditt samtycke till integritetspolicyn för Themes. Vi kommer upphöra att samla in din personliga information. De personliga data som redan samlats in och bevaras kommer att raderas inom en specifik period som krav enligt gällande lagar. Themes behöver samla in nödvändig personlig information för att förse dig med grundläggande tjänster. Ditt tillbakadragande av samtycke till dess integritetspolicy kommer hållas som vägran att acceptera dess tjänster baserat på insamlad personlig information.</string>
+    <string name="revoke_dialog_title">Återkallelse av ditt samtycke</string>
+    <string name="revoke_fail_message">Din enhet behöver ansluta till nätverket för att du ska kunna dra tillbaka samtycket. Kontrollera dina nätverksinställningar och försök igen.</string>
     <string name="revoke_progress_dialog_message">Upphäver tillståndet…</string>
     <string name="revoke_toast_message">Tillstånd upphävt</string>
     <string name="rewarded_ad_load_failed">Kunde inte ladda videon. Försök igen.</string>
@@ -592,7 +600,7 @@
     <string name="search_hint_header_text">Populära ord</string>
     <string name="search_menu_title">Sök</string>
     <string name="search_sort">Sortera efter</string>
-    <string name="select_all">Markera allt</string>
+    <string name="select_all">Välj alla</string>
     <string name="selected_resource_file_invalid">Kan inte använda valda resursfilen</string>
     <string name="set_color_ring_back_tone">Välj en anpassad kopplingston</string>
     <string name="settings">Inställningar</string>
@@ -606,6 +614,7 @@
     <string name="sim_one">SIM 1</string>
     <string name="sim_two">SIM 2</string>
     <string name="similar_theme">Liknande teman</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_file">För att spara nedladdade objekt</string>
     <string name="swipe_find_more">Svep uppåt för att visa mer</string>
     <string name="system_phone">Samtal</string>
@@ -650,6 +659,7 @@
     <string name="theme_component_title_statusbar">Statusfält</string>
     <string name="theme_component_title_wallpaper">Hemskärm</string>
     <string name="theme_current_using_has_update">Tema uppdatering tillgänglig</string>
+    <string name="theme_desc">Teman tillåter dig att anpassa flera UI-element över systemet.</string>
     <string name="theme_description_title_customized">Anpassad</string>
     <string name="theme_description_title_default">Standard</string>
     <string name="theme_detail">Detaljer</string>
@@ -671,6 +681,7 @@
     <string name="theme_is_external_priority_storage">Spara till SD-kort</string>
     <string name="theme_is_external_priority_storage_summary">Tema-appen kommer starta direkt för att verkställa inställningar.</string>
     <string name="theme_multiple_button_title_customize">Anpassa</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Nej</string>
     <string name="theme_select_others">Bläddra</string>
     <string name="theme_setting">Inställningar</string>
@@ -723,14 +734,14 @@
     <string name="user_agree">Godkänn</string>
     <string name="user_authorization_dialog_agree">Acceptera</string>
     <string name="user_authorization_dialog_disagree">Avsluta</string>
-    <string name="user_authorization_dialog_message">Läs och acceptera vårt &lt;a href=\"%1$s\">Användaravtal&lt;/a> och &lt;a href=\"%2$s\">Integritetspolicy&lt;/a> innan du fortsätter.</string>
-    <string name="user_authorization_dialog_title">Beviljar tillstånd</string>
-    <string name="user_know">Jag förstår</string>
+    <string name="user_authorization_dialog_message">"&lt;Data>Vi behöver samla in nödvändig personlig information för att förse dig med de grundläggande tjänsterna. Du kan lära dig hur vi hanterar den information vi samlar in i vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a>. Läs och acceptera vårt &lt;a href=\"%2$s\">Användaravtal&lt;/a> och &lt;a href=\"%3$s\">Integritetspolicy&lt;/a> innan du använder Teman.
+Du kan när som helst dra tillbaka ditt samtycke till Integritetspolicyn för Teman i Inställningarna.&lt;/Data>"</string>
+    <string name="user_authorization_dialog_title">Regler och villkor</string>
+    <string name="user_know">Uppfattat</string>
     <string name="using_theme_has_update_tips">En uppdatering för detta tema är tillgänglig.</string>
     <string name="using_theme_next_automatic_update">Automatiska uppdateringar</string>
     <string name="using_theme_next_automatic_update_summary">Uppdatera nerladdade teman automatiskt via Wi-Fi när skärmen är låst</string>
     <string name="using_theme_show_ad">Rekommendationer</string>
-    <string name="using_wallpaper_personal">Urval av personliga bakgrundsbilder</string>
     <string name="video_audio_apply_success">Konfigurerad video med ljud lyckades</string>
     <string name="video_data_tips_message">Att använda mobildata kan generera ytterligare avgifter. Fortsätt ändå?</string>
     <string name="video_data_tips_title">Varning för dataanvändning</string>
@@ -739,12 +750,9 @@
     <string name="wallpaper_apply">Tillämpa</string>
     <string name="wallpaper_crop">Urklipp</string>
     <string name="wallpaper_decoded_error">Kan inte ladda bakgrund</string>
+    <string name="wallpaper_desc">Bakgrunder ger din hemskärm en fräsch look.</string>
     <string name="wallpaper_detail_load_page_no_network">Anslut till nätverket och försök igen.</string>
     <string name="wallpaper_might_like">Bakgrunder du kanske gillar</string>
-    <string name="wallpaper_personal_dialog_agree">Anpassa</string>
-    <string name="wallpaper_personal_dialog_content">Använd denna funktion för att se urvalet av bakgrundsbilder anpassade efter dina intressen. Du kan aktivera eller avaktivera denna funktion i inställningarna. Anpassa bakgrundsbilder nu?</string>
-    <string name="wallpaper_personal_dialog_disagree">Nej tack</string>
-    <string name="wallpaper_personal_dialog_title">Anpassa dina bakgrundsbilder</string>
     <string name="wallpaper_scroll_type_tips">Scrolla bland bakgrunderna</string>
     <string name="wallpaper_set_as_both">Bakgrund på Låsskärm och Hemskärm</string>
     <string name="wallpaper_set_as_desktop">Bakgrund på Hemskärm</string>

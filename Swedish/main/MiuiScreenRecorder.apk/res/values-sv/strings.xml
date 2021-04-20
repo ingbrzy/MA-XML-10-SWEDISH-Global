@@ -31,7 +31,10 @@
     <string name="afternoon">Eftermiddag</string>
     <string name="am">F.m</string>
     <string name="app_name">Skärminspelare</string>
+    <string name="app_notification_channel_record_complete">Notifications about finished recordings</string>
     <string name="app_notification_info">Skärminspelaren arbetar i bakgrunden</string>
+    <string name="app_notification_record_complete">"Saved screen recording to Gallery
+Tap to view"</string>
     <string name="app_notification_title">Skärminspelare</string>
     <string name="auto_stop_title">Video sparad</string>
     <string name="battery_not_allowed" formatted="false">Kan inte spela när batterinivån är lägre än 3%. Se till att batterinivån är över 20%.</string>

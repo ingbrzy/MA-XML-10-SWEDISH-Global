@@ -154,6 +154,7 @@ to add cards"</string>
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Traditionell kinesisk kalender</string>
+    <string name="date_time_picker_dialog_title">Ange datum och tid</string>
     <string name="date_week_index">"yyyy 'W'ww"</string>
     <string name="day">Dag</string>
     <string name="deep_light_detection_open_prompt">Your sleep cycle will be analyzed next time you go to bed</string>
@@ -206,7 +207,7 @@ Xiaomi Health skickar bara aviseringar till dig om det är viktigt."</string>
     <string name="dialog_keep">Keep</string>
     <string name="dialog_known">Jag förstår</string>
     <string name="dialog_menstruation_purpose">Välkommen till Xiaomi Health! Med ”Menstruation” kan du registrera menstruationer, fastställa beräknade datum för kommande menstruationer och få påminnelser. Alla relaterade data lagras lokalt på din enhet så att du enkelt ska kunna hantera dem.</string>
-    <string name="dialog_new_version_title">An update is available</string>
+    <string name="dialog_new_version_title">En uppdatering finns tillgänglig</string>
     <string name="dialog_no_more_prompt">Visa inte igen</string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_open">Tillåt</string>
@@ -225,7 +226,7 @@ Xiaomi Health skickar bara aviseringar till dig om det är viktigt."</string>
     <string name="dialog_user_agreement_purpose">Välkommen till Xiaomi Health! Du kan använda den här appen för att räkna steg, registrera sömn, mens, och vikt, såväl som synka din statistik till molnet.</string>
     <string name="dialog_user_agreement_purpose2">Välkommen till Xiaomi Health! Du kan använda denna app för att räkna dina steg, analysera sömn, hålla reda på menstruationscykler, registrera vikt, och mer.</string>
     <string name="disable">Off</string>
-    <string name="discard_update">No thanks</string>
+    <string name="discard_update">Nej tack</string>
     <string name="dream_talk">Talking %1$s</string>
     <string name="dream_talk_record">You were recorded when you talked during in your sleep</string>
     <string name="dream_talk_title">Talking</string>
@@ -325,7 +326,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="feedback_need_permission_msg">Tillåt Xiaomi Health att skriva till extern lagring för att kunna generera loggar som används för feedback.</string>
     <string name="feedback_permission_denied_msg">Xiaomi Health kan inte spara loggar till extern lagring. Ge Xiaomi Health nödvändig behörighet i inställningarna.</string>
     <string name="fewer">Little</string>
-    <string name="find_new_verision">Version %s is available now</string>
+    <string name="find_new_verision">Version %s finns tillgänglig nu</string>
     <string name="finish">Färdig</string>
     <string name="finished_rate">Completed %1$d%%</string>
     <string name="fmt_date_day">dd</string>
@@ -406,7 +407,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="hour">H</string>
     <string name="hour_in_day_format">%1$d</string>
     <string name="hour_in_day_format_short">%1$d</string>
-    <string name="immediately_experience">Update</string>
+    <string name="immediately_experience">Uppdatera</string>
     <string name="improve_step_target">Du når dina mål för ofta. Prova att sätta högre mål.</string>
     <string name="improve_your_health_default_tips">Motionera och få tillräckligt med sömn för att hålla dig i form.</string>
     <string name="inactivated">Not activated</string>
@@ -452,6 +453,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="light_sleep_time_normal_description">You have a sufficient amount of light sleep</string>
     <string name="load_failed">"Couldn't load items. Wait a minute or two and try again."</string>
     <string name="loading">Just a sec…</string>
+    <string name="location_perm_description">För spårning av utomhusträning och inspelning av rutter</string>
     <string name="low">Låg</string>
     <string name="low_intensity">Low</string>
     <string name="low_intensity_description">Normal andningsfrekvens som tillåter dig upprätthålla konversation</string>
@@ -545,10 +547,13 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="miuix_appcompat_cloud_state_syncing">Synkroniserar med molnet…</string>
     <string name="miuix_appcompat_confirm_description">Bekräfta</string>
     <string name="miuix_appcompat_delete_description">Ta bort</string>
+    <string name="miuix_appcompat_deselect_all">Välj ingen</string>
     <string name="miuix_appcompat_deselect_all_description">Välj ingen</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Sök</string>
+    <string name="miuix_appcompat_select_all">Välj alla</string>
     <string name="miuix_appcompat_select_all_description">Välj alla</string>
+    <string name="miuix_appcompat_select_item">Välj objekt</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra nedåt för att uppdatera</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uppdaterat</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Uppdaterar…</string>
@@ -730,6 +735,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="select_null">Inte vald</string>
     <string name="select_recog_question">Välj åtgärd</string>
     <string name="select_swim_posture">Välj stil</string>
+    <string name="send">Skicka</string>
     <string name="setting">Inställningar</string>
     <string name="setting_sedentary_off">AV</string>
     <string name="setting_sedentary_on">PÅ</string>

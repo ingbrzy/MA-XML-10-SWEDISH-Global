@@ -511,6 +511,7 @@ Ett-års och fem-års LPR: er kommer att anföras den 20:e varje månad (fördr�
     <string name="unit_data_display_currency_btn">Bhutanesisk ngultrum</string>
     <string name="unit_data_display_currency_bwp">Botswansk pula</string>
     <string name="unit_data_display_currency_byn">Vitryska rubel</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Kanadensisk dollar</string>
     <string name="unit_data_display_currency_cdf">Kongolesisk franc</string>
     <string name="unit_data_display_currency_chf">Schweiziska franc</string>
@@ -848,8 +849,11 @@ Ett-års och fem-års LPR: er kommer att anföras den 20:e varje månad (fördr�
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Det gick inte ansluta till Nedladdningar. Kontrollera om denna app har alla nödvändiga behörigheter i inställningarna > Installerade appar.</string>
     <string name="xiaomi_external_storage_unavailable">Lagringsutrymmet är inte tillgängligt. Kontrollera ditt SD-kort.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_update_dialog_message">"Introducerar version %1$s
 Size: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerar version %1$s

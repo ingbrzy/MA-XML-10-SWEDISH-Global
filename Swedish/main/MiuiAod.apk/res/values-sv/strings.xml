@@ -34,6 +34,12 @@
     <string name="add_custom_image">Anpassad bild</string>
     <string name="add_from_album">Lägg till från Galleri</string>
     <string name="afternoon">Eftermiddag</string>
+    <string name="align_center_horizontally">Horisontellt och centrerat</string>
+    <string name="align_center_vertically">Staplat och centrerat</string>
+    <string name="align_left_horizontally">Horisontellt och vänsterställt</string>
+    <string name="align_left_vertically">Staplat och vänsterställt</string>
+    <string name="align_right_horizontally">Horisontellt och högerställt</string>
+    <string name="align_right_vertically">Staplat och högerställt</string>
     <string name="align_type">Justera</string>
     <string name="always_style">Alltid</string>
     <string name="always_style_symmary">Förbrukar mer energi</string>
@@ -58,6 +64,7 @@ dd MM"</string>
     <string name="aod_show_date_and_time">Visa datum och tid</string>
     <string name="aod_show_style_title">Visa innehåll</string>
     <string name="aod_style">Tema</string>
+    <string name="aod_theme_store">Skärmteman alltid-på</string>
     <string name="aod_to_close">Avaktivera</string>
     <string name="apply">Verkställ</string>
     <string name="apply_succeed">Tillämpad</string>
@@ -241,7 +248,7 @@ dd MM"</string>
     <string name="select_notification_animation_style">Välj specialeffekt</string>
     <string name="select_notification_notify_style">Välj aviseringseffekt</string>
     <string name="share">Dela</string>
-    <string name="share_to_community">Dela till Mi community</string>
+    <string name="share_to_community">Dela till Mi Community</string>
     <string name="show_battery">Visa batteristatus</string>
     <string name="show_battery_status">Visa batteristatus</string>
     <string name="show_lunar">Visa traditionell kinesisk kalender</string>
@@ -254,10 +261,11 @@ dd MM"</string>
 underbart kommer hända"</string>
     <string name="standard_clock_panel">Standard</string>
     <string name="standard_style">Standard</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Stegräkning tillhandahålls av Xiaomi Health. Acceptera Xiaomi Healths regler och villkor för att fortsätta.</string>
     <string name="step_component_info_desc">Stegräkningen förvandlas till en trofé när ditt mål är uppnått. Stegräkningen tillhandahålls av Xiaomi Health.</string>
     <string name="step_component_info_tip">Stegräkning tillhandahålls av Xiaomi Health. Installera eller uppdatera Xiaomi Health och acceptera dess regler och villkor för att fortsätta.</string>
-    <string name="step_to_image_community">Hitta mer i Mi community</string>
+    <string name="step_to_image_community">Hitta mer i Mi Community</string>
     <string name="summary">För att minska strömförbrukningen kommer objekt inte att visas när din enhet ligger i mörkret en längre tid.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Söndag</string>

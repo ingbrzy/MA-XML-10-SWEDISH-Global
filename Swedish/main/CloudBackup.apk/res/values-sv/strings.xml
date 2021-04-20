@@ -75,6 +75,7 @@ Försök igen"</string>
     <string name="btn_retry">Kolla igen</string>
     <string name="btn_skip">Hoppa över detta steg</string>
     <string name="button_cancel">Avbryt</string>
+    <string name="button_confirm">Uppfattat</string>
     <string name="button_delete">Ta bort</string>
     <string name="button_next">Nästa</string>
     <string name="can_not_backup_in_lite_mode">Det går inte att backa upp i begränsat läge</string>
@@ -178,7 +179,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="expand_button_title">Avancerat</string>
     <string name="get_device_id_error">Kunde inte hämta enhets-ID</string>
     <string name="help_and_feedback">Hjälp och feedback</string>
-    <string name="hint_restore_cross_space">Hemskärmens utseende kan visas felaktigt om överför objekt mellan utrymmena.</string>
     <string name="home_hint_global_launcher">POCO Launcher</string>
     <string name="home_hint_other_launcher">Annan launcher</string>
     <string name="home_restore_error">Kunde inte återställa Hemskärmen</string>
@@ -192,7 +192,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="menu_item_sort">Sortera efter</string>
     <string name="menu_item_sort_name">Namn</string>
     <string name="menu_item_sort_size">Storlek</string>
-    <string name="msg_alert_cancel_restore">Återställer objekt. Avbryt nu?</string>
+    <string name="msg_alert_cancel_restore">Objekt håller på att återställas från Xiaomi Cloud. Avbryt nu?</string>
     <string name="msg_alert_restore_error">Det gick inte att återställa objekt från Xiaomi Cloud. Försök igen.</string>
     <string name="msg_restore_start_with_metered_network">"Din Hemskärm kommer att återställas. Säkerhetskopierade appar kommer laddas ner automatiskt. &lt;br />&lt;b>&lt;font color='red'>%s av filer kommer laddas ner &lt;/font>&lt;/b>"</string>
     <string name="msg_restore_with_metered_network_hint">Om du fortsätter att återställa dessa objekt kommer mobildata användas för att ladda ner.</string>
@@ -206,12 +206,18 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">Slå på och av säkerhetskopiering</string>
     <string name="other_device_main_space">Primära utrymmet</string>
     <string name="other_device_second_space">Sekundära utrymmet</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
+    <string name="pc_mode_not_support_restore_warning">Det går inte att återställa objekt i PC-läge. Stäng av PC-läget och försök igen.</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="process_whole_recovery">Återställer \"%s\"</string>
+    <string name="provision_back">Tillbaka</string>
     <string name="provision_background_restore_more_data">Återställ fler objekt i bakgrunde</string>
     <string name="provision_error_connect_msg">Testa nätverket och försök igen. Säkerhetskopior är inte tillgängliga när enheten är offline.</string>
     <string name="provision_error_connect_title">Kan inte ansluta</string>
+    <string name="provision_next">Nästa</string>
     <string name="provision_restore_data">Återställer objekt</string>
+    <string name="provision_skip_underline">Hoppa över</string>
     <string name="query_restore_description">Återställ appar på Hemskärmen och inställningar genom denna säkerhetskopiering. Detta kommer skriva över data för appar som redan är installerade på denna enhet. Appar som inte ingår i säkerhetskopieringen kommer bli flyttade till den sista Hemskärmen.</string>
     <string name="query_restore_summary">Hitta en Xiaomi Cloud säkerhetskopiering för denna enhet. Vill du återställa apparna på Hemskärmen samt inställningarna, eller vill du använda den som en ny enhet och ta bort gamla Xiaomi Cloud säkerhetskopieringar?</string>
     <string name="recover_home_settings">Återställ inställningar för Hemskärmen</string>
@@ -248,14 +254,14 @@ Kontrollera dina inställningar och försök igen."</string>
     <string name="restore_home_failed">Kunde inte återställa Hemskärmen.</string>
     <string name="restore_home_screen_apps">Återställ från molnets säkerhetskopia</string>
     <string name="restore_init_description">Starta återställning</string>
-    <string name="restore_network_pause">%s (Tryck för att återställa)</string>
+    <string name="restore_network_pause">Pausad för att spara mobildata. Tryck för att återuppta.</string>
     <string name="restore_network_unconnect">%s (Väntar på anslutning)</string>
     <string name="restore_task_cancelling">Avbryter…</string>
     <string name="restore_task_in_process">Återställer…</string>
     <string name="restore_task_unfinished">Det gick inte att återställa</string>
     <string name="restore_unfinished">Återställer, försök igen senare</string>
     <string name="restoring_data">Återställer data…</string>
-    <string name="restoring_file_title_no_progress">Återställer filer…</string>
+    <string name="restoring_file_title_no_progress">Återställer appar…</string>
     <string name="restoring_home_screen_apps">Återställer från Xiaomi Cloud…</string>
     <string name="restoring_settings">Återställer Inställningar…</string>
     <string name="retry">Försök igen</string>

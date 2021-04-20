@@ -183,6 +183,7 @@ Skicka koden till handledaren."</string>
     <string name="expand_button_title">Avancerat</string>
     <string name="facebook">Facebook</string>
     <string name="facebook_app_id">2263965750590514</string>
+    <string name="facebook_login">Logga in med Facebook</string>
     <string name="failed_dup_secure_phone_number">Detta telefonnummer är redan kopplat till ett annat Mi-konto</string>
     <string name="fb_login_protocol_scheme">fb2263965750590514</string>
     <string name="find_device">Hitta enhet</string>
@@ -219,6 +220,7 @@ Skicka koden till handledaren."</string>
     <string name="get_phone_bind_exceed_limit">Du kan associerar upp till 5 Mi-Konton med ett telefonnummer. Kan inte lägga till ett nytt konto.</string>
     <string name="get_phone_verifycode_exceed_limit">För många verifieringskoder har skickats tlll det här numret. Vänta 24 tim och försök igen.</string>
     <string name="google">Google</string>
+    <string name="google_login">Logga in med Google</string>
     <string name="guest_account_label">Mi gästkonto</string>
     <string name="health_action_activate">Aktivera</string>
     <string name="health_action_install">Installera</string>
@@ -384,6 +386,7 @@ Skicka koden till handledaren."</string>
     <string name="passport_login_instead_reg">Använd detta nummer</string>
     <string name="passport_login_instead_reg_with_email">Använd denna E-post</string>
     <string name="passport_login_other_account">Annat konto</string>
+    <string name="passport_login_other_way">Andra sätt att logga in</string>
     <string name="passport_login_prompt">Alla Mi tjänster. Ett Mi-konto.</string>
     <string name="passport_login_recycle_account_no">Nej</string>
     <string name="passport_login_recycle_account_yes">Ja</string>
@@ -401,6 +404,10 @@ Skicka koden till handledaren."</string>
     <string name="passport_prev">Bakåt</string>
     <string name="passport_privacy_policy">Integritetspolicy</string>
     <string name="passport_privacy_policy_required">Integritetspolicy (obligatorisk)</string>
+    <string name="passport_provision_activator_phone_summary_sim1_prefix">SIM <xliff id="sim1" refersto="1">%1$d</xliff> %2$s</string>
+    <string name="passport_provision_activator_phone_summary_sim2_prefix">SIM <xliff id="sim2" refersto="2">%1$d</xliff> %2$s</string>
+    <string name="passport_provision_input_email_register_prompt">Dina personliga data kommer att lagras i enlighet med lagarna och förordningarna i den region du väljer.</string>
+    <string name="passport_provision_password_req_notice"><xliff id="min_pwd_len" refersto="8">%1$d</xliff>-<xliff id="max_pwd_len" refersto="16">%2$d</xliff> tecken av åtminstone <xliff id="min_pwd_type" refersto="2">%3$d</xliff> av följande typer: bokstäver, siffror, specialsymboler</string>
     <string name="passport_pwd_generate_failure">Det gick inte att generera lösenord</string>
     <string name="passport_pwd_generating">Genererar…</string>
     <string name="passport_querying_phone_info">Begär kontoinformation…</string>
@@ -436,6 +443,7 @@ Skicka koden till handledaren."</string>
     <string name="passport_register_restricted_title">Kan inte använda detta nummer</string>
     <string name="passport_register_using_other_ways">Andra sätt att skapa ett konto</string>
     <string name="passport_registered_phone_num">Telefon: %s</string>
+    <string name="passport_registered_phone_num_v2">Telefonnummer</string>
     <string name="passport_registered_phone_user_ID">Användar-ID: %s</string>
     <string name="passport_registered_phone_user_name">Användarnamn: %s</string>
     <string name="passport_reject_recycle_account">Nej</string>
@@ -512,6 +520,9 @@ Skicka koden till handledaren."</string>
     <string name="phone_num_use_for">Telefonnummer används för:</string>
     <string name="photoPickerNotFoundText">Inga bilder tillgängliga.</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
+    <string name="provision_back">Tillbaka</string>
+    <string name="provision_next">Nästa</string>
+    <string name="provision_skip_underline">Hoppa över</string>
     <string name="push_notification_content">Hämta verifieringskod</string>
     <string name="push_notification_title">Du loggade in på ditt Mi konto på en okänd enhet</string>
     <string name="push_notify_dialog_message">En okänd enhet användes för att logga in på ditt Mi-konto. Ange denna verifieringskod på enheten. Om det inte var du, ändra ditt lösenord på ditt Mi-Konto snarast. Ge inte ut verifieringskoden till andra personer.</string>

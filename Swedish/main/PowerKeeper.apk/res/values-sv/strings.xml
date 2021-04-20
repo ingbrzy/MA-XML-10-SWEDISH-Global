@@ -47,7 +47,7 @@
     <string name="config_mode_title">Inställningar för bakgrundsaktivitet</string>
     <string name="config_no_restrict_description">Batterisparfunktionen begränsar inte appaktivitet</string>
     <string name="config_no_restrict_title">Inga restriktioner</string>
-    <string name="config_restrict_function_description">Vissa funktioner (t.ex. push anmälningar) kan påverkas, men apps kommer inte att stängas</string>
+    <string name="config_restrict_function_description">Stäng appar efter 10 minuters bakgrundsaktivitet</string>
     <string name="config_restrict_function_title">Begränsa bakgrundsappar</string>
     <string name="config_restrict_running_description">Appar kommer att stoppas för att spara batteri</string>
     <string name="config_restrict_running_title">Begränsa bakgrundsaktivitet</string>

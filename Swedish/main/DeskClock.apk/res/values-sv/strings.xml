@@ -132,6 +132,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Traditionell kinesisk kalender</string>
+    <string name="date_time_picker_dialog_title">Ange datum och tid</string>
     <string name="day_concat">", "</string>
     <string name="default_alarm_alert">Alarmsignal som standard</string>
     <string name="default_alarm_title">Standardsignal</string>
@@ -283,10 +284,13 @@
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
     <string name="miuix_appcompat_confirm_description">Bekräfta</string>
     <string name="miuix_appcompat_delete_description">Ta bort</string>
+    <string name="miuix_appcompat_deselect_all">Välj ingen</string>
     <string name="miuix_appcompat_deselect_all_description">Välj ingen</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Sök</string>
+    <string name="miuix_appcompat_select_all">Välj alla</string>
     <string name="miuix_appcompat_select_all_description">Välj alla</string>
+    <string name="miuix_appcompat_select_item">Välj objekt</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra nedåt för att uppdatera</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uppdaterat</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Uppdaterar…</string>
@@ -433,6 +437,7 @@
     <string name="search_stopwatch_keywords">Tidtagarur</string>
     <string name="search_timer_keywords">Timer</string>
     <string name="search_worldclock_keywords">Tid; Världsklocka; Klocka</string>
+    <string name="send">Skicka</string>
     <string name="set_alarm">Välj tid</string>
     <string name="set_alarm_choose_ringtone">Välj ringsignal</string>
     <string name="set_alarm_done">Klar</string>
@@ -452,6 +457,7 @@
     <string name="shutdown_alarm_enable_summary">Larmet kommer att utlösas om det konfigureras för minst 10 minuter efter att du stänger av din enhet</string>
     <string name="shutdown_alarm_title">Stänga av Alarm</string>
     <string name="silent_alarm_summary">Tyst</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Stäng av en gång %s</string>
     <string name="sleep_analysis">Statistik</string>
     <string name="sleep_analysis_chart_date_format">dd/MM</string>
@@ -494,6 +500,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Inga varv</string>
     <string name="stopwatch_reset_notification">Tidtagaruret återställdes</string>
     <string name="stopwatch_running_notification">Tidtagarur</string>
@@ -502,6 +509,7 @@
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>
     <string name="sunday_shortest">Sön</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Tillåt denna app att ansluta till internet för att använda alla dess funktioner.</string>
     <string name="system_permission_main_purpose">Visningstid, ställa in alarm och timers, använda stoppklocka</string>
     <string name="system_permission_purpose">Skapa vardagsalarm och ställa in anpassade ringsignaler</string>
@@ -617,8 +625,12 @@
     <string name="user_agreement">Användarvillkor</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
+    <string name="version_update_dialog_negative_desc">Inte nu</string>
+    <string name="version_update_dialog_positive_desc">Uppdatera</string>
+    <string name="version_update_dialog_title">En uppdatering finns tillgänglig</string>
     <string name="vibrate_pref_summary">Vibrera vid alarm</string>
     <string name="vibrate_when_ringing">Vibrera när det ringer</string>
+    <string name="voice_add_alarm">Lägg till alarm med ett röstkommando</string>
     <string name="volume_button_setting_desc">Tilldela funktioner för knapparna Strömknapp och Volym +/-</string>
     <string name="volume_button_setting_summary">Konfigurera volymknapparnas funktion vid alarm</string>
     <string name="volume_button_setting_title">Volymknappar</string>

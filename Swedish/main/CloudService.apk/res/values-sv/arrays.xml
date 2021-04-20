@@ -26,6 +26,18 @@
         <item>Back up important settings, including WLAN and display</item>
         <item>"Lock your device remotely if it's lost"</item>
     </string-array>
+    <string-array name="micloud_entrance_subtitleArray_china_v2">
+        <item>Sync your contacts, messages, notes, calendar, and more</item>
+        <item>Back up apps, Home screen layout, and wallpaper</item>
+        <item>Back up important settings, including WLAN and display</item>
+        <item>"Lock your device remotely if it's lost"</item>
+    </string-array>
+    <string-array name="micloud_entrance_subtitleArray_v2">
+        <item>Synkronisera dina kontakter, meddelande, anteckningar, kalender och mer</item>
+        <item>Säkerhetskopiera appar, utseende på Hemskärmen och bakgrund</item>
+        <item>Säkerhetskopiera viktiga inställningar inklusive Wi-Fi och skärmen</item>
+        <item>Fjärrlås din enhet om den försvinner</item>
+    </string-array>
     <string-array name="micloud_entrance_titleArray">
         <item>Synkronisera appdata</item>
         <item>Säkerhetskopiera Hemskärmens utseende</item>
@@ -95,6 +107,11 @@
         <item>Musik;Moln;Synkronisera;Molntjänster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_notes">
+        <item>Synkronisera noteringar med Xiaomi Cloud</item>
+        <item>Aktivera synkronisering</item>
+        <item>Noteringar;Moln;Synkronisera;Molntjänster;Xiaomi Cloud;Anteckningar</item>
+    </string-array>
+    <string-array name="settings_search_notes_v2">
         <item>Synkronisera noteringar med Xiaomi Cloud</item>
         <item>Aktivera synkronisering</item>
         <item>Noteringar;Moln;Synkronisera;Molntjänster;Xiaomi Cloud;Anteckningar</item>

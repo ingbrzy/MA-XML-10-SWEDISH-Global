@@ -404,6 +404,10 @@ Kontakta administratören om du vill veta mer om certifikatet."</item>
         <item quantity="other">%1$d förslag</item>
         <item quantity="one">1 förslag</item>
     </plurals>
+    <plurals name="switch_headset_anti_lost_summary">
+        <item quantity="other">Få en varning närhelst en av hörlurarna är avlägsnat från ditt öra eller laddningsfodralet längre än %d minuter</item>
+        <item quantity="one">Få en varning närhelst en av hörlurarna är avlägsnat från ditt öra eller laddningsfodralet längre än %d minut</item>
+    </plurals>
     <plurals name="uri_permissions_text">
         <item quantity="other">%d objekt</item>
         <item quantity="one">1 objekt</item>

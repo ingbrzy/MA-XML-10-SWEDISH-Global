@@ -87,6 +87,8 @@
     <string name="already_download_btn">Laddar ner…</string>
     <string name="already_favorited">Redan tillagd i favoriter</string>
     <string name="always_use_metered">Använd alltid mobildata</string>
+    <string name="app_description_content">Music är en system-app som innehåller en ljudspelare och tillåter dig hantera ljudfiler. Du kommer fortfarande kunna spela ljudfiler efter du tagit bort genvägen från Hemskärmen.</string>
+    <string name="app_description_title">Ta bort \"Music\" från Hemskärmen?</string>
     <string name="app_label">Nedladdningar</string>
     <string name="app_permission_confirm">Jag förstår</string>
     <string name="app_permission_optional">Valfria behörigheter</string>
@@ -284,7 +286,9 @@
     <string name="download_method">Ladda ned</string>
     <string name="download_no_application_title">Kan inte öppna filen</string>
     <string name="download_paused_in_power_save_mode">Nerladdningar pausas när Batterisparläge är på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laddar ner…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Nedladdningskvalitet</string>
     <string name="download_quality_summary">Ytterligare inställningar för låtar du laddar ned</string>
     <string name="download_queued">Köad</string>
@@ -372,7 +376,9 @@
     <string name="exo_media_action_repeat_all_description">Upprepa alla</string>
     <string name="exo_media_action_repeat_off_description">Upprepa inga</string>
     <string name="exo_media_action_repeat_one_description">Upprepa en</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativ</string>
     <string name="exo_track_role_closed_captions">Undertexter</string>
     <string name="exo_track_role_commentary">Kommentar</string>
@@ -748,6 +754,7 @@
     <string name="privacy_authorize_revoking">Upphäver tillståndet…</string>
     <string name="privacy_desc">Integritetspolicy (obligatorisk)</string>
     <string name="privacy_policy">Integritetspolicy</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sv_SE</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Musik behöver samla in nödvändig personlig information för att förse dig med online streaming-tjänster. Du kan läsa om hur vi hanterar den information vi samlar in i vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a>. Du kan när som helst dra tillbaka ditt samtycke till Integritetspolicyn för Mi Musik i Inställningarna.
 Läs och acceptera vårt &lt;a href=\"%2$s\">Användaravtal&lt;/a> och &lt;a href=\"%1$s\">Integritetspolicy&lt;/a> innan du använder Mi Musik.
 Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte kunna använda vissa funktioner i denna app; men dess grundläggande funktionalitet kommer fortfarande vara tillgänglig för dig.&lt;/Data>"</string>
@@ -894,6 +901,7 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="start_to_download">Laddar ner…</string>
     <string name="start_to_play">Spela</string>
     <string name="start_update">Installerar ny version…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Lagringsutrymme för Dubbelappar</string>
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
@@ -918,6 +926,7 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="talkback_back">Gå tillbaka</string>
     <string name="talkback_batch_process">Flera objekt</string>
     <string name="talkback_clear">Klar</string>
+    <string name="talkback_cut">Redigera ringsignal</string>
     <string name="talkback_device">Spela på andra enheter</string>
     <string name="talkback_download">Ladda ner</string>
     <string name="talkback_favorite">Gilla den här låten</string>
@@ -990,6 +999,7 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="upload_playlist_to_hungama_title">Synkronisera online-låtar med Hungama för att kunna komma åt dem på andra enheter där du använder ditt Mi-konto.</string>
     <string name="upload_playlist_to_hungama_toast">Online-låtar kommer synkroniseras till Hungarna</string>
     <string name="user_agreement">Användaravtal</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sv_SE</string>
     <string name="user_playlist_plaza">Spellistor</string>
     <string name="user_privacy_dialog_negative_text">Avbryt</string>
     <string name="user_privacy_dialog_positive_count_down_text">Dra tillbaka (%ss)</string>

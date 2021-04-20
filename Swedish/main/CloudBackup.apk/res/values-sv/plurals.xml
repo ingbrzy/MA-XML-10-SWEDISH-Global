@@ -16,8 +16,4 @@
         <item quantity="other">Hög prioritet: %d appar</item>
         <item quantity="one">Hög prioritet: %d app</item>
     </plurals>
-    <plurals name="restoring_file_tile">
-        <item quantity="other">Återställer %d filer</item>
-        <item quantity="one">Återställer %d fil</item>
-    </plurals>
 </resources>

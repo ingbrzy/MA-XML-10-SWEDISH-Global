@@ -97,6 +97,8 @@
     <string name="alert_dialog_download_prepare">Förbereder nedladdning…</string>
     <string name="alert_dialog_download_progress">"Laddar ner app: "</string>
     <string name="all">Visa alla</string>
+    <string name="app_description_content">Mi Video är en system-app som innehåller en lokal videospelare. Du kommer fortfarande kunna spela videofiler efter du tagit bort genvägen från Hemskärmen.</string>
+    <string name="app_description_title">Ta bort \"Mi Video\" från Hemskärmen?</string>
     <string name="app_name">Mi Video</string>
     <string name="auth_again">Acceptera</string>
     <string name="auth_fail_warning">Sessionen löpte ut, logga in igen.</string>
@@ -126,6 +128,7 @@
     <string name="cast_forward">Framåt</string>
     <string name="cast_forward_10">Spola framåt tio sekunder</string>
     <string name="cast_forward_30">Spola framåt trettio sekunder</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">LIVE</string>
     <string name="cast_mute">Stäng av ljudet</string>
     <string name="cast_notification_connected_message">Ansluten till %1$s</string>
@@ -244,11 +247,24 @@
     <string name="diagnosis_log_sent_format">"Loggarna skickade.
 ID:%s
 Skicka koden till handledaren."</string>
+    <string name="dialog_disagree_privacychange_info">Du kommer inte kunna använda Mi Videos online streamingtjänster om du inte accepterar vår Integritetspolicy. Tryck på \"Avbryt\" för att gå tillbaka eller \"Acceptera inte\" för att fortsätta och använda Mi Video endast som en lokal spelare.</string>
+    <string name="dialog_disagree_privacychange_title">Accepterar du inte?</string>
+    <string name="dialog_privacy_change_info">Vi har uppdaterat Integritetspolicyn för Mi Video på grund av justeringarna av de tjänster som vi erbjuder. För att till fullo förstå dina rättigheter som en användare och de sätt på vilka vi använder dina data, läs och acceptera vårt &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a> innan du använder appen.</string>
+    <string name="dialog_privacy_change_title">Uppdatering av Integritetspolicyn</string>
     <string name="dialog_privacy_info_new2">För att kunna använda dessa tjänster måste du godkänna att %1$s kommer att samla in, bearbeta och använda dina personuppgifter. Du anses ha läst och godkänt vår &lt;a href=%2$s>Integritetspolicy&lt;/a> när du trycker på \"Godkänn\" nedan.</string>
     <string name="dialog_privacy_info_new3">För att kunna använda denna tjänst behöver du tillåta %1$s att samla in, behandla, och använda din personliga information i enlighet med Integritetspolicyn. Genom att trycka på Acceptera nedan, så accepterar du Xiaomis &lt;a href=%2$s>Integritetspolicy&lt;/a> och &lt;a href=%3$s>Användaravtal&lt;/a>. &lt;br/>&lt;br/>När du trycker på Acceptera så ger du även Mi Video åtkomst till listan över appar som är installerade på din enhet. Med denna behörighet kommer Mi VIdeo kunna dela objekt, veta om en app är installerad på din enhet, vilken version av en som är installerad, och om en app är säker.</string>
-    <string name="dialog_privacy_title">Tillstånd</string>
+    <string name="dialog_privacy_info_new4">Välkommen till Mi Video! Denna app tillhandahåller följande tjänster:&lt;br>&lt;/br> - Online streamingtjänster&lt;br>&lt;/br>- En lokal videospelare&lt;br>&lt;/br>Mi Video behöver samla in nödvändig personlig information för att förse dig med de grundläggande tjänsterna. Du kan läsa hur vi hanterar den information vi samlar in i vår Integritetspolicy. Du kommer kunna ändra de relaterade inställningarna i Inställningar > Lösenord &amp;amp; säkerhet.&lt;br>&lt;/br>Läs och acceptera vårt &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a> innan du använder Mi Video.</string>
+    <string name="dialog_privacy_revoke_cancel">Avbryt</string>
+    <string name="dialog_privacy_revoke_count_down">Återkallslse (%1$d sek)</string>
+    <string name="dialog_privacy_revoke_description">Genom att växla till av, så drar du tillbaka ditt samtycke till integritetspolicyn för Mi Video. Vi kommer upphöra att samla in din personliga information. De personliga data som redan samlats in och bevaras kommer att raderas inom en specifik period som krav enligt gällande lagar. Ditt tillbakadragande av samtycke till integritetspolicyn kommer hållas som vägran att acceptera online-tjänster baserat på insamlad personlig information.</string>
+    <string name="dialog_privacy_revoke_fail">Din enhet behöver ansluta till nätverket för att du ska kunna dra tillbaka samtycket. Kontrollera dina nätverksinställningar och försök igen.</string>
+    <string name="dialog_privacy_revoke_ok">Dra tillbaka</string>
+    <string name="dialog_privacy_revoke_success">Drog framgångsrikt tillbaka</string>
+    <string name="dialog_privacy_revoking">Drar tillbaka samtycke…</string>
+    <string name="dialog_privacy_title">Regler och villkor</string>
     <string name="dialog_revoke_privacy_info_new2">När du har upphävt befogenhet kommer appen att sluta samla in data och alla relaterade data kommer att tas bort från våra servrar. Detta kan göra appen oanvändbar. Upphäv befogenhet ändå?</string>
     <string name="dialog_revoke_privacy_title">Upphäver befogenhet</string>
+    <string name="disagree">Accepterar inte</string>
     <string name="diy_channels_tips">Nu kan du anpassa listan över dina kanaler.</string>
     <string name="do_not_show_again">Visa inte igen</string>
     <string name="download">Ladda ner</string>
@@ -658,6 +674,7 @@ för videor"</string>
     <string name="next_step">Nästa</string>
     <string name="nick_name">Smeknamn</string>
     <string name="no_account">Inte inloggad</string>
+    <string name="no_history">Inga objekt här</string>
     <string name="no_longer_prompt">Visa inte igen</string>
     <string name="no_more_content">Det är allt för nu</string>
     <string name="no_network_tips">Det går inte att använda den här funktionen nu. Nätverksåtkomst är begränsad.</string>
@@ -685,6 +702,7 @@ för videor"</string>
     <string name="ok">OK</string>
     <string name="on_tip_firework_recommend">Du kommer få personliga innehållsrekommendationer från Firework</string>
     <string name="open_settings">Inställningar</string>
+    <string name="order_alphabet">A-Ö</string>
     <string name="order_recently_subscribe">Senaste prenumerationer</string>
     <string name="order_recently_updated">Nyligen uppdaterade</string>
     <string name="ovp_alert_dialog_download_install_task">Laddar ned HD plug-in…</string>
@@ -1021,6 +1039,8 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="plus_sort_type_time">Tid</string>
     <string name="plus_tab_gallery">Mappar</string>
     <string name="plus_tab_time">Tidslinje</string>
+    <string name="privacy_revoke_setting">Genom att växla till av drar du tillbaka ditt samtycke till integritetspolicyn för Mi Video.</string>
+    <string name="privacy_revoke_title">Återkallelse av ditt samtycke</string>
     <string name="progressbar_title">Skannar efter säkerhetsproblem…</string>
     <string name="psw_hint">Lösenord</string>
     <string name="psw_sign_in">Logga in med lösenord</string>
@@ -1086,6 +1106,8 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="screenrecord_cancel">Kompatibilitetsproblem</string>
     <string name="screenrecord_nosupport_record">Skärminspelare stöds för närvarande inte på denna enhet.</string>
     <string name="search">Sök</string>
+    <string name="search_bar_hint">Sök efter video</string>
+    <string name="search_bar_video_download_hint">Sök eller ange URL</string>
     <string name="search_choose_language">Välj språk</string>
     <string name="search_choose_voice_language">Välj språket som används för röstsökning</string>
     <string name="search_hot_words">Populära</string>
@@ -1116,6 +1138,7 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="sns_sign_in">Andra sätt att logga in på</string>
     <string name="source">"Källa: "</string>
     <string name="start_download_tip">Tillagt i kön. Kontrollera utvecklingen under Profil > Nedladdningar.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kort</string>
     <string name="storage_internal_sdcard">Internt lagringsutrymme</string>
     <string name="submit">Skicka</string>
@@ -1225,7 +1248,19 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="v_txt_login">Logga in för att synkronisera dina favoriter</string>
     <string name="v_update">Uppdatera</string>
     <string name="video_already_download_tip">Du har redan laddat ner detta objekt</string>
+    <string name="video_download_btn">Ladda ned</string>
     <string name="video_download_fail">Kunde inte ladda ner video</string>
+    <string name="video_download_fail_hint">Kunde inte ladda ned</string>
+    <string name="video_download_floating_guide">Ladda ned videor helt gratis</string>
+    <string name="video_download_forbidden">Kan inte ladda ned från denna webbplats</string>
+    <string name="video_download_network_error">Nätverksfel</string>
+    <string name="video_download_play_video_guide">Först, spela videon.</string>
+    <string name="video_download_play_video_guide2">Tryck sedan på knappen för att ladda ned.</string>
+    <string name="video_download_site_search">URL</string>
+    <string name="video_download_source">Webb-nedladdning</string>
+    <string name="video_download_start">Laddar ned…</string>
+    <string name="video_download_storage_error">Inte tillräckligt med lagringsutrymme</string>
+    <string name="video_downloading">Laddar ned…</string>
     <string name="video_live_over">Denna session är över</string>
     <string name="video_noyet_download_tip">Denna video håller fortfarande på att laddas ner</string>
     <string name="video_offline">Detta objekt är inte längre tillgängligt</string>
@@ -1248,4 +1283,12 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="vp_upcoming_title">Nästa</string>
     <string name="wednesday">Onsdag</string>
     <string name="yesterday">Igår</string>
+    <string name="ytb_account">Konton</string>
+    <string name="ytb_author_video">Videor</string>
+    <string name="ytb_login">Logga in</string>
+    <string name="ytb_login_btn">Logga in</string>
+    <string name="ytb_login_hint">Logga in för att visa dina YouTube-prenumerationer</string>
+    <string name="ytb_logout">Logga ut</string>
+    <string name="ytb_play_next">Nästa</string>
+    <string name="ytb_subscribed">Prenumerationer</string>
 </resources>
