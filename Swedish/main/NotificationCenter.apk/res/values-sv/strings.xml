@@ -113,7 +113,6 @@
     <string name="settings_guide_title">Behöver andra inställningar?</string>
     <string name="show_badge_notifications">Notifikationsmärken</string>
     <string name="show_badge_notifications_short">Märken</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statusfält</string>
     <string name="summary_aggregate_default">Reklam och innehållsrelaterade push-notifikationer kommer att grupperas</string>
     <string name="summary_aggregate_home">Push-notifikationer kommer inte att grupperas</string>
