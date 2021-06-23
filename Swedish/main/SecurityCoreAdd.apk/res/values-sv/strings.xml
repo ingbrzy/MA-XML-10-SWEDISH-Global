@@ -279,7 +279,6 @@ Du kan även ladda ner dem separat."</string>
     <string name="notificationTitle">Notifikationspanel genväg</string>
     <string name="notification_from_owner_user">Visa notifikationer från det Primära utrymmet</string>
     <string name="notification_from_second_user">Visa notifikationer från det Sekundära utrymmet</string>
-    <string name="notification_recommend_title">12 rekommenderade appar för Sekundära utrymmet</string>
     <string name="notification_setting_second_space">Sätt sekundär utrymme</string>
     <string name="notification_setting_second_space_desc">Lägg till lösenord för det sekundära utrymmet och flytta data</string>
     <string name="ok_button">OK</string>
@@ -488,10 +487,14 @@ Vissa Dubbelappar kräver support för Google Services Framework. I de fallen sk
     <string name="xspace_disable">Inte skapad</string>
     <string name="xspace_enable">Skapad</string>
     <string name="xspace_facebook_title">Facebook</string>
-    <string name="xspace_guide_des">Använd två konton utan att behöva växla</string>
-    <string name="xspace_guide_title">Skapa en Dubbelapp</string>
+    <string name="xspace_guide_content_bound">Tillgängliga appar</string>
+    <string name="xspace_guide_des">Dubbelappar tillåter dig att använda två konton samtidigt utan att växla mellan dem</string>
+    <string name="xspace_guide_description">"Varje konto
+förtjänar sin egen app"</string>
+    <string name="xspace_guide_title">Prova Dubbelappar</string>
     <string name="xspace_header">Dubbelappar</string>
     <string name="xspace_instagram_title">Instagram</string>
+    <string name="xspace_install_complete">&lt;font>Skapat dubbelapp framgångsrikt. &lt;/font>&lt;font color=#0D84FF>Öppna nu.&lt;/font></string>
     <string name="xspace_install_completed">Ikon tillagd på hemskärmen</string>
     <string name="xspace_install_completed_global">Ikon tillagd i lådan</string>
     <string name="xspace_install_failed">Kunde inte skapa</string>
@@ -500,11 +503,13 @@ Vissa Dubbelappar kräver support för Google Services Framework. I de fallen sk
     <string name="xspace_label">Dubbelappar</string>
     <string name="xspace_loading_msg">Laddar appar…</string>
     <string name="xspace_notification">Dubbelapp-notiser</string>
+    <string name="xspace_notification_button">Prova</string>
     <string name="xspace_notification_error">Logga in på dubbel WeChat och försök igen</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="xspace_remove">Ta bort konton för Dubbelappar</string>
     <string name="xspace_setting_label">Inställningar för Dual App</string>
     <string name="xspace_settins">Konfigurera</string>
+    <string name="xspace_start">Skapa</string>
     <string name="xspace_uninstall_completed">Dubbelapp avinstallerad</string>
     <string name="xspace_uninstall_dialog_content">Avinstallation av Dubbelappen kommer ta bort all applikationsdata.</string>
     <string name="xspace_uninstall_dialog_title">Avinstallera Dubbelapp</string>

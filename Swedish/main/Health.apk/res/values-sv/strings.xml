@@ -52,6 +52,8 @@
     <string name="activity_title_statistic">Stats</string>
     <string name="add_model_card">"Tap the button in the upper left corner
 to add cards"</string>
+    <string name="add_model_card2">"Tap the button above to add cards.
+You'll be able to track your workouts and activity."</string>
     <string name="add_record">Add</string>
     <string name="afternoon">Eftermiddag</string>
     <string name="all_records">Alla poster</string>
@@ -122,6 +124,7 @@ to add cards"</string>
     <string name="close_once">Turn off once</string>
     <string name="collapse">Hide</string>
     <string name="complete_preference_basic_info">Complete your profile</string>
+    <string name="complete_progress">Progress</string>
     <string name="completed">"Completed "</string>
     <string name="copy">Kopiera</string>
     <string name="copy_done">Kopierad</string>
@@ -197,6 +200,7 @@ Xiaomi Health skickar bara aviseringar till dig om det är viktigt."</string>
     <string name="dialog_delete_record_confirm">Delete this record?</string>
     <string name="dialog_exercise_purpose">Välkommen till Xiaomi Health! Med ”Stegräknare” kan du se hur många steg du tar under dagen, samt ställa in och hantera dina aktivitetsmål. Alla relaterade data lagras lokalt på din enhet så att du enkelt ska kunna hantera dem.</string>
     <string name="dialog_exit">Avsluta</string>
+    <string name="dialog_exit_use">Exit</string>
     <string name="dialog_feedback_content">"If you don't agree to grant such permissions, you won't be able to use some features of this app; however, its basic functionality will still be available to you. You can always restrict permissions or revoke your authorization in the Settings."</string>
     <string name="dialog_feedback_purpose">Xiaomi Health behöver få tillgång till lagringen för att kunna skicka feedback.</string>
     <string name="dialog_feedback_purpose2">For submitting feedback</string>
@@ -227,6 +231,8 @@ Xiaomi Health skickar bara aviseringar till dig om det är viktigt."</string>
     <string name="dialog_user_agreement_purpose2">Välkommen till Xiaomi Health! Du kan använda denna app för att räkna dina steg, analysera sömn, hålla reda på menstruationscykler, registrera vikt, och mer.</string>
     <string name="disable">Off</string>
     <string name="discard_update">Nej tack</string>
+    <string name="download_apk">Downloading %s…</string>
+    <string name="download_background">Download</string>
     <string name="dream_talk">Talking %1$s</string>
     <string name="dream_talk_record">You were recorded when you talked during in your sleep</string>
     <string name="dream_talk_title">Talking</string>
@@ -944,6 +950,7 @@ sömndata"</string>
     <string name="tb_mens_mark_success">Marked successfully</string>
     <string name="tb_mens_select_column">Cycle starts on%1$s.%2$s.%3$s.</string>
     <string name="tb_mens_unmark_success">Canceled successfully</string>
+    <string name="tb_step_widget" formatted="false">Today. %1$s. Progress: %2$d%</string>
     <string name="text_edit_exercise_goal">Ändra mål</string>
     <string name="text_save_exercise_goal">Klar</string>
     <string name="the_anniversary_of_lifting_martial_law">Årsdagen för lyftande av undantagstillstånd</string>
@@ -1060,6 +1067,7 @@ Uppdatera nu?"</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="value_error_correct">Redigera registrering</string>
+    <string name="view_step_and_progress">View your current step count</string>
     <string name="voice_remind">"We've increased the volume so you hear the instructions better."</string>
     <string name="walk">Walking</string>
     <string name="wednesday">Onsdag</string>

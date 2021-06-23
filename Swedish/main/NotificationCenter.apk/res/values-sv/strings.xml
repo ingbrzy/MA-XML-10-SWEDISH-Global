@@ -53,6 +53,8 @@
     <string name="feedback_tip_cancel">Notifikationsdata kommer inte att samlas in.</string>
     <string name="feedback_tip_msg">För att gruppera notifikationer mer exakt behöver vi samla in appnamn, notifikationstitel och beskrivning, och tiden för när notifikationen skickades. Skicka in din feedback?</string>
     <string name="feedback_tip_title">Feedback om notifikationskategorier</string>
+    <string name="float_notification_snooze_strategy">Dölj temporärt</string>
+    <string name="float_notification_snooze_summary">Svep upp på en flytande notifikation för att temporärt dölja efterkommande</string>
     <string name="float_notifications">Svävande notifikationer</string>
     <string name="float_notifications_short">Flytande</string>
     <string name="fold_importance_default">Rekommenderat</string>
@@ -77,6 +79,10 @@
     <string name="menu_setting_tip_show_in_home">Notifikationer från %s kommer inte att grupperas</string>
     <string name="menu_setting_tip_unfold">Alla notifikationer från denna app kommer att anses vara viktiga</string>
     <string name="menu_setting_unfold">Viktigt</string>
+    <string name="miui_snooze_always_float">Dölj inte</string>
+    <string name="miui_snooze_cancel">Avbryt</string>
+    <string name="miui_snooze_default_time">Under %d minuter</string>
+    <string name="miui_snooze_until_unlock_screen">Tills låst</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra nedåt för att uppdatera</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uppdaterat</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Uppdaterar…</string>
@@ -96,6 +102,11 @@
     <string name="notification_aggregate_title">Gruppera notifikationer</string>
     <string name="notification_display_setting">Notifikationsskugga</string>
     <string name="notification_display_style">Notifikationsstil</string>
+    <string name="notification_fold_description1">Notifikationsmapp introducerades i MIUI 9. Denna funktion filtrerar oviktiga notifikationer och lägger dem i en egen mapp.</string>
+    <string name="notification_fold_description2">MIUI kommer ihåg vilka notifikationer du har tryckt på och använder sedan fler kriterier för att bestämma om de är viktiga eller inte.</string>
+    <string name="notification_fold_description3">Om notifikationerna som du tycker är viktiga fortfarande finns Notifikationsmappen ser vi gärna att du rapportera det till oss. Vi uppskattar din återkoppling.</string>
+    <string name="notification_fold_footer_icon_summary">Visa appikoner när oviktiga notifikationer är grupperade</string>
+    <string name="notification_fold_footer_icon_title">Visa appikoner</string>
     <string name="notification_fold_summary">Gruppera oviktiga notifikationer automatiskt</string>
     <string name="notification_fold_title">Gruppera notifikationer</string>
     <string name="notification_keyguard_hide_content">Visa notifikationer men dölj innehåll</string>
@@ -113,6 +124,7 @@
     <string name="settings_guide_title">Behöver andra inställningar?</string>
     <string name="show_badge_notifications">Notifikationsmärken</string>
     <string name="show_badge_notifications_short">Märken</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statusfält</string>
     <string name="summary_aggregate_default">Reklam och innehållsrelaterade push-notifikationer kommer att grupperas</string>
     <string name="summary_aggregate_home">Push-notifikationer kommer inte att grupperas</string>

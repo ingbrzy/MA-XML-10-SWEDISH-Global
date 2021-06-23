@@ -244,6 +244,10 @@
         <item quantity="other">%d tillagda</item>
         <item quantity="one">%d tillagd</item>
     </plurals>
+    <plurals name="miui_wifi_wakeup_summary">
+        <item quantity="other">Wi-Fi kommer att aktiveras automatiskt när din enhet upptäcker sparade nätverk i närheten och stängas av efter %d minuter om ingen anslutning etableras</item>
+        <item quantity="one">Wi-Fi kommer att aktiveras automatiskt när din enhet upptäcker sparade nätverk i närheten och stängas av efter %d minut om ingen anslutning etableras</item>
+    </plurals>
     <plurals name="mobile_network_summary_count">
         <item quantity="other">%1$d SIM-kort</item>
         <item quantity="one">%1$d SIM-kort</item>
@@ -389,7 +393,7 @@ Kontakta administratören om du vill veta mer om certifikatet."</item>
         <item quantity="one">Kontrollera certifikatet</item>
     </plurals>
     <plurals name="status_bar_settings_disabled_header_title">
-        <item quantity="other">%d appar får inte visa notifikationer</item>
+        <item quantity="other">%d app får inte visa notifikationer</item>
         <item quantity="one">%d app får inte visa notifikationer</item>
     </plurals>
     <plurals name="status_bar_settings_enabled_header_title">

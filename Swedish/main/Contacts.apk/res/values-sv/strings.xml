@@ -198,6 +198,7 @@
     <string name="clear_default">Rensa standard</string>
     <string name="clear_digits">Ta bort telefonnummer</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
+    <string name="close">Stäng</string>
     <string name="close_dial_pad_description">Stäng knappsats</string>
     <string name="cloud_antispam_mark">Flagga</string>
     <string name="cloud_antispam_marked">Flaggade</string>
@@ -282,6 +283,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Traditionell kinesisk kalender</string>
+    <string name="date_time_picker_dialog_title">Ange datum och tid</string>
     <string name="date_year_toggle">Ange ett år</string>
     <string name="default_ringtone">Standardringsignal</string>
     <string name="deleteCloudConfirmationDetail">Radera kontaktinformationen för %s både från molnet och denna enhet?</string>
@@ -483,6 +485,7 @@ Orsak: \"%s\""</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Namn</string>
     <string name="gallery">Galleri</string>
     <string name="ghostData_company">Företag</string>
@@ -606,6 +609,7 @@ Orsak: \"%s\""</string>
     <string name="menu_sync_remove">Ta bort synk-grupp</string>
     <string name="midnight">Natt</string>
     <string name="miprofile_account_type">Kontaktkort</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Redigera profil</string>
     <string name="miprofile_name">Min profil</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -623,10 +627,13 @@ Orsak: \"%s\""</string>
     <string name="miuix_appcompat_cloud_state_syncing">Synkroniserar med molnet…</string>
     <string name="miuix_appcompat_confirm_description">Bekräfta</string>
     <string name="miuix_appcompat_delete_description">Ta bort</string>
+    <string name="miuix_appcompat_deselect_all">Välj ingen</string>
     <string name="miuix_appcompat_deselect_all_description">Välj ingen</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Sök</string>
+    <string name="miuix_appcompat_select_all">Välj alla</string>
     <string name="miuix_appcompat_select_all_description">Välj alla</string>
+    <string name="miuix_appcompat_select_item">Välj objekt</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra nedåt för att uppdatera</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uppdaterat</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Uppdaterar…</string>
@@ -705,6 +712,7 @@ Orsak: \"%s\""</string>
     <string name="night">Kväll</string>
     <string name="nine_letter">WXYZ</string>
     <string name="noAccounts">För att skapa grupper så behöver du ha ett konto.</string>
+    <string name="no_contact_selected">Välj en kontakt för att visa detaljer</string>
     <string name="no_contacts_dialog_message">Kontakter kan vara lagrade på ditt SIM-kort. Försök att importera dem från ditt SIM-kort till din enhets interna minne och försök sedan igen.</string>
     <string name="no_contacts_dialog_title">Kan inte hitta kontakter</string>
     <string name="no_phone_no_shortcut">Kan inte skapa genvägar för kontakter utan telefonnummer</string>
@@ -734,6 +742,7 @@ Orsak: \"%s\""</string>
     <string name="payphone">Betalnummer</string>
     <string name="people">Kontakter</string>
     <string name="phoneLabelsGroup">Telefon</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Numret är för långt</string>
     <string name="phone_primary">Primär</string>
     <string name="photoPickerNotFoundText">Inga bilder finns tillgängliga på enheten.</string>
@@ -886,6 +895,7 @@ Orsak: \"%s\""</string>
     <string name="select_all">Välj alla</string>
     <string name="select_groups">Välj grupper</string>
     <string name="select_vcard_title">Välj vCard fil</string>
+    <string name="send">Skicka</string>
     <string name="send_contact_shortcut_todesktop_duplicate">Denna genväg finns redan</string>
     <string name="send_contact_shortcut_todesktop_failed">Kunde inte placera genväg på hemskärmen</string>
     <string name="send_contact_shortcut_todesktop_overflow">Kan inte placera fler genvägar på hemskärmen</string>
@@ -937,6 +947,7 @@ Orsak: \"%s\""</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Inga gruppmedlemmar</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Företag</string>
     <string name="smart_group_company_unavailable">Ingen företagsinformation</string>
     <string name="smart_group_frequency_1">Inom den senaste månaden</string>
@@ -978,6 +989,7 @@ Orsak: \"%s\""</string>
     <string name="starred_contacts">Favoriter</string>
     <string name="status_available">Tillgänglig</string>
     <string name="status_away">Borta</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Upptagen</string>
     <string name="strequentList">Favoriter</string>
     <string name="success_message_import_from_account">Kontakt importerad</string>
@@ -991,9 +1003,9 @@ Orsak: \"%s\""</string>
     <string name="t9_search_empty_send_sms">Skicka meddelande</string>
     <string name="t9_search_empty_video_call">Videosamtal</string>
     <string name="t9_search_guide_pinyin_title1">Skriv in nummer för söka kontakt</string>
-    <string name="t9_search_guide_pinyin_title2" formatted="false">Enter \"%d\" and \"%d\" to search for \"ebbie mith\"</string>
+    <string name="t9_search_guide_pinyin_title2" formatted="false">Ange \"%d\"och \"%d\" för att söka efter \"Doris Svensson\"</string>
     <string name="t9_search_guide_zhuyin_title1">Skriv in nummer för söka kontakt</string>
-    <string name="t9_search_guide_zhuyin_title2" formatted="false">Enter \"%d\" and \"%d\" to search for \"eff ax\"</string>
+    <string name="t9_search_guide_zhuyin_title2" formatted="false">Ange \"%d\" och \"%d\" för att söka efter \"Jens Malm\"</string>
     <string name="take_new_photo">Ta en ny bild</string>
     <string name="take_photo">Ta bild</string>
     <string name="the_anniversary_of_lifting_martial_law">Årsdagen för lyftande av undantagstillstånd</string>
@@ -1096,6 +1108,7 @@ Välj en av följande alternativ:"</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
+    <string name="wifi_pad_disable_phone">"Can't make calls on this device"</string>
     <string name="wipe_data">Rensa data</string>
     <string name="yellowPageNavigationLabel">Gula Sidorna</string>
     <string name="yellowpage_address_tag">Adress</string>

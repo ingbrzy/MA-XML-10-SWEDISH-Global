@@ -127,6 +127,7 @@
     <string name="back_confirm">Tryck igen för att skicka appen till bakgrunden</string>
     <string name="bluetooth_device">Bluetooth-enhet</string>
     <string name="btn_text_edit">Redigera</string>
+    <string name="btn_text_view_all">Visa alla</string>
     <string name="buffering">Buffrar…</string>
     <string name="button_cancel_download">Avbryt</string>
     <string name="button_download_now">Ladda ned nu</string>
@@ -286,7 +287,9 @@
     <string name="download_method">Ladda ned</string>
     <string name="download_no_application_title">Kan inte öppna filen</string>
     <string name="download_paused_in_power_save_mode">Nerladdningar pausas när Batterisparläge är på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laddar ner…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Nedladdningskvalitet</string>
     <string name="download_quality_summary">Ytterligare inställningar för låtar du laddar ned</string>
     <string name="download_queued">Köad</string>
@@ -374,7 +377,9 @@
     <string name="exo_media_action_repeat_all_description">Upprepa alla</string>
     <string name="exo_media_action_repeat_off_description">Upprepa inga</string>
     <string name="exo_media_action_repeat_one_description">Upprepa en</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativ</string>
     <string name="exo_track_role_closed_captions">Undertexter</string>
     <string name="exo_track_role_commentary">Kommentar</string>
@@ -396,6 +401,8 @@
     <string name="fail_to_play">Kan inte spela låt</string>
     <string name="failed_not_access_sd_card">Tillåt åtkomst till SD-kortet först</string>
     <string name="failed_obtain_permissions">Det gick inte att ge behörigheter</string>
+    <string name="failed_to_connect_hint">Kontrollera dina nätverksunställningar och försök igen</string>
+    <string name="failed_to_connect_text">Det gick inte att ansluta till nätverket</string>
     <string name="fans">Följare</string>
     <string name="fav_login_msg">Logga in på ditt Mi Account för att ladda ner låtar</string>
     <string name="favorite_canceled">Borttagen från favoriter</string>
@@ -446,6 +453,7 @@
     <string name="high_sound_quality">Hög</string>
     <string name="higher_quality_music">Högkvalitetsljud</string>
     <string name="higher_quality_music_summary">Strömma och ladda ned högre bithastighetsfiler</string>
+    <string name="hint_search_songs_playlists_artists">Söka efter låtar, spellistor och artister</string>
     <string name="home_tab_home">Hem</string>
     <string name="home_tab_local">Min musik</string>
     <string name="home_tab_more_music">Mer musik</string>
@@ -540,6 +548,7 @@
     <string name="loadercontainer_loading">Vänta lite…</string>
     <string name="loading_hint">Vänta lite…</string>
     <string name="loading_reached_the_bottom">Det är allt för nu.</string>
+    <string name="loading_text">Vänta lite…</string>
     <string name="local_header_title">Musik på din enhet</string>
     <string name="local_music">Lokala låtar</string>
     <string name="local_music_is_not_available">Du har inte låtar på din enhet.</string>
@@ -613,6 +622,8 @@
     <string name="my_playlist_create_self_playlist">Skapa spellistor med dina favoritlåtar</string>
     <string name="my_playlist_set_to_private">Gör privat</string>
     <string name="my_playlist_set_to_public">Gör offentlig</string>
+    <string name="nav_app_bar_navigate_up_description">Navigera uppåt</string>
+    <string name="nav_app_bar_open_drawer_description">Öppna navigeringspanelen</string>
     <string name="network_disable">Det gick inte att ansluta till nätverket</string>
     <string name="network_error_and_retry">Det gick inte att ansluta, tryck för att försöka igen</string>
     <string name="network_request_error">Kan inte ansluta till nätverket</string>
@@ -750,13 +761,12 @@
     <string name="privacy_authorize_revoking">Upphäver tillståndet…</string>
     <string name="privacy_desc">Integritetspolicy (obligatorisk)</string>
     <string name="privacy_policy">Integritetspolicy</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sv_SE</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Musik behöver samla in nödvändig personlig information för att förse dig med online streaming-tjänster. Du kan läsa om hur vi hanterar den information vi samlar in i vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a>. Du kan när som helst dra tillbaka ditt samtycke till Integritetspolicyn för Mi Musik i Inställningarna.
 Läs och acceptera vårt &lt;a href=\"%2$s\">Användaravtal&lt;/a> och &lt;a href=\"%1$s\">Integritetspolicy&lt;/a> innan du använder Mi Musik.
 Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte kunna använda vissa funktioner i denna app; men dess grundläggande funktionalitet kommer fortfarande vara tillgänglig för dig.&lt;/Data>"</string>
     <string name="privacy_request_subtitle">"Välkommen till Mi Musik! Denna app tillhandahåller följande tjänster:
-
 -En lokal ljudspelare
-
 - Online streaming-tjänster"</string>
     <string name="privacy_request_title">Regler och villkor</string>
     <string name="pro_member">PRO-medlem</string>
@@ -896,6 +906,7 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="start_to_download">Laddar ner…</string>
     <string name="start_to_play">Spela</string>
     <string name="start_update">Installerar ny version…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Lagringsutrymme för Dubbelappar</string>
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
@@ -993,6 +1004,7 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="upload_playlist_to_hungama_title">Synkronisera online-låtar med Hungama för att kunna komma åt dem på andra enheter där du använder ditt Mi-konto.</string>
     <string name="upload_playlist_to_hungama_toast">Online-låtar kommer synkroniseras till Hungarna</string>
     <string name="user_agreement">Användaravtal</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sv_SE</string>
     <string name="user_playlist_plaza">Spellistor</string>
     <string name="user_privacy_dialog_negative_text">Avbryt</string>
     <string name="user_privacy_dialog_positive_count_down_text">Dra tillbaka (%ss)</string>

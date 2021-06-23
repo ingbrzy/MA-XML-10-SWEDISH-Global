@@ -302,7 +302,7 @@ Tryck på 'Rensa och konvertera…' för att fortsätta."</string>
     <string name="fast_connect_anti_lost_content">"Ställ in en varning som dyker upp när en av dina hörlurar saknas.
 Kolla inställningarna för detaljer."</string>
     <string name="fast_connect_device_battery">Batteri</string>
-    <string name="fast_connect_device_box">Box</string>
+    <string name="fast_connect_device_box">Fodral</string>
     <string name="fast_connect_device_box_name">%1$s Box</string>
     <string name="fast_connect_device_connect_cancel">Avbryt</string>
     <string name="fast_connect_device_connect_ok">Anslut</string>
@@ -311,7 +311,7 @@ Kolla inställningarna för detaljer."</string>
     <string name="fast_connect_device_connect_success">Klar</string>
     <string name="fast_connect_device_headset_l">Vänster</string>
     <string name="fast_connect_device_headset_r">Höger</string>
-    <string name="fast_connect_device_headset_reset">Tryck och håll knappen på boxen</string>
+    <string name="fast_connect_device_headset_reset">Tryck och håll knappen på fodralet</string>
     <string name="fast_connect_device_title_connect_fail">Det gick inte att ansluta %1$s</string>
     <string name="fast_connect_device_title_connecting">Ansluter…</string>
     <string name="fast_connect_device_title_find_headset">Hitta %1$s</string>
@@ -349,6 +349,7 @@ Snabbare anslutningsprotokoll."</string>
     <string name="headset_device_error_box_close">Laddningsfodralet är avstängt</string>
     <string name="headset_device_error_disconnect">Båda hörlurarna nedkopplade. Stäng laddningsfodralet och öppna det igen för att starta om uppdateringen.</string>
     <string name="headset_device_error_failed">Kan inte uppdatera</string>
+    <string name="headset_device_error_multconnect">Kan inte uppdatera när flera enheter är anslutna</string>
     <string name="headset_device_error_no_device">Minst en hörlur saknas från laddningsfodralet</string>
     <string name="headset_device_error_single_device">Kan inte uppdatera en hörlur. Parkoppla igen.</string>
     <string name="headset_device_sync_donot_move_device">Synkar…Vänta tills att synkningen är slutförd innan du använder hörlurarna.</string>

@@ -134,10 +134,10 @@
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Inaktiverad</item>
-        <item>Filtered</item>
+        <item>Filterade</item>
         <item>Aktiverad</item>
-        <item>Headers filtered</item>
-        <item>Media packets filtered</item>
+        <item>Rubriker filtrerade</item>
+        <item>Mediapaket filtrerade</item>
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>Förstärkta färger</item>

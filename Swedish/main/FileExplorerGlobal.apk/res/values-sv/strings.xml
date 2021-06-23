@@ -167,6 +167,7 @@
     <string name="display_name">Visa namn</string>
     <string name="domain">Domän</string>
     <string name="download_success">Nedladdning lyckades</string>
+    <string name="empty_by_forbid_access">Innehållet i denna mapp kan inte visas här på grund av Android 11-begränsningar.</string>
     <string name="enable_documentsui">Aktivera %s i Inställningar > Installerade appar först</string>
     <string name="enable_sd_card">SD-kort är skadat eller frånkopplat</string>
     <string name="enable_usb">USB-enhet är skadad eller frånkopplad</string>
@@ -181,6 +182,7 @@
     <string name="error_create_dir">Det gick inte att skapa mappen</string>
     <string name="error_create_file">Kunde inte skapa filen</string>
     <string name="error_delete_failed">Kunde inte ta bort filen</string>
+    <string name="error_file_already_exists">Filen finns redan.</string>
     <string name="error_filename_too_long">Filnamnet du angav är för långt.</string>
     <string name="error_folder_already_exists">Filen finns redan</string>
     <string name="error_info_cant_send_folder">Kan inte skicka mappar.</string>
@@ -238,6 +240,7 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="favorite_photo">Bilder</string>
     <string name="favorite_ringtone">Ringsignaler</string>
     <string name="favorite_screen_cap">Skärmdumpar</string>
+    <string name="fcm_fallback_notification_channel_label">Diverse</string>
     <string name="feedback_desc">Beskriv problemet som du har stött på</string>
     <string name="feedback_send_email_body_extra_info">Ta inte bort följande info. Det kommer att hjälpa oss hitta problemet.</string>
     <string name="fileSizeSuffix">%1$s %2$s</string>
@@ -269,6 +272,8 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="homepage_tab_recent">Senast</string>
     <string name="host">Värd</string>
     <string name="hot_sticker">Klistermärken</string>
+    <string name="ic_remove_desc">Filhanteraren är en system-app som tillåter dig visa och hantera filer på din enhet. Ta bort ändå?</string>
+    <string name="ic_remove_title">Ta bort “Utforskaren\" från hemskärmen?</string>
     <string name="if_cancel">Avbryt denna funktion?</string>
     <string name="image_loading_error">Det gick inte att ladda bilden</string>
     <string name="implicit">Implicit</string>
@@ -280,7 +285,7 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="info_system">System:</string>
     <string name="info_system_version">Systemversion:</string>
     <string name="invalid_name_or_password">Ogiltligt användarnamn eller lösenord</string>
-    <string name="just_now">just nu</string>
+    <string name="just_now">Just nu</string>
     <string name="kilobyteShort">KB</string>
     <string name="list_order">Listvy</string>
     <string name="load_more">Visa mer</string>
@@ -297,6 +302,7 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="menu_item_deep_clean">Storstädning</string>
     <string name="menu_item_ftp">Anslut till datorn</string>
     <string name="menu_item_midrop">Överföra filer</string>
+    <string name="menu_item_midrop_desc">Fler appar</string>
     <string name="menu_item_router">Router</string>
     <string name="menu_item_sort">Sortera efter</string>
     <string name="menu_item_sort_add_time">"Tillagd i favoriter "</string>
@@ -339,6 +345,13 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="notif_server_starting">Startar FTP-server…</string>
     <string name="notif_title">FTP-servern är igång</string>
     <string name="notification_wechat_expired_empty">WeChat har redan raderat dessa videoklipp.</string>
+    <string name="offline_notification_text">Tryck för att öppna annonsen</string>
+    <string name="offline_notification_title">Se annonsen som du sparade när du var offline</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_confirmation">Du får en avisering med en länk när du är online igen</string>
+    <string name="offline_opt_in_decline">Nej tack</string>
+    <string name="offline_opt_in_message">Vi skickar en avisering med en länk till annonsörens webbplats.</string>
+    <string name="offline_opt_in_title">Öppna annonsen när du är online igen.</string>
     <string name="ok">OK</string>
     <string name="online_not_support">Kunde inte visa denna fil just nu.</string>
     <string name="open">Öppen</string>
@@ -417,7 +430,12 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="port_range">Portnumret måste vara mellan 1024-65535</string>
     <string name="possible_permissions">Valfria behörigheter</string>
     <string name="privacy_accept">Godkänn &amp; fortsätt</string>
-    <string name="privacy_message">Innan du använder filhanteraren måste du godkänna vårt &lt;font color=\"#4086f5\">&lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%1$s&amp;lang=%2$s\" style=\"color:#4086f5;\">Användaravtal&lt;/a>&lt;/font> och vår &lt;font color=\"#4086f5\">&lt;a href=\"https://privacy.mi.com/all/%2$s\" style=\"color:#4086f5;\">Integritetspolicy&lt;/a>&lt;/font>.</string>
+    <string name="privacy_cancel"><u>Acceptera inte</u></string>
+    <string name="privacy_desc">Välkommen till Utforskaren! Förutom de grundläggande funktionerna tillhandahåller denna app även följande tjänster:</string>
+    <string name="privacy_experience_statement">Anslut vårt Användarupplevelseprogram för att dela användardata med oss för att hjälpa oss förbättra våra produkter och tjänster.</string>
+    <string name="privacy_item1">Kategorisera nyligen använda objekt</string>
+    <string name="privacy_item2">Visning och redigering av filer</string>
+    <string name="privacy_message">&lt;Data>Utforskaren behöver samla in nödvändig personlig information för att förse dig med de grundläggande tjänsterna som genererar användningsstatistik. Du kan lära dig hur vi hanterar den information vi samlar in i vår&lt;a href=\"%1$s\">Integritetspolicy&lt;/a>. Läs och acceptera vårt &lt;a href=\"%2$s\">Användaravtal&lt;/a> och &lt;a href=\"%1$s\">Integritetspolicy&lt;/a> innan du använder Utforskaren. Du när som helst dra tillbaka ditt samtycke av Utforskarens Integritetspolicy. Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte kunna använda vissa funktioner i denna app; men dess grundläggande funktionalitet kommer fortfarande vara tillgänglig för dig.&lt;/Data></string>
     <string name="privacy_title">Välkommen till Filhanteraren</string>
     <string name="private_files">Privat</string>
     <string name="private_folder">Privata filer</string>
@@ -430,7 +448,7 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="recommended_content">Rekommendationer</string>
     <string name="remind_no_notice">Kom ihåg mitt val</string>
     <string name="rename_alert">Om du ändrar den här filen anknytning, kan du inte att kunna öppna det.</string>
-    <string name="rename_alert2">Filen kommer döljas efter att du ändra omfånget.</string>
+    <string name="rename_alert2">Filer med namn som börjar på \".\" döljs automatiskt av systemet. Använd detta namn ändå?</string>
     <string name="rename_failed">Det gick inte ändra namn %1$s</string>
     <string name="repair_done">Återställd</string>
     <string name="repair_error">Det gick inte att återställa. Försök igen.</string>
@@ -440,9 +458,16 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="restoring">Återställer…</string>
     <string name="revoke">Återkalla</string>
     <string name="revoke_authorization">Upphäv tillstånd</string>
+    <string name="revoke_confirm_dialog_cancel">Avbryt</string>
+    <string name="revoke_confirm_dialog_content">Genom att växla till av, så drar du tillbaka ditt samtycke till integritetspolicyn för Filhanteraren. Vi kommer upphöra att samla in din personliga information. De personliga data som redan samlats in och bevaras kommer att raderas inom en specifik period som krav enligt gällande lagar. Filhanteraren behöver samla in nödvändig personlig information för att förbättra dess tjänster. Ditt tillbakadragande av dess integritetspolicy kommer hållas som vägran att acceptera förbättrade tjänster baserat på insamlade personliga data.</string>
+    <string name="revoke_desc">Genom att växla till av drar du tillbaka ditt samtycke till integritetspolicyn för Filhanteraren.</string>
+    <string name="revoke_net_dialog_content">Din enhet behöver ansluta till nätverket för att du ska kunna dra tillbaka samtycket. Kontrollera dina nätverksinställningar och försök igen.</string>
+    <string name="revoke_net_dialog_ok">Jag förstår</string>
+    <string name="revoke_net_dialog_title">Kan inte ansluta till nätverket</string>
     <string name="revoke_success">Tillstånd upphävt</string>
     <string name="revoke_timer">(%1$ds)</string>
     <string name="revoke_tips">När du upphäver tillstånd kommer Filhanteraren sluta samla in data och all relaterad data kommer tas bort från servrarna. Detta kan göra Filhanteraren i stort sett oanvändbar. Upphäv tillstånd ändå?</string>
+    <string name="revoke_title">Återkallelse av ditt samtycke</string>
     <string name="revoking">Återkallar tillstånd…</string>
     <string name="rlv_last_refreshing_time">Updaterad %1$s</string>
     <string name="rlv_loading_more">Vänta en stund…</string>
@@ -522,6 +547,7 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="time_pm">PM</string>
     <string name="time_to_upgrade">En uppdatering finns tillgänglig</string>
     <string name="tip">Uppmärksamma</string>
+    <string name="tips_by_forbid_access">Innehållet i denna mapp kommer inte längre vara tillgängligt på grund av systemrestriktioner introducerade i Android R. Ta bort dina personliga filer från denna mapp så snart som möjligt.</string>
     <string name="title_app_tags">Appar</string>
     <string name="title_enable_documentsui">Aktivera DocumentsUI</string>
     <string name="title_expire_video">På väg att löpa ut</string>
@@ -541,12 +567,15 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="update_use_mobile_data">Uppdatera automatiskt med hjälp av mobildata</string>
     <string name="usb_has_removed">USB-enheten togs bort</string>
     <string name="used">Använt</string>
+    <string name="user_experience_desc">Dela användardata med oss för att hjälpa oss förbättra våra produkter och tjänster</string>
+    <string name="user_experience_title">Program för Användarupplevelse</string>
     <string name="user_not_login">Logga in först</string>
     <string name="user_notice_privacy_policy">Integritetspolicy</string>
     <string name="user_notice_term_of_service">Användaravtalet</string>
     <string name="utf8_summary">System FTP-standardkodning</string>
     <string name="version_name">Version</string>
     <string name="video_replay_btn">Spela igen</string>
+    <string name="view_by_document">Visa i Filer</string>
     <string name="wechat_video">Video vid %s</string>
     <string name="wifi_state">Wi-Fi-status</string>
     <string name="year_month_day_format">dd MMM, yyyy</string>

@@ -261,6 +261,7 @@ dd MM"</string>
 underbart kommer hända"</string>
     <string name="standard_clock_panel">Standard</string>
     <string name="standard_style">Standard</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Stegräkning tillhandahålls av Xiaomi Health. Acceptera Xiaomi Healths regler och villkor för att fortsätta.</string>
     <string name="step_component_info_desc">Stegräkningen förvandlas till en trofé när ditt mål är uppnått. Stegräkningen tillhandahålls av Xiaomi Health.</string>
     <string name="step_component_info_tip">Stegräkning tillhandahålls av Xiaomi Health. Installera eller uppdatera Xiaomi Health och acceptera dess regler och villkor för att fortsätta.</string>

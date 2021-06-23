@@ -17,15 +17,6 @@
         <item>3 processer som mest</item>
         <item>4 processer som mest</item>
     </string-array>
-    <string-array name="aqi_title">
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-    </string-array>
     <string-array name="battery_labels">
         <item>0%</item>
         <item>50%</item>
@@ -33,8 +24,8 @@
     </string-array>
     <string-array name="battery_options">
         <item>Visa alltid procent</item>
-        <item>Visa procent vid laddning (standard)</item>
-        <item>Visa inte denna ikon</item>
+        <item>Visa procent under laddning (standard)</item>
+        <item>Visa inte den här ikonen</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
         <item>Använd Systemets inställning (Standard)</item>
@@ -142,15 +133,15 @@
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Inaktiverad</item>
-        <item>Filtered</item>
+        <item>Filterade</item>
         <item>Aktiverad</item>
-        <item>Headers filtered</item>
-        <item>Media packets filtered</item>
+        <item>Rubriker filtrerade</item>
+        <item>Mediapaket filtrerade</item>
     </string-array>
     <string-array name="clock_options">
         <item>Visa timmar, minuter och sekunder</item>
         <item>Visa timmar och minuter (standard)</item>
-        <item>Visa inte denna ikon</item>
+        <item>Visa inte den här ikonen</item>
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>Förstärkta färger</item>
@@ -162,8 +153,6 @@
         <item>Naturlig</item>
         <item>Standard</item>
     </string-array>
-    <array name="data_type_name_mcc_mnc_key" />
-    <array name="data_type_name_mcc_mnc_value" />
     <string-array name="debug_hw_overdraw_entries">
         <item>Av</item>
         <item>Visa övertrasserade områden</item>
@@ -185,24 +174,21 @@
         <item>Sök endast efter DRM-innehåll</item>
         <item>Kontrollera alltid</item>
     </string-array>
-    <string-array name="miui_volume_timer_segments_title">
-        <item>Av</item>
-        <item>30 minuter</item>
-        <item>1 timme</item>
-        <item>2 timmar</item>
-        <item>8 timmar</item>
+    <string-array name="miui_notification_aggregate_category">
+        <item>Detta är rekommenderat innehåll.</item>
+        <item>Detta är en annons.</item>
     </string-array>
     <string-array name="nav_bar_buttons">
         <item>Urklipp</item>
-        <item>Konfigurera knappar</item>
-        <item>Byt tangentbord</item>
+        <item>Tangentkod</item>
+        <item>Bekräfta rotation, byt mellan meny/tangentbord</item>
         <item>Ingen</item>
     </string-array>
     <string-array name="nav_bar_layouts">
         <item>Normal</item>
         <item>Kompakt</item>
-        <item>Vänsterlutad</item>
-        <item>Högerlutad</item>
+        <item>Lutande åt vänster</item>
+        <item>Lutande åt höger</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
         <item>Ingen</item>
@@ -218,7 +204,6 @@
         <item>4K (uppskalad, säker)</item>
         <item>720p, 1080p (dubbla skärmar)</item>
     </string-array>
-    <array name="recents_blacklist_array" />
     <string-array name="select_logd_size_lowram_titles">
         <item>Av</item>
         <item>64 KB</item>
@@ -301,35 +286,6 @@
         <item>RNDIS (USB Ethernet)</item>
         <item>Ljudkälla</item>
         <item>MIDI</item>
-    </string-array>
-    <string-array name="weather_type">
-        <item>Klart</item>
-        <item>Molnigt</item>
-        <item>Mulet</item>
-        <item>Dimmigt</item>
-        <item>Kraftig regnstorm</item>
-        <item>Skyfall</item>
-        <item>Regnstorm</item>
-        <item>Åskväder</item>
-        <item>Skur</item>
-        <item>Kraftigt regn</item>
-        <item>Måttligt regn</item>
-        <item>Duggregn</item>
-        <item>Snöblandat regn</item>
-        <item>Snöstorm</item>
-        <item>Snö</item>
-        <item>Kraftig snö</item>
-        <item>Måttligt snö</item>
-        <item>Lätt snö</item>
-        <item>Kraftig sandstorm</item>
-        <item>Sandstorm</item>
-        <item>Sand</item>
-        <item>Blåsigt</item>
-        <item>Hagel</item>
-        <item>Damm</item>
-        <item>Dis</item>
-        <item>Nedkylt regn</item>
-        <item></item>
     </string-array>
     <string-array name="wifi_status">
         <item></item>

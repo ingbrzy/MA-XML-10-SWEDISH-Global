@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="accessibility_recent_task_enter">
-        <item quantity="other">Nyligen öppnade, tillgängliga appar: %d.</item>
-        <item quantity="one">Nyligen öppnade, tillgänglig app: %d.</item>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d dagar sedan</item>
+        <item quantity="one">%d dag sedan</item>
     </plurals>
-    <plurals name="accessibility_recent_task_first_enter_tips">
-        <item quantity="other">Nyligen öppnade, tillgänglig appar: %d. Dra upp för att ta bort genom att dra nedåt för att låsa.</item>
-        <item quantity="one">Nyligen öppnade, tillgänglig app: %d. Dra uppåt för att ta bort genom att dra nedåt för att låsa.</item>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d minuter sedan</item>
+        <item quantity="one">%d minut sedan</item>
     </plurals>
-    <plurals name="auto_disconnect_timer_tip">
-        <item quantity="other">Lägger på om %1$d sekunder</item>
-        <item quantity="one">Lägger på om %1$d sekund</item>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d år sedan</item>
+        <item quantity="one">%d år sedan</item>
     </plurals>
-    <plurals name="fold_tips_title">
-        <item quantity="other">%d oviktiga notifikationer</item>
-        <item quantity="one">%d oviktig notifikation</item>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s kontroller har lagts till.</item>
+        <item quantity="one">%s kontroll har lagts till.</item>
     </plurals>
     <plurals name="incorrect_pincode_remaining_attempts">
         <item quantity="other">Felaktig PIN-kod, %d försök återstår</item>
@@ -45,7 +45,7 @@
         <item quantity="one">"Ungefär %1$d h %2$d  minuter kvar"</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_hour_time_format">
-        <item quantity="other">"%d  timmar"</item>
+        <item quantity="other">"%d  timme"</item>
         <item quantity="one">"%d  timme"</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_min_time_format">
@@ -53,7 +53,7 @@
         <item quantity="one">"%d  minut"</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_time_format">
-        <item quantity="other">"%1$d  timmar %2$d  minuter"</item>
+        <item quantity="other">"%1$d  timme %2$d  minut"</item>
         <item quantity="one">"%1$d  timme %2$d  minut"</item>
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
@@ -69,52 +69,44 @@
         <item quantity="one">Återstår %1$d h %2$d m</item>
     </plurals>
     <plurals name="kg_password_default_pin_message">
-        <item quantity="other">Ange SIM-PIN. %d försök återstår.</item>
-        <item quantity="one">Ange SIM-PIN. %d försök återstår innan du måste kontakta din operatör för att låsa upp din enhet.</item>
+        <item quantity="other">Ange pinkod för SIM-kortet. %d försök återstår.</item>
+        <item quantity="one">Ange pinkod för SIM-kortet. %d försök återstår innan du måste kontakta operatören för att låsa upp enheten.</item>
     </plurals>
     <plurals name="kg_password_default_puk_message">
-        <item quantity="other">SIM-kortet är nu inaktiverat. Ange PUK-koden för att fortsätta. Du har %d återstående försök innan SIM-kortet blir permanent oanvändbart. Kontakta din operatör för detaljer.</item>
-        <item quantity="one">SIM-kortet är nu inaktiverat. Ange PUK-koden för att fortsätta. Du har %d återstående försök innan SIM-kortet blir permanent oanvändbart. Kontakta din operatör för detaljer.</item>
+        <item quantity="other">SIM-kortet är inaktiverat. Ange PUK-koden om du vill fortsätta. %d försök återstår innan SIM-kortet blir obrukbart. Kontakta operatören för mer information.</item>
+        <item quantity="one">SIM-kortet är inaktiverat. Ange PUK-koden om du vill fortsätta. %d försök återstår innan SIM-kortet blir obrukbart. Kontakta operatören för mer information.</item>
     </plurals>
     <plurals name="kg_password_wrong_pin_code">
-        <item quantity="other">Felaktig PIN-kod till SIM-kortet. %d försök återstår.</item>
-        <item quantity="one">Felaktig PIN-kod till SIM-kortet. %d försök återstår innan du måste kontakta din operatör för att låsa upp din enhet.</item>
+        <item quantity="other">Du angav fel pinkod för SIM-kortet. %d försök återstår.</item>
+        <item quantity="one">Du angav fel pinkod för SIM-kortet. %d försök återstår innan du måste kontakta operatören för att låsa upp enheten.</item>
     </plurals>
     <plurals name="kg_password_wrong_puk_code">
-        <item quantity="other">Felaktig PUK-kod till SIM-kortet, du har %d återstående försök innan SIM-kortet blir permanent oanvändbart.</item>
-        <item quantity="one">Felaktig PUK-kod till SIM-kortet. %d försök återstår innan SIM-kortet blir permanent oanvändbart.</item>
+        <item quantity="other">Du angav fel PUK-kod för SIM-kortet. %d försök återstår innan SIM-kortet blir obrukbart.</item>
+        <item quantity="one">Du angav fel PUK-kod för SIM-kortet. %d försök återstår innan SIM-kortet blir obrukbart.</item>
     </plurals>
     <plurals name="kg_prompt_reason_time_password">
-        <item quantity="other">Enheten har inte låsts upp på %d timmar. Bekräfta lösenord.</item>
-        <item quantity="one">Enheten har inte låsts upp på %d timme. Bekräfta lösenord.</item>
+        <item quantity="other">Enheten har inte låsts upp på %d timmar. Bekräfta lösenordet.</item>
+        <item quantity="one">Enheten har inte låsts upp på %d timme. Bekräfta lösenordet.</item>
     </plurals>
     <plurals name="kg_prompt_reason_time_pattern">
-        <item quantity="other">Enheten har inte låsts upp på %d timmar. Bekräfta mönster.</item>
-        <item quantity="one">Enheten har inte låsts upp på %d timme. Bekräfta mönster.</item>
+        <item quantity="other">Enheten har inte låsts upp på %d timmar. Bekräfta det grafiska lösenordet.</item>
+        <item quantity="one">Enheten har inte låsts upp på %d timme. Bekräfta det grafiska lösenordet.</item>
     </plurals>
     <plurals name="kg_prompt_reason_time_pin">
-        <item quantity="other">Enheten har inte låsts upp på %d timmar. Bekräfta PIN-kod.</item>
-        <item quantity="one">Enheten har inte låsts upp på %d timme. Bekräfta PIN-kod.</item>
+        <item quantity="other">Enheten har inte låsts upp på %d timmar. Bekräfta pinkoden.</item>
+        <item quantity="one">Enheten har inte låsts upp på %d timme. Bekräfta pinkoden.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Försök igen om %d sekunder.</item>
+        <item quantity="one">Försök igen om 1 sekund.</item>
     </plurals>
     <plurals name="new_notifications_msg">
         <item quantity="other">%d ny notifikation</item>
         <item quantity="one">%d ny notifikation</item>
     </plurals>
-    <plurals name="notification_channels_list_desc_2_and_others">
-        <item quantity="other">%1$s, %2$s, och %3$d andra</item>
-        <item quantity="one">%1$s, %2$s, och %3$d andra</item>
-    </plurals>
     <plurals name="notification_group_overflow_description">
-        <item quantity="other">%s notifikationer till finns i gruppen.</item>
-        <item quantity="one">%s till notifikation finns i gruppen.</item>
-    </plurals>
-    <plurals name="notification_num_channels">
-        <item quantity="other">%d notifikationskategorier</item>
-        <item quantity="one">%d notifikationskategori</item>
-    </plurals>
-    <plurals name="notification_num_channels_desc">
-        <item quantity="other">1 utav %d notifikationskategorier för denna app</item>
-        <item quantity="one">1 utav %d notifikationskategori för denna app</item>
+        <item quantity="other">%s fler aviseringar i gruppen.</item>
+        <item quantity="one">%s till avisering i gruppen.</item>
     </plurals>
     <plurals name="phone_locked_timeout_minutes_string">
         <item quantity="other">Försök igen om %d minuter</item>
@@ -124,17 +116,21 @@
         <item quantity="other">Försök igen om %d sekunder</item>
         <item quantity="one">Försök igen om %d sekund</item>
     </plurals>
-    <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d snabbknappar över detta streck är aktiva</item>
-        <item quantity="one">%1$d snabbknapp över detta streck är aktiv</item>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d enheter</item>
+        <item quantity="one">%d enhet</item>
     </plurals>
-    <plurals name="status_bar_accessibility_recent_apps">
-        <item quantity="other">%d skärmar i Översikten</item>
-        <item quantity="one">1 skärm i Översikten</item>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d timmar</item>
+        <item quantity="one">%d timme</item>
     </plurals>
-    <plurals name="view_realtime_clear">
-        <item quantity="other">Klart</item>
-        <item quantity="one">Klart</item>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minuter</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Det går att lägga till upp till %d användare.</item>
+        <item quantity="one">Det går bara att skapa en användare.</item>
     </plurals>
     <plurals name="wifi_tether_connected_summary">
         <item quantity="other">%1$d enheter anslutna</item>

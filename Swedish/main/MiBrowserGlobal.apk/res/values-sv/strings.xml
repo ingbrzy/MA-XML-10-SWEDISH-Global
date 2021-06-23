@@ -1301,8 +1301,6 @@ Lämna denna sida nu?"</string>
     <string name="passport_wrong_vcode">Koden du angav är felaktig</string>
     <string name="passport_wrong_voice">Koden du angav är felaktig</string>
     <string name="password">Lösenord</string>
-    <string name="pay_failed_toast">Kunde inte genomföra betalningen</string>
-    <string name="pay_success_toast">Betalning genomförd</string>
     <string name="per_month">Per månad</string>
     <string name="permission_agree_service">Jag har läst och godkänt alla följande regler och villkor.</string>
     <string name="permission_alert_window">För att kunna använda den här funktionen måste du tillåta visning av popup-fönster i Inställningarna.</string>

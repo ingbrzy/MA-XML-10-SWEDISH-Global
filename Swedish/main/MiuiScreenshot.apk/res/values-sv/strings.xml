@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Visa startsidan</string>
+    <string name="abc_action_bar_up_description">Navigera uppåt</string>
+    <string name="abc_action_menu_overflow_description">Fler alternativ</string>
+    <string name="abc_action_mode_done">Klart</string>
+    <string name="abc_activity_chooser_view_see_all">Visa alla</string>
+    <string name="abc_activitychooserview_choose_application">Välj en app</string>
+    <string name="abc_capital_off">AV</string>
+    <string name="abc_capital_on">PÅ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt + </string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl + </string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">retur</string>
+    <string name="abc_menu_function_shortcut_label">Funktion + </string>
+    <string name="abc_menu_meta_shortcut_label">Meta + </string>
+    <string name="abc_menu_shift_shortcut_label">Skift + </string>
+    <string name="abc_menu_space_shortcut_label">blanksteg</string>
+    <string name="abc_menu_sym_shortcut_label">Symbol + </string>
+    <string name="abc_prepend_shortcut_label">Meny + </string>
+    <string name="abc_search_hint">Sök …</string>
+    <string name="abc_searchview_description_clear">Ta bort frågan</string>
+    <string name="abc_searchview_description_query">Sökfråga</string>
+    <string name="abc_searchview_description_search">Sök</string>
+    <string name="abc_searchview_description_submit">Skicka fråga</string>
+    <string name="abc_searchview_description_voice">Röstsökning</string>
+    <string name="abc_shareactionprovider_share_with">Dela med</string>
+    <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
+    <string name="abc_toolbar_collapse_description">Komprimera</string>
+    <string name="app_name">Skärmdump</string>
+    <string name="long_screenshot_guide_text">"Klicka för att göra
+en skrollnings-skärmdump"</string>
+    <string name="long_screenshot_out_of_memory_error">Bilden är för stor</string>
+    <string name="long_screenshot_processing">Berarbetar…</string>
+    <string name="long_screenshot_stop">Klar</string>
+    <string name="long_screenshot_top_msg">Skapar skärmbild…</string>
+    <string name="long_screenshot_top_msg_manual">Beskär skärmdumpen och tryck på knappen för att avsluta</string>
+    <string name="partial_screenshot_edit">Redigera</string>
+    <string name="partial_screenshot_repaint">Börja om</string>
+    <string name="partial_screenshot_save">Spara</string>
+    <string name="partial_screenshot_save_successful">Sparad</string>
+    <string name="partial_screenshot_share">Dela</string>
+    <string name="screenshot_edit">Redigera</string>
+    <string name="screenshot_failed_in_landscape_mode">Kan inte göra scrollande skärmdumpar i landskapsläge</string>
+    <string name="screenshot_failed_to_capture_title">Denna app tillåter inte att ta skärmdumpar</string>
+    <string name="screenshot_failed_to_save_title">Det gick inte att spara. Inte tillräckligt med lagringsutrymme.</string>
+    <string name="screenshot_feedback_txt">Feedback</string>
+    <string name="screenshot_insert_failed">Kunde inte ladda skärmdumpen. Ta en ny eller visa bilden i Galleri.</string>
+    <string name="screenshot_long_screenshot">Scrolla</string>
+    <string name="screenshot_send">Skicka</string>
+    <string name="search_menu_title">Sök</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

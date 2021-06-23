@@ -60,6 +60,10 @@
         <item quantity="other">Nyss</item>
         <item quantity="one">Nyss</item>
     </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d objekt valda</item>
+        <item quantity="one">%d objekt vald</item>
+    </plurals>
     <plurals name="net_booster_expire_notification_tip">
         <item quantity="other">%d dagar kvarstår innan sessionen med ökad hastighet på nätverket avslutas. Förnya sessionen för att undvika hastighetsproblem i nätverket.</item>
         <item quantity="one">%d dag kvarstår innan sessionen med ökad hastighet på nätverket avslutas. Förnya sessionen för att undvika hastighetsproblem i nätverket.</item>

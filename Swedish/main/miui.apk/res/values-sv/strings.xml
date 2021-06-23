@@ -113,6 +113,7 @@
     <string name="clearable_edittext_clear_description">Rensa</string>
     <string name="click_to_restore">Återställ systemobjekt för att kunna använda MIUI normalt efter en fabriksåterställning. Tryck för att starta.</string>
     <string name="com_android_email">E-post</string>
+    <string name="com_android_soundrecorder">Diktafon</string>
     <string name="com_mi_liveassistant">Live streaming-assistent</string>
     <string name="com_miui_calculator">Kalkylator</string>
     <string name="com_miui_cleanmaster">Rensare</string>
@@ -121,12 +122,14 @@
     <string name="com_miui_huanji">Mi Mover</string>
     <string name="com_miui_notes">Anteckningar</string>
     <string name="com_miui_screenrecorder">Skärminspelare</string>
+    <string name="com_miui_virtualsim">Mi Roaming</string>
     <string name="com_miui_weather2">Väder</string>
     <string name="com_xiaomi_drivemode">Billäge</string>
     <string name="com_xiaomi_gamecenter">Spel</string>
     <string name="com_xiaomi_jr">Mi Finance</string>
     <string name="com_xiaomi_scanner">Scanner</string>
     <string name="com_xiaomi_shop">Mi Store</string>
+    <string name="com_xiaomi_vipaccount">Mi Community</string>
     <string name="com_xiaomi_youpin">Youpin</string>
     <string name="confirm_description">Bekräfta</string>
     <string name="country_name_ac">AC</string>
@@ -381,6 +384,7 @@
     <string name="earthly_branches_you">酉</string>
     <string name="earthly_branches_zi">子</string>
     <string name="email">E-post</string>
+    <string name="empty" />
     <string name="eras_ad">AD</string>
     <string name="eras_bc">BC</string>
     <string name="error_forbidden">Synkroniseringen har stängts av på grund av problem med ditt Mi Account.</string>
@@ -388,6 +392,7 @@
     <string name="error_title">Kunde inte synkronisera</string>
     <string name="error_unauthorized">Synkroniseringen har stängts av på grund av för många inloggningsförsök.</string>
     <string name="evening">PM</string>
+    <string name="experience_new_system_app">Kolla in de nya funktionerna!</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -533,6 +538,7 @@
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="solar_term_autumn_begins">Autumn Begins</string>
     <string name="solar_term_autumn_equinox">Autumn Equinox</string>
@@ -567,6 +573,7 @@
     <string name="system_app_restore_failed">Ett fel uppstod</string>
     <string name="system_app_restore_failed_detail">Kunde inte återställa systemobjekten. Kontrollera dina nätverksinställningar och starta inte om eller stäng av din enhet innan objekten är helt återställda. Tryck på knappen nedan för att försöka igen.</string>
     <string name="system_restore">Återställ objekt</string>
+    <string name="tap_to_update_system_app">Tryck för att uppdatera systemappar</string>
     <string name="the_anniversary_of_lifting_martial_law">Anniversary of Lifting Martial Law</string>
     <string name="the_anti_aggression_day">Anti-aggression Day</string>
     <string name="the_arbor_day">Arbor Day</string>
@@ -618,6 +625,7 @@
     <string name="tuesday">Tisdag</string>
     <string name="tuesday_short">Tis</string>
     <string name="tuesday_shortest">T</string>
+    <string name="wait_for_wlan_china">Vänta på Wi-Fi</string>
     <string name="web_sso_login_fail">Du måste logga in igen</string>
     <string name="web_sso_login_message">Loggar in…</string>
     <string name="website">Hemsida</string>

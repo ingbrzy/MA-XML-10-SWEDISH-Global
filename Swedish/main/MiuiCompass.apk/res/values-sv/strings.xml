@@ -85,6 +85,7 @@
     <string name="evening">Eftermiddag</string>
     <string name="expand_button_title">Avancerat</string>
     <string name="first_using_dialog_message">Kompass behöver använda din enhets nätverksanslutning, kamera, och platstjänster för att fungera normalt.</string>
+    <string name="first_using_dialog_message_no_camera">Compass behöver ansluta till internet och få åtkomst till platsinfo för att kunna fungera normalt. Godkänn?</string>
     <string name="first_using_dialog_title">Ge behörighet</string>
     <string name="fmt_date_day">dd</string>
     <string name="fmt_date_long_month">MMMM</string>
@@ -209,6 +210,7 @@
     <string name="noon">Middagstid</string>
     <string name="not_set">Inte angett</string>
     <string name="open_perm_msg">Kompassen behöver åtkomst till platsinformation och kamera. Detta är nödvändigt att fastställa koordinater och ger förhandsgranskningar. Tillåt?</string>
+    <string name="open_perm_msg_no_camera">Compass behöver få åtkomst till platsinfo för att kunna avgöra koordinater. Tillåt?</string>
     <string name="open_perm_title">Behörigheter krävs</string>
     <string name="permission_camera_desc">För att visa azimut på live-förhandsgranskningen</string>
     <string name="permission_location_desc">För att visa koordinater</string>
