@@ -79,6 +79,7 @@
     <string name="accessibility_document_blackwhite_button">Skannar dokument. Svart och vitt.</string>
     <string name="accessibility_document_origin_button">Skannar dokument. Original.</string>
     <string name="accessibility_document_strengthen_button">Skannar dokument. Förbättrat.</string>
+    <string name="accessibility_double_click_to_exit">Dubbeltryck för att avsluta</string>
     <string name="accessibility_dual_preview_change">Visa ändringar</string>
     <string name="accessibility_dual_preview_change_finish">Ändringar visade</string>
     <string name="accessibility_dual_video_merged">Kombinerad video</string>
@@ -118,6 +119,7 @@
     <string name="accessibility_live_preview_button">Visa föregående objekt</string>
     <string name="accessibility_live_reverse_button">Ta bort föregående klipp</string>
     <string name="accessibility_live_speed_panel_on">Hastighetspanel</string>
+    <string name="accessibility_lock_focus_success">Fokus låst</string>
     <string name="accessibility_manually_custom_panel_on">Anpassningspanel</string>
     <string name="accessibility_mimoji_background_panel_on">Bakgrundspanel</string>
     <string name="accessibility_mimoji_gif_off">GIF-läge är av</string>
@@ -128,6 +130,7 @@
     <string name="accessibility_mimovie_on">Med filmram</string>
     <string name="accessibility_module_picker_finish">Växlade till %s</string>
     <string name="accessibility_more">Mer</string>
+    <string name="accessibility_multi_cam_reselect_button">Välj kameror igen</string>
     <string name="accessibility_open">På</string>
     <string name="accessibility_pano_moving_left">Flytta enheten till vänster</string>
     <string name="accessibility_pano_moving_right">Flytta enheten till höger</string>
@@ -146,11 +149,14 @@
     <string name="accessibility_preview_selected">Valt</string>
     <string name="accessibility_preview_shrink">Zooma ut</string>
     <string name="accessibility_preview_zoom_tip">%1$.1fX zoomförhandsvisning</string>
+    <string name="accessibility_pro_parameters_panel_on">Öppna menyn med PRO-parametrar</string>
     <string name="accessibility_pro_video_simple_mode">Ljust läge</string>
     <string name="accessibility_protrait">Porträtt</string>
     <string name="accessibility_pull_down_to_open_camera">Svep neråt för att öppna Kameran</string>
     <string name="accessibility_record_button">Inspelningsknapp</string>
     <string name="accessibility_reduce">Zooma ut</string>
+    <string name="accessibility_reference_line_image_off">Visar inte rutnät</string>
+    <string name="accessibility_reference_line_image_on">Visar rutnät</string>
     <string name="accessibility_reference_line_text">Öppna panelen med referenslinjealternativ</string>
     <string name="accessibility_review_thumbnail">Senaste foto</string>
     <string name="accessibility_select_all">Välj alla</string>
@@ -179,6 +185,8 @@
     <string name="accessibility_timer_burst_image_off">Tidsstyrd fotoserie är avstängt</string>
     <string name="accessibility_timer_burst_image_on">Tidsstyrd fotoserie är påslaget</string>
     <string name="accessibility_timer_burst_text">Tidsstyrd fotoserie justeringspanel</string>
+    <string name="accessibility_touch_focus_fail">Kunde inte fokusera</string>
+    <string name="accessibility_touch_focus_success">Fokuserat</string>
     <string name="accessibility_ultra_pixel_photography_off">%s Ultra HD är avaktiverat</string>
     <string name="accessibility_ultra_pixel_photography_on">%s Ultra HD är aktiverat</string>
     <string name="accessibility_ultra_wide_off">Avaktiverade Vidvinkelläge</string>
@@ -274,7 +282,7 @@ och justera preferenser automatiskt"</string>
     <string name="ai_the_summer_palace">Sommarpalats</string>
     <string name="ai_the_terracotta_army">Terrakottaarmén</string>
     <string name="ai_tianjin">Tianjin</string>
-    <string name="ai_ultra_pixel_108mp">108 MP</string>
+    <string name="ai_ultra_pixel_108mp">108MP</string>
     <string name="ai_valentine_day">Alla hjärtans dag</string>
     <string name="ai_victoria_harbor">Victoria Harbour</string>
     <string name="ai_watermark_title">AI vattenstämpel</string>
@@ -513,6 +521,7 @@ och justera preferenser automatiskt"</string>
     <string name="custom_watermark_words">Anpassat vattenstämpel</string>
     <string name="custom_watermark_words_input_hint">Ange text</string>
     <string name="custom_watermark_words_save_success">Sparad</string>
+    <string name="dd_frn_f_t">Vik ihop din enhet för att använda frontkameran</string>
     <string name="dialog_button_accept">Acceptera</string>
     <string name="dialog_button_back">Tillbaka</string>
     <string name="dialog_button_cancel">Avbryt</string>
@@ -565,11 +574,15 @@ skannade dokument automatiskt"</string>
     <string name="dual_video_record_remote">Dubbel telefoninspelning</string>
     <string name="dual_video_record_standalone">Separerade</string>
     <string name="dual_video_user_guide_main_content">För att skapa multi-kameravideor, välj två kameror på din enhet och filma samtidigt. Inspelningarna kan lagras separat, eller kombineras i en delad vy eller bild-i-bild-video.</string>
+    <string name="dual_video_user_guide_main_content_new">"Multicam-videor är inspelningar med flera kameror samtidigt.
+Dual telefoninspelning låter dig även ansluta till den andra enheten och skapa en multicam-video genom att välja \"Kombinerade\"."</string>
     <string name="dual_video_user_guide_main_title">Multi-kameravideo</string>
     <string name="dual_video_user_guide_merge_content">Filma med två kameror samtidigt och kombinera inspelningar i en delad vy eller bild-i-bild-video.</string>
-    <string name="dual_video_user_guide_remote_content">Dubbel telefoninspelning gör det möjligt att kombinera flöden från två olika enheter till en video. Du kan förhandsgranska både flöden och den slutliga videon på denna enhet. Observera att ljud endast kommer att spelas in på den här enheten.</string>
+    <string name="dual_video_user_guide_merge_content_new">Två inspelningar kan kombineras i en delad vy eller bild-i-bild-video.</string>
+    <string name="dual_video_user_guide_remote_content">Kombinera flöden från två olika enheter till en video. Du kommer att kunna förhandsgranska både flöden och den slutliga videon på denna enhet. Observera att ljud endast kommer att spelas in av denna enhet.</string>
     <string name="dual_video_user_guide_remote_p">Ring %d</string>
     <string name="dual_video_user_guide_standalone_content">Filma med två kameror samtidigt och spara båda inspelningarna som separata videor.</string>
+    <string name="dual_video_user_guide_standalone_content_new">Samtidigt inspelade videor kan också separeras och sparas som två filer.</string>
     <string name="edit_blusher">Rouge</string>
     <string name="edit_chin">Kind</string>
     <string name="edit_color_skin">Hudton</string>
@@ -592,6 +605,7 @@ skannade dokument automatiskt"</string>
     <string name="edit_solid">Kontur</string>
     <string name="emoticon">Klistermärkespaket</string>
     <string name="error_fail_to_start_audio_capture">Kunde inte starta ljudupptagning</string>
+    <string name="esp_tip">Förhandsvisning yttre display</string>
     <string name="expand_button_title">Avancerat</string>
     <string name="eye_light">Ögonglitter</string>
     <string name="eye_light_angel">Ängel</string>
@@ -735,7 +749,7 @@ i Porträtt läge"</string>
     <string name="live_sticker_updating">Uppdaterar…</string>
     <string name="live_workspace_title">Utkast</string>
     <string name="live_workspace_title_edit">Välj objekt att ta bort</string>
-    <string name="location_access_allow">Tillåt</string>
+    <string name="location_access_allow">Agree</string>
     <string name="location_permission_des">Kom ihåg platser för foton och videor</string>
     <string name="location_permission_not_ask_again">Ge Kamera åtkomst till din plats i Inställningar.</string>
     <string name="location_permission_not_ask_again_go_to_settings">Tillåt</string>
@@ -897,6 +911,7 @@ se större ut i bilder"</string>
     <string name="module_name_panorama">Panorama</string>
     <string name="module_name_portrait">Porträtt</string>
     <string name="module_name_professional">Pro</string>
+    <string name="module_name_scanner">Scanner</string>
     <string name="module_name_square">Fyrkant</string>
     <string name="module_name_super_moon">Super-måne</string>
     <string name="module_name_video">Video</string>
@@ -914,8 +929,8 @@ se större ut i bilder"</string>
     <string name="network_access_user_notice_title">Anslutning till internet</string>
     <string name="network_connection_failed">Det gick inte att ansluta</string>
     <string name="network_connection_ongoing">Ansluter…</string>
-    <string name="network_connection_prerequisites">Slå på Bluetooth och Wi-Fi för att kunna använda dubbel telefoninspelning.</string>
-    <string name="network_connection_prerequisites_china">Turn on Bluetooth and WLAN to be able to use Dual phone recording.</string>
+    <string name="network_connection_prerequisites">Slå på Bluetooth och Wi-Fi i kontrollcentrum för att kunna använda dubbel telefoninspelning.</string>
+    <string name="network_connection_prerequisites_china">Turn on Bluetooth and WLAN in Control center to be able to use Dual phone recording.</string>
     <string name="network_connection_rejected">Nekad</string>
     <string name="network_connection_timed_out">Anslutningen har avbrutits</string>
     <string name="no_storage">Sätt i SD-kort innan du använder kameran</string>
@@ -1052,6 +1067,7 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_auxiliary_close">Av</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Exponeringsverifiering</string>
     <string name="pref_camera_auxiliary_focus_peak">Maximera fokus</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
@@ -1084,11 +1100,12 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_delay_capture_entry_audio">Ljud</string>
     <string name="pref_camera_delay_capture_title">Timer</string>
     <string name="pref_camera_device_watermark_title">Enhetsvattenstämpel</string>
-    <string name="pref_camera_dynamic_frame_rate_summary">Bildfrekvensen kommer att sänkas automatiskt i lågljusförhållanden för att förbättra videokvalitén</string>
+    <string name="pref_camera_dynamic_frame_rate_summary">Bildfrekvensen kommer att sänkas automatiskt i förhållanden med låg eller hög temperatur för att förbättra videokvalitén</string>
     <string name="pref_camera_dynamic_frame_rate_title">Justera antal bilder för dåligt ljus</string>
     <string name="pref_camera_eis_entry_normal">Stadig video</string>
     <string name="pref_camera_eis_entry_off">Av</string>
     <string name="pref_camera_eis_entry_pro">Stadig video PRO</string>
+    <string name="pref_camera_esp">Förhandsvisning bakre display</string>
     <string name="pref_camera_face_info_watermark_title">Lägg till åldersstämpel i foto</string>
     <string name="pref_camera_fastmotion_duration">Varaktighet</string>
     <string name="pref_camera_fastmotion_duration_description">Varaktigheten för en filmningssession är obegränsad som standard. Du kan även ställa in timern som stoppar sessionen vid ett fast tillfälle.</string>
@@ -1238,6 +1255,8 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_tip_id_card">ID-skanner</string>
     <string name="pref_camera_touchafaec_entry_off">Av</string>
     <string name="pref_camera_touchafaec_entry_on">På</string>
+    <string name="pref_camera_track_focus_preferred_description">Slå på för att behålla fokus på människor och djur automatiskt. Du kommer även kunna välja motiv för manuell spårning.</string>
+    <string name="pref_camera_track_focus_preferred_title">Fokusera spårning</string>
     <string name="pref_camera_ubifocus_title">Omfokusera</string>
     <string name="pref_camera_ultra_wide_ldc_description">Korrigera förvrängda objekt automatiskt</string>
     <string name="pref_camera_ultra_wide_ldc_title">Korrekt förvrängning i Vidvinkelfoto</string>
@@ -1402,11 +1421,15 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="prek_b_j_o">Återskapa stereosurroundeffekten</string>
     <string name="prek_b_j_p">Minska påverkan av vind i ljudinspelningar</string>
     <string name="prep_video_ai_audio_new_desc_tip">Ljuden från föremålet i fokus är förstärkta</string>
+    <string name="prep_video_ai_audio_new_desc_tip_alone">Ljuden från föremålet i fokus är förstärkta i landskapsläge</string>
     <string name="prep_video_ai_audio_single_desc_tip">Ljud bakom skärmen filtreras</string>
+    <string name="prep_video_ai_audio_single_desc_tip_alone">Ljud från bakom skärmen filtreras i landskapsläge</string>
     <string name="prep_video_ai_audio_unsupported_headset_desc_tips">Ljudzoom fungerar inte med rakt-i-örat-övervakning och extern mikrofon</string>
     <string name="preparing_sd">Kontrollerar SD-kortet…</string>
     <string name="preview_back_pressed_hint">Tryck igen för att återgå till förhandsvisning</string>
     <string name="pro_color_mode">Pro-color</string>
+    <string name="process_tips_1">Vik inte ihop enheten innan videon är sparad</string>
+    <string name="process_tips_2">Vik inte upp enheten innan videon är sparad</string>
     <string name="professional_shortcut_short">Pro</string>
     <string name="recommend_macro_mode">Testa Macro-läge</string>
     <string name="recommend_portrait">Testa porträttläge</string>
@@ -1431,6 +1454,9 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="reset_manual_picture_style_toast">Parametrar återställda</string>
     <string name="reset_manually_parameter_confirmed">Okej</string>
     <string name="reset_manually_parameter_hint">Återställ</string>
+    <string name="scan_install_prompt_header">Installera Scanner</string>
+    <string name="scan_install_prompt_loading">Installerar Scanner…</string>
+    <string name="scan_install_prompt_message">Installera Scanner och försök igen.</string>
     <string name="screen_on_proximity_sensor_hint">För att stänga av denna funktion, tryck på Volym upp och tillbaka-knapparna samtidigt.</string>
     <string name="screen_on_proximity_sensor_summary">Täck inte hörlursområdet</string>
     <string name="search_menu_title">Sök</string>
@@ -1497,6 +1523,7 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="super_moon_under">Månljus</string>
     <string name="super_moon_window">Fönster</string>
     <string name="super_night_hint">Optimerar bild… Håll enheten stadigt.</string>
+    <string name="super_night_owl_toast">Håll din telefon stadigt</string>
     <string name="super_night_se_tip">Nattläge</string>
     <string name="super_night_toast">Håll din telefon stilla medan du tar ett foto</string>
     <string name="tap_to_exposure">Tryck här för att justera exponeringen manuellt</string>
@@ -1532,9 +1559,11 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="ubifocus_capture_warning_message">För bästa resultat bör din bild innehålla föremål både nära (mindre än en meter från objektivet) och långt</string>
     <string name="ultra_ai_pixel_photography_close_tip">AI %s Ultra HD är avstängt</string>
     <string name="ultra_ai_pixel_photography_open_tip">AI %s Ultra HD</string>
-    <string name="ultra_pixel_108mp">108 MP</string>
+    <string name="ultra_pixel_100mp">100MP</string>
+    <string name="ultra_pixel_108mp">108MP</string>
     <string name="ultra_pixel_32mp">32MP</string>
     <string name="ultra_pixel_48mp">48MP</string>
+    <string name="ultra_pixel_50mp">50MP</string>
     <string name="ultra_pixel_64mp">64MP</string>
     <string name="ultra_pixel_photography_close_tip">%s Ultra HD är avaktiverat</string>
     <string name="ultra_pixel_photography_open_tip">%s Ultra HD är aktiverat</string>

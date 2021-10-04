@@ -85,27 +85,30 @@
     <string name="bugreport_tool_log_dumping_title">Skapar buggrapport</string>
     <string name="catch_full_log_action_cancel">Avbryt</string>
     <string name="catch_full_log_action_complete">Slutförd och uppladdad</string>
-    <string name="catch_full_log_action_start">Generera logg</string>
+    <string name="catch_full_log_action_start">Börja</string>
     <string name="catch_full_log_add_original_photo">Lägg till en originalbild eller en kort video</string>
     <string name="catch_full_log_add_photo">Lägg till bild</string>
     <string name="catch_full_log_add_photo_dialog_content">Om problemet du rapporterar är relaterat till kamerans bildkvalité, lägg till originalfotot (obeskuret) för att hjälpa oss hitta problemet. Lägg till foto nu?</string>
+    <string name="catch_full_log_category">Loggtyper</string>
     <string name="catch_full_log_dialog_confirm_text">Gå till Hemskärmen</string>
-    <string name="catch_full_log_dialog_content">MIUI håller på att generera en logg. Detta kan påverka den övergripande prestandan av din enhet. Om du inte kan återskapa problemet du vill rapportera, gå tillbaka till loggar och tryck på \"Avbryt\".</string>
+    <string name="catch_full_log_dialog_content">Detta kan påverka enhetens totala prestanda. Om du inte kan återskapa problemet du vill rapportera går du tillbaka till loggarna och trycker på \"Avbryt\".</string>
+    <string name="catch_full_log_dialog_title">Genererar loggar…</string>
     <string name="catch_full_log_dump_hprof_failed">Det gick inte att genererar logg för lagg</string>
     <string name="catch_full_log_item_content_catch_direct">"1. Gå tillbaka till funktionen som du vill rapportera och återskapa problemet.
 2. Gå tillbaka till denna sida och tryck på \"Slutför och ladda upp\"."</string>
-    <string name="catch_full_log_item_content_need_open">"1. Tryck på \"Generera logg\".
-2. Gå tillbaka till funktionen som du vill rapportera och återskapa problemet.
-3. Gå tillbaka till denna sida och tryck på \"Slutför och ladda upp\"."</string>
-    <string name="catch_full_log_item_content_title">Steg</string>
-    <string name="catch_full_log_item_title_audio">Ljud, ljudinspelning och samtalsljud</string>
+    <string name="catch_full_log_item_content_catching">Skapar loggar…</string>
+    <string name="catch_full_log_item_content_need_open">"%1$d. Tryck på \"Start\" för att starta generering av loggar.
+%2$d. Återskapa problemet du har stött på.
+%3$d. Återkom till denna sida och tryck på \"Slutför och ladda upp\"."</string>
+    <string name="catch_full_log_item_content_title">Hur man skapar loggar</string>
+    <string name="catch_full_log_item_title_audio">Ljud-, samtalsljud- och ljudinspelning</string>
     <string name="catch_full_log_item_title_bt">Bluetooth</string>
     <string name="catch_full_log_item_title_dump_heap">Laggar</string>
     <string name="catch_full_log_item_title_gps">Platstjänster</string>
     <string name="catch_full_log_item_title_sensor">Sensorer</string>
     <string name="catch_full_log_item_title_signal">Telefon, signal och mobila nätverk</string>
-    <string name="catch_full_log_item_title_wifi">Wi-Fi och ShareMe</string>
-    <string name="catch_full_log_item_title_wifi_china">WLAN and ShareMe</string>
+    <string name="catch_full_log_item_title_wifi">Wi-Fi</string>
+    <string name="catch_full_log_item_title_wifi_china">WLAN</string>
     <string name="catch_full_log_notification_content">Tryck för att gå tillbaka till loggar</string>
     <string name="catch_full_log_notification_title">Generarar loggar…</string>
     <string name="catch_full_log_privacy_content_audio">Du skapar loggar och sparar dem på din enhet. Loggarna kan innehålla information om ljudet på din enhet, inklusive uppspelningshistorik och inspelningshistorik. Var försiktig och avslöja inte dessa loggar till andra människor. Genom att trycka på \"Agree\" nedan godkänner du att vi samlar ovanstående data samtidigt som du skapar loggar och sedan laddar upp loggarna till våra servrar för att hitta och lösa de problem du rapporterar.</string>

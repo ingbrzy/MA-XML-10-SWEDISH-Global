@@ -51,7 +51,6 @@
     <string name="boot_video_skip">Hoppa över</string>
     <string name="calculator_introduction">Du kan använda denna app för beräkningar, konvertering av enheter och valutor samt för uppskattning av återbetalning av lån.</string>
     <string name="camera_introduction">Du kan använda kameran för att ta foton och spela in videor.</string>
-    <string name="carrier_introduction">För att ge dig bättre tjänster kan din enhet periodvis skicka information om enhetsversion, data om enhetsidentifikation (inklusive IMEI-/IMSI-/MSISDN-/MAC-adress, MEID/ICCID) och ungefärlig platsinformation (inklusive basstations-ID) till operatören via Wi-Fi, mobildatanätverk eller gratis SMS. Operatören lovar att endast analysera relevant information för att förbättra tjänsternas kvalitet eller för att tillhandahålla anpassade tjänster eller teknik och att inte lämna ut relevant information till tredje parter i någon form som identifierar dig personligen. Det specifika operatörsmeddelandet har företräde. Rådfråga din operatör när det gäller priset för att använda denna tjänst.</string>
     <string name="clock_introduction">Du kan använda denna app för att visa tid, samt för att använda timer, världsklocka, tidtagarur, ställa in alarm och mer.</string>
     <string name="close_location_service_setting">Du kan välja att stänga av platsåtkomst i Inställningar > Ytterligare inställningar > Integritet eller begränsa behörigheter för enskilda appar i Säkerhet.</string>
     <string name="cm_terms_content">För att kunna förbättra funktionerna för dig kan din mobiloperatör ladda upp din personliga data och information om din enhet till sina servrar via Wi-Fi eller mobildataanslutning. Informationen kommer endast att använda i statistiskt syfte för att förbättra kvalitén på funktionerna och ge mer personliga innehåll. Informationen kommer inte användas för att mot dig personligen och kommer inte skickas till tredje part.</string>
@@ -80,6 +79,7 @@
     <string name="disagreement_exit_app">Om du inte går med på att bevilja sådana behörigheter eller dela och ladda upp din personliga information kommer du inte att kunna använda denna app. Du kan välja att logga ut eller begränsa behörigheter i Inställningar i sådana fall.</string>
     <string name="disagreement_function">Om du inte går med på att bevilja sådana behörigheter eller dela och ladda upp din personliga information kommer du inte att kunna använda denna funktion. Du kan välja att inte använda denna funktion i sådana fall.</string>
     <string name="disagreement_location_service">Om du inte går med på att bevilja sådana behörigheter eller dela och ladda upp din personliga information kommer du inte att kunna använda denna tjänst.</string>
+    <string name="disagreement_terminate_miuidaemon">Om du inte samtycker till att bevilja sådana behörigheter eller dela och ladda upp dina personuppgifter kan du inte använda denna tjänst. Du kan välja att inte använda denna tjänst eller begränsa behörigheter i Inställningar i så fall. Observera att vi endast kommer att använda behörigheterna när du börjar överföra data från din enhet när skärmen är skadad.</string>
     <string name="disagreement_terminate_service">Om du inte går med på att bevilja sådana behörigheter eller dela och ladda upp din personliga information kommer du inte att kunna använda denna app. Du kan välja att avinstallera, logga ut eller begränsa behörigheter i Inställningar i sådana fall.</string>
     <string name="download_introduction">\"Nedladdningar\" använder Xunlei för att ladda ner objekt på din enhet. Detta verktyg fungerar för GetApps, systemuppdateringar, teman, videor, och webbläsar-nedladdningar.</string>
     <string name="enable_accessibility_canceled">Tillgänglighet avbruten.</string>
@@ -160,7 +160,7 @@
     <string name="other_settings_user_experience">Program för Användarupplevelse</string>
     <string name="other_settings_user_experience_summary">Hjälp oss förbättra våra produkter och tjänster genom att dela din användarstatistik med oss. Visa detaljer</string>
     <string name="other_settings_user_experience_summary_index">Visa detaljer</string>
-    <string name="permission_MIUIDaemon_introduction">MIUI Daemon allows you to transfer data from your device when its screen is damaged.</string>
+    <string name="permission_MIUIDaemon_introduction">MIUI Daemon tillåter dig överföra data från din enhet när skärmen är skadad.</string>
     <string name="permission_account">Få åtkomst till konton på din enhet:</string>
     <string name="permission_account_introduction">För att logga in med Mi Konto</string>
     <string name="permission_application_package_introduction">För åtkomst till lagring för att kunna analysera och skanna installationspaket</string>
@@ -193,9 +193,9 @@
     <string name="permission_picture_introduction">För att spara, redigera och synkronisera foton och videor</string>
     <string name="permission_read_call_records">Redigera samtalshistorik:</string>
     <string name="permission_read_call_records_introduction">För att lägga till objekt till samtalshistorik och ta bort blockerade samtal</string>
-    <string name="permission_read_contacts">Accessing contacts</string>
+    <string name="permission_read_contacts">Kom åt kontakter</string>
     <string name="permission_read_contacts_introduction">For verifying your identity</string>
-    <string name="permission_read_message">Accessing text messages</string>
+    <string name="permission_read_message">Komma åt textmeddelanden</string>
     <string name="permission_read_message_introduction">For verifying the ownership of your device</string>
     <string name="permission_read_note_introduction">För åtkomst till anteckningar och bilagor</string>
     <string name="permission_read_write_file">Få åtkomst till och spara filer och foton på din enhet:</string>
@@ -224,6 +224,7 @@
     <string name="provision_skip_underline">Hoppa över</string>
     <string name="recorder_introduction">Du kan använda denna app för att spela in ljud och säkerhetskopiera inspelningar till molnet.</string>
     <string name="require_authority_statement">För att vi ska kunna förse dig med grundläggande tjänster behöver du bevilja följande behörigheter så att vi kan samla in din personliga information:</string>
+    <string name="require_miuidaemon_authority_statement">För att vi ska kunna förse dig med denna tjänst måste du bevilja följande behörigheter för att vi ska kunna samla in dina personuppgifter:</string>
     <string name="require_network_authority_statement">För att vi ska kunna förse dig med grundläggande tjänster behöver du ansluta till internet och bevilja följande behörigheter så att vi kan samla in din personliga information:</string>
     <string name="screen_recording_introduction">Med denna app kan du spela in vad som händer på din skärm.</string>
     <string name="search_menu_title">Sök</string>
@@ -307,7 +308,7 @@ Du måste godkänna Integritetspolicyn för Mint Keyboard innan du använder den
     <string name="title_fingerprint">Ange lösenord</string>
     <string name="title_set_fingerprint">Skärmlås</string>
     <string name="user_agreement">Användaravtal</string>
-    <string name="user_agreement_declare">Innan du använder MIUI måste du läsa och godkänna våra Användarvillkor och vår Integritetspolicy. När din enhet aktiveras ansluter Mi SIM-aktiveringstjänst, Xiaomi Cloud, Hitta enhet, Hemskärmen, Frekventa fraser, Översättningstjänst, MIUI Daemon, HTML-visningsprogram, MIUI SDK, AI-assistent, Batteri och prestanda, Power Detector, Joyose, OS AI-inställningar, behörighetshanteraren och Uppdateraren till nätverket. Smarta tjänster kommer att ansluta till internet och få åtkomst till din plats.</string>
+    <string name="user_agreement_declare">Innan du använder MIUI måste du läsa och godkänna vårt användaravtal och vår sekretesspolicy. Medan din enhet aktiveras kommer Mi SIM-aktiveringstjänst, Xiaomi-moln, säkerhetsuppdateringstjänst, hitta enhet, hemskärm, vanliga fraser, Xiaomi internetkommunikationstjänst, översättningstjänst, MIUI Daemon, HTML-läsare, MIUI SDK, säkert elementprogram, AI-assistent, batteri och prestanda, strömdetektor, Joyose, OS AI-inställning och uppdaterare att ansluta till nätverket. Smart Card, behörighetshanterare och smarta tjänster ansluter till nätverket och får åtkomst till din plats.</string>
     <string name="voice_assist_advice">Mi AI tillåter dig att använda röstkontroll men det förbrukar också mer ström (+1% varje timme).</string>
     <string name="voice_assist_condition">"Du kommer kunna använda Mi AI i dessa fall:r
 1. När skärmen är på.r

@@ -223,7 +223,6 @@ Toggla av för att sluta synka."</string>
     <string name="card_game_title_1">Dagliga rekommendationer</string>
     <string name="card_game_title_2">Populärt denna vecka</string>
     <string name="card_game_title_3">Mints val</string>
-    <string name="cast_video">Cast video</string>
     <string name="category">Kategorier</string>
     <string name="category_album">Album</string>
     <string name="category_all">Alla filer</string>
@@ -263,7 +262,6 @@ Toggla av för att sluta synka."</string>
     <string name="clear_history">Rensa historik</string>
     <string name="clear_most_visited">Tidigare historik</string>
     <string name="clear_search_history">Rensa historik</string>
-    <string name="clear_video_download">Rensa videor</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
     <string name="click_always">Tryck på \"Alltid\"</string>
     <string name="click_to_refresh">Stoppade här förra gången, tryck för uppdatera</string>
@@ -285,7 +283,6 @@ Toggla av för att sluta synka."</string>
     <string name="cloud_time_tips">Senaste synkronisering</string>
     <string name="cloud_up_to_loading_tips">Släpp för att synkronisera</string>
     <string name="collect_diagnosis_log">Hämta loggfiler</string>
-    <string name="collect_video">Samla in video</string>
     <string name="collection_articles">Artiklar</string>
     <string name="collection_videos">Videor</string>
     <string name="com_facebook_device_auth_instructions">Gå till &lt;b>facebook.com/device&lt;/b> och skriv in koden som visas ovan.</string>
@@ -387,15 +384,6 @@ Sidor som du besöker kommer inte med i historiken."</string>
     <string name="dark_mode">Mörkt läge</string>
     <string name="data_error">Datafel</string>
     <string name="data_format_ymd">dd/MM/yyyy</string>
-    <string name="data_traffic_continue">Spela upp i alla fall</string>
-    <string name="data_traffic_download_cancel">Avbryt</string>
-    <string name="data_traffic_download_prompt">Du kan bara ladda ner den här videon när enheten är ansluten till Wi-Fi.</string>
-    <string name="data_traffic_download_setting">Inställningar</string>
-    <string name="data_traffic_goto">Datapaket</string>
-    <string name="data_traffic_prompt_free_data">Användning av mobildata för att strömma videor kan generera ytterligare datautgifter. Försök använda ett utvalt datapaket.</string>
-    <string name="data_traffic_prompt_message">Att använda mobildata för att se på videor medför ökad dataanvändning. Om du överskrider gränsen för ditt abonnemang kan din operatör komma att fakturera dig för detta.</string>
-    <string name="data_traffic_prompt_title">Du använder mobildata</string>
-    <string name="data_traffic_stop">Stoppa</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -534,7 +522,6 @@ Skicka koden till handledaren."</string>
     <string name="download_title">Nedladdningar</string>
     <string name="download_unknown_title">Okänd</string>
     <string name="download_update_background">Ladda ner uppdateringar i bakgrunden</string>
-    <string name="download_video">Ladda ner video</string>
     <string name="download_video_from_social_site">Ladda ned videor från sociala medier</string>
     <string name="download_videos_from_here">Du kan ladda ner videor från dessa tjänster</string>
     <string name="download_wait_connect">Väntar på att ansluta</string>
@@ -578,7 +565,6 @@ Skicka koden till handledaren."</string>
     <string name="exit_clear_dialog_btn_cancel">Avsluta</string>
     <string name="exit_clear_dialog_btn_ok">Rensa &amp; avsluta</string>
     <string name="exit_clear_dialog_msg">Rensa historik innan du avslutar?</string>
-    <string name="exit_fullscreen">Avsluta helskärmsläge</string>
     <string name="exit_game">Stäng</string>
     <string name="exo_controls_fastforward_description">Snabbspola framåt</string>
     <string name="exo_controls_fullscreen_description">Helskärmsläge</string>
@@ -808,7 +794,7 @@ Skicka koden till handledaren."</string>
     <string name="list_menu_rename_result_fail">Det gick inte att ändra namn</string>
     <string name="list_menu_rename_result_repeat">En fil med samma namn finns redan</string>
     <string name="load_more">Visa mer</string>
-    <string name="loading">Vänta ett ögonblick…</string>
+    <string name="loading">Vänta en stund...</string>
     <string name="loading_tips">Dra nedåt för att uppdatera</string>
     <string name="local_apps">Lokala appar</string>
     <string name="local_bookmarks">Mi</string>
@@ -831,15 +817,6 @@ Skicka koden till handledaren."</string>
     <string name="make_private_msg_2">Dölj dessa filer?</string>
     <string name="max_tabs_warning">Kan inte öppna fler flikar</string>
     <string name="maximum_input_alert">Kan inte skriva in mer än 2048 tecken</string>
-    <string name="media_error_action_refresh">Uppdatera</string>
-    <string name="media_error_action_replace_video_source">Det gick inte att ändra källa</string>
-    <string name="media_error_failure">Kan inte spela video</string>
-    <string name="media_error_format">Videoformat stöds inte</string>
-    <string name="media_error_network_unreachable">Det gick inte att ansluta till nätverket</string>
-    <string name="media_error_nomemory">Inte tillräckligt med minne</string>
-    <string name="media_error_source">Det gick inte att hitta källan</string>
-    <string name="media_error_timeout">Nätverksanslutning frånkopplad</string>
-    <string name="media_error_video_not_exist">Video finns inte</string>
     <string name="menu_addtodesk">Lägg till på Hemskärmen</string>
     <string name="menu_exit_nightmode">Avsluta</string>
     <string name="menu_hv_swap">V/H skärm</string>
@@ -935,6 +912,8 @@ Skicka koden till handledaren."</string>
     <string name="more_option">Fler alternativ</string>
     <string name="more_recommend">Fler rekommendationer</string>
     <string name="morning">Morgon</string>
+    <string name="most_visited_sites">Mest besökta</string>
+    <string name="most_visited_sites_switch">Visa de mest besökta webbplatserna på startsidan</string>
     <string name="move_bookmark">Flytta</string>
     <string name="msn_ad_identification">Annons</string>
     <string name="msn_privacy">Microsoft integritetsmeddelande</string>
@@ -954,6 +933,7 @@ Skicka koden till handledaren."</string>
     <string name="mw_actionbar_textselection_title">Välj text</string>
     <string name="mw_actionbar_web_search">Webbsökning</string>
     <string name="mw_autofill_popup_content_description">Visar autofyll popup</string>
+    <string name="mw_chip_remove_icon_content_description">Remove \"%1$s\"</string>
     <string name="mw_color_picker_button_black">Svart</string>
     <string name="mw_color_picker_button_blue">Blå</string>
     <string name="mw_color_picker_button_cancel">Avbryt</string>
@@ -969,7 +949,7 @@ Skicka koden till handledaren."</string>
     <string name="mw_color_picker_hue">Hue</string>
     <string name="mw_color_picker_saturation">Mättnad</string>
     <string name="mw_color_picker_value">Värde</string>
-    <string name="mw_common_google_play_services_install_text">%1$s kommer inte köras utan Google Play-tjänster, vilket saknas från din enhet.</string>
+    <string name="mw_common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
     <string name="mw_config_webSettingsDefaultTextEncoding">UTF-8</string>
     <string name="mw_copy_to_clipboard_failure_message">Kunde inte kopiera till Urklipp</string>
     <string name="mw_data_traffic_prompt_change">Att använda mobildata för att streama videor medför ökad dataanvändning. Om du överskrider gränsen för ditt abonnemang kan din operatör komma att fakturera dig för detta.</string>
@@ -993,6 +973,7 @@ Lämna denna sida nu?"</string>
     <string name="mw_js_dialog_title_default">JavaScript</string>
     <string name="mw_last_month">Senaste månaden</string>
     <string name="mw_license_activity_title">system WebView licenser</string>
+    <string name="mw_link_copied">Copied URL successfully</string>
     <string name="mw_low_memory_error">Kan inte slutföra tidigare operation på grund av minnesbrist</string>
     <string name="mw_miui_content_copy">Kopiera</string>
     <string name="mw_miui_content_cut">Klipp ut</string>
@@ -1097,6 +1078,7 @@ Lämna denna sida nu?"</string>
     <string name="mw_save_password_never">Aldrig</string>
     <string name="mw_save_password_notnow">Inte nu</string>
     <string name="mw_save_password_remember">Kom ihåg</string>
+    <string name="mw_speech_recognition_service_not_found">"Couldn't find Google speech engine"</string>
     <string name="mw_status_bar_notification_info_overflow">999+</string>
     <string name="mw_time_picker_dialog_am">AM</string>
     <string name="mw_time_picker_dialog_hour_minute_separator">:</string>
@@ -1104,7 +1086,6 @@ Lämna denna sida nu?"</string>
     <string name="mw_time_picker_dialog_pm">PM</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator">.</string>
     <string name="mw_time_picker_dialog_title">Ange tid</string>
-    <string name="mw_url_copied">Kopierat URL framgångsrikt</string>
     <string name="mw_video_buffering_percent">Buffrar</string>
     <string name="mw_video_download_no_permission">Behörigheter krävs för att ladda ned objekt</string>
     <string name="mw_video_float_drag_scale_msg">Dra för att skala</string>
@@ -1303,7 +1284,6 @@ Lämna denna sida nu?"</string>
     <string name="password">Lösenord</string>
     <string name="per_month">Per månad</string>
     <string name="permission_agree_service">Jag har läst och godkänt alla följande regler och villkor.</string>
-    <string name="permission_alert_window">För att kunna använda den här funktionen måste du tillåta visning av popup-fönster i Inställningarna.</string>
     <string name="permission_contacts">Kontakter</string>
     <string name="permission_dialog_msg_camera">%s vill använda din kamera</string>
     <string name="permission_dialog_msg_camera_mic">%s vill använda din kamera och mikrofon</string>
@@ -1327,7 +1307,6 @@ Lämna denna sida nu?"</string>
     <string name="permission_open_storage">Tillåt Mi Browser att få åtkomst till interna lagringen i Inställningar först</string>
     <string name="permission_service">Användarvillkor</string>
     <string name="permission_storage">Lagringsutrymme</string>
-    <string name="permission_unknown">Okänt fel</string>
     <string name="permission_use">Behörigheter</string>
     <string name="personalized_content_services">Personliga innehållstjänster</string>
     <string name="personalized_services">Personliga tjänster</string>
@@ -1353,12 +1332,9 @@ Lämna denna sida nu?"</string>
     <string name="photoPickerNotFoundText">Inga bilder tillgängliga.</string>
     <string name="pick_file">Välj filer</string>
     <string name="ping_test_title">Nätverksfördröjning</string>
-    <string name="play_pause_video">Spela upp eller pausa video</string>
-    <string name="play_video">Spela video</string>
     <string name="players_still_play">&lt;font color=\"#ff2458\">%s&lt;/font> av spelarna gillar också dessa</string>
     <string name="pm">E.m</string>
     <string name="popular_game_video">Popular Game Video</string>
-    <string name="popup_video">Populär video</string>
     <string name="popup_window_attempt">Tillåt denna webbplats att öppna ett popup-fönster?</string>
     <string name="positive_confirm_message">Avaktivera ändå</string>
     <string name="pref_accessibility">Tillgänglighet</string>
@@ -1537,8 +1513,8 @@ Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att 
     <string name="privacy_authorize_summary">Växla reglaget på och av för att bevilja eller upphäva ditt tillstånd</string>
     <string name="privacy_authorize_title">Tillstånd</string>
     <string name="privacy_btn_more">Mer</string>
-    <string name="privacy_improve_performance">Hjälp till att förbättra Mi Browsers prestanda</string>
-    <string name="privacy_improve_performance_desc">Skicka sammanställd data och kraschrapporter till Mi Browser automatiskt</string>
+    <string name="privacy_improve_performance">Program för Användarupplevelse</string>
+    <string name="privacy_improve_performance_desc">Tillåt Xiaomi att samla in och analysera användardata för att förbättra våra produkter och tjänster</string>
     <string name="privacy_message">Innan du använder webbläsaren måste du godkänna vårt &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">Användaravtal&lt;/a>&lt;/font> och &lt;font color=\"#4086f5\">&lt;a href=\"%2$s\" style=\"color:#4086f5;\">Sekretesspolicy&lt;/a>&lt;/font>.</string>
     <string name="privacy_message_main_tips_first">Mi Browser behöver samla in nödvändig personlig information för att förse dig med de grundläggande tjänsterna. Du kan lära dig hur vi hanterar den information vi samlar in i vår &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">Integritetspolicy&lt;/a>&lt;/font>. Du kan alltid dra tillbaka ditt samtycke till Mi Browsers Integritetspolicy i Inställningar > Integritet &amp; säkerhet. Läs och acceptera vårt &lt;font color=\"#4086f5\">&lt;a href=\"%2$s\" style=\"color:#4086f5;\">Användaravtal&lt;/a>&lt;/font> och &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">Integritetspolicy&lt;/a>&lt;/font> innan du använder Mi Browser.</string>
     <string name="privacy_message_main_tips_second">För att kunna söka efter appar på denna enhet och veta vilka appar som är installerade, behöver Mi Browser få tillgång till app-installationsinformation som inte kommer att sparas lokalt eller laddas upp i någon form.</string>
@@ -1546,6 +1522,7 @@ Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att 
     <string name="privacy_message_welcome_tip_first">- Snabb och säker webbsurfning</string>
     <string name="privacy_message_welcome_tip_second">- Nedladdning av bilder och videor från sociala media-plattformar</string>
     <string name="privacy_policy">Integritetspolicy</string>
+    <string name="privacy_reset_fail">Det gick inte att återställa. Försök igen.</string>
     <string name="privacy_sub_title">Regler och villkor</string>
     <string name="privacy_title">Välkommen till Mi Webbläsare</string>
     <string name="private_title">Dolda filer</string>
@@ -1725,10 +1702,10 @@ Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att 
     <string name="setting_app_language">Webbläsarens språk</string>
     <string name="setting_feed_language">Språk för innehållsflöde</string>
     <string name="setting_privacy_password">Ange upplåsningsmönster</string>
+    <string name="setting_swipe_up">Svep uppåt på Hemskärmen</string>
     <string name="share_image_text">Titta vad jag delade! @MIUI</string>
     <string name="share_page_text">Titta vad jag delade: %1$s @MIUI| %2$s</string>
     <string name="share_slide_video_text">Titta vad jag delade: %1$s</string>
-    <string name="share_video">Dela video</string>
     <string name="sign_in">Loggar in</string>
     <string name="sign_in_by_others">Andra sätt att logga in</string>
     <string name="sign_in_by_xiaommi">Logga in med Mi-konto</string>
@@ -1878,8 +1855,6 @@ Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att 
     <string name="traffic_fail_free_no_left">Du har slut på trafik. Prenumerera för att fortsätta.</string>
     <string name="traffic_fail_no_left">Du har slut på VPN-trafik</string>
     <string name="traffic_fail_upload">Ett fel uppstod. Aktivera VPN igen.</string>
-    <string name="transfer_prompt_0">Spela upp video</string>
-    <string name="transfer_restart">Starta om</string>
     <string name="translate">Översätt</string>
     <string name="translate_cur_page">Översätt denna sida?</string>
     <string name="translate_into">Översätt till</string>
@@ -1933,9 +1908,7 @@ Du kan alltid gå ur i Inställningar > Integritet &amp; säkerhet."</string>
     <string name="user_guide_read_info_tips">För att kunna inkludera appar i sökresultaten måste Mi Browser få tillgång till listan över appar installerade på din enhet.</string>
     <string name="user_id_hint">E-post/Telefon/Mi Konto-ID</string>
     <string name="username">Namn</string>
-    <string name="v5_deselect_all">Välj ingen</string>
-    <string name="v5_edit_mode_title_empty">0 valda</string>
-    <string name="v5_select_all">Välj alla</string>
+    <string name="v5_edit_mode_title_empty">Välj objekt</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="v_code_title">Ange verifikationskod</string>
@@ -1955,59 +1928,18 @@ Du kan alltid gå ur i Inställningar > Integritet &amp; säkerhet."</string>
     <string name="version_dialog_buttion_update">Uppdatera</string>
     <string name="version_update_file_download_toast">Laddar ned</string>
     <string name="version_update_file_not_found">Hittar inga uppdateringar</string>
-    <string name="video_activity_name">Favoriter</string>
-    <string name="video_buffering_percent_string">"Buffrar "</string>
-    <string name="video_collect_cancel">Ta bort från favoriter</string>
-    <string name="video_collect_success">Tillagd i favoriter</string>
     <string name="video_collection_click_view">Den videor du lade till i favoriter finns här</string>
     <string name="video_collection_empty">Inga videor ännu</string>
     <string name="video_collection_known">Jag förstår</string>
     <string name="video_collection_view">Visa</string>
-    <string name="video_download_complete">Nedladdning lyckades</string>
-    <string name="video_download_empty">Inga videor</string>
-    <string name="video_download_error">Fel</string>
-    <string name="video_download_error_http_gone">Det gick inte att hitta filen</string>
-    <string name="video_download_exists">Nedladdningen existerar redan.</string>
-    <string name="video_download_fail">Det gick inte att ladda ner</string>
-    <string name="video_download_failed">Det gick inte att ladda ner</string>
-    <string name="video_download_finding_address">Hämtar URL</string>
-    <string name="video_download_pause">Pausad</string>
-    <string name="video_download_start">Laddar ner…</string>
-    <string name="video_download_success">Nedladdning lyckades</string>
-    <string name="video_download_unknown_name">Okänd video</string>
-    <string name="video_download_unknown_size">Okänd storlek</string>
-    <string name="video_download_unsupport">Stöds inte</string>
-    <string name="video_download_wait_for_wifi">Väntar på Wi-Fi</string>
-    <string name="video_downloaded_group">Nedladdade filer</string>
+    <string name="video_download_complete">Video nedladdad</string>
     <string name="video_downloader_edit_hint">"Klistra in en länk för att ladda ned en video. Till exempel:
 https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="video_downloader_fail">Det gick inte att ladda ned detta objekt</string>
     <string name="video_downloader_retry">Försök igen</string>
-    <string name="video_downloading_group">Laddar ner</string>
-    <string name="video_edit">Redigera</string>
-    <string name="video_float_window_text">Pop-up video</string>
-    <string name="video_fragment_name_collections">Favoriter</string>
-    <string name="video_fragment_name_download">Offline Video</string>
-    <string name="video_fragment_name_historys">Historik</string>
-    <string name="video_fragment_name_offine">Offline</string>
-    <string name="video_group_noupdates_list">Inga uppdateringar tillgängliga</string>
-    <string name="video_group_updates_list">Uppdateringar</string>
-    <string name="video_history_empty">Ingen historik</string>
-    <string name="video_manager_action_bar_end_view">Onlinevideo</string>
     <string name="video_play_next">Nästa</string>
-    <string name="video_project_button">Stoppa</string>
-    <string name="video_project_msg">Video överförs till %s</string>
-    <string name="video_project_title">Överför video</string>
-    <string name="video_push_multi_title">Uppdatering tillgänglig</string>
-    <string name="video_push_single_message">Tryck för att uppdatera till %1$d.</string>
     <string name="video_replay_btn">Spela igen</string>
     <string name="video_retry_btn">Försök igen</string>
-    <string name="video_service_notification_title">Spelar upp pop-up video…</string>
-    <string name="video_subtitle_last_message1">Mindre än 1 minut återstår</string>
-    <string name="video_subtitle_prefix1">Sedd</string>
-    <string name="video_subtitle_prefix2">"Sedd: "</string>
-    <string name="video_title_prefix_message">"Offline: "</string>
-    <string name="video_unknown_duration">Okänd varaktighet</string>
     <string name="view_certificate">Visa certifikat</string>
     <string name="view_document_downloaded_files">Titta på nerladdade filer i Hämtade</string>
     <string name="voice_check_network">Kontrollera din nätverksanslutning och försök igen.</string>
@@ -2054,7 +1986,6 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
-    <string name="welcome_to_mi_browser">Välkommen till Mi Webbläsare!</string>
     <string name="what_is_new">Uppdatera appen för tillgång till nya funktioner</string>
     <string name="whatsapp_downloadpage_tips">WhatsApp-statussparare</string>
     <string name="whatsapp_file_saved_success">Sparad</string>

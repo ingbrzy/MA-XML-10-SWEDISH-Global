@@ -32,6 +32,10 @@
         <item>Back up important settings, including WLAN and display</item>
         <item>"Lock your device remotely if it's lost"</item>
     </string-array>
+    <string-array name="micloud_entrance_subtitleArray_pad">
+        <item>Synkronisera dina foton, anteckningar, inspelningar och annat</item>
+        <item>Fjärrlås din enhet om den försvinner</item>
+    </string-array>
     <string-array name="micloud_entrance_subtitleArray_v2">
         <item>Synkronisera dina kontakter, meddelande, anteckningar, kalender och mer</item>
         <item>Säkerhetskopiera appar, utseende på Hemskärmen och bakgrund</item>
@@ -43,6 +47,10 @@
         <item>Säkerhetskopiera Hemskärmens utseende</item>
         <item>Säkerhetskopiera systeminställningar</item>
         <item>Hitta Enhet</item>
+    </string-array>
+    <string-array name="micloud_entrance_titleArray_pad">
+        <item>Synkronisera appdata</item>
+        <item>Hitta enhet</item>
     </string-array>
     <string-array name="privacy_dialog_finddevice_runtime_perm_desc">
         <item>För att identifiera din enhet</item>
@@ -136,6 +144,11 @@
         <item>Återställ kontakter, bilder, meddelanden och mer</item>
         <item>Papperskorg;Borttagna objekt;Återställ;Molntjänster;Xiaomi Cloud</item>
     </string-array>
+    <string-array name="settings_search_recycle_bin_pad">
+        <item>Borttagna objekt i Xiaomi Cloud</item>
+        <item>Återställ foton, anteckningar och annat</item>
+        <item>Papperskorg;Borttagna objekt;Återställ;Molntjänster;Xiaomi Cloud</item>
+    </string-array>
     <string-array name="settings_search_restore_device">
         <item>Återställ objekt från Xiaomi Cloud</item>
         <item>Ladda ner säkerhetskopierade objekt på din enhet</item>
@@ -144,6 +157,11 @@
     <string-array name="settings_search_security">
         <item>Säkerhetssynkronisering av molnet</item>
         <item>Aktivera synkronisering</item>
+        <item>Säkerhet;Moln;Xiaomi Cloud,Synkronisera;Molntjänster</item>
+    </string-array>
+    <string-array name="settings_search_security_pad">
+        <item>Säkerhetssynkronisering av molnet</item>
+        <item>Sätt på synkning</item>
         <item>Säkerhet;Moln;Xiaomi Cloud,Synkronisera;Molntjänster</item>
     </string-array>
     <string-array name="settings_search_sms">
@@ -159,6 +177,11 @@
     <string-array name="settings_search_sync_manage">
         <item>Xiaomi Cloud. Alla tjänster på en plats.</item>
         <item>Få tillgång till dina bilder, kontakter, meddelanden och enheter överallt</item>
+        <item>Otillräckligt lagringsutrymme;Medlemskap;Lagringsutrymme;Moln;Synkronisera;Molntjänster;Xiaomi Cloud;Papperskorg;Borttagna objekt;Säkerhet</item>
+    </string-array>
+    <string-array name="settings_search_sync_manage_pad">
+        <item>Xiaomi Cloud. Alla tjänster på en plats.</item>
+        <item>Få tillgång till dina foton, anteckningar och enheter överallt</item>
         <item>Otillräckligt lagringsutrymme;Medlemskap;Lagringsutrymme;Moln;Synkronisera;Molntjänster;Xiaomi Cloud;Papperskorg;Borttagna objekt;Säkerhet</item>
     </string-array>
     <string-array name="settings_search_wlan">

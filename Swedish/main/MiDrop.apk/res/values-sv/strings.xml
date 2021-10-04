@@ -189,14 +189,14 @@ Kontrollera dina nätverksinställningar och försök igen."</string>
     <string name="er">Destinationsmapp</string>
     <string name="es">Valda</string>
     <string name="et">Markerade filer: %1$d | Totalt: %2$s</string>
-    <string name="eu">4-16 tecken, bokstäver och siffror, skiftlägeskänsligt</string>
+    <string name="eu">Användarnamn och lösenord är skiftläges-känsliga och måste innehålla %1$d-%2$d tecken. Du kan kombinera engelska tecken, specialsymboler, och siffror.</string>
     <string name="ev">Logga in anonymt</string>
     <string name="ew">Användarnamn eller lösenord är felaktiga</string>
     <string name="ex">Kunde inte öppna porten. Kontrollera din nätverksanslutning eller återställ portnummer.</string>
     <string name="ey">Lösenord</string>
     <string name="ez">Portnummer</string>
     <string name="f0">Säkerhet</string>
-    <string name="f1">Logga in</string>
+    <string name="f1">Sätt användarnamn och lösenord</string>
     <string name="f2">Användarnamn</string>
     <string name="f3">Förenklad Kinesisk Windows standardkodning</string>
     <string name="f4">GBK</string>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">fri form</string>
+    <string name="app_name">Flytande fönster</string>
+    <string name="bottom_bar_smallwindow_text">Släpp för att fästa</string>
     <string name="contentDescription">Flyttar fönstret</string>
     <string name="freeform_demo_back">Tillbaka</string>
     <string name="freeform_demo_final_over">Klart</string>
@@ -9,6 +10,10 @@
     <string name="freeform_demo_go_on">Nästa</string>
     <string name="freeform_demo_title_finish">Snyggt!</string>
     <string name="freeform_demo_title_skip">Hoppa över</string>
+    <string name="freeform_slide_to_small_freeform">Minimera ett flytande fönster</string>
+    <string name="freeform_slide_to_small_freeform_summary">Tryck och håll ned händelseraden och dra mot ett hörn</string>
+    <string name="fullscreen_slide_to_small_freeform">Minimera en app</string>
+    <string name="fullscreen_slide_to_small_freeform_summary">Dra från botten av skärmen till det övre högra hörnet av skärmen</string>
     <string name="how_to_close_or_fullscreen_freeform">Stänga flytande fönster eller växla till helskärmsläge</string>
     <string name="how_to_drop_down_to_fullscreen">Växla till helskärmsläge</string>
     <string name="how_to_drop_down_to_fullscreen_summary">Tryck och håll, och dra sedan ner händelseraden för ett flytande fönster</string>

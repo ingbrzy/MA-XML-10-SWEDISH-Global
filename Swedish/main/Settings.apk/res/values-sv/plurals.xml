@@ -92,6 +92,10 @@
         <item quantity="other">%d tillgängliga enheter</item>
         <item quantity="one">%d tillgänglig enhet</item>
     </plurals>
+    <plurals name="color_game_led_freq_entries">
+        <item quantity="other">Var %d sekund</item>
+        <item quantity="one">Var %d sekund</item>
+    </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d enheter</item>
         <item quantity="one">%d enhet</item>

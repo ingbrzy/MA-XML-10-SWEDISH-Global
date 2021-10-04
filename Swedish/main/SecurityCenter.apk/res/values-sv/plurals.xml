@@ -176,6 +176,10 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="other">Sök bland %d appar</item>
         <item quantity="one">Sök bland %d app</item>
     </plurals>
+    <plurals name="find_leak_risk">
+        <item quantity="other">%d sekretessrelaterade risker</item>
+        <item quantity="one">%d sekretessrelaterad risk</item>
+    </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d problem kräver optimering</item>
         <item quantity="one">%1$d problem kräver optimering</item>
@@ -231,6 +235,10 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
     <plurals name="gb_signed_days_sum">
         <item quantity="other">Incheckad %d dagar i rad</item>
         <item quantity="one">Incheckad %d gång</item>
+    </plurals>
+    <plurals name="gb_toolbox_guide_known">
+        <item quantity="other">Uppfattat (%ds)</item>
+        <item quantity="one">Uppfattat (%ds)</item>
     </plurals>
     <plurals name="gb_voice_changer_toast_tips_window_bubble">
         <item quantity="other">"Prova röstförändrare nu

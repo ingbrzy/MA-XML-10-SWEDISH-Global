@@ -163,6 +163,7 @@
     <string name="open_close_tip_content">För att stänga det flytande fönstret, tryck och håll händelseraden och svep sedan upp</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
+    <string name="other_ime">Andra tangentbord</string>
     <string name="package_delete_confirm_step_1">Avinstallera %s?</string>
     <string name="package_delete_confirm_step_2">Att avinstallera den här appen kan innebära att ditt system blir instabilt.</string>
     <string name="package_delete_confirm_step_3">Du kommer inte kunna öppna den här appen efter att du tagit bort den.</string>

@@ -176,41 +176,13 @@
         <item quantity="other">%d populära låtar</item>
         <item quantity="one">%d populär låt</item>
     </plurals>
-    <plurals name="transfer_prompt">
-        <item quantity="other">Spela upp video i %1$d sekunder</item>
-        <item quantity="one">Spela upp video i %1$d sekund</item>
-    </plurals>
     <plurals name="v5_edit_mode_title">
-        <item quantity="other">%1$d valda</item>
-        <item quantity="one">%1$d vald</item>
+        <item quantity="other">%1$d objekt valda</item>
+        <item quantity="one">%1$d objekt vald</item>
     </plurals>
     <plurals name="video_collection_reminder_view">
         <item quantity="other">Du har inte tittat på %d favoritvideor på länge.</item>
         <item quantity="one">Du har inte tittat på %d favoritvideo på länge.</item>
-    </plurals>
-    <plurals name="video_download_clear_info">
-        <item quantity="other">Lyckades ta bort %1$d videor.</item>
-        <item quantity="one">Lyckades ta bort %1$d video.</item>
-    </plurals>
-    <plurals name="video_download_clear_prompt">
-        <item quantity="other">Rensa %1$d videor?</item>
-        <item quantity="one">Rensa %1$d video?</item>
-    </plurals>
-    <plurals name="video_history_clear_info">
-        <item quantity="other">%1$d objekt borttagna från historiken.</item>
-        <item quantity="one">%1$d objekt borttagen från historiken.</item>
-    </plurals>
-    <plurals name="video_history_clear_prompt">
-        <item quantity="other">Ta bort %1$d objekt från historiken?</item>
-        <item quantity="one">Ta bort %1$d objekt från historiken?</item>
-    </plurals>
-    <plurals name="video_push_multi_message">
-        <item quantity="other">%1$d uppdateringar är tillgängliga.</item>
-        <item quantity="one">%1$d uppdatering är tillgänglig.</item>
-    </plurals>
-    <plurals name="video_subtitle_last_message">
-        <item quantity="other">%d minuter återstår</item>
-        <item quantity="one">%d minut återstår</item>
     </plurals>
     <plurals name="videos_updated_amount">
         <item quantity="other">Kolla in %1$d nya video</item>

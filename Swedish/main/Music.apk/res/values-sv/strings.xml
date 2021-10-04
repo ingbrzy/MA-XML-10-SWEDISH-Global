@@ -51,7 +51,7 @@
     <string name="action_item_download">Ladda ner</string>
     <string name="action_item_favorite">Favorit</string>
     <string name="action_item_hide">Dölj</string>
-    <string name="action_item_hifi">Hörlurar &amp; ljudeffekter</string>
+    <string name="action_item_hifi">Hörlurar</string>
     <string name="action_item_play_all">Blanda alla</string>
     <string name="action_item_play_next">Spela senare</string>
     <string name="action_item_play_video">Spela musikvideo</string>
@@ -63,6 +63,7 @@
     <string name="ad_data_exception">Fel i data för reklam</string>
     <string name="ad_recommend">Visa annonser</string>
     <string name="ad_setting">Ytterligare inställningar</string>
+    <string name="add">Lägg till</string>
     <string name="add_music">Lägg till låtar</string>
     <string name="add_to_last_of_playlist">Lägg till i slutet på spellistan</string>
     <string name="add_to_playlist">Lägg till i kön</string>
@@ -206,6 +207,7 @@
     <string name="dialog_cannot_resume">Nedladdning avbruten. Den kan inte återupptas.</string>
     <string name="dialog_clear_history">Rensa listan över nyligen spelade låtar?</string>
     <string name="dialog_confirm_delete_checkbox_message">Radera även lokala filer</string>
+    <string name="dialog_continue">OK</string>
     <string name="dialog_failed_body">Försök ladda ner senare eller ta bort filen från kön?</string>
     <string name="dialog_file_already_exists">Kan inte ladda ned. Filen finns redan.</string>
     <string name="dialog_file_missing_body">Kunde inte hitta den nedladdade filen.</string>
@@ -241,6 +243,7 @@
     <string name="dialog_song_view_type_artist">Efter artist</string>
     <string name="dialog_song_view_type_folder">Efter mapp</string>
     <string name="dialog_song_view_type_song">Efter låt</string>
+    <string name="dialog_stop_audio_in">Uppspelningstimer</string>
     <string name="dialog_subtitle_make_playlist_public">Publika spellistor är tillgängliga för andra människor. Privata spellistor är bara synliga för dig på alla synkade enheter.</string>
     <string name="dialog_title_clearlist_tracks">Ta bort från kö</string>
     <string name="dialog_title_delete_tracks">Radera</string>
@@ -287,7 +290,9 @@
     <string name="download_method">Ladda ned</string>
     <string name="download_no_application_title">Kan inte öppna filen</string>
     <string name="download_paused_in_power_save_mode">Nerladdningar pausas när Batterisparläge är på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laddar ner…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Nedladdningskvalitet</string>
     <string name="download_quality_summary">Ytterligare inställningar för låtar du laddar ned</string>
     <string name="download_queued">Köad</string>
@@ -375,7 +380,9 @@
     <string name="exo_media_action_repeat_all_description">Upprepa alla</string>
     <string name="exo_media_action_repeat_off_description">Upprepa inga</string>
     <string name="exo_media_action_repeat_one_description">Upprepa en</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativ</string>
     <string name="exo_track_role_closed_captions">Undertexter</string>
     <string name="exo_track_role_commentary">Kommentar</string>
@@ -606,6 +613,7 @@
     <string name="mulit_choice_management">Hantera flera objekt</string>
     <string name="music_browser_label">Musik</string>
     <string name="music_filter">Filtrera ljudfiler</string>
+    <string name="music_quality">Ljudkvalitet</string>
     <string name="music_recommendation">Låtrekommendationer</string>
     <string name="music_service">Musiktjänst</string>
     <string name="music_settings">Musik</string>
@@ -638,6 +646,7 @@
     <string name="no_local_songs_selected">Kan inte skicka låtar för de har inte laddats ned</string>
     <string name="no_local_source_find">Kunde inte hitta låt</string>
     <string name="no_longer_prompt">Visa inte igen</string>
+    <string name="no_lyrics">Inga låttexter</string>
     <string name="no_results_return">Inga sökresultat</string>
     <string name="no_scanned_songs">Tom</string>
     <string name="no_song_downloaded">Kunde inte hitta låtar att ladda ner</string>
@@ -757,12 +766,14 @@
     <string name="privacy_authorize_revoking">Upphäver tillståndet…</string>
     <string name="privacy_desc">Integritetspolicy (obligatorisk)</string>
     <string name="privacy_policy">Integritetspolicy</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sv_SE</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Musik behöver samla in nödvändig personlig information för att förse dig med online streaming-tjänster. Du kan läsa om hur vi hanterar den information vi samlar in i vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a>. Du kan när som helst dra tillbaka ditt samtycke till Integritetspolicyn för Mi Musik i Inställningarna.
 Läs och acceptera vårt &lt;a href=\"%2$s\">Användaravtal&lt;/a> och &lt;a href=\"%1$s\">Integritetspolicy&lt;/a> innan du använder Mi Musik.
 Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte kunna använda vissa funktioner i denna app; men dess grundläggande funktionalitet kommer fortfarande vara tillgänglig för dig.&lt;/Data>"</string>
     <string name="privacy_request_subtitle">"Välkommen till Mi Musik! Denna app tillhandahåller följande tjänster:
 -En lokal ljudspelare
 - Online streaming-tjänster"</string>
+    <string name="privacy_request_subtitle_offline">Välkommen till Mi Music! Denna app tillhandahåller en lokal spelare för ljudfiler.</string>
     <string name="privacy_request_title">Regler och villkor</string>
     <string name="pro_member">PRO-medlem</string>
     <string name="project_device">Mi Telefon</string>
@@ -901,6 +912,7 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="start_to_download">Laddar ner…</string>
     <string name="start_to_play">Spela</string>
     <string name="start_update">Installerar ny version…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Lagringsutrymme för Dubbelappar</string>
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
@@ -958,6 +970,7 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="toast_download_in_process">Nedladdning pågår</string>
     <string name="toast_favorite_has_been_added">Tillagd i spellistan</string>
     <string name="toast_follow_success">Följer</string>
+    <string name="toast_hungama_vip_song">Den här låten finns endast tillgänglig för PRO-medlemmar. Skaffa en prenumeration för att ladda ner den här låten.</string>
     <string name="toast_is_pro">Du är redan en PRO-medlem.</string>
     <string name="toast_my_playlist_illegal_name">Titeln på den här spellistan är inte giltig. Byt namn på spellistan.</string>
     <string name="toast_my_playlist_set_to_private">Den här spellistan är privat nu. Andra personer kan inte se den.</string>
@@ -998,6 +1011,7 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="upload_playlist_to_hungama_title">Synkronisera online-låtar med Hungama för att kunna komma åt dem på andra enheter där du använder ditt Mi-konto.</string>
     <string name="upload_playlist_to_hungama_toast">Online-låtar kommer synkroniseras till Hungarna</string>
     <string name="user_agreement">Användaravtal</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sv_SE</string>
     <string name="user_playlist_plaza">Spellistor</string>
     <string name="user_privacy_dialog_negative_text">Avbryt</string>
     <string name="user_privacy_dialog_positive_count_down_text">Dra tillbaka (%ss)</string>

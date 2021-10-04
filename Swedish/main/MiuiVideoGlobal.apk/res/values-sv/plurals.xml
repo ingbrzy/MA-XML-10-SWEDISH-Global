@@ -76,6 +76,14 @@
         <item quantity="other">%d mappar</item>
         <item quantity="one">%d mapp</item>
     </plurals>
+    <plurals name="long_video_minute">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+    </plurals>
+    <plurals name="long_video_season">
+        <item quantity="other">%d säsonger</item>
+        <item quantity="one">%d säsong</item>
+    </plurals>
     <plurals name="lv_subtitle_offset_advance_times">
         <item quantity="other">Undertexter kommer att visas %.1f sekunder tidigare</item>
         <item quantity="one">Undertexter kommer att visas %.1f sekund tidigare</item>
