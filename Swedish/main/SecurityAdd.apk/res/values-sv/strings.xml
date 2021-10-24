@@ -58,6 +58,7 @@
     <string name="dual_app_title">Dubbelappar</string>
     <string name="dual_app_words">Varje konto förtjänar en egen app</string>
     <string name="early_morning">Morgon</string>
+    <string name="empty">" "</string>
     <string name="eras_ad">V.T.</string>
     <string name="eras_bc">F.V.T.</string>
     <string name="evening">Eftermiddag</string>
@@ -236,6 +237,7 @@
     <string name="gb_pannel_control_mode_power_saving">Spara batteri</string>
     <string name="gb_weixinpay_can_not_complete">Kan inte slutföra betalning. Installera för att fortsätta.</string>
     <string name="gdpr_msg">&lt;Data>För att kunna använda grundläggande funktioner i Säkerhet måste du godkänna att Xiaomi samlar in, behandlar och använder dina personuppgifter, inklusive information om hur du använder Säkerhets funktioner (t.ex. statistik om mobil dataanvändning, information om skadliga koder samt grundläggande information om din enhet) och andra typer av information som anges i vår &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Integritetspolicy&lt;/a>.&lt;/Data></string>
+    <string name="hybrid_provider">Tillhandahålls av %1$s</string>
     <string name="install_success">%s Install Success</string>
     <string name="lucky_result_title">Röda kuvert</string>
     <string name="main_toolbar_purchase">Fyll upp</string>
@@ -312,6 +314,7 @@
     <string name="net_booster_overdue_notification_tip">Sessionen med ökad hastighet på nätverket är snart slut. Förnya sessionen?</string>
     <string name="network_not_available">Kan inte ansluta till nätverket</string>
     <string name="night">Kväll</string>
+    <string name="no_network">Kan inte ansluta till nätverket</string>
     <string name="no_network_btn">Försök igen</string>
     <string name="noon">Middagstid</string>
     <string name="not_set">Inte angett</string>
@@ -337,6 +340,7 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>
@@ -425,6 +429,9 @@
     <string name="usage_sorted_loading_text">Vänta lite…</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
+    <string name="web_sso_login_fail">Du måste logga in igen</string>
+    <string name="web_sso_login_message">Loggar in…</string>
+    <string name="webview_reload">Försök igen</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>

@@ -32,10 +32,11 @@
     <string name="adding_or_updating_account">Uppdaterar konto…</string>
     <string name="afternoon">Eftermiddag</string>
     <string name="am">F.m</string>
-    <string name="app_name">Hitta Enhet</string>
+    <string name="app_name">Hitta enhet</string>
     <string name="captcha">Captcha</string>
     <string name="change_find_device_status_failed">Kunde inte låsa upp. %s.</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
+    <string name="close">Stäng</string>
     <string name="copy">Kopiera</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -45,22 +46,26 @@
     <string name="default_debt_msg_words">"Den här enheten är låst på grund av en försenad avbetalning.
 Kontakta ditt försäljningsagent för detaljer."</string>
     <string name="default_lock_msg_words">Denna enhet är associerad med ett befintligt Mi-konto. Av säkerhetsskäl måste du ange lösenord för att kontrollera enheten.</string>
-    <string name="default_lock_msg_words_with_phone">Hej! Jag har blivit av med min telefon. Kan du kontakta mig? Tack!</string>
+    <string name="default_lock_msg_words_with_phone">Hej! Jag har blivit av med den här enheten. Kan du kontakta mig? Tack!</string>
     <string name="device_locked">Enheten är låst</string>
     <string name="device_lost">Enheten är förlorad</string>
-    <string name="disable_find_device_error">Det går inte att stänga Sök enhet. %1$s</string>
+    <string name="disable_find_device_error">Kunde inte stänga av Hitta enhet. %1$s</string>
     <string name="disable_find_device_success">Hitta enheten är avstängd</string>
     <string name="doing_extra_login_steps">Verifierar logga in…</string>
     <string name="early_morning">Morgon</string>
     <string name="emergency_call">Nödsamtal</string>
     <string name="empty" />
-    <string name="enable_find_device_error">Det går inte att aktivera Hitta enhet. %1$s</string>
+    <string name="enable_find_device_error">Kunde inte slå på Hitta enhet. %1$s</string>
     <string name="enable_find_device_success">Hitta enheten är påslagen</string>
     <string name="eras_ad">V.T.</string>
     <string name="eras_bc">F.V.T.</string>
     <string name="evening">Eftermiddag</string>
     <string name="expand_button_title">Avancerat</string>
-    <string name="find_device">Hitta Enhet</string>
+    <string name="find_device">Hitta enhet</string>
+    <string name="find_device_capture_done_notification_content">View the photo on i.mi.com</string>
+    <string name="find_device_capture_done_notification_title">Find device took a photo remotely</string>
+    <string name="find_device_capture_notification_content">A request to take a photo remotely with this device was submitted by your account</string>
+    <string name="find_device_capture_notification_title">Find device is about to take a photo</string>
     <string name="find_device_crash">Hitta enhet stängdes oväntat.</string>
     <string name="find_device_error_access_denied">Åtkomst nekad.</string>
     <string name="find_device_error_account_sys_timeout">"Det gick inte att ansluta till Mi kontot. "</string>
@@ -71,14 +76,16 @@ Kontakta ditt försäljningsagent för detaljer."</string>
     <string name="find_device_error_server">Server fel (%s).</string>
     <string name="find_device_error_unknown">Okänt fel (%s).</string>
     <string name="find_device_noise_title">Hitta enhet larm</string>
-    <string name="find_device_notice">Gå till &lt;b>&lt;font color=#0099FF>i.mi.com&lt;/font>&lt;/b> för att hitta, låsa eller återställa din enhet.</string>
+    <string name="find_device_notice">Gå till &lt;b>&lt;font color=#0099FF>i.mi.com&lt;/font>&lt;/b> för att lokalisera och låsa din enhet, markera den som förlorad, radera data eller ta foton på distans.</string>
     <string name="find_device_notice_sms_alert_with_common_charge_hint">För att uppdatera SIM-status och säkerställa att alla tjänster fungerar normalt, kommer &lt;font color=#0097FF>&lt;b>betalt textmeddelande&lt;/b>&lt;/font> att skickas efter att du växlar SIM-kort. Du kommer att debiteras för detta meddelande av din operatör.</string>
     <string name="find_device_notice_sms_alert_with_domestic_charge_hint">För att uppdatera SIM-status och säkerställa att alla tjänster fungerar normalt, kommer &lt;font color=#0097FF>&lt;b>inrikes betalt textmeddelande&lt;/b>&lt;/font> att skickas efter att du växlar SIM-kort. Du kommer att debiteras för detta meddelande av din operatör.</string>
     <string name="find_device_notice_sms_alert_with_internal_charge_hint">För att uppdatera SIM-status och säkerställa att alla tjänster fungerar normalt, kommer &lt;font color=#0097FF>&lt;b>internationellt betalt textmeddelande&lt;/b>&lt;/font> att skickas efter att du växlar SIM-kort. Du kommer att debiteras för detta meddelande av din operatör.</string>
     <string name="find_device_stop_noise">Tryck på OK för att tysta</string>
     <string name="find_device_storage_corrupted">Hitta enheten lagring skadad. Din enhet är osäker nu.</string>
-    <string name="find_device_success_title">Hitta enhet</string>
+    <string name="find_device_success_title">Hitta enheten är påslagen</string>
     <string name="find_device_telephony_fault">Hitta enhet: Telefonfel (%s).</string>
+    <string name="fmt_chinese_date">N月e</string>
+    <string name="fmt_date">D</string>
     <string name="fmt_date_day">dd</string>
     <string name="fmt_date_long_month">MMMM</string>
     <string name="fmt_date_long_month_day">MMMM dd</string>
@@ -94,7 +101,11 @@ Kontakta ditt försäljningsagent för detaljer."</string>
     <string name="fmt_date_short_month_day">MM/dd</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
     <string name="fmt_date_short_year_month_day">MM/dd/yyyy</string>
+    <string name="fmt_date_time">D T</string>
+    <string name="fmt_date_time_timezone">D T z</string>
+    <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy</string>
+    <string name="fmt_time">T</string>
     <string name="fmt_time_12hour">hh</string>
     <string name="fmt_time_12hour_minute">hh:mm</string>
     <string name="fmt_time_12hour_minute_pm">hh:mm aa</string>
@@ -113,12 +124,22 @@ Kontakta ditt försäljningsagent för detaljer."</string>
     <string name="fmt_time_minute_second_millis">m:s.S</string>
     <string name="fmt_time_second">s</string>
     <string name="fmt_time_second_millis">s.S</string>
+    <string name="fmt_time_timezone">T z</string>
+    <string name="fmt_timezone">z</string>
+    <string name="fmt_weekday">W</string>
+    <string name="fmt_weekday_date">W, D</string>
+    <string name="fmt_weekday_date_time">W, D T</string>
+    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
+    <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
+    <string name="fmt_weekday_time">W T</string>
+    <string name="fmt_weekday_time_timezone">W T z</string>
+    <string name="fmt_weekday_timezone">W z</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
-    <string name="i_know">OK</string>
+    <string name="i_know">Okej</string>
     <string name="lock_msg_phone">Kontaktinformation: %s</string>
     <string name="login_extra_steps">Logga in för att verifiera</string>
     <string name="login_failed">Det gick inte att logga in. %s.</string>
@@ -208,6 +229,7 @@ Kontakta ditt försäljningsagent för detaljer."</string>
     <string name="saturday_short">Lör</string>
     <string name="saturday_shortest">Lör</string>
     <string name="search_menu_title">Sök</string>
+    <string name="send">Skicka</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_on_empty_captcha">Captcha får inte vara tomt</string>
     <string name="stop_on_empty_password">Lösenordsfältet kan inte vara tomt</string>
@@ -282,7 +304,7 @@ Kontakta ditt försäljningsagent för detaljer."</string>
     <string name="unlock_error_passport_sdk_timeout">Mi konto SDK svarar inte</string>
     <string name="unlock_error_rpc">RPC-fel</string>
     <string name="unlock_error_server">Serverfel</string>
-    <string name="unlock_error_ssl_hand_shake">Kunde inte ansluta till server, försök att ställa in datum och tid manuellt.</string>
+    <string name="unlock_error_ssl_hand_shake">Kunde inte ansluta till servern. Prova att ställa in datum och tid manuellt.</string>
     <string name="unlock_error_unknown">Kan inte logga in</string>
     <string name="unlock_error_user_name">Ogiltigt användarnamn</string>
     <string name="unlock_error_wrong_vcode">Koden du angav är felaktig</string>
@@ -291,6 +313,7 @@ Sätt i ett fungerande SIM-kort och anslut inte till ogiltiga Wi-Fi-nätverk.
 
 Glömt lösenordet?
 Gå till id.mi.com, välj \"Glömt lösenordet?\", och följ instruktionerna.
+
 Kan du inte aktivera enheten?
 Gå till i.mi.com/ss och skicka din ansökan för att låsa upp enheten."</string>
     <string name="unlock_help_title">Låsa upp hjälp:</string>

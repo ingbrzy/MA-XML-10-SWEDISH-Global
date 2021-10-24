@@ -114,7 +114,7 @@
     <string name="close_twice_auth_note">"Notera:
 Efter att ha skapat en ny säkerhetsfråga och bekräftat ditt födelsedatum kommer tvåstegsverifieringen för Apple-ID avaktiveras. Om du inte ser alternativet att avaktivera tvåstegsverifieringen så kan du inte avaktivera det."</string>
     <string name="close_twice_auth_operation">"URL:
-https://appleid.apple.com/#!&amp;page=signin to close"</string>
+https://appleid.apple.com/#!&amp;page=logga in för att aktivera"</string>
     <string name="close_twice_auth_step_1">1. Öppna en webbläsare på en dator och gå till appleid.apple.com.</string>
     <string name="close_twice_auth_step_2">2. Logga in till det Apple-ID som du vill avaktivera tvåstegsverifieringen för, gå till sektionen \"Säkerhet\" för kontot och välj \"Redigera\".</string>
     <string name="close_twice_auth_step_3">3. Tryck på \"Avaktivera tvåstegsverifieringen\". Tryck igen för att bekräfta.</string>
@@ -172,6 +172,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
     <string name="dialog_backup_password_change_machine_tips">Du kommer inte att kunna överföra lösenordsskyddade säkerhetskopior. Stäng av säkerhetskopieringslösenordet innan användning av Mi Mover.</string>
     <string name="dialog_backup_password_restore_tips">Det går inte att återställa objekt när säkerhetskopieringslösenordet är på. Stäng av säkerhetskopieringslösenordet.</string>
     <string name="dialog_backup_password_to_settings">Inställningar</string>
+    <string name="digit_percent">%</string>
     <string name="dir_date_format">ååååMMdd_TTmmss</string>
     <string name="disable_encrypt_description">Inte krypterad</string>
     <string name="disable_encrypt_title">Stäng av kryptering</string>
@@ -332,6 +333,7 @@ Se till att USB-minnet har tillräckligt med utrymme innan du startar."</string>
 2.\u0009Gå till inställningar i Mi Talk och välj \"Säkerhetskopiera kontakter till Mi Konto\""</string>
     <string name="import_from_xiaomi_account_hint2">Om du redan har säkerhetskopierat, tryck Nästa.</string>
     <string name="import_from_xiaomi_account_hint_title">Använda Mi Talk för att säkerhetskopiera dina kontakter på flera enheter.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">På grund av kompatibilitetsproblem så kan du bara överföra delar av din data från iOS-enheter. Se till att du har skapat en iCloud backup före du börjar överföra.</string>
     <string name="lack_perm_msg">Mi Mover behöver följande behörigheter: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Behörigheter krävs</string>
@@ -384,6 +386,7 @@ Se till att USB-minnet har tillräckligt med utrymme innan du startar."</string>
     <string name="midnight">Natt</string>
     <string name="miliao_account_guide">Använd ditt Mi Konto för att logga in på Xiaomi Cloud, MIUI Teman och andra Mi-tjänster oavsett var du befinner dig.</string>
     <string name="miliao_account_login">Logga in med Mi Talk</string>
+    <string name="miuix_access_state_desc">Valt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
@@ -598,7 +601,8 @@ Se till att USB-minnet har tillräckligt med utrymme innan du startar."</string>
     <string name="saturday_shortest">Lör</string>
     <string name="save_finish_with_failing_items">"Överföringen blev avbruten.r
  Datan som inte importerades måste importeras igen."</string>
-    <string name="saving_data">Importerar data från iCloud…ravaktivera in Wi-Fi</string>
+    <string name="saving_data">"Importerar data från iCloud…r
+avaktivera in Wi-Fi"</string>
     <string name="saving_data_no_time">Återställer data…</string>
     <string name="saving_data_space_low">"Inte tillräckligt med utrymme.r
 Frigör minst %s."</string>
@@ -971,8 +975,11 @@ Stäng inte sidan innan anslutningen är upprättad."</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
     <string name="wifi_title">Wi-Fi-inställningar</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunde inte starta nedladdning. Kontrollera att appen för Nedladdningar fungerar normalt.</string>
     <string name="xiaomi_external_storage_unavailable">Lagring inte tillgänglig, kontrollera ditt SD-kort.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_router">Mi Router</string>
     <string name="xiaomi_router_location">Mi Router %s</string>
     <string name="xiaomi_update_dialog_message">"Introducerar version %1$s

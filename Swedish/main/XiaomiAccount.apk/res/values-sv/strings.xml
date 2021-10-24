@@ -31,6 +31,7 @@
     <string name="access_token_expired_warning">Weibo Konto har gått ut</string>
     <string name="access_token_invalid_warning">Weibo kontot är ogiltigt</string>
     <string name="account">Konto</string>
+    <string name="account_and_password">Lösenord</string>
     <string name="account_bind_devices">Enheter</string>
     <string name="account_bind_secure_email_title">Lägg till e-post</string>
     <string name="account_bind_secure_phone_title">Lägg till telefonnummer</string>
@@ -62,7 +63,7 @@
  Ditt kontoID: %s"</string>
     <string name="account_token_expired_title">Det gick inte att autentisera</string>
     <string name="account_user_avatar">Profilbild</string>
-    <string name="account_user_avatar_from_album">Select photo</string>
+    <string name="account_user_avatar_from_album">Välj foto</string>
     <string name="account_user_avatar_from_camera">Ta bild</string>
     <string name="account_user_base_info">Personlig information</string>
     <string name="account_user_birthday">Födelsedag</string>
@@ -75,7 +76,11 @@
     <string name="account_user_name_dialog_title">Skriv in användarnamn</string>
     <string name="account_user_other_info">Fler källor</string>
     <string name="account_user_phone">Återställ telefon</string>
+    <string name="account_user_phone_show">Telefon: %s</string>
     <string name="account_user_region">Region</string>
+    <string name="account_verify_guide_bind_mail_desc">Lägg till e-post för återställning</string>
+    <string name="account_verify_guide_bind_phone_desc">Lägg till telefon för återställning</string>
+    <string name="account_verify_guide_set_password_desc">Ange ett lösenord</string>
     <string name="account_xiaomi_service">Tjänster</string>
     <string name="action_add_phone">Lägg till telefonnummer</string>
     <string name="action_retry">Försök igen</string>
@@ -201,16 +206,17 @@ Skicka koden till handledaren."</string>
     <string name="facebook_app_id">2263965750590514</string>
     <string name="facebook_login">Logga in med Facebook</string>
     <string name="failed_dup_secure_phone_number">Detta telefonnummer är redan kopplat till ett annat Mi-konto</string>
+    <string name="family_share">Familjedelning</string>
     <string name="fb_login_protocol_scheme">fb2263965750590514</string>
     <string name="find_device">Hitta enhet</string>
     <string name="find_device_access_denied">Kan inte hämta status, tillgång nekad</string>
     <string name="find_device_account_error">Kan inte hämta status på grund av kontofel</string>
     <string name="find_device_activate_account">Aktivera konto</string>
-    <string name="find_device_bad_response_error">A server error occurred. Wait a minute or two and try again.</string>
+    <string name="find_device_bad_response_error">Ett serverfel inträffade. Vänta en minut eller två och försök igen.</string>
     <string name="find_device_clear_data">Radera data</string>
     <string name="find_device_close">Av</string>
     <string name="find_device_error_password_not_confirmed">Kan inte stänga av Hitta enhet. Ange ditt Mi-lösenord igen.</string>
-    <string name="find_device_error_password_recently_changed">"You've changed your password within last %d days. Can't turn off Find device now due to security reasons."</string>
+    <string name="find_device_error_password_recently_changed">Du har ändrat ditt lösenord inom de senaste %d dagarna. Kan inte stänga av Hitta enhet nu på grund av säkerhetsskäl.</string>
     <string name="find_device_interrupted">Operationen avbröts, vänta en minut eller två och försök igen</string>
     <string name="find_device_io_error">Kan inte ansluta till nätverket</string>
     <string name="find_device_location">Lokalisera</string>
@@ -229,7 +235,8 @@ Skicka koden till handledaren."</string>
     <string name="find_device_request_prepare_error">Kan inte hämta status, försök igen senare</string>
     <string name="find_device_set_lost_model">Förlorat läge</string>
     <string name="find_device_title">Hitta enhet</string>
-    <string name="find_device_unknown_error">"Can't get device status. Wait a minute or two and try again."</string>
+    <string name="find_device_unknown_error">Kan inte hämta enhetens status. Vänta en minut eller två och försök igen.</string>
+    <string name="find_equipment">Hitta enhet</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -286,6 +293,7 @@ Skicka koden till handledaren."</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="get_back_password">Återställ lösenord</string>
     <string name="get_back_pwd">Återställer lösenord</string>
     <string name="get_device_list_failed">Kan inte hämta enheter</string>
     <string name="get_identity_auth_url_failed">Det gick inte att verifiera ID</string>
@@ -319,13 +327,14 @@ Skicka koden till handledaren."</string>
     <string name="loading_micloud_sync_data">Ett ögonblick…</string>
     <string name="login_check_find_device">Hämtar säkerhetsinformation om enheten…</string>
     <string name="login_check_find_device_failed_title">Det gick inte att kontrollera enhetssäkerhet info</string>
-    <string name="login_find_device_bind">This device is associated with an existing Mi Account ID (%s).</string>
+    <string name="login_find_device_bind">Denna enhet är kopplad till befintliga Mi konto-ID (%s).</string>
     <string name="logout_account">Logga ut</string>
     <string name="logout_failed">Det går inte att logga ut</string>
     <string name="mi_account_identity_title">Verifiera din identitet</string>
     <string name="mi_finance">Min ekonomi</string>
     <string name="mi_finance_info">Bonusar för nya användare</string>
     <string name="mi_health">Xiaomi Health</string>
+    <string name="mi_member">Mi Community</string>
     <string name="mi_vip_info">Visa privilegier</string>
     <string name="midnight">Natt</string>
     <string name="mipay">Betala</string>
@@ -336,6 +345,7 @@ Skicka koden till handledaren."</string>
     <string name="mipay_indentity_done">Verifierad</string>
     <string name="mipay_others">Övrigt</string>
     <string name="mipay_transit_card">Transportkort</string>
+    <string name="miuix_access_state_desc">Valt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
@@ -405,14 +415,18 @@ Skicka koden till handledaren."</string>
     <string name="my_device_title">Aktuella enheten</string>
     <string name="need_install_wechat">Installera WeChat först</string>
     <string name="night">Kväll</string>
+    <string name="no_install">Inte installerad</string>
     <string name="no_network_btn">Uppdatera</string>
     <string name="no_network_title">Det går inte ansluta till nätverket.</string>
+    <string name="no_password_set">Inte angivet</string>
     <string name="no_phone">Inget telefonnummer</string>
     <string name="no_response_retry">Inget svar, försök igen.</string>
     <string name="no_sim_card_or_unactivated">SIM-kortet är inte installerat eller aktiverat</string>
     <string name="nobind">Ej ansluten</string>
     <string name="noon">Middagstid</string>
     <string name="not_set">Inte angett</string>
+    <string name="notify_bind_security_phone">Lägg till telefon för återställning</string>
+    <string name="notify_complete_security_info">Lägg till info för återställning</string>
     <string name="notify_network_restricted_content_bg_network">Mi kontots internet åtkomst är begränsad. Tryck för att tillåta.</string>
     <string name="notify_network_restricted_content_hidden_state">Mi kontots bakgrundsaktivitet är begränsad. Tryck för att tillåta.</string>
     <string name="notify_network_restricted_content_mobile_network">Mi kontots internet åtkomst är begränsad. Tryck för att tillåta.</string>
@@ -445,6 +459,7 @@ Skicka koden till handledaren."</string>
     <string name="passport_activing_account">Aktiverar…</string>
     <string name="passport_adding_account">Lägger till konto…</string>
     <string name="passport_area_code_hot">OFTA ANVÄNT</string>
+    <string name="passport_area_code_others">Använd ett annat prefx</string>
     <string name="passport_area_code_title">Landskod</string>
     <string name="passport_auto_generate_pwd">Generera säkert lösenord</string>
     <string name="passport_back">Bakåt</string>
@@ -636,6 +651,7 @@ Skicka koden till handledaren."</string>
     <string name="passport_title_reg">Skapa ett konto</string>
     <string name="passport_trust_device">Lägg till denna enhet som verifierad enhet</string>
     <string name="passport_trying_read_verify_code_sms">Hämtar verifieringskod…</string>
+    <string name="passport_tz_invalid">Säkerhetsrisker upptäckta. Den här enheten kan ha komprometterats eller OS-systemet uppdaterat. Testa med andra inloggningsalternativ.</string>
     <string name="passport_uplink_reg">Lägg till telefonnummer</string>
     <string name="passport_uplink_send_sms_hint">Trycka på \"Skicka\" efter du blivit omdirigerad till sidan med ett komponerat meddelande.</string>
     <string name="passport_uplink_slot1_reg">Använd SIM 1</string>
@@ -673,6 +689,7 @@ Skicka koden till handledaren."</string>
     <string name="permission_group_phone">Telefon</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_storage">Lagringsutrymme</string>
+    <string name="personal_info_desc">Foto, smeknamn, och mer</string>
     <string name="phone_num_use_for">Telefonnummer används för:</string>
     <string name="photoPickerNotFoundText">Inga bilder tillgängliga.</string>
     <string name="pm">E.m</string>
@@ -719,6 +736,7 @@ Skicka koden till handledaren."</string>
     <string name="search_user_detail_path">Inställningar/Mi-konto/Personlig information</string>
     <string name="search_user_detail_top_key_words">Personlig information,Ändra profilbild,Ändra användarnamn,Ändra smeknamn,Ändra födelsedatum,Ändra kön</string>
     <string name="select_all">Välj alla</string>
+    <string name="self_account_info">Personlig information</string>
     <string name="send">Skicka</string>
     <string name="send_diagnosis_log">Skicka diagnostiklogg</string>
     <string name="send_email_activate_message">Verifieringsmail skickat</string>
@@ -788,6 +806,7 @@ Skicka koden till handledaren."</string>
     <string name="the_united_nations_day">FN-dagen</string>
     <string name="the_valentines_day">Alla hjärtans dag</string>
     <string name="the_water_lantern_festival">Water Lantern-festivalen</string>
+    <string name="third_party_login">Tredjepartskonto</string>
     <string name="thursday">Torsdag</string>
     <string name="thursday_short">Tor</string>
     <string name="thursday_shortest">Tor</string>

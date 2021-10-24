@@ -30,6 +30,7 @@
     <string name="actionbar_button_up_description">Tillbaka</string>
     <string name="afternoon">Eftermiddag</string>
     <string name="allow">Tillåt</string>
+    <string name="allowed">Beviljat</string>
     <string name="altitude">%.1f</string>
     <string name="altitude_longitude_Degree_format" formatted="false">%d:%d:%d</string>
     <string name="altitude_title">Altitud</string>
@@ -142,6 +143,7 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="get_location">Få åtkomst till platsen</string>
     <string name="gradienter_title">Vattenpass</string>
     <string name="guide_toast">För att kalibrera, flytta enheten som visas nedan.</string>
     <string name="latitude">LAT</string>
@@ -157,6 +159,7 @@
     <string name="location_west">WL</string>
     <string name="longitude">LON</string>
     <string name="midnight">Natt</string>
+    <string name="miuix_access_state_desc">Valt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
@@ -222,17 +225,25 @@
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mer</string>
     <string name="morning">Morgon</string>
+    <string name="new_cta_v2_app_purpose">Visar vägbeskrivningar, koordinater, atmosfärstryck, och nuvarande altitud</string>
+    <string name="new_permission_camera_desc">För kalibrering</string>
+    <string name="new_permission_location_desc">För att visa koordinater</string>
     <string name="night">Kväll</string>
     <string name="noon">Middagstid</string>
+    <string name="not_allowed">Ej beviljat</string>
     <string name="not_set">Inte angett</string>
+    <string name="open_camera">Använd kamera</string>
     <string name="open_perm_msg">Kompassen behöver åtkomst till platsinformation och kamera. Detta är nödvändigt att fastställa koordinater och ger förhandsgranskningar. Tillåt?</string>
     <string name="open_perm_msg_no_camera">Compass behöver få åtkomst till platsinfo för att kunna avgöra koordinater. Tillåt?</string>
     <string name="open_perm_title">Behörigheter krävs</string>
     <string name="permission_camera_desc">För att visa azimut på live-förhandsgranskningen</string>
+    <string name="permission_description">Behörighetsuppgifter</string>
     <string name="permission_location_desc">För att visa koordinater</string>
     <string name="pm">E.m</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="preference_other">Övrigt</string>
+    <string name="preference_privacy_policy">Visa integritetspolicy</string>
+    <string name="preference_privacy_setting">Integritet</string>
     <string name="preference_privacy_title">Integritetspolicy</string>
     <string name="pressure">%.1f</string>
     <string name="pressure_title">Tryck</string>

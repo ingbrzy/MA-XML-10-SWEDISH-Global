@@ -285,6 +285,8 @@ Toggla av för att sluta synka."</string>
     <string name="collect_diagnosis_log">Hämta loggfiler</string>
     <string name="collection_articles">Artiklar</string>
     <string name="collection_videos">Videor</string>
+    <string name="columbus_ad_flag_text">Annons</string>
+    <string name="columbus_skip_ad">Hoppa över</string>
     <string name="com_facebook_device_auth_instructions">Gå till &lt;b>facebook.com/device&lt;/b> och skriv in koden som visas ovan.</string>
     <string name="com_facebook_image_download_unknown_error">Ett oväntat fel inträffade när en bild skulle laddas ned.</string>
     <string name="com_facebook_internet_permission_error_message">WebView-inloggning kräver INTERNET-åtkomst</string>
@@ -933,7 +935,7 @@ Skicka koden till handledaren."</string>
     <string name="mw_actionbar_textselection_title">Välj text</string>
     <string name="mw_actionbar_web_search">Webbsökning</string>
     <string name="mw_autofill_popup_content_description">Visar autofyll popup</string>
-    <string name="mw_chip_remove_icon_content_description">Remove \"%1$s\"</string>
+    <string name="mw_chip_remove_icon_content_description">Ta bort \"%1$s\"</string>
     <string name="mw_color_picker_button_black">Svart</string>
     <string name="mw_color_picker_button_blue">Blå</string>
     <string name="mw_color_picker_button_cancel">Avbryt</string>
@@ -949,7 +951,7 @@ Skicka koden till handledaren."</string>
     <string name="mw_color_picker_hue">Hue</string>
     <string name="mw_color_picker_saturation">Mättnad</string>
     <string name="mw_color_picker_value">Värde</string>
-    <string name="mw_common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="mw_common_google_play_services_install_text">%1$s kommer inte köras utan Google Play-tjänster, vilket saknas från din enhet.</string>
     <string name="mw_config_webSettingsDefaultTextEncoding">UTF-8</string>
     <string name="mw_copy_to_clipboard_failure_message">Kunde inte kopiera till Urklipp</string>
     <string name="mw_data_traffic_prompt_change">Att använda mobildata för att streama videor medför ökad dataanvändning. Om du överskrider gränsen för ditt abonnemang kan din operatör komma att fakturera dig för detta.</string>
@@ -973,7 +975,7 @@ Lämna denna sida nu?"</string>
     <string name="mw_js_dialog_title_default">JavaScript</string>
     <string name="mw_last_month">Senaste månaden</string>
     <string name="mw_license_activity_title">system WebView licenser</string>
-    <string name="mw_link_copied">Copied URL successfully</string>
+    <string name="mw_link_copied">Kopierat URL framgångsrikt</string>
     <string name="mw_low_memory_error">Kan inte slutföra tidigare operation på grund av minnesbrist</string>
     <string name="mw_miui_content_copy">Kopiera</string>
     <string name="mw_miui_content_cut">Klipp ut</string>
@@ -1078,7 +1080,7 @@ Lämna denna sida nu?"</string>
     <string name="mw_save_password_never">Aldrig</string>
     <string name="mw_save_password_notnow">Inte nu</string>
     <string name="mw_save_password_remember">Kom ihåg</string>
-    <string name="mw_speech_recognition_service_not_found">"Couldn't find Google speech engine"</string>
+    <string name="mw_speech_recognition_service_not_found">Kunde inte hitta Googles tal-funktion</string>
     <string name="mw_status_bar_notification_info_overflow">999+</string>
     <string name="mw_time_picker_dialog_am">AM</string>
     <string name="mw_time_picker_dialog_hour_minute_separator">:</string>
@@ -1175,6 +1177,13 @@ Lämna denna sida nu?"</string>
     <string name="notification_download_completed">Nedladdning lyckades</string>
     <string name="notification_download_failed">Det gick inte att ladda ner.</string>
     <string name="notification_wechat_expired_empty">WeChat har redan raderat dessa videoklipp.</string>
+    <string name="offline_notification_text">Tryck för att öppna annonsen</string>
+    <string name="offline_notification_title">Se annonsen som du sparade när du var offline</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_confirmation">Du får en avisering med en länk när du är online igen</string>
+    <string name="offline_opt_in_decline">Nej tack</string>
+    <string name="offline_opt_in_message">Vi skickar en avisering med en länk till annonsörens webbplats.</string>
+    <string name="offline_opt_in_title">Öppna annonsen när du är online igen.</string>
     <string name="ok">OK</string>
     <string name="open_app_confirm_message">Tillåt denna sida att öppna %s?</string>
     <string name="open_private_folder">Släpp för att visa dolda mappar</string>
@@ -1598,6 +1607,15 @@ Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att 
     <string name="restart_phone_bind_message">Det kan ta lite tid att ta emot SMS. Börja om ändå?</string>
     <string name="restart_phone_bind_title">Ändra telefonnummer för återställning</string>
     <string name="return_to_homepage">Gå tillbaka till startsidan</string>
+    <string name="risk_continue">Fortsätt</string>
+    <string name="risk_detail">Detaljer</string>
+    <string name="risk_malicious_url">Denna webbplats kan utgöra säkerhetshot.</string>
+    <string name="risk_protect_browsing">Mi Browser kontrollerar säkerhetsproblem på hemsidor</string>
+    <string name="risk_safe_url">Denna webbplats är säker</string>
+    <string name="risk_setting_des">Tillåt Mi Browser att kontrollera säkerhetsproblem på hemsidor</string>
+    <string name="risk_setting_title">Säker surfning</string>
+    <string name="risk_stop">Avbryt</string>
+    <string name="risk_unspecified_url">Ett problem har uppstått med den här webbsidans säkerhetscertifikat.</string>
     <string name="rlv_last_refreshing_time">Updaterad %1$s</string>
     <string name="rlv_loading_more">Vänta en stund...</string>
     <string name="rlv_pull_to_refresh">Dra nedåt för att uppdatera</string>

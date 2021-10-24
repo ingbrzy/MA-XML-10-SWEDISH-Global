@@ -437,6 +437,7 @@
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -483,6 +484,7 @@
     <string name="note_gesture_guide_step3">Tryck och håll en anteckning och dra den sedan över en mapp för att flytta anteckningen dit</string>
     <string name="note_header_first_enter_guide">Dra nedåt för att visa mer</string>
     <string name="note_invalid_mindnote_hint">Tankekartor är inte tillgängliga i denna version. Uppdatera appen för att använda denna funktion.</string>
+    <string name="note_item_default_title">Tom anteckning</string>
     <string name="note_link_email">Komponera post</string>
     <string name="note_link_other">Öppna med hjälp av Kartor appen</string>
     <string name="note_link_select">Markera text</string>
@@ -496,6 +498,7 @@
     <string name="note_sort_way">Sortera</string>
     <string name="notealert_enter">Öppna anteckning</string>
     <string name="notealert_ok">Avfärda</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Anteckningar är en system-app. Du kommer inte kunna använda denna app efter du avinstallerat den.</string>
     <string name="notes_description_title">Avinstallera Anteckningar?</string>
     <string name="notification_content_add_todo_from_other_app">Du lade till en ny uppgift. Tryck för att visa.</string>
@@ -554,6 +557,12 @@
     <string name="pref_desc_skip_confirm_for_quick_delete">Svep uppåt med 2 fingrar för att bort anteckningar utan att bekräfta</string>
     <string name="pref_desc_todo_float_mode">Svep från ovansidan av kanten av skärmen för att öppna verktygslådan</string>
     <string name="pref_excerpt_link_float">Erhåll en påminnelse om att skapa ett utdrag närhelst en URL kopieras</string>
+    <string name="pref_permission_allowed">Beviljat</string>
+    <string name="pref_permission_manage">Behörighetsuppgifter</string>
+    <string name="pref_permission_manage_key_contact">Få tillgång till kontakter</string>
+    <string name="pref_permission_manage_key_recording">Spela in ljud</string>
+    <string name="pref_permission_manage_key_storage">Åtkomst till lagringsutrymme</string>
+    <string name="pref_permission_not_allowed">Ej beviljat</string>
     <string name="pref_quick_note_desc">Använd genvägen i skärmkanten för att skapa anteckningar och uppgifter samt spara kopierade URL:er, text och bilder i Notes</string>
     <string name="pref_remind_type_summary">Spela upp påminnelseljud i Tyst läge</string>
     <string name="pref_remind_type_summary_new">Ignorera Tyst läge och fortsätt spela ljud tills att alarmet stängs av</string>
@@ -870,6 +879,9 @@ Tillåt Anteckningar att spela in ljud."</string>
     <string name="widget_size_item_2x2">%1$d×%2$d</string>
     <string name="widget_size_item_4x2">%1$d×%2$d</string>
     <string name="widget_size_item_4x4">%1$d×%2$d</string>
+    <string name="widget_size_item_big">Stor</string>
+    <string name="widget_size_item_medium">Mellan</string>
+    <string name="widget_size_item_small">Liten</string>
     <string name="widget_take_notes_title">Anteckningar</string>
     <string name="yesterday">Igår</string>
 </resources>

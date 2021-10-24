@@ -141,6 +141,8 @@
     <string name="created_successfully">Skapad utan problem</string>
     <string name="crowned_hornbill">Crowned hornbill</string>
     <string name="cu_confirm">Ställ in</string>
+    <string name="customize_radio_btn_summary">Föredra vald uppdateringsfrekvens</string>
+    <string name="customize_radio_btn_title">Anpassad</string>
     <string name="dall_sheep">Dall sheep</string>
     <string name="dart_frog_info">Its bright blue skin and poisonous glands are defense mechanisms to potential predators.</string>
     <string name="date_picker_label_day" />
@@ -150,9 +152,17 @@
     <string name="date_time_picker_dialog_title">Ange datum och tid</string>
     <string name="dc_light_hint_enable_title">Obs</string>
     <string name="dc_light_hint_normal">DC dimming kan påverka hur vissa objekt visas.</string>
+    <string name="dc_light_hint_normal_anit">Anti-blinkläge kan påverka sättet vissa objekt visas.</string>
+    <string name="dc_light_hint_normal_other">Antiblink-läge kan påverka uppdateringsfrekvensen och hur vissa objekt visas.</string>
     <string name="dc_light_hint_other">DC dimming kan påverka uppdateringsfrekvensen och hur vissa objekt visas.</string>
+    <string name="dc_light_hint_unnormal_low">Anti-blinkläge vid mindre ljus kan påverka hur vissa objekt visas.</string>
+    <string name="dc_light_hint_unnormal_other">Antiblink-läge vid mindre ljus kan påverka uppdateringsfrekvensen och sättet på vilket vissa objekt visas.</string>
     <string name="dc_lignt_enable_hint">Antiflimmer-läge kommer sätta skärmens uppdateringsfrekvens till 60 Hz. Växla till Antiflimmer-läge?</string>
     <string name="delete_first_to_add_animal">To add a new item, delete one first.</string>
+    <string name="desktop_widget_authorization">Tryck för att ge tillåtelse att visa statistik</string>
+    <string name="desktop_widget_not_support">"Statistiken för skärmtiden
+genereras inte i sekundära utrymmet"</string>
+    <string name="desktop_widget_screen_use_time">Skärmtid</string>
     <string name="display_description">Större ikoner, stor text, mindre synlig oreda</string>
     <string name="display_title">Större objekt</string>
     <string name="dynamic_ringtone_desc">"We've explored different ecosystems and recreated their distinct sounds. Start exploring the sounds of nature with us!"</string>
@@ -284,13 +294,19 @@
     <string name="focus_mode_timer_pick_dialog_title">Ange varaktighet</string>
     <string name="focus_time_exception_tip">Verkar som att systemtiden ändrades. Stäng av Fokusläge.</string>
     <string name="follow_sim1">Använd inställningar för SIM 1</string>
+    <string name="fps_high">Hög</string>
     <string name="fps_nature_summary">Maximalt uppdateringsintervall håller allt klart och tydligt</string>
     <string name="fps_nature_title">Maximal</string>
+    <string name="fps_normal">Standard</string>
+    <string name="fps_radio_btn_title">Uppdateringsfrekvens</string>
+    <string name="fps_save_battery_tips">Funktionen \"Batterispar\" är på. Uppdateringsfrekvensen är inställd på %d Hz.</string>
     <string name="fps_smooth_summary">Hög uppdateringsintervall lägger till mer tydlighet av detaljer</string>
     <string name="fps_smooth_title">Hög</string>
     <string name="fps_standard_summary">Standard uppdateringsintervall sparar batteri</string>
     <string name="fps_standard_title">Standard</string>
     <string name="fps_user_tip">- Dessa demoanimationer spelas upp i låg hastighet för din referens. Verklig prestanda kan se annorlunda ut baserat på varierande faktorer.</string>
+    <string name="fps_user_tip_footer">"%1$d. För att du ska förstå skillnaden mella högre och lägre uppdateringsfrekvenser kan demo visas långsammare här. Det kan vara svårare för dig att se skillnaden vid normal användning.
+%2$d. I vissa fall kan uppdateringsfrekvensen justeras dynamiskt, baserat på vilka objekt som visas."</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
@@ -316,11 +332,14 @@
     <string name="healthy_use_phone">Hantera skärmtid</string>
     <string name="helmeted_guineafowl">Guineafowl</string>
     <string name="high_fps_description">Hög skärmuppdateringsgrad. Högre strömförbrukning.</string>
+    <string name="high_fps_tip_footer">Att använda en snabbare uppdateringsfrekvens ger en bättre bildupplevelse men det går åt mer ström.</string>
     <string name="hippopotamus">Hippo</string>
     <string name="hsv_space_color">HSV-färgutrymme</string>
     <string name="hsv_space_color_hue">Nyans</string>
     <string name="hsv_space_color_saturation">Mättnad</string>
     <string name="hsv_space_color_value">Värde</string>
+    <string name="intelligent_radio_btn_summary">Justera uppdateringsfrekvensen dynamiskt baserat på scenarion, för att balansera prestandan med strömkonsumtionen</string>
+    <string name="intelligent_radio_btn_title">Auto (Rekommenderat)</string>
     <string name="intelligent_recognition_item_summary">Använd en designerad ringsignal för samtal från leverans- och taxitjänster. Denna funktion fungerar när %s är angiven som din standard ringsignal.</string>
     <string name="intelligent_recognition_item_title">Identitetstjänster</string>
     <string name="item_anura">Anura</string>
@@ -361,6 +380,8 @@
     <string name="lion_info">Lions are fierce and powerful predators. They live in groups and have a strong sense of territory.</string>
     <string name="lock_summary">Skydda din personliga information</string>
     <string name="long_tai1ed_iaeger">Long-tailed jaeger</string>
+    <string name="low_flicker_mode">Mindre ljus</string>
+    <string name="low_flicker_mode_summary">Förhindra blinkningar i förhållanden med mindre ljus för att minska ansträngningen på ögonen</string>
     <string name="low_fps_description">Låg skärmuppdateringsgrad. Lägre strömförbrukning.</string>
     <string name="low_light_preview">Lågljusförhandsvisning</string>
     <string name="lynx">Lynx</string>
@@ -370,6 +391,7 @@
     <string name="masked_palm_civet">Masked palm civet</string>
     <string name="medium_tree_finch">Medium tree finch</string>
     <string name="midnight">Natt</string>
+    <string name="miuix_access_state_desc">Valt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
@@ -462,6 +484,7 @@
     <string name="noon">Middagstid</string>
     <string name="normal_mode">Normal</string>
     <string name="normal_mode_summary">Reducera inte flimmer i lågljusförhållanden</string>
+    <string name="normal_mode_summary_new">Tillåt blinkningar vid omständigheter med mindre ljus</string>
     <string name="north_white_rhinoceros">White rhinoceros</string>
     <string name="norway_lemmings">Norway lemmings</string>
     <string name="norway_lemmings_info">The Norway lemming dwells in tundra and fells, and prefers to live near water.</string>
@@ -477,7 +500,7 @@
     <string name="p3_color_region_summary">Visa allt skärminnehåll i färg-gamut P3</string>
     <string name="pallas_s_cat">"Pallas's cat"</string>
     <string name="parasitic_jaeger">Parasitic jaeger</string>
-    <string name="personality_hint_ringtone">Personalized sounds</string>
+    <string name="personality_hint_ringtone">Anpassade ljud</string>
     <string name="petaurus_breviceps">Sugar glider</string>
     <string name="phoebastria_irrorata">Waved albatross</string>
     <string name="pied_butcherbird">Pied butcherbird</string>
@@ -541,7 +564,7 @@
     <string name="several_days_use_time">Skärmtid: %2$s</string>
     <string name="short_eared_owl">Short-eared owl</string>
     <string name="shortcut_created">Genvägen finns redan</string>
-    <string name="silent_ringtone_hint">Ljudet är avstängt nu. Öka volymen och försök igen.</string>
+    <string name="silent_ringtone_hint">Stäng först av \"Tyst läge\"</string>
     <string name="silver_pheasant">Silver pheasant</string>
     <string name="sim_slot_1">" (SIM 1)"</string>
     <string name="sim_slot_2">" (SIM 2)"</string>
@@ -553,6 +576,8 @@
     <string name="snowy_owl">Snowy owl</string>
     <string name="southern_elephant_seal">Southern elephant seal</string>
     <string name="southern_ground_hornbill">Ground hornbill</string>
+    <string name="split_page_authorization">Välkommen till Skärmtid! Här kan du ställa in skärmens tidsbegränsningar och se statistik. Tryck på \"Starta\" för att sätta igång den här funktionen.</string>
+    <string name="split_page_start">Starta</string>
     <string name="spotted_hyaena">Spotted hyena</string>
     <string name="spotted_hyaena_info">Hyenas are nocturnal predators with the most complex social behaviours.</string>
     <string name="spur_winged_plover">Spur-winged lapwing</string>
@@ -653,6 +678,7 @@
     <string name="unlock_times_per_day">"Dagligt snitt: "</string>
     <string name="unlock_times_per_hour">"Upplåsningar per timme: "</string>
     <string name="usage_agree">Acceptera</string>
+    <string name="usage_app_desktop_widget_limit">%s återstående</string>
     <string name="usage_app_get_it">Uppfattat</string>
     <string name="usage_app_holiday_limit">Lediga dagar</string>
     <string name="usage_app_limit_alter_summary">Det ser ut som att tidsgränsen är kortare än tiden som du har använt appen idag. Ange gräns ändå?</string>

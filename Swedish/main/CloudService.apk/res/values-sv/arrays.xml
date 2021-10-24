@@ -21,16 +21,16 @@
         <item>Fjärrlås din enhet om den försvinner</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_china">
-        <item>Sync your contacts, messages, notes, calendar, and more</item>
-        <item>Back up apps, Home screen layout, and wallpaper</item>
+        <item>Synkronisera dina kontakter, meddelande, anteckningar, kalender och mer</item>
+        <item>Säkerhetskopiera appar, utseende på Hemskärmen och bakgrund</item>
         <item>Back up important settings, including WLAN and display</item>
-        <item>"Lock your device remotely if it's lost"</item>
+        <item>Fjärrlås din enhet om den försvinner</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_china_v2">
-        <item>Sync your contacts, messages, notes, calendar, and more</item>
-        <item>Back up apps, Home screen layout, and wallpaper</item>
+        <item>Synkronisera dina kontakter, meddelande, anteckningar, kalender och mer</item>
+        <item>Säkerhetskopiera appar, utseende på Hemskärmen och bakgrund</item>
         <item>Back up important settings, including WLAN and display</item>
-        <item>"Lock your device remotely if it's lost"</item>
+        <item>Fjärrlås din enhet om den försvinner</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_pad">
         <item>Synkronisera dina foton, anteckningar, inspelningar och annat</item>
@@ -161,7 +161,7 @@
     </string-array>
     <string-array name="settings_search_security_pad">
         <item>Säkerhetssynkronisering av molnet</item>
-        <item>Sätt på synkning</item>
+        <item>Aktivera synkronisering</item>
         <item>Säkerhet;Moln;Xiaomi Cloud,Synkronisera;Molntjänster</item>
     </string-array>
     <string-array name="settings_search_sms">

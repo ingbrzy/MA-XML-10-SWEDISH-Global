@@ -228,11 +228,13 @@ Tap för att visa"</string>
     <string name="not_set">Inte angett</string>
     <string name="operation_delete">Radera</string>
     <string name="operation_send">Skicka</string>
+    <string name="permission_desc">Permissions details</string>
     <string name="permission_intro_microphone">För inspelning av ljud när ljudkällan är inställt på mikrofonen</string>
     <string name="permission_intro_storage">För att spara skärminspelningar</string>
     <string name="permission_microphone_desc">Använda mikrofon som ljudkälla för skärminspelningar</string>
     <string name="pm">E.m</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
+    <string name="privacy_settings">Privacy</string>
     <string name="quit_recording">Avsluta Skärminspelare</string>
     <string name="recording_failure">Kunde inte spela in, börja om</string>
     <string name="recording_max_size">Inspelningen stoppades och sparades eftersom videofilen överskred storleksgränsen. Starta inspelningen där du slutade om du inte är färdig än.</string>
@@ -337,6 +339,7 @@ Tap för att visa"</string>
     <string name="using_record_confirm_ok">Tillåt</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
+    <string name="view_privacy">View Privacy Policy</string>
     <string name="view_recorded_file">Tryck för att visa inspelad fil</string>
     <string name="view_recorded_videos">Visa inspelningar</string>
     <string name="warning_recording_when_a2dp_connect">Enheten stöder inte spela in systemljud medan Bluetoothhörlurarna används.</string>

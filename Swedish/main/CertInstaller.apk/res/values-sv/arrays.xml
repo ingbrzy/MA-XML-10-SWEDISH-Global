@@ -2,6 +2,6 @@
 <resources>
     <string-array name="credential_usage">
         <item>VPN och appar</item>
-        <item>Wi-Fi</item>
+        <item>Wifi</item>
     </string-array>
 </resources>

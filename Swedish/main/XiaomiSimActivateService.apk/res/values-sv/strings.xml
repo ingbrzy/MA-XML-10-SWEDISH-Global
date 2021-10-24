@@ -175,6 +175,7 @@ Ange telefonnumret kopplat till ditt nya SIM-kort för att återaktivera %s."</s
     <string name="app_name">Xiaomi SIM Aktiveringstjänst</string>
     <string name="checking_client">Kontrollera aktiveringsmiljö</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
+    <string name="close">Stäng</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -201,6 +202,8 @@ Ange telefonnumret kopplat till ditt nya SIM-kort för att återaktivera %s."</s
     <string name="explain_send_sms_permission_button">Verifiera</string>
     <string name="explain_send_sms_permission_msg">Sätt på %s, Xiaomi Service Framework kommer skicka ett SMS för att verifiera ditt telefonnummer. Du kommer att debiteras för ett vanligt SMS av din operatör.</string>
     <string name="explain_send_sms_permission_title">Verifiera ditt telefonnummer</string>
+    <string name="fmt_chinese_date">N月e</string>
+    <string name="fmt_date">D</string>
     <string name="fmt_date_day">dd</string>
     <string name="fmt_date_long_month">MMMM</string>
     <string name="fmt_date_long_month_day">MMMM dd</string>
@@ -216,7 +219,11 @@ Ange telefonnumret kopplat till ditt nya SIM-kort för att återaktivera %s."</s
     <string name="fmt_date_short_month_day">MM/dd</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
     <string name="fmt_date_short_year_month_day">MM/dd/yyyy</string>
+    <string name="fmt_date_time">D T</string>
+    <string name="fmt_date_time_timezone">D T z</string>
+    <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy</string>
+    <string name="fmt_time">T</string>
     <string name="fmt_time_12hour">hh</string>
     <string name="fmt_time_12hour_minute">hh:mm</string>
     <string name="fmt_time_12hour_minute_pm">hh:mm aa</string>
@@ -235,8 +242,18 @@ Ange telefonnumret kopplat till ditt nya SIM-kort för att återaktivera %s."</s
     <string name="fmt_time_minute_second_millis">m:s.S</string>
     <string name="fmt_time_second">s</string>
     <string name="fmt_time_second_millis">s.S</string>
+    <string name="fmt_time_timezone">T z</string>
+    <string name="fmt_timezone">z</string>
+    <string name="fmt_weekday">W</string>
+    <string name="fmt_weekday_date">W, D</string>
+    <string name="fmt_weekday_date_time">W, D T</string>
+    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
+    <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
+    <string name="fmt_weekday_time">W T</string>
+    <string name="fmt_weekday_time_timezone">W T z</string>
+    <string name="fmt_weekday_timezone">W z</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
@@ -320,6 +337,7 @@ Ange telefonnumret kopplat till ditt nya SIM-kort för att återaktivera %s."</s
     <string name="saturday_short">Lör</string>
     <string name="saturday_shortest">Lör</string>
     <string name="search_menu_title">Sök</string>
+    <string name="send">Skicka</string>
     <string name="sim_activate_failed">Kunde inte aktivera tjänst</string>
     <string name="sim_activate_prepare">Aktivera tjänst</string>
     <string name="sim_activated_failed_msg">Kunde inte aktivera tjänst. Tryck för att försöka igen.</string>
