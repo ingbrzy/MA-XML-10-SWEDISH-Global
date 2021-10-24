@@ -232,7 +232,6 @@
     <string name="settings_guide_title">Behöver andra inställningar?</string>
     <string name="show_badge_notifications">Notifikationsmärken</string>
     <string name="show_badge_notifications_short">Märken</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statusfält</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_disable_float_notification">Svävande notifikationer tillåts inte</string>
