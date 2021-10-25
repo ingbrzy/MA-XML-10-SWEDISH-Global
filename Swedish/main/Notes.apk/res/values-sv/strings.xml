@@ -437,7 +437,6 @@
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -498,7 +497,6 @@
     <string name="note_sort_way">Sortera</string>
     <string name="notealert_enter">Öppna anteckning</string>
     <string name="notealert_ok">Avfärda</string>
-    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Anteckningar är en system-app. Du kommer inte kunna använda denna app efter du avinstallerat den.</string>
     <string name="notes_description_title">Avinstallera Anteckningar?</string>
     <string name="notification_content_add_todo_from_other_app">Du lade till en ny uppgift. Tryck för att visa.</string>

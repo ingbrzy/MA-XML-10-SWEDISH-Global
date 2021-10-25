@@ -131,7 +131,6 @@
     <string name="cast_forward">Framåt</string>
     <string name="cast_forward_10">Spola framåt tio sekunder</string>
     <string name="cast_forward_30">Spola framåt trettio sekunder</string>
-    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">LIVE</string>
     <string name="cast_mute">Stäng av ljudet</string>
     <string name="cast_notification_connected_message">Ansluten till %1$s</string>
