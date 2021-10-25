@@ -49,15 +49,15 @@
     </string-array>
     <string-array name="network_switch_type_name">
         <item>mobildata</item>
-        <item>Wifi</item>
+        <item>Wi-Fi</item>
         <item>Bluetooth</item>
         <item>Ethernet</item>
         <item>VPN</item>
     </string-array>
     <string-array name="wfcOperatorErrorAlertMessages">
-        <item>Om du vill ringa samtal och skicka meddelanden via wifi ber du först operatören att konfigurera tjänsten. Därefter kan du aktivera wifi-samtal på nytt från Inställningar. (Felkod: %1$s)</item>
+        <item>Om du vill ringa samtal och skicka meddelanden via Wi-Fi ber du först operatören att konfigurera tjänsten. Därefter kan du aktivera Wi-Fi-samtal på nytt från Inställningar. (Felkod: %1$s)</item>
     </string-array>
     <string-array name="wfcOperatorErrorNotificationMessages">
-        <item>Följande fel uppstod när wifi-samtal skulle registreras hos operatören: %1$s</item>
+        <item>Följande fel uppstod när Wi-Fi-samtal skulle registreras hos operatören: %1$s</item>
     </string-array>
 </resources>

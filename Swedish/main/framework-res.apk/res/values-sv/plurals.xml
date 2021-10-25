@@ -5,8 +5,8 @@
         <item quantity="one">Ett förslag från autofyll</item>
     </plurals>
     <plurals name="bugreport_countdown">
-        <item quantity="other">Tar en skärmbild till felrapporten om %d sekunder.</item>
-        <item quantity="one">Tar en skärmbild till felrapporten om %d sekund.</item>
+        <item quantity="other">Tar en skärmdump till felrapporten om %d sekunder.</item>
+        <item quantity="one">Tar en skärmdump till felrapporten om %d sekund.</item>
     </plurals>
     <plurals name="duration_days_relative">
         <item quantity="other">för %d dagar sedan</item>

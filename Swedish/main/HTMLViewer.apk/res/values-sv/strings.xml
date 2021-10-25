@@ -37,7 +37,7 @@
     <string name="autoconnect">Anslut automatiskt</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
     <string name="close">Stäng</string>
-    <string name="copyright">Copyright</string>
+    <string name="copyright">Upphovsrätt</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -104,7 +104,7 @@
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
     <string name="ime_privacy_policy">Välj tangentbord</string>
-    <string name="instruction">Important safety information</string>
+    <string name="instruction">Viktig säkerhetsinformation</string>
     <string name="license_host_unreachable">"Kunde inte ansluta till nätverket. För att se informationen nu,
  gå till %s på en annan enhet."</string>
     <string name="loading">Vänta lite…</string>
@@ -185,9 +185,9 @@
     <string name="poco_privacy_policy">Sekretesspolicy för Poco Launcher &amp; Poco Launcher användaravtal</string>
     <string name="policy_name">Protokoll: %s</string>
     <string name="pre_installed_apps">Förinstallerade appar</string>
-    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy">Integritetspolicy</string>
     <string name="privacy_station_title">Integritet hos Xiaomi</string>
-    <string name="sar">RF Exposure Information</string>
+    <string name="sar">RF Exponeringsinformation</string>
     <string name="saturday">Lördag</string>
     <string name="saturday_short">Lör</string>
     <string name="saturday_shortest">Lör</string>
@@ -264,9 +264,9 @@
     <string name="tuesday">Tisdag</string>
     <string name="tuesday_short">Tis</string>
     <string name="tuesday_shortest">Tis</string>
-    <string name="user_agreement">Terms of Service</string>
-    <string name="user_experience_program">User Experience Program</string>
-    <string name="user_manual">User guide</string>
+    <string name="user_agreement">Användarvillkor</string>
+    <string name="user_experience_program">Program för Användarupplevelse</string>
+    <string name="user_manual">Användarguide</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>

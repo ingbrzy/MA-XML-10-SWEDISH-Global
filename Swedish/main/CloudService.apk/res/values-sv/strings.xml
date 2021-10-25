@@ -138,6 +138,8 @@
     <string name="feedback_custom_hint">Beskriv problemen du har stött på här. Om du ger förslag skulle vi uppskatta fler detaljer!</string>
     <string name="find_device">Hitta Enhet</string>
     <string name="find_device_dspt_provision">Om du tappar bort din enhet så kan du gå till &lt;font color=#0097FF>%s&lt;/font> för att lokalisera, låsa eller återställa den. Du kan slå på eller av denna funktion när som helst i Inställningar.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_gdpr_prompt">Genom att aktivera Hitta enhet godkänner vår <a href="app://com.miui.cloudservice.gdpr.license"><u>Integritetspolicy</u></a>. Om du vill dra tillbaka godkännandet inaktiverar du funktionen.</string>
     <string name="find_device_operation_failure_rpc">Kunde inte genomför åtgärden på grund av RPC-fel.</string>
     <string name="find_device_send_sms_alert">Om du byter SIM-kort kommer ett meddelande automatiskt skickas för att återaktivera denna funktion.</string>
@@ -360,10 +362,13 @@
     <string name="micloud_find_device_open_fail">Kunde inte starta Hitta enheten</string>
     <string name="micloud_find_device_opened">Hitta enheten är påslagen</string>
     <string name="micloud_find_device_opened_content">Hitta din enhet på %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_verify_button">Återaktivera Hitta enhet</string>
     <string name="micloud_find_device_verify_close">Avaktivera Hitta enhet</string>
     <string name="micloud_find_device_verify_fail">Kunde aktivera Hitta Enhet</string>
     <string name="micloud_find_device_verify_progress">Återaktivera Hitta enhet…</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
     <string name="micloud_last_sync_canceled">Synkning avbröts. Försök igen.</string>
     <string name="micloud_main_head_menu_cloud_backup">Säkerhetskopior</string>
     <string name="micloud_main_head_menu_cloud_backup_summary">Systeminställningar och Hemskärmens utseende</string>
@@ -520,6 +525,10 @@
     <string name="micloud_upgrade_member">Få lagringsutrymme</string>
     <string name="micloud_upgrade_storage">Uppgradera lagringsplan</string>
     <string name="micloud_user_space_title">Lagringsutrymme</string>
+    <string name="micloud_warn_full_sum">Ny objekt kommer inte bli synkroniserade med Xiaomi Cloud.</string>
+    <string name="micloud_warn_full_title">Slut på utrymme</string>
+    <string name="micloud_warn_low_sum">Ditt Xiaomi Cloud är 90% fullt.</string>
+    <string name="micloud_warn_low_title">Snart slut på utrymme</string>
     <string name="micloud_web_discription_place_holder">Besök %1$s på din dator för hantera din data.</string>
     <string name="micloud_wipe_data_confirm_label">Ta bort synkroniserade objekt från denna enhet?</string>
     <string name="micloud_wipe_data_confirm_title">Vissa objekt från följande appar är synkroniserade med Xiaomi Cloud. Du kan ta bort dem från denna enhet och ändå behålla dem i molnet.</string>

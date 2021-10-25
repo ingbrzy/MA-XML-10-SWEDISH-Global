@@ -35,17 +35,8 @@
     <string name="avl_dialog_policy">Integritetspolicy</string>
     <string name="avl_dialog_title">AVLs Sekretesspolicy</string>
     <string name="avl_dialog_url">http://api.sec.miui.com/policy/proxy?p=antiy&amp;l=en_US</string>
-    <string name="common_google_play_services_unknown_issue">Det har uppstått ett fel mellan %1$s och Google Play-tjänsterna. Försök igen.</string>
     <string name="hello_world">Hej världen!</string>
     <string name="menu_settings">Inställningar</string>
-    <string name="size_byte">B</string>
-    <string name="size_giga_byte">GB</string>
-    <string name="size_kilo_byte">KB</string>
-    <string name="size_mega_byte">MB</string>
-    <string name="size_peta_byte">PB</string>
-    <string name="size_suffix">%1$s%2$s</string>
-    <string name="size_tera_byte">TB</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="tencent_dialog_cloudscan">Ladda och skanna appnamn och detaljer med hjälp av virusdefinitioner från internet.</string>
     <string name="tencent_dialog_dbupdate">Uppdatera virusdefinitioner automatiskt</string>
     <string name="tencent_dialog_header">Den här funktionen krypterar och laddar upp enhetens ID Tencent servrar (%s).</string>

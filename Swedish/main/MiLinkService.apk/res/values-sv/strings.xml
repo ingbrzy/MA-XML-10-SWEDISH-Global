@@ -31,7 +31,6 @@
     <string name="actionbar_button_up_description">Tillbaka</string>
     <string name="afternoon">Eftermiddag</string>
     <string name="am">F.m</string>
-    <string name="app_name">Casting</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -66,9 +65,9 @@
     <string name="dialog_miplay_permission_message">Tillåt Casting att spela in ljud, få tillgång till filer i interna lagringen, och få tillgång till din plats för att kunna använda denna funktion normalt. Tryck på \"Inställningar\" och välj \"App-behörigheter\" för att fortsätta.</string>
     <string name="dialog_miplay_permission_positive">Inställningar</string>
     <string name="dialog_miplay_permission_title">Behörigheter krävs</string>
-    <string name="dialog_nfc_cast_wifi_off">Turn on WLAN to be able to cast using NFC. Turn on now?</string>
-    <string name="dialog_no_device_message">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Anslut både din mobila enhet och TV till samma Wi-Fi-nätverk.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g> På vissa TV-modeller är denna funktion endast tillgänglig när skärmspegling är aktiverad. Se &lt;a href=milink://com.milink.service/specification>\"Hjälp\"&lt;/a> för mer information.&lt;/Data></string>
-    <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
+    <string name="dialog_nfc_cast_wifi_off">Slå på Wi-Fi för att kunna casta med NFC. Slå på nu?</string>
+    <string name="dialog_no_device_message">&lt;Data>1. Anslut både din telefon och TV till samma Wi-Fi-nätverk.&lt;br>&lt;br>2. På vissa TV-modeller är denna funktion endast tillgänglig när skärmspegling är på. Visa &lt;a href=milink://com.milink.service/specification>\"Hjälp\"&lt;/a> för att läsa mer.&lt;/Data></string>
+    <string name="dialog_no_device_message_china">&lt;Data>1. Connect both your phone and TV to the same WLAN network.&lt;br>&lt;br>2. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">Strömma foton, videor eller musik</string>
     <string name="dialog_open_wifi_bt">Aktivera</string>
@@ -76,17 +75,17 @@
 Titta i hjälpen om du får problem med att ansluta."</string>
     <string name="dialog_recent_connected">Senast</string>
     <string name="dialog_retry">Försök igen</string>
-    <string name="dialog_scan_message">"%1$d. Anslut både din mobila enhet och TV till samma Wi-Fi-nätverk.
+    <string name="dialog_scan_message">"1. Anslut både din telefon och TV till samma Wi-Fi-nätverk.
 
-%2$d. Se \"Hjälp\" för mer information."</string>
-    <string name="dialog_scan_message_china">"%1$d. Connect both your mobile device and TV to the same WLAN network.
+2. På vissa TV-modeller är denna funktion endast tillgänglig när skärmspegling är på. Visa \"Hjälp\" för att läsa mer."</string>
+    <string name="dialog_scan_message_china">"1. Connect both your phone and TV to the same WLAN network.
 
-%2$d. View \"Help\" to learn more."</string>
+2. On some TV models, this feature is only available when screen mirroring is on. View \"Help\" to learn more."</string>
     <string name="dialog_scanning_device">Söker efter enheter i närheten…</string>
     <string name="dialog_scanning_precondition">Aktivera Wi-Fi och Bluetooth på din telefon för att använda trådlös bildskärm.</string>
     <string name="dialog_scanning_precondition_new_china">Turn on WLAN, Bluetooth, and location services to be able to use casting. Turn on now?</string>
     <string name="dialog_scanning_precondition_new_global">Slå på WiFi-, Bluetooth- och platstjänster för att kunna använda sändning. Vill du slå på dem nu?</string>
-    <string name="dialog_select_tv">Välj enhet (%1$d)</string>
+    <string name="dialog_select_tv">Välj enhet (%d)</string>
     <string name="dialog_show_help">Hjälp</string>
     <string name="disconnect">Sluta casta</string>
     <string name="early_morning">Morgon</string>
@@ -96,58 +95,42 @@ Titta i hjälpen om du får problem med att ansluta."</string>
     <string name="eras_bc">F.V.T.</string>
     <string name="evening">Eftermiddag</string>
     <string name="expand_button_title">Avancerat</string>
-    <string name="fmt_chinese_date">N月e</string>
-    <string name="fmt_date">D</string>
-    <string name="fmt_date_day">d</string>
+    <string name="fmt_date_day">dd</string>
     <string name="fmt_date_long_month">MMMM</string>
-    <string name="fmt_date_long_month_day">d MMM</string>
+    <string name="fmt_date_long_month_day">MMMM dd</string>
     <string name="fmt_date_long_year_month">MMMM yyyy</string>
-    <string name="fmt_date_long_year_month_day">d MMMM yyyy</string>
-    <string name="fmt_date_numeric_day">d</string>
-    <string name="fmt_date_numeric_month">M</string>
-    <string name="fmt_date_numeric_month_day">d-M</string>
+    <string name="fmt_date_long_year_month_day">MMMM dd, yyyy</string>
+    <string name="fmt_date_numeric_day">dd</string>
+    <string name="fmt_date_numeric_month">MM</string>
+    <string name="fmt_date_numeric_month_day">MM/dd</string>
     <string name="fmt_date_numeric_year">yyyy</string>
-    <string name="fmt_date_numeric_year_month">M-yyyy</string>
-    <string name="fmt_date_numeric_year_month_day">d-M-yyyy</string>
-    <string name="fmt_date_short_month">MMM</string>
-    <string name="fmt_date_short_month_day">d MMM</string>
+    <string name="fmt_date_numeric_year_month">MM/yyyy</string>
+    <string name="fmt_date_numeric_year_month_day">MM/dd/yyyy</string>
+    <string name="fmt_date_short_month">MM</string>
+    <string name="fmt_date_short_month_day">MM/dd</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
-    <string name="fmt_date_short_year_month_day">d MMM yyyy</string>
-    <string name="fmt_date_time">D T</string>
-    <string name="fmt_date_time_timezone">D T z</string>
-    <string name="fmt_date_timezone">D z</string>
+    <string name="fmt_date_short_year_month_day">MM/dd/yyyy</string>
     <string name="fmt_date_year">yyyy</string>
-    <string name="fmt_time">T</string>
-    <string name="fmt_time_12hour">"h 'o''clock'"</string>
-    <string name="fmt_time_12hour_minute">h:mm</string>
-    <string name="fmt_time_12hour_minute_pm">h:mm a</string>
-    <string name="fmt_time_12hour_minute_second">h:mm:ms</string>
-    <string name="fmt_time_12hour_minute_second_millis">h:mm:ss.S</string>
-    <string name="fmt_time_12hour_minute_second_millis_pm">h:mm:ss.S a</string>
-    <string name="fmt_time_12hour_minute_second_pm">h:mm:ss a</string>
-    <string name="fmt_time_12hour_pm">ha</string>
-    <string name="fmt_time_24hour">"H 'o''clock'"</string>
-    <string name="fmt_time_24hour_minute">H:mm</string>
-    <string name="fmt_time_24hour_minute_second">H:mm:ss</string>
-    <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
-    <string name="fmt_time_millis">"S'ms'"</string>
-    <string name="fmt_time_minute">"m'min'"</string>
-    <string name="fmt_time_minute_second">"m'min' s's'"</string>
-    <string name="fmt_time_minute_second_millis">"m'min' s.S's'"</string>
-    <string name="fmt_time_second">"s's'"</string>
-    <string name="fmt_time_second_millis">"s.S's'"</string>
-    <string name="fmt_time_timezone">T z</string>
-    <string name="fmt_timezone">z</string>
-    <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">W, D</string>
-    <string name="fmt_weekday_date_time">W, D T</string>
-    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
-    <string name="fmt_weekday_date_timezone">W, D z</string>
+    <string name="fmt_time_12hour">hh</string>
+    <string name="fmt_time_12hour_minute">hh:mm</string>
+    <string name="fmt_time_12hour_minute_pm">hh:mm aa</string>
+    <string name="fmt_time_12hour_minute_second">hh:mm:ss</string>
+    <string name="fmt_time_12hour_minute_second_millis">hh:mm:ss.S</string>
+    <string name="fmt_time_12hour_minute_second_millis_pm">hh:mm:ss.S aa</string>
+    <string name="fmt_time_12hour_minute_second_pm">hh:mm:ss aa</string>
+    <string name="fmt_time_12hour_pm">hh aa</string>
+    <string name="fmt_time_24hour">H</string>
+    <string name="fmt_time_24hour_minute">HH:mm</string>
+    <string name="fmt_time_24hour_minute_second">HH:mm:s</string>
+    <string name="fmt_time_24hour_minute_second_millis">HH:mm:ss.S</string>
+    <string name="fmt_time_millis">S</string>
+    <string name="fmt_time_minute">m</string>
+    <string name="fmt_time_minute_second">m:s</string>
+    <string name="fmt_time_minute_second_millis">m:s.S</string>
+    <string name="fmt_time_second">s</string>
+    <string name="fmt_time_second_millis">s.S</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
-    <string name="fmt_weekday_time">W T</string>
-    <string name="fmt_weekday_time_timezone">W T z</string>
-    <string name="fmt_weekday_timezone">W z</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
@@ -168,34 +151,30 @@ Titta i hjälpen om du får problem med att ansluta."</string>
     <string name="help_page_text_02">Vad är casting?</string>
     <string name="help_page_text_03">Casting projicerar objekt från din telefonskärm till en större extern skärm. Detta gör att du kan dela bilder och videor med dina vänner och familj utan att använda mobildata.</string>
     <string name="help_page_text_04">Hur castar jag objekt till en större skärm?</string>
-    <string name="help_page_text_05">Steg %1$d: Kontrollera dina enheter och nätverksmiljö</string>
-    <string name="help_page_text_06">"%1$d. Xiaomi TVs, set-top boxes, projectors:
-Connect both your mobile device and external monitor to the same WLAN network for best effect. If they are connected to different networks, it might take more time to find the external monitor and connect.
-Note: Older TV models might not support casting across different networks.
-%2$d. If you're using TVs, set-top boxes, or projectors of other brands, connect both your mobile device and external monitor to the same WLAN network.
-If the two devices can't be connected to the same network, turn on Miracast on your external monitor. The naming of Miracast functionality might vary."</string>
-    <string name="help_page_text_06_global">"%1$d. Xiaomi TV-apparater, set-top-boxar, projektorer:
-Anslut både din mobila enhet och externa bildskärm till samma Wi-Fi-nätverk för bästa effekt. Om de är anslutna till olika nätverk kan det ta längre tid att hitta den externa bildskärmen och ansluta.
-Note: Äldre TV-modeller kanske inte stöder spridning i olika nätverk.
-%2$d. Om du använder TV-apparater, set-top-boxar eller projektorer av andra varumärken måste du ansluta både din mobila enhet och externa bildskärm till samma Wi-Fi-nätverk..
-Om de två enheterna inte kan anslutas till samma nätverk, så aktiverar du Miracast på den externa bildskärmen. Namngivningen av Miracast-funktionen kan variera."</string>
-    <string name="help_page_text_08">Steg %1$d: Starta spridning</string>
-    <string name="help_page_text_09">"Tap the \"Cast\" toggle on your phone's Notification shade. Turn on both WLAN and Bluetooth for a more stable connection."</string>
-    <string name="help_page_text_09_global">Tryck på ”Casta” på din enhets notifikationspanel. Aktivera både Wi-Fi och Bluetooth för en stabilare anslutning.</string>
-    <string name="help_page_text_10">Om du vill sprida foton, videor, spel eller presentationer, så kan du använda inbyggda spridningsfunktioner i motsvarande appar.</string>
-    <string name="help_page_text_11">Steg %1$d: Välj enhet</string>
+    <string name="help_page_text_05">Steg 1: Kontrollera dina enheter och din nätverksmiljö</string>
+    <string name="help_page_text_06">"1. Du behöver inte ansluta till internet om du vill casta något från en Mi-telefon till en Mi TV.
+2. Om du inte kan upprätta en anslutning mellan de två enheterna kan du försöka att ansluta båda till samma Wi-Fi-nätverk."</string>
+    <string name="help_page_text_06_global">"1. Mi TV-apparater, Mi-boxar, och Mi Projektorer:
+Anslut både din telefon och externa monitor till samma Wi-Fi-nätverk för bästa effekt. Om de är anslutna till olika nätverk kan det ta mer tid att hitta den externa monitorn och ansluta.
+Obs: Äldre Mi TV-apparater kanske inte stöder casting över olika nätverk.
+2. Om du använder TV-apparater, set-top-boxar eller projektorer av andra märken, anslut både din telefon och externa monitor till samma Wi-Fi-nätverk.
+Om de två enheterna inte kan anslutas till samma nätverk, slå på Miracast på din externa mon itor. Namngivningen av Miracast-funktionaliteten kan variera."</string>
+    <string name="help_page_text_08">Steg 2: Aktivera casting</string>
+    <string name="help_page_text_09">Tryck på ”Casta” på din telefons Notifikationspanel. Aktivera både Wi-Fi och Bluetooth för en stabilare anslutning.</string>
+    <string name="help_page_text_10">Om du vill casta objekt från Galleri eller Mi Video kan du använda den inbyggda castingfunktionen i dessa appar.</string>
+    <string name="help_page_text_11">Steg 3: Välj enhet</string>
     <string name="help_page_text_12">Välj en extern enhet från listan över tillgängliga enheter för att börja casta.</string>
     <string name="help_page_text_13">Kan du inte ansluta till en extern enhet?</string>
-    <string name="help_page_text_14">"%1$d. If you want to use a Xiaomi device, but can't find it in the list of available devices, try the following:
-Connect both your mobile device and the external monitor (e.g. your TV) to the same network, or connect the external monitor to your mobile device's hotspot. If there aren't any networks available or you can't connect both devices to the same network, check whether the casting features on your external monitor are up to date, turn on Bluetooth both on your mobile device and the external monitor, and turn on Miracast on your TV.
-%2$d. If you're casting on a Xiaomi device for the first time, you need to complete verification.
-%3$d. If you want to use a non-Xiaomi device, but can't find it in the list of available devices, try the following:
-Connect both your mobile device and the external monitor (e.g. your TV) to the same network, or connect the external monitor to your mobile device's hotspot. If this doesn't help, install the HappyCast app on your TV and follow the instructions."</string>
-    <string name="help_page_text_14_global">"%1$d. Om du vill använda en Xiaomi-enhet, men inte hittar den i listan över tillgängliga enheter kan du prova följande:
-Anslut både din mobila enhet och den externa bildskärmen (t.ex. din TV) till samma nätverk eller anslut den externa bildskärmen till din mobila enhets surfzon. Om det inte finns några tillgängliga nätverk eller om du inte kan ansluta båda enheter till samma nätverk kan du kontrollera om castingfunktionerna på din externa bildskärm är uppdaterade, aktivera Bluetooth både på din mobila enhet och den externa bildskärmen samt aktivera Miracast på din TV.
-%2$d. Om du castar på en Xiaomi-enhet för första gången måste du slutföra verifikationen.
-%3$d. Om du vill använda en enhet som inte är Xiaomi, men inte hittar den i listan över tillgängliga enheter kan du prova följande:
-Anslut både din mobila enhet och den externa bildskärmen (t.ex. din TV) till samma nätverk eller anslut den externa bildskärmen till din mobila enhets surfzon."</string>
+    <string name="help_page_text_14">"1. Om du vill använda en Xiaomi-enhet, men inte hittar den i listan över tillgängliga enheter kan du prova följande:
+Anslut både din telefon och den externa skärmen (t.ex. din TV) till samma Wi-Fi-nätverk eller anslut den externa skärmen till telefonens surfzon. Om det inte finns några tillgängliga Wi-Fi-nätverk eller om du inte kan ansluta båda enheterna till samma enhet kan du kontroller om castingfunktionerna på din externa skärm är uppdaterade, aktivera Bluetooth på både din telefon samt den externa skärmen och aktivera Miracast på din TV. 
+2. Om du castar på en Xiaomi-enhet för första gången måste du slutföra verifikationen. 
+3. Om du vill använda en enhet som inte är Xiaomi, men inte hittar den i listan över tillgängliga enheter kan du prova följande:
+Anslut både din telefon och den externa skärmen (t.ex. din TV) till samma Wi-Fi-nätverk eller anslut den externa skärmen till din telefons surfzon. Om detta inte hjälper kan du installera castingappen LeEco på din TV och följ instruktionerna."</string>
+    <string name="help_page_text_14_global">"1. Om du vill använda en Xiaomi-enhet, men inte hittar den i listan över tillgängliga enheter kan du prova följande:
+Anslut både din telefon och den externa skärmen (t.ex. din TV) till samma Wi-Fi-nätverk eller anslut den externa skärmen till din telefons surfzon. Om det inte finns några tillgängliga Wi-Fi-nätverk eller om du inte kan ansluta båda enheterna till samma nätverk kan du kontrollera om castingfunktionera på din externa skärm är uppdaterade, aktivera Bluetooth på både din telefon och den externa skärmen och aktivera Miracast på din TV.
+2. Om du castar på en Xiaomi-enhet för första gången måste du slutföra verifikationen.
+3. Om du vill använda en enhet som inte är Xiaomi, men inte hittar den i listan över tillgängliga enheter kan du prova följande:
+Anslut både din telefon och den externa skärmen (t.ex. din TV) till samma Wi-Fi-nätverk eller anslut den externa skärmen till din telefons surfzon."</string>
     <string name="help_page_text_15">Miracast-funktionalitet på olika enheter</string>
     <string name="help_page_text_16">Mi TV/Mi Projektor</string>
     <string name="help_page_text_17">"Du kan projicera objekt från din Mi-telefon till de flesta Mi TV-modeller med Bluetooth-kapacitet utan att aktivera Miracast manuellt.
@@ -220,7 +199,7 @@ Om du behöver aktivera Miracast trycker du på [MENU]-knappen och väljer Mina 
     <string name="help_page_text_34">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. På vissa modeller kan du välja Appar > Casting > Android-enhet > Miracast.</string>
     <string name="help_page_text_35">Skyworth-kundsupport: 95105555</string>
     <string name="help_page_text_36">Sony</string>
-    <string name="help_page_text_37">First, make sure that Miracast functionality is supported on your device. On some of the models, you can press the [SOURCE] button on the remote control and then select \"Screen Mirroring\". On some other models, you can turn this feature on in Networks > WLAN Direct. This feature is turned on by default on various models.</string>
+    <string name="help_page_text_37">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. På vissa modeller kan du trycka på [SOURCE]-knappen på fjärrkontroller och sedan välja ”Skärmspegling”. På vissa modeller kan du aktivera denna funktion via Nätverket > Wi-Fi Direct. Denna funktion är aktiverad som standard på vissa modeller.</string>
     <string name="help_page_text_38">Sony-kundsupport: 400-810-9000</string>
     <string name="help_page_text_39">Panasonic</string>
     <string name="help_page_text_40">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. På vissa modeller kan du välja Appar > Skärmspegling.</string>
@@ -238,9 +217,9 @@ Om du behöver aktivera Miracast trycker du på [MENU]-knappen och väljer Mina 
     <string name="help_page_text_52">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. På vissa modeller kan du aktivera denna funktion i Inställningar > Nätverk > Flera skärmar > Trådlös bildskärm.</string>
     <string name="help_page_text_53">LeEco-kundsupport: 10109000</string>
     <string name="help_page_text_55">"Om du inte kan ansluta till nätverket kan du kontrollera om din externa skärm stödjer Miracast-funktionalitet och att den är aktiverad. På vissa modeller kallas denna funktion trådlös bildskärm, skärmspegling eller flera skärmar. Visa informationen nedan för för att lära dig hur du ska aktivera Miracast.
-%1$d. Om du stöter på några problem kan du rapportera dem med hjälp av appen ”Tjänster och feedback”."</string>
+4. Om du stöter på några problem kan du rapportera dem med hjälp av appen ”Tjänster och feedback”."</string>
     <string name="help_page_text_55_global">"Om du inte kan ansluta till nätverket kan du kontrollera om din externa skärm stödjer Miracast-funktionalitet och att den är aktiverad. På vissa modeller kallas denna funktion trådlös bildskärm, skärmspegling eller flera skärmar.
-%1$d. Om du stöter på några problem kan du rapportera dem med hjälp av appen ”Tjänster och feedback”."</string>
+4. Om du stöter på några problem kan du rapportera dem med hjälp av appen ”Tjänster och feedback”."</string>
     <string name="help_page_text_end">Om märket för din enhet inte anges här kan du kontakta tillverkaren för att lära dig mer om castingfunktion.</string>
     <string name="keyguard_security_setting_privacy_policy">Integritetspolicy</string>
     <string name="midnight">Natt</string>
@@ -360,7 +339,6 @@ Läs och godkänn våra &lt;a href=%1$s>Användarvillkor&lt;/a> och vår &lt;a h
 　　•Få åtkomst till din plats för att hitta enheter i närheten"</string>
     <string name="privacy_title">Obs</string>
     <string name="private_protect">Dölj privata objekt</string>
-    <string name="required_permissions">android.permission.ACCESS_FINE_LOCATION;android.permission.ACCESS_COARSE_LOCATION;android.permission.ACCESS_BACKGROUND_LOCATION;android.permission.READ_PHONE_STATE;android.permission.READ_EXTERNAL_STORAGE;android.permission.RECORD_AUDIO;</string>
     <string name="san_wait_msg_1">Aktivera trådlös casting på målenheten</string>
     <string name="san_wait_msg_2">Det kan ta lite tid att söka efter enheter…</string>
     <string name="san_wait_msg_3">Externa enheter är lättare att hitta när de är anslutna till samma nätverk som din telefon</string>
@@ -445,10 +423,8 @@ Läs och godkänn våra &lt;a href=%1$s>Användarvillkor&lt;/a> och vår &lt;a h
     <string name="time_picker_dialog_title">Ange tid</string>
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
-    <string name="title_activity_permission">PermissionActivity</string>
     <string name="toast_guide_show_more">Läs mer</string>
     <string name="toast_guide_title">Utforska våra nya funktioner här</string>
-    <string name="toast_invisible_mode">"You're incognito. Can't use casting now."</string>
     <string name="toast_msg_for_multi_window">Kan inte använda denna funktion med delad skärm</string>
     <string name="toast_msg_for_small_window">Du kan minimera fönstret som du castar till om du vill använda andra funktioner på din telefon utan att avbryta castingprocessen.</string>
     <string name="toast_nfc_dont_move">Flytta inte bort din telefon</string>

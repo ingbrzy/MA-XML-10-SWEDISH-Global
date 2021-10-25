@@ -96,17 +96,7 @@
     <string name="accessibility_flash_back_soft_light">Blixt fungerar i läget mjukt ljusläge</string>
     <string name="accessibility_flash_off">Blixt är av</string>
     <string name="accessibility_flash_on">Blixt är på</string>
-    <string name="accessibility_flash_screen_halo">Ringljus är på</string>
     <string name="accessibility_flash_torch">Blixt är på, lampläge</string>
-    <string name="accessibility_focus_face_pos_bottom">Placerat nära ramens nedre kant</string>
-    <string name="accessibility_focus_face_pos_left">Placerat nära ramens vänstra kant</string>
-    <string name="accessibility_focus_face_pos_left_bottom">Placerat nära ramens nedre vänstra hörn</string>
-    <string name="accessibility_focus_face_pos_left_top">Placerat nära ramens övre vänstra hörn</string>
-    <string name="accessibility_focus_face_pos_mid">Placerat nära mitten av ramen</string>
-    <string name="accessibility_focus_face_pos_right">Placerat nära ramens högra kant</string>
-    <string name="accessibility_focus_face_pos_right_bottom">Placerat nära ramens nedre högra hörn</string>
-    <string name="accessibility_focus_face_pos_right_top">Placerat nära ramens övre högra hörn</string>
-    <string name="accessibility_focus_face_pos_top">Placerat nära ramens överkant</string>
     <string name="accessibility_focus_status">%1$sX zoom</string>
     <string name="accessibility_foucs_peak">Toppvärde</string>
     <string name="accessibility_front_preview_status">Förhandsvisning främre kamera</string>
@@ -317,7 +307,7 @@ och justera preferenser automatiskt"</string>
     <string name="ambilight_intro_star_track_2">Filmning av stjärnhimlen en längre tid kan fånga stjärnornas banor. Glöm inte att använda ett stativ och filma kontinuerligt under minst %d minuter, så att du kan fånga både bilder och videor.</string>
     <string name="ambilight_intro_traffic_light">På kvällen kan du fånga banan av ljus i rörelse (på bilar och skepp, till exempel). Detta läge möjliggör förhandsgranskning av det slutgiltiga resultatet på din skärm i realtid.</string>
     <string name="ambilight_scene_crowd_moving">Folkmassa i rörelse</string>
-    <string name="ambilight_scene_light_track">Ljusmålning</string>
+    <string name="ambilight_scene_light_track">Ljus målning</string>
     <string name="ambilight_scene_magic_star">Stjärnhimmel</string>
     <string name="ambilight_scene_silky_water">Oljemålning</string>
     <string name="ambilight_scene_star_track">Stjärnspår</string>
@@ -628,6 +618,7 @@ Dubbel telefoninspelning låter dig även ansluta till en annan närliggande enh
     <string name="edit_smile">Le</string>
     <string name="edit_solid">Kontur</string>
     <string name="emoticon">Klistermärkespaket</string>
+    <string name="empty" />
     <string name="eras_ad">V.T.</string>
     <string name="eras_bc">F.V.T.</string>
     <string name="error_fail_to_start_audio_capture">Kunde inte starta ljudupptagning</string>
@@ -1142,17 +1133,13 @@ se större ut i bilder"</string>
     <string name="portait_effect_entry_cool">Mynta</string>
     <string name="portait_effect_entry_dusk">Kväll</string>
     <string name="portait_effect_entry_fairytale">Barndom</string>
-    <string name="portait_effect_entry_holiday">Semester</string>
     <string name="portait_effect_entry_japanese">Himmelsblå</string>
     <string name="portait_effect_entry_lilt">Lilt</string>
     <string name="portait_effect_entry_maze">Labyrint</string>
     <string name="portait_effect_entry_mood">Känslor</string>
     <string name="portait_effect_entry_movie">Film</string>
     <string name="portait_effect_entry_nature">Natur</string>
-    <string name="portait_effect_entry_original">Original</string>
-    <string name="portait_effect_entry_oxygen">Syre</string>
     <string name="portait_effect_entry_pink">Rodna</string>
-    <string name="portait_effect_entry_pink_orange">Citrus</string>
     <string name="portait_effect_entry_riddle">Godis</string>
     <string name="portait_effect_entry_romance">Romantisk</string>
     <string name="portait_effect_entry_sepia">Sepia</string>
@@ -1216,6 +1203,7 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_auxiliary_close">Av</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Exponeringsverifiering</string>
     <string name="pref_camera_auxiliary_focus_peak">Maximera fokus</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
@@ -1270,7 +1258,6 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_flashmode_entry_back_soft_light">Mjukt ljus</string>
     <string name="pref_camera_flashmode_entry_off">Av</string>
     <string name="pref_camera_flashmode_entry_on">På</string>
-    <string name="pref_camera_flashmode_entry_screen_halo">Ringljus</string>
     <string name="pref_camera_flashmode_entry_torch">Ficklampa</string>
     <string name="pref_camera_flashmode_title">Blixtläge</string>
     <string name="pref_camera_focus_shoot_summary">Tryck för fokus, tryck sedan igen för att ett foto.</string>
@@ -1397,8 +1384,6 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_square_mode_title">Fyrkant</string>
     <string name="pref_camera_stereo_mode_title">Justera fokus</string>
     <string name="pref_camera_super_resolution_title">Aktivera SR</string>
-    <string name="pref_camera_tap_shoot_summary">Tryck på förhandsvisningsskärmen för att ta ett foto</string>
-    <string name="pref_camera_tap_shoot_title">Tryck för att ta ett foto</string>
     <string name="pref_camera_tilt_shift_entry_circle">Cirkel</string>
     <string name="pref_camera_tilt_shift_entry_parallel">Parallell</string>
     <string name="pref_camera_tilt_shift_title">Tilt-shift</string>
@@ -1448,8 +1433,6 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_camera_zsl_entry_off">Av</string>
     <string name="pref_camera_zsl_entry_on">På</string>
     <string name="pref_capture_settings">Kamera</string>
-    <string name="pref_cup_camera_position_summary">Visa främre kamerapositionen när de används</string>
-    <string name="pref_cup_camera_position_title">Starta främre kameran</string>
     <string name="pref_custom_feature_layout_title">Framhäv layout</string>
     <string name="pref_custom_shutter_sound_title">Ljud</string>
     <string name="pref_custom_tint_title">Färger</string>
@@ -1521,10 +1504,6 @@ Håll objektet skarpt medans bakgrunden görs suddig."</string>
     <string name="pref_super_night_se_summary">Känn av lågljusförhållanden och förbättra bildkvalitén automatiskt</string>
     <string name="pref_super_night_se_title">Automatiskt nattläge</string>
     <string name="pref_userdefine_watermark_title">Anpassat vattenstämpel</string>
-    <string name="pref_video_ai_audio_effect_comparation_3d">3D</string>
-    <string name="pref_video_ai_audio_effect_comparation_3d_i">3D-ljud</string>
-    <string name="pref_video_ai_audio_effect_comparation_3d_ii">Demo</string>
-    <string name="pref_video_ai_audio_effect_comparation_3d_original">Original</string>
     <string name="pref_video_ai_audio_single">Framåtriktat ljud</string>
     <string name="pref_video_captrue_ability_title">Ta bilder under inspelning</string>
     <string name="pref_video_cast_setting_summary">Slå på för att kunna filma en video med flera enheter</string>
