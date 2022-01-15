@@ -81,6 +81,5 @@
     <string name="refocus_type_relighting_small_face">Studioljus fungerar på foton där ansiktet tar större plats än här.</string>
     <string name="refocus_type_static">Oskärpa</string>
     <string name="refocus_type_video">Ljusspår</string>
-    <string name="save">Spara</string>
     <string name="status_bar_notification_info_overflow">999+</string>
 </resources>

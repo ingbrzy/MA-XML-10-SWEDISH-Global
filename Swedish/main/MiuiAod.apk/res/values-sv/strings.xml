@@ -236,8 +236,8 @@ dd MM"</string>
     <string name="night">Kväll</string>
     <string name="noon">Middagstid</string>
     <string name="not_set">Inte angett</string>
-    <string name="notification_anim_pulse">Pulsera</string>
-    <string name="notification_anim_rhythm">Rytm</string>
+    <string name="notification_anim_pulse">Puls (Röd)</string>
+    <string name="notification_anim_rhythm">Puls (Blå)</string>
     <string name="notification_anim_star">Stjärnljus</string>
     <string name="notification_nothing">Ingen</string>
     <string name="notification_screen_on">Tänd skärmen</string>
@@ -283,6 +283,7 @@ dd MM"</string>
 underbart kommer hända"</string>
     <string name="standard_clock_panel">Standard</string>
     <string name="standard_style">Standard</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Stegräkning tillhandahålls av Xiaomi Health. Acceptera Xiaomi Healths regler och villkor för att fortsätta.</string>
     <string name="step_component_info_desc">Stegräkningen förvandlas till en trofé när ditt mål är uppnått. Stegräkningen tillhandahålls av Xiaomi Health.</string>
     <string name="step_component_info_tip">Stegräkning tillhandahålls av Xiaomi Health. Installera eller uppdatera Xiaomi Health och acceptera dess regler och villkor för att fortsätta.</string>
@@ -293,6 +294,7 @@ underbart kommer hända"</string>
     <string name="sunday_short">Sön</string>
     <string name="sunday_shortest">Sön</string>
     <string name="temporary_style">Under 10 sekunder efter att du rört den</string>
+    <string name="temporary_style_5">I 5 sekunder efter att tryck</string>
     <string name="temporary_style_summary">Rekommenderat</string>
     <string name="text_color">Textfärg</string>
     <string name="text_length_exceed_limit_alert">*Texten du angav är för lång</string>

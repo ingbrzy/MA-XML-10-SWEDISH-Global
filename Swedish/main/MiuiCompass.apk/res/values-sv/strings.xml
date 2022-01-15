@@ -51,6 +51,7 @@
     <string name="calibrate_success">Kalibrerad</string>
     <string name="calibrate_tip">Luta din enhet för att rulla bollen runt cirkeln</string>
     <string name="calibrate_title">Kalibrera kompass</string>
+    <string name="calibrating">Kalibrerar kompass</string>
     <string name="cancel">Avbryt</string>
     <string name="cannot_get_location">--</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
@@ -225,6 +226,7 @@
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mer</string>
     <string name="morning">Morgon</string>
+    <string name="new_cta_app_purpose">visa riktningar och koordinater</string>
     <string name="new_cta_v2_app_purpose">Visar vägbeskrivningar, koordinater, atmosfärstryck, och nuvarande altitud</string>
     <string name="new_permission_camera_desc">För kalibrering</string>
     <string name="new_permission_location_desc">För att visa koordinater</string>
@@ -236,6 +238,7 @@
     <string name="open_perm_msg">Kompassen behöver åtkomst till platsinformation och kamera. Detta är nödvändigt att fastställa koordinater och ger förhandsgranskningar. Tillåt?</string>
     <string name="open_perm_msg_no_camera">Compass behöver få åtkomst till platsinfo för att kunna avgöra koordinater. Tillåt?</string>
     <string name="open_perm_title">Behörigheter krävs</string>
+    <string name="pageIndicator">%1$s. %2$s.</string>
     <string name="permission_camera_desc">För att visa azimut på live-förhandsgranskningen</string>
     <string name="permission_description">Behörighetsuppgifter</string>
     <string name="permission_location_desc">För att visa koordinater</string>

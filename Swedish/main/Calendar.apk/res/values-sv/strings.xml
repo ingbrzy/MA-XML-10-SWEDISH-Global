@@ -175,6 +175,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Traditionell kinesisk kalender</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Ange datum och tid</string>
     <string name="date_today">" (idag)"</string>
     <string name="day">Dag</string>
@@ -433,6 +434,7 @@
     <string name="midnight">Natt</string>
     <string name="missing_name">(Inget namn)</string>
     <string name="missing_required_permission">Du har begränsat obligatoriska behörigheter.</string>
+    <string name="miuix_access_state_desc">Valt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
@@ -703,7 +705,7 @@ Kontrollera inställningar och försök igen."</string>
     <string name="setting_title_about">Om</string>
     <string name="setting_title_holiday_display">Visa helgdagar</string>
     <string name="setting_title_import_todo">Importera uppgifter</string>
-    <string name="setting_title_policy">Sekretesspolicy</string>
+    <string name="setting_title_policy">Integritetspolicy</string>
     <string name="settings_global_search">Sök</string>
     <string name="settings_show_long_holiday">Längre ledighet</string>
     <string name="settings_show_long_holiday_description">Planera dina lediga dagar i förväg</string>
@@ -762,6 +764,7 @@ Du kan också lägga till påminneler så du inte missar något viktigt."</strin
     <string name="talk_back_read_date">%1$s (%2$s enligt månkalendern).</string>
     <string name="talk_back_setting">Inställningar</string>
     <string name="talk_back_tab_switch">Växla mellan vyer</string>
+    <string name="talk_back_tab_switch_language">Välj språk i Kalender</string>
     <string name="talkback_bengali">Bengali</string>
     <string name="talkback_english">Engelska</string>
     <string name="talkback_gujarati">Gujarati</string>

@@ -79,10 +79,14 @@
     <string name="device_status_success">Skickat</string>
     <string name="device_status_waiting">Väntar…</string>
     <string name="device_type_pc">Dator</string>
+    <string name="disable_nfc">Stängde av NFC för trådlös laddning</string>
+    <string name="disable_nfc_reverse">Stängde av NFC för omvänd trådlös laddning</string>
     <string name="eighthours">8 timmar</string>
     <string name="enable_livetalk_summary">Spara 70% på din samtalskostnader</string>
     <string name="enable_livetalk_title">Sätt på Top-upp paket</string>
     <string name="enable_midrop">Aktivera</string>
+    <string name="enable_nfc">Laddar inte längre. NFC är påslaget igen.</string>
+    <string name="enable_nfc_reverse">Laddar inte omvänt längre. NFC är påslaget igen.</string>
     <string name="fc_dialog_body">Skicka felrapporten till Mi för analys? Denna rapport kan innehålla personligt identifierbar information. Din rapport kommer att användas för att hjälpa till att åtgärda det här felet och kommer aldrig att delas i något kommersiellt sammanhang.</string>
     <string name="fc_dialog_jump_to_preview">Visa sammanfattning</string>
     <string name="file_cannot_print">Kan inte skriva ut detta objekt.</string>
@@ -159,7 +163,6 @@
     <string name="open_close_tip_content">För att stänga det flytande fönstret, tryck och håll händelseraden och svep sedan upp</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
-    <string name="other_ime">Andra tangentbord</string>
     <string name="package_delete_confirm_step_1">Avinstallera %s?</string>
     <string name="package_delete_confirm_step_2">Att avinstallera den här appen kan innebära att ditt system blir instabilt.</string>
     <string name="package_delete_confirm_step_3">Du kommer inte kunna öppna den här appen efter att du tagit bort den.</string>

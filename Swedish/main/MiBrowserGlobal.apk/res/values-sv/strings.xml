@@ -235,7 +235,7 @@ Toggla av för att sluta synka."</string>
     <string name="category_folder">Mappar</string>
     <string name="category_installed_app">Installerade appar</string>
     <string name="category_midrive">Mi Drive</string>
-    <string name="category_move_limit_notice">Du kan flytta från 3 till 7 objekt till den övre delen av skärmen</string>
+    <string name="category_move_limit_notice">Du kan flytta från %1$d till %2$d objekt till den övre delen av skärmen</string>
     <string name="category_music">Musik</string>
     <string name="category_other">Övrigt</string>
     <string name="category_photo">Foton</string>
@@ -374,6 +374,9 @@ Toggla av för att sluta synka."</string>
     <string name="copy">Kopiera</string>
     <string name="copy_url">Kopiera URL</string>
     <string name="could_not_load_data">Kunde inte ladda data, uppdatera och försök igen</string>
+    <string name="crash_page_button">Försök igen</string>
+    <string name="crash_page_description">Något gick fel när du visar den här webbsidan.</string>
+    <string name="crash_page_title">Aw, snap!</string>
     <string name="create_qr_code">QR-kod</string>
     <string name="current_version_pad">Platta</string>
     <string name="current_version_pc">Skrivbord</string>
@@ -432,7 +435,7 @@ Skicka koden till handledaren."</string>
     <string name="download_btn_select_none">Avmarkera alla</string>
     <string name="download_business_app_new_version">Den senaste versionen av denna app är redan installerad</string>
     <string name="download_business_app_update_install">Redo att installera uppdatering.</string>
-    <string name="download_business_v5_edit_mode_title_empty">0 valda</string>
+    <string name="download_business_v5_edit_mode_title_empty">Välj objekt</string>
     <string name="download_change_dir">Ändra mapp</string>
     <string name="download_complete">Nedladdning lyckades</string>
     <string name="download_completed">Nedladdad</string>
@@ -453,7 +456,7 @@ Skicka koden till handledaren."</string>
     <string name="download_dialog_failed_body">Försök igen senare eller ta bort denna fil från nedladdningskön?</string>
     <string name="download_dialog_file_already_exists">Du har redan laddat ner denna fil</string>
     <string name="download_dialog_file_length_hint_txt">"Filstorlek: "</string>
-    <string name="download_dialog_file_length_lessthan1kb">Mindre än 1 kB</string>
+    <string name="download_dialog_file_length_lessthan1kb">Mindre än %1$dKB</string>
     <string name="download_dialog_file_length_nolength_error_txt">Det gick inte att hämta</string>
     <string name="download_dialog_file_length_nolength_txt">Vänta en stund…</string>
     <string name="download_dialog_file_missing_body">Kunde inte hitta filen. Är den flyttad eller borttagen?</string>
@@ -694,6 +697,8 @@ Skicka koden till handledaren."</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="game_center_recommend_play">Spela</string>
+    <string name="game_center_recommend_title">Rekommenderat för dig</string>
     <string name="game_played">Senaste</string>
     <string name="gcm_fallback_notification_channel_label">Diverse</string>
     <string name="geolocation_permissions_prompt_dont_share">Avböj</string>
@@ -805,9 +810,9 @@ Skicka koden till handledaren."</string>
     <string name="lockpattern_need_to_unlock_wrong">Försök igen</string>
     <string name="lockpattern_pattern_confirmed_header">Här är ditt upplåsningsmönster:</string>
     <string name="lockpattern_pattern_entered_header">Klar!</string>
-    <string name="lockpattern_recording_incorrect_too_short">Försök igen. Anslut minst 4 prickar.</string>
+    <string name="lockpattern_recording_incorrect_too_short">Försök igen. Anslut minst %1$d punkter.</string>
     <string name="lockpattern_recording_inprogress">Frigör när ditt mönster är klart</string>
-    <string name="lockpattern_recording_intro_header">Anslut åtminstone 4 punkter</string>
+    <string name="lockpattern_recording_intro_header">Anslut minst %1$d punkter</string>
     <string name="lockpattern_retry_button_text">Återställ</string>
     <string name="login_failed_toast">Kunde inte logga in, uppdatera och försök igen</string>
     <string name="login_or_register">eller</string>
@@ -818,7 +823,7 @@ Skicka koden till handledaren."</string>
     <string name="make_private_msg_1">Dölj denna fil?</string>
     <string name="make_private_msg_2">Dölj dessa filer?</string>
     <string name="max_tabs_warning">Kan inte öppna fler flikar</string>
-    <string name="maximum_input_alert">Kan inte skriva in mer än 2048 tecken</string>
+    <string name="maximum_input_alert">Kan inte ange mer än %1$d tecken</string>
     <string name="menu_addtodesk">Lägg till på Hemskärmen</string>
     <string name="menu_exit_nightmode">Avsluta</string>
     <string name="menu_hv_swap">V/H skärm</string>
@@ -1330,7 +1335,7 @@ Lämna denna sida nu?"</string>
     <string name="pf_guide_msg_if_has_downloading">Kan inte lägga till pågående nedladdningar till privat mapp</string>
     <string name="pf_move_out">Ta bort från privat mapp</string>
     <string name="pf_move_out_dialog_btn_confirm">Ta bort</string>
-    <string name="pf_move_out_dialog_content">Borttagna objekt kommer att sparas på sina ursprungliga platser.</string>
+    <string name="pf_move_out_dialog_content">Borttagna objekt kommer att visas bland senaste filer.</string>
     <string name="pf_move_out_dialog_title">Tar bort från privat mapp</string>
     <string name="pf_toast_add_success">Flyttad till privat mapp</string>
     <string name="phone">Lagring</string>
@@ -1509,7 +1514,7 @@ Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att 
     <string name="preference_des_autocomplete_search">Komplettera automatiskt sökningar baserat på webbläsarhistorik, sökmotorförslag, och populära webbplatser</string>
     <string name="preference_title_autocomplete_search">Komplettera automatiskt sökningar och URL:er</string>
     <string name="privacy_accept">Godkänn &amp; fortsätt</string>
-    <string name="privacy_agreement">Användarvillkor</string>
+    <string name="privacy_agreement">Användaravtal</string>
     <string name="privacy_authorize_cannot_revoke_dialog_msg">Denna åtgärd kräver uppladdning av ditt Performance ID, vilket inte kan utföras i Inkognitoläge. Lämna Inkognitoläge och försök igen.</string>
     <string name="privacy_authorize_network_error">Din enhet behöver ansluta till nätverket för att du ska kunna dra tillbaka samtycket. Kontrollera dina nätverksinställningar och försök igen.</string>
     <string name="privacy_authorize_revoke">Upphäv</string>
@@ -1574,7 +1579,7 @@ Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att 
     <string name="readmode_recommend_message">Du har redan läst denna bok. :)</string>
     <string name="readmode_refresh">Uppdatera</string>
     <string name="readmodelist_bookmarks_to_show">Läslista</string>
-    <string name="recent_apk_status_install">INSTALLERAT</string>
+    <string name="recent_apk_status_install">INSTALLERAD</string>
     <string name="recommend">Rekommenderade</string>
     <string name="refresh">Uppdatera</string>
     <string name="refresh_fail">Kunde inte ladda information</string>
@@ -1621,7 +1626,7 @@ Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att 
     <string name="rlv_pull_to_refresh">Dra nedåt för att uppdatera</string>
     <string name="rlv_refreshing">Uppdaterar…</string>
     <string name="rlv_release_to_refresh">Släpp för att uppdatera</string>
-    <string name="rlz_access_point">Y1</string>
+    <string name="rlz_access_point">Y%1$d</string>
     <string name="root_folder_lable">Ingen</string>
     <string name="router_download_exist">Filen finns redan</string>
     <string name="router_download_failed">Kunde inte ladda ned</string>
@@ -1679,7 +1684,7 @@ Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att 
     <string name="search_google">Google</string>
     <string name="search_hint">Söka</string>
     <string name="search_menu_title">Sök</string>
-    <string name="search_s139">139</string>
+    <string name="search_s139">%1$d</string>
     <string name="search_settings_description">Bokmärken och Historik</string>
     <string name="search_shipin">Video</string>
     <string name="search_sm">SM</string>
@@ -1978,8 +1983,8 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="vpn_data_used_info">Använt %2$s av %1$s</string>
     <string name="vpn_detail_guide1">Lås upp alla servrar för att snabba upp din uppkoppling</string>
     <string name="vpn_detail_guide2">Prenumerera på VPN-tjänster för att få tillgång till fler webbplatser</string>
-    <string name="vpn_detail_guide3">Du har snart slut på trafik. Prova vår 12-månaders plan! Tryck för att läsa om dina alternativ.</string>
-    <string name="vpn_detail_guide4">Du har slut på trafik. Prova vår 12-månaders plan! Tryck för att läsa om dina alternativ.</string>
+    <string name="vpn_detail_guide3">Du har snart slut på trafik. Prova vår %1$d-månaders plan! Tryck för att läsa om dina alternativ.</string>
+    <string name="vpn_detail_guide4">Du har slut på trafik. Prova vår %1$d-månaders plan! Tryck för att läsa om dina alternativ.</string>
     <string name="vpn_detail_guide5">Du har snart slut på trafik</string>
     <string name="vpn_detail_guide6">Du har slut på trafik</string>
     <string name="vpn_detail_subscribe">Prenumerera</string>
@@ -2010,7 +2015,7 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="whatsapp_how_it_works">Så fungerar det</string>
     <string name="whatsapp_intro_dialog_title">Ny funktion</string>
     <string name="whatsapp_no_status_tips">Inga bilder eller videor här ännu. Visa dina WhatsApp-statusuppdateringar och kom tillbaka hit igen.</string>
-    <string name="whatsapp_principle_page_message">WhatsApp sparar foton och videor som du bläddrar bland till en dold mapp. Dessa objekt försvinner efter 24 timmar. Nu kan du använda Mi Browser för att spara dem.</string>
+    <string name="whatsapp_principle_page_message">WhatsApp sparar foton och videor som du bläddrar bland till en dold mapp. Dessa objekt försvinner efter %1$d timmar. Nu kan du använda Mi Browser för att spara dem.</string>
     <string name="whatsapp_principle_page_title">Du kan spara bilder och videor från WhatsApp-statusar med hjälp av Mi Browser</string>
     <string name="whatsapp_principle_step_1">Bläddra bland bilder och videor från ”Status”-fliken i WhatsApp.</string>
     <string name="whatsapp_principle_step_2">Kom tillbaka hit för att spara dem.</string>

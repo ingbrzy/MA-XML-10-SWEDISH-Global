@@ -37,6 +37,7 @@
     <string name="alert_message_delete_record">Om inspelningen tas bort från enheten kommer också att tas bort denna inspelning från Xiaomi Cloud. Ta bort nu?</string>
     <string name="alert_message_delete_record_title">Ta bort inspelning?</string>
     <string name="all_record">Alla inspelningar</string>
+    <string name="allowed">Beviljat</string>
     <string name="am">F.m</string>
     <string name="app_name">Diktafon</string>
     <string name="app_record">App-inspelningar</string>
@@ -184,6 +185,7 @@
     <string name="head_set_tip_dialog_title">Använd inbyggd mikrofon</string>
     <string name="icon_content_description">Dialogikon</string>
     <string name="invalid_argument">Ogiltigt argument</string>
+    <string name="invisible_mode_error_tip">Inaktivera inkognitoläget i inställningar för att kunna använda mikrofonen</string>
     <string name="item_view_role_description">Flik</string>
     <string name="keywords_search_call_record">Spela in samtal;Spela in samtal;Samtalsinspelning;Samtalsinspelningar</string>
     <string name="keywords_search_record">Ny inspelning;Lägg till inspelning;Inspelning;Inspelningar;Transkript;Transkripera;Inspelare;Röstinspelare;Ljudinspelare;App Inspelare;Inspelningsapp;Hur spelar jag in; Hur ljud spelas in; Var finns inspelare; MIUI inspelare</string>
@@ -221,6 +223,7 @@
     <string name="mi_account_ok">Logga in</string>
     <string name="mi_account_title">Logga in med Mi-konto</string>
     <string name="midnight">Natt</string>
+    <string name="miuix_access_state_desc">Valt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
@@ -293,6 +296,7 @@
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -333,6 +337,7 @@
     <string name="no_records">Inga inspelningar här än</string>
     <string name="noon">Middagstid</string>
     <string name="normal_settings_pref_title">Allmänna inställningar</string>
+    <string name="not_allowed">Ej beviljat</string>
     <string name="not_set">Inte angett</string>
     <string name="notification_message_all_paused">Väntar på Wi-Fi nätverk.</string>
     <string name="notification_playback">Spelar…</string>
@@ -378,6 +383,15 @@
     <string name="pay_error_cancel">Betalningen avbröts</string>
     <string name="pay_error_null">Kunde inte slutföra betalningen. Kontrollera ditt konto.</string>
     <string name="pay_error_unknown">Okänt fel</string>
+    <string name="permission_desc">Behörighetsuppgifter</string>
+    <string name="permission_dialog_cancel">Avbryt</string>
+    <string name="permission_dialog_ok">Inställningar</string>
+    <string name="permission_record">Spela in ljud</string>
+    <string name="permission_record_description">För tillhandahållande av ljudinspelningstjänster</string>
+    <string name="permission_storage">Åtkomst till lagringsutrymme</string>
+    <string name="permission_storage_description">För hantering av inspelningar och nedladdningar av dem från molnet</string>
+    <string name="permission_storage_description_for_download">För nedladdning av inspelningar från molnet</string>
+    <string name="permission_storage_description_for_manage_files">För hantering av inspelningar</string>
     <string name="play_speed">%1$.1fX-hastighet</string>
     <string name="playback_delete_records">Radera inspelning</string>
     <string name="playback_share_records">Dela inspelning</string>
@@ -399,6 +413,8 @@
     <string name="preference_status_bar_indicator_prompt">Visa en blå indikator på Låsskärmen under inspelning</string>
     <string name="preference_tip_rename">Namnge inspelningar manuellt</string>
     <string name="privacy_policy_title">Integritetspolicy</string>
+    <string name="privacy_settings">Integritet</string>
+    <string name="progress">Förloppsindikator för uppspelning</string>
     <string name="recognition_button_add_to_queue">Lägg till i kön</string>
     <string name="recognition_button_cancel">Inte nu</string>
     <string name="recognition_button_start">Transkribera</string>
@@ -466,6 +482,7 @@
     <string name="record_mark_point">Markera %s</string>
     <string name="record_name_hour">.</string>
     <string name="record_name_minute">​</string>
+    <string name="record_permission_dialog_title">Mikrofonbehörigheter krävs</string>
     <string name="record_quliaty_preference_title">Inspelningskvalitet</string>
     <string name="record_resotre">Återställ inspelningar</string>
     <string name="recorder_record">Ljud</string>
@@ -498,6 +515,11 @@
     <string name="rename_no_more_tip">Visa inte igen</string>
     <string name="retry">Försök igen</string>
     <string name="runtime_permission_ungranted">Kan inte använda Inspelaren på grund av otillräcklig behörighet</string>
+    <string name="saf_permission_dialog_content">På grund av Android-restriktioner behöver Diktafon behörighet att få åtkomst till inspelningar gjorda av andra appar. Tillåt Diktafon att få åtkomst till dessa inspelningar för att kunna visa dem.</string>
+    <string name="saf_permission_dialog_grant_permission_immediately">Inställningar</string>
+    <string name="saf_permission_dialog_later">Nej tack</string>
+    <string name="saf_permission_dialog_no_more_tip">Visa inte igen</string>
+    <string name="saf_permission_dialog_title">Behörigheter krävs</string>
     <string name="saturday">Lördag</string>
     <string name="saturday_short">Lör</string>
     <string name="saturday_shortest">Lör</string>
@@ -516,6 +538,7 @@
     <string name="search_tip_rename">Namnge inspelningar manuellt</string>
     <string name="send">Skicka</string>
     <string name="service_instructions">Om iflyrec.com</string>
+    <string name="settings_saf_permission">Filhanteringsbehörigheter</string>
     <string name="share">Dela</string>
     <string name="share_dialog_title">Dela med</string>
     <string name="shortcut_records">Inspelningar</string>
@@ -536,6 +559,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Inspelning…</string>
     <string name="status_bar_recording_pause">Recorder pausad</string>
+    <string name="storage_permission_dialog_title">Behörigheter för lagringsutrymme krävs</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>
@@ -625,6 +649,7 @@
     <string name="user_feedback">Återkoppling</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
+    <string name="view_privacy">Visa integritetspolicy</string>
     <string name="webview_check_network">Nätverksinställningar</string>
     <string name="webview_data_error">Ett fel uppstod</string>
     <string name="webview_locating_fail">Kunde inte hitta din plats</string>

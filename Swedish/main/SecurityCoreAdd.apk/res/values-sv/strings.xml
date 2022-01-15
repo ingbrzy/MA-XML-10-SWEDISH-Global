@@ -69,6 +69,7 @@ läggs funktionen till i Sekundära utrymmet automatiskt."</string>
     <string name="close_second_space">Tog bort Sekundära utrymmet</string>
     <string name="close_second_space_success">Tog bort Sekundära utrymmet</string>
     <string name="closed">Av</string>
+    <string name="common_google_play_services_unknown_issue">Det har uppstått ett fel mellan %1$s och Google Play-tjänsterna. Försök igen.</string>
     <string name="complete_setting">Slutför</string>
     <string name="complete_setting_sub_title">Du kan även komma tillbaka senare för att ändra inställningarna.</string>
     <string name="complete_setting_title">Du har ställt in allt!</string>

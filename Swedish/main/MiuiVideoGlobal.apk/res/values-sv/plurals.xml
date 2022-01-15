@@ -176,4 +176,12 @@
         <item quantity="other">Undertexter är fördröjda i %.1f sekunder</item>
         <item quantity="one">Undertexter är fördröjda i %.1f sekund</item>
     </plurals>
+    <plurals name="toast_bookmark_max_size">
+        <item quantity="other">Lägg till, upp till %d bokmärken</item>
+        <item quantity="one">Lägg till, upp till %d bokmärke</item>
+    </plurals>
+    <plurals name="video_view_count">
+        <item quantity="other">%d visningar</item>
+        <item quantity="one">%d visning</item>
+    </plurals>
 </resources>

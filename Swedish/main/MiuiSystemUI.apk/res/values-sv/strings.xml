@@ -131,7 +131,6 @@
     <string name="accessibility_keyguard_face_unlock_view">Ansiktsupplåsning</string>
     <string name="accessibility_left_control_center_button">Genväg</string>
     <string name="accessibility_left_lock_screen_magazine_button">Bakgrundsbildskarusell</string>
-    <string name="accessibility_left_xmyzl_button">Xiaomi Magic Control</string>
     <string name="accessibility_location_active">Det finns aktiva platsbegäranden</string>
     <string name="accessibility_long_click_tile">Öppna inställningarna</string>
     <string name="accessibility_manage_notification">Hantera aviseringar</string>
@@ -561,7 +560,6 @@ Val"</string>
     <string name="cell_data_off">Av</string>
     <string name="cell_data_off_content_description">Mobildata har inaktiverats</string>
     <string name="charge_length_format">%1$s sedan</string>
-    <string name="choose_clock_dual_clock_hint_text">Kan inte ändra formatet när dubbelklocka är på</string>
     <string name="choose_clock_panel_title">Låsskärms-layout</string>
     <string name="choose_clock_third_theme_hint_text">Låsskärm från det nuvarande tillämpade temat</string>
     <string name="choose_clock_title_left_top">Vänsterjusterad</string>
@@ -705,9 +703,6 @@ Om du fortsätter kan avgifter för dataanvändning tillkomma."</string>
     <string name="development_settings_not_available">Utvecklaralternativ är inte tillgängliga för den här användaren</string>
     <string name="development_settings_summary">Ställ in alternativ för apputveckling</string>
     <string name="development_settings_title">Utvecklaralternativ</string>
-    <string name="device_locked_without_biometric">Kan inte låsa upp den här enheten med fingeravtrycks- eller ansiktsdata när du använder tredjeparts skärmlås</string>
-    <string name="device_locked_without_biometric_face">Kan inte låsa den här enheten med ansiktsdata när du använder tredjeparts skärmlås</string>
-    <string name="device_locked_without_biometric_finger">Kan inte låsa upp den här enheten med fingeravtryck när du använder tredjeparts skärmlås</string>
     <string name="device_services">Enhetstjänster</string>
     <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Obs: Efter en omstart kommer denna app inte starta innan du låser upp din enhet.</string>
@@ -783,7 +778,6 @@ Om du fortsätter kan avgifter för dataanvändning tillkomma."</string>
     <string name="face_unlock_pin_and_fingerprint">Ange PIN eller använd fingeravtryck för att låsa upp</string>
     <string name="face_unlock_reveal_eye">Gör dina ögon synliga</string>
     <string name="face_unlock_reveal_mouth">Gör dina läppar synliga</string>
-    <string name="face_unlock_success">Framgångsrikt upplåst</string>
     <string name="failed_to_open_app_settings_toast">Det gick inte att öppna inställningar för %1$s</string>
     <string name="fingerprint_add_text">Fingeravtrycksgränssnittet har uppdaterats. Lägg till ditt fingeravtryck igen.</string>
     <string name="fingerprint_add_title">Lägg till fingeravtryck</string>
@@ -812,7 +806,6 @@ Om du fortsätter kan avgifter för dataanvändning tillkomma."</string>
     <string name="fs_gesture_back_ready_title">Gå tillbaka</string>
     <string name="fs_gesture_final_over">Jag är färdig</string>
     <string name="fs_gesture_final_restart">En gång till</string>
-    <string name="fs_gesture_final_see_more">Visa fler demonstrationer i Inställningar > Hemskärmen > Systemnavigering</string>
     <string name="fs_gesture_final_summary">Du kan växla tillbaka till att använda knappar i Inställningar > Helskärm</string>
     <string name="fs_gesture_final_title">Du är redo att rocka!</string>
     <string name="fs_gesture_finish">Nice!</string>
@@ -843,6 +836,28 @@ Om du fortsätter kan avgifter för dataanvändning tillkomma."</string>
     <string name="guest_wipe_session_wipe">Börja om</string>
     <string name="gxzw_area">Fingeravtryckssensor</string>
     <string name="gxzw_press_harder">Trycka lite hårdare</string>
+    <string name="gxzw_quick_close">Stäng</string>
+    <string name="gxzw_quick_open_add_event">Lägg till händelse</string>
+    <string name="gxzw_quick_open_add_event_sub">Kalender</string>
+    <string name="gxzw_quick_open_alipay_pay">Betalningskod</string>
+    <string name="gxzw_quick_open_alipay_pay_sub">Alipay</string>
+    <string name="gxzw_quick_open_alipay_scan">Scanner</string>
+    <string name="gxzw_quick_open_alipay_scan_sub">Alipay</string>
+    <string name="gxzw_quick_open_qr_code">QR-kod</string>
+    <string name="gxzw_quick_open_qr_code_sub">Scanner</string>
+    <string name="gxzw_quick_open_search">Sök</string>
+    <string name="gxzw_quick_open_search_sub">Webbläsare</string>
+    <string name="gxzw_quick_open_skip_teach">Hoppa över handledning</string>
+    <string name="gxzw_quick_open_title">Öppnade genvägsmeny</string>
+    <string name="gxzw_quick_open_wechat_pay">Betalningskod</string>
+    <string name="gxzw_quick_open_wechat_pay_sub">WeChat</string>
+    <string name="gxzw_quick_open_wechat_scan">Scanner</string>
+    <string name="gxzw_quick_open_wechat_scan_sub">WeChat</string>
+    <string name="gxzw_quick_open_xiaoai_sub">Mi AI</string>
+    <string name="gxzw_quick_open_xiaoai_title1">Säg namnet på den app du vill öppna</string>
+    <string name="gxzw_quick_open_xiaoai_title2">Säg namnet på den funktion du vill använda</string>
+    <string name="gxzw_quick_tip_press">Fortsätt trycka på…</string>
+    <string name="gxzw_quick_tip_slide">Lyft inte upp fingret. Dra för att välja.</string>
     <string name="gxzw_try_again">Försök igen</string>
     <string name="gxzw_try_more_again">Försök igen</string>
     <string name="gxzw_use_password">Använd ditt lösenord för att låsa upp</string>
@@ -911,15 +926,13 @@ Vill du fortsätta att visa dem?"</string>
     <string name="input_lockscreen_password_hint_text">Ange lösenord</string>
     <string name="input_lockscreen_pattern_hint_text">Rita mönster</string>
     <string name="input_lockscreen_pin_hint_text">Ange PIN</string>
-    <string name="input_password_after_boot_msg">Angivande av ditt lösenord krävs när enheten startar om</string>
+    <string name="input_password_after_boot_msg">För att låsa upp enheten, ange ditt lösenord</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Det går inte att växla mellan utrymmen under samtal</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Det går inte att växla mellan utrymmena när föräldrakontroll är aktiv</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_superpower_active">Kan inte växla mellan mellanslag när ultra-batterisparläge är på</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">När du har startat om enheten måste du först flytta till primära utrymmet</string>
     <string name="input_password_hint_text">Ange lösenord</string>
-    <string name="input_pattern_after_boot_msg">Ritande av ditt mönster krävs när enheten startar om</string>
     <string name="input_pattern_hint_text">Rita ditt upplåsningsmönster</string>
-    <string name="input_pin_after_boot_msg">Angivande av din PIN krävs när enheten startar om</string>
     <string name="input_pin_code">Ange PIN</string>
     <string name="input_puk_code">Mata in PUK</string>
     <string name="install_other_apps">Installera okända appar</string>
@@ -998,7 +1011,6 @@ prioriterade"</string>
     <string name="keyguard_charged">Laddat</string>
     <string name="keyguard_charging_back_to_lockscreen">Tillbaka till Låsskärmen</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
-    <string name="keyguard_charging_double_fast_and_level_tip">Snabbladdningshastighet %s</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Idag %s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">Igår %s</string>
@@ -1025,6 +1037,7 @@ prioriterade"</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-kort saknas eller kan inte läsas. Sätt i ett SIM-kort.</string>
     <string name="keyguard_missing_sim_message">Inget SIM-kort i telefonen.</string>
     <string name="keyguard_missing_sim_message_short">Inget SIM-kort</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Nätverk låst</string>
     <string name="keyguard_password_enter_password_code">Lås upp med lösenordet</string>
     <string name="keyguard_password_enter_pin_code">Ange pinkod</string>
@@ -1260,12 +1273,14 @@ Du är även ansluten till %3$s som kan bevaka din privata nätverksaktivitet."<
 
 Kontakta administratören om du vill veta mer."</string>
     <string name="monitoring_description_ca_cert_settings">Öppna betrodda användaruppgifter</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">En certifikatutfärdare är installerad på enheten. Din säkra nätverkstrafik kan övervakas och ändras.</string>
     <string name="monitoring_description_do_body">Administratören kan övervaka och hantera inställningar, företagsåtkomst, appar, data med koppling till enheten och enhetens plats.</string>
     <string name="monitoring_description_do_body_vpn">Du är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-postmeddelanden, appar och webbplatser.</string>
     <string name="monitoring_description_do_header_generic">Enheten hanteras av %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s hanterar enheten med hjälp av %2$s.</string>
     <string name="monitoring_description_do_learn_more">Läs mer</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Organisationen har installerat en certifikatutfärdare i jobbprofilen. Din säkra nätverkstrafik kan övervakas och ändras.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Jobbprofilen är ansluten till %1$s som kan övervaka din nätverksaktivitet, exempelvis e-post, appar och webbplatser.</string>
     <string name="monitoring_description_management">"Den här enheten tillhör organisationen.
@@ -1297,6 +1312,7 @@ Kontakta administratören om du vill veta mer.
 
 Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</string>
     <string name="monitoring_description_vpn_settings">Öppna VPN-inställningarna</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA-certifikat</string>
     <string name="monitoring_subtitle_network_logging">Nätverksloggning</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1327,11 +1343,11 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="mr_dialog_transferable_header">Spela upp på en grupp enheter</string>
     <string name="mr_system_route_name">System</string>
     <string name="mr_user_route_category_name">Enheter</string>
-    <string name="msim_set_sub_not_supported_phone_in_call">Går inte att ange under samtal</string>
     <string name="music_controls_no_title">Ingen titel</string>
     <string name="nav_bar">Navigeringsfält</string>
     <string name="nav_bar_default">(standard)</string>
     <string name="nav_bar_layout">Layout</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Inga</string>
     <string name="no_auto_saver_action">Nej tack</string>
     <string name="no_shortcut">%1$s har inte stöd för konversationsfunktioner</string>
@@ -1403,7 +1419,6 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="open_lock_screen_magazine_hint_text">Svep höger för fler alternativ</string>
     <string name="open_remote_center_hint_text">Svep åt höger för att se kontrollerna</string>
     <string name="open_saver_setting_action">Inställningar</string>
-    <string name="open_xmyzl_hint_text">Svep åt höger för att öppna Xiaomi Magic Control</string>
     <string name="orb_search_action">Sökåtgärd</string>
     <string name="osu_completing_sign_up">Slutför medlemskap…</string>
     <string name="osu_connect_failed">Kan inte ansluta</string>
@@ -1429,7 +1444,7 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="phone_locked_foget_password_method_content">&lt;Data>Du måste &lt;font color=#a5220e>rensa all data &lt;/font>på din enhet, inklusive bilder och kontakter, och sedan sätta ett nytt lösenord för låsskärmen.&lt;/Data></string>
     <string name="phone_locked_foget_password_method_next">Nästa</string>
     <string name="phone_locked_foget_password_ok">Uppfattat</string>
-    <string name="phone_locked_forget_password_suggesstion_one_content"><Data>Stäng av din enhet, tryck sedan och håll inne &lt;font color=#e6e6e6>[Start]&lt;/font> och &lt;font color=#e6e6e6>[Volym +]&lt;/font>-knapparna tills du ser &lt;img src=\"\">.</Data></string>
+    <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data>Stäng av din enhet, tryck och håll &lt;font color=#a5220e> Strömknappen&lt;/font> och &lt;font color=#a5220e>Volymknappen upp&lt;/font> samtidigt till du ser Mi-loggan.&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>Välj&lt;font color=#a5220e>\"Rensa&amp;amp; Nollställ\"&lt;/font> och vänta till enheten startar om.;&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">Hur rensar du all data?</string>
     <string name="phone_locked_string">Denna enhet är olåst</string>
@@ -1515,6 +1530,7 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="private_dns_mode_provider">Värdnamn privat DNS-leverantör</string>
     <string name="private_dns_mode_provider_failure">Kan inte ansluta</string>
     <string name="private_dns_mode_provider_hostname_hint">Ange värdnamn för DNS-leverantör</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">Problem att ansluta. Slå av &amp; på enheten igen</string>
     <string name="profile_info_settings_title">Profil info</string>
     <string name="profile_owned_footer">Det kan hända att profilen övervakas</string>
@@ -1648,7 +1664,7 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="quick_settings_rotation_locked_landscape_label">Liggande</string>
     <string name="quick_settings_rotation_locked_portrait_label">Stående</string>
     <string name="quick_settings_rotation_unlocked_label">Rotera automatiskt</string>
-    <string name="quick_settings_rotationlock_label">Lås orientering</string>
+    <string name="quick_settings_rotationlock_label">Rotering av</string>
     <string name="quick_settings_rssi_emergency_only">Endast nödsamtal</string>
     <string name="quick_settings_rssi_label">RSSI</string>
     <string name="quick_settings_screen_record_label">Skärminspelning</string>
@@ -1806,8 +1822,6 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="show_silently">Visa aviseringar utan ljud</string>
     <string name="show_touches">Visa tryck</string>
     <string name="show_touches_summary">Visa visuell återkoppling för tryck</string>
-    <string name="shut_down_password_forget_password_suggesstion_one_content"><Data>Tryck och håll nere &lt;font color=#e6e6e6>[Power]&lt;/font> och &lt;font color=#e6e6e6>[Volym +]&lt;/font>-knappar tills du ser &lt;img src=\"\">.</Data></string>
-    <string name="shut_down_password_forget_password_suggesstion_two_content"><Data>Välj &lt;font color=#e6e6e6>[Wipe data]&lt;/font> och tryck på &lt;font color=#e6e6e6>[Reboot]&lt;/font> efter detta.</Data></string>
     <string name="sim_state_locked_dialog_title">Ogiltigt SIM-kort</string>
     <string name="sim_state_locked_puk_dialog_message">Du har angivit en felaktig PUK-kod minst %d gånger. Ditt SIM-kort är ogiltigt nu. Ersätt detta SIM-kort med ett annat.</string>
     <string name="simulate_color_space">Simulera färgrymd</string>

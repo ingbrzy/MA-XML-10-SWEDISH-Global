@@ -150,6 +150,7 @@
     <string name="dynamic_weather">Väder</string>
     <string name="early_morning">Morgon</string>
     <string name="edit_city">Hantera städer</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Uppdaterar…</string>
     <string name="empty_view_net_unavailable">Det gick inte att ansluta till nätverket</string>
     <string name="empty_view_refresh">Försök igen</string>
@@ -259,13 +260,17 @@
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
     <string name="hourly_forcast_now">Nu</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">M/d</string>
     <string name="index_item_experience_now">Installera nu</string>
     <string name="indices_title_chance_of_rain">Chans för regn</string>
     <string name="indices_title_feel">Känns som</string>
     <string name="indices_title_pressure">Tryck</string>
     <string name="indices_title_wind_speed">Vindhastighet</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV index</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Aktivera platstjänster</string>
     <string name="location_tag">Lokalisera</string>
     <string name="manager_city_option_add_home">Lägg till på startsida</string>
@@ -408,6 +413,7 @@
     <string name="save_to_gallery_icon_name">Spara till Galleri</string>
     <string name="save_to_gallery_success_message">Sparad till galleriet</string>
     <string name="search_menu_title">Sök</string>
+    <string name="select_show_city">Välj plats</string>
     <string name="send">Skicka</string>
     <string name="set_degree_centigrade">°C</string>
     <string name="set_fahrenheit">°F</string>
@@ -422,6 +428,7 @@
     <string name="share_menu_title">Dela</string>
     <string name="share_subject">Dela</string>
     <string name="share_weather_desc">\#MIUI Väder#Idag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Det gick inte att ta skärmdump</string>
     <string name="shortcut_short_label_24_hour_forecast">24-timmars prognos</string>
@@ -545,7 +552,7 @@
     <string name="update_night_setting_title_text">Uppdatera automatiskt på natten</string>
     <string name="update_notification_info">Uppdaterar data i bakgrunden…</string>
     <string name="updated_a_moment_ago">Nyss uppdaterad</string>
-    <string name="user_agreement">Användarvillkor</string>
+    <string name="user_agreement">Användaravtal</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="video_banner_regional_weather_update">Regionala väderuppdateringar</string>

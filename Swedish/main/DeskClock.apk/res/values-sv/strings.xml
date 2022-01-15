@@ -67,6 +67,7 @@
     <string name="alert_vibrate_enable_summary">Vibrera när alarmet ljuder</string>
     <string name="alert_volume">Ringsignalsvolym</string>
     <string name="alert_volume_summary">Ställ in ringsignalsvolymen för alarm och timers</string>
+    <string name="alert_xiaoai_ringtone_desc">Mi AI pratar…</string>
     <string name="already_exist">Timern finns redan</string>
     <string name="am">F.m</string>
     <string name="analog_gadget">Analog klocka</string>
@@ -110,6 +111,7 @@
     <string name="channel_name_timer">Timer</string>
     <string name="check_theme_app_install">Kontrollera att appen Teman är installerad på din enhet.</string>
     <string name="check_voice_assist_app_version">Uppdatera Mi AI till senaste versionen.</string>
+    <string name="cities_show_limit_desc">Det går inte att visa fler klockor</string>
     <string name="city_time_contrast_desc">Tryck för att jämföra tid i olika städer</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
     <string name="clock_bg_button_setting_summary_common">Välj bakgrundsfärg för appen Klocka</string>
@@ -356,7 +358,7 @@
     <string name="module_white_noise_download_data">Appen Klocka behöver ladda ner ljudfiler för omgivningsljud för timers ≈30MB av mobildata kommer att behövas för nedladdningen. Ladda ner nu?</string>
     <string name="module_white_noise_download_data_privacy">&lt;Data>För att kunna ladda ner ljudfiler för omgivningsljud för timers (≈30MB) och tillhandahålla personliga tjänster behöver appen Klocka ansluta till internet. Innan du använder appen Klocka måste du också läsa och godkänna våra &lt;a href=\"%1$s\">Användarvillkor&lt;/a> och vår &lt;a href=\"%2$s\">Integritetspolicy&lt;/a>. Du använder mobildata nu. Godkänn?&lt;/Data></string>
     <string name="module_white_noise_download_wifi">Appen Klocka behöver ladda ner ljudfiler för omgivningsljud för timers. Ladda ner nu?</string>
-    <string name="module_white_noise_download_wifi_privacy">&lt;Data>För att kunna ladda ner ljudfiler för omgivningsljud för timers och tillhandahålla personliga tjänster behöver appen Klocka ansluta till internet. Innan du använder appen Klocka måste du också läsa och godkänna våra &lt;a href=\"%1$s\">Användarvillkor&lt;/a> och vår &lt;a href=\"%2$s\">Integritetspolicy&lt;/a> Godkänn?&lt;/Data></string>
+    <string name="module_white_noise_download_wifi_privacy">&lt;Data>För att ladda ner ljudfiler för omgivanigsljud för timers och tillhandahålla personliga tjänster måste appen Klocka anslutas till Internet. Innan du använder Klocka måste du också läsa och godkänna vårt &lt;a href=\"%1$s\">Användaravtal&lt;/a> och vår &lt;a href=\"%2$s\">Integritetspolicy&lt;/a>. Samtycker du?&lt;/Data></string>
     <string name="monday">Måndag</string>
     <string name="monday_short">Mån</string>
     <string name="monday_shortest">Mån</string>
@@ -444,6 +446,7 @@
     <string name="repeat_count_value_ten">10</string>
     <string name="repeat_count_value_three">3</string>
     <string name="repeat_count_value_two">2</string>
+    <string name="repeat_type">Upprepa</string>
     <string name="reset">Nollställ</string>
     <string name="revert">Återställ</string>
     <string name="ringtone_all">Alla ringsignaler</string>
@@ -463,7 +466,9 @@
     <string name="search_stopwatch_keywords">Tidtagarur</string>
     <string name="search_timer_keywords">Timer</string>
     <string name="search_worldclock_keywords">Tid; Världsklocka; Klocka</string>
+    <string name="select_all">Markera alla</string>
     <string name="select_operation">Välj</string>
+    <string name="selected">Valda</string>
     <string name="send">Skicka</string>
     <string name="set_alarm">Välj tid</string>
     <string name="set_alarm_choose_ringtone">Välj ringsignal</string>
@@ -486,6 +491,7 @@
     <string name="shutdown_alarm_enable_summary">Larmet kommer att utlösas om det konfigureras för minst 10 minuter efter att du stänger av din enhet</string>
     <string name="shutdown_alarm_title">Stänga av Alarm</string>
     <string name="silent_alarm_summary">Tyst</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Stäng av en gång %s</string>
     <string name="sleep_analysis">Statistik</string>
     <string name="sleep_analysis_chart_date_format">dd/MM</string>
@@ -529,6 +535,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Inga varv</string>
     <string name="stopwatch_reset_notification">Tidtagaruret återställdes</string>
     <string name="stopwatch_running_notification">Tidtagarur</string>
@@ -537,6 +544,7 @@
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>
     <string name="sunday_shortest">Sön</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Tillåt denna app att ansluta till internet för att använda alla dess funktioner.</string>
     <string name="system_permission_main_purpose">Visningstid, ställa in alarm och timers, använda stoppklocka</string>
     <string name="system_permission_purpose">Skapa vardagsalarm och ställa in anpassade ringsignaler</string>
@@ -643,6 +651,11 @@
     <string name="tuesday_shortest">Tis</string>
     <string name="turn_off_a_repeat_alarm">Stäng av en upprepande alarm</string>
     <string name="turn_off_this_repeat_alarm">Stäng av detta upprepande alarm</string>
+    <string name="tv_blank_list_other_text">Inget här än</string>
+    <string name="tv_blank_list_show_text">Inget här än. Sök efter en plats att lägga till i din världsklocka.</string>
+    <string name="tv_world_clock_edit_title1">Platser visas på hemskärmen</string>
+    <string name="tv_world_clock_edit_title2">Andra sparade platser</string>
+    <string name="unselect_all">Avmarkera alla</string>
     <string name="upcoming_alarm">Kommande larm: %s</string>
     <string name="upcoming_alarm_hint">Du kan stänga av detta larm nu</string>
     <string name="update_health_app">Uppdatera Xiaomi Health</string>
@@ -650,7 +663,7 @@
     <string name="update_it">Uppdatera</string>
     <string name="update_notification_info">Uppdaterar data i bakgrunden…</string>
     <string name="usage_start">Starta</string>
-    <string name="user_agreement">Användarvillkor</string>
+    <string name="user_agreement">Användaravtal</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="version_update_dialog_negative_desc">Inte nu</string>
@@ -670,8 +683,10 @@
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
     <string name="week_ringtone_recommend_desc">Naturalarm spelar olika ljud beroende på datumet. Ställ in det som ditt standardalarm?</string>
+    <string name="white_noise">Omgivande buller</string>
     <string name="white_noise_selector">Välj ljud</string>
     <string name="workday_alarm_clock">Arbetsdag larm</string>
+    <string name="worldclock_edit_label">Världsklocka</string>
     <string name="worldclock_empty_text">Inga klockor</string>
     <string name="worldclock_input_hint_text">Sök efter land eller stad</string>
     <string name="worldclock_local_time">Lokal tid</string>
@@ -689,5 +704,6 @@
     <string name="worldcolock_timezone_date">dd MMM</string>
     <string name="worldcolock_timezone_gap">%s H</string>
     <string name="worldcolock_timezone_local">Samma som lokal tid</string>
+    <string name="xiaoai_ringtone_title">Ringsignaler från Mi AI</string>
     <string name="yesterday">Igår</string>
 </resources>

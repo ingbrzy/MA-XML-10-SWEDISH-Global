@@ -91,7 +91,7 @@
     <string name="all_apps_suggestions">Appförslag</string>
     <string name="am">F.m</string>
     <string name="announce_for_app_move_in_folder">Flyttade till position %1$d i mappen</string>
-    <string name="announce_for_checked">%1$s，markerad</string>
+    <string name="announce_for_checked">%1$s, markerad</string>
     <string name="announce_for_choose_default_screen">Ställ in skärm %1$d som standard för Hemskärmen</string>
     <string name="announce_for_close_default_preview">Stängde standardinställningarna för Hemskärmen</string>
     <string name="announce_for_close_folder">Stängde mapp</string>
@@ -206,6 +206,13 @@
     <string name="copy">Kopiera</string>
     <string name="current_preview">Förhandsvisning</string>
     <string name="current_wallpaper">Nuvarande</string>
+    <string name="custom_define_permission_desc_android.permission.CALL_PHONE">För att göra samtal till nöd-kontakter i Lite-läge</string>
+    <string name="custom_define_permission_desc_android.permission.READ_CONTACTS">För att visa nöd-kontakter i Lite-läge</string>
+    <string name="custom_define_permission_desc_android.permission.READ_PHONE_STATE">För att visa enhetsstatus</string>
+    <string name="custom_define_permission_desc_android.permission_group.CALENDAR">För att visa kalenderwidgetar</string>
+    <string name="custom_define_permission_desc_android.permission_group.CAMERA">För att visa galleri-widgetar</string>
+    <string name="custom_define_permission_desc_android.permission_group.LOCATION">För åtkomst av WLAN-widgetnamn i Android Q</string>
+    <string name="custom_define_permission_desc_android.permission_group.STORAGE">För åtkomst till, samt spara Hemskärms-information</string>
     <string name="custom_wallpaper_picker">Bläddra</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -428,13 +435,13 @@
     <string name="lock_screen_success_message">Tillämpat till Låsskärmen</string>
     <string name="lock_screen_wallpaper">Bakgrund på Låsskärmen</string>
     <string name="maml_download_dialog_cancel_text">Vänta på Wi-Fi</string>
-    <string name="maml_download_dialog_cancel_text_china">Wait for WLAN</string>
-    <string name="maml_download_dialog_checkbox_text">Visa inte igen</string>
+    <string name="maml_download_dialog_cancel_text_china">Vänta på WLAN</string>
+    <string name="maml_download_dialog_checkbox_text">Visa inte igen på %d minuter</string>
     <string name="maml_download_dialog_confirm_text">Ladda ned</string>
     <string name="maml_download_dialog_message">%s MB av mobildata kommer att användas för att ladda ner detta objekt. Ladda ner ändå?</string>
     <string name="maml_download_dialog_title">Varning för dataanvändning</string>
     <string name="maml_download_tip_wait_wifi">Detta objekt kommer att laddas ner när du ansluter till Wi-Fi</string>
-    <string name="maml_download_tip_wait_wifi_china">This item will be downloaded when you connect to WLAN</string>
+    <string name="maml_download_tip_wait_wifi_china">Detta objekt kommer att laddas ner när du ansluter till WLAN</string>
     <string name="manager_group_settings">Hantera appkategorier</string>
     <string name="memory_clear_nothing_result">Inget att rensa i cache</string>
     <string name="memory_clear_result">%1$sB frigjort</string>
@@ -581,7 +588,7 @@
     <string name="online_wallpaper">Online</string>
     <string name="open_personal_assistant_dialog_btn_cancel">Avbryt</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Avaktivera</string>
-    <string name="open_personal_assistant_dialog_desc">Du kommer inte att kunna använda App vault och få dina uppdateringar. Avaktivera nu?</string>
+    <string name="open_personal_assistant_dialog_desc">När du har avaktiverat App vault kommer du inte att kunna se eller använda App vault-widgetar. Uppdaterade versioner av dessa kommer heller inte att vara tillgängliga för dig. Avaktivera ändå?</string>
     <string name="open_personal_assistant_dialog_desc_international">Du kommer inte att kunna använda kort (Aktier, Genvägar med mera.) i App vault och få uppdateringar när du stänger av funktionen.</string>
     <string name="open_personal_assistant_dialog_title">Avaktivera App vault</string>
     <string name="open_personal_assistant_settings">Inställningar för App-valv</string>
@@ -628,7 +635,7 @@
     <string name="preferred_app_settings_not_selected">Inte vald</string>
     <string name="privacy_thumbnail_blur_summary">Gör förhandsvisningar av appar suddiga i Senast använda appar</string>
     <string name="privacy_thumbnail_blur_title">Gör förhandsvisningar av appar suddiga</string>
-    <string name="quick_app">Snabb appar</string>
+    <string name="quick_app">Snabbappar</string>
     <string name="recent_apps">Senaste</string>
     <string name="recent_menu_item_info">Info</string>
     <string name="recent_menu_item_lock">Lås</string>
@@ -724,6 +731,7 @@
     <string name="sort_by_not_defined">Sortera automatiskt</string>
     <string name="start_activity_failed">Kan inte starta launcher</string>
     <string name="starting_preset_app">Startar…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s av %2$s tillgängligt</string>
     <string name="status_bar_recent_memory_info2" />
