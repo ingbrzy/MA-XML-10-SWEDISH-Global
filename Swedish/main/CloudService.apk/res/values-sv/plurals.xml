@@ -36,10 +36,6 @@
         <item quantity="other">%d minuter sedan</item>
         <item quantity="one">1 minut sedan</item>
     </plurals>
-    <plurals name="cloud_space_full_gallery_notification_content_title">
-        <item quantity="other">Kan inte synkronisera %s objekt</item>
-        <item quantity="one">Kan inte synkronisera %s objekt</item>
-    </plurals>
     <plurals name="dirty_blocklist_count">
         <item quantity="other">%d poster blockeringslista</item>
         <item quantity="one">%d post blockeringslista</item>
@@ -68,10 +64,6 @@
         <item quantity="other">%d meddelanden</item>
         <item quantity="one">%d meddelande</item>
     </plurals>
-    <plurals name="dirty_music_count">
-        <item quantity="other">%d låtar</item>
-        <item quantity="one">%d låt</item>
-    </plurals>
     <plurals name="dirty_note_count">
         <item quantity="other">%d anteckningar</item>
         <item quantity="one">%d anteckning</item>
@@ -92,10 +84,6 @@
         <item quantity="other">%d inspelningar</item>
         <item quantity="one">%d inspelning</item>
     </plurals>
-    <plurals name="dirty_secretphoto_count">
-        <item quantity="other">%d dold bilder synkroniseras inte. Logga ut efter att alla objekt är synkroniserade för att behålla dem annars kommer objekten tas bort.</item>
-        <item quantity="one">%d dold bild synkroniseras inte. Logga ut efter att alla objekt är synkroniserade för att behålla dem annars kommer objekten tas bort.</item>
-    </plurals>
     <plurals name="dirty_wlan_count">
         <item quantity="other">%d Wi-Fi Nätverk</item>
         <item quantity="one">%d Wi-Fi Nätverk</item>
@@ -104,9 +92,25 @@
         <item quantity="other">%d WLAN networks</item>
         <item quantity="one">%d WLAN network</item>
     </plurals>
+    <plurals name="error_retry_hour">
+        <item quantity="other">%s timmar</item>
+        <item quantity="one">%s timme</item>
+    </plurals>
+    <plurals name="error_retry_minute">
+        <item quantity="other">%s minuter</item>
+        <item quantity="one">%s minut</item>
+    </plurals>
+    <plurals name="error_retry_second">
+        <item quantity="other">%s sekunder</item>
+        <item quantity="one">%s sekund</item>
+    </plurals>
     <plurals name="error_screen_pwd_next_retry_time">
         <item quantity="other">Försök igen om %d sekunder</item>
         <item quantity="one">Försök igen om %d sekund</item>
+    </plurals>
+    <plurals name="gallery_auto_sync_fail_noti_title">
+        <item quantity="other">Kunde inte synkronisera %s objekt</item>
+        <item quantity="one">Kunde inte synkronisera %s objekt</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtimme sedan</item>

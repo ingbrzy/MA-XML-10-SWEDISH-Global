@@ -753,6 +753,7 @@ Skicka koden till handledaren."</string>
     <string name="homepage_search_hint">Sök</string>
     <string name="homepage_top_card_menu">Populära</string>
     <string name="hot_games">Populära</string>
+    <string name="i_know">Stoppa</string>
     <string name="identity">Identifiering</string>
     <string name="if_cancel">Avbryt denna åtgärd?</string>
     <string name="ignore_add_game_center_dialog_this_week">Visa inte denna vecka</string>
@@ -1444,7 +1445,7 @@ Lämna denna sida nu?"</string>
     <string name="pref_save_bandwidth_mode_title">Minska dataanvändning</string>
     <string name="pref_security_accept_cookies">Acceptera cookies</string>
     <string name="pref_security_accept_cookies_summary">Tillåt webbplatser att spara, läsa, och använda cookies för att komma ihåg dina preferenser även om du inte besöker dessa webbsidor</string>
-    <string name="pref_security_do_not_track">Spåra ej</string>
+    <string name="pref_security_do_not_track">Spåra inte</string>
     <string name="pref_security_do_not_track_summary">"Välj detta alternativ för att informera webbplatser att du inte vill att de ska samla in eller spåra din webbläsardata. Olika webbplatser reagerar olika på sådana begäran.
 Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att personifiera deras annonser för dig, medans andra fortfarande kan samla in och använda din webbläsarhistorik i diverse olika syften (försäkra säkerhet, tillhandahålla innehåll, visa relevanta annonser, och mer)."</string>
     <string name="pref_security_passwords_title">Lösenord</string>
@@ -1529,7 +1530,7 @@ Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att 
     <string name="privacy_btn_more">Mer</string>
     <string name="privacy_improve_performance">Program för Användarupplevelse</string>
     <string name="privacy_improve_performance_desc">Tillåt Xiaomi att samla in och analysera användardata för att förbättra våra produkter och tjänster</string>
-    <string name="privacy_message">Innan du använder webbläsaren måste du godkänna vårt &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">Användaravtal&lt;/a>&lt;/font> och &lt;font color=\"#4086f5\">&lt;a href=\"%2$s\" style=\"color:#4086f5;\">Sekretesspolicy&lt;/a>&lt;/font>.</string>
+    <string name="privacy_message">Innan du använder webbläsaren måste du godkänna vårt &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">Användaravtal&lt;/a>&lt;/font> och &lt;font color=\"#4086f5\">&lt;a href=\"%2$s\" style=\"color:#4086f5;\">Integritetspolicy&lt;/a>&lt;/font>.</string>
     <string name="privacy_message_main_tips_first">Mi Browser behöver samla in nödvändig personlig information för att förse dig med de grundläggande tjänsterna. Du kan lära dig hur vi hanterar den information vi samlar in i vår &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">Integritetspolicy&lt;/a>&lt;/font>. Du kan alltid dra tillbaka ditt samtycke till Mi Browsers Integritetspolicy i Inställningar > Integritet &amp; säkerhet. Läs och acceptera vårt &lt;font color=\"#4086f5\">&lt;a href=\"%2$s\" style=\"color:#4086f5;\">Användaravtal&lt;/a>&lt;/font> och &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">Integritetspolicy&lt;/a>&lt;/font> innan du använder Mi Browser.</string>
     <string name="privacy_message_main_tips_second">För att kunna söka efter appar på denna enhet och veta vilka appar som är installerade, behöver Mi Browser få tillgång till app-installationsinformation som inte kommer att sparas lokalt eller laddas upp i någon form.</string>
     <string name="privacy_message_welcome">Välkommen till Mi Browser! Vår app tillhandahåller följande tjänster:</string>

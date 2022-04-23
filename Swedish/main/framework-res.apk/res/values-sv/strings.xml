@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Obs!</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Videon kan tyvärr inte spelas upp i den här enheten.</string>
     <string name="selectTextMode">Markera text</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Ikon för fingeravtryck</string>
     <string name="paste_as_plain_text">Klistra in som oformaterad text</string>
     <string name="autofill">Autofyll</string>
@@ -220,7 +221,7 @@ Du kan ändra vilken funktion som ska aktiveras med genvägen under Inställning
     <string name="accessibility_system_action_power_dialog_label">Dialogruta för ström</string>
     <string name="accessibility_system_action_quick_settings_label">Snabbinställningar</string>
     <string name="accessibility_system_action_recents_label">Senaste apparna</string>
-    <string name="accessibility_system_action_screenshot_label">Skärmdump</string>
+    <string name="accessibility_system_action_screenshot_label">Skärmbild</string>
     <string name="accessibility_uncheck_legacy_item_warning">%s har inaktiverats</string>
     <string name="action_bar_home_description">Visa startsidan</string>
     <string name="action_bar_home_description_format">%1$s, %2$s</string>
@@ -343,11 +344,11 @@ Du kan ändra vilken funktion som ska aktiveras med genvägen under Inställning
     <string name="badPin">Den gamla PIN-koden som du angav är fel.</string>
     <string name="badPuk">PUK-koden som du angav är fel.</string>
     <string name="battery_saver_charged_notification_summary">Telefonen har laddats tillräckligt. Funktioner begränsas inte längre.</string>
-    <string name="battery_saver_description">"Batterisparläget förlänger batteritiden genom att:
+    <string name="battery_saver_description">"Batterisparläget förlänger batteritiden genom att
 
-• aktivera mörkt tema
+• aktivera Mörkt tema
 • inaktivera eller begränsa aktivitet i bakgrunden, vissa visuella effekter och andra funktioner, som ”Hey Google”"</string>
-    <string name="battery_saver_description_with_learn_more">"Batterisparläget förlänger batteritiden genom att:
+    <string name="battery_saver_description_with_learn_more">"Batterisparläget förlänger batteritiden genom att
 
 • aktivera mörkt tema
 • inaktivera eller begränsa aktivitet i bakgrunden, vissa visuella effekter och andra funktioner, som ”Hey Google”
@@ -365,12 +366,12 @@ Du kan ändra vilken funktion som ska aktiveras med genvägen under Inställning
     <string name="bluetooth_a2dp_audio_route_name">Bluetooth-ljud</string>
     <string name="bluetooth_airplane_mode_toast">Bluetooth fortsätter att vara på i flygplansläget</string>
     <string name="bugreport_message">Nu hämtas information om aktuell status för enheten, som sedan skickas i ett e-postmeddelade. Det tar en liten stund innan felrapporten är färdig och kan skickas, så vi ber dig ha tålamod.</string>
-    <string name="bugreport_option_full_summary">Alternativet innebär minsta möjliga störning när enheten inte svarar eller är långsam, eller när alla avsnitt ska ingå i rapporten. Du kan inte ange mer information eller ta ytterligare skärmdumpar.</string>
+    <string name="bugreport_option_full_summary">Alternativet innebär minsta möjliga störning när enheten inte svarar eller är långsam, eller när alla avsnitt ska ingå i rapporten. Du kan inte ange mer information eller ta ytterligare skärmbilder.</string>
     <string name="bugreport_option_full_title">Fullständig rapport</string>
-    <string name="bugreport_option_interactive_summary">Bör användas i de flesta fall. Då kan du spåra rapportförloppet, ange mer information om problemet och ta skärmdumpar. En del mindre använda avsnitt, som det tar lång tid att rapportera om, kan uteslutas.</string>
+    <string name="bugreport_option_interactive_summary">Bör användas i de flesta fall. Då kan du spåra rapportförloppet, ange mer information om problemet och ta skärmbilder. En del mindre använda avsnitt, som det tar lång tid att rapportera om, kan uteslutas.</string>
     <string name="bugreport_option_interactive_title">Interaktiv rapport</string>
-    <string name="bugreport_screenshot_failure_toast">Det gick inte att ta en skärmdump med felrapport</string>
-    <string name="bugreport_screenshot_success_toast">Skärmdump med felrapport har tagits</string>
+    <string name="bugreport_screenshot_failure_toast">Det gick inte att ta en skärmbild med felrapport</string>
+    <string name="bugreport_screenshot_success_toast">Skärmbild med felrapport har tagits</string>
     <string name="bugreport_title">Felrapport</string>
     <string name="byteShort">B</string>
     <string name="capability_desc_canCaptureFingerprintGestures">Kan registrera rörelser som utförs med hjälp av enhetens fingeravtryckssensor.</string>
@@ -379,14 +380,14 @@ Du kan ändra vilken funktion som ska aktiveras med genvägen under Inställning
     <string name="capability_desc_canRequestFilterKeyEvents">Omfattar personuppgifter som kreditkortsnummer och lösenord.</string>
     <string name="capability_desc_canRequestTouchExploration">Objekt som användaren trycker på läses upp högt och skärmen kan utforskas med hjälp av rörelser.</string>
     <string name="capability_desc_canRetrieveWindowContent">Granska innehållet i ett fönster som du interagerar med.</string>
-    <string name="capability_desc_canTakeScreenshot">Du kan ta en skärmdump av skärmen.</string>
+    <string name="capability_desc_canTakeScreenshot">Du kan ta en skärmbild av skärmen.</string>
     <string name="capability_title_canCaptureFingerprintGestures">Fingeravtrycksrörelser</string>
     <string name="capability_title_canControlMagnification">Styr skärmförstoringen</string>
     <string name="capability_title_canPerformGestures">Göra rörelser</string>
     <string name="capability_title_canRequestFilterKeyEvents">Observera text som du skriver</string>
     <string name="capability_title_canRequestTouchExploration">Aktivera Explore by touch</string>
     <string name="capability_title_canRetrieveWindowContent">Hämta fönsterinnehåll</string>
-    <string name="capability_title_canTakeScreenshot">Ta skärmdump</string>
+    <string name="capability_title_canTakeScreenshot">Ta skärmbild</string>
     <string name="capital_off">AV</string>
     <string name="capital_on">PÅ</string>
     <string name="car_loading_profile">Läser in</string>
@@ -626,6 +627,7 @@ Kontakta organisationens administratör om du har några frågor."</string>
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Funktionskoden är fullständig.</string>
     <string name="fcError">Anslutningsproblem eller ogiltig funktionskod.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Sök efter</string>
     <string name="find_next">Sök nästa</string>
     <string name="find_on_page">Sök på sidan</string>
@@ -669,7 +671,7 @@ Kontakta organisationens administratör om du har några frågor."</string>
     <string name="global_action_power_off">Stäng av</string>
     <string name="global_action_power_options">Strömbrytare</string>
     <string name="global_action_restart">Starta om</string>
-    <string name="global_action_screenshot">Skärmdump</string>
+    <string name="global_action_screenshot">Skärmbild</string>
     <string name="global_action_settings">Inställningar</string>
     <string name="global_action_silent_mode_off_status">Ljudet är PÅ</string>
     <string name="global_action_silent_mode_on_status">Ljudet är AV</string>
@@ -833,6 +835,7 @@ Besök "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_reordering_delete_drop_target_text">Ta bort</string>
     <string name="kg_sim_pin_instructions">Ange PIN-kod för SIM-kortet</string>
     <string name="kg_sim_unlock_progress_dialog_message">Låser upp SIM-kort …</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Du har angett fel lösenord %1$d gånger. 
 
 Försök igen om %2$d sekunder."</string>
@@ -1152,6 +1155,7 @@ Försök igen om %2$d sekunder."</string>
     <string name="notification_hidden_text">Ny avisering</string>
     <string name="notification_history_title_placeholder">Anpassad appavisering</string>
     <string name="notification_listener_binding_label">Meddelandelyssnare</string>
+    <string name="notification_messaging_title_template">%1$s: %2$s</string>
     <string name="notification_ranker_binding_label">Rankningstjänst för aviseringar</string>
     <string name="notification_reply_button_accessibility">Svara</string>
     <string name="notification_title">Inloggningsfel för %1$s</string>
@@ -1751,6 +1755,7 @@ Att lyssna med stark volym långa stunder åt gången kan skada hörseln."</stri
     <string name="terabyteShort">TB</string>
     <string name="test_harness_mode_notification_message">Inaktivera testverktygsläget genom att göra en återställning till standardinställningarna.</string>
     <string name="test_harness_mode_notification_title">Läget för testverktyg har aktiverats</string>
+    <string name="tethered_notification_message">Tryck för att konfigurera.</string>
     <string name="tethered_notification_multi_device_message">%1$s enheter anslutna</string>
     <string name="tethered_notification_no_device_message">Inga anslutna enheter</string>
     <string name="tethered_notification_one_device_message">%1$s enhet ansluten</string>
@@ -1917,7 +1922,8 @@ Vill du stänga sidan?"</string>
     <string name="zen_mode_feature_name">Stör ej</string>
     <string name="zen_mode_forever">Tills du stänger av</string>
     <string name="zen_mode_forever_dnd">Tills du inaktiverar Stör ej</string>
-    <string name="zen_mode_until">Till kl. %1$s</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
+    <string name="zen_mode_until">Till %1$s</string>
     <string name="zen_upgrade_notification_content">Tryck om du vill se vad som blockeras.</string>
     <string name="zen_upgrade_notification_title">Stör ej har ändrats</string>
     <string name="zen_upgrade_notification_visd_content">Tryck här om du vill läsa mer och ändra inställningarna.</string>

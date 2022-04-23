@@ -152,14 +152,15 @@
     <string name="date_time_picker_dialog_title">Ange datum och tid</string>
     <string name="dc_light_hint_enable_title">Obs</string>
     <string name="dc_light_hint_normal">DC dimming kan påverka hur vissa objekt visas.</string>
-    <string name="dc_light_hint_normal_anit">Anti-blinkläge kan påverka sättet vissa objekt visas.</string>
-    <string name="dc_light_hint_normal_other">Antiblink-läge kan påverka uppdateringsfrekvensen och hur vissa objekt visas.</string>
+    <string name="dc_light_hint_normal_anit">Anti-flimmer läge kan påverka sättet vissa objekt visas.</string>
+    <string name="dc_light_hint_normal_other">Anti-flimmer läge kan påverka uppdateringsfrekvensen och hur vissa objekt visas.</string>
     <string name="dc_light_hint_other">DC dimming kan påverka uppdateringsfrekvensen och hur vissa objekt visas.</string>
-    <string name="dc_light_hint_unnormal_low">Anti-blinkläge vid mindre ljus kan påverka hur vissa objekt visas.</string>
-    <string name="dc_light_hint_unnormal_other">Antiblink-läge vid mindre ljus kan påverka uppdateringsfrekvensen och sättet på vilket vissa objekt visas.</string>
-    <string name="dc_lignt_enable_hint">Antiflimmer-läge kommer sätta skärmens uppdateringsfrekvens till 60 Hz. Växla till Antiflimmer-läge?</string>
+    <string name="dc_light_hint_unnormal_low">Lågljus anti-flimmerläge vid mindre ljus kan påverka hur vissa objekt visas.</string>
+    <string name="dc_light_hint_unnormal_other">Lågljus anti-flimmerläge vid mindre ljus kan påverka uppdateringsfrekvensen och sättet på vilket vissa objekt visas.</string>
+    <string name="dc_lignt_enable_hint">Anti-flimmer läge kommer sätta skärmens uppdateringsfrekvens till 60 Hz. Växla till Anti-flimmer läge?</string>
     <string name="delete_first_to_add_animal">To add a new item, delete one first.</string>
     <string name="desktop_widget_authorization">Tryck för att ge tillåtelse att visa statistik</string>
+    <string name="desktop_widget_authorization_new">Tryck för att visa statistik över skärmtid</string>
     <string name="desktop_widget_not_support">"Statistiken för skärmtiden
 genereras inte i sekundära utrymmet"</string>
     <string name="desktop_widget_screen_use_time">Skärmtid</string>
@@ -339,7 +340,7 @@ genereras inte i sekundära utrymmet"</string>
     <string name="hsv_space_color_saturation">Mättnad</string>
     <string name="hsv_space_color_value">Värde</string>
     <string name="intelligent_radio_btn_summary">Justera uppdateringsfrekvensen dynamiskt baserat på scenarion, för att balansera prestandan med strömkonsumtionen</string>
-    <string name="intelligent_radio_btn_title">Auto (Rekommenderat)</string>
+    <string name="intelligent_radio_btn_title">Standard (Rekommenderat)</string>
     <string name="intelligent_recognition_item_summary">Använd en designerad ringsignal för samtal från leverans- och taxitjänster. Denna funktion fungerar när %s är angiven som din standard ringsignal.</string>
     <string name="intelligent_recognition_item_title">Identitetstjänster</string>
     <string name="item_anura">Anura</string>
@@ -694,14 +695,14 @@ genereras inte i sekundära utrymmet"</string>
     <string name="usage_app_over_content">Du har redan använt denna app i %s idag.</string>
     <string name="usage_app_over_summary">Du har nått din gräns. Tiden är slut!</string>
     <string name="usage_app_set_limit_time">Ange gräns</string>
-    <string name="usage_app_stop_desc">All Screen time data and permissions, including individual settings, as well as the related items stored locally, will be deleted after you turn this feature off.​</string>
+    <string name="usage_app_stop_desc">All skärmtidsdata och behörigheter, inklusive individuella inställningar, såväl som de objekt som lagrats lokalt, kommer att raderas efter du stänger av denna funktion.​</string>
     <string name="usage_app_system_app_summary">Det går inte att begränsa tid för systemappar</string>
     <string name="usage_app_weekday_limit">Vardagar</string>
     <string name="usage_app_weekend_limit">Helger</string>
     <string name="usage_beat_fans">Bättre än %s av MI-fans</string>
     <string name="usage_continuous_days">I sträck</string>
     <string name="usage_creating_weekly_report">Skapar veckorapport…</string>
-    <string name="usage_cta_desc">"Welcome to Settings! To provide Screen time and Focus mode stats to you, this app needs to collect the following data: the number of times you unlock the device, the list of your apps along with the corresponding usage duration, the number of times your screen lights up, and Focus mode settings. The collected data will only be stored locally on this device.
+    <string name="usage_cta_desc">"Välkommen till Inställningar! För att tillhandahålla skärmtids- och fokusläge-statistik till dig behöver denna app samla in följande data: antalet gånger du låser upp enheten, listan över dina appar tillsammans med motsvarande användningsvaraktighet, antalet gånger din skärm tänds, och fokusläge-inställningar. Den insamlade datan kommer endast att lagras lokalt på den här enheten.
 "</string>
     <string name="usage_current_week_usage">%s i snitt inom senaste 7 dagarna</string>
     <string name="usage_device_limit_app_prolong">Lägg till tid</string>

@@ -296,6 +296,7 @@
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -328,6 +329,11 @@
     <string name="network_tip_dialog_title">Internetanslutning krävs</string>
     <string name="network_unavailable_tip">Anslut till nätverket och försök igen.</string>
     <string name="new_record_name">Ny inspelning</string>
+    <string name="new_saf_permission_dialog_content">"Behörigheten för inspelning har uppdaterats. Tillåt Spelaren att få åtkomst till samtalsinspelningar.
+
+Hur man ger behörighet
+Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
+    <string name="new_saf_permission_dialog_grant_permission_immediately">Nästa</string>
     <string name="night">Kväll</string>
     <string name="no_content">Inga objekt här än</string>
     <string name="no_file">Tom</string>
@@ -385,6 +391,8 @@
     <string name="permission_desc">Behörighetsuppgifter</string>
     <string name="permission_dialog_cancel">Avbryt</string>
     <string name="permission_dialog_ok">Inställningar</string>
+    <string name="permission_read_phone_state">Få tillgång till enhetsinfo</string>
+    <string name="permission_read_phone_state_description">För att få åtkomst till samtalsstatus för att automatiskt stoppa inepelningen när samtal mottas</string>
     <string name="permission_record">Spela in ljud</string>
     <string name="permission_record_description">För tillhandahållande av ljudinspelningstjänster</string>
     <string name="permission_storage">Åtkomst till lagringsutrymme</string>
@@ -624,6 +632,7 @@
     <string name="the_united_nations_day">FN-dagen</string>
     <string name="the_valentines_day">Alla hjärtans dag</string>
     <string name="the_water_lantern_festival">Water Lantern-festivalen</string>
+    <string name="this_folder">Använd den här mappen</string>
     <string name="thursday">Torsdag</string>
     <string name="thursday_short">Tor</string>
     <string name="thursday_shortest">Tor</string>

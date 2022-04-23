@@ -147,6 +147,7 @@
     <string name="calllog_menu_blacklist">Blockera</string>
     <string name="calllog_menu_edit_before_call">Redigera</string>
     <string name="calllog_menu_send_sms">Skicka ett meddelande</string>
+    <string name="calllog_record_none_toast">Ina samtalsinspelningar att visa</string>
     <string name="callrecordview_item_op_time_minutes_seconds">%1$dm %2$ds</string>
     <string name="callrecordview_item_op_time_missed">Anslöt inte</string>
     <string name="callrecordview_item_op_time_only_minutes">%d minuter</string>
@@ -502,6 +503,7 @@ Orsak: \"%s\""</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Namn</string>
     <string name="gallery">Galleri</string>
     <string name="ghostData_company">Företag</string>
@@ -627,6 +629,7 @@ Orsak: \"%s\""</string>
     <string name="menu_sync_remove">Ta bort synk-grupp</string>
     <string name="midnight">Natt</string>
     <string name="miprofile_account_type">Kontaktkort</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Redigera profil</string>
     <string name="miprofile_name">Min profil</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -720,6 +723,12 @@ Orsak: \"%s\""</string>
     <string name="name_phonetic_middle">Fonetiskt mellanamn</string>
     <string name="name_prefix">Namnprefix</string>
     <string name="name_suffix">Namnsuffix</string>
+    <string name="new_saf_permission_dialog_content">"Behörigheter för Kontakter har uppdaterats. Tillåt Kontakter att få åtkomst till samtalsinspelningar.
+
+Hur man ger behörighet
+Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
+    <string name="new_saf_permission_dialog_grant_permission_immediately">Nästa</string>
+    <string name="new_saf_permission_dialog_title"><b>Behörigheter krävs</b></string>
     <string name="next">Nästa</string>
     <string name="next_birthday">Nästa födelsedag: %s</string>
     <string name="nfc_vcard_file_name">Kontakt mottagen över NFC</string>
@@ -777,6 +786,7 @@ Orsak: \"%s\""</string>
     <string name="permission_retry_dialog_msg_pad">För att kunna använda ditt SIM-kort med denna app och hantera dina kontakter, tillåt denna app att få åtkomst till och redigera dina kontakter, såväl som få åtkomst till enhetsinformation.</string>
     <string name="permission_retry_setting">Inställningar</string>
     <string name="phoneLabelsGroup">Telefon</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Numret är för långt</string>
     <string name="phone_primary">Primär</string>
     <string name="photoPickerNotFoundText">Inga bilder finns tillgängliga på enheten.</string>
@@ -834,7 +844,7 @@ Orsak: \"%s\""</string>
     <string name="preference_privacy_settings_title">Integritet</string>
     <string name="preference_remove_duplicate">Slå ihop dubletter</string>
     <string name="preference_show_firewall_calllog">Visa blockerade samtal i samtalshistoriken</string>
-    <string name="preference_show_yellowpage_tab_description">Gula sidorna fungerar inte korrekt när denna funktion är avaktiverad.</string>
+    <string name="preference_show_yellowpage_tab_description">Gula Sidorna och dess tjänster kommer inte att visas , om du inaktiverar denna funktion</string>
     <string name="preference_show_yellowpage_tab_title">Använd Gula Sidorna</string>
     <string name="preference_simple_mode_title">Visa bilder och information</string>
     <string name="preference_smart_group_company_summary">Gruppera efter företag</string>
@@ -845,6 +855,7 @@ Orsak: \"%s\""</string>
     <string name="preference_smart_group_location_title">Platser</string>
     <string name="preference_smart_group_title">Smarta grupper</string>
     <string name="preference_tone_title">Ton</string>
+    <string name="preference_yellowpage_function_setting">Inställningar för Gula Sidorna</string>
     <string name="previous">Föregående</string>
     <string name="privacy_password_message1">Lösenord för integritetsskydd fungerar för foton, anteckningar och dolda mappar.</string>
     <string name="privacy_password_message2">Använd lösenord för integritetsskydd. Det fungerar för foton, anteckningar och dolda mappar.</string>
@@ -854,6 +865,7 @@ Orsak: \"%s\""</string>
     <string name="privacy_password_title2">Använd lösenord för integritetsskydd</string>
     <string name="privacy_password_title3">Uppgradera ditt lösenord</string>
     <string name="privacy_password_title4">Lösenord uppgraderades</string>
+    <string name="privacy_settings_blue_scan_connect">Anslut till närliggande enheter</string>
     <string name="privacy_settings_call_phone">Ring samtal</string>
     <string name="privacy_settings_call_phone_description">För att ringa samtal via genvägar på hemskärmen</string>
     <string name="privacy_settings_call_phone_description_for_pad">För att ringa samtal i tredjeparts-appar</string>
@@ -1017,6 +1029,7 @@ Orsak: \"%s\""</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Inga gruppmedlemmar</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Företag</string>
     <string name="smart_group_company_unavailable">Ingen företagsinformation</string>
     <string name="smart_group_frequency_1">Inom den senaste månaden</string>
@@ -1058,6 +1071,7 @@ Orsak: \"%s\""</string>
     <string name="starred_contacts">Favoriter</string>
     <string name="status_available">Tillgänglig</string>
     <string name="status_away">Borta</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Upptagen</string>
     <string name="strequentList">Favoriter</string>
     <string name="success_message_import_from_account">Kontakt importerad</string>
@@ -1116,6 +1130,7 @@ Orsak: \"%s\""</string>
     <string name="the_united_nations_day">FN-dagen</string>
     <string name="the_valentines_day">Alla hjärtans dag</string>
     <string name="the_water_lantern_festival">Water Lantern-festivalen</string>
+    <string name="this_folder">Använd den här mappen</string>
     <string name="three_letter">DEF</string>
     <string name="thursday">Torsdag</string>
     <string name="thursday_short">Tor</string>
@@ -1133,6 +1148,7 @@ Orsak: \"%s\""</string>
     <string name="toast_for_failed_saving_nickname">Kunde inte spara smeknamn</string>
     <string name="toast_for_saving_nickname">Smeknamn sparat</string>
     <string name="toast_join_with_empty_contact">Skriv kontaktens namn innan du slår ihop den med en annan</string>
+    <string name="toast_not_show_blue_scan_connect_perm_req">Tillåt den här funktionen att ansluta till närliggande enheter via Bluetooth för att kunna importera kontakter från andra enheter.</string>
     <string name="toast_not_show_camera_perm_req">För att kunna använda kameran för att ta profilfoton, tillåt denna app att ta foton och spela in videor först.</string>
     <string name="toast_not_show_location_perm_req">För att kunna importera kontakter från andra enheter via Bluetooth, tillåt denna app att få åtkomst till din plats först.</string>
     <string name="toast_not_show_read_calllogs_perm_req">För att kunna visa samtalshistorik, tillåt denna app att få åtkomst till samtalshistorik först.</string>

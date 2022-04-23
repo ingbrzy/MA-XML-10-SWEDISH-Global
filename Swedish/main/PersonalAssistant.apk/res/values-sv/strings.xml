@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="abc_action_bar_home_description">Navigera hem</string>
-    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
-    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
     <string name="abc_action_bar_up_description">Navigera uppåt</string>
     <string name="abc_action_menu_overflow_description">Fler alternativ</string>
     <string name="abc_action_mode_done">Klar</string>
@@ -102,7 +100,6 @@
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
     <string name="midnight">Natt</string>
-    <string name="miuix_access_state_desc">Valt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
@@ -174,8 +171,6 @@
     <string name="night">Kväll</string>
     <string name="noon">Middagstid</string>
     <string name="not_set">Inte angett</string>
-    <string name="passport_oauth_actionbar_title">Mi Konto</string>
-    <string name="passport_oauth_sucess_tip">Authorized success</string>
     <string name="pm">E.m</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="saturday">Lördag</string>
@@ -183,6 +178,7 @@
     <string name="saturday_shortest">Lör</string>
     <string name="search_menu_title">Sök</string>
     <string name="send">Skicka</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>

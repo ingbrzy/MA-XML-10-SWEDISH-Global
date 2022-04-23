@@ -37,6 +37,7 @@
     <string name="add_clock">Lägg till klocka</string>
     <string name="add_common_timer">Lägg till timer</string>
     <string name="add_timer">Upprepad timer</string>
+    <string name="add_timer_dialog_title">Lägg till timer</string>
     <string name="add_timezone_title">Lägg till tidszon</string>
     <string name="afternoon">Eftermiddag</string>
     <string name="agree">Accepterar</string>
@@ -439,6 +440,10 @@
     <string name="reach_upper_limit">Det går inte att lägga till fler timers</string>
     <string name="read_external_storage_permission_desc">För inställning av anpassade ringtoner</string>
     <string name="read_internal_storage">Åtkomst till lagringsutrymme</string>
+    <string name="read_phone_state">Få tillgång till enhetsinfo</string>
+    <string name="read_phone_state_desc">Få tillgång till samtalsstatus när alarm ringer</string>
+    <string name="read_phone_state_desc_when_request">För att få åtkomst till samtalsstatus för att automatiskt pausa alarm när samtal mottas</string>
+    <string name="remark_hint">Ange etikett</string>
     <string name="remind_ringtone">Ringsignal</string>
     <string name="repeat_count">Gånger</string>
     <string name="repeat_count_value_five">5</string>
@@ -483,6 +488,8 @@
     <string name="shortcut_new_alarm">Ställ in alarm</string>
     <string name="shortcut_start_timer">Starta timer</string>
     <string name="shortcut_stop_watch">Stoppa tidtagaruret</string>
+    <string name="show_life_post_desc">Morgonrapporter kommer inte att visas om du startar den här funktionen</string>
+    <string name="show_life_post_lable">Visa morgonrapport</string>
     <string name="shut_down_keep_screen">Skärmen kommer inte att vara påslagen</string>
     <string name="shutdown_alarm_alert_enable_summary">Avstängningsalarmet kommer att gå av minst 10 minuter innan du stänger av din enhet</string>
     <string name="shutdown_alarm_alert_enable_summary_new">Slå på för att få inställda larm att utlösas när enheten är avstängd. Endast larm som ställts in i minst %d minuter efter att du har stängt av enheten kommer att utlösas.</string>
@@ -491,10 +498,12 @@
     <string name="shutdown_alarm_enable_summary">Larmet kommer att utlösas om det konfigureras för minst 10 minuter efter att du stänger av din enhet</string>
     <string name="shutdown_alarm_title">Stänga av Alarm</string>
     <string name="silent_alarm_summary">Tyst</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Stäng av en gång %s</string>
     <string name="sleep_analysis">Statistik</string>
     <string name="sleep_analysis_chart_date_format">dd/MM</string>
     <string name="sleep_date_provider_text">Sömndata tillhandahålls av Xiaomi Health</string>
+    <string name="sleep_date_provider_text_new">Sömndata tillhandahålls av Mi Fitenss</string>
     <string name="sleep_duration">"Sovtid: "</string>
     <string name="sleep_duration_avg_text_diff">Genomsnittlig sovtid (%1$s-%2$s)</string>
     <string name="sleep_duration_desc">Sov i %1$s %2$s</string>
@@ -510,6 +519,7 @@
     <string name="sleep_record">Håll koll på sömnen</string>
     <string name="sleep_record_desc">Slå på för att börja spela in sömndata</string>
     <string name="sleep_record_desc_detailed">Funktionaliteten för att hålla koll på sömnen tillhandahålls av Xiaomi Health. När den är påslagen kommer Xiaomi Health automatiskt att spela in din sömn baserat på din telefonanvändning, aktivitetsstatistik, och även de tider du anger för att somna och vakna, och visar dig statistik i form av diagram. För att hålla koll på sömnen mer noggrant, tillåt Xiaomi Health att starta automatiskt. All relaterad data kommer att lagras lokalt på din enhet, vilket gör att du kan hantera den enkelt.</string>
+    <string name="sleep_record_desc_detailed_new">Funktionen sömnspårning tillhandahålls av Mi Fitness. Om du startar den här funktionen kommer Mi Fitness automatiskt samla in och visa information om din sömn, baserat på din telefonanvändning, aktivitet och de sov- och uppvakningstider som du anger. Tillåt Mi Fitness att starta automatiskt, för att spåra sömnen korrektare.</string>
     <string name="sleep_record_no_data">Din statistik kommer att dyka upp här efter att Xiaomi Health analyserat tillräckligt med data</string>
     <string name="sleep_remind">Sovtidspåminnelser</string>
     <string name="sleep_time">Somna</string>
@@ -534,6 +544,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Inga varv</string>
     <string name="stopwatch_reset_notification">Tidtagaruret återställdes</string>
     <string name="stopwatch_running_notification">Tidtagarur</string>
@@ -542,6 +553,7 @@
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>
     <string name="sunday_shortest">Sön</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Tillåt denna app att ansluta till internet för att använda alla dess funktioner.</string>
     <string name="system_permission_main_purpose">Visningstid, ställa in alarm och timers, använda stoppklocka</string>
     <string name="system_permission_purpose">Skapa vardagsalarm och ställa in anpassade ringsignaler</string>
@@ -609,6 +621,7 @@
     <string name="timer_alert_type_beach">Strand</string>
     <string name="timer_alert_type_forest">Skog</string>
     <string name="timer_alert_type_mute">Standard</string>
+    <string name="timer_alert_type_no">Ingen</string>
     <string name="timer_alert_type_rain">Duggregn</string>
     <string name="timer_alert_type_spring_rain">Sommarregn</string>
     <string name="timer_alert_type_stove_fire">Spiseld</string>
@@ -620,14 +633,18 @@
     <string name="timer_continue">Fortsätt</string>
     <string name="timer_continue_timer">Återuppta timer</string>
     <string name="timer_created">Timer skapad</string>
+    <string name="timer_desc_use_brush_teeth">Borsta tänderna</string>
+    <string name="timer_desc_use_facial_mask">Ansiktsmask</string>
+    <string name="timer_desc_use_sleep">Tupplur</string>
     <string name="timer_end_time">Timern kommer att sluta klockan %s</string>
-    <string name="timer_end_time_format">HH:mm dd MMM</string>
+    <string name="timer_end_time_format">HH:mm d MMM</string>
     <string name="timer_end_time_format_today">HH:mm</string>
     <string name="timer_got_it">Okej</string>
     <string name="timer_got_it_new">Tystnad</string>
     <string name="timer_is_paused">Timer är pausad</string>
     <string name="timer_item_delete">Ta bort</string>
     <string name="timer_item_duration_display">%1$d min %2$d sek</string>
+    <string name="timer_item_edit">Redigera</string>
     <string name="timer_item_label_hint">Timernamn</string>
     <string name="timer_item_picker_hour">H</string>
     <string name="timer_item_picker_minute">M</string>
@@ -657,6 +674,8 @@
     <string name="upcoming_alarm_hint">Du kan stänga av detta larm nu</string>
     <string name="update_health_app">Uppdatera Xiaomi Health</string>
     <string name="update_health_app_desc">Funktionaliteten för att hålla koll på sömnen tillhandahålls av Xiaomi Health. Uppdatera Xiaomi Health till dess senaste version för tillgång till relaterade funktioner.</string>
+    <string name="update_health_app_desc_new">Funktionen för sömnspårning tillhandahålls av Mi Fitness. Uppdatera Mi Fitness till den senaste versionen för att få åtkomst till relaterade funktioner.</string>
+    <string name="update_health_app_new">Uppdatera Mi Fitness</string>
     <string name="update_it">Uppdatera</string>
     <string name="update_notification_info">Uppdaterar data i bakgrunden…</string>
     <string name="usage_start">Starta</string>
@@ -681,6 +700,7 @@
     <string name="wednesday_shortest">Ons</string>
     <string name="week_ringtone_recommend_desc">Naturalarm spelar olika ljud beroende på datumet. Ställ in det som ditt standardalarm?</string>
     <string name="white_noise">Omgivande buller</string>
+    <string name="white_noise_guide_desc">Lägg till ett bakgrundsljud för att hålla dig fokuserad</string>
     <string name="white_noise_selector">Välj ljud</string>
     <string name="workday_alarm_clock">Arbetsdag larm</string>
     <string name="worldclock_edit_label">Världsklocka</string>
@@ -692,13 +712,14 @@
     <string name="worldclock_search_city">Välj stad</string>
     <string name="worldclock_second_time">Tid i %s</string>
     <string name="worldclock_second_time_desc">"%s: "</string>
+    <string name="worldclock_second_time_new">%s</string>
     <string name="worldclock_title">Klocka</string>
     <string name="worldclock_world_time">Tidszon</string>
     <string name="worldcolock_date_display_prefix">Aktuell: </string>
     <string name="worldcolock_time_date">dd/MM/yyyy</string>
     <string name="worldcolock_timezone_current">Nuvarande: %1$s</string>
     <string name="worldcolock_timezone_current_date">dd/MM/yyyy</string>
-    <string name="worldcolock_timezone_date">dd MMM</string>
+    <string name="worldcolock_timezone_date">d MMM</string>
     <string name="worldcolock_timezone_gap">%s H</string>
     <string name="worldcolock_timezone_local">Samma som lokal tid</string>
     <string name="xiaoai_ringtone_title">Ringsignaler från Mi AI</string>

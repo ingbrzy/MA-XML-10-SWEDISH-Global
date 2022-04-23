@@ -100,6 +100,18 @@
         <item quantity="other">%d videor</item>
         <item quantity="one">%d video</item>
     </plurals>
+    <plurals name="mangotv_feature_list_title1">
+        <item quantity="other">%1$1d av %2$2d episoder finns tillgängliga</item>
+        <item quantity="one">%1$1d av%2$2d episoder finns tillgänglig</item>
+    </plurals>
+    <plurals name="mangotv_feature_list_title2">
+        <item quantity="other">%1$1d av %2$2d episoder finns tillgängliga</item>
+        <item quantity="one">%1$1d av%2$2d episod finns tillgänglig</item>
+    </plurals>
+    <plurals name="mangotv_feature_list_title_all">
+        <item quantity="other">%d episoder totalt</item>
+        <item quantity="one">%d episod totalt</item>
+    </plurals>
     <plurals name="mediation_animate_close_after">
         <item quantity="other">%s sek kvar</item>
         <item quantity="one">%s sek kvar</item>
@@ -107,6 +119,10 @@
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d objekt valda</item>
         <item quantity="one">%d objekt vald</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nya aviseringar</item>
+        <item quantity="one">%d ny avisering</item>
     </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">Ditt innehåll innehåller objekten (%1$s) som bryter mot våra community-standarder. Ditt konto är avstängt i %2$d dagar fram till %3$s.</item>

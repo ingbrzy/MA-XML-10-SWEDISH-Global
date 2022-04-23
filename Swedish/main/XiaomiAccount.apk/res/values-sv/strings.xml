@@ -82,6 +82,7 @@
     <string name="account_verify_guide_bind_mail_desc">Lägg till e-post för återställning</string>
     <string name="account_verify_guide_bind_phone_desc">Lägg till telefon för återställning</string>
     <string name="account_verify_guide_set_password_desc">Ange ett lösenord</string>
+    <string name="account_verify_guide_verify_phone_desc">Bekräfta återställning av telefon</string>
     <string name="account_xiaomi_service">Tjänster</string>
     <string name="action_add_phone">Lägg till telefonnummer</string>
     <string name="action_retry">Försök igen</string>
@@ -121,6 +122,10 @@ Du kan logga in på ditt Mi Konto med %s nu."</string>
     <string name="cloud_description_closed">Upptagen | Synkning är avslaget</string>
     <string name="cloud_description_normal">Upptagen</string>
     <string name="cloud_service">Xiaomi Cloud</string>
+    <string name="cloud_service_status_backup_not_open">Säkerhetskopieringen är avstängd</string>
+    <string name="cloud_service_status_cloud_not_open">Av</string>
+    <string name="cloud_service_status_storage_full">Minnet är fullt</string>
+    <string name="cloud_service_status_storage_not_enough">Inte tillräckligt med utrymme</string>
     <string name="collect_diagnosis_log">Generera diagnostiklogg</string>
     <string name="com_facebook_device_auth_instructions">Gå till &lt;b>facebook.com/device&lt;/b> och skriv in koden som visas ovan.</string>
     <string name="com_facebook_image_download_unknown_error">Ett oväntat fel inträffade när en bild skulle laddas ned.</string>
@@ -427,7 +432,7 @@ Skicka koden till handledaren."</string>
     <string name="night">Kväll</string>
     <string name="no_install">Inte installerad</string>
     <string name="no_network_btn">Uppdatera</string>
-    <string name="no_network_title">Det går inte ansluta till nätverket.</string>
+    <string name="no_network_title">Kan inte ansluta till nätverket.</string>
     <string name="no_password_set">Inte angivet</string>
     <string name="no_phone">Inget telefonnummer</string>
     <string name="no_response_retry">Inget svar, försök igen.</string>
@@ -441,6 +446,8 @@ Skicka koden till handledaren."</string>
     <string name="notify_network_restricted_content_hidden_state">Mi kontots bakgrundsaktivitet är begränsad. Tryck för att tillåta.</string>
     <string name="notify_network_restricted_content_mobile_network">Mi kontots internet åtkomst är begränsad. Tryck för att tillåta.</string>
     <string name="notify_network_restricted_title">Mi kontot kunde inte ansluta till nätverket</string>
+    <string name="notify_verify_again_security_phone">Bekräfta</string>
+    <string name="notify_verify_security_phone">Telefon</string>
     <string name="oauth_get_scopes_failed">Kunde inte hämta kontoinfo</string>
     <string name="oauth_getting_scopes">Verifiera konto…</string>
     <string name="oauth_scopes_intro">&lt;font color=#%1$s>%2$s&lt;/font> kommer att få följande behörigheter: &lt;br> &lt;br> %3$s</string>
@@ -676,7 +683,7 @@ Skicka koden till handledaren."</string>
     <string name="passport_use_generated_pwd_title">Kom ihåg ditt lösenord!</string>
     <string name="passport_user_agreement">Användaravtal</string>
     <string name="passport_user_agreement_link">&lt;Data>Jag har läst och godkänt Xiaomis &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_required">Användarvillkor (obligatorisk)</string>
+    <string name="passport_user_agreement_required">Användaravtal (obligatoriskt)</string>
     <string name="passport_user_id_notice">Ditt ID för MI-Kontot är %s.</string>
     <string name="passport_user_reg_region">Land/Region</string>
     <string name="passport_user_reg_region_warning">Du kan inte ändra land/region när kontot är skapat.</string>
@@ -713,7 +720,7 @@ Skicka koden till handledaren."</string>
     <string name="privacy_policy_reject_confirm_msg">Du kommer inte att kunna fortsätta använda Mi-kontot, om du inte godkänner den nya versionen av dess sekretesspolicy. Vill du godkänna den uppdaterade Mi-konto &lt;a href=%1$s>sekretesspolicyn&lt;/a> nu?</string>
     <string name="privacy_policy_reject_confirm_title">Kan inte använda Mi-kontot</string>
     <string name="privacy_policy_update_msg">Sekretesspolicyn för Mi-kontot uppdaterades: :&lt;br/>%1$s&lt;br/>Läs och gokänn den nya versionen av &lt;a href=%2$s>&lt;u>sekretesspolicyn&lt;/u>&lt;/a> innan du fortsätter.</string>
-    <string name="privacy_policy_update_title">Uppdaterad sekretesspolicy</string>
+    <string name="privacy_policy_update_title">Uppdaterad Integritetspolicy</string>
     <string name="provision_back">Tillbaka</string>
     <string name="provision_next">Nästa</string>
     <string name="provision_skip_underline">Hoppa över</string>
@@ -742,7 +749,7 @@ Skicka koden till handledaren."</string>
     <string name="restart_phone_bind_title">Ändra telefonnummer för återställning</string>
     <string name="revoke_privacy_policy">Återkallelse av ditt samtycke</string>
     <string name="revoke_privacy_policy_instructions">Om du fortsätter kommer du att återkalla ditt samtycke till Mi-kontots sekretesspolicy. Vi kommer att upphöra att samla in dina personuppgifter. De personuppgifter som redan samlats in och behållits kommer att raderas inom den specifika perioden i enlighet med gällande lagar och förordningar, om inte annat krävs. Eftersom Mi-kontot tillhandahåller dess tjänster baserat på insamling av nödvändiga personuppgifter, så kommer ditt återkallande av samtycke att anses som en vägran att acceptera Mi-kontots tjänster. Vill du återkalla ditt samtycke nu?</string>
-    <string name="revoke_privacy_policy_title">Återkallelse av samtycke</string>
+    <string name="revoke_privacy_policy_title">Återkallelse av ditt samtycke</string>
     <string name="risky_pwd_not_allow">Nya lösenordet är inte säkert. Ange ett annat.</string>
     <string name="same_new_and_old_pwd">Nytt lösenord måste skilja sig från det gamla</string>
     <string name="saturday">Lördag</string>

@@ -27,11 +27,12 @@
     <string name="abc_shareactionprovider_share_with">Dela med</string>
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
-    <string name="app_name">Tjänst för FM Radio</string>
-    <string name="frequency_mhz_fomart">%sMHZ</string>
-    <string name="notification_rec_title">Tryck för att visa inspelning</string>
-    <string name="record_completed">Inspelning klar</string>
+    <string name="accessing_notification_title">Åtkomst till filer från %1$s</string>
+    <string name="app_label">MTP-värd</string>
+    <string name="downloads_app_label">Nedladdningar</string>
+    <string name="error_busy_device">Den andra enheten är upptagen. Du kan inte överföra filer förrän den är tillgänglig.</string>
+    <string name="error_locked_device">Inga filer hittades. Den andra enheten kan vara låst. Om den är det låser du upp den och försöker igen.</string>
+    <string name="root_name">%1$s %2$s</string>
     <string name="search_menu_title">Sök</string>
-    <string name="station_freq_format">%sMHz</string>
     <string name="status_bar_notification_info_overflow">999+</string>
 </resources>

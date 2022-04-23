@@ -40,6 +40,14 @@
         <item quantity="other">La till %d spel</item>
         <item quantity="one">La till %d spel</item>
     </plurals>
+    <plurals name="app_behavior_dashboard_title_desc">
+        <item quantity="other">%d appar</item>
+        <item quantity="one">%d app</item>
+    </plurals>
+    <plurals name="app_behavior_dashboard_total_usage_item">
+        <item quantity="other">%d appar</item>
+        <item quantity="one">%d app</item>
+    </plurals>
     <plurals name="app_behavior_desc_allow">
         <item quantity="other">Tillåtet %3$d gånger mellan %1$s och %2$s</item>
         <item quantity="one">Tillåtet %3$d gång mellan %1$s och %2$s</item>
@@ -55,6 +63,18 @@
     <plurals name="app_behavior_desc_deny_minute">
         <item quantity="other">Nekade %2$d gånger kl. %1$s</item>
         <item quantity="one">Nekade %2$d gång kl. %1$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage">
+        <item quantity="other">Tillåtet %3$d gånger mellan %1$s och %2$s</item>
+        <item quantity="one">Tillåtet %3$d gång mellan %1$s och %2$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage_time">
+        <item quantity="other">Används i %1$d minuter</item>
+        <item quantity="one">Används i %1$d minut</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage_time_end">
+        <item quantity="other">Används i %1$d minuter tills %2$s</item>
+        <item quantity="one">Används i %1$d minut tills %2$s</item>
     </plurals>
     <plurals name="app_behavior_desc_virtual">
         <item quantity="other">Returnerade %3$d blanka meddelanden mellan %1$s och %2$s</item>
@@ -132,6 +152,14 @@
         <item quantity="other">%s appar kommer att skyddas med Applås</item>
         <item quantity="one">%s app kommer att skyddas med Applås</item>
     </plurals>
+    <plurals name="behavior_widget_app_text">
+        <item quantity="other">%2$d appar inklusive %1$s</item>
+        <item quantity="one">%2$d app inklusive %1$s</item>
+    </plurals>
+    <plurals name="behavior_widget_perm_counts">
+        <item quantity="other">%d gånger</item>
+        <item quantity="one">%d gång</item>
+    </plurals>
     <plurals name="bg_network_allow_count">
         <item quantity="other">%d appar kan ansluta till nätverket i bakgrunden</item>
         <item quantity="one">%d app kan ansluta till nätverket i bakgrunden</item>
@@ -163,6 +191,10 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
     <plurals name="deep_clean_auto_memory_clean">
         <item quantity="other">Om %1$d minuter</item>
         <item quantity="one">Om %1$d minut</item>
+    </plurals>
+    <plurals name="exit_dialog_scan_message_new">
+        <item quantity="other">Din enhets prestandapoäng är lägre än %d poäng. Vill du optimera nu?</item>
+        <item quantity="one">Din enhets prestandapoäng är lägre än %d poäng. Vill du optimera nu?</item>
     </plurals>
     <plurals name="exo_controls_fastforward_by_amount_description">
         <item quantity="other">Spola framåt %d sekunder</item>
@@ -268,6 +300,22 @@ Du kan få en %d-dagars gratis provperiod nu!"</item>
         <item quantity="other">Hämta en %d-dagars gratis provperiod</item>
         <item quantity="one">Hämta en %d-dagars gratis provperiod</item>
     </plurals>
+    <plurals name="gd_app_edit_desc_new">
+        <item quantity="other">Lägg till upp till %d appar. Tryck och släpp för att arrangera om.</item>
+        <item quantity="one">Lägg till upp till %d app. Tryck och släpp för att arrangera om.</item>
+    </plurals>
+    <plurals name="gtb_brightness_dialog_message">
+        <item quantity="other">Denna funktion minskar skärmens ljusstyrka automatiskt efter %d minuters inaktivitet för att spara ström. Behåll den här funktionen på?</item>
+        <item quantity="one">Denna funktion minskar skärmens ljusstyrka automatiskt efter %d minuts inaktivitet för att spara ström. Behåll den här funktionen på?</item>
+    </plurals>
+    <plurals name="gtb_setting_item_summary_brightness">
+        <item quantity="other">Minska skärmens ljusstyrka automatiskt för att spara ström efter %d minuters inaktivitet</item>
+        <item quantity="one">Minska skärmens ljusstyrka automatiskt för att spara ström efter %d minuts inaktivitet</item>
+    </plurals>
+    <plurals name="gtb_spring_festival_colored_egg">
+        <item quantity="other">"Congrats! You've unlocked %s Easter eggs."</item>
+        <item quantity="one">"Congrats! You've unlocked %s Easter egg."</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtimme sedan</item>
         <item quantity="one">En halvtimme sedan</item>
@@ -321,8 +369,8 @@ Du kan få en %d-dagars gratis provperiod nu!"</item>
         <item quantity="one">%d app hittad</item>
     </plurals>
     <plurals name="hints_scan_danger_result_with_number">
-        <item quantity="other">%d risker upptäckta, åtgärda nu</item>
-        <item quantity="one">%d risk upptäckt, åtgärda nu</item>
+        <item quantity="other">%d risker upptäckta</item>
+        <item quantity="one">%d risk upptäckt</item>
     </plurals>
     <plurals name="hints_traffic_disable_title">
         <item quantity="other">Spårar dataanvändning för %d appar</item>
@@ -632,6 +680,10 @@ Du kan få en %d-dagars gratis provperiod nu!"</item>
         <item quantity="other">objekt</item>
         <item quantity="one">objekt</item>
     </plurals>
+    <plurals name="power_center_unoffical_battery_dialog_negative">
+        <item quantity="other">Avbryt (%d sek)</item>
+        <item quantity="one">Avbryt (%d sek)</item>
+    </plurals>
     <plurals name="power_main_battery_last_day">
         <item quantity="other">%s dagar återstår</item>
         <item quantity="one">%s dag återstår</item>
@@ -745,8 +797,8 @@ Du kan få en %d-dagars gratis provperiod nu!"</item>
         <item quantity="one">Hittade %d inofficiell app</item>
     </plurals>
     <plurals name="result_virus_header">
-        <item quantity="other">Hittade %d infekterade och osäkra appar</item>
-        <item quantity="one">Hittade %d infekterade app</item>
+        <item quantity="other">%d skadliga appar upptäckta</item>
+        <item quantity="one">%d skadlig app upptäckt</item>
     </plurals>
     <plurals name="search_app_count_txt_na">
         <item quantity="other">Sök %d appar</item>
@@ -824,9 +876,19 @@ Du kan få en %d-dagars gratis provperiod nu!"</item>
         <item quantity="other">%d appar</item>
         <item quantity="one">%d app</item>
     </plurals>
+    <plurals name="videobox_settings_timing_bubble">
+        <item quantity="other">"Du har tittat på videor i %d timmar redan.
+Ta en paus!"</item>
+        <item quantity="one">"Du har tittat på videor i %d timme redan.
+Ta en paus!"</item>
+    </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$d visningar</item>
         <item quantity="one">%1$d visning</item>
+    </plurals>
+    <plurals name="virus_clear_dialog_content">
+        <item quantity="other">Rensa %d utvalda appar</item>
+        <item quantity="one">Rensa %d utvald app?</item>
     </plurals>
     <plurals name="white_list_risk_app_header">
         <item quantity="other">Farliga appar: %d</item>

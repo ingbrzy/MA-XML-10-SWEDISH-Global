@@ -99,7 +99,7 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
-    <string name="i_get_it">Got it</string>
+    <string name="i_get_it">Jag förstår</string>
     <string name="icon_add_description">Lägg till en genväg på Hemskärmen</string>
     <string name="icon_remove_confirm">Ta bort</string>
     <string name="icon_remove_description_content">\"Tjänster och återkoppling\" är en system-app. Du kommer fortfarande kunna använda den via Inställningar efter du tagit bort genvägen från Hemskärmen.</string>
@@ -185,7 +185,10 @@
     <string name="miui_feedback_edit_toast_screenshot_too_large">Det går inte att ladda upp bilder eller videor större än 100MB</string>
     <string name="miui_feedback_edit_toast_third_packagename_required">Ange appnamn</string>
     <string name="miui_feedback_main_answer_title">Det finns ett svar på den här frågan</string>
-    <string name="miui_feedback_main_frequent_question_title">VANLIGA FRÅGOR OCH SVAR</string>
+    <string name="miui_feedback_main_customer_service_onfo_for_jp">"Servicetelefon: 0120-300-521
+Kontorstid: 9:00–18:00 (förutom bankhelgdagar och schemalagda helgdagar)
+E-post: service.jp@xiaomi.com"</string>
+    <string name="miui_feedback_main_frequent_question_title">FAQ</string>
     <string name="miui_feedback_main_item_catch_full_log">Hämta loggar</string>
     <string name="miui_feedback_main_item_customer_service">Service efter försäljning</string>
     <string name="miui_feedback_main_item_feedback_list">Min feedback</string>
@@ -340,10 +343,10 @@
     <string name="permission_user_protocol">Användaravtal (obligatoriskt)</string>
     <string name="pm">E.m</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
-    <string name="privacy_policy_update_hint">"%1$s Privacy Policy was updated:
+    <string name="privacy_policy_update_hint">"%1$s integritetspolicy uppdaterades:
 %2$s
-Read and agree to the new version of %3$s before you continue."</string>
-    <string name="privacy_policy_update_title">Updated Privacy Policy</string>
+Läs och godkänn den nya versionen av %3$s innan du fortsätter."</string>
+    <string name="privacy_policy_update_title">Uppdaterad integritetspolicy</string>
     <string name="public_authorize_now">Inställningar</string>
     <string name="public_loading_text">Vänta lite…</string>
     <string name="public_net_error_retry">Försök igen</string>
@@ -413,16 +416,16 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="tuesday">Tisdag</string>
     <string name="tuesday_short">Tis</string>
     <string name="tuesday_shortest">Tis</string>
-    <string name="user_must_known">Attention</string>
-    <string name="user_must_known_content">"You won't be able to keep using our services unless you agree to the new version of our %s. Agree to the updated Privacy Policy now?"</string>
+    <string name="user_must_known">Obs</string>
+    <string name="user_must_known_content">Du kommer inte att kunna använda våra tjänster om du inte godkänner den nya versionen av vår %s. Godkänner du den uppdaterade integritetspolicyn nu?</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
-    <string name="withdraw_consent_failed">"Couldn't withdraw consent"</string>
-    <string name="withdraw_consent_failed_hint">A server error occurred. Wait a minute or two and try again.</string>
-    <string name="withdraw_consent_failed_hint_connect_net">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
-    <string name="withdrawing">Withdrawing consent…</string>
+    <string name="withdraw_consent_failed">Det gick inte att dra tillbaka samtycke</string>
+    <string name="withdraw_consent_failed_hint">Ett serverfel inträffade. Vänta en minut eller två och försök igen.</string>
+    <string name="withdraw_consent_failed_hint_connect_net">Din enhet behöver ansluta till nätverket för att du ska kunna dra tillbaka samtycket. Kontrollera dina nätverksinställningar och försök igen.</string>
+    <string name="withdrawing">Drar tillbaka samtycke…</string>
     <string name="yesterday">Igår</string>
 </resources>

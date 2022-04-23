@@ -106,7 +106,7 @@
     <string name="battery_info_status_charging_slow">Laddas långsamt</string>
     <string name="battery_info_status_discharging">Laddar inte</string>
     <string name="battery_info_status_full">Fullt</string>
-    <string name="battery_info_status_not_charging">Inkopplad, kan inte laddas just nu</string>
+    <string name="battery_info_status_not_charging">Ansluten, kan inte laddas just nu</string>
     <string name="battery_info_status_unknown">Okänd</string>
     <string name="blob_expires_text">Upphör den %s</string>
     <string name="blob_id_text">Id för delad data: %d</string>
@@ -150,7 +150,7 @@
     <string name="bluetooth_opp_profile_summary_not_connected">Inte ansluten till filöverföringsserver</string>
     <string name="bluetooth_opp_profile_summary_use_for">Använd för filöverföring</string>
     <string name="bluetooth_pairing">Parkoppling…</string>
-    <string name="bluetooth_pairing_accept">Parkoppling</string>
+    <string name="bluetooth_pairing_accept">Parkoppla</string>
     <string name="bluetooth_pairing_accept_all_caps">PARKOPPLA</string>
     <string name="bluetooth_pairing_decline">Avbryt</string>
     <string name="bluetooth_pairing_device_down_error_message">Det går inte att kommunicera med %1$s.</string>
@@ -302,7 +302,6 @@ Vem som helst kan läsa informationen på låsskärmen och ringa kontakterna gen
     <string name="enable_verbose_vendor_logging">Aktivera verbose-loggning</string>
     <string name="enable_verbose_vendor_logging_summary">Ta med ytterligare enhetsspecifika leverantörsloggar i felrapporter. Dessa kan innehålla privata uppgifter samt använda mer batteri och/eller mer lagringsutrymme.</string>
     <string name="enabled_by_admin">Aktiverad av administratör</string>
-    <string name="enhanced_connectivity">Förbättrad anslutning</string>
     <string name="enhanced_connectivity_summary">Aktiverar funktionen Förbättrad anslutning.</string>
     <string name="expand_button_title">Avancerat</string>
     <string name="external_source_trusted">Tillåts</string>
@@ -335,7 +334,7 @@ Vem som helst kan läsa informationen på låsskärmen och ringa kontakterna gen
     <string name="ims_reg_status_not_registered">Ej registrerad</string>
     <string name="ims_reg_status_registered">Registrerad</string>
     <string name="ims_reg_title">IMS-registrering</string>
-    <string name="imsi_protection_warning">Det här nätverket får ett unikt id som kan användas till att spåra enhetens plats. <annotation id="url">Läs mer</annotation></string>
+    <string name="imsi_protection_warning">Det här nätverket får ett SIM-id som kan användas till att spåra enhetens plats. <annotation id="url">Läs mer</annotation></string>
     <string name="inactive_app_active_summary">Aktiv. Tryck om du vill inaktivera.</string>
     <string name="inactive_app_inactive_summary">Inaktiv. Tryck om du vill aktivera.</string>
     <string name="inactive_apps_title">Appar i viloläge</string>
@@ -609,6 +608,7 @@ Alla användare kan uppdatera appar för samtliga användares räkning."</string
     <string name="wifi_cant_connect">Det gick inte att ansluta</string>
     <string name="wifi_cant_connect_to_ap">Det gick inte att ansluta till %1$s</string>
     <string name="wifi_check_password_try_again">Kontrollera lösenordet och försök igen</string>
+    <string name="wifi_connected_low_quality">Låg kvalitet</string>
     <string name="wifi_connected_no_internet">Inget internet</string>
     <string name="wifi_disabled_by_recommendation_provider">Ingen anslutning på grund av låg kvalitet på nätverket</string>
     <string name="wifi_disabled_generic">Inaktiverad</string>

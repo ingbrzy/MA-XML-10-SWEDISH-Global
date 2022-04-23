@@ -131,6 +131,7 @@
     <string name="accessibility_keyguard_face_unlock_view">Ansiktsupplåsning</string>
     <string name="accessibility_left_control_center_button">Genväg</string>
     <string name="accessibility_left_lock_screen_magazine_button">Bakgrundsbildskarusell</string>
+    <string name="accessibility_left_xmyzl_button">Xiaomi Magic Control</string>
     <string name="accessibility_location_active">Det finns aktiva platsbegäranden</string>
     <string name="accessibility_long_click_tile">Öppna inställningarna</string>
     <string name="accessibility_manage_notification">Hantera aviseringar</string>
@@ -282,6 +283,7 @@
     <string name="accessor_expires_text">Hyreskontraktet utgår %s</string>
     <string name="accessor_info_title">Appar som delar data</string>
     <string name="accessor_no_description_text">Ingen beskrivning tillhandahållen av appen.</string>
+    <string name="actionbar_button_up_description">Tillbaka</string>
     <string name="activate_usb_message">För att aktivera denna funktion, sätt i ditt SIM-kort.</string>
     <string name="activate_usb_title">Aktivera USB</string>
     <string name="active_input_method_subtypes">Aktiva inmatningsmetoder</string>
@@ -319,6 +321,7 @@
     <string name="adbwifi_warning_title">Tillåt trådlös felsökning?</string>
     <string name="add_tile">Lägg till en ruta</string>
     <string name="adjust_button_width">Justera knappens bredd</string>
+    <string name="afternoon">Eftermiddag</string>
     <string name="airplane_mode">Flygplansläge</string>
     <string name="alarm_template">kl. %1$s</string>
     <string name="alarm_template_far">kl. %1$s</string>
@@ -326,6 +329,7 @@
     <string name="allow_mock_location_summary">Tillåt påhittad plats</string>
     <string name="always_use_accessory">Öppna alltid %1$s när %2$s är ansluten</string>
     <string name="always_use_device">Öppna alltid %1$s när %2$s är ansluten</string>
+    <string name="am">F.m</string>
     <string name="animator_duration_scale_title">Varaktighetsskalning för animation</string>
     <string name="apn_settings_not_available">Inställningar för accesspunkter är inte tillgängliga för den här användaren</string>
     <string name="app_accessed_mic">%1$s har fått åtkomst till mikrofonen</string>
@@ -560,6 +564,7 @@ Val"</string>
     <string name="cell_data_off">Av</string>
     <string name="cell_data_off_content_description">Mobildata har inaktiverats</string>
     <string name="charge_length_format">%1$s sedan</string>
+    <string name="choose_clock_dual_clock_hint_text">Kan inte ändra formatet när dubbelklocka är på</string>
     <string name="choose_clock_panel_title">Låsskärms-layout</string>
     <string name="choose_clock_third_theme_hint_text">Låsskärm från det nuvarande tillämpade temat</string>
     <string name="choose_clock_title_left_top">Vänsterjusterad</string>
@@ -568,6 +573,7 @@ Val"</string>
     <string name="choose_profile">Välj profil</string>
     <string name="clear_adb_keys">Revoke USB debugging authorizations</string>
     <string name="clear_all_notifications_text">Rensa alla</string>
+    <string name="clearable_edittext_clear_description">Rensa</string>
     <string name="click_to_enter_text">Tryck för att visa</string>
     <string name="clipboard">Urklipp</string>
     <string name="clock">Klocka</string>
@@ -577,6 +583,7 @@ Val"</string>
     <string name="clock_title_analog">Analog</string>
     <string name="clock_title_bubble">Bubbla</string>
     <string name="clock_title_default">Standard</string>
+    <string name="close">Stäng</string>
     <string name="compat_mode_off">Dra för att fylla skärmen</string>
     <string name="compat_mode_on">Zooma för att fylla skärm</string>
     <string name="confirm">OK</string>
@@ -671,6 +678,11 @@ Om du fortsätter kan avgifter för dataanvändning tillkomma."</string>
     <string name="data_usage_ota">Systemuppdateringar</string>
     <string name="data_usage_uninstalled_apps">Borttagna appar</string>
     <string name="data_usage_uninstalled_apps_users">Borttagna appar och användare</string>
+    <string name="date_picker_label_day" />
+    <string name="date_picker_label_month" />
+    <string name="date_picker_label_year" />
+    <string name="date_picker_lunar">Traditionell kinesisk kalender</string>
+    <string name="date_time_picker_dialog_title">Ange datum och tid</string>
     <string name="debug_app">Välj felsöknings-app</string>
     <string name="debug_app_not_set">Felsöknings-app är inte inställt</string>
     <string name="debug_app_set">Felsök App: %1$s</string>
@@ -703,6 +715,9 @@ Om du fortsätter kan avgifter för dataanvändning tillkomma."</string>
     <string name="development_settings_not_available">Utvecklaralternativ är inte tillgängliga för den här användaren</string>
     <string name="development_settings_summary">Ställ in alternativ för apputveckling</string>
     <string name="development_settings_title">Utvecklaralternativ</string>
+    <string name="device_locked_without_biometric">Kan inte låsa upp den här enheten med fingeravtrycks- eller ansiktsdata när du använder tredjeparts skärmlås</string>
+    <string name="device_locked_without_biometric_face">Kan inte låsa den här enheten med ansiktsdata när du använder tredjeparts skärmlås</string>
+    <string name="device_locked_without_biometric_finger">Kan inte låsa upp den här enheten med fingeravtryck när du använder tredjeparts skärmlås</string>
     <string name="device_services">Enhetstjänster</string>
     <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Obs: Efter en omstart kommer denna app inte starta innan du låser upp din enhet.</string>
@@ -717,8 +732,8 @@ Om du fortsätter kan avgifter för dataanvändning tillkomma."</string>
     <string name="dnd_is_off">Stör ej är inaktiverat</string>
     <string name="dnd_notification_warnings_title">Stör ej är på. Notifikationer är tystade och vibration är avaktiverat.</string>
     <string name="dnd_suppressing_shade_text">Aviseringar har pausats via Stör ej</string>
-    <string name="do_disclosure_generic">This device belongs to your organization</string>
-    <string name="do_disclosure_with_name">This device belongs to %s</string>
+    <string name="do_disclosure_generic">Den här enheten tillhör organisationen</string>
+    <string name="do_disclosure_with_name">Den här enheten tillhör %s</string>
     <string name="do_not_silence">Stäng inte av ljudet</string>
     <string name="do_not_silence_block">Stäng inte av ljudet och blockera inte</string>
     <string name="dock_alignment_not_charging">Räta upp telefonen för att ladda trådlöst</string>
@@ -730,7 +745,9 @@ Om du fortsätter kan avgifter för dataanvändning tillkomma."</string>
     <string name="drag_to_rearrange_tiles">Ordna om rutor genom att trycka och dra</string>
     <string name="drag_to_remove_disabled">Minst %1$d rutor måste finnas kvar</string>
     <string name="drag_to_remove_tiles">Ta bort genom att dra här</string>
+    <string name="early_morning">Morgon</string>
     <string name="emergency_call_string">Nödsituation</string>
+    <string name="empty" />
     <string name="empty_shade_text">Inga aviseringar</string>
     <string name="enable_adb">USB-felsökning</string>
     <string name="enable_adb_summary">Växla till felsökningsläge när USB är ansluten</string>
@@ -752,9 +769,12 @@ Om du fortsätter kan avgifter för dataanvändning tillkomma."</string>
     <string name="enabled_by_admin">Aktiverad av administratör</string>
     <string name="enhanced_connectivity">Förbättrad anslutning</string>
     <string name="enhanced_connectivity_summary">Aktiverar funktionen Förbättrad anslutning.</string>
+    <string name="eras_ad">V.T.</string>
+    <string name="eras_bc">F.V.T.</string>
     <string name="error_disable_esim_msg">Det gick inte att inaktivera eSIM-kortet på grund av ett fel.</string>
     <string name="error_disable_esim_title">Det gick inte att inaktivera eSIM-kortet</string>
     <string name="ethernet_label">Ethernet</string>
+    <string name="evening">Eftermiddag</string>
     <string name="expand_button_title">Avancerat</string>
     <string name="expanded_header_battery_charged">Laddat</string>
     <string name="expanded_header_battery_charging">Laddar</string>
@@ -778,20 +798,86 @@ Om du fortsätter kan avgifter för dataanvändning tillkomma."</string>
     <string name="face_unlock_pin_and_fingerprint">Ange PIN eller använd fingeravtryck för att låsa upp</string>
     <string name="face_unlock_reveal_eye">Gör dina ögon synliga</string>
     <string name="face_unlock_reveal_mouth">Gör dina läppar synliga</string>
+    <string name="face_unlock_success">Framgångsrikt upplåst</string>
+    <string name="face_unlock_swipe_up_retry">Svep uppåt för att försöka igen</string>
     <string name="failed_to_open_app_settings_toast">Det gick inte att öppna inställningar för %1$s</string>
     <string name="fingerprint_add_text">Fingeravtrycksgränssnittet har uppdaterats. Lägg till ditt fingeravtryck igen.</string>
     <string name="fingerprint_add_title">Lägg till fingeravtryck</string>
     <string name="fingerprint_again_identified_msg">Ditt fingeravtryck är aktivt nu. Använd det för att låsa upp, eller ange lösenord.</string>
+    <string name="fingerprint_again_identified_msg_password">"Ditt fingeravtryck är aktivt nu.
+Använd det för att låsa upp enheten, eller ange ditt lösenord."</string>
+    <string name="fingerprint_again_identified_msg_pattern">"Ditt fingeravtryck är aktivt nu.
+Använd det för att låsa upp enheten, eller rita ditt mönster."</string>
+    <string name="fingerprint_again_identified_msg_pin">"Ditt fingeravtryck är aktivt nu.
+Använd det för att låsa upp enheten, eller ange din PIN."</string>
     <string name="fingerprint_dialog_touch_sensor">Tryck på fingeravtryckssensorn</string>
     <string name="fingerprint_enter_second_psw_msg">Ange Sekundära utrymmets lösenord efter omstart av enheten för att kunna använda fingeravtrycksigenkänning</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">Du kan inte gå in i Sekundära utrymmet i Enkelt läge</string>
     <string name="fingerprint_enter_second_psw_title">Ange Sekundära utrymmets lösenord</string>
     <string name="fingerprint_not_identified_msg">För många misslyckade försök. Ange lösenord eller försök med fingeravtryck om ett par sekunder.</string>
     <string name="fingerprint_not_identified_msg_lock">För många misslyckade försök. Ange lösenord nu.</string>
+    <string name="fingerprint_not_identified_msg_password">"För många misslyckade försök.
+Ange ditt lösenord för att låsa upp."</string>
+    <string name="fingerprint_not_identified_msg_pattern">"För många misslyckade försök.
+Rita ditt mönster för att låsa upp."</string>
+    <string name="fingerprint_not_identified_msg_pin">"För många misslyckade försök.
+Ange din PIN för att låsa upp."</string>
     <string name="fingerprint_not_identified_title">Ange lösenord</string>
     <string name="fingerprint_try_again_msg">Det gick inte att tyda fingeravtrycket, försök igen.</string>
     <string name="fingerprint_try_again_text">Försök igen</string>
     <string name="float_notification_snooze_strategy">Dölj flytande notifikationer temporärt</string>
+    <string name="fmt_chinese_date">N月e</string>
+    <string name="fmt_date">D</string>
+    <string name="fmt_date_day">dd</string>
+    <string name="fmt_date_long_month">MMMM</string>
+    <string name="fmt_date_long_month_day">MMMM dd</string>
+    <string name="fmt_date_long_year_month">MMMM yyyy</string>
+    <string name="fmt_date_long_year_month_day">MMMM dd, yyyy</string>
+    <string name="fmt_date_numeric_day">dd</string>
+    <string name="fmt_date_numeric_month">MM</string>
+    <string name="fmt_date_numeric_month_day">MM/dd</string>
+    <string name="fmt_date_numeric_year">yyyy</string>
+    <string name="fmt_date_numeric_year_month">MM/yyyy</string>
+    <string name="fmt_date_numeric_year_month_day">MM/dd/yyyy</string>
+    <string name="fmt_date_short_month">MM</string>
+    <string name="fmt_date_short_month_day">MM/dd</string>
+    <string name="fmt_date_short_year_month">MMM yyyy</string>
+    <string name="fmt_date_short_year_month_day">MM/dd/yyyy</string>
+    <string name="fmt_date_time">D T</string>
+    <string name="fmt_date_time_timezone">D T z</string>
+    <string name="fmt_date_timezone">D z</string>
+    <string name="fmt_date_year">yyyy</string>
+    <string name="fmt_time">T</string>
+    <string name="fmt_time_12hour">hh</string>
+    <string name="fmt_time_12hour_minute">hh:mm</string>
+    <string name="fmt_time_12hour_minute_pm">hh:mm aa</string>
+    <string name="fmt_time_12hour_minute_second">hh:mm:ss</string>
+    <string name="fmt_time_12hour_minute_second_millis">hh:mm:ss.S</string>
+    <string name="fmt_time_12hour_minute_second_millis_pm">hh:mm:ss.S aa</string>
+    <string name="fmt_time_12hour_minute_second_pm">hh:mm:ss aa</string>
+    <string name="fmt_time_12hour_pm">hh aa</string>
+    <string name="fmt_time_24hour">H</string>
+    <string name="fmt_time_24hour_minute">HH:mm</string>
+    <string name="fmt_time_24hour_minute_second">HH:mm:s</string>
+    <string name="fmt_time_24hour_minute_second_millis">HH:mm:ss.S</string>
+    <string name="fmt_time_millis">S</string>
+    <string name="fmt_time_minute">m</string>
+    <string name="fmt_time_minute_second">m:s</string>
+    <string name="fmt_time_minute_second_millis">m:s.S</string>
+    <string name="fmt_time_second">s</string>
+    <string name="fmt_time_second_millis">s.S</string>
+    <string name="fmt_time_timezone">T z</string>
+    <string name="fmt_timezone">z</string>
+    <string name="fmt_weekday">W</string>
+    <string name="fmt_weekday_date">W, D</string>
+    <string name="fmt_weekday_date_time">W, D T</string>
+    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
+    <string name="fmt_weekday_date_timezone">W, D z</string>
+    <string name="fmt_weekday_long">EEEE</string>
+    <string name="fmt_weekday_short">E</string>
+    <string name="fmt_weekday_time">W T</string>
+    <string name="fmt_weekday_time_timezone">W T z</string>
+    <string name="fmt_weekday_timezone">W z</string>
     <string name="force_allow_on_external">Forcera att tillåta appar att skriva till det externa lagringsutrymmet</string>
     <string name="force_allow_on_external_summary">Gör vilken app som helst behörig till att skriva till externa lagringsutrymmet oavsett vilka värden</string>
     <string name="force_msaa">Forcera 4x MSAA</string>
@@ -802,10 +888,14 @@ Om du fortsätter kan avgifter för dataanvändning tillkomma."</string>
     <string name="force_rtl_layout_all_locales_summary">Tvinga riktning på skärmutseende till RTL för alla locales</string>
     <string name="forced_resizable_secondary_display">Appen kanske inte fungerar på en sekundär skärm.</string>
     <string name="forget_password_string">Glömt lösenord</string>
+    <string name="friday">Fredag</string>
+    <string name="friday_short">Fre</string>
+    <string name="friday_shortest">Fre</string>
     <string name="fs_gesture_back_home_summary">Svep från underkanten snabbt</string>
     <string name="fs_gesture_back_ready_title">Gå tillbaka</string>
     <string name="fs_gesture_final_over">Jag är färdig</string>
     <string name="fs_gesture_final_restart">En gång till</string>
+    <string name="fs_gesture_final_see_more">Visa fler demonstrationer i Inställningar > Hemskärmen > Systemnavigering</string>
     <string name="fs_gesture_final_summary">Du kan växla tillbaka till att använda knappar i Inställningar > Helskärm</string>
     <string name="fs_gesture_final_title">Du är redo att rocka!</string>
     <string name="fs_gesture_finish">Nice!</string>
@@ -836,28 +926,6 @@ Om du fortsätter kan avgifter för dataanvändning tillkomma."</string>
     <string name="guest_wipe_session_wipe">Börja om</string>
     <string name="gxzw_area">Fingeravtryckssensor</string>
     <string name="gxzw_press_harder">Trycka lite hårdare</string>
-    <string name="gxzw_quick_close">Stäng</string>
-    <string name="gxzw_quick_open_add_event">Lägg till händelse</string>
-    <string name="gxzw_quick_open_add_event_sub">Kalender</string>
-    <string name="gxzw_quick_open_alipay_pay">Betalningskod</string>
-    <string name="gxzw_quick_open_alipay_pay_sub">Alipay</string>
-    <string name="gxzw_quick_open_alipay_scan">Scanner</string>
-    <string name="gxzw_quick_open_alipay_scan_sub">Alipay</string>
-    <string name="gxzw_quick_open_qr_code">QR-kod</string>
-    <string name="gxzw_quick_open_qr_code_sub">Scanner</string>
-    <string name="gxzw_quick_open_search">Sök</string>
-    <string name="gxzw_quick_open_search_sub">Webbläsare</string>
-    <string name="gxzw_quick_open_skip_teach">Hoppa över handledning</string>
-    <string name="gxzw_quick_open_title">Öppnade genvägsmeny</string>
-    <string name="gxzw_quick_open_wechat_pay">Betalningskod</string>
-    <string name="gxzw_quick_open_wechat_pay_sub">WeChat</string>
-    <string name="gxzw_quick_open_wechat_scan">Scanner</string>
-    <string name="gxzw_quick_open_wechat_scan_sub">WeChat</string>
-    <string name="gxzw_quick_open_xiaoai_sub">Mi AI</string>
-    <string name="gxzw_quick_open_xiaoai_title1">Säg namnet på den app du vill öppna</string>
-    <string name="gxzw_quick_open_xiaoai_title2">Säg namnet på den funktion du vill använda</string>
-    <string name="gxzw_quick_tip_press">Fortsätt trycka på…</string>
-    <string name="gxzw_quick_tip_slide">Lyft inte upp fingret. Dra för att välja.</string>
     <string name="gxzw_try_again">Försök igen</string>
     <string name="gxzw_try_more_again">Försök igen</string>
     <string name="gxzw_use_password">Använd ditt lösenord för att låsa upp</string>
@@ -898,7 +966,7 @@ Mobilen fungerar som vanligt när den har svalnat."</string>
     <string name="ims_reg_status_not_registered">Inte registrerad</string>
     <string name="ims_reg_status_registered">Registrerad</string>
     <string name="ims_reg_title">IMS-registreringsstatus</string>
-    <string name="imsi_protection_warning">Det här nätverket får ett unikt id som kan användas till att spåra enhetens plats. <annotation id="url">Läs mer</annotation></string>
+    <string name="imsi_protection_warning">Det här nätverket får ett SIM-id som kan användas till att spåra enhetens plats. <annotation id="url">Läs mer</annotation></string>
     <string name="inactive_app_active_summary">Aktiv. Tryck för att växla.</string>
     <string name="inactive_app_inactive_summary">Inaktiv. Tryck för att växla.</string>
     <string name="inactive_apps_title">Inaktiva appar</string>
@@ -926,13 +994,15 @@ Vill du fortsätta att visa dem?"</string>
     <string name="input_lockscreen_password_hint_text">Ange lösenord</string>
     <string name="input_lockscreen_pattern_hint_text">Rita mönster</string>
     <string name="input_lockscreen_pin_hint_text">Ange PIN</string>
-    <string name="input_password_after_boot_msg">För att låsa upp enheten, ange ditt lösenord</string>
+    <string name="input_password_after_boot_msg">Angivande av ditt lösenord krävs när enheten startar om</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Det går inte att växla mellan utrymmen under samtal</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Det går inte att växla mellan utrymmena när föräldrakontroll är aktiv</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_superpower_active">Kan inte växla mellan mellanslag när ultra-batterisparläge är på</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">När du har startat om enheten måste du först flytta till primära utrymmet</string>
     <string name="input_password_hint_text">Ange lösenord</string>
+    <string name="input_pattern_after_boot_msg">Ritande av ditt mönster krävs när enheten startar om</string>
     <string name="input_pattern_hint_text">Rita ditt upplåsningsmönster</string>
+    <string name="input_pin_after_boot_msg">Angivande av din PIN krävs när enheten startar om</string>
     <string name="input_pin_code">Ange PIN</string>
     <string name="input_puk_code">Mata in PUK</string>
     <string name="install_other_apps">Installera okända appar</string>
@@ -1011,6 +1081,7 @@ prioriterade"</string>
     <string name="keyguard_charged">Laddat</string>
     <string name="keyguard_charging_back_to_lockscreen">Tillbaka till Låsskärmen</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
+    <string name="keyguard_charging_double_fast_and_level_tip">Snabbladdningshastighet %s</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Idag %s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">Igår %s</string>
@@ -1029,6 +1100,7 @@ prioriterade"</string>
     <string name="keyguard_indication_trust_unlocked_plugged_in">"%1$s
 %2$s"</string>
     <string name="keyguard_instructions_when_pattern_disabled">Lås upp genom att trycka på Meny.</string>
+    <string name="keyguard_invalid_sim_puk_hint">PUK-koden måste innehålla %1$d siffror.</string>
     <string name="keyguard_left_mi_wallet">Mi Wallet</string>
     <string name="keyguard_left_torch">Ficklampa</string>
     <string name="keyguard_left_view_lock_wallpaper">Bakgrundsbildskarusell</string>
@@ -1037,6 +1109,7 @@ prioriterade"</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-kort saknas eller kan inte läsas. Sätt i ett SIM-kort.</string>
     <string name="keyguard_missing_sim_message">Inget SIM-kort i telefonen.</string>
     <string name="keyguard_missing_sim_message_short">Inget SIM-kort</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Nätverk låst</string>
     <string name="keyguard_password_enter_password_code">Lås upp med lösenordet</string>
     <string name="keyguard_password_enter_pin_code">Ange pinkod</string>
@@ -1078,7 +1151,7 @@ prioriterade"</string>
     <string name="kg_invalid_confirm_pin_hint">Pinkoderna stämmer inte överens</string>
     <string name="kg_invalid_puk">Ange rätt PUK-kod. Om försöken upprepas inaktiveras SIM-kortet permanent.</string>
     <string name="kg_invalid_sim_pin_hint">Ange en pinkod med fyra till åtta siffror.</string>
-    <string name="kg_invalid_sim_puk_hint">PUK-kod ska vara 8 siffror.</string>
+    <string name="kg_invalid_sim_puk_hint">PUK-koden ska vara minst åtta siffror.</string>
     <string name="kg_login_too_many_attempts">För många försök med grafiskt lösenord</string>
     <string name="kg_password_instructions">Ange lösenord</string>
     <string name="kg_password_pin_failed">Det gick inte att låsa upp med pinkoden för SIM-kortet.</string>
@@ -1172,6 +1245,7 @@ Försök igen om %2$d sekunder."</string>
     <string name="local_backup_password_toast_confirmation_mismatch">Lösenordet matchar inte</string>
     <string name="local_backup_password_toast_success">Lösenord för säkerhetskopia är ändrat</string>
     <string name="local_backup_password_toast_validation_failure">Det gick inte att konfigurera lösenordet för säkerhetskopian</string>
+    <string name="lock_screen_access_to_5G">Tillgång till 5G</string>
     <string name="lock_screen_carrier_airplane_mode_on">Flygplansläge</string>
     <string name="lock_screen_date">EEEE d MMMM</string>
     <string name="lock_screen_date_12">EEEE d MMMM</string>
@@ -1222,6 +1296,7 @@ d MMMM"</string>
     <string name="megabyte_per_second">MB/s</string>
     <string name="menu_ime">Byt mellan meny/tangentbord</string>
     <string name="mic_active">Mikrofonen är aktiv</string>
+    <string name="midnight">Natt</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Upplåst av Bluetoothenhet</string>
     <string name="miui_notification_menu_aggregate_feedback">Feedback</string>
     <string name="miui_notification_menu_allow">Tillåt</string>
@@ -1230,10 +1305,12 @@ d MMMM"</string>
     <string name="miui_notification_menu_more_setting">Mer</string>
     <string name="miui_notification_menu_msg_fold">Gruppera ihop alla notifikationer från %1$s?</string>
     <string name="miui_notification_menu_msg_not_allow">Begränsa alla notifikationer från %1$s?</string>
+    <string name="miui_notification_menu_msg_unfold">Vill du visa %1$s-aviseringar separat?</string>
     <string name="miui_notification_menu_setting_success">Klart</string>
     <string name="miui_notification_menu_snooze">Snooze</string>
     <string name="miui_notification_menu_title_not_allow">Begränsa</string>
-    <string name="miui_screen_rotation_freeze_message">Låst skärmorientering i landskapsläge</string>
+    <string name="miui_notification_menu_unfold">Markera som viktigt</string>
+    <string name="miui_screen_rotation_freeze_message">Låst skärmorientering i liggande läge</string>
     <string name="miui_snooze_always_float">Dölj inte</string>
     <string name="miui_snooze_cancel">Avbryt</string>
     <string name="miui_snooze_default_time">Under %d minuter</string>
@@ -1243,6 +1320,22 @@ d MMMM"</string>
     <string name="miui_snooze_until_unlock_screen">Tills låst</string>
     <string name="miui_snooze_user_set_fail">Gå till Inställningar > Notifikationer &amp; Kontrollcenter för fler alternativ</string>
     <string name="miui_snooze_user_set_success">Framgångsrikt tillämpat. Gå till Inställningar > Notifikationer &amp; Kontrollcenter för fler alternativ.</string>
+    <string name="miui_unimportant_notifications">Oviktiga aviseringar</string>
+    <string name="miuix_access_state_desc">Valt</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
+    <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
+    <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
+    <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
+    <string name="miuix_appcompat_cancel_description">Avbryt</string>
+    <string name="miuix_appcompat_confirm_description">Bekräfta</string>
+    <string name="miuix_appcompat_delete_description">Ta bort</string>
+    <string name="miuix_appcompat_deselect_all">Välj ingen</string>
+    <string name="miuix_appcompat_deselect_all_description">Välj ingen</string>
+    <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
+    <string name="miuix_appcompat_search_input_description">Sök</string>
+    <string name="miuix_appcompat_select_all">Välj alla</string>
+    <string name="miuix_appcompat_select_all_description">Välj alla</string>
+    <string name="miuix_appcompat_select_item">Välj objekt</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra nedåt för att uppdatera</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uppdaterat</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Uppdaterar…</string>
@@ -1262,6 +1355,9 @@ d MMMM"</string>
     <string name="mock_location_app">Välj app för påhittad plats</string>
     <string name="mock_location_app_not_set">Ingen app för påhittad plats vald</string>
     <string name="mock_location_app_set">App för påhittad plats: %1$s</string>
+    <string name="monday">Måndag</string>
+    <string name="monday_short">Mån</string>
+    <string name="monday_shortest">Mån</string>
     <string name="monitoring_button_view_policies">Visa policyer</string>
     <string name="monitoring_description_app">Du är ansluten till %1$s som kan bevaka din nätverksaktivitet, exempelvis e-post, appar och webbplatser.</string>
     <string name="monitoring_description_app_personal">Du är ansluten till %1$s, som kan bevaka din privata aktivitet på nätverket, inklusive e-post, appar och webbplatser.</string>
@@ -1272,12 +1368,14 @@ Du är även ansluten till %3$s som kan bevaka din privata nätverksaktivitet."<
 
 Kontakta administratören om du vill veta mer."</string>
     <string name="monitoring_description_ca_cert_settings">Öppna betrodda användaruppgifter</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">En certifikatutfärdare är installerad på enheten. Din säkra nätverkstrafik kan övervakas och ändras.</string>
     <string name="monitoring_description_do_body">Administratören kan övervaka och hantera inställningar, företagsåtkomst, appar, data med koppling till enheten och enhetens plats.</string>
     <string name="monitoring_description_do_body_vpn">Du är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-postmeddelanden, appar och webbplatser.</string>
     <string name="monitoring_description_do_header_generic">Enheten hanteras av %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s hanterar enheten med hjälp av %2$s.</string>
     <string name="monitoring_description_do_learn_more">Läs mer</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Organisationen har installerat en certifikatutfärdare i jobbprofilen. Din säkra nätverkstrafik kan övervakas och ändras.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Jobbprofilen är ansluten till %1$s som kan övervaka din nätverksaktivitet, exempelvis e-post, appar och webbplatser.</string>
     <string name="monitoring_description_management">"Den här enheten tillhör organisationen.
@@ -1309,12 +1407,51 @@ Kontakta administratören om du vill veta mer.
 
 Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</string>
     <string name="monitoring_description_vpn_settings">Öppna VPN-inställningarna</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA-certifikat</string>
     <string name="monitoring_subtitle_network_logging">Nätverksloggning</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
     <string name="monitoring_title">Nätverksövervakning</string>
     <string name="monitoring_title_device_owned">Enhetshantering</string>
     <string name="monitoring_title_profile_owned">Profilövervakning</string>
+    <string name="month_april">April</string>
+    <string name="month_april_short">Apr</string>
+    <string name="month_april_shortest">Apr</string>
+    <string name="month_august">Augusti</string>
+    <string name="month_august_short">Aug</string>
+    <string name="month_august_shortest">Aug</string>
+    <string name="month_december">December</string>
+    <string name="month_december_short">Dec</string>
+    <string name="month_december_shortest">Dec</string>
+    <string name="month_february">Februari</string>
+    <string name="month_february_short">Feb</string>
+    <string name="month_february_shortest">Feb</string>
+    <string name="month_january">Januari</string>
+    <string name="month_january_short">Jan</string>
+    <string name="month_january_shortest">Jan</string>
+    <string name="month_july">Juli</string>
+    <string name="month_july_short">Jul</string>
+    <string name="month_july_shortest">Jul</string>
+    <string name="month_june">Juni</string>
+    <string name="month_june_short">Jun</string>
+    <string name="month_june_shortest">Jun</string>
+    <string name="month_march">Mars</string>
+    <string name="month_march_short">Mar</string>
+    <string name="month_march_shortest">Mar</string>
+    <string name="month_may">Maj</string>
+    <string name="month_may_short">Maj</string>
+    <string name="month_may_shortest">Maj</string>
+    <string name="month_november">November</string>
+    <string name="month_november_short">Nov</string>
+    <string name="month_november_shortest">Nov</string>
+    <string name="month_october">Oktober</string>
+    <string name="month_october_short">Okt</string>
+    <string name="month_october_shortest">Okt</string>
+    <string name="month_september">September</string>
+    <string name="month_september_short">Sep</string>
+    <string name="month_september_shortest">Sep</string>
+    <string name="more">Mer</string>
+    <string name="morning">Morgon</string>
     <string name="mr_button_content_description">Cast-knappen</string>
     <string name="mr_cast_button_connected">Cast-knappen. Ansluten</string>
     <string name="mr_cast_button_connecting">Cast-knappen. Ansluter</string>
@@ -1339,13 +1476,17 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="mr_dialog_transferable_header">Spela upp på en grupp enheter</string>
     <string name="mr_system_route_name">System</string>
     <string name="mr_user_route_category_name">Enheter</string>
+    <string name="msim_set_sub_not_supported_phone_in_call">Det går inte att ställa in under samtalet</string>
     <string name="music_controls_no_title">Ingen titel</string>
     <string name="nav_bar">Navigeringsfält</string>
     <string name="nav_bar_default">(standard)</string>
     <string name="nav_bar_layout">Layout</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
+    <string name="night">Kväll</string>
     <string name="no_application">Inga</string>
     <string name="no_auto_saver_action">Nej tack</string>
     <string name="no_shortcut">%1$s har inte stöd för konversationsfunktioner</string>
+    <string name="noon">Middagstid</string>
     <string name="not_default_data_content_description">Inte inställd på mobildata</string>
     <string name="not_set">Inte angett</string>
     <string name="notification_alert_title">Standard</string>
@@ -1375,7 +1516,7 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="notification_channel_unsilenced">Dessa aviseringar visas med ljud</string>
     <string name="notification_content_gesture_nav_available">Öppna inställningarna och uppdatera systemnavigeringen</string>
     <string name="notification_content_system_nav_changed">Systemnavigeringen har uppdaterats. Öppna inställningarna om du vill ändra något.</string>
-    <string name="notification_control_center">Notifikationer &amp; Kontrollcenter</string>
+    <string name="notification_control_center">Notifikationer och Kontrollcenter</string>
     <string name="notification_conversation_bubble">Visa bubbla</string>
     <string name="notification_conversation_channel_settings">Inställningar</string>
     <string name="notification_conversation_favorite">Viktig konversation</string>
@@ -1414,6 +1555,7 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="open_lock_screen_magazine_hint_text">Svep höger för fler alternativ</string>
     <string name="open_remote_center_hint_text">Svep åt höger för att se kontrollerna</string>
     <string name="open_saver_setting_action">Inställningar</string>
+    <string name="open_xmyzl_hint_text">Svep åt höger för att öppna Xiaomi Magic Control</string>
     <string name="orb_search_action">Sökåtgärd</string>
     <string name="osu_completing_sign_up">Slutför medlemskap…</string>
     <string name="osu_connect_failed">Kan inte ansluta</string>
@@ -1431,6 +1573,8 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="overlay_display_devices_title">Simulera sekundära skärmar</string>
     <string name="overview">Översikt</string>
     <string name="owner_info_settings_edit_text_hint">T. ex. Joes Android.</string>
+    <string name="pad_zen_mode_warnings_all_time_content">Underrättelser kommer att tystas</string>
+    <string name="pad_zen_mode_warnings_keyguard_content">Underrättelser kommer att tystas när enheten är låst</string>
     <string name="phone_hint">Svep från ikonen och öppna telefonen</string>
     <string name="phone_label">öppna mobilen</string>
     <string name="phone_locked_foget_password">Glömt lösenord?</string>
@@ -1439,10 +1583,12 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="phone_locked_foget_password_method_content">&lt;Data>Du måste &lt;font color=#a5220e>rensa all data &lt;/font>på din enhet, inklusive bilder och kontakter, och sedan sätta ett nytt lösenord för låsskärmen.&lt;/Data></string>
     <string name="phone_locked_foget_password_method_next">Nästa</string>
     <string name="phone_locked_foget_password_ok">Uppfattat</string>
-    <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data>Stäng av din enhet, tryck och håll &lt;font color=#a5220e> Strömknappen&lt;/font> och &lt;font color=#a5220e>Volymknappen upp&lt;/font> samtidigt till du ser Mi-loggan.&lt;/Data></string>
+    <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data>Stäng av din enhet, tryck sedan och håll inne &lt;font color=#e6e6e6>[Start]&lt;/font> och &lt;font color=#e6e6e6>[Volym +]&lt;/font>-knapparna tills du ser &lt;img src=\"\">.&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>Välj&lt;font color=#a5220e>\"Rensa&amp;amp; Nollställ\"&lt;/font> och vänta till enheten startar om.;&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">Hur rensar du all data?</string>
     <string name="phone_locked_string">Denna enhet är olåst</string>
+    <string name="phone_locked_string_owner_user">För många misslyckade försök att ange Primära utrymmets lösenord. Den här enheten är låst nu.</string>
+    <string name="phone_locked_string_second_user">För många misslyckade försök att ange Sekundära utrymmets lösenord. Den här enheten är låst nu.</string>
     <string name="picture_color_mode">Läge för bildfärger</string>
     <string name="picture_color_mode_desc">Använd sRGB</string>
     <string name="pip_close">Stäng PIP</string>
@@ -1460,6 +1606,7 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="pip_play">Spela upp</string>
     <string name="pip_skip_to_next">Hoppa till nästa</string>
     <string name="pip_skip_to_prev">Hoppa till föregående</string>
+    <string name="pm">E.m</string>
     <string name="pointer_location">Pekarens plats</string>
     <string name="pointer_location_summary">Skärmöverlagring visar nuvarande tryckdata</string>
     <string name="power_discharge_by">Borde räcka ungefär till %1$s (%2$s)</string>
@@ -1525,6 +1672,7 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="private_dns_mode_provider">Värdnamn privat DNS-leverantör</string>
     <string name="private_dns_mode_provider_failure">Kan inte ansluta</string>
     <string name="private_dns_mode_provider_hostname_hint">Ange värdnamn för DNS-leverantör</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">Problem att ansluta. Slå av &amp; på enheten igen</string>
     <string name="profile_info_settings_title">Profil info</string>
     <string name="profile_owned_footer">Det kan hända att profilen övervakas</string>
@@ -1658,7 +1806,7 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="quick_settings_rotation_locked_landscape_label">Liggande</string>
     <string name="quick_settings_rotation_locked_portrait_label">Stående</string>
     <string name="quick_settings_rotation_unlocked_label">Rotera automatiskt</string>
-    <string name="quick_settings_rotationlock_label">Rotering av</string>
+    <string name="quick_settings_rotationlock_label">Lås orientering</string>
     <string name="quick_settings_rssi_emergency_only">Endast nödsamtal</string>
     <string name="quick_settings_rssi_label">RSSI</string>
     <string name="quick_settings_screen_record_label">Skärminspelning</string>
@@ -1679,13 +1827,16 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="quick_settings_user_new_user">Ny användare</string>
     <string name="quick_settings_user_title">Användare</string>
     <string name="quick_settings_vibrate_label">Vibrera</string>
+    <string name="quick_settings_vowifi_label">WiFi-samtal</string>
+    <string name="quick_settings_vowifi_sim1_label">WiFi-samtal SIM1</string>
+    <string name="quick_settings_vowifi_sim2_label">WiFi-samtal SIM2</string>
     <string name="quick_settings_wifi_detail_dual_wifi_accelerated">Ökar hastigheten</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_cancel">Avbryt</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_confirm">Bekräfta</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_not_remind">Visa inte igen</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_prompt">Växlar mellan nätverk</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_summary">Wi-Fi-hastighetsökning med dubbla band måste använda två olika Wi-Fi-band. Om du ansluter till ett annat huvudnätverk kommer tilläggsanslutningen att förloras.</string>
-    <string name="quick_settings_wifi_detail_empty_text">Inga Wi-Fi nätverk är tillgängliga</string>
+    <string name="quick_settings_wifi_detail_empty_text">Inga Wi-Fi-nätverk finns tillgängliga</string>
     <string name="quick_settings_wifi_label">Wi-Fi</string>
     <string name="quick_settings_wifi_no_network">Inget nätverk</string>
     <string name="quick_settings_wifi_not_connected">Ej ansluten</string>
@@ -1716,6 +1867,9 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="running_process_item_user_label">Användare: %1$s</string>
     <string name="runningservices_settings_summary">Visa kontrollera de tjänster som körs för tillfället</string>
     <string name="runningservices_settings_title">Tjänster som körs</string>
+    <string name="saturday">Lördag</string>
+    <string name="saturday_short">Lör</string>
+    <string name="saturday_shortest">Lör</string>
     <string name="save">Spara</string>
     <string name="saved_network">Sparad av %1$s</string>
     <string name="screen_pinning_can_open_other_apps">Den fästa appen kan öppna andra appar.</string>
@@ -1791,6 +1945,7 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="select_webview_provider_dialog_title">Ställ in implementering av WebView</string>
     <string name="select_webview_provider_title">Implementering av WebView</string>
     <string name="select_webview_provider_toast_text">Det valet är inte längre giltigt. Försök igen.</string>
+    <string name="send">Skicka</string>
     <string name="sensor_privacy_mode">Sensorer har inaktiverats</string>
     <string name="shared_data_delete_failure_text">Ett fel uppstod vid radering av delad data.</string>
     <string name="shared_data_no_accessors_dialog_text">Inga hyreskontrakt har införskaffats för denna delade data. Vill du radera den?</string>
@@ -1816,6 +1971,8 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="show_silently">Visa aviseringar utan ljud</string>
     <string name="show_touches">Visa tryck</string>
     <string name="show_touches_summary">Visa visuell återkoppling för tryck</string>
+    <string name="shut_down_password_forget_password_suggesstion_one_content">&lt;Data>Tryck och håll inne &lt;font color=#e6e6e6>[Power]&lt;/font> och &lt;font color=#e6e6e6>[Volym +]&lt;/font> knapparna tills du ser &lt;img src=\"\">.&lt;/Data></string>
+    <string name="shut_down_password_forget_password_suggesstion_two_content">&lt;Data>Välj &lt;font color=#e6e6e6>[Wipe data]&lt;/font> och tryck på &lt;font color=#e6e6e6>[Reboot]&lt;/font> efter detta.&lt;/Data></string>
     <string name="sim_state_locked_dialog_title">Ogiltigt SIM-kort</string>
     <string name="sim_state_locked_puk_dialog_message">Du har angivit en felaktig PUK-kod minst %d gånger. Ditt SIM-kort är ogiltigt nu. Ersätt detta SIM-kort med ett annat.</string>
     <string name="simulate_color_space">Simulera färgrymd</string>
@@ -1837,6 +1994,7 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="ssl_ca_cert_warning">"Nätverket kan
 vara övervakat"</string>
     <string name="standby_bucket_summary">App i standby Tillstånd: %s</string>
+    <string name="start_camera_error_try_again">Kunde inte starta Camera. Försök igen.</string>
     <string name="start_dreams">Skärmsläckare</string>
     <string name="status_bar">Statusfält</string>
     <string name="status_bar_airplane">Flygplansläge</string>
@@ -1848,6 +2006,8 @@ vara övervakat"</string>
     <string name="status_bar_clock_date_time_format_12">h:mm aa, E, d MMM</string>
     <string name="status_bar_clock_date_weekday_format">EEEE dd MMMM</string>
     <string name="status_bar_clock_date_weekday_format_12">EEEE dd MMMM</string>
+    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
+    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"E
 d MMM"</string>
     <string name="status_bar_date_format_12">"E
@@ -1886,6 +2046,9 @@ d MMM"</string>
     <string name="structure_face_data_input_error_overly_light">Bakgrundsljus är för starkt</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_separator">" / "</string>
+    <string name="sunday">Söndag</string>
+    <string name="sunday_short">Sön</string>
+    <string name="sunday_shortest">Sön</string>
     <string name="switch_bar_off">Inaktiverat</string>
     <string name="switch_bar_on">På</string>
     <string name="switch_system_user">Tillbaka till Primära utrymmet</string>
@@ -1900,6 +2063,46 @@ d MMM"</string>
     <string name="tethering_hardware_offload">Delar hårdvaruacceleration</string>
     <string name="tethering_hardware_offload_summary">Använd delning av hårdvaruacceleration om det finns tillgängligt</string>
     <string name="tethering_settings_not_available">Inställningar för Internetdelning är inte tillgängliga för den här användaren</string>
+    <string name="the_anniversary_of_lifting_martial_law">Årsdagen för lyftande av undantagstillstånd</string>
+    <string name="the_anti_aggression_day">Anti-våldsdagen</string>
+    <string name="the_arbor_day">Arbor Day</string>
+    <string name="the_armed_forces_day">Försvarsmaktens dag</string>
+    <string name="the_armys_day">PLA-dagen</string>
+    <string name="the_childrens_day">Barnens dag</string>
+    <string name="the_chinese_youth_day">Ungdomsdagen</string>
+    <string name="the_christmas_day">Jul</string>
+    <string name="the_double_ninth_festival">Dubbel nionde-festivalen</string>
+    <string name="the_dragon_boat_festival">Drakbåtsfestivalen</string>
+    <string name="the_easter_day">Påsken</string>
+    <string name="the_eve_of_the_spring_festival">Kinesisk nyårsafton</string>
+    <string name="the_fifth_day">Femte dagen av kinesiskt nyår</string>
+    <string name="the_fools_day">Första april</string>
+    <string name="the_forth_day">Fjärde dagen av kinesiskt nyår</string>
+    <string name="the_hksar_establishment_day">Hong Kong SAR etableringsdag</string>
+    <string name="the_international_womens_day">Kvinnodagen</string>
+    <string name="the_laba_festival">Laba-festivalen</string>
+    <string name="the_labour_day">Arbetardagen</string>
+    <string name="the_lantern_festival">Lanternfestivalen</string>
+    <string name="the_mid_autumn_festival">Midhöstfestivalen</string>
+    <string name="the_national_day">Nationaldagen</string>
+    <string name="the_national_father_day">Sun Yat-sens födelsedag</string>
+    <string name="the_new_years_day">Nyår</string>
+    <string name="the_night_of_sevens">Qixi-festivalen</string>
+    <string name="the_partys_day">CPC-dagen</string>
+    <string name="the_peace_day">Hågkomstens dag</string>
+    <string name="the_retrocession_day">Retrocessionsdagen</string>
+    <string name="the_second_day">Andra dagen av kinesiskt nyår</string>
+    <string name="the_seventh_day">Sjunde dagen av kinesiskt nyår</string>
+    <string name="the_sixth_day">Sjätte dagen av kinesiskt nyår</string>
+    <string name="the_spirit_festival">Spökfestivalen</string>
+    <string name="the_spring_festival">Kinesiskt nyår</string>
+    <string name="the_teachers_day">Lärarens dag</string>
+    <string name="the_third_day">Tredje dagen av kinesiskt nyår</string>
+    <string name="the_tw_childrens_day">Barnens dag</string>
+    <string name="the_tw_youth_day">Ungdomsdagen</string>
+    <string name="the_united_nations_day">FN-dagen</string>
+    <string name="the_valentines_day">Alla hjärtans dag</string>
+    <string name="the_water_lantern_festival">Water Lantern-festivalen</string>
     <string name="thermal_shutdown_dialog_message">"Mobilen var för varm och stängdes av för att kylas ned. Den fungerar nu som vanligt.
 
 Mobilen kan bli för varm om du
@@ -1908,10 +2111,18 @@ Mobilen kan bli för varm om du
 \u0009• använder mobilen vid höga temperaturer."</string>
     <string name="thermal_shutdown_message">Mobilen fungerar nu som vanligt</string>
     <string name="thermal_shutdown_title">Mobilen stängdes av pga. värme</string>
+    <string name="thursday">Torsdag</string>
+    <string name="thursday_short">Tor</string>
+    <string name="thursday_shortest">Tor</string>
     <string name="tile_unavailable">Inte tillgängligt</string>
+    <string name="time_picker_dialog_title">Ange tid</string>
+    <string name="time_picker_label_hour">H</string>
+    <string name="time_picker_label_minute">M</string>
     <string name="time_unit_just_now">Nyss</string>
     <string name="title_convert_fbe">Konverterar till filbaserad kryptering…</string>
     <string name="title_usb_accessory">USB-tillbehör</string>
+    <string name="today">Idag</string>
+    <string name="tomorrow">Imorgon</string>
     <string name="torch_high_temperature_warning">Din enhet är överhettad. Det går inte att använda ficklampan nu.</string>
     <string name="touch_filtered_warning">Svaret kan inte verifieras av Inställningar eftersom en app skymmer en begäran om behörighet.</string>
     <string name="track_frame_time">Profilera GPU-rendering</string>
@@ -1944,6 +2155,9 @@ Mobilen kan bli för varm om du
     <string name="tts_status_ok">%1$s stöds fullt ut</string>
     <string name="tts_status_requires_network">%1$s behöver nätverksanslutning</string>
     <string name="tts_status_title">Status för standardspråk</string>
+    <string name="tuesday">Tisdag</string>
+    <string name="tuesday_short">Tis</string>
+    <string name="tuesday_shortest">Tis</string>
     <string name="tuner_app">Appen %1$s</string>
     <string name="tuner_circle">Cirkel</string>
     <string name="tuner_full_importance_settings">Prioritetsinställningar för aviseringar</string>
@@ -2091,11 +2305,15 @@ Alla användare kan uppdatera appar för samtliga användares räkning."</string
     <string name="wapi_psk_type_ascii">ASCII</string>
     <string name="wapi_psk_type_hex">Hexadecimal</string>
     <string name="wapi_yes">Ja</string>
+    <string name="wednesday">Onsdag</string>
+    <string name="wednesday_short">Ons</string>
+    <string name="wednesday_shortest">Ons</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Tillgångspunkten är tillfällig full</string>
     <string name="wifi_auto_sel_wapi_cert">Välj automatiskt</string>
     <string name="wifi_cant_connect">Kan inte ansluta</string>
     <string name="wifi_cant_connect_to_ap">"Kan inte ansluta till '%1$s'"</string>
     <string name="wifi_check_password_try_again">Kontrollera lösenord och försök igen</string>
+    <string name="wifi_connected_low_quality">Låg kvalitet</string>
     <string name="wifi_connected_mac_randomization">Ansluten slumpmässig MAC</string>
     <string name="wifi_connected_no_internet">Inget internet</string>
     <string name="wifi_coverage_extend">Aktiverar utökning av täckning för Wi-Fi</string>
@@ -2167,6 +2385,7 @@ Det ser ut som att utrymmet för credentials inte är aktiverat."</string>
     <string name="wireless_charge_reset_device_detail">Se till att din enhet ligger korrekt på laddningsbasen</string>
     <string name="wireless_charge_stop">Avslutade trådlös laddning</string>
     <string name="wrong_password">Felaktigt lösenord</string>
+    <string name="yesterday">Igår</string>
     <string name="zen_alarm_warning">Nästa alarm, kl. %1$s, kommer inte att höras</string>
     <string name="zen_alarm_warning_indef">Nästa alarm, kl. %1$s, kommer inte att höras om du inte inaktiverar detta innan dess</string>
     <string name="zen_alarms_introduction">Du blir inte störd av ljud och vibrationer, förutom från alarm. Ljudet är fortfarande på för sådant du väljer att spela upp, till exempel musik, videor och spel.</string>

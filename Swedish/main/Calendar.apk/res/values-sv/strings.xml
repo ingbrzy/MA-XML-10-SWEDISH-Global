@@ -60,6 +60,7 @@
     <string name="alert_title">Kalendernotifikationer</string>
     <string name="all_events">Alla händelser</string>
     <string name="all_records">Alla poster</string>
+    <string name="already_num">Tid sedan %s</string>
     <string name="am">F.m</string>
     <string name="anniversary_event_title">Årsdag: %1$s</string>
     <string name="anniversary_secondary_tag">Årsdag</string>
@@ -138,6 +139,7 @@
     <string name="copy">Kopiera</string>
     <string name="copy_email">Kopiera e-postadress</string>
     <string name="copy_number">Kopiera telefonnummer</string>
+    <string name="count_down_date_view">Nedräkning</string>
     <string name="countdown_event_title">Nedräkning: %1$s</string>
     <string name="countdown_notify_before_3_day_title">Nedräkning: %1$s om %2$d dagar</string>
     <string name="countdown_notify_title">Nedräkning: %1$s</string>
@@ -175,8 +177,10 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Traditionell kinesisk kalender</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Ange datum och tid</string>
     <string name="date_today">" (idag)"</string>
+    <string name="date_view">Datum</string>
     <string name="day">Dag</string>
     <string name="day_view_new_event_hint">Ny händelse</string>
     <string name="default_reminder_mode">Påminnelser</string>
@@ -222,7 +226,7 @@
     <string name="edit_event_to_label">Till</string>
     <string name="edit_your_long_holidays">Redigera lediga dagar</string>
     <string name="ee_dd_short_month">EEE dd MMM</string>
-    <string name="eee_dd_long_month">EEEE dd MMMM</string>
+    <string name="eee_dd_long_month">EEEE d MMMM</string>
     <string name="email_guests_label">Maila gäster</string>
     <string name="email_install_hint">E-post har avinstallerats. Installera E-post igen för återställa kalenderkonton eller skapa en ny.</string>
     <string name="email_picker_label">Maila med</string>
@@ -374,6 +378,7 @@
     <string name="import_action">Importera</string>
     <string name="import_birthday">Importera födelsedag</string>
     <string name="imported">Importerade</string>
+    <string name="in_progress">Pågående</string>
     <string name="insert_event_dialog_btn_negative">Nej</string>
     <string name="insert_event_dialog_btn_positive">Ja</string>
     <string name="insert_event_dialog_message">Lägga till händelse i kalendern?</string>
@@ -390,13 +395,13 @@
     <string name="loading">Vänta en stund…</string>
     <string name="local_calendar_display_name">Lokala kalendern</string>
     <string name="local_owner_account_name">Lokalt på enheten</string>
-    <string name="long_date_format">EEEE dd MMMM yyyy</string>
+    <string name="long_date_format">EEEE d MMMM yyyy</string>
     <string name="long_holiday_date_place_holder">dd MMMM</string>
     <string name="long_holiday_dates">Börjar den %1$s</string>
     <string name="long_holiday_month_off">Lediga månatliga dagar</string>
     <string name="long_holiday_title_length_warning">Helgdagens namn är för långt</string>
     <string name="long_holiday_week_off">Lediga veckodagar</string>
-    <string name="long_month_date_format">dd MMMM yyyy</string>
+    <string name="long_month_date_format">d MMMM yyyy</string>
     <string name="lunar_date">Månens datum</string>
     <string name="manage_holidays">Hantera lediga dagar</string>
     <string name="manage_title">Hantera</string>
@@ -405,9 +410,9 @@
     <string name="match_finished">Kan inte konfigurera påminnelser för pågående och färdiga spel</string>
     <string name="match_select_activity_label">Ligor</string>
     <string name="match_zodiac">Matcha stjärntecken</string>
-    <string name="medium_date_format">EEE dd MMMM yyyy</string>
-    <string name="mens_date_format_m_d">dd MMM</string>
-    <string name="mens_date_format_y_m_d">dd MMM yyyy</string>
+    <string name="medium_date_format">EEE d MMMM yyyy</string>
+    <string name="mens_date_format_m_d">d MMM</string>
+    <string name="mens_date_format_y_m_d">d MMM yyyy</string>
     <string name="menstrual_assistant">Menstruation</string>
     <string name="menstruation_alert_auth_message">Tillåt att menstruationsassistenten startar automatiskt för att kunna ta emot notifikationer. Du får bara notifikationer om det är viktigt.</string>
     <string name="menstruation_auto_start_message">Tillåt att menstruationsassistenten startar automatiskt</string>
@@ -525,6 +530,7 @@
     <string name="movie_card_title">Filmer</string>
     <string name="movie_card_trailer">Trailer</string>
     <string name="name_title_menstruation_today_end">Menstruationen förväntas sluta idag</string>
+    <string name="near_agenda_view">Kommande händelser</string>
     <string name="network_not_available">Kan inte ansluta till nätverket</string>
     <string name="never">Aldrig</string>
     <string name="new_event_description">Ny</string>
@@ -713,7 +719,7 @@ Kontrollera inställningar och försök igen."</string>
     <string name="share_image">Dela</string>
     <string name="share_image_label">Dela via</string>
     <string name="share_title">Dela</string>
-    <string name="short_date_format">dd MMM</string>
+    <string name="short_date_format">d MMM</string>
     <string name="show_day_view">Visa dag</string>
     <string name="show_indic_date_summary">Indisk kalender är tillgänglig när ett av de språk som talas i Indien har angetts som ditt systemspråk</string>
     <string name="show_menstruation_info">Visa information om menstruation</string>
@@ -728,9 +734,12 @@ Kontrollera inställningar och försök igen."</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip">Hoppa över</string>
     <string name="small_week_date_format">EEE dd/MM/yyyy</string>
+    <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
+    <string name="spec_agenda_view">Speciella händelser</string>
     <string name="start_date_calculate">Beräkna</string>
     <string name="stats_title">Statistik</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="still_num">Tid till %s</string>
     <string name="storage_permission_denied">Tillåt åtkomst till lagringsutrymmet först</string>
     <string name="subscribe_card">Prenumerera nu</string>
     <string name="subscribe_card_success">Prenumerering lyckad! Se detaljer på hemsidan.</string>
@@ -855,9 +864,10 @@ Du kan också lägga till påminneler så du inte missar något viktigt."</strin
     <string name="today">Idag</string>
     <string name="today_at_time_fmt">Idag klockan %s</string>
     <string name="today_icon_voice_contentdescription">Tillbaka till idag</string>
+    <string name="today_no_event">Inga händelser idag.</string>
     <string name="today_no_events">Inga händelser</string>
     <string name="todays_panchang_title">Dagens Panchang</string>
-    <string name="todo_audio_event">"[Voice task] "</string>
+    <string name="todo_audio_event">"[Uppgift via röst] "</string>
     <string name="todo_event">Kommande uppgifter</string>
     <string name="tomorrow">Imorgon</string>
     <string name="tomorrow_at_time_fmt">Imorgon klockan %s</string>
@@ -920,7 +930,13 @@ Du kan också lägga till påminneler så du inte missar något viktigt."</strin
     <string name="widget_events">Nästa händelse</string>
     <string name="widget_get_weather_info">Hämta väderinfo</string>
     <string name="widget_no_events">Inga händelser</string>
+    <string name="widget_normal_agenda_tip_empty">Inga händelser idag.</string>
+    <string name="widget_normal_agenda_today_done">Alla händelser är klara för idag.</string>
+    <string name="widget_normal_more_event">Fler händelser</string>
+    <string name="widget_normal_new_event">Lägg till händelse</string>
+    <string name="widget_normal_weekN">Vecka %d</string>
     <string name="widget_select_style">Välj en stil</string>
+    <string name="widget_spec_agenda_birth_today">Idag</string>
     <string name="work_day_indication">: (</string>
     <string name="xiaomi_calendar_delete_description">Kalender är en system-app som tillåter dig skapa och hantera händelser. Vissa av dess funktioner kommer fortfarande vara tillgängliga efter du tagit bort genvägen från Hemskärmen.</string>
     <string name="xiaomi_calendar_delete_title">Ta bort \"Kalender\" från Hemskärmen?</string>

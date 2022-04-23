@@ -48,6 +48,7 @@
     <string name="alert_message_delete_excerpt">Vill du ta bort denna anteckning? Utdraget kommer att också att tas bort.</string>
     <string name="alert_message_delete_note">Ta bort anteckningen?</string>
     <string name="alert_message_edit_anyway">Om du ändrar anteckningen kan vissa delar av innehållet försvinna.</string>
+    <string name="alert_message_edit_anyway_new">Den här anteckningen har innehåll som inte stöds. Att redigera dn kan orsaka formatförändringar eller förlorad data.</string>
     <string name="alert_message_restore">Det gick inte att öppna denna anteckning. Återställ den för att redigera dess innehåll.</string>
     <string name="alert_title_delete">Ta bort anteckning</string>
     <string name="alert_title_edit_anyway">Anteckningen har innehåll som inte stöds</string>
@@ -68,7 +69,7 @@
     <string name="audio_create_will_cancel_state">Släpp för att avbryta</string>
     <string name="audio_dialog_mode_meeting">Mötesläge (beta)</string>
     <string name="audio_dialog_mode_meeting_exit">Nej tack</string>
-    <string name="audio_dialog_mode_meeting_sum">Mötesläget låter dig känna igen rösterna från upp till fyra olika personer. Vissa igenkänningsfel kan uppstå i beta-versionen.</string>
+    <string name="audio_dialog_mode_meeting_sum">Mötesläget låter dig kännaigen röster från %1$d%2$d olika personer. Vissa igenkänningsfel kan uppkomma i Beta-version.</string>
     <string name="audio_dialog_mode_meeting_use">Starta</string>
     <string name="audio_panel_time_counter_default">00:00</string>
     <string name="audio_toast_file_invalid">Ljudfilen är ogiltig</string>
@@ -202,6 +203,7 @@
     <string name="error_send_empty_note">Kan inte skicka en tom anteckning</string>
     <string name="error_send_empty_note_to_weibo">Kan inte skicka en tom anteckning till Weibo</string>
     <string name="error_unsupport_content">Anteckningen har innehåll som inte stöds, tryck här för att uppdatera</string>
+    <string name="error_unsupport_content_format">Den här anteckningen har innehåll som inte stöds. Uppdatera till version %1$s eller senare.</string>
     <string name="error_widget_exist_for_send_to_desktop">Anteckningen finns redan på Hemskärmen</string>
     <string name="evening">Eftermiddag</string>
     <string name="exceed_todo_text_limitation">Beskrivningen för uppgiften har för många tecken.</string>
@@ -336,6 +338,7 @@
     <string name="menu_create_folder">Ny mapp</string>
     <string name="menu_delete">Ta bort</string>
     <string name="menu_delete_forever">Ta bort permanent</string>
+    <string name="menu_edit">Redigera</string>
     <string name="menu_folders">Mappar</string>
     <string name="menu_group">Skapa en mapp</string>
     <string name="menu_hide">Dölj</string>
@@ -493,6 +496,7 @@
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -549,10 +553,12 @@
     <string name="note_mindnote_entrance_hint_newversion">"Börja skriva "</string>
     <string name="note_mindnote_entrance_icon_text">Skapa en tankekarta</string>
     <string name="note_mindnote_entrance_icon_text_newversion">Skapa en tankekarta</string>
+    <string name="note_module_name">Anteckningar</string>
     <string name="note_not_text_stub">Ingen text</string>
     <string name="note_sort_way">Sortera</string>
     <string name="notealert_enter">Öppna anteckning</string>
     <string name="notealert_ok">Avfärda</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Anteckningar är en system-app. Du kommer inte kunna använda denna app efter du avinstallerat den.</string>
     <string name="notes_description_title">Avinstallera Anteckningar?</string>
     <string name="notification_content_add_todo_from_other_app">Du lade till en ny uppgift. Tryck för att visa.</string>
@@ -674,7 +680,7 @@
     <string name="repeat_mode_set_item_week_detail">%s</string>
     <string name="repeat_mode_set_item_year">Varje år (%s)</string>
     <string name="repeat_mode_set_item_year_detail">%s</string>
-    <string name="repeat_mode_set_item_year_detail_day">dd MMM</string>
+    <string name="repeat_mode_set_item_year_detail_day">d MMM</string>
     <string name="repeat_mode_set_title">Upprepa</string>
     <string name="repeat_mode_week">Varje vecka</string>
     <string name="repeat_mode_year">Varje år</string>
@@ -710,6 +716,13 @@
     <string name="select_account_prompt">Synkronisera anteckningar</string>
     <string name="send">Skicka</string>
     <string name="set_alarm_description">Ställ in alarm</string>
+    <string name="setting_big_screen_layout_columns">Sidlinje</string>
+    <string name="setting_big_screen_layout_flat">Brickor</string>
+    <string name="setting_big_screen_layout_title">Helskärmslayout</string>
+    <string name="setting_cloud_service">Molntjänster</string>
+    <string name="setting_layout">Utseende</string>
+    <string name="setting_micloud_sync_title">Xiaomi Cloud</string>
+    <string name="setting_note_list_layout_title">Utseende</string>
     <string name="setting_other">ANNAT</string>
     <string name="setting_privacy">Integritetspolicy</string>
     <string name="single_link_excerpt_saving">Sparar objekt…</string>
@@ -933,6 +946,15 @@ Tillåt Anteckningar att spela in ljud."</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="view_all_notes">Visa alla</string>
+    <string name="warn_cannot_add_new_bullet">Kan inte lägga till ny punktlista eftersom anteckningen är för lång</string>
+    <string name="warn_cannot_add_new_checkbox">Kan inte lägga till ny kryssruta eftersom anteckningen är för lång</string>
+    <string name="warn_cannot_add_new_doodle">Kan inte lägga till nytt klotter eftersom anteckningen är för lång</string>
+    <string name="warn_cannot_add_new_element">Kan inte lägga till nya objekt eftersom anteckningen är för lång</string>
+    <string name="warn_cannot_add_new_link_card">Kan inte lägga till ny länk eftersom anteckningen är för lång</string>
+    <string name="warn_cannot_add_new_picture">Kan inte lägga till ny bild eftersom anteckningen är för lång</string>
+    <string name="warn_cannot_add_new_style">Kan inte lägga till nytt format eftersom anteckningen är för lång</string>
+    <string name="warn_disable_edit_in_browse_mode">Du kan inte redigera anteckningar i läs-läge</string>
+    <string name="warn_enter_browse_mode">Du är i läs-läge</string>
     <string name="web_sso_login_fail">Du måste logga in igen</string>
     <string name="web_sso_login_message">Loggar in…</string>
     <string name="webview_reload">Försök igen</string>

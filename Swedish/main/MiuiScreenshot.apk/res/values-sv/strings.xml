@@ -35,8 +35,10 @@
     <string name="afternoon">Eftermiddag</string>
     <string name="am">F.m</string>
     <string name="app_name">Skärmdump</string>
+    <string name="can_drag">Dra för att infoga eller skicka</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
     <string name="close">Stäng</string>
+    <string name="custom_define_permission_desc_android.permission_group.STORAGE">För att spara skärmbilder</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -102,12 +104,16 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="long_screenshot_error">Ett fel uppstod. Försök igen.</string>
     <string name="long_screenshot_guide_text">"Klicka för att göra
 en skrollnings-skärmdump"</string>
+    <string name="long_screenshot_intercepted_error">Kunde inte ta skärmdump. Försök igen.</string>
     <string name="long_screenshot_out_of_memory_error">Bilden är för stor</string>
     <string name="long_screenshot_processing">Berarbetar…</string>
+    <string name="long_screenshot_processing_description_accessibility">Bearbetar</string>
     <string name="long_screenshot_stop">Klar</string>
     <string name="long_screenshot_top_msg">Skapar skärmbild…</string>
+    <string name="long_screenshot_top_msg_description_accessibility">Skapar skärmdump</string>
     <string name="long_screenshot_top_msg_manual">Beskär skärmdumpen och tryck på knappen för att avsluta</string>
     <string name="midnight">Natt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
@@ -187,11 +193,13 @@ en skrollnings-skärmdump"</string>
     <string name="saturday">Lördag</string>
     <string name="saturday_short">Lör</string>
     <string name="saturday_shortest">Lör</string>
+    <string name="save_success">Sparad framgångsrikt</string>
     <string name="screenshot_edit">Redigera</string>
     <string name="screenshot_failed_in_landscape_mode">Kan inte göra scrollande skärmdumpar i landskapsläge</string>
     <string name="screenshot_feedback_txt">Feedback</string>
     <string name="screenshot_insert_failed">Kunde inte ladda skärmdumpen. Ta en ny eller visa bilden i Galleri.</string>
     <string name="screenshot_long_screenshot">Scrolla</string>
+    <string name="screenshot_save">Spara</string>
     <string name="screenshot_send">Skicka</string>
     <string name="screenshot_thumbnail">Välj miniatyrbild</string>
     <string name="search_menu_title">Sök</string>

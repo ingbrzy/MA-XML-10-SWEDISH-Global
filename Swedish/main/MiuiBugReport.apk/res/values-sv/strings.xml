@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Dela med</string>
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
+    <string name="access_denied_info">För många försök. Vänta en minut eller två och försök igen.</string>
     <string name="account_bind_secure_email_title">Lägg till e-post för återställning</string>
     <string name="account_bind_secure_phone_title">Lägg till telefonnummer för återställning</string>
     <string name="account_crop_user_avatar">Beskär bild</string>
@@ -104,12 +105,12 @@
     <string name="catch_full_log_item_title_audio">Ljud-, samtalsljud- och ljudinspelning</string>
     <string name="catch_full_log_item_title_bt">Bluetooth</string>
     <string name="catch_full_log_item_title_camera">Kamera</string>
-    <string name="catch_full_log_item_title_charge">Charge</string>
+    <string name="catch_full_log_item_title_charge">Laddar</string>
     <string name="catch_full_log_item_title_dump_heap">Laggar</string>
     <string name="catch_full_log_item_title_gps">Platstjänster</string>
     <string name="catch_full_log_item_title_sensor">Sensorer</string>
     <string name="catch_full_log_item_title_signal">Telefon, signal och mobila nätverk</string>
-    <string name="catch_full_log_item_title_trace">Jank</string>
+    <string name="catch_full_log_item_title_trace">Fördröjning</string>
     <string name="catch_full_log_item_title_wifi">Wi-Fi</string>
     <string name="catch_full_log_item_title_wifi_china">WLAN</string>
     <string name="catch_full_log_notification_content">Tryck för att gå tillbaka till loggar</string>
@@ -117,11 +118,11 @@
     <string name="catch_full_log_privacy_content_audio">Du skapar loggar och sparar dem på din enhet. Loggarna kan innehålla information om ljudet på din enhet, inklusive uppspelningshistorik och inspelningshistorik. Var försiktig och avslöja inte dessa loggar till andra människor. Genom att trycka på \"Agree\" nedan godkänner du att vi samlar ovanstående data samtidigt som du skapar loggar och sedan laddar upp loggarna till våra servrar för att hitta och lösa de problem du rapporterar.</string>
     <string name="catch_full_log_privacy_content_bt">Du skapar loggar och sparar dem på din enhet. Loggarna kan innehålla information om Bluetooth-enhetens användning (inklusive samtalshistorik, meddelanden, överförda filer etc.). Var försiktig och avslöja inte dessa loggar till andra människor. Genom att trycka på \"Agree\" nedan godkänner du att vi samlar ovanstående data samtidigt som du skapar loggar och sedan laddar upp loggarna till våra servrar för att hitta och lösa de problem du rapporterar.</string>
     <string name="catch_full_log_privacy_content_camera">Du skapar loggar och sparar dem på din enhet. Loggarna kan innehålla information om kameraanvändning (inklusive CPU-frekvens, systemanrop, minnesanvändning etc.). Var försiktig och avslöja inte dessa loggar för andra människor. Genom att trycka på \"Godkänn\" nedan, så godkänner du att vi samlar in ovanstående data medan vi genererar loggaroch därefter laddar upp loggarna till våra servrar för att hitta och lösa de problem du rapporterar.</string>
-    <string name="catch_full_log_privacy_content_charge">"You're generating logs and saving them on your device. The logs may contain Charge info. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
+    <string name="catch_full_log_privacy_content_charge">Du genererar loggar och sparar dem till din enhet. Loggarna kan innehålla laddningsstatistik. Var försiktig och visa inte dessa loggar för andra personer. Genom att trycka på \"Godkänn\" nedan samtycker du till att vi kommer samla ovanstående data när loggarna genereras och sen ladda upp loggarna till våra servrar för att lokalisera och lösa problem du rapporterar.</string>
     <string name="catch_full_log_privacy_content_gps">Du genererar loggar och sparar dem till din enhet. Loggarna kan innehålla dina personlig information, platsinformation. Va försiktig och visa inte dessa loggar för andra personer. Genom att trycka på \"Godkänn\" nedan samtycker du till att vi kommer samla ovanstående data när loggarna genereras och sen ladda upp loggarna till våra servrar för att lokalisera och lösa problem du rapporterar.</string>
     <string name="catch_full_log_privacy_content_sensor">Du skapar loggar och sparar dem på din enhet. Loggarna kan innehålla information som samlats in av enhetens sensorer (inklusive omgivande ljussensor, barometer, stegräknare, magnetometer etc.). Var försiktig och avslöja inte dessa loggar till andra människor. Genom att trycka på \"Agree\" nedan godkänner du att vi samlar ovanstående data samtidigt som du skapar loggar och sedan laddar upp loggarna till våra servrar för att hitta och lösa de problem du rapporterar.</string>
     <string name="catch_full_log_privacy_content_signal">Du genererar loggar och sparar dem till din enhet. Loggarna kan innehålla dina meddelande, samtalshistorik, nätverksinfo och kommunikationsdata. Va försiktig och visa inte dessa loggar till andra personer. Genom att trycka på \"Godkänn\" nedan samtycker du till att vi kommer samla ovanstående data när loggarna genereras och sen ladda upp loggarna till våra servrar för att lokalisera och lösa problem du rapporterar.</string>
-    <string name="catch_full_log_privacy_content_trace">"You're generating logs and saving them on your device. The logs may contain Program running record (including CPU frequency, system call, memory usage etc.). Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
+    <string name="catch_full_log_privacy_content_trace">Du genererar logg-filer och sparar dem på din enhet. Loggarna kan innehålla app-använningsstatistik (inklusive CPU-frekvens, systemsamtal, minnesanvändning, m.m.). Var noga med att inte avslöja loggarna för andra personer. Genom att trycka på \"Godkänn\" nedan, godkänner du att vi samlar in ovanstående information vid generering av loggar, och sedan laddar upp loggar på våra servrar för att finna och lösa problemen du rapporterar.</string>
     <string name="catch_full_log_privacy_content_wifi">Du genererar loggar och sparar dem till din enhet. Loggarna kan innehålla dina personlig information, platsinformation samt IP och MAC-adressen på din enhet. Om du är ansluten till okrypterat Wi-Fi kan vi också tillgång till vissa delar av din kommunikationsdata. Va försiktig och visa inte dessa loggar till andra personer. Genom att trycka på \"Godkänn\" nedan samtycker du till att vi kommer samla ovanstående data när loggarna genereras och sen ladda upp loggarna till våra servrar för att lokalisera och lösa problem du rapporterar.</string>
     <string name="catch_full_log_privacy_content_wifi_china">"You're generating logs and saving them on your device. The logs may contain your personal info, location info, as well as the IP and MAC addresses of your device. If you're connected to an unencrypted WLAN network, we might also be able to access parts of your communication data. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
     <string name="catch_full_log_start_dump_hprof">Generarar logg för lagg</string>
@@ -161,6 +162,9 @@ Skicka koden till handledaren."</string>
     <string name="discard_draft_dialog_button_discard">Ta bort</string>
     <string name="discard_draft_dialog_content">Förändringar i rapporten kommer försvinna.</string>
     <string name="discard_draft_dialog_title">Ta bort utkast?</string>
+    <string name="doing_login">Loggar in…</string>
+    <string name="doing_query_account">Kontrollerar kontoinfo…</string>
+    <string name="doing_register">Skapar konto…</string>
     <string name="early_morning">Morgon</string>
     <string name="empty" />
     <string name="eras_ad">V.T.</string>
@@ -363,10 +367,12 @@ Skicka koden till handledaren."</string>
     <string name="goon_feedback_main">Fortsätt</string>
     <string name="goto_sign_up">Skapa konto</string>
     <string name="hint_feedback_main">Beskriv problemet</string>
-    <string name="i_get_it">Got it</string>
+    <string name="i_get_it">Jag förstår</string>
+    <string name="i_know">Jag förstår</string>
     <string name="identity">Identifiering</string>
     <string name="inconsistent_pwd">Lösenorden matchar inte</string>
     <string name="input_email_address_notice">Vi använder den här e-postadressen för att verifiera ditt konto</string>
+    <string name="input_length_exceeds_limit">Texten du angav är för lång</string>
     <string name="input_new_pwd">Ange nytt lösenord</string>
     <string name="isornot_your_mi_account">Är detta ditt Mi-Konto?</string>
     <string name="issue_search">Sök</string>
@@ -392,6 +398,11 @@ Skicka koden till handledaren."</string>
     <string name="kr_authorization_user_protocol">Användaravtal (obligatoriskt)</string>
     <string name="loading">Vänta ett ögonblick…</string>
     <string name="loading_apps">Laddar lista…</string>
+    <string name="login_by_local_phone_long_text">Logga in nu</string>
+    <string name="login_by_local_phone_short_text">Logga in</string>
+    <string name="login_other">Ett annat Mi Konto</string>
+    <string name="login_register_by_local_phone_long_text">Skapa konto</string>
+    <string name="login_with_sns">Andra sätt att logga in på</string>
     <string name="logo_title">Feedback</string>
     <string name="logout_account">Logga ut</string>
     <string name="menu_copy">Kopiera</string>
@@ -492,7 +503,9 @@ Skicka koden till handledaren."</string>
     <string name="more">Mer</string>
     <string name="morning">Morgon</string>
     <string name="net_error_info">Ingen nätverksanslutning, tryck här för att gå till Inställningar</string>
-    <string name="network_err">Can inte ansluta till nätverket.</string>
+    <string name="network_err">Kan inte ansluta till nätverket.</string>
+    <string name="network_error_info">Ett nätverksfel uppstod. Kontrollera dina nätverksinställningar och försök igen.</string>
+    <string name="network_timeout_info">Det gick inte att ansluta till nätverket. Försök igen.</string>
     <string name="network_unavailable_dialog_button_ok">Okej</string>
     <string name="network_unavailable_dialog_content">Rapporten kommer skickas när du har en dataanslutning.</string>
     <string name="network_unavailable_dialog_title">Det går inte ansluta till nätverket</string>
@@ -506,6 +519,7 @@ Skicka koden till handledaren."</string>
     <string name="nothing">--</string>
     <string name="ok">OK</string>
     <string name="open_feedback_main">Mer</string>
+    <string name="open_settings">Inställningar</string>
     <string name="passport_access_denied">Åtkomst nekad</string>
     <string name="passport_account_label">Mi Konto</string>
     <string name="passport_account_name">"Konto: %1$s "</string>
@@ -513,6 +527,7 @@ Skicka koden till handledaren."</string>
     <string name="passport_area_code_title">Riksnummer</string>
     <string name="passport_bad_authentication">Ogiltigt användarnamn eller lösenord</string>
     <string name="passport_barcode_add_account_prompt">Skanna QR-koden på nytt när du har loggat in för att lägga till ett konto.</string>
+    <string name="passport_can_not_receive_verification_code">Kunde du inte ta emot verifieringskoden?</string>
     <string name="passport_captcha_title">Captcha</string>
     <string name="passport_checking_account">Kontrollerar lösenord…</string>
     <string name="passport_close">Stäng</string>
@@ -581,8 +596,8 @@ Skicka koden till handledaren."</string>
     <string name="passport_unknow_error">Ett okänt fel uppstod</string>
     <string name="passport_unknow_host_network_error">Kontrollera din nätverksanslutning och försök igen</string>
     <string name="passport_unknow_network_error">Ett nätverksfel inträffade</string>
-    <string name="passport_user_agreement_link">&lt;Data>Jag har läst och godkänner Xiaomis &lt;a href=\"%1$s\">användaravtal&lt;/a> och &lt;a href=\"%2$s\">integritetspolicy&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_link_more">&lt;Data>Jag har läst och godkänner följande dokument: Xiaomis &lt;a href=\"%1$s\">användaravtal&lt;/a> och &lt;a href=\"%4$s\">integritetspolicy&lt;/a>, &lt;a href=\"%2$s\">\"%3$s\"&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_link">&lt;Data>Jag har läst och godkänner Xiaomis &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_link_more">&lt;Data>Jag har läst och godkänner följande dokument: Xiaomis &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%4$s>integritetspolicy&lt;/a>, &lt;a href=%2$s>%3$s&lt;/a>.&lt;/Data></string>
     <string name="passport_user_id_intro">Ange lösenord för %1$s</string>
     <string name="passport_v_code_error">Verifieringskod är felaktig</string>
     <string name="passport_vcode_notification_title">Din inloggningsverifiering är ofullständig</string>
@@ -605,19 +620,29 @@ Skicka koden till handledaren."</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="privacy_category_title">Integritet</string>
     <string name="privacy_policy_title">Integritetspolicy</string>
-    <string name="privacy_policy_update_hint">"%1$s Privacy Policy was updated:
+    <string name="privacy_policy_update_hint">"%1$s integritetspolicy uppdaterades:
 %2$s
-Read and agree to the new version of %3$s before you continue."</string>
-    <string name="privacy_policy_update_title">Updated Privacy Policy</string>
+Läs och godkänn den nya versionen av %3$s innan du fortsätter."</string>
+    <string name="privacy_policy_update_title">Uppdaterad integritetspolicy</string>
+    <string name="progressbar_title">Skannar efter säkerhetsproblem…</string>
     <string name="psw_hint">Lösenord</string>
     <string name="psw_sign_in">Logga in med lösenord</string>
     <string name="refresh">Uppdatera</string>
+    <string name="register_by_local_phone_long_text">Skapa konto</string>
+    <string name="register_by_local_phone_short_text">Skapa konto</string>
     <string name="related_question_answer_details">Relaterat problem</string>
     <string name="reply_failed">Det gick inte att svara</string>
     <string name="reply_option_log_hint">Valfri</string>
     <string name="reply_select_log_hint">Välj logg</string>
     <string name="reply_successful">Svarade lyckades</string>
     <string name="report_miui">Rapportera Bugg</string>
+    <string name="request_agree">Tillåt</string>
+    <string name="request_camera_permission_message">Vi kommer att skydda din personliga information i enlighet med de relevanta lagarna och regleringarna. Denna app behöver följande behörigheter för att fungera normalt:&lt;br>&lt;br>&lt;b>Använda kameran (för att ställa in ditt profilfoto)&lt;/b>&lt;br>&lt;br>Om du inte accepterar att bevilja sådana behörigheter kommer du inte kunna använda vissa funktioner i denna app; men dess grundläggande funktionalitet kommer fortfarande vara tillgänglig för dig. Du kan alltid begränsa behörigheter eller dra tillbaka din auktorisering i Inställningarna.</string>
+    <string name="request_cancel">Avbryt</string>
+    <string name="request_error_invalid_token">Kunde inte verifiera</string>
+    <string name="request_error_network">Ett nätverksfel uppstod. Kontrollera dina nätverksinställningar och försök igen.</string>
+    <string name="request_error_unknown">Ett systemfel uppstod. Gå tillbaka och försök igen.</string>
+    <string name="request_gallery_permission_message">Tillåt åtkomst till Galleri:&lt;br />För angivelse av profilfoton</string>
     <string name="resend_active_email">Skicka igen</string>
     <string name="resend_email_reach_limit_message">Du har begärt för många verifieringsmeddelanden. Kontrollera att verifieringsmeddelandet inte ligger i din e-posts skräpkorg.</string>
     <string name="resend_email_reach_limit_title">Alltför många försök</string>
@@ -642,6 +667,7 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="sign_in">Loggar in</string>
     <string name="sign_in_progress">Loggar in…</string>
     <string name="sign_in_title">Logga in med ditt Mi-Konto</string>
+    <string name="skip_query_account">Hoppa över</string>
     <string name="sms_send_success">Skickad</string>
     <string name="sns_access_token_expired_warning">Sessionen har gått ut. Logga in igen för att återansluta det här kontot.</string>
     <string name="sns_bind_limit">För många försök. Försök att logga in på andra sätt.</string>
@@ -655,6 +681,7 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="submit_dialog_confirm">Godkänn</string>
     <string name="submit_dialog_content">&lt;Data>Läs och acceptera vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a> och &lt;a href=\"%2$s\">Användaravtal&lt;/a> innan du skickar feedback. De problem du rapporterar tillsammans med de objekt du bifogar (inklusive loggarna som kan innehålla personlig information, såväl som informationen om din enhet och nätverk) kommer att laddas upp till MIUI:s servrar. Detta kommer att hjälpa oss lokalisera och lösa de problem du rapporterar. Om du rapporterar problem relaterade till flera enheter, kommer loggarna från andra enheter där ditt Mi Konto används att laddas upp.&lt;/Data></string>
     <string name="submit_dialog_content_global">"&lt;Data>Din feedback tillsammans med bifogade filer (om det finns några) och loggar (du kan avmarkera de objekt som du inte vill ladda upp) kommer skickas till MIUI's servrar. Loggar kan innehålla personlig information och dina platsdata. Att välja \"Godkänn\" betyder att du har läst och godkänt vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a> och våra &lt;a href=\"%2$s\">Användarvillkor&lt;/a>.&lt;/Data>"</string>
+    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Din återkoppling tillsammans med bilagorna (om några), loggar (du kan avmarkera motsvarande rutor för de objekt du inte vill ladda upp), telefonnummer eller e-post kommer att skickas till MIUIs servrar. Loggarna kan innehålla personuppgifter och din platsdata. Att välja \"Godkänn\" betyder att du har läst och godkänt vår &lt;a href=\"%1$s\">integritetspolicy&lt;/a> och &lt;a href=\"%2$s\">användaravtal&lt;/a>.&lt;/Data></string>
     <string name="submit_dialog_not_show_again">Visa inte igen</string>
     <string name="submit_dialog_title">Skicka rapport</string>
     <string name="submit_feedback_info_failed">Kunde inte skicka rapport</string>
@@ -668,6 +695,7 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="sunday_short">Sön</string>
     <string name="sunday_shortest">Sön</string>
     <string name="system_app_select">Inbyggda appar</string>
+    <string name="system_error_info">Systemet är upptaget. Vänta en minut eller två och försök igen.</string>
     <string name="tab_title_chat">FAQ</string>
     <string name="tab_title_my_reports">Mina rapporter</string>
     <string name="tab_title_preferences">Inställningar</string>
@@ -759,6 +787,7 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="tuesday">Tisdag</string>
     <string name="tuesday_short">Tis</string>
     <string name="tuesday_shortest">Tis</string>
+    <string name="unknown_error_info">Okänt fel</string>
     <string name="update_dialog_cancel">Avbryt</string>
     <string name="update_dialog_confirm">Uppdatera</string>
     <string name="update_dialog_content_log">"Vad är nytt:
@@ -771,23 +800,33 @@ Storlek: %2$s"</string>
     <string name="update_phone_notice">Ändra säkerhetsinställningar</string>
     <string name="upload_error_log">Ladda upp loggfil</string>
     <string name="upload_log_failed">Kunde inte skicka loggar</string>
+    <string name="user_agreement_hint_3rd_app">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>sekretesspolicy&lt;/a> samt Mi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>sekretesspolicy&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_mobile">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>sekretesspolicy&lt;/a>, Mi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>sekretesspolicy&lt;/a>, likväl som &lt;a href=%5$s>regler och villkor för China Mobile verifieringstjänster&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_with_telecom">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>sekretesspolicy&lt;/a>, Mi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>sekretesspolicy&lt;/a>, likväl som &lt;a href=%5$s>regler och villkor för eSurfing kontoverifieringstjänster&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_with_unicom">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>sekretesspolicy&lt;/a>, Mi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>sekretesspolicy&lt;/a>, likväl som &lt;a href=%5$s>regler och villkor för China Unicom verifieringstjänster&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_default">&lt;Data>Jag har läst och godkänt Mi Kontos &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_first_login">Vi kommer att skapa ett konto automatiskt om du använder ditt telefonnummer för första gången.</string>
+    <string name="user_agreement_hint_with_mobile">&lt;Data>Jag har läst och godkänt Mi-kontots &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>sekretesspolicy&lt;/a>, likväl som &lt;a href=%3$s>regler och villkor för China Mobile verifieringstjänster&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_with_telecom">&lt;Data>Jag har läst och godkänt Mi-kontots &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>sekretesspolicy&lt;/a>, likväl som &lt;a href=%3$s>regler och villkor för eSurfing kontoverifieringstjänster&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_with_unicom">&lt;Data>Jag har läst och godkänt Mi-kontots &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>sekretesspolicy&lt;/a>, likväl som &lt;a href=%3$s>regler och villkor för China Unicom verifieringstjänster&lt;/a>.&lt;/Data></string>
     <string name="user_avatar_update_title">Ändra profilfoto</string>
     <string name="user_avatar_uploading">Vänta ett ögonblick…</string>
     <string name="user_id_hint">E-post/Telefon/Mi Konto-ID</string>
-    <string name="user_must_known">Attention</string>
-    <string name="user_must_known_content">"You won't be able to keep using our services unless you agree to the new version of our %s. Agree to the updated Privacy Policy now?"</string>
+    <string name="user_must_known">Obs</string>
+    <string name="user_must_known_content">Du kommer inte att kunna använda våra tjänster om du inte godkänner den nya versionen av vår %s. Godkänner du den uppdaterade integritetspolicyn nu?</string>
+    <string name="user_name_phone_number">Telefonnummer</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="v_code_title">Ange verifikationskod</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
-    <string name="withdraw">Withdraw</string>
+    <string name="withdraw">Återkalla</string>
     <string name="withdraw_consent">Återkallelse av ditt samtycke</string>
-    <string name="withdraw_consent_failed">"Couldn't withdraw consent"</string>
-    <string name="withdraw_consent_failed_hint">A server error occurred. Wait a minute or two and try again.</string>
-    <string name="withdraw_consent_failed_hint_connect_net">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
-    <string name="withdraw_consent_hint">"If you continue, you'll withdraw your consent to the Privacy Policy of %1$s. The personal information already collected and retained will be deleted within the specific period in accordance with applicable laws and regulations unless required otherwise. As %2$s provides its services based on the collection of the necessary personal information, your withdrawal of consent will be held as refusing to accept %3$s services. Withdraw consent now?"</string>
-    <string name="withdrawing">Withdrawing consent…</string>
+    <string name="withdraw_consent_failed">Det gick inte att dra tillbaka samtycke</string>
+    <string name="withdraw_consent_failed_hint">Ett serverfel inträffade. Vänta en minut eller två och försök igen.</string>
+    <string name="withdraw_consent_failed_hint_connect_net">Din enhet behöver ansluta till nätverket för att du ska kunna dra tillbaka samtycket. Kontrollera dina nätverksinställningar och försök igen.</string>
+    <string name="withdraw_consent_hint">Om du fortsätter kommer du att återkalla ditt samtycke till integritetspolicyn för %1$s. De personuppgifter som redan har samlats in och lagrats kommer att raderas inom den period som anges i tillämpliga lagar och förordningar om inte annat krävs. Eftersom %2$s tillhandahåller dess tjänster utifrån insamlingen av nödvändiga personuppgifter kommer ditt återkallande av samtycke betraktas som ett nekande till att acceptera %3$s-tjänster. Vill du återkalla samtycke nu?</string>
+    <string name="withdrawing">Drar tillbaka samtycke…</string>
     <string name="yesterday">Igår</string>
 </resources>
