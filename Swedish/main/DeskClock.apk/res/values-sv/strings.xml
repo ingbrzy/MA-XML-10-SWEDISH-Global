@@ -498,7 +498,6 @@
     <string name="shutdown_alarm_enable_summary">Larmet kommer att utlösas om det konfigureras för minst 10 minuter efter att du stänger av din enhet</string>
     <string name="shutdown_alarm_title">Stänga av Alarm</string>
     <string name="silent_alarm_summary">Tyst</string>
-    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Stäng av en gång %s</string>
     <string name="sleep_analysis">Statistik</string>
     <string name="sleep_analysis_chart_date_format">dd/MM</string>
@@ -544,7 +543,6 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Inga varv</string>
     <string name="stopwatch_reset_notification">Tidtagaruret återställdes</string>
     <string name="stopwatch_running_notification">Tidtagarur</string>
@@ -553,7 +551,6 @@
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>
     <string name="sunday_shortest">Sön</string>
-    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Tillåt denna app att ansluta till internet för att använda alla dess funktioner.</string>
     <string name="system_permission_main_purpose">Visningstid, ställa in alarm och timers, använda stoppklocka</string>
     <string name="system_permission_purpose">Skapa vardagsalarm och ställa in anpassade ringsignaler</string>

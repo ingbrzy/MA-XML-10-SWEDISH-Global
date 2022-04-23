@@ -1109,7 +1109,6 @@ prioriterade"</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-kort saknas eller kan inte läsas. Sätt i ett SIM-kort.</string>
     <string name="keyguard_missing_sim_message">Inget SIM-kort i telefonen.</string>
     <string name="keyguard_missing_sim_message_short">Inget SIM-kort</string>
-    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Nätverk låst</string>
     <string name="keyguard_password_enter_password_code">Lås upp med lösenordet</string>
     <string name="keyguard_password_enter_pin_code">Ange pinkod</string>
@@ -1368,14 +1367,12 @@ Du är även ansluten till %3$s som kan bevaka din privata nätverksaktivitet."<
 
 Kontakta administratören om du vill veta mer."</string>
     <string name="monitoring_description_ca_cert_settings">Öppna betrodda användaruppgifter</string>
-    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">En certifikatutfärdare är installerad på enheten. Din säkra nätverkstrafik kan övervakas och ändras.</string>
     <string name="monitoring_description_do_body">Administratören kan övervaka och hantera inställningar, företagsåtkomst, appar, data med koppling till enheten och enhetens plats.</string>
     <string name="monitoring_description_do_body_vpn">Du är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-postmeddelanden, appar och webbplatser.</string>
     <string name="monitoring_description_do_header_generic">Enheten hanteras av %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s hanterar enheten med hjälp av %2$s.</string>
     <string name="monitoring_description_do_learn_more">Läs mer</string>
-    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Organisationen har installerat en certifikatutfärdare i jobbprofilen. Din säkra nätverkstrafik kan övervakas och ändras.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Jobbprofilen är ansluten till %1$s som kan övervaka din nätverksaktivitet, exempelvis e-post, appar och webbplatser.</string>
     <string name="monitoring_description_management">"Den här enheten tillhör organisationen.
@@ -1407,7 +1404,6 @@ Kontakta administratören om du vill veta mer.
 
 Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</string>
     <string name="monitoring_description_vpn_settings">Öppna VPN-inställningarna</string>
-    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA-certifikat</string>
     <string name="monitoring_subtitle_network_logging">Nätverksloggning</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1481,7 +1477,6 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="nav_bar">Navigeringsfält</string>
     <string name="nav_bar_default">(standard)</string>
     <string name="nav_bar_layout">Layout</string>
-    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="night">Kväll</string>
     <string name="no_application">Inga</string>
     <string name="no_auto_saver_action">Nej tack</string>
@@ -1672,7 +1667,6 @@ Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</strin
     <string name="private_dns_mode_provider">Värdnamn privat DNS-leverantör</string>
     <string name="private_dns_mode_provider_failure">Kan inte ansluta</string>
     <string name="private_dns_mode_provider_hostname_hint">Ange värdnamn för DNS-leverantör</string>
-    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">Problem att ansluta. Slå av &amp; på enheten igen</string>
     <string name="profile_info_settings_title">Profil info</string>
     <string name="profile_owned_footer">Det kan hända att profilen övervakas</string>
@@ -2006,8 +2000,6 @@ vara övervakat"</string>
     <string name="status_bar_clock_date_time_format_12">h:mm aa, E, d MMM</string>
     <string name="status_bar_clock_date_weekday_format">EEEE dd MMMM</string>
     <string name="status_bar_clock_date_weekday_format_12">EEEE dd MMMM</string>
-    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
-    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"E
 d MMM"</string>
     <string name="status_bar_date_format_12">"E
