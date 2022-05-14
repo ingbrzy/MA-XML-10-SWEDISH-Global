@@ -539,7 +539,7 @@ Du kommer inte förlora någon appdata."</string>
     <string name="app_permission_use_title">Behörigheter</string>
     <string name="app_running_tip_dialog_negative">Avbryt</string>
     <string name="app_running_tip_dialog_positive">OK</string>
-    <string name="app_running_tip_dialog_text">Avsluta %1$s för att förhindra att den körs i bakgrunden. Detta kommer att öka farten på din enhet och minska energikonsumtionen.</string>
+    <string name="app_running_tip_dialog_text">Avsluta den här appen för att förhindra att den körs i bakgrunden. Detta kommer att öka farten på din enhet och minska energikonsumtionen.</string>
     <string name="app_running_tip_dialog_title">Avsluta appen</string>
     <string name="app_running_tip_uninstall">Avinstallera denna app</string>
     <string name="app_settings_link">Ytterligare inställningar i appen</string>
