@@ -134,7 +134,6 @@
     <string name="cast_forward">Framåt</string>
     <string name="cast_forward_10">Spola framåt tio sekunder</string>
     <string name="cast_forward_30">Spola framåt trettio sekunder</string>
-    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">LIVE</string>
     <string name="cast_mute">Stäng av ljudet</string>
     <string name="cast_notification_connected_message">Ansluten till %1$s</string>
@@ -997,7 +996,6 @@ för videor"</string>
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -1076,7 +1074,6 @@ för videor"</string>
     <string name="ok">OK</string>
     <string name="online_play_hint">Till exempel: http://www.example.com/video.mp4</string>
     <string name="online_play_title">Ange URL</string>
-    <string name="order_alphabet">A-Ö</string>
     <string name="order_recently_subscribe">Senaste prenumerationer</string>
     <string name="order_recently_updated">Nyligen uppdaterade</string>
     <string name="out_of_memory_background_playback_is_suspended">Pausad bakgrundsuppspelning på grund av otillräckligt minne</string>
@@ -1564,7 +1561,6 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="sns_sign_in">Andra sätt att logga in på</string>
     <string name="source">"Källa: "</string>
     <string name="start_download_tip">Tillagt i kön. Kontrollera utvecklingen under Profil > Nedladdningar.</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kort</string>
     <string name="storage_internal_sdcard">Internt lagringsutrymme</string>
     <string name="submit">Skicka</string>
