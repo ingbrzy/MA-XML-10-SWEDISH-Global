@@ -102,6 +102,10 @@ Vill du avsluta nu?"</item>
         <item quantity="other">%d objekt valda</item>
         <item quantity="one">%d objekt vald</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nya aviseringar</item>
+        <item quantity="one">%d ny avisering</item>
+    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minuter sedan</item>
         <item quantity="one">1 minut sedan</item>
@@ -111,5 +115,9 @@ Vill du avsluta nu?"</item>
 %d försök återstår."</item>
         <item quantity="one">"
 %d försök återstår."</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d enheter är anslutna</item>
+        <item quantity="one">%1$d enhet är ansluten</item>
     </plurals>
 </resources>

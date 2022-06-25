@@ -141,6 +141,7 @@ Tap för att visa"</string>
     <string name="hint_volume_down">Sänk volymen</string>
     <string name="hint_volume_up">Höj volymen</string>
     <string name="home_title_none">Välj objekt</string>
+    <string name="invisible_mode_error_tip">Du är inkognito. Kan inte spela in ljud.</string>
     <string name="is_checked">Valda</string>
     <string name="is_go_home">Gå tillbaka till Skärminspelaren</string>
     <string name="is_go_home_summary">Öppna Skärminspelarens startsida efter att avslutat inspelningen</string>

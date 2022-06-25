@@ -82,43 +82,43 @@
     </plurals>
     <plurals name="input_password_after_timeout_msg">
         <item quantity="other">Ange ditt lösenord minst var %d timme för att komma ihåg det</item>
-        <item quantity="one">Ange ditt lösenord minst %d gång varje timme för att komma ihåg det</item>
+        <item quantity="one">Ange ditt lösenord minst var %d timme för att komma ihåg det</item>
     </plurals>
     <plurals name="input_pattern_after_timeout_msg">
-        <item quantity="other">Ange ditt lösenord minst var %d timme för att alltid komma ihåg det</item>
-        <item quantity="one">Ange ditt lösenord minst %d gång varje timme för att komma ihåg det</item>
+        <item quantity="other">Ange ditt lösenord minst var %d timme för att komma ihåg det</item>
+        <item quantity="one">Ange ditt lösenord minst var %d timme för att alltid komma ihåg det</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_hour_time_text">
-        <item quantity="other">"Ungefär %d  timmar kvar"</item>
-        <item quantity="one">"Ungefär %d  timme kvar"</item>
+        <item quantity="other">Ungefär %d timmar kvar</item>
+        <item quantity="one">Ungefär %d timma kvar</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_min_time_text">
-        <item quantity="other">"Ungefär %d  minuter kvar"</item>
-        <item quantity="one">"Ungefär %d  minut kvar"</item>
+        <item quantity="other">Ungefär %d minuter kvar</item>
+        <item quantity="one">Ungefär %d minut kvar</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_time_text">
-        <item quantity="other">"Ungefär %1$d h %2$d  minuter kvar"</item>
-        <item quantity="one">"Ungefär %1$d h %2$d  minuter kvar"</item>
+        <item quantity="other">Ungefär %1$d h %2$d minuter kvar</item>
+        <item quantity="one">Ungefär %1$d h %2$d minuter kvar</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_hour_time_format">
-        <item quantity="other">"%d  timme"</item>
-        <item quantity="one">"%d  timme"</item>
+        <item quantity="other">%d timmar</item>
+        <item quantity="one">%d timma</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_min_time_format">
-        <item quantity="other">"%d  minuter"</item>
-        <item quantity="one">"%d  minut"</item>
+        <item quantity="other">%d minuter</item>
+        <item quantity="one">%d minut</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_time_format">
-        <item quantity="other">"%1$d  timme %2$d  minut"</item>
-        <item quantity="one">"%1$d  timme %2$d  minut"</item>
+        <item quantity="other">%1$d timmar %2$d minuter</item>
+        <item quantity="one">%1$d timmar %2$d minuter</item>
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
-        <item quantity="other">"Återstår %d  timmar"</item>
-        <item quantity="one">"Återstår %d  timme"</item>
+        <item quantity="other">Återstår %d timmar</item>
+        <item quantity="one">Återstår %d timma</item>
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_min_time_text">
-        <item quantity="other">"Återstår %d  minuter"</item>
-        <item quantity="one">"Återstår %d  minut"</item>
+        <item quantity="other">Återstår %d minuter</item>
+        <item quantity="one">Återstår %d minut</item>
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_time_text">
         <item quantity="other">Återstår %1$d h %2$d m</item>
@@ -164,8 +164,12 @@
         <item quantity="other">%d objekt valda</item>
         <item quantity="one">%d objekt vald</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nya aviseringar</item>
+        <item quantity="one">%d ny avisering</item>
+    </plurals>
     <plurals name="new_notifications_msg">
-        <item quantity="other">%d ny notifikation</item>
+        <item quantity="other">%d nya notifikationer</item>
         <item quantity="one">%d ny notifikation</item>
     </plurals>
     <plurals name="notification_group_overflow_description">
@@ -201,7 +205,7 @@
         <item quantity="one">Det går bara att skapa en användare.</item>
     </plurals>
     <plurals name="wifi_tether_connected_summary">
-        <item quantity="other">%1$d enheter anslutna</item>
-        <item quantity="one">%1$d enhet ansluten</item>
+        <item quantity="other">%1$d enheter är anslutna</item>
+        <item quantity="one">%1$d enhet är ansluten</item>
     </plurals>
 </resources>

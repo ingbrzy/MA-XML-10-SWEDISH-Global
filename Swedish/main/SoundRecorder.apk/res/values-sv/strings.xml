@@ -204,6 +204,7 @@
     <string name="low_battery_error_for_pad">Mindre än %s batteritid kvar. Avsluta och spara in inspelning för att säkerställa att den inte förloras.</string>
     <string name="low_battery_error_title">Låg batterinivå</string>
     <string name="lyric_item_point_count">%1$d till %2$d</string>
+    <string name="manage_external_storage">Få åtkomst till alla filer</string>
     <string name="mark_point_list_title">Markeringar</string>
     <string name="material_clock_toggle_content_description">Välj mellan FM och EM</string>
     <string name="material_hour_selection">Ange timme</string>
@@ -296,6 +297,7 @@
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -570,6 +572,7 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>
     <string name="sunday_shortest">Sön</string>
+    <string name="sync_desc_state_complete">Synkroniserad med molnet: %1$s</string>
     <string name="tab_all">Alla</string>
     <string name="tab_apps">Appar</string>
     <string name="tab_call">Samtal</string>

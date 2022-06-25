@@ -77,8 +77,6 @@
         <item>Qualcomm® aptX™-ljud</item>
         <item>Qualcomm® aptX™ HD-ljud</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive-ljud</item>
-        <item>Qualcomm® aptX™ TWS+-ljud</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Använd systemval (standardinställning)</item>
@@ -87,8 +85,6 @@
         <item>Qualcomm® aptX™-ljud</item>
         <item>Qualcomm® aptX™ HD-ljud</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive-ljud</item>
-        <item>Qualcomm® aptX™ TWS+-ljud</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -180,7 +176,7 @@
         <item>256 kB/loggbuffert</item>
         <item>1 MB/loggbuffert</item>
         <item>4 MB/loggbuffert</item>
-        <item>16 MB/loggbuffert</item>
+        <item>8 MB/loggbuffert</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Av</item>
@@ -188,7 +184,7 @@
         <item>256 kB</item>
         <item>1 MB</item>
         <item>4 MB</item>
-        <item>16 MB</item>
+        <item>8 MB</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Av</item>
@@ -263,6 +259,20 @@
         <item>Ansluten till: %1$s</item>
         <item>Pausad</item>
         <item>Kopplar ifrån %1$s…</item>
+        <item>Frånkopplad</item>
+        <item>Misslyckades</item>
+        <item>Blockerat</item>
+        <item>Undviker just nu dålig anslutning</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Söker …</item>
+        <item>Ansluter …</item>
+        <item>Autentiserar …</item>
+        <item>Hämtar IP-adress …</item>
+        <item>Ansluten</item>
+        <item>Avstängt</item>
+        <item>Kopplar från …</item>
         <item>Frånkopplad</item>
         <item>Misslyckades</item>
         <item>Blockerat</item>

@@ -30,12 +30,13 @@
     <string name="action_for_continue_timer">Återuppta</string>
     <string name="action_for_pause_timer">Pausa</string>
     <string name="action_for_restart">Upprepa</string>
-    <string name="action_for_snooze">Snooza</string>
+    <string name="action_for_snooze">Snooze</string>
     <string name="action_for_stop">Stoppa</string>
     <string name="actionbar_button_up_description">Tillbaka</string>
     <string name="add_alarm">Lägg till alarm</string>
     <string name="add_clock">Lägg till klocka</string>
     <string name="add_common_timer">Lägg till timer</string>
+    <string name="add_new_sound">Lägg till ringsignal</string>
     <string name="add_timer">Upprepad timer</string>
     <string name="add_timer_dialog_title">Lägg till timer</string>
     <string name="add_timezone_title">Lägg till tidszon</string>
@@ -63,7 +64,8 @@
     <string name="alarm_volume_title">Alarmvolym</string>
     <string name="alarmclock_empty_text">Inga alarm</string>
     <string name="alarmclock_silent_hint">Alarm är ljudlöst</string>
-    <string name="alert">Alarmsignal</string>
+    <string name="alert">Ringsignal</string>
+    <string name="alert_page_desc">Tryck och håll inne, svep sedan uppåt för att stänga av larmet</string>
     <string name="alert_ringtone">Alarmringsignal</string>
     <string name="alert_vibrate_enable_summary">Vibrera när alarmet ljuder</string>
     <string name="alert_volume">Ringsignalsvolym</string>
@@ -125,6 +127,7 @@
     <string name="common_timer_selector">Välj timer</string>
     <string name="confirm">Bekräfta</string>
     <string name="confirm_abort">Ignorera</string>
+    <string name="confirm_remove_custom_ringtone">Om du tar bort denna ringsignal kommer larm och tidtagare som använder den att spela standardringsignalen istället. Vill du ta bort nu?</string>
     <string name="content_desc_keep_screen">”Hålla skärmen på”-knappen</string>
     <string name="continue_operation">Fortsätt</string>
     <string name="continue_step">Nästa</string>
@@ -132,6 +135,7 @@
     <string name="control_set_alarm_with_existing">Alarm ställt: %s</string>
     <string name="copy">Kopiera</string>
     <string name="current_stopwatch_time">Aktuell tidsinställning</string>
+    <string name="custom_ringtone_lost_permissions">Det går inte att komma åt detta ljud.</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -147,6 +151,7 @@
     <string name="delete_timer_item_title">Ta bort timer</string>
     <string name="delete_timezone_title">Ta bort tidszon</string>
     <string name="deskclock_sleep_no_disturbance">Klocka - Hantera sovtid - Stör ej läge</string>
+    <string name="device_sounds">Enhetens ljud</string>
     <string name="dialog_confirm_abort">Ignorera ändringar?</string>
     <string name="dialog_legal_off_day">&lt;Data>Det verkar som att du använder alarm under helgdagar. Den här funktionen kräver anslutning till internet för att fungera normalt. Innan du använder funktionen måste du godkänna vårt &lt;a href=\"%1$s\">användaravtal&lt;/a> och vår &lt;a href=\"%2$s\">integritetspolicy&lt;/a>. Godkänn?&lt;/Data></string>
     <string name="dialog_legal_off_day_desc">Klockan har inte tillåtelse att ansluta till internet för att uppdatera informationen om helgdagar. Alarm under helgdagar aktiveras lördag och söndag.</string>
@@ -498,6 +503,7 @@
     <string name="shutdown_alarm_enable_summary">Larmet kommer att utlösas om det konfigureras för minst 10 minuter efter att du stänger av din enhet</string>
     <string name="shutdown_alarm_title">Stänga av Alarm</string>
     <string name="silent_alarm_summary">Tyst</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Stäng av en gång %s</string>
     <string name="sleep_analysis">Statistik</string>
     <string name="sleep_analysis_chart_date_format">dd/MM</string>
@@ -543,6 +549,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Inga varv</string>
     <string name="stopwatch_reset_notification">Tidtagaruret återställdes</string>
     <string name="stopwatch_running_notification">Tidtagarur</string>
@@ -551,6 +558,7 @@
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>
     <string name="sunday_shortest">Sön</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Tillåt denna app att ansluta till internet för att använda alla dess funktioner.</string>
     <string name="system_permission_main_purpose">Visningstid, ställa in alarm och timers, använda stoppklocka</string>
     <string name="system_permission_purpose">Skapa vardagsalarm och ställa in anpassade ringsignaler</string>
@@ -666,6 +674,7 @@
     <string name="tv_blank_list_show_text">Inget här än. Sök efter en plats att lägga till i din världsklocka.</string>
     <string name="tv_world_clock_edit_title1">Platser visas på hemskärmen</string>
     <string name="tv_world_clock_edit_title2">Andra sparade platser</string>
+    <string name="unknown_ringtone_title">Okänd</string>
     <string name="unselect_all">Avmarkera alla</string>
     <string name="upcoming_alarm">Kommande larm: %s</string>
     <string name="upcoming_alarm_hint">Du kan stänga av detta larm nu</string>
@@ -698,6 +707,8 @@
     <string name="week_ringtone_recommend_desc">Naturalarm spelar olika ljud beroende på datumet. Ställ in det som ditt standardalarm?</string>
     <string name="white_noise">Omgivande buller</string>
     <string name="white_noise_guide_desc">Lägg till ett bakgrundsljud för att hålla dig fokuserad</string>
+    <string name="white_noise_not_selected">Inte valt</string>
+    <string name="white_noise_selected">Valt</string>
     <string name="white_noise_selector">Välj ljud</string>
     <string name="workday_alarm_clock">Arbetsdag larm</string>
     <string name="worldclock_edit_label">Världsklocka</string>
@@ -721,4 +732,5 @@
     <string name="worldcolock_timezone_local">Samma som lokal tid</string>
     <string name="xiaoai_ringtone_title">Ringsignaler från Mi AI</string>
     <string name="yesterday">Igår</string>
+    <string name="your_sounds">Mina ljud</string>
 </resources>

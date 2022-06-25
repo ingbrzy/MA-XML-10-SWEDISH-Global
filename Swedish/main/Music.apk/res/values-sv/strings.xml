@@ -40,41 +40,8 @@
     <string name="abc_shareactionprovider_share_with">Dela med</string>
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
-    <string name="access_denied_info">För många försök. Vänta en minut eller två och försök igen.</string>
     <string name="account_and_cloud">Konto</string>
-    <string name="account_bind_secure_email_title">Lägg till e-post för återställning</string>
-    <string name="account_bind_secure_phone_title">Lägg till telefonnummer för återställning</string>
-    <string name="account_crop_user_avatar">Beskär bild</string>
-    <string name="account_empty_user_name">Skriv in ditt Mi Konto användarnamn</string>
-    <string name="account_error_all_space_user_name">Namn kan inte bara innehålla blanksteg</string>
-    <string name="account_error_invalid_user_name">Namn kan inte innehålla &lt;, > eller /</string>
-    <string name="account_error_longer_user_name">Namnet får inte vara längre än 20 tecken</string>
-    <string name="account_error_shorter_user_name">Namnet måste vara längre än 2 tecken</string>
-    <string name="account_error_user_birthday">Födelsedagen som du har angivit är ogiltig</string>
-    <string name="account_error_user_name">Smeknamnet är inte giltigt. Försök med ett annat.</string>
-    <string name="account_invalid_user_avatar">Fotot är inte giltigt. Försök med ett annat.</string>
-    <string name="account_limit_update_birthday">Kan inte uppdatera födelsedag just nu</string>
     <string name="account_logout">Logga ut</string>
-    <string name="account_no_set">Ingen</string>
-    <string name="account_none_bind_info">Ingen</string>
-    <string name="account_none_user_name">Ingen</string>
-    <string name="account_secure_info_pref_title">Kontoinformation</string>
-    <string name="account_security_info_pref_title">Säkerhetsinformation</string>
-    <string name="account_user_avatar">Profilbild</string>
-    <string name="account_user_avatar_from_album">Galleri</string>
-    <string name="account_user_avatar_from_camera">Kamera</string>
-    <string name="account_user_base_info">Grundläggande information</string>
-    <string name="account_user_birthday">Födelsedag</string>
-    <string name="account_user_details">Personlig information</string>
-    <string name="account_user_email">E-post för återställning</string>
-    <string name="account_user_gender">Kön</string>
-    <string name="account_user_id">Mi Konto-ID</string>
-    <string name="account_user_name">Smeknam</string>
-    <string name="account_user_name_dialog_title">Skriv in användarnamn</string>
-    <string name="account_user_other_info">Detaljer</string>
-    <string name="account_user_phone">Telefon för återställning</string>
-    <string name="account_user_region">Region</string>
-    <string name="action_add_phone">Lägg till telefonnummer</string>
     <string name="action_item_add">Lägg till i</string>
     <string name="action_item_add_song">Lägg till i spellista</string>
     <string name="action_item_add_to_current_playlist">Kö</string>
@@ -92,10 +59,7 @@
     <string name="action_item_remove_from_favorite">Ta bort favorit</string>
     <string name="action_item_share">Dela</string>
     <string name="action_settings">Inställningar</string>
-    <string name="action_update_phone">Ändra telefonnummer</string>
     <string name="actionbar_button_up_description">Tillbaka</string>
-    <string name="activate_email_notice">Se till att aktivera ditt konto inom 24 timmar</string>
-    <string name="activity_not_found_notice">Kan inte hitta appen</string>
     <string name="ad_close">Stäng</string>
     <string name="ad_data_exception">Fel i data för reklam</string>
     <string name="ad_recommend">Visa annonser</string>
@@ -105,7 +69,6 @@
     <string name="add_to_last_of_playlist">Lägg till i slutet på spellistan</string>
     <string name="add_to_playlist">Lägg till i kön</string>
     <string name="add_to_playlist_successful">Lades till framgångsriskt</string>
-    <string name="add_to_trust_device">Det är en betrodd enhet</string>
     <string name="added_next_play">Tillagd för att spela nästa</string>
     <string name="afternoon">Eftermiddag</string>
     <string name="agreement_desc">Användaravtal (obligatoriskt)</string>
@@ -157,7 +120,6 @@
     <string name="audio_ad_countdown">Hoppa över annons om %s sek</string>
     <string name="audio_ad_pass">Hoppa över annons</string>
     <string name="audio_picker_title">Välj en låt</string>
-    <string name="auth_fail_warning">Sessionen löpte ut, logga in igen.</string>
     <string name="auto_recommend">Auto (Rekommenderat)</string>
     <string name="auto_sound_quality">Automatiskt</string>
     <string name="auto_update">Uppdateras automatiskt</string>
@@ -170,7 +132,6 @@
     <string name="back">Tillbaka</string>
     <string name="back_confirm">Tryck igen för att skicka appen till bakgrunden</string>
     <string name="best_experience">Bästa upplevelsen</string>
-    <string name="bind_sign_in_title">Lägg till Mi Konto</string>
     <string name="bluetooth_device">Bluetooth-enhet</string>
     <string name="bottomsheet_action_expand_halfway">Utöka till hälften</string>
     <string name="btn_text_edit">Redigera</string>
@@ -186,26 +147,20 @@
     <string name="cancel">Avbryt</string>
     <string name="cancel_running_download">Avbryt</string>
     <string name="cannot_download_to_sdcard_hint">Kan inte ladda ner objekt till SD-kortet på grund av copyright-restriktioner. Objekten kommer att laddas ner till interna lagringen istället.</string>
-    <string name="change_activate_email">Ändra e-postadress</string>
     <string name="change_download_quality">Ändra nedladdningskvalitet</string>
-    <string name="change_password">Ändra lösenord</string>
     <string name="character_counter_content_description">%1$d av %2$d tecken har angetts</string>
     <string name="character_counter_overflowed_content_description">Teckengränsen har överskridits: %1$d av %2$d</string>
     <string name="checking_new_version">Söker efter uppdateringar…</string>
     <string name="choose_download_quality">Välj nedladdningskvalitet</string>
     <string name="choose_music_lang_pref">Önskade språk för låtar</string>
     <string name="choose_stream_quality">Välj strömmningskvalitet</string>
-    <string name="choose_to_signin">Ja</string>
-    <string name="choose_to_signup">Nej, jag vill skapa ett</string>
     <string name="clear_text_end_icon_content_description">Rensa text</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
     <string name="click_and_watch_video_tip">Tryck för att spela upp musikvideon</string>
     <string name="click_to_add_album_cover_and_lyric">Tryck för att lägga till albumomslag och låttexter</string>
     <string name="click_to_shuffle">Klicka för att blanda</string>
     <string name="close">Stäng</string>
-    <string name="close_country_code_content_description">Ta bort landskod</string>
     <string name="close_music_time">"Återstående tid: "</string>
-    <string name="collect_diagnosis_log">Hämta loggfiler</string>
     <string name="columbus_ad_flag_text">Annons</string>
     <string name="columbus_skip_ad">Hoppa över</string>
     <string name="comment_format" formatted="false">%s: %s</string>
@@ -228,13 +183,10 @@
     <string name="common_signin_button_text">Logga in</string>
     <string name="common_signin_button_text_long">Logga in med Google</string>
     <string name="confirm">OK</string>
-    <string name="confirm_activate_email">Verifierad</string>
-    <string name="confirm_bundled_phone_dialog_title">Bekräfta associerat telefonnummer</string>
     <string name="confirm_exit">Spara ändringarna?</string>
-    <string name="confirm_new_pwd">Bekräfta nytt lösenord</string>
-    <string name="confirm_unbundled_phone_dialog_message">Detta telefonnummer associerades med Mi Konto %2$s den %1$s. Om du fortsätter kommer det inte längre vara associerat med Mi Konto %3$s. Fortsätt?</string>
     <string name="connect_now">Anslut</string>
     <string name="connecting_apk">Ansluting…</string>
+    <string name="content_failed_to_load">Det gick inte att ladda innehållet</string>
     <string name="copy">Kopiera</string>
     <string name="create_playlist">Skapa spellista</string>
     <string name="create_playlist_failure">Kunde inte skapa spellista</string>
@@ -272,10 +224,6 @@
     <string name="desktop_lyric_textsize">Text</string>
     <string name="device_connected">Ansluten</string>
     <string name="device_not_connected">Ej ansluten</string>
-    <string name="diagnosis_log_send_failed">Kunde inte skicka loggfiler. Försök igen.</string>
-    <string name="diagnosis_log_sent_format">"Loggarna skickade.
-ID:%s
-Skicka koden till handledaren."</string>
     <string name="dialog_cannot_resume">Nedladdning avbruten. Den kan inte återupptas.</string>
     <string name="dialog_clear_history">Rensa listan över nyligen spelade låtar?</string>
     <string name="dialog_confirm_delete_checkbox_message">Radera även lokala filer</string>
@@ -327,9 +275,6 @@ Skicka koden till handledaren."</string>
     <string name="discover_more_music">Upptäck fler sånger</string>
     <string name="do_not_remind_this_version">Påminn mig inte om denna version</string>
     <string name="do_not_support_google_voice_search">Google Voice Search stöds inte på din enhet.</string>
-    <string name="doing_login">Loggar in…</string>
-    <string name="doing_query_account">Kontrollerar kontoinfo…</string>
-    <string name="doing_register">Skapar konto…</string>
     <string name="download">Ladda ned</string>
     <string name="download_added_to_list">Tillagd i nedladdningslistan</string>
     <string name="download_apk_desktop_installing">Installerar</string>
@@ -366,7 +311,9 @@ Skicka koden till handledaren."</string>
     <string name="download_method">Ladda ned</string>
     <string name="download_no_application_title">Kan inte öppna filen</string>
     <string name="download_paused_in_power_save_mode">Nerladdningar pausas när Batterisparläge är på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laddar ner…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Nedladdningskvalitet</string>
     <string name="download_quality_summary">Ytterligare inställningar för låtar du laddar ned</string>
     <string name="download_queued">Köad</string>
@@ -411,7 +358,9 @@ Skicka koden till handledaren."</string>
     <string name="empty_page_no_artist">Inga artister.</string>
     <string name="enabled">Aktiverad</string>
     <string name="enjoy_hungama_pro">Njut av Hungama PRO</string>
+    <string name="enroll_in">Registrera</string>
     <string name="enter_garbage_clean">Städa upp internt lagringsutrymme.</string>
+    <string name="entertainment">Underhållning</string>
     <string name="eq_auto">Anpassad</string>
     <string name="eq_blues">Blues</string>
     <string name="eq_classical">Klassisk</string>
@@ -432,12 +381,9 @@ Skicka koden till handledaren."</string>
     <string name="equalizer">Equalizer</string>
     <string name="eras_ad">V.T.</string>
     <string name="eras_bc">F.V.T.</string>
-    <string name="error_dup_binded_email">Denna e-postadress är redan kopplad till ett annat Mi Konto.</string>
     <string name="error_icon_content_description">Fel</string>
-    <string name="error_invalid_bind_address">E-postadressen du angav är ogiltig.</string>
     <string name="error_not_support">Stöds inte</string>
     <string name="evening">Eftermiddag</string>
-    <string name="exceed_binded_phone_times_notice">Detta telefonnummer är redan kopplat till ett annat Mi Konto.</string>
     <string name="exo_controls_fastforward_description">Snabbspola framåt</string>
     <string name="exo_controls_fullscreen_description">Helskärmsläge</string>
     <string name="exo_controls_hide">Dölj spelarkontroller</string>
@@ -464,7 +410,9 @@ Skicka koden till handledaren."</string>
     <string name="exo_media_action_repeat_all_description">Upprepa alla</string>
     <string name="exo_media_action_repeat_off_description">Upprepa inga</string>
     <string name="exo_media_action_repeat_one_description">Upprepa en</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativ</string>
     <string name="exo_track_role_closed_captions">Undertexter</string>
     <string name="exo_track_role_commentary">Kommentar</string>
@@ -482,11 +430,9 @@ Skicka koden till handledaren."</string>
     <string name="expand_button_title">Avancerat</string>
     <string name="expired">Utgången</string>
     <string name="exposed_dropdown_menu_content_description">Visa rullgardinsmenyn</string>
-    <string name="facebook_login_btn_content_description">Logga in med Facebook</string>
     <string name="facebook_not_installed">Installera Facebook först.</string>
     <string name="fail_to_fetch_payment_page_url">Det gick inte att hämta betalningsinformation</string>
     <string name="fail_to_play">Kan inte spela låt</string>
-    <string name="failed_dup_secure_phone_number">Detta telefonnummer är redan kopplat till ett annat Mi Konto</string>
     <string name="failed_not_access_sd_card">Tillåt åtkomst till SD-kortet först</string>
     <string name="failed_obtain_permissions">Det gick inte att ge behörigheter</string>
     <string name="failed_to_connect_hint">Kontrollera dina nätverksunställningar och försök igen</string>
@@ -517,7 +463,6 @@ Skicka koden till handledaren."</string>
     <string name="filter_by_size_prefix">"Dölj filer mindre än "</string>
     <string name="filter_by_size_summary">Dölj små ljudfiler</string>
     <string name="filter_size_unit">%dKB</string>
-    <string name="find_psw">Glömt lösenord</string>
     <string name="find_you_tunes">Hitta dina melodier</string>
     <string name="floating_view_dialog_desc">Musiken kommer att sluta spela om du lämnar denna sida nu. Lämna ändå?</string>
     <string name="floating_view_dialog_leave">Lämna</string>
@@ -577,7 +522,6 @@ Skicka koden till handledaren."</string>
     <string name="fmt_weekday_timezone">W z</string>
     <string name="follow">Följ</string>
     <string name="followed">Följer</string>
-    <string name="for_diagnosis_usage_only">Loggfiler används endast för diagnostik.</string>
     <string name="format_not_support">Detta format stöds inte.</string>
     <string name="format_unsupported_or_corrupted">Formatet stöds inte, eller så är filen korrupt</string>
     <string name="fragment_title_artist_album">Album</string>
@@ -586,22 +530,15 @@ Skicka koden till handledaren."</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
     <string name="gcm_fallback_notification_channel_label">Diverse</string>
-    <string name="get_back_pwd">Återställer lösenord</string>
     <string name="get_more_favorite_content_after_login">Logga in för att upptäcka fler låtar och videor.</string>
     <string name="get_one_day_vip">%d-dagars VIP!</string>
     <string name="get_one_hour_vip">%d-timmars VIP!</string>
-    <string name="get_ph_ticket">Hämta kod</string>
-    <string name="get_phone_bind_exceed_limit">Du kan associera upp till 3 Mi Konto med ett telefonnummer. Det går inte att lägga till nya konton.</string>
-    <string name="get_phone_verifycode_exceed_limit">För många verifieringskoder har skickats till det här numret. Vänta 24 timmar och försök igen.</string>
     <string name="get_vip">Skaffa VIP</string>
     <string name="google_account_login">Logga in med Google</string>
-    <string name="google_login_btn_content_description">Logga in med Google</string>
     <string name="goto_local_search">Sök på enhet</string>
     <string name="goto_online_search">Sök online</string>
-    <string name="goto_sign_up">Skapa konto</string>
     <string name="handle_later">Inte nu</string>
     <string name="hd_quality_audio">HD-kvalitet ljud</string>
-    <string name="header_help">Hjälp</string>
     <string name="headset_and_audio_effect_category">Hörlurar och ljudeffekter</string>
     <string name="headset_and_audio_effect_summary">Hörlurar och equalizers</string>
     <string name="headset_and_audio_effect_title">Hörlurar och ljudeffekter</string>
@@ -632,7 +569,6 @@ Skicka koden till handledaren."</string>
     <string name="hungama_subscribe_title">PRO medlemskap</string>
     <string name="i_know">OK</string>
     <string name="icon_content_description">Dialogikon</string>
-    <string name="identity">Identifiering</string>
     <string name="imported">Importerade</string>
     <string name="impunity_declaration_content">Du måste läsa och godkänna vårt &lt;a href=\"http://www.miui.com/res/doc/eula.html?lang=sv_SE\">Användaravtal&lt;/a> och vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?lang=sv_SE\">Integritetspolicy&lt;/a> innan du använder produkten.</string>
     <string name="impunity_declaration_ignore">Visa inte igen</string>
@@ -642,7 +578,6 @@ Skicka koden till handledaren."</string>
     <string name="impunity_declaration_summary">Visa Användarvillkor varje gång appen Musik startas</string>
     <string name="impunity_declaration_title">Användarvillkor</string>
     <string name="in_searching_please_wait">Söker…</string>
-    <string name="inconsistent_pwd">Lösenorden matchar inte</string>
     <string name="individuation_card_login_button">Logga in</string>
     <string name="individuation_card_login_message">Logga in för att hitta fler låtar du kommer att älska</string>
     <string name="individuation_card_title">För dig</string>
@@ -651,17 +586,13 @@ Skicka koden till handledaren."</string>
     <string name="individuation_recommend_title">Rekommendationer</string>
     <string name="individuation_setting_summary">Få innehållsrekommendationer baserat på dina intressen</string>
     <string name="individuation_setting_title">Personliga rekommendationer</string>
-    <string name="input_email_address_notice">Vi använder den här e-postadressen för att verifiera ditt konto</string>
     <string name="input_hint_prefix">Ange %1$s</string>
-    <string name="input_length_exceeds_limit">Texten du angav är för lång</string>
-    <string name="input_new_pwd">Ange nytt lösenord</string>
     <string name="installing_apk">Installera…</string>
     <string name="insufficient_space">Inte tillräckligt med utrymme på din interna lagringsenhet</string>
     <string name="is_latest_version">Musik är uppdaterade.</string>
     <string name="is_scanning">Kontrollerar lagring…</string>
     <string name="is_scanning_support_online">"Kontrollerar lagring…
 (Under tiden kan du strömma musik online)"</string>
-    <string name="isornot_your_mi_account">Är detta ditt Mi-Konto?</string>
     <string name="item_view_role_description">Flik</string>
     <string name="joox_account_bind_mi_account">Lägg till Mi-Konto</string>
     <string name="joox_account_cancel_login">Avbryt</string>
@@ -703,7 +634,6 @@ Skicka koden till handledaren."</string>
     <string name="joox_search_result_more">Mer</string>
     <string name="joox_vip_check_to_pay">Köp</string>
     <string name="joox_vip_expired_hint">Ditt VIP-medlemskap löpte ut. Låtarna som laddats ned från JOOX kommer endast visas i dina nedladdningar.</string>
-    <string name="just_a_second">Vänta ett ögonblick…</string>
     <string name="just_hit_next">Tryck på nästa bara</string>
     <string name="keep_queued_download">Behåll</string>
     <string name="ktv_playlist">KTV spellista</string>
@@ -717,7 +647,6 @@ Skicka koden till handledaren."</string>
     <string name="listen_anywhere">Lyssna var som helst</string>
     <string name="load_shuffle">Laddar…</string>
     <string name="loadercontainer_loading">Vänta lite…</string>
-    <string name="loading">Vänta ett ögonblick…</string>
     <string name="loading_hint">Vänta lite…</string>
     <string name="loading_reached_the_bottom">Det är allt för nu.</string>
     <string name="loading_text">Vänta lite…</string>
@@ -728,18 +657,13 @@ Skicka koden till handledaren."</string>
     <string name="local_page_artist_more">Fler låtar av%s</string>
     <string name="local_page_playlist">Spellistor</string>
     <string name="local_page_song_download_history">Nedladdningar</string>
-    <string name="login_by_local_phone_long_text">Logga in nu</string>
-    <string name="login_by_local_phone_short_text">Logga in</string>
     <string name="login_instantly">Logga in</string>
     <string name="login_mi_account_and_gain_more_rights">Logga in med ditt Mi-konto för att få tillgång till fler funktioner.</string>
-    <string name="login_other">Ett annat Mi Konto</string>
-    <string name="login_register_by_local_phone_long_text">Skapa konto</string>
-    <string name="login_with_sns">Andra sätt att logga in på</string>
-    <string name="logout_account">Logga ut</string>
     <string name="long_press_to_select_lyric">Tryck på &amp; håll för att välja lokal text till fil</string>
     <string name="low_sound_quality">Låg</string>
     <string name="lrc_search_failed">Kunde inte hitta låttext</string>
     <string name="lrc_searching">Söker…</string>
+    <string name="ludo_tab_guide">Kolla in våra nya musikrum</string>
     <string name="lyric_is_empty">Ingen låttext tillgänglig</string>
     <string name="lyric_label">Låttext</string>
     <string name="lyric_open_other_connect">Ladda ned låttexter med mobildata</string>
@@ -868,6 +792,7 @@ Skicka koden till handledaren."</string>
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -914,16 +839,12 @@ Skicka koden till handledaren."</string>
     <string name="nav_app_bar_open_drawer_description">Öppna navigeringspanelen</string>
     <string name="network_disable">Det gick inte att ansluta till nätverket</string>
     <string name="network_error_and_retry">Det gick inte att ansluta, tryck för att försöka igen</string>
-    <string name="network_error_info">Ett nätverksfel uppstod. Kontrollera dina nätverksinställningar och försök igen.</string>
     <string name="network_request_error">Kan inte ansluta till nätverket</string>
     <string name="network_settings_error">Kan inte ansluta till nätverket</string>
-    <string name="network_timeout_info">Det gick inte att ansluta till nätverket. Försök igen.</string>
     <string name="network_traffic">Dataanvändning</string>
     <string name="next_time">Inte nu</string>
     <string name="next_to_play">Nästa</string>
-    <string name="nick_name">Smeknamn</string>
     <string name="night">Kväll</string>
-    <string name="no_account">Inte inloggad</string>
     <string name="no_album_info">Inget albuminfo</string>
     <string name="no_artist_info">Ingen artistinfo</string>
     <string name="no_downloads">Inga nedladdningar</string>
@@ -936,7 +857,6 @@ Skicka koden till handledaren."</string>
     <string name="no_local_source_find">Kunde inte hitta låt</string>
     <string name="no_longer_prompt">Visa inte igen</string>
     <string name="no_lyrics">Inga låttexter</string>
-    <string name="no_phone">Inget telefonnummer</string>
     <string name="no_results_return">Inga sökresultat</string>
     <string name="no_scanned_songs">Tom</string>
     <string name="no_song_downloaded">Kunde inte hitta låtar att ladda ner</string>
@@ -1010,100 +930,9 @@ Skicka koden till handledaren."</string>
     <string name="only_pro_can_choose_hd_sound_quality">HD-ljud är endast tillgängligt för PRO-medlemmar</string>
     <string name="open_online_service">Du behöver aktivera onlinetjänster för att använda denna funktion. Aktivera nu?</string>
     <string name="open_service">Aktivera</string>
-    <string name="open_settings">Inställningar</string>
     <string name="operation_done_close">Stäng</string>
     <string name="other_song_in_album">Andra låtar från detta album</string>
     <string name="party">Party</string>
-    <string name="passport_access_denied">Åtkomst nekad</string>
-    <string name="passport_account_label">Mi Konto</string>
-    <string name="passport_account_name">"Konto: %1$s "</string>
-    <string name="passport_activate_token_expired">Verifikationskod har gått ut. Försök igen.</string>
-    <string name="passport_area_code_title">Riksnummer</string>
-    <string name="passport_bad_authentication">Ogiltigt användarnamn eller lösenord</string>
-    <string name="passport_barcode_add_account_prompt">Skanna QR-koden på nytt när du har loggat in för att lägga till ett konto.</string>
-    <string name="passport_can_not_receive_verification_code">Kunde du inte ta emot verifieringskoden?</string>
-    <string name="passport_captcha_title">Captcha</string>
-    <string name="passport_checking_account">Kontrollerar lösenord…</string>
-    <string name="passport_close">Stäng</string>
-    <string name="passport_delete_account">Logga ut</string>
-    <string name="passport_email">E-postadress</string>
-    <string name="passport_empty_password">Lösenord får inte vara tomt</string>
-    <string name="passport_empty_user_name">Användarnamn får inte vara tomt</string>
-    <string name="passport_error_auth_fail">Sessionen löpte ut. Logga in igen.</string>
-    <string name="passport_error_device_id">Det går inte att hämta enhets-ID</string>
-    <string name="passport_error_email">E-postadressen du angav är ogiltig</string>
-    <string name="passport_error_empty_captcha_code">Ange captcha</string>
-    <string name="passport_error_empty_email">Skriv in din e-postadress</string>
-    <string name="passport_error_empty_phone_num">Ange telefonnummer</string>
-    <string name="passport_error_empty_pwd">Lösenord får inte vara tomt</string>
-    <string name="passport_error_empty_vcode">Ange verifieringskod</string>
-    <string name="passport_error_empty_voice_code">Ange captcha</string>
-    <string name="passport_error_illegal_pwd">Ogiltigt lösenord</string>
-    <string name="passport_error_network">Det går inte ansluta till nätverket</string>
-    <string name="passport_error_no_password_user">Du har inte angett ett lösenord än. Logga in med SMS.</string>
-    <string name="passport_error_phone_error">Ogiltigt telefonnummer</string>
-    <string name="passport_error_server">Serverfel</string>
-    <string name="passport_error_unknown">Okänt fel</string>
-    <string name="passport_error_user_agreement_error">Godkänn först villkoren</string>
-    <string name="passport_error_user_name">Angivet användarnamn är inte giltigt</string>
-    <string name="passport_forget_password"><u>Glömt lösenord</u></string>
-    <string name="passport_get_verify_code">Hämta kod</string>
-    <string name="passport_getting_verify_code">Vänta ett ögonblick…</string>
-    <string name="passport_identification_expired">Verifieringkod har gått ut. Börja om.</string>
-    <string name="passport_input_captcha_hint">Ange kod</string>
-    <string name="passport_input_password_hint">Ange lösenord</string>
-    <string name="passport_input_phone_hint">Ange telefonnummer</string>
-    <string name="passport_input_vcode_hint">Ange verifieringskod</string>
-    <string name="passport_input_voice_captcha_hint">Ange koden för röstverifikation</string>
-    <string name="passport_input_voice_hint">Ange röstkod</string>
-    <string name="passport_international_phone_password_login_tip">(Användare utanför Kina måste ange mobiltelefonnumret med följande format +[riktnummerkod][Telefonnummer], t ex. +91 817282982)</string>
-    <string name="passport_log_detail">Visa detaljer</string>
-    <string name="passport_login_failed">Det gick inte att logga in</string>
-    <string name="passport_next">Nästa</string>
-    <string name="passport_next_step">Nästa</string>
-    <string name="passport_password_req_notice">Lösenord måste vara 8-16 tecken långt och innehålla minst två av följande: siffror, bokstäver och specialtecken (t.ex. 123abc@#, 123abc eller abc@#).</string>
-    <string name="passport_querying_phone_info">Begär kontoinformation…</string>
-    <string name="passport_quick_login_dialog_step2_title">Tvåstegsverifiering</string>
-    <string name="passport_quick_login_dialog_title">Verifiera lösenord</string>
-    <string name="passport_quick_login_step2_title">Tvåstegsverifiering</string>
-    <string name="passport_quick_login_title">Ange ditt lösenord</string>
-    <string name="passport_re_get_verify_code">Hämta kod igen</string>
-    <string name="passport_reging">Skapar konto…</string>
-    <string name="passport_register_restricted">För många konton har associerats med detta nummer. Välj ett annat.</string>
-    <string name="passport_reload_ph_ticket">Skicka igen</string>
-    <string name="passport_relogin_notice">Du måste logga in igen</string>
-    <string name="passport_send_too_many_code">För många verifieringskoder har skickats till detta nummer. Vänta 24 timmar och försök igen.</string>
-    <string name="passport_send_too_many_sms">För många verifieringskoder har skickats från detta nummer. Vänta 24 tim och försök igen.</string>
-    <string name="passport_sending_vcode">Skickar kod…</string>
-    <string name="passport_set_password">Ange lösenord</string>
-    <string name="passport_set_password_no_phone_msg">Lägg till ditt telefonnummer för att skydda ditt konto.</string>
-    <string name="passport_sign_in">Logga in</string>
-    <string name="passport_sign_in_or_sign_up">Logga in/Skapa konto</string>
-    <string name="passport_sms_phone_intro">Skickade kod till %1$s</string>
-    <string name="passport_talkback_image_captcha">Bildverifieringskod</string>
-    <string name="passport_talkback_switch_image_captcha">Byt till bildverifieringskod</string>
-    <string name="passport_talkback_switch_voice_captcha">Byt till röstverifieringskod</string>
-    <string name="passport_talkback_voice_captcha">Spela upp koden för röstverifiering</string>
-    <string name="passport_timeout_network_error">Nätverksbegäran har gått ut</string>
-    <string name="passport_trust_device">Det är en betrodd enhet</string>
-    <string name="passport_trying_read_verify_code_sms">Hämtar verifieringskod…</string>
-    <string name="passport_unknow_error">Ett okänt fel uppstod</string>
-    <string name="passport_unknow_host_network_error">Kontrollera din nätverksanslutning och försök igen</string>
-    <string name="passport_unknow_network_error">Ett nätverksfel inträffade</string>
-    <string name="passport_user_agreement_link">&lt;Data>Jag har läst och godkänner Xiaomis &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_link_more">&lt;Data>Jag har läst och godkänner följande dokument: Xiaomis &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%4$s>integritetspolicy&lt;/a>, &lt;a href=%2$s>%3$s&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_id_intro">Ange lösenord för %1$s</string>
-    <string name="passport_v_code_error">Verifieringskod är felaktig</string>
-    <string name="passport_vcode_notification_title">Din inloggningsverifiering är ofullständig</string>
-    <string name="passport_vcode_prompt_long">Ange verifieringskod</string>
-    <string name="passport_vcode_sms_send_prompt">Skickade kod till %s</string>
-    <string name="passport_verification_failed">Kunde inte verifiera</string>
-    <string name="passport_verify">Verifiera</string>
-    <string name="passport_wechat_not_install">Installera först WeChat</string>
-    <string name="passport_wrong_captcha">Koden du angav är felaktig</string>
-    <string name="passport_wrong_phone_number_format">Formatet på det telefonnummer som du angav är ogiltigt</string>
-    <string name="passport_wrong_vcode">Koden du angav är felaktig</string>
-    <string name="passport_wrong_voice">Koden du angav är felaktig</string>
     <string name="password_toggle_content_description">Visa lösenord</string>
     <string name="paused_by_app">Pausad</string>
     <string name="paused_in_power_save_mode">Pausad när batterisparläge är på</string>
@@ -1122,11 +951,6 @@ Skicka koden till handledaren."</string>
     <string name="permission_declaration_title">Tillåt åtkomst</string>
     <string name="permission_open">Tillåt</string>
     <string name="permission_required">Behörigheter krävs</string>
-    <string name="phone_bind_too_many">Detta telefonnummer är sammankopplats med flera Mi-konton under kort tid. Försök använda ett annat telefonnummer.</string>
-    <string name="phone_hint">Telefonnummer</string>
-    <string name="phone_num_use_for">Telefonnummer används för:</string>
-    <string name="phone_number">Telefonnummer</string>
-    <string name="photoPickerNotFoundText">Inga bilder tillgängliga.</string>
     <string name="pick_favorite_song">Favoriter</string>
     <string name="pick_local_song">Lokala låtar</string>
     <string name="pick_recent_song">Nyligen spelade</string>
@@ -1165,6 +989,7 @@ Skicka koden till handledaren."</string>
     <string name="privacy_authorize_revoking">Upphäver tillståndet…</string>
     <string name="privacy_desc">Integritetspolicy (obligatorisk)</string>
     <string name="privacy_policy">Integritetspolicy</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sv_SE</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Musik behöver samla in nödvändig personlig information för att förse dig med online streaming-tjänster. Du kan läsa om hur vi hanterar den information vi samlar in i vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a>. Du kan när som helst dra tillbaka ditt samtycke till Integritetspolicyn för Mi Musik i Inställningarna.
 Läs och acceptera vårt &lt;a href=\"%2$s\">Användaravtal&lt;/a> och &lt;a href=\"%1$s\">Integritetspolicy&lt;/a> innan du använder Mi Musik.
 Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte kunna använda vissa funktioner i denna app; men dess grundläggande funktionalitet kommer fortfarande vara tillgänglig för dig.&lt;/Data>"</string>
@@ -1174,18 +999,11 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="privacy_request_subtitle_offline">Välkommen till Mi Music! Denna app tillhandahåller en lokal spelare för ljudfiler.</string>
     <string name="privacy_request_title">Regler och villkor</string>
     <string name="pro_member">PRO-medlem</string>
-    <string name="progressbar_title">Skannar efter säkerhetsproblem…</string>
     <string name="project_device">Mi Telefon</string>
     <string name="prompt_grant_write_settings_permission">Tillåt att ändra systeminställningar</string>
-    <string name="protocal_dialog_cancel">Avbryt</string>
-    <string name="protocal_dialog_confirm">Godkänn</string>
-    <string name="protocal_dialog_title">Obs</string>
-    <string name="psw_hint">Lösenord</string>
-    <string name="psw_sign_in">Logga in med lösenord</string>
     <string name="pulluprefreshrecyclerview_loading_error">Kunde inte ladda</string>
     <string name="pulluprefreshrecyclerview_loading_finished">Laddades framgångsriskt</string>
     <string name="pulluprefreshrecyclerview_loading_running">Laddar…</string>
-    <string name="qq_login_btn_content_description">Logga in med QQ</string>
     <string name="queue_is_empty">Spelar kön är tom.</string>
     <string name="ready_to_play">Nästa</string>
     <string name="recently_played">Nyligen spelade</string>
@@ -1193,8 +1011,6 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="recommend_songs_when_playing_audio_files">Få låtrekommendationer medan du lyssnar på musik</string>
     <string name="recommended_file_size_download_in_mobile">Använd %s av mobildata för att ladda ned den här filen?</string>
     <string name="recommended_no_file_size_download_in_mobile">Använd din mobil dataanslutning för att ladda ned den här filen?</string>
-    <string name="register_by_local_phone_long_text">Skapa konto</string>
-    <string name="register_by_local_phone_short_text">Skapa konto</string>
     <string name="remove">Ta bort</string>
     <string name="remove_download">Ta bort</string>
     <string name="remove_user_privacy_dialog_message">Genom att växla till av, så drar du tillbaka ditt samtycke till integritetspolicyn för Mi Music. Vi kommer upphöra att samla in din personliga information. De personliga data som redan samlats in och bevaras kommer att raderas inom en specifik period som krav enligt gällande lagar. Mi Music behöver samla in nödvändig personlig information för att förse dig med grundläggande tjänster. Ditt tillbakadragande av samtycke till dess integritetspolicy kommer hållas som vägran att acceptera dess tjänster baserat på insamlad personlig information.</string>
@@ -1202,25 +1018,11 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="remove_user_privacy_dialog_title">Återkallelse av ditt samtycke</string>
     <string name="repeat_all_notif">Upprepar alla låtar.</string>
     <string name="repeat_current_notif">Upprepar nuvarande låt.</string>
-    <string name="request_agree">Tillåt</string>
-    <string name="request_camera_permission_message">Vi kommer att skydda din personliga information i enlighet med de relevanta lagarna och regleringarna. Denna app behöver följande behörigheter för att fungera normalt:&lt;br>&lt;br>&lt;b>Använda kameran (för att ställa in ditt profilfoto)&lt;/b>&lt;br>&lt;br>Om du inte accepterar att bevilja sådana behörigheter kommer du inte kunna använda vissa funktioner i denna app; men dess grundläggande funktionalitet kommer fortfarande vara tillgänglig för dig. Du kan alltid begränsa behörigheter eller dra tillbaka din auktorisering i Inställningarna.</string>
-    <string name="request_cancel">Avbryt</string>
-    <string name="request_error_invalid_token">Kunde inte verifiera</string>
-    <string name="request_error_network">Ett nätverksfel uppstod. Kontrollera dina nätverksinställningar och försök igen.</string>
-    <string name="request_error_unknown">Ett systemfel uppstod. Gå tillbaka och försök igen.</string>
-    <string name="request_gallery_permission_message">Tillåt åtkomst till Galleri:&lt;br />För angivelse av profilfoton</string>
     <string name="request_overlay_permission_desc">Tillåt Mi Music att visa flytande fönster för att kunna använda den här funktionen.</string>
     <string name="request_privacy_permission_title">Läs och acceptera reglerna och villkoren nedan för att få tillgång till alla våra tjänster.</string>
     <string name="request_share_info">Vänta lite…</string>
     <string name="request_subscription_status">Vänta lite…</string>
-    <string name="resend_active_email">Skicka igen</string>
-    <string name="resend_email_reach_limit_message">Du har begärt för många verifieringsmeddelanden. Kontrollera att verifieringsmeddelandet inte ligger i din e-posts skräpkorg.</string>
-    <string name="resend_email_reach_limit_title">Alltför många försök</string>
-    <string name="resend_email_success">Skickat</string>
-    <string name="restart_action">Börja om</string>
     <string name="restart_immediate">Starta om</string>
-    <string name="restart_phone_bind_message">Det kan ta lite tid att ta emot SMS. Börja om ändå?</string>
-    <string name="restart_phone_bind_title">Ändra telefonnummer för återställning</string>
     <string name="retry">Försök igen</string>
     <string name="retry_after_network_available">Kan inte ansluta till nätverket. Kontrollera anslutningen och försök igen.</string>
     <string name="retry_download">Försök igen</string>
@@ -1239,7 +1041,6 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="s5">Skapa kalenderhändelse</string>
     <string name="s6">Tillåter du att annonsen skapar en kalenderhändelse?</string>
     <string name="s7">Testannons</string>
-    <string name="same_new_and_old_pwd">Kan inte vara samma som nuvarande lösenord</string>
     <string name="saturday">Lördag</string>
     <string name="saturday_short">Lör</string>
     <string name="saturday_shortest">Lör</string>
@@ -1279,19 +1080,14 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="select_three_languages">Du kan välja upp till %d språk</string>
     <string name="selected_count">%1$d av %2$d valda</string>
     <string name="send">Skicka</string>
-    <string name="send_diagnosis_log">Skicka loggfiler</string>
-    <string name="send_email_activate_message">Skickade verifieringsmeddelande</string>
     <string name="send_to_title">Skicka till (%1$s)</string>
-    <string name="sending">Skickar…</string>
     <string name="service_and_settings">Tjänst och inställningar</string>
-    <string name="service_error">Serverfel</string>
     <string name="set_as_alarm_clock_ringtone">Alarm</string>
     <string name="set_as_ring">Ange som ringsignal</string>
     <string name="set_online_home_subtitle">Öppna online-rekommendationer när appen startas</string>
     <string name="set_online_home_title">Visa online-rekommendationer vid uppstart</string>
     <string name="set_ringtones_failed">Kunde inte ange ringsignal</string>
     <string name="set_ringtones_successful">%s Ange som ringsignal</string>
-    <string name="set_success">Ändrad</string>
     <string name="setting_feature_setting">Inställningar för funktioner</string>
     <string name="settings">Inställningar</string>
     <string name="settings_search_key_notification">Musiknotifikationer;Musik;Notifikationer;låtar</string>
@@ -1314,24 +1110,16 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="shuffle_off_notif">Blandning är av.</string>
     <string name="shuffle_on_notif">Blandning är på.</string>
     <string name="shuffle_play_toast_text">Blandar låtar…</string>
-    <string name="sign_in">Loggar in</string>
-    <string name="sign_in_progress">Loggar in…</string>
-    <string name="sign_in_title">Logga in med ditt Mi-Konto</string>
     <string name="similar_albums">Liknande album</string>
     <string name="similar_playlists">Liknande spellistor</string>
     <string name="similar_songs">Liknande låtar</string>
     <string name="similar_videos">Liknande videor</string>
     <string name="skip">Hoppa över</string>
-    <string name="skip_query_account">Hoppa över</string>
     <string name="sleep_mode">Insomningstimer</string>
     <string name="sleep_mode_canceled">Sovläge avstängd</string>
     <string name="sleep_mode_summary">Stoppa spelaren efter en viss tid</string>
     <string name="sleep_mode_title">Insomningstimer</string>
     <string name="sliding_pro_center">PRO center</string>
-    <string name="sms_send_success">Skickad</string>
-    <string name="sns_access_token_expired_warning">Sessionen har gått ut. Logga in igen för att återansluta det här kontot.</string>
-    <string name="sns_bind_limit">För många försök. Försök att logga in på andra sätt.</string>
-    <string name="sns_sign_in">Andra sätt att logga in på</string>
     <string name="song_already_in_playlist">Den här låten finns redan i spellistan</string>
     <string name="song_exist_in_playlist">Denna låt är redan i kön</string>
     <string name="song_info">Information om låten</string>
@@ -1351,6 +1139,7 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="start_to_download">Laddar ner…</string>
     <string name="start_to_play">Förbereder att spela upp…</string>
     <string name="start_update">Installerar ny version…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Lagringsutrymme för Dubbelappar</string>
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
@@ -1362,7 +1151,6 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="sunday_shortest">Sön</string>
     <string name="supplementary_songs">Ytterligare låtar</string>
     <string name="switch_success">Bytt framgångsrikt</string>
-    <string name="system_error_info">Systemet är upptaget. Vänta en minut eller två och försök igen.</string>
     <string name="tab_album">Album</string>
     <string name="tab_album_list">Album</string>
     <string name="tab_artist">Artister</string>
@@ -1378,7 +1166,7 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="take_effect_afater_restart">Du måste starta om appen för att denna inställning ska verka.</string>
     <string name="talkback_back">Gå tillbaka</string>
     <string name="talkback_batch_process">Flera objekt</string>
-    <string name="talkback_clear">Klar</string>
+    <string name="talkback_clear">Rensa</string>
     <string name="talkback_cut">Redigera ringsignal</string>
     <string name="talkback_device">Spela på andra enheter</string>
     <string name="talkback_download">Ladda ner</string>
@@ -1396,7 +1184,6 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="talkback_pre">Föregående låt</string>
     <string name="talkback_search">Sök</string>
     <string name="talkback_show_navigation_draw">Visa låda</string>
-    <string name="temporary_not_available">Denna funktion stöds inte ännu</string>
     <string name="terms_of_service">Användarvillkor</string>
     <string name="the_anniversary_of_lifting_martial_law">Årsdagen för lyftande av undantagstillstånd</string>
     <string name="the_anti_aggression_day">Anti-våldsdagen</string>
@@ -1441,9 +1228,6 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="thursday">Torsdag</string>
     <string name="thursday_short">Tor</string>
     <string name="thursday_shortest">Tor</string>
-    <string name="ticket_hint">Verifieringskod</string>
-    <string name="ticket_invalid">Koden du angav är felaktig</string>
-    <string name="ticket_sign_in">Logga in med SMS</string>
     <string name="ticket_summary">Köp biljetter till shower, konserter, pjäser och andra händelser</string>
     <string name="ticket_title">Visa biljetter</string>
     <string name="time_picker_dialog_title">Ange tid</string>
@@ -1493,18 +1277,13 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="ultra_high_quality">Högsta</string>
     <string name="unknown_album_name">Okänt album</string>
     <string name="unknown_artist_name">Okänd artist</string>
-    <string name="unknown_error_info">Okänt fel</string>
     <string name="unlimited_downloads">Obegränsade nedladdningar</string>
     <string name="unlimited_offline_songs">Obegränsad offline-låtar</string>
     <string name="unlimited_skips">Obegränsade överhoppningar</string>
-    <string name="update_email_address_dialog_message">Du behöver verifiera din identitet innan du kan uppdatera e-postadressen för återställning.</string>
-    <string name="update_email_address_dialog_title">Uppdatera e-post för återställning</string>
     <string name="update_now">UPPDATERA NU</string>
-    <string name="update_phone_notice">Ändra säkerhetsinställningar</string>
     <string name="upgrade_music">Uppdatera Musik</string>
     <string name="upgrade_music_message">Uppdateringar är redo. Starta om för att uppdatera.</string>
     <string name="upgrading_in_backstage">Uppdaterar i bakgrunden…</string>
-    <string name="upload_error_log">Ladda upp loggfil</string>
     <string name="upload_favorite_dialog_title">Ladda upp dina låtar till molnet för att få tillgång till dem på andra synkade enheter. Du kan stänga av denna funktion i Inställningarna.</string>
     <string name="upload_favorite_setting_summary">Att lägga till låtar till favoriter laddar upp dem till molnet och tillåter dig att få tillgång till dem på andra enheter</string>
     <string name="upload_favorite_setting_title">Synka låtar</string>
@@ -1513,21 +1292,8 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="upload_playlist_to_hungama_title">Synkronisera online-låtar med Hungama för att kunna komma åt dem på andra enheter där du använder ditt Mi-konto.</string>
     <string name="upload_playlist_to_hungama_toast">Online-låtar kommer synkroniseras till Hungarna</string>
     <string name="user_agreement">Användaravtal</string>
-    <string name="user_agreement_hint_3rd_app">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a> samt Mi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>integritetspolicy&lt;/a>.&lt;/Data></string>
-    <string name="user_agreement_hint_3rd_app_mobile">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>, Mi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>integritetspolicy&lt;/a>, likväl som &lt;a href=%5$s>regler och villkor för China Mobile verifieringstjänster&lt;/a>.&lt;/Data></string>
-    <string name="user_agreement_hint_3rd_app_with_telecom">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>, Mi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>integritetspolicy&lt;/a>, likväl som &lt;a href=%5$s>regler och villkor för eSurfing kontoverifieringstjänster&lt;/a>.&lt;/Data></string>
-    <string name="user_agreement_hint_3rd_app_with_unicom">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>, Mi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>integritetspolicy&lt;/a>, likväl som &lt;a href=%5$s>regler och villkor för China Unicom verifieringstjänster&lt;/a>.&lt;/Data></string>
-    <string name="user_agreement_hint_default">&lt;Data>Jag har läst och godkänt Mi Kontos &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>.&lt;/Data></string>
-    <string name="user_agreement_hint_first_login">Vi kommer att skapa ett konto automatiskt om du använder ditt telefonnummer för första gången.</string>
-    <string name="user_agreement_hint_with_mobile">&lt;Data>Jag har läst och godkänt Mi-kontots &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>, likväl som &lt;a href=%3$s>regler och villkor för China Mobile verifieringstjänster&lt;/a>.&lt;/Data></string>
-    <string name="user_agreement_hint_with_telecom">&lt;Data>Jag har läst och godkänt Mi-kontots &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>, likväl som &lt;a href=%3$s>regler och villkor för eSurfing kontoverifieringstjänster&lt;/a>.&lt;/Data></string>
-    <string name="user_agreement_hint_with_unicom">&lt;Data>Jag har läst och godkänt Mi-kontots &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>, likväl som &lt;a href=%3$s>regler och villkor för China Unicom verifieringstjänster&lt;/a>.&lt;/Data></string>
-    <string name="user_agreement_protocal_dialog_hint_default">"&lt;Data>Read and agreed to &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> and Mi Account's &lt;a href=%3$s>User Agreement&lt;/a> and &lt;a href=%4$s>Privacy Policy&lt;/a>.&lt;/Data>"</string>
-    <string name="user_avatar_update_title">Ändra profilfoto</string>
-    <string name="user_avatar_uploading">Vänta ett ögonblick…</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sv_SE</string>
     <string name="user_experience_program_open">På grund av upphovsrättsrestriktioner måste du gå med i Program för användarupplevelse för att kunna spela nedladdade låtar. Du kan göra detta i Inställningar > Lösenord och säkerhet > Integritet > Registrera dig i Användarupplevelseprogrammet.</string>
-    <string name="user_id_hint">E-post/Telefon/Mi Konto-ID</string>
-    <string name="user_name_phone_number">Telefonnummer</string>
     <string name="user_playlist_plaza">Spellistor</string>
     <string name="user_privacy_dialog_negative_text">Avbryt</string>
     <string name="user_privacy_dialog_positive_count_down_text">Dra tillbaka (%ss)</string>
@@ -1539,7 +1305,6 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="user_profile_follow_count">Följer: %s</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
-    <string name="v_code_title">Ange verifikationskod</string>
     <string name="version_info">Version</string>
     <string name="video_play_cellular">Enheten inte är ansluten till Wi-Fi. Använda mobildata?</string>
     <string name="video_replay_btn">Spela igen</string>
@@ -1552,8 +1317,7 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
-    <string name="weibo_login_btn_content_description">Logga in med Weibo</string>
-    <string name="weixin_login_btn_content_description">Logga in med WeChat</string>
+    <string name="welcome_to_entertainment">Kolla in den senaste Underhållningsfunktionen för musikspel m.m.</string>
     <string name="wifi_required_body" formatted="false">"Anslut till Wi-Fi för att slutföra detta %s ladda ner. 
 
 klicka %s för att starta denna nedladdning nästa gång du är ansluten till ett Wi-Fi-nätverk."</string>

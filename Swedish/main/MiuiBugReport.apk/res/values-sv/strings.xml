@@ -697,7 +697,7 @@ Läs och godkänn den nya versionen av %3$s innan du fortsätter."</string>
     <string name="system_app_select">Inbyggda appar</string>
     <string name="system_error_info">Systemet är upptaget. Vänta en minut eller två och försök igen.</string>
     <string name="tab_title_chat">FAQ</string>
-    <string name="tab_title_my_reports">Mina rapporter</string>
+    <string name="tab_title_my_reports">Min feedback</string>
     <string name="tab_title_preferences">Inställningar</string>
     <string name="tab_title_report">Feedback</string>
     <string name="temporary_not_available">Denna funktion stöds inte ännu</string>

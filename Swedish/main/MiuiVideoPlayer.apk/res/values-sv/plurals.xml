@@ -120,6 +120,10 @@
         <item quantity="other">%d objekt valda</item>
         <item quantity="one">%d objekt vald</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nya aviseringar</item>
+        <item quantity="one">%d ny avisering</item>
+    </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">Ditt innehåll innehåller objekten (%1$s) som bryter mot våra community-standarder. Ditt konto är avstängt i %2$d dagar fram till %3$s.</item>
         <item quantity="one">Ditt innehåll innehåller objekten (%1$s) som bryter mot våra community-standarder. Ditt konto är avstängt i %2$d dag fram till %3$s.</item>

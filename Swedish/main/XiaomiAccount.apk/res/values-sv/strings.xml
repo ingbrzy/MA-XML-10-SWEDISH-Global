@@ -29,6 +29,7 @@
     <string name="abc_toolbar_collapse_description">Komprimera</string>
     <string name="about_device_info">Visa enhetsdetaljer</string>
     <string name="accept">Tillåt</string>
+    <string name="access_denied_info">För många försök. Vänta en minut eller två och försök igen.</string>
     <string name="access_token_expired_warning">Weibo Konto har gått ut</string>
     <string name="access_token_invalid_warning">Weibo kontot är ogiltigt</string>
     <string name="account">Konto</string>
@@ -95,6 +96,8 @@
     <string name="agreement_and_privacy">Regler och villkor</string>
     <string name="am">F.m</string>
     <string name="app_name">Mi Konto</string>
+    <string name="area_code_no_search_result">Kunde inte hitta några resultat</string>
+    <string name="area_code_search_hint">Sök efter land eller region</string>
     <string name="auth_fail_warning">Sessionen löpte ut, logga in igen</string>
     <string name="authorize_title">Tillstånd</string>
     <string name="bind_facebook">Anslut ditt Facebook Konto</string>
@@ -429,7 +432,10 @@ Skicka koden till handledaren."</string>
     <string name="multi_user_not_show_sync_activity_title">Aktivera inte synkronisering mot molnet</string>
     <string name="my_device_title">Aktuella enheten</string>
     <string name="need_install_wechat">Installera WeChat först</string>
+    <string name="network_error_info">Ett nätverksfel uppstod. Kontrollera dina nätverksinställningar och försök igen.</string>
+    <string name="network_timeout_info">Det gick inte att ansluta till nätverket. Försök igen.</string>
     <string name="night">Kväll</string>
+    <string name="no_account_or_forget_password">Skapa konto eller glömt lösenord?</string>
     <string name="no_install">Inte installerad</string>
     <string name="no_network_btn">Uppdatera</string>
     <string name="no_network_title">Kan inte ansluta till nätverket.</string>
@@ -663,7 +669,9 @@ Skicka koden till handledaren."</string>
     <string name="passport_talkback_voice_captcha">Spela upp koden för röstverifiering</string>
     <string name="passport_ticket_login_select_sim_card">Välj SIM-kort</string>
     <string name="passport_ticket_login_select_sim_card_1">SIM 1</string>
+    <string name="passport_ticket_login_select_sim_card_1_with_phone_number">SIM %1$d: %2$s</string>
     <string name="passport_ticket_login_select_sim_card_2">SIM 2</string>
+    <string name="passport_ticket_login_select_sim_card_2_with_phone_number">SIM %1$d: %2$s</string>
     <string name="passport_ticket_login_select_sim_card_cancel">Avbryt</string>
     <string name="passport_title_reg">Skapa ett konto</string>
     <string name="passport_trust_device">Lägg till denna enhet som verifierad enhet</string>
@@ -721,6 +729,7 @@ Skicka koden till handledaren."</string>
     <string name="privacy_policy_reject_confirm_title">Kan inte använda Mi-kontot</string>
     <string name="privacy_policy_update_msg">Sekretesspolicyn för Mi-kontot uppdaterades: :&lt;br/>%1$s&lt;br/>Läs och gokänn den nya versionen av &lt;a href=%2$s>&lt;u>sekretesspolicyn&lt;/u>&lt;/a> innan du fortsätter.</string>
     <string name="privacy_policy_update_title">Uppdaterad Integritetspolicy</string>
+    <string name="progressbar_title">Skannar efter säkerhetsproblem…</string>
     <string name="provision_back">Tillbaka</string>
     <string name="provision_next">Nästa</string>
     <string name="provision_skip_underline">Hoppa över</string>
@@ -800,6 +809,7 @@ Skicka koden till handledaren."</string>
     <string name="system_ad_summary">"Slå på den funktionen om du vill tillåta att ett mindre antal annonser visas i systemappar. Dessa annonser hjälper oss att utveckla och förbättra våra produkter och tjänster. Du kan välja att slå av funktionen när som helst. Tack för ditt stöd! "</string>
     <string name="system_ad_switch">Annonser i systemappar</string>
     <string name="system_ad_switch_failed">Det gick inte att använda inställning</string>
+    <string name="system_error_info">Systemet är upptaget. Vänta en minut eller två och försök igen.</string>
     <string name="talkback_scan_barcode">Skanna QR-kod</string>
     <string name="temporary_not_available">Denna funktion stöds inte ännu.</string>
     <string name="the_anniversary_of_lifting_martial_law">Årsdagen för lyftande av undantagstillstånd</string>
@@ -864,6 +874,7 @@ Skicka koden till handledaren."</string>
     <string name="two_factor_auth_need_code_summary">Du ser en kod på andra anslutna Mi-enheter. Ange den här koden på en ny enhet för att logga in.</string>
     <string name="two_factor_auth_summary">När du försöker logga in på en ny enhet eller på en ny plats meddelas du om detta på andra anslutna enheter. Du kan bekräfta om dessa inloggningsförsök auktoriserades av dig.</string>
     <string name="unbind_sns_description">Efter du kopplar detta konto, kommer du inte att kunna använda dina %s kontoinfo för att logga in till ditt Mi konto.</string>
+    <string name="unknown_error_info">Okänt fel</string>
     <string name="unlock_help_notice">"Hjälp:
 1. Om du har glömt ditt lösenord, gå till id.mi.com att återställa det
 2. Om du inte kan återställa enheten eller om nån har låst din enhet, gå till i.mi.com för att låsa upp den.

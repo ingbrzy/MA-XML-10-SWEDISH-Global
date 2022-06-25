@@ -539,7 +539,7 @@ Du kommer inte förlora någon appdata."</string>
     <string name="app_permission_use_title">Behörigheter</string>
     <string name="app_running_tip_dialog_negative">Avbryt</string>
     <string name="app_running_tip_dialog_positive">OK</string>
-    <string name="app_running_tip_dialog_text">Avsluta den här appen för att förhindra att den körs i bakgrunden. Detta kommer att öka farten på din enhet och minska energikonsumtionen.</string>
+    <string name="app_running_tip_dialog_text">Avsluta %1$s för att förhindra att den körs i bakgrunden. Detta kommer att öka farten på din enhet och minska energikonsumtionen.</string>
     <string name="app_running_tip_dialog_title">Avsluta appen</string>
     <string name="app_running_tip_uninstall">Avinstallera denna app</string>
     <string name="app_settings_link">Ytterligare inställningar i appen</string>
@@ -919,6 +919,7 @@ Du kommer inte förlora någon appdata."</string>
     <string name="card_main_private_space_summary">Att använda det Sekundära utrymmet är som att ha två enheter</string>
     <string name="card_main_private_space_title">Sekundärt utrymme</string>
     <string name="card_main_sectool_title">Verktyg</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_xspace_action">Skapa</string>
     <string name="card_main_xspace_summary">Skapa dubbla konton för appar</string>
     <string name="card_main_xspace_title">Dubbelappar</string>
@@ -971,6 +972,8 @@ Du kommer inte förlora någon appdata."</string>
     <string name="cmcc_app_check_dialog_negative">Senare</string>
     <string name="cmcc_app_check_dialog_positive">Starta om nu</string>
     <string name="cmcc_app_check_dialog_title">System reparerat</string>
+    <string name="columbus_ad_flag_text">Annons</string>
+    <string name="columbus_skip_ad">Hoppa över</string>
     <string name="common_google_play_services_unknown_issue">Det har uppstått ett fel mellan %1$s och Google Play-tjänsterna. Försök igen.</string>
     <string name="confirmSecondSpacePassword">Bekräfta lösenordet för det sekundära utrymmet</string>
     <string name="confirm_allow_all_permission">Allow all apps from using this feature?</string>
@@ -1181,6 +1184,7 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
     <string name="early_morning">Morgon</string>
+    <string name="ellipsis">…</string>
     <string name="email">E-post</string>
     <string name="empty" />
     <string name="empty_app">Inga appar</string>
@@ -1255,7 +1259,9 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativ</string>
     <string name="exo_track_role_closed_captions">Undertexter</string>
     <string name="exo_track_role_commentary">Kommentar</string>
@@ -1509,6 +1515,7 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="gamebox_app_not_find">Installera appen först.</string>
     <string name="gamebox_brightness">Ljusstyrka</string>
     <string name="gamebox_browser_not_find">Installera Mi Browser först</string>
+    <string name="gamebox_bullet_chat">Kommentarer på skärmen</string>
     <string name="gamebox_collimator">Sikte</string>
     <string name="gamebox_display_1">Ingen</string>
     <string name="gamebox_display_2">Mättad</string>
@@ -1610,6 +1617,10 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="gb_dialog_record_way_ai">AI-inspelningar sparas i spelboxen och lagras där i 7 dagar.</string>
     <string name="gb_dialog_record_way_finish">Klart</string>
     <string name="gb_dialog_record_way_manual">Spela in videor på upp till 30 sekunder manuellt</string>
+    <string name="gb_dialog_record_way_manual_desc" formatted="false">Spela in %d-%d sekunder av video under spelsession automatiskt.</string>
+    <string name="gb_dialog_record_way_setting_tip_one">Ökad strömförbrukning och fördröjning</string>
+    <string name="gb_dialog_record_way_setting_tip_title">Denna funktion kan orsaka följande problem:</string>
+    <string name="gb_dialog_record_way_setting_tip_two">Konflikter med andra skärminspelare</string>
     <string name="gb_dialog_record_way_setting_tips">Obs: Inspelning av dina spelsessioner kräver högre strömförbrukning vilket kan resultera i fördröjning.</string>
     <string name="gb_dialog_record_way_title">Välj inspelningsmetod</string>
     <string name="gb_first_guide_function_shiled_title">Avaktivera systemfunktioner när Speloptimering är aktiverad</string>
@@ -1638,6 +1649,7 @@ Record sequences and use them anytime!"</string>
     <string name="gb_game_video_page_null">Spela in de viktiga ögonblicken av dina spelsessioner</string>
     <string name="gb_game_video_record_finish_tips">Sparat manuellt inspelad video till Game Turbo</string>
     <string name="gb_game_video_save">Spara</string>
+    <string name="gb_game_video_save_tip">Sparad framgångsrikt</string>
     <string name="gb_game_video_type_ai">AI</string>
     <string name="gb_game_video_type_ai_record">Spela in med AI</string>
     <string name="gb_game_video_type_manual">Manuellt</string>
@@ -1650,6 +1662,7 @@ Record sequences and use them anytime!"</string>
     <string name="gb_gpu_driver_update_app_tips">Aktuell version är uppdaterad</string>
     <string name="gb_have_signed">Incheckad idag</string>
     <string name="gb_manual_record_dialog_del_video_message">Radera valda videor permanent?</string>
+    <string name="gb_manual_video_record_title">Inspelningar</string>
     <string name="gb_msg_completely_shielded">Dölj meddelanden</string>
     <string name="gb_msg_completely_shielded_summary">Dölj</string>
     <string name="gb_msg_not_shielded_summary">Visa</string>
@@ -1669,26 +1682,39 @@ samtidigt som det sänker uppdateringsintervallet och temperaturgränser"</strin
     <string name="gb_performance_tips">"Prestandaläge förbättrar grafikprestandan,
 men ökar också strömförbrukningen och tillåter din enhet att överhettas"</string>
     <string name="gb_shortcut_pref_title">Genväg på Hemskärmen</string>
-    <string name="gb_shoulder_key">Kantknappar</string>
+    <string name="gb_shoulder_guide_message1">Flytta [L] till valfri funktionell position för att använd det via popup-triggern</string>
+    <string name="gb_shoulder_guide_message2">Handling [1] aktiveras genom att trycka på knappen. Handling [2] aktiveras genom att släppa knappen.</string>
+    <string name="gb_shoulder_guide_tips1">Öppna verktygslådan och konfigurera popup-triggers</string>
+    <string name="gb_shoulder_guide_title1">Handling</string>
+    <string name="gb_shoulder_guide_title2">Sekvens</string>
+    <string name="gb_shoulder_key">Popup-triggers</string>
     <string name="gb_shoulder_key_add_show_btn">Visa virtuella knappar under spel</string>
-    <string name="gb_shoulder_key_add_tips">Flytta [L]- och [R]-knapparna till valfri funktionell position och använd dem via kantknapparna</string>
+    <string name="gb_shoulder_key_add_tips">Flytta [L]- och [R] till valfri funktionell position och använd dem via popup-triggers</string>
     <string name="gb_shoulder_key_btn_cancel">Avbryt</string>
     <string name="gb_shoulder_key_btn_save_exit">Spara</string>
-    <string name="gb_shoulder_key_dialog_message">Du kan använd båda kantknapparna samtidigt för att starta Spelturbo när du inte spelar spel.</string>
-    <string name="gb_shoulder_key_dialog_txt">Du kan slå på Spelturbo genom att använda kantknapparna.</string>
+    <string name="gb_shoulder_key_dialog_message">Du kan använd båda popup-triggers samtidigt för att starta Spelturbo när du inte spelar spel.</string>
+    <string name="gb_shoulder_key_dialog_txt">Du kan slå på Spelturbo genom att använda popup-triggers.</string>
     <string name="gb_shoulder_key_guide_btn_done">Uppfattat</string>
     <string name="gb_shoulder_key_guide_btn_next">Nästa</string>
-    <string name="gb_shoulder_key_guide_tips">Konfigurera kantknappar för att spela som ett proffs!</string>
-    <string name="gb_shoulder_key_guide_tips1">Öppna verktygslådan och konfigurera kantknappar</string>
+    <string name="gb_shoulder_key_guide_tips">Konfigurera popup-triggers för att spela som ett proffs!</string>
+    <string name="gb_shoulder_key_guide_tips1">Öppna verktygslådan och konfigurera popup-triggers</string>
     <string name="gb_shoulder_key_light_effect">Färganimeringar</string>
     <string name="gb_shoulder_key_light_effect_color">Färg</string>
-    <string name="gb_shoulder_key_light_effect_subtitle">Färganimeringar kommer att visas när axelknapparna är på och du spelar</string>
+    <string name="gb_shoulder_key_light_effect_subtitle">Färganimeringar kommer att visas när popup-triggers är på och du spelar</string>
     <string name="gb_shoulder_key_light_effect_title">Animeringar</string>
     <string name="gb_shoulder_key_settings_guide_tips1">Flytta [L]- och [R]-knapparna till valfri funktionell position för att slutföra konfigurationen</string>
-    <string name="gb_shoulder_key_settings_guide_tips2">Använd kantknapparna för de funktioner du tilldelat dem under spel</string>
-    <string name="gb_shoulder_key_settings_summary">Använd båda kantknapparna för att starta Spelturbo när du inte spelar spel</string>
-    <string name="gb_shoulder_key_settings_title">Använd kantknappar för Spelturbo</string>
+    <string name="gb_shoulder_key_settings_guide_tips2">Använd popup-triggers för de funktioner du tilldelade dem under spelen</string>
+    <string name="gb_shoulder_key_settings_summary">Använd båda popup-triggers för att starta Spelturbo när du inte spelar spel</string>
+    <string name="gb_shoulder_key_settings_title">Använda popup-triggers för Spelturbo</string>
     <string name="gb_shoulder_key_settings_title_new">Snabbstarta Spelturbo</string>
+    <string name="gb_shoulder_set_left_right">Konfigurera [%s]</string>
+    <string name="gb_shoulder_set_title">Slå på popup-triggers för att konfigurera dem</string>
+    <string name="gb_shoulder_set_title2">Flytta [%s] till valfri funktionell position och använd det via popup-triggers</string>
+    <string name="gb_shoulder_single_trigger">Handling</string>
+    <string name="gb_shoulder_subsection_down">Tryck</string>
+    <string name="gb_shoulder_subsection_trigger">Sekvens</string>
+    <string name="gb_shoulder_subsection_up">Släpp</string>
+    <string name="gb_shoulder_update_left_right">Redigera %s</string>
     <string name="gb_sign_gift">Checka in för att få belöning</string>
     <string name="gb_sign_gift_button_text">Ta emot</string>
     <string name="gb_sign_notification_summary">Spela spel utan nätverksfördröjning</string>
@@ -1770,13 +1796,13 @@ av dina spelsessioner"</string>
     <string name="gd_setting_group_custom_line_location">Placering av verktygslåda</string>
     <string name="gd_setting_group_custom_settings">Anpassning</string>
     <string name="gd_setting_group_custom_vtb_apps">Videoappar</string>
-    <string name="gd_setting_group_smart_tool_box">Sidebar</string>
+    <string name="gd_setting_group_smart_tool_box">Sidopanel</string>
     <string name="gd_setting_group_title_switch">Scener</string>
     <string name="gd_setting_gtb">Visa när du spelar spel</string>
     <string name="gd_setting_gtb_desc">Specialfunktioner för spel</string>
     <string name="gd_setting_miui_dock">Visa alltid</string>
     <string name="gd_setting_shorthand">Snabba anteckningar</string>
-    <string name="gd_setting_title">Sidebar</string>
+    <string name="gd_setting_title">Sidopanel</string>
     <string name="gd_setting_vtb">Visa när du spelar upp videor</string>
     <string name="gd_setting_vtb_desc">Specialfunktioner för videouppspelning</string>
     <string name="gd_splite_screen_tips">Delad skärm stöder inte flytande fönster</string>
@@ -2184,6 +2210,7 @@ Din enhet är %d%% snabbare nu."</string>
     <string name="menu_text_license_manager">Behörigheter</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -2192,6 +2219,7 @@ Din enhet är %d%% snabbare nu."</string>
     <string name="menu_text_optimize_manage">Öka hastigheten</string>
     <string name="menu_text_optimize_manage_1">Öka hastigheten</string>
     <string name="menu_text_power_manager">Batteri</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Ta bort från undantag</string>
     <string name="menu_white">Lägg till i undantag</string>
     <string name="mi_ime_not_used">Använd ett tangentbord som är godkänt av Xiaom</string>
@@ -2608,7 +2636,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="pc_fast_charge_notifi_action_text_on">Öka</string>
     <string name="pc_fast_charge_notifi_power_threshold_title">Ställ in batterinivån för påminnelser</string>
     <string name="pc_fast_charge_notifi_summary">Laddar upp till %s snabbare än vanligt…</string>
-    <string name="pc_fast_charge_notifi_summary_on">Denna funktion kan hetta upp din enhet</string>
+    <string name="pc_fast_charge_notifi_summary_on">Laddhastigheten boostas när skärmen är avstängd. Din enhet kommer att bli het.</string>
     <string name="pc_fast_charge_notifi_switch_summary">Meddela om att ökning av laddningshastigheten när den medföljande %dW-laddaren är ansluten och batteriet ligger under den inställda nivån</string>
     <string name="pc_fast_charge_notifi_switch_title">Meddela om boosting</string>
     <string name="pc_fast_charge_notifi_title">%dW laddning</string>
@@ -2822,6 +2850,11 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="power_center_dialog_msg_top">När batterispararen är aktiverad kommer MIUI göra följande optimeringar:</string>
     <string name="power_center_hints_scan_danger_result">Du kan lösa batteriproblem nu</string>
     <string name="power_center_list_item_auto_brightness">Justera skärmens ljusstyrka automatiskt</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">h</string>
     <string name="power_center_list_item_close_bluetooth">Avaktivera Bluetooth</string>
     <string name="power_center_list_item_deep_save_title">Avancerade inställningar</string>
@@ -3080,6 +3113,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="pref_normal_traffic_limit">När din data i mobildataabonnemanget överskrids</string>
     <string name="pref_open_adjust_traffic">Uppdatera dataanvändning varje dag med information från din operatör</string>
     <string name="pref_operator_not_set">Ingen operatör vald</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">När du överskrider din gräns för dataanvändning</string>
     <string name="pref_package_traffic_settings">Mobildataabonnemang</string>
     <string name="pref_pkg_begin_date">Återställningsdatum för dataanvändning</string>
@@ -3330,6 +3364,7 @@ Under tiden du kalibrerar kommer MIUI skicka ett meddelande till din operatör f
     <string name="privacy_using_record">Spelar in ljud</string>
     <string name="privacyapp_number_masked_text">Notisinnehåll är dolt</string>
     <string name="privacyapp_number_unmasked_text">Notisinnehåll kan inte döljas</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="process_vpnsdkmanager_label">Speloptimering</string>
     <string name="promotion">Reklam</string>
@@ -3405,6 +3440,7 @@ Under tiden du kalibrerar kommer MIUI skicka ett meddelande till din operatör f
     <string name="result_sms_title_antispam">Hotad av skadliga SMS-URLs</string>
     <string name="result_sms_title_auth">Finansiella risker i SMS hittades</string>
     <string name="result_wifi_header">Wi-Fi risker upptäckta</string>
+    <string name="resume">Återställ</string>
     <string name="right_precent">100%</string>
     <string name="risk_app_install_agree_button">Lita på den här appen</string>
     <string name="risk_app_install_agree_checkbox">Jag är villig att ta alla möjliga risker.</string>
@@ -4427,7 +4463,7 @@ Kvarvarande data inkluderar sparad data från förra månaden."</string>
     <string name="vb_video_effects_3d">Surround-ljud</string>
     <string name="vb_video_effects_3d_summary">Förbättra djupet av ljud-reproduktionen för hörlurar och högtalare</string>
     <string name="vb_video_effects_3d_summary_headset">Ökar känslan av fängslande och omslutning när du lyssnar på ljudet i hörlurarna</string>
-    <string name="vb_video_effects_3d_surround">Surround-ljud</string>
+    <string name="vb_video_effects_3d_surround">Virtuellt fördjupat ljud</string>
     <string name="vb_video_effects_display_style">Stil</string>
     <string name="vb_video_effects_dolby">Dolby Atmos</string>
     <string name="vb_video_effects_dolby_dialog_enhancer">Förstärkt dialog</string>
@@ -4455,8 +4491,8 @@ Kvarvarande data inkluderar sparad data från förra månaden."</string>
     <string name="vb_video_effects_settings_stereo">Volym</string>
     <string name="vb_video_effects_some_headphone">Stöds av utvalda hörlursmodeller</string>
     <string name="vb_video_effects_spatial">Spåra huvudrörelse</string>
-    <string name="vb_video_effects_spatial_summary">"Justera surround-ljud basserat på huvudrörerlse
-*Stöds endast i hörlursmodeller för spel."</string>
+    <string name="vb_video_effects_spatial_summary">"Justera uppslukande ljud baserat på huvudrörelser
+*Stöds endast på hörlursmodeller för spelande"</string>
     <string name="vb_video_effects_srs_premium_sound">Ljud</string>
     <string name="vb_video_super_division">Skala upp</string>
     <string name="vb_video_super_division_desc">"Skala upp upplösningen automatiskt när den är ≤720p.

@@ -256,6 +256,10 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="other">Avinstallera %2$d spel (inklusive %1$s)</item>
         <item quantity="one">Avinstallera %2$d spel (inklusive %1$s)</item>
     </plurals>
+    <plurals name="gb_dialog_record_way_ai_desc">
+        <item quantity="other">Spela in viktiga ögonblick automatiskt och generera videor med sessionshöjdpunkter. Du kan välja att spara dem permanent efter varje spelsession. Osparade videor kommer att raderas automatiskt efter %1$d dagar.</item>
+        <item quantity="one">Spela in viktiga ögonblick automatiskt och generera videor med sessionshöjdpunkter. Du kan välja att spara dem permanent efter varje spelsession. Osparade videor kommer att raderas automatiskt efter %1$d dag.</item>
+    </plurals>
     <plurals name="gb_game_video_ai_record_finish_tips">
         <item quantity="other">Sparat %d AI-inspelningar till Game Turbo</item>
         <item quantity="one">Sparat %d AI-inspelning till Game Turbo</item>

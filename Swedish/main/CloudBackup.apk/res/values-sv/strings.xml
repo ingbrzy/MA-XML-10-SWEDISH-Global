@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
     <string name="about_to_recover">Vänta en stund…</string>
+    <string name="access_denied_info">För många försök. Vänta en minut eller två och försök igen.</string>
     <string name="actionbar_button_up_description">Tillbaka</string>
     <string name="afternoon">Eftermiddag</string>
     <string name="am">F.m</string>
@@ -364,6 +365,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="msg_restore_with_metered_network_hint">Om du fortsätter att återställa dessa objekt kommer mobildata användas för att ladda ner.</string>
     <string name="msg_restore_with_metered_network_pattern">"&lt;font color='red'>&lt;b>%s&lt;/b>&lt;/font> av filer kommer laddas ner."</string>
     <string name="network_error">Anslut till nätverk</string>
+    <string name="network_error_info">Ett nätverksfel uppstod. Kontrollera dina nätverksinställningar och försök igen.</string>
+    <string name="network_timeout_info">Det gick inte att ansluta till nätverket. Försök igen.</string>
     <string name="night">Kväll</string>
     <string name="no_account">Inte inloggad till Mi-konto.</string>
     <string name="no_backup">Hittade inga säkerhetskopior i Xiaomi Cloud.</string>
@@ -374,10 +377,13 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">Slå på och av säkerhetskopiering</string>
     <string name="other_device_main_space">Primära utrymmet</string>
     <string name="other_device_second_space">Sekundära utrymmet</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">Det går inte att återställa objekt i PC-läge. Stäng av PC-läget och försök igen.</string>
     <string name="pm">E.m</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="process_whole_recovery">Återställer \"%s\"</string>
+    <string name="progressbar_title">Skannar efter säkerhetsproblem…</string>
     <string name="provision_back">Tillbaka</string>
     <string name="provision_background_restore_more_data">Återställ fler objekt i bakgrunde</string>
     <string name="provision_error_connect_msg">Testa nätverket och försök igen. Säkerhetskopior är inte tillgängliga när enheten är offline.</string>
@@ -457,6 +463,7 @@ Kontrollera dina inställningar och försök igen."</string>
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>
     <string name="sunday_shortest">Sön</string>
+    <string name="system_error_info">Systemet är upptaget. Vänta en minut eller två och försök igen.</string>
     <string name="the_anniversary_of_lifting_martial_law">Årsdagen för lyftande av undantagstillstånd</string>
     <string name="the_anti_aggression_day">Anti-våldsdagen</string>
     <string name="the_arbor_day">Arbor Day</string>
@@ -514,6 +521,7 @@ Kontrollera dina inställningar och försök igen."</string>
     <string name="tuesday">Tisdag</string>
     <string name="tuesday_short">Tis</string>
     <string name="tuesday_shortest">Tis</string>
+    <string name="unknown_error_info">Okänt fel</string>
     <string name="unselected">Inte vald</string>
     <string name="unsupported_home">Uppdatera MIUI till den senaste versionen.</string>
     <string name="v7_preference_off">AV</string>

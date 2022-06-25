@@ -254,6 +254,7 @@ Om du behöver aktivera Miracast trycker du på [MENU]-knappen och väljer Mina 
     <string name="invisible_mode_dialog_title">Du är inkognito</string>
     <string name="keyguard_security_setting_privacy_policy">Integritetspolicy</string>
     <string name="midnight">Natt</string>
+    <string name="miuix_access_state_desc">Valt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>

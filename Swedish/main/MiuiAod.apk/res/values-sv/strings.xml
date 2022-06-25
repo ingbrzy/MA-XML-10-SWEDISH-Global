@@ -167,6 +167,7 @@ dd MM"</string>
     <string name="midnight">Natt</string>
     <string name="mini_time">Liten klocka</string>
     <string name="minimalist_clock">Enkel klocka</string>
+    <string name="miuix_access_state_desc">Valt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
@@ -270,7 +271,7 @@ dd MM"</string>
     <string name="select_notification_notify_style">Välj aviseringseffekt</string>
     <string name="send">Skicka</string>
     <string name="share">Dela</string>
-    <string name="share_to_community">Dela till Mi Community</string>
+    <string name="share_to_community">Dela till Xiaomi Community</string>
     <string name="show_battery">Visa batteristatus</string>
     <string name="show_battery_status">Visa batteristatus</string>
     <string name="show_lunar">Visa traditionell kinesisk kalender</string>
@@ -283,10 +284,11 @@ dd MM"</string>
 underbart kommer hända"</string>
     <string name="standard_clock_panel">Standard</string>
     <string name="standard_style">Standard</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Stegräkning tillhandahålls av Xiaomi Health. Acceptera Xiaomi Healths regler och villkor för att fortsätta.</string>
     <string name="step_component_info_desc">Stegräkningen förvandlas till en trofé när ditt mål är uppnått. Stegräkningen tillhandahålls av Xiaomi Health.</string>
     <string name="step_component_info_tip">Stegräkning tillhandahålls av Xiaomi Health. Installera eller uppdatera Xiaomi Health och acceptera dess regler och villkor för att fortsätta.</string>
-    <string name="step_to_image_community">Hitta mer i Mi Community</string>
+    <string name="step_to_image_community">Hitta mer i Xiaomi Community</string>
     <string name="summary">För att minska strömförbrukningen kommer objekt inte att visas när din enhet ligger i mörkret en längre tid.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Söndag</string>
@@ -338,6 +340,7 @@ underbart kommer hända"</string>
     <string name="the_united_nations_day">FN-dagen</string>
     <string name="the_valentines_day">Alla hjärtans dag</string>
     <string name="the_water_lantern_festival">Water Lantern-festivalen</string>
+    <string name="theme_manager_other">Fler objekt</string>
     <string name="thursday">Torsdag</string>
     <string name="thursday_short">Tor</string>
     <string name="thursday_shortest">Tor</string>

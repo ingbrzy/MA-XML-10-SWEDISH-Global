@@ -37,6 +37,7 @@
     <string name="add_private_files">Lägg till filer</string>
     <string name="add_remote">Lägg till fjärransluten enhet</string>
     <string name="agree_all">Jag har läst och godkänt alla följande regler och villkor.</string>
+    <string name="agree_privacy_policy">Samtyck till integritetspolicyn</string>
     <string name="all">Alla</string>
     <string name="already_latest_version">Aktuell version är uppdaterad.</string>
     <string name="anonymous">Anonym</string>
@@ -207,6 +208,7 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="fcm_fallback_notification_channel_label">Diverse</string>
     <string name="feedback_desc">Beskriv problemet som du har stött på</string>
     <string name="feedback_send_email_body_extra_info">Ta inte bort följande info. Det kommer att hjälpa oss hitta problemet.</string>
+    <string name="feeling_ok">Neutral</string>
     <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Läsbar: </string>
     <string name="file_info_canwrite">Skrivbar: </string>
@@ -232,6 +234,7 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="ftp_username_hint">Användarnamn</string>
     <string name="gbk_summary">Förenklad Kinesisk Windows standardkodning</string>
     <string name="gigabyteShort">GB</string>
+    <string name="great">Mycket nöjd</string>
     <string name="grid_order">Rutnätsvy</string>
     <string name="homepage_tab_recent">Senast</string>
     <string name="host">Värd</string>
@@ -277,7 +280,7 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="menu_item_usb">USB</string>
     <string name="mi_router_label">Router</string>
     <string name="mode">Läge</string>
-    <string name="month_day_format">dd MMM</string>
+    <string name="month_day_format">d MMM</string>
     <string name="more">Mer</string>
     <string name="more_option">Fler alternativ</string>
     <string name="move_failed">Kan ej flytta</string>
@@ -307,6 +310,7 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="not_connect_user">Kan inte ansluta: %1$s och %2$s</string>
     <string name="not_installed_documentsui">DokumentUI är inte installerat</string>
     <string name="not_support_documentui">DocumentUI stöds inte på denna enhet</string>
+    <string name="not_very_dissatisfied">Missnöjd</string>
     <string name="notif_server_starting">Startar FTP-server…</string>
     <string name="notif_title">FTP-servern är igång</string>
     <string name="notification_wechat_expired_empty">WeChat har redan raderat dessa videoklipp.</string>
@@ -387,7 +391,7 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="port">Port</string>
     <string name="port_range">Portnumret måste vara mellan 1024-65535</string>
     <string name="possible_permissions">Valfria behörigheter</string>
-    <string name="privacy_accept">Godkänn &amp; fortsätt</string>
+    <string name="privacy_accept">Godkänn och fortsätt</string>
     <string name="privacy_cancel"><u>Acceptera inte</u></string>
     <string name="privacy_desc">Välkommen till Utforskaren! Förutom de grundläggande funktionerna tillhandahåller denna app även följande tjänster:</string>
     <string name="privacy_experience_statement">Anslut vårt Användarupplevelseprogram för att dela användardata med oss för att hjälpa oss förbättra våra produkter och tjänster.</string>
@@ -402,7 +406,7 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="private_toast_hint2">Tryck och håll en fil eller en mapp för att göra den privat.</string>
     <string name="promot_enctypt_password">Ange lösenordet som används för att låsa upp din enhet</string>
     <string name="qr_code">QR-kod</string>
-    <string name="recent_apk_status_install">Installerat</string>
+    <string name="recent_apk_status_install">INSTALLERAD</string>
     <string name="recommended_content">Rekommendationer</string>
     <string name="remind_no_notice">Kom ihåg mitt val</string>
     <string name="rename_alert">Om du ändrar den här filen anknytning, kan du inte att kunna öppna det.</string>
@@ -439,6 +443,7 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="s5">Skapa kalenderhändelse</string>
     <string name="s6">Tillåter du att annonsen skapar en kalenderhändelse?</string>
     <string name="s7">Testannons</string>
+    <string name="satisfied">Nöjd</string>
     <string name="save_seven_day">Rensa en gång i veckan</string>
     <string name="scan_code_download_from_play">Skanna den här QR-koden för att ladda ner från Play butik</string>
     <string name="search_description">Sök på alla filer på enheten</string>
@@ -494,7 +499,9 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="storage_usb">USB-lagring</string>
     <string name="storage_warning">Kan inte använda extern lagring</string>
     <string name="str_clean">Städa</string>
-    <string name="tab_common_app">Appar &amp; mappar</string>
+    <string name="switch_to_grid_mode">Växlade till rutnätsvy</string>
+    <string name="switch_to_list_mode">Växla till listvy</string>
+    <string name="tab_common_app">Appar och mappar</string>
     <string name="tab_more">Mer</string>
     <string name="terabyteShort">TB</string>
     <string name="terms_conditions">Användarvillkor</string>
@@ -528,13 +535,14 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="user_notice_term_of_service">Användaravtal</string>
     <string name="utf8_summary">System FTP-standardkodning</string>
     <string name="version_name">Version</string>
+    <string name="very_dissatisfied">Mycket missnöjd</string>
     <string name="view_by_document">Visa i Filer</string>
     <string name="wechat_video">Video vid %s</string>
     <string name="whatsapp_cache_garbage">Cache</string>
     <string name="whatsapp_cache_garbage_cleanup">Rensa</string>
     <string name="whatsapp_cache_garbage_tip">Att rensa cache tar inte bort något viktigt. Du kommer att kunna använda appen som vanligt efter detta.</string>
     <string name="wifi_state">Wi-Fi-status</string>
-    <string name="year_month_day_format">dd MMM, yyyy</string>
+    <string name="year_month_day_format">d MMM yyyy</string>
     <string name="yes">Ja</string>
     <string name="yesterday">Igår</string>
 </resources>

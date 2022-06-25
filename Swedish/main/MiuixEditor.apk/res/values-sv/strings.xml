@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_frequent_phrases">Lägg till vanliga fraser</string>
+    <string name="edit_frequent_phrases">Redigera vanliga fraser</string>
+    <string name="frequent_phrases">Frekventa fraser</string>
+    <string name="query">Sök</string>
+    <string name="select">Markera</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

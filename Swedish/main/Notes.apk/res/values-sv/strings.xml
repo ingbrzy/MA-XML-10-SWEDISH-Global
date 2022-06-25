@@ -496,6 +496,7 @@
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -557,6 +558,7 @@
     <string name="note_sort_way">Sortera</string>
     <string name="notealert_enter">Öppna anteckning</string>
     <string name="notealert_ok">Avfärda</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Anteckningar är en system-app. Du kommer inte kunna använda denna app efter du avinstallerat den.</string>
     <string name="notes_description_title">Avinstallera Anteckningar?</string>
     <string name="notification_content_add_todo_from_other_app">Du lade till en ny uppgift. Tryck för att visa.</string>
@@ -946,6 +948,7 @@ Tillåt Anteckningar att spela in ljud."</string>
     <string name="view_all_notes">Visa alla</string>
     <string name="warn_cannot_add_new_bullet">Kan inte lägga till ny punktlista eftersom anteckningen är för lång</string>
     <string name="warn_cannot_add_new_checkbox">Kan inte lägga till ny kryssruta eftersom anteckningen är för lång</string>
+    <string name="warn_cannot_add_new_content">Kan inte lägga till nytt innehåll eftersom anteckningen är för lång</string>
     <string name="warn_cannot_add_new_doodle">Kan inte lägga till nytt klotter eftersom anteckningen är för lång</string>
     <string name="warn_cannot_add_new_element">Kan inte lägga till nya objekt eftersom anteckningen är för lång</string>
     <string name="warn_cannot_add_new_link_card">Kan inte lägga till ny länk eftersom anteckningen är för lång</string>
@@ -972,6 +975,8 @@ Tillåt Anteckningar att spela in ljud."</string>
     <string name="widget_size_item_big">Stor</string>
     <string name="widget_size_item_medium">Mellan</string>
     <string name="widget_size_item_small">Liten</string>
+    <string name="widget_size_item_super_big">Extra stor</string>
+    <string name="widget_size_not_support">Extra stora widgets stöds inte på den här enheten</string>
     <string name="widget_take_notes_title">Anteckningar</string>
     <string name="yesterday">Igår</string>
 </resources>
