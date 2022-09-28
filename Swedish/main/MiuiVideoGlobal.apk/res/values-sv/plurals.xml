@@ -98,6 +98,14 @@ FInns endast idag"</item>
         <item quantity="other">Du har tittat på %d minuter idag</item>
         <item quantity="one">Du har tittat på %d minut idag</item>
     </plurals>
+    <plurals name="incentive_popup_window_share_success">
+        <item quantity="other">Delad. Du tjänade %d poäng.</item>
+        <item quantity="one">Delad. Du har tjänat %d poäng.</item>
+    </plurals>
+    <plurals name="incentive_popup_window_subscribe_success">
+        <item quantity="other">Prenumererar. Du har tjänat %d poäng.</item>
+        <item quantity="one">Prenumererar. Du har tjänat %d poäng.</item>
+    </plurals>
     <plurals name="incentive_task_watchvideo_begin">
         <item quantity="other">Tjäna %d poäng!</item>
         <item quantity="one">Tjäna %d poäng!</item>

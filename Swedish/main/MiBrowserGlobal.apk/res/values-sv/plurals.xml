@@ -61,12 +61,20 @@
         <item quantity="one">%1$d dag sedan</item>
     </plurals>
     <plurals name="download_business_v5_edit_mode_title">
-        <item quantity="other">%1$d valda</item>
-        <item quantity="one">%1$d vald</item>
+        <item quantity="other">%1$d objekt valda</item>
+        <item quantity="one">%1$d objekt valt</item>
     </plurals>
     <plurals name="download_dialog_confirm_delete_downloads_message">
         <item quantity="other">Ta bort %d uppgifter?</item>
         <item quantity="one">Ta bort %d uppgift?</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Spola framåt %d sekunder</item>
+        <item quantity="one">Spola framåt %d sekund</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Spola tillbaka %d sekunder</item>
+        <item quantity="one">Spola tillbaka %d sekund</item>
     </plurals>
     <plurals name="file_count">
         <item quantity="other">%1$d objekt</item>
@@ -108,9 +116,17 @@
         <item quantity="other">om %d minuter</item>
         <item quantity="one">om 1 minut</item>
     </plurals>
+    <plurals name="intercept_panel_img_text">
+        <item quantity="other">%d</item>
+        <item quantity="one">%d</item>
+    </plurals>
+    <plurals name="intercept_panel_protection_total">
+        <item quantity="other">Skyddad %d gånger</item>
+        <item quantity="one">Skyddad %d gång</item>
+    </plurals>
     <plurals name="le_notification_download_completed">
-        <item quantity="other">%d objekt nedladdade</item>
-        <item quantity="one">%d objekt nedladdat</item>
+        <item quantity="other">%1$s objekt har laddats ned</item>
+        <item quantity="one">%1$s objekt har laddats ned</item>
     </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Nyss</item>
@@ -148,6 +164,10 @@
         <item quantity="other">%d minuter sedan</item>
         <item quantity="one">1 minut sedan</item>
     </plurals>
+    <plurals name="person_menu_protect_count">
+        <item quantity="other">Skyddad %s gånger</item>
+        <item quantity="one">Skyddad %s gång</item>
+    </plurals>
     <plurals name="players">
         <item quantity="other">%d spelare</item>
         <item quantity="one">%d spelare</item>
@@ -155,6 +175,10 @@
     <plurals name="pref_adblock_counts">
         <item quantity="other">Blockerat %d annonser</item>
         <item quantity="one">Blockerat %d annons</item>
+    </plurals>
+    <plurals name="reading__search_resultful">
+        <item quantity="other">Hittade %1$d resultat</item>
+        <item quantity="one">Hittade%1$d resultat</item>
     </plurals>
     <plurals name="search_trending_views">
         <item quantity="other">%s sökbegäran</item>
@@ -176,6 +200,10 @@
         <item quantity="other">%d populära låtar</item>
         <item quantity="one">%d populär låt</item>
     </plurals>
+    <plurals name="tag_count">
+        <item quantity="other">%d flikar</item>
+        <item quantity="one">%d flik</item>
+    </plurals>
     <plurals name="v5_edit_mode_title">
         <item quantity="other">%1$d objekt valda</item>
         <item quantity="one">%1$d objekt vald</item>
@@ -183,6 +211,10 @@
     <plurals name="video_collection_reminder_view">
         <item quantity="other">Du har inte tittat på %d favoritvideor på länge.</item>
         <item quantity="one">Du har inte tittat på %d favoritvideo på länge.</item>
+    </plurals>
+    <plurals name="video_views">
+        <item quantity="other">%s visningar</item>
+        <item quantity="one">%s visning</item>
     </plurals>
     <plurals name="videos_updated_amount">
         <item quantity="other">Kolla in %1$d nya video</item>
@@ -199,5 +231,45 @@
     <plurals name="vote_all_people">
         <item quantity="other">%d personer har röstat</item>
         <item quantity="one">%d person har röstat</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_ad">
+        <item quantity="other">Blockerat %d annonser</item>
+        <item quantity="one">Blockerat %d annons</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_allow_times">
+        <item quantity="other">Tillåten %d gånger</item>
+        <item quantity="one">Tillåten %d gång</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_disallow_times">
+        <item quantity="other">Begränsad %d gånger</item>
+        <item quantity="one">Begränsad %d gång</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_privacy">
+        <item quantity="other">Stoppad %d gånger</item>
+        <item quantity="one">Stoppad %d gång</item>
+    </plurals>
+    <plurals name="web_permission_ad_subtitle">
+        <item quantity="other">Blockerat %s annonser</item>
+        <item quantity="one">Blockerat %s annons</item>
+    </plurals>
+    <plurals name="web_permission_allow_default_subtitle">
+        <item quantity="other">Tillåten %s gånger</item>
+        <item quantity="one">Tillåten %s gång</item>
+    </plurals>
+    <plurals name="web_permission_deny_default_subtitle">
+        <item quantity="other">Begränsad %s gånger</item>
+        <item quantity="one">Begränsad %s gång</item>
+    </plurals>
+    <plurals name="web_permission_privacy_subtitle">
+        <item quantity="other">Stoppad %s gånger</item>
+        <item quantity="one">Stoppad %s gång</item>
+    </plurals>
+    <plurals name="web_permission_protect_subtitle_day">
+        <item quantity="other">%s dagar</item>
+        <item quantity="one">%s dag</item>
+    </plurals>
+    <plurals name="web_permission_protect_subtitle_time">
+        <item quantity="other">%s gånger</item>
+        <item quantity="one">%s gång</item>
     </plurals>
 </resources>

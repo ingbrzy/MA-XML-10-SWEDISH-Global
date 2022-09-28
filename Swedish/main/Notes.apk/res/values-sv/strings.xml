@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Dela med</string>
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
+    <string name="access_denied_info">För många försök. Vänta en minut eller två och försök igen.</string>
     <string name="action_collapse">Dölj</string>
     <string name="action_expand">Visa mer</string>
     <string name="action_folder_description">Visa mappar</string>
@@ -137,6 +138,7 @@
     <string name="dlg_hide_message">Döljer…</string>
     <string name="dlg_info_creating_message">Skapa image…</string>
     <string name="dlg_info_save_to_gallery_message">Spara bilden till Gallery…</string>
+    <string name="dlg_info_save_to_local_message">Sparar…</string>
     <string name="dlg_message_password_reset">Dolda anteckningars lösenord kommer att ersättas med sekretessbelagda lösenord som fungerar för meddelanden, foton och dolda mappar</string>
     <string name="dlg_message_set_password">Lösenord för integritetsskydd fungerar för meddelanden, bilder och dolda mappar</string>
     <string name="dlg_message_use_privacy_password">Använd lösenord för integritetsskydd. Det fungerar för meddelanden, foton och dolda mappar.</string>
@@ -496,6 +498,7 @@
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -522,6 +525,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">Byt till att välja en dag genom att trycka</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Byt till text som inmatningsläge</string>
     <string name="mtrl_picker_toggle_to_year_selection">Byt till att välja ett år genom att trycka</string>
+    <string name="network_error_info">Ett nätverksfel uppstod. Kontrollera dina nätverksinställningar och försök igen.</string>
+    <string name="network_timeout_info">Det gick inte att ansluta till nätverket. Försök igen.</string>
     <string name="new_app_name">Mi Anteckningar</string>
     <string name="new_audio_create_cancel_talkback_des">Avbruten</string>
     <string name="new_audio_create_done_talkback_des">Skapad</string>
@@ -552,11 +557,14 @@
     <string name="note_mindnote_entrance_hint_newversion">"Börja skriva "</string>
     <string name="note_mindnote_entrance_icon_text">Skapa en tankekarta</string>
     <string name="note_mindnote_entrance_icon_text_newversion">Skapa en tankekarta</string>
+    <string name="note_mindnote_not_support_in_phone_model">Kan inte redigera tankekartor på den här enheten</string>
     <string name="note_module_name">Anteckningar</string>
     <string name="note_not_text_stub">Ingen text</string>
     <string name="note_sort_way">Sortera</string>
+    <string name="note_write_hint">Börja skriva</string>
     <string name="notealert_enter">Öppna anteckning</string>
     <string name="notealert_ok">Avfärda</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Anteckningar är en system-app. Du kommer inte kunna använda denna app efter du avinstallerat den.</string>
     <string name="notes_description_title">Avinstallera Anteckningar?</string>
     <string name="notification_content_add_todo_from_other_app">Du lade till en ny uppgift. Tryck för att visa.</string>
@@ -619,6 +627,8 @@
     <string name="permission_phone_state_desc">För att sluta spela in röstanteckningar under samtal</string>
     <string name="permission_read_contact_desc">Associera anteckningarna som skapas under samtal med kontakter</string>
     <string name="permission_storage_desc">För att spara anteckningar som bilder</string>
+    <string name="permission_storage_desc_new_v12">För att lägga till bilder till anteckningar och spara anteckningar som bilder</string>
+    <string name="permission_storage_desc_pad_new_v12">För att lägga till bilder till anteckningar och spara anteckningar som bilder</string>
     <string name="permission_storage_desc_pad_v12">För att lägga till bilder till anteckningar och spara anteckningar som bilder</string>
     <string name="permission_storage_desc_v12">För att lägga till bilder till anteckningar och spara anteckningar som bilder</string>
     <string name="permission_xiaoai_desc">&lt;Data>Mi AI samlar dina röstinspelningar och enhets-ID för att transkribera ljud och skapa röstanteckningar. Läs mer Mi AI &lt;a href=\"%1$s\">integritetspolicy&lt;/a>.&lt;/Data></string>
@@ -656,6 +666,7 @@
     <string name="privacy_note_content_empty">Inga objekt här ännu.</string>
     <string name="private_entry_available">Släpp för att öppna privat mapp</string>
     <string name="private_entry_default">Dra ner för att öppna privat mapp</string>
+    <string name="progressbar_title">Skannar efter säkerhetsproblem…</string>
     <string name="quick_note_link_default_text">URL</string>
     <string name="quick_note_new_user_guide">Med snabba anteckningar kan du skapa anteckningar och utdrag</string>
     <string name="recover_notes_hint">Ett fel inträffade, gå till i.mi.com för att återställa anteckningar.</string>
@@ -704,6 +715,9 @@
     <string name="save_to_gallery_failure_message">Kunde inte spara</string>
     <string name="save_to_gallery_icon_name">Spara till Galleri</string>
     <string name="save_to_gallery_success_message">Sparad</string>
+    <string name="save_to_local_failure_message">Det gick inte att spara</string>
+    <string name="save_to_local_icon_name">Spara</string>
+    <string name="save_to_local_success_message">Sparad</string>
     <string name="search">Anteckningar</string>
     <string name="search_hint">Sök anteckningar</string>
     <string name="search_keyword_notes">Anteckningar;Memo</string>
@@ -765,6 +779,7 @@
     <string name="sync_note_folder">%1$s och %2$s</string>
     <string name="sync_note_todo">%1$s och %2$s</string>
     <string name="sync_tips">Tryck för att synkronisera anteckningar med molnet.</string>
+    <string name="system_error_info">Systemet är upptaget. Vänta en minut eller två och försök igen.</string>
     <string name="the_anniversary_of_lifting_martial_law">Årsdagen för lyftande av undantagstillstånd</string>
     <string name="the_anti_aggression_day">Anti-våldsdagen</string>
     <string name="the_arbor_day">Arbor Day</string>
@@ -940,6 +955,7 @@ Tillåt Anteckningar att spela in ljud."</string>
     <string name="tuesday_shortest">Tis</string>
     <string name="unclassfied_folder_name">Okategoriserad</string>
     <string name="undo">Ångra</string>
+    <string name="unknown_error_info">Okänt fel</string>
     <string name="unknown_source">Okänd Källa</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>

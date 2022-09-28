@@ -122,6 +122,14 @@ Oppmärkning: Fil kommer också att raderas från den här enheten."</item>
         <item quantity="other">&lt;font color==\"red\">%d låtar&lt;/font> laddas ned</item>
         <item quantity="one">&lt;font color==\"red\">%d låt&lt;/font> laddas ned</item>
     </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Spola framåt %d sekunder</item>
+        <item quantity="one">Spola framåt %d sekund</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Spola tillbaka %d sekunder</item>
+        <item quantity="one">Spola tillbaka %d sekund</item>
+    </plurals>
     <plurals name="free_downloads_num_hint">
         <item quantity="other">%d gratis nerladdningar återstår</item>
         <item quantity="one">%d gratis nerladdning återstår</item>
@@ -205,6 +213,10 @@ Oppmärkning: Fil kommer också att raderas från den här enheten."</item>
     <plurals name="sound_fade_duration_in_seconds">
         <item quantity="other">Övertoning mellan låtar: %d sekunder</item>
         <item quantity="one">Övertoning mellan låtar: %d sekund</item>
+    </plurals>
+    <plurals name="task_guide">
+        <item quantity="other">Tjäna %1$d mynt idag</item>
+        <item quantity="one">Tjäna %1$d mynt idag</item>
     </plurals>
     <plurals name="video_count">
         <item quantity="other">Videor</item>

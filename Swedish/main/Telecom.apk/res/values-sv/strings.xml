@@ -609,6 +609,7 @@ Val"</string>
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -723,6 +724,7 @@ Val"</string>
     <string name="private_dns_mode_provider">Värdnamn för leverantör av privat DNS</string>
     <string name="private_dns_mode_provider_failure">Kan inte ansluta</string>
     <string name="private_dns_mode_provider_hostname_hint">Ange värdnamn för DNS-leverantör</string>
+    <string name="process_kernel_label">Operativsystemet Android</string>
     <string name="profile_connect_timeout_subtext">Det gick inte att ansluta. Stäng av enheten och slå på den igen</string>
     <string name="profile_info_settings_title">Profilinformation</string>
     <string name="remaining_length_format">%1$s kvar</string>

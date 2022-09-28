@@ -466,7 +466,9 @@ Snabbare anslutningsprotokoll."</string>
     <string name="hdcp_checking_dialog_title">Ställ in beteende vid HDCP-kontroll</string>
     <string name="hdcp_checking_title">Kontroll av HDCP</string>
     <string name="headset_battery_fw_failed">Ladda din enhet först</string>
+    <string name="headset_battery_low">Svagt batteri. Ladda dina hörlurar nu.</string>
     <string name="headset_connect_device">Anslut enhet</string>
+    <string name="headset_connect_timeout">Anslutningstiden för lång. Starta igen.</string>
     <string name="headset_device_check_failed">Kunde inte kolla efter uppdateringar</string>
     <string name="headset_device_donot_move">Håll enheten i närheten</string>
     <string name="headset_device_enter_upgrade_failed">Kunde inte initiera uppdateringen</string>
@@ -492,6 +494,7 @@ Snabbare anslutningsprotokoll."</string>
     <string name="headset_loss_notify_summary">Det verkar som att minst en av dina hörlurar inte är i laddningsfodralet. Ta en titt omkring dig!</string>
     <string name="headset_loss_notify_summary1">Det verkar som om dina hörlurar inte är i fodralet. Lägg tillbaka dem och låt dem laddas.</string>
     <string name="headset_loss_notify_title">Saknar hörlursvarning</string>
+    <string name="headset_not_in_case">Sätt in båda hörlurarna i fodralet och starta igen</string>
     <string name="headset_read_fw_state">Kunde inte hämta uppdateringsinformation</string>
     <string name="headset_update_failed">Kunde inte uppdatera</string>
     <string name="headset_update_ok">Klart</string>
@@ -683,6 +686,7 @@ Snabbare anslutningsprotokoll."</string>
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>

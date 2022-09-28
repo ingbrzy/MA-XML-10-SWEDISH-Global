@@ -1219,6 +1219,7 @@ prioriterade"</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-kort saknas eller kan inte läsas. Sätt i ett SIM-kort.</string>
     <string name="keyguard_missing_sim_message">Inget SIM-kort i telefonen.</string>
     <string name="keyguard_missing_sim_message_short">Inget SIM-kort</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Nätverk låst</string>
     <string name="keyguard_password_enter_password_code">Lås upp med lösenordet</string>
     <string name="keyguard_password_enter_pin_code">Ange pinkod</string>
@@ -1528,12 +1529,14 @@ Du är även ansluten till %3$s som kan bevaka din privata nätverksaktivitet."<
 
 Kontakta administratören om du vill veta mer."</string>
     <string name="monitoring_description_ca_cert_settings">Öppna betrodda användaruppgifter</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">En certifikatutfärdare är installerad på enheten. Din säkra nätverkstrafik kan övervakas och ändras.</string>
     <string name="monitoring_description_do_body">Administratören kan övervaka och hantera inställningar, företagsåtkomst, appar, data med koppling till enheten och enhetens plats.</string>
     <string name="monitoring_description_do_body_vpn">Du är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-postmeddelanden, appar och webbplatser.</string>
     <string name="monitoring_description_do_header_generic">Enheten hanteras av %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s hanterar enheten med hjälp av %2$s.</string>
     <string name="monitoring_description_do_learn_more">Läs mer</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Organisationen har installerat en certifikatutfärdare i jobbprofilen. Din säkra nätverkstrafik kan övervakas och ändras.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Jobbprofilen är ansluten till %1$s som kan övervaka din nätverksaktivitet, exempelvis e-post, appar och webbplatser.</string>
     <string name="monitoring_description_managed_profile_network_logging">Administratören har aktiverat nätverksloggning som övervakar trafik i jobbprofilen men inte den privata profilen.</string>
@@ -1567,6 +1570,7 @@ Kontakta administratören om du vill veta mer.
 
 Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</string>
     <string name="monitoring_description_vpn_settings">Öppna VPN-inställningarna</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s kanske kan komma åt data kopplad till den här enheten, hantera appar och ändra enhetens inställningar.
 
 Kontakta %2$s om du har frågor."</string>
@@ -1647,6 +1651,7 @@ Kontakta %2$s om du har frågor."</string>
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -1677,6 +1682,7 @@ Kontakta %2$s om du har frågor."</string>
     <string name="nav_bar">Navigeringsfält</string>
     <string name="nav_bar_default">(standard)</string>
     <string name="nav_bar_layout">Layout</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="new_notification_image_content_description">%1$s skickade en bild</string>
     <string name="new_notification_text_content_description">%1$s skickade ett meddelande: %2$s</string>
     <string name="new_status_content_description">%1$s har gjort en statusuppdatering: %2$s</string>
@@ -1900,6 +1906,7 @@ Kontakta %2$s om du har frågor."</string>
     <string name="private_dns_mode_provider">Värdnamn för leverantör av privat DNS</string>
     <string name="private_dns_mode_provider_failure">Kan inte ansluta</string>
     <string name="private_dns_mode_provider_hostname_hint">Ange värdnamn för DNS-leverantör</string>
+    <string name="process_kernel_label">Operativsystemet Android</string>
     <string name="profile_connect_timeout_subtext">Det gick inte att ansluta. Stäng av enheten och slå på den igen</string>
     <string name="profile_info_settings_title">Profilinformation</string>
     <string name="profile_owned_footer">Det kan hända att profilen övervakas</string>
@@ -2269,6 +2276,8 @@ vara övervakat"</string>
     <string name="status_bar_clock_date_time_format_12">hh:mm, EEEE, dd MMM</string>
     <string name="status_bar_clock_date_weekday_format">EEEE d MMMM</string>
     <string name="status_bar_clock_date_weekday_format_12">EEEE d MMMM</string>
+    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
+    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"E
 d MMM"</string>
     <string name="status_bar_date_format_12">"E

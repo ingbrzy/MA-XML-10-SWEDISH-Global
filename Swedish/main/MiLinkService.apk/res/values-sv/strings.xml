@@ -35,13 +35,13 @@
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
+    <string name="cast_image_des">Handledning för spridning</string>
     <string name="casting_tips">Castar…</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
     <string name="close">Stäng</string>
     <string name="close_hotspot_hint">Avaktivera internetdelning innan du castar</string>
     <string name="close_slave_wifi_hint">Koppla från tilläggs-Wi-Fi-nätverket innan du castar</string>
     <string name="close_slave_wifi_hint_china">Disconnect from auxiliary WLAN networks before casting</string>
-    <string name="common_google_play_services_unknown_issue">Det har uppstått ett fel mellan %1$s och Google Play-tjänsterna. Försök igen.</string>
     <string name="config_wifi_label_china">Xiaomi Conference Tapcast WLAN</string>
     <string name="config_wifi_label_global">Xiaomi Conference Tapcast Wi-Fi</string>
     <string name="connect_device_fail">Det gick inte att ansluta till enheten</string>
@@ -65,7 +65,7 @@
     <string name="dialog_connect_verify_perssion_fail">Det gick inte att tillåta casting på din TV. Vänta en minut eller två och försök igen.</string>
     <string name="dialog_connected">Ansluten</string>
     <string name="dialog_connecting">Ansluter…</string>
-    <string name="dialog_location_permission_message">Denna app måste få tillgång till din plats för att kunna finna externa bildskärmar i närheten. Välj \"Tillåt alltid\" samtidigt som du ger denna behörighet för att undvika eventuella fel.</string>
+    <string name="dialog_location_permission_message">Denna app måste få tillgång till din plats för att kunna finna externa bildskärmar i närheten. Välj \"Tillåt hela tiden\" samtidigt som du ger denna behörighet för att undvika eventuella fel.</string>
     <string name="dialog_location_permission_title">Behörigheter krävs</string>
     <string name="dialog_miplay_permission_message">Tillåt Casting att spela in ljud, få tillgång till filer i interna lagringen, och få tillgång till din plats för att kunna använda denna funktion normalt. Tryck på \"Inställningar\" och välj \"App-behörigheter\" för att fortsätta.</string>
     <string name="dialog_miplay_permission_positive">Inställningar</string>
@@ -89,7 +89,7 @@ Titta i hjälpen om du får problem med att ansluta."</string>
     <string name="dialog_scanning_device">Söker efter enheter i närheten…</string>
     <string name="dialog_scanning_precondition">Aktivera Wi-Fi och Bluetooth på din telefon för att använda trådlös bildskärm.</string>
     <string name="dialog_scanning_precondition_new_china">Turn on WLAN, Bluetooth, and location services to be able to use casting. Turn on now?</string>
-    <string name="dialog_scanning_precondition_new_global">Slå på WiFi-, Bluetooth- och platstjänster för att kunna använda sändning. Vill du slå på dem nu?</string>
+    <string name="dialog_scanning_precondition_new_global">Slå på Wi-Fi och platstjänster för att kunna använda sändning. Vill du slå på dem nu?</string>
     <string name="dialog_select_tv">Välj enhet (%1$d)</string>
     <string name="dialog_show_help">Hjälp</string>
     <string name="disconnect">Sluta casta</string>
@@ -164,6 +164,7 @@ Titta i hjälpen om du får problem med att ansluta."</string>
     <string name="global_privacy_main">Projicering av objekten från din telefons skärm på en större extern bildskärm.</string>
     <string name="global_privacy_negative">Samtycker inte</string>
     <string name="global_privacy_positive">Samtycka</string>
+    <string name="global_privacy_screencast">Under inspelning eller när du castar, kan tjänsteleverantören för den här funktionen plocka upp all känslig information som visas på din skärm, eller som visas från din enhet, inklusive känslig information så som ljud, lösenordsinfo., foton och meddelanden.</string>
     <string name="global_privacy_tip">&lt;Data>Vi behöver samla in nödvändig personlig information för att förse dig med de grundläggande tjänsterna och optimera sändningsprocessen. Du kan lära dig hur vi hanterar den information vi samlar in i vår &lt;a href=%1$s>integritetspolicy&lt;/a>. Du kan när som helst återkalla ditt samtycke till sekretesspolicyn i inställningarna.&lt;/Data></string>
     <string name="hang_up">Casta med skärmen avstängd</string>
     <string name="hang_up_alert_dialog_content">Fortsätt casta när skärmen på din enhet är avstängd. Den här funktionen minskar strömförbrukningen. Tryck på strömknappen för att aktivera skärmen igen.</string>
@@ -367,6 +368,8 @@ Om du behöver aktivera Miracast trycker du på [MENU]-knappen och väljer Mina 
     <string name="privacy_permission_nfc_desc">För att koppla enheter med NFC</string>
     <string name="privacy_permission_optional">Valfria behörigheter</string>
     <string name="privacy_permission_optional_desc">Används för ytterligare funktioner medans du använder dem</string>
+    <string name="privacy_permission_screencast">Åtkomst till information på skärmen</string>
+    <string name="privacy_permission_screencast_desc">Under inspelning eller när du castar, kan tjänsteleverantören för den här funktionen plocka upp all känslig information som visas på din skärm, eller som visas från din enhet, inklusive känslig information så som ljud, lösenordsinfo., foton och meddelanden</string>
     <string name="privacy_permission_wlan">Slå på och stänga av Wi-Fi</string>
     <string name="privacy_permission_wlan_china">Turning WLAN on and off</string>
     <string name="privacy_permission_wlan_desc">För att hitta tillgängliga enheter i närheten</string>

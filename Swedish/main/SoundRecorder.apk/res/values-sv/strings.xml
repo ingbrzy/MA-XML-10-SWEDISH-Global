@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Dela med</string>
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
+    <string name="access_denied_info">För många försök. Vänta en minut eller två och försök igen.</string>
     <string name="actionbar_button_up_description">Tillbaka</string>
     <string name="add_remark_hint">Ange din kommentar här</string>
     <string name="add_remark_tip">Tryck för att lägga till kommentar</string>
@@ -85,6 +86,8 @@
     <string name="dialog_privacy_revoke_tips">När du upphävt befogenheterna kommer appen sluta samla in data och alla relaterade data tas bort från servrarna. Detta kan göra appen instabil. Upphäva befogenheterna ändå? För att säkerställa säkerheten på ditt konto, logga in på i.mi.com innan du upphäver befogenheter för Xiaomi Cloud-tjänsterna.</string>
     <string name="dialog_title_storage_full">Inte tillräckligt med utrymme</string>
     <string name="download">Ladda ned</string>
+    <string name="download_pause">Nedladdningen pausad. Tryck för att återuppta.</string>
+    <string name="downloading">Laddar ner. Tryck för att pausa.</string>
     <string name="duration_format_hour">%sh</string>
     <string name="duration_format_minute">%sm</string>
     <string name="duration_format_second">%ss</string>
@@ -220,9 +223,9 @@
     <string name="material_timepicker_text_input_mode_description">Byt till textinmatningsläget och ange tid.</string>
     <string name="menu">Meny</string>
     <string name="message_file_size_error">Inspelningen har nått den högsta tillåtna längden som stöds av %s</string>
-    <string name="mi_account_msg">Logga in med Mi-konto för att transkribera filer i molnet och få de första 60 minuterna gratis.</string>
+    <string name="mi_account_msg">Logga in med Xiaomi-konto för att transkribera filer i molnet och få de första 60 minuterna gratis.</string>
     <string name="mi_account_ok">Logga in</string>
-    <string name="mi_account_title">Logga in med Mi-konto</string>
+    <string name="mi_account_title">Logga in med Xiaomi-konto</string>
     <string name="midnight">Natt</string>
     <string name="miuix_access_state_desc">Valt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
@@ -297,6 +300,7 @@
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -323,6 +327,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">Byt till att välja en dag genom att trycka</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Byt till text som inmatningsläge</string>
     <string name="mtrl_picker_toggle_to_year_selection">Byt till att välja ett år genom att trycka</string>
+    <string name="network_error_info">Ett nätverksfel uppstod. Kontrollera dina nätverksinställningar och försök igen.</string>
+    <string name="network_timeout_info">Det gick inte att ansluta till nätverket. Försök igen.</string>
     <string name="network_tip_dialog_cancel">Godkänn inte</string>
     <string name="network_tip_dialog_content">Inspelaren behöver ansluta till Internet för att den ska kunna fungera korrekt. Godkänn?</string>
     <string name="network_tip_dialog_ok">Godkänn</string>
@@ -422,6 +428,7 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="privacy_policy_title">Integritetspolicy</string>
     <string name="privacy_settings">Integritet</string>
     <string name="progress">Förloppsindikator för uppspelning</string>
+    <string name="progressbar_title">Skannar efter säkerhetsproblem…</string>
     <string name="recognition_button_add_to_queue">Lägg till i kön</string>
     <string name="recognition_button_cancel">Inte nu</string>
     <string name="recognition_button_start">Transkribera</string>
@@ -572,6 +579,7 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="sunday_short">Sön</string>
     <string name="sunday_shortest">Sön</string>
     <string name="sync_desc_state_complete">Synkroniserad med molnet: %1$s</string>
+    <string name="system_error_info">Systemet är upptaget. Vänta en minut eller två och försök igen.</string>
     <string name="tab_all">Alla</string>
     <string name="tab_apps">Appar</string>
     <string name="tab_call">Samtal</string>
@@ -654,6 +662,7 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="tuesday_shortest">Tis</string>
     <string name="uninstall_warning_content">Diktafon är en system-app. Du kommer inte kunna spela in och transkribera ljud och röstsamtal efter du avinstallerat den.</string>
     <string name="uninstall_warning_title">Avinstallera Diktafon?</string>
+    <string name="unknown_error_info">Okänt fel</string>
     <string name="usage_description">Transkribera ljud och synkronisera objekt med molnet</string>
     <string name="user_feedback">Återkoppling</string>
     <string name="v7_preference_off">AV</string>

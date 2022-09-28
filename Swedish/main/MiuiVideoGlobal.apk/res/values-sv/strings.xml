@@ -123,6 +123,7 @@
     <string name="cast_closed_captions_unavailable">Textning är inte tillgänglig</string>
     <string name="cast_connecting_to_device">Ansluter till %1$s</string>
     <string name="cast_disconnect">Koppla från</string>
+    <string name="cast_dynamic_group_name_format">%1$s + %2$d till</string>
     <string name="cast_expanded_controller_ad_image_description">Bild som visas medan en annons spelas upp på Cast-mottagaren</string>
     <string name="cast_expanded_controller_ad_in_progress">Pågående annons …</string>
     <string name="cast_expanded_controller_background_image">Skivomslag</string>
@@ -134,6 +135,7 @@
     <string name="cast_forward">Framåt</string>
     <string name="cast_forward_10">Spola framåt tio sekunder</string>
     <string name="cast_forward_30">Spola framåt trettio sekunder</string>
+    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
     <string name="cast_live_label">LIVE</string>
     <string name="cast_mute">Stäng av ljudet</string>
     <string name="cast_notification_connected_message">Ansluten till %1$s</string>
@@ -166,6 +168,8 @@
     <string name="choose">Välj</string>
     <string name="choose_to_signin">Ja</string>
     <string name="choose_to_signup">Nej, jag vill skapa ett</string>
+    <string name="chromecast_connecting">Ansluter till Chromecast…</string>
+    <string name="chromecast_playing">Du kollar på den här videon med Chromecast</string>
     <string name="clear_text_end_icon_content_description">Rensa text</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
     <string name="click_to_open_pip">Tryck för att växla till bild-i-bild</string>
@@ -233,6 +237,7 @@
     <string name="continue_play">Återuppta</string>
     <string name="controller_bar_edit">Redigera</string>
     <string name="copy">Kopiera</string>
+    <string name="copy_toast_msg">Länk kopierad till Urklipp</string>
     <string name="data_empty">Inga objekt här</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -244,6 +249,8 @@ Mi Video är redo för en uppdatering.
 Uppdatera appen nu för att kolla in våra nya coola funktioner!
 Mi Video-teamet"</string>
     <string name="description">Beskrivning</string>
+    <string name="desktop_widget_local_media">Mediafiler</string>
+    <string name="desktop_widget_new">Nytt</string>
     <string name="detail_select_source">Välj uppspelningskälla</string>
     <string name="diagnosis_log_send_failed">Kunde inte skicka loggfiler. Försök igen.</string>
     <string name="diagnosis_log_sent_format">"Loggarna skickade.
@@ -289,7 +296,7 @@ Skicka koden till handledaren."</string>
     <string name="dialog_privacy_revoke_count_down">Återkallslse (%1$d sek)</string>
     <string name="dialog_privacy_revoke_description">Du är på väg att dra tillbaka ditt samtycke till integritetspolicyn för Mi Video. Vi kommer upphöra att samla in din personliga information. De personliga data som redan samlats in och bevaras kommer att raderas inom en specifik period som krav enligt gällande lagar. Ditt tillbakadragande av samtycke till integritetspolicyn kommer hållas som vägran att acceptera online-tjänster baserat på insamlad personlig information.</string>
     <string name="dialog_privacy_revoke_fail">Din enhet behöver ansluta till nätverket för att du ska kunna dra tillbaka samtycket. Kontrollera dina nätverksinställningar och försök igen.</string>
-    <string name="dialog_privacy_revoke_ok">Dra tillbaka</string>
+    <string name="dialog_privacy_revoke_ok">Återkalla</string>
     <string name="dialog_privacy_revoke_success">Drog framgångsrikt tillbaka</string>
     <string name="dialog_privacy_revoke_title">Återkallelse av ditt samtycke</string>
     <string name="dialog_privacy_revoking">Drar tillbaka samtycke…</string>
@@ -381,6 +388,9 @@ Skicka koden till handledaren."</string>
     <string name="failed_dup_secure_phone_number">Detta telefonnummer är redan kopplat till ett annat Mi Konto</string>
     <string name="failed_to_fetch_data">Det gick inte att ladda information.</string>
     <string name="failure">Det gick inte att ladda ner</string>
+    <string name="fallback_menu_item_copy_link">Kopiera länk</string>
+    <string name="fallback_menu_item_open_in_browser">Öppna i webbläsaren</string>
+    <string name="fallback_menu_item_share_link">Dela länk</string>
     <string name="favor_movie">Filmer</string>
     <string name="favor_online_video">Videor</string>
     <string name="favor_playlist">Spellistor</string>
@@ -538,6 +548,7 @@ Skicka koden till handledaren."</string>
     <string name="galleryplus_notification_linkvideo_title4">Hundratals videor, gratis under en begränsad tid</string>
     <string name="galleryplus_notification_linkvideo_title5">Streama dina favorit-shower gratis</string>
     <string name="galleryplus_notification_try_now_btn">Försök nu</string>
+    <string name="galleryplus_notification_type_link_video">Växla till lokala videor</string>
     <string name="galleryplus_online_cta">Mi Video behöver ansluta till internet för att den ska kunna fungera korrekt. Godkänn?</string>
     <string name="galleryplus_online_cta_agree">Godkänn</string>
     <string name="galleryplus_online_cta_disagree">Godkänn inte</string>
@@ -642,8 +653,10 @@ Den här inställningen påverkar inte ditt galleri av bilder."</string>
     <string name="incentive_exchange">Lös in</string>
     <string name="incentive_exchange_code">Kod</string>
     <string name="incentive_exchange_code_copy">Kopiera</string>
+    <string name="incentive_exchange_code_copy_and_start">Använd</string>
     <string name="incentive_exchange_details">Detaljer</string>
     <string name="incentive_exchange_details_current">Beställning totalt</string>
+    <string name="incentive_exchange_details_dotask">Tjäna poäng</string>
     <string name="incentive_exchange_details_total">Saldo</string>
     <string name="incentive_exchange_empty_tip">Inget här än. Lös in poäng för att komma igång.</string>
     <string name="incentive_exchange_expire_tip">Ej uthämtade poäng försvinner vid midnatt</string>
@@ -651,6 +664,7 @@ Den här inställningen påverkar inte ditt galleri av bilder."</string>
     <string name="incentive_exchange_successful">Framgångsrikt inlöst</string>
     <string name="incentive_exchange_tip">Dessa poäng är endast tillgängliga idag</string>
     <string name="incentive_login_for_claim">Logga in på ditt Google-konto för att göra anspråk på poäng</string>
+    <string name="incentive_login_success_for_already_claimd">Inloggad. Poäng hämtade.</string>
     <string name="incentive_login_tip">Logga in för att tjäna poäng och få belöningar</string>
     <string name="incentive_my_points">Mina poäng</string>
     <string name="incentive_popup_window_share">Dela för att tjäna poäng</string>
@@ -666,10 +680,16 @@ Den här inställningen påverkar inte ditt galleri av bilder."</string>
     <string name="incentive_task_title_novice">För nybörjare</string>
     <string name="incentive_task_to_get">Starta</string>
     <string name="incentive_task_to_login">Registrera dig</string>
+    <string name="incentive_toast_share_success_new">Delad</string>
+    <string name="incentive_toast_subscribe_success_new">Prenumererar</string>
+    <string name="incentive_ui_tab_earn_credits">Poäng</string>
     <string name="incentive_view_all_prizes">Visa alla belöningar</string>
     <string name="incentive_view_details">Detaljer</string>
     <string name="inconsistent_pwd">Lösenorden matchar inte</string>
     <string name="init_channels">Återställ standardinställningarna</string>
+    <string name="inline_auto_play_tip">"Använder mobildata… "</string>
+    <string name="inline_auto_play_to_set">Inställningar</string>
+    <string name="inline_mute_click_tip">Tryck för att slå på ljud</string>
     <string name="input_email_address_notice">Vi använder den här e-postadressen för att verifiera ditt konto</string>
     <string name="input_new_pwd">Ange nytt lösenord</string>
     <string name="input_size_tips_new">Du kan ange upp till %d tecken</string>
@@ -684,6 +704,7 @@ Den här inställningen påverkar inte ditt galleri av bilder."</string>
     <string name="item_download_path">Nedladdningsplats</string>
     <string name="item_download_path_setting">Nedladdningsplatsinställningar</string>
     <string name="item_setting_go_back">Återkallelse av ditt samtycke</string>
+    <string name="item_title_for_search_page_hot">Pupulärt</string>
     <string name="item_title_unknown">Okänd titel</string>
     <string name="item_view_role_description">Flik</string>
     <string name="just_a_second">Vänta ett ögonblick…</string>
@@ -695,8 +716,14 @@ för videor"</string>
     <string name="later">Senare</string>
     <string name="live_now">Live nu</string>
     <string name="live_title">Live-TV</string>
+    <string name="live_tv_dialog_item_passed">Det är programmet har slutat. Kolla på det nästa gång!</string>
+    <string name="live_tv_dialog_subscirbe_button">Prenumerera</string>
+    <string name="live_tv_dialog_subscirbe_tips">Prenumerera på %1$s och missa inte ett enda avsnitt</string>
     <string name="live_tv_title">Live-TV</string>
+    <string name="live_tv_toast_item_subscirbe">Du har redan prenumererat på det här programmet</string>
     <string name="loading">Vänta en stund…</string>
+    <string name="local_adjust_zoom_mode_hint">Du ser i formatet %s</string>
+    <string name="local_crop_zoom_mode">Bilden är beskuren</string>
     <string name="local_diversion_all_local_videos">Alla videor på enhet</string>
     <string name="local_diversion_close_recommend">Stäng</string>
     <string name="local_diversion_download_more_video">Fler videor</string>
@@ -714,6 +741,7 @@ för videor"</string>
     <string name="local_push_setting_power_tag">Notifikationer om lokala videor</string>
     <string name="local_push_title">Populärt idag</string>
     <string name="local_push_video_title">Skanna efter nya lokala videor</string>
+    <string name="local_stretch_zoom_mode">Bilden är sträckt</string>
     <string name="local_video_create_a_new_playlist">Ny spellista</string>
     <string name="local_video_date">Datum</string>
     <string name="local_video_dialog_default">Standard</string>
@@ -734,6 +762,7 @@ för videor"</string>
     <string name="local_video_size">Storlek</string>
     <string name="local_video_space">Upptaget: %s</string>
     <string name="local_video_time">Varaktighet</string>
+    <string name="local_zoom_adjust_button">Växla visningsläge</string>
     <string name="lock_screen">Låsskärm</string>
     <string name="login">Logga in</string>
     <string name="login_tip">Logga in för att kunna ta emot våra svar på din feedback.</string>
@@ -761,6 +790,7 @@ för videor"</string>
     <string name="lp_video_zoom_title">Zoom</string>
     <string name="lv_advance_sound">Förbättra ljud</string>
     <string name="lv_airkan_control_device_des">För att kontrollera uppspelningen, tryck på fältet i nedre kanten.</string>
+    <string name="lv_airkan_device_my_device">Min enhet</string>
     <string name="lv_airkan_device_xiaomi_phone">Min Mi-telefon</string>
     <string name="lv_airkan_playing">Castar på %s</string>
     <string name="lv_airkan_tips">Tryck för att casta</string>
@@ -839,10 +869,10 @@ för videor"</string>
     <string name="lv_subtitle_no_subtitle">Undertexter är inte tillgängliga</string>
     <string name="lv_subtitle_non_subtitle_file">Inga undertexter tillgängliga</string>
     <string name="lv_subtitle_offset_add_1s_new">+%dsek</string>
-    <string name="lv_subtitle_offset_add_dot5s_new">+%fsek</string>
+    <string name="lv_subtitle_offset_add_dot5s_new">+%.1fsek</string>
     <string name="lv_subtitle_offset_normal">Flytta inte undertexter</string>
     <string name="lv_subtitle_offset_sub_1s_new">-%dsek</string>
-    <string name="lv_subtitle_offset_sub_dot5s_new">-%fsek</string>
+    <string name="lv_subtitle_offset_sub_dot5s_new">-%.1fsek</string>
     <string name="lv_subtitle_onlinesub_language">Språk: %s</string>
     <string name="lv_subtitle_onlinesub_loading">Laddar undertexter…</string>
     <string name="lv_subtitle_onlinesub_loading_wait">Laddar undertexter…</string>
@@ -969,10 +999,11 @@ för videor"</string>
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mer</string>
     <string name="morning">Morgon</string>
-    <string name="mr_button_content_description">Cast-knappen</string>
-    <string name="mr_cast_button_connected">Cast-knappen. Ansluten</string>
-    <string name="mr_cast_button_connecting">Cast-knappen. Ansluter</string>
-    <string name="mr_cast_button_disconnected">Cast-knappen. Frånkopplad</string>
+    <string name="mr_button_content_description">Casta</string>
+    <string name="mr_cast_button_connected">Casta. Ansluten</string>
+    <string name="mr_cast_button_connecting">Casta. Ansluter</string>
+    <string name="mr_cast_button_disconnected">Casta. Frånkopplad</string>
+    <string name="mr_cast_dialog_title_view_placeholder">Det finns ingen tillgänglig information</string>
     <string name="mr_chooser_searching">Letar efter enheter</string>
     <string name="mr_chooser_title">Casta till</string>
     <string name="mr_controller_album_art">Skivomslag</string>
@@ -988,6 +1019,9 @@ för videor"</string>
     <string name="mr_controller_stop">Stopp</string>
     <string name="mr_controller_stop_casting">Sluta casta</string>
     <string name="mr_controller_volume_slider">Volymreglage</string>
+    <string name="mr_dialog_default_group_name">Grupp</string>
+    <string name="mr_dialog_groupable_header">Lägga till en enhet</string>
+    <string name="mr_dialog_transferable_header">Spela upp på en grupp enheter</string>
     <string name="mr_system_route_name">System</string>
     <string name="mr_user_route_category_name">Enheter</string>
     <string name="mtrl_badge_numberless_content_description">Ny avisering</string>
@@ -996,6 +1030,7 @@ för videor"</string>
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -1063,6 +1098,7 @@ för videor"</string>
     <string name="notification_recall_desc">Mi Video kan meddela dig om populära videor och dina prenumerationer.</string>
     <string name="notification_recall_title">Aktivera notifikationer</string>
     <string name="notification_tool">Verktygslåda</string>
+    <string name="notification_type_channel_music">Musikuppspelning</string>
     <string name="notify_apk_installed">Nedladdad</string>
     <string name="offline_notification_text">Tryck för att öppna annonsen</string>
     <string name="offline_notification_title">Se annonsen som du sparade när du var offline</string>
@@ -1073,7 +1109,12 @@ för videor"</string>
     <string name="offline_opt_in_title">Öppna annonsen när du är online igen.</string>
     <string name="ok">OK</string>
     <string name="online_play_hint">Till exempel: http://www.example.com/video.mp4</string>
+    <string name="online_play_start_loading_tip">Vänta en stund…</string>
+    <string name="online_play_start_ready_loading_tip_b">Ladda %.2f B/s</string>
+    <string name="online_play_start_ready_loading_tip_kb">Ladda %.2f KB/s</string>
+    <string name="online_play_start_ready_loading_tip_mb">Ladda %.2f MB/s</string>
     <string name="online_play_title">Ange URL</string>
+    <string name="order_alphabet">A-Ö</string>
     <string name="order_recently_subscribe">Senaste prenumerationer</string>
     <string name="order_recently_updated">Nyligen uppdaterade</string>
     <string name="out_of_memory_background_playback_is_suspended">Pausad bakgrundsuppspelning på grund av otillräckligt minne</string>
@@ -1434,6 +1475,7 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="popup_click_for_download_video">Ladda ned video</string>
     <string name="popup_pip_activate_button">Inställningar</string>
     <string name="popup_pip_not_activated">Tillåt Mi Video att använda bild-i-bild först.</string>
+    <string name="popup_recommend_text">Upptäck fler videor som du kommer att älska</string>
     <string name="popup_window_home_tip">Ladda ner online-videor</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="privacy_agree_subtitle">Samtycke till Integritetspolicyn tillåter dig att använda alla funktioner i Mi Video</string>
@@ -1534,6 +1576,15 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="sending">Skickar…</string>
     <string name="service_error">Serverfel</string>
     <string name="set_success">Ändrad</string>
+    <string name="settings_inline_auto_play">Alltid automatisk uppspelning</string>
+    <string name="settings_inline_auto_play_close">Automatisk uppspelning inaktiverad</string>
+    <string name="settings_inline_auto_play_tip_close_forever">Alltid av</string>
+    <string name="settings_inline_auto_play_tip_close_month">Av i en månad</string>
+    <string name="settings_inline_auto_play_tip_open">På</string>
+    <string name="settings_inline_auto_play_tip_title">Varning för mobildataanvändning</string>
+    <string name="settings_inline_auto_play_title">Automatisk uppspelning</string>
+    <string name="settings_inline_auto_play_wify">Automatisk uppspelning endast på Wifi</string>
+    <string name="settings_inline_title">Startsida för automatisk uppspelning</string>
     <string name="settings_manager_hidden_folder">Hantera dolda videor</string>
     <string name="share">Dela</string>
     <string name="share_fail">Det gick inte att dela. Kontrollera dina nätverksinställningar och försök igen.</string>
@@ -1554,13 +1605,14 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="small_video_load_more_hint">Svep uppåt för att spela fler videor</string>
     <string name="small_video_snack_download_description">Ladda ned SnackVideo för att se de senaste videorna från dina favoritskapare.</string>
     <string name="small_video_snack_download_title">SnackVideo</string>
-    <string name="small_video_tab_expose_hint">Tap for more short videos</string>
+    <string name="small_video_tab_expose_hint">Tryck för fler kortfilmer</string>
     <string name="sms_send_success">Skickad</string>
     <string name="sns_access_token_expired_warning">Sessionen har gått ut. Logga in igen för att återansluta det här kontot.</string>
     <string name="sns_bind_limit">För många försök. Försök att logga in på andra sätt.</string>
     <string name="sns_sign_in">Andra sätt att logga in på</string>
     <string name="source">"Källa: "</string>
     <string name="start_download_tip">Tillagt i kön. Kontrollera utvecklingen under Profil > Nedladdningar.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kort</string>
     <string name="storage_internal_sdcard">Internt lagringsutrymme</string>
     <string name="submit">Skicka</string>
@@ -1831,6 +1883,12 @@ Förbättra anpassning av sina tjänster för enheten;
     <string name="welcome_tip_into_mivideo">Kom igång</string>
     <string name="welcome_tip_skip">Hoppa över</string>
     <string name="welcome_tip_title">Välkommen till Mi Video</string>
+    <string name="widget_local_video">Lokala videor</string>
+    <string name="widget_local_video_click">Tryck för att se videor lagrade på din enhet</string>
+    <string name="widget_more_channel">Fler kanaler</string>
+    <string name="widget_more_channel_click">Tryck för att se TV-kanaler</string>
+    <string name="widget_trending_click">Tryck för att se dagens poluläraste videor</string>
+    <string name="widget_trending_today">Populärt idag</string>
     <string name="yesterday">Igår</string>
     <string name="yt_subscription_notification_setting_title">Prenumerationsaviseringar</string>
     <string name="ytb_account">Konton</string>
