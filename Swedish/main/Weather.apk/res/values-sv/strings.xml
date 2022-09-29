@@ -163,7 +163,6 @@
     <string name="dynamic_weather">Väder</string>
     <string name="early_morning">Morgon</string>
     <string name="edit_city">Hantera städer</string>
-    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Uppdaterar…</string>
     <string name="empty_view_net_unavailable">Det gick inte att ansluta till nätverket</string>
     <string name="empty_view_refresh">Försök igen</string>
@@ -273,7 +272,6 @@
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
     <string name="hourly_forcast_now">Nu</string>
-    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="index_item_experience_now">Installera nu</string>
     <string name="indices_title_chance_of_rain">Chans för regn</string>
@@ -285,10 +283,7 @@
     <string name="indices_wind_direction_north">N</string>
     <string name="indices_wind_direction_south">S</string>
     <string name="indices_wind_direction_west">V</string>
-    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV index</string>
-    <string name="item_city_list_region_no_data">-- / --</string>
-    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Aktivera platstjänster</string>
     <string name="location_tag">Lokalisera</string>
     <string name="manager_city_option_add_home">Lägg till på startsida</string>
@@ -450,7 +445,6 @@
     <string name="share_menu_title">Dela</string>
     <string name="share_subject">Dela</string>
     <string name="share_weather_desc">\#MIUI Väder#Idag %1$s %2$s</string>
-    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Det gick inte att ta skärmdump</string>
     <string name="shortcut_short_label_24_hour_forecast">24-timmars prognos</string>

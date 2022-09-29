@@ -211,7 +211,6 @@
     <string name="favorite_photo">Foton</string>
     <string name="favorite_ringtone">Ringsignaler</string>
     <string name="favorite_screen_cap">Skärmdumpar</string>
-    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Läsbar: </string>
     <string name="file_info_canwrite">Skrivbar: </string>
     <string name="file_info_ishidden">Dold: </string>
@@ -630,7 +629,6 @@
     <string name="set_pattern">Uppgradera ditt lösenord</string>
     <string name="set_pattern_btn">Ange</string>
     <string name="set_pattern_msg">Ange ditt lösenord igen. Lösenord för integritetsskydd fungerar även för bilder, meddelanden och anteckningar.</string>
-    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">Mindre än %d KB</string>
     <string name="size_lv2" formatted="false">%1d KB - %2d MB</string>
     <string name="size_lv3" formatted="false">%1d MB - %2d MB</string>
