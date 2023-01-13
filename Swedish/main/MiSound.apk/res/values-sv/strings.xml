@@ -150,7 +150,7 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
-    <string name="four_note">Testet tar ungefär 3 minuter.</string>
+    <string name="four_note">Testet tar cirka %d minuter att genomföra.</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
@@ -270,6 +270,7 @@
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -307,7 +308,7 @@
     <string name="music_audio_effect_settings">Effektinställningar</string>
     <string name="music_audio_visual_wake_lock">Håll skärmen vaken</string>
     <string name="music_audio_visual_wake_lock_summary">Stäng inte av skärmen när visuella effekter visas</string>
-    <string name="music_below_thirty_years">Upp till 30 års ålder</string>
+    <string name="music_below_thirty_years">Under %d år gammal</string>
     <string name="music_customized_sound_summary">Anpassa volymen enligt din egen hörsel</string>
     <string name="music_customized_sound_title">Volymjustering</string>
     <string name="music_delete">Radera</string>
@@ -404,10 +405,10 @@
     <string name="music_sound_num">Förinställningar av systemet %s</string>
     <string name="music_sound_sample">Förinställningar av systemet</string>
     <string name="music_sure_to_delete_sound_msg">Radera markerade förinställningar nu?</string>
-    <string name="music_thirty_to_sixty_years">30 - 60 års ålder</string>
+    <string name="music_thirty_to_sixty_years" formatted="false">%d-%d år gammal</string>
     <string name="music_title_dolby_control">Dolby Digital Plus</string>
     <string name="music_unsupport_effect_summary">USB-headset stöds inte</string>
-    <string name="music_upper_sixty_years">Mer än 60 år gammal</string>
+    <string name="music_upper_sixty_years">Över %d år gammal</string>
     <string name="name">Namn</string>
     <string name="night">Kväll</string>
     <string name="noon">Middagstid</string>
@@ -512,7 +513,8 @@
     <string name="sound_transmission_start">Starta</string>
     <string name="sound_transmission_stop">Pausa</string>
     <string name="sound_transmission_title">Trådlös mikrofon</string>
-    <string name="spatial_audio_summary">Justera fördjupat ljud baserat på huvudrörelse</string>
+    <string name="spatial_audio">Uppslukande ljud</string>
+    <string name="spatial_audio_summary">Upplev en uppslukande känsla och en känsla av rymd när ljud spelas i hörlurar</string>
     <string name="speaker_scenario_resume">Återställ ursprungseffekter</string>
     <string name="start_test_sound">Starta testet</string>
     <string name="status_bar_notification_info_overflow">999+</string>

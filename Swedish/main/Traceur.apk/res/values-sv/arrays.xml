@@ -17,6 +17,7 @@
         <item>Högst 3 processer</item>
         <item>Högst 4 processer</item>
     </string-array>
+    <array name="avatar_image_descriptions" />
     <string-array name="battery_labels">
         <item>0 %</item>
         <item>50 %</item>
@@ -77,6 +78,8 @@
         <item>Qualcomm® aptX™-ljud</item>
         <item>Qualcomm® aptX™ HD-ljud</item>
         <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive-ljud</item>
+        <item>Qualcomm® aptX™ TWS+-ljud</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Använd systemval (standardinställning)</item>
@@ -85,6 +88,8 @@
         <item>Qualcomm® aptX™-ljud</item>
         <item>Qualcomm® aptX™ HD-ljud</item>
         <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive-ljud</item>
+        <item>Qualcomm® aptX™ TWS+-ljud</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>

@@ -44,6 +44,8 @@
     <string name="agree">Accepterar</string>
     <string name="alarm_alert_alert_silenced">Alarmet tystnar efter %1$s.</string>
     <string name="alarm_alert_disabled">Av</string>
+    <string name="alarm_alert_now">%s alarm</string>
+    <string name="alarm_alert_snooze_button">Snooze</string>
     <string name="alarm_ascending_mode_summary">Alarmets ljudvolym ökar gradvis</string>
     <string name="alarm_ascending_mode_title">Stigande volym</string>
     <string name="alarm_clock_more_setting">Ytterligare inställningar</string>
@@ -117,6 +119,7 @@
     <string name="cities_show_limit_desc">Det går inte att visa fler klockor</string>
     <string name="city_time_contrast_desc">Tryck för att jämföra tid i olika städer</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
+    <string name="click_to_cancel_alarm">Tryck för att avaktivera</string>
     <string name="clock_bg_button_setting_summary_common">Välj bakgrundsfärg för appen Klocka</string>
     <string name="clock_bg_button_setting_summary_follow_sys">Svart kommer att användas som bakgrundsfärg varje gång du växlar till Mörkt läge</string>
     <string name="clock_bg_button_setting_title">Bakgrundsfärg</string>
@@ -236,6 +239,8 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="force_start_permission_desc">Tillåt larm att fungera normalt även när du har stängt appen</string>
+    <string name="force_start_permission_title">Starta automatiskt</string>
     <string name="force_touch_add_alarm">Lägg till alarm</string>
     <string name="force_touch_enter_stopwatch">Tidtagarur</string>
     <string name="force_touch_enter_timer">Timer</string>
@@ -302,6 +307,22 @@
     <string name="menu_item_sort_by_gmt_offset">Sortera efter tid</string>
     <string name="menu_item_sort_by_name">Sortera efter namn</string>
     <string name="midnight">Natt</string>
+    <string name="miui_clock_city_name_local">Lokalt</string>
+    <string name="miui_clock_city_name_second">Andra klockan</string>
+    <string name="miui_lock_screen_date">EEE d MMM</string>
+    <string name="miui_lock_screen_date_12">EEE d MMM</string>
+    <string name="miui_lock_screen_date_two_lines">"d MMM
+EEE"</string>
+    <string name="miui_lock_screen_date_two_lines_12">"d MMM
+EEE"</string>
+    <string name="miui_lock_screen_large_date">"EEE
+d/M"</string>
+    <string name="miui_lock_screen_large_date_12">"EEE
+d/M"</string>
+    <string name="miui_vertical_time_format_12">"hh
+mm"</string>
+    <string name="miui_vertical_time_format_24">"HH
+mm"</string>
     <string name="miuix_access_state_desc">Valt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
@@ -504,6 +525,7 @@
     <string name="shutdown_alarm_enable_summary">Larmet kommer att utlösas om det konfigureras för minst 10 minuter efter att du stänger av din enhet</string>
     <string name="shutdown_alarm_title">Stänga av Alarm</string>
     <string name="silent_alarm_summary">Tyst</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Stäng av en gång %s</string>
     <string name="sleep_analysis">Statistik</string>
     <string name="sleep_analysis_chart_date_format">dd/MM</string>
@@ -549,6 +571,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Inga varv</string>
     <string name="stopwatch_reset_notification">Tidtagaruret återställdes</string>
     <string name="stopwatch_running_notification">Tidtagarur</string>
@@ -557,6 +580,7 @@
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>
     <string name="sunday_shortest">Sön</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Tillåt denna app att ansluta till internet för att använda alla dess funktioner.</string>
     <string name="system_permission_main_purpose">Visningstid, ställa in alarm och timers, använda stoppklocka</string>
     <string name="system_permission_purpose">Skapa vardagsalarm och ställa in anpassade ringsignaler</string>

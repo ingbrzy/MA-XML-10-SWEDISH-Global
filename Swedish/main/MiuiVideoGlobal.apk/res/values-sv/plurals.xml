@@ -44,6 +44,18 @@
         <item quantity="other">%s stjärnor valda</item>
         <item quantity="one">%s stjärna vald</item>
     </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Spola framåt %d sekunder</item>
+        <item quantity="one">Spola framåt %d sekund</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Spola tillbaka %d sekunder</item>
+        <item quantity="one">Spola tillbaka %d sekund</item>
+    </plurals>
+    <plurals name="fcmpts_dialog_one">
+        <item quantity="other">Se %s sekunder mer av en video för att tjäna poäng att lösa in belöningar</item>
+        <item quantity="one">Se %s sekunder mer av en video för att tjäna poäng att lösa in belöningar</item>
+    </plurals>
     <plurals name="feed_back_home">
         <item quantity="other">Går tillbaka till startsidan om %1$d sekunder…</item>
         <item quantity="one">Går tillbaka till startsidan om %1$d sekund…</item>
@@ -51,6 +63,10 @@
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtimme sedan</item>
         <item quantity="one">En halvtimme sedan</item>
+    </plurals>
+    <plurals name="hint_local_guide_views">
+        <item quantity="other">%s visningar</item>
+        <item quantity="one">%s visning</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">Om 1 timme</item>
@@ -194,6 +210,10 @@ FInns endast idag"</item>
         <item quantity="other">%d nya aviseringar</item>
         <item quantity="one">%d ny avisering</item>
     </plurals>
+    <plurals name="music_playlist_title_count">
+        <item quantity="other">%d låtar</item>
+        <item quantity="one">%d låt</item>
+    </plurals>
     <plurals name="new_incentive_toast_share_success">
         <item quantity="other">Delningen är genomförd. Du har tjänat %d poäng. Hämta dem i poängcenter.</item>
         <item quantity="one">Delningen är genomförd. Du har tjänat %d poäng. Hämta dem i poängcenter.</item>
@@ -277,6 +297,10 @@ FInns endast idag"</item>
     <plurals name="toast_bookmark_max_size">
         <item quantity="other">Lägg till, upp till %d bokmärken</item>
         <item quantity="one">Lägg till, upp till %d bokmärke</item>
+    </plurals>
+    <plurals name="v_confirm_hide_videos_new">
+        <item quantity="other">Dölj %d valda filer?</item>
+        <item quantity="one">Dölj %d vald fil?</item>
     </plurals>
     <plurals name="video_like_text">
         <item quantity="other">%s likes</item>

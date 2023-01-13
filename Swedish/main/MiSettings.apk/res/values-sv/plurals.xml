@@ -36,6 +36,10 @@
         <item quantity="other">%d minuter sedan</item>
         <item quantity="one">1 minut sedan</item>
     </plurals>
+    <plurals name="category_limit_notify_content">
+        <item quantity="other">%2$d minuter kvar för \"%1$s\" idag</item>
+        <item quantity="one">%2$d minut kvar för \"%1$s\" idag</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtimme sedan</item>
         <item quantity="one">En halvtimme sedan</item>
@@ -76,9 +80,21 @@
         <item quantity="other">Du har använt din enhet i %d minuter utan avbrott</item>
         <item quantity="one">Du har använt din enhet i %d minut utan avbrott</item>
     </plurals>
+    <plurals name="steady_on_screen_rest_time">
+        <item quantity="other">Vila i %d minuter</item>
+        <item quantity="one">Vila i %d minut</item>
+    </plurals>
     <plurals name="steady_on_screen_time_pick">
         <item quantity="other">%d min</item>
         <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="steady_on_screen_tip_title">
+        <item quantity="other">Du har använt den här enheten i %d minuter redan</item>
+        <item quantity="one">Du har använt den här enheten i %d minut redan</item>
+    </plurals>
+    <plurals name="tip_most_unavailable_period">
+        <item quantity="other">Du kan lägga till upp till %d pauser</item>
+        <item quantity="one">Du kan lägga till upp till %d paus</item>
     </plurals>
     <plurals name="trend_from_last_several_day_equal">
         <item quantity="other">Skärmtiden idag är samma som ditt %d-dagarssnitt</item>

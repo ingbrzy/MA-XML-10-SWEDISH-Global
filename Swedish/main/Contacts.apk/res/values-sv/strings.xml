@@ -87,6 +87,7 @@
     <string name="call_disambig_title">Välj nummer</string>
     <string name="call_fax_home">Ring hemfax</string>
     <string name="call_fax_work">Ring jobbfax</string>
+    <string name="call_feature_vilte">ViLTE</string>
     <string name="call_feature_volte">VoLTE</string>
     <string name="call_feature_vowifi">VoWiFi</string>
     <string name="call_home">Ring hem</string>
@@ -505,6 +506,7 @@ Orsak: \"%s\""</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Namn</string>
     <string name="gallery">Galleri</string>
     <string name="ghostData_company">Företag</string>
@@ -638,6 +640,7 @@ Orsak: \"%s\""</string>
     <string name="menu_sync_remove">Ta bort synk-grupp</string>
     <string name="midnight">Natt</string>
     <string name="miprofile_account_type">Kontaktkort</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Redigera profil</string>
     <string name="miprofile_name">Min profil</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -761,6 +764,10 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="not_set">Inte angett</string>
     <string name="notification_click_detail">Tryck för att visa detaljer</string>
     <string name="notification_micloudsync_delete_contact">Xiaomi Cloud vill ta bort en del av dina kontakter</string>
+    <string name="notification_missedCallTitle">Missat samtal</string>
+    <string name="notification_missedCall_call_back">Återuppringning</string>
+    <string name="notification_missedCall_message">Skicka SMS</string>
+    <string name="notification_missedCallsTitle">Missade samtal</string>
     <string name="open_contact">Visa kontakt</string>
     <string name="open_dial_pad_description">Öppna knappsats</string>
     <string name="option_delete_contact">Ta bort</string>
@@ -794,6 +801,7 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="permission_retry_dialog_msg_pad">För att kunna använda ditt SIM-kort med denna app och hantera dina kontakter, tillåt denna app att få åtkomst till och redigera dina kontakter, såväl som få åtkomst till enhetsinformation.</string>
     <string name="permission_retry_setting">Inställningar</string>
     <string name="phoneLabelsGroup">Telefon</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Numret är för långt</string>
     <string name="phone_primary">Primär</string>
     <string name="photoPickerNotFoundText">Inga bilder finns tillgängliga på enheten.</string>
@@ -1039,6 +1047,7 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Inga gruppmedlemmar</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Företag</string>
     <string name="smart_group_company_unavailable">Ingen företagsinformation</string>
     <string name="smart_group_frequency_1">Inom den senaste månaden</string>
@@ -1080,6 +1089,7 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="starred_contacts">Favoriter</string>
     <string name="status_available">Tillgänglig</string>
     <string name="status_away">Borta</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Upptagen</string>
     <string name="strequentList">Favoriter</string>
     <string name="success_message_import_from_account">Kontakt importerad</string>

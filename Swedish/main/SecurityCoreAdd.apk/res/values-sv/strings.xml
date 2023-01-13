@@ -43,6 +43,7 @@ läggs funktionen till i Sekundära utrymmet automatiskt."</string>
     <string name="air_space_exit">Avsluta utrymmet</string>
     <string name="air_space_setting">Inställningar för utrymmet</string>
     <string name="airspace_users_full">Kunde inte skapa fler Arbetsutrymmen</string>
+    <string name="alwaysUsePrompt">Kom ihåg mitt val</string>
     <string name="am">F.m</string>
     <string name="appData">Installerade appar</string>
     <string name="app_name">Säkerhet Källkomponent</string>
@@ -264,8 +265,7 @@ Se till att namnet på ditt företag är korrekt. Läs och godkänn Integritetsp
     <string name="green_guard_title3">Hantera appar</string>
     <string name="greenguard_child_des">Hantera enheterna för dina vänner och din familj</string>
     <string name="greenguard_child_des_title">Scanna QR-kod för att lägga till enhet</string>
-    <string name="greenguard_functional_description">"Fjärrhantera din enheter, få platsinformation,
-kontrollera installerade appar och begränsa användning"</string>
+    <string name="greenguard_functional_description">Hantera enheter på distans, visa platsinformation och styra installerade appar</string>
     <string name="greenguard_install_cancle">Nej tack</string>
     <string name="greenguard_install_confirm">Installera</string>
     <string name="greenguard_install_message">Family Guard är en systemapp. Du behöver inte internet för att installera den.</string>
@@ -692,6 +692,7 @@ Vissa Dubbelappar kräver support för Google Services Framework. I de fallen sk
     <string name="xspace_guide_description">"Varje konto
 förtjänar sin egen app"</string>
     <string name="xspace_guide_title">Prova Dubbelappar</string>
+    <string name="xspace_head">Dubbelapp</string>
     <string name="xspace_header">Dubbelappar</string>
     <string name="xspace_instagram_title">Instagram</string>
     <string name="xspace_install_complete">&lt;font>Skapat dubbelapp framgångsrikt. &lt;/font>&lt;font color=#0D84FF>Öppna nu.&lt;/font></string>
@@ -707,6 +708,7 @@ förtjänar sin egen app"</string>
     <string name="xspace_notification_error">Logga in på dubbel WeChat och försök igen</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="xspace_remove">Ta bort konton för Dubbelappar</string>
+    <string name="xspace_resolver_activity_title">Välj app</string>
     <string name="xspace_setting_label">Inställningar för Dual App</string>
     <string name="xspace_settins">Konfigurera</string>
     <string name="xspace_start">Skapa</string>

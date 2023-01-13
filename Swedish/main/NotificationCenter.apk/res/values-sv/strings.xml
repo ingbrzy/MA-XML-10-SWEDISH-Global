@@ -44,6 +44,8 @@
     <string name="date_picker_lunar">Traditionell kinesisk kalender</string>
     <string name="date_time_picker_dialog_title">Ange datum och tid</string>
     <string name="default_list_type">Sortera efter inkommande tid</string>
+    <string name="disable_description_content">Notifikationer är en systemapp. Om du avaktiverar den kommer du inte att kunna hantera appnotifikationer. Avaktivera ändå?</string>
+    <string name="disable_description_title">Inaktivera systemapp?</string>
     <string name="disable_float_notification">Svävande notifikationer tillåts inte</string>
     <string name="disable_lockscreen_notification">Notifikationer på Låsskärmen tillåts inte</string>
     <string name="disable_show_badge_notification">Notifikationsmärken tillåts inte</string>
@@ -233,6 +235,7 @@
     <string name="settings_guide_title">Behöver andra inställningar?</string>
     <string name="show_badge_notifications">Notifikationsmärken</string>
     <string name="show_badge_notifications_short">Märken</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statusfält</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_disable_float_notification">Svävande notifikationer tillåts inte</string>

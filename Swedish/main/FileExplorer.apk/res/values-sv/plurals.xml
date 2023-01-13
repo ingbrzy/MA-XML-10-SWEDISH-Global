@@ -56,6 +56,10 @@
         <item quantity="other">%1$d dagar sedan</item>
         <item quantity="one">%1$d dagar sedan</item>
     </plurals>
+    <plurals name="delete_cloud_files">
+        <item quantity="other">Radera %1$s filer från alla dina enheter och molnet? Mi Drive-filer kan återställas från dina nyligen raderade objekt</item>
+        <item quantity="one">Radera %1$s fil från alla dina enheter och molnet? Mi Drive-filer kan återställas från dina nyligen raderade objekt</item>
+    </plurals>
     <plurals name="delete_files">
         <item quantity="other">Ta bort %1$d filer?</item>
         <item quantity="one">Ta bort %1$d fil?</item>
@@ -135,6 +139,18 @@
     <plurals name="more_gems">
         <item quantity="other">Samla&lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> stenar till för att delta i lottodragningen.</item>
         <item quantity="one">Samla&lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> sten till för att delta i lottodragningen.</item>
+    </plurals>
+    <plurals name="notification_message_sync_result_fail">
+        <item quantity="other">Kunde inte sykronisera %1$s filer</item>
+        <item quantity="one">Kunde inte synkronisera %1$s fil</item>
+    </plurals>
+    <plurals name="notification_message_sync_result_success">
+        <item quantity="other">"Synkroniserade %1$s filer | "</item>
+        <item quantity="one">"Synkroniserade %1$s fil | "</item>
+    </plurals>
+    <plurals name="notification_title_syncing_with_count_no_network">
+        <item quantity="other">Väntar på nätverksanslutning. %1$s filer återstår.</item>
+        <item quantity="one">Väntar på nätverksanslutning. %1$s fil återstår.</item>
     </plurals>
     <plurals name="numSelectedFile">
         <item quantity="other">%1$d objekt valda</item>

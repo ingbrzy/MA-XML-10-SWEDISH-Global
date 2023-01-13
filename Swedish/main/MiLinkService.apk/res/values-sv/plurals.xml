@@ -36,6 +36,14 @@
         <item quantity="other">%d minuter sedan</item>
         <item quantity="one">1 minut sedan</item>
     </plurals>
+    <plurals name="circulate_audio_group_subtitle_format">
+        <item quantity="other">%1$d enheter</item>
+        <item quantity="one">%1$d enhet</item>
+    </plurals>
+    <plurals name="circulate_audio_group_title_format">
+        <item quantity="other">%1$d enheter</item>
+        <item quantity="one">%1$d enhet</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtimme sedan</item>
         <item quantity="one">En halvtimme sedan</item>
@@ -63,6 +71,10 @@
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d objekt valda</item>
         <item quantity="one">%d objekt vald</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nya aviseringar</item>
+        <item quantity="one">%d ny avisering</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minuter sedan</item>

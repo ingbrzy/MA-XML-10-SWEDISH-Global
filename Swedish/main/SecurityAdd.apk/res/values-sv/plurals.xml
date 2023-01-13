@@ -65,11 +65,23 @@
         <item quantity="one">%d objekt vald</item>
     </plurals>
     <plurals name="net_booster_expire_notification_tip">
-        <item quantity="other">%d dagar kvarstår innan sessionen med ökad hastighet på nätverket avslutas. Förnya sessionen för att undvika hastighetsproblem i nätverket.</item>
-        <item quantity="one">%d dag kvarstår innan sessionen med ökad hastighet på nätverket avslutas. Förnya sessionen för att undvika hastighetsproblem i nätverket.</item>
+        <item quantity="other">Sessionen för att öka din nätverkshastighet kommer att avslutas om %d dagar. Du kan börja uppleva nätverksförseningar. Förnya sessionen nu?</item>
+        <item quantity="one">Sessionen för att öka din nätverkshastighet kommer att avslutas om %d dag. Du kan börja uppleva nätverksförseningar. Förnya sessionen nu?</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minuter sedan</item>
         <item quantity="one">1 minut sedan</item>
+    </plurals>
+    <plurals name="power_battery_hour">
+        <item quantity="other">%s tim</item>
+        <item quantity="one">%s tim</item>
+    </plurals>
+    <plurals name="power_battery_minute">
+        <item quantity="other">%s min</item>
+        <item quantity="one">%s min</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute_screen_on">
+        <item quantity="other">%s min skärmtid återstår</item>
+        <item quantity="one">%s min skärmtid återstår</item>
     </plurals>
 </resources>

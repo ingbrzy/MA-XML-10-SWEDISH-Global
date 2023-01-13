@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
     <string name="about_device_info">Visa enhetsdetaljer</string>
+    <string name="about_mi_account">Om Xiaomi-konto</string>
     <string name="accept">Tillåt</string>
     <string name="access_denied_info">För många försök. Vänta en minut eller två och försök igen.</string>
     <string name="access_token_expired_warning">Weibo Konto har gått ut</string>
@@ -39,7 +40,7 @@
     <string name="account_bind_secure_phone_title">Lägg till telefonnummer</string>
     <string name="account_bind_settings">Konton</string>
     <string name="account_crop_user_avatar">Beskär bild</string>
-    <string name="account_empty_user_name">Skriv in ditt Mi Konto användarnamn</string>
+    <string name="account_empty_user_name">Ange ditt användarnamn på Xiaomi-kontot</string>
     <string name="account_error_all_space_user_name">Namn kan inte bara innehålla blanksted</string>
     <string name="account_error_invalid_user_name">Namn kan inte innehålla &lt;, >, /</string>
     <string name="account_error_longer_user_name">Namnet kan inte vara längre än 20 karaktärer</string>
@@ -65,19 +66,20 @@
  Ditt kontoID: %s"</string>
     <string name="account_token_expired_title">Det gick inte att autentisera</string>
     <string name="account_user_avatar">Profilbild</string>
+    <string name="account_user_avatar_activity_not_found">Kunde inte öppna Galleri</string>
     <string name="account_user_avatar_from_album">Välj foto</string>
     <string name="account_user_avatar_from_camera">Ta bild</string>
     <string name="account_user_base_info">Personlig information</string>
     <string name="account_user_birthday">Födelsedag</string>
     <string name="account_user_details">Personlig information</string>
-    <string name="account_user_email">Återställ E-post</string>
+    <string name="account_user_email">E-post för återställning</string>
     <string name="account_user_gender">Kön</string>
-    <string name="account_user_id">Mi Konto ID</string>
-    <string name="account_user_id_show">Mi Konto: %s</string>
+    <string name="account_user_id">Xiaomi-konto ID</string>
+    <string name="account_user_id_show">Xiaomi-konto: %s</string>
     <string name="account_user_name">Namn</string>
     <string name="account_user_name_dialog_title">Skriv in användarnamn</string>
     <string name="account_user_other_info">Fler källor</string>
-    <string name="account_user_phone">Återställ telefon</string>
+    <string name="account_user_phone">Telefon för återställning</string>
     <string name="account_user_phone_show">Telefon: %s</string>
     <string name="account_user_region">Region</string>
     <string name="account_verify_guide_bind_mail_desc">Lägg till e-post för återställning</string>
@@ -95,22 +97,23 @@
     <string name="afternoon">Eftermiddag</string>
     <string name="agreement_and_privacy">Regler och villkor</string>
     <string name="am">F.m</string>
-    <string name="app_name">Mi Konto</string>
+    <string name="app_name">Xiaomi-konto</string>
     <string name="area_code_no_search_result">Kunde inte hitta några resultat</string>
     <string name="area_code_search_hint">Sök efter land eller region</string>
     <string name="auth_fail_warning">Sessionen löpte ut, logga in igen</string>
     <string name="authorize_title">Tillstånd</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
     <string name="bind_facebook">Anslut ditt Facebook Konto</string>
     <string name="bind_google">Anslut ditt Google-konto</string>
     <string name="bind_qq">QQ</string>
-    <string name="bind_safe_phone_msg">Lägg till ditt telefonnummer för att kunna logga in på Mi-Konto nästa gång.</string>
+    <string name="bind_safe_phone_msg">Lägg till ditt telefonnummer för att kunna logga in på Xiaomi-konto nästa gång.</string>
     <string name="bind_sina_weibo">Anslut Sina Weibo Konto</string>
     <string name="bind_sns_description">Logga in med %s</string>
     <string name="bind_weibo_description">Lägg till vänner från Sina Weibo</string>
     <string name="bind_weixin">Anslut ditt WeChat-konto</string>
     <string name="binded">Ansluten</string>
-    <string name="binded_description" formatted="false">"%s har anslutits till ditt Mi Konto.
-Du kan logga in på ditt Mi Konto med %s nu."</string>
+    <string name="binded_description" formatted="false">"%s har anslutits till ditt Xiaomi-konto.
+Du kan logga in på ditt Xiaomi-konto med %s nu."</string>
     <string name="button_agree">Godkänn</string>
     <string name="button_close">Stäng</string>
     <string name="button_refuse">Godkänn inte</string>
@@ -120,11 +123,26 @@ Du kan logga in på ditt Mi Konto med %s nu."</string>
     <string name="change_email_address">Ändra e-postadress</string>
     <string name="change_password">Ändra lösenord</string>
     <string name="change_phone_number">Ändra telefonnummer</string>
+    <string name="check_apk_update">Sök efter uppdateringar</string>
+    <string name="child_account_system_ad_disable_hint">Den här funktionen är inte tillgänglig för barnkonton</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
     <string name="close">Stäng</string>
     <string name="cloud_description_closed">Upptagen | Synkning är avslaget</string>
     <string name="cloud_description_normal">Upptagen</string>
+    <string name="cloud_member">Medlemskap</string>
+    <string name="cloud_member_status_expired">Utgången</string>
+    <string name="cloud_member_status_expired_soon">Utgår snart</string>
+    <string name="cloud_member_status_non_vip">Uppgradera</string>
+    <string name="cloud_member_vipname_free">Gratis</string>
+    <string name="cloud_member_vipname_mega">Mega</string>
+    <string name="cloud_member_vipname_premium">Premium</string>
+    <string name="cloud_member_vipname_ultra">Ultra</string>
     <string name="cloud_service">Xiaomi Cloud</string>
+    <string name="cloud_service_cloud_open">Aktivera</string>
+    <string name="cloud_service_space_full">Lagringen är full</string>
+    <string name="cloud_service_space_not_enough">Otillräckligt med lagring</string>
+    <string name="cloud_service_space_used">Upptaget</string>
+    <string name="cloud_service_state_error">Kunde inte ladda</string>
     <string name="cloud_service_status_backup_not_open">Säkerhetskopieringen är avstängd</string>
     <string name="cloud_service_status_cloud_not_open">Av</string>
     <string name="cloud_service_status_storage_full">Minnet är fullt</string>
@@ -178,9 +196,10 @@ Du kan logga in på ditt Mi Konto med %s nu."</string>
     <string name="confirm_phone_number_dialog_message">Verifieringskod kommer att skickas till: %s.</string>
     <string name="confirm_phone_number_dialog_title">Bekräfta telefonnummer</string>
     <string name="confirm_unbind">Koppla ifrån detta konto?</string>
-    <string name="confirm_unbundled_phone_dialog_message">Telefonnumret %1$s associerar med Mi-Kontot %2$s. Det kommer inte associerar med Mi-kontot %3$s om du fortsätter. Fortsätta?</string>
+    <string name="confirm_unbundled_phone_dialog_message">Telefonnumret %1$s associerar med Xiaomi-kontot %2$s. Det kommer inte associeras med Xiaomi-kontot %3$s om du fortsätter. Fortsätta?</string>
     <string name="continue_action">Fortsätt</string>
     <string name="copy">Kopiera</string>
+    <string name="copy_link">Kopiera URL</string>
     <string name="copy_to_clipboard_successful">Kopiering lyckades</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -192,7 +211,7 @@ Du kan logga in på ditt Mi Konto med %s nu."</string>
     <string name="delete_bank_card_title">Uppmärksamma</string>
     <string name="delete_device_btn">Ta bort</string>
     <string name="delete_device_failed">Kan inte ta bort enhet</string>
-    <string name="delete_device_notice">Efter enheten är borttagen, kommer den att loggas ut från Mi Konto automatiskt. Du kommer inte kunna använda denna enhet för att komma åt bilder, meddelande eller annat innehåll lagrat i ditt konto.</string>
+    <string name="delete_device_notice">Efter enheten är borttagen, kommer den att loggas ut från Xiaomi-konto automatiskt. Du kommer inte kunna använda denna enhet för att komma åt bilder, meddelande eller annat innehåll lagrat i ditt konto.</string>
     <string name="deny">Neka</string>
     <string name="device_delete_success_message">Om du inte loggade in på enheten, ändra ditt lösenord omedelbart.</string>
     <string name="device_delete_success_title">Utloggad</string>
@@ -203,26 +222,28 @@ Du kan logga in på ditt Mi Konto med %s nu."</string>
     <string name="diagnosis_log_sent_format">"Loggen skickad.
 ID:%s
 Skicka koden till handledaren."</string>
+    <string name="dind_device_service_not_open">Av</string>
+    <string name="dind_device_service_opened">På</string>
     <string name="download_file">Laddar ner %s…</string>
     <string name="early_morning">Morgon</string>
     <string name="empty" />
     <string name="empty_device_list_notice">Inga enheter</string>
     <string name="enable">Inställningar</string>
-    <string name="ep_unsupported">Det går inte att logga in på Mi Konto på din enhet</string>
+    <string name="ep_unsupported">Det går inte att logga in på Xiaomi-konto på din enhet</string>
     <string name="eras_ad">V.T.</string>
     <string name="eras_bc">F.V.T.</string>
-    <string name="error_dup_binded_email">Detta telefonnummer är redan kopplat till ett annat Mi-konto.</string>
+    <string name="error_dup_binded_email">Detta telefonnummer är redan kopplat till ett annat Xiaomi-konto.</string>
     <string name="error_invalid_bind_address">Denna epostadress är ogiltig.</string>
     <string name="evening">Eftermiddag</string>
-    <string name="exceed_binded_phone_times_notice">Detta telefonnummer är redan kopplat till ett annat Mi-konto.</string>
+    <string name="exceed_binded_phone_times_notice">Detta telefonnummer är redan kopplat till ett annat Xiaomi-konto.</string>
     <string name="exit">Avsluta</string>
     <string name="expand_button_title">Avancerat</string>
     <string name="facebook">Facebook</string>
-    <string name="facebook_app_id">2263965750590514</string>
     <string name="facebook_login">Logga in med Facebook</string>
-    <string name="failed_dup_secure_phone_number">Detta telefonnummer är redan kopplat till ett annat Mi-konto</string>
+    <string name="failed_dup_secure_phone_number">Detta telefonnummer är redan kopplat till ett annat Xiaomi-konto</string>
+    <string name="family_service">Familjetjänster</string>
+    <string name="family_service_not_open">Bjud in medlemmar</string>
     <string name="family_share">Familjedelning</string>
-    <string name="fb_login_protocol_scheme">fb2263965750590514</string>
     <string name="find_device">Hitta enhet</string>
     <string name="find_device_access_denied">Kan inte hämta status, tillgång nekad</string>
     <string name="find_device_account_error">Kan inte hämta status på grund av kontofel</string>
@@ -230,7 +251,7 @@ Skicka koden till handledaren."</string>
     <string name="find_device_bad_response_error">Ett serverfel inträffade. Vänta en minut eller två och försök igen.</string>
     <string name="find_device_clear_data">Radera data</string>
     <string name="find_device_close">Av</string>
-    <string name="find_device_error_password_not_confirmed">Kan inte stänga av Hitta enhet. Ange ditt Mi-lösenord igen.</string>
+    <string name="find_device_error_password_not_confirmed">Kan inte stänga av Hitta enhet. Ange ditt Xiaomi-lösenord igen.</string>
     <string name="find_device_error_password_recently_changed">Du har ändrat ditt lösenord inom de senaste %d dagarna. Kan inte stänga av Hitta enhet nu på grund av säkerhetsskäl.</string>
     <string name="find_device_interrupted">Operationen avbröts, vänta en minut eller två och försök igen</string>
     <string name="find_device_io_error">Kan inte ansluta till nätverket</string>
@@ -252,6 +273,7 @@ Skicka koden till handledaren."</string>
     <string name="find_device_title">Hitta enhet</string>
     <string name="find_device_unknown_error">Kan inte hämta enhetens status. Vänta en minut eller två och försök igen.</string>
     <string name="find_equipment">Hitta enhet</string>
+    <string name="find_new_apk_version">Uppdatering tillgänglig</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -312,12 +334,13 @@ Skicka koden till handledaren."</string>
     <string name="get_back_pwd">Återställer lösenord</string>
     <string name="get_device_list_failed">Kan inte hämta enheter</string>
     <string name="get_identity_auth_url_failed">Det gick inte att verifiera ID</string>
-    <string name="get_phone_bind_exceed_limit">Du kan associerar upp till 5 Mi-Konton med ett telefonnummer. Kan inte lägga till ett nytt konto.</string>
+    <string name="get_phone_bind_exceed_limit">Du kan associerar upp till 3 Xiaomi-konton med ett telefonnummer. Kan inte lägga till ett nytt konto.</string>
     <string name="get_phone_verifycode_exceed_limit">För många verifieringskoder har skickats tlll det här numret. Vänta 24 tim och försök igen.</string>
     <string name="google">Google</string>
     <string name="google_login">Logga in med Google</string>
     <string name="goto_accept">OK</string>
-    <string name="guest_account_label">Mi gästkonto</string>
+    <string name="guest_account_label">Xiaomi gästkonto</string>
+    <string name="has_no_new_version">Aktuell</string>
     <string name="health_action_activate">Aktivera</string>
     <string name="health_action_install">Installera</string>
     <string name="health_action_update">Uppdatera</string>
@@ -334,7 +357,7 @@ Skicka koden till handledaren."</string>
     <string name="input_new_pwd">Ange nytt lösenord</string>
     <string name="io_error_title">Bekräfta ditt nätverk</string>
     <string name="just_a_second">Vänta en stund…</string>
-    <string name="kr_license_desc">Du måste godkänna våra Användarvillkor och vår Integritetspolicy innan du använder Mi-Konto och Xiaomi Cloud.</string>
+    <string name="kr_license_desc">Du måste godkänna våra Användarvillkor och vår Integritetspolicy innan du använder Xiaomi-konto och Xiaomi Cloud.</string>
     <string name="kr_permission_contacts_desc">För att få tillgång till kontaktinformation</string>
     <string name="kr_permission_desc">Behörigheter krävs</string>
     <string name="kr_permission_phone_desc">För att skydda ditt konto</string>
@@ -344,15 +367,19 @@ Skicka koden till handledaren."</string>
     <string name="login_3rd_app_with_system_account">Logga in till %s</string>
     <string name="login_check_find_device">Hämtar säkerhetsinformation om enheten…</string>
     <string name="login_check_find_device_failed_title">Det gick inte att kontrollera enhetssäkerhet info</string>
-    <string name="login_find_device_bind">Denna enhet är kopplad till befintliga Mi konto-ID (%s).</string>
+    <string name="login_find_device_bind">Denna enhet är kopplad till befintliga Xiaomi-konto-ID (%s).</string>
+    <string name="login_notification_button_text">Logga in</string>
+    <string name="login_notification_desc">Ha kul med molntjänster, familjelagringsutrymme med mera</string>
+    <string name="login_notification_title">Logga in på ditt Xiaomi-konto</string>
     <string name="login_with_other">Fler alternativ</string>
     <string name="logout_account">Logga ut</string>
     <string name="logout_failed">Det går inte att logga ut</string>
+    <string name="mi_account">Mitt konto</string>
     <string name="mi_account_identity_title">Verifiera din identitet</string>
     <string name="mi_finance">Min ekonomi</string>
     <string name="mi_finance_info">Bonusar för nya användare</string>
     <string name="mi_health">Xiaomi Health</string>
-    <string name="mi_member">Mi Community</string>
+    <string name="mi_member">Xiaomi Community</string>
     <string name="mi_vip_info">Visa privilegier</string>
     <string name="midnight">Natt</string>
     <string name="mipay">Betala</string>
@@ -427,13 +454,16 @@ Skicka koden till handledaren."</string>
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mer</string>
     <string name="morning">Morgon</string>
-    <string name="multi_user_not_show_sync_activity_message_1">Det verkar som att du använder ditt Primära utrymmes Mi konto.</string>
+    <string name="multi_user_not_show_sync_activity_message_1">Det verkar som att du använder ditt Primära utrymmes Xiaomi-konto.</string>
     <string name="multi_user_not_show_sync_activity_message_2">Om så är fallet kommer all information att synkroniseras till det Sekundära utrymmet. För att undvika detta, aktivera inte synkronisering för Xiaomi Cloud.</string>
     <string name="multi_user_not_show_sync_activity_title">Aktivera inte synkronisering mot molnet</string>
     <string name="my_device_title">Aktuella enheten</string>
     <string name="need_install_wechat">Installera WeChat först</string>
+    <string name="network_error">Ett nätverksfel inträffade.</string>
+    <string name="network_error_hint">Kontrollera URL:en och försök igen, eller kopiera URL:n och öppna den i din webbläsare.</string>
     <string name="network_error_info">Ett nätverksfel uppstod. Kontrollera dina nätverksinställningar och försök igen.</string>
     <string name="network_timeout_info">Det gick inte att ansluta till nätverket. Försök igen.</string>
+    <string name="new_version">Ny version</string>
     <string name="night">Kväll</string>
     <string name="no_account_or_forget_password">Skapa konto eller glömt lösenord?</string>
     <string name="no_install">Inte installerad</string>
@@ -448,17 +478,18 @@ Skicka koden till handledaren."</string>
     <string name="not_set">Inte angett</string>
     <string name="notify_bind_security_phone">Lägg till telefon för återställning</string>
     <string name="notify_complete_security_info">Lägg till info för återställning</string>
-    <string name="notify_network_restricted_content_bg_network">Mi kontots internet åtkomst är begränsad. Tryck för att tillåta.</string>
-    <string name="notify_network_restricted_content_hidden_state">Mi kontots bakgrundsaktivitet är begränsad. Tryck för att tillåta.</string>
-    <string name="notify_network_restricted_content_mobile_network">Mi kontots internet åtkomst är begränsad. Tryck för att tillåta.</string>
-    <string name="notify_network_restricted_title">Mi kontot kunde inte ansluta till nätverket</string>
+    <string name="notify_network_restricted_content_bg_network">Xiaomi-kontots internetåtkomst är begränsad. Tryck för att tillåta.</string>
+    <string name="notify_network_restricted_content_hidden_state">Xiaomi-kontots bakgrundsaktivitet är begränsad. Tryck för att tillåta.</string>
+    <string name="notify_network_restricted_content_mobile_network">Xiaomi-kontots internetåtkomst är begränsad. Tryck för att tillåta.</string>
+    <string name="notify_network_restricted_title">Xiaomi-kontot kunde inte ansluta till nätverket</string>
     <string name="notify_verify_again_security_phone">Bekräfta</string>
     <string name="notify_verify_security_phone">Telefon</string>
     <string name="oauth_get_scopes_failed">Kunde inte hämta kontoinfo</string>
     <string name="oauth_getting_scopes">Verifiera konto…</string>
     <string name="oauth_scopes_intro">&lt;font color=#%1$s>%2$s&lt;/font> kommer att få följande behörigheter: &lt;br> &lt;br> %3$s</string>
-    <string name="oauth_title">Logga in med Mi konto</string>
+    <string name="oauth_title">Logga in med Xiaomi-konto</string>
     <string name="ok">Okej</string>
+    <string name="operator_broadnet">China Broadnet</string>
     <string name="operator_mobile">China Mobile</string>
     <string name="operator_mobile_agreement">Verifikationstjänster tillhandahållna av China Mobile</string>
     <string name="operator_other">Telefonnummer</string>
@@ -467,11 +498,12 @@ Skicka koden till handledaren."</string>
     <string name="operator_unicom">China Unicom</string>
     <string name="operator_unicom_agreement">Verifikationstjänster tillhandahållna av China Unicom</string>
     <string name="optional_permissions">Valfria behörigheter</string>
+    <string name="page_load_failed">Kan inte öppna sida</string>
     <string name="passport_Resend">Skicka igen</string>
     <string name="passport_access_denied">Nekat tillträde</string>
-    <string name="passport_account_hint_text">Email/Telefonnummer/Mi Account ID</string>
+    <string name="passport_account_hint_text">E-post/Telefonnummer/Xiaomi-kontoid</string>
     <string name="passport_account_identity_title">Verifiera din identitet</string>
-    <string name="passport_account_label">Mi Konto</string>
+    <string name="passport_account_label">Xiaomi-konto</string>
     <string name="passport_account_name">"Konto: %1$s "</string>
     <string name="passport_account_not_activated">Kontot har inte blivit aktiverat</string>
     <string name="passport_account_not_actived">Ditt konto har inte blivit aktiverat</string>
@@ -498,14 +530,14 @@ Skicka koden till handledaren."</string>
     <string name="passport_completed">Avsluta</string>
     <string name="passport_confirm_login">Logga in</string>
     <string name="passport_confirm_recycle_account">Ja</string>
-    <string name="passport_confirm_recycle_account_msg">&lt;font color=Red>Ser ut som om&lt;/font> numret %s har återvunnits av din operatör och det finns ett Mi-konto kopplat till det. Är dett konto ditt?</string>
+    <string name="passport_confirm_recycle_account_msg">&lt;font color=Red>Ser ut som om&lt;/font> numret %s har återvunnits av din operatör och det finns ett Xiaomi-konto kopplat till det. Är dett konto ditt?</string>
     <string name="passport_continue">Fortsätt</string>
     <string name="passport_copy_message_text_success">Kopiering lyckades</string>
     <string name="passport_copy_message_vcode">Kopiera kod</string>
     <string name="passport_delete_account">Logga ut</string>
     <string name="passport_downlink_reg">Telefonnummer</string>
     <string name="passport_email">E-postadress</string>
-    <string name="passport_email_or_id_hint_text">Email/Mi Account ID</string>
+    <string name="passport_email_or_id_hint_text">E-post/Xiaomi-konto ID</string>
     <string name="passport_email_reg_success_summary">%1$s har bundits med ditt konto. Du kan använda den för att logga in eller för att återställa ditt lösenord.</string>
     <string name="passport_error_auth_fail">Sessionen löpte ut, logga in igen</string>
     <string name="passport_error_device_id">Kan inte hämta enhets-Id</string>
@@ -535,7 +567,7 @@ Skicka koden till handledaren."</string>
     <string name="passport_error_verify_activator_phone_title">Kunde inte att verifiera telefonnummer</string>
     <string name="passport_failed_to_send_activate_email">Det gick inte att skicka aktiverings epost</string>
     <string name="passport_find_password_on_web_msg">Besök account.mi.com för att återställa ditt lösenord.</string>
-    <string name="passport_first_login_prompt">Mi Konto kommer skapas automatiskt när du använder ett telefonnummer för första gången.</string>
+    <string name="passport_first_login_prompt">Xiaomi-konto kommer skapas automatiskt när du använder ett telefonnummer för första gången.</string>
     <string name="passport_forget_password"><u>Glömt lösenord</u></string>
     <string name="passport_forget_password_no_underline">Glömt lösenord</string>
     <string name="passport_get_back_pwd">Hämta lösenord</string>
@@ -548,11 +580,11 @@ Skicka koden till handledaren."</string>
     <string name="passport_getting_verify_code">Hämtar</string>
     <string name="passport_google_login">Logga in med det tidigare använda Google-kontot?</string>
     <string name="passport_google_login_agree">Google Konto</string>
-    <string name="passport_google_login_disagree">Mi Konto</string>
-    <string name="passport_google_login_failed">Det gick inte att logga in med Google. Logga in till ditt Mi konto direkt.</string>
+    <string name="passport_google_login_disagree">Xiaomi-konto</string>
+    <string name="passport_google_login_failed">Det gick inte att logga in med Google. Logga in till ditt Xiaomi-konto direkt.</string>
     <string name="passport_i_know">Jag förstår</string>
     <string name="passport_identification_expired">Verifieringkod gått ut, starta om</string>
-    <string name="passport_imei_permission_denied_message">Vi begär tillstånd att få enhetens IMEI. Mi konto använder IMEI för att identifiera enheten som du logga in / registrera dig, för att hålla kontot Mi säker.</string>
+    <string name="passport_imei_permission_denied_message">Vi begär behörighet att få enhetens IMEI. Xiaomi-kontot använder IMEI för att identifiera enheten dom du loggar in/ registrerar dig på, för att hålla Xiaomi-kontot säkert.</string>
     <string name="passport_imei_permission_denied_title">Begär IMEI behörighet</string>
     <string name="passport_input_captcha_hint">Ange kod</string>
     <string name="passport_input_password_for_login">Detta nummer är associerat med ett existerande konto, ange lösenord</string>
@@ -572,17 +604,17 @@ Skicka koden till handledaren."</string>
     <string name="passport_login_other_account">Annat konto</string>
     <string name="passport_login_other_phone">Använd ett annat konto</string>
     <string name="passport_login_other_way">Andra sätt att logga in</string>
-    <string name="passport_login_prompt">Alla Mi tjänster. Ett Mi-konto.</string>
+    <string name="passport_login_prompt">Alla Xiaomi-tjänster. Ett Xiaomi-konto.</string>
     <string name="passport_login_recycle_account_no">Nej</string>
     <string name="passport_login_recycle_account_yes">Ja</string>
-    <string name="passport_login_title">Logga in på ditt Mi-Konto</string>
+    <string name="passport_login_title">Logga in på ditt Xiaomi-konto</string>
     <string name="passport_login_using_other_ways">Andra sätt att logga in</string>
     <string name="passport_message_dialog_title">SMS med verifieringskoder</string>
     <string name="passport_new_user_register">Skapa konto</string>
     <string name="passport_next">Nästa</string>
     <string name="passport_no">Nej</string>
     <string name="passport_notification_title">Inloggningsfel för %1$s</string>
-    <string name="passport_password_phone_login">Logga in med Mi konto</string>
+    <string name="passport_password_phone_login">Logga in med Xiaomi-konto</string>
     <string name="passport_password_req_notice">Lösenordet måste vara 8-16 tecken och innehålla både siffror och bokstäver (case sensitive).</string>
     <string name="passport_phone_num_hint_text">Telefonnummer</string>
     <string name="passport_phone_ticket_login">Logga in med SMS</string>
@@ -604,12 +636,12 @@ Skicka koden till handledaren."</string>
     <string name="passport_quick_register">Registrera dig</string>
     <string name="passport_re_get_verify_code">Hämta kod igen</string>
     <string name="passport_re_register">Registrera dig igen</string>
-    <string name="passport_recycle_account_prompt">Är detta ditt Mi-Konto?</string>
+    <string name="passport_recycle_account_prompt">Är detta ditt Xiaomi-konto?</string>
     <string name="passport_recycle_login_other_account">De är inte mina. Jag vill använda ett annat.</string>
     <string name="passport_reg_btn_using_other_phone">Använd alternativa telefonnummer</string>
     <string name="passport_reg_failed">Kan inte ställa in konto</string>
     <string name="passport_reg_new_account">Skapa konto</string>
-    <string name="passport_reg_prompt">Har du inte ett Mi konto? Skapa ett gratis.</string>
+    <string name="passport_reg_prompt">Har du inte ett Xiaomi-konto? Skapa ett gratis.</string>
     <string name="passport_reg_recycle_account_no">Nej</string>
     <string name="passport_reg_recycle_account_yes">Ja</string>
     <string name="passport_reg_success">Konto skapad</string>
@@ -642,7 +674,7 @@ Skicka koden till handledaren."</string>
     <string name="passport_reset_password_title">Återställ lösenord</string>
     <string name="passport_restart">Börja om</string>
     <string name="passport_restart_register_prompt">Ett annat verifieringsmeddelande kan krävas för att skapa ditt konto.</string>
-    <string name="passport_restart_register_title">Skapa en Mi-konto</string>
+    <string name="passport_restart_register_title">Skapa en Xiaomi-konto</string>
     <string name="passport_retry">Försök igen</string>
     <string name="passport_select_reg_ways_title">Andra sätt att registrera dig</string>
     <string name="passport_select_the_login_account">Välj kontot för att logga in</string>
@@ -656,22 +688,20 @@ Skicka koden till handledaren."</string>
     <string name="passport_setting">Ställer in…</string>
     <string name="passport_skip_login">Hoppa över</string>
     <string name="passport_skip_register">Hoppa över registreringen</string>
-    <string name="passport_skip_setup_account_msg">Inloggning till Mi Konto tillåter dig att använda Xiaomi Cloud-tjänster. Hoppa över detta steg ändå?</string>
-    <string name="passport_skip_setup_account_title">Mi Konto och Xiaomi Cloud</string>
+    <string name="passport_skip_setup_account_msg">Inloggning till Xiaomi-konto tillåter dig att använda Xiaomi Cloud-tjänster. Hoppa över detta steg ändå?</string>
+    <string name="passport_skip_setup_account_title">Xiaomi-konto och Xiaomi Cloud</string>
     <string name="passport_sms_send_success">Skickat</string>
     <string name="passport_sms_verification_code_login">Logga in med SMS</string>
     <string name="passport_sms_verification_code_login_or_register">Logga in eller skapa ett konto med SMS</string>
     <string name="passport_sync_account_data">Synkronisera kontoinformation…</string>
-    <string name="passport_sync_account_data_failed_warning">Ditt konto synkroniseras nu, du kan logga in med ditt ID för Mi-Kontot. Om du vill logga in använd din telefon eller E-post och vänta till informationen är helt synkroniserat.</string>
+    <string name="passport_sync_account_data_failed_warning">Ditt konto synkroniseras nu, du kan logga in med ditt ID för Xiaomi-kontot. Om du vill logga in använd din telefon eller E-post och vänta till informationen är helt synkroniserat.</string>
     <string name="passport_talkback_image_captcha">Bildverifieringskod</string>
     <string name="passport_talkback_switch_image_captcha">Byt till bildverifieringskod</string>
     <string name="passport_talkback_switch_voice_captcha">Byt till röstverifiering</string>
     <string name="passport_talkback_voice_captcha">Spela upp koden för röstverifiering</string>
     <string name="passport_ticket_login_select_sim_card">Välj SIM-kort</string>
     <string name="passport_ticket_login_select_sim_card_1">SIM 1</string>
-    <string name="passport_ticket_login_select_sim_card_1_with_phone_number">SIM %1$d: %2$s</string>
     <string name="passport_ticket_login_select_sim_card_2">SIM 2</string>
-    <string name="passport_ticket_login_select_sim_card_2_with_phone_number">SIM %1$d: %2$s</string>
     <string name="passport_ticket_login_select_sim_card_cancel">Avbryt</string>
     <string name="passport_title_reg">Skapa ett konto</string>
     <string name="passport_trust_device">Lägg till denna enhet som verifierad enhet</string>
@@ -687,17 +717,18 @@ Skicka koden till handledaren."</string>
     <string name="passport_uplink_sms_sending">Skickar betalt meddelande…</string>
     <string name="passport_uplink_suggest_dialog_msg">Kunde inte ta emot kod. Använd en betald upplänk istället?</string>
     <string name="passport_uplink_suggest_dialog_title">Obs!</string>
-    <string name="passport_use_generated_pwd_message">Se till att du kommer ihåg ditt lösenord. Du kan använda den för att logga in på andra Mi tjänster.</string>
+    <string name="passport_use_generated_pwd_message">Se till att du kommer ihåg ditt lösenord. Du kan använda den för att logga in på andra Xiaomi-tjänster.</string>
     <string name="passport_use_generated_pwd_title">Kom ihåg ditt lösenord!</string>
     <string name="passport_user_agreement">Användaravtal</string>
     <string name="passport_user_agreement_link">&lt;Data>Jag har läst och godkänt Xiaomis &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>.&lt;/Data></string>
     <string name="passport_user_agreement_required">Användaravtal (obligatoriskt)</string>
-    <string name="passport_user_id_notice">Ditt ID för MI-Kontot är %s.</string>
+    <string name="passport_user_id_notice">Ditt ID för Xiaomi-kontot är %s.</string>
     <string name="passport_user_reg_region">Land/Region</string>
     <string name="passport_user_reg_region_warning">Du kan inte ändra land/region när kontot är skapat.</string>
     <string name="passport_vcode_notification_title">Din inloggningsverifiering är ofullständig</string>
     <string name="passport_vcode_prompt_long">Ange verifieringskod</string>
     <string name="passport_vcode_sms_send_prompt">Skicka verifieringskod till %s</string>
+    <string name="passport_vcode_what_app_send_prompt">Din Whatsapp-verifieringskod kommer att levereras till din telefon för återställning &lt;font color=#1F93FF>%s&lt;/font></string>
     <string name="passport_verification_failed">Kunde inte verifiera konto</string>
     <string name="passport_verify">Verifiera</string>
     <string name="passport_verifying_activator_phone">Verifierar telefonsäkerhet…</string>
@@ -718,37 +749,43 @@ Skicka koden till handledaren."</string>
     <string name="permission_group_storage">Lagringsutrymme</string>
     <string name="permission_instructions">Behörighetsanvändning</string>
     <string name="permission_read_sms">Få åtkomst till meddelanden</string>
-    <string name="permission_withdraw">Återta</string>
+    <string name="permission_withdraw">Återkalla</string>
     <string name="permission_write_external_storage">Få åtkomst till, och spara objekt som ska lagras</string>
     <string name="personal_info_desc">Foto, smeknamn, och mer</string>
     <string name="phone_num_use_for">Telefonnummer används för:</string>
+    <string name="phone_register">Lägg till telefonnummer</string>
     <string name="photoPickerNotFoundText">Inga bilder tillgängliga.</string>
     <string name="pm">E.m</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
-    <string name="privacy_policy_reject_confirm_msg">Du kommer inte att kunna fortsätta använda Mi-kontot, om du inte godkänner den nya versionen av dess sekretesspolicy. Vill du godkänna den uppdaterade Mi-konto &lt;a href=%1$s>sekretesspolicyn&lt;/a> nu?</string>
-    <string name="privacy_policy_reject_confirm_title">Kan inte använda Mi-kontot</string>
-    <string name="privacy_policy_update_msg">Sekretesspolicyn för Mi-kontot uppdaterades: :&lt;br/>%1$s&lt;br/>Läs och gokänn den nya versionen av &lt;a href=%2$s>&lt;u>sekretesspolicyn&lt;/u>&lt;/a> innan du fortsätter.</string>
+    <string name="privacy_policy_reject_confirm_msg">Du kommer inte att kunna fortsätta använda Xiaomi-kontot, om du inte godkänner den nya versionen av dess Integritetspolicy. Vill du godkänna den uppdaterade &lt;a href=%1$s>Integritetspolicyn&lt;/a> av Xiaomi-kontot nu?</string>
+    <string name="privacy_policy_reject_confirm_title">Kan inte använda Xiaomi-kontot</string>
+    <string name="privacy_policy_update_msg">Integritetspolicyn för Xiomi-kontot uppdaterades: :&lt;br/>%1$s&lt;br/>Läs och godkänn den nya versionen av &lt;a href=%2$s>&lt;u>integritetspolicyn&lt;/u>&lt;/a> innan du fortsätter.</string>
     <string name="privacy_policy_update_title">Uppdaterad Integritetspolicy</string>
     <string name="progressbar_title">Skannar efter säkerhetsproblem…</string>
     <string name="provision_back">Tillbaka</string>
     <string name="provision_next">Nästa</string>
     <string name="provision_skip_underline">Hoppa över</string>
     <string name="push_notification_content">Hämta verifieringskod</string>
-    <string name="push_notification_title">Du loggade in på ditt Mi konto på en okänd enhet</string>
-    <string name="push_notify_dialog_message">En okänd enhet användes för att logga in på ditt Mi-konto. Ange denna verifieringskod på enheten. Om det inte var du, ändra ditt lösenord på ditt Mi-Konto snarast. Ge inte ut verifieringskoden till andra personer.</string>
+    <string name="push_notification_title">Du loggade in på ditt Xiaomi-konto på en okänd enhet</string>
+    <string name="push_notify_dialog_message">En okänd enhet användes för att logga in på ditt Xiaomi-konto. Ange denna verifieringskod på enheten. Om det inte var du, ändra ditt lösenord på ditt Xiaomi-konto snarast. Ge inte ut verifieringskoden till andra personer.</string>
     <string name="push_notify_dialog_title">Kontoverifiering</string>
-    <string name="pwd_width_phone_number_or_mail_num">Lösenordet kan inte innehålla ditt telefonnummer, e-postadress eller Mi konto-ID</string>
+    <string name="pwd_width_phone_number_or_mail_num">Lösenordet kan inte innehålla ditt telefonnummer, e-postadress eller Xiaomi-konto-ID</string>
     <string name="qq">QQ</string>
+    <string name="qrcode_login_entry_text">&lt;Data>Inloggad på en annan enhet? Använd &lt;a href=>snabbinloggning&lt;/a>&lt;/Data></string>
+    <string name="qrcode_login_load_refresh">&lt;Data>Den här QR-koden har utgått. Tryck för att &lt;a href=>uppdatera&lt;/a>.&lt;/Data></string>
+    <string name="qrcode_login_load_retry">&lt;Data>Kunde inte ladda. &lt;a href=>Försök igen&lt;/a>.&lt;/Data></string>
+    <string name="qrcode_login_message">Skanna med din Xiaomi-telefon eller plattans skanner-app, Xiaomi Home, eller annan Xiaomi-app för att logga in</string>
+    <string name="qrcode_login_title">Skanna för att logga in</string>
     <string name="recycle_phone_notification_msg">Det ser ut som att ditt telefonnummer har blivit återvunnet. Tryck för att uppdatera.</string>
-    <string name="recycle_phone_notification_title">Säkerhetsrisk för Mi-konto</string>
+    <string name="recycle_phone_notification_title">Säkerhetsrisk för Xiaomi-konto</string>
     <string name="removing_account">Loggar ut…</string>
     <string name="replace_binded_phone">Ersätt telefon</string>
     <string name="request_open_permission">Behörigheter krävs</string>
-    <string name="request_use_camera_message">Tillåt Mi Konto att få åtkomst till din telefons kamera?</string>
+    <string name="request_use_camera_message">Tillåt Xiaomi-konto att få åtkomst till din telefons kamera?</string>
     <string name="request_use_camera_title">Få tillgång till kameran</string>
-    <string name="request_use_gallery_message">Tillåt Mi Konto att få åtkomst till Galleri?</string>
+    <string name="request_use_gallery_message">Tillåt Xiaomi-konto att få åtkomst till Galleri?</string>
     <string name="request_use_gallery_title">Få åtkomst till Galleri</string>
-    <string name="request_use_writing_clipboard_message">För att kopiera ditt Mi Konto-ID, tillåt Mi Konto att spara objekt till urklipp.</string>
+    <string name="request_use_writing_clipboard_message">För att kopiera ditt Xiaomi-konto-ID, tillåt Xiaomi-konto att spara objekt till urklipp.</string>
     <string name="resend_active_email">Sänd igen</string>
     <string name="resend_email_reach_limit_message">Du har begärt för många verifieringsmeddelanden. Kontrollera att verifieringsmeddelandet inte ligger i din e-posts skräpkorg.</string>
     <string name="resend_email_reach_limit_title">Kan inte skicka e-postmeddelande</string>
@@ -757,28 +794,28 @@ Skicka koden till handledaren."</string>
     <string name="restart_phone_bind_message">Det kan ta lite tid att ta emot SMS. Börja om ändå?</string>
     <string name="restart_phone_bind_title">Ändra telefonnummer för återställning</string>
     <string name="revoke_privacy_policy">Återkallelse av ditt samtycke</string>
-    <string name="revoke_privacy_policy_instructions">Om du fortsätter kommer du att återkalla ditt samtycke till Mi-kontots sekretesspolicy. Vi kommer att upphöra att samla in dina personuppgifter. De personuppgifter som redan samlats in och behållits kommer att raderas inom den specifika perioden i enlighet med gällande lagar och förordningar, om inte annat krävs. Eftersom Mi-kontot tillhandahåller dess tjänster baserat på insamling av nödvändiga personuppgifter, så kommer ditt återkallande av samtycke att anses som en vägran att acceptera Mi-kontots tjänster. Vill du återkalla ditt samtycke nu?</string>
+    <string name="revoke_privacy_policy_instructions">Om du fortsätter kommer du att återkalla ditt samtycke till Xiaomi-kontots integritetspolicy. Vi kommer att upphöra att samla in dina personuppgifter. Den personliga information som redan samlats in och behållits kommer att tas bort inom den specifika perioden i enlighet med gällande lagar och förordningar, om inte annat krävs. Eftersom Xiaomi-kontot tillhandahåller dess tjänster baserat på insamling av nödvändiga personlig information, så kommer ditt återkallande av samtycke att anses som en vägran att acceptera Xiaomi-kontots tjänster. Vill du återkalla ditt samtycke nu?</string>
     <string name="revoke_privacy_policy_title">Återkallelse av ditt samtycke</string>
     <string name="risky_pwd_not_allow">Nya lösenordet är inte säkert. Ange ett annat.</string>
     <string name="same_new_and_old_pwd">Nytt lösenord måste skilja sig från det gamla</string>
     <string name="saturday">Lördag</string>
     <string name="saturday_short">Lör</string>
     <string name="saturday_shortest">Lör</string>
-    <string name="scan_barcode_title">För att logga in på ditt Mi konto, skanna QR-koden</string>
+    <string name="scan_barcode_title">För att logga in på ditt Xiaomi-konto, skanna QR-koden</string>
     <string name="search_account_security">Kontosäkerhet</string>
     <string name="search_account_security_desc">Kontoinställningar</string>
     <string name="search_account_security_key_words">Ändra Telefon, Ändra E-post, Kontoskydd, Konton, Sina Weibo, QQ, Godkännande, Enheter</string>
-    <string name="search_account_security_path">Inställningar/Mi-Konto/Kontoskydd</string>
-    <string name="search_app_name">Mi-konto</string>
+    <string name="search_account_security_path">Inställningar/Xiaomi-konto/Kontoskydd</string>
+    <string name="search_app_name">Xiaomi-konto</string>
     <string name="search_menu_title">Sök</string>
-    <string name="search_mi_account">Mi-konto</string>
-    <string name="search_mi_account_desc">Mi Konto</string>
+    <string name="search_mi_account">Xiaomi-konto</string>
+    <string name="search_mi_account_desc">Xiaomi-konto</string>
     <string name="search_mi_account_key_words">Xiaomi Cloud, Kontoinställningar, Mi Pay, Logga ut</string>
-    <string name="search_mi_account_path">Inställningar/Mi-konto</string>
+    <string name="search_mi_account_path">Inställningar/Xiaomi-konto</string>
     <string name="search_user_detail">Personlig information</string>
     <string name="search_user_detail_bottom_key_words">Ändra Inkomst, Ändra Utbildning, Ändra Plats, Ändra Region</string>
     <string name="search_user_detail_desc">Personlig information</string>
-    <string name="search_user_detail_path">Inställningar/Mi-konto/Personlig information</string>
+    <string name="search_user_detail_path">Inställningar/Xiaomi-konto/Personlig information</string>
     <string name="search_user_detail_top_key_words">Personlig information,Ändra profilbild,Ändra användarnamn,Ändra smeknamn,Ändra födelsedatum,Ändra kön</string>
     <string name="select_all">Välj alla</string>
     <string name="self_account_info">Personlig information</string>
@@ -786,7 +823,6 @@ Skicka koden till handledaren."</string>
     <string name="send_diagnosis_log">Skicka diagnostiklogg</string>
     <string name="send_email_activate_message">Verifieringsmail skickat</string>
     <string name="sending">Skickar…</string>
-    <string name="server_client_id">29336734752-hkhmuft60qa4qn1ual7etmp6pfo0ib54.apps.googleusercontent.com</string>
     <string name="service_error">Tjänst fel</string>
     <string name="set_success">Ändrad</string>
     <string name="sign_in">Loggar in</string>
@@ -873,31 +909,52 @@ Skicka koden till handledaren."</string>
     <string name="two_factor_auth_need_code">Ange kod</string>
     <string name="two_factor_auth_need_code_summary">Du ser en kod på andra anslutna Mi-enheter. Ange den här koden på en ny enhet för att logga in.</string>
     <string name="two_factor_auth_summary">När du försöker logga in på en ny enhet eller på en ny plats meddelas du om detta på andra anslutna enheter. Du kan bekräfta om dessa inloggningsförsök auktoriserades av dig.</string>
-    <string name="unbind_sns_description">Efter du kopplar detta konto, kommer du inte att kunna använda dina %s kontoinfo för att logga in till ditt Mi konto.</string>
+    <string name="unbind_sns_description">Efter du kopplar detta konto, kommer du inte att kunna använda dina %s kontoinfo för att logga in till ditt Xiaomi-konto.</string>
+    <string name="unit_gb">" GB"</string>
+    <string name="unit_mb">" MB"</string>
     <string name="unknown_error_info">Okänt fel</string>
     <string name="unlock_help_notice">"Hjälp:
 1. Om du har glömt ditt lösenord, gå till id.mi.com att återställa det
 2. Om du inte kan återställa enheten eller om nån har låst din enhet, gå till i.mi.com för att låsa upp den.
 3. Ditt upplåsningsnummer: %s"</string>
+    <string name="update_apk_version_later">Inte nu</string>
+    <string name="update_apk_version_now">Uppdatera</string>
     <string name="update_email_address_dialog_message">Du behöver verifiera din identitet innan du kan uppdatera e-postadress.</string>
     <string name="update_email_address_dialog_title">Uppdatera e-post</string>
     <string name="update_phone_notice">Ändra säkerhetsinställningar</string>
     <string name="update_phone_number_notice_message">Du behöver verifiera din identitet innan du kan uppdatera telefonnummer.</string>
     <string name="used_cloud_storage_info">Använt %s</string>
+    <string name="user_agreement_device_permission_desc">För att säkerställa säkerheten i inloggningsmiljön.</string>
+    <string name="user_agreement_device_permission_title">Få tillgång till enhetsinfo</string>
+    <string name="user_agreement_must_permission_msg">Obligatoriska behörigheter (används för grundläggande funktioner och tjänster hos denna app)</string>
+    <string name="user_agreement_network_permission_msg">Denna app behöver ansluta till internet och kräver följande behörigheter för att kunna fungera normalt:</string>
+    <string name="user_agreement_permission_summary_msg">Xiaomi-kontot låter dig få åtkomst till alla tjänster som tillhandahålls av Xiaomi. Den här appen behöver ansluter till internet och kräver följande behörigheter för att kunna fungera normalt.</string>
+    <string name="user_agreement_use_account_msg">Xiaomi-konto låter dig få åtkomst till alla tjänster som tillhandahålls av Xiaomi.</string>
+    <string name="user_agreement_wifi_permission_title">Slå på och stänga av Wi-Fi</string>
+    <string name="user_agreement_wlan_permission_desc">För att kolla inloggningsmiljön efter säkerhetsproblem</string>
+    <string name="user_agreement_wlan_permission_title_china">Slå på och stänga av WLAN</string>
     <string name="user_avatar_update_title">Ändra profilfoto</string>
     <string name="user_avatar_uploading">Ett ögonblick…</string>
-    <string name="user_instruction_all_purpose">Välkommen till Mi Konto! Du kan använda ditt konto för att komma åt tjänster som tillhandahålls av Xiaomi och dess anslutna företag, såsom Mi.com, Xiaomi Cloud och GetApps. Du kan få Mi Coins, köpa virtuella varor och njuta av mervärdestjänster inklusive spel, teman och e-böcker.</string>
+    <string name="user_instruction_all_purpose">Välkommen till Xiaomi-konto! Du kan använda ditt konto för att komma åt tjänster som tillhandahålls av Xiaomi och dess anslutna företag, såsom Mi.com, Xiaomi Cloud och GetApps. Du kan få Mi Coins, köpa virtuella varor och njuta av mervärdestjänster inklusive spel, teman och e-böcker.</string>
     <string name="user_instruction_tip">För att kunna logga in, läs och godkänna regler och villkor.</string>
-    <string name="user_license_with_3rd_app">&lt;Data>Genom att logga in med mitt Mi Konto bekräftar jag att jag har läst och accepterat &lt;a href=%1$s>Användaravtalet&lt;/a> och &lt;a href=%2$s>Integritetspolicyn&lt;/a> och Mi Kontos &lt;a href=%3$s>Användaravtal&lt;/a> och &lt;a href=%4$s>Integritetspolicy&lt;/a>.&lt;/Data></string>
-    <string name="user_license_with_3rd_app_mobile">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>sekretesspolicy&lt;/a>, Mi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>sekretesspolicy&lt;/a>, likväl som &lt;a href=%5$s>regler och villkor för China Mobile verifieringstjänster&lt;/a>.&lt;/Data></string>
-    <string name="user_license_with_3rd_app_no_operator">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>sekretesspolicy&lt;/a> samt Mi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>sekretesspolicy&lt;/a>.&lt;/Data></string>
-    <string name="user_license_with_3rd_app_telcom">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>sekretesspolicy&lt;/a>, Mi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>sekretesspolicy&lt;/a>, likväl som &lt;a href=%5$s>regler och villkor för eSurfing kontoverifieringstjänster&lt;/a>.&lt;/Data></string>
-    <string name="user_license_with_3rd_app_unicom">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>sekretesspolicy&lt;/a>, Mi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>sekretesspolicy&lt;/a>, likväl som &lt;a href=%5$s>regler och villkor för China Unicom verifieringstjänster&lt;/a>.&lt;/Data></string>
-    <string name="user_license_with_out_3rd_app_no_operator">&lt;Data>Jag har läst och godkänt Mi-kontots &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>sekretesspolicy&lt;/a>.&lt;/Data></string>
-    <string name="user_license_without_3rd_app">&lt;Data>Jag har läst och godkänt Mi Kontos &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>.&lt;/Data></string>
-    <string name="user_license_without_3rd_mobile">&lt;Data>Jag har läst och godkänt Mi-kontots &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>sekretesspolicy&lt;/a>, likväl som &lt;a href=%3$s>regler och villkor för China Mobile verifieringstjänster&lt;/a>.&lt;/Data></string>
-    <string name="user_license_without_3rd_telcom">&lt;Data>Jag har läst och godkänt Mi-kontots &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>sekretesspolicy&lt;/a>, likväl som &lt;a href=%3$s>regler och villkor för eSurfing kontoverifieringstjänster&lt;/a>.&lt;/Data></string>
-    <string name="user_license_without_3rd_unicom">&lt;Data>Jag har läst och godkänt Mi-kontots &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>sekretesspolicy&lt;/a>, likväl som &lt;a href=%3$s>regler och villkor för China Unicom verifieringstjänster&lt;/a>.&lt;/Data></string>
+    <string name="user_license_with_3rd_app">&lt;Data>Genom att logga in med mitt Xiaomi-konto bekräftar jag att jag har läst och accepterat &lt;a href=%1$s>Användaravtalet&lt;/a> och &lt;a href=%2$s>Integritetspolicyn&lt;/a> och Xiaomi-kontos &lt;a href=%3$s>Användaravtal&lt;/a> och &lt;a href=%4$s>Integritetspolicy&lt;/a>.&lt;/Data></string>
+    <string name="user_license_with_3rd_app_mobile">"&lt;Data>Jag har läst och godkänt den här appens &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a>, Xiaomi-kontots &lt;a href=%3$s>Användaravtal&lt;/a> och &lt;a href=%4$s>Integritetspolicy&lt;/a>, samt &lt;a href=%5$s>Användarvillkoren för China Mobile Authentication&lt;/a>.
+&lt;/Data>"</string>
+    <string name="user_license_with_3rd_app_no_operator">"&lt;Data>Jag har läst och godkännt att den här appens &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a>, samt &lt;a href=%3$s>Användaravtalet&lt;/a> och &lt;a href=%4$s>Integritetspolicyn&lt;/a> från Xiaomi-konto.
+&lt;/Data>"</string>
+    <string name="user_license_with_3rd_app_telcom">"&lt;Data>Jag har läst och godkänt den här appens &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a>, Xiaomi-kontots &lt;a href=%3$s>Användaravtal&lt;/a> och &lt;a href=%4$s>Integritetspolicyn&lt;/a>, samt &lt;a href=%5$s>Användaravtalet från China Telecon Authentication&lt;/a>.
+&lt;/Data>"</string>
+    <string name="user_license_with_3rd_app_unicom">"&lt;Data>Jag har läst och godkänt den här appens &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a>, Xiaomi-kontots &lt;a href=%3$s>Användaravtal&lt;/a> och &lt;a href=%4$s>Integritetspolicyn&lt;/a>, samt &lt;a href=%5$s>Användaravtalet från China Unicom Authentication&lt;/a>.
+&lt;/Data>"</string>
+    <string name="user_license_with_out_3rd_app_no_operator">"&lt;Data>Jag har läst och godkänt Xiaomi-kontots &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a>.
+&lt;/Data>"</string>
+    <string name="user_license_without_3rd_app">&lt;Data>Jag har läst och godkänt Xiaomi-kontots &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a>.&lt;/Data></string>
+    <string name="user_license_without_3rd_mobile">"&lt;Data>Jag har läst och godkänt Xiaomi-kontos &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a> och &lt;a href=%3$s>Användaravtalet från China Mobile Authentication&lt;/a>.
+&lt;/Data>"</string>
+    <string name="user_license_without_3rd_telcom">"&lt;Data>Jag har läst och godkänt Xiaomi-kontos &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a> och &lt;a href=%3$s>Användaravtalet från China Telecom Authentication&lt;/a>.
+&lt;/Data>"</string>
+    <string name="user_license_without_3rd_unicom">"&lt;Data>Jag har läst och godkänt Xiaomi-kontos &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a> och &lt;a href=%3$s>Användaravtalet från China Unicom Authentication&lt;/a>.
+&lt;/Data>"</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="vip_account_settings">VIP-inställningar</string>
@@ -908,5 +965,6 @@ Skicka koden till handledaren."</string>
     <string name="weixin">WeChat</string>
     <string name="weixin_login">Logga in med WeChat</string>
     <string name="xiao_mi_vip">Mi VIP</string>
+    <string name="xiaomi_cloud_service">Xiaomi Cloud</string>
     <string name="yesterday">Igår</string>
 </resources>

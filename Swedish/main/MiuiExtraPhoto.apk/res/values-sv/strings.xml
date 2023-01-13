@@ -32,7 +32,8 @@
     <string name="am">F.m</string>
     <string name="cancel">Avbryt</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
-    <string name="close">Stäng</string>
+    <string name="close">Av</string>
+    <string name="common_google_play_services_unknown_issue">Det har uppstått ett fel mellan %1$s och Google Play-tjänsterna. Försök igen.</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -125,7 +126,13 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="grant_permission_go_and_set_2">Inställningar</string>
+    <string name="grant_permission_item">%s</string>
+    <string name="grant_permission_remind_title">Behörigheter krävs</string>
+    <string name="grant_permission_storage">Tillåt denna app att gå åtkomst till lagringen.</string>
+    <string name="grant_permission_text">Gallery Editor behöver följande behörighet för att kunna fungera normalt: %s. Tryck på \"Inställningar\" för att tillåta.</string>
     <string name="midnight">Natt</string>
+    <string name="miuix_access_state_desc">Valt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
@@ -204,6 +211,7 @@
     <string name="night">Kväll</string>
     <string name="noon">Middagstid</string>
     <string name="ok">OK</string>
+    <string name="open">På</string>
     <string name="pm">E.m</string>
     <string name="refocus_discard_confirm_message">Spara ändringar?</string>
     <string name="refocus_discard_negative_btn">Ta bort</string>
@@ -246,6 +254,14 @@
     <string name="refocus_type_relighting_small_face">Studioljus fungerar på foton där ansiktet tar större plats än här.</string>
     <string name="refocus_type_static">Oskärpa</string>
     <string name="refocus_type_video">Ljusspår</string>
+    <string name="saf_operation_guide_1">"Gallery Editor behöver din behörighet för att kunna skydda och hantera dina data. "</string>
+    <string name="saf_operation_guide_2">För att bevilja behörigheten, tryck på \"%1$s\" och välj sedan \"%2$s\".</string>
+    <string name="saf_operation_guide_param1">Nästa</string>
+    <string name="saf_operation_guide_param2">Få åtkomst till denna mapp</string>
+    <string name="saf_requester_cancel">Avbryt</string>
+    <string name="saf_requester_title">Tillåt Gallery Editor att komma åt \"%s\"</string>
+    <string name="saf_secret_album">Privat album</string>
+    <string name="saf_secret_album_guide">Denna app behöver behörighet erför att visa objekt från ditt privata album.</string>
     <string name="saturday">Lördag</string>
     <string name="saturday_short">Lör</string>
     <string name="saturday_shortest">Lör</string>

@@ -32,6 +32,7 @@
     <string name="am">F.m</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
     <string name="close">Stäng</string>
+    <string name="common_google_play_services_unknown_issue">Det har uppstått ett fel mellan %1$s och Google Play-tjänsterna. Försök igen.</string>
     <string name="copy">Kopiera</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -105,6 +106,7 @@
     <string name="icon_remove_description_content">\"Tjänster och återkoppling\" är en system-app. Du kommer fortfarande kunna använda den via Inställningar efter du tagit bort genvägen från Hemskärmen.</string>
     <string name="icon_remove_description_title">Ta bort \"Tjänster och återkoppling\" från Hemskärmen?</string>
     <string name="mi_service_app_name">Tjänster och återkoppling</string>
+    <string name="mi_service_back">Tillbaka</string>
     <string name="midnight">Natt</string>
     <string name="miservice_channel_update_notification_info">\"Tjänster och återkoppling\" begär data online…</string>
     <string name="miservice_notification_boot_content">Läs mer om vad MIUI kan göra</string>
@@ -114,7 +116,7 @@
     <string name="miservice_notification_open_feedback_title">Introducerar \"Tjänster och återkoppling\"</string>
     <string name="miservice_notification_scan_content">Använd Scanner för att översätta ord och fraser</string>
     <string name="miservice_notification_scan_title">Översätt ögonblickligen</string>
-    <string name="miui_feedback_answer_detail_community">Du kan hitta svar på dina frågor i Mi Community</string>
+    <string name="miui_feedback_answer_detail_community">Du kan hitta svar på dina frågor i Xiaomi Community</string>
     <string name="miui_feedback_answer_detail_feedback_resolved">Ja</string>
     <string name="miui_feedback_answer_detail_feedback_result">Tack för din feedback!</string>
     <string name="miui_feedback_answer_detail_feedback_title">Var den här informationen hjälpsam?</string>
@@ -182,7 +184,6 @@
     <string name="miui_feedback_edit_toast_module_required">Välj objekt</string>
     <string name="miui_feedback_edit_toast_more_desc_required">Din beskrivning bör vara längre</string>
     <string name="miui_feedback_edit_toast_problem_class_required">Välj kategori</string>
-    <string name="miui_feedback_edit_toast_screenshot_too_large">Det går inte att ladda upp bilder eller videor större än 100MB</string>
     <string name="miui_feedback_edit_toast_third_packagename_required">Ange appnamn</string>
     <string name="miui_feedback_main_answer_title">Det finns ett svar på den här frågan</string>
     <string name="miui_feedback_main_customer_service_onfo_for_jp">"Servicetelefon: 0120-300-521
@@ -205,15 +206,6 @@ E-post: service.jp@xiaomi.com"</string>
     <string name="miui_feedback_main_title">Återkoppling</string>
     <string name="miui_feedback_main_withdraw">Återkalla</string>
     <string name="miui_feedback_main_withdraw_consent_hint">Om du fortsätter kommer du att återkalla ditt samtycke till integritetspolicyn för %1$s. De personuppgifter som redan har samlats in och lagrats kommer att raderas inom den period som anges i tillämpliga lagar och förordningar om inte annat krävs. Eftersom %2$s tillhandahåller dess tjänster utifrån insamlingen av nödvändiga personuppgifter kommer ditt återkallande av samtycke betraktas som ett nekande till att acceptera %3$s-tjänster. Vill du återkalla samtycke nu?</string>
-    <string name="miui_guide_accessibility_image_desc">Bild</string>
-    <string name="miui_guide_clear_db_service">\"Tjänster och återkoppling\" rensar språkcache…</string>
-    <string name="miui_guide_footer_desc">Nybörjarguiden är utformad för att hjälpa dig att lära dig mer om din enhet och MIUI. Vissa bilder och videor i guiden är endast avsedda för referensändamål och kan skilja sig från den faktiska produkten. Funktionerna som beskrivs i denna guide kan variera beroende på din enhets modell, MIUI-version och användarmiljö.</string>
-    <string name="miui_guide_item_complete">Slutförd</string>
-    <string name="miui_guide_item_new">Ny</string>
-    <string name="miui_guide_item_progress">Slutförd %1$d/%2$d</string>
-    <string name="miui_guide_menu_privacy">Integritetspolicy</string>
-    <string name="miui_guide_top_bar_sub_title">Lär dig vad MIUI kan göra</string>
-    <string name="miui_guide_top_bar_title">Nybörjarguide</string>
     <string name="miui_main_back">Tillbaka</string>
     <string name="miui_main_bottom_bar_feedback">Feedback</string>
     <string name="miui_main_bottom_bar_guide">Nybörjarguide</string>
@@ -222,6 +214,10 @@ E-post: service.jp@xiaomi.com"</string>
     <string name="miui_main_control_center_desc">Eller byt till den gamla versionen i Inställningar > Notifikationer &amp; Kontrollcenter</string>
     <string name="miui_main_control_center_open">Nytt Kontrollcenter</string>
     <string name="miui_main_control_center_title">Svep för att växla mellan Notifikationspanelen och Kontrollcenter</string>
+    <string name="miui_main_icon_callback">Genväg på Hemskärmen</string>
+    <string name="miui_main_icon_callback_create">Skapa</string>
+    <string name="miui_main_icon_callback_desc">Skapa en genväg på Hemskärmen nu?</string>
+    <string name="miui_main_icon_callback_nocreate">Avbryt</string>
     <string name="miui_main_mirror_tab_desc1">Anslut automatiskt</string>
     <string name="miui_main_mirror_tab_desc2">Visa bilder på en större skärm</string>
     <string name="miui_main_mirror_tab_desc3">Dela filer på ett ögonblick</string>
@@ -325,7 +321,7 @@ E-post: service.jp@xiaomi.com"</string>
     <string name="permission_china_version_msg">&lt;Data>Innan du använder \"Tjänster och återkoppling\" måste du läsa och godkänna vårt &lt;a href=%1$s>användaravtal&lt;/a> och vår &lt;a href=%2$s>integritetspolicy&lt;/a>. Den här appen måste även ansluta till internet för att fungera korrekt.&lt;/Data></string>
     <string name="permission_complete">Klart</string>
     <string name="permission_contacts_info">Få åtkomst till kontoinformation</string>
-    <string name="permission_contacts_introduce">För att logga in med Mi konto</string>
+    <string name="permission_contacts_introduce">För att logga in med Xiaomi-konto</string>
     <string name="permission_device_info">Få tillgång till enhetsinfo</string>
     <string name="permission_device_introduce">För att bestämma begränsad garantiperiod</string>
     <string name="permission_exit">Avsluta</string>

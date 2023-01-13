@@ -215,6 +215,7 @@
     <string name="conn_of_function_safe">Nätverksanslutning för säkerhet</string>
     <string name="connecting">Ansluter…</string>
     <string name="copy">Kopiera</string>
+    <string name="copy_toast_msg">Länk kopierad till Urklipp</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -301,6 +302,7 @@
     <string name="download">Ladda ner</string>
     <string name="downloading">Laddar ner</string>
     <string name="early_morning">Morgon</string>
+    <string name="empty">" "</string>
     <string name="empty_content_no_ignore_image">Tom</string>
     <string name="empty_content_no_privacy">Tom</string>
     <string name="empty_content_no_similar_image">Inga foton</string>
@@ -318,6 +320,15 @@
     <string name="eras_ad">V.T.</string>
     <string name="eras_bc">F.V.T.</string>
     <string name="evening">Eftermiddag</string>
+    <string name="exo_download_completed">Nedladdningen är klar</string>
+    <string name="exo_download_description">Ladda ned</string>
+    <string name="exo_download_downloading">Laddar ned</string>
+    <string name="exo_download_failed">Nedladdningen misslyckades</string>
+    <string name="exo_download_notification_channel_name">Nedladdningar</string>
+    <string name="exo_download_paused">Nedladdningar har pausats</string>
+    <string name="exo_download_paused_for_network">Nedladdningar väntar på nätverket</string>
+    <string name="exo_download_paused_for_wifi">Nedladdningar väntar på wifi</string>
+    <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="expand_button_title">Avancerat</string>
     <string name="facebook_clean_exit_confirm_cancel">Fortsätt skanning</string>
     <string name="facebook_clean_exit_confirm_msg">Skanningen av Facebook är inte slutförd. Avbryt skanning ändå?</string>
@@ -328,6 +339,9 @@
     <string name="facebook_group_gif">GIF-bilder</string>
     <string name="facebook_group_image">Bilder</string>
     <string name="facebook_group_video">Videor</string>
+    <string name="fallback_menu_item_copy_link">Kopiera länk</string>
+    <string name="fallback_menu_item_open_in_browser">Öppna i webbläsaren</string>
+    <string name="fallback_menu_item_share_link">Dela länk</string>
     <string name="file">Filer</string>
     <string name="file_not_found">Filen hittades inte</string>
     <string name="flow_rank_title">Dataanvändning</string>
@@ -477,6 +491,7 @@
     <string name="hints_garbage_cleanup_result_safe">Allt ser bra ut</string>
     <string name="hints_garbage_handle_item_content">%1$d objekt, %2$s</string>
     <string name="hints_garbage_handle_item_empty_content">Tom</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_installed_app_fewer">Används inte så ofta</string>
     <string name="hints_installed_app_near">Nyligen använts</string>
     <string name="hints_installed_app_never">Aldrig använd</string>

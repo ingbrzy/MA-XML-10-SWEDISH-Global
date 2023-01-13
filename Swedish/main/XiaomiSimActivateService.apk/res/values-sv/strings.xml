@@ -260,6 +260,7 @@ Ange telefonnumret kopplat till ditt nya SIM-kort för att återaktivera %s."</s
     <string name="search_menu_title">Sök</string>
     <string name="send">Skicka</string>
     <string name="sim_activate_failed">Kunde inte aktivera tjänst</string>
+    <string name="sim_activate_notificat_channel">Aktiverings-notifikationer</string>
     <string name="sim_activate_prepare">Aktivera tjänst</string>
     <string name="sim_activated_failed_msg">Kunde inte aktivera tjänst. Tryck för att försöka igen.</string>
     <string name="sim_unactivated_feature_title">\"%s\" aktiverades inte</string>

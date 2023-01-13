@@ -58,6 +58,7 @@
     <string name="dual_app_title">Dubbelappar</string>
     <string name="dual_app_words">Varje konto förtjänar en egen app</string>
     <string name="early_morning">Morgon</string>
+    <string name="empty">" "</string>
     <string name="eras_ad">V.T.</string>
     <string name="eras_bc">F.V.T.</string>
     <string name="evening">Eftermiddag</string>
@@ -148,14 +149,16 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
-    <string name="free_send_net_booster">Öka hastigheten på nätverket gratis</string>
-    <string name="free_send_net_booster_busniess">Få en Xunlei speed boost gratis</string>
-    <string name="free_send_net_booster_busniess_tip">Tryck för att ta emot</string>
-    <string name="free_send_net_booster_tip">Njut av flytande spel med ökad nätverkshastighet gratis.</string>
+    <string name="free_send_net_booster">Prova Game Turbo helt gratis</string>
+    <string name="free_send_net_booster_busniess">Prova Game Turbo helt gratis</string>
+    <string name="free_send_net_booster_busniess_tip">Förbättra din spelupplevelse och vinn ett spelskal. Det här erbjudandet är endast tillgängligt idag!</string>
+    <string name="free_send_net_booster_tip">Förbättra din spelupplevelse och vinn en Xiaomi-enhet!</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
     <string name="game_booster">Speloptimering</string>
+    <string name="gamebooster_dialog_recover">Förnya</string>
+    <string name="gamebooster_dialog_start_booster">Sätt igång</string>
     <string name="gamebooster_network_dialog_message">Tillåt Säkerhet att ansluta till nätverket för att kunna använda alla funktioner av Game Turbo?</string>
     <string name="gamebooster_network_dialog_message_pad">Tillåt Säkerhet att ansluta till nätverket för att kunna använda alla funktioner av Game Turbo?</string>
     <string name="gamebooster_network_dialog_title">Vissa funktioner är inte tillgängliga</string>
@@ -319,7 +322,7 @@
     <string name="morning">Morgon</string>
     <string name="net_booster_expire_notification">Sessionen med ökad hastighet på nätverket är snart slut</string>
     <string name="net_booster_overdue_notification">Sessionen med ökad hastighet på nätverket är snart slut</string>
-    <string name="net_booster_overdue_notification_tip">Sessionen med ökad hastighet på nätverket är snart slut. Förnya sessionen?</string>
+    <string name="net_booster_overdue_notification_tip">Sessionen för ökad nätverkshastighet har avslutats. Du kan börja uppleva nätverksförseningar. Förnya sessionen nu?</string>
     <string name="network_not_available">Kan inte ansluta till nätverket</string>
     <string name="night">Kväll</string>
     <string name="no_network">Kan inte ansluta till nätverket</string>
@@ -331,6 +334,8 @@
     <string name="pc_activity_title">Optimera batteri</string>
     <string name="pm">E.m</string>
     <string name="pm_lable_name">Om root tillgång</string>
+    <string name="power_center_battery_duration_screen_on">Kvarvarande skärmtid</string>
+    <string name="power_main_battery_last_hour_minute_screen_on">%1$s%2$s skärmtid återstår</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="privacy_declare_dialog_title">Användarvillkor</string>
     <string name="privacy_prompt_traffic_purchase_message">Ditt telefonnummer och operatörsdetaljer kommer att krypteras och laddas upp till Mi´s servrar för att få mer information om data inköpsalternativ.</string>
@@ -348,6 +353,7 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">Visa startsidan</string>
+    <string name="abc_action_bar_home_description">Navigera hem</string>
     <string name="abc_action_bar_up_description">Navigera uppåt</string>
     <string name="abc_action_menu_overflow_description">Fler alternativ</string>
-    <string name="abc_action_mode_done">Klart</string>
+    <string name="abc_action_mode_done">Klar</string>
     <string name="abc_activity_chooser_view_see_all">Visa alla</string>
     <string name="abc_activitychooserview_choose_application">Välj en app</string>
     <string name="abc_capital_off">AV</string>
@@ -131,9 +131,11 @@
     <string name="confirm_know">OK</string>
     <string name="connection_error">Det gick inte att ansluta</string>
     <string name="connection_lost">Ifrånkopplad</string>
+    <string name="copy">Kopiera</string>
     <string name="copy_failed">Kunde inte kopiera</string>
     <string name="copy_to">Kopiera till…</string>
     <string name="copy_to_internal_storage_first">Kopiera objekt till det interna lagringsutrymmet först.</string>
+    <string name="copy_toast_msg">Länk kopierad till Urklipp</string>
     <string name="dark_mode">Mörkt läge</string>
     <string name="dark_mode_notice_message">Mörkt tema är tillgängligt nu!</string>
     <string name="decompress_cancel">Avbryt</string>
@@ -172,6 +174,7 @@
     <string name="display_name">Visa namn</string>
     <string name="domain">Domän</string>
     <string name="download_success">Nedladdning lyckades</string>
+    <string name="drag_not_support_with_dir">Kan inte dra och skicka mappar</string>
     <string name="empty_by_forbid_access">Innehållet i denna mapp kan inte visas här på grund av Android-begränsningar.</string>
     <string name="enable_documentsui">Aktivera %s i Inställningar > Installerade appar först</string>
     <string name="enable_sd_card">SD-kort är skadat eller frånkopplat</string>
@@ -194,12 +197,16 @@
     <string name="error_invalid_path">Felaktig sökväg</string>
     <string name="error_not_support">Stöds inte</string>
     <string name="error_open_file_failed_no_app_found">Kunde inte hitta en app som öppnar denna fil.</string>
+    <string name="expand_button_title">Avancerat</string>
     <string name="explicit">Explicit</string>
     <string name="extended_storage_file_can_not_open">Kan inte öppna filen. Kopiera filen till internt lagringsutrymme först.</string>
     <string name="extract">Extrahera</string>
     <string name="fail_to_create_folder_unknown">Kunde inte skapa mappen på grund av ett okänt fel.</string>
     <string name="failed_not_access_sd_card">Tillåt åtkomst till SD-kortet först</string>
     <string name="failed_obtain_permissions">Kunde inte få behörigheter</string>
+    <string name="fallback_menu_item_copy_link">Kopiera länk</string>
+    <string name="fallback_menu_item_open_in_browser">Öppna i webbläsaren</string>
+    <string name="fallback_menu_item_share_link">Dela länk</string>
     <string name="favorite_notice_message">"Du kan lägga till mappar för favoriter nu.
 Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="favorite_photo">Bilder</string>
@@ -309,6 +316,7 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="not_connect">Kan inte ansluta</string>
     <string name="not_connect_user">Kan inte ansluta: %1$s och %2$s</string>
     <string name="not_installed_documentsui">DokumentUI är inte installerat</string>
+    <string name="not_set">Inte angett</string>
     <string name="not_support_documentui">DocumentUI stöds inte på denna enhet</string>
     <string name="not_very_dissatisfied">Missnöjd</string>
     <string name="notif_server_starting">Startar FTP-server…</string>
@@ -391,6 +399,7 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="port">Port</string>
     <string name="port_range">Portnumret måste vara mellan 1024-65535</string>
     <string name="possible_permissions">Valfria behörigheter</string>
+    <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="privacy_accept">Godkänn och fortsätt</string>
     <string name="privacy_cancel"><u>Acceptera inte</u></string>
     <string name="privacy_desc">Välkommen till Utforskaren! Förutom de grundläggande funktionerna tillhandahåller denna app även följande tjänster:</string>
@@ -499,6 +508,7 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="storage_usb">USB-lagring</string>
     <string name="storage_warning">Kan inte använda extern lagring</string>
     <string name="str_clean">Städa</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_grid_mode">Växlade till rutnätsvy</string>
     <string name="switch_to_list_mode">Växla till listvy</string>
     <string name="tab_common_app">Appar och mappar</string>
@@ -534,6 +544,8 @@ Tryck och håll en mapp och tryck \"Mer\" för att lägga till."</string>
     <string name="user_notice_privacy_policy">Integritetspolicy</string>
     <string name="user_notice_term_of_service">Användaravtal</string>
     <string name="utf8_summary">System FTP-standardkodning</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
     <string name="version_name">Version</string>
     <string name="very_dissatisfied">Mycket missnöjd</string>
     <string name="view_by_document">Visa i Filer</string>

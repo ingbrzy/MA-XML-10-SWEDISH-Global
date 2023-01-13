@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Dela med</string>
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
+    <string name="access_denied_info">För många försök. Vänta en minut eller två och försök igen.</string>
     <string name="account_bind_secure_email_title">Lägg till e-post för återställning</string>
     <string name="account_bind_secure_phone_title">Lägg till telefonnummer för återställning</string>
     <string name="account_crop_user_avatar">Beskär bild</string>
@@ -67,6 +68,7 @@
     <string name="afternoon">Eftermiddag</string>
     <string name="am">F.m</string>
     <string name="auth_fail_warning">Sessionen löpte ut, logga in igen.</string>
+    <string name="back">Tillbaka</string>
     <string name="bind_sign_in_title">Lägg till Mi Konto</string>
     <string name="change_activate_email">Ändra e-postadress</string>
     <string name="change_password">Ändra lösenord</string>
@@ -74,6 +76,7 @@
     <string name="choose_to_signup">Nej, jag vill skapa ett</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
     <string name="close">Stäng</string>
+    <string name="close_country_code_content_description">Ta bort landskod</string>
     <string name="collect_diagnosis_log">Hämta loggfiler</string>
     <string name="confirm_activate_email">Verifierad</string>
     <string name="confirm_bundled_phone_dialog_title">Bekräfta associerat telefonnummer</string>
@@ -88,6 +91,9 @@
     <string name="diagnosis_log_sent_format">"Loggarna skickade.
 ID:%s
 Skicka koden till handledaren."</string>
+    <string name="doing_login">Loggar in…</string>
+    <string name="doing_query_account">Kontrollerar kontoinfo…</string>
+    <string name="doing_register">Skapar konto…</string>
     <string name="early_morning">Morgon</string>
     <string name="empty" />
     <string name="eras_ad">V.T.</string>
@@ -96,6 +102,7 @@ Skicka koden till handledaren."</string>
     <string name="error_invalid_bind_address">E-postadressen du angav är ogiltig.</string>
     <string name="evening">Eftermiddag</string>
     <string name="exceed_binded_phone_times_notice">Detta telefonnummer är redan kopplat till ett annat Mi Konto.</string>
+    <string name="facebook_login_btn_content_description">Logga in med Facebook</string>
     <string name="failed_dup_secure_phone_number">Detta telefonnummer är redan kopplat till ett annat Mi Konto</string>
     <string name="find_psw">Glömt lösenord</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -158,14 +165,23 @@ Skicka koden till handledaren."</string>
     <string name="get_ph_ticket">Hämta kod</string>
     <string name="get_phone_bind_exceed_limit">Du kan associera upp till 3 Mi Konto med ett telefonnummer. Det går inte att lägga till nya konton.</string>
     <string name="get_phone_verifycode_exceed_limit">För många verifieringskoder har skickats till det här numret. Vänta 24 timmar och försök igen.</string>
+    <string name="google_login_btn_content_description">Logga in med Google</string>
     <string name="goto_sign_up">Skapa konto</string>
+    <string name="header_help">Hjälp</string>
+    <string name="i_know">Jag förstår</string>
     <string name="identity">Identifiering</string>
     <string name="inconsistent_pwd">Lösenorden matchar inte</string>
     <string name="input_email_address_notice">Vi använder den här e-postadressen för att verifiera ditt konto</string>
+    <string name="input_length_exceeds_limit">Texten du angav är för lång</string>
     <string name="input_new_pwd">Ange nytt lösenord</string>
     <string name="isornot_your_mi_account">Är detta ditt Mi-Konto?</string>
     <string name="just_a_second">Vänta ett ögonblick…</string>
     <string name="loading">Vänta ett ögonblick…</string>
+    <string name="login_by_local_phone_long_text">Logga in nu</string>
+    <string name="login_by_local_phone_short_text">Logga in</string>
+    <string name="login_other">Ett annat Mi Konto</string>
+    <string name="login_register_by_local_phone_long_text">Skapa konto</string>
+    <string name="login_with_sns">Andra sätt att logga in på</string>
     <string name="logout_account">Logga ut</string>
     <string name="midnight">Natt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
@@ -231,12 +247,15 @@ Skicka koden till handledaren."</string>
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mer</string>
     <string name="morning">Morgon</string>
+    <string name="network_error_info">Ett nätverksfel uppstod. Kontrollera dina nätverksinställningar och försök igen.</string>
+    <string name="network_timeout_info">Det gick inte att ansluta till nätverket. Försök igen.</string>
     <string name="nick_name">Smeknamn</string>
     <string name="night">Kväll</string>
     <string name="no_account">Inte inloggad</string>
     <string name="no_phone">Inget telefonnummer</string>
     <string name="noon">Middagstid</string>
     <string name="ok">OK</string>
+    <string name="open_settings">Inställningar</string>
     <string name="passport_access_denied">Åtkomst nekad</string>
     <string name="passport_account_label">Mi Konto</string>
     <string name="passport_account_name">"Konto: %1$s "</string>
@@ -244,6 +263,7 @@ Skicka koden till handledaren."</string>
     <string name="passport_area_code_title">Riksnummer</string>
     <string name="passport_bad_authentication">Ogiltigt användarnamn eller lösenord</string>
     <string name="passport_barcode_add_account_prompt">Skanna QR-koden på nytt när du har loggat in för att lägga till ett konto.</string>
+    <string name="passport_can_not_receive_verification_code">Kunde du inte ta emot verifieringskoden?</string>
     <string name="passport_captcha_title">Captcha</string>
     <string name="passport_checking_account">Kontrollerar lösenord…</string>
     <string name="passport_close">Stäng</string>
@@ -283,6 +303,8 @@ Skicka koden till handledaren."</string>
     <string name="passport_login_failed">Det gick inte att logga in</string>
     <string name="passport_next">Nästa</string>
     <string name="passport_next_step">Nästa</string>
+    <string name="passport_oauth_actionbar_title">Mi Konto</string>
+    <string name="passport_oauth_sucess_tip">Authorized success</string>
     <string name="passport_password_req_notice">Lösenord måste vara 8-16 tecken långt och innehålla minst två av följande: siffror, bokstäver och specialtecken (t.ex. 123abc@#, 123abc eller abc@#).</string>
     <string name="passport_querying_phone_info">Begär kontoinformation…</string>
     <string name="passport_quick_login_dialog_step2_title">Tvåstegsverifiering</string>
@@ -332,8 +354,22 @@ Skicka koden till handledaren."</string>
     <string name="phone_number">Telefonnummer</string>
     <string name="photoPickerNotFoundText">Inga bilder tillgängliga.</string>
     <string name="pm">E.m</string>
+    <string name="progressbar_title">Skannar efter säkerhetsproblem…</string>
+    <string name="protocal_dialog_cancel">Avbryt</string>
+    <string name="protocal_dialog_confirm">Godkänn</string>
+    <string name="protocal_dialog_title">Obs</string>
     <string name="psw_hint">Lösenord</string>
     <string name="psw_sign_in">Logga in med lösenord</string>
+    <string name="qq_login_btn_content_description">Logga in med QQ</string>
+    <string name="register_by_local_phone_long_text">Skapa konto</string>
+    <string name="register_by_local_phone_short_text">Skapa konto</string>
+    <string name="request_agree">Tillåt</string>
+    <string name="request_camera_permission_message">Vi kommer att skydda din personliga information i enlighet med de relevanta lagarna och regleringarna. Denna app behöver följande behörigheter för att fungera normalt:&lt;br>&lt;br>&lt;b>Använda kameran (för att ställa in ditt profilfoto)&lt;/b>&lt;br>&lt;br>Om du inte accepterar att bevilja sådana behörigheter kommer du inte kunna använda vissa funktioner i denna app; men dess grundläggande funktionalitet kommer fortfarande vara tillgänglig för dig. Du kan alltid begränsa behörigheter eller dra tillbaka din auktorisering i Inställningarna.</string>
+    <string name="request_cancel">Avbryt</string>
+    <string name="request_error_invalid_token">Kunde inte verifiera</string>
+    <string name="request_error_network">Ett nätverksfel uppstod. Kontrollera dina nätverksinställningar och försök igen.</string>
+    <string name="request_error_unknown">Ett systemfel uppstod. Gå tillbaka och försök igen.</string>
+    <string name="request_gallery_permission_message">Tillåt åtkomst till Galleri:&lt;br />För angivelse av profilfoton</string>
     <string name="resend_active_email">Skicka igen</string>
     <string name="resend_email_reach_limit_message">Du har begärt för många verifieringsmeddelanden. Kontrollera att verifieringsmeddelandet inte ligger i din e-posts skräpkorg.</string>
     <string name="resend_email_reach_limit_title">Alltför många försök</string>
@@ -355,13 +391,16 @@ Skicka koden till handledaren."</string>
     <string name="sign_in">Loggar in</string>
     <string name="sign_in_progress">Loggar in…</string>
     <string name="sign_in_title">Logga in med ditt Mi-Konto</string>
+    <string name="skip_query_account">Hoppa över</string>
     <string name="sms_send_success">Skickad</string>
     <string name="sns_access_token_expired_warning">Sessionen har gått ut. Logga in igen för att återansluta det här kontot.</string>
     <string name="sns_bind_limit">För många försök. Försök att logga in på andra sätt.</string>
     <string name="sns_sign_in">Andra sätt att logga in på</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>
     <string name="sunday_shortest">Sön</string>
+    <string name="system_error_info">Systemet är upptaget. Vänta en minut eller två och försök igen.</string>
     <string name="temporary_not_available">Denna funktion stöds inte ännu</string>
     <string name="the_anniversary_of_lifting_martial_law">Årsdagen för lyftande av undantagstillstånd</string>
     <string name="the_anti_aggression_day">Anti-våldsdagen</string>
@@ -417,16 +456,30 @@ Skicka koden till handledaren."</string>
     <string name="tuesday">Tisdag</string>
     <string name="tuesday_short">Tis</string>
     <string name="tuesday_shortest">Tis</string>
+    <string name="unknown_error_info">Okänt fel</string>
     <string name="update_email_address_dialog_message">Du behöver verifiera din identitet innan du kan uppdatera e-postadressen för återställning.</string>
     <string name="update_email_address_dialog_title">Uppdatera e-post för återställning</string>
     <string name="update_phone_notice">Ändra säkerhetsinställningar</string>
     <string name="upload_error_log">Ladda upp loggfil</string>
+    <string name="user_agreement_hint_3rd_app">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a> samt Mi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>integritetspolicy&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_mobile">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>, Mi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>integritetspolicy&lt;/a>, likväl som &lt;a href=%5$s>regler och villkor för China Mobile verifieringstjänster&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_with_telecom">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>, Mi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>integritetspolicy&lt;/a>, likväl som &lt;a href=%5$s>regler och villkor för eSurfing kontoverifieringstjänster&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_with_unicom">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>, Mi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>integritetspolicy&lt;/a>, likväl som &lt;a href=%5$s>regler och villkor för China Unicom verifieringstjänster&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_default">&lt;Data>Jag har läst och godkänt Mi Kontos &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_first_login">Vi kommer att skapa ett konto automatiskt om du använder ditt telefonnummer för första gången.</string>
+    <string name="user_agreement_hint_with_mobile">&lt;Data>Jag har läst och godkänt Mi-kontots &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>, likväl som &lt;a href=%3$s>regler och villkor för China Mobile verifieringstjänster&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_with_telecom">&lt;Data>Jag har läst och godkänt Mi-kontots &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>, likväl som &lt;a href=%3$s>regler och villkor för eSurfing kontoverifieringstjänster&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_with_unicom">&lt;Data>Jag har läst och godkänt Mi-kontots &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>, likväl som &lt;a href=%3$s>regler och villkor för China Unicom verifieringstjänster&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_protocal_dialog_hint_default">"&lt;Data>Read and agreed to &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> and Mi Account's &lt;a href=%3$s>User Agreement&lt;/a> and &lt;a href=%4$s>Privacy Policy&lt;/a>.&lt;/Data>"</string>
     <string name="user_avatar_update_title">Ändra profilfoto</string>
     <string name="user_avatar_uploading">Vänta ett ögonblick…</string>
     <string name="user_id_hint">E-post/Telefon/Mi Konto-ID</string>
+    <string name="user_name_phone_number">Telefonnummer</string>
     <string name="v_code_title">Ange verifikationskod</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
+    <string name="weibo_login_btn_content_description">Logga in med Weibo</string>
+    <string name="weixin_login_btn_content_description">Logga in med WeChat</string>
     <string name="yesterday">Igår</string>
 </resources>

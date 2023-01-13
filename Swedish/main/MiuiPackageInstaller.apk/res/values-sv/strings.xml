@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Dela med</string>
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
+    <string name="access_denied_info">För många försök. Vänta en minut eller två och försök igen.</string>
     <string name="actionbar_button_up_description">Tillbaka</string>
     <string name="afternoon">Eftermiddag</string>
     <string name="am">F.m</string>
@@ -190,6 +191,7 @@
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -216,12 +218,15 @@
     <string name="mtrl_picker_toggle_to_day_selection">Byt till att välja en dag genom att trycka</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Byt till text som inmatningsläge</string>
     <string name="mtrl_picker_toggle_to_year_selection">Byt till att välja ett år genom att trycka</string>
+    <string name="network_error_info">Ett nätverksfel uppstod. Kontrollera dina nätverksinställningar och försök igen.</string>
+    <string name="network_timeout_info">Det gick inte att ansluta till nätverket. Försök igen.</string>
     <string name="night">Kväll</string>
     <string name="noon">Middagstid</string>
     <string name="not_set">Inte angett</string>
     <string name="password_toggle_content_description">Visa lösenord</string>
     <string name="pm">E.m</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
+    <string name="progressbar_title">Skannar efter säkerhetsproblem…</string>
     <string name="saturday">Lördag</string>
     <string name="saturday_short">Lör</string>
     <string name="saturday_shortest">Lör</string>
@@ -239,6 +244,7 @@
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>
     <string name="sunday_shortest">Sön</string>
+    <string name="system_error_info">Systemet är upptaget. Vänta en minut eller två och försök igen.</string>
     <string name="the_anniversary_of_lifting_martial_law">Årsdagen för lyftande av undantagstillstånd</string>
     <string name="the_anti_aggression_day">Anti-våldsdagen</string>
     <string name="the_arbor_day">Arbor Day</string>
@@ -290,6 +296,7 @@
     <string name="tuesday">Tisdag</string>
     <string name="tuesday_short">Tis</string>
     <string name="tuesday_shortest">Tis</string>
+    <string name="unknown_error_info">Okänt fel</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="wednesday">Onsdag</string>

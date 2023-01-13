@@ -23,6 +23,5 @@
     <string name="holiday_update_summary">Klicka för att uppdatera kalenderinformation.</string>
     <string name="holiday_update_title">Uppdatering tillgänglig</string>
     <string name="provider_label">Kalender</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="upgrade_msg">Uppdaterar kalenderns databas…</string>
 </resources>

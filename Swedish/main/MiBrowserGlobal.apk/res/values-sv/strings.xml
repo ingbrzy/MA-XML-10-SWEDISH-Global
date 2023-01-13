@@ -146,13 +146,21 @@
     <string name="am">F.m</string>
     <string name="app_cache">Cache</string>
     <string name="app_library_category_entertainment">Underhållning</string>
+    <string name="app_library_category_financial_management">Finans</string>
     <string name="app_library_category_games">Spel</string>
+    <string name="app_library_category_health_and_exercise">Hälsa</string>
+    <string name="app_library_category_individualization">Anpassning</string>
     <string name="app_library_category_information">Media</string>
     <string name="app_library_category_lifestyle">Livsstil</string>
+    <string name="app_library_category_originality">Kreativitet</string>
     <string name="app_library_category_others">Övrigt</string>
     <string name="app_library_category_productivity">Produktivitet</string>
+    <string name="app_library_category_reading_and_information">Nyheter</string>
+    <string name="app_library_category_shopping_and_food">Handla</string>
     <string name="app_library_category_social">Social</string>
+    <string name="app_library_category_travel">Resa</string>
     <string name="app_library_category_utility">Verktyg</string>
+    <string name="app_library_category_work_and_efficiency">Produktivitet</string>
     <string name="app_library_title">Appar</string>
     <string name="app_name_bluetooth">Bluetooth</string>
     <string name="app_name_camera">Kamera</string>
@@ -171,6 +179,7 @@
     <string name="app_update_install">Redo att installera uppdatering.</string>
     <string name="application">Appar</string>
     <string name="application_name">Webbläsare</string>
+    <string name="application_upgrade">Uppdateringar</string>
     <string name="aqi_quality_index_break">Mycket farlig</string>
     <string name="aqi_quality_index_dangerous">Farlig</string>
     <string name="aqi_quality_index_good">Bra</string>
@@ -202,6 +211,7 @@
     <string name="bookmark_btn_select_all">Välj alla</string>
     <string name="bookmark_btn_select_none">Avmarkera alla</string>
     <string name="bookmark_cannot_save_url">Denna URL kan inte bokmärkas.</string>
+    <string name="bookmark_file_privacy_nightmode_moved_here">Funktionsgenvägar och blädderlägen återfinns här</string>
     <string name="bookmark_folder_needs_title">Ange ett gruppnamn</string>
     <string name="bookmark_group_lable">Grupp</string>
     <string name="bookmark_needs_title">Bokmärket måste ha ett namn</string>
@@ -296,9 +306,12 @@ Toggla av för att sluta synka."</string>
     <string name="choose_to_signin">Ja</string>
     <string name="choose_to_signup">Nej, jag vill skapa ett</string>
     <string name="choosertitle_sharevia">Dela via</string>
+    <string name="clean_cache">Rensa cacheminne</string>
     <string name="clear">Rensa</string>
     <string name="clear_history">Rensa historik</string>
     <string name="clear_most_visited">Tidigare historik</string>
+    <string name="clear_result_page_more_content">Upptäck mer</string>
+    <string name="clear_result_page_show_more">Visa mer</string>
     <string name="clear_search_history">Rensa historik</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
     <string name="cleared_garbage">Rensat %d MD skräp</string>
@@ -317,6 +330,7 @@ Toggla av för att sluta synka."</string>
     <string name="close_all_tab_alert_title">Stäng alla flikar</string>
     <string name="close_cant_recommand">Du kommer inte få några personliga innehållstjänster om du stänger av den här funktionen.</string>
     <string name="close_cloud_tab_tip">Stäng molnflikar på %s?</string>
+    <string name="close_desktop">Stängde av skrivbordsversion</string>
     <string name="cloud_loading_tips">Dra nedåt för att synkronisera</string>
     <string name="cloud_no_new_data_toast">Allt är uppdaterat</string>
     <string name="cloud_sync_closed_toast">Kan inte uppdatera eftersom synkroniseringen är avstängd</string>
@@ -415,6 +429,7 @@ Toggla av för att sluta synka."</string>
     <string name="contextmenu_webpage_snapshot">Spara sida</string>
     <string name="continue_reading">Fortsätt läsa</string>
     <string name="copy">Kopiera</string>
+    <string name="copy_toast_msg">Länk kopierad till Urklipp</string>
     <string name="copy_url">Kopiera URL</string>
     <string name="core_functions_of_browser">Grundfunktioner vid dina fingertoppar</string>
     <string name="could_not_load_data">Kunde inte ladda data, uppdatera och försök igen</string>
@@ -426,7 +441,7 @@ Toggla av för att sluta synka."</string>
     <string name="current_version_pc">Skrivbord</string>
     <string name="current_version_phone">Telefon</string>
     <string name="custom">Skriv in URL</string>
-    <string name="custom_head_card_text">Tro alltid att något underbart kommer hända</string>
+    <string name="custom_head_card_text">Tro alltid att något underbart är på väg att hända</string>
     <string name="custom_head_card_text_incognito">"Du är inkognito!
 Sidor som du besöker kommer inte med i historiken."</string>
     <string name="custom_page_guide_content">Bokmärken, inställningar, och verktyg är här!</string>
@@ -473,6 +488,7 @@ Skicka koden till handledaren."</string>
     <string name="display__quick_entry_of_search">Visa funktionsgenvägar i notifikationspanelen</string>
     <string name="doc_viewer_label">Läsare (Mi Webbläsare)</string>
     <string name="doc_viewer_open_out_file_prompt">För att öppna och visa en fil som mottagits från externa källor, behöver appen skapa en kopia av filen först. Fortsätta?</string>
+    <string name="doc_viewer_user_guide_profile">Visa objekt som du bläddrade bland, här</string>
     <string name="document_download_background_btn">Ladda ner i bakgrunden</string>
     <string name="document_download_cancel_btn">Avbryt</string>
     <string name="document_download_failed">Det gick inte att hämta</string>
@@ -646,17 +662,16 @@ Skicka koden till handledaren."</string>
     <string name="exo_controls_pause_description">Pausa</string>
     <string name="exo_controls_play_description">Spela upp</string>
     <string name="exo_controls_playback_speed">Hastighet</string>
-    <string name="exo_controls_playback_speed_normal">Normal</string>
     <string name="exo_controls_previous_description">Föregående</string>
-    <string name="exo_controls_repeat_all_description">Upprepa alla</string>
-    <string name="exo_controls_repeat_off_description">Upprepa inga</string>
-    <string name="exo_controls_repeat_one_description">Upprepa en</string>
+    <string name="exo_controls_repeat_all_description">Aktuellt läge: Upprepa alla. Ändra läge för upprepning.</string>
+    <string name="exo_controls_repeat_off_description">Aktuellt läge: Upprepa inga. Ändra läge för upprepning.</string>
+    <string name="exo_controls_repeat_one_description">Aktuellt läge: Upprepa en. Ändra läge för upprepning.</string>
     <string name="exo_controls_rewind_description">Spola tillbaka</string>
     <string name="exo_controls_seek_bar_description">Uppspelningsförlopp</string>
     <string name="exo_controls_settings_description">Inställningar</string>
     <string name="exo_controls_show">Visa spelarkontroller</string>
-    <string name="exo_controls_shuffle_off_description">Blanda inte spår</string>
-    <string name="exo_controls_shuffle_on_description">Blanda spår</string>
+    <string name="exo_controls_shuffle_off_description">Aktivera blandningsläget</string>
+    <string name="exo_controls_shuffle_on_description">Inaktivera blandningsläget</string>
     <string name="exo_controls_stop_description">Stoppa</string>
     <string name="exo_controls_vr_description">VR-läge</string>
     <string name="exo_download_completed">Nedladdningen är klar</string>
@@ -664,6 +679,9 @@ Skicka koden till handledaren."</string>
     <string name="exo_download_downloading">Laddar ned</string>
     <string name="exo_download_failed">Nedladdningen misslyckades</string>
     <string name="exo_download_notification_channel_name">Nedladdningar</string>
+    <string name="exo_download_paused">Nedladdningar har pausats</string>
+    <string name="exo_download_paused_for_network">Nedladdningar väntar på nätverket</string>
+    <string name="exo_download_paused_for_wifi">Nedladdningar väntar på wifi</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
     <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
@@ -687,11 +705,13 @@ Skicka koden till handledaren."</string>
     <string name="experience_improve">Program för Användarupplevelse</string>
     <string name="external_app_restricted_access_error">Mi Webbläsaren inte kan komma åt detta objekt.</string>
     <string name="failed_dup_secure_phone_number">Detta telefonnummer är redan kopplat till ett annat Mi Konto</string>
+    <string name="fallback_menu_item_copy_link">Kopiera länk</string>
+    <string name="fallback_menu_item_open_in_browser">Öppna i webbläsaren</string>
+    <string name="fallback_menu_item_share_link">Dela länk</string>
     <string name="fast_search_title">Snabbsökning</string>
     <string name="fast_than">Framför %1$s %% användare</string>
     <string name="fb_login_tips">Logga in för att ladda ner videor från Facebook</string>
     <string name="fb_register_btn">Skapa konto</string>
-    <string name="fcm_fallback_notification_channel_label">Diverse</string>
     <string name="featured_this_week">Utvalt denna vecka</string>
     <string name="feedback_bad">Nej</string>
     <string name="feedback_general">Något</string>
@@ -724,6 +744,7 @@ Skicka koden till handledaren."</string>
     <string name="file_picker">Välj sökväg</string>
     <string name="filename_empty_alert_message">Ange filnamn</string>
     <string name="filename_illegal_alert_message">Ett ogiltigt tecken togs bort från filnamnet</string>
+    <string name="files_stored_in_the_phone">Filer lagrade på den här enheten</string>
     <string name="find_garbage">Hittade %d MD av skräp</string>
     <string name="find_new_version">NY UPPDATERING TILLGÄNGLIG</string>
     <string name="find_on_page_cancel">Avbryt</string>
@@ -801,6 +822,7 @@ Skicka koden till handledaren."</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="game_center">Spel</string>
     <string name="game_center_recommend_play">Spela</string>
     <string name="game_center_recommend_title">Rekommenderat för dig</string>
     <string name="game_play">Spela</string>
@@ -858,7 +880,7 @@ Skicka koden till handledaren."</string>
     <string name="home_feed_channel">Visa \"Nyheter\" på navigationsfältet</string>
     <string name="home_game_channel">Visa \"Spel\" på navigationsfältet</string>
     <string name="home_nf">Innehållsflöde</string>
-    <string name="home_nf_recommend_on">Rekommenderat för dig</string>
+    <string name="home_nf_recommend_on">Recommended for you</string>
     <string name="home_page_simple">Enkel</string>
     <string name="homepage_default">Standard</string>
     <string name="homepage_delete_card_menu">Ta bort</string>
@@ -870,6 +892,10 @@ Skicka koden till handledaren."</string>
     <string name="homepage_setting">Startsidans inställningar</string>
     <string name="homepage_top_card_menu">Populära</string>
     <string name="hot_games">Populära</string>
+    <string name="hot_news_notify_summary">Push-notifikationer för toppnyheter</string>
+    <string name="hot_news_notify_tips_light">Du kan stänga av nyhetsnotifikationer i &lt;font color=\"#0D84FF\">Inställningar&lt;/font></string>
+    <string name="hot_news_notify_title">Nyhetsnotifikationer</string>
+    <string name="hour_minute">%1$s %2$s</string>
     <string name="i_know">Stoppa</string>
     <string name="identity">Identifiering</string>
     <string name="if_cancel">Avbryt denna åtgärd?</string>
@@ -952,6 +978,8 @@ Skicka koden till handledaren."</string>
     <string name="loading_tips">Dra nedåt för att uppdatera</string>
     <string name="local_apps">Lokala appar</string>
     <string name="local_bookmarks">Mi</string>
+    <string name="local_file">Lokala filer</string>
+    <string name="local_video_player_label">Videospelare (Mi Webbläsare)</string>
     <string name="location_permission_name">Få åtkomst till platsen</string>
     <string name="lockpattern_continue_button_text">Nästa</string>
     <string name="lockpattern_need_to_confirm">Bekräfta upplåsningsmönster</string>
@@ -980,6 +1008,7 @@ Skicka koden till handledaren."</string>
     <string name="media_error_video_not_exist">Video finns inte</string>
     <string name="memory_clear_nothing_result">Inget att rensa i cacheminnet</string>
     <string name="memory_clear_result">%1$s rensad</string>
+    <string name="memory_management">Hantera utrymme</string>
     <string name="memory_usage">Minne</string>
     <string name="menu_addtodesk">Lägg till på Hemskärmen</string>
     <string name="menu_exit_nightmode">Avsluta</string>
@@ -1079,6 +1108,7 @@ Skicka koden till handledaren."</string>
     <string name="month_september_short">Sep</string>
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mer</string>
+    <string name="more_convenient_features_and_content">Se vilka nya verktyg och nytt innehåll Webbläsare har att erbjuda!</string>
     <string name="more_description">Meny</string>
     <string name="more_info">Läs mer</string>
     <string name="more_option">Fler alternativ</string>
@@ -1265,6 +1295,7 @@ Lämna denna sida nu?"</string>
     <string name="my_account">Mitt konto</string>
     <string name="my_cahnnel">Mina kanaler</string>
     <string name="my_channel">Mina kanaler</string>
+    <string name="my_prize_entry">Mina belöningar</string>
     <string name="name_empty">Du måste ange ett namn.</string>
     <string name="nav_bottom_bar_back">Bakåt</string>
     <string name="nav_bottom_bar_close_all">Stäng alla</string>
@@ -1318,6 +1349,7 @@ Lämna denna sida nu?"</string>
     <string name="no_network">Kontrollera din nätverksanslutning och försök igen.</string>
     <string name="no_phone">Inget telefonnummer</string>
     <string name="no_recent_files">Inga nyliga filer</string>
+    <string name="no_scalable_applications">Alla appar är uppdaterade</string>
     <string name="no_space_alert_cancel">Senare</string>
     <string name="no_space_alert_clean">Frigör utrymme</string>
     <string name="no_space_alert_text">Inte tillräckligt med lagringsutrymme</string>
@@ -1349,6 +1381,7 @@ Lämna denna sida nu?"</string>
     <string name="novel_continue_read_popup">Läst</string>
     <string name="novel_tab_popup">Se dina senaste böcker här</string>
     <string name="novel_tab_popup_ok">OK</string>
+    <string name="occupy">%s upptaget</string>
     <string name="offline_notification_text">Tryck för att öppna annonsen</string>
     <string name="offline_notification_title">Se annonsen som du sparade när du var offline</string>
     <string name="offline_opt_in_confirm">OK</string>
@@ -1359,6 +1392,7 @@ Lämna denna sida nu?"</string>
     <string name="ok">OK</string>
     <string name="one_prefect_author">Skapare</string>
     <string name="open_app_confirm_message">Tillåt denna sida att öppna %s?</string>
+    <string name="open_desktop">Har växlat till skrivbordsversion</string>
     <string name="open_google_gaid">För att kunna använda den här funktionen, se till att du inte har valt bort annonsanpassning i Inställningar > Google > Annonser.</string>
     <string name="open_personalized_services">Slå på anpassade tjänster för att kunna använda denna funktion.</string>
     <string name="open_private_folder">Släpp för att visa dolda mappar</string>
@@ -1371,6 +1405,7 @@ Lämna denna sida nu?"</string>
     <string name="operation_rename">Döpa om</string>
     <string name="operation_rename_message">Ange ett nytt namn</string>
     <string name="operation_send">Skicka</string>
+    <string name="opr_activity_title">Se säsongen och få belöningar</string>
     <string name="other_channel">Tryck för att lägga till fler kanaler.</string>
     <string name="page_info">Sidinfo</string>
     <string name="page_info_address">Adress:</string>
@@ -1537,6 +1572,7 @@ Lämna denna sida nu?"</string>
     <string name="popular_game_video">Popular Game Video</string>
     <string name="popup_window_attempt">Tillåt denna webbplats att öppna ett popup-fönster?</string>
     <string name="positive_confirm_message">Avaktivera ändå</string>
+    <string name="power_saving_settings">Batterisparare</string>
     <string name="pref_accessibility">Tillgänglighet</string>
     <string name="pref_accessibility_title">Tillgänglighet</string>
     <string name="pref_adblock_summary">Sidorna kan laddas långsammare när den här funktionen är på</string>
@@ -1750,6 +1786,7 @@ Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att 
     <string name="pwa_hint_added_success">Tillagd</string>
     <string name="qr_code_title">QR-kod</string>
     <string name="qr_description">Skanna QR-kod</string>
+    <string name="quick_access_to_common_functions">Få snabb åtkomst till dina favoritfunktioner</string>
     <string name="quick_search_and_access_to_functions">Snabbsökning ger dig lätt åtkomst till funktionerna du använder mest.</string>
     <string name="quicklink_bookmark_save">Spara till</string>
     <string name="quicklink_cannot_save_url">Denna URL kan inte läggas till.</string>
@@ -1767,6 +1804,9 @@ Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att 
     <string name="quicklinks_most_visited">Lägg till på startsida</string>
     <string name="quicklinks_most_visited_subtitle">Visa nyligen besökta hemsidor i ny flik</string>
     <string name="quicklinks_most_visited_title">Lägg till på startsida</string>
+    <string name="reading__business_recommend_at_end_more">Visa mer</string>
+    <string name="reading__business_recommend_at_end_other_docs">Ytterligare läsning</string>
+    <string name="reading__business_recommend_at_end_title">Rekommenderat innehåll</string>
     <string name="reading__cancel">Avbryt</string>
     <string name="reading__menu_open_with_another_app">Öppna med an annan app</string>
     <string name="reading__menu_play">Bildspel</string>
@@ -1774,6 +1814,7 @@ Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att 
     <string name="reading__menu_search">Sök</string>
     <string name="reading__menu_share">Dela</string>
     <string name="reading__menu_thumbnail">Sidoikoner</string>
+    <string name="reading__reading_end">Sluta</string>
     <string name="reading__reading_first_page">Det här är första sidan</string>
     <string name="reading__reading_last_page">Det här är sista sidan</string>
     <string name="reading__search_cancel">Avbryt</string>
@@ -1892,6 +1933,9 @@ Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att 
     <string name="search_bar_hint_content">Sök appar och innehåll</string>
     <string name="search_bing">Bing</string>
     <string name="search_button_text">Gå</string>
+    <string name="search_card_online_rec_app">App-marknader</string>
+    <string name="search_card_online_rec_app_install">Installera</string>
+    <string name="search_card_online_rec_app_open">Öppna</string>
     <string name="search_dianping">Cate</string>
     <string name="search_easou">Easou</string>
     <string name="search_empty_view_hint">Hittade ingenting</string>
@@ -1966,6 +2010,8 @@ Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att 
     <string name="setting_searchable_content">Sökbara objekt</string>
     <string name="setting_sms_content">SMS-innehåll</string>
     <string name="setting_swipe_up">Svep uppåt på Hemskärmen</string>
+    <string name="settings_search_online_apps">App-marknader</string>
+    <string name="settings_search_online_apps_desc">Innehåll från app-marknader</string>
     <string name="share_image_text">Titta vad jag delade! @MIUI</string>
     <string name="share_page_text">Titta vad jag delade: %1$s @MIUI| %2$s</string>
     <string name="share_slide_video_text">Titta vad jag delade: %1$s</string>
@@ -2002,6 +2048,11 @@ Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att 
     <string name="speed_test_no_network">Det gick inte att ansluta till nätverket. Kontroller dina nätverksinställningar och försök igen.</string>
     <string name="speed_test_ping">Fördröjning</string>
     <string name="speed_test_upload">Ladda upp</string>
+    <string name="sport_card_match_week">Vecka %d</string>
+    <string name="sports_card_match_season">Säsong</string>
+    <string name="sports_card_match_status_1">Kommande</string>
+    <string name="sports_card_match_status_2">Pågående</string>
+    <string name="sports_card_match_status_3">Avgjorda</string>
     <string name="ssl_bad_clock_date_settings">Ange datum</string>
     <string name="ssl_bad_clock_warning" formatted="false">En privat ansluting till %s1 kan inte uppehållas på grund av din enhets datum och tid (%s2) är inkorrekta.</string>
     <string name="ssl_bad_expired_warning">Denna kanal tillhandahålls av %1$s. Men datum och tid som är inställt på din enhet (%2$s) tillåter inte en inrättning av en säker anslutning med %1$s. Du kan ställa in korrekt datum och tid eller trycka på \"Fortsätt\" om du fortfarande vill använda denna kanal.</string>
@@ -2118,6 +2169,7 @@ Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att 
     <string name="the_united_nations_day">FN-dagen</string>
     <string name="the_valentines_day">Alla hjärtans dag</string>
     <string name="the_water_lantern_festival">Water Lantern-festivalen</string>
+    <string name="third_image_viewer_label">Bildvisare (Mi Webbläsare)</string>
     <string name="thursday">Torsdag</string>
     <string name="thursday_short">Tor</string>
     <string name="thursday_shortest">Tor</string>
@@ -2150,6 +2202,11 @@ Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att 
     <string name="translation_query_error_network">Kunde inte översätta. Kontrollera dina nätverksinställningar och försök igen.</string>
     <string name="translation_result_empty">Det gick inte att översätta. Försök igen.</string>
     <string name="translation_to">Översätt till</string>
+    <string name="trash_cleaner_unit_b">B</string>
+    <string name="trash_cleaner_unit_gb">GB</string>
+    <string name="trash_cleaner_unit_kb">KB</string>
+    <string name="trash_cleaner_unit_mb">MB</string>
+    <string name="trash_cleaner_unit_tb">TB</string>
     <string name="trending_apps_more">Mer</string>
     <string name="tuesday">Tisdag</string>
     <string name="tuesday_short">Tis</string>
@@ -2168,6 +2225,7 @@ Vissa webbplatser kommer inte använda din tidigare webbläsarhistorik för att 
     <string name="update_no_network_toast">Kan inte ansluta till nätverket</string>
     <string name="update_now">Uppdatera nu</string>
     <string name="update_phone_notice">Ändra säkerhetsinställningar</string>
+    <string name="upgrade">Uppdatera</string>
     <string name="upload_error_log">Ladda upp loggfil</string>
     <string name="upload_usage_statistics">Slå på för att dela användningsstatistik med oss när Inkognito-läge är på</string>
     <string name="uploads_disabled">Filuppladdningar är begränsade</string>
@@ -2356,10 +2414,13 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="web_tag_desc">Visa miniatyrikoner från tidigare besökta sidor</string>
     <string name="web_tag_tips">Tryck här för att återbesöka en sida</string>
     <string name="web_tag_title">Miniatyrikoner på hemsidan</string>
+    <string name="web_tools_moved_here">Verktyg flyttades hit</string>
     <string name="web_video_accelerate">Hastighet</string>
+    <string name="web_video_default_time">%1$s :%2$s</string>
     <string name="web_video_download">Ladda ned</string>
     <string name="web_video_download_no_access">Behörigheter krävs för att ladda ned objekt</string>
     <string name="web_video_enable_long_click_toast">Spelar med %dX hastighet</string>
+    <string name="web_video_float_drag_msg">Drag för att justera storlek</string>
     <string name="web_video_list_more">Mer</string>
     <string name="web_video_list_playing">Spelar</string>
     <string name="web_video_list_replay">Spela igen</string>

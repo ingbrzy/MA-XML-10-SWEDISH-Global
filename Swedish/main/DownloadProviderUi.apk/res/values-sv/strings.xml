@@ -81,8 +81,10 @@
     <string name="date_time_picker_dialog_title">Ange datum och tid</string>
     <string name="delete_download">Ta bort</string>
     <string name="dialog_btn_cancel">Avbryt</string>
+    <string name="dialog_btn_force_download">Ladda ned</string>
     <string name="dialog_btn_ok">OK</string>
     <string name="dialog_btn_ok_disabled_net">Nätverksinställningar</string>
+    <string name="dialog_btn_wait_wifi">Vänta på Wi-Fi</string>
     <string name="dialog_clipboard_permission_message">Tillåt nedladdningar för att få tillgång till objekt i urklipp och lägga till kopierade URL:er automatiskt?</string>
     <string name="dialog_clipboard_permission_title">Behörigheter krävs</string>
     <string name="dialog_confirm_delete_checkbox_message">Ta bort även lokala filer</string>
@@ -90,8 +92,11 @@
     <string name="dialog_file_missing_body">Kunde inte hitta filen, verkar som den har blivit raderad.</string>
     <string name="dialog_file_missing_title">Kan inte öppna filen</string>
     <string name="dialog_msg_disabled_net">%1$s begränsade nedladdningar i det nuvarande nätverket. Tryck på inställningar för att gå till Säkerhetsapp.</string>
+    <string name="dialog_msg_net_disallowed_by_app">Den här nedladdningen kommer att starta automatiskt när din enhet ansluts till Wi-Fi. Ladda ner ändå?</string>
+    <string name="dialog_msg_net_slow">Det verkar som om det tar för långt tid för att ladda ner det här objetet med det aktuella nätverket. Ladda ner ändå?</string>
     <string name="dialog_msg_recommend">Du kommer inte kunna se rekommenderade källor efter att stänger av.</string>
     <string name="dialog_title_disabled_net">Internetåtkomst</string>
+    <string name="dialog_title_download">Vänta på Wi-Fi</string>
     <string name="dialog_title_recommend">Avaktivera rekommenderade källor</string>
     <string name="download_complete">Slutförda nedladdningar</string>
     <string name="download_error">Kunde inte ladda ned</string>

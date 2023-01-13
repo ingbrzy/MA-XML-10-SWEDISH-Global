@@ -168,6 +168,10 @@
         <item quantity="other">%d objekt valda</item>
         <item quantity="one">%d objekt vald</item>
     </plurals>
+    <plurals name="notification_missedCallsMsg">
+        <item quantity="other">%d missade samtal</item>
+        <item quantity="one">%d missat samtal</item>
+    </plurals>
     <plurals name="numSelectedSimContacts">
         <item quantity="other">%1$d valda</item>
         <item quantity="one">%1$d vald</item>

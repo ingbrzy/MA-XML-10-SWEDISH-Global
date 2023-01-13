@@ -7,7 +7,6 @@
 Om du inte själv begärde säkerhetskopian ska du inte tillåta detta."</string>
     <string name="backup_confirm_title">Fullständig säkerhetskopiering</string>
     <string name="backup_enc_password_optional">Om du vill kryptera alla säkerhetskopierade data anger du ett lösenord nedan:</string>
-    <string name="backup_enc_password_required">Eftersom enheten är krypterad måste du kryptera säkerhetskopierade data. Ange lösenordet nedan:</string>
     <string name="backup_enc_password_text">Ange ett lösenord för kryptering av alla säkerhetskopierade data. Om det här lämnas tomt kommer ditt nuvarande lösenord för säkerhetskopior att användas:</string>
     <string name="current_password_text">Ange det aktuella lösenordet för säkerhetskopian nedan:</string>
     <string name="deny_backup_button_label">Säkerhetskopiera inte</string>

@@ -37,6 +37,12 @@
         <item>Mikrofon</item>
         <item>Systemljud</item>
     </string-array>
+    <string-array name="screenrecorder_settings_sound_native">
+        <item>Inget</item>
+        <item>Mikrofon</item>
+        <item>System</item>
+        <item>Båda</item>
+    </string-array>
     <string-array name="screenrecorder_settings_storage_location">
         <item>Internt lagringsutrymme</item>
         <item>Externt lagringsutrymme</item>

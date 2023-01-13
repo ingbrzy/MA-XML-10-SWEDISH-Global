@@ -25,6 +25,10 @@
         <item>PIN</item>
         <item>Lösenord</item>
     </string-array>
+    <string-array name="cache_sort_type">
+        <item>Storlek</item>
+        <item>Namn</item>
+    </string-array>
     <string-array name="cellular_data_unit">
         <item>GB</item>
         <item>MB</item>
@@ -92,20 +96,25 @@
         <item>Hög</item>
         <item>Högsta</item>
     </string-array>
+    <string-array name="gb_voice_change_gender">
+        <item>@string/gb_voice_changer_gender_man</item>
+        <item>@string/gb_voice_changer_gender_female</item>
+    </string-array>
     <string-array name="input_package_names">
         <item>com.baidu.input_mi</item>
         <item>com.iflytek.inputmethod.miui</item>
         <item>com.sohu.inputmethod.sogou.xiaomi</item>
     </string-array>
+    <string-array name="key_app_info">
+        <item>install_source</item>
+        <item>install_time</item>
+        <item>update_source</item>
+        <item>update_time</item>
+    </string-array>
     <string-array name="lock_mode">
         <item>När enheten är låst</item>
         <item>När enheten är låst eller efter en app avslutas</item>
         <item>När enheten är låst eller efter 1 minut som en app avslutas</item>
-    </string-array>
-    <string-array name="lock_mode_value">
-        <item>1</item>
-        <item>0</item>
-        <item>2</item>
     </string-array>
     <string-array name="mi_service_traffic_type">
         <item>"Mobildata "</item>
@@ -115,10 +124,20 @@
         <item>Viktigt: Flera system-appar kan sluta fungera korrekt.</item>
         <item>Text-layouter, konton, och innehåll kanske inte visas korrekt.</item>
     </string-array>
+    <string-array name="operate_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
+    </string-array>
     <string-array name="operate_entryValues">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+    <string-array name="operate_memory_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
     </string-array>
     <string-array name="operate_memory_entryValues">
         <item>0</item>
@@ -128,6 +147,20 @@
     <string-array name="over_limit_traffic_waring_style">
         <item>Visa varning</item>
         <item>Varna och stäng av mobildata</item>
+    </string-array>
+    <string-array name="pc_battery_history_spinner_choice">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/power_center_battery_all</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
+    </string-array>
+    <string-array name="pc_battery_history_spinner_choice_new">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/power_center_battery_all</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
     </string-array>
     <string-array name="pc_fast_charge_entry">
         <item>10%</item>
@@ -178,15 +211,13 @@
         <item>Dataanvändning</item>
         <item>Saldo</item>
     </string-array>
-    <string-array name="sort_title">
-        <item>Sortera efter status</item>
+    <string-array name="sort_title_new">
         <item>Sortera efter namn</item>
         <item>Sortera efter användningsfrekvens</item>
         <item>Sortera efter använt utrymme</item>
         <item>Sortera efter installationstid</item>
     </string-array>
-    <string-array name="sort_type">
-        <item>Status</item>
+    <string-array name="sort_type_new">
         <item>Namn på app</item>
         <item>Användningsfrekvens</item>
         <item>Använt utrymme</item>

@@ -36,20 +36,6 @@
         <item quantity="other">%d minuter sedan</item>
         <item quantity="one">1 minut sedan</item>
     </plurals>
-    <plurals name="alert_dialog_exit_ecm">
-        <item quantity="other">Mobilen försätts i nödsamtalsläge i %s minuter. I det här läget går det inte att använda några appar där en dataanslutning används. Vill du avsluta nu?</item>
-        <item quantity="one">Mobilen försätts i nödsamtalsläge i %s minut. I det här läget går det inte att använda några appar där en dataanslutning används. Vill du avsluta nu?</item>
-    </plurals>
-    <plurals name="alert_dialog_exit_ecm_without_data_restriction_hint">
-        <item quantity="other">"Telefonen kommer att vara i läget för återuppringning vid nödsamtal i %s minuter.
-Vill du avsluta nu?"</item>
-        <item quantity="one">"Telefonen kommer att vara i läget för återuppringning vid nödsamtal i %s minut.
-Vill du avsluta nu?"</item>
-    </plurals>
-    <plurals name="alert_dialog_not_avaialble_in_ecm">
-        <item quantity="other">Den valda åtgärden är inte tillgänglig i nödsamtalsläget. Mobilen försätts i det här läget i %s minuter. Vill du avsluta nu?</item>
-        <item quantity="one">Den valda åtgärden är inte tillgänglig i nödsamtalsläget. Mobilen försätts i det här läget i %s minut. Vill du avsluta nu?</item>
-    </plurals>
     <plurals name="auto_answer_summary_delay">
         <item quantity="other">fördröjning: %d sekunder</item>
         <item quantity="one">fördröjning: %d sekund</item>
@@ -102,10 +88,6 @@ Vill du avsluta nu?"</item>
         <item quantity="other">%d objekt valda</item>
         <item quantity="one">%d objekt vald</item>
     </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d nya aviseringar</item>
-        <item quantity="one">%d ny avisering</item>
-    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minuter sedan</item>
         <item quantity="one">1 minut sedan</item>
@@ -115,9 +97,5 @@ Vill du avsluta nu?"</item>
 %d försök återstår."</item>
         <item quantity="one">"
 %d försök återstår."</item>
-    </plurals>
-    <plurals name="wifi_tether_connected_summary">
-        <item quantity="other">%1$d enheter är anslutna</item>
-        <item quantity="one">%1$d enhet är ansluten</item>
     </plurals>
 </resources>

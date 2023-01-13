@@ -41,8 +41,8 @@
         <item quantity="one">%d dag sedan</item>
     </plurals>
     <plurals name="abc_slice_duration_min">
-        <item quantity="other">%d minuter sedan</item>
-        <item quantity="one">%d minut sedan</item>
+        <item quantity="other">%d min sedan</item>
+        <item quantity="one">%d min sedan</item>
     </plurals>
     <plurals name="abc_slice_duration_years">
         <item quantity="other">%d år sedan</item>
@@ -51,6 +51,10 @@
     <plurals name="controls_number_of_favorites">
         <item quantity="other">%s kontroller har lagts till.</item>
         <item quantity="one">%s kontroll har lagts till.</item>
+    </plurals>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="other">%s appar är aktiva</item>
+        <item quantity="one">%s app är aktiv</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtimme sedan</item>
@@ -140,22 +144,6 @@
         <item quantity="other">Du angav fel PUK-kod för SIM-kortet. %d försök återstår innan SIM-kortet blir obrukbart.</item>
         <item quantity="one">Du angav fel PUK-kod för SIM-kortet. %d försök återstår innan SIM-kortet blir obrukbart.</item>
     </plurals>
-    <plurals name="kg_prompt_reason_time_password">
-        <item quantity="other">Enheten har inte låsts upp på %d timmar. Bekräfta lösenordet.</item>
-        <item quantity="one">Enheten har inte låsts upp på %d timme. Bekräfta lösenordet.</item>
-    </plurals>
-    <plurals name="kg_prompt_reason_time_pattern">
-        <item quantity="other">Enheten har inte låsts upp på %d timmar. Bekräfta det grafiska lösenordet.</item>
-        <item quantity="one">Enheten har inte låsts upp på %d timme. Bekräfta det grafiska lösenordet.</item>
-    </plurals>
-    <plurals name="kg_prompt_reason_time_pin">
-        <item quantity="other">Enheten har inte låsts upp på %d timmar. Bekräfta pinkoden.</item>
-        <item quantity="one">Enheten har inte låsts upp på %d timme. Bekräfta pinkoden.</item>
-    </plurals>
-    <plurals name="kg_too_many_failed_attempts_countdown">
-        <item quantity="other">Försök igen om %d sekunder.</item>
-        <item quantity="one">Försök igen om 1 sekund.</item>
-    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Nyss</item>
         <item quantity="one">Nyss</item>
@@ -203,9 +191,5 @@
     <plurals name="user_limit_reached_message">
         <item quantity="other">Det går att lägga till upp till %d användare.</item>
         <item quantity="one">Det går bara att skapa en användare.</item>
-    </plurals>
-    <plurals name="wifi_tether_connected_summary">
-        <item quantity="other">%1$d enheter är anslutna</item>
-        <item quantity="one">%1$d enhet är ansluten</item>
     </plurals>
 </resources>

@@ -91,6 +91,7 @@
     <string name="birthday_saved">Födelsedag sparad</string>
     <string name="birthday_term">födelsedag</string>
     <string name="button_record_menstruation">Registrera</string>
+    <string name="calendar_account_settings">Kontoinställningar</string>
     <string name="calendar_permission_desc">Hantera händelser</string>
     <string name="calendar_privacy_policy">Integritetspolicy</string>
     <string name="can_not_create_long_event">Händelsenamn för långt</string>
@@ -112,6 +113,7 @@
     <string name="change">Ändra</string>
     <string name="change_response_title">Ändra svar</string>
     <string name="change_zodiac">Ändra stjärntecken</string>
+    <string name="check_new_version">Sök efter uppdateringar</string>
     <string name="chips_action_cancel">Avbryt</string>
     <string name="chips_action_copy">Kopiera</string>
     <string name="chips_permission_text">Tillåt kontaktförslag</string>
@@ -180,6 +182,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Traditionell kinesisk kalender</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Ange datum och tid</string>
     <string name="date_today">" (idag)"</string>
     <string name="date_view">Datum</string>
@@ -194,6 +197,7 @@
     <string name="description_calendar_edit_event">Systemappar/Kalender/Agenda</string>
     <string name="directory_searching_fmt">Söker %s…</string>
     <string name="discard_label">Avbryt</string>
+    <string name="display_to_calendar">Visa i kalender</string>
     <string name="does_not_repeat">Aldrig (engångshändelse)</string>
     <string name="dropdown_delete_button_desc">Ta bort %s från mottagarlistan</string>
     <string name="early_morning">Morgon</string>
@@ -387,6 +391,7 @@
     <string name="horoscope">Horoskop</string>
     <string name="horoscope_card_title">Dagens horoskop</string>
     <string name="horoscope_select_activity_label">Välj zodiactecken</string>
+    <string name="hour_1">%d timme</string>
     <string name="image_processing">Bilden är inte klar än</string>
     <string name="import_action">Importera</string>
     <string name="import_birthday">Importera födelsedag</string>
@@ -451,6 +456,10 @@
     <string name="mesens_card_title_today_begin">Menstruation kan starta idag</string>
     <string name="mesens_card_title_tomorrow_begin">Menstruationen kan starta imorgon</string>
     <string name="midnight">Natt</string>
+    <string name="minutes_10">%d minuter</string>
+    <string name="minutes_15">%d minuter</string>
+    <string name="minutes_30">%d minuter</string>
+    <string name="minutes_5">%d minuter</string>
     <string name="missing_name">(Inget namn)</string>
     <string name="missing_required_permission">Du har begränsat obligatoriska behörigheter.</string>
     <string name="miuix_access_state_desc">Valt</string>
@@ -713,7 +722,6 @@ Kontrollera inställningar och försök igen."</string>
     <string name="save">Spara</string>
     <string name="saving_event">Händelse sparad</string>
     <string name="saving_event_with_guest">Skickar uppdateringar…</string>
-    <string name="search_calendar">Datum;Soltermer;Mån;Almanacka;Lycka;Agenda;Möte;Påminnelse;Semester;Semester;Födelsedag;2016;2017;Vårfestival;Nyårsdagen;Internationella Arbetsdagen;Mitt-höst Festival</string>
     <string name="search_calendar_edit_event">Möte;Påminnelse;Agenda</string>
     <string name="search_calendar_settings">Kalender;Agenda;Påminnelse</string>
     <string name="search_events">Sök händelser</string>
@@ -753,6 +761,9 @@ Kontrollera inställningar och försök igen."</string>
     <string name="share_image_label">Dela via</string>
     <string name="share_title">Dela</string>
     <string name="short_date_format">d MMM</string>
+    <string name="shortcut_new_event">Lägg till händelse</string>
+    <string name="shortcut_next_agenda">Nästa händelse</string>
+    <string name="shortcut_settings">Inställningar</string>
     <string name="show_day_view">Visa dag</string>
     <string name="show_indic_date_summary">Indisk kalender är tillgänglig när ett av de språk som talas i Indien har angetts som ditt systemspråk</string>
     <string name="show_menstruation_info">Visa information om menstruation</string>
@@ -792,6 +803,7 @@ Du kan också lägga till påminneler så du inte missar något viktigt."</strin
     <string name="subtitle_mi_calendar_predict_menstruation">Registrera och uppskatta kommande menstruationer med hjälp av kalendern</string>
     <string name="subtitle_record_and_start_predict">Registrera en menstruation för att uppskatta när nästa startar</string>
     <string name="subtitle_stick_record">Registrera dina menstruationer för att få mer precisa förutsägelser</string>
+    <string name="suggestions_and_feedback">Feedback</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>

@@ -36,6 +36,10 @@
         <item quantity="other">%d minuter sedan</item>
         <item quantity="one">1 minut sedan</item>
     </plurals>
+    <plurals name="authorization_status_hold_time">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtimme sedan</item>
         <item quantity="one">En halvtimme sedan</item>

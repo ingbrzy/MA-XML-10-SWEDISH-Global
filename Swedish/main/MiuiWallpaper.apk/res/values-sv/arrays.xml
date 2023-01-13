@@ -30,9 +30,4 @@
         <item>Bakgrundsbilder/Super-bakgrunder</item>
         <item>Super-bakgrunder;Bakgrundsbild;Dynamisk bakgrundsbild;3D-bakgrundsbild</item>
     </string-array>
-    <string-array name="settings_search_weather">
-        <item>Väder</item>
-        <item>Bakgrundsbilder/Super-bakgrunder/Väder</item>
-        <item>Väder;Väderinfo;Super-bakgrunder;Bakgrundsbilder</item>
-    </string-array>
 </resources>

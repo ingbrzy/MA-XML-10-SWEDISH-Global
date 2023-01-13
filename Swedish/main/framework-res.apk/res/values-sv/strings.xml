@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Obs!</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Videon kan tyvärr inte spelas upp i den här enheten.</string>
     <string name="selectTextMode">Markera text</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Ikon för fingeravtryck</string>
     <string name="paste_as_plain_text">Klistra in som oformaterad text</string>
     <string name="autofill">Autofyll</string>
@@ -175,7 +176,6 @@
     <string name="accessibility_dialog_button_deny">Neka</string>
     <string name="accessibility_edit_shortcut_menu_button_title">Välj vilka funktioner du vill använda med hjälp av tillgänglighetsknappen</string>
     <string name="accessibility_edit_shortcut_menu_volume_title">Välj att funktioner att använda med hjälp av volymknappskortkommandot</string>
-    <string name="accessibility_enable_service_encryption_warning">Om du aktiverar %1$s används inte skärmlåset för att förbättra datakryptering på enheten.</string>
     <string name="accessibility_enable_service_title">Vill du tillåta att %1$s får fullständig kontroll över enheten?</string>
     <string name="accessibility_freeform_caption">Textningsfält för %1$s.</string>
     <string name="accessibility_gesture_3finger_instructional_text">Byt funktion genom att svepa uppåt med tre fingrar och hålla kvar dem.</string>
@@ -193,7 +193,7 @@
     <string name="accessibility_shortcut_enabling_service">Volymknapparna har tryckts ned. %1$s har aktiverats.</string>
     <string name="accessibility_shortcut_menu_item_status_off">AV</string>
     <string name="accessibility_shortcut_menu_item_status_on">PÅ</string>
-    <string name="accessibility_shortcut_multiple_service_list">"\u0009• %1$s
+    <string name="accessibility_shortcut_multiple_service_list">" • %1$s
 "</string>
     <string name="accessibility_shortcut_multiple_service_warning">"Om du trycker ned båda volymknapparna i ett par sekunder aktiveras tillgänglighetsfunktionerna. Det kan få enheten ett fungera annorlunda.
 
@@ -212,7 +212,13 @@ Du kan ändra vilken funktion som ska aktiveras med genvägen under Inställning
     <string name="accessibility_shortcut_warning_dialog_title">Vill du använda Aktivera tillgänglighet snabbt?</string>
     <string name="accessibility_system_action_back_label">Tillbaka</string>
     <string name="accessibility_system_action_dismiss_notification_shade">Stäng meddelandepanelen</string>
+    <string name="accessibility_system_action_dpad_center_label">Styrkors, mitten</string>
+    <string name="accessibility_system_action_dpad_down_label">Styrkors, ned</string>
+    <string name="accessibility_system_action_dpad_left_label">Styrkors, vänster</string>
+    <string name="accessibility_system_action_dpad_right_label">Styrkors, höger</string>
+    <string name="accessibility_system_action_dpad_up_label">Styrkors, upp</string>
     <string name="accessibility_system_action_hardware_a11y_shortcut_label">Aktivera tillgänglighet snabbt</string>
+    <string name="accessibility_system_action_headset_hook_label">Krok till headset</string>
     <string name="accessibility_system_action_home_label">Startsida</string>
     <string name="accessibility_system_action_lock_screen_label">Låsskärm</string>
     <string name="accessibility_system_action_notifications_label">Aviseringar</string>
@@ -291,6 +297,15 @@ Du kan ändra vilken funktion som ska aktiveras med genvägen under Inställning
     <string name="app_not_found">Ingen app som kan hantera åtgärden hittades</string>
     <string name="app_running_notification_text">Tryck om du vill veta mer eller stoppa appen.</string>
     <string name="app_running_notification_title">%1$s körs</string>
+    <string name="app_streaming_blocked_message">Det går inte att streama detta till %1$s. Testa med telefonen i stället.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Appen begär ytterligare säkerhet. Testa med telefonen i stället.</string>
+    <string name="app_streaming_blocked_message_for_permission_dialog">Det går inte att streama detta till %1$s för närvarande. Testa med telefonen i stället.</string>
+    <string name="app_streaming_blocked_title">%1$s är inte tillgänglig</string>
+    <string name="app_streaming_blocked_title_for_camera_dialog">Kameran är inte tillgänglig</string>
+    <string name="app_streaming_blocked_title_for_fingerprint_dialog">Fortsätt på telefonen</string>
+    <string name="app_streaming_blocked_title_for_microphone_dialog">Mikrofonen är inte tillgänglig</string>
+    <string name="app_streaming_blocked_title_for_permission_dialog">Behörighet krävs</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Telefonens inställningar är inte tillgängliga</string>
     <string name="app_suspended_default_message">%1$s är inte tillgänglig just nu. Detta hanteras av %2$s.</string>
     <string name="app_suspended_more_details">Läs mer</string>
     <string name="app_suspended_title">Appen är inte tillgänglig</string>
@@ -312,6 +327,7 @@ Du kan ändra vilken funktion som ska aktiveras med genvägen under Inställning
     <string name="autofill_parish">Församling</string>
     <string name="autofill_picker_accessibility_title">Alternativ för autofyll</string>
     <string name="autofill_picker_no_suggestions">Inga förslag från autofyll</string>
+    <string name="autofill_picker_some_suggestions">{count,plural, =1{Ett förslag från autofyll}other{# förslag från autofyll}}</string>
     <string name="autofill_postal_code">Postnummer</string>
     <string name="autofill_prefecture">Prefektur</string>
     <string name="autofill_province">Provins</string>
@@ -363,6 +379,7 @@ Du kan ändra vilken funktion som ska aktiveras med genvägen under Inställning
     <string name="biometric_or_screen_lock_dialog_default_subtitle">Fortsätt med hjälp av din biometriska data eller skärmlåset</string>
     <string name="bluetooth_a2dp_audio_route_name">Bluetooth-ljud</string>
     <string name="bluetooth_airplane_mode_toast">Bluetooth fortsätter att vara på i flygplansläget</string>
+    <string name="bugreport_countdown">{count,plural, =1{Tar en skärmdump till felrapporten om # sekund.}other{Tar en skärmdump till felrapporten om # sekunder.}}</string>
     <string name="bugreport_message">Nu hämtas information om aktuell status för enheten, som sedan skickas i ett e-postmeddelade. Det tar en liten stund innan felrapporten är färdig och kan skickas, så vi ber dig ha tålamod.</string>
     <string name="bugreport_option_full_summary">Alternativet innebär minsta möjliga störning när enheten inte svarar eller är långsam, eller när alla avsnitt ska ingå i rapporten. Du kan inte ange mer information eller ta ytterligare skärmbilder.</string>
     <string name="bugreport_option_full_title">Fullständig rapport</string>
@@ -434,7 +451,6 @@ Du kan ändra vilken funktion som ska aktiveras med genvägen under Inställning
     <string name="conversation_single_line_name_display">%1$s:</string>
     <string name="conversation_title_fallback_group_chat">Gruppkonversation</string>
     <string name="conversation_title_fallback_one_to_one">Konversation</string>
-    <string name="copied">Kopierat</string>
     <string name="country_detector">Country Detector</string>
     <string name="country_selection_title">Regionsinställningar</string>
     <string name="create_contact_using">"Skapa kontakt
@@ -490,6 +506,7 @@ med %s"</string>
     <string name="deprecated_target_sdk_message">Appen har utvecklats för en äldre version av Android och kanske inte fungerar som den ska. Testa att söka efter uppdateringar eller kontakta utvecklaren.</string>
     <string name="description_target_unlock_tablet">Lås upp genom att svepa.</string>
     <string name="device_ownership_relinquished">Administratören tillåter inte längre privat bruk av enheten</string>
+    <string name="device_policy_manager_service">Tjänst för policyhantering på enheten</string>
     <string name="device_storage_monitor_notification_channel">Enhetens lagringsutrymme</string>
     <string name="dial_number_using">"Slå nummer 
 med %s"</string>
@@ -511,6 +528,22 @@ med %s"</string>
     <string name="dump_heap_system_text">Minnesgränsen på %2$s har överskridits för processen %1$s. En minnesdump har skapats som du kan dela. Var försiktig! Minnesdumpen kan innehålla känsliga personliga uppgifter som processen har åtkomst till, till exempel saker du har skrivit.</string>
     <string name="dump_heap_text">Minnesgränsen på %2$s har överskridits för processen %1$s. En dump av minnesheapen har skapats så att du kan dela den med utvecklaren. Var försiktig! Minnesdumpen kan innehålla personliga uppgifter som appen har åtkomst till.</string>
     <string name="dump_heap_title">Vill du dela minnesdumpen?</string>
+    <string name="duration_days_relative">{count,plural, =1{För # dag sedan}other{För # dagar sedan}}</string>
+    <string name="duration_days_relative_future">{count,plural, =1{# dag}other{# dagar}}</string>
+    <string name="duration_days_shortest">%d d</string>
+    <string name="duration_days_shortest_future">om %d d</string>
+    <string name="duration_hours_relative">{count,plural, =1{För # timme sedan}other{För # timmar sedan}}</string>
+    <string name="duration_hours_relative_future">{count,plural, =1{# timme}other{# timmar}}</string>
+    <string name="duration_hours_shortest">%d tim</string>
+    <string name="duration_hours_shortest_future">om %d tim</string>
+    <string name="duration_minutes_relative">{count,plural, =1{För # minut sedan}other{För # minuter sedan}}</string>
+    <string name="duration_minutes_relative_future">{count,plural, =1{# minut}other{# minuter}}</string>
+    <string name="duration_minutes_shortest">%d min</string>
+    <string name="duration_minutes_shortest_future">om %d min</string>
+    <string name="duration_years_relative">{count,plural, =1{För # år sedan}other{För # år sedan}}</string>
+    <string name="duration_years_relative_future">{count,plural, =1{# år}other{# år}}</string>
+    <string name="duration_years_shortest">%d år</string>
+    <string name="duration_years_shortest_future">om %d år</string>
     <string name="dynamic_mode_notification_channel_name">Avisering om rutinläge</string>
     <string name="dynamic_mode_notification_summary">Batterisparläget har aktiverats för att utöka batteritiden</string>
     <string name="dynamic_mode_notification_title">Batteriet kan ta slut innan du brukar ladda det</string>
@@ -618,6 +651,7 @@ med %s"</string>
     <string name="face_error_timeout">Försök att använda ansiktslåset igen</string>
     <string name="face_error_unable_to_process">Det gick inte att verifiera ansiktet. Försök igen.</string>
     <string name="face_error_user_canceled">Ansiktslås avbröts av användaren</string>
+    <string name="face_error_vendor_unknown">Något gick fel. Försök igen.</string>
     <string name="face_icon_content_description">Ansikte</string>
     <string name="face_name_template">Ansikte %d</string>
     <string name="face_or_screen_lock_app_setting_name">Använd ansiktslåset eller skärmlåset</string>
@@ -625,6 +659,7 @@ med %s"</string>
     <string name="face_recalibrate_notification_content">Tryck för att radera ansiktsmodellen och lägg sedan till ansiktet igen</string>
     <string name="face_recalibrate_notification_name">Ansiktslås</string>
     <string name="face_recalibrate_notification_title">Problem med ansiktslås</string>
+    <string name="face_sensor_privacy_enabled">Om du vill använda ansiktslås aktiverar du <b>Kameraåtkomst</b> i Inställningar > Integritet</string>
     <string name="face_setup_notification_content">Lås upp telefonen genom att titta på den</string>
     <string name="face_setup_notification_title">Konfigurera ansiktslås</string>
     <string name="faceunlock_multiple_failures">Du har försökt låsa upp med ansiktslås för många gånger</string>
@@ -641,17 +676,20 @@ Kontakta organisationens administratör om du har några frågor."</string>
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Funktionskoden är fullständig.</string>
     <string name="fcError">Anslutningsproblem eller ogiltig funktionskod.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
+    <string name="file_count">{count,plural, =1{{file_name} + # fil}other{{file_name} + # filer}}</string>
     <string name="find">Sök efter</string>
     <string name="find_next">Sök nästa</string>
     <string name="find_on_page">Sök på sidan</string>
     <string name="find_previous">Sök föregående</string>
     <string name="fingerprint_acquired_already_enrolled">Testa ett annat fingeravtryck</string>
-    <string name="fingerprint_acquired_imager_dirty">Rengör sensorn</string>
+    <string name="fingerprint_acquired_imager_dirty">Rengör fingeravtryckssensorn och försök igen</string>
+    <string name="fingerprint_acquired_imager_dirty_alt">Rengör sensorn och försök igen</string>
     <string name="fingerprint_acquired_immobile">Flytta fingret lite varje gång</string>
     <string name="fingerprint_acquired_insufficient">Det gick inte att bearbeta fingeravtrycket. Försök igen.</string>
-    <string name="fingerprint_acquired_partial">Ofullständigt fingeravtryck upptäcktes</string>
+    <string name="fingerprint_acquired_partial">Tryck på sensorn med ett stadigt tryck</string>
     <string name="fingerprint_acquired_too_bright">Det är för ljust</string>
-    <string name="fingerprint_acquired_too_fast">Håll kvar fingret lite längre</string>
+    <string name="fingerprint_acquired_too_fast">Tryck hårt på sensorn</string>
     <string name="fingerprint_acquired_too_slow">Du rörde fingret för långsamt. Försök igen.</string>
     <string name="fingerprint_acquired_try_adjusting">Testa att justera fingeravtrycket</string>
     <string name="fingerprint_app_setting_name">Använd ditt fingeravtryck</string>
@@ -665,10 +703,12 @@ Kontakta organisationens administratör om du har några frågor."</string>
     <string name="fingerprint_error_lockout_permanent">Du har försökt för många gånger. Fingeravtryckssensorn har inaktiverats.</string>
     <string name="fingerprint_error_no_fingerprints">Inga fingeravtryck har registrerats.</string>
     <string name="fingerprint_error_no_space">Det gick inte att konfigurera fingeravtryck</string>
+    <string name="fingerprint_error_not_match">Fingeravtrycket känns inte igen</string>
     <string name="fingerprint_error_security_update_required">Sensorn har tillfälligt inaktiverats.</string>
     <string name="fingerprint_error_timeout">Tidsgränsen för fingeravtrycket har uppnåtts. Försök igen.</string>
     <string name="fingerprint_error_unable_to_process">Försök igen.</string>
     <string name="fingerprint_error_user_canceled">Fingeravtrycksåtgärden avbröts av användaren.</string>
+    <string name="fingerprint_error_vendor_unknown">Något gick fel. Försök igen.</string>
     <string name="fingerprint_name_template">Finger %d</string>
     <string name="fingerprint_or_screen_lock_app_setting_name">Använd ditt fingeravtryck eller skärmlåset</string>
     <string name="fingerprint_or_screen_lock_dialog_default_subtitle">Fortsätt med hjälp av ditt fingeravtryck eller skärmlåset</string>
@@ -677,6 +717,7 @@ Kontakta organisationens administratör om du har några frågor."</string>
     <string name="fingerprint_recalibrate_notification_title">Det går inte att använda fingeravtryckssensorn</string>
     <string name="fingerprint_setup_notification_content">Tryck för att lägga till ett fingeravtryck</string>
     <string name="fingerprint_setup_notification_title">Konfigurera fler sätt att låsa upp</string>
+    <string name="fingerprint_udfps_error_not_match">Fingeravtrycket känns inte igen</string>
     <string name="fingerprints">Fingeravtryck:</string>
     <string name="floating_toolbar_close_overflow_description">Dölj utökat verktygsfält</string>
     <string name="floating_toolbar_open_overflow_description">Fler alternativ</string>
@@ -687,12 +728,18 @@ Kontakta organisationens administratör om du har några frågor."</string>
     <string name="foreground_service_tap_for_details">Tryck för information om batteri- och dataanvändning</string>
     <string name="forward_intent_to_owner">Du använder den här appen i din jobbprofil</string>
     <string name="forward_intent_to_work">Du använder den här appen i din jobbprofil</string>
-    <string name="fp_enrollment_powerbutton_intent_message">"Du tryckte på strömbrytaren när du skulle konfigurera fingeravtrycket.
+    <string name="fp_power_button_bp_message">"Du tryckte på strömbrytaren, vilket vanligtvis stänger av skärmen.
 
-Det brukar leda till att skärmen stängs av."</string>
-    <string name="fp_enrollment_powerbutton_intent_negative_button">Avbryt</string>
-    <string name="fp_enrollment_powerbutton_intent_positive_button">Stäng av</string>
-    <string name="fp_enrollment_powerbutton_intent_title">Vill du stänga av skärmen?</string>
+Testa att trycka lätt för att verifiera ditt fingeravtryck."</string>
+    <string name="fp_power_button_bp_negative_button">Fortsätt</string>
+    <string name="fp_power_button_bp_positive_button">Stäng av skärmen</string>
+    <string name="fp_power_button_bp_title">Vill du verifiera ditt fingeravtryck?</string>
+    <string name="fp_power_button_enrollment_message">"Du tryckte på strömbrytaren, vilket vanligtvis stänger av skärmen.
+
+Testa att trycka lätt när du konfigurerar fingeravtrycket."</string>
+    <string name="fp_power_button_enrollment_negative_button">Fortsätt konfigurera</string>
+    <string name="fp_power_button_enrollment_positive_button">Stäng av skärmen</string>
+    <string name="fp_power_button_enrollment_title">Vill du fortsätta med konfigureringen?</string>
     <string name="gadget_host_error_inflating">Det gick inte att lägga till widgeten.</string>
     <string name="geofencing_service">Tjänst med geoblockering</string>
     <string name="gigabyteShort">GB</string>
@@ -729,6 +776,7 @@ Det brukar leda till att skärmen stängs av."</string>
     <string name="granularity_label_line">rad</string>
     <string name="granularity_label_link">länk</string>
     <string name="granularity_label_word">ord</string>
+    <string name="guest_name">Gäst</string>
     <string name="hardware">Visa virtuellt tangentbord</string>
     <string name="harmful_app_warning_open_anyway">ÖPPNA ÄNDÅ</string>
     <string name="harmful_app_warning_title">En skadlig app har upptäckts</string>
@@ -781,8 +829,11 @@ Det brukar leda till att skärmen stängs av."</string>
     <string name="immersive_cling_title">Visar på fullskärm</string>
     <string name="importance_from_person">Detta är viktigt på grund av personerna som deltar.</string>
     <string name="importance_from_user">Du anger hur viktiga aviseringarna är.</string>
+    <string name="in_progress">pågår</string>
     <string name="inputMethod">Indatametod</string>
     <string name="input_method_binding_label">Indatametod</string>
+    <string name="input_method_ime_switch_button_desc">Byt inmatningsmetod</string>
+    <string name="input_method_nav_back_button_desc">Tillbaka</string>
     <string name="install_carrier_app_notification_button">Ladda ned appen</string>
     <string name="install_carrier_app_notification_text">Ladda ned operatörens app och aktivera det nya SIM-kortet</string>
     <string name="install_carrier_app_notification_text_app_name">Ladda ned appen %1$s för att aktivera det nya SIM-kortet</string>
@@ -868,6 +919,7 @@ Besök "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_reordering_delete_drop_target_text">Ta bort</string>
     <string name="kg_sim_pin_instructions">Ange PIN-kod för SIM-kortet</string>
     <string name="kg_sim_unlock_progress_dialog_message">Låser upp SIM-kort …</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Du har angett fel lösenord %1$d gånger. 
 
 Försök igen om %2$d sekunder."</string>
@@ -885,6 +937,7 @@ Försök igen om %2$d sekunder."</string>
     <string name="language_picker_section_suggested">Förslag</string>
     <string name="language_selection_title">Lägg till ett språk</string>
     <string name="last_month">Föregående månad</string>
+    <string name="last_num_days">{count,plural, =1{Senaste dygnet (# dag)}other{Senaste # dagarna}}</string>
     <string name="launchBrowserDefault">Vill du öppna webbläsaren?</string>
     <string name="launch_warning_original">%1$s startades först.</string>
     <string name="launch_warning_replace">%1$s körs.</string>
@@ -971,6 +1024,15 @@ Försök igen om %2$d sekunder."</string>
     <string name="lockscreen_transport_rew_description">Spola tillbaka</string>
     <string name="lockscreen_transport_stop_description">Avbryt</string>
     <string name="lockscreen_unlock_label">Lås upp</string>
+    <string name="log_access_confirmation_allow">Tillåt engångsåtkomst</string>
+    <string name="log_access_confirmation_body">"I enhetsloggar registreras vad som händer på enheten. Appar kan använda dessa loggar för att hitta och åtgärda problem.
+
+Vissa loggar kan innehålla känsliga uppgifter, så du ska bara bevilja appar du litar på åtkomst till alla enhetsloggar. 
+
+En app har åtkomst till sina egna loggar även om du inte ger den åtkomst till alla enhetsloggar. Enhetens tillverkare kan fortfarande ha åtkomst till vissa loggar eller viss information på enheten. Läs mer"</string>
+    <string name="log_access_confirmation_deny">Tillåt inte</string>
+    <string name="log_access_confirmation_title">Vill du tillåta att %s får åtkomst till alla enhetsloggar?</string>
+    <string name="log_access_do_not_show_again">Visa inte igen</string>
     <string name="low_internal_storage_view_text">Det kan hända att vissa systemfunktioner inte fungerar</string>
     <string name="low_internal_storage_view_text_no_boot">Det finns inte tillräckligt med utrymme för systemet. Kontrollera att du har ett lagringsutrymme på minst 250 MB och starta om.</string>
     <string name="low_internal_storage_view_title">Lagringsutrymmet börjar ta slut</string>
@@ -979,6 +1041,7 @@ Försök igen om %2$d sekunder."</string>
     <string name="managed_profile_label_badge">%1$s för arbetet</string>
     <string name="managed_profile_label_badge_2">Andra %1$s för jobbet</string>
     <string name="managed_profile_label_badge_3">Tredje %1$s för jobbet</string>
+    <string name="matches_found">{count,plural, =1{# resultat}other{# av {total}}}</string>
     <string name="maximize_button_text">Maximera</string>
     <string name="me">Jag</string>
     <string name="media_route_button_content_description">Casta</string>
@@ -1117,8 +1180,8 @@ Försök igen om %2$d sekunder."</string>
     <string name="mime_type_spreadsheet_ext">%1$s-kalkylark</string>
     <string name="mime_type_video">Video</string>
     <string name="mime_type_video_ext">%1$s-video</string>
-    <string name="miniresolver_open_in_personal">Vill du öppna detta i %s i den privata profilen?</string>
-    <string name="miniresolver_open_in_work">Vill du öppna detta i %s i jobbprofilen?</string>
+    <string name="miniresolver_open_in_personal">Vill du öppna %s i din privata profil?</string>
+    <string name="miniresolver_open_in_work">Vill du öppna %s i din jobbprofil?</string>
     <string name="miniresolver_use_personal_browser">Använd privat webbläsare</string>
     <string name="miniresolver_use_work_browser">Använd jobbwebbläsare</string>
     <string name="minute">minut</string>
@@ -1140,6 +1203,8 @@ Försök igen om %2$d sekunder."</string>
     <string name="mobile_no_internet">Mobilnätverket har ingen internetanslutning</string>
     <string name="month_day_year" formatted="false">%-e %B %Y</string>
     <string name="more_item_label">Mer</string>
+    <string name="mte_override_notification_message">Prestanda och stabilitet kan påverkas. Inaktiveras vid omstart. Om arm64.memtag.bootctl används ska det ställas in på none i förväg.</string>
+    <string name="mte_override_notification_title">Experimentell MTE har aktiverats</string>
     <string name="music_recognition_manager_service">Tjänst för hantering av musikidentifiering</string>
     <string name="muted_by">%1$s stänger av vissa ljud</string>
     <string name="nas_upgrade_notification_content">Förslag på åtgärder och svar tillhandahålls nu via förbättrade aviseringar. Anpassade aviseringar för Android stöds inte längre.</string>
@@ -1175,12 +1240,14 @@ Förbättrade aviseringar har åtkomst till allt innehåll i aviseringar, inklus
     <string name="noon">eftermiddag</string>
     <string name="not_checked">inte markerad</string>
     <string name="not_selected">inte valt</string>
+    <string name="notification_action_check_bg_apps">Kontrollera aktiva appar</string>
     <string name="notification_alerted_content_description">Aviserad</string>
     <string name="notification_app_name_settings">Inställningar</string>
     <string name="notification_app_name_system">System</string>
     <string name="notification_appops_camera_active">Kamera</string>
     <string name="notification_appops_microphone_active">Mikrofon</string>
     <string name="notification_appops_overlay_active">visar över andra appar på mobilen</string>
+    <string name="notification_channel_abusive_bg_apps">Bakgrundsaktivitet</string>
     <string name="notification_channel_accessibility_magnification">Förstoring</string>
     <string name="notification_channel_accessibility_security_policy">Tillgänglighetsanvändning</string>
     <string name="notification_channel_account">Kontostatus</string>
@@ -1212,6 +1279,8 @@ Förbättrade aviseringar har åtkomst till allt innehåll i aviseringar, inklus
     <string name="notification_channel_voice_mail">Röstmeddelanden</string>
     <string name="notification_channel_vpn">VPN-status</string>
     <string name="notification_channel_wfc">wifi-samtal</string>
+    <string name="notification_content_abusive_bg_apps">%1$s körs i bakgrunden. Tryck för att hantera batteriförbrukning.</string>
+    <string name="notification_content_long_running_fgs">%1$s kan påverka batteritiden. Tryck för att granska de aktiva apparna.</string>
     <string name="notification_feedback_indicator">Lämna feedback</string>
     <string name="notification_feedback_indicator_alerted">Den här aviseringen har ändrats till Standard. Tryck för att lämna feedback.</string>
     <string name="notification_feedback_indicator_demoted">Den här aviseringen har fått lägre rankning. Tryck för att lämna feedback.</string>
@@ -1220,10 +1289,13 @@ Förbättrade aviseringar har åtkomst till allt innehåll i aviseringar, inklus
     <string name="notification_hidden_text">Ny avisering</string>
     <string name="notification_history_title_placeholder">Anpassad appavisering</string>
     <string name="notification_listener_binding_label">Meddelandelyssnare</string>
+    <string name="notification_messaging_title_template">%1$s: %2$s</string>
     <string name="notification_phishing_alert_content_description">Varning om nätfiske</string>
     <string name="notification_ranker_binding_label">Rankningstjänst för aviseringar</string>
     <string name="notification_reply_button_accessibility">Svara</string>
     <string name="notification_title">Inloggningsfel för %1$s</string>
+    <string name="notification_title_abusive_bg_apps">En app laddar ur batteriet</string>
+    <string name="notification_title_long_running_fgs">En app är fortfarande aktiv</string>
     <string name="notification_verified_content_description">Verifierat</string>
     <string name="notification_work_profile_content_description">Jobbprofil</string>
     <string name="now_string_shortest">nu</string>
@@ -1291,7 +1363,8 @@ Förbättrade aviseringar har åtkomst till allt innehåll i aviseringar, inklus
     <string name="permdesc_bluetooth_advertise">Tillåter appen att annonsera till Bluetooth-enheter i närheten</string>
     <string name="permdesc_bluetooth_connect">Tillåter appen att ansluta till parkopplade Bluetooth-enheter</string>
     <string name="permdesc_bluetooth_scan">Tillåter appen att hitta och parkoppla Bluetooth-enheter i närheten</string>
-    <string name="permdesc_bodySensors">Ger appen åtkomst till information från sensorer om ditt fysiska tillstånd, till exempel din puls.</string>
+    <string name="permdesc_bodySensors">Tillåter att appen får åtkomst till data från kroppssensorer, t.ex. puls, kroppstemperatur och blodets syrehalt, medan appen används.</string>
+    <string name="permdesc_bodySensors_background">Tillåter att appen får åtkomst till data från kroppssensorer, t.ex. puls, kroppstemperatur och blodets syrehalt, medan appen är i bakgrunden.</string>
     <string name="permdesc_broadcastSticky">Tillåter att appen skickar sticky broadcast, som finns kvar när sändningen är slut. Vid intensiv användning kan mobilen bli långsam eller instabil eftersom minnet överbelastas.</string>
     <string name="permdesc_callCompanionApp">Tillåter att appen kan visa och styra pågående samtal på enheten. Detta omfattar information som telefonnummer för samtal och samtalens status.</string>
     <string name="permdesc_callPhone">Tillåter att appen ringer telefonnummer utan någon aktiv åtgärd från dig. Detta kan leda till oväntade avgifter och samtal. Observera att appen inte tillåts ringa nödsamtal. Skadliga appar kan ringa utan ditt godkännande och detta kan kosta pengar.</string>
@@ -1328,17 +1401,23 @@ Förbättrade aviseringar har åtkomst till allt innehåll i aviseringar, inklus
     <string name="permdesc_mediaLocation">Tillåter att appen läser av platser i din mediesamling.</string>
     <string name="permdesc_modifyAudioSettings">Tillåter att appen ändrar globala ljudinställningar som volym och vilken högtalarutgång som används.</string>
     <string name="permdesc_modifyNetworkAccounting">Tillåter att appen ändrar hur nätverksanvändning redovisas för appar. Används inte av vanliga appar.</string>
+    <string name="permdesc_nearby_wifi_devices">Tillåter appen att sända ut till, ansluta till och fastställa relativ position för wifi-enheter i närheten</string>
     <string name="permdesc_nfc">Tillåter att appen kommunicerar med etiketter, kort och läsare för närfältskommunikation (NFC).</string>
     <string name="permdesc_persistentActivity">Tillåter att delar av appen läggs beständigt i minnet. Detta kan innebära att det tillgängliga minnet för andra appar begränsas, vilket gör mobilen långsam.</string>
+    <string name="permdesc_postNotification">Tillåter att appen visar aviseringar</string>
     <string name="permdesc_preferredPaymentInfo">Tillåter att appen hämtar information kopplad till standardtjänsten för NFC-betalning, till exempel registrerade hjälpmedel och ruttdestinationer.</string>
     <string name="permdesc_processOutgoingCalls">Tillåter att appen ser numret du slår under ett utgående samtal och har möjlighet att koppla samtalet till ett annat nummer eller avbryta samtalet helt.</string>
     <string name="permdesc_queryAllPackages">Tillåter att en app ser alla installerade paket.</string>
+    <string name="permdesc_readBasicPhoneState">Ger appen åtkomst till grundläggande telefonifunktioner på enheten.</string>
     <string name="permdesc_readCalendar">Appen kan läsa alla kalenderhändelser som sparats på mobilen och dela eller spara uppgifter i din kalender.</string>
     <string name="permdesc_readCallLog">Appen kan läsa din samtalshistorik.</string>
     <string name="permdesc_readCellBroadcasts">Appen tillåts läsa SMS som skickas till din enhet. På vissa platser skickas SMS för att varna för nödsituationer. Skadliga appar kan påverka enhetens prestanda eller funktionalitet när du får ett meddelande om en nödsituation via SMS.</string>
     <string name="permdesc_readContacts">Tillåter att appen läser kontaktuppgifter som sparats på telefonen. Appar har även åtkomst till de konton på telefonen som har skapade kontakter. Detta kan inkludera konton som har skapats av appar som du har installerat. Med den här behörigheten tillåts appen att spara kontaktuppgifter. Skadliga appar kan dela uppgifterna med andra utan din vetskap.</string>
     <string name="permdesc_readHistoryBookmarks">Tillåter att appen läser historiken för besökta sidor och alla bokmärken i webbläsaren. Observera att den här behörigheten kanske inte är tillämplig för webbläsare från tredje part eller andra appar med surffunktion.</string>
     <string name="permdesc_readInstallSessions">Tillåt appen att läsa installationssessioner. Det ger den tillgång till uppgifter om aktiva paketinstallationer.</string>
+    <string name="permdesc_readMediaAudio">Tillåter att appen läser ljudfiler från delad lagring.</string>
+    <string name="permdesc_readMediaImages">Tillåter att appen läser bildfiler från delad lagring.</string>
+    <string name="permdesc_readMediaVideo">Tillåter att appen läser videofiler från delad lagring.</string>
     <string name="permdesc_readNetworkUsageHistory">Tillåter att appen läser den historiska nätverksanvändningen för specifika nätverk och appar.</string>
     <string name="permdesc_readPhoneNumbers">Appen beviljas åtkomst till enhetens telefonnummer.</string>
     <string name="permdesc_readPhoneState">Tillåter att appen kommer åt enhetens telefonfunktioner. Med den här behörigheten tillåts appen att identifiera mobilens telefonnummer och enhets-ID, om ett samtal pågår och vilket nummer samtalet är kopplat till.</string>
@@ -1370,6 +1449,8 @@ Förbättrade aviseringar har åtkomst till allt innehåll i aviseringar, inklus
     <string name="permdesc_setWallpaper">Tillåter att appen anger systemets bakgrund.</string>
     <string name="permdesc_setWallpaperHints">Tillåter att appen ger tips om systemets bakgrundsstorlek.</string>
     <string name="permdesc_sim_communication">Tillåter att appen skickar kommandon till SIM-kortet. Detta är mycket farligt.</string>
+    <string name="permdesc_startReviewPermissionDecisions">Tillåter att innehavaren öppnar skärmen för att granska behörighetsbeslut. Detta ska inte behövas för vanliga appar.</string>
+    <string name="permdesc_startViewAppFeatures">Tillåter att innehavaren börjar visa information om funktioner för en app.</string>
     <string name="permdesc_startViewPermissionUsage">Gör att innehavaren kan öppna behörighetsanvändning för en app. Ska inte behövas för vanliga appar.</string>
     <string name="permdesc_statusBar">Tillåter att appen inaktiverar statusfältet eller lägger till och tar bort systemikoner.</string>
     <string name="permdesc_statusBarService">Tillåter att appen visas i statusfältet.</string>
@@ -1402,10 +1483,13 @@ Förbättrade aviseringar har åtkomst till allt innehåll i aviseringar, inklus
     <string name="permgroupdesc_location">komma åt enhetens platsuppgifter</string>
     <string name="permgroupdesc_microphone">spela in ljud</string>
     <string name="permgroupdesc_nearby_devices">upptäcka och ansluta till enheter i närheten</string>
+    <string name="permgroupdesc_notifications">visa aviseringar</string>
     <string name="permgroupdesc_phone">ringa och hantera telefonsamtal</string>
+    <string name="permgroupdesc_readMediaAural">få åtkomst till musik och ljud på enheten</string>
+    <string name="permgroupdesc_readMediaVisual">få åtkomst till foton och videor på enheten</string>
     <string name="permgroupdesc_sensors">få åtkomst till sensordata om dina vitalparametrar</string>
     <string name="permgroupdesc_sms">skicka och visa sms</string>
-    <string name="permgroupdesc_storage">få åtkomst till foton, media och filer på din enhet</string>
+    <string name="permgroupdesc_storage">få åtkomst till filer på enheten</string>
     <string name="permgrouplab_activityRecognition">Fysisk aktivitet</string>
     <string name="permgrouplab_calendar">Kalender</string>
     <string name="permgrouplab_calllog">Samtalsloggar</string>
@@ -1414,10 +1498,13 @@ Förbättrade aviseringar har åtkomst till allt innehåll i aviseringar, inklus
     <string name="permgrouplab_location">Plats</string>
     <string name="permgrouplab_microphone">Mikrofon</string>
     <string name="permgrouplab_nearby_devices">Enheter i närheten</string>
+    <string name="permgrouplab_notifications">Aviseringar</string>
     <string name="permgrouplab_phone">Telefon</string>
+    <string name="permgrouplab_readMediaAural">Musik och ljud</string>
+    <string name="permgrouplab_readMediaVisual">Foton och videor</string>
     <string name="permgrouplab_sensors">Kroppssensorer</string>
     <string name="permgrouplab_sms">Sms</string>
-    <string name="permgrouplab_storage">Filer och media</string>
+    <string name="permgrouplab_storage">Filer</string>
     <string name="permission_request_notification_for_app_with_subtitle">"Behörighet har begärts av %1$s
 för kontot %2$s."</string>
     <string name="permission_request_notification_title">Begärd behörighet</string>
@@ -1454,7 +1541,8 @@ för kontot %s."</string>
     <string name="permlab_bluetooth_advertise">annonsera till Bluetooth-enheter i närheten</string>
     <string name="permlab_bluetooth_connect">ansluta till parkopplade Bluetooth-enheter</string>
     <string name="permlab_bluetooth_scan">hitta och parkoppla Bluetooth-enheter i närheten</string>
-    <string name="permlab_bodySensors">få åtkomst till kroppssensorer (till exempel pulsmätare)</string>
+    <string name="permlab_bodySensors">Åtkomst till data från kroppssensorer, t.ex. puls, medan appen används</string>
+    <string name="permlab_bodySensors_background">Åtkomst till data från kroppssensorer, t.ex. puls, i bakgrunden</string>
     <string name="permlab_broadcastSticky">Skicka sticky broadcast</string>
     <string name="permlab_callCompanionApp">visa och styra samtal via systemet.</string>
     <string name="permlab_callPhone">ringa telefonnummer direkt</string>
@@ -1480,7 +1568,7 @@ för kontot %s."</string>
     <string name="permlab_handoverStatus">ta emot status för Android Beam-överföring</string>
     <string name="permlab_highSamplingRateSensors">åtkomst till sensordata med en hög samplingsfrekvens</string>
     <string name="permlab_imagesWrite">göra ändringar i din fotosamling</string>
-    <string name="permlab_install_shortcut">installera genvägar</string>
+    <string name="permlab_install_shortcut">Installera genvägar</string>
     <string name="permlab_invokeCarrierSetup">anropa konfigurationsappen från operatören</string>
     <string name="permlab_killBackgroundProcesses">stänga andra appar</string>
     <string name="permlab_manageFingerprint">hantera maskinvara för fingeravtryck</string>
@@ -1491,17 +1579,23 @@ för kontot %s."</string>
     <string name="permlab_mediaLocation">läsa av platser i din mediesamling</string>
     <string name="permlab_modifyAudioSettings">ändra dina ljudinställningar</string>
     <string name="permlab_modifyNetworkAccounting">ändra nätverksredovisningen</string>
+    <string name="permlab_nearby_wifi_devices">interagera med wifi-enheter i närheten</string>
     <string name="permlab_nfc">kontrollera närfältskommunikationen</string>
     <string name="permlab_persistentActivity">se till att appen alltid körs</string>
+    <string name="permlab_postNotification">visa aviseringar</string>
     <string name="permlab_preferredPaymentInfo">Information kopplad till standardtjänsten för NFC-betalning</string>
     <string name="permlab_processOutgoingCalls">omdirigera utgående samtal</string>
     <string name="permlab_queryAllPackages">fråga alla paket</string>
+    <string name="permlab_readBasicPhoneState">läsa grundläggande uppgifter om telefonistatus och identitet</string>
     <string name="permlab_readCalendar">Läsa kalenderhändelser och kalenderuppgifter</string>
     <string name="permlab_readCallLog">läs samtalslogg</string>
     <string name="permlab_readCellBroadcasts">läsa SMS-meddelanden</string>
     <string name="permlab_readContacts">läsa dina kontakter</string>
     <string name="permlab_readHistoryBookmarks">läsa dina bokmärken och din historik på webben</string>
     <string name="permlab_readInstallSessions">läsa installationssessioner</string>
+    <string name="permlab_readMediaAudio">läsa ljudfiler från delad lagring</string>
+    <string name="permlab_readMediaImages">läsa bildfiler från delad lagring</string>
+    <string name="permlab_readMediaVideo">läsa videofiler från delad lagring</string>
     <string name="permlab_readNetworkUsageHistory">läsa historisk nätverksanvändning</string>
     <string name="permlab_readPhoneNumbers">läsa telefonnummer</string>
     <string name="permlab_readPhoneState">läsa telefonens status och identitet</string>
@@ -1533,6 +1627,8 @@ för kontot %s."</string>
     <string name="permlab_setWallpaper">ange bakgrund</string>
     <string name="permlab_setWallpaperHints">anpassa bakgrundsstorleken</string>
     <string name="permlab_sim_communication">skicka kommandon till SIM-kortet</string>
+    <string name="permlab_startReviewPermissionDecisions">börja visa behörighetsbeslut</string>
+    <string name="permlab_startViewAppFeatures">börja visa appfunktioner</string>
     <string name="permlab_startViewPermissionUsage">börja visa behörighetsanvändningen</string>
     <string name="permlab_statusBar">inaktivera eller ändra statusfält</string>
     <string name="permlab_statusBarService">visas i statusfältet</string>
@@ -1685,6 +1781,10 @@ för kontot %s."</string>
     <string name="restr_pin_error_too_short">Pinkoden är för kort. Måste vara minst fyra siffror.</string>
     <string name="restr_pin_incorrect">Felaktig</string>
     <string name="restr_pin_try_later">Försök igen senare</string>
+    <string name="review_notification_settings_dismiss">Stäng</string>
+    <string name="review_notification_settings_remind_me_action">Påminn mig senare</string>
+    <string name="review_notification_settings_text">I Android 13 behöver appar som du installerar behörighet att skicka aviseringar. Tryck om du vill ändra denna behörighet för befintliga appar.</string>
+    <string name="review_notification_settings_title">Granska aviseringsinställningarna</string>
     <string name="revoke">Återkalla</string>
     <string name="ringtone_default">Standardringsignal</string>
     <string name="ringtone_default_with_actual">Standard (%1$s)</string>
@@ -1821,6 +1921,7 @@ Att lyssna med stark volym långa stunder åt gången kan skada hörseln."</stri
     <string name="ssl_ca_cert_noti_by_administrator">Av administratören för jobbprofilen</string>
     <string name="ssl_ca_cert_noti_by_unknown">Av en okänd tredje part</string>
     <string name="ssl_ca_cert_noti_managed">Av %s</string>
+    <string name="ssl_ca_cert_warning">{count,plural, =1{Certifikatutfärdare installerad}other{Certifikatutfärdare installerade}}</string>
     <string name="ssl_certificate">Säkerhetscertifikat</string>
     <string name="ssl_certificate_is_valid">Certifikatet är giltigt.</string>
     <string name="stk_cc_ss_to_dial">SS-begäran har ändrats till standardsamtal</string>
@@ -1838,6 +1939,7 @@ Att lyssna med stark volym långa stunder åt gången kan skada hörseln."</stri
     <string name="storage_usb_drive">USB-enhet</string>
     <string name="storage_usb_drive_label">USB-enhet (%s)</string>
     <string name="submit">Skicka</string>
+    <string name="supervised_user_creation_label">Lägg till en kontrollerad användare</string>
     <string name="suspended_widget_accessibility">%1$s har inaktiverats</string>
     <string name="sync_binding_label">Synkronisera</string>
     <string name="sync_do_nothing">Gör ingenting just nu</string>
@@ -1847,6 +1949,7 @@ Att lyssna med stark volym långa stunder åt gången kan skada hörseln."</stri
     <string name="sync_undo_deletes">Ångra borttagningarna</string>
     <string name="system_error_manufacturer">Ett internt problem har uppstått i enheten. Kontakta tillverkaren om du vill veta mer.</string>
     <string name="system_error_wipe_data">Ett internt problem har uppstått i enheten, och det kan hända att problemet kvarstår tills du återställer standardinställningarna.</string>
+    <string name="system_locale_title">Systemets standardinställning</string>
     <string name="taking_remote_bugreport_notification_title">Felrapporten överförs …</string>
     <string name="terabyteShort">TB</string>
     <string name="test_harness_mode_notification_message">Inaktivera testverktygsläget genom att göra en återställning till standardinställningarna.</string>
@@ -1921,6 +2024,7 @@ Att lyssna med stark volym långa stunder åt gången kan skada hörseln."</stri
     <string name="user_switched">Nuvarande användare: %1$s.</string>
     <string name="user_switching_message">Byter till %1$s …</string>
     <string name="validity_period">Giltighet:</string>
+    <string name="vdm_camera_access_denied">Telefonens kamera kan inte användas från %1$s</string>
     <string name="view_and_control_notification_content">%s kan visa och styra din skärm. Tryck för att granska.</string>
     <string name="view_and_control_notification_title">Kontrollera åtkomstinställningar</string>
     <string name="volume_alarm">Larmvolym</string>
@@ -2022,9 +2126,18 @@ Vill du stänga sidan?"</string>
     <string name="zen_mode_default_weekends_name">I helgen</string>
     <string name="zen_mode_default_weeknights_name">Vardagskväll</string>
     <string name="zen_mode_downtime_feature_name">Avbrottstid</string>
+    <string name="zen_mode_duration_hours">{count,plural, =1{I 1 timme}other{I # timmar}}</string>
+    <string name="zen_mode_duration_hours_short">{count,plural, =1{I 1 tim}other{I # tim}}</string>
+    <string name="zen_mode_duration_hours_summary">{count,plural, =1{I 1 timme (till {formattedTime})}other{I # timmar (till {formattedTime})}}</string>
+    <string name="zen_mode_duration_hours_summary_short">{count,plural, =1{I 1 tim (till {formattedTime})}other{I # tim (till {formattedTime})}}</string>
+    <string name="zen_mode_duration_minutes">{count,plural, =1{I en minut}other{I # minuter}}</string>
+    <string name="zen_mode_duration_minutes_short">{count,plural, =1{I 1 min}other{I # min}}</string>
+    <string name="zen_mode_duration_minutes_summary">{count,plural, =1{I en minut (till {formattedTime})}other{I # minuter (till {formattedTime})}}</string>
+    <string name="zen_mode_duration_minutes_summary_short">{count,plural, =1{I 1 min (till {formattedTime})}other{I # min (till {formattedTime})}}</string>
     <string name="zen_mode_feature_name">Stör ej</string>
     <string name="zen_mode_forever">Tills du stänger av</string>
     <string name="zen_mode_forever_dnd">Tills du inaktiverar Stör ej</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">Till %1$s</string>
     <string name="zen_mode_until_next_day">Till %1$s</string>
     <string name="zen_upgrade_notification_content">Tryck om du vill se vad som blockeras.</string>

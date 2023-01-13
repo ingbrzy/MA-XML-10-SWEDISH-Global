@@ -47,6 +47,7 @@
     <string name="calibrate_failed">Höjdkalibrering misslyckades</string>
     <string name="calibrate_failed_no_location">Det går inte att kalibrera</string>
     <string name="calibrate_failed_timeout">Kan inte ansluta till servern</string>
+    <string name="calibrate_new_tip">Luta din enhet skarpt för att rulla bollen runt cirkeln</string>
     <string name="calibrate_rotate_again">Försök igen</string>
     <string name="calibrate_success">Kalibrerad</string>
     <string name="calibrate_tip">Luta din enhet för att rulla bollen runt cirkeln</string>
@@ -228,7 +229,7 @@
     <string name="morning">Morgon</string>
     <string name="new_cta_app_purpose">visa riktningar och koordinater</string>
     <string name="new_cta_v2_app_purpose">Visar vägbeskrivningar, koordinater, atmosfärstryck, och nuvarande altitud</string>
-    <string name="new_permission_camera_desc">För kalibrering</string>
+    <string name="new_permission_camera_desc">För att visa live-förhandsgranskningar</string>
     <string name="new_permission_location_desc">För att visa koordinater</string>
     <string name="night">Kväll</string>
     <string name="noon">Middagstid</string>

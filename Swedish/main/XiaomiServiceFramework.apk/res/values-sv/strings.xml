@@ -3,7 +3,7 @@
     <string name="accept">OK</string>
     <string name="app_name">Xiaomi service ramverk</string>
     <string name="error_device_id_message">"Ogiltigt enhets-ID: %s
-Enhets-ID måste vara en giltig IMEI eller MAC-adress. Utan enhets-ID kommer vissa Mi-konto och Xiaomi Cloud-funktioner inte att vara tillgängliga."</string>
+Enhets-ID måste vara en giltig IMEI eller MAC-adress. Utan enhets-ID kommer vissa Xiaomi-konton och Xiaomi Cloud-funktioner inte att vara tillgängliga."</string>
     <string name="error_device_id_title">Kan inte få ett giltigt enhets-ID</string>
     <string name="explain_send_sms_permission_button">Verifiera</string>
     <string name="explain_send_sms_permission_msg">Sätt på %s, Xiaomi Service Framwork kommer skicka ett SMS för att verifiera ditt telefonnummer. Du kommer att debiteras för ett vanligt SMS av din operatör.</string>

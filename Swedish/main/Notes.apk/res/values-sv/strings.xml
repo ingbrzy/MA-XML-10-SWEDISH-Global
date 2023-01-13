@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
     <string name="access_denied_info">För många försök. Vänta en minut eller två och försök igen.</string>
+    <string name="access_photos_and_videos">Åtkomst till foton och videor</string>
     <string name="action_collapse">Dölj</string>
     <string name="action_expand">Visa mer</string>
     <string name="action_folder_description">Visa mappar</string>
@@ -61,6 +62,9 @@
     <string name="app_name">Anteckningar</string>
     <string name="app_notification_info">Notes arbetar i bakgrunden</string>
     <string name="app_widget">Anteckningar</string>
+    <string name="app_widget_name_create_note">Skapa anteckningar</string>
+    <string name="app_widget_name_create_todo">Skapa uppgifter</string>
+    <string name="app_widget_name_fast_entry">Genvägar</string>
     <string name="app_widget_name_new">Anteckningar</string>
     <string name="application_icon">Appikon</string>
     <string name="audio_btn_mode_meeting">Möte</string>
@@ -219,7 +223,7 @@
     <string name="exposed_dropdown_menu_content_description">Visa rullgardinsmenyn</string>
     <string name="first_enter_custom_folder_hint">Du kan byta namn på eller radera mappar här</string>
     <string name="float_note_empty">Inga anteckningar här</string>
-    <string name="float_note_title">Notes</string>
+    <string name="float_note_title">Anteckningar</string>
     <string name="float_todo_guide_cancel">Avbryt</string>
     <string name="float_todo_guide_message">Genvägar på Hemskärmen tillåter dig att svepa från kanten av skärmen för att visa och skapa uppgifter. Skapa genvägen nu?</string>
     <string name="float_todo_guide_message_v2">Genväg för rörelse tillåter dig att visa och skapa uppgifter genom att svepa från kanten av skärmen. Du kan slå på och stänga av denna funktion i Inställningar.</string>
@@ -498,6 +502,7 @@
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -532,6 +537,7 @@
     <string name="new_audio_create_guide_tip">Tryck och håll för att skapa en röstanteckning</string>
     <string name="new_audio_create_talkback_des">Tryck för att skapa en röstanteckning. Tryck och håll för att skapa en röstanteckning. Släpp knappen för att stoppa inspelningen och skapa anteckningen, eller svep upp för att avbryta.</string>
     <string name="new_data_empty_note">Inga objekt här än</string>
+    <string name="new_lite_audio_create_talkback_des">Tryck för att skapa en anteckning</string>
     <string name="night">Kväll</string>
     <string name="no_network">Kan inte ansluta till nätverket</string>
     <string name="noon">Middagstid</string>
@@ -563,6 +569,7 @@
     <string name="note_write_hint">Börja skriva</string>
     <string name="notealert_enter">Öppna anteckning</string>
     <string name="notealert_ok">Avfärda</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Anteckningar är en system-app. Du kommer inte kunna använda denna app efter du avinstallerat den.</string>
     <string name="notes_description_title">Avinstallera Anteckningar?</string>
     <string name="notification_content_add_todo_from_other_app">Du lade till en ny uppgift. Tryck för att visa.</string>
@@ -623,6 +630,8 @@
     <string name="permission_microphone_desc">För att spela in röstanteckningar</string>
     <string name="permission_network_for_cloud_desc">För att synkronisera med molnet måste du ansluta till internet. Mobildata används eventuellt för att synkronisera objekt. Vill du ansluta nu?</string>
     <string name="permission_phone_state_desc">För att sluta spela in röstanteckningar under samtal</string>
+    <string name="permission_photos_desc">För att lägga till bilder till anteckningar</string>
+    <string name="permission_photos_desc_pad">För att lägga till bilder till anteckningar</string>
     <string name="permission_read_contact_desc">Associera anteckningarna som skapas under samtal med kontakter</string>
     <string name="permission_storage_desc">För att spara anteckningar som bilder</string>
     <string name="permission_storage_desc_new_v12">För att lägga till bilder till anteckningar och spara anteckningar som bilder</string>
@@ -725,6 +734,7 @@
     <string name="search_setting_description">Sök text i dina anteckningar</string>
     <string name="select_account_prompt">Synkronisera anteckningar</string>
     <string name="send">Skicka</string>
+    <string name="send_notifications_for_reminder">För att skicka påminnelser</string>
     <string name="set_alarm_description">Ställ in alarm</string>
     <string name="setting_big_screen_layout_columns">Sidlinje</string>
     <string name="setting_big_screen_layout_flat">Brickor</string>
@@ -868,6 +878,7 @@ Tillåt Anteckningar att läsa dina kontakter och hitta konton på enheten."</st
 Tillåt Anteckningar att läsa innehållet på SD-kortet."</string>
     <string name="toast_refuse_to_use_phone_state">"Behörighet till Telefon är begränsad.
 Tillåt Anteckningar att läsa telefonstatus och identitet."</string>
+    <string name="toast_refuse_to_use_photos_in_excerpt">Tillåt den här appen att få åtkomst till dina foton för att kunna lägga till bilder till anteckningar</string>
     <string name="toast_refuse_to_use_record_audio">"Behörighet till Mikrofon är begränsad.
 Tillåt Anteckningar att spela in ljud."</string>
     <string name="toast_refuse_to_use_storage_in_excerpt">Tillåt Anteckningar att få tillgång till lagringen för att kunna lägga till bilder till dina anteckningar</string>
@@ -974,6 +985,9 @@ Tillåt Anteckningar att spela in ljud."</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
+    <string name="widget_all_notes_name">Alla anteckningar</string>
+    <string name="widget_all_todo_name">Alla uppgifter</string>
+    <string name="widget_click_check">Tryck för att Visa</string>
     <string name="widget_content_loading">Vänta lite…</string>
     <string name="widget_create_select_size">Välj storlek</string>
     <string name="widget_empty_content">Tryck för att välja en anteckning</string>
@@ -990,5 +1004,7 @@ Tillåt Anteckningar att spela in ljud."</string>
     <string name="widget_size_item_super_big">Extra stor</string>
     <string name="widget_size_not_support">Extra stora widgets stöds inte på den här enheten</string>
     <string name="widget_take_notes_title">Anteckningar</string>
+    <string name="widget_total_notes">%1$d</string>
+    <string name="widget_total_todo">%1$d</string>
     <string name="yesterday">Igår</string>
 </resources>

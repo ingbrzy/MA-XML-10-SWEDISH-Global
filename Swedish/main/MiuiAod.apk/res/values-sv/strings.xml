@@ -259,6 +259,8 @@ dd MM"</string>
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_cancel">Avbryt</string>
+    <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -285,6 +287,8 @@ dd MM"</string>
     <string name="mtrl_picker_toggle_to_day_selection">Byt till att välja en dag genom att trycka</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Byt till text som inmatningsläge</string>
     <string name="mtrl_picker_toggle_to_year_selection">Byt till att välja ett år genom att trycka</string>
+    <string name="mtrl_timepicker_cancel">Avbryt</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string name="my_style_title">Mitt tema</string>
     <string name="night">Kväll</string>
     <string name="noon">Middagstid</string>
@@ -323,6 +327,8 @@ dd MM"</string>
     <string name="select_notification_animation_style">Välj specialeffekt</string>
     <string name="select_notification_notify_style">Välj aviseringseffekt</string>
     <string name="send">Skicka</string>
+    <string name="settings_view_btn_check_off">Av</string>
+    <string name="settings_view_btn_check_on">På</string>
     <string name="share">Dela</string>
     <string name="share_to_community">Dela till Xiaomi Community</string>
     <string name="show_battery">Visa batteristatus</string>
@@ -334,9 +340,10 @@ dd MM"</string>
     <string name="shownone_arround_image">Inga</string>
     <string name="signature">Signatur</string>
     <string name="signature_default_content">"Tro alltid att något
-underbart kommer hända"</string>
+underbart är på väg att hända"</string>
     <string name="standard_clock_panel">Standard</string>
     <string name="standard_style">Standard</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Stegräkning tillhandahålls av Xiaomi Health. Acceptera Xiaomi Healths regler och villkor för att fortsätta.</string>
     <string name="step_component_info_desc">Stegräkningen förvandlas till en trofé när ditt mål är uppnått. Stegräkningen tillhandahålls av Xiaomi Health.</string>
     <string name="step_component_info_tip">Stegräkning tillhandahålls av Xiaomi Health. Installera eller uppdatera Xiaomi Health och acceptera dess regler och villkor för att fortsätta.</string>

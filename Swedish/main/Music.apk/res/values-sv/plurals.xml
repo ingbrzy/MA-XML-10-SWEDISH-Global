@@ -130,6 +130,10 @@ Oppmärkning: Fil kommer också att raderas från den här enheten."</item>
         <item quantity="other">Spola tillbaka %d sekunder</item>
         <item quantity="one">Spola tillbaka %d sekund</item>
     </plurals>
+    <plurals name="feed_play_times">
+        <item quantity="other">%s visningar</item>
+        <item quantity="one">%s visning</item>
+    </plurals>
     <plurals name="free_downloads_num_hint">
         <item quantity="other">%d gratis nerladdningar återstår</item>
         <item quantity="one">%d gratis nerladdning återstår</item>

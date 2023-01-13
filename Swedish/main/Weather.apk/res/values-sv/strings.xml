@@ -70,8 +70,8 @@
     <string name="aqi_alert_channel_name">AQI-varningar</string>
     <string name="aqi_data_source">Drivs av Colorful Clouds</string>
     <string name="aqi_desc">Luftkvalitetsindex</string>
-    <string name="aqi_detail_24_hours">24-timmars prognos</string>
-    <string name="aqi_detail_5_days">5-dygnsprognos</string>
+    <string name="aqi_detail_24_hours">%d-timmars prognos</string>
+    <string name="aqi_detail_5_days">%d-dagarsprognos</string>
     <string name="aqi_detail_co_unit">Enhet: mg/m³</string>
     <string name="aqi_detail_title">Luftkvalitetsindex</string>
     <string name="aqi_detail_unit">Enhet: µg/m³</string>
@@ -163,6 +163,7 @@
     <string name="dynamic_weather">Väder</string>
     <string name="early_morning">Morgon</string>
     <string name="edit_city">Hantera städer</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Uppdaterar…</string>
     <string name="empty_view_net_unavailable">Det gick inte att ansluta till nätverket</string>
     <string name="empty_view_refresh">Försök igen</string>
@@ -272,6 +273,7 @@
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
     <string name="hourly_forcast_now">Nu</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="index_item_experience_now">Installera nu</string>
     <string name="indices_title_chance_of_rain">Chans för regn</string>
@@ -283,15 +285,16 @@
     <string name="indices_wind_direction_north">N</string>
     <string name="indices_wind_direction_south">S</string>
     <string name="indices_wind_direction_west">V</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV index</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Aktivera platstjänster</string>
     <string name="location_tag">Lokalisera</string>
     <string name="manager_city_option_add_home">Lägg till på startsida</string>
     <string name="manager_city_option_view_on_home">Visa på startsida</string>
     <string name="midnight">Natt</string>
     <string name="minute_rain">Nederbördsprognos</string>
-    <string name="minute_rain_after_an_hour">Om 1 timme</string>
-    <string name="minute_rain_after_two_hour">Om 2 timmar</string>
     <string name="minute_rain_feedback_subtitle">Berätta hur vädret är.</string>
     <string name="minute_rain_feedback_title">Väderinformationen verkar inkorrekt.</string>
     <string name="minute_rain_now">Nu</string>
@@ -364,7 +367,6 @@
     <string name="morning">Morgon</string>
     <string name="network_unavailable">Kan inte ansluta till nätverket.</string>
     <string name="night">Kväll</string>
-    <string name="night_not_disturb_settings_summary">Blockera varningar mellan 23:00 och 7:00</string>
     <string name="night_not_disturb_settings_title">Stör inte på natten</string>
     <string name="no_data">Ingen data</string>
     <string name="no_internet_message">Din enhet behöver ansluta till nätverket för att du ska kunna dra tillbaka samtycket. Kontrollera dina nätverksinställningar och försök igen.</string>
@@ -445,9 +447,10 @@
     <string name="share_menu_title">Dela</string>
     <string name="share_subject">Dela</string>
     <string name="share_weather_desc">\#MIUI Väder#Idag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Det gick inte att ta skärmdump</string>
-    <string name="shortcut_short_label_24_hour_forecast">24-timmars prognos</string>
+    <string name="shortcut_short_label_24_hour_forecast">%d-timmars prognos</string>
     <string name="shortcut_short_label_recent_forecast">Kolla vädret</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
@@ -564,7 +567,7 @@
     <string name="unit">Enheter</string>
     <string name="unit_temperature">Enhet för temperatur</string>
     <string name="unit_wind">Enhet för vindhastighet</string>
-    <string name="update_night_setting_summary_text">Uppdatera väderinformation mellan 23:00 och 07:00</string>
+    <string name="update_night_setting_summary_text">Uppdatera väderinformation mellan %1$s och %2$s</string>
     <string name="update_night_setting_title_text">Uppdatera automatiskt på natten</string>
     <string name="update_notification_info">Uppdaterar data i bakgrunden…</string>
     <string name="updated_a_moment_ago">Nyss uppdaterad</string>
@@ -575,10 +578,8 @@
     <string name="video_banner_weather_forecast">Väderprognos</string>
     <string name="video_banner_weather_update">Senaste väderuppdateringar</string>
     <string name="view_forecast_item_yesterday">Igår</string>
-    <string name="view_indexes_item_day_after_tommorrow">Om 2 dagar</string>
     <string name="view_indexes_item_today">Idag</string>
     <string name="view_indexes_item_tommorrow">Imorgon</string>
-    <string name="warning_weather_day_and_night_settings_summary">Få dagliga sammanfattningar med väderinformation vid 7:00 och 19:00</string>
     <string name="warning_weather_day_and_night_settings_title">Dagliga sammanfattningar</string>
     <string name="weather_alert_channel_name">Varningar</string>
     <string name="weather_aqi_full_air_quality_forcast">Komplett luftkvalitetsprognos</string>
@@ -593,6 +594,7 @@
     <string name="wednesday_shortest">Ons</string>
     <string name="welcome_app_title">Välkommen till Väder!</string>
     <string name="wind_direction_no_data">Vind</string>
+    <string name="wind_power">%d</string>
     <string name="wind_unit">%1$skm/h</string>
     <string name="xiaomi_weather_description_content">Weather är en system-app. Du kommer inte kunna visa väderinfo eller använda relaterade widgets efter du avinstallerat appen.</string>
     <string name="xiaomi_weather_description_content_remove">Weather är en system-app. Du kommer inte kunna visa väderinfo eller använda relaterade widgets efter du tagit bort genvägen på Hemskärmen.</string>

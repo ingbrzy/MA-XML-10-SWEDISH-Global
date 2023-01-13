@@ -13,6 +13,7 @@
     <string name="android_ringtone_default_with_actual">Standardringsignal (%1$s)</string>
     <string name="android_ringtone_silent">Ingen</string>
     <string name="android_ringtone_unknown">Okänd ringsignal</string>
+    <string name="app_continuity_channel_name">Justeringar i app-layout</string>
     <string name="application_cannot_open_alipay_health_code">"Couldn't open Alipay health code"</string>
     <string name="application_cannot_open_alipay_payment_code">Kunde inte öppna Alipay betalningsmetod</string>
     <string name="application_cannot_open_alipay_scanner">Kunde inte öppna Alipay skanner</string>
@@ -111,6 +112,10 @@
     <string name="crystal">Kristall</string>
     <string name="cut">Klipp ut</string>
     <string name="dance">Dansa</string>
+    <string name="dark_mode_enable">Aktivera</string>
+    <string name="dark_mode_suggest_message">Du kan växla till Mörkt läge automatiskt vid solnedgången för att få en mer konfortabel visning</string>
+    <string name="dark_mode_suggest_title">Det håller på att bli mörkt</string>
+    <string name="dark_mode_suggest_toast">Mörkt läge kommer att aktiveras automatiskt vid solnedgången och stängas av vid soluppgången från och med nu</string>
     <string name="data_usage_context">If Wi-Fi is not turned on, your device will connect to a mobile network, which may result in additional charges depending on your payment plan.Thank you!</string>
     <string name="daydream">Dagdröm</string>
     <string name="default_device_name">Okänd enhet</string>
@@ -130,6 +135,7 @@
     <string name="dewdrops">Morgondagg</string>
     <string name="digitaluniverse">Digitalt universum (stereo)</string>
     <string name="disable_nfc">Stängde av NFC för trådlös laddning</string>
+    <string name="disable_nfc_haptic_reverse">Stängde av NFC och vibrationer för omvänd trådlös laddning</string>
     <string name="disable_nfc_reverse">Stängde av NFC för omvänd trådlös laddning</string>
     <string name="echo">Eko</string>
     <string name="eighthours">8 timmar</string>
@@ -137,6 +143,7 @@
     <string name="enable_livetalk_title">Sätt på Top-upp paket</string>
     <string name="enable_midrop">Aktivera</string>
     <string name="enable_nfc">Laddar inte längre. NFC är påslaget igen.</string>
+    <string name="enable_nfc_haptic_reverse">Stoppade omvänd laddning. NFC och vibrationer är tillbaka igen.</string>
     <string name="enable_nfc_reverse">Laddar inte omvänt längre. NFC är påslaget igen.</string>
     <string name="expect">Spänning</string>
     <string name="fadein">Intoning</string>
@@ -154,6 +161,7 @@
     <string name="flip_screen_camera_tip">Vänd på enheten för att använda kamera</string>
     <string name="flute">Flöjt</string>
     <string name="fm_record_smaple_prefix_miui">FM inspelning</string>
+    <string name="fold_small_not_split">Delad skärm stöds in på ytterskärmen</string>
     <string name="force_exit_message">Tvingad avslutning %1$s</string>
     <string name="force_exit_skip_message">Kan ej avsluta %1$s för att den behövs av systemet.</string>
     <string name="fourhours">2 timmar</string>
@@ -163,6 +171,7 @@
     <string name="fp_nav_center_action_choose_dlg_title">Aktivera snabbtryck</string>
     <string name="freeform_exchange_tip">Släpp för att öppna app</string>
     <string name="freeform_exchange_tip2">Dra till hörnet för att avbryta</string>
+    <string name="freeform_exchange_tip3">Öppna Flytande fönster i Helskärmsläge</string>
     <string name="frenchchic">Chic</string>
     <string name="frequent_email">Ofta använda e-post</string>
     <string name="frequent_phrases">Frekventa fraser</string>
@@ -204,6 +213,13 @@
     <string name="international_livetalk_enable">Använd top-upp för internationella samtal</string>
     <string name="key_btn_ok">OK</string>
     <string name="key_btn_space">Mellanrum</string>
+    <string name="keyboard_connect_failed">Det gick inte att ansluta tangentbordet. Försök igen.</string>
+    <string name="keyboard_identity_reject_confirm">Uppfattat</string>
+    <string name="keyboard_identity_reject_message">Verkar som om ditt tangentbord inte är kompatibelt med den här enheten.</string>
+    <string name="keyboard_identity_transfer_error_message">Kunde inte ansluta tangentbordet. Försök igen.</string>
+    <string name="keyboard_upgrade_failed">Kunde inte uppdatera tangentbord</string>
+    <string name="keyboard_upgrade_start">Uppdaterar tangentbord…</string>
+    <string name="keyboard_upgrade_success">Tangentbordet är nu uppdaterat</string>
     <string name="kungfu">Kung fu</string>
     <string name="leisure">Fritid</string>
     <string name="livetalk_not_enable">Top-upp paket av</string>
@@ -235,6 +251,8 @@
     <string name="miremix">Mi (Remix)</string>
     <string name="miui_forbid_poweroff_when_device_locked">Kan inte stänga av, enheten är låst.</string>
     <string name="miui_multiwindow_not_support_cvw">Kan inte justera fönsterstorleken för den här appen</string>
+    <string name="miui_multiwindow_not_support_small_window">%1$s stöder inte flytande fönster</string>
+    <string name="miui_multiwindow_not_support_split">%1$s stöder inte Delad skärm</string>
     <string name="miui_screen_ratio_hint">Problem med skärmförhållande</string>
     <string name="miui_screen_ratio_hint_dont_show_again">Visa inte igen</string>
     <string name="miui_screen_ratio_hint_go_to_settings">Gå till Inställningar</string>
@@ -262,6 +280,7 @@
     <string name="oneplus_phone">OnePlus</string>
     <string name="open_close_tip_action">Jag förstår</string>
     <string name="open_close_tip_content">För att stänga det flytande fönstret, tryck och håll händelseraden och svep sedan upp</string>
+    <string name="open_miui_optimization">Aktivera MIUI-optimering först</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
     <string name="orange">Orange</string>
@@ -309,8 +328,19 @@
     <string name="redmi_note_5">Redmi Note 5</string>
     <string name="redmi_note_7">Redmi Note 7</string>
     <string name="redmi_note_7_pro">Redmi Note 7 Pro</string>
+    <string name="relaunch_action">Starta om</string>
+    <string name="relaunch_dialog_alwaysUsePrompt">Kom ihåg mitt val</string>
+    <string name="relaunch_dialog_button_cancel">Avbryt</string>
+    <string name="relaunch_dialog_button_confirm">Starta om</string>
+    <string name="relaunch_dialog_message">Den här appen kan endast ändras i storlek efter omstart. Alla osparade förändringar kommer att förloras om du startar om appen nu. Starta om ändå?</string>
+    <string name="relaunch_dialog_title">Starta om \"%s\" nu?</string>
+    <string name="relaunch_fold_notification_content">Den här appen kanske inte visas korrekt på den här skärmen. Starta appen igen för att justera utformningar.</string>
+    <string name="relaunch_notification_title">Starta om \"%s\"</string>
+    <string name="relaunch_unfold_notification_content">Den här appen kanske inte visas korrekt på den här skärmen. Starta appen igen för att justera utformningar.</string>
     <string name="remain">Kvar %s</string>
     <string name="replace">Ersätta</string>
+    <string name="rescuepartyplus_config_reset_context">Vissa data kan ha rensats. Tryck för att visa detaljer.</string>
+    <string name="rescuepartyplus_config_reset_title">Systemreparationen är genomförd</string>
     <string name="resolver_app_recommend_flag">Rekommenderad</string>
     <string name="resolver_checkbox_always">Alltid</string>
     <string name="resolver_checkbox_once">En gång</string>
@@ -325,6 +355,11 @@
     <string name="rog_phone">ROG</string>
     <string name="samsung">Samsung</string>
     <string name="samsung_phone">Samsung-telefon</string>
+    <string name="sc_notification_warning_content">Om appen inte visas korrekt kan du återställa den till standardvy, eller ändra app-skärmens preferenser i Inställningar.</string>
+    <string name="sc_notification_warning_restore">Återställ</string>
+    <string name="sc_notification_warning_settings">Inställningar</string>
+    <string name="sc_notification_warning_title">Preferenser för app-display</string>
+    <string name="sc_relaunch_dialog_message">Den här appen kanske inte visas korrekt på den här skärmen. Starta appen igen för att justera utformningar.</string>
     <string name="scanning_device_tips">Söker efter enheter i närheten… Kontrollera att den andra enheten är i upptäckbart läge.</string>
     <string name="screen_button_notification_text">För att slå på dem, tryck på Hem och Ström knapparna samtidigt.</string>
     <string name="screen_button_notification_title">Navigationsknapparna är avstängda</string>
@@ -357,6 +392,7 @@
     <string name="set_password_action">Välj lösenord</string>
     <string name="set_password_message">Ange ett lösenord för att använda denna funktion.</string>
     <string name="set_password_title">Ange ett lösenord</string>
+    <string name="shortcut_no_support_on_pc_mode">Denna gest stöds inte i PC-läge</string>
     <string name="shutdown_confirm_title">Stänga av enheten nu?</string>
     <string name="shutdown_progress">Stänger av…</string>
     <string name="silence_mode">Tyst läge</string>
@@ -413,6 +449,8 @@
     <string name="status_bar_toggle_wifi_ap">Internetdelning</string>
     <string name="stoneskimming_preview">Lätta steg</string>
     <string name="stop_operate_camera_frequently">Du öppnar främre kameran för ofta.</string>
+    <string name="stylus_pen_mask_screenshot">Tryck på skärmen för att ta en skärmdump</string>
+    <string name="stylus_pen_mask_text">Tryck på skärmen för att börja skriva</string>
     <string name="subinfo_default_name">SIM %d</string>
     <string name="sunlight_notification_content">Justera automatiskt ljusstyrkan till stark bakgrundsbelysning</string>
     <string name="sunlight_notification_title">Aktivera Solljusläge</string>
@@ -441,6 +479,7 @@
     <string name="unknown_caller">Okänt nummer</string>
     <string name="unrecognized_manufacture">Okänt</string>
     <string name="unrecognized_model">Okänd enhet</string>
+    <string name="unreplace_freeform_count_max">Kan inte öppna fler flytande fönster</string>
     <string name="user_authentication_failed">AUTENTISERING MISSLYCKADES -29-</string>
     <string name="user_switching_dialog_switch_into_kid_space">Ändrar till barnläge…</string>
     <string name="user_switching_dialog_switch_out_kid_space">Lämnar barnläge…</string>
