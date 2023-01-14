@@ -402,8 +402,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">Slå på och av säkerhetskopiering</string>
     <string name="other_device_main_space">Primära utrymmet</string>
     <string name="other_device_second_space">Sekundära utrymmet</string>
-    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
-    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">Det går inte att återställa objekt i PC-läge. Stäng av PC-läget och försök igen.</string>
     <string name="permission_to_use">Behörighetsuppgifter</string>
     <string name="pm">E.m</string>

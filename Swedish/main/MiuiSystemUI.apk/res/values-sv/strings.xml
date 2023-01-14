@@ -1452,7 +1452,6 @@ Kontakta IT-administratören om du vill veta mer."</string>
     <string name="monitoring_description_personal_profile_named_vpn">Dina privata appar är anslutna till internet via %1$s. Din nätverksaktivitet, till exempel e-post och webbinformation, är synlig för VPN-leverantören.</string>
     <string name="monitoring_description_two_named_vpns">Den här enheten är ansluten till internet via %1$s och %2$s. Din nätverksaktivitet, till exempel e-post och webbinformation, är synlig för IT-administratören.</string>
     <string name="monitoring_description_vpn_settings">Öppna VPN-inställningarna</string>
-    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s kanske kan komma åt data kopplad till den här enheten, hantera appar och ändra enhetens inställningar.
 
 Kontakta %2$s om du har frågor."</string>
@@ -1531,7 +1530,6 @@ Kontakta %2$s om du har frågor."</string>
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -1561,7 +1559,6 @@ Kontakta %2$s om du har frågor."</string>
     <string name="music_controls_no_title">Ingen titel</string>
     <string name="nav_bar">Navigeringsfält</string>
     <string name="nav_bar_layout">Layout</string>
-    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="new_notification_image_content_description">%1$s skickade en bild</string>
     <string name="new_notification_text_content_description">%1$s skickade ett meddelande: %2$s</string>
     <string name="new_status_content_description">%1$s har gjort en statusuppdatering: %2$s</string>
@@ -1767,7 +1764,6 @@ Kontakta %2$s om du har frågor."</string>
     <string name="private_dns_mode_provider">Värdnamn för leverantör av privat DNS</string>
     <string name="private_dns_mode_provider_failure">Kan inte ansluta</string>
     <string name="private_dns_mode_provider_hostname_hint">Ange värdnamn för DNS-leverantör</string>
-    <string name="process_kernel_label">Operativsystemet Android</string>
     <string name="profile_connect_timeout_subtext">Det gick inte att ansluta. Stäng av enheten och slå på den igen</string>
     <string name="profile_info_settings_title">Profilinformation</string>
     <string name="qr_code_scanner_title">Skanna QR-kod</string>
@@ -2107,8 +2103,6 @@ Kontakta %2$s om du har frågor."</string>
     <string name="status_bar_clock_date_time_format_12">hh:mm, EEEE, dd MMM</string>
     <string name="status_bar_clock_date_weekday_format">EEEE d MMMM</string>
     <string name="status_bar_clock_date_weekday_format_12">EEEE d MMMM</string>
-    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
-    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"E
 d MMM"</string>
     <string name="status_bar_date_format_12">"E
