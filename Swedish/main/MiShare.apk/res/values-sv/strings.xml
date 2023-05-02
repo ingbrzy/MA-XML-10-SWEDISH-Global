@@ -396,7 +396,6 @@ Innan du använder Mi Share måste du ge följande behörigheter, samt låta den
     <string name="somepc_send_muchfile_files">%1$s skickar fler än %2$d filer till dig…</string>
     <string name="start_receive_much_files_from_pc">Tar emot mer än %2$d filer från %1$s…</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="sub_title_mishare_switch">Den här funktionen kommer att stängas av automatiskt efter %d minuter</string>
     <string name="success_receive_much_file_from_pc">Tog emot mer än %2$d filer från %1$s. Tryck för att visa.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Söndag</string>
@@ -458,19 +457,15 @@ Innan du använder Mi Share måste du ge följande behörigheter, samt låta den
     <string name="tips_p2p_support_use5g_china">For best results, use a 5 GHz WLAN network.</string>
     <string name="tips_prompt_enable_midrop">Mi Share</string>
     <string name="to_feedback">Rapportera</string>
-    <string name="toast_auto_close_in_minutes">Mi Share stängs av efter %d minuter</string>
-    <string name="toast_transfering">Överför objekt. Försök igen senare.</string>
     <string name="today">Idag</string>
     <string name="tomorrow">Imorgon</string>
     <string name="transfer_intercept_to_remote">Kunde inte skicka: %1$s</string>
     <string name="transfer_to_pc_summary">Den senaste versionen av AIoT-programmet som installerats på Mi Notebooks är kompatibel med Mi Share. Du kan kontrollera listan över laptop-modeller som stöds på MIUIs webbplats. Om din laptop finns med på listan, men AIoT inte är installerat på den, uppdatera din laptops BIOS och drivrutin för nätverksadapter, och ladda ner AIoT.</string>
     <string name="transfer_to_pc_summary_new">&lt;Data>Den senaste versionen av MIUI+ som installerats på Mi Noteooks är kompatibel med Mi Share. Du kan kontrollera listan över laptop-modeller som stöds på MIUI:s webbplats (&lt;a href=%1$s>%2$s&lt;/a>). Om din laptop finns på listan, men MIUI+ inte är installerad på den, uppdatera då din laptops BIOS och drivrutin för nätverksadaptern och ladda ner MIUI+&lt;/Data></string>
     <string name="transfer_to_pc_title">Skicka filer till datorer</string>
-    <string name="transfer_to_phone_summary">Slå på Mi Share via knapparna i Notifikationspanelen. Efter det kommer du kunna se närliggande enheter när du börjar dela ett foto eller en fil. Tryck på mottagarens enhet för att skicka objektet du delar.</string>
-    <string name="transfer_to_phone_summary_new">Aktivera Mi Share i Kontrollcenter för att lätt kunna skicka och ta emot objekt. Efter aktivering kan du dela objekt med närliggande enheter i %d minuter innan den stängs av automatiskt.</string>
+    <string name="transfer_to_phone_summary">Slå på Mi Share via togglingen i Notisskärmen. Efter det kommer du kunna se enheter i närheten när du börjar dela ett foto eller en fil. Tryck på mottagarens enhet för att skicka objektet du delar.</string>
     <string name="transfer_to_phone_title">Skicka filer till telefoner</string>
-    <string name="transfer_to_summary">Slå på Mi Share via knapparna i Notifikationspanelen. Efter det kommer du kunna se närliggande enheter när du börjar dela ett foto eller en fil. Tryck på mottagarens enhet för att skicka objektet du delar.</string>
-    <string name="transfer_to_summary_new">Aktivera Mi Share i Kontrollcenter för att lätt kunna skicka och ta emot objekt. Efter aktivering kan du dela objekt med närliggande enheter i %d minuter innan den stängs av automatiskt.</string>
+    <string name="transfer_to_summary">Slå på Mi Share via togglingen i Notisskärmen. Efter det kommer du kunna se enheter i närheten när du börjar dela ett foto eller en fil. Tryck på mottagarens enhet för att skicka objektet du delar.</string>
     <string name="transfer_to_title">Skicka filer till mobila enheter</string>
     <string name="tuesday">Tisdag</string>
     <string name="tuesday_short">Tis</string>
