@@ -391,7 +391,6 @@ Var god observera att funktionen för internetmeddelanden nu är avstängd tills
     <string name="file_size">Storlek:</string>
     <string name="file_title">Namn:</string>
     <string name="file_width_height">Storlek:</string>
-    <string name="flatshow_page_no">%1$d</string>
     <string name="flight">Flyg</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -1208,7 +1207,6 @@ Ta en titt på de rekommenderade!"</string>
     <string name="send_signature_confirm_dialog_title">Skicka meddelande</string>
     <string name="send_sms">Skicka meddelande</string>
     <string name="send_to">Till:</string>
-    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Skickades kl: %1s</string>
     <string name="sent_label">"Skickat: "</string>
     <string name="service_abandon_alert">Uppmärksamma</string>
