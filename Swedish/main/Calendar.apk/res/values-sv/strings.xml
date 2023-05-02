@@ -48,10 +48,11 @@
     <string name="add_holiday_desc">Lägg till lediga dagar här</string>
     <string name="add_holiday_title">Lägg till ledig dag</string>
     <string name="additional_cal_dialog_title">Välj kalender</string>
-    <string name="additional_cal_pref_title">Ytterligare kalender</string>
+    <string name="additional_cal_pref_title">Ytterligare kalendrar</string>
     <string name="additional_calendar_note">Vissa extra kalendrar kanske inte är tillgängliga eller varierar beroende på föränderliga faktorer</string>
     <string name="afternoon">Eftermiddag</string>
     <string name="agenda_month_empty_hint">Inga händelser idag</string>
+    <string name="agenda_not_today_empty_hint">Inga händelser här än. Tryck här för att skapa en.</string>
     <string name="agenda_tomorrow">IMORGON, %1$s</string>
     <string name="agenda_view">Händelser</string>
     <string name="alarm_label">Avfärda</string>
@@ -182,6 +183,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Traditionell kinesisk kalender</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Ange datum och tid</string>
     <string name="date_today">" (idag)"</string>
     <string name="date_view">Datum</string>
@@ -194,6 +196,8 @@
     <string name="delete_this_event_title">Ta bort denna händelse?</string>
     <string name="description_calendar">Systemappar/Kalender</string>
     <string name="description_calendar_edit_event">Systemappar/Kalender/Agenda</string>
+    <string name="description_calendar_huangli" />
+    <string name="description_calendar_subscribe_group" />
     <string name="directory_searching_fmt">Söker %s…</string>
     <string name="discard_label">Avbryt</string>
     <string name="display_to_calendar">Visa i kalender</string>
@@ -270,6 +274,7 @@
     <string name="event_info_when">När</string>
     <string name="event_info_where">Var</string>
     <string name="event_reminder_allday_day_zero">På händelsedagen kl. %2$s</string>
+    <string name="event_reminder_custom">Anpassad</string>
     <string name="event_reminder_value_zero">Vid händelsetiden</string>
     <string name="event_title">Titel</string>
     <string name="event_view">Visa händelse</string>
@@ -389,6 +394,7 @@
     <string name="holidays_title">Lediga dagar</string>
     <string name="horoscope">Horoskop</string>
     <string name="horoscope_card_title">Dagens horoskop</string>
+    <string name="horoscope_partner" />
     <string name="horoscope_select_activity_label">Välj zodiactecken</string>
     <string name="hour_1">%d timme</string>
     <string name="image_processing">Bilden är inte klar än</string>
@@ -422,6 +428,8 @@
     <string name="long_holiday_week_off">Lediga veckodagar</string>
     <string name="long_month_date_format">d MMMM yyyy</string>
     <string name="lunar_date">Månens datum</string>
+    <string name="lunar_day" />
+    <string name="lunar_to_solar" />
     <string name="manage_holidays">Hantera lediga dagar</string>
     <string name="manage_title">Hantera</string>
     <string name="mark_end">Menstruation slut</string>
@@ -579,7 +587,7 @@ Kontrollera inställningar och försök igen."</string>
     <string name="no_visiable_calendar_title">Lägg till konto</string>
     <string name="none">Inga</string>
     <string name="noon">Middagstid</string>
-    <string name="not_more_than_three_weekday">Du kan välja upp till 3 dagar</string>
+    <string name="not_more_than_three_weekday">Du kan välja upp till %d dagar</string>
     <string name="not_set">Inte angett</string>
     <string name="notes_hint">Tryck för att lägga till en uppgift</string>
     <string name="notes_reminders_channel">Anteckningspåminnelser</string>
@@ -594,6 +602,10 @@ Kontrollera inställningar och försök igen."</string>
     <string name="notes_weekly">Veckovis</string>
     <string name="notification_channel_description" />
     <string name="notification_channel_name">Kalenderpåminnelser</string>
+    <string name="notification_open_setting_button_exit">Nej tack</string>
+    <string name="notification_open_setting_button_ok">Tillåt</string>
+    <string name="notification_open_setting_message">Du kommer inte att kunna ta emot notifikationer om händelser såvida du inte tillåter Kalendern att skicka notifikationer till dig.</string>
+    <string name="notification_open_setting_title">Tillåt kalendernotifikationer?</string>
     <string name="numbers">%d</string>
     <string name="pack_up">收起</string>
     <string name="panchang_amanta">Amanta</string>
@@ -621,6 +633,7 @@ Kontrollera inställningar och försök igen."</string>
     <string name="panchang_yog">Yog</string>
     <string name="partner_compatibility">Partner-kompatibilitet</string>
     <string name="path_calendar_settings">Systemappar/Kalender/Inställningar</string>
+    <string name="permission_denial">Bevilja behörigheter för att kunna använda den här funktionen</string>
     <string name="permission_description">Behörighetsuppgifter</string>
     <string name="picker_day">Vald dag: %1$d. Svep vertikalt för att välja.</string>
     <string name="picker_month">Vald månad: %1$d. Svep vertikalt för att välja.</string>
@@ -634,7 +647,6 @@ Kontrollera inställningar och försök igen."</string>
     <string name="pref_title_no_remind">Ingen påminnelse</string>
     <string name="pref_title_notification_remind">Påminnelser för notifikationer</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
-    <string name="preferences_additional_cal_default">0</string>
     <string name="preferences_alarms_category_title">Påminnelser för alarm</string>
     <string name="preferences_alarms_sound">Ljud</string>
     <string name="preferences_alarms_vibrateWhen">Vibrera</string>
@@ -653,9 +665,9 @@ Kontrollera inställningar och försök igen."</string>
     <string name="preferences_title">Kalender</string>
     <string name="preferences_use_home_tz_descrip">Visa kalender- och händelsetider i din hemtidzon när du reser</string>
     <string name="preferences_use_home_tz_title">Använd hemtidzonen</string>
-    <string name="preferences_week_start_day_default">-1</string>
     <string name="preferences_week_start_day_dialog">Visa första dagen i veckan som</string>
     <string name="preferences_week_start_day_title">Visa första dagen i veckan som</string>
+    <string name="premission_description_notice">För att skicka notifikationer om händelser och semestrar</string>
     <string name="privacy_and_permissions">Integritet och behörigheter</string>
     <string name="privacy_card_description">Godkänn vår Integritetspolicy för åtkomst till alla funktioner.</string>
     <string name="privacy_policy_dialog_agree">Acceptera</string>
@@ -681,6 +693,8 @@ Kontrollera inställningar och försök igen."</string>
     <string name="remind_title_menstruation_start">Påminn mig när menstruationen startar</string>
     <string name="remind_title_record">Påminn mig att registrera</string>
     <string name="repeat_activity_label">Upprepa</string>
+    <string name="repeat_alarm_close_title">Det här är en upprepad händelse. Stäng av påminnelselarm?</string>
+    <string name="repeat_alarm_open_title">Det här är en upprepad händelse. Ställ in påminnelselarm?</string>
     <string name="repeat_custom_activity_label">Anpassad</string>
     <string name="repeat_custom_prompt_daily">varje %1$s</string>
     <string name="repeat_custom_prompt_sentence">Händelsen kommer att upprepas %1$s</string>
@@ -702,6 +716,7 @@ Kontrollera inställningar och försök igen."</string>
     <string name="repeat_label_frequency">Frekvens</string>
     <string name="repeat_label_interval">Med intervall på</string>
     <string name="repeat_label_week">Vecka</string>
+    <string name="repeat_lunar_yearly" />
     <string name="repeat_month_day_splitter">" "</string>
     <string name="repeat_week_info">" %1$s %2$s"</string>
     <string name="repeats_label">Upprepa</string>
@@ -722,7 +737,9 @@ Kontrollera inställningar och försök igen."</string>
     <string name="saving_event">Händelse sparad</string>
     <string name="saving_event_with_guest">Skickar uppdateringar…</string>
     <string name="search_calendar_edit_event">Möte;Påminnelse;Agenda</string>
+    <string name="search_calendar_huangli" />
     <string name="search_calendar_settings">Kalender;Agenda;Påminnelse</string>
+    <string name="search_calendar_subscribe_group" />
     <string name="search_events">Sök händelser</string>
     <string name="search_history">Sökhistorik</string>
     <string name="search_menu_title">Sök</string>
@@ -740,7 +757,7 @@ Kontrollera inställningar och försök igen."</string>
     <string name="setting_about_summary">Version:</string>
     <string name="setting_accounts">Kalenderkonton</string>
     <string name="setting_change_language">Välj språk i Kalender</string>
-    <string name="setting_desc_import_todo">Importera schemalagda uppgifter från Anteckningar</string>
+    <string name="setting_desc_import_todo">Importera känsliga uppgifter från Anteckningar</string>
     <string name="setting_features_title">Inställningar för funktioner</string>
     <string name="setting_holiday_display_desc">Helgdagskort finns under din agenda på hemsidan</string>
     <string name="setting_holiday_reminder">Semesterpåminnelse</string>
@@ -777,6 +794,10 @@ Kontrollera inställningar och försök igen."</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip">Hoppa över</string>
     <string name="small_week_date_format">EEE dd/MM/yyyy</string>
+    <string name="solar_lunar_convert_date" />
+    <string name="solar_lunar_convert_description" />
+    <string name="solar_lunar_convert_tab" />
+    <string name="solar_to_lunar" />
     <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
     <string name="spec_agenda_view">Speciella händelser</string>
     <string name="start_date_calculate">Beräkna</string>

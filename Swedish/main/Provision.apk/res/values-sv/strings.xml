@@ -79,6 +79,8 @@
     <string name="cm_terms_title">Operatörens avtal för mobilt nätverk</string>
     <string name="compass_introduction">Du kan använda denna app för navigering, samt för att visa koordinater, atmosfärstryck och höjd.</string>
     <string name="congratulation_label">Du är redo att rocka!​</string>
+    <string name="congratulation_pre_label">Vänta en stund…</string>
+    <string name="congratulation_pre_title">Förbereder system…</string>
     <string name="congratulation_swipe">Svep uppåt för gå in i systemet</string>
     <string name="congratulation_title">Inställningsguide klar</string>
     <string name="content_description_complete">Slutförd</string>
@@ -259,6 +261,7 @@ Features are subject to change. Some of the features above may not be available 
     <string name="midnight">Natt</string>
     <string name="mint_keyboard_oobe_checkbox">Jag har läst och godkänner integritetspolicyn för Mint Keyboard</string>
     <string name="mint_keyboard_oobe_terms">Integritetspolicy för Mint Keyboard</string>
+    <string name="miui14_start_up_slogan">Ready. Steady. Live.</string>
     <string name="miui_privacy_policy_no_network">Du har ingen internetanslutning. Visa integritetspolicyn på %s.</string>
     <string name="miui_provision">Inledande installation</string>
     <string name="miui_terms_no_network">Det finns ingen internetanslutning. Visa användaravtalet på %s.</string>

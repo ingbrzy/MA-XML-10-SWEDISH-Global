@@ -40,10 +40,6 @@
         <item quantity="other">Fann %d resultat</item>
         <item quantity="one">Fann %d resultat</item>
     </plurals>
-    <plurals name="family_service_member_count">
-        <item quantity="other">%d personer</item>
-        <item quantity="one">%d person</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtimme sedan</item>
         <item quantity="one">En halvtimme sedan</item>

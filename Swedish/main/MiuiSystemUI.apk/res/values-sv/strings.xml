@@ -629,6 +629,10 @@ Vilka enheter som går att styra på det här sättet beror på appen på enhete
     <string name="daltonizer_mode_protanomaly">Protanomali (rött-grönt)</string>
     <string name="daltonizer_mode_tritanomaly">Tritanomali (blått-gult)</string>
     <string name="daltonizer_type_overridden">Har åsidosatts av %1$s</string>
+    <string name="dark_mode_power_save_alert_dialog_confirm">Jag förstår</string>
+    <string name="dark_mode_power_save_alert_dialog_message">"Om du stänger av MIUI-optimering och startar Batterispararen, kommer mörkt läge att startas automatiskt.
+ För att stänga av mörkt läge behöver Batterispararens stängas av, eller MIUI-optimering aktiveras i Inställningar > Utvecklingsalternativ > Aktivera MIUI-optimering."</string>
+    <string name="dark_mode_power_save_alert_dialog_title">Mörkt läge</string>
     <string name="data_connection_3_5g">H</string>
     <string name="data_connection_3_5g_plus">H+</string>
     <string name="data_connection_3g">3G</string>
@@ -1452,6 +1456,7 @@ Kontakta IT-administratören om du vill veta mer."</string>
     <string name="monitoring_description_personal_profile_named_vpn">Dina privata appar är anslutna till internet via %1$s. Din nätverksaktivitet, till exempel e-post och webbinformation, är synlig för VPN-leverantören.</string>
     <string name="monitoring_description_two_named_vpns">Den här enheten är ansluten till internet via %1$s och %2$s. Din nätverksaktivitet, till exempel e-post och webbinformation, är synlig för IT-administratören.</string>
     <string name="monitoring_description_vpn_settings">Öppna VPN-inställningarna</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s kanske kan komma åt data kopplad till den här enheten, hantera appar och ändra enhetens inställningar.
 
 Kontakta %2$s om du har frågor."</string>
@@ -1530,6 +1535,7 @@ Kontakta %2$s om du har frågor."</string>
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -1559,6 +1565,7 @@ Kontakta %2$s om du har frågor."</string>
     <string name="music_controls_no_title">Ingen titel</string>
     <string name="nav_bar">Navigeringsfält</string>
     <string name="nav_bar_layout">Layout</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="new_notification_image_content_description">%1$s skickade en bild</string>
     <string name="new_notification_text_content_description">%1$s skickade ett meddelande: %2$s</string>
     <string name="new_status_content_description">%1$s har gjort en statusuppdatering: %2$s</string>
@@ -1764,6 +1771,7 @@ Kontakta %2$s om du har frågor."</string>
     <string name="private_dns_mode_provider">Värdnamn för leverantör av privat DNS</string>
     <string name="private_dns_mode_provider_failure">Kan inte ansluta</string>
     <string name="private_dns_mode_provider_hostname_hint">Ange värdnamn för DNS-leverantör</string>
+    <string name="process_kernel_label">Operativsystemet Android</string>
     <string name="profile_connect_timeout_subtext">Det gick inte att ansluta. Stäng av enheten och slå på den igen</string>
     <string name="profile_info_settings_title">Profilinformation</string>
     <string name="qr_code_scanner_title">Skanna QR-kod</string>
@@ -1929,9 +1937,9 @@ Kontakta %2$s om du har frågor."</string>
     <string name="reboot_info_auto_boot_global">Kommande alarm: %s</string>
     <string name="reboot_info_shutdown_alarm_global">Alarmavstängning: %s</string>
     <string name="recent_conversations">Senaste konversationerna</string>
-    <string name="recent_used_camera">Denna använde kamera</string>
-    <string name="recent_used_camera_and_microphone">Denna app spelade in ljud och använde kamera</string>
-    <string name="recent_used_microphone">Denna app spelade in ljud</string>
+    <string name="recent_used_camera">Den här appen har fått åtkomst till kamera</string>
+    <string name="recent_used_camera_and_microphone">Den här appen har fått åtkomst till kamera och mikrofon</string>
+    <string name="recent_used_microphone">Den här appen har fått åtkomst till mikrofon</string>
     <string name="remaining_length_format">%1$s kvar</string>
     <string name="remote_input_image_insertion_text">har skickat en bild</string>
     <string name="remove_from_settings">Ta bort från inställningarna</string>
@@ -2103,6 +2111,8 @@ Kontakta %2$s om du har frågor."</string>
     <string name="status_bar_clock_date_time_format_12">hh:mm, EEEE, dd MMM</string>
     <string name="status_bar_clock_date_weekday_format">EEEE d MMMM</string>
     <string name="status_bar_clock_date_weekday_format_12">EEEE d MMMM</string>
+    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
+    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"E
 d MMM"</string>
     <string name="status_bar_date_format_12">"E
@@ -2352,9 +2362,9 @@ Alla användare kan uppdatera appar för samtliga användares räkning."</string
     <string name="user_setup_dialog_title">Konfigurera användare nu?</string>
     <string name="user_setup_profile_dialog_message">Vill du konfigurera en profil nu?</string>
     <string name="user_switch_to_user">Byt till %s</string>
-    <string name="using_camera">Denna app använder kamera</string>
-    <string name="using_camera_and_microphone">Denna app spelar in ljud och använder kamera</string>
-    <string name="using_microphone">Denna app spelar in ljud</string>
+    <string name="using_camera">Den här appen har åtkomst till kamera</string>
+    <string name="using_camera_and_microphone">Den här appen har åtkomst till kamera och mikrofon</string>
+    <string name="using_microphone">Den här appen har åtkomst till mikrofon</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="verify_apps_over_usb_summary">Kontrollera om appar som installeras via ADB/ADT kan vara skadliga.</string>

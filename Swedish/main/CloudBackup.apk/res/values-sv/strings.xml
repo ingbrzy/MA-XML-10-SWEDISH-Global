@@ -152,8 +152,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup_detail_state_summary_china">Enheten måste anslutas till WLAN, laddning, och låst.</string>
     <string name="cloud_backup_detail_time">Senaste säkerhetskopiering: %1$s</string>
     <string name="cloud_backup_detail_title">Säkerhetskopiera objekt</string>
-    <string name="cloud_backup_get_installed_apps_summary">For backing up and restoring Home screen apps</string>
-    <string name="cloud_backup_get_installed_apps_title">Access the list of apps installed on this device</string>
     <string name="cloud_backup_have_data">Hittade en säkerhetskopia i Xiaomi Cloud</string>
     <string name="cloud_backup_in_cancel">Avbryt</string>
     <string name="cloud_backup_in_process">Säkerhetskopierar</string>
@@ -172,9 +170,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="confirm_restore_summary">Din Hemskärm kommer se ut som innan. Säkerhetskopierade appar kommer laddas ner automatiskt.</string>
     <string name="confirm_restore_title">Återställ</string>
     <string name="copy">Kopiera</string>
-    <string name="cta_dialog_all_purpose">Välkommen till Säkerhetskopiering i molnet! Du kan använda den här appen för att säkerhetskopiera Utseende på Hemskärmen, apparna, systeminställningar, och WeChat-data till molnet. Kontrollera att du använder den senaste versionen för att kunna dra fördel av alla våra funktioner.</string>
-    <string name="cta_dialog_permission_description_get_installed_apps">For backing up and restoring apps</string>
-    <string name="cta_dialog_permission_description_storage">För säkerhetskopiering och återställning av objekt</string>
     <string name="customization"><u>Skräddarsy</u></string>
     <string name="date_format">HH:mm:ss dd-MM-yyyy</string>
     <string name="date_picker_label_day" />
@@ -402,6 +397,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">Slå på och av säkerhetskopiering</string>
     <string name="other_device_main_space">Primära utrymmet</string>
     <string name="other_device_second_space">Sekundära utrymmet</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">Det går inte att återställa objekt i PC-läge. Stäng av PC-läget och försök igen.</string>
     <string name="permission_to_use">Behörighetsuppgifter</string>
     <string name="pm">E.m</string>

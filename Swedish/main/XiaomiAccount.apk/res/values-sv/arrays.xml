@@ -19,16 +19,6 @@
         <item>Ändra lösenord för Xiaomi-konto</item>
         <item>Ändra lösenord;uppdatera lösenord;Mi-konto;konto;Xiaomi-konto</item>
     </string-array>
-    <string-array name="settings_search_cloud_space_share">
-        <item>Lagringsutrymme för familj</item>
-        <item>Visa/aktivera lagringsutrymme för familj</item>
-        <item>Lagringsutrymme för familj;Delning av lagringsutrymme</item>
-    </string-array>
-    <string-array name="settings_search_family_service">
-        <item>Familjetjänster</item>
-        <item>Visa/aktivera familjetjänster</item>
-        <item>Familj;Familjetjänster;Familjedelning</item>
-    </string-array>
     <string-array name="settings_search_help_center">
         <item>Hjälp</item>
         <item>Få hjälp och support för Xiaomi-konto</item>
