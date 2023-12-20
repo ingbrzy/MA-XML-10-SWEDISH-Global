@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Dela med</string>
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
+    <string name="acc_return">Tillbaka</string>
     <string name="actionbar_button_up_description">Tillbaka</string>
     <string name="afternoon">Eftermiddag</string>
     <string name="am">F.m</string>
@@ -75,7 +76,7 @@
     <string name="doc_photo_no_remind">Visa inte igen</string>
     <string name="doc_photo_not_save">Spara inte</string>
     <string name="doc_photo_not_support">Det går inte att redigera denna bild som ett dokument</string>
-    <string name="doc_photo_remind">Uppmärksamma</string>
+    <string name="doc_photo_remind">Observera</string>
     <string name="doc_photo_save_effect_toast">Spara ändringar nu?</string>
     <string name="doc_photo_toast_undistortion_close">Anti-distorsion är av</string>
     <string name="doc_photo_toast_undistortion_open">Anti-distorsion är på</string>
@@ -151,15 +152,15 @@
     <string name="grant_permission_text">Gallery Editor behöver följande behörighet för att kunna fungera normalt: %s. Tryck på \"Inställningar\" för att tillåta.</string>
     <string name="midnight">Natt</string>
     <string name="miuix_access_state_desc">Valt</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Avmarkera alla</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
     <string name="miuix_appcompat_confirm_description">Bekräfta</string>
     <string name="miuix_appcompat_delete_description">Ta bort</string>
-    <string name="miuix_appcompat_deselect_all">Välj ingen</string>
-    <string name="miuix_appcompat_deselect_all_description">Välj ingen</string>
+    <string name="miuix_appcompat_deselect_all">Avmarkera alla</string>
+    <string name="miuix_appcompat_deselect_all_description">Avmarkera alla</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Sök</string>
     <string name="miuix_appcompat_select_all">Välj alla</string>
@@ -230,6 +231,9 @@
     <string name="noon">Middagstid</string>
     <string name="ok">OK</string>
     <string name="open">På</string>
+    <string name="operation_original">Jämföra</string>
+    <string name="operation_redo">Göra om</string>
+    <string name="operation_undo">Ångra</string>
     <string name="pm">E.m</string>
     <string name="refocus_discard_confirm_message">Spara ändringar?</string>
     <string name="refocus_discard_negative_btn">Ta bort</string>

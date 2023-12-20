@@ -60,8 +60,13 @@
     <string name="cloud_find_device_off">Av</string>
     <string name="cloud_find_device_on">På</string>
     <string name="cloud_lab_title">Labb</string>
+    <string name="cloud_manage_storage_text">Hantera moln-lagring</string>
     <string name="cloud_service_open_authorization">Välkommen till Xiaomi Cloud-tjänsterna! Du kan använda Xiaomi Cloud för att synkronisera dina anteckningar, foton och videor, inspelningar, och andra objekt från systemappar över alla anslutna enheter. Säkerhetskopior av Utseende på hemskärmen kommer också att lagras i Xiaomi Cloud. Du kommer kunna visa alla synkroniserade objekt på i.mi.com.</string>
+    <string name="cloud_storage_almost_full_upgrade_text">Lagringsutrymmet är nästan fullt. Kan kanske inte synkronisera foton.</string>
+    <string name="cloud_storage_common_functions_text">Ofta använda</string>
     <string name="cloud_storage_default_title">Molnlagring</string>
+    <string name="cloud_storage_full_upgrade_default_text">Otillräckligt lagringsutrymme. Kunde inte synkronisera foton.</string>
+    <string name="cloud_storage_info_type_creation">Mi Canvas</string>
     <string name="cloud_storage_info_type_drive">Mi Drive</string>
     <string name="cloud_storage_info_type_duokan">Duokan</string>
     <string name="cloud_storage_info_type_family">Familj</string>
@@ -70,6 +75,10 @@
     <string name="cloud_storage_loading_data">Ett ögonblick…</string>
     <string name="cloud_storage_manage_title">Hantera utrymme</string>
     <string name="cloud_storage_no_data">Det finns inga objekt i molnet ännu</string>
+    <string name="cloud_storage_sufficient_text">Uppgradera för att få upp till %d TB i lagringsutrymme</string>
+    <string name="cloud_storage_upgrade_text">Uppgradera</string>
+    <string name="cloud_storage_upgrade_text_now">Uppgradera</string>
+    <string name="cloud_storage_zero_upgrade_button_text_now">Uppgradera gratis</string>
     <string name="confirm_save">Behåll</string>
     <string name="connect_network">Anslut till Wi-Fi eller sätt in ett SIM-kort</string>
     <string name="connect_network_china">Connect to WLAN or insert a SIM card</string>
@@ -77,8 +86,16 @@
     <string name="connect_wlan_china">Connect to WLAN</string>
     <string name="contact_alert_sync_data_merge_dialog_msg">Om du aktiverar synk, kommer kontakter laddas upp från den här enheten och slås samman med kontakterna som lagras i molnet. Vill du aktivera synk ändå?</string>
     <string name="copy">Kopiera</string>
+    <string name="creation_dialog_message">Visa Mi Canvas-data på din platta.</string>
+    <string name="creation_dialog_positive_btn">OK</string>
+    <string name="creation_dialog_title">Observera</string>
+    <string name="creation_sync_settings_only_in_wifi">Synkronisera endast på WLAN</string>
+    <string name="creation_sync_settings_only_in_wifi_summary">Rekommenderas för att spara mobildata</string>
+    <string name="creation_sync_settings_preference">Synkronisera canvasbilder</string>
+    <string name="creation_sync_settings_summary">Skapade canvasbilder</string>
     <string name="cta_notification_content_text">Tillåt %s att ansluta till internet för att kunna återställa objekt</string>
     <string name="cta_notification_content_title">Kan inte återställa objekt från %s</string>
+    <string name="customize_notification_btn_text">Uppgradera</string>
     <string name="data_merge_dialog_alert_active_on_phone_msg_more_than_two">Detta konto används också på en annan enhet. Slå ihop objekten från flera appar (inklusive %1$s och %2$s) med objekten på denna enhet?</string>
     <string name="data_merge_dialog_alert_active_on_phone_msg_one">Detta konto används också på en annan enhet. Slå ihop objekten från %s med objekten på denna enhet?</string>
     <string name="data_merge_dialog_alert_active_on_phone_msg_two">Detta konto används också på en annan enhet. Slå ihop objekten från %1$s och %2$s med objekten på denna enhet?</string>
@@ -95,6 +112,7 @@
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Traditionell kinesisk kalender</string>
     <string name="date_time_picker_dialog_title">Ange datum och tid</string>
+    <string name="default_noti_quota_full_title">Molnlagringen är full</string>
     <string name="detect_sim_card">Sök efter SIM kort</string>
     <string name="device_activation_card_cannot_get_yet">"Couldn't get info. Try again in 3-5 days."</string>
     <string name="device_activation_card_description">"First activation is registered when a device connects to the network (including but not limited to Wi-Fi and mobile networks) for the first time. It normally takes a while to register first activation, so it's better to wait for 3-5 days after connecting to the network before checking activation status.&lt;br>&lt;br>Device activation is the main factor in determining the validity period of our extended warranty. Check our &lt;a href=%1$s>Return, Exchange, and Repair Policy&lt;/a> for more details.&lt;br>&lt;br>Feel free to call our customer support hotline if you have any questions: 400-100-5678."</string>
@@ -111,6 +129,8 @@
     <string name="dialog_storage_upgrade_now">Uppgradera</string>
     <string name="dialog_title_prompt">Obs!</string>
     <string name="do_not_merge">Avbryt</string>
+    <string name="download_gallery_data_summary">Gå till i.mi.com för att ladda ner synkroniserade foton och videor till din enhet.</string>
+    <string name="download_gallery_data_title">Ladda ner objekt till din enhet</string>
     <string name="early_morning">Morgon</string>
     <string name="empty" />
     <string name="enable_find_device_success">Hitta enheten är påslagen.</string>
@@ -144,7 +164,9 @@
     <string name="feedback_custom_hint">Beskriv problemen du har stött på här. Om du ger förslag skulle vi uppskatta fler detaljer!</string>
     <string name="find_device">Hitta Enhet</string>
     <string name="find_device_dspt_provision">Om du tappar bort din enhet så kan du gå till &lt;font color=#0097FF>%s&lt;/font> för att lokalisera, låsa eller återställa den. Du kan slå på eller av denna funktion när som helst i Inställningar.</string>
-    <string name="find_device_gdpr_prompt">Genom att aktivera Hitta enhet godkänner vår <u><a href="app://com.miui.cloudservice.gdpr.license">Integritetspolicy</a></u>. Om du vill dra tillbaka godkännandet inaktiverar du funktionen.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
+    <string name="find_device_gdpr_prompt">Genom att aktivera Hitta enhet godkänner vår <u><a href="app://com.miui.cloudservice.gdpr.license">Integritetspolicy</a></u>. Om du vill återta ditt samtycke inaktiverar du funktionen.</string>
     <string name="find_device_operation_failure_rpc">Kunde inte genomför åtgärden på grund av RPC-fel.</string>
     <string name="find_device_permissions_footer">Tryck på \"Bevilja\" för att bevilja de behörigheter du valt.</string>
     <string name="find_device_permissions_header">Välkommen till Hitta enhet! Du kan använda denna app för att lokalisera, spåra, och låsa din enhet när den saknas. Hitta enhet kräver följande behörigheter:</string>
@@ -154,6 +176,8 @@
     <string name="find_device_status_title_phone">Hitta enhet</string>
     <string name="find_permission_location_summary">För att lokalisera denna enhet</string>
     <string name="find_permission_location_title">Få åtkomst till plats</string>
+    <string name="find_permission_phone_sim_info_summary">För att komma åt din plats via SMS när du inte är ansluten till nätverket</string>
+    <string name="find_permission_phone_sim_info_title">Få tillgång till enhetsinfo</string>
     <string name="find_permission_phone_summary">För att få åtkomst till telefonnummer för att hitta denna enhet när den inte är ansluten till Internet</string>
     <string name="find_permission_phone_title">Få tillgång till enhetsinfo</string>
     <string name="find_permission_sms_summary">För att lokalisera denna enhet när den inte är ansluten till Internet</string>
@@ -217,8 +241,14 @@
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
     <string name="gallery_auto_sync_fail_noti_content">Det finns inte tillräckligt med lagringsutrymme kvar i molnet. Uppgradera ditt lagringsplan för att synkronisera foton och videor.</string>
+    <string name="gallery_data_transfer_ddl">Slutdatum: %s</string>
+    <string name="gallery_data_transfer_summary">Galleriobjekt kan inte längre synkroniseras med Xiaomi Cloud. Vi rekommenderar att överföra foton och videor som du har synkroniserat med molnen till Google Foto och använda deras tjänster för att säkerhetskopiera dina objekt.</string>
+    <string name="gallery_data_transfer_title">Överför synkroniserade foton och videor till Google Foto</string>
+    <string name="gallery_service_termination_announcement">Underrättelse om avslutande av synkronisering av Galleri-objekt till Xiaomi Cloud och överföring till Google Foto</string>
+    <string name="gallery_service_termination_announcement_title">Galleriobjekt kan inte längre synkroniseras till Xiaomi Cloud. Vi rekommenderar överföring av foton och videor som du har synkroniserat med molnet, till Google Goto, eller besöka i.mi.com för att ladda ner synkroniserade foton och videor till din enhet. Överförings- och nedladdningstjänster kommer att finnas tillgängliga till %s, vid vilken tid då alla Galleriobjekt som är synkroniserade med ditt Xiaomi Cloud-konto kommer att raderas permanent.</string>
+    <string name="gallery_service_termination_btn_continue">Fortsätt</string>
+    <string name="gallery_service_termination_more_info">För mer information, se %s</string>
     <string name="help_and_feedback">Hjälp och feedback</string>
-    <string name="hybrid_provider">Tillhandahålls av %1$s</string>
     <string name="i_know">OK</string>
     <string name="input_password_hint">Ange lösenord</string>
     <string name="keybag_create_by_new_passcode_prompt">Denna lösenordskod skyddar dina lösenord som lagras i molnet. Du kommer inte få tillgång till dem om du glömmer denna lösenordskod.</string>
@@ -282,6 +312,7 @@
     <string name="member_menu_vipname_premium">Premium</string>
     <string name="member_menu_vipname_ultra">Ultra</string>
     <string name="menu_add_short_cut">Skapa en genväg på Hemskärmen</string>
+    <string name="menu_migrate_to_google_photos">Överför data till Google Foto</string>
     <string name="merge">Slå ihop</string>
     <string name="mi_drive_title">Mi Drive</string>
     <string name="micloud_alert_dialog_positive">OK</string>
@@ -318,7 +349,7 @@
     <string name="micloud_confusion_toast_confirm">Enhet bekräftad</string>
     <string name="micloud_confusion_toast_deny">Logga in på ditt Xiaomi-konto</string>
     <string name="micloud_confusion_yes">Ja</string>
-    <string name="micloud_dspt_provision">Använda Xiaomi Cloud för att synka data, hitta din enhet, och delar saker med vänner.</string>
+    <string name="micloud_dspt_provision">Du kan använda Xiaomi Cloud för att synkronisera foton, kontakter, meddelanden, samtalshistorik, anteckningar och annan data, lokalisera din enhet och dela objekt med vänner. Den här appen behöver ansluta till internet för att fungera normalt. Synkronisering av objekt kan kräva mobildata-anslutning och att wifi aktiveras.</string>
     <string name="micloud_dspt_provision_china">Use Xiaomi Cloud to sync data, locate your device, and share things with friends.</string>
     <string name="micloud_dspt_provision_china_no_call">Du kan använda Xiaomi Cloud för att synkronisera foton, kontakter, meddelanden, anteckningar, och annan data, lokalisera din enhet och dela objekt med dina vänner. Den här appen behöver ansluta till internet för att fungera normalt. Synkning av objekt kan kärva mobildata-anslutning och at WLAN är påslaget.</string>
     <string name="micloud_dspt_provision_china_no_sms">Du kan använda Xiaomi Cloud för att synkronisera foton, kontakter, samtalshistorik, anteckningar, och annan data, lokalisera din enhet och dela objekt med dina vänner. Den här appen behöver ansluta till internet för att fungera normalt. Synkning av objekt kan kärva mobildata-anslutning och at WLAN är påslaget.</string>
@@ -340,8 +371,8 @@
     <string name="micloud_find_device_guide_alert_positive">OK</string>
     <string name="micloud_find_device_guide_alert_title">Kom ihåg ditt lösenord</string>
     <string name="micloud_find_device_guide_button">Aktivera Hitta enhet</string>
-    <string name="micloud_find_device_guide_desc_pad">Om din enhet är förlorad, logga in till &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> på någon annan enhet för att hitta, på avstånd låsa, eller radera datat på den förlorade enheten. &lt;a href=micloud://com.miui.cloudservice/helpcenter?type=finddevice>Visa detaljer&lt;/a>.</string>
-    <string name="micloud_find_device_guide_desc_phone">Om din enhet är förlorad, logga in till &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> på någon annan enhet för att hitta, på avstånd låsa, eller radera datat på den förlorade enheten. &lt;a href=micloud://com.miui.cloudservice/helpcenter?type=finddevice>Visa detaljer&lt;/a>.</string>
+    <string name="micloud_find_device_guide_desc_pad">Om din enhet tappas bort kan du logga in på &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> på vilken enhet som helst för att hitta, fjärrlåsa, eller radera data på den förlorade enheten. &lt;a href=micloud://com.miui.cloudservice/helpcenter?type=finddevice>Visa detaljer&lt;/a>.</string>
+    <string name="micloud_find_device_guide_desc_phone">Om din enhet tappas bort kan du logga in på &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> på vilken enhet som helst för att hitta, fjärrlåsa, eller radera data på den förlorade enheten. &lt;a href=micloud://com.miui.cloudservice/helpcenter?type=finddevice>Visa detaljer&lt;/a>.</string>
     <string name="micloud_find_device_guide_fail_reopen">Koppla på Hitta enhet i Xiaomi Cloud</string>
     <string name="micloud_find_device_guide_noti_content">Skydda din information även när du förlorar din enhet</string>
     <string name="micloud_find_device_guide_noti_content_by_app_change_qq">Din QQ information kommer vara säker även om du förlorar din enhet</string>
@@ -431,7 +462,7 @@
     <string name="micloud_privacy_progress_content">Beviljar befogenheter…</string>
     <string name="micloud_privacy_warning_button">Tillbaka</string>
     <string name="micloud_privacy_warning_content">Kan inte aktivera tjänster för Xiaomi Cloud. Vänta en minut eller två och försök igen.</string>
-    <string name="micloud_privacy_warning_title">Uppmärksamma</string>
+    <string name="micloud_privacy_warning_title">Observera</string>
     <string name="micloud_proceed">Fortsätt</string>
     <string name="micloud_request_permission_confirm">Jag förstår</string>
     <string name="micloud_request_permission_content">För att kunna synkronisera kalenderhändelser, kontakter, meddelanden, samtalshistorik, foton, videor, och andra objekt, behöver Xiaomi Cloud behörighet att få tillgång till din kalender, kontakter, konton, SIM-status, samtalshistorik, meddelanden, foton, och videor.</string>
@@ -461,7 +492,8 @@
     <string name="micloud_space_applist_detail">Hantera appar på din Hemskärm</string>
     <string name="micloud_space_duokan_detail">Ladda ner och hantera eböcker med Duokan appen.</string>
     <string name="micloud_space_duokan_title">Duokan</string>
-    <string name="micloud_space_soundrecorder_detail">Hantera inspelningar lagrade på din enhet</string>
+    <string name="micloud_space_soundrecorder_detail">"Öppna Diktafon-appen på din Xiaomi-enhet och välj mappen med objekt som lagras i molnet.
+Säkerställ att du använder de tillhörande Xiaomi-kontot som ditt systemkonto."</string>
     <string name="micloud_space_soundrecorder_title">Inspelningar</string>
     <string name="micloud_storage_detail">Detaljer</string>
     <string name="micloud_storage_family_quota">Delat utrymme</string>
@@ -501,15 +533,15 @@
     <string name="midrive_guide_btn_installed">Öppna Mi Drive</string>
     <string name="midrive_guide_btn_installing">Installerar…</string>
     <string name="miuix_access_state_desc">Valt</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Avmarkera alla</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
     <string name="miuix_appcompat_confirm_description">Bekräfta</string>
     <string name="miuix_appcompat_delete_description">Ta bort</string>
-    <string name="miuix_appcompat_deselect_all">Välj ingen</string>
-    <string name="miuix_appcompat_deselect_all_description">Välj ingen</string>
+    <string name="miuix_appcompat_deselect_all">Avmarkera alla</string>
+    <string name="miuix_appcompat_deselect_all_description">Avmarkera alla</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Sök</string>
     <string name="miuix_appcompat_select_all">Välj alla</string>
@@ -565,18 +597,18 @@
     <string name="more">Mer</string>
     <string name="morning">Morgon</string>
     <string name="night">Kväll</string>
-    <string name="no_network">Kan inte ansluta till nätverket</string>
     <string name="no_sim">Det gick inte att hitta SIM-kortet</string>
     <string name="noon">Middagstid</string>
     <string name="not_set">Inte angett</string>
     <string name="noti_quota_button_text">Uppgradera</string>
     <string name="noti_quota_full_sum">Uppgradera din lagringsplan för att fortsätta synka objekt.</string>
     <string name="noti_quota_full_sum_without_button">Skaffa mer lagringsutrymme för att fortsätta synka objekt.</string>
-    <string name="noti_quota_full_title">Molnlagring är full</string>
+    <string name="noti_quota_full_title">Molnlagringen är &lt;font color=#F22424>full&lt;/font></string>
     <string name="noti_quota_full_title_without_button">Molnlagring är full</string>
     <string name="noti_quota_low_sum">Uppgradera din lagringsplan för att fortsätta synka objekt.</string>
     <string name="noti_quota_low_sum_without_button">Skaffa mer lagringsutrymme för att fortsätta synka objekt.</string>
     <string name="noti_quota_low_title">Inte tillräcklig molnlagring</string>
+    <string name="noti_quota_low_title_with_storage">&lt;font color=#F22424>Mindre än &lt;xliff:g id=remaining_storage_space example=0.5>%s&lt;/xliff:g> GB&lt;/font> av molnlagringsutrymmet återstår</string>
     <string name="noti_quota_low_title_without_button">Inte tillräcklig molnlagring</string>
     <string name="notification_sync_fail_title">Det gick inte att synkronisera lösenorden</string>
     <string name="notification_update_key_text">Lösenordshanterarens lösenord ändrades. Verifiera det nya lösenordet.</string>
@@ -588,6 +620,8 @@
     <string name="permission_status_allow">Beviljat</string>
     <string name="permission_status_deny">Ej beviljat</string>
     <string name="permission_status_loading">Tillträder enhetsstatus…</string>
+    <string name="phone_guarantee_service_description" formatted="false">Skyddet från skärmskada och olyckor kan köpas inom %d dagar efter aktiveringen. Den förlängda garantin kan köpas inom %d dagar efter aktiveringen.</string>
+    <string name="phone_guarantee_service_name">Enhetsgaranti</string>
     <string name="picker_list_empty">Det finns inga kontakter här</string>
     <string name="picker_search_empty">Kunde inte hitta kontakter</string>
     <string name="picker_search_hint">Sök</string>
@@ -619,7 +653,7 @@ Platsinfo kanske inte rapporteras när nätverksanslutningen är dålig."</strin
     <string name="privacy_doc_cloudservice_pad_without_sim_but_contact">Välkommen till Xiaomi Clouds tjänster! Du kan använda Xiaomi Could för att synkronisera dina kontakter, anteckningar, webbläsarinställningar, foton och videor, inspelningar, kalenderhändelser och blockeringslistor, mellan alla dina anslutna enheter. Få åtkomst till de objekt som du synkroniserar, från vilken webbläsare du vill, via &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Vi ska skydda dina personuppgifter i enlighet med gällande lagar, förordningar och sekretesspolicyer.&lt;br />För att kunna fungera normalt behöver de här tjänsterna ansluta till internet och kräver följande tillstånd för att kunna samla in dina personuppgifter:&lt;br />• Kalender:&lt;br />För att synkronisera händelser&lt;br />• Få åtkomst till kontakter:&lt;br />För synkronisering av kontakter&lt;br />• Redigera kontakter:&lt;br />För att synkronisera kontakter&lt;br />• Lagring:&lt;br />För att spara objekt på din enhet (t.ex. bilder, videor&lt;br />Om du inte beviljar sådant tillstånd, eller delar och laddar upp dina personuppgifter, kommer du inte att kunna använda dessa tjänster. Du kan välja att avinstallera den här appen, logga ut, eller begränsa tillstånden i Inställningar, i sådana fall.&lt;br />Läs och godkänn vårt &lt;a href=%2$s>&lt;u>Användaravtal&lt;/u>&lt;/a> och &lt;a href=%3$s>&lt;u>Integritetspolicy&lt;/u>&lt;/a> innan du använder våra tjänster.&lt;br /></string>
     <string name="privacy_doc_cloudservice_pad_without_sim_or_contact">Välkommen till Xiaomi Clouds tjänster! Du kan använda Xiaomi Could för att synkronisera dina anteckningar, webbläsarinställningar, foton och videor, inspelningar, kalenderhändelser och blockeringslistor, mellan alla dina anslutna enheter. Få åtkomst till de objekt som du synkroniserar, från vilken webbläsare du vill, via &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Vi ska skydda dina personuppgifter i enlighet med gällande lagar, förordningar och sekretesspolicyer.&lt;br />För att kunna fungera normalt behöver de här tjänsterna ansluta till internet och kräver följande tillstånd för att kunna samla in dina personuppgifter:&lt;br />• Kalender:&lt;br />För att synkronisera händelser&lt;br />• Lagring:&lt;br />För att spara objekt på din enhet (t.ex. bilder, videor)&lt;br />Om du inte beviljar sådant tillstånd, eller delar och laddar upp dina personuppgifter, kommer du inte att kunna använda dessa tjänster. Du kan välja att avinstallera den här appen, logga ut, eller begränsa tillstånden i Inställningar, i sådana fall.&lt;br />Läs och godkänn vårt &lt;a href=%2$s>&lt;u>Användaravtal&lt;/u>&lt;/a> och &lt;a href=%3$s>&lt;u>Integritetspolicy&lt;/u>&lt;/a> innan du använder våra tjänster.&lt;br /></string>
     <string name="privacy_doc_finddevice_pad">Välkommen till Hitta enhet! Du kan använda denna tjänst för att lokalisera, låsa eller radera data på din enhet om den tappats bort. Du kan gå till &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> för att lokalisera, låsa eller återställa den.&lt;br />&lt;br />Vi kommer att skydda dina personliga uppgifter i enlighet med de relevanta lagarna, regleringarna och integritetspolicyerna.&lt;br />För att kunna fungera normalt måste denna tjänst ansluta till internet och kräver följande behörigheter för att samla in din personliga information: Plats:&lt;br />För att lokalisera din enhet och växla till förlorat läge&lt;br />Om du inte accepterar att bevilja sådana behörigheter eller dela och ladda upp din personliga information kommer du inte att kunna använda denna tjänst. Du kan välja att avinstallera denna app, logga ut eller begränsa behörigheter i Inställningar.&lt;br />Läs och godkänn vårt &lt;a href=%1$s>&lt;u>Användaravtal&lt;/u>&lt;/a> och vår &lt;a href=%2$s>&lt;u>Integritetspolicy&lt;/u>&lt;/a> innan du använder våra tjänster.&lt;br /></string>
-    <string name="privacy_doc_finddevice_phone">Välkommen till Hitta enhet! Du kan använda denna tjänst för att lokalisera, låsa eller radera data på din enhet om den tappats bort. Du kan gå till &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> för att lokalisera, låsa eller återställa den.&lt;br />&lt;br />Vi kommer att skydda dina personuppgifter i enlighet med relevanta lagar, förordningar och integritetspolicyer.&lt;br />För att kunna fungera normalt måste denna tjänst ansluta till internet och kräver följande behörigheter för att samla in dina personuppgifter: Plats:&lt;br />För att lokalisera din enhet och växla till förlorat läge&lt;br />Om du inte accepterar att bevilja sådana behörigheter eller dela och ladda upp din personliga information kommer du inte att kunna använda denna tjänst. Du kan välja att avinstallera denna app, logga ut eller begränsa behörigheter i Inställningar.&lt;br />Läs och godkänn vårt &lt;a href=%1$s>&lt;u>Användaravtal&lt;/u>&lt;/a> och vår &lt;a href=%2$s>&lt;u>Integritetspolicy&lt;/u>&lt;/a> innan du använder våra tjänster.&lt;br /></string>
+    <string name="privacy_doc_finddevice_phone">Välkommen till Hitta enhet! Du kan använda denna tjänst för att lokalisera, låsa eller radera data på din enhet om den tappats bort. Du kan gå till &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> för att lokalisera, låsa eller återställa den.&lt;br />&lt;br />Vi kommer att skydda dina personliga uppgifter i enlighet med de relevanta lagarna, regleringarna och integritetspolicyerna.&lt;br />För att kunna fungera normalt måste denna tjänst ansluta till internet och kräver följande behörigheter för att samla in din personliga information: Plats:&lt;br />För att lokalisera din enhet och växla till förlorat läge&lt;br />Om du inte accepterar att bevilja sådana behörigheter eller dela och ladda upp din personliga information kommer du inte att kunna använda denna tjänst. Du kan välja att avinstallera denna app, logga ut eller begränsa behörigheter i Inställningar.&lt;br />Läs och godkänn vårt &lt;a href=%1$s>&lt;u>Användaravtal&lt;/u>&lt;/a> och vår &lt;a href=%2$s>&lt;u>Integritetspolicy&lt;/u>&lt;/a> innan du använder våra tjänster.&lt;br /></string>
     <string name="privacy_doc_finddevice_with_telephony_feature_pad_inter_with_charge_hint">Välkommen till Hitta enhet! Du kan använda denna tjänst för att hitta, låsa eller radera data på din enhet om den går förlorad. Genom att besöka &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> kan du hitta, låsa eller återställa den.&lt;br />&lt;br />&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>internationellt betald SMS&lt;/b>&lt;/font> kommer att automatiskt skickas för att aktivera denna tjänst. När du byter SIM-kort, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>internationellt betald SMS&lt;/b>&lt;/font> kommer att skickas automatiskt för återaktivering.&lt;br/>Alla de SMS-avgifter som genererats genom de förut nämnda åtgärderna kommer att samlas in av din transportör. Xiaomi kommer inte att debitera för dessa meddelanden.&lt;br />&lt;br />Vi skall skydda dina personuppgifter i enlighet med relevanta lagar, förordningar och sekretesspolicyer.&lt;br />För att kunna fungera normalt måste denna tjänst ansluta till Internet och kräver följande behörigheter för att samla in dina personuppgifter:&lt;br />• Plats:&lt;br />För att hitta din enhet och växla till det förlorade läget &lt;br />• Skicka SMS:&lt;br />För att hitta denna enhet när den inte är ansluten till Internet&lt;br />• Få tillgång till enhetsinformation:&lt;br />För åtkomst till telefonnummer för att hitta denna enhet när den inte är ansluten till Internet&lt;br />Om du inte gör samtycker till att bevilja sådana behörigheter, kommer du inte att kunna använda denna tjänst.. Du kan alltid slå på och av denna tjänst i Inställningarna.&lt;br />Läs och samtyck till vårt &lt;a href=%2$s>&lt;u>användaravtal&lt;/u>&lt;/a> och&lt;a href=%3$s>&lt;u>sekretesspolicy&lt;/u>&lt;/a> innan du använder våra tjänster.&lt;br /></string>
     <string name="privacy_doc_finddevice_with_telephony_feature_pad_with_common_charge_hint">Välkommen till Hitta enhet! Du kan använda denna tjänst för att hitta, låsa eller radera data på din enhet om den går förlorad. Genom att besöka &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> kan du hitta, låsa eller återställa den.&lt;br />&lt;br />&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>betald SMS&lt;/b>&lt;/font> kommer automatisk att skickas för att aktivera denna tjänst. När du byter SIM-kort kommer, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>betald SMS&lt;/b>&lt;/font> automatiskt att skickas för återaktivering.&lt;br/>Alla SMS-avgifter som genereras av förut nämnda åtgärder kommer att samlas in av din tranportör. Xiaomi kommer inte att debitera dig för dessa meddelanden.&lt;br />&lt;br />Vi skall skydda dina personuppgifter i enlighet med relevanta lagar, förordningar och sekretesspolicyer.&lt;br />För att kunna fungera normalt måste denna tjänst ansluta till Internet och kräver följande behörigheter för att samla in dina personuppgifter:&lt;br />•Plats:&lt;br />För att hitta din enhet och växla till det förlorade läget &lt;br />• Skicka SMS:&lt;br />För att hitta denna enhet när den inte är ansluten till Internet &lt;br />• Få tillgång till enhetsinformation: :&lt;br />För att få tillgång till telefonnummer för att hitta denna enhet när den inte är ansluten till Internet &lt;br />Om du inte samtycker till att bevilja sådana behörigheter, så kommer du inte att kunna använda denna tjänst. Du kan alltid slå på och av denna tjänst i Inställningarna.&lt;br />Läs och samtyck till vårt &lt;a href=%2$s>&lt;u>användaravtal&lt;/u>&lt;/a> och &lt;a href=%3$s>&lt;u>sekretesspolicy&lt;/u>&lt;/a> innan du använder våra tjänster.&lt;br /></string>
     <string name="privacy_doc_finddevice_with_telephony_feature_pad_with_domestic_charge_hint">Välkommen till Hitta enhet! Du kan använda denna tjänst för att hitta, låsa eller radera data på enheten om den går förlorad. Genom att besöka &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> kan du hitta, låsa eller återställa den.&lt;br />&lt;br />&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>inhemskt betald SMS&lt;/b>&lt;/font> kommer att automatiskt skickas för att aktivera denna tjänst. När du byter SIM-kort, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>inhemskt betald SMS&lt;/b>&lt;/font> kommer att automatiskt skickas för återaktivering.&lt;br/>Alla SMS-avgifter som genererats av förut nämnda åtgärder kommer att samlas in av din transportör. Xiaomi kommer inte att debitera dig för dessa meddelanden.&lt;br />&lt;br />Vi skall skydda dina personuppgifter i enlighet med relevanta lagar, förordningar och integritetspolicyer.&lt;br />För att kunna fungera normalt måste denna tjänst ansluta till Internet och kräver följande behörigheter för att samla in dina personuppgifter:&lt;br />• Plats:&lt;br />För att hitta din enhet och växla till det förlorade läget.&lt;br />• Skicka SMS:&lt;br />För att hitta denna enhet när den inte är ansluten till Internet, &lt;br />• Få tillgång till enhetsinfo:&lt;br />För tillgång till telefonnummer för att hitta denna enhet när den inte är ansluten till Internet&lt;br />Om du inte samtycker till att bevilja sådana behörigheter kan du inte använda denna tjänst. Du kan alltid slå på och av denna tjänst i Inställningarna.&lt;br />Läs och samtyck till vårt &lt;a href=%2$s>&lt;u>användaravtal&lt;/u>&lt;/a> och &lt;a href=%3$s>&lt;u>sekretesspolicy&lt;/u>&lt;/a> innan du använder våra tjänster.&lt;br /></string>
@@ -638,8 +672,10 @@ Platsinfo kanske inte rapporteras när nätverksanslutningen är dålig."</strin
     <string name="privacy_runtime_perm_call_log_title">Komma åt och redigera samtalsregister</string>
     <string name="privacy_runtime_perm_contacts_desc">För att synkronisera kontakter</string>
     <string name="privacy_runtime_perm_contacts_title">Komma åt och redigera kontakter</string>
-    <string name="privacy_runtime_perm_external_storage_desc">För att synkronisera kontaktprofilfoton och meddelandebilagor</string>
+    <string name="privacy_runtime_perm_external_storage_desc">För att synkronisera kontaktprofilfoton</string>
     <string name="privacy_runtime_perm_external_storage_title">Få tillgång till lagringen</string>
+    <string name="privacy_runtime_perm_notification_desc">För att sända notifikationer för Tjänster från Xiaomi Cloud</string>
+    <string name="privacy_runtime_perm_notification_title">Notifikationer</string>
     <string name="privacy_runtime_perm_phone_state_desc">För åtkomst till telefonnummer och enhetsstatus</string>
     <string name="privacy_runtime_perm_phone_state_title">Få tillgång till enhetsinfo</string>
     <string name="privacy_runtime_perm_sms_desc">För att synkronisera meddelanden</string>
@@ -663,7 +699,7 @@ Platsinfo kanske inte rapporteras när nätverksanslutningen är dålig."</strin
     <string name="retain_data_high_quality_photo_waring_title">Högkvalitativa bilder kommer inte finnas tillgängliga</string>
     <string name="revoke_block_by_find_device">Att återkalla medgivande kommer även att inaktivera Hitta enhet. Du kommer att vara tvungen att verifiera ditt lösenord när du fortsätter.</string>
     <string name="revoke_permission_content">Du kommer inte kunna använda Hitta enhet om du drar tillbaka behörigheterna. Hitta enhet kommer stängas av också. Du kommer bli ombedd att verifiera ditt lösenord innan du drar tillbaka det.</string>
-    <string name="revoke_permission_title">Uppmärksamma</string>
+    <string name="revoke_permission_title">Observera</string>
     <string name="revoke_privacy_agreement_msg">Om du fortsätter, så kommer du att återkalla ditt samtycke till sekretesspolicyn för Xiaomi Cloud. De personuppgifter som redan samlats in och behållits kommer att raderas inom den specifika perioden i enlighet med gällande lagar och förordningar om inte annat krävs. Eftersom Xiaomi Cloud tillhandahåller dess tjänster baserat på insamlingen av de nödvändiga personuppgifterna kommer ditt återkallande av samtycke att betraktas som en vägran att acceptera Xiaomi Cloud-tjänster. Vill du återkalla samtycket nu?</string>
     <string name="revoke_privacy_confirm">Återkalla</string>
     <string name="revoke_privacy_content">Om du fortsätter, så kommer du att återkalla ditt samtycke till &lt;a href=app://com.miui.cloudservice.gdpr.license>Sekretesspolicy&lt;/a> för hitta enhet. De personuppgifter som redan samlats in och behållits kommer att raderas inom den specifika perioden i enlighet med gällande lagar och förordningar om inte annat krävs. Eftersom Hitta enhet tillhandahåller dess tjänster baserat på insamlingen av de nödvändiga personuppgifterna kommer ditt återkallande av samtycke att betraktas som en vägran att godkänna Hitta enhet-tjänster. Vill du återkalla samtycket nu?</string>
@@ -736,7 +772,7 @@ Platsinfo kanske inte rapporteras när nätverksanslutningen är dålig."</strin
     <string name="share_sdk_invite_suggestion_list_error">Inga rekommenderade personer att bjuda in</string>
     <string name="share_sdk_invite_way_contact_summary">Bjud in flera personer samtidigt</string>
     <string name="share_sdk_invite_way_contact_title">Bjud in via SMS</string>
-    <string name="share_sdk_invite_way_qr_code_summary">Använd WeChat Scanner eller MIUI Scanner</string>
+    <string name="share_sdk_invite_way_qr_code_summary">Använd din enhets Scanner-app eller WeChat scanner</string>
     <string name="share_sdk_invite_way_qr_code_title">Bjud in via QR-kod</string>
     <string name="share_sdk_invite_way_wechat_summary">Bjud in personer eller grupper</string>
     <string name="share_sdk_invite_way_wechat_title">Bjud in via WeChat</string>
@@ -779,11 +815,12 @@ Platsinfo kanske inte rapporteras när nätverksanslutningen är dålig."</strin
     <string name="soundrecorder_sync_only_in_wifi_summary_china">Recorder will not use mobile data to download or upload recordings</string>
     <string name="soundrecorder_sync_records">Synkronisera med Xiaomi Cloud</string>
     <string name="starred_contact">Favoriter</string>
+    <string name="start_transfer_gallery_data">Överför data</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_manage_cloud_data_title">Visa objekt i molnet</string>
     <string name="storage_manage_list_title">Molndata</string>
     <string name="storage_manage_list_title_action">Visa mer</string>
-    <string name="storage_upgrade_card_title">Uppgradera din plan</string>
+    <string name="storage_upgrade_card_title">Uppgradera</string>
     <string name="sub_alert_notif_content">Aktivera Xiaomi Cloud</string>
     <string name="sub_alert_notif_title">Synkronisera med Xiaomi Cloud</string>
     <string name="sub_sync_item_sms_summary">Bara synkronisera meddelanden som innehåller bilder, ljud, eller andra medier när du är ansluten till ett Wi-Fi-nätverk</string>
@@ -796,16 +833,16 @@ Platsinfo kanske inte rapporteras när nätverksanslutningen är dålig."</strin
     <string name="sync_detail_summary_master_sync_off">Synkronisering avstängd</string>
     <string name="sync_detail_summary_off">Synkronisering avstängd</string>
     <string name="sync_dspt">Synkronisera</string>
-    <string name="sync_dspt_entrance_provision">Synkronisera dina bilder, anteckningar och andra objekt över alla dina enheter. Få tillgång till saker du synkroniserat från vilken webbplats som helst på %s.</string>
+    <string name="sync_dspt_entrance_provision">Synkronisera dina foton, anteckningar och andra objekt i alla dina enheter. Få åtkomst till objekten du synkroniserar genom alla webbläsare på %s.</string>
     <string name="sync_dspt_entrance_provision_confirm_close">Använd inte</string>
-    <string name="sync_dspt_entrance_provision_confirm_content">MIUI:s systemappar behöver Xiaomi Cloud för att säkerhetskopiera dina foton, meddelanden, anteckningar och annat. Xiaomi Cloud är gratis och redo att användas direkt.</string>
+    <string name="sync_dspt_entrance_provision_confirm_content">Systemappar behöver Xiaomi Cloud för att kunna säkerhetskopiera dina foton, meddelanden, anteckningar med mera. Xiaomi Cloud är gratis och redo att använda, direkt ur lådan.</string>
     <string name="sync_dspt_entrance_provision_confirm_content_pad">Du kan använda Xiaomi Cloud för att säkerhetskopiera dina foton, meddelanden, anteckningar och annat. Xiaomi Cloud är gratis och redo att användas direkt.</string>
-    <string name="sync_dspt_entrance_provision_confirm_content_v2">MIUI:s systemappar behöver Xiaomi Cloud för att säkerhetskopiera dina foton, meddelanden, anteckningar och annat. Xiaomi Cloud är gratis och redo att användas direkt.</string>
+    <string name="sync_dspt_entrance_provision_confirm_content_v2">Systemappar behöver Xiaomi Cloud för att kunna säkerhetskopiera dina foton, meddelanden, anteckningar med mera. Xiaomi Cloud är gratis och redo att använda, direkt ur lådan.</string>
     <string name="sync_dspt_entrance_provision_confirm_open">Använd Xiaomi Cloud</string>
     <string name="sync_dspt_entrance_provision_confirm_title">Använd inte Xiaomi Cloud?</string>
     <string name="sync_dspt_entrance_provision_network">Denna app behöver vara ansluten till Internet för att fungerar normalt. För att synkronisera data behövs mobildataanslutning och att Wi-Fi är aktiverat.</string>
     <string name="sync_dspt_entrance_provision_network_china">This app needs to connect to the internet to work normally. Syncing data may require mobile data connection and turning on WLAN.</string>
-    <string name="sync_dspt_entrance_provision_v2">Synkronisera dina bilder, anteckningar och andra objekt över alla dina enheter. Få tillgång till saker du synkroniserat från vilken webbplats som helst på %s.</string>
+    <string name="sync_dspt_entrance_provision_v2">Synkronisera dina foton, anteckningar och andra objekt i alla dina enheter. Få åtkomst till objekten du synkroniserar genom alla webbläsare på %s.</string>
     <string name="sync_item_autofill_summary">Kryptera dina lösenord och synka dem med molnet automatiskt</string>
     <string name="sync_item_autofill_title">Synka automatiskt</string>
     <string name="sync_item_calllog_summary">Synkronisera inspelningar av samtal gjorda och mottagna från denna telefon</string>
@@ -890,6 +927,7 @@ Platsinfo kanske inte rapporteras när nätverksanslutningen är dålig."</strin
     <string name="update_dialog_no_update_toast_text">Aktuell version är uppdaterad</string>
     <string name="update_dialog_title">Uppdatering tillgänglig</string>
     <string name="update_dialog_update_button_text">Uppdatera</string>
+    <string name="upgrade_member_storage">Köp Xiaomi Cloud medlemskap</string>
     <string name="user_agreement_content">Genom att använda den här funktionen godkänner du %s.</string>
     <string name="user_agreement_link">Xiaomi Clouds användarvillkor</string>
     <string name="user_agreement_p5">"
@@ -898,14 +936,16 @@ Platsinfo kanske inte rapporteras när nätverksanslutningen är dålig."</strin
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="waiting_for_sync">Väntar…</string>
-    <string name="web_sso_login_fail">Du måste logga in igen</string>
-    <string name="web_sso_login_message">Loggar in…</string>
-    <string name="webview_reload">Försök igen</string>
+    <string name="web_view_auto_login_fail">Kunde inte logga in. Försök igen.</string>
+    <string name="web_view_login_text">Loggar in…</string>
+    <string name="web_view_reload_btn_text">Försök igen</string>
+    <string name="web_view_reload_description_text">"Kunde inte ansluta till nätverk.
+Kontrollera dina inställningar och försök igen."</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
     <string name="wipe_data_dialog_button_check_sync">Kontrollera om synkroniserad</string>
-    <string name="wipe_data_dialog_msg">Vissa objekt %s är inte synkroniserade. De kommer sparas på din enhet och inte bli borttagna.</string>
+    <string name="wipe_data_dialog_msg">Vissa objekt (%s) har inte synkats. De kommer att sparas på din enhet och kommer inte att raderas.</string>
     <string name="wipe_data_dialog_msg_and_on">, och några andra objekt</string>
     <string name="wipe_data_dialog_msg_separator">, </string>
     <string name="wipe_data_dialog_title">Objekt är inte synkroniserade</string>

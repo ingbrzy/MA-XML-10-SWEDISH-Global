@@ -31,6 +31,7 @@
     <string name="add_sound">Lägg till anpassad förinställning</string>
     <string name="afternoon">Eftermiddag</string>
     <string name="am">F.m</string>
+    <string name="app_disable_description_title">Inaktivera den här appen?</string>
     <string name="app_name">Hörlurar</string>
     <string name="apply_sound">Tillämpa</string>
     <string name="bottomsheet_action_expand_halfway">Utöka till hälften</string>
@@ -64,8 +65,14 @@
     <string name="effect_3dsurround">Fördjupat ljud</string>
     <string name="effect_3dsurround_summary">Förbättra djupet av ljud-reproduktionen för hörlurar och högtalare</string>
     <string name="effect_3dsurround_summary_headphone">Förbättra ljudet av ljud-reproduktionen för hörlurar</string>
+    <string name="effect_dolby">Dolby Atmos</string>
+    <string name="effect_misound">Xiaomi Ljud</string>
+    <string name="effect_none">Original</string>
+    <string name="effect_selection">Ljudeffekter</string>
+    <string name="effect_selection_headset">Hörlurseffekter</string>
     <string name="effect_virtual_surround">Virtuellt fördjupat ljud</string>
     <string name="effect_virtual_surround_summary">Berika djupet i ljud- och video-uppspelningar i hörlyrar (Den här funktionen fungerar inte när %.1f-ljud spelas)</string>
+    <string name="effect_virtual_surround_summary_spk">Berika ljuddjupet vid ljud- och videouppspelning</string>
     <string name="empty" />
     <string name="end_wireless_transmission">Stoppa</string>
     <string name="eq_auto">Anpassad</string>
@@ -81,7 +88,7 @@
     <string name="eq_hiphop">Hip Hop</string>
     <string name="eq_jazz">Jazz</string>
     <string name="eq_metal">Metall</string>
-    <string name="eq_ok">Okej</string>
+    <string name="eq_ok">OK</string>
     <string name="eq_pop">Pop</string>
     <string name="eq_preset_create">Skapa</string>
     <string name="eq_preset_format">Användarens förval %d</string>
@@ -201,15 +208,15 @@
     <string name="midnight">Natt</string>
     <string name="misound_effect_setting">Ml-ljud</string>
     <string name="miuix_access_state_desc">Valt</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Avmarkera alla</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
     <string name="miuix_appcompat_confirm_description">Bekräfta</string>
     <string name="miuix_appcompat_delete_description">Ta bort</string>
-    <string name="miuix_appcompat_deselect_all">Välj ingen</string>
-    <string name="miuix_appcompat_deselect_all_description">Välj ingen</string>
+    <string name="miuix_appcompat_deselect_all">Avmarkera alla</string>
+    <string name="miuix_appcompat_deselect_all_description">Avmarkera alla</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Sök</string>
     <string name="miuix_appcompat_select_all">Välj alla</string>
@@ -270,6 +277,7 @@
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -417,6 +425,9 @@
     <string name="now_here">Vad händer nu?</string>
     <string name="original_sound">Spela med originalljud</string>
     <string name="password_toggle_content_description">Visa lösenord</string>
+    <string name="permission_go_to_settings">Inställningar</string>
+    <string name="permission_requesr_content">Tillåt den här appen att ansluta till närliggande enheter i Inställningar.</string>
+    <string name="permission_requesr_title">Behörigheter krävs</string>
     <string name="personal_sound">Spela med förinställningarna aktiverade</string>
     <string name="pm">E.m</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
@@ -457,18 +468,13 @@
     <string name="sound_id_function_description">Anpassa EQ-kurvan utifrån dina önskemål</string>
     <string name="sound_id_function_name">Anpassat ljud</string>
     <string name="sound_id_headset_status">Aktuella hörlurar</string>
-    <string name="sound_id_hz_high">"Diskant
-%d Hz"</string>
-    <string name="sound_id_hz_low">"Bas
-%d Hz"</string>
-    <string name="sound_id_hz_media">"Mellanregister
-%d Hz"</string>
+    <string name="sound_id_hz"> %d Hz</string>
+    <string name="sound_id_hz_high">Diskant %d Hz</string>
+    <string name="sound_id_hz_low">Bas%d Hz</string>
+    <string name="sound_id_hz_media">Mellanregister%d Hz</string>
     <string name="sound_id_music_one_description">Lätt | %ds</string>
-    <string name="sound_id_music_one_title">Rainy city</string>
     <string name="sound_id_music_three_description">Melodiskt | %ds</string>
-    <string name="sound_id_music_three_title">Trace</string>
     <string name="sound_id_music_two_description">Rytmiskt | %ds</string>
-    <string name="sound_id_music_two_title">Night fever</string>
     <string name="sound_id_no_effect_msg">Använd inte anpassat ljud</string>
     <string name="sound_id_notice_headset_change_msg">Det verkar som att du använder ett annat par hörlurar. Testet har stoppats.</string>
     <string name="sound_id_notice_headset_change_msg2">Det verkar som att du använder ett annat par hörlurar. Se till att det här anpassade ljudet matchar det här hörlursparet.</string>
@@ -514,6 +520,7 @@
     <string name="sound_transmission_title">Trådlös mikrofon</string>
     <string name="spatial_audio">Uppslukande ljud</string>
     <string name="spatial_audio_summary">Upplev en uppslukande känsla och en känsla av rymd när ljud spelas i hörlurar</string>
+    <string name="spatial_audio_summary_spk">Upplev en uppslukande känsla och en känsla av rymd när ljud spelas</string>
     <string name="speaker_scenario_resume">Återställ ursprungseffekter</string>
     <string name="start_test_sound">Starta testet</string>
     <string name="status_bar_notification_info_overflow">999+</string>

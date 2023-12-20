@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="accept">Godkänn</string>
+    <string name="apm_enabled_first_time_message">Enheten kommer ihåg att hålla wifi aktiverat i flygplansläge. Inaktivera wifi om du inte vill att wifi ska hållas aktiverat.</string>
+    <string name="apm_enabled_first_time_title">Wifi inaktiveras inte</string>
     <string name="decline">Avvisa</string>
     <string name="dlg_ok">OK</string>
+    <string name="notification_channel_apm_alerts">APM-aviseringar</string>
     <string name="notification_channel_network_alerts">Nätverksvarningar</string>
     <string name="notification_channel_network_available">Nätverk tillgängligt</string>
     <string name="notification_channel_network_status">Nätverksstatus</string>
@@ -21,6 +24,10 @@
 %1$s
 
 "</string>
+    <string name="wifi_ca_cert_dialog_message_expiration_text">"Utgångsdatum för certifikat:
+%1$s
+
+"</string>
     <string name="wifi_ca_cert_dialog_message_hint">"Tillåt bara att nätverket ansluter om uppgifterna nedan verkar stämma.
 
 "</string>
@@ -36,12 +43,12 @@
 %1$s
 
 "</string>
-    <string name="wifi_ca_cert_dialog_message_signature_name_text">"Signatur:
+    <string name="wifi_ca_cert_dialog_message_signature_name_text">"SHA-256-fingeravtryck:
 %1$s
 
 "</string>
-    <string name="wifi_ca_cert_dialog_preT_abort_text">Anslut inte</string>
-    <string name="wifi_ca_cert_dialog_preT_continue_text">Anslut ändå</string>
+    <string name="wifi_ca_cert_dialog_preT_abort_text">Koppla från nu</string>
+    <string name="wifi_ca_cert_dialog_preT_continue_text">Håll dig ansluten</string>
     <string name="wifi_ca_cert_dialog_preT_message_hint">Det saknas ett certifikat för nätverket %1$s.</string>
     <string name="wifi_ca_cert_dialog_preT_message_link">Läs mer om hur du lägger till certifikat</string>
     <string name="wifi_ca_cert_dialog_preT_title">Det gick inte att verifiera nätverket</string>
@@ -82,14 +89,29 @@ Detta kan göra det möjligt för enheter i närheten att spåra enhetens plats.
     <string name="wifi_enable_request_dialog_negative_button">Tillåt inte</string>
     <string name="wifi_enable_request_dialog_positive_button">Tillåt</string>
     <string name="wifi_enable_request_dialog_title">Vill du tillåta att %1$s aktiverar wifi?</string>
+    <string name="wifi_enabled_apm_first_time_message">Om du håller wifi aktiverat kommer enheten ihåg att hålla det aktiverat nästa gång du använder flygplansläge.</string>
+    <string name="wifi_enabled_apm_first_time_title">Wifi är aktiverat i flygplansläget</string>
     <string name="wifi_interface_priority_approve">Tillåt</string>
+    <string name="wifi_interface_priority_interface_name_ap">Wifi, surfzon</string>
+    <string name="wifi_interface_priority_interface_name_ap_bridge">Wifi, surfzon</string>
+    <string name="wifi_interface_priority_interface_name_nan">Wi‑Fi Aware</string>
+    <string name="wifi_interface_priority_interface_name_p2p">Wi-Fi Direct</string>
+    <string name="wifi_interface_priority_interface_name_sta">STA</string>
     <string name="wifi_interface_priority_message">Detta kan leda till problem med %3$s.</string>
     <string name="wifi_interface_priority_message_plural">Detta kan orsaka problem med dessa appar: %3$s.</string>
     <string name="wifi_interface_priority_reject">Tillåt inte</string>
     <string name="wifi_interface_priority_title">%1$s vill använda en nätverksresurs</string>
+    <string name="wifi_network_disabled_by_admin_button">Stäng</string>
+    <string name="wifi_network_disabled_by_admin_message">%1$s har inaktiverats av administratören.</string>
+    <string name="wifi_network_disabled_by_admin_title">Otillgängligt nätverk</string>
+    <string name="wifi_network_switch_dialog_negative_button">Byt inte</string>
+    <string name="wifi_network_switch_dialog_positive_button">Byt</string>
+    <string name="wifi_network_switch_dialog_title_bad_internet">%1$s håller låg kvalitet. Vill du byta till %2$s?</string>
+    <string name="wifi_network_switch_dialog_title_no_internet">%1$s verkar inte vara ansluten till internet. Vill du byta till %2$s?</string>
     <string name="wifi_p2p_enter_pin_message">Ange den obligatoriska PIN-koden:</string>
     <string name="wifi_p2p_frequency_conflict_message">Mobilen kommer tillfälligt att kopplas från wifi när den är ansluten till %1$s</string>
     <string name="wifi_p2p_from_message">Från:</string>
+    <string name="wifi_p2p_invitation_seconds_remaining">{0,plural, =1{Godkänn på # sekund.}other{Godkänn på # sekunder.}}</string>
     <string name="wifi_p2p_invitation_sent_title">Inbjudan har skickats</string>
     <string name="wifi_p2p_invitation_to_connect_title">Inbjudan om att ansluta</string>
     <string name="wifi_p2p_show_pin_message">PIN-kod:</string>

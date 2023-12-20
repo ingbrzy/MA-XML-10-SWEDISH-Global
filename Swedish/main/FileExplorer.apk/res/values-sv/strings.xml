@@ -44,6 +44,7 @@
     <string name="agree">Accepterar</string>
     <string name="am">F.m</string>
     <string name="app_all_purpose">Välkommen till Utforskaren! Du kan använda denna app för att hantera filer som är lagrade på din enhet.</string>
+    <string name="app_all_purpose_global">Välkommen till Utforskaren! Du kan använda den här appen för att förhandsgranska och hantera filer som lagrats på din enhet.</string>
     <string name="app_all_purpose_pad">Välkommen till Utforskaren! Du kan använda denna app för att hantera filer som är lagrade på din enhet.</string>
     <string name="app_function">Hantera filer på din enhet</string>
     <string name="app_name">Utforskaren</string>
@@ -52,7 +53,7 @@
     <string name="app_name_downloadedrom">Paket</string>
     <string name="app_name_downloads">Nedladdningar</string>
     <string name="app_name_market">App Store</string>
-    <string name="app_name_miui">MIUI</string>
+    <string name="app_name_miui">Systemresurser</string>
     <string name="app_name_miuimusic">Musik</string>
     <string name="app_name_miuiringtone">Ringsignal</string>
     <string name="app_name_miuiwallpaper">Bakgrundsbilder</string>
@@ -65,6 +66,13 @@
     <string name="by_name">Namn</string>
     <string name="by_size">Storlek</string>
     <string name="by_type">Typ</string>
+    <string name="call_notification_answer_action">Svara</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Avvisa</string>
+    <string name="call_notification_hang_up_action">Lägg på</string>
+    <string name="call_notification_incoming_text">Inkommande samtal</string>
+    <string name="call_notification_ongoing_text">Pågående samtal</string>
+    <string name="call_notification_screening_text">Ett inkommande samtal filtreras</string>
     <string name="can_not_send_with_too_many">Det gick inte att skicka så många objekt samtidigt</string>
     <string name="cancel">Avbryt</string>
     <string name="cancel_error">Det gick inte att ta bort. Försök igen.</string>
@@ -145,6 +153,7 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="cloud_transfer_wait_download">Väntar på nedladdning</string>
     <string name="cloud_transfer_wait_network">Väntar på internet</string>
     <string name="cloud_transfer_wait_upload">Väntar på uppladdning</string>
+    <string name="common_google_play_services_unknown_issue">Det har uppstått ett fel mellan %1$s och Google Play-tjänsterna. Försök igen.</string>
     <string name="compress_fail">Kunde inte komprimera. En fil med samma namn finns redan.</string>
     <string name="compress_fail_unknown">Kunde inte komprimera. Utrymme är fullt eller ett okänt fel inträffade.</string>
     <string name="compress_message">Komprimera till…</string>
@@ -160,6 +169,7 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="create_folder">Skapa</string>
     <string name="create_shortcut_success">Genväg tillagd</string>
     <string name="cta_function_account_operation">För snabb inloggning på ditt Xiaomi-konto</string>
+    <string name="cta_use_sync_midrive_file">För synkning av filer till Mi Drive</string>
     <string name="data_consume_dialog_message">Du använder för närvarande mobildata. Om du fortsätter kommer den här att använda %s data.</string>
     <string name="data_consume_dialog_title">Använd mobildata?</string>
     <string name="data_consume_dialog_upload_title">Laddar upp med hjälp av mobildata</string>
@@ -179,6 +189,7 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="decompress_destination_error">Kan inte extrahera filer till denna plats.</string>
     <string name="decompress_encrypted_rar_not_supported">Krypterade RAR-filer stöds inte.</string>
     <string name="decompress_fail">Kunde inte extrahera.</string>
+    <string name="decompress_fail_contains_special_characters">Kan inte komprimera. Namnen på de komprimerade filerna får inte innehålla specialtecken.</string>
     <string name="decompress_input_password">Ange lösenord</string>
     <string name="decompress_password_error">Lösenordet du angav är inte korrekt.</string>
     <string name="decompress_success">Klar med extrahering</string>
@@ -211,6 +222,9 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="dialog_type_video">Videor</string>
     <string name="disk_available">Tillgängligt: </string>
     <string name="disk_total">Totalt: </string>
+    <string name="display_all_dirs">Alla mappar</string>
+    <string name="display_hide_sys_dirs">Dolda systemmappar</string>
+    <string name="display_mode">Visa</string>
     <string name="display_setting">Visade objekt</string>
     <string name="doc_all">Alla</string>
     <string name="downloading">Laddar ner</string>
@@ -261,6 +275,7 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="favorite_photo">Foton</string>
     <string name="favorite_ringtone">Ringsignaler</string>
     <string name="favorite_screen_cap">Skärmdumpar</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Läsbar: </string>
     <string name="file_info_canwrite">Skrivbar: </string>
     <string name="file_info_ishidden">Dold: </string>
@@ -330,10 +345,11 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
-    <string name="ftp_account_req_notice">Användarnamn och lösenord är skiftläges-känsliga och måste innehålla %1$d-%2$d tecken. Du kan kombinera engelska tecken, specialsymboler, och siffror.</string>
+    <string name="ftp_account_req_notice">Användarnamn och lösenord bör innehålla %1$d - %2$d tecken, är skiftlägeskänsliga och kan inte innehålla specialtecken.</string>
     <string name="ftp_anonymous_login">Logga in anonymt</string>
     <string name="ftp_anonymous_warning_msg">Anonymiseringsfunktioner kan utgöra en säkerhetsrisk. Använd funktionen ändå?</string>
     <string name="ftp_anonymous_warning_title">Obs!</string>
+    <string name="ftp_invalid_username">Användarnamn kan inte innehålla specialtecken. Ange ett annat namn.</string>
     <string name="ftp_invalid_username_or_password">Användarnamn eller lösenord som angavs är felaktigt.</string>
     <string name="ftp_open_port_error">Kunde inte öppna porten. Kontrollera din nätverksanslutning eller återställ portnummer.</string>
     <string name="ftp_password_hint">Lösenord</string>
@@ -341,6 +357,7 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="ftp_transfer_secure">Säkerhet</string>
     <string name="ftp_username_and_passworld">Logga in</string>
     <string name="ftp_username_hint">Användarnamn</string>
+    <string name="func_settings">Inställningar för funktioner</string>
     <string name="function_file_operation">För visning och redigering av filer</string>
     <string name="function_set_private">För visning och kryptering av filer</string>
     <string name="function_use_imei">För åtkomst till IMEI och krypterade filer</string>
@@ -378,6 +395,7 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="instruction_pre_pad">Hantera filer på denna enhet med en dator</string>
     <string name="instruction_pre_phone">Hantera filer på denna enhet med en dator</string>
     <string name="internal_storage">Internt lagringsutrymme</string>
+    <string name="internal_storage_device">Enhet</string>
     <string name="just_now">Just nu</string>
     <string name="lack_perm_msg">Utforskaren kräver följande behörigheter för att fungera normalt: &lt;b>%s&lt;/b></string>
     <string name="lack_perm_title">Behörigheter krävs</string>
@@ -401,6 +419,7 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="manage_cloud_space">Hantera moln-lagring</string>
     <string name="menu_item_cleanup">Städa upp</string>
     <string name="menu_item_ftp">Anslut till datorn</string>
+    <string name="menu_item_midrop">Överför filer</string>
     <string name="menu_item_router">Router</string>
     <string name="menu_item_search">Sök</string>
     <string name="menu_item_sort">Sortera efter</string>
@@ -448,20 +467,23 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="mirror_tip_refresh">Uppdatera</string>
     <string name="mirror_tip_show_type">Sortera efter</string>
     <string name="miuix_access_state_desc">Valt</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Avmarkera alla</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
     <string name="miuix_appcompat_confirm_description">Bekräfta</string>
     <string name="miuix_appcompat_delete_description">Ta bort</string>
-    <string name="miuix_appcompat_deselect_all">Välj ingen</string>
-    <string name="miuix_appcompat_deselect_all_description">Välj ingen</string>
+    <string name="miuix_appcompat_deselect_all">Avmarkera alla</string>
+    <string name="miuix_appcompat_deselect_all_description">Avmarkera alla</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Sök</string>
     <string name="miuix_appcompat_select_all">Välj alla</string>
     <string name="miuix_appcompat_select_all_description">Välj alla</string>
     <string name="miuix_appcompat_select_item">Välj objekt</string>
+    <string name="miuix_navigator_content_switch_description">Visa sidopanel</string>
+    <string name="miuix_navigator_multiple_choice">Välj</string>
+    <string name="miuix_navigator_navigator_switch_description">Dölj sidopanel</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra nedåt för att uppdatera</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uppdaterat</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Uppdaterar…</string>
@@ -521,6 +543,8 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="mtp_device">Mediaenhet (MTP)</string>
     <string name="mtp_label">MTP</string>
     <string name="name_empty">Du måste ange ett namn.</string>
+    <string name="navigator_label_all_files">Alla filer</string>
+    <string name="navigator_label_external_devices">Externa enheter</string>
     <string name="need_open_content">Tillåt Utforskaren att få åtkomst till dina foton och filer för att använda den här funktionen.</string>
     <string name="need_open_permission">Behörigheter krävs</string>
     <string name="need_read_storage_permission">Utforskaren kräver behörighet för att komma åt enhetens lagringsutrymme och fungera normal.</string>
@@ -563,6 +587,8 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="operation_compress">Komprimera</string>
     <string name="operation_compressing">Komprimerar…</string>
     <string name="operation_copy">Kopiera</string>
+    <string name="operation_copy_clipboard">Kopiera till urklipp</string>
+    <string name="operation_copy_local">Kopiera till mapp</string>
     <string name="operation_create_folder">Skapa mapp</string>
     <string name="operation_create_folder_message">Ange mappnamn</string>
     <string name="operation_create_folder_name_conflict">Kunde inte skapa mapp. En mapp med det här namnet finns redan.</string>
@@ -573,6 +599,7 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="operation_decompressing">Extraherar…</string>
     <string name="operation_del_fav">Tar bort från favoriter…</string>
     <string name="operation_delete">Radera</string>
+    <string name="operation_delete_confirm_dcim_message_folder">DCIM är en Galleri-mapp. Om du raderar den här mappen kommer alla objekt i den också att raderas permanent från Galleri. Radera den här mappen ändå?</string>
     <string name="operation_delete_confirm_message">Ta bort?</string>
     <string name="operation_delete_confirm_message_folder">"All mappinnehåll raderas.
 "</string>
@@ -648,11 +675,15 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="permission_account_title_pad">Få åtkomst till enhets-konton</string>
     <string name="permission_denial">Kunde inte få åtkomst till filer. Tillåt Utforskaren att få tillgång till filer i Inställningar.</string>
     <string name="permission_description">Behörighetsuppgifter</string>
+    <string name="permission_group_description_phone">När du anger en fil som privat, kommer den här appen att samla in din IMEI för igenkänning, lagring och upplåsningsorsaker</string>
+    <string name="permission_group_description_storage_space">Få åtkomst till och lägg till objekt som ska lagras</string>
+    <string name="permission_group_name_phone">Telefon</string>
+    <string name="permission_group_name_storage_space">Lagringsutrymme</string>
     <string name="permission_required">Kunde inte få åtkomst till filer. Tillåt Utforskaren att få tillgång till filer i Inställningar.​</string>
     <string name="permission_storage_desc_pad">För att spara foton och dokument på din enhet</string>
     <string name="permission_storage_title">Få tillgång till enhetslagring</string>
     <string name="permission_storage_title_pad">Få tillgång till enhetslagring</string>
-    <string name="phone">Lagring</string>
+    <string name="phone">Lagringsutrymme</string>
     <string name="phone_storage">Lagringsutrymme</string>
     <string name="phone_storage_apk_title">APK:er: </string>
     <string name="phone_storage_audio_title">Musik: </string>
@@ -670,6 +701,7 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="pick_folder">Välj mapp</string>
     <string name="pm">E.m</string>
     <string name="port_range">Portnumret måste vara mellan 1024-65535</string>
+    <string name="positive_order">Vidarebefordra</string>
     <string name="pre_privacy_recall">Återkallelse av ditt samtycke</string>
     <string name="pref_permission_allowed">Beviljat</string>
     <string name="pref_permission_manage_key_storage">Få åtkomst till foton och filer på enheten</string>
@@ -677,7 +709,7 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="privacy_policy">Integritetspolicy</string>
     <string name="privacy_policy_renew">Uppdaterad integritetspolicy</string>
-    <string name="privacy_policy_renew_content">"&lt;Data>File Manager's &lt;a href=\"%1$s\">Integritetspolicy&lt;/a> uppdaterades. För att till fullo förstå dina rättigheter som användare, så väl som sätten på vilka vi använder din information, vänligen läs och acceptera den nya versionen av integritetspolicyn innan du fortsätter.&lt;/Data>"</string>
+    <string name="privacy_policy_renew_content"><Data>"File Manager's &lt;a href=\"%1$s\">Integritetspolicy&lt;/a> uppdaterades. För att till fullo förstå dina rättigheter som användare, så väl som sätten på vilka vi använder din information, vänligen läs och acceptera den nya versionen av integritetspolicyn innan du fortsätter."</Data></string>
     <string name="privacy_recall_alert_description" formatted="false">Rensa alla objekt från Mi Drive för att kunna återkalla ditt samtycke. Följ dessa steg för at rensa objekt:&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_1 refersto=1>%1d&lt;/xliff:g>. På Mi Drives hemsida, tryck och håll inne ett obekt för att visa knappen \"Välj alla\". Använd den här knappen för att välja upp till 200 filer i taget och radera dem.&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_2 refersto=2>%2d&lt;/xliff:g>. Rensa sedan dina nyligen raderade objekt.</string>
     <string name="privacy_recall_alert_reminder_card_summary" formatted="false">&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Vi rekommenderar att man säkerhetskopierar sina objekt innan de raderas. För att göra det, besök i.mi.com, klicka på Mi Drive och ladda ner dina objekt på en dagor.&lt;br />&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. Vänligen notera att nyligen raderade objekt inte kan återställas efter att du raderar dem.</string>
     <string name="privacy_recall_confirm_button">Återkalla</string>
@@ -699,6 +731,9 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="qq_title">Det går inte att komma åt WeChat-dokument</string>
     <string name="query_quota_exception">Ett serverfel inträffade. Vänta en minut eller två och försök igen.</string>
     <string name="query_quota_searching">Vänta en stund…</string>
+    <string name="recent_file_by_source">Filkälla</string>
+    <string name="recent_file_sort_by_date">Datum</string>
+    <string name="recent_file_sort_type">Sortera efter</string>
     <string name="recent_hide_camera_and_screenshots">Visa inte Galleri-objekt och skärmdumpar bland de senaste filerna</string>
     <string name="recent_hide_cloud_drive_files">Visa inte Mi Drive-filer i Senaste</string>
     <string name="refresh_success">Uppdatering genomförd</string>
@@ -720,6 +755,7 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="request_timeout">Tidsgränsen för nätverksbegäran överskreds</string>
     <string name="reset_password">Ändra lösenord</string>
     <string name="restoring">Återställer…</string>
+    <string name="reverse_order">Kör baklänges</string>
     <string name="rlv_last_refreshing_time">Updaterad %1$s</string>
     <string name="rlv_loading_more">Vänta lite…</string>
     <string name="rlv_pull_to_refresh">Dra ner för att uppdatera</string>
@@ -733,6 +769,7 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="search_app_more">Mer</string>
     <string name="search_category">Kategorier</string>
     <string name="search_category_folder">Mappar</string>
+    <string name="search_category_type">Sök efter kategori</string>
     <string name="search_description">Sök i alla filer på enheten</string>
     <string name="search_empty_view_hint">Hittade ingenting</string>
     <string name="search_error_hint">Sök</string>
@@ -748,11 +785,13 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="search_more_category">Mer</string>
     <string name="search_result">Resultat</string>
     <string name="search_result_more">Mer</string>
+    <string name="search_text_hint">Sök efter filer</string>
     <string name="search_title">Sök</string>
     <string name="search_title_hint">Sök</string>
     <string name="select_dest_folder">Välj mapp</string>
     <string name="select_image">Bilder</string>
     <string name="select_music">Ljudfiler</string>
+    <string name="select_pdf">Välj PDF</string>
     <string name="select_video">Videofiler</string>
     <string name="select_volume">Välj förvaringsplats</string>
     <string name="send">Skicka</string>
@@ -762,6 +801,7 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="set_pattern">Uppgradera ditt lösenord</string>
     <string name="set_pattern_btn">Ange</string>
     <string name="set_pattern_msg">Ange ditt lösenord igen. Lösenord för integritetsskydd fungerar även för bilder, meddelanden och anteckningar.</string>
+    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">Mindre än %d KB</string>
     <string name="size_lv2" formatted="false">%1d KB - %2d MB</string>
     <string name="size_lv3" formatted="false">%1d MB - %2d MB</string>
@@ -774,8 +814,10 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="sort_hint_name">Sorterat efter namn</string>
     <string name="sort_hint_time">Sorterat efter tid</string>
     <string name="sort_hint_type">Sorterat efter typ</string>
+    <string name="sort_mode">Sorteringsordning</string>
     <string name="sort_size_asc">Mindre till större</string>
     <string name="sort_size_desc">Större till mindre</string>
+    <string name="sort_type">Filter</string>
     <string name="start_all">Visa alla</string>
     <string name="start_doc">Dokument</string>
     <string name="start_phone">Filer</string>
@@ -863,6 +905,7 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="title_select_volume">Välj mapp</string>
     <string name="to_open">Inställningar</string>
     <string name="to_setting">Inställningar</string>
+    <string name="toast_copy_clipboard">Tillagd i urklipp</string>
     <string name="toast_file_not_can_read">Det finns ingen app som kan hantera denna åtgärd.</string>
     <string name="today">I dag</string>
     <string name="tomorrow">Imorgon</string>
@@ -898,7 +941,10 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="video_data_consume_dialog_confirm">Fortsätta</string>
     <string name="video_data_consume_dialog_title">Använd mobildata?</string>
+    <string name="view_mode_grid">Rutnät</string>
+    <string name="view_mode_list">Lista</string>
     <string name="view_type">Visa</string>
+    <string name="view_type_mode">Layout</string>
     <string name="web_sso_login_fail">Du måste logga in igen</string>
     <string name="web_sso_login_message">Loggar in…</string>
     <string name="webview_reload">Försök igen</string>
