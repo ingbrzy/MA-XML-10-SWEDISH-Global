@@ -206,7 +206,6 @@ https://appleid.apple.com/#!&amp;page=logga in för att aktivera"</string>
     <string name="dialog_backup_password_change_machine_tips">Du kommer inte att kunna överföra lösenordsskyddade säkerhetskopior. Stäng av säkerhetskopieringslösenordet innan användning av Mi Mover.</string>
     <string name="dialog_backup_password_restore_tips">Det går inte att återställa objekt när säkerhetskopieringslösenordet är på. Stäng av säkerhetskopieringslösenordet.</string>
     <string name="dialog_backup_password_to_settings">Inställningar</string>
-    <string name="digit_percent">%</string>
     <string name="dir_date_format">ddMMyyyy_HHmmss</string>
     <string name="disable_encrypt_description">Inte krypterad</string>
     <string name="disable_encrypt_title">Stäng av kryptering</string>
@@ -369,7 +368,6 @@ Se till att USB-minnet har tillräckligt med utrymme innan du startar."</string>
     <string name="import_data_from_icloud">Importera data från Mi Cloud</string>
     <string name="import_from_xiaomi_account_hint2">Om du redan har säkerhetskopierat, tryck Nästa.</string>
     <string name="import_from_xiaomi_account_hint_title">Använda Mi Talk för att säkerhetskopiera dina kontakter på flera enheter.</string>
-    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">På grund av kompatibilitetsproblem så kan du bara överföra delar av din data från iOS-enheter. Se till att du har skapat en iCloud backup före du börjar överföra.</string>
     <string name="item_view_role_description">Flik</string>
     <string name="lack_perm_msg">Mi Mover behöver följande behörigheter: &lt;b>%s&lt;/b>.</string>
@@ -506,7 +504,6 @@ Se till att USB-minnet har tillräckligt med utrymme innan du startar."</string>
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
