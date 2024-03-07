@@ -49,7 +49,7 @@
     <string name="userkey_type">Algoritm:</string>
     <string name="wifi_cancel_label">Avbryt</string>
     <string name="wifi_cert_is_added">wifi-certifikatet har installerats</string>
-    <string name="wifi_certificate">Wi‑Fi-certifikat</string>
+    <string name="wifi_certificate">Wifi-certifikat</string>
     <string name="wifi_config_text">"Namn: %1$s
 FQDN: %2$s
 Roamingkonsortium: %3$s

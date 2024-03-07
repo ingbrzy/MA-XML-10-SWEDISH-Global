@@ -36,6 +36,8 @@
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
     <string name="bottomsheet_action_expand_halfway">Utöka till hälften</string>
+    <string name="cast_auth_count_down">Ange kod från \"%1$s till börja casta (%2$ds)</string>
+    <string name="cast_auth_title">Ange kod</string>
     <string name="cast_image_des">Handledning för spridning</string>
     <string name="casting_tips">Castar…</string>
     <string name="character_counter_content_description">%1$d av %2$d tecken har angetts</string>
@@ -43,10 +45,11 @@
     <string name="clear_text_end_icon_content_description">Rensa text</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
     <string name="close">Stäng</string>
+    <string name="close_auxiliary_wifi_hint">Avaktivera \"Dualband wifi-hastighetsökning\" för att kunna casta</string>
+    <string name="close_auxiliary_wifi_hint_china">Turn off \"Dual band WLAN speed boost\" to be able to cast</string>
+    <string name="close_dp_casting_hint">Koppla bort kabeln och försök igen</string>
     <string name="close_hotspot_hint">Avaktivera internetdelning innan du castar</string>
     <string name="close_hotspot_hint_DFS">För att överföra objekt till en TV, stäng av internetdelning först.</string>
-    <string name="close_slave_wifi_hint">Koppla från tilläggs-Wi-Fi-nätverket innan du castar</string>
-    <string name="close_slave_wifi_hint_china">Disconnect from auxiliary WLAN networks before casting</string>
     <string name="common_google_play_services_unknown_issue">Det har uppstått ett fel mellan %1$s och Google Play-tjänsterna. Försök igen.</string>
     <string name="config_wifi_label_china">Xiaomi Conference Tapcast WLAN</string>
     <string name="config_wifi_label_global">Xiaomi Conference Tapcast Wi-Fi</string>
@@ -65,6 +68,7 @@
     <string name="device_desc_trust">Betrodda enheter</string>
     <string name="dialog_can_not_find_device">Det gick inte att hitta enheter i närheten</string>
     <string name="dialog_cancle">Avbryt</string>
+    <string name="dialog_close">Avaktivera</string>
     <string name="dialog_connect_fail">Det gick inte att ansluta</string>
     <string name="dialog_connect_retry">Tryck för att försöka igen</string>
     <string name="dialog_connect_verify_perssion">Tillåt casting på din TV först</string>
@@ -79,8 +83,8 @@
     <string name="dialog_nearbydevice_permission_message">Tillåt den här enheten att få åtkomst så att närliggande enheter kan användas för att använda Cast-funktioner.</string>
     <string name="dialog_nearbydevice_permission_title">Behörigheter krävs</string>
     <string name="dialog_nfc_cast_wifi_off">Turn on WLAN to be able to cast using NFC. Turn on now?</string>
-    <string name="dialog_no_device_message">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Anslut både din mobila enhet och TV till samma Wi-Fi-nätverk.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g> På vissa TV-modeller är denna funktion endast tillgänglig när skärmspegling är aktiverad. Se &lt;a href=milink://com.milink.service/specification>\"Hjälp\"&lt;/a> för mer information.&lt;/Data></string>
-    <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
+    <string name="dialog_no_device_message"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Anslut både din mobila enhet och TV till samma Wi-Fi-nätverk.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g> På vissa TV-modeller är denna funktion endast tillgänglig när skärmspegling är aktiverad. Se &lt;a href=milink://com.milink.service/specification>\"Hjälp\"&lt;/a> för mer information.</Data></string>
+    <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">Strömma foton, videor eller musik</string>
     <string name="dialog_open_wifi_bt">Aktivera</string>
@@ -94,6 +98,9 @@ Titta i hjälpen om du får problem med att ansluta."</string>
     <string name="dialog_scan_message_china">"%1$d. Connect both your mobile device and TV to the same WLAN network.
 
 %2$d. View \"Help\" to learn more."</string>
+    <string name="dialog_scanning_close_dual_wifi_china">Turn off \"Dual band WLAN speed boost\" to be able to cast. Turn this feature off now?</string>
+    <string name="dialog_scanning_close_dual_wifi_global">Avaktivera \"Dualband wifi-hastighetsökning\" för att kunna casta. Avaktivera den här funktionen nu?</string>
+    <string name="dialog_scanning_close_tethering">Avaktivera internetdelning för att kunna casta. Avaktivera internetdelning nu?</string>
     <string name="dialog_scanning_device">Söker efter enheter i närheten…</string>
     <string name="dialog_scanning_precondition">Aktivera Wi-Fi och Bluetooth på din telefon för att använda trådlös bildskärm.</string>
     <string name="dialog_scanning_precondition_new_china">Turn on WLAN, Bluetooth, and location services to be able to use casting. Turn on now?</string>
@@ -101,11 +108,13 @@ Titta i hjälpen om du får problem med att ansluta."</string>
     <string name="dialog_select_tv">Välj enhet (%1$d)</string>
     <string name="dialog_show_help">Hjälp</string>
     <string name="disconnect">Sluta casta</string>
+    <string name="dp_casting_start_hint">Ansluten via kabel. Castingen har avslutats.</string>
     <string name="dual_wifi_warning_china">Turn off dual WLAN and try again</string>
     <string name="dual_wifi_warning_global">Stäng av dubbel Wi-Fi och försök igen</string>
     <string name="early_morning">Morgon</string>
     <string name="empty" />
     <string name="enable_screen_projection_summary">Casta skärminnehåll till en extern monitor</string>
+    <string name="enable_screen_projection_summary_new">Casta mobilenhetens skärm till närliggande tv-apparater och andra externa monitorer</string>
     <string name="eras_ad">V.T.</string>
     <string name="eras_bc">F.V.T.</string>
     <string name="error_icon_content_description">Fel</string>
@@ -168,24 +177,32 @@ Titta i hjälpen om du får problem med att ansluta."</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
     <string name="global_privacy">Regler och villkor</string>
-    <string name="global_privacy_detail">&lt;Data>Läs och acceptera vårt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a> innan du använder denna app. &lt;br>Om du inte samtycker till de förutnämnda tjänsterna kommer du inte kunna använda vissa funktioner i denna app; dock kommer dess grundläggande funktionalitet fortfarande vara tillgänglig för dig.&lt;/Data></string>
+    <string name="global_privacy_detail"><Data>Läs och acceptera vårt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a> innan du använder denna app. &lt;br>Om du inte samtycker till de förutnämnda tjänsterna kommer du inte kunna använda vissa funktioner i denna app; dock kommer dess grundläggande funktionalitet fortfarande vara tillgänglig för dig.</Data></string>
     <string name="global_privacy_explain">Välkommen till Casting! Denna app tillhandahåller följande tjänster:</string>
     <string name="global_privacy_feature">Användning av minimerade fönster, sändning med skärmen avslagen och dölja privata objekt.</string>
     <string name="global_privacy_main">Projicering av objekten från din telefons skärm på en större extern bildskärm.</string>
     <string name="global_privacy_negative">Samtycker inte</string>
     <string name="global_privacy_positive">Samtycka</string>
     <string name="global_privacy_screencast">Under inspelning eller när du castar, kan tjänsteleverantören för den här funktionen plocka upp all känslig information som visas på din skärm, eller som visas från din enhet, inklusive känslig information så som ljud, lösenordsinfo., foton och meddelanden.</string>
-    <string name="global_privacy_tip">&lt;Data>Vi behöver samla in nödvändig personlig information för att förse dig med de grundläggande tjänsterna och optimera sändningsprocessen. Du kan lära dig hur vi hanterar den information vi samlar in i vår &lt;a href=%1$s>integritetspolicy&lt;/a>. Du kan när som helst återkalla ditt samtycke till sekretesspolicyn i inställningarna.&lt;/Data></string>
+    <string name="global_privacy_tip"><Data>Vi behöver samla in nödvändig personlig information för att förse dig med de grundläggande tjänsterna och optimera sändningsprocessen. Du kan lära dig hur vi hanterar den information vi samlar in i vår &lt;a href=%1$s>integritetspolicy&lt;/a>. Du kan när som helst återkalla ditt samtycke till sekretesspolicyn i inställningarna.</Data></string>
     <string name="hang_up">Casta med skärmen avstängd</string>
     <string name="hang_up_alert_dialog_content">Fortsätt casta när skärmen på din enhet är avstängd. Den här funktionen minskar strömförbrukningen. Tryck på strömknappen för att aktivera skärmen igen.</string>
     <string name="hang_up_alert_dialog_neg">Avbryt</string>
     <string name="hang_up_alert_dialog_pos">OK</string>
     <string name="hang_up_alert_dialog_title">På väg att casta med skärmen av…</string>
+    <string name="head_toast_connecting">Ansluter…</string>
+    <string name="head_toast_fail">Det gick inte att ansluta</string>
+    <string name="head_toast_success">Ansluten</string>
+    <string name="help_page_question_1st_01_international">"%1$d. Aktivera Miracast på din enhet du castar till en Xiaomi TV.
+%2$d. Kontrollera att TV.n stöder Miracast och att dess funktioner är aktiverade, när enheten du castar till inte är en Xiaomi TV. Den här funktionen har ett annat namn på vissa tv-modeller, så som trådlös bildskärm, skärmspegling, eller flera skärmar."</string>
+    <string name="help_page_setp_1st_02_international">%1$d. Vissa tv-märken kan ha Miracast aktiverad automatisk.</string>
+    <string name="help_page_step_1st_01_international">%1$d. Aktivera Miracast på din Xiaomi TV.</string>
     <string name="help_page_text_01">Hjälp</string>
     <string name="help_page_text_02">Vad är casting?</string>
     <string name="help_page_text_03">Casting projicerar objekt från din telefonskärm till en större extern skärm. Detta gör att du kan dela bilder och videor med dina vänner och familj utan att använda mobildata.</string>
     <string name="help_page_text_04">Hur castar jag objekt till en större skärm?</string>
     <string name="help_page_text_05">Steg %1$d: Kontrollera dina enheter och nätverksmiljö</string>
+    <string name="help_page_text_05_new">Steg %1$d: Kontrollera dina enheter och nätverksmiljö</string>
     <string name="help_page_text_06">"%1$d. Xiaomi TVs, set-top boxes, projectors:
 Connect both your mobile device and external monitor to the same WLAN network for best effect. If they are connected to different networks, it might take more time to find the external monitor and connect.
 Note: Older TV models might not support casting across different networks.
@@ -196,13 +213,33 @@ Anslut både din mobila enhet och externa bildskärm till samma Wi-Fi-nätverk f
 Note: Äldre TV-modeller kanske inte stöder spridning i olika nätverk.
 %2$d. Om du använder TV-apparater, set-top-boxar eller projektorer av andra varumärken måste du ansluta både din mobila enhet och externa bildskärm till samma Wi-Fi-nätverk..
 Om de två enheterna inte kan anslutas till samma nätverk, så aktiverar du Miracast på den externa bildskärmen. Namngivningen av Miracast-funktionen kan variera."</string>
+    <string name="help_page_text_06_new_1">Xiaomi tv-apparater, set-top-boxar och projektorer:</string>
+    <string name="help_page_text_06_new_2">"%1$d. Säkerställ att din mobila enhet och den externa monitorn är anslutna på samma wifi-nätverk.
+%2$d. På somliga Xiaomi tv-apparater kan du installera casting från tv:n, såväl som att anpassa enhetssökning och verifieringsmetoder."</string>
+    <string name="help_page_text_06_new_3">*Du kan ställa in preferenser för casting till din tv, i inställningarna för casting.</string>
+    <string name="help_page_text_06_new_4">Tv-apparater som inte är Xiaomi-anslutna, set-topp-boxar och projektorer:</string>
+    <string name="help_page_text_06_new_5">"%1$d. Säkerställ att din mobila enhet och externa monitor är anslutna till samma wifi-nätverk.
+%2$d. På vissa tv-märken behöver du aktivera Miracast för att kunna casta."</string>
+    <string name="help_page_text_06_new_6">Läs mer</string>
     <string name="help_page_text_08">Steg %1$d: Starta spridning</string>
+    <string name="help_page_text_08_new">Steg %1$d: Aktivera casting</string>
     <string name="help_page_text_09">"Tap the \"Cast\" toggle on your phone's Notification shade. Turn on both WLAN and Bluetooth for a more stable connection."</string>
     <string name="help_page_text_09_global">Tryck på ”Casta” på din enhets notifikationspanel. Aktivera både Wi-Fi och Bluetooth för en stabilare anslutning.</string>
+    <string name="help_page_text_09_new_1">Aktivera casting i din enhets Kontrollcenter, sök sedan efter en extern monitor.</string>
     <string name="help_page_text_10">Om du vill sprida foton, videor, spel eller presentationer, så kan du använda inbyggda spridningsfunktioner i motsvarande appar.</string>
     <string name="help_page_text_11">Steg %1$d: Välj enhet</string>
+    <string name="help_page_text_11_new">Steg %1$d: Välj enhet</string>
     <string name="help_page_text_12">Välj en extern enhet från listan över tillgängliga enheter för att börja casta.</string>
+    <string name="help_page_text_12_new_1">Välj en extern enhet från listan över tillgängliga enheter, för att börja casta.</string>
     <string name="help_page_text_13">Kan du inte ansluta till en extern enhet?</string>
+    <string name="help_page_text_13_act_label_1">FAQ</string>
+    <string name="help_page_text_13_desc_1">"%1$d. Kontrollera att din mobila enhet och externa monitor är anslutna till samma wifi-nätverk, eller internetdelning.
+%2$d. Kontrollera att nätverksmiljön är stabil. Om inte, försök att starta om din router, eller växla till ett %3$d GHz-nätverksband.
+%4$d. Aktivera den trådlösa casting-funktionen på tv:n när du castar till en Xiaomi TV. Var kvar på casting-sidan medan du ansluter.
+%5$d. Vissa stora offentliga LAN-nätverk, så som företag och skolor, stöder inte möjligheten att upptäcka enheter i samma LAN."</string>
+    <string name="help_page_text_13_desc_2">Vissa tv-apparater använder anslutningar utan LAN medan de castar. Det är normalt för dessa enheter att kopplas bort från nätverket. De återansluter oftast inom %1$d%2$d sekunder efter att castingen avslutas.</string>
+    <string name="help_page_text_13_summary_1">Kan du inte ansluta till en extern enhet</string>
+    <string name="help_page_text_13_summary_2">Nätverksstörningar vid casting</string>
     <string name="help_page_text_14">"%1$d. If you want to use a Xiaomi device, but can't find it in the list of available devices, try the following:
 Connect both your mobile device and the external monitor (e.g. your TV) to the same network, or connect the external monitor to your mobile device's hotspot. If there aren't any networks available or you can't connect both devices to the same network, check whether the casting features on your external monitor are up to date, turn on Bluetooth both on your mobile device and the external monitor, and turn on Miracast on your TV.
 %2$d. If you're casting on a Xiaomi device for the first time, you need to complete verification.
@@ -218,6 +255,7 @@ Anslut både din mobila enhet och den externa bildskärmen (t.ex. din TV) till s
     <string name="help_page_text_17">"Du kan projicera objekt från din Mi-telefon till de flesta Mi TV-modeller med Bluetooth-kapacitet utan att aktivera Miracast manuellt.
 Om du behöver aktivera Miracast trycker du på [MENU]-knappen och väljer Mina appar > Casting > Miracast."</string>
     <string name="help_page_text_17_1">Xiaomi-kundsupport: 400-100-5678</string>
+    <string name="help_page_text_17_content">You can project items from your Xiaomi phone on most Xiaomi TV models with Bluetooth capabilities without turning on Miracast manually. If you need to turn on Miracast, press the [MENU] button and start casting by using the option for other Android phones.</string>
     <string name="help_page_text_18">Samsung TV</string>
     <string name="help_page_text_19">Kontrollera först att Miracast-funktionaliteten stöds på din enhet. På vissa modeller kan du trycka på [SOURCE]-knappen på fjärrkontrollen och sedan välja ”Skärmspegling”. Denna funktion är aktiverad som standard på vissa modeller.</string>
     <string name="help_page_text_20">Samsung-kundsupport: 400-810-5858</string>
@@ -280,15 +318,15 @@ Om du behöver aktivera Miracast trycker du på [MENU]-knappen och väljer Mina 
     <string name="material_timepicker_text_input_mode_description">Byt till textinmatningsläget och ange tid.</string>
     <string name="midnight">Natt</string>
     <string name="miuix_access_state_desc">Valt</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Avmarkera alla</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
     <string name="miuix_appcompat_confirm_description">Bekräfta</string>
     <string name="miuix_appcompat_delete_description">Ta bort</string>
-    <string name="miuix_appcompat_deselect_all">Välj ingen</string>
-    <string name="miuix_appcompat_deselect_all_description">Välj ingen</string>
+    <string name="miuix_appcompat_deselect_all">Avmarkera alla</string>
+    <string name="miuix_appcompat_deselect_all_description">Avmarkera alla</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Sök</string>
     <string name="miuix_appcompat_select_all">Välj alla</string>
@@ -350,6 +388,7 @@ Om du behöver aktivera Miracast trycker du på [MENU]-knappen och väljer Mina 
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -398,13 +437,13 @@ Om du behöver aktivera Miracast trycker du på [MENU]-knappen och väljer Mina 
     <string name="paipai_error_dialog_msg">Kontrollera dina nätverksinställningar och försök igen.</string>
     <string name="paipai_error_dialog_negative">Jag förstår</string>
     <string name="password_toggle_content_description">Visa lösenord</string>
-    <string name="path_setting_cast">Anslutning och delning/Cast</string>
-    <string name="path_setting_cast_demo">Anslutning och delning/Cast/Demos</string>
-    <string name="path_setting_cast_demo_document">Anslutning och delning/Cast/Demos/Dokument</string>
-    <string name="path_setting_cast_demo_gallery">Anslutning och delning/Cast/Demos/Foton och videor</string>
-    <string name="path_setting_cast_demo_game">Anslutning och delning/Cast/Demos/Spel</string>
-    <string name="path_setting_cast_feature">Anslutning och delning/Cast/Specialfunktioner</string>
-    <string name="path_setting_cast_help">Anslutning och delning/Cast/Hjälp</string>
+    <string name="path_setting_cast">Fler anslutningsalternativ/Casta</string>
+    <string name="path_setting_cast_demo">Fler anslutningsalternativ/Casta/Demos</string>
+    <string name="path_setting_cast_demo_document">Fler anslutningsalternativ/Casta/Demos/Dokument</string>
+    <string name="path_setting_cast_demo_gallery">Fler anslutningsalternativ/Casta/Demos/Foton och videor</string>
+    <string name="path_setting_cast_demo_game">Fler anslutningsalternativ/Casta/Demos/Spel</string>
+    <string name="path_setting_cast_feature">Fler anslutningsalternativ/Casta/Specialfunktioner</string>
+    <string name="path_setting_cast_help">Fler anslutningsalternativ/Casta/Hjälp</string>
     <string name="permission_allowed">Beviljat</string>
     <string name="permission_uballowed">Ej beviljat</string>
     <string name="pm">E.m</string>
@@ -412,7 +451,7 @@ Om du behöver aktivera Miracast trycker du på [MENU]-knappen och väljer Mina 
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="privacy_agree">Godkänn</string>
     <string name="privacy_detail">Låt den här appen ansluta till internet och tillåt de behörigheter som krävs innan du fortsätter.</string>
-    <string name="privacy_detail_extra">&lt;Data>Vissa funktioner tillhandahålls av tredjeparts-tjänsteleverantören HappyCast. Innan du använder denna funktion, läs och acceptera &lt;a href=%1$s>HappyCasts integritetspolicy&lt;/a> och &lt;a href=%2$s>HappyCasts juridiska meddelande&lt;/a>.&lt;/Data></string>
+    <string name="privacy_detail_extra"><Data>Vissa funktioner tillhandahålls av tredjeparts-tjänsteleverantören HappyCast. Innan du använder denna funktion, läs och acceptera &lt;a href=%1$s>HappyCasts integritetspolicy&lt;/a> och &lt;a href=%2$s>HappyCasts juridiska meddelande&lt;/a>.</Data></string>
     <string name="privacy_explain">Välkommen till Casting! Casting tillåter projicering av objekt från din telefons skärm på en större extern monitor. Denna app behöver ansluta till internet och kräver följande behörigheter för att kunna fungera normalt:</string>
     <string name="privacy_negative">Avsluta</string>
     <string name="privacy_permission_ble">Slå på eller stänga av Bluetooth</string>
@@ -454,11 +493,11 @@ Om du behöver aktivera Miracast trycker du på [MENU]-knappen och väljer Mina 
     <string name="privacy_setting_show_lelink_policy">Visa HappyCast Integritetspolicy</string>
     <string name="privacy_setting_show_policy">Visa integritetspolicy</string>
     <string name="privacy_setting_show_user_agreement">Visa användaravtal</string>
-    <string name="privacy_text_1">"&lt;Data>Välkommen till Casting! Med Casting kan du projicera objekt från din telefonskärm till en större extern skärm.
+    <string name="privacy_text_1"><Data>"Välkommen till Casting! Med Casting kan du projicera objekt från din telefonskärm till en större extern skärm.
 Vi skyddar din personliga information i enlighet med relevanta lagar, förordningar och integritetspolicyer. Vissa funktioner tillhandahålls av HappyCast. Innan du använder denna funktion ska du läsa och godkänna &lt;a href=%2$s>HappyCast Juridiska meddelande&lt;/a> och &lt;a href=%1$s>HappyCast Integritetspolicy&lt;/a>.
-För att kunna fungera normalt måste den här appen ansluta till internet och få tillgång till följande behörigheter för att kunna samla in din personliga information:&lt;/Data>"</string>
-    <string name="privacy_text_2">"&lt;Data>Om du inte går med på att bevilja sådana behörigheter eller dela och ladda upp din personliga information kommer du inte att kunna använda denna app. Du kan välja att avinstallera denna app, logga ut eller begränsa behörigheter i Inställningar i sådana fall.
-Läs och godkänn våra &lt;a href=%1$s>Användarvillkor&lt;/a> och vår &lt;a href=%2$s>Integritetspolicy&lt;/a> innan du använder denna funktion.&lt;/Data>"</string>
+För att kunna fungera normalt måste den här appen ansluta till internet och få tillgång till följande behörigheter för att kunna samla in din personliga information:"</Data></string>
+    <string name="privacy_text_2"><Data>"Om du inte går med på att bevilja sådana behörigheter eller dela och ladda upp din personliga information kommer du inte att kunna använda denna app. Du kan välja att avinstallera denna app, logga ut eller begränsa behörigheter i Inställningar i sådana fall.
+Läs och godkänn våra &lt;a href=%1$s>Användarvillkor&lt;/a> och vår &lt;a href=%2$s>Integritetspolicy&lt;/a> innan du använder denna funktion."</Data></string>
     <string name="privacy_text_pemission">"　　•Få åtkomst till och spara bilder på din enhet för att projicera dessa objekt till externa skärmar
 　　•Spela in samtal och ljud för att casta ljud till externa enheter
 　　•Få åtkomst till telefonnummer, IMEI och IMSI för att identifiera din enhet
@@ -480,22 +519,38 @@ Läs och godkänn våra &lt;a href=%1$s>Användarvillkor&lt;/a> och vår &lt;a h
     <string name="scan_wifi_label_global">Anslut till Wi-Fi</string>
     <string name="screen_projection">Casta</string>
     <string name="screen_projection_characteristics">Specialfunktioner</string>
+    <string name="screen_projection_characteristics_cast_summary">Casta skärminnehåll till en närliggande TV</string>
+    <string name="screen_projection_characteristics_hang_up_summary_new">Stäng av mobilenhetens skärm medan du Castar för att spara batteri och undvika överhettning</string>
     <string name="screen_projection_characteristics_off_screen_summary">Du kan fortsätta casta när skärmen på enheten är avstängd. Den här funktionen minskar strömförbrukningen.</string>
     <string name="screen_projection_characteristics_off_screen_title">Casta med skärmen avstängd</string>
     <string name="screen_projection_characteristics_privacy_protect_summary">Visa inte flytande aviseringar, inkommande samtal och andra privata objekt på externa monitorer.</string>
     <string name="screen_projection_characteristics_privacy_protect_title">Dölj privata objekt</string>
+    <string name="screen_projection_characteristics_private_summary_new">Skydda din integritet: medan du Castar kommer din enhet inte att visa flytande notifikationer, inkommande samtal och andra privata objekt</string>
     <string name="screen_projection_characteristics_small_window_summary">Minimera fönstret som castas om du vill använda andra funktioner på telefonen.</string>
+    <string name="screen_projection_characteristics_small_window_summary_new">Casta skärmen och visa dess innehåll i ett flytande fönster medan andra appar används</string>
     <string name="screen_projection_characteristics_small_window_title">Minimera fönster</string>
+    <string name="screen_projection_entrance_list">Visa tillgängliga enheter</string>
+    <string name="screen_projection_entrance_list_new">Visa listan över tillgängliga i enheter att Casta</string>
+    <string name="screen_projection_example_document_hint_miui15">*Objekt kommer att visas på en närliggande TV</string>
+    <string name="screen_projection_example_document_hint_new"><Data>*För att använda den här funktionen, gå till Filer > Dokument och tryck på &lt;img src=../drawable/ic_cast_icon_photo.png/>-ikonen.</Data></string>
     <string name="screen_projection_example_document_summary">Visa presentationer på en extern monitor när du använder telefonen för att växla mellan diabilder och visa anteckningar. Gå till Filhanterare > Dokument för att testa den här funktionen.</string>
+    <string name="screen_projection_example_document_summary_miui15">Visa presentationer på en TV medan den här enheten används som en fjärrkontroll</string>
     <string name="screen_projection_example_document_title">Dokument</string>
+    <string name="screen_projection_example_gallery_hint_miui15">*För att kunna casta foton och videor, välj ett objekt i Galleri, tryck på \"Dela\" och tryck sedan på ikonen \"Casta\".</string>
+    <string name="screen_projection_example_gallery_hint_new"><Data>*För att använda den här funktionen, gå till Galleri, välj ett foto och tryck \"Skicka\" på nedersta panelen och tryck på &lt;img src=../drawable/ic_cast_icon_photo.png/>-ikonen.</Data></string>
     <string name="screen_projection_example_gallery_summary">Tryck på delaknappen under ett objekt i Galleri-appen för att visa det på en extern monitor.</string>
+    <string name="screen_projection_example_gallery_summary_miui15">Visa dina foton och videor på TV-skärm</string>
     <string name="screen_projection_example_gallery_title">Bilder och videor</string>
+    <string name="screen_projection_example_game_hint_miui15">"*För att kunna casta spel, tryck på \"Cast\" i Game Turbo, medan du spelar.
+Kontrollera att du har aktivera Game Turbo innan du castar spel."</string>
     <string name="screen_projection_example_game_summary">Med Game Turbo kan du casta spel till en extern monitor. Använd genvägen i Game Turbo-verktygslådan för att aktivera den här funktionen.</string>
+    <string name="screen_projection_example_game_summary_miui15">Visa dina spelsessioner på TV</string>
     <string name="screen_projection_example_game_title">Spel</string>
     <string name="screen_projection_help">Hjälp</string>
     <string name="screen_projection_sample_summary">Castar dokument, spel, bilder och videor</string>
     <string name="screen_projection_sample_title">Demon</string>
     <string name="screen_projection_title">Casta</string>
+    <string name="screen_projection_title_miui15">Casta</string>
     <string name="search_menu_title">Sök</string>
     <string name="send">Skicka</string>
     <string name="show_result_on_tv">Visa resultat på TV:n</string>
@@ -553,6 +608,7 @@ Läs och godkänn våra &lt;a href=%1$s>Användarvillkor&lt;/a> och vår &lt;a h
     <string name="thursday_short">Tor</string>
     <string name="thursday_shortest">Tor</string>
     <string name="tile_label">Casta</string>
+    <string name="tile_label_v2">Anslutningstjänster</string>
     <string name="time_picker_dialog_title">Ange tid</string>
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
@@ -570,7 +626,7 @@ Läs och godkänn våra &lt;a href=%1$s>Användarvillkor&lt;/a> och vår &lt;a h
     <string name="today">Idag</string>
     <string name="tomorrow">Imorgon</string>
     <string name="trust_device_desc">Dessa enheter kommer att dyka upp här först när de är i närheten</string>
-    <string name="trust_device_dialog_desc">&lt;Data>%s kommer dyka upp bland tillgängliga enheter först när den är i närheten om du markerat den som betrodd.&lt;br>&lt;br>Du kan &lt;a href=milink://com.milink.service/trust>hantera betrodda enheter&lt;/a> i Inställningarna.&lt;/Data></string>
+    <string name="trust_device_dialog_desc"><Data>%s kommer dyka upp bland tillgängliga enheter först när den är i närheten om du markerat den som betrodd.&lt;br>&lt;br>Du kan &lt;a href=milink://com.milink.service/trust>hantera betrodda enheter&lt;/a> i Inställningarna.</Data></string>
     <string name="trust_device_dialog_pos">Lita på</string>
     <string name="trust_device_dialog_title">Lita på den här enheten?</string>
     <string name="trust_device_manager">Hantera betrodda enheter</string>

@@ -2,7 +2,7 @@
 <resources>
     <string-array name="hmode_app_classify1">
         <item>Anpassad</item>
-        <item>MIUI batterisparare</item>
+        <item>Batterisparare</item>
     </string-array>
     <string-array name="hmode_app_classify2">
         <item>Aktiva appar</item>

@@ -9,7 +9,7 @@
         <item>Kan inte få åtkomst till nätverk. Återanslut till Wi-Fi eller starta om routern.</item>
     </string-array>
     <string-array name="net_diag_err_link_quality_china">
-        <item>Poor WLAN connection. Switch wireless bands or reboot the router.</item>
+        <item>Dålig Wi-Fi-anslutning. Byt trådlösa anslutningar eller starta om routern.</item>
         <item>"Can't access network. Reconnect to WLAN or reboot the router."</item>
     </string-array>
     <string-array name="net_diag_err_network_connectivity">
@@ -17,7 +17,7 @@
         <item>Nätverksåtkomst är begränsad. Justera tiden på den här enheten och kontrollera routerns nätverksinställningar.</item>
         <item>Nätverksfel. Kontrollera HTTP-proxyinställningar.</item>
         <item>Nätverksfel. Kontrollera om routern har åtkomst till internet.</item>
-        <item>Kan inte ansluta till nätverket. Återanslut till Wi-FI eller starta om routern.</item>
+        <item>Kan inte få åtkomst till nätverk. Återanslut till Wi-Fi eller starta om routern.</item>
     </string-array>
     <string-array name="net_diag_err_network_connectivity_china">
         <item>Autentisering krävs för nätverksåtkomst</item>
@@ -29,7 +29,7 @@
     <string-array name="net_diag_err_network_dns">
         <item>Fel på DNS-server. Kontrollera routerns DNS-konfiguration.</item>
         <item>Stora förseningar från DNS-server. Kontrollera routerns DNS-konfiguration.</item>
-        <item>Kan inte få åtkomst till port. Återanslut till Wi-Fi eller starta om routern.</item>
+        <item>Kan inte få åtkomst till nätverk. Återanslut till Wi-Fi eller starta om routern.</item>
     </string-array>
     <string-array name="net_diag_err_network_dns_china">
         <item>Fel på DNS-server. Kontrollera routerns DNS-konfiguration.</item>

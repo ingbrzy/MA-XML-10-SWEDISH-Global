@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="alarm_in_furture">
-        <item>Alarm om mindre än 1 minut</item>
+    <string-array name="alarm_in_furture_new_array">
+        <item>Larm om mindre än %d minut</item>
         <item>Alarm om %1$s</item>
         <item>Alarm om %2$s</item>
         <item>Alarm om %1$s %2$s</item>
@@ -24,8 +24,8 @@
         <item>Mån till fre</item>
         <item>Anpassad</item>
     </string-array>
-    <string-array name="alarm_set">
-        <item>Larmet kommer utlösas om mindre än 1 minut.</item>
+    <string-array name="alarm_set_new_array">
+        <item>Larmet kommer att gå av om mindre än %d minut.</item>
         <item>Alarmet kommer att gå av om %1$s.</item>
         <item>Alarmet kommer att gå av om %2$s.</item>
         <item>Alarmet kommer att gå av om %1$s och %2$s.</item>
@@ -42,20 +42,19 @@
         <item>Mycket dålig</item>
         <item>Svår</item>
     </string-array>
-    <string-array name="auto_silence_entries">
-        <item>Aldrig</item>
-        <item>1 minut</item>
-        <item>5 minuter</item>
-        <item>10 minuter</item>
-        <item>15 minuter</item>
-        <item>20 minuter</item>
-        <item>25 minuter</item>
-        <item>30 minuter</item>
-    </string-array>
     <string-array name="bedtime_guide_repeat_type">
         <item>Måndag till fredag</item>
         <item>Varje dag</item>
         <item>Arbetsdagar</item>
+    </string-array>
+    <string-array name="bedtime_guide_repeat_type_international">
+        <item>Mån. till fre.</item>
+        <item>Varje dag</item>
+    </string-array>
+    <string-array name="bedtime_repeat_entires_international">
+        <item>Varje dag</item>
+        <item>Mån. till fre.</item>
+        <item>Anpassad</item>
     </string-array>
     <string-array name="bedtime_repeat_entries">
         <item>Varje dag</item>
@@ -164,7 +163,7 @@
         <item>Baku</item>
         <item>Bangkok</item>
         <item>Beirut</item>
-        <item>Calcutta</item>
+        <item>Kolkata</item>
         <item>Damaskus</item>
         <item>Dhaka</item>
         <item>Dubai</item>
@@ -187,7 +186,7 @@
         <item>Doha</item>
         <item>Rangoon</item>
         <item>Riyadh</item>
-        <item>Perth</item>
+        <item>Seoul</item>
         <item>Shanghai</item>
         <item>Singapore</item>
         <item>Taipei</item>
@@ -250,7 +249,7 @@
         <item>Sofia</item>
         <item>Stockholm</item>
         <item>Tallinn</item>
-        <item>Vatikanen</item>
+        <item>Vatikanstaten</item>
         <item>Vienna</item>
         <item>Vilnius</item>
         <item>Warszawa</item>
@@ -350,11 +349,6 @@
         <item>Tegucigalpa</item>
         <item>Paramaribo</item>
         <item>Quito</item>
-    </string-array>
-    <string-array name="clock_bg_setting_entries">
-        <item>Vit</item>
-        <item>Svart</item>
-        <item>Automatiskt</item>
     </string-array>
     <string-array name="countries_names_miui">
         <item>Elfenbenskusten</item>
@@ -644,40 +638,6 @@
         <item>Surinam</item>
         <item>Ecuador</item>
     </string-array>
-    <string-array name="days_of_week">
-        <item>Sön</item>
-        <item>Mån</item>
-        <item>Tis</item>
-        <item>Ons</item>
-        <item>Tor</item>
-        <item>Fre</item>
-        <item>Lör</item>
-    </string-array>
-    <string-array name="notification_adv_time_entries">
-        <item>Vid angiven tid</item>
-        <item>15 minuter före</item>
-        <item>30 minuter före</item>
-        <item>1 timme i förväg</item>
-        <item>Ingen</item>
-    </string-array>
-    <string-array name="snooze_duration_entries">
-        <item>1 minut</item>
-        <item>5 minuter</item>
-        <item>10 minuter</item>
-        <item>15 minuter</item>
-        <item>20 minuter</item>
-        <item>25 minuter</item>
-        <item>30 minuter</item>
-    </string-array>
-    <string-array name="snooze_duration_values">
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
-        <item>30</item>
-    </string-array>
     <string-array name="time">
         <item>%1$s</item>
         <item>%2$s</item>
@@ -700,10 +660,5 @@
         <item>Gör inget</item>
         <item>Snooze</item>
         <item>Stäng av</item>
-    </string-array>
-    <string-array name="volume_button_setting_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
 </resources>

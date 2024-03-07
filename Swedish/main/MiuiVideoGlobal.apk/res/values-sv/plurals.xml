@@ -5,16 +5,16 @@
         <item quantity="one">1 timme sedan</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 timme sedan</item>
-        <item quantity="one">1 timme sedan</item>
+        <item quantity="other">%d timmar sedan</item>
+        <item quantity="one">%d timma sedan</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">En halvtimme sedan</item>
         <item quantity="one">En halvtimme sedan</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Om 1 timme</item>
-        <item quantity="one">Om 1 timme</item>
+        <item quantity="other">Om %d timmar</item>
+        <item quantity="one">Om %d timma</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Om en halvtimma</item>
@@ -25,8 +25,8 @@
         <item quantity="one">Omedelbart</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">om %d min</item>
-        <item quantity="one">om 1 min</item>
+        <item quantity="other">Om %d minuter</item>
+        <item quantity="one">Om %d minut</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Nyss</item>
@@ -34,7 +34,7 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d minuter sedan</item>
-        <item quantity="one">1 minut sedan</item>
+        <item quantity="one">%d minut sedan</item>
     </plurals>
     <plurals name="comment_model_watch_reply">
         <item quantity="other">Visa %d svar</item>
@@ -51,10 +51,6 @@
     <plurals name="exo_controls_rewind_by_amount_description">
         <item quantity="other">Spola tillbaka %d sekunder</item>
         <item quantity="one">Spola tillbaka %d sekund</item>
-    </plurals>
-    <plurals name="fcmpts_dialog_one">
-        <item quantity="other">Se %s sekunder mer av en video för att tjäna poäng att lösa in belöningar</item>
-        <item quantity="one">Se %s sekunder mer av en video för att tjäna poäng att lösa in belöningar</item>
     </plurals>
     <plurals name="feed_back_home">
         <item quantity="other">Går tillbaka till startsidan om %1$d sekunder…</item>
@@ -84,36 +80,6 @@
         <item quantity="other">om %d minuter</item>
         <item quantity="one">om 1 minut</item>
     </plurals>
-    <plurals name="incentive_dialog_congratulation_get_credits_title">
-        <item quantity="other">Du har tjänat %d poäng!</item>
-        <item quantity="one">Du har tjänat %d poäng!</item>
-    </plurals>
-    <plurals name="incentive_dialog_credits">
-        <item quantity="other">%d poäng</item>
-        <item quantity="one">%d poäng</item>
-    </plurals>
-    <plurals name="incentive_dialog_login_and_get_credits_message">
-        <item quantity="other">Logga in för att hämta och tjäna %d extrapoäng</item>
-        <item quantity="one">Logga in för att hämta och tjäna %d extrapoäng</item>
-    </plurals>
-    <plurals name="incentive_dialog_seconds">
-        <item quantity="other">%d sekunder</item>
-        <item quantity="one">%d sekund</item>
-    </plurals>
-    <plurals name="incentive_guide_all_time_tip">
-        <item quantity="other">Titta på totalt %d minuter för att tjäna poäng! Slutför uppgiften nu?</item>
-        <item quantity="one">Titta på totalt %d minut för att tjäna poäng! Slutför uppgiften nu?</item>
-    </plurals>
-    <plurals name="incentive_guide_coins_tip">
-        <item quantity="other">"Du har %d poäng att hämta
-Finns endast idag"</item>
-        <item quantity="one">"Du har %d poäng att hämta
-FInns endast idag"</item>
-    </plurals>
-    <plurals name="incentive_guide_current_time_tip">
-        <item quantity="other">Du har tittat på %d minuter idag</item>
-        <item quantity="one">Du har tittat på %d minut idag</item>
-    </plurals>
     <plurals name="incentive_popup_window_share_success">
         <item quantity="other">Delad. Du tjänade %d poäng.</item>
         <item quantity="one">Delad. Du har tjänat %d poäng.</item>
@@ -122,34 +88,6 @@ FInns endast idag"</item>
         <item quantity="other">Prenumererar. Du har tjänat %d poäng.</item>
         <item quantity="one">Prenumererar. Du har tjänat %d poäng.</item>
     </plurals>
-    <plurals name="incentive_task_watchvideo_begin">
-        <item quantity="other">Tjäna %d poäng!</item>
-        <item quantity="one">Tjäna %d poäng!</item>
-    </plurals>
-    <plurals name="incentive_task_watchvideo_finish">
-        <item quantity="other">Dagens uppgifter slutförda! Du tjänade %d poäng.</item>
-        <item quantity="one">Dagens uppgifter slutförda! Du tjänade %d poäng.</item>
-    </plurals>
-    <plurals name="incentive_task_watchvideo_of_one">
-        <item quantity="other">Du tittade i %1$1d sekunder och tjänade %2$2d poäng!</item>
-        <item quantity="one">Du tittade i %1$1d sekunder och tjänade %2$2d poäng!</item>
-    </plurals>
-    <plurals name="incentive_task_watchvideo_tip1">
-        <item quantity="other">Titta på en slumpmässig video för att tjäna %d-poäng</item>
-        <item quantity="one">Titta på en slumpmässig video för att tjäna %d-poäng</item>
-    </plurals>
-    <plurals name="incentive_task_watchvideo_tip2">
-        <item quantity="other">Titta på %1$1d sekunder av en video för att tjäna %2$2d poäng</item>
-        <item quantity="one">Titta på %1$1d sekunder av en video för att tjäna %2$2d poäng</item>
-    </plurals>
-    <plurals name="incentive_toast_share_success">
-        <item quantity="other">Tjänade %d poäng. Fortsätt dela för att tjäna mer.</item>
-        <item quantity="one">Tjänade %d poäng. Fortsätt dela för att tjäna mer.</item>
-    </plurals>
-    <plurals name="incentive_toast_subscribe_success">
-        <item quantity="other">Tjänade %d poäng. Fortsätt prenumerera för att tjäna mer.</item>
-        <item quantity="one">Tjänade %d poäng. Fortsätt prenumerera för att tjäna mer.</item>
-    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Nyss</item>
         <item quantity="one">Nyss</item>
@@ -157,6 +95,10 @@ FInns endast idag"</item>
     <plurals name="local_diversion_video_number">
         <item quantity="other">%d videor</item>
         <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="local_longpress_speed_chenge_tip">
+        <item quantity="other">Spelar på %s x-hastighet. Släpp för att spela på normal hastighet.</item>
+        <item quantity="one">Spelar på %s x-hastighet. Släpp för att spela på normal hastighet.</item>
     </plurals>
     <plurals name="local_video_floder">
         <item quantity="other">%d mappar</item>
@@ -181,10 +123,6 @@ FInns endast idag"</item>
     <plurals name="lv_subtitle_onlinesub_size_float_kb">
         <item quantity="other">Storlek: %.2f KB</item>
         <item quantity="one">Storlek: %.2f KB</item>
-    </plurals>
-    <plurals name="lv_video_count">
-        <item quantity="other">%d videor</item>
-        <item quantity="one">%d video</item>
     </plurals>
     <plurals name="mangotv_feature_list_title1">
         <item quantity="other">%1$1d av %2$2d episoder finns tillgängliga</item>
@@ -214,14 +152,6 @@ FInns endast idag"</item>
         <item quantity="other">%d låtar</item>
         <item quantity="one">%d låt</item>
     </plurals>
-    <plurals name="new_incentive_toast_share_success">
-        <item quantity="other">Delningen är genomförd. Du har tjänat %d poäng. Hämta dem i poängcenter.</item>
-        <item quantity="one">Delningen är genomförd. Du har tjänat %d poäng. Hämta dem i poängcenter.</item>
-    </plurals>
-    <plurals name="new_incentive_toast_subscribe_success">
-        <item quantity="other">Prenumerationen är genomförd. Du har tjänat %d poäng. Hämta dem i poängcenter.</item>
-        <item quantity="one">Prenumerationen är genomförd. Du har tjänat %d poäng. Hämta dem i poängcenter.</item>
-    </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">Ditt innehåll innehåller objekten (%1$s) som bryter mot våra community-standarder. Ditt konto är avstängt i %2$d dagar fram till %3$s.</item>
         <item quantity="one">Ditt innehåll innehåller objekten (%1$s) som bryter mot våra community-standarder. Ditt konto är avstängt i %2$d dag fram till %3$s.</item>
@@ -233,14 +163,6 @@ FInns endast idag"</item>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minuter sedan</item>
         <item quantity="one">1 minut sedan</item>
-    </plurals>
-    <plurals name="ovp_detail_v_video_count">
-        <item quantity="other">%d videor</item>
-        <item quantity="one">%d video</item>
-    </plurals>
-    <plurals name="ovp_home_item_unit">
-        <item quantity="other">%d videor</item>
-        <item quantity="one">%d video</item>
     </plurals>
     <plurals name="plus_edit_delete_comfire_text">
         <item quantity="other">Ta bort %s objekt nu?</item>
@@ -297,10 +219,6 @@ FInns endast idag"</item>
     <plurals name="toast_bookmark_max_size">
         <item quantity="other">Lägg till, upp till %d bokmärken</item>
         <item quantity="one">Lägg till, upp till %d bokmärke</item>
-    </plurals>
-    <plurals name="v_confirm_hide_videos_new">
-        <item quantity="other">Dölj %d valda filer?</item>
-        <item quantity="one">Dölj %d vald fil?</item>
     </plurals>
     <plurals name="video_like_text">
         <item quantity="other">%s likes</item>

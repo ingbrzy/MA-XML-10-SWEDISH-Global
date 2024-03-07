@@ -76,7 +76,7 @@
     <string name="currency_update_time_format">Valutakurser tillhandahålls av Webull (%s)</string>
     <string name="currency_update_updating">Uppdatera rates…</string>
     <string name="data_analysis">Analys</string>
-    <string name="date_format">dd/MM/yyyy</string>
+    <string name="date_format">d MMM yyyy</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -185,7 +185,7 @@
     <string name="friday_shortest">Fre</string>
     <string name="fund_loan">Finansiera lån</string>
     <string name="further_education">Vidareutbildning</string>
-    <string name="get_loaction_permission_title">Lokalisera</string>
+    <string name="get_loaction_permission_title">Få tillgång till plats</string>
     <string name="get_location_fail_prompt">Kunde inte hämta positionen</string>
     <string name="gst_initial_value">%d</string>
     <string name="gst_percentage">%s</string>
@@ -232,11 +232,12 @@
     <string name="label_days">Dagar</string>
     <string name="label_emi">Lån</string>
     <string name="label_from_date">Från</string>
-    <string name="label_interest">Ränta (%)</string>
+    <string name="label_interest">Ränta (procent)</string>
     <string name="label_investment_duration">Varaktighet</string>
     <string name="label_months">Månader</string>
     <string name="label_powered_by">Drivs av Mi Calculator</string>
     <string name="label_principal">Huvudsaklig</string>
+    <string name="label_share">Dela</string>
     <string name="label_statistics">Statistik</string>
     <string name="label_to_date">Till</string>
     <string name="label_total_interest">Total ränta</string>
@@ -356,13 +357,13 @@ Ett-års och fem-års LPR: er kommer att anföras den 20:e varje månad (fördr�
     <string name="mt_max">Det belopp som du angav är för stort</string>
     <string name="mulDesc">mulitplicera</string>
     <string name="n_a">N/A</string>
-    <string name="name_cgst" formatted="false">CGST/SGST: %s%</string>
+    <string name="name_cgst">CGST/SGST: 2,5</string>
     <string name="name_discount">Rabatt (% rabatt)</string>
     <string name="name_original">Ursprungligt pris</string>
     <string name="name_price">Slutligt pris</string>
     <string name="name_save">"Du sparar "</string>
     <string name="negDesc">Växla mellan temperaturer under och över nollan</string>
-    <string name="new_privacy_string">&lt;Data>Välkommen till Calculator!&lt;br/>Den här appen innehåller följande funktioner:&lt;br/>• Grundläggande kalkylator&lt;br/>• Vetenskaplig kalkylator&lt;br/>• Universal konverterare (t.ex. valuta, mätenheter, etc.)&lt;br/>• Kalkyleringsmallar för lån, investering, EMI, och mer&lt;br/>Du kan lära dig hur vi hanterar informationen vi samlar in i vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a>. Läs och acceptera vårt &lt;a href=\"%2$s\">Användaravtal&lt;/a> och &lt;a href=\"%3$s\">Integritetspolicy&lt;/a> innan du använder Calculator. Du kan när som helst dra tillbaka ditt samtycke Integritetspolicyn för Calculator i Inställningar. Om du inte accepterar vår Integritetspolicy, kommer du inte kunna använda vissa funktioner i appen; men dess grundläggande funktionalitet kommer fortfarande vara tillgänglig för dig.&lt;/Data></string>
+    <string name="new_privacy_string"><Data>Välkommen till Calculator!&lt;br/>Den här appen innehåller följande funktioner:&lt;br/>• Grundläggande kalkylator&lt;br/>• Vetenskaplig kalkylator&lt;br/>• Universal konverterare (t.ex. valuta, mätenheter, etc.)&lt;br/>• Kalkyleringsmallar för lån, investering, EMI, och mer&lt;br/>Du kan lära dig hur vi hanterar informationen vi samlar in i vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a>. Läs och acceptera vårt &lt;a href=\"%2$s\">Användaravtal&lt;/a> och &lt;a href=\"%3$s\">Integritetspolicy&lt;/a> innan du använder Calculator. Du kan när som helst dra tillbaka ditt samtycke Integritetspolicyn för Calculator i Inställningar. Om du inte accepterar vår Integritetspolicy, kommer du inte kunna använda vissa funktioner i appen; men dess grundläggande funktionalitet kommer fortfarande vara tillgänglig för dig.</Data></string>
     <string name="night">Kväll</string>
     <string name="none">Inga</string>
     <string name="noon">Middagstid</string>
@@ -376,7 +377,7 @@ Ett-års och fem-års LPR: er kommer att anföras den 20:e varje månad (fördr�
     <string name="permission_location_miui12">Hämtar plats</string>
     <string name="permission_option_desc_miui12">Dessa behörigheter krävs när du använder ytterligare funktioner.</string>
     <string name="permission_option_miui12">Valfria behörigheter</string>
-    <string name="permission_privacy_link">&lt;Data>Innan du använder denna app, läs och acceptera vårt &lt;a href=%1$s>användaravtal&lt;/a> och vår &lt;a href=%2$s>integritetspolicy&lt;/a>.&lt;/Data></string>
+    <string name="permission_privacy_link"><Data>Innan du använder denna app, läs och acceptera vårt &lt;a href=%1$s>användaravtal&lt;/a> och vår &lt;a href=%2$s>integritetspolicy&lt;/a>.</Data></string>
     <string name="permission_purpose_miui12_system">Välkommen till Kalkylator! Denna app kombinerar funktionerna i en vanlig kalkylator med flera omvandlare och livsstilsfunktioner.</string>
     <string name="permission_remove_desc_miui12">Tillåt denna app att ansluta till internet och bevilja de valfria behörigheterna för att kunna använda alla dess funktioner.</string>
     <string name="permission_title_miui12">Obs!</string>
@@ -408,7 +409,7 @@ Ett-års och fem-års LPR: er kommer att anföras den 20:e varje månad (fördr�
     <string name="preference_use_voice_title">Talutdata</string>
     <string name="preference_user_feedback_title">Feedback</string>
     <string name="preference_view_privacy_title">Visa integritetspolicy</string>
-    <string name="privacy_dialog_title">Observera</string>
+    <string name="privacy_dialog_title">Integritet</string>
     <string name="privacy_revoke_error">Kunde inte dra tillbaka. Försök igen.</string>
     <string name="privacy_revoke_progress">Drar tillbaka…</string>
     <string name="privacy_switch">Återkallelse av ditt samtycke</string>
@@ -428,7 +429,7 @@ Ett-års och fem-års LPR: er kommer att anföras den 20:e varje månad (fördr�
     <string name="search_menu_title">Sök</string>
     <string name="secondFunctionDesc">Växla till den andra funktionen</string>
     <string name="send">Skicka</string>
-    <string name="settingsDesc">inställningar</string>
+    <string name="settingsDesc">Inställningar</string>
     <string name="sinDesc">sinus</string>
     <string name="sqrtDesc">roten ur</string>
     <string name="statistic_label_balance">Saldo</string>
@@ -573,6 +574,7 @@ Ett-års och fem-års LPR: er kommer att anföras den 20:e varje månad (fördr�
     <string name="unit_data_display_currency_btn">Bhutanesisk ngultrum</string>
     <string name="unit_data_display_currency_bwp">Botswansk pula</string>
     <string name="unit_data_display_currency_byn">Vitryska rubel</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Kanadensisk dollar</string>
     <string name="unit_data_display_currency_cdf">Kongolesisk franc</string>
     <string name="unit_data_display_currency_chf">Schweiziska franc</string>
@@ -764,7 +766,7 @@ Ett-års och fem-års LPR: er kommer att anföras den 20:e varje månad (fördr�
     <string name="unit_data_short_area_sq.dm">dm²</string>
     <string name="unit_data_short_area_sq.ft">ft²</string>
     <string name="unit_data_short_area_sq.gongli">gongli²</string>
-    <string name="unit_data_short_area_sq.in">in²</string>
+    <string name="unit_data_short_area_sq.in">tm²</string>
     <string name="unit_data_short_area_sq.km">km²</string>
     <string name="unit_data_short_area_sq.m">m²</string>
     <string name="unit_data_short_area_sq.mi">mile²</string>
@@ -833,7 +835,7 @@ Ett-års och fem-års LPR: er kommer att anföras den 20:e varje månad (fördr�
     <string name="unit_data_short_volume_cu.cm">cm³</string>
     <string name="unit_data_short_volume_cu.dm">dm³</string>
     <string name="unit_data_short_volume_cu.ft">ft³</string>
-    <string name="unit_data_short_volume_cu.in">in³</string>
+    <string name="unit_data_short_volume_cu.in">tm³</string>
     <string name="unit_data_short_volume_cu.m">m³</string>
     <string name="unit_data_short_volume_cu.mm">mm³</string>
     <string name="unit_data_short_volume_cu.um">μm³</string>
@@ -858,7 +860,7 @@ Ett-års och fem-års LPR: er kommer att anföras den 20:e varje månad (fördr�
     <string name="unit_data_short_weight_qian">qian</string>
     <string name="unit_data_short_weight_st">k.t</string>
     <string name="unit_data_short_weight_t">t</string>
-    <string name="unit_data_short_weight_taijin">jin(tw)</string>
+    <string name="unit_data_short_weight_taijin">jin (Taiwan)</string>
     <string name="unit_data_short_weight_ug">μg</string>
     <string name="unit_data_short_weight_uk.cwt">cwt</string>
     <string name="unit_data_short_weight_uk.st">st</string>

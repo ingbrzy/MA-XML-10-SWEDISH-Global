@@ -32,9 +32,8 @@
     <string name="am">F.m</string>
     <string name="app_name">Skärminspelare</string>
     <string name="app_notification_channel_record_complete">Meddelanden om färdiga inspelningar</string>
-    <string name="app_notification_info">Skärminspelaren arbetar i bakgrunden</string>
-    <string name="app_notification_record_saved">"Inspelningen genomförd
- Tryck för att visa"</string>
+    <string name="app_notification_info">Spelar för närvarande in skärmen…</string>
+    <string name="app_notification_record_saved">Skärminspelning sparad. Tryck för att visa.</string>
     <string name="app_notification_title">Skärminspelare</string>
     <string name="auto_stop_title">Video sparad</string>
     <string name="battery_not_allowed_warning">Kan inte spela när batterinivån är lägre än %1$s. Se till att batterinivån är över %2$s.</string>
@@ -63,7 +62,7 @@
     <string name="date_year">/</string>
     <string name="description_content">Skärminspelaren kan spela in på systemnivå. Du kommer inte kunna använda Skärminspelaren om du fortsätter. Bekräfta för att fortsätta.</string>
     <string name="description_title">Om Skärminspelare</string>
-    <string name="deselect_all">Välj ingen</string>
+    <string name="deselect_all">Avmarkera alla</string>
     <string name="early_morning">Morgon</string>
     <string name="empty" />
     <string name="eras_ad">V.T.</string>
@@ -158,15 +157,15 @@
     <string name="mic_sound">Mikrofon</string>
     <string name="midnight">Natt</string>
     <string name="miuix_access_state_desc">Valt</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Avmarkera alla</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
     <string name="miuix_appcompat_confirm_description">Bekräfta</string>
     <string name="miuix_appcompat_delete_description">Ta bort</string>
-    <string name="miuix_appcompat_deselect_all">Välj ingen</string>
-    <string name="miuix_appcompat_deselect_all_description">Välj ingen</string>
+    <string name="miuix_appcompat_deselect_all">Avmarkera alla</string>
+    <string name="miuix_appcompat_deselect_all_description">Avmarkera alla</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Sök</string>
     <string name="miuix_appcompat_select_all">Välj alla</string>
@@ -236,6 +235,7 @@
     <string name="pm">E.m</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="privacy_settings">Integritet</string>
+    <string name="protect_oneself_when_recording">Spela in samtal. Skydda din och andra människors sekretess när den här funktionen används.</string>
     <string name="quit_recording">Avsluta Skärminspelare</string>
     <string name="record_time_too_short">Inspelad video är för kort</string>
     <string name="recording_failure">Kunde inte spela in, börja om</string>
@@ -251,7 +251,7 @@
     <string name="screen_record_option">Inspelningsalternativ</string>
     <string name="screen_record_params">Inspelningsparametrar</string>
     <string name="search_menu_title">Sök</string>
-    <string name="select_all">Välj alla</string>
+    <string name="select_all">Markera allt</string>
     <string name="send">Skicka</string>
     <string name="settings">Inställningar</string>
     <string name="settings_other">Annat</string>
@@ -259,7 +259,7 @@
     <string name="show_hard_key">Visualisera navigeringsknapparna</string>
     <string name="show_hard_key_new">Visa knapptryckningar</string>
     <string name="show_hard_key_summary">Visa en skylt när Hem-, Meny- och Tillbakaknappen blir nedtryckta</string>
-    <string name="show_hard_key_summary_new">Visualisera tryckningar på navigeringsknapparna</string>
+    <string name="show_hard_key_summary_new">Visualisera tryckningar på navigationsknapparna</string>
     <string name="show_screen_touch">Visa pekgester</string>
     <string name="show_screen_touch_summary">Visualisera gesterna med en vit punkt</string>
     <string name="size_byte">B</string>
@@ -269,7 +269,7 @@
     <string name="sound_source">Ljudkälla</string>
     <string name="sound_source_summary">Systemljud eller mikrofon</string>
     <string name="sound_source_summary_without_system_sounds">Använda mikrofonen eller stänga av ljudet</string>
-    <string name="start">Starta</string>
+    <string name="start">Början</string>
     <string name="start_recording">Starta inspelningen</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_by_second_space">Växla mellan utrymmena kommer avsluta inspelningen</string>

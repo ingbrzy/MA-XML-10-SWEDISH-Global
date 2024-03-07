@@ -36,6 +36,18 @@
         <item quantity="other">%d minuter sedan</item>
         <item quantity="one">%d minut sedan</item>
     </plurals>
+    <plurals name="download_canceled_title_multi">
+        <item quantity="other">Avvisad %2$d filer, inklusive %1$s</item>
+        <item quantity="one">Avvisade %2$d fil, inklusive %1$s</item>
+    </plurals>
+    <plurals name="download_succeeded_title_multi">
+        <item quantity="other">Mottagna %2$d filer, inklusive %1$s</item>
+        <item quantity="one">Mottagen %2$d fil, inklusive %1$s</item>
+    </plurals>
+    <plurals name="download_title_multi">
+        <item quantity="other">%2$d filer, inklusive %1$s</item>
+        <item quantity="one">%2$d fil, inklusive %1$s</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtimme sedan</item>
         <item quantity="one">En halvtimme sedan</item>

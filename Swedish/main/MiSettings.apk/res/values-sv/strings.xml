@@ -47,8 +47,10 @@
     <string name="anti_flicker_mode">Anti-flimmer</string>
     <string name="anti_flicker_mode_categroy">Lägen</string>
     <string name="anti_flicker_mode_summary">Förebygg omfattande flimmer och minska ögonansträngningen i lågljusförhållanden</string>
+    <string name="anti_flicker_mode_summary_new">Använd DC-dimning i mindre ljus minskar ansträngning på ögon</string>
     <string name="anti_flicker_title">Anti-flimmer läge</string>
     <string name="app_name">Inställningar</string>
+    <string name="app_use">Skärmtid app</string>
     <string name="application_sound">Notifikationer för appar</string>
     <string name="apply_ringtone">Apply</string>
     <string name="arctic_fox">Arctic fox</string>
@@ -111,7 +113,6 @@
     <string name="branch_whipbird">Turdidae</string>
     <string name="brown_pelican">Brown pelican</string>
     <string name="calendar_sound">Händelsepåminnelser</string>
-    <string name="calendar_tip">Ljud för händelsepåminnelser används för kalenderpåminnelser, anteckningar och uppgifter</string>
     <string name="canada_goose">Canada goose</string>
     <string name="capybara">Capybara</string>
     <string name="capybara_info">Capybaras are semiaquatic herbivore rodents who can hold their breath underwater for up to five minutes at a time.</string>
@@ -307,6 +308,10 @@ genereras inte i sekundära utrymmet"</string>
     <string name="focus_time_exception_tip">Verkar som att systemtiden ändrades. Stäng av Fokusläge.</string>
     <string name="follow_apps_settings">Baserat på appinställningar</string>
     <string name="follow_sim1">Använd inställningar för SIM 1</string>
+    <string name="footer_global_fps">"
+%1$d. När du aktiverar Prestandaläget kommer uppdateringsfrekvensen att växla till systemets maximum på %2$d Hz. Inställningarna för hög uppdateringsfrekvens av appen kommer att vara temporärt otillgänglig."</string>
+    <string name="footer_max_fps" formatted="false">"
+%d. Uppdateringsintervallet kan justeras till upp till %s Hz för appar och spel som stöds."</string>
     <string name="force_rest">Använd sessions-pauser</string>
     <string name="force_rest_summary">Ta obligaotriska pauser när sessionerna når angiven begränsning</string>
     <string name="force_rest_time">Pausvaraktighet</string>
@@ -419,18 +424,21 @@ genereras inte i sekundära utrymmet"</string>
     <string name="marabou_stork">Marabou stork</string>
     <string name="marabou_stork_info">The marabou stork is a massive bird, a frequent scavenger.</string>
     <string name="masked_palm_civet">Masked palm civet</string>
+    <string name="max_fps_string">Upp till %s Hz</string>
     <string name="medium_tree_finch">Medium tree finch</string>
+    <string name="mi_transfer_banner_summary">Flera enhetsmärken stöds</string>
+    <string name="mi_transfer_banner_title">Överför objekt från din gamla enhet</string>
     <string name="midnight">Natt</string>
     <string name="miuix_access_state_desc">Valt</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Avmarkera alla</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
     <string name="miuix_appcompat_confirm_description">Bekräfta</string>
     <string name="miuix_appcompat_delete_description">Ta bort</string>
-    <string name="miuix_appcompat_deselect_all">Välj ingen</string>
-    <string name="miuix_appcompat_deselect_all_description">Välj ingen</string>
+    <string name="miuix_appcompat_deselect_all">Avmarkera alla</string>
+    <string name="miuix_appcompat_deselect_all_description">Avmarkera alla</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Sök</string>
     <string name="miuix_appcompat_select_all">Välj alla</string>
@@ -582,6 +590,7 @@ genereras inte i sekundära utrymmet"</string>
     <string name="screen_fps_unit">%d Hz</string>
     <string name="screen_fps_unit_power_save">%dHz (Sparar batteri)</string>
     <string name="screen_fps_unit_smooth">%dHz (Bättre kvalitet)</string>
+    <string name="screen_fps_unit_string">%s Hz</string>
     <string name="screen_original_gamut">Förbättrad</string>
     <string name="screen_original_gamut_summary">Visa allt skärminnehåll i den vidaste färg-gamuten som är möjlig</string>
     <string name="screen_paper_mode_apps_loading">Vänta lite…</string>
@@ -640,6 +649,7 @@ genereras inte i sekundära utrymmet"</string>
     <string name="stop_summary">All skärmtidsstatistik och data kommer att raderas när du stänger av denna funktion</string>
     <string name="suggestion">Feedback</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="summary_max_fps_for_intelligent">Justera uppdateringsintervallet dynamiskt till upp till %s Hz baserat på scenarion för att balansera prestandan med strömkonsumtionen</string>
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>
     <string name="sunday_shortest">Sön</string>
@@ -794,7 +804,7 @@ För att kunna fungera normalt behöver denna app samla in skärmtidsinfo: antal
 Denna app behöver även ansluta till internet och kräver följande behörigheter för att kunna samla in din personliga information:"</string>
     <string name="usage_home_premission_second_summary">För att kunna fungera normalt behöver denna app samla in din personliga information. Vi kommer att skydda din personliga information i enlighet med relevanta lagar, förordningar och integritetspolicyer.</string>
     <string name="usage_home_premission_second_summary_double_link_prefix">Vi kommer att skydda din personliga information i enlighet med relevanta lagar, regleringar och integritetspolicyer. Om du inte accepterar att bevilja sådana behörigheter eller dela och ladda upp din personliga information så kommer du inte kunna använda denna app. Du kan återkalla din auktorisering i Screen time > Inställningar > Stäng av skärmtid.</string>
-    <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>Innan du använder denna app, läs och acceptera vårt &lt;a href='%1s'>användaravtal&lt;/a> och vår &lt;a href='%2s'>integritetspolicy&lt;/a>.&lt;/Data>"</string>
+    <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false"><Data>"Innan du använder denna app, läs och acceptera vårt &lt;a href='%1s'>användaravtal&lt;/a> och vår &lt;a href='%2s'>integritetspolicy&lt;/a>."</Data></string>
     <string name="usage_home_premission_second_summary_new">Vi kommer att skydda din personliga information i enlighet med relevanta lagar, regleringar och integritetspolicyer. Om du inte accepterar att bevilja sådana behörigheter eller dela och ladda upp din personliga information så kommer du inte kunna använda denna app. Du kan återkalla din auktorisering i Screen time > Inställningar > Stäng av skärmtid. Om du har fler frågor om sekretess kan du kontakta oss på privacy@xiaomi.com.</string>
     <string name="usage_new_category_limit_summary">Ange daglig användargräns för alla appar i den här kategorin</string>
     <string name="usage_new_category_limit_title">Begränsat användande för app-kategori</string>
@@ -842,7 +852,7 @@ Denna app behöver även ansluta till internet och kräver följande behörighet
     <string name="usage_optional_title">Valfria behörigheter</string>
     <string name="usage_permisison_agree_desc_o">För att tillhandahålla skärmtids-statistik till dig behöver denna app samla in följande data: antalet gånger du låser upp enheten, listan över dina appar tillsammans med motsvarande användningsvaraktighet.</string>
     <string name="usage_permisison_agree_desc_p">För att tillhandahålla skärmtids- och fokusläge-statistik till dig behöver denna app samla in följande data: antalet gånger du låser upp enheten, listan över dina appar tillsammans med motsvarande användningsvaraktighet, antalet gånger din skärm tänds, och fokusläge-inställningar.</string>
-    <string name="usage_permission_double_link" formatted="false">"&lt;Data>Denna app behöver ansluta till internet och samla in följande personlig data för att kunna fungera normalt. För att till fullo förstå dina rättigheter som användare och de sätt vi använder dina data, läs och acceptera vårt &lt;a href='%1s'>Användaravtal&lt;/a> och &lt;a href='%2s'>Integritetspolicy&lt;/a>.&lt;/Data>"</string>
+    <string name="usage_permission_double_link" formatted="false"><Data>"Denna app behöver ansluta till internet och samla in följande personlig data för att kunna fungera normalt. För att till fullo förstå dina rättigheter som användare och de sätt vi använder dina data, läs och acceptera vårt &lt;a href='%1s'>Användaravtal&lt;/a> och &lt;a href='%2s'>Integritetspolicy&lt;/a>."</Data></string>
     <string name="usage_permission_main_desc">"Välkommen till Screen time!
 Denna app behöver ansluta till internet och kräver följande behörigheter för att kunna fungera normalt:"</string>
     <string name="usage_permission_title">Obs!</string>

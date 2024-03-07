@@ -36,9 +36,9 @@
     <string name="activate_feature_mi_roaming">Mi Roaming</string>
     <string name="activate_feature_mms_sync">Synkronisera meddelanden</string>
     <string name="activate_feature_mx">Mi Meddelande</string>
-    <string name="activate_feature_register_xiaomi_account">Mi Kontoinställning</string>
+    <string name="activate_feature_register_xiaomi_account">Inställning av Xiaomi-konto</string>
     <string name="activate_feature_remote_assist">Remote assistant</string>
-    <string name="activate_feature_verify_mx_token">Mi-Konto verifiering</string>
+    <string name="activate_feature_verify_mx_token">Verifiering av Xiaomi-konto</string>
     <string name="activate_feature_voip">Mi Message VoIP</string>
     <string name="activate_history_canceled_overview">Aktiverat SIM-kort med framgång. Aktivering triggas av \"%1$s\".</string>
     <string name="activate_history_multisim_canceled_overview">Aktiverat SIM-kort %2$d med framgång. Aktivering triggas av \"%1$s\".</string>
@@ -47,8 +47,8 @@
     <string name="activate_history_success_overview">Aktiverat SIM-kort med framgång. Aktivering triggas av \"%1$s\".</string>
     <string name="activate_history_title">SIM-kortsaktivering</string>
     <string name="activate_phone_failed_notif_title_sim">Kunde inte aktivera \"%2$s\" med SIM %1$d</string>
-    <string name="activate_phone_register_xiaomi_account_success_notif_title_sim">Skapat Mi-konto med SIM %d</string>
-    <string name="activate_phone_registered_xiaomi_account_failed_notif_title_sim">Kunde inte skapa Mi-konto med SIM %d</string>
+    <string name="activate_phone_register_xiaomi_account_success_notif_title_sim">Har skapat Xiaomi-konto med SIM %d</string>
+    <string name="activate_phone_registered_xiaomi_account_failed_notif_title_sim">Kunde inte skapa Xiaomi-konto med SIM %d</string>
     <string name="activate_phone_server_failed_notif_title">Kunde inte aktivera \"%s\"</string>
     <string name="activate_phone_server_success_notif_title">Aktiverat \"%s\"</string>
     <string name="activate_phone_success_notif_title_sim">Aktiverat \"%2$s\" med SIM %1$d</string>
@@ -60,8 +60,8 @@
     <string name="activate_popup_confirm_failed_receive_sms">Försök igen</string>
     <string name="activate_popup_confirm_failed_send_sms">Skicka igen</string>
     <string name="activate_popup_confirm_failed_server">Försök igen</string>
-    <string name="activate_popup_desc_2_intl_sim_cards_msg_with_charge_hint">För att aktivera \"%2$s\", kommer &lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>internationellt betalt SMS&lt;/b> att skickas. Din operatör kommer att debitera dig för detta meddelande.</string>
-    <string name="activate_popup_desc_2_sim_cards_msg_with_charge_hint">För att aktivera \"%2$s\", kommer &lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>inrikes betalt SMS&lt;/b> att skickas. Din operatör kommer att debitera dig för dessa meddelanden.</string>
+    <string name="activate_popup_desc_2_intl_sim_cards_msg_with_charge_hint">För att aktivera \"%2$s\", kommer &lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g> &lt;font color=#0097FF>internationellt betalt SMS &lt;/font> att skickas. Din operatör kommer att debitera dig för dessa meddelanden.</string>
+    <string name="activate_popup_desc_2_sim_cards_msg_with_charge_hint">För att aktivera \"%2$s\" kommer, &lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g> &lt;font color=#0097FF>nationellt SMS&lt;/font> att skickas. Din operatör kommer att debitera dig för dessa meddelanden.</string>
     <string name="activate_popup_desc_all_gateway_failed_query_info">"Kan inte hitta ditt telefonnummer. Se till att ditt SIM-kort har aktiverats.
 Ange telefonnumret kopplat till ditt nya SIM-kort för att återaktivera %s."</string>
     <string name="activate_popup_desc_all_gateway_failed_send_sms">"Det gick inte att skicka aktiveringsmeddelande. Se till att ditt SIM-kort har aktiverats.
@@ -74,21 +74,22 @@ Ange telefonnumret kopplat till ditt nya SIM-kort för att återaktivera %s."</s
     <string name="activate_popup_desc_failed_receive_sms">Kontrollera det telefonnummer du angett är korrekt och att SIM-kortet har aktiverats.</string>
     <string name="activate_popup_desc_failed_server">Kontrollera din nätverksanslutning och försök igen.</string>
     <string name="activate_popup_desc_failed_server_msg">Ett serverfel uppstod. Kontrollera dina nätverksinställningar och försök igen.</string>
-    <string name="activate_popup_desc_find_device_postfix_msg">%1$s. För att aktivera \"%3$s\", ange telefonnumret för SIM %2$d. Om du ersätter detta SIM-kort kommer ett annat aktiverings-SMS att skickas.</string>
-    <string name="activate_popup_desc_find_device_postfix_msg_one_sim">%1$s. För att aktivera \"%2$s\", ange ditt telefonnummer. Om du byter detta SIM-kort kommer ett annat aktiverings-SMS att skickas.</string>
-    <string name="activate_popup_desc_intl_sim_card_msg_with_charge_hint">För att aktivera \"%2$s\", kommer &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>internationellt betalt SMS&lt;/b> att skickas. Din operatör kommer att debitera dig för detta meddelande.</string>
-    <string name="activate_popup_desc_mi_account_user_manual">%1$s. &lt;Data>Se &lt;a href=https://account.xiaomi.com/helpcenter/faq>Mi-kontos användarmanual&lt;/a> om du har några frågor.&lt;/Data></string>
-    <string name="activate_popup_desc_mixed_sim_cards_msg_with_charge_hint">För att aktivera \"%3$s\", kommer &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>inrikes betalt SMS&lt;/b> och &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>internationellt betalt SMS&lt;/b> att skickas. Din operatör kommer att debitera dig för dessa meddelanden.</string>
+    <string name="activate_popup_desc_find_device_postfix_msg">%1$s För att aktivera \"%3$s\", ange telefonnumret för SIM %2$d. Om du ersätter detta SIM-kort kommer ett annat aktiverings-SMS att skickas.</string>
+    <string name="activate_popup_desc_find_device_postfix_msg_one_sim">%1$s För att aktivera \"%2$s\", ange ditt telefonnummer. Om du byter detta SIM-kort kommer ett annat aktiverings-SMS att skickas.</string>
+    <string name="activate_popup_desc_intl_sim_card_msg_with_charge_hint">För att aktivera \"%2$s\", kommer ett &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF> internationellt betalt SMS &lt;/font> att skickas. Din operatör kommer att debitera dig för det här meddelandet.</string>
+    <string name="activate_popup_desc_mi_account_user_manual">"%1$s
+&lt;Data>Se &lt;a href=https://account.xiaomi.com/helpcenter/faq>Xiaomi-kontots användarmanual&lt;/a> om du har några frågor.&lt;/Data>"</string>
+    <string name="activate_popup_desc_mixed_sim_cards_msg_with_charge_hint">För att aktivera \"%3$s\", kommer ett &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>nationellt betalt SMS&lt;/font> och &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>internationellt betalt SMS&lt;/font> att skickas. Din opertör kommer att debitera dig för dessa meddelanden.</string>
     <string name="activate_popup_desc_sim_card_downlink_msg">För att aktivera \"%2$s\", ange telefonnumret för SIM %1$d.</string>
     <string name="activate_popup_desc_sim_card_downlink_msg_one_sim">För att aktivera %s, ange ditt telefonnummer.</string>
     <string name="activate_popup_desc_sim_card_msg_with_charge_hint">För att aktivera \"%2$s\", kommer &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>betalt SMS&lt;/font> att skickas. Din operatör kommer att debitera dig för detta meddelande.</string>
-    <string name="activate_popup_desc_voip_privacy_prefix_msg">%1$s. För att aktivera \"%3$s\", ange telefonnumret för SIM %2$d. Teknisk support tillhandahålls delvis av Weihuitel. Se Weihuitels Integritetspolicy för detaljer.</string>
-    <string name="activate_popup_desc_voip_privacy_prefix_msg_one_sim">%1$s. För att aktivera \"%2$s\", ange ditt telefonnummer . Teknisk support tillhandahålls delvis av Weihuitel. Se Weihuitels Integritetspolicy för detaljer.</string>
+    <string name="activate_popup_desc_voip_privacy_prefix_msg">%1$s För att aktivera \"%3$s\", ange telefonnumret för SIM %2$d. Teknisk support tillhandahålls delvis av Weihuitel. Se Weihuitels Integritetspolicy för detaljer.</string>
+    <string name="activate_popup_desc_voip_privacy_prefix_msg_one_sim">%1$s För att aktivera \"%2$s\", ange ditt telefonnummer . Teknisk support tillhandahålls delvis av Weihuitel. Se Weihuitels Integritetspolicy för detaljer.</string>
     <string name="activate_popup_failed_send_sms_desc">Kunde inte skicka aktiverings-SMS. Se till så att SIM %d fungerar korrekt och försök igen.</string>
     <string name="activate_popup_failed_send_sms_desc_one_sim">Kunde inte skicka aktiverings-SMS. Se till att ditt SIM-kort fungerar korrekt och försök igen.</string>
     <string name="activate_progress_status_title">Aktiverar \"%s\"…</string>
-    <string name="activate_registered_xiaomi_account_failed_notif_title">Kunde inte skapa Mi-konto</string>
-    <string name="activate_registered_xiaomi_account_success_notif_title">Skapat Mi-konto</string>
+    <string name="activate_registered_xiaomi_account_failed_notif_title">Kunde inte skapa Xiaomi-konto</string>
+    <string name="activate_registered_xiaomi_account_success_notif_title">Har nu skapat Xiaomi-konto</string>
     <string name="activate_status_desc_acquire_phone_number">Verifierar telefon nummer…</string>
     <string name="activate_status_desc_acquire_phone_number_server_no_info_tip">Kunde inte verifiera telefonnummer. Se till så att SIM %d fungerar korrekt och försök igen.</string>
     <string name="activate_status_desc_acquire_phone_number_server_no_info_tip_one_sim">Kunde inte verifiera telefonnummer. Se till att ditt SIM-kort fungerar korrekt och försök igen.</string>
@@ -102,8 +103,8 @@ Ange telefonnumret kopplat till ditt nya SIM-kort för att återaktivera %s."</s
     <string name="activate_status_desc_sending_sms">Sänder aktiverings-SMS…</string>
     <string name="activate_status_desc_wait_for_sms">Väntar på aktiverings-SMS från server…</string>
     <string name="activate_status_title_activating_sim">Aktiverar \"%2$s\" med SIM %1$d…</string>
-    <string name="activate_status_title_registering_xiaomi_account">Skapar Mi-Konto…</string>
-    <string name="activate_status_title_registering_xiaomi_account_sim">Skapar Mi-konto med SIM %d…</string>
+    <string name="activate_status_title_registering_xiaomi_account">Skapar Xiaomi-konto…</string>
+    <string name="activate_status_title_registering_xiaomi_account_sim">Skapar Xiaomi-konto med SIM %d…</string>
     <string name="afternoon">Eftermiddag</string>
     <string name="am">F.m</string>
     <string name="app_name">Xiaomi SIM Aktiveringstjänst</string>
@@ -126,7 +127,7 @@ Ange telefonnumret kopplat till ditt nya SIM-kort för att återaktivera %s."</s
     <string name="error_sim_not_in_service_tip">SIM %d kan inte ansluta till nätverket. Se till så att SIM-kortet fungerar korrekt och försök igen.</string>
     <string name="error_sim_not_in_service_tip_one_sim">Kan inte ansluta till nätverket. Se till att ditt SIM-kort fungerar korrekt och försök igen.</string>
     <string name="evening">Eftermiddag</string>
-    <string name="explain_activate_register_xiaomi_account_title">Skapa Mi-Konto</string>
+    <string name="explain_activate_register_xiaomi_account_title">Skapa ett Xiaomi-konto</string>
     <string name="explain_activate_send_sms_permission_msg">För att aktivera %s behöver din enhet behörigheter att skicka aktiverings-SMS. Din operatör kommer att debitera dig för detta meddelande.</string>
     <string name="explain_send_sms_permission_button">Verifiera</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -186,15 +187,15 @@ Ange telefonnumret kopplat till ditt nya SIM-kort för att återaktivera %s."</s
     <string name="friday_shortest">Fre</string>
     <string name="midnight">Natt</string>
     <string name="miuix_access_state_desc">Valt</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Avmarkera alla</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
     <string name="miuix_appcompat_confirm_description">Bekräfta</string>
     <string name="miuix_appcompat_delete_description">Ta bort</string>
-    <string name="miuix_appcompat_deselect_all">Välj ingen</string>
-    <string name="miuix_appcompat_deselect_all_description">Välj ingen</string>
+    <string name="miuix_appcompat_deselect_all">Avmarkera alla</string>
+    <string name="miuix_appcompat_deselect_all_description">Avmarkera alla</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Sök</string>
     <string name="miuix_appcompat_select_all">Välj alla</string>
@@ -265,7 +266,7 @@ Ange telefonnumret kopplat till ditt nya SIM-kort för att återaktivera %s."</s
     <string name="sim_activated_failed_msg">Kunde inte aktivera tjänst. Tryck för att försöka igen.</string>
     <string name="sim_unactivated_feature_title">\"%s\" aktiverades inte</string>
     <string name="sim_unactivated_msg">Denna tjänst är inte aktiverad. Tryck för att försöka igen.</string>
-    <string name="sim_unactivated_register_xiaomi_account_feature_title">Mi-konto skapades inte</string>
+    <string name="sim_unactivated_register_xiaomi_account_feature_title">Xiaomi-konto skapades inte</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>

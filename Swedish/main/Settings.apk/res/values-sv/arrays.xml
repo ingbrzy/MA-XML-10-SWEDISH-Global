@@ -35,13 +35,13 @@
         <item>Anpassad</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
-        <item>Animering avaktiverad</item>
-        <item>Animationskala 0.5x</item>
-        <item>Animationskala 1x</item>
-        <item>Animationskala 1.5x</item>
-        <item>Animationskala 2x</item>
-        <item>Animationskala 5x</item>
-        <item>Animationskala 10x</item>
+        <item>Animation avstängd</item>
+        <item>Animation i skala 0,5x</item>
+        <item>Animation i skala 1x</item>
+        <item>Animation i skala 1,5x</item>
+        <item>Animation i skala 2x</item>
+        <item>Animation i skala 5x</item>
+        <item>Animation i skala 10x</item>
     </string-array>
     <string-array name="ap_identify">
         <item>Standard</item>
@@ -57,18 +57,6 @@
         <item>IPv4</item>
         <item>IPv6</item>
         <item>IPv4/IPv6</item>
-    </string-array>
-    <string-array name="app_install_location_entries">
-        <item>Lagring på intern enhet</item>
-        <item>Flyttbart SD-kort</item>
-        <item>Låt systemet bestämma</item>
-    </string-array>
-    <string-array name="app_ops_categories">
-        <item>Plats</item>
-        <item>Personligt</item>
-        <item>SMS/MMS</item>
-        <item>Media</item>
-        <item>Enhet</item>
     </string-array>
     <string-array name="app_ops_labels">
         <item>Plats</item>
@@ -207,10 +195,10 @@
     <string-array name="app_process_limit_entries">
         <item>Standardgräns</item>
         <item>Inga bakgrundsprocesser</item>
-        <item>1 process som mest</item>
-        <item>2 processer som mest</item>
-        <item>3 processer som mest</item>
-        <item>4 processer som mest</item>
+        <item>Högst 1 process</item>
+        <item>Högst 2 processer</item>
+        <item>Högst 3 processer</item>
+        <item>Högst 4 processer</item>
     </string-array>
     <string-array name="autofill_logging_level_entries">
         <item>Av</item>
@@ -223,17 +211,22 @@
         <item>Äldre än 90 dagar</item>
     </string-array>
     <array name="avatar_image_descriptions" />
-    <array name="avatar_images" />
     <string-array name="battery_indicator_style_entries">
         <item>Grafisk</item>
         <item>Procent (i ikonen)</item>
         <item>Procent (bredvid ikonen)</item>
         <item>Längst upp</item>
     </string-array>
+    <string-array name="battery_indicator_style_summaries">
+        <item>Grafisk</item>
+        <item>Procent (i ikonen)</item>
+        <item>Procent (bredvid ikonen)</item>
+        <item>Förloppsindikator</item>
+    </string-array>
     <string-array name="battery_labels">
-        <item>0%</item>
-        <item>50%</item>
-        <item>100%</item>
+        <item>0 %</item>
+        <item>50 %</item>
+        <item>100 %</item>
     </string-array>
     <string-array name="bearer_entries">
         <item>Ej angiven</item>
@@ -263,32 +256,32 @@
         <item>Låg latency</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Använd Systemets val (Standard)</item>
-        <item>16 bits/sample</item>
-        <item>24 bits/sample</item>
-        <item>32 bits/sample</item>
+        <item>Använd systemval (standardinställning)</item>
+        <item>16 bitar/sampling</item>
+        <item>24 bitar/sampling</item>
+        <item>32 bitar/sampling</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Använd Systemets val (Standard)</item>
-        <item>16 bits/sample</item>
-        <item>24 bits/sample</item>
-        <item>32 bits/sample</item>
+        <item>Använd systemval (standardinställning)</item>
+        <item>16 bitar/sampling</item>
+        <item>24 bitar/sampling</item>
+        <item>32 bitar/sampling</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Använd Systemets inställning (Standard)</item>
+        <item>Använd systemval (standardinställning)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Använd Systemets inställning (Standard)</item>
+        <item>Använd systemval (standardinställning)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Optimerad för ljudkvalité</item>
-        <item>Balanserad för ljud- och anslutningskvalité</item>
-        <item>Optimerad för anslutningskvalité</item>
-        <item>Bästa ansträngning (Automatisk bithastighet)</item>
+        <item>Optimerad för ljudkvalitet</item>
+        <item>Balanserad ljud- och anslutningskvalitet</item>
+        <item>Optimerad för anslutningskvalitet</item>
+        <item>Bästa möjliga kvalitet (anpassad bithastighet)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
         <item>Optimerad för ljudkvalité (990kbps/909kbps)</item>
@@ -320,20 +313,6 @@
         <item>Optimerad för ljudkvalitet (900 kbps)</item>
         <item>Bästa försök (Automatisk bithastighet)</item>
     </string-array>
-    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Använd Systemets val (Standard)</item>
-        <item>44.1 kHz</item>
-        <item>48.0 kHz</item>
-        <item>88.2 kHz</item>
-        <item>96.0 kHz</item>
-    </string-array>
-    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Använd Systemets val (Standard)</item>
-        <item>44.1 kHz</item>
-        <item>48.0 kHz</item>
-        <item>88.2 kHz</item>
-        <item>96.0 kHz</item>
-    </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
         <item>Använd Systemets inställning(Standard)</item>
         <item>SBC</item>
@@ -343,6 +322,7 @@
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptive audio</item>
         <item>Qualcomm® aptX™ TWS+ audio</item>
+        <item>LHDC V5</item>
         <item>LHDC V3/V4</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
@@ -358,6 +338,7 @@
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptive audio</item>
         <item>Qualcomm® aptX™ TWS+ audio</item>
+        <item>LHDC V5</item>
         <item>LHDC V3/V4</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
@@ -370,6 +351,11 @@
         <item>" | Aktiv (media)"</item>
         <item>" | Aktiv (telefon)"</item>
     </string-array>
+    <string-array name="bluetooth_audio_routing_titles">
+        <item>Använd appstandard</item>
+        <item>Spela upp i hörapparaten</item>
+        <item>Spela upp på telefonens högtalare</item>
+    </string-array>
     <string-array name="bluetooth_avrcp_version_values">
         <item>avrcp15</item>
         <item>avrcp13</item>
@@ -377,9 +363,9 @@
         <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.4 (Default)</item>
+        <item>AVRCP 1.5 (standard)</item>
         <item>AVRCP 1.3</item>
-        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.4</item>
         <item>AVRCP 1.6</item>
     </string-array>
     <string-array name="bluetooth_map_version_values">
@@ -388,7 +374,7 @@
         <item>map14</item>
     </string-array>
     <string-array name="bluetooth_map_versions">
-        <item>MAP 1.2 (Default)</item>
+        <item>MAP 1.2 (standard)</item>
         <item>MAP 1.3</item>
         <item>MAP 1.4</item>
     </string-array>
@@ -400,18 +386,21 @@
         <item>4</item>
         <item>5</item>
     </string-array>
-    <string-array name="bluetooth_visibility_timeout_entries">
-        <item>2 minuter</item>
-        <item>5 minuter</item>
-        <item>1 timme</item>
-        <item>Ange aldrig tidsgräns</item>
-    </string-array>
     <string-array name="bt_hci_snoop_log_entries">
-        <item>Inaktiverad</item>
-        <item>Filterade</item>
+        <item>Inaktiverat</item>
+        <item>Filtrering har aktiverats</item>
         <item>Aktiverad</item>
-        <item>Rubriker filtrerade</item>
-        <item>Mediapaket filtrerade</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_filters_entries">
+        <item>Lämna endast ACL-rubrik</item>
+        <item>Filtrera A2DP-mediapaket</item>
+        <item>Filtrera RFCOMM-kanal</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_profile_filter_entries">
+        <item>Avaktivera</item>
+        <item>Fyll med trådar av tecken</item>
+        <item>Lämna endast rubrik</item>
+        <item>Ta bort helt</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 sekund</item>
@@ -482,306 +471,40 @@
         <item>PIN-kod</item>
         <item>Lösenord</item>
     </string-array>
-    <string-array name="city_name">
-        <item>Abidjan</item>
-        <item>Accra</item>
-        <item>Addis Ababa</item>
-        <item>Alger</item>
-        <item>Blantyre</item>
-        <item>Brazzaville</item>
-        <item>Kairo</item>
-        <item>Casablanca</item>
-        <item>Conakry</item>
-        <item>Dakar</item>
-        <item>Dar es Salaam</item>
-        <item>Djibouti</item>
-        <item>Freetown</item>
-        <item>Gaborone</item>
-        <item>Harare</item>
-        <item>Johannesburg</item>
-        <item>Kampala</item>
-        <item>Khartoum</item>
-        <item>Kigali</item>
-        <item>Kinshasa</item>
-        <item>Lagos</item>
-        <item>Maseru</item>
-        <item>Mogadishu</item>
-        <item>Nairobi</item>
-        <item>São Tomé</item>
-        <item>Timbuktu</item>
-        <item>Tripoli</item>
-        <item>Tunis</item>
-        <item>Anchorage</item>
-        <item>Mendoza</item>
-        <item>Aruba</item>
-        <item>Asunción</item>
-        <item>Barbados</item>
-        <item>Belize</item>
-        <item>Bogotá</item>
-        <item>Buenos Aires</item>
-        <item>Cancun</item>
-        <item>Caracas</item>
-        <item>Caymanöarna</item>
-        <item>Chicago</item>
-        <item>Costa Rica</item>
-        <item>Curaçao</item>
-        <item>Dawson Creek</item>
-        <item>Denver</item>
-        <item>Detroit</item>
-        <item>Dominica</item>
-        <item>Edmonton</item>
-        <item>El Salvador</item>
-        <item>Fortaleza</item>
-        <item>Grand Turk</item>
-        <item>Grenada</item>
-        <item>Guatemala</item>
-        <item>Guyana</item>
-        <item>Halifax</item>
-        <item>Havanna</item>
-        <item>Indianapolis</item>
-        <item>Knox City</item>
-        <item>Petersburg</item>
-        <item>Tell City</item>
-        <item>Vevay</item>
-        <item>Vincennes</item>
-        <item>Winamac</item>
-        <item>Kingston</item>
-        <item>Nuestra Señora de La Paz</item>
-        <item>Lima</item>
-        <item>Los Angeles</item>
-        <item>Louisville</item>
-        <item>Managua</item>
-        <item>Martinique</item>
-        <item>Metlakatla</item>
-        <item>Mexico City</item>
-        <item>Monterrey</item>
-        <item>Montevideo</item>
-        <item>Montreal</item>
-        <item>Nassau</item>
-        <item>New York</item>
-        <item>Beulah</item>
-        <item>New salem</item>
-        <item>Panama</item>
-        <item>Phoenix</item>
-        <item>Port of Spain</item>
-        <item>Port-au-Prince</item>
-        <item>Puerto Rico</item>
-        <item>Santo Domingo</item>
-        <item>São Paulo</item>
-        <item>St. Johns</item>
-        <item>St. Kitts</item>
-        <item>St. Lucia</item>
-        <item>St. Thomas</item>
-        <item>Tijuana</item>
-        <item>Toronto</item>
-        <item>Vancouver</item>
-        <item>Winnipeg</item>
-        <item>Sydpolen</item>
-        <item>Longyearbyen</item>
-        <item>Almaty</item>
-        <item>Amman</item>
-        <item>Anadyr</item>
-        <item>Aqtau</item>
-        <item>Baghdad</item>
-        <item>Bahrain</item>
-        <item>Baku</item>
-        <item>Bangkok</item>
-        <item>Beirut</item>
-        <item>Calcutta</item>
-        <item>Damaskus</item>
-        <item>Dhaka</item>
-        <item>Dubai</item>
-        <item>Gaza</item>
-        <item>Hebron</item>
-        <item>Ho Chi Minh</item>
-        <item>Hong Kong</item>
-        <item>Jakarta</item>
-        <item>Jerusalem</item>
-        <item>Kabul</item>
-        <item>Karachi</item>
-        <item>Katmandu</item>
-        <item>Kuala Lumpur</item>
-        <item>Kuwait</item>
-        <item>Kuwait</item>
-        <item>Manilla</item>
-        <item>Muscat</item>
-        <item>Phnom Penh</item>
-        <item>Pyongyang</item>
-        <item>Qatar</item>
-        <item>Yangon</item>
-        <item>Riyadh</item>
-        <item>Seoul</item>
-        <item>Shanghai</item>
-        <item>Singapore</item>
-        <item>Taipei</item>
-        <item>Teheran</item>
-        <item>Tel Aviv</item>
-        <item>Tokyo</item>
-        <item>Ulaanbaatar</item>
-        <item>Bermuda</item>
-        <item>Kanarieöarna</item>
-        <item>Kap Verde</item>
-        <item>Reykjavik</item>
-        <item>Adelaide</item>
-        <item>Brisbane</item>
-        <item>Canberra</item>
-        <item>Darwin</item>
-        <item>Melbourne</item>
-        <item>New South Wales</item>
-        <item>Perth</item>
-        <item>Queensland</item>
-        <item>Sydney</item>
-        <item>Victoria</item>
-        <item>Newfoundland</item>
-        <item>Saskatchewan</item>
-        <item>Påskön</item>
-        <item>Amsterdam</item>
-        <item>Andorra</item>
-        <item>Aten</item>
-        <item>Belfast</item>
-        <item>Belgrad</item>
-        <item>Berlin</item>
-        <item>Bratislava</item>
-        <item>Bryssel</item>
-        <item>Bukarest</item>
-        <item>Budapest</item>
-        <item>Chisinau</item>
-        <item>Köpenhamn</item>
-        <item>Dublin</item>
-        <item>Gibraltar</item>
-        <item>Helsingfors</item>
-        <item>Isle of Man</item>
-        <item>Istanbul</item>
-        <item>Lissabon</item>
-        <item>London</item>
-        <item>Luxemburg</item>
-        <item>Madrid</item>
-        <item>Malta</item>
-        <item>Minsk</item>
-        <item>Monaco</item>
-        <item>Moskva</item>
-        <item>Oslo</item>
-        <item>Paris</item>
-        <item>Prag</item>
-        <item>Riga</item>
-        <item>Rom</item>
-        <item>San Marino</item>
-        <item>Sarajevo</item>
-        <item>Simferopol</item>
-        <item>Skopje</item>
-        <item>Sofia</item>
-        <item>Stockholm</item>
-        <item>Tallinn</item>
-        <item>Vatikanstaten</item>
-        <item>Wien</item>
-        <item>Vilnius</item>
-        <item>Warsawa</item>
-        <item>Zagreb</item>
-        <item>Zürich</item>
-        <item>Antananarivo</item>
-        <item>Maldiverna</item>
-        <item>Mauritius</item>
-        <item>Auckland</item>
-        <item>Fiji</item>
-        <item>Guam</item>
-        <item>Honolulu</item>
-        <item>Kiritimati</item>
-        <item>Noumea</item>
-        <item>Samoa</item>
-        <item>Tahiti</item>
-        <item>Antigua</item>
-        <item>Austin</item>
-        <item>Boston</item>
-        <item>Calgary</item>
-        <item>Columbus</item>
-        <item>Dallas</item>
-        <item>Knoxville</item>
-        <item>Memphis</item>
-        <item>Miami</item>
-        <item>Minneapolis</item>
-        <item>Ottawa</item>
-        <item>Philadelphia</item>
-        <item>Portland</item>
-        <item>San Diego</item>
-        <item>San Francisco</item>
-        <item>Salt Lake City</item>
-        <item>San Jose</item>
-        <item>Seattle</item>
-        <item>St. Louis</item>
-        <item>Washington D.C.</item>
-        <item>Houston</item>
-        <item>San Antonio</item>
-        <item>Jacksonville</item>
-        <item>Baltimore</item>
-        <item>Nashville</item>
-        <item>Milwaukee</item>
-        <item>Oklahoma City</item>
-        <item>Las Vegas</item>
-        <item>Albuquerque</item>
-        <item>Tucson</item>
-        <item>Sacramento</item>
-        <item>Atlanta</item>
-        <item>Cleveland</item>
-        <item>New Orleans</item>
-        <item>Tampa</item>
-        <item>Pittsburgh</item>
-        <item>Cincinnati</item>
-        <item>Mountain View</item>
-        <item>Reno</item>
-        <item>Doha</item>
-        <item>Peking</item>
-        <item>Mumbai</item>
-        <item>Delhi</item>
-        <item>Osaka</item>
-        <item>Lahore</item>
-        <item>"Sana'a"</item>
-        <item>Barcelona</item>
-        <item>München</item>
-        <item>Milano</item>
-        <item>Frankfurt</item>
-        <item>Hanoi</item>
-        <item>Ankara</item>
-        <item>Bengaluru</item>
-        <item>Brasília</item>
-        <item>Kapstaden</item>
-        <item>Islamabad</item>
-        <item>Rio de Janeiro</item>
-        <item>Ann Arbor</item>
-        <item>Boulder</item>
-        <item>Cambridge</item>
-        <item>Kirkland</item>
-        <item>Madison</item>
-        <item>Guangzhou</item>
-        <item>Hyderabad</item>
-        <item>Reston</item>
-        <item>Belo Horizonte</item>
-        <item>Santiago</item>
-        <item>Monrovia</item>
-        <item>Colombo</item>
-        <item>Chihuahua</item>
-        <item>Gurugram</item>
-        <item>Manchester</item>
-        <item>Kiev</item>
-        <item>St. Petersburg</item>
-        <item>Kraków</item>
-        <item>Wroclaw</item>
-        <item>Hamburg</item>
-        <item>Oulu</item>
-        <item>Haifa</item>
-        <item>San Juan</item>
-        <item>Tegucigalpa</item>
-        <item>Paramaribo</item>
-        <item>Quito</item>
-    </string-array>
+    <array name="click_bottom">
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom04</item>
+        <item>@drawable/clickbottom05</item>
+        <item>@drawable/clickbottom06</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom08</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+    </array>
     <string-array name="color_mode_descriptions">
-        <item>Förstärkta färger</item>
-        <item>Naturliga färger som ögat ser dem</item>
-        <item>Färger är optimerade för digitalt innehåll</item>
+        <item>Berikade färger</item>
+        <item>Naturliga färger så som ögat ser dem</item>
+        <item>Färger som har anpassats för digitalt innehåll</item>
     </string-array>
     <string-array name="color_mode_names">
-        <item>Livfull (standard)</item>
-        <item>Naturlig</item>
-        <item>Standard</item>
+        <item>Starka (standard)</item>
+        <item>Naturliga</item>
+        <item>Standardfärger</item>
     </string-array>
     <string-array name="color_picker">
         <item>Cyan</item>
@@ -808,12 +531,8 @@
         <item>1</item>
     </string-array>
     <string-array name="dark_ui_mode_entries">
-        <item>Mörkt</item>
-        <item>Ljust</item>
-    </string-array>
-    <string-array name="data_usage_data_range">
-        <item>Senaste 30 dagarna</item>
-        <item>Ange användningscykel ...</item>
+        <item>Mörk</item>
+        <item>Lätt</item>
     </string-array>
     <string-array name="date_of_app_all">
         <item>"Idag (mobildata) "</item>
@@ -835,18 +554,8 @@
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
         <item>Av</item>
-        <item>Visa övertrasserade områden</item>
-        <item>Visa områden för Deuteranomaly</item>
-    </string-array>
-    <string-array name="dream_timeout_entries">
-        <item>Aldrig</item>
-        <item>15 sekunder</item>
-        <item>30 sekunder</item>
-        <item>1 minut</item>
-        <item>2 minuter</item>
-        <item>5 minuter</item>
-        <item>10 minuter</item>
-        <item>30 minuter</item>
+        <item>Visa överritningsområden</item>
+        <item>Visa områden för deuteranomali</item>
     </string-array>
     <string-array name="eap_ocsp_type">
         <item>Verifiera inte</item>
@@ -856,14 +565,8 @@
     <string-array name="enable_opengl_traces_entries">
         <item>Inga</item>
         <item>Logcat</item>
-        <item>Systrace (Grafik)</item>
-        <item>Call stack on glGetError</item>
-    </string-array>
-    <string-array name="entries_font_size">
-        <item>Liten</item>
-        <item>Standardinställning</item>
-        <item>Stor</item>
-        <item>Störst</item>
+        <item>Systrace (grafik)</item>
+        <item>Anropsstacken på glGetError</item>
     </string-array>
     <string-array name="fluency_mode_confirms">
         <item>Starta om din enhet för att tillämpa denna inställning?</item>
@@ -890,17 +593,31 @@
     </string-array>
     <string-array name="hdcp_checking_summaries">
         <item>Använd aldrig HDCP-kontroll</item>
-        <item>Använd HDCP-kontroll endast för DRM-innehåll</item>
+        <item>Använd bara HDCP-kontroll för DRM-innehåll</item>
         <item>Använd alltid HDCP-kontroll</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
         <item>Kontrollera aldrig</item>
-        <item>Sök endast efter DRM-innehåll</item>
+        <item>Kontrollera bara DRM-innehåll</item>
         <item>Kontrollera alltid</item>
     </string-array>
     <string-array name="hide_account_list">
         <item>com.android.localphone</item>
         <item>com.android.sim</item>
+    </string-array>
+    <string-array name="input_method_selector_titles">
+        <item>@string/input_method_selector_show_automatically_title</item>
+        <item>@string/input_method_selector_always_show_title</item>
+        <item>@string/input_method_selector_always_hide_title</item>
+    </string-array>
+    <string-array name="key_and_gesture_shortcut_action">
+        <item>long_press_home_key</item>
+        <item>long_press_menu_key</item>
+        <item>long_press_back_key</item>
+        <item>key_combination_power_home</item>
+        <item>key_combination_power_menu</item>
+        <item>key_combination_power_back</item>
+        <item>key_none</item>
     </string-array>
     <string-array name="keyguard_notification_status_entries">
         <item>Väck inte skärmen</item>
@@ -945,6 +662,43 @@
         <item>Efter 5 minuter</item>
         <item>Aldrig</item>
     </string-array>
+    <array name="long_press">
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom04</item>
+        <item>@drawable/clickbottom05</item>
+        <item>@drawable/clickbottom06</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+    </array>
     <string-array name="long_press_timeout_selector_list_titles">
         <item>Kort</item>
         <item>Medel</item>
@@ -1018,6 +772,14 @@
         <item>"Avinstallera enhet: fusermount -u /media/mtp
 Note: Bara för Ubuntu 8.04!"</item>
     </string-array>
+    <string-array name="msd_pc_system_retry_mac">
+        <item>@string/msd_install_retry_reinstall_mac</item>
+        <item>@string/msd_install_retry_connect</item>
+        <item>@string/msd_install_retry_reinstall</item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_vista">
+        <item>@string/msd_install_retry_connect</item>
+    </string-array>
     <string-array name="msd_pc_system_retry_xp">
         <item>@string/msd_install_retry_connect</item>
         <item>Installera Mi PC Suite igen</item>
@@ -1034,6 +796,14 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Nätverket är för långsamt på grund av för svag signal styrka</item>
         <item>Flyttar…</item>
     </string-array>
+    <string-array name="nfc_notification_mode_summaries">
+        <item>Betalning, åtkomst och smart-hem-kort</item>
+        <item>Parkoppling med bluetooth, trådlös anslutning och smart-hem-kort</item>
+    </string-array>
+    <string-array name="nfc_notification_mode_titles">
+        <item>Alla kort</item>
+        <item>Kort igenkända av systemet</item>
+    </string-array>
     <string-array name="nfc_payment_favor">
         <item>Alltid</item>
         <item>Förutom när en annan betalningsapp är öppen</item>
@@ -1043,6 +813,11 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>1</item>
     </string-array>
     <string-array name="notch_battery_indicator_style_entries">
+        <item>Grafisk</item>
+        <item>Procent (i ikonen)</item>
+        <item>Procent (bredvid ikonen)</item>
+    </string-array>
+    <string-array name="notch_battery_indicator_style_summaries">
         <item>Grafisk</item>
         <item>Procent (i ikonen)</item>
         <item>Procent (bredvid ikonen)</item>
@@ -1104,18 +879,18 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>zw</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
-        <item>Ingen</item>
-        <item>480p</item>
-        <item>480p (säker)</item>
-        <item>720p</item>
-        <item>720p (säker)</item>
-        <item>1080p</item>
-        <item>1080p (säker)</item>
+        <item>Inga</item>
+        <item>480 p</item>
+        <item>480 p (säkert)</item>
+        <item>720 p</item>
+        <item>720 p (säkert)</item>
+        <item>1080 p</item>
+        <item>1080 p (säkert)</item>
         <item>4K</item>
-        <item>4k (säker)</item>
-        <item>4K (uppskalad)</item>
-        <item>4K (uppskalad, säker)</item>
-        <item>720p, 1080p (dubbla skärmar)</item>
+        <item>4K (säkert)</item>
+        <item>4K (uppskalat)</item>
+        <item>4K (uppskalat, säkert)</item>
+        <item>720 p, 1080 p (dubbla skärmar)</item>
     </string-array>
     <string-array name="paper_color_values">
         <item>Alla färger</item>
@@ -1131,6 +906,97 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Dämpa bruset för en mikrofon</item>
         <item>Dämpa bruset för två mikrofoner</item>
     </string-array>
+    <array name="power_click">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
+    <array name="power_double_click">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
+    <array name="power_long_press">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
     <string-array name="power_mode_entries">
         <item>Prestanda</item>
         <item>Balanserad</item>
@@ -1192,28 +1058,6 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Filer</item>
         <item>Anteckningar</item>
     </string-array>
-    <string-array name="proc_stats_memory_states">
-        <item>Normal</item>
-        <item>Måttlig</item>
-        <item>Låg</item>
-        <item>Kritisk</item>
-    </string-array>
-    <string-array name="proc_stats_process_states">
-        <item>Ihållande</item>
-        <item>Toppaktivitet</item>
-        <item>Viktig (förgrund)</item>
-        <item>Viktig (bakgrund)</item>
-        <item>Säkerhetskopia</item>
-        <item>Tungvikt</item>
-        <item>Service (pågående)</item>
-        <item>Service (startar om)</item>
-        <item>Mottagare</item>
-        <item>Hem</item>
-        <item>Senaste aktivitet</item>
-        <item>Cachelagrad (aktivitet)</item>
-        <item>Cachelagrad (aktivitetsklient)</item>
-        <item>Cachelagrad (tom)</item>
-    </string-array>
     <string-array name="ram_states">
         <item>Normal</item>
         <item>Medel</item>
@@ -1254,6 +1098,11 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Mättad</item>
         <item>Standard</item>
     </string-array>
+    <string-array name="screen_resolution_format">
+        <item>@string/screen_resolution_ultrahigh_format</item>
+        <item>@string/screen_resolution_high_format</item>
+        <item>@string/screen_resolution_normal_format</item>
+    </string-array>
     <string-array name="screen_resolution_text">
         <item>2K</item>
         <item>1080p</item>
@@ -1282,44 +1131,60 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Tillåt aldrig</item>
         <item>Tillåt alltid</item>
     </string-array>
+    <string-array name="select_gpo_version_summaries">
+        <item>Av</item>
+        <item>GPO4</item>
+        <item>GPO5</item>
+        <item>GPO6</item>
+    </string-array>
+    <string-array name="select_gpo_version_titles">
+        <item>Av</item>
+        <item>GPO4</item>
+        <item>GPO5</item>
+        <item>GPO6</item>
+    </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>Av</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
+        <item>64 kB</item>
+        <item>256 kB</item>
+        <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Av</item>
-        <item>64 KB i buffertutrymme per logg</item>
-        <item>256 KB i buffertutrymme per logg</item>
-        <item>1 MB i bufferutrymme per logg</item>
-        <item>4 MB i bufferutrymme per logg</item>
-        <item>8M per log buffer</item>
+        <item>64 kB/loggbuffert</item>
+        <item>256 kB/loggbuffert</item>
+        <item>1 MB/loggbuffert</item>
+        <item>4 MB/loggbuffert</item>
+        <item>8 MB/loggbuffert</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Av</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
-        <item>4M</item>
-        <item>8M</item>
+        <item>64 kB</item>
+        <item>256 kB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>8 MB</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Av</item>
         <item>Alla loggbuffertar</item>
-        <item>Alla förutom loggbuffertar för radio</item>
-        <item>Endast buffert för kernel-log</item>
+        <item>Alla loggbuffertar utom för radio</item>
+        <item>endast buffert av kernellogg</item>
     </string-array>
     <string-array name="select_logpersist_titles">
         <item>Av</item>
         <item>Alla</item>
-        <item>Allt utom radio</item>
-        <item>Endast kernel</item>
+        <item>Alla utom radio</item>
+        <item>endast kernel</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Av</item>
-        <item>Rita icke-rektangulära regioner i blått</item>
-        <item>Markera testade ritkommandon i grönt</item>
+        <item>Rita icke-rektangulära urklippsavsnitt i blått</item>
+        <item>Markera testade ritningskommandon i grönt</item>
+    </string-array>
+    <string-array name="silent_entries">
+        <item>@string/standard</item>
+        <item>@string/total</item>
     </string-array>
     <string-array name="silent_mode_duration_text">
         <item>Alltid</item>
@@ -1339,6 +1204,24 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>4</item>
         <item>1</item>
     </string-array>
+    <string-array name="smart_device_control_entries">
+        <item>@string/mi_smart_hub_entry_title</item>
+        <item>Smart hem</item>
+        <item>Inget</item>
+    </string-array>
+    <string-array name="smart_device_control_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="smart_home_entries">
+        <item>Smart hem</item>
+        <item>Inget</item>
+    </string-array>
+    <string-array name="smart_home_values">
+        <item>2</item>
+        <item>3</item>
+    </string-array>
     <string-array name="startup_hips_action">
         <item>Tillåt</item>
         <item>Tillåt inte</item>
@@ -1347,7 +1230,7 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>1</item>
         <item>0</item>
     </string-array>
-    <string-array name="switch_to_user_zero_when_docked_timeout_entries">
+    <string-array name="switch_to_dock_user_when_docked_timeout_entries">
         <item>Aldrig</item>
         <item>Efter 1 minut</item>
         <item>Efter 5 minuter</item>
@@ -1357,29 +1240,49 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Bas</item>
         <item>Pop</item>
     </string-array>
+    <string-array name="tabs_taptic_detail_m2">
+        <item>Skarp</item>
+        <item>Solid</item>
+    </string-array>
     <string-array name="tare_modifiers_subfactors">
         <item>Laddning</item>
         <item>Slummerfunktion</item>
         <item>Strömsparläge</item>
         <item>Processtatus</item>
     </string-array>
+    <array name="three_drop">
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop02</item>
+        <item>@drawable/threedrop03</item>
+        <item>@drawable/threedrop04</item>
+        <item>@drawable/threedrop05</item>
+        <item>@drawable/threedrop06</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
     <string-array name="time_format_entries">
         <item>12-timmar 1:00 PM</item>
         <item>24-timmar 13:00</item>
         <item>Automatiskt (baseras på systemspråk)</item>
     </string-array>
-    <string-array name="timezone_filters">
-        <item>Amerika</item>
-        <item>Europa</item>
-        <item>Afrika</item>
-        <item>Asien</item>
-        <item>Australien</item>
-        <item>Stilla havet</item>
-        <item>Alla</item>
-    </string-array>
     <string-array name="track_frame_time_entries">
         <item>Av</item>
-        <item>Som staplar på skärmen</item>
+        <item>På skärmen som fält</item>
         <item>Om adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="traffic_balance_entries">
@@ -1397,13 +1300,13 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Wi-Fi</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Animering avaktiverad</item>
-        <item>Animationskala 0.5x</item>
-        <item>Animationskala 1x</item>
-        <item>Animationskala 1.5x</item>
-        <item>Animationskala 2x</item>
-        <item>Animationskala 5x</item>
-        <item>Animationskala 10x</item>
+        <item>Animation avstängd</item>
+        <item>Animation i skala 0,5x</item>
+        <item>Animation i skala 1x</item>
+        <item>Animation i skala 1,5x</item>
+        <item>Animation i skala 2x</item>
+        <item>Animation i skala 5x</item>
+        <item>Animation i skala 10x</item>
     </string-array>
     <string-array name="true_color_screen_optimize_summary">
         <item>Justera färger baserat på visat innehåll</item>
@@ -1416,26 +1319,15 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Originalfärg</item>
     </string-array>
     <string-array name="tts_rate_entries">
-        <item>Väldigt långsam</item>
-        <item>Långsam</item>
-        <item>Normal</item>
-        <item>Snabb</item>
-        <item>Snabbare</item>
-        <item>Mycket snabb</item>
-        <item>Snabb</item>
-        <item>Mycket snabbt</item>
-        <item>Snabbast</item>
-    </string-array>
-    <string-array name="tts_rate_values">
-        <item>60</item>
-        <item>80</item>
-        <item>100</item>
-        <item>150</item>
-        <item>200</item>
-        <item>250</item>
-        <item>300</item>
-        <item>350</item>
-        <item>400</item>
+        <item>60 %</item>
+        <item>80 %</item>
+        <item>100 %</item>
+        <item>150 %</item>
+        <item>200 %</item>
+        <item>250 %</item>
+        <item>300 %</item>
+        <item>350 %</item>
+        <item>400 %</item>
     </string-array>
     <string-array name="tts_rate_xunfei_entries">
         <item>Very slow</item>
@@ -1444,16 +1336,22 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Fast</item>
         <item>Faster</item>
     </string-array>
-    <string-array name="usage_stats_display_order_types">
-        <item>Användningstid</item>
-        <item>Användes senast</item>
-        <item>Appnamn</item>
+    <string-array name="typing_style_entries">
+        <item>Standard</item>
+        <item>Tryck</item>
+        <item>Direkttryck</item>
+    </string-array>
+    <string-array name="udfps_accessibility_touch_hints">
+        <item>Flytta till vänster</item>
+        <item>Flytta ner</item>
+        <item>Flytta till höger</item>
+        <item>Flytta upp</item>
     </string-array>
     <string-array name="usb_configuration_titles">
         <item>Laddar</item>
         <item>MTP (Media Transfer Protocol)</item>
         <item>PTP (Picture Transfer Protocol)</item>
-        <item>RNDIS (USB Ethernet)</item>
+        <item>RNDIS (USB-ethernet)</item>
         <item>Ljudkälla</item>
         <item>MIDI</item>
     </string-array>
@@ -1486,16 +1384,9 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Tidsgräns</item>
         <item>Misslyckades</item>
     </string-array>
-    <string-array name="vpn_types_long">
-        <item>PPTP-VPN</item>
-        <item>L2TP-/IPSec-VPN med nycklar som delats i förväg</item>
-        <item>L2TP-/IPSec-VPN med certifikat</item>
-        <item>IPSec-VPN med nycklar som delats i förväg och Xauth-autentisering</item>
-        <item>IPSec-VPN med certifikat och Xauth-autentisering</item>
-        <item>IPSec-VPN med certifikat och dubbel autentisering</item>
-        <item>IKEv2-/IPSec-VPN med certifikat och autentisering med användarnamn och lösenord</item>
-        <item>IKEv2-/IPSec-VPN med i förväg delade nycklar</item>
-        <item>IKEv2-/IPSec-VPN med certifikat</item>
+    <string-array name="wapi_psk_type">
+        <item>@string/wapi_psk_type_ascii</item>
+        <item>@string/wapi_psk_type_hex</item>
     </string-array>
     <string-array name="wfd_status">
         <item>Startar session…</item>
@@ -1516,6 +1407,14 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Procent (i ikonen)</item>
         <item>Procent (bredvid ikonen i notifikationspanelen)</item>
     </string-array>
+    <string-array name="wifi_ap_band_config_2G_5G">
+        <item>@string/wifi_ap_choose_2G</item>
+        <item>@string/wifi_ap_choose_5G</item>
+    </string-array>
+    <string-array name="wifi_ap_hidden_ssid_config">
+        <item>@string/wifi_ap_ssid_off</item>
+        <item>@string/wifi_ap_ssid_on</item>
+    </string-array>
     <string-array name="wifi_ap_security">
         <item>@string/wifi_security_none</item>
         <item>@string/wifi_security_wpa2</item>
@@ -1533,12 +1432,6 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Anslut automatiskt</item>
         <item>Anslut manuellt</item>
         <item>Fråga alltid</item>
-    </string-array>
-    <string-array name="wifi_eap_entries">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
     </string-array>
     <string-array name="wifi_hidden_entries">
         <item>Nej</item>
@@ -1568,11 +1461,6 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Tillgänglig</item>
         <item>Utanför intervallet</item>
     </string-array>
-    <string-array name="wifi_p2p_wps_setup">
-        <item>Tryckknapp</item>
-        <item>PIN-kod från den andra enheten</item>
-        <item>PIN-kod från enheten</item>
-    </string-array>
     <string-array name="wifi_peap_phase2_entries">
         <item>MSCHAPV2</item>
         <item>GTC</item>
@@ -1592,6 +1480,12 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Ingen</item>
         <item>Manuell</item>
         <item>Autokonfig. av proxy</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>@string/wifi_security_none</item>
+        <item>@string/wifi_security_wep</item>
+        <item>@string/wifi_security_psk_generic</item>
+        <item>@string/wifi_security_eap</item>
     </string-array>
     <string-array name="wifi_signal">
         <item>Dålig</item>
@@ -1653,12 +1547,12 @@ Note: Bara för Ubuntu 8.04!"</item>
         <item>Undviker just nu dålig anslutning</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Animering avaktiverad</item>
-        <item>Animationskala 0.5x</item>
-        <item>Animationskala 1x</item>
-        <item>Animationskala 1.5x</item>
-        <item>Animationskala 2x</item>
-        <item>Animationskala 5x</item>
-        <item>Animationskala 10x</item>
+        <item>Animation avstängd</item>
+        <item>Animation i skala 0,5x</item>
+        <item>Animation i skala 1x</item>
+        <item>Animation i skala 1,5x</item>
+        <item>Animation i skala 2x</item>
+        <item>Animation i skala 5x</item>
+        <item>Animation i skala 10x</item>
     </string-array>
 </resources>

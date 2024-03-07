@@ -5,16 +5,16 @@
         <item quantity="one">1 timme sedan</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 timme sedan</item>
-        <item quantity="one">1 timme sedan</item>
+        <item quantity="other">%d timmar sedan</item>
+        <item quantity="one">%d timma sedan</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">En halvtimme sedan</item>
         <item quantity="one">En halvtimme sedan</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Om 1 timme</item>
-        <item quantity="one">Om 1 timme</item>
+        <item quantity="other">Om %d timmar</item>
+        <item quantity="one">Om %d timma</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Om en halvtimma</item>
@@ -25,8 +25,8 @@
         <item quantity="one">Omedelbart</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">om %d min</item>
-        <item quantity="one">om 1 min</item>
+        <item quantity="other">Om %d minuter</item>
+        <item quantity="one">Om %d minut</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Nyss</item>
@@ -34,7 +34,7 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d minuter sedan</item>
-        <item quantity="one">1 minut sedan</item>
+        <item quantity="one">%d minut sedan</item>
     </plurals>
     <plurals name="add_secret_ensure_message">
         <item quantity="other">Lägg till dessa objekt till privat album?</item>
@@ -172,9 +172,9 @@
         <item quantity="other">%d objekt valda</item>
         <item quantity="one">%d objekt vald</item>
     </plurals>
-    <plurals name="delete_burst_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">Ta bort %d sprängskisser från Xiaomi Cloud och alla synkroniserade enheter?</item>
-        <item quantity="one">Ta bort %d sprängskiss från Xiaomi Cloud och alla synkroniserade enheter?</item>
+    <plurals name="delete_brust_title">
+        <item quantity="other">Ta bort %d fotoserier?</item>
+        <item quantity="one">Ta bort %d fotoserie?</item>
     </plurals>
     <plurals name="delete_burst_photo_from_local">
         <item quantity="other">Ta bort %d sprängskisser?</item>
@@ -192,17 +192,13 @@
         <item quantity="other">Ta bort %d objekt?</item>
         <item quantity="one">Ta bort %d objekt?</item>
     </plurals>
-    <plurals name="delete_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">Ta bort %d bilder från alla enheter och från Xiaomi Cloud?</item>
-        <item quantity="one">Ta bort %d bild från alla enheter och från Xiaomi Cloud?</item>
+    <plurals name="delete_media_title">
+        <item quantity="other">Ta bort %d objekt?</item>
+        <item quantity="one">Ta bort %d objekt?</item>
     </plurals>
     <plurals name="delete_third_party_burst_photo">
         <item quantity="other">Ta bort %d sprängskisser från din enhet?</item>
         <item quantity="one">Ta bort %d sprängskiss från din enhet?</item>
-    </plurals>
-    <plurals name="delete_video_from_all_devices_and_cloud_msg">
-        <item quantity="other">Ta bort %d videor från alla enheter och från Xiaomi Cloud?</item>
-        <item quantity="one">Ta bort %d video från alla enheter och från Xiaomi Cloud?</item>
     </plurals>
     <plurals name="download_error">
         <item quantity="other">Kunde inte ladda ner %1$d filer</item>
@@ -311,10 +307,6 @@
     <plurals name="photo_count_format">
         <item quantity="other">Totalt %1$d objekt</item>
         <item quantity="one">Totalt %1$d objekt</item>
-    </plurals>
-    <plurals name="photo_editor_talkback_crop_scale_value">
-        <item quantity="other">Rotera %d grader</item>
-        <item quantity="one">Rotera %d grad</item>
     </plurals>
     <plurals name="photo_remain_days">
         <item quantity="other">%d dagar</item>
@@ -480,6 +472,10 @@
         <item quantity="other">Det gick inte att dela. Bearbetar fortfarande %d foton…</item>
         <item quantity="one">Det gick inte att dela. Bearbetar fortfarande %d foto…</item>
     </plurals>
+    <plurals name="send_too_many_files_error">
+        <item quantity="other">Välj upp till %d objekt att skicka</item>
+        <item quantity="one">Välj upp till %d objekt att skicka</item>
+    </plurals>
     <plurals name="send_video_dialog_desc">
         <item quantity="other">%2$d videor från %1$s</item>
         <item quantity="one">%2$d video från %1$s</item>
@@ -577,8 +573,8 @@
         <item quantity="one">%d video</item>
     </plurals>
     <plurals name="sync_error_title">
-        <item quantity="other">Har inte säkerhetskopierat %d foto eller video</item>
-        <item quantity="one">Har inte säkerhetskopierat %d foto eller video</item>
+        <item quantity="other">%d objekt är inte synkroniserade</item>
+        <item quantity="one">%d objekt är inte synkroniserat</item>
     </plurals>
     <plurals name="sync_oversized_count">
         <item quantity="other">%d objekt är för stora för att säkerhetskopiera</item>
@@ -628,6 +624,14 @@
         <item quantity="other"></item>
         <item quantity="one"></item>
     </plurals>
+    <plurals name="tran_notification_complete_msg">
+        <item quantity="other">Kunde inte överföra %1$d objekt</item>
+        <item quantity="one">Kunde inte överföra %1$d objekt</item>
+    </plurals>
+    <plurals name="transfer_status_banner_msg_file_failed">
+        <item quantity="other">Kunde inte överföra %1$d objekt. Besök i.mi.com för att ladda ner dem.</item>
+        <item quantity="one">Kunde inte överföra %1$d objekt. Besök i.mi.com för att ladda ner det.</item>
+    </plurals>
     <plurals name="trash_purge_dialog_message_cloud">
         <item quantity="other">%d valda objekt kommer att tas bort permanent från molnet och alla synkroniserade enheter. Vill du ändå ta bort?</item>
         <item quantity="one">%d valt objekt kommer att tas bort permanent från molnet och alla synkroniserade enheter. Vill du ändå ta bort?</item>
@@ -651,6 +655,14 @@
     <plurals name="trash_vip_info_text_login">
         <item quantity="other">Objekt kan lagras här i upp till %1$d dagar (%2$s)</item>
         <item quantity="one">Objekt kan lagras här i %1$d dag (%2$s)</item>
+    </plurals>
+    <plurals name="trash_vip_info_text_login_medium_or_low_level">
+        <item quantity="other">Objekt kan lagras här i %1$s dagar. Tryck för att förlänga den här perioden.</item>
+        <item quantity="one">Objekt kan lagras här i %1$s dag. Tryck för att förlänga den här perioden.</item>
+    </plurals>
+    <plurals name="trash_vip_info_text_no_sync_server">
+        <item quantity="other">Radera objekt som lagras i molnet i %1$d dagar</item>
+        <item quantity="one">Radera objekt som lagras i molnet i %1$d dag</item>
     </plurals>
     <plurals name="trash_vip_info_text_unlogin">
         <item quantity="other">Objekt kan lagras här i upp till %1$d dagar. Uppgradera din plan för att förlänga denna period.</item>

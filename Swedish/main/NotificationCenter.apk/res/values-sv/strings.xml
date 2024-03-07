@@ -60,7 +60,7 @@
     <string name="feedback">Feedback</string>
     <string name="float_notification_snooze_strategy">Dölj temporärt</string>
     <string name="float_notification_snooze_summary">Svep upp på en flytande notifikation för att temporärt dölja efterkommande</string>
-    <string name="float_notification_snooze_summary_1_min">Swipe up on a floating notification to hide upcoming ones for %d minute</string>
+    <string name="float_notification_snooze_summary_1_min">Svep uppåt på en flytande notifikation för att dölja kommande i %d minut</string>
     <string name="float_notification_snooze_summary_always_float">Visa alltid svävande notifikationer</string>
     <string name="float_notification_snooze_summary_until_unlock">Svep uppåt på en svävande notifikation för att dölja kommande tills enheten är låst</string>
     <string name="float_notifications">Svävande notifikationer</string>
@@ -235,6 +235,7 @@
     <string name="settings_guide_title">Behöver andra inställningar?</string>
     <string name="show_badge_notifications">Notifikationsmärken</string>
     <string name="show_badge_notifications_short">Märken</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statusfält</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_disable_float_notification">Svävande notifikationer tillåts inte</string>

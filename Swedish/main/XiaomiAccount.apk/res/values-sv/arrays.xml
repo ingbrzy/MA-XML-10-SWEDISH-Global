@@ -4,6 +4,10 @@
         <item>Man</item>
         <item>Kvinna</item>
     </string-array>
+    <string-array name="passport_account_user_gender_name">
+        <item>Man</item>
+        <item>Kvinna</item>
+    </string-array>
     <string-array name="settings_search_account_and_authority_global">
         <item>Konton</item>
         <item>Lägg till och hantera tredjepartskonto</item>
@@ -11,23 +15,28 @@
     </string-array>
     <string-array name="settings_search_account_and_authority_non_global">
         <item>Konton</item>
-        <item>Lägg till och hantera tredjepartskonto</item>
-        <item>Konton;SNS;WeChat;QQ;Mi-konto;konto;Xiaomi-konto</item>
+        <item>Visa dina anslutna WeChat- och andra SNS-konton</item>
+        <item>behörigheter;SNS;WeCHat;Xiaomi-konto;konto</item>
     </string-array>
     <string-array name="settings_search_change_password">
         <item>Ändra lösenord</item>
         <item>Ändra lösenord för Xiaomi-konto</item>
         <item>Ändra lösenord;uppdatera lösenord;Mi-konto;konto;Xiaomi-konto</item>
     </string-array>
+    <string-array name="settings_search_cloud_space_share">
+        <item>Lagringsutrymme för familj</item>
+        <item>Visa/aktivera lagringsutrymme för familj</item>
+        <item>Lagringsutrymme för familj;Delning av lagringsutrymme</item>
+    </string-array>
+    <string-array name="settings_search_family_service">
+        <item>Familjetjänster</item>
+        <item>Visa/aktivera familjetjänster</item>
+        <item>Familj;Familjetjänster;Familjedelning</item>
+    </string-array>
     <string-array name="settings_search_help_center">
         <item>Hjälp</item>
         <item>Få hjälp och support för Xiaomi-konto</item>
         <item>Mi-konto;konto;Xiaomi-konto;kontohjälp;hjälpcentrum</item>
-    </string-array>
-    <string-array name="settings_search_login_2_step_verify">
-        <item>2-stegsverifiering</item>
-        <item>Ställ in 2-stegsverifiering för ditt Xiaomi-konto</item>
-        <item>Inloggning;logga in;2-steg;verifiering;Xiaomi;konto;Mi.konto;konto;Xiaomi-konto</item>
     </string-array>
     <string-array name="settings_search_login_and_security">
         <item>Kontosäkerhet</item>

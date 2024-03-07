@@ -5,6 +5,23 @@
         <item>Standardapp</item>
         <item>Dubbelapp</item>
     </string-array>
+    <string-array name="key_and_gesture_shortcut_action">
+        <item>long_press_home_key</item>
+        <item>long_press_menu_key</item>
+        <item>long_press_back_key</item>
+        <item>key_combination_power_home</item>
+        <item>key_combination_power_menu</item>
+        <item>key_combination_power_back</item>
+        <item>key_none</item>
+    </string-array>
+    <string-array name="screen_key_position_action">
+        <item>Menyknappen till vänster, Bakåtknappen till höger</item>
+        <item>Bakåtknappen till vänster, Menyknappen till höger</item>
+    </string-array>
+    <string-array name="screen_key_press_action">
+        <item>Show recent apps tray</item>
+        <item>Show menu</item>
+    </string-array>
     <string-array name="switch_apps_entries">
         <item>Används i första utrymmet</item>
         <item>Använt i nuvarande utrymme</item>
@@ -18,6 +35,6 @@
     <string-array name="switch_apps_title_confirms">
         <item>Appdata kommer försvinna</item>
         <item>Appdata kommer försvinna</item>
-        <item>Uppmärksamma</item>
+        <item>Observera</item>
     </string-array>
 </resources>

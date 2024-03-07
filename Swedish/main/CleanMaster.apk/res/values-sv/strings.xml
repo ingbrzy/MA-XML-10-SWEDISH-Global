@@ -52,6 +52,7 @@
     <string name="activity_title_uninstall_apps">Appar</string>
     <string name="activity_title_video">Ta bort videoklipp</string>
     <string name="activity_title_white_list">Undantag</string>
+    <string name="ad_flag_text">Annons</string>
     <string name="ad_install_success_dialog_lunch">Öppen</string>
     <string name="ad_install_success_dialog_title">Installerad %1$s. Öppna nu?</string>
     <string name="afternoon">Eftermiddag</string>
@@ -239,6 +240,7 @@
     <string name="dc_item_title_wechat_chat">Rensa WeChat-historik</string>
     <string name="dc_storage_cleaned">Frigjorde %s</string>
     <string name="dc_storage_info">Tillgängligt %1$s | Totalt %2$s</string>
+    <string name="dc_storage_info_new">%1$s tillgängligt</string>
     <string name="deep_clean_completed_tips">Rensning lyckades</string>
     <string name="deep_clean_data_path_clean_title">Rensa cache</string>
     <string name="deep_clean_uninstall_completed_tips">Avinstallationen lyckades</string>
@@ -302,6 +304,7 @@
     <string name="download">Ladda ner</string>
     <string name="downloading">Laddar ner</string>
     <string name="early_morning">Morgon</string>
+    <string name="empty">" "</string>
     <string name="empty_content_no_ignore_image">Tom</string>
     <string name="empty_content_no_privacy">Tom</string>
     <string name="empty_content_no_similar_image">Inga foton</string>
@@ -462,7 +465,6 @@
     <string name="guide_dc_dialog_negative">Avbryt</string>
     <string name="guide_dc_dialog_positive">OK</string>
     <string name="guide_dc_dialog_title">Lagringsutrymmet är snart slut</string>
-    <string name="guide_secure_dialog_message">Din optimeringspoäng är under 80 poäng. Optimera nu?</string>
     <string name="guide_secure_dialog_message_new">Din optimeringspoäng är under %d poäng. Optimera nu?</string>
     <string name="guide_secure_dialog_negative">Avbryt</string>
     <string name="guide_secure_dialog_positive">Optimera</string>
@@ -490,6 +492,7 @@
     <string name="hints_garbage_cleanup_result_safe">Allt ser bra ut</string>
     <string name="hints_garbage_handle_item_content">%1$d objekt, %2$s</string>
     <string name="hints_garbage_handle_item_empty_content">Tom</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_installed_app_fewer">Används inte så ofta</string>
     <string name="hints_installed_app_near">Nyligen använts</string>
     <string name="hints_installed_app_never">Aldrig använd</string>
@@ -539,6 +542,7 @@
     <string name="last_check_canceled">Föregående skanning avbröts</string>
     <string name="load_only_under_wlan">Ladda med enbart Wi-Fi</string>
     <string name="location_not_found">Det gick inte att hitta filen</string>
+    <string name="lock_device_toast">Den här enheten är låst. Lås upp den för att använda Städaren.</string>
     <string name="login_immediately">Logga in</string>
     <string name="long_click_dialog_summary">Håll inne för att lägga till undantag.</string>
     <string name="long_click_dialog_title">Märka</string>
@@ -566,15 +570,15 @@
     <string name="menu_view">Visa i mapp</string>
     <string name="midnight">Natt</string>
     <string name="miuix_access_state_desc">Valt</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Välj ingen</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Avmarkera alla</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
     <string name="miuix_appcompat_confirm_description">Bekräfta</string>
     <string name="miuix_appcompat_delete_description">Ta bort</string>
-    <string name="miuix_appcompat_deselect_all">Välj ingen</string>
-    <string name="miuix_appcompat_deselect_all_description">Välj ingen</string>
+    <string name="miuix_appcompat_deselect_all">Avmarkera alla</string>
+    <string name="miuix_appcompat_deselect_all_description">Avmarkera alla</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Sök</string>
     <string name="miuix_appcompat_select_all">Välj alla</string>
@@ -638,6 +642,9 @@
     <string name="msg_update_error_code_success">Klar</string>
     <string name="msg_update_error_code_unknown_error">Servrarna är för tillfället upptagna. Vänta en minut eller två och försök igen.</string>
     <string name="name_debuglog_dir">BSP-felsökningslogg</string>
+    <string name="native_body">Brödtext</string>
+    <string name="native_headline">Rubrik</string>
+    <string name="native_media_view">Medievisning</string>
     <string name="nb_clear_set">Rensa cache, visa batteri och blockeringslista i Notifikationspanelen</string>
     <string name="network_not_available">Kan inte ansluta till nätverket</string>
     <string name="news_change">Ändra</string>
@@ -744,12 +751,7 @@
     <string name="pref_title_open_optimizer_cloud_scan">Ladda upp filnamn</string>
     <string name="pref_title_open_optimizer_memory_scan">Skanna appminne</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
-    <string name="privacy_app_desc">Konto och lösenord</string>
-    <string name="privacy_app_desc_message">Konto, lösenord och meddelanden</string>
-    <string name="privacy_app_desc_search">Konto, lösenord och sökhistorik</string>
-    <string name="privacy_app_desc_setting">Konto, lösenord och inställningar</string>
     <string name="privacy_browser_desc">Genomsökta objekt</string>
-    <string name="privacy_cache_desc">Konto, lösenord, historik, inställningar och mer</string>
     <string name="privacy_cache_empty">Ingen privat data</string>
     <string name="privacy_cache_scaning">Kontrollerar…</string>
     <string name="privacy_cache_title">Personlig information</string>
@@ -807,6 +809,7 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="skip_ad">Hoppa över</string>
     <string name="sponsored">Sponsrade</string>
     <string name="start_downloading_app">Startar nedladdning: %1$s</string>
     <string name="start_install">Installera nu</string>
@@ -868,9 +871,7 @@
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
     <string name="tips_low_storage_dialog_cancel">Avbryt</string>
-    <string name="tips_low_storage_dialog_msg_qq">Cachen för QQ har nått 3GB. Detta kan göra din enhet långsam. Rensa cachen för QQ nu?</string>
     <string name="tips_low_storage_dialog_msg_qq_new">Cachen för QQ har nått %d GB. Detta kan göra din enhet långsam. Rensa cachen för QQ nu?</string>
-    <string name="tips_low_storage_dialog_msg_storage">Du använder 90% av ditt lagringsutrymme. Avinstallera apparna som du inte använder.</string>
     <string name="tips_low_storage_dialog_msg_storage_new">Du använder %s av ditt lagringsutrymme. Avinstallera apparna som du inte använder.</string>
     <string name="tips_low_storage_dialog_msg_wechat_new">Cachen för WeChat har nått %d GB. Detta kan göra din enhet långsam. Rensa cachen för WeChat nu?</string>
     <string name="tips_low_storage_dialog_ok">Rensa</string>
@@ -938,6 +939,7 @@
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="virus_scan">Virusskanning</string>
+    <string name="watermark_label_prefix">AdMob –</string>
     <string name="wechat_chat_data_type_cache">WeChat-cache</string>
     <string name="wechat_chat_data_type_cache_desc">Du kommer att kunna återställa dessa filer när du återfår nätverkskontakt.</string>
     <string name="wechat_chat_data_type_chat">Chathistorik</string>

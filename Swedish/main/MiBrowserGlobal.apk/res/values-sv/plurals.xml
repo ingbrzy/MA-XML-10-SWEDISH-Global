@@ -5,16 +5,16 @@
         <item quantity="one">1 timme sedan</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 timme sedan</item>
-        <item quantity="one">1 timme sedan</item>
+        <item quantity="other">%d timmar sedan</item>
+        <item quantity="one">%d timma sedan</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">En halvtimme sedan</item>
         <item quantity="one">En halvtimme sedan</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Om 1 timme</item>
-        <item quantity="one">Om 1 timme</item>
+        <item quantity="other">Om %d timmar</item>
+        <item quantity="one">Om %d timma</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Om en halvtimma</item>
@@ -25,8 +25,8 @@
         <item quantity="one">Omedelbart</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">om %d min</item>
-        <item quantity="one">om 1 min</item>
+        <item quantity="other">Om %d minuter</item>
+        <item quantity="one">Om %d minut</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Nyss</item>
@@ -34,7 +34,7 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d minuter sedan</item>
-        <item quantity="one">1 minut sedan</item>
+        <item quantity="one">%d minut sedan</item>
     </plurals>
     <plurals name="adblock_notification">
         <item quantity="other">Blockerat %d annonser</item>
@@ -48,6 +48,10 @@
         <item quantity="other">Blockerat %d annonser hittills</item>
         <item quantity="one">Blockerat %d annons hittills</item>
     </plurals>
+    <plurals name="antivirus_desc_not_scanned_virus_in_days">
+        <item quantity="other">Har inte skannats på %d dagar</item>
+        <item quantity="one">Har inte skannats på %d dag</item>
+    </plurals>
     <plurals name="articles_updated_amount">
         <item quantity="other">Kolla in %1$d nya artiklar</item>
         <item quantity="one">Kolla in %1$d ny artikel</item>
@@ -55,6 +59,22 @@
     <plurals name="auto_play_next_tips">
         <item quantity="other">Spelar upp nästa video om %d sekunder</item>
         <item quantity="one">Spelar upp nästa video om %d sekund</item>
+    </plurals>
+    <plurals name="back_dialog_antivirus_content_des">
+        <item quantity="other">Du har inte skannat din enhet på %d dagar. Skanna nu?</item>
+        <item quantity="one">Du har inte skannat din enhet på %d dag. Skanna nu?</item>
+    </plurals>
+    <plurals name="back_dialog_day">
+        <item quantity="other">dagar</item>
+        <item quantity="one">dag</item>
+    </plurals>
+    <plurals name="back_dialog_health_check_content_des">
+        <item quantity="other">Du har inte optimerat din enhet på %d dagar. Optimera nu?</item>
+        <item quantity="one">Du har inte optimerat din enhet på %d dag. Optimera nu?</item>
+    </plurals>
+    <plurals name="count_likes">
+        <item quantity="other">%s likes</item>
+        <item quantity="one">%s like</item>
     </plurals>
     <plurals name="days_ago">
         <item quantity="other">%1$d dagar sedan</item>
@@ -148,6 +168,10 @@
         <item quantity="other">%d objekt valda</item>
         <item quantity="one">%d objekt vald</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nya aviseringar</item>
+        <item quantity="one">%d ny avisering</item>
+    </plurals>
     <plurals name="mw_last_num_days">
         <item quantity="other">Senaste %d dagar</item>
         <item quantity="one">Senaste %d dag</item>
@@ -192,9 +216,9 @@
         <item quantity="other">Blockerat %d annonser</item>
         <item quantity="one">Blockerat %d annons</item>
     </plurals>
-    <plurals name="reading__search_resultful">
-        <item quantity="other">Hittade %1$d resultat</item>
-        <item quantity="one">Hittade%1$d resultat</item>
+    <plurals name="recommend_top_guide">
+        <item quantity="other">%d nya rekommenderade videor</item>
+        <item quantity="one">%d ny rekommenderad video</item>
     </plurals>
     <plurals name="search_trending_views">
         <item quantity="other">%s sökbegäran</item>
@@ -291,5 +315,9 @@
     <plurals name="web_permission_protect_subtitle_time">
         <item quantity="other">%s gånger</item>
         <item quantity="one">%s gång</item>
+    </plurals>
+    <plurals name="web_preload_hint_dialog_title">
+        <item quantity="other">Förra veckan ökade Mi Webbläsare laddningshastigheten åt dig med %d gånger!</item>
+        <item quantity="one">Förra veckan ökade Mi Webbläsare laddningshastigheten åt dig med %d gång!</item>
     </plurals>
 </resources>
