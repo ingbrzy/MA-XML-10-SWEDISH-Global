@@ -370,17 +370,12 @@ en skrollnings-skärmdump"</string>
     <string name="screen_editor_btn_save">Spara</string>
     <string name="screen_editor_btn_shell_off">Ta bort enhetsramen</string>
     <string name="screen_editor_btn_shell_on">Lägg till en enhetsram</string>
-    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
     <string name="screen_editor_delete_dialog_msg">Ta bort skärmdump?</string>
     <string name="screen_editor_delete_dialog_picture_msg">Vill du ta bort denna bild nu?</string>
-    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">Klar</string>
-    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
-    <string name="screen_editor_send">@string/operation_send</string>
     <string name="screen_editor_shell_disallowed_with_crop">Kan inte lägga till enhetsram till beskärda skärmdumpar</string>
     <string name="screen_editor_shell_net_error">Anslut till nätverket för att ladda ner enhetsram</string>
     <string name="screen_editor_shell_res_downloading">Laddar ner enhetsram…</string>
-    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">Avbryt</string>
     <string name="screen_save_dialog_btn_delete">Ta bort skärmdump</string>
     <string name="screen_save_dialog_btn_save">Spara till Galleri</string>

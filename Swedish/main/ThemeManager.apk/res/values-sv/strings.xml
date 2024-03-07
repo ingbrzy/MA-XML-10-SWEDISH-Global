@@ -253,9 +253,7 @@
     <string name="exo_download_paused_for_wifi">Nedladdningar väntar på wifi</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
-    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativ</string>
     <string name="exo_track_role_closed_captions">Undertexter</string>
     <string name="exo_track_role_commentary">Kommentar</string>
@@ -396,7 +394,6 @@
     <string name="incompatible_dialog_ok">Jag förstår</string>
     <string name="incompatible_dialog_title">Kompatibilitetsproblem</string>
     <string name="is_setting_wallpaper_message">Ställer in bakgrund…</string>
-    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarm</string>
     <string name="item_resource_audio_optional_color_ring">Kopplingston</string>
     <string name="item_resource_audio_optional_notification_ring">Notifikationer</string>
@@ -566,7 +563,6 @@ mm"</string>
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -835,7 +831,6 @@ mm"</string>
     <string name="resource_pack_price_info">Originalpris: %1$s</string>
     <string name="resource_pack_warning">Du har redan köpt %1$d komponenter i detta tema. Det är billigare om du köper de återstående komponenterna individuellt.</string>
     <string name="resource_present">Gåva</string>
-    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Gratis</string>
     <string name="resource_price_unit"> Mi Krediter</string>
     <string name="resource_purchase_common_error">Ett fel uppstod, försök igen</string>
@@ -973,7 +968,6 @@ mm"</string>
     <string name="somatosensory_temperature_format">Känns som %s°</string>
     <string name="special_topic">Kategorier</string>
     <string name="start_all">Återuppta alla</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="still_apply">Lägg till</string>
     <string name="storage_file">För att spara nedladdade objekt</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -1106,7 +1100,6 @@ mm"</string>
     <string name="theme_is_external_priority_storage">Spara till SD-kort</string>
     <string name="theme_is_external_priority_storage_summary">Tema-appen kommer starta direkt för att verkställa inställningar.</string>
     <string name="theme_multiple_button_title_customize">Anpassa</string>
-    <string name="theme_name">%1$s</string>
     <string name="theme_no">Nej</string>
     <string name="theme_on_the_phone_alert">Det går inte att spela upp under samtal</string>
     <string name="theme_recommend">Liknande teman</string>

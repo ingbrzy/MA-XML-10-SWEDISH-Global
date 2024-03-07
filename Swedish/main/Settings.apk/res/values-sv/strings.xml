@@ -1816,7 +1816,6 @@ När %2$s är ansluten tar den emot alla samtal till %3$s."</string>
 Om du redan gjort något av ovanstående, lägg till ditt Mi-konto igen annars kommer du inte kunna låsa upp din enhet igen."</string>
     <string name="bootloader_tips_ok">Jag förstår</string>
     <string name="bootloader_tips_warning">Frånkoppla inte från nätverket, logga inte ut från ditt Mi-konto, gör ingen fabriksåterställning eller radera inte systemdata.</string>
-    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="bottom_function_settings">Funktioner för ytterligare knappar</string>
     <string name="bottomsheet_action_expand_halfway">Utöka till hälften</string>
     <string name="breathing_light_color_menu_title">Lampfärg</string>
@@ -2910,7 +2909,6 @@ Denna inställning påverkar alla användare av denna enhet."</string>
     <string name="dialog_wifi_context">Du behöver ansluta till internet för att ställa in din enhet. Om du inte ansluter till Wi-Fi kan din mobildata komma att användas. Användning av mobildata kan generera ytterligare operatörsavgifter. Använd mobildata ändå?</string>
     <string name="dialog_wifi_title">Använder mobildata</string>
     <string name="dialog_yes">Ja</string>
-    <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Obs: Efter en omstart kommer denna app inte starta innan du låser upp din enhet.</string>
     <string name="disable_overlays">Inaktivera HW-överlagringar</string>
     <string name="disable_overlays_summary">Använd alltid GPU för skärmsammansättning</string>
@@ -2996,7 +2994,6 @@ Denna inställning påverkar alla användare av denna enhet."</string>
     <string name="dndm_auto_button_title">Upprepa Stör ej tid</string>
     <string name="dndm_auto_setting_group">Schemalagd</string>
     <string name="dndm_auto_time_setting">Ange tid</string>
-    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">Till</string>
     <string name="dndm_auto_time_turn_off_title">Stäng automatiskt av Stör ej</string>
     <string name="dndm_auto_time_turn_on">Från</string>
@@ -4695,7 +4692,6 @@ Xiaomi Cloud
     <string name="lights_title">LED-ljus</string>
     <string name="line_breaking_summary">Optimera radbrytning för paragrafer</string>
     <string name="line_breaking_title">Optimera meddelande</string>
-    <string name="link_speed">%1$d Mbit/s</string>
     <string name="link_turbo_prompt">Statistiken på den här sidan visar endast datamängden som används till att förbättra Wi-Fi-anslutningens hastighet. Statistiken reflekterar inte verklig mobildataanvändning.</string>
     <string name="link_turbo_settings_all_app_display_loading">Vänta lite…</string>
     <string name="link_turbo_settings_all_app_reach_max">Du kan välja upp till 15 appar</string>
@@ -5303,7 +5299,6 @@ Du kommer inte kunna ångra denna åtgärd."</string>
     <string name="memory_usage">Minnesanvändning</string>
     <string name="memory_usage_apps">Minne som används av appar</string>
     <string name="memory_usage_apps_summary">{count,plural, =1{1 app har använt minne under senaste {time}}other{# appar har använt minne under senaste {time}}}</string>
-    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">%1$s genomsnittlig minnesanvändning de senaste 3 timmarna</string>
     <string name="memorycard_calculating">Beräknar…</string>
     <string name="memtag_footer">Du måste starta om enheten för att aktivera eller inaktivera Avancerat minnesskydd. När funktionen är aktiverad kan enhetens prestanda försämras.</string>
@@ -6061,7 +6056,6 @@ Välj ditt operativsystem:"</string>
     <string name="nfc_more_details">Läs mer</string>
     <string name="nfc_more_title">Mer …</string>
     <string name="nfc_notification_mode_title">Påminnelser om NFC-kortavläsning</string>
-    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Ange standard</string>
     <string name="nfc_payment_btn_text_update">Uppdatera</string>
     <string name="nfc_payment_default">Standardapp för betalning</string>
@@ -6658,7 +6652,6 @@ Läs och acceptera %s innan du använder den här tjänsten."</string>
     <string name="power_cell">Mobilnätverk</string>
     <string name="power_center">Batterioptimering</string>
     <string name="power_charge_remaining">Ladda i %1$s till</string>
-    <string name="power_charging">%1$s – %2$s</string>
     <string name="power_charging_duration">%1$s – %2$s kvar tills fulladdat</string>
     <string name="power_charging_future_paused">%1$s - Laddning optimerad</string>
     <string name="power_charging_limited">%1$s - Laddning optimerad</string>
@@ -6715,7 +6708,6 @@ Tryck på av/på-knappen och knappen för att höja volymen samtidigt"</string>
     <string name="power_remaining_less_than_duration_only">Mindre än %1$s återstår</string>
     <string name="power_remaining_more_than_subtext">Mer än %1$s återstår (%2$s)</string>
     <string name="power_remaining_only_more_than_subtext">Mer än %1$s återstår</string>
-    <string name="power_remaining_settings_home_page">%1$s – %2$s</string>
     <string name="power_screen">Skärm</string>
     <string name="power_settings_title">Systemprestanda</string>
     <string name="power_suggestion_battery_run_out">Batteriet kan ta slut klockan %1$s</string>
@@ -6966,7 +6958,6 @@ Tryck på av/på-knappen och knappen för att höja volymen samtidigt"</string>
     <string name="privileged_action_disable_sub_dialog_title">Vill du inaktivera %1$s?</string>
     <string name="privileged_action_disable_sub_dialog_title_without_carrier">Vill du inaktivera SIM-kortet?</string>
     <string name="process_dex2oat_label">Appoptimering</string>
-    <string name="process_kernel_label">Operativsystemet Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="process_network_tethering">Internetdelning</string>
     <string name="process_provider_in_use_description">Leverantören %1$s används.</string>
@@ -7760,7 +7751,6 @@ Så här fäster du appar: \u0009
     <string name="security_encryption_attention_3">Du måste ställa in ett nytt skärmlås.</string>
     <string name="security_encryption_attention_4">Se till att du kommer ihåg ditt skärmlås, annars måste du genomföra en komplett fabriksåterställning och rensa all data på enheten.</string>
     <string name="security_encryption_attention_info">Du kan kryptera konton, inställningar, nedladdade appar samt deras data, media och andra filer.</string>
-    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Viktigt</string>
     <string name="security_encryption_close_dialog_info">Om du väljer att inte kryptera enheten med ett skärmlås kan göra vissa av Googles tjänster otillgängliga.</string>
     <string name="security_encryption_close_dialog_title">Gå tillbaka till standard systemkryptering</string>
@@ -8355,7 +8345,6 @@ Dubbeltryck för att öppna Senaste."</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_peta_byte">PB</string>
-    <string name="size_suffix">%1$s %2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip_anyway_button_label">Hoppa över ändå</string>
     <string name="skip_label">Hoppa över</string>
@@ -8571,10 +8560,8 @@ Detta är möjligt eftersom betrodda autentiseringsuppgifter har installerats p�
     <string name="status_bar_app_enable_keyguard">Låsskärm</string>
     <string name="status_bar_app_enable_message">Märken</string>
     <string name="status_bar_carrier_settings_no_sim_card">Inget SIM-kort</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_settings">Notifikationer och statusfält</string>
     <string name="status_bar_settings_all_app_display_loading">Vänta en stund…</string>
-    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_manage_notification">Appnotifikationer</string>
     <string name="status_bar_settings_notification_bar">Notifikationspanel</string>
     <string name="status_bar_settings_status_bar">Statusfält</string>
@@ -8897,7 +8884,6 @@ Testa att använda en snabbare version av ^3, eller använd ^4 för bärbar lagr
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_divider_text">", "</string>
     <string name="summary_quick_control_all_devices">Visa kontroller för närliggande tv-apparater, högtalare och bilar i Kontrollcenter</string>
-    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="sunday">Söndag</string>
     <string name="sunday_first_day_of_week">söndag</string>
     <string name="sunday_short">Sön</string>
@@ -9814,7 +9800,6 @@ Tryck på plus att lägga till ord."</string>
     <string name="vision_settings_title">Syninställningar</string>
     <string name="voice_access">Röststyrningar</string>
     <string name="voice_assist">Mi AI</string>
-    <string name="voice_assist_volume_option_title">@string/voice_assist</string>
     <string name="voice_category">Tal</string>
     <string name="voice_helper_title">Röstassistent</string>
     <string name="voice_input_output_settings">Röstindata och -utdata</string>
@@ -10980,11 +10965,9 @@ När du inaktiverar Stör ej kan du visa aviseringar som du missat genom att sve
     <string name="zone_auto_summaryOff">Använd tiden som tillhandahålls av operatörsnätverket</string>
     <string name="zone_auto_summaryOn">Använd tiden som tillhandahålls av operatörsnätverket</string>
     <string name="zone_auto_title">Ange tidszon automatiskt</string>
-    <string name="zone_info_exemplar_location_and_offset">%1$s (%2$s)</string>
     <string name="zone_info_footer_first_sentence">Använder %1$s. %2$s</string>
     <string name="zone_info_footer_no_dst">%1$s används. Sommartid gäller inte.</string>
     <string name="zone_info_footer_second_sentence">%1$s börjar den %2$s.</string>
-    <string name="zone_info_offset_and_name">%2$s (%1$s)</string>
     <string name="zone_list_menu_sort_alphabetically">Sortera alfabetiskt</string>
     <string name="zone_list_menu_sort_by_timezone">Sortera efter tidszon</string>
     <string name="zone_menu_by_offset">Välj efter UTC-förskjutning</string>
