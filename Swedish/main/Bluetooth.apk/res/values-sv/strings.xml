@@ -56,6 +56,9 @@
     <string name="bluetooth_sap_notif_message">Vill du begära att klienten ska koppla från?</string>
     <string name="bluetooth_sap_notif_ticker">SIM-åtkomst för Bluetooth</string>
     <string name="bluetooth_sap_notif_title">SIM-åtkomst för Bluetooth</string>
+    <string name="bt_Auracast_audio_share_notification_content">Tryck för att visa detaljer</string>
+    <string name="bt_Auracast_audio_share_notification_title">Sänd ljud från den här enheten…</string>
+    <string name="bt_audio_share_assistant_notification_title">Tar emot en sändning från en närliggande enhet…</string>
     <string name="bt_audio_share_notification_content">Tryck för att visa alternativ</string>
     <string name="bt_audio_share_notification_title">Delar ljud</string>
     <string name="bt_enable_cancel">Avbryt</string>
@@ -84,6 +87,7 @@
     <string name="call_notification_screening_text">Ett inkommande samtal filtreras</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
     <string name="close">Stäng</string>
+    <string name="close_broadcast_audio">Avsluta</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -259,6 +263,7 @@
     <string name="not_exist_file">Ingen fil</string>
     <string name="not_exist_file_desc">"Filen finns inte. 
 "</string>
+    <string name="notice_audio_share_classic_disconnected">Avslutade ljuddelning</string>
     <string name="notice_audio_share_disconnected">Delar inte längre ljud på grund av avbruten anslutning</string>
     <string name="notification_received">Bluetooth-delning: %1$s har tagits emot</string>
     <string name="notification_received_fail">Bluetooth-delning: filen %1$s har inte tagits emot</string>
@@ -272,7 +277,9 @@
     <string name="opp_notification_group">Bluetooth-delning</string>
     <string name="outbound_history_title">Utgående överföringar</string>
     <string name="outbound_noti_title">Bluetooth-delning: skickade filer</string>
+    <string name="pairing_ui_package">com.android.settings</string>
     <string name="pbap_acceptance_timeout_message">Tidsgränsen för godkännande av anslutning till %1$s har överskridits</string>
+    <string name="pbap_account_type">com.android.bluetooth.pbapsink</string>
     <string name="pbap_authentication_timeout_message">Tiden för inmatning av sessionsnyckel med %1$s har gått ut</string>
     <string name="pbap_notification_group">Kontaktdelning via Bluetooth</string>
     <string name="pbap_session_key_dialog_header">En Bluetooth-sessionsnyckel krävs</string>

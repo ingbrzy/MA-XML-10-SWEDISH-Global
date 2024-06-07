@@ -304,6 +304,7 @@
     <string name="download">Ladda ner</string>
     <string name="downloading">Laddar ner</string>
     <string name="early_morning">Morgon</string>
+    <string name="empty">" "</string>
     <string name="empty_content_no_ignore_image">Tom</string>
     <string name="empty_content_no_privacy">Tom</string>
     <string name="empty_content_no_similar_image">Inga foton</string>
@@ -491,6 +492,7 @@
     <string name="hints_garbage_cleanup_result_safe">Allt ser bra ut</string>
     <string name="hints_garbage_handle_item_content">%1$d objekt, %2$s</string>
     <string name="hints_garbage_handle_item_empty_content">Tom</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_installed_app_fewer">Används inte så ofta</string>
     <string name="hints_installed_app_near">Nyligen använts</string>
     <string name="hints_installed_app_never">Aldrig använd</string>
@@ -577,6 +579,7 @@
     <string name="miuix_appcompat_delete_description">Ta bort</string>
     <string name="miuix_appcompat_deselect_all">Avmarkera alla</string>
     <string name="miuix_appcompat_deselect_all_description">Avmarkera alla</string>
+    <string name="miuix_appcompat_edit">Redigera</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Sök</string>
     <string name="miuix_appcompat_select_all">Välj alla</string>

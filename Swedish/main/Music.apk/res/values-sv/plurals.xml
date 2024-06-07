@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="Nalbum_total_songs">
-        <item quantity="other">Total %d songs</item>
-        <item quantity="one">Totalt %d låtar</item>
+        <item quantity="other">Totalt %d låtar</item>
+        <item quantity="one">Totalt %d låt</item>
     </plurals>
     <plurals name="Nassociate_songs">
         <item quantity="other">Söker efter albumomslag och texter (%1$d/%2$d)</item>
         <item quantity="one">Söker efter albumomslag och texter (%1$d/%2$d)</item>
     </plurals>
     <plurals name="Ndialog_renew_content">
-        <item quantity="other">"Your subscription is expiring in %d days.
-Do you want us to help renew it?"</item>
-        <item quantity="one">"Prenumerationen löper ut i %d dagar. 
-Do du oss för att förnya det?"</item>
+        <item quantity="other">"Din prenumeration utgår om %d dagar.
+Vill du få hjälp med att förnya den?"</item>
+        <item quantity="one">"Din prenumeration utgår om %d dag.
+Vill du få hjälp med att förnya den?"</item>
     </plurals>
     <plurals name="Nhungama_free_download_summary">
-        <item quantity="other">You can download %1$d free songs. Download %2$s now?</item>
-        <item quantity="one">Du kan ladda ner %1$d gratis låtar. Hämta %2$s nu?</item>
+        <item quantity="other">Du kan ladda ner %1$d gratis låtar. Ladda ner %2$s nu?</item>
+        <item quantity="one">Du kan ladda ner %1$d gratislåt. Ladda ner %2$s nu?</item>
     </plurals>
     <plurals name="Nquit_warning">
-        <item quantity="other">Player will stop in %d minutes</item>
-        <item quantity="one">Spelaren kommer stoppas om %d minuter</item>
+        <item quantity="other">Spelaren kommer att sluta om %d minuter</item>
+        <item quantity="one">Spelaren kommer sluta om %d minut</item>
     </plurals>
     <plurals name="Nsong_group_detail_subtitle">
-        <item quantity="other">"Created on %1$s 
-total %2$d songs"</item>
-        <item quantity="one">"Skapad den %1$s 
+        <item quantity="other">"Skapad den %1$s 
 totalt %2$d låtar"</item>
+        <item quantity="one">"Skapad den %1$s 
+totalt %2$d låt"</item>
     </plurals>
     <plurals name="Ntracks_add_to_playlist">
-        <item quantity="other">%d song added to playlist</item>
-        <item quantity="one">%d song added to playlist</item>
+        <item quantity="other">%d låt tillagd i spellista</item>
+        <item quantity="one">%d låt tillagd i spellista</item>
     </plurals>
     <plurals name="Ntracks_count">
-        <item quantity="other">%d songs</item>
-        <item quantity="one">%d låtar</item>
+        <item quantity="other">%d låtar</item>
+        <item quantity="one">%d låt</item>
     </plurals>
     <plurals name="Ntracks_remove_from_playlist">
-        <item quantity="other">%d songs removed from playlist</item>
-        <item quantity="one">%d låtar borttagna från spellistan</item>
+        <item quantity="other">%d låtar borttagna från spellistan</item>
+        <item quantity="one">%d låt borttagen från spellistan</item>
     </plurals>
     <plurals name="Ntracks_similar_count">
-        <item quantity="other">%d similar songs</item>
-        <item quantity="one">%d liknande låtar</item>
+        <item quantity="other">%d liknande låtar</item>
+        <item quantity="one">%d liknande låt</item>
     </plurals>
     <plurals name="a_hour_ago">
         <item quantity="other">1 timme sedan</item>
@@ -93,20 +93,20 @@ totalt %2$d låtar"</item>
         <item quantity="one">%1$d låt</item>
     </plurals>
     <plurals name="comment_count">
-        <item quantity="other">%d comments</item>
-        <item quantity="one">%d Kommentarer</item>
+        <item quantity="other">%d kommentarer</item>
+        <item quantity="one">%d kommentar</item>
     </plurals>
     <plurals name="days_ago">
-        <item quantity="other">%d days ago</item>
-        <item quantity="one">%d dagar sedan</item>
+        <item quantity="other">%d dagar sedan</item>
+        <item quantity="one">%d dag sedan</item>
     </plurals>
     <plurals name="dialog_delete_descript">
-        <item quantity="other">Delete %d songs?</item>
-        <item quantity="one">Ta bort %d låtar?</item>
+        <item quantity="other">Radera %d låtar?</item>
+        <item quantity="one">Radera %d låt?</item>
     </plurals>
     <plurals name="dialog_remove_descript">
-        <item quantity="other">Remove %d songs?</item>
-        <item quantity="one">Ta bort %d låtar?</item>
+        <item quantity="other">Ta bort %d låtar?</item>
+        <item quantity="one">Ta bort %d låt?</item>
     </plurals>
     <plurals name="dialog_request_delete_permission_descript">
         <item quantity="other">%d av de valda låtarna lagras i en extern mapp. Bevilja den åtkomst som krävs för att radera dem.</item>
@@ -125,16 +125,16 @@ totalt %2$d låtar"</item>
         <item quantity="one">%s visning</item>
     </plurals>
     <plurals name="free_downloads_num_hint">
-        <item quantity="other">%d free downloads left</item>
-        <item quantity="one">%d gratis nerladdningar återstår</item>
+        <item quantity="other">%d gratis nedladdningar kvar</item>
+        <item quantity="one">%d gratis nedladdning kvar</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtimme sedan</item>
         <item quantity="one">En halvtimme sedan</item>
     </plurals>
     <plurals name="hide_reason_duration">
-        <item quantity="other">Less than %1$ds</item>
-        <item quantity="one">Less than %1$ds</item>
+        <item quantity="other">Mindre än %1$d s</item>
+        <item quantity="one">Mindre än %1$d s</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">Om 1 timme</item>
@@ -157,12 +157,12 @@ totalt %2$d låtar"</item>
         <item quantity="one">Nyss</item>
     </plurals>
     <plurals name="list_header_fans_count">
-        <item quantity="other">%d followers</item>
+        <item quantity="other">%d följare</item>
         <item quantity="one">%d följare</item>
     </plurals>
     <plurals name="list_header_follow_count">
-        <item quantity="other">Following %d people</item>
-        <item quantity="one">Följer %d personer</item>
+        <item quantity="other">Följer %d personer</item>
+        <item quantity="one">Följer %d person</item>
     </plurals>
     <plurals name="media_store_new_songs_add">
         <item quantity="other">%d nya låtar</item>
@@ -177,15 +177,15 @@ totalt %2$d låtar"</item>
         <item quantity="one">%d ny avisering</item>
     </plurals>
     <plurals name="multichoice_title">
-        <item quantity="other">%d items selected</item>
-        <item quantity="one">%d objekt valda</item>
+        <item quantity="other">%d objekt kommer att väljas</item>
+        <item quantity="one">%d objekt kommer att väljas</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minuter sedan</item>
         <item quantity="one">1 minut sedan</item>
     </plurals>
     <plurals name="reader_count">
-        <item quantity="other">%d followers</item>
+        <item quantity="other">%d följare</item>
         <item quantity="one">%d följare</item>
     </plurals>
     <plurals name="reward_seconds_remaining">
@@ -193,40 +193,40 @@ totalt %2$d låtar"</item>
         <item quantity="one">VIP-medlemskap på %d sekund</item>
     </plurals>
     <plurals name="send_songs_toast">
-        <item quantity="other">%d songs will be sent</item>
-        <item quantity="one">%d låtar kommer skickas</item>
+        <item quantity="other">%d låtar kommer att skickas</item>
+        <item quantity="one">%d kommer att skickas</item>
     </plurals>
     <plurals name="skipped_online_songs_tips">
-        <item quantity="other">Skipped %d songs. Turn on online services in the settings to listen to them.</item>
-        <item quantity="one">Hoppade över %d låtar. Aktivera onlinetjänster i inställningar för att lyssna på dem.</item>
+        <item quantity="other">Hoppade över %d låtar. Aktivera internettjänster i inställningar, för att lyssna på den.</item>
+        <item quantity="one">Hoppade över %d låt. Aktivera internettjänster i inställningar, för att lyssna på den.</item>
     </plurals>
     <plurals name="song_already_favorite">
-        <item quantity="other">Songs have been favorited.</item>
-        <item quantity="one">Låtar har lagts till i favoriter.</item>
+        <item quantity="other">Låtar har favoriserats.</item>
+        <item quantity="one">Låt har favoriserats.</item>
     </plurals>
     <plurals name="songs_count">
-        <item quantity="other">%d songs</item>
-        <item quantity="one">%d låtar</item>
+        <item quantity="other">%d låtar</item>
+        <item quantity="one">%d låt</item>
     </plurals>
     <plurals name="sound_fade_duration_in_seconds">
-        <item quantity="other">Crossfade between songs: %d seconds</item>
-        <item quantity="one">Övertoning mellan låtar: %d sekunder</item>
+        <item quantity="other">Övertoning mellan låtar: %d sekunder</item>
+        <item quantity="one">Övertoning mellan låtar: %d sekund</item>
     </plurals>
     <plurals name="task_guide">
-        <item quantity="other">Earn %1$d coins today</item>
-        <item quantity="one">Earn %1$d coin today</item>
+        <item quantity="other">Tjäna %1$d mynt idag</item>
+        <item quantity="one">Tjäna %1$d mynt idag</item>
     </plurals>
     <plurals name="video_count">
-        <item quantity="other">Videos</item>
-        <item quantity="one">Videor</item>
+        <item quantity="other">Videor</item>
+        <item quantity="one">Video</item>
     </plurals>
     <plurals name="video_play_count">
-        <item quantity="other">%1$s views</item>
-        <item quantity="one">%1$s visningar</item>
+        <item quantity="other">%1$s visningar</item>
+        <item quantity="one">%1$s visa</item>
     </plurals>
     <plurals name="vip_remain_days_hint">
-        <item quantity="other">%d days remaining</item>
-        <item quantity="one">%d dagar kvar</item>
+        <item quantity="other">%d dagar kvar</item>
+        <item quantity="one">%d dag kvar</item>
     </plurals>
     <plurals name="web_reward_dialog_title">
         <item quantity="other">Om du tittar i %d sekunder, kommer du att få ett VIP-medlemskap som belöning. Avsluta ändå?</item>

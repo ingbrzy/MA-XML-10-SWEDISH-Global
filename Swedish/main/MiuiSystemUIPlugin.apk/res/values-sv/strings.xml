@@ -188,7 +188,7 @@
     <string name="kddi_miui_toast_zen_standard_to_off">Tyst läge är av nu. Samtal och notifikationer kommer inte att tystas.</string>
     <string name="kddi_miui_toast_zen_to_standard">Växlade till Tyst läge. Samtal och notifikationer är nu tystade.</string>
     <string name="loading">Status okänd</string>
-    <string name="mi_smart_hub_entry_title">Mi Smart Hub</string>
+    <string name="mi_smart_hub_entry_title">Xiaomi Smart Hub</string>
     <string name="midnight">Natt</string>
     <string name="miplay_accessibility_cast">Välj enhet</string>
     <string name="miplay_accessibility_cover">Omslag</string>
@@ -201,6 +201,8 @@
     <string name="miplay_bluetooth_share_des_text">"Användare av Xiaomi-hörlurar: öppna laddfodralet eller tryck och håll inne fodralknappen i %d s.
 Användare utan Xiaomi-hörlurar: återställ dina hörlurar i bluetooth-inställningarna och anslut sedan"</string>
     <string name="miplay_bluetooth_share_headphone_pairing">Lägg till hörlurar för att dela ljud</string>
+    <string name="miplay_bluetooth_share_music_cancel_btn_content_des">Avslutade ljuddelning</string>
+    <string name="miplay_bluetooth_share_music_together_btn_content_des">Lägg till hörlurar för att dela ljud</string>
     <string name="miplay_bluetooth_share_subTitle_text">Dela enhetsljud med an annan person</string>
     <string name="miplay_bluetooth_share_title_text">Dela ljud</string>
     <string name="miplay_detail_divider_title">Högtalare</string>

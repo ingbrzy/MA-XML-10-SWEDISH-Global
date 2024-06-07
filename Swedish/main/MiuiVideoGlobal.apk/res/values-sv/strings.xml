@@ -75,6 +75,7 @@
     <string name="ad_bar_notification_setting_title">Händelser</string>
     <string name="ad_click_to_play">Tryck för at spela</string>
     <string name="ad_flag_text">Annons</string>
+    <string name="ad_topview_repeat_play">Tryck för att spela igen</string>
     <string name="add_local_shortcut_add">Lägg till</string>
     <string name="add_local_shortcut_des">Lägg till \"Mina videor\" på hemskärmen för att få åtkomst till lokala videofiler med en tryckning.</string>
     <string name="add_search_channel_link">URL</string>
@@ -134,6 +135,7 @@
     <string name="cast_forward">Framåt</string>
     <string name="cast_forward_10">Spola framåt tio sekunder</string>
     <string name="cast_forward_30">Spola framåt trettio sekunder</string>
+    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
     <string name="cast_live_label">LIVE</string>
     <string name="cast_mute">Stäng av ljudet</string>
     <string name="cast_notification_connected_message">Ansluten till %1$s</string>
@@ -261,7 +263,7 @@ Skicka koden till handledaren."</string>
     <string name="dialog_cancel">Avbryt</string>
     <string name="dialog_clearn_content">Rensa webbläsarhistoriken nu?</string>
     <string name="dialog_clearn_title">Rensa historik</string>
-    <string name="dialog_confirm">OK</string>
+    <string name="dialog_confirm">Lägg till</string>
     <string name="dialog_delete_bookmarks_content">Ta bort bokmärke nu?</string>
     <string name="dialog_disagree_continue">Fortsätt</string>
     <string name="dialog_disagree_info">Om du inte samtycker till Mi Videos integritetspolicy så kan du inte använda våra internettjänster, och kommer endast att kunna se videor som lagras på din enhet. Fortsätt ändå?</string>
@@ -330,6 +332,8 @@ Mi Video behöver samla in nödvändig personlig information för att förse dig
     <string name="download_unable_tip">Kan inte ladda ner detta objekt</string>
     <string name="download_video">Laddar ner video</string>
     <string name="downloading">Laddar ner…</string>
+    <string name="draw_ad_button_click_text">Skaka eller tryck för att öppna</string>
+    <string name="draw_ad_button_slide_text">Svep för information</string>
     <string name="early_morning">Morgon</string>
     <string name="empty" />
     <string name="empty_channels">Hantera kanaler</string>
@@ -414,14 +418,10 @@ Mi Video behöver samla in nödvändig personlig information för att förse dig
     <string name="feedback_activity_title">Feedback</string>
     <string name="feedback_contact_empty">Ange korrekt kontaktinformation</string>
     <string name="feedback_contact_title">Kontakt info</string>
-    <string name="feedback_detail_input_hint">Skriv ditt meddelande</string>
-    <string name="feedback_hint">Beskriv problemet som du har stött på.</string>
     <string name="feedback_hint_contact">Telefon/QQ/Email</string>
     <string name="feedback_hint_text">Beskriv problemet du har stött på.</string>
-    <string name="feedback_input_tip">Här kan du beskriva problem och ge förslag.</string>
     <string name="feedback_net_error">Kunde inte logga in. Kontrollera dina nätverksinställningar och försök igen.</string>
     <string name="feedback_sent">Skicka</string>
-    <string name="feedback_success">Inskickat</string>
     <string name="feedback_success_toast">Inskickat. Tack för din feedback!</string>
     <string name="feedback_tag_title">Kategori</string>
     <string name="feedback_text_empty_toast">Skriv din feedback först.</string>
@@ -642,6 +642,7 @@ Den här inställningen påverkar inte ditt galleri av bilder."</string>
     <string name="hidden_channels">Följande kanaler visas inte på startsidan.</string>
     <string name="hide">Dölj</string>
     <string name="hide_video_toast">Det här objektet har dolts. Du kan hitta och hantera dolda objekt i Lokala > Mappar > Dolda objekt.</string>
+    <string name="hiding_dialog_ok">Ange</string>
     <string name="hint_icon_ad_title">Rekommenderad</string>
     <string name="hint_in_mivideo">Du kan se i sidpanelen för ytterligare funktioner nu</string>
     <string name="history">Historik</string>
@@ -695,7 +696,6 @@ Den här inställningen påverkar inte ditt galleri av bilder."</string>
     <string name="inline_mute_click_tip">Tryck för att slå på ljud</string>
     <string name="input_email_address_notice">Vi använder den här e-postadressen för att verifiera ditt konto</string>
     <string name="input_new_pwd">Ange nytt lösenord</string>
-    <string name="input_size_tips_new">Du kan ange upp till %d tecken</string>
     <string name="isornot_your_mi_account">Är detta ditt Mi-Konto?</string>
     <string name="item_card_all_replies">Alla svar</string>
     <string name="item_card_continue_play">Automatisk uppspelning</string>
@@ -799,7 +799,6 @@ för videor"</string>
     <string name="local_zoom_adjust_button">Växla visningsläge</string>
     <string name="lock_screen">Låsskärm</string>
     <string name="login">Logga in</string>
-    <string name="login_tip">Logga in för att kunna ta emot våra svar på din feedback.</string>
     <string name="logo_neverthink">Curated by Neverthink.tv</string>
     <string name="logout">Logga ut</string>
     <string name="logout_account">Logga ut</string>
@@ -887,6 +886,7 @@ Vi kommer endast att använda den här behörigheten till att hitta de videor so
     <string name="manager_request_continue">Tillåt</string>
     <string name="manager_request_tip">Visa inte igen</string>
     <string name="manager_request_title">Får inte åtkomst till den här filen.</string>
+    <string name="mangotv_episode">Avsnitt %d</string>
     <string name="mangotv_feature_list_title3">Lade till avsnitt %s</string>
     <string name="mangotv_feature_more">Mer</string>
     <string name="mangotv_feature_title1">Episoder</string>
@@ -916,11 +916,13 @@ Vi kommer endast att använda den här behörigheten till att hitta de videor so
     <string name="miuix_appcompat_delete_description">Ta bort</string>
     <string name="miuix_appcompat_deselect_all">Avmarkera alla</string>
     <string name="miuix_appcompat_deselect_all_description">Avmarkera alla</string>
+    <string name="miuix_appcompat_edit">Redigera</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Sök</string>
     <string name="miuix_appcompat_select_all">Välj alla</string>
     <string name="miuix_appcompat_select_all_description">Välj alla</string>
     <string name="miuix_appcompat_select_item">Välj objekt</string>
+    <string name="miuix_dialog_ok">OK</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra nedåt för att uppdatera</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uppdaterat</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Uppdaterar…</string>
@@ -1016,6 +1018,7 @@ Vi kommer endast att använda den här behörigheten till att hitta de videor so
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -1045,7 +1048,6 @@ Vi kommer endast att använda den här behörigheten till att hitta de videor so
     <string name="music_new_user_dialog_got_it">Jag förstår</string>
     <string name="music_new_user_dialog_tip">Välkommen till Mi Video! Den här appen tillhandahåller en lokal videospelare och online-musik, samt videostreamingtjänster.</string>
     <string name="my_favorite_channels">Mina favoritkanaler</string>
-    <string name="my_feedback_title">Min feedback</string>
     <string name="native_body">Brödtext</string>
     <string name="native_headline">Rubrik</string>
     <string name="native_media_view">Medievisning</string>
@@ -1056,6 +1058,7 @@ Vi kommer endast att använda den här behörigheten till att hitta de videor so
     <string name="network_failed">Det gick inte att ansluta till nätverket</string>
     <string name="newyearfestival_go_to_draw_prizes">Gå till lyckodragningen</string>
     <string name="newyearfestival_watch_the_video_to_draw_prizes">Titta på videor för att delta i lyckodragningen</string>
+    <string name="next_button">Nästa</string>
     <string name="nick_name">Smeknamn</string>
     <string name="night">Kväll</string>
     <string name="no_account">Inte inloggad</string>
@@ -1105,6 +1108,7 @@ Vi kommer endast att använda den här behörigheten till att hitta de videor so
     <string name="online_play_start_ready_loading_tip_kb">Ladda %.2f KB/s</string>
     <string name="online_play_start_ready_loading_tip_mb">Ladda %.2f MB/s</string>
     <string name="online_play_title">Ange URL</string>
+    <string name="order_alphabet">A-Ö</string>
     <string name="order_recently_subscribe">Senaste prenumerationer</string>
     <string name="order_recently_updated">Nyligen uppdaterade</string>
     <string name="out_of_memory_background_playback_is_suspended">Pausad bakgrundsuppspelning på grund av otillräckligt minne</string>
@@ -1241,6 +1245,8 @@ Vi kommer endast att använda den här behörigheten till att hitta de videor so
     <string name="photoPickerNotFoundText">Inga bilder tillgängliga.</string>
     <string name="pip">BiB</string>
     <string name="pip_not_supported_toast">Uppdatera till senaste systemversion för att kunna använda bild-i-bild.</string>
+    <string name="play_at_normal_speed">Spelar upp med 1X hastighet</string>
+    <string name="play_at_speed">Spelar upp med %.1fX hastighet</string>
     <string name="play_list_player_skeleton_file">mnc_live_tv_list_player_skeleton.json</string>
     <string name="play_list_save_dialog_create">Skapa spellista</string>
     <string name="play_list_save_dialog_title">Lägg till i spellista</string>
@@ -1412,6 +1418,7 @@ Vi kommer endast att använda den här behörigheten till att hitta de videor so
     <string name="remaining_space_not_enough">Det går inte att ladda ner på grund av för lite lagringsutrymme</string>
     <string name="reminder">Obs!</string>
     <string name="rename">Byt namn</string>
+    <string name="rename_dialog_ok">OK</string>
     <string name="rename_word_out">Detta filnamn är för långt</string>
     <string name="report">Rapportera</string>
     <string name="report_content_dislike">Våld eller olämpligt beteende</string>
@@ -1465,7 +1472,7 @@ Vi kommer endast att använda den här behörigheten till att hitta de videor so
     <string name="sending">Skickar…</string>
     <string name="service_error">Serverfel</string>
     <string name="set_success">Ändrad</string>
-    <string name="setting_privacy_title">Terms and conditions</string>
+    <string name="setting_privacy_title">Villkor</string>
     <string name="settings_inline_auto_play">Alltid automatisk uppspelning</string>
     <string name="settings_inline_auto_play_close">Automatisk uppspelning inaktiverad</string>
     <string name="settings_inline_auto_play_tip_close_forever">Alltid av</string>
@@ -1480,6 +1487,7 @@ Vi kommer endast att använda den här behörigheten till att hitta de videor so
     <string name="shake_to_open_ad">Skaka för att läsa mer</string>
     <string name="share">Dela</string>
     <string name="share_text_before_link">Titta på och ladda ned bra videor helt gratis på Mi Video</string>
+    <string name="share_title">Dela</string>
     <string name="share_ugc_waitting">Genererar länk…</string>
     <string name="shorts_assemble_ad_recommend">Rekommenderad</string>
     <string name="show_the_location">Notifikationstyp</string>
@@ -1494,6 +1502,7 @@ Vi kommer endast att använda den här behörigheten till att hitta de videor so
     <string name="slide_or_click_to_open_ad">Dra eller tryck för att läsa mer</string>
     <string name="slide_save_message">Skapar video…</string>
     <string name="slide_to_open_ad">Dra för att läsa mer</string>
+    <string name="small_mango_play_next_episode">Nästa episod</string>
     <string name="small_video_load_more_hint">Svep uppåt för att spela fler videor</string>
     <string name="small_video_report">Rapportera</string>
     <string name="small_video_report_dialog_title">Välj en orsak</string>
@@ -1506,9 +1515,9 @@ Vi kommer endast att använda den här behörigheten till att hitta de videor so
     <string name="sns_sign_in">Andra sätt att logga in på</string>
     <string name="source">"Källa: "</string>
     <string name="start_download_tip">Tillagt i kön. Kontrollera utvecklingen under Profil > Nedladdningar.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kort</string>
     <string name="storage_internal_sdcard">Internt lagringsutrymme</string>
-    <string name="submit">Skicka</string>
     <string name="subscribe">PRENUMERERA</string>
     <string name="subscribe_author_recommend_btn">Prenumerera</string>
     <string name="subscribe_author_recommend_title">Prenumerera för att se de nyaste videorna från dessa skapare</string>
@@ -1528,6 +1537,7 @@ Vi kommer endast att använda den här behörigheten till att hitta de videor so
     <string name="sunday_short">Sön</string>
     <string name="sunday_shortest">Sön</string>
     <string name="sure_to_logout">Logga ut nu?</string>
+    <string name="swipe_to_exit">Svep igen för att lämna</string>
     <string name="switch_ratio_pause">Uppspelningen är instabil. Växla tillbaka till standardhastighet.</string>
     <string name="sync_favorites_limit_new">Det finns fler än %d videor i dina favoriter. Vi måste ta bort några av de tidigare videorna för att fortsätta synkronisera.</string>
     <string name="sync_favorites_message">Synkronisera favoriter från denna enhet till ditt konto? Objekt som inte längre är tillgängliga kommer att tas bort.</string>
@@ -1654,7 +1664,6 @@ Vi kommer endast att använda den här behörigheten till att hitta de videor so
     <string name="toast_incentive_redeem_fail_short_of_storage_2002">Denna belöning är i nuläget otillgänglig. Försök igen senare.</string>
     <string name="toast_m3u8_download_path_tip">Kan inte ändra nedladdningssökvägen för innehållet i m3u8-formatet</string>
     <string name="toast_play_error_tip">Kan inte spela denna fil</string>
-    <string name="toast_request_too_frequently">Inte så snabbt!</string>
     <string name="toast_share_failed">Det gick inte att dela. Vänta en minut eller två och försök igen.</string>
     <string name="today">Idag</string>
     <string name="tomorrow">Imorgon</string>
@@ -1663,9 +1672,6 @@ Vi kommer endast att använda den här behörigheten till att hitta de videor so
     <string name="tuesday">Tisdag</string>
     <string name="tuesday_short">Tis</string>
     <string name="tuesday_shortest">Tis</string>
-    <string name="type_content">Innehåll</string>
-    <string name="type_issue">Problem</string>
-    <string name="type_suggestion">Förslag</string>
     <string name="ugc_no_net">Kunne ikke koble til nettverket. Kontrollera dina nätverksinställningar och försök igen.</string>
     <string name="ui_common_title_back">Tillbaka</string>
     <string name="unknow">Okänd</string>
@@ -1690,7 +1696,7 @@ Vi kommer endast att använda den här behörigheten till att hitta de videor so
     <string name="v_menu_hide">Dölj</string>
     <string name="v_more">Mer</string>
     <string name="v_next">Nästa</string>
-    <string name="v_ok">OK</string>
+    <string name="v_ok">Nästa</string>
     <string name="v_online_play">Streama online</string>
     <string name="v_pw_need_update_app">Uppdatera Mi Video för att använda alla dess funktioner</string>
     <string name="v_save">Spara</string>
@@ -1701,6 +1707,7 @@ Vi kommer endast att använda den här behörigheten till att hitta de videor so
     <string name="video_download_fail">Kunde inte ladda ner video</string>
     <string name="video_download_fail_hint">Kunde inte ladda ned</string>
     <string name="video_download_floating_guide">Ladda ned videor helt gratis</string>
+    <string name="video_download_folder">Nedladdade videor</string>
     <string name="video_download_folder_title">Mi Video-nedladdningar</string>
     <string name="video_download_forbidden">Kan inte ladda ned från denna webbplats</string>
     <string name="video_download_login_guide">Logga in på %s för att kunna ladda ner videor</string>

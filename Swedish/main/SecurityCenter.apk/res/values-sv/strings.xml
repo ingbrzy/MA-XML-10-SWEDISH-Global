@@ -343,6 +343,9 @@
     <string name="app_manager_copy_pkg_to_clip">Kopierad till urklipp</string>
     <string name="app_manager_data_size">Användardata</string>
     <string name="app_manager_default_cleared">Rensat</string>
+    <string name="app_manager_default_close_summary">Används inte som standardapp.</string>
+    <string name="app_manager_default_open_summary">Du har valt att starta denna app som standard för vissa åtgärder.</string>
+    <string name="app_manager_default_open_title">Rensa som standardapp</string>
     <string name="app_manager_defaults_setting">Standardappar</string>
     <string name="app_manager_details_electric_title">Batteri</string>
     <string name="app_manager_details_storage_title">Lagring</string>
@@ -968,6 +971,7 @@ Men, vissa av dina transaktioner är einte genomförda än. För att kunna åter
     <string name="card_main_private_space_summary">Att använda det Sekundära utrymmet är som att ha två enheter</string>
     <string name="card_main_private_space_title">Sekundärt utrymme</string>
     <string name="card_main_sectool_title">Verktyg</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_video_manage_title">Hantera videor</string>
     <string name="card_main_whatsappclean_title">Städa WhatsApp</string>
     <string name="card_main_xspace_action">Skapa</string>
@@ -1337,6 +1341,7 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="dynamic_performance_optimization_title">Dynamisk prestanda</string>
     <string name="early_morning">Morgon</string>
     <string name="edit_phone_num">Redigera SIM-telefonnummer</string>
+    <string name="ellipsis">…</string>
     <string name="email">E-post</string>
     <string name="empty" />
     <string name="empty_app">Inga appar</string>
@@ -1414,7 +1419,9 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="exo_download_paused_for_wifi">Nedladdningar väntar på wifi</string>
     <string name="exo_download_removing">Nedladdningar tas bort</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativ</string>
     <string name="exo_track_role_closed_captions">Undertexter</string>
     <string name="exo_track_role_commentary">Kommentar</string>
@@ -1601,6 +1608,7 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="fod_finger_notice_title">Placera ditt finger på skärmen</string>
     <string name="fod_finger_windows_tips">Verifiera ditt fingeravtryck</string>
     <string name="fod_tips_split_screen_more_than_half">Ange lösenord</string>
+    <string name="fold_application_mode_name">App-utformningar</string>
     <string name="forbid_autobright_summary">Automatisk ljusstyrka kommer avaktiveras medan du spelar och återställa när du är klar</string>
     <string name="forbid_autobright_title">Fast ljusstyrka för skärmen</string>
     <string name="foreground_traffic">Förgrund %s</string>
@@ -2122,7 +2130,7 @@ Tryck och håll inne indikatorn för att flytta runt fönstret."</string>
     <string name="group_clipboard">Urklipp</string>
     <string name="group_connect_device">Sammanlänkning</string>
     <string name="group_file">Filer och dokument</string>
-    <string name="group_file_less_t">Access files and media</string>
+    <string name="group_file_less_t">Få åtkomst till filer och media</string>
     <string name="group_head_data_ai_clipboard">Skydd för Urklipp</string>
     <string name="group_head_data_camera_desc">Avaktivera för att begränsa alla appars tillgång till kameran</string>
     <string name="group_head_data_clipboard_desc">Avaktivera för att begränsa åtkomsten till Urklipp, för alla appar</string>
@@ -2599,6 +2607,7 @@ Din enhet är %s snabbare nu."</string>
     <string name="menu_text_license_manager">Behörigheter</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -2607,6 +2616,7 @@ Din enhet är %s snabbare nu."</string>
     <string name="menu_text_optimize_manage">Öka hastigheten</string>
     <string name="menu_text_optimize_manage_1">Öka hastigheten</string>
     <string name="menu_text_power_manager">Batteri</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Ta bort från undantag</string>
     <string name="menu_white">Lägg till i undantag</string>
     <string name="mi_ime_not_used">Använd ett tangentbord som är godkänt av Xiaom</string>
@@ -2715,6 +2725,7 @@ Din enhet är %s snabbare nu."</string>
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -3246,7 +3257,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="pc_wireless_charging_special_stand_summary2">Installera din enhet på stället som kom med din trådlösa laddare, för bästa laddningsprestanda</string>
     <string name="pc_wireless_charging_special_stand_title">Använd tillhandahållet laddningsställ</string>
     <string name="pc_wireless_handle_connected">Enhet ansluten</string>
-    <string name="pc_wireless_handle_title">Trådlöst kameragrepp</string>
+    <string name="pc_wireless_handle_title">Kamerahandtag</string>
     <string name="pc_work_in_save_mode">Batterisparare</string>
     <string name="pc_work_in_super_save_mode">Ultra Batterisparare</string>
     <string name="pc_xiaoai_create_auto_task">Ny uppgift från Mi AI</string>
@@ -3307,7 +3318,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="permission_group_camera">Den här behörigheten tillåter appar att använda kameran för att ta foton eller spela in videor.</string>
     <string name="permission_group_contact">Den här behörigheten tillåter appar att få åtkomst till, eller redigera kontakter, såväl som att visa app-kontakter som skapats på den här enheten.</string>
     <string name="permission_group_file">Den här behörigheten tillåter appar att få åtkomst till alla filer som lagrats på den här enheten.</string>
-    <string name="permission_group_file_less_t">This permission allows apps to access photos, videos, audio, and other files stored on this device.</string>
+    <string name="permission_group_file_less_t">Den här behörigheten tillåter appar att få åtkomst till foton, videor, ljud och andra filer som lagras på den här enheten.</string>
     <string name="permission_group_image_video">Den här behörigheten tillåter appar att få åtkomst till foton och videor som finns lagrade på den här enheten.</string>
     <string name="permission_group_location">Den här behörigheten tillåter appar att få åtkomst till platsinformation via nätverk eller satellit.</string>
     <string name="permission_group_microphone">Den här behörigheten tillåter appar att använda mikrofonen för att spela in ljud.</string>
@@ -3426,7 +3437,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="pm_remember_choice">Kom ihåg mitt val</string>
     <string name="pm_root_success_notification_infomation">Se till att du förstår riskerna med root-access</string>
     <string name="pm_root_success_notification_title">Tillåt root åtkomst</string>
-    <string name="popular_action_anti_spam_title_global">Blockera samtal och meddelanden</string>
+    <string name="popular_action_anti_spam_title_global">Blockera spamsamtal</string>
     <string name="popular_action_app_lock_title_global">Skydda appar med Applås</string>
     <string name="popular_action_card_title">Populära funktioner</string>
     <string name="popular_action_first_aid_title_global">För nya användare</string>
@@ -3482,6 +3493,11 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="power_center_dialog_msg_top">När Batterisparare är aktiverat kommer följande optimeringar att utföras:</string>
     <string name="power_center_hints_scan_danger_result">Du kan lösa batteriproblem nu</string>
     <string name="power_center_list_item_auto_brightness">Justera skärmens ljusstyrka automatiskt</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">h</string>
     <string name="power_center_list_item_close_bluetooth">Avaktivera Bluetooth</string>
     <string name="power_center_list_item_deep_save_title">Avancerade inställningar</string>
@@ -3794,6 +3810,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="pref_normal_traffic_limit">När din data i mobildataabonnemanget överskrids</string>
     <string name="pref_open_adjust_traffic">Uppdatera dataanvändning varje dag med information från din operatör</string>
     <string name="pref_operator_not_set">Ingen operatör vald</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">När du överskrider din gräns för dataanvändning</string>
     <string name="pref_package_traffic_settings">Mobildataabonnemang</string>
     <string name="pref_pkg_begin_date">Återställningsdatum för dataanvändning</string>
@@ -4094,6 +4111,7 @@ Dra tillbaka samtycke nu?"</string>
     <string name="privacy_using_record">Spelar in ljud</string>
     <string name="privacyapp_number_masked_text">Notisinnehåll är dolt</string>
     <string name="privacyapp_number_unmasked_text">Notisinnehåll kan inte döljas</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="process_vpnsdkmanager_label">Speloptimering</string>
     <string name="promotion">Reklam</string>
@@ -5329,7 +5347,7 @@ Startar man en, stängs den andra av."</string>
     <string name="vb_video_effects_spatial_summary_new">Upplev förstärkt känsla av rymd och riktning för ljud som stöds vid användande av hörlurar</string>
     <string name="vb_video_effects_srs_premium_sound">Ljud</string>
     <string name="vb_video_super_division">Skala upp</string>
-    <string name="vb_video_super_division_desc">"Skala upp upplösningen automatiskt när den är ≤720p.
+    <string name="vb_video_super_division_desc">"Skala upp upplösningen automatiskt när den är ≤720P.
 
 Användning av denna funktion ökar strömförbrukningen.
 
@@ -5379,6 +5397,7 @@ Prova att skala upp upplösningen!"</string>
     <string name="virus_update_tips_title">Varning</string>
     <string name="virus_wait_network_dialog_message">Din telefon är inte ansluten till Wi-Fi nu. Använd mobildataanslutningen?</string>
     <string name="vtb_ai_subtitle">Undertexter</string>
+    <string name="vtb_ai_subtitle_intl">AI-undertexter</string>
     <string name="vtb_func_desc">Om denna funktion</string>
     <string name="vtb_func_display_style_desc0">AI kan känna igen människor, djur, växter, himmel, byggnader och andra föremål som finns i videor och dynamiskt förbättra dem.</string>
     <string name="vtb_func_display_style_desc1">Valda effekter kommer inte att tillämpas på HDR-videor på valda enheter.</string>

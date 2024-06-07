@@ -88,6 +88,7 @@ Kolla inställningarna för detaljer."</string>
     <string name="fast_connect_device_battery">Batteri</string>
     <string name="fast_connect_device_box">Fodral</string>
     <string name="fast_connect_device_box_name">%1$s Box</string>
+    <string name="fast_connect_device_button_audio_share_fail">Jag förstår</string>
     <string name="fast_connect_device_connect_cancel">Avbryt</string>
     <string name="fast_connect_device_connect_ok">Anslut</string>
     <string name="fast_connect_device_connect_retry">Försök igen</string>
@@ -96,6 +97,12 @@ Kolla inställningarna för detaljer."</string>
     <string name="fast_connect_device_headset_l">Vänster</string>
     <string name="fast_connect_device_headset_r">Höger</string>
     <string name="fast_connect_device_headset_reset">Tryck och håll knappen på fodralet</string>
+    <string name="fast_connect_device_message_audio_share">Dela den här enhetens ljud med det här paret hörlurar</string>
+    <string name="fast_connect_device_replace_current_device">Växla enhet</string>
+    <string name="fast_connect_device_start_audio_share">Dela</string>
+    <string name="fast_connect_device_title_audio_share">Lyssna tillsammans med %1$s</string>
+    <string name="fast_connect_device_title_audio_share_fail">Kunde inte ansluta till %1$s. Försök igen.</string>
+    <string name="fast_connect_device_title_audio_share_success">Lyssna tillsammans med %1$s</string>
     <string name="fast_connect_device_title_connect_fail">Det gick inte att ansluta %1$s</string>
     <string name="fast_connect_device_title_connecting">Ansluter…</string>
     <string name="fast_connect_device_title_find_headset">Hitta %1$s</string>

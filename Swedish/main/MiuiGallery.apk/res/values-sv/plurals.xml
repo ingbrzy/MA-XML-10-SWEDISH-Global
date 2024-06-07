@@ -64,6 +64,50 @@
         <item quantity="other">%d år</item>
         <item quantity="one">%d år</item>
     </plurals>
+    <plurals name="ai_create_image_queue">
+        <item quantity="other">%1d personer framför dig</item>
+        <item quantity="one">%1d person framför dig</item>
+    </plurals>
+    <plurals name="ai_create_remain_time_hour">
+        <item quantity="other">Väntetiden: %s tim</item>
+        <item quantity="one">Väntetiden: %s tim</item>
+    </plurals>
+    <plurals name="ai_create_remain_time_minute">
+        <item quantity="other">Väntetid: %s min</item>
+        <item quantity="one">Väntetid: %s min</item>
+    </plurals>
+    <plurals name="ai_creation_wait_message_time">
+        <item quantity="other">Skapar… | Väntetid: %d sek.</item>
+        <item quantity="one">Skapar… | Väntetid: %d sek.</item>
+    </plurals>
+    <plurals name="ai_creation_wait_queue">
+        <item quantity="other">Skapar… | %d personer framför dig</item>
+        <item quantity="one">Skapar… | %d person framför dig</item>
+    </plurals>
+    <plurals name="ai_creation_wait_time_minute">
+        <item quantity="other">Väntetid: %d min</item>
+        <item quantity="one">Väntetid: %d min</item>
+    </plurals>
+    <plurals name="ai_enhance_bar_waiting">
+        <item quantity="other">Skapar… | %d sek. återstår</item>
+        <item quantity="one">Skapar… | %d sek. återstår</item>
+    </plurals>
+    <plurals name="ai_hour">
+        <item quantity="other">%s tim</item>
+        <item quantity="one">%s tim</item>
+    </plurals>
+    <plurals name="ai_image_over_limit_msg">
+        <item quantity="other">En person kan skapa upp till %d AI-bilder.</item>
+        <item quantity="one">En person kan skapa upp till %d AI-bild.</item>
+    </plurals>
+    <plurals name="ai_minute">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="ai_select_photo_time_count">
+        <item quantity="other">Markerar foton (%d sek. återstår)…</item>
+        <item quantity="one">Markerar foton (%d sek. återstår)…</item>
+    </plurals>
     <plurals name="album_already_share_user_count">
         <item quantity="other">Delad till %d personer</item>
         <item quantity="one">Delad till %d person</item>
@@ -224,9 +268,21 @@
         <item quantity="other">Hoppade över %1$d foton som inte kunde renderas.</item>
         <item quantity="one">Hoppade över %1$d foto som inte kunde renderas.</item>
     </plurals>
-    <plurals name="file_type_detail_count">
-        <item quantity="other">%1$d filer</item>
-        <item quantity="one">%1$d fil</item>
+    <plurals name="global_cloud_storage_warn_title_link">
+        <item quantity="other">Kunde inte säkerhetskopiera %d objekt på grund av otillräckligt molnutrymme</item>
+        <item quantity="one">Kunde inte säkerhetskopiera %d objekt på grund av otillräckligt molnutrymme</item>
+    </plurals>
+    <plurals name="global_sync_error_title">
+        <item quantity="other">Har inte säkerhetskopierat %d objekt</item>
+        <item quantity="one">Har inte säkerhetskopierat %d objekt</item>
+    </plurals>
+    <plurals name="global_syncing_gprs_title_link">
+        <item quantity="other">Säkerhetskopierar %d objekt via mobildata…</item>
+        <item quantity="one">Säkerhetskopierar %d objekt via mobildata…</item>
+    </plurals>
+    <plurals name="global_syncing_title_link">
+        <item quantity="other">Säkerhetskopierar %d objekt…</item>
+        <item quantity="one">Säkerhetskopierar %d objekt…</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtimme sedan</item>
@@ -345,8 +401,8 @@
         <item quantity="one">Laddar ner %d kvarstående fil</item>
     </plurals>
     <plurals name="picker_no_network_retry_image_confirm_message">
-        <item quantity="other">Kunde inte ladda ner %1$d foton, anslut till nätverket och försök igen</item>
-        <item quantity="one">Kunde inte ladda ner %1$d foto, anslut till nätverket och försök igen</item>
+        <item quantity="other">Kunde inte ladda ned %d filer. Anslut till nätverket och försök igen.</item>
+        <item quantity="one">Kunde inte ladda ned %d fil. Anslut till nätverket och försök igen.</item>
     </plurals>
     <plurals name="picker_no_network_retry_origin_confirm_message">
         <item quantity="other">Kunde inte ladda ner %1$d filer (%2$d MB). Anslut till nätverket och försök igen.</item>
@@ -357,12 +413,12 @@
         <item quantity="one">%1$d fil (%2$d MB) är inte nedladdad än. Ladda ner med mobildata?</item>
     </plurals>
     <plurals name="picker_retry_image_confirm_message">
-        <item quantity="other">Kunde inte ladda ner %1$d foton, försök igen?</item>
-        <item quantity="one">Kunde inte ladda ner %1$d foto, försök igen?</item>
+        <item quantity="other">Kunde inte ladda ned %d filer. Försök igen?</item>
+        <item quantity="one">Kunde inte ladda ned %d fil. Försök igen?</item>
     </plurals>
     <plurals name="picker_retry_origin_confirm_message">
-        <item quantity="other">Kunde inte ladda ner %1$d foton (%2$d MB), försök igen?</item>
-        <item quantity="one">Kunde inte ladda ner %1$d foto (%2$d MB), försök igen?</item>
+        <item quantity="other">Kunde inte ladda ned %1$d filer (%2$d MB). Försök igen?</item>
+        <item quantity="one">Kunde inte ladda ned %1$d fil (%2$d MB). Försök igen?</item>
     </plurals>
     <plurals name="picker_skip_unavailable_images">
         <item quantity="other">Hoppade över %d foton som inte finns på enheten.</item>
@@ -396,77 +452,9 @@
         <item quantity="other">Tog bort %1$d bilder från \"%2$s\".</item>
         <item quantity="one">Tog bort %1$d bild från \"%2$s\".</item>
     </plurals>
-    <plurals name="send_apk_dialog_desc">
-        <item quantity="other">%2$d installationspaket (%3$s) från %1$s</item>
-        <item quantity="one">%2$d installationspaket (%3$s) från %1$s</item>
-    </plurals>
-    <plurals name="send_apk_dialog_desc_received">
-        <item quantity="other">Tog emot %2$d installationspaket (%3$s) från %1$s</item>
-        <item quantity="one">Tog emot %2$d installationspaket (%3$s) från %1$s</item>
-    </plurals>
-    <plurals name="send_apk_dialog_desc_receiving">
-        <item quantity="other">Tar emot %2$d installationspaket (%3$s) från %1$s…</item>
-        <item quantity="one">Tar emot %2$d installationspaket (%3$s) från %1$s…</item>
-    </plurals>
-    <plurals name="send_audio_dialog_desc">
-        <item quantity="other">%2$d ljudfiler (%3$s) från %1$s</item>
-        <item quantity="one">%2$d ljudfil (%3$s) från %1$s</item>
-    </plurals>
-    <plurals name="send_audio_dialog_desc_received">
-        <item quantity="other">Tog emot %2$d ljudfiler (%3$s) från %1$s</item>
-        <item quantity="one">Tog emot %2$d ljudfil (%3$s) från %1$s</item>
-    </plurals>
-    <plurals name="send_audio_dialog_desc_receiving">
-        <item quantity="other">Tar emot %2$d ljudfiler (%3$s) från %1$s…</item>
-        <item quantity="one">Tar emot %2$d ljudfil (%3$s) från %1$s…</item>
-    </plurals>
-    <plurals name="send_file_dialog_desc">
-        <item quantity="other">%2$d %3$s filer (%4$s) från %1$s</item>
-        <item quantity="one">%2$d %3$s fil (%4$s) från %1$s</item>
-    </plurals>
-    <plurals name="send_file_dialog_desc_received">
-        <item quantity="other">Tog emot %2$d %3$s filer (%4$s) från %1$s</item>
-        <item quantity="one">Tog emot %2$d %3$s fil (%4$s) från %1$s</item>
-    </plurals>
-    <plurals name="send_file_dialog_desc_receiving">
-        <item quantity="other">Tar emot %2$d %3$s filer (%4$s) från %1$s…</item>
-        <item quantity="one">Tar emot %2$d %3$s fil (%4$s) från %1$s…</item>
-    </plurals>
-    <plurals name="send_image_dialog_desc">
-        <item quantity="other">%2$d bilder från %1$s</item>
-        <item quantity="one">%2$d bild från %1$s</item>
-    </plurals>
-    <plurals name="send_image_dialog_desc_received">
-        <item quantity="other">Tog emot %2$d bilder från %1$s</item>
-        <item quantity="one">Tog emot %2$d bild från %1$s</item>
-    </plurals>
-    <plurals name="send_image_dialog_desc_receiving">
-        <item quantity="other">Tar emot %2$d bilder från %1$s…</item>
-        <item quantity="one">Tar emot %2$d bild från %1$s…</item>
-    </plurals>
-    <plurals name="send_image_video_dialog_desc">
-        <item quantity="other">%2$d bilder och videor från %1$s</item>
-        <item quantity="one">%2$d bild eller video från %1$s</item>
-    </plurals>
-    <plurals name="send_image_video_dialog_desc_received">
-        <item quantity="other">Tog emot %2$d bilder och videor från %1$s</item>
-        <item quantity="one">Tog emot %2$d bild eller video från %1$s</item>
-    </plurals>
-    <plurals name="send_image_video_dialog_desc_receiving">
-        <item quantity="other">Tar emot %2$d bilder och videor från %1$s…</item>
-        <item quantity="one">Tar emot %2$d bild eller video från %1$s…</item>
-    </plurals>
-    <plurals name="send_more_type_file_dialog_desc">
-        <item quantity="other">%2$d filer från %1$s</item>
-        <item quantity="one">%2$d fil från %1$s</item>
-    </plurals>
-    <plurals name="send_more_type_file_dialog_desc_received">
-        <item quantity="other">Tog emot %2$d filer från %1$s</item>
-        <item quantity="one">Tog emot %2$d fil från %1$s</item>
-    </plurals>
-    <plurals name="send_more_type_file_dialog_desc_receiving">
-        <item quantity="other">Tar emot %2$d filer från %1$s…</item>
-        <item quantity="one">Tar emot %2$d fil från %1$s…</item>
+    <plurals name="search_title_ai">
+        <item quantity="other">Hittade %d objekt</item>
+        <item quantity="one">Hittade %d objekt</item>
     </plurals>
     <plurals name="send_processing_files_error">
         <item quantity="other">Det gick inte att dela. Bearbetar fortfarande %d foton…</item>
@@ -475,30 +463,6 @@
     <plurals name="send_too_many_files_error">
         <item quantity="other">Välj upp till %d objekt att skicka</item>
         <item quantity="one">Välj upp till %d objekt att skicka</item>
-    </plurals>
-    <plurals name="send_video_dialog_desc">
-        <item quantity="other">%2$d videor från %1$s</item>
-        <item quantity="one">%2$d video från %1$s</item>
-    </plurals>
-    <plurals name="send_video_dialog_desc_received">
-        <item quantity="other">Tog emot %2$d videor från %1$s</item>
-        <item quantity="one">Tog emot %2$d video från %1$s</item>
-    </plurals>
-    <plurals name="send_video_dialog_desc_receiving">
-        <item quantity="other">Tar emot %2$d videor från %1$s…</item>
-        <item quantity="one">Tar emot %2$d video från %1$s…</item>
-    </plurals>
-    <plurals name="send_zip_dialog_desc">
-        <item quantity="other">%2$d arkiv (%3$s) från %1$s</item>
-        <item quantity="one">%2$d arkiv (%3$s) från %1$s</item>
-    </plurals>
-    <plurals name="send_zip_dialog_desc_received">
-        <item quantity="other">Tog emot %2$d arkiv (%3$s) från %1$s</item>
-        <item quantity="one">Tog emot %2$d arkiv (%3$s) från %1$s</item>
-    </plurals>
-    <plurals name="send_zip_dialog_desc_receiving">
-        <item quantity="other">Tar emot %2$d arkiv (%3$s) från %1$s…</item>
-        <item quantity="one">Tar emot %2$d arkiv (%3$s) från %1$s…</item>
     </plurals>
     <plurals name="share_album_detail_photo_count">
         <item quantity="other">Ladda upp %d foton</item>
@@ -671,6 +635,18 @@
     <plurals name="video_count_format">
         <item quantity="other">%1$d filer</item>
         <item quantity="one">%1$d fil</item>
+    </plurals>
+    <plurals name="video_editor_component_hint_text">
+        <item quantity="other">Välj %d video-segment</item>
+        <item quantity="one">Välj %d video-segment</item>
+    </plurals>
+    <plurals name="video_editor_component_imageview_content_description">
+        <item quantity="other">Video-plats %1$d, väntar på att lägga till video på %2$s sekunder eller mer</item>
+        <item quantity="one">Video-plats %1$d, väntar på att lägga till video på %2$s sekund eller mer</item>
+    </plurals>
+    <plurals name="video_editor_component_next_step_disabled_content_description">
+        <item quantity="other">Lägg till %d videor till för att kunna fortsätta</item>
+        <item quantity="one">Lägg till %d video till för att kunna fortsätta</item>
     </plurals>
     <plurals name="videos_count">
         <item quantity="other">%d videor</item>

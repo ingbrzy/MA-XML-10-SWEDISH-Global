@@ -37,8 +37,8 @@
         <item quantity="one">1 minut sedan</item>
     </plurals>
     <plurals name="accessibility_auto_night_tip">
-        <item quantity="other">%d-second timer for Night mode</item>
-        <item quantity="one">%d-second timer for Night mode</item>
+        <item quantity="other">%d-sekundtimer för Nattläge</item>
+        <item quantity="one">%d-sekundtimer för Nattläge</item>
     </plurals>
     <plurals name="accessibility_focus_face_detect">
         <item quantity="other">Fokuserad. %d ansikten detekterade</item>
@@ -55,14 +55,6 @@
     <plurals name="accessibility_vv_duartion">
         <item quantity="other">Varaktighet: %d sekunder</item>
         <item quantity="one">Varaktighet: %d sekund</item>
-    </plurals>
-    <plurals name="cinemaster_toast_camera_overflow">
-        <item quantity="other">Du kan ansluta upp till %d kameror till samma nätverk</item>
-        <item quantity="one">Du kan ansluta upp till %d kamera till samma nätverk</item>
-    </plurals>
-    <plurals name="cinemaster_toast_monitor_overflow">
-        <item quantity="other">Du kan ansluta upp till %d skärmar till samma nätverk</item>
-        <item quantity="one">Du kan ansluta upp till %d monitor till samma nätverk</item>
     </plurals>
     <plurals name="clone_guide_tip2">
         <item quantity="other">Du kan skapa upp till %d kloner åt gången.</item>
@@ -87,10 +79,6 @@
     <plurals name="fastmotion_pro_sec_unit">
         <item quantity="other">%1$d sek</item>
         <item quantity="one">%1$d sek</item>
-    </plurals>
-    <plurals name="friend_mode_display_first_dialog">
-        <item quantity="other">Aktiverade timer (%1$d sekunder). Foton kommer att överföras till den här enheten.</item>
-        <item quantity="one">Aktiverade timer (%1$d sekund). Foton kommer att överföras till den här enheten.</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtimme sedan</item>
@@ -127,10 +115,6 @@
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minuter sedan</item>
         <item quantity="one">1 minut sedan</item>
-    </plurals>
-    <plurals name="number_unit_seconds_split">
-        <item quantity="other">%d s</item>
-        <item quantity="one">%d s</item>
     </plurals>
     <plurals name="pad_ccc_temperature_warning_msg">
         <item quantity="other">Din enhet är överhettad. Kameran kommer att stängas om %d sekunder. Dina foton eller videor kommer automatiskt att sparas.</item>

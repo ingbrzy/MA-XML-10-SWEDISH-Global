@@ -122,10 +122,14 @@ mm"</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
+    <string name="miuix_appcompat_cloud_state_disabled">Synkronisering med molnet är avstängt</string>
+    <string name="miuix_appcompat_cloud_state_finished">Synkroniseringen med molnet lyckades</string>
+    <string name="miuix_appcompat_cloud_state_syncing">Synkroniserar med molnet…</string>
     <string name="miuix_appcompat_confirm_description">Bekräfta</string>
     <string name="miuix_appcompat_delete_description">Ta bort</string>
     <string name="miuix_appcompat_deselect_all">Avmarkera alla</string>
     <string name="miuix_appcompat_deselect_all_description">Avmarkera alla</string>
+    <string name="miuix_appcompat_edit">Redigera</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Sök</string>
     <string name="miuix_appcompat_select_all">Välj alla</string>
@@ -139,6 +143,11 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Det är allt för nu</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Vänta en stund…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Det gick inte att ladda objekt</string>
+    <string name="miuix_search_action_mode_cancel">Avbryt</string>
+    <string name="miuix_search_history_clear">Rensa sökhistorik</string>
+    <string name="miuix_search_history_default_title">Sökhistorik</string>
+    <string name="miuix_search_recommendation_default_title">Du kanske är intresserad av dessa</string>
+    <string name="miuix_search_recommendation_item_del_des">Ta bort</string>
     <string name="monday">Måndag</string>
     <string name="monday_short">Mån</string>
     <string name="monday_shortest">Mån</string>
@@ -361,6 +370,7 @@ mm"</string>
     <string name="saturday_shortest">Lör</string>
     <string name="search_menu_title">Sök</string>
     <string name="send">Skicka</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>

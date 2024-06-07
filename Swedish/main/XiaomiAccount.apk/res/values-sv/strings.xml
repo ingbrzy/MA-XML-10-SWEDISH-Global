@@ -93,18 +93,14 @@
     <string name="binded">Ansluten</string>
     <string name="binded_description" formatted="false">"%s har anslutits till ditt Xiaomi-konto.
 Du kan logga in på ditt Xiaomi-konto med %s nu."</string>
-    <string name="bottomsheet_action_expand_halfway">Utöka till hälften</string>
     <string name="button_agree">Godkänn</string>
     <string name="button_close">Stäng</string>
     <string name="button_refuse">Godkänn inte</string>
     <string name="button_unbind">Koppla från</string>
     <string name="cancel">Avbryt</string>
     <string name="change_password">Ändra lösenord</string>
-    <string name="character_counter_content_description">%1$d av %2$d tecken har angetts</string>
-    <string name="character_counter_overflowed_content_description">Teckengränsen har överskridits: %1$d av %2$d</string>
     <string name="check_apk_update">Sök efter uppdateringar</string>
     <string name="child_account_system_ad_disable_hint">Den här funktionen är inte tillgänglig för barnkonton</string>
-    <string name="clear_text_end_icon_content_description">Rensa text</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
     <string name="close">Stäng</string>
     <string name="close_drawer">Stäng navigeringsmenyn</string>
@@ -208,13 +204,11 @@ Du kan logga in på ditt Xiaomi-konto med %s nu."</string>
     <string name="eras_ad">V.T.</string>
     <string name="eras_bc">F.V.T.</string>
     <string name="error_dup_binded_email">Detta telefonnummer är redan kopplat till ett annat Xiaomi-konto.</string>
-    <string name="error_icon_content_description">Fel</string>
     <string name="error_invalid_bind_address">Denna epostadress är ogiltig.</string>
     <string name="evening">Eftermiddag</string>
     <string name="exceed_binded_phone_times_notice">Detta telefonnummer är redan kopplat till ett annat Xiaomi-konto.</string>
     <string name="exit">Avsluta</string>
     <string name="expand_button_title">Avancerat</string>
-    <string name="exposed_dropdown_menu_content_description">Visa rullgardinsmenyn</string>
     <string name="facebook">Facebook</string>
     <string name="facebook_login">Logga in med Facebook</string>
     <string name="failed_dup_secure_phone_number">Detta telefonnummer är redan kopplat till ett annat Xiaomi-konto</string>
@@ -341,7 +335,6 @@ Du kan logga in på ditt Xiaomi-konto med %s nu."</string>
     <string name="help_center">Hjälp</string>
     <string name="i_agree">Okej</string>
     <string name="i_agree_continue">Godkänn</string>
-    <string name="icon_content_description">Dialogikon</string>
     <string name="identity">Identifiering</string>
     <string name="in_progress">Pågår</string>
     <string name="inconsistent_pwd">Lösenorden matchar inte</string>
@@ -350,7 +343,6 @@ Du kan logga in på ditt Xiaomi-konto med %s nu."</string>
     <string name="input_new_pwd">Ange nytt lösenord</string>
     <string name="input_ps">Ange lösenord</string>
     <string name="io_error_title">Bekräfta ditt nätverk</string>
-    <string name="item_view_role_description">Flik</string>
     <string name="just_a_second">Vänta en stund…</string>
     <string name="keep_phone_ticket_login">Logga in med verifieringskod</string>
     <string name="kr_license_desc">Du måste godkänna våra Användarvillkor och vår Integritetspolicy innan du använder Xiaomi-konto och Xiaomi Cloud.</string>
@@ -370,18 +362,6 @@ Du kan logga in på ditt Xiaomi-konto med %s nu."</string>
     <string name="login_with_other">Fler alternativ</string>
     <string name="logout_account">Logga ut</string>
     <string name="logout_failed">Det går inte att logga ut</string>
-    <string name="material_clock_toggle_content_description">Välj mellan FM och EM</string>
-    <string name="material_hour_selection">Ange timme</string>
-    <string name="material_hour_suffix">Klockan %1$s</string>
-    <string name="material_minute_selection">Välj minuter</string>
-    <string name="material_minute_suffix">%1$s minuter</string>
-    <string name="material_timepicker_am">FM</string>
-    <string name="material_timepicker_clock_mode_description">Byt till klockläget och ange tid.</string>
-    <string name="material_timepicker_hour">Timme</string>
-    <string name="material_timepicker_minute">Minut</string>
-    <string name="material_timepicker_pm">EM</string>
-    <string name="material_timepicker_select_time">Välj tid</string>
-    <string name="material_timepicker_text_input_mode_description">Byt till textinmatningsläget och ange tid.</string>
     <string name="mi_account">Mitt konto</string>
     <string name="mi_health">Xiaomi Health</string>
     <string name="midnight">Natt</string>
@@ -398,6 +378,7 @@ Du kan logga in på ditt Xiaomi-konto med %s nu."</string>
     <string name="miuix_appcompat_delete_description">Ta bort</string>
     <string name="miuix_appcompat_deselect_all">Avmarkera alla</string>
     <string name="miuix_appcompat_deselect_all_description">Avmarkera alla</string>
+    <string name="miuix_appcompat_edit">Redigera</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Sök</string>
     <string name="miuix_appcompat_select_all">Välj alla</string>
@@ -452,38 +433,6 @@ Du kan logga in på ditt Xiaomi-konto med %s nu."</string>
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mer</string>
     <string name="morning">Morgon</string>
-    <string name="mtrl_badge_numberless_content_description">Ny avisering</string>
-    <string name="mtrl_chip_close_icon_content_description">Ta bort (%1$s)</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">Fler än %1$d nya aviseringar</string>
-    <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
-    <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
-    <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
-    <string name="mtrl_picker_date_header_selected">%1$s</string>
-    <string name="mtrl_picker_date_header_title">Välj datum</string>
-    <string name="mtrl_picker_date_header_unselected">Valt datum</string>
-    <string name="mtrl_picker_day_of_week_column_header">Kolumn med dagar: %1$s</string>
-    <string name="mtrl_picker_invalid_format">Ogiltigt format.</string>
-    <string name="mtrl_picker_invalid_format_example">Exempel: %1$s</string>
-    <string name="mtrl_picker_invalid_format_use">Använd %1$s</string>
-    <string name="mtrl_picker_invalid_range">Ogiltigt intervall.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Navigera till år %1$s</string>
-    <string name="mtrl_picker_out_of_range">Utanför intervallet: %1$s</string>
-    <string name="mtrl_picker_range_header_only_end_selected">Startdatum–%1$s</string>
-    <string name="mtrl_picker_range_header_only_start_selected">%1$s–slutdatum</string>
-    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
-    <string name="mtrl_picker_range_header_title">Välj intervall</string>
-    <string name="mtrl_picker_range_header_unselected">Startdatum–slutdatum</string>
-    <string name="mtrl_picker_save">Spara</string>
-    <string name="mtrl_picker_text_input_date_hint">Datum</string>
-    <string name="mtrl_picker_text_input_date_range_end_hint">Slutdatum</string>
-    <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
-    <string name="mtrl_picker_text_input_day_abbr">d</string>
-    <string name="mtrl_picker_text_input_month_abbr">m</string>
-    <string name="mtrl_picker_text_input_year_abbr">å</string>
-    <string name="mtrl_picker_toggle_to_calendar_input_mode">Byt till kalender som inmatningsläge</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Byt till att välja en dag genom att trycka</string>
-    <string name="mtrl_picker_toggle_to_text_input_mode">Byt till text som inmatningsläge</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Byt till att välja ett år genom att trycka</string>
     <string name="multi_user_not_show_sync_activity_message_1">Det verkar som att du använder ditt Primära utrymmes Xiaomi-konto.</string>
     <string name="multi_user_not_show_sync_activity_message_2">Om så är fallet kommer all information att synkroniseras till det Sekundära utrymmet. För att undvika detta, aktivera inte synkronisering för Xiaomi Cloud.</string>
     <string name="multi_user_not_show_sync_activity_title">Aktivera inte synkronisering mot molnet</string>
@@ -820,7 +769,6 @@ Du kan logga in på ditt Xiaomi-konto med %s nu."</string>
     <string name="passport_wrong_phone_number_format">Formatet på det telefonnummer som du angav är ogiltigt</string>
     <string name="passport_wrong_vcode">Koden du angav är felaktig</string>
     <string name="passport_wrong_voice">Koden du angav är felaktig</string>
-    <string name="password_toggle_content_description">Visa lösenord</string>
     <string name="password_view_hide_password">Dölj lösenord</string>
     <string name="password_view_show_password">Visa lösenord</string>
     <string name="permission_group_contacts">Kontakter</string>
@@ -982,7 +930,7 @@ Du kan logga in på ditt Xiaomi-konto med %s nu."</string>
 %2$d. Om du inte kan återställa ditt lösenord, eller om någon har låst din enhet går du till i.mi.com för att låsa upp den.
 %3$d. Ditt upplåsningsnummer: %4$s"</string>
     <string name="update_apk_version_later">Inte nu</string>
-    <string name="update_apk_version_now">Uppdatera</string>
+    <string name="update_apk_version_now">Installera</string>
     <string name="update_email_address_dialog_message">Du behöver verifiera din identitet innan du kan uppdatera e-postadress.</string>
     <string name="update_email_address_dialog_title">Uppdatera e-post</string>
     <string name="update_phone_notice">Ändra säkerhetsinställningar</string>
@@ -994,7 +942,6 @@ Du kan logga in på ditt Xiaomi-konto med %s nu."</string>
     <string name="user_agreement_read_phone_permission_desc">För inloggning med telefonnummer</string>
     <string name="user_agreement_read_phone_permission_title">Visa telefonnummer</string>
     <string name="user_agreement_use_account_msg">Xiaomi-konto låter dig få åtkomst till alla tjänster som tillhandahålls av Xiaomi.</string>
-    <string name="user_agreement_wifi_permission_title">Slå på och stänga av Wi-Fi</string>
     <string name="user_agreement_wlan_permission_desc">För att kolla inloggningsmiljön efter säkerhetsproblem</string>
     <string name="user_agreement_wlan_permission_title_china">Slå på och stänga av WLAN</string>
     <string name="user_avatar_update_title">Ändra profilfoto</string>

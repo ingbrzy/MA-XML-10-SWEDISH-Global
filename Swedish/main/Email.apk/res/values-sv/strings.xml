@@ -33,7 +33,6 @@
     <string name="clearable_edittext_clear_description">Rensa</string>
     <string name="close">Stäng</string>
     <string name="copy">Kopiera</string>
-    <string name="copy_toast_msg">Länk kopierad till Urklipp</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -45,9 +44,6 @@
     <string name="eras_bc">F.V.T.</string>
     <string name="evening">Eftermiddag</string>
     <string name="expand_button_title">Avancerat</string>
-    <string name="fallback_menu_item_copy_link">Kopiera länk</string>
-    <string name="fallback_menu_item_open_in_browser">Öppna i webbläsaren</string>
-    <string name="fallback_menu_item_share_link">Dela länk</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -193,6 +189,7 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>

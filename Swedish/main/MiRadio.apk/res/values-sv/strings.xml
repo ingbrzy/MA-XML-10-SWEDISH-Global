@@ -87,6 +87,9 @@
     <string name="stations_list">Stationslista</string>
     <string name="stations_list_empty">Inga förval</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="talkback_back">Gå tillbaka</string>
+    <string name="talkback_close">Stäng</string>
+    <string name="talkback_speed">Hastighet</string>
     <string name="toast_added_to_list">Tillagt till listan</string>
     <string name="toast_added_to_presets">Tillagt som förval</string>
     <string name="toast_fm_error_startfailed">Inspelningsfel. En annan app kanske använder inspelningsfunktionen.</string>
@@ -99,7 +102,6 @@
     <string name="toast_sleep_mode">Radion kommer att stoppa uppspelningen om %s</string>
     <string name="toast_sleep_mode_exit">Insomningstimer avbruten</string>
     <string name="turn_off_fm">Stäng av FM</string>
-    <string name="txt_divider">" | "</string>
     <string name="txt_sleep_mode">Viloläge</string>
     <string name="using_recorder_cancel">Avvisa</string>
     <string name="using_recorder_confirm">Tillåt</string>
