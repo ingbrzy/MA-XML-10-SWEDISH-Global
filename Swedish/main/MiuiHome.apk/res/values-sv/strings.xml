@@ -521,7 +521,6 @@ Utökad säkerhet."</string>
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -735,7 +734,6 @@ Utökad säkerhet."</string>
     <string name="small_window">Flytande fönster</string>
     <string name="start_activity_failed">Kan inte starta launcher</string>
     <string name="start_new_window">Nytt fönster</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s av %2$s tillgängligt</string>
     <string name="status_bar_recent_memory_info2" />

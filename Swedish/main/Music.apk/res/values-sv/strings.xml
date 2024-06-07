@@ -384,7 +384,6 @@ När du väljer att permanent rensa all data kommer du att loggas ut från appen
     <string name="download_method">Ladda ned</string>
     <string name="download_paused_in_power_save_mode">Nerladdningar pausas när Batterisparläge är på</string>
     <string name="download_processing">Laddar ner…</string>
-    <string name="download_progress">%d%%</string>
     <string name="download_quality">Nedladdningskvalitet</string>
     <string name="download_quality_summary">Ytterligare inställningar för låtar du laddar ned</string>
     <string name="download_song_quality_title">Kvalitet på nedladdade låtar</string>
@@ -480,9 +479,7 @@ När du väljer att permanent rensa all data kommer du att loggas ut från appen
     <string name="exo_media_action_repeat_all_description">Upprepa alla</string>
     <string name="exo_media_action_repeat_off_description">Upprepa inga</string>
     <string name="exo_media_action_repeat_one_description">Upprepa en</string>
-    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
     <string name="exo_track_mono">Mono</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativ</string>
     <string name="exo_track_role_closed_captions">Undertexter</string>
     <string name="exo_track_role_commentary">Kommentar</string>
@@ -943,7 +940,6 @@ När du väljer att permanent rensa all data kommer du att loggas ut från appen
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
@@ -1310,7 +1306,6 @@ När du väljer att permanent rensa all data kommer du att loggas ut från appen
     <string name="privacy_desc">Sekretesspolicy (obligatorisk)</string>
     <string name="privacy_policy">Integritetspolicy</string>
     <string name="privacy_policy_title_asm">En värld av musik vid dina fingertoppar</string>
-    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sv_SE</string>
     <string name="privacy_request_desc"><Data>"Mi Musik behöver samla in nödvändig personlig information för att förse dig med online streaming-tjänster. Du kan läsa om hur vi hanterar den information vi samlar in i vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a>. Du kan när som helst dra tillbaka ditt samtycke till Integritetspolicyn för Mi Musik i Inställningarna.
 Läs och acceptera vårt &lt;a href=\"%2$s\">Användaravtal&lt;/a> och &lt;a href=\"%1$s\">Integritetspolicy&lt;/a> innan du använder Mi Musik.
 Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte kunna använda vissa funktioner i denna app; men dess grundläggande funktionalitet kommer fortfarande vara tillgänglig för dig."</Data></string>
@@ -1487,7 +1482,6 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="start_to_download">Laddar ner…</string>
     <string name="start_to_play">Förbereder att spela upp…</string>
     <string name="start_update">Installerar ny version…</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Lagringsutrymme för Dubbelappar</string>
     <string name="storage_space_permissions_for_display">Åtkomst till enhetslagring: för skanning, visning och uppspelning av lokala filer</string>
     <string name="streamloadingtext">Ansluter till %s</string>
@@ -1648,7 +1642,6 @@ Om du inte accepterar att använda de förutnämnda tjänsterna kommer du inte k
     <string name="upload_playlist_to_hungama_title">Synkronisera online-låtar med hungama för att kunna komma åt dem på andra enheter där du använder ditt Xiaomi-konto.</string>
     <string name="upload_playlist_to_hungama_toast">Online-låtar kommer synkroniseras till hungama</string>
     <string name="user_agreement">Användaravtal</string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sv_SE</string>
     <string name="user_experience_program_open">På grund av upphovsrättsrestriktioner måste du gå med i Program för användarupplevelse för att kunna spela nedladdade låtar. Du kan göra detta i Inställningar > Lösenord och säkerhet > Integritet > Registrera dig i Användarupplevelseprogrammet.</string>
     <string name="user_playlist_plaza">Spellistor</string>
     <string name="user_privacy_dialog_negative_text">Avbryt</string>

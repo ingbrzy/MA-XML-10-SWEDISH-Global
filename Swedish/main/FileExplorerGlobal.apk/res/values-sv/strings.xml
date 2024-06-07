@@ -875,7 +875,6 @@ Testa flytta filer från din enhet till Mi Drive."</string>
     <string name="set_pattern">Uppgradera ditt lösenord</string>
     <string name="set_pattern_btn">Ange</string>
     <string name="set_pattern_msg">Ange ditt lösenord igen. Lösenord för integritetsskydd fungerar även för bilder, meddelanden och anteckningar.</string>
-    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">Mindre än %d KB</string>
     <string name="size_lv2" formatted="false">%1d KB - %2d MB</string>
     <string name="size_lv3" formatted="false">%1d MB - %2d MB</string>

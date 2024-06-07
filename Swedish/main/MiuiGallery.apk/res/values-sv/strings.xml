@@ -942,7 +942,6 @@ Ta fler bilder av dina vänner!"</string>
     <string name="face_name_edit">Redigera</string>
     <string name="face_name_input">Ange namn</string>
     <string name="face_recommend">Rekommendationer</string>
-    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunde inte slutföra åtgärden</string>
     <string name="fail_reason_migrate">Registrerar objekt… Vänta en minut eller två och försök igen.</string>
     <string name="fail_to_pick_email">Ogiltig e-postadress</string>
@@ -958,7 +957,6 @@ are tillgänglig"</string>
     <string name="feedback_my_reports">Feedback</string>
     <string name="feedback_problem">Rapportera ett problem</string>
     <string name="feedback_suggest">Lämna in ett förslag</string>
-    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="finish_create_baby_album_toast">Skapade ett album för \"%s\" i Xiaomi Cloud</string>
     <string name="finish_fill_baby">Skapa</string>
     <string name="first_delete_media_for_cloud">Valda objekt kommer att tas bort från molnet, samt alla synkroniserade enheter i Nyligen raderade objekt, och kommer att raderas permanent efter %d dagar såvida du inte har en molnlagringsplan. Radera ändå?</string>
@@ -1068,7 +1066,6 @@ are tillgänglig"</string>
     <string name="grant_permission_go_and_set">Ange</string>
     <string name="grant_permission_go_and_set_2">Inställningar</string>
     <string name="grant_permission_go_and_set_3">Inställningar</string>
-    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_manage_storage">Behörigheter krävs</string>
     <string name="grant_permission_manage_storage_unlock">Lås upp din enhet och tillåt den här appen att komma åt alla filer för att kunna se objekt.</string>
     <string name="grant_permission_shortcut">Tillåt denna app att skapa genvägar på hemskärmen först.</string>
@@ -1750,7 +1747,6 @@ Transkodning kan ta ett tag när du använder denna funktion för första gånge
     <string name="people_page_label">Människor</string>
     <string name="people_page_photo">Miniatyrikon av en person</string>
     <string name="people_page_unname">Namnlös</string>
-    <string name="percent_sign">%</string>
     <string name="permission_account_desc">För att logga in och hantera systemkonto</string>
     <string name="permission_account_name">Få åtkomst till konton</string>
     <string name="permission_clipboard_desc">För att få åtkomst till och spara objekt till urklipp</string>
@@ -2156,7 +2152,6 @@ Transkodning kan ta ett tag när du använder denna funktion för första gånge
     <string name="share_album_cancel_share">Sluta dela</string>
     <string name="share_album_change_background">Ändra bakgrundsbild</string>
     <string name="share_album_create_failed">Kunde inte skapa delat album</string>
-    <string name="share_album_create_processing">@string/cloud_bacup_disable_processing</string>
     <string name="share_album_exit_button_text">Sluta dela</string>
     <string name="share_album_exit_confirm">Du kommer inte längre att kunna få åtkomst till alla objekt i det här albumet om du fortsätter. Spara alla viktiga objekt innan du lämnar.</string>
     <string name="share_album_exit_confirm_title">Lämna den här gruppen?</string>
@@ -2243,7 +2238,6 @@ Transkodning kan ta ett tag när du använder denna funktion för första gånge
     <string name="share_with_family">Dela med familjen</string>
     <string name="sharer_quota_fulfiled">Du har redan delat albumet med max antal personer.</string>
     <string name="show_cloud_albumlist_summary">Nya objekt från valda album kommer inte att laddas upp till molnet efter att du slår av synkningen.</string>
-    <string name="show_cloud_albumlist_title">@string/album_cloud_list_page_title</string>
     <string name="show_hidden_album_summary">Visa och hantera gömda album</string>
     <string name="show_hidden_album_title">Visa gömda album</string>
     <string name="show_in_other_albums_disable_toast_long_press_menu">Nu borttagen. Du kan visa det här objektet i \"Album\" nu.</string>

@@ -23,11 +23,6 @@
         <item>Maximal</item>
         <item>2 dagar</item>
     </string-array>
-    <string-array name="entries_pref_key_voice_report">
-        <item>@string/voice_report_wiredon</item>
-        <item>@string/voice_report_anytime</item>
-        <item>@string/voice_report_off</item>
-    </string-array>
     <string-array name="entries_sms_validity_period">
         <item>Inte angivet</item>
         <item>1 timme</item>
